@@ -1,0 +1,36 @@
+:root {
+  --page-width: 60rem;
+  --content-width: 40rem;
+}
+
+body > section {
+  max-width: var(--page-width);
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+body > header {
+  background-color: var(--accent-color);
+  color: var(--bg-color);
+  fill: var(--bg-color);
+
+  a {
+    color: inherit;
+    display: block;
+    margin: 0 auto;
+    max-width: var(--page-width);
+    padding: 0 1rem;
+
+    svg {
+      height: 64px;
+      margin: 3rem 0 2rem;
+      width: auto;
+    }
+  }
+}
+
+article {
+  margin: 0 auto;
+  max-width: var(--content-width);
+}
+

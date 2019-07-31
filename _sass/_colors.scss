@@ -1,0 +1,14 @@
+:root {
+  --bg-color: #fafafa;
+  --fg-color: #333;
+  --accent-color: #64baff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #273445;
+    --fg-color: #d4d4d4;
+    --accent-color: #8cd5ff;
+  }
+}
+

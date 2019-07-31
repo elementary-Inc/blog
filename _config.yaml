@@ -1,0 +1,24 @@
+# Site
+title: "elementary"
+description: "We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS"
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/logo.png'
+baseurl: ""
+permalink: /:title/
+# permalink: pretty
+theme-color: "#3689e6"
+twitter: https://twitter.com/@elementary
+gravatar: 41275ecc8271aca852ce2c0ff72d2610
+
+# Authors
+authors:
+  cassidyjames:
+    name: Cassidy James Blaede
+    gravatar: 41275ecc8271aca852ce2c0ff72d2610 # Gravatar md5 hash
+    twitter: https://twitter.com/CassidyJames
+    description: "Co-founder & CXO"
+  danrabbit:
+    name: Daniel Foré
+    twitter: https://twitter.com/danielfore
+    description: "Founder & CEO"
+

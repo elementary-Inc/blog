@@ -1,0 +1,62 @@
+ html {
+  font-family: "Open Sans", "Noto Sans", "Droid Sans", sans-serif;
+  font-size: 5vw;
+  font-weight: 400;
+  word-spacing: -0.05em;
+
+  @media (min-width: 320px) {
+    font-size: 16px;
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 18px;
+  }
+
+  @media print {
+    font-size: 14px;
+  }
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration-skip: ink;
+  transition: opacity 250ms ease;
+  opacity: 0.8;
+
+  &:hover,
+  &:focus {
+    opacity: 1;
+  }
+}
+
+article {
+  font-family: "Droid Serif", serif;
+  line-height: 1.67em;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1em;
+}
+
+h1 {
+  font-family: Raleway, sans-serif;
+  font-size: 2.5em;
+}
+
+h2 {
+  font-family: Raleway, sans-serif;
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+// Title/subtitle combo
+h1 + h2 {
+  opacity: 0.5;
+  margin-top: -1.5em;
+  font-size: 1.25rem;
+}
