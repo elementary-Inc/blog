@@ -3,7 +3,7 @@ title: "elementary"
 description: "We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
-baseurl: ""
+baseurl: "/blog"
 permalink: /:title/
 # permalink: pretty
 theme-color: "#3689e6"
