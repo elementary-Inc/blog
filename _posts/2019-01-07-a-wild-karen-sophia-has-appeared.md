@@ -7,7 +7,7 @@ image: https://miro.medium.com/max/1080/1*0jRXojJqL5SclbrgoFySiA.jpeg
 
 I come from a background as a corporate recruiter and am also an actress. What I enjoy as a recruiter is giving people an opportunity to find a career they love. A career is more than just a job — it consumes such a large percentage of our lives. It only makes sense that this time be spent earning a living that doesn’t leave us feeling unfulfilled. What I enjoy as an actress is giving people an experience they’ll remember. Entertainment has a profound ability to make people’s lives better. No matter how big the struggles we may face in life, sometimes it can help to watch a film or television show just to know that we’re not alone.
 
-<figure markdown="1">
+<figure class="circle" markdown="1">
   ![Karen](https://miro.medium.com/max/400/1*c1Y3Xomx8Uv4AEOk8F5FSA.jpeg)
   <figcaption>It’s me!</figcaption>
 </figure>
