@@ -63,7 +63,7 @@ Eventually, we settled on a more vertical layout with larger title text and ever
 
 _Early iterative prototypes_
 
-Since longer blocks of text are harder to read when centered, one requirement of this layout is that the supplemental copy is very short — one to two lines in English, ideally. A lot of the design and testing work went into finessing that copy for each view while testing it with potential users for clarity.
+Since longer blocks of text are harder to read when centered, one requirement of this layout is that the supplemental copy is very short—one to two lines in English, ideally. A lot of the design and testing work went into finessing that copy for each view while testing it with potential users for clarity.
 
 _First actual commit!_
 
@@ -71,7 +71,7 @@ _First actual commit!_
 
 Once we settled on the general design, iterating went relatively quickly. We added a Night Light view, but the generic display icon didn’t feel right, and we realized we didn’t have an existing full-color icon for Night Light. Daniel crafted one, and we added the view:
 
-_**Left:** Initial Night Light view | **Right:** Current Night Light view with new icon_
+_**Left:** Initial Night Light view \| **Right:** Current Night Light view with new icon_
 
 For Housekeeping, we initially copied the general layout from System Settings. However, it didn’t feel right in the much smaller space we had in Onboarding, and the copy felt really redundant.
 
@@ -82,7 +82,7 @@ Left: Initial Housekeeping view | Right: Refined Housekeeping view
 
 _Welcome and Finished Views_
 
-Having a mostly-blank “All Done!” view wasn’t the most helpful thing, but we wanted a landing point for “Skip” instead of just closing — this way, the user could at least go back to a previous view if they wanted to. So initially we added some common links users might want when first using elementary OS: our Learning the Basics guide, Support page, and Get Involved page.
+Having a mostly-blank “All Done!” view wasn’t the most helpful thing, but we wanted a landing point for “Skip” instead of just closing—this way, the user could at least go back to a previous view if they wanted to. So initially we added some common links users might want when first using elementary OS: our Learning the Basics guide, Support page, and Get Involved page.
 
 At some point, we realized that rerouting people to System Settings right off the bat was not the most helpful thing, and that if someone wanted more information about elementary OS, up front would be more helpful than after they’d spent time stepping through Onboarding. Plus, opening System Settings was a more natural jumping off point once you’ve seen some of the settings and features you can use.
 
@@ -91,15 +91,17 @@ So we swapped the contents of the Welcome and Finished screens, and refined thei
 _More useful, swapped views_
 
 You might also notice that at some point during all of this iterating, we changed “Skip” to “Skip All” to be more clear that you’re not just skipping a single view, but all the Onboarding views.
-(Currently) Unused Experiments
 
-During the iterative process, you typically end up with unused concepts or experiments — and Onboarding is no exception. Here are some things we briefly explored, but aren’t currently implementing:
 
-A unique color for each view. It could work, but ends up being difficult when views’ icons would share the same color or don’t have a natural accent. Plus we weren’t in agreement whether or not we liked the sort of pastel palette needed to retain high contrast.
+### (Currently) Unused Experiments
 
-A more AppCenter-branded button. I initially wanted to do something more interesting for this button, but it ended up distracting too much from the “Next” button, and meant we had two strong calls-to-action.
+During the iterative process, you typically end up with unused concepts or experiments—and Onboarding is no exception. Here are some things we briefly explored, but aren’t currently implementing:
 
-Matching accent colors. We considered using an icon-matching accent color for the “Next” button, plus widgets like switches and check boxes on each view. It had similar issues to the colored-background, where some views don’t have an obvious or pretty accent color to use.
+**A unique color for each view.** It could work, but ends up being difficult when views’ icons would share the same color or don’t have a natural accent. Plus we weren’t in agreement whether or not we liked the sort of pastel palette needed to retain high contrast.
+
+**A more AppCenter-branded button.** I initially wanted to do something more interesting for this button, but it ended up distracting too much from the “Next” button, and meant we had two strong calls-to-action.
+
+**Matching accent colors.** We considered using an icon-matching accent color for the “Next” button, plus widgets like switches and check boxes on each view. It had similar issues to the colored-background, where some views don’t have an obvious or pretty accent color to use.
 
 ## Making it Reusable
 
@@ -115,7 +117,7 @@ Another way we make Onboarding reusable by other projects is by making sure the 
 
 ### Settings URL Schema
 
-We also make sure to use the System Settings Schema Spec for launching any related settings panes, like we do throughout the rest of elementary OS. This means that any environment that implements the spec will have the correct settings app open up to the correct place, without having to patch Onboarding to hardcode a different app — in fact, neither app has to even know about the other!
+We also make sure to use the System Settings Schema Spec for launching any related settings panes, like we do throughout the rest of elementary OS. This means that any environment that implements the spec will have the correct settings app open up to the correct place, without having to patch Onboarding to hardcode a different app—in fact, neither app has to even know about the other!
 
 ### Styling
 
