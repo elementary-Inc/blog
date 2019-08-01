@@ -10,5 +10,8 @@ layout: default
     {% endif %}
   </heading>
   {{ content }}
+
+  {% capture thanks %}{% include thanks.md %}{% endcapture %}
+  {{ thanks | markdownify }}
 </article>
 

@@ -4,15 +4,15 @@
 }
 
 body > section {
-  max-width: var(--page-width);
   margin: 0 auto;
+  max-width: var(--page-width);
   padding: 0 1rem;
 }
 
 body > header {
-  background-color: var(--accent-color);
-  color: var(--bg-color);
-  fill: var(--bg-color);
+  background-color: var(--blueberry-300);
+  color: var(--silver-100);
+  fill: var(--silver-100);
 
   a {
     color: inherit;
@@ -24,6 +24,7 @@ body > header {
     svg {
       height: 64px;
       margin: 3rem 0 2rem;
+      max-width: 75%;
       width: auto;
     }
   }
@@ -35,7 +36,16 @@ article {
 }
 
 hr {
+  border: none;
   margin: 3em auto;
   max-width: 50%;
-  opacity: 0.25;
+
+  &::before {
+    content: "...";
+    display: block;
+    font-weight: bold;
+    letter-spacing: 1em;
+    text-align: center;
+  }
 }
+
