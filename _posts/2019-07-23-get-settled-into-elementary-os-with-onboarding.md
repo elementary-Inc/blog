@@ -45,6 +45,12 @@ Okay, I may have fibbed a bit when saying that was all. During the design and de
 
 For example, if we introduced Housekeeping as a major new feature, users could be greeted with this slimmed down version of Onboarding:
 
+<figure class="third" markdown="1">
+  ![Update screenshot](https://miro.medium.com/max/1120/1*36Ig15LS_4F-gY1hV9lfDQ@2x.png)
+  ![Housekeeping screenshot](https://miro.medium.com/max/1120/1*Rncwyen7EHPQDWv4oWOkIA@2x.png)
+  ![Finished screenshot](https://miro.medium.com/max/1120/1*EpLeTddc9bkOL9l50IZggg@2x.png)
+</figure>
+
 This is modular and should work for any new major features we decide to add, so long as we deem them important enough to alert users—a very high bar.
 
 ## What’s Next
