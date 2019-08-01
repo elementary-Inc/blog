@@ -25,9 +25,9 @@ html {
 
 a {
   color: var(--accent-color);
+  opacity: 0.8;
   text-decoration-skip: ink;
   transition: opacity 250ms ease;
-  opacity: 0.8;
 
   &:hover,
   &:focus {
@@ -83,15 +83,15 @@ h6 {
 
 // Title/subtitle combo
 header h1 + h2 {
-  opacity: 0.5;
-  margin-top: -1.5em;
   font-size: 1.25rem;
+  margin-top: -1.5em;
+  opacity: 0.5;
 }
 
 // Title/subtitle combo
 header h2 + h3 {
-  opacity: 0.5;
-  margin-top: -1.25em;
   font-size: 1.25rem;
+  margin-top: -1.25em;
+  opacity: 0.5;
 }
 

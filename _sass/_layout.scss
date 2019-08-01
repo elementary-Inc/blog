@@ -53,24 +53,37 @@ article {
   h4,
   h5,
   h6 {
-    max-width: var(--content-width);
     margin-left: auto;
     margin-right: auto;
+    max-width: var(--content-width);
   }
 
   img {
     display: block;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 100%;
   }
 
+  table {
+    font-family: var(--ui-font);
+    margin: 2em auto;
+    max-width: 100%;
+
+    th,
+    td {
+      padding: 0 0.5rem;
+    }
+  }
+
   figure {
-    text-align: center;
     font-size: 0; // fix whitespace causing percentage issues
     margin: 2rem 0;
+    text-align: center;
 
     * {
-      max-width: 100%;
       margin: 0;
+      max-width: 100%;
     }
 
     img {
