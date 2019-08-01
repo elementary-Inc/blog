@@ -1,6 +1,6 @@
 # blog
 
-A static, privacy-respecting blog.
+A static, privacy-respecting blog. In ways inspired by both Medium and the popular Medium-look-alike [mediumish-theme-jekyll](https://github.com/wowthemesnet/mediumish-theme-jekyll).
 
 ## Goals
 
