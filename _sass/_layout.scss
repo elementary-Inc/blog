@@ -17,15 +17,24 @@ body > header {
   a {
     color: inherit;
     display: block;
+    font-family: var(--heading-font);
+    font-size: 3.2rem;
+    font-weight: 100;
     margin: 0 auto;
     max-width: var(--page-width);
-    padding: 0 1rem;
+    text-decoration: none;
+    padding: 2rem 1rem;
 
-    svg {
-      height: 64px;
-      margin: 3rem 0 2rem;
-      max-width: 75%;
-      width: auto;
+    .logotype {
+      font-size: 0;
+
+      svg {
+        height: auto;
+        margin-top: 0.75rem;
+        margin-right: 1rem;
+        vertical-align: top;
+        width: 16rem;
+      }
     }
   }
 }
