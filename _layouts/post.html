@@ -8,8 +8,16 @@ layout: default
     {% if page.subtitle %}
       <h2>{{ page.subtitle }}</h2>
     {% endif %}
+
+    {% assign author = site.authors[page.author] %}
+    {% if page.author %}
+      {% include byline.html name=author.name gravatar=author.gravatar description=author.description %}
+    {% endif %}
   </heading>
-  {{ content }}
+
+  <section>
+    {{ content }}
+  </section>
 
   {% capture thanks %}{% include thanks.md %}{% endcapture %}
   {{ thanks | markdownify }}
