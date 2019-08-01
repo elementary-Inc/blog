@@ -3,9 +3,13 @@
 ---
 @charset "utf-8";
 
+// Global
 @import "colors";
 @import "typography";
 @import "layout";
+
+// Components
+@import "byline";
 
 :root {
     color-scheme: light dark;
@@ -25,59 +29,5 @@ html {
 
 svg {
   fill: inherit;
-}
-
-.byline {
-  font-family: var(--ui-font);
-  font-size: 0.8em;
-  line-height: 1.67em;
-  max-width: var(--content-width);
-  margin: 0 auto;
-
-  .avatar {
-    background-color: var(--slate-500);
-    border: none;
-    border-radius: 50%;
-    color: transparent;
-    float: left;
-    height: 48px;
-    margin-right: 0.5em;
-    overflow: hidden;
-    position: relative;
-    vertical-align: middle;
-    width: 48px;
-
-    &::before {
-      content: "";
-      border-radius: 50%;
-      box-shadow:
-        inset 0 0 0 1px rgba(0, 0, 0, 0.35),
-        inset 0 0 0 2px rgba(255, 255, 255, 0.1),
-        inset 0 2px 0 0 rgba(255, 255, 255, 0.45),
-        inset 0 -2px 0 0 rgba(255, 255, 255, 0.15),
-        0 1px 3px 0 rgba(0, 0, 0, 0.12),
-        0 1px 2px 0 rgba(0, 0, 0, 0.24);
-      height: 100%;
-      position: absolute;
-      width: 100%;
-    }
-  }
-
-  .name {
-    font-weight: 600;
-    opacity: 0.8;
-  }
-
-  .description {
-    opacity: 0.67;
-
-    &::before {
-      content: " | ";
-    }
-  }
-
-  time {
-    opacity: 0.8;
-  }
 }
 
