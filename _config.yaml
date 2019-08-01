@@ -1,16 +1,13 @@
-# Site
 title: "elementary"
 description: "We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: "/blog"
 permalink: /:title/
-# permalink: pretty
 theme-color: "#64baff"
 twitter: https://twitter.com/@elementary
 gravatar: eaa3cc978770998ea2bd4382935bf0f4
 
-# Authors
 authors:
   cassidyjames:
     name: Cassidy James Blaede
@@ -23,14 +20,11 @@ authors:
     gravatar: 1f3cc76b99b5d0dae8381a23f52ea96d
     twitter: https://twitter.com/danielfore
 
-# Plugins
 plugins:
-  - jekyll-sitemap
   - jekyll-feed
+  - jekyll-sitemap
 
-# Other
 markdown: kramdown
-
 kramdown:
   input: GFM
   syntax_highlighter: rouge

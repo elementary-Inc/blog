@@ -11,7 +11,13 @@ layout: default
 
     {% assign author = site.authors[page.author] %}
     {% if page.author %}
-      {% include byline.html name=author.name gravatar=author.gravatar description=author.description %}
+      {%
+        include byline.html
+        name=author.name
+        gravatar=author.gravatar
+        description=author.description
+        date=page.date
+      %}
     {% endif %}
   </heading>
 

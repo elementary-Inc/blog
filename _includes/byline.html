@@ -8,6 +8,6 @@
     <span class="name">{{ include.name }}</span>
     <span class="description">{{ include.description }}</span>
   </div>
-  <time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date: "%a, %b %d, %Y" }}</time>
+  <time class="post-date" datetime="{{ include.date | date:"%Y-%m-%d" }}">{{ include.date | date: "%a, %b %d, %Y" }}</time>
 </div>
 
