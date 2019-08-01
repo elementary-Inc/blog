@@ -23,7 +23,9 @@ layout: default
   {{ thanks | markdownify }}
 </article>
 
-<h2>Up Next</h2>
+{% include license.html %}
+
+<h2 class="up-next">Up Next</h2>
 
 {% if page.next %}
   {% include featured.html post=page.next %}
@@ -32,3 +34,4 @@ layout: default
 {% if page.previous %}
   {% include featured.html post=page.previous %}
 {% endif %}
+

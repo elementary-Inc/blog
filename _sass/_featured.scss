@@ -54,7 +54,8 @@ a.featured {
     }
   }
 
-  &.with-image {
+  &.with-image,
+  &:last-child {
     border-bottom: none;
   }
 
@@ -84,10 +85,11 @@ a.featured {
     }
 
     img {
+      left: 50%;
       max-width: 100%;
       position: absolute;
       top: 50%;
-      transform: translateY(-50%);
+      transform: translate(-50%, -50%);
     }
   }
 }

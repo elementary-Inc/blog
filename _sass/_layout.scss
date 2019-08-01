@@ -126,3 +126,22 @@ hr {
   }
 }
 
+.license {
+  display: block;
+  font-family: var(--ui-font);
+  font-size: 0.75rem;
+  line-height: 1.5em;
+  margin: 0 auto;
+  max-width: 360px;
+  text-align: center;
+
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.up-next {
+  margin: 8rem auto 0;
+}
+
