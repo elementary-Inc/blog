@@ -96,7 +96,13 @@ Eventually, we settled on a more vertical layout with larger title text and ever
 
 Since longer blocks of text are harder to read when centered, one requirement of this layout is that the supplemental copy is very short—one to two lines in English, ideally. A lot of the design and testing work went into finessing that copy for each view while testing it with potential users for clarity.
 
-_First actual commit!_
+<figure class="third" markdown="1">
+  ![Welcome screenshot](https://miro.medium.com/max/525/1*CB5IclpKQITaHWVNKPeEQg.png)
+  ![Location Services screenshot](https://miro.medium.com/max/525/1*Zmgybdw23CQdbeDU62_EBg.png)
+  ![Finished screenshot](https://miro.medium.com/max/525/1*sC91NmLHNKuypfLPM49q1Q.png)
+  <figcaption>First actual commit!</figcaption>
+</figure>
+
 
 ### Adding & Refining Views
 
