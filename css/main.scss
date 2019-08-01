@@ -35,16 +35,7 @@ svg {
 .byline {
   font-family: var(--ui-font);
   font-size: 0.8em;
-
-  span {
-    display: block;
-    line-height: 1.67em;
-
-    &.description {
-      opacity: 0.75;
-      font-style: italic;
-    }
-  }
+  line-height: 1.67em;
 
   img {
     border: none;
@@ -60,4 +51,22 @@ svg {
     margin-right: 0.5em;
     vertical-align: middle;
   }
+
+  .name {
+    font-weight: 600;
+    opacity: 0.8;
+  }
+
+  .description {
+    opacity: 0.67;
+
+    &::before {
+      content: " | ";
+    }
+  }
+
+  time {
+    opacity: 0.8;
+  }
 }
+
