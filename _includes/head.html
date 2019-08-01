@@ -2,8 +2,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>{% if page.title %}{{ page.title }} &sdot; {% endif %}{{ site.title }}</title>
-  <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
   <meta itemprop="name" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
   <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
