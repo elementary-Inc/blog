@@ -9,13 +9,7 @@
 
       {% assign author = site.authors[post.author] %}
       {% if post.author %}
-        {%
-          include byline.html
-          name=author.name
-          gravatar=author.gravatar
-          description=author.description
-          date=post.date
-        %}
+       {% include byline.html author=author date=post.date %}
       {% endif %}
     </heading>
 
