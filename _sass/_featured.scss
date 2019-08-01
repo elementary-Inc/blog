@@ -18,8 +18,9 @@ a.featured {
       width: 50%;
     }
 
+
     @media (min-width: 800px) {
-      width: 60%;
+      width: 40%;
     }
 
     h2 {
@@ -43,7 +44,7 @@ a.featured {
     }
 
     @media (min-width: 800px) {
-      width: 40%;
+      width: 60%;
     }
 
     span {
@@ -55,12 +56,6 @@ a.featured {
 
   &.with-image {
     border-bottom: none;
-
-    header {
-      @media (min-width: 800px) {
-        width: 40%;
-      }
-    }
   }
 
   .featured-image {
