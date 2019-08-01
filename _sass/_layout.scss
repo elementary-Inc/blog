@@ -79,6 +79,7 @@ article {
   figure {
     font-size: 0; // fix whitespace causing percentage issues
     margin: 2rem 0;
+    position: relative;
     text-align: center;
 
     * {
@@ -107,6 +108,16 @@ article {
     &.half {
       img {
         width: 50%;
+      }
+    }
+
+    &.full-bleed {
+      img {
+        left: 50%;
+        max-width: 100vw;
+        position: relative;
+        transform: translateX(-50%);
+        width: 100vw;
       }
     }
 

@@ -26,6 +26,7 @@ html {
   color: var(--fg-color);
   fill: var(--fg-color);
   margin: 0;
+  overflow-x: hidden;
 }
 
 svg {
