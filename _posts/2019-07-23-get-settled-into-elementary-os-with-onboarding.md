@@ -71,17 +71,28 @@ Landing here wasn’t a one-and-done development; like most things in elementary
 
 Right off the bat we had to decide what the overall layout would be. Early ideas (that I can’t find sketches or screenshots of…) were more like the side-by-side layout of the Installer or Initial Setup apps:
 
-_Screenshot of Installer for reference_
+<figure markdown="1">
+  ![Installer screenshot](https://miro.medium.com/max/2044/0*aoUdaa3p0YGtq_1G)
+  <figcaption>Screenshot of Installer for reference</figcaption>
+</figure>
 
 However, we decided that this was much too large and felt too heavy for the lightweight first-run experience we wanted. In the Installer we need to support much more copy, richer widgets, and more complex situations like selecting a disk from a list of many. For Onboarding, we wanted it to be one single action per view if possible.
 
 We also considered a standard dialog-style layout, with a 48-pixel icon, bold text, and explanatory text down below. However, this didn’t give us the rich visual interest that we wanted, and felt too constrained.
 
-_Example dialog layout_
+<figure markdown="1">
+  ![Dialog example screenshot](https://miro.medium.com/max/548/1*EYRbgYEFvJrO5Frm3W7sWQ.png)
+  <figcaption>Example dialog layout</figcaption>
+</figure>
 
 Eventually, we settled on a more vertical layout with larger title text and everything neatly centered. This gave us more comfortable room for control widgets down below, and allowed us to experiment with a “pager” design, allowing users to jump between steps with the dots below. We also tried different icons and icon sizes until we settled on the elementary OS logo to more clearly associate Onboarding with the OS as a whole. We added a link to System Settings to let new users know where to go to get to these settings again (since we aren’t making Onboarding re-launchable). Lastly, we chose 64-pixel icons to let the iconography have more weight and give the dialog a bit more visual interest:
 
-_Early iterative prototypes_
+<figure class="third" markdown="1">
+  ![Prototype screenshot](https://miro.medium.com/max/1050/1*I8kUZtUlXFRXu3T3zL3UOA@2x.png)
+  ![Prototype screenshot](https://miro.medium.com/max/1050/1*En01u3bX415dz1OL2eiR_A@2x.png)
+  ![Prototype screenshot](https://miro.medium.com/max/1050/1*REWUNYQmnXPiNfXAFWjd8w@2x.png)
+  <figcaption>Early iterative prototypes</figcaption>
+</figure>
 
 Since longer blocks of text are harder to read when centered, one requirement of this layout is that the supplemental copy is very short—one to two lines in English, ideally. A lot of the design and testing work went into finessing that copy for each view while testing it with potential users for clarity.
 

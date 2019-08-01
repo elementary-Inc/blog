@@ -64,16 +64,36 @@ article {
   }
 
   figure {
-    margin: 2em 0;
+    text-align: center;
+    font-size: 0; // fix whitespace causing percentage issues
+    margin: 2rem 0;
 
     * {
       max-width: 100%;
+      margin: 0;
+    }
+
+    img {
+      display: inline;
+    }
+
+    figcaption {
+      font-family: var(--ui-font);
+      font-size: 0.8rem;
+      margin-bottom: 4em;
+      opacity: 0.67;
+      text-align: center;
     }
 
     &.third {
       img {
-        width: 33%;
-        display: inline;
+        width: 33.33%;
+      }
+    }
+
+    &.half {
+      img {
+        width: 50%;
       }
     }
   }
