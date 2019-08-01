@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+{% assign post = site.posts.first %}
+{% include featured.html post=post %}
+
+<section class="recent">
+  <h2>More Stories</h2>
+  {% for post in site.posts offset:1 limit:10 %}
+    {% include featured.html post=post %}
+  {% endfor %}
+</section>
+

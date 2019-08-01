@@ -82,9 +82,16 @@ h6 {
 }
 
 // Title/subtitle combo
-h1 + h2 {
+header h1 + h2 {
   opacity: 0.5;
   margin-top: -1.5em;
+  font-size: 1.25rem;
+}
+
+// Title/subtitle combo
+header h2 + h3 {
+  opacity: 0.5;
+  margin-top: -1.25em;
   font-size: 1.25rem;
 }
 

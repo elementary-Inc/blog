@@ -1,14 +1,14 @@
 <div class="byline">
   <div class="avatar">
     <img
-      srcset="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=96&d=blank 2x"
-      src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=48&d=blank"
-      alt="Avatar for {{ author.name }}"
+      srcset="https://www.gravatar.com/avatar/{{ include.author.gravatar }}?s=96&d=blank 2x"
+      src="https://www.gravatar.com/avatar/{{ include.author.gravatar }}?s=48&d=blank"
+      alt="Avatar for {{ include.author.name }}"
     />
   </div>
   <div class="author">
-    <span class="name">{{ author.name }}</span>
-    <span class="description">{{ author.description }}</span>
+    <span class="name">{{ include.author.name }}</span>
+    <span class="description">{{ include.author.description }}</span>
   </div>
   <time class="post-date" datetime="{{ include.date | date:"%Y-%m-%d" }}">{{ include.date | date: "%a, %b %d, %Y" }}</time>
 </div>
