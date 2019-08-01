@@ -5,11 +5,15 @@ layout: post
 author: cassidyjames
 ---
 
-We’ve never provided a tutorial or “welcome” on your first run of elementary OS before; our Human Interface Guidelines state that users “should be able to get down to business as quickly as possible,” and that “if configuration is not absolutely required for the first use, they should not be required to configure anything.” We also generally believe that if you need a tutorial, your product is likely too difficult to understand and may lead to long-term dissatisfaction. It’s like being given all of the information you could possibly need for a new career in an five-minute lecture, and then being expected to be a master of your profession; it’s both unrealistic and overwhelming!
+We’ve never provided a tutorial or "welcome" on your first run of elementary OS before; our [Human Interface Guidelines] state that users “should be able to get down to business as quickly as possible,” and that “if configuration is not absolutely required for the first use, they should not be required to configure anything.” We also generally believe that if you need a tutorial, your product is likely too difficult to understand and may lead to long-term dissatisfaction. It’s like being given all of the information you could possibly need for a new career in an five-minute lecture, and then being expected to be a master of your profession; it’s both unrealistic and overwhelming!
 
-Instead, we lean into progressive disclosure and teachable moments throughout elementary OS. We provide tooltips wherever possible that help you learn icons and features at your own pace. We disclose keyboard shortcuts throughout the OS so that—if you’d prefer—you can use more efficient keystrokes when you’re ready. Overall, we have found that this teach versus tell approach has made elementary OS a better product and one that is lauded for its user experience and ease of use.
+[Human Interface Guidelines]: https://elementary.io/docs/human-interface-guidelines#first-launch-experience
 
-However, there are several important features we’ve added over the years, and exposing those to users while ensuring they understand their implications has become more difficult. For example, while the Night Light feature we introduced in Juno is incredibly helpful, you’re not likely to discover it on your own unless you read extensive release announcements or like to dig around in your Display settings. For these cases, we’ve built Onboarding.
+Instead, we lean into progressive disclosure and teachable moments throughout elementary OS. We provide tooltips wherever possible that help you learn icons and features at your own pace. We disclose keyboard shortcuts throughout the OS so that—if you’d prefer—you can use more efficient keystrokes when you’re ready. Overall, we have found that this _teach versus tell_ approach has made elementary OS a better product and one that is lauded for its user experience and ease of use.
+
+However, there are several important features we’ve added over the years, and exposing those to users while ensuring they understand their implications has become more difficult. For example, while the [Night Light feature we introduced in Juno] is incredibly helpful, you’re not likely to discover it on your own unless you read extensive release announcements or like to dig around in your Display settings. For these cases, we’ve built Onboarding.
+
+[Night Light feature we introduced in Juno]: https://medium.com/elementaryos/elementary-os-5-juno-is-here-471dfdedc7b3
 
 ## Where Onboarding Fits In
 
@@ -105,11 +109,20 @@ During the iterative process, you typically end up with unused concepts or exper
 
 ## Making it Reusable
 
-One reason we make elementary OS as modular as possible is in hopes that individual pieces might be useful to other OSes or open source projects. For example, other OSes are free to use our Captive Portal login, keyboard Shortcut Overlay, Initial Setup process, OS Installer, top Panel, Screenshot tool, etc. We wanted the same to be true for Onboarding.
+One reason we make elementary OS as modular as possible is in hopes that individual pieces might be useful to other OSes or open source projects. For example, other OSes are free to use our [Captive Portal] login, keyboard [Shortcut Overlay], [Initial Setup] process, OS [Installer], top [Panel], [Screenshot] tool, etc. We wanted the same to be true for Onboarding.
+
+[Captive Portal]: https://github.com/elementary/capnet-assist
+[Shortcut Overlay]: https://github.com/elementary/shortcut-overlay
+[Initial Setup]: https://github.com/elementary/initial-setup
+[Installer]: https://github.com/elementary/installer
+[Panel]: https://github.com/elementary/wingpanel
+[Screenshot]: https://github.com/elementary/screenshot
 
 ### OS Name and Support URL
 
-One way we do this is by using the OS name and support URL, as provided by the OS-release FreeDesktop specification. So if you were to run Onboarding as-is on “Foo OS,” you’d get a welcome screen saying, “Welcome to Foo OS! Continue to set up some useful features. Visit the links below for more information about Foo OS.” The included support link will take you where you’d expect. Right now we also add our own links (Basics Guide and Get Involved), but we’re interested in cooperating with any dowstreams who would like it to be more configurable.
+One way we do this is by using the OS name and support URL, as provided by the [OS-release FreeDesktop specification]. So if you were to run Onboarding as-is on “Foo OS,” you’d get a welcome screen saying, “Welcome to Foo OS! Continue to set up some useful features. Visit the links below for more information about Foo OS.” The included support link will take you where you’d expect. Right now we also add our own links (Basics Guide and Get Involved), but we’re interested in cooperating with any dowstreams who would like it to be more configurable.
+
+[OS-release FreeDesktop specification]: https://www.freedesktop.org/software/systemd/man/os-release.html
 
 ### Only Show Views When They Make Sense
 
@@ -117,7 +130,9 @@ Another way we make Onboarding reusable by other projects is by making sure the 
 
 ### Settings URL Schema
 
-We also make sure to use the System Settings Schema Spec for launching any related settings panes, like we do throughout the rest of elementary OS. This means that any environment that implements the spec will have the correct settings app open up to the correct place, without having to patch Onboarding to hardcode a different app—in fact, neither app has to even know about the other!
+We also make sure to use the [System Settings Schema Spec] for launching any related settings panes, like we do throughout the rest of elementary OS. This means that any environment that implements the spec will have the correct settings app open up to the correct place, without having to patch Onboarding to hardcode a different app—in fact, neither app has to even know about the other!
+
+[System Settings Schema Spec]: https://github.com/elementary/switchboard/wiki/System-Settings-Schema-Specification
 
 ### Styling
 
