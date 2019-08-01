@@ -36,22 +36,43 @@ article {
 
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5,
+h6 {
+  font-family: Raleway, sans-serif;
   line-height: 1em;
 }
 
 h1 {
-  font-family: Raleway, sans-serif;
   font-size: 2.5em;
 }
 
 h2 {
-  font-family: Raleway, sans-serif;
   font-size: 2em;
+}
+
+h3,
+h4,
+h5 {
+  opacity: 0.8;
 }
 
 h3 {
   font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.25em;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+h6 {
+  font-size: 0.9em;
+  opacity: 0.67;
 }
 
 // Title/subtitle combo

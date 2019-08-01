@@ -34,3 +34,8 @@ article {
   max-width: var(--content-width);
 }
 
+hr {
+  margin: 3em auto;
+  max-width: 50%;
+  opacity: 0.25;
+}
