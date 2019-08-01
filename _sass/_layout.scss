@@ -109,6 +109,12 @@ article {
         width: 50%;
       }
     }
+
+    &.constrained {
+      img {
+        width: var(--content-width);
+      }
+    }
   }
 }
 
