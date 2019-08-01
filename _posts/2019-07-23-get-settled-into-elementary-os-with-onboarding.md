@@ -1,6 +1,7 @@
 ---
 title:  "Get Settled into elementary OS with Onboarding"
 subtitle: "Designed to improve the first-run experience"
+image: https://miro.medium.com/max/1120/1*OsUdeEafTuWof7e_jdEeNg@2x.png
 layout: post
 author: cassidyjames
 ---
@@ -26,6 +27,15 @@ An upcoming change to the first-run experience of elementary OS is as follows:
 Each of these steps is handled by a separate, modular piece of software. Technically the first two can exist without the third, and vice versa. Since the third step is standalone and doesn’t require as much testing and integration as the first two, we’re releasing it to users today as the new Onboarding app.
 
 Onboarding launches the first time you log into your user account on elementary OS (or, if you’re already running elementary OS today, it will run the first time you log in after it arrives via an update). Here’s a look at it today:
+
+<figure class="third" markdown="1">
+  ![Welcome screenshot](https://miro.medium.com/max/1120/1*OsUdeEafTuWof7e_jdEeNg@2x.png)
+  ![Location Services screenshot](https://miro.medium.com/max/1120/1*CHRbLVIpEKti-vzcN6c8IA@2x.png)
+  ![Night Light screenshot](https://miro.medium.com/max/1120/1*dZ6zFyWk48YBA-tjoB3V-g@2x.png)
+  ![Housekeeping screenshot](https://miro.medium.com/max/1120/1*5tVjv1f9GqHfHmYjFYfJlQ@2x.png)
+  ![AppCenter screenshot](https://miro.medium.com/max/1120/1*2lEgiaFuFnV-fM9WcsU4sQ@2x.png)
+  ![Finished screenshot](https://miro.medium.com/max/1124/1*XMhBb2LH7zaW1VFQeORMow@2x.png)
+</figure>
 
 That’s it! That’s the entirety of the process, and you can jump around as you’d please, or skip it at any time. We’ve designed it to be to the point and only handle one useful feature per view. We also linked to some existing resources right up front instead of trying to recreate them in the app. Lastly, we remind you that you can configure any hardware or change any of these settings from System Settings.
 
