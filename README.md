@@ -1,6 +1,30 @@
 # blog
 
-Testing the idea of a static, privacy-respecting blog
+A static, privacy-respecting blog.
+
+## Goals
+
+Remember, we moved away from other platforms for very specific reasons.
+
+1. **Completely frictionless** for readers.
+2. **As few external resources as possible**—it slows things down and introduces potential privacy issues.
+3. **Little-to-no JavaScript**—it’s a blog, not a web app.
+
+## Modern Niceties
+
+Just because it's static and privacy-respecting doesn't mean it's not modern and featureful.
+
+1. **RSS feed support** for all the cross-posting you could desire.
+2. **Completely responsive** design from the start.
+3. **Dark style** support for everything from day zero.
+
+## Editing workflow
+
+Use the GitHub workflow!
+
+1. **Use PRs to propose** and work. That means draft PRs for things that aren't ready to publish, too.
+2. **All PRs should be reviewed** and approved before publishing.
+3. **Use reviews and inline comments**/suggestions to collaboratively edit.
 
 ## Running Locally
 
