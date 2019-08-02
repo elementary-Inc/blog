@@ -21,7 +21,10 @@ Thanks to some help from our community, the dark style now has increased Radio a
 Popovers with submenus now have an arrow style that matches the arrows in regular menus:
 
 <figure class="card" markdown="1">
-  ![Popovers](https://miro.medium.com/max/700/1*xPbl_fwBLl7l9gFmSFzCsQ.png)
+![Popovers](https://miro.medium.com/max/700/1*xPbl_fwBLl7l9gFmSFzCsQ.png)
+<figcaption markdown="1">
+**Left:** Before | **Right:** After
+</figcaption>
 </figure>
 
 There was a fix for a very subtle 1px shift when only one tab is open in a notebook:

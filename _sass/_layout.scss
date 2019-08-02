@@ -89,6 +89,12 @@ article {
 
     img {
       display: inline;
+      transition: transform 250ms ease;
+
+      &:active {
+        position: relative; // Fixes z-index issues on transform
+        z-index: 1;
+      }
     }
 
     figcaption {
@@ -101,17 +107,39 @@ article {
 
     &.third {
       img {
-        width: 31.33%;
+        cursor: zoom-in;
         margin-left: 1%;
         margin-right: 1%;
+        width: 31.33%;
+
+        &:nth-child(3n+1):active {
+          transform: translateX(100%) scale(3);
+        }
+
+        &:nth-child(3n+2):active {
+          transform: translateX(0) scale(3);
+        }
+
+        &:nth-child(3n+3):active {
+          transform: translateX(-100%) scale(3);
+        }
       }
     }
 
     &.half {
       img {
-        width: 48%;
+        cursor: zoom-in;
         margin-left: 1%;
         margin-right: 1%;
+        width: 48%;
+
+        &:nth-child(odd):active {
+          transform: translateX(50%) scale(2);
+        }
+
+        &:nth-child(even):active {
+          transform: translateX(-50%) scale(2);
+        }
       }
     }
 
