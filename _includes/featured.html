@@ -13,10 +13,7 @@
       <h3>{{ post.subtitle }}</h3>
     {% endif %}
 
-    {% assign author = site.authors[post.author] %}
-    {% if post.author %}
-     {% include byline.html author=author date=post.date %}
-    {% endif %}
+    {% include byline.html author=post.author date=post.date %}
   </header>
 
   {% unless post.image %}

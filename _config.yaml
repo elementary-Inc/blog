@@ -21,8 +21,13 @@ authors:
     twitter: https://twitter.com/danielfore
   karensophia:
     name: Karen Sophia
-    description: "Customer Engagement Specialist"
-    gravatar: e0ac5d5e717da67a36ac72adf235bc42
+    description: "Customer Engagement"
+    # gravatar: e0ac5d5e717da67a36ac72adf235bc42
+  peteruithoven:
+    name: Peter Uithoven
+    description: "Front-end Developer"
+  anonymous:
+    name: "Unknown Author"
 
 plugins:
   - jekyll-feed
