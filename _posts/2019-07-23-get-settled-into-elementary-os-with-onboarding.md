@@ -2,7 +2,6 @@
 title:  "Get Settled into elementary OS with Onboarding"
 subtitle: "Designed to improve the first-run experience"
 image: https://miro.medium.com/max/1120/1*OsUdeEafTuWof7e_jdEeNg@2x.png
-layout: post
 author: cassidyjames
 ---
 

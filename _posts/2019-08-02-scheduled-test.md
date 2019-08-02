@@ -1,6 +1,5 @@
 ---
 title:  "Scheduled Test"
-layout: post
 author: danrabbit
 date: 2019-08-02 09:00 -0600
 ---
