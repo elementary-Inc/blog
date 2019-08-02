@@ -36,7 +36,14 @@ a {
 }
 
 article {
-  line-height: 1.67em;
+  line-height: 1.75em;
+
+  p,
+  ul,
+  ol {
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+  }
 }
 
 h1,
@@ -46,15 +53,13 @@ h4,
 h5,
 h6 {
   font-family: var(--heading-font);
-  line-height: 1em;
+  line-height: 1.2em;
+  margin-top: 2em;
+  margin-bottom: 0;
 }
 
 h1 {
-  font-size: 2.5em;
-}
-
-h2 {
-  font-size: 2em;
+  line-height: 1em;
 }
 
 h3,
@@ -63,34 +68,34 @@ h5 {
   opacity: 0.8;
 }
 
-h3 {
-  font-size: 1.5em;
-}
-
-h4 {
-  font-size: 1.25em;
-}
-
-h5 {
-  font-size: 1em;
-}
-
 h6 {
-  font-size: 0.9em;
   opacity: 0.67;
 }
 
-// Title/subtitle combo
+header h1 {
+  font-size: 2em;
+  margin-top: 1em;
+}
+
 header h1 + h2 {
-  font-size: 1.25rem;
-  margin-top: -1.5em;
+  font-family: var(--ui-font);
+  font-size: 1.2rem;
+  font-weight: normal;
+  margin-top: 0.25em;
   opacity: 0.5;
 }
 
-// Title/subtitle combo
+header h2 {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
 header h2 + h3 {
-  font-size: 1.25rem;
-  margin-top: -1.25em;
+  font-family: var(--ui-font);
+  font-size: 0.9rem;
+  font-weight: normal;
+  margin-top: -1.5em;
+  margin-bottom: 1em;
   opacity: 0.5;
 }
 
