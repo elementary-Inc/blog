@@ -91,7 +91,8 @@ article {
       display: inline;
       transition: transform 250ms ease;
 
-      &:active {
+      &:focus {
+        outline: none;
         position: relative; // Fixes z-index issues on transform
         z-index: 1;
       }
@@ -112,15 +113,19 @@ article {
         margin-right: 1%;
         width: 31.33%;
 
-        &:nth-child(3n+1):active {
+        &:focus {
+          cursor: zoom-out;
+        }
+
+        &:nth-child(3n+1):focus {
           transform: translateX(100%) scale(3);
         }
 
-        &:nth-child(3n+2):active {
+        &:nth-child(3n+2):focus {
           transform: translateX(0) scale(3);
         }
 
-        &:nth-child(3n+3):active {
+        &:nth-child(3n+3):focus {
           transform: translateX(-100%) scale(3);
         }
       }
@@ -133,11 +138,15 @@ article {
         margin-right: 1%;
         width: 48%;
 
-        &:nth-child(odd):active {
+        &:focus {
+          cursor: zoom-out;
+        }
+
+        &:nth-child(odd):focus {
           transform: translateX(50%) scale(2);
         }
 
-        &:nth-child(even):active {
+        &:nth-child(even):focus {
           transform: translateX(-50%) scale(2);
         }
       }
