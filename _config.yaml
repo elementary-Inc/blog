@@ -2,7 +2,7 @@ title: "elementary Blog"
 description: "We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
-baseurl: "/blog"
+baseurl: "/"
 permalink: /:title/
 theme-color: "#64baff"
 twitter: https://twitter.com/@elementary
