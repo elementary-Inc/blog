@@ -41,5 +41,5 @@ kramdown:
       line_numbers: true
 
 future: false # Allows us to stage posts
-exclude: [README.md, Gemfile, Gemfile.lock]
+exclude: [README.md, Gemfile, Gemfile.lock, vendor]
 
