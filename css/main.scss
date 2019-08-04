@@ -34,3 +34,13 @@ svg {
   fill: inherit;
 }
 
+.error {
+  max-width: 22rem;
+  margin: 8em auto;
+  text-align: center;
+
+  p {
+    font-family: var(--ui-font);
+  }
+}
+
