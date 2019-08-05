@@ -2,6 +2,7 @@
 title:  "Updates for July, 2019"
 subtitle: Lots of small updates, and a new blog!
 author: cassidyjames
+image: https://user-images.githubusercontent.com/611168/62438726-01d60200-b706-11e9-8edd-6f86969990d4.png
 ---
 
 It's that time again! Time to look back at the past month and see all of the updates that have been pushed out to elementary OS, and what else we've been up to. This month was somewhat quiet as we work on some bigger things to come, but there's still a lot of good stuff. Let's take a look.
