@@ -17,7 +17,9 @@ If you're reading this, it's because of our new blog (or RSS feed)! We spent a f
 
 We released a whole bunch of updates to Files in July, thanks largely to the hard work of [Jeremy Wootten](https://github.com/jeremypw), [Corentin Noël](https://github.com/tintou), and [Paulo Galardi](https://github.com/lainsce).
 
+<figure class="card" markdown="1">
 ![Files color tagging](https://user-images.githubusercontent.com/611168/62493151-a0597600-b78d-11e9-9f9f-536525b004ac.png)
+</figure>
 
 Color tagging has been greatly improved! The menu item for selecting color tags has been rewritten, using GTK instead of custom Cairo drawing. The click targets are bigger and more clear, plus contrast has been improved. The menu also now shows all tags for selected files, which is a nice touch.
 
@@ -32,6 +34,10 @@ Under-the-hood, we ported more code from C to Vala to make it easier to read and
 [Terminal](https://github.com/elementary/terminal/releases/tag/5.3.6) received a few small improvements: the [Menu key](https://en.wikipedia.org/wiki/Menu_key) found on some keyboards now opens the context menu, we added a separator to the context menu to better delineate text actions from app actions, and we save more window state between sessions.
 
 ## Onboarding
+
+<figure class="half" markdown="1">
+![onboarding-screenshot](https://miro.medium.com/max/1120/1*OsUdeEafTuWof7e_jdEeNg@2x.png)
+</figure>
 
 The [new Onboarding app]({{ site.baseurl }}{% post_url 2019-07-23-get-settled-into-elementary-os-with-onboarding %}) was released in July! It has not been included by default in the desktop session, so you probably haven't seen it if you're an existing user. Hold tight, it will be included by default in an upcoming update.
 
