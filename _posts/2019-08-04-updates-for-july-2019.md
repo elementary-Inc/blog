@@ -31,6 +31,10 @@ Under-the-hood, we ported more code from C to Vala to make it easier to read and
 
 ## Terminal
 
+<figure class="half" markdown="1">
+![Terminal context menu](https://user-images.githubusercontent.com/7277719/60905104-3a7adc80-a229-11e9-85aa-7a234a632687.png)
+</figure>
+
 [Terminal](https://github.com/elementary/terminal/releases/tag/5.3.6) received a few small improvements: the [Menu key](https://en.wikipedia.org/wiki/Menu_key) found on some keyboards now opens the context menu, we added a separator to the context menu to better delineate text actions from app actions, and we save more window state between sessions.
 
 ## Onboarding
