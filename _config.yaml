@@ -31,7 +31,7 @@ authors:
 
 plugins:
   - jekyll-feed
-  - jekyll-pagination
+  - jekyll-paginate
   - jekyll-redirect-from
   - jekyll-sitemap
 
