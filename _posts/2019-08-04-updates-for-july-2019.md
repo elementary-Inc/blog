@@ -17,6 +17,8 @@ If you're reading this, it's because of our new blog (or RSS feed)! We spent a f
 
 We released a whole bunch of updates to Files in July, thanks largely to the hard work of [Jeremy Wootten](https://github.com/jeremypw), [Corentin Noël](https://github.com/tintou), and [Paulo Galardi](https://github.com/lainsce).
 
+![Files color tagging](https://user-images.githubusercontent.com/611168/62493151-a0597600-b78d-11e9-9f9f-536525b004ac.png)
+
 Color tagging has been greatly improved! The menu item for selecting color tags has been rewritten, using GTK instead of custom Cairo drawing. The click targets are bigger and more clear, plus contrast has been improved. The menu also now shows all tags for selected files, which is a nice touch.
 
 Files now shows more search results in the search drop down, making it more effective with lots of similar results. Opening Files from the Terminal now opens a new tab instead of a new window. We've improved keyboard navigation and made the progress window closable when copying network files to removable storage.
