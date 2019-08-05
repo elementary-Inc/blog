@@ -44,5 +44,5 @@ bundle install
 bundle exec jekyll serve
 ```
 
-The site should now be available at http://127.0.0.1:4000/blog/
+The site should now be available at http://127.0.0.1:4000/
 

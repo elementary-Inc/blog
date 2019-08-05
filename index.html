@@ -2,12 +2,35 @@
 layout: default
 ---
 
-{% include featured.html post=site.posts.first %}
+{% unless paginator.previous_page %}
+  {% include featured.html post=paginator.posts.first %}
+{% endunless %}
 
-<section class="recent">
-  <h2>More Stories</h2>
-  {% for post in site.posts offset:1 limit:10 %}
-    {% include featured.html post=post %}
+<section class="more">
+{% if paginator.previous_page %}
+  <h2>Archive Page {{ paginator.page }}</h2>
+  {% for post in paginator.posts %}
+    {% unless post.hidden %}
+      {% include featured.html post=post %}
+    {% endunless %}
   {% endfor %}
+{% else %}
+  <h2>More Stories</h2>
+  {% for post in paginator.posts offset: 1 %}
+    {% unless post.hidden %}
+      {% include featured.html post=post %}
+    {% endunless %}
+  {% endfor %}
+{% endif %}
 </section>
+
+<nav class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">Newer</a>
+  {% endif %}
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Older</a>
+  {% endif %}
+</nav>
 

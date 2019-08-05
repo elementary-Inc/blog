@@ -25,10 +25,14 @@ layout: default
 <h2 class="up-next">Up Next</h2>
 
 {% if page.next %}
-  {% include featured.html post=page.next %}
+  {% unless page.next.hidden %}
+    {% include featured.html post=page.next %}
+  {% endunless %}
 {% endif %}
 
 {% if page.previous %}
-  {% include featured.html post=page.previous %}
+  {% unless page.previous.hidden %}
+    {% include featured.html post=page.previous %}
+  {% endunless %}
 {% endif %}
 
