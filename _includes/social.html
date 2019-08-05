@@ -1,0 +1,36 @@
+<div class="social-links">
+  <h2>Join the Discussion on Social Media</h2>
+
+  <a
+    href="{% if page.twitter %}{{ page.twitter }}{% else %}{{ site.twitter }}{% endif %}"
+    rel="noreferrer nofollow noopener"
+    target="_blank"
+  >
+    <img src="{{ '/images/twitter.svg' | prepend: site.baseurl }}" alt="Twitter" />
+  </a>
+
+  <a
+    href="{% if page.mastodon %}{{ page.mastodon }}{% else %}{{ site.mastodon }}{% endif %}"
+    rel="noreferrer nofollow noopener"
+    target="_blank"
+  >
+    <img src="{{ '/images/mastodon.svg' | prepend: site.baseurl }}" alt="Mastodon" />
+  </a>
+
+  <a
+    href="{% if page.reddit %}{{ page.reddit }}{% else %}{{ site.reddit }}{% endif %}"
+    rel="noreferrer nofollow noopener"
+    target="_blank"
+  >
+    <img src="{{ '/images/reddit.svg' | prepend: site.baseurl }}" alt="Reddit" />
+  </a>
+
+  <a
+    href="{% if page.facebook %}{{ page.facebook }}{% else %}{{ site.facebook }}{% endif %}"
+    rel="noreferrer nofollow noopener"
+    target="_blank"
+  >
+    <img src="{{ '/images/facebook.svg' | prepend: site.baseurl }}" alt="Facebook" />
+  </a>
+</div>
+

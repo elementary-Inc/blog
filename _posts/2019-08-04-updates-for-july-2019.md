@@ -2,7 +2,12 @@
 title:  "Updates for July, 2019"
 subtitle: Lots of small updates, and a new blog!
 author: cassidyjames
-image: https://user-images.githubusercontent.com/611168/62438726-01d60200-b706-11e9-8edd-6f86969990d4.png
+image: https://user-images.githubusercontent.com/611168/62493151-a0597600-b78d-11e9-9f9f-536525b004ac.png
+
+facebook: https://www.facebook.com/elementaryos/posts/2624806034217876
+mastodon: https://mastodon.social/@elementary/102565965725391937
+reddit: https://www.reddit.com/r/elementaryos/comments/cmbzux/updates_for_july_2019_elementary_blog/
+twitter: https://twitter.com/elementary/status/1158455632355311617
 ---
 
 It's that time again! Time to look back at the past month and see all of the updates that have been pushed out to elementary OS, and what else we've been up to. This month was somewhat quiet as we work on some bigger things to come, but there's still a lot of good stuff. Let's take a look.
@@ -17,6 +22,10 @@ If you're reading this, it's because of our new blog (or RSS feed)! We spent a f
 
 We released a whole bunch of updates to Files in July, thanks largely to the hard work of [Jeremy Wootten](https://github.com/jeremypw), [Corentin Noël](https://github.com/tintou), and [Paulo Galardi](https://github.com/lainsce).
 
+<figure class="card" markdown="1">
+![Files color tagging](https://user-images.githubusercontent.com/611168/62493151-a0597600-b78d-11e9-9f9f-536525b004ac.png)
+</figure>
+
 Color tagging has been greatly improved! The menu item for selecting color tags has been rewritten, using GTK instead of custom Cairo drawing. The click targets are bigger and more clear, plus contrast has been improved. The menu also now shows all tags for selected files, which is a nice touch.
 
 Files now shows more search results in the search drop down, making it more effective with lots of similar results. Opening Files from the Terminal now opens a new tab instead of a new window. We've improved keyboard navigation and made the progress window closable when copying network files to removable storage.
@@ -27,9 +36,17 @@ Under-the-hood, we ported more code from C to Vala to make it easier to read and
 
 ## Terminal
 
+<figure markdown="1">
+![Terminal context menu](https://user-images.githubusercontent.com/7277719/60905104-3a7adc80-a229-11e9-85aa-7a234a632687.png)
+</figure>
+
 [Terminal](https://github.com/elementary/terminal/releases/tag/5.3.6) received a few small improvements: the [Menu key](https://en.wikipedia.org/wiki/Menu_key) found on some keyboards now opens the context menu, we added a separator to the context menu to better delineate text actions from app actions, and we save more window state between sessions.
 
 ## Onboarding
+
+<figure markdown="1">
+![onboarding-screenshot](https://miro.medium.com/max/1120/1*OsUdeEafTuWof7e_jdEeNg@2x.png)
+</figure>
 
 The [new Onboarding app]({{ site.baseurl }}{% post_url 2019-07-23-get-settled-into-elementary-os-with-onboarding %}) was released in July! It has not been included by default in the desktop session, so you probably haven't seen it if you're an existing user. Hold tight, it will be included by default in an upcoming update.
 
@@ -101,7 +118,7 @@ Several other icons were improved or added in July: the image-missing icon was s
 
 ## Under the Hood & Developer Tools
 
-We [improved several utilities in Granite](https://github.com/elementary/granite/releases/tag/5.2.4), our library of common widgets and utilities. We added more keys to `accel-to-string`, making keyboard shortcuts read more naturally. We added the ability to set an icon badge to MessageDialog, making it more versatile and preventing developers from having to drop to a custom Gtk.Dialog for that commonly-used pattern. We also moved the DateTime settings schema to use the GNOME interface schema, keeping datetime settings better in snyc. Lastly, we deprecated IconFactory and utilities that are now provided by GLib.
+We [improved several utilities in Granite](https://github.com/elementary/granite/releases/tag/5.2.4), our library of common widgets and utilities. We added more keys to `accel-to-string`, making keyboard shortcuts read more naturally. We added the ability to set an icon badge to MessageDialog, making it more versatile and preventing developers from having to drop to a custom Gtk.Dialog for that commonly-used pattern. We also moved the DateTime settings schema to use the GNOME interface schema, keeping datetime settings better in sync. Lastly, we deprecated IconFactory and utilities that are now provided by GLib.
 
 Our new [Feedback](https://github.com/elementary/feedback) app was released. There's nothing user-facing that's new yet; we simply moved the _System Settings_ → _About_ → _Report a Problem_ dialog from the System Settings plug codebase into its own standalone app. We have some bigger plans for it in the future, but for now, it just means it's easier to update on its own.
 
