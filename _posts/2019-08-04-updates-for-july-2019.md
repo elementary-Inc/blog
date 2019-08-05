@@ -101,7 +101,7 @@ Several other icons were improved or added in July: the image-missing icon was s
 
 ## Under the Hood & Developer Tools
 
-We [improved several utilities in Granite](https://github.com/elementary/granite/releases/tag/5.2.4), our library of common widgets and utilities. We added more keys to `accel-to-string`, making keyboard shortcuts read more naturally. We added the ability to set an icon badge to MessageDialog, making it more versatile and preventing developers from having to drop to a custom Gtk.Dialog for that commonly-used pattern. We also moved the DateTime settings schema to use the GNOME interface schema, keeping datetime settings better in snyc. Lastly, we deprecated IconFactory and utilities that are now provided by GLib.
+We [improved several utilities in Granite](https://github.com/elementary/granite/releases/tag/5.2.4), our library of common widgets and utilities. We added more keys to `accel-to-string`, making keyboard shortcuts read more naturally. We added the ability to set an icon badge to MessageDialog, making it more versatile and preventing developers from having to drop to a custom Gtk.Dialog for that commonly-used pattern. We also moved the DateTime settings schema to use the GNOME interface schema, keeping datetime settings better in sync. Lastly, we deprecated IconFactory and utilities that are now provided by GLib.
 
 Our new [Feedback](https://github.com/elementary/feedback) app was released. There's nothing user-facing that's new yet; we simply moved the _System Settings_ → _About_ → _Report a Problem_ dialog from the System Settings plug codebase into its own standalone app. We have some bigger plans for it in the future, but for now, it just means it's easier to update on its own.
 
