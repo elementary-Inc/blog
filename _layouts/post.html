@@ -22,6 +22,9 @@ layout: default
 
 {% include license.html %}
 
+{% capture social %}{% include social.md %}{% endcapture %}
+{{ social | markdownify }}
+
 <h2 class="up-next">Up Next</h2>
 
 {% if page.next %}

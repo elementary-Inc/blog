@@ -14,7 +14,7 @@
 
   <link id="feedLink" rel="alternate" type="application/rss+xml" title="RSS" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
-  <meta name="author" content="{% if page.author %}{{ page.author.name }}{% else %}{{ site.author }}{% endif %}" />
+  <meta name="author" content="{% if page.author.name %}{{ page.author.name }}{% else %}{{ site.author }}{% endif %}" />
   <meta name="theme-color" content="{% if page.theme-color %}{{ page.theme-color }}{% else %}{{ site.theme-color }}{% endif %}" />
 
   {% if page.image %}
@@ -24,7 +24,7 @@
     <meta name="twitter:card" content="summary" />
   {% endif %}
   <meta name="twitter:site" content="{{ site.twitter }}" />
-  <meta name="twitter:creator" content="{% if page.twitter %}{{ page.twitter }}{% else %}{{ site.twitter }}{% endif %}" />
+  <meta name="twitter:creator" content="{{ site.twitter }}" />
 
   <meta name="description" content="{% if page.subtitle %}{{ page.subtitle }}{% else %}{{ site.description }}{% endif %}" />
   <meta property="og:description" content="{% if page.subtitle %}{{ page.subtitle }}{% else %}{{ site.description }}{% endif %}" />

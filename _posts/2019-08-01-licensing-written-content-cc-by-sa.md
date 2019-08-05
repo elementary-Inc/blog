@@ -3,6 +3,11 @@ title: Licensing for our Written Content
 subtitle: Using Creative Commons Attribution Share-Alike
 author: cassidyjames
 image: https://i.snap.as/qt9Qxoo.png
+
+facebook: https://www.facebook.com/elementaryos/posts/2623525414345938
+mastodon: https://mastodon.social/@elementary/102562197489458529
+reddit: https://www.reddit.com/r/elementaryos/comments/cmfv6r/licensing_for_our_written_content_elementary_blog/
+twitter: https://twitter.com/elementary/status/1158214562627366913
 ---
 
 You might have noticed something new at the bottom of blog posts lately:
