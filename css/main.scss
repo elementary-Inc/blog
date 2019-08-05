@@ -64,3 +64,19 @@ nav.pagination {
     }
   }
 }
+
+.social-links {
+  text-align: center;
+  margin-top: 8rem;
+
+  a {
+    display: inline-block;
+    margin: 0.75rem;
+
+    img {
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+}
+
