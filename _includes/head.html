@@ -23,8 +23,8 @@
   {% else %}
     <meta name="twitter:card" content="summary" />
   {% endif %}
-  <meta name="twitter:site" content="{{ site.twitter }}" />
-  <meta name="twitter:creator" content="{{ site.twitter }}" />
+  <meta name="twitter:site" content="@{{ site.twitter }}" />
+  <meta name="twitter:creator" content="@{{ site.twitter }}" />
 
   <meta name="description" content="{% if page.subtitle %}{{ page.subtitle }}{% else %}{{ site.description }}{% endif %}" />
   <meta property="og:description" content="{% if page.subtitle %}{{ page.subtitle }}{% else %}{{ site.description }}{% endif %}" />
