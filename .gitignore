@@ -1,4 +1,4 @@
-Gemfile.lock # I know, I know, this is bad. But GitHub Pages doesn't use it, so we should just always be up to date
+Gemfile.lock
 *~
 _site/
 
