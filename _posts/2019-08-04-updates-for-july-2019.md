@@ -31,7 +31,7 @@ Under-the-hood, we ported more code from C to Vala to make it easier to read and
 
 ## Terminal
 
-<figure class="half" markdown="1">
+<figure markdown="1">
 ![Terminal context menu](https://user-images.githubusercontent.com/7277719/60905104-3a7adc80-a229-11e9-85aa-7a234a632687.png)
 </figure>
 
@@ -39,7 +39,7 @@ Under-the-hood, we ported more code from C to Vala to make it easier to read and
 
 ## Onboarding
 
-<figure class="half" markdown="1">
+<figure markdown="1">
 ![onboarding-screenshot](https://miro.medium.com/max/1120/1*OsUdeEafTuWof7e_jdEeNg@2x.png)
 </figure>
 
