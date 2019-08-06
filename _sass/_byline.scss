@@ -47,8 +47,17 @@
     }
   }
 
-  time {
+  time,
+  .read-time {
     opacity: 0.8;
+    font-size: 0.9em;
+    line-height: 1em;
+  }
+
+  .read-time::before {
+    display: inline-block;
+    margin: 0 0.25em;
+    content: " · ";
   }
 }
 
