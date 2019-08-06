@@ -12,7 +12,7 @@ image: https://cdn-images-1.medium.com/max/1600/1*TE_HSe-JDQNjDOx9pwyHTA.jpeg
 </figure>
 
 
-This last week, for the first time, Cassidy, Corentin Noël, and I took time away from the Juno cycle to attend GUADEC: the GNOME Users & Developers European Conference. Each year, GUADEC brings together developers, designers, users, and other experts and enthusiasts for a week of talks, workshops, round tables, team building and more. This time, the conference was in the coastal city of Almería, Spain at the University of Almería.
+This last week, for the first time, Cassidy, Corentin Noël, and I took time away from the Juno cycle to attend [GUADEC: the GNOME Users & Developers European Conference](https://2018.guadec.org/). Each year, GUADEC brings together developers, designers, users, and other experts and enthusiasts for a week of talks, workshops, round tables, team building and more. This time, the conference was in the coastal city of Almería, Spain at the University of Almería.
 
 Just a heads up, due to the nature of GUADEC, this post might get a bit technical. There’s not much that’s user-facing in the near future, but a lot of future-looking bits. That aside, let’s dive in.
 
