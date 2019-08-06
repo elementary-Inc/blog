@@ -8,7 +8,7 @@ image: https://cdn-images-1.medium.com/max/1600/1*h2xQZXwatwpPoUcaNbLcQg@2x.png
 
 This month, a number of bug fixes and performance improvements landed as updates to elementary OS 5 Juno. Read ahead for the full rundown!
 
-### Calendar
+## Calendar
 
 The headlining release this month is the latest version of Calendar. We’ve done a considerable amount of work both on the surface and under the hood.
 
@@ -42,27 +42,27 @@ Finally, Calendar now makes use of `Gtk.FileChooserNative`. This is an under-the
 
 We hope you enjoy this fairly large update to Calendar!
 
-### AppCenter
+## AppCenter
 
 Like Calendar, AppCenter also uses a new method for saving and restoring its window’s position and size. We also improved the way AppCenter uses system memory to display its list views. Finally, there was a small cosmetic fix to the position of the action buttons in an app’s info page when switching between the install and cancel actions.
 
-### Screenshot
+## Screenshot
 
 We’ve received reports of some users getting stuck with an illegible system after using the “Conceal Text” feature. We now ensure that the system font is restored as early as possible to avoid this situation, even in case of other kinds of errors.
 
-### Files
+## Files
 
 A fix was released for a high CPU usage regression that snuck into the last release. We also fixed in an issue where hidden files and folders would be sorted incorrectly in some cases.
 
-### Music
+## Music
 
 Album art in the grid view is now displayed at full resolution on HiDPI displays. We fixed an issue with selecting a music folder with spaces in its path. We’ve also updated the path for the Media Key Listener extension to GNOME Settings Daemon: this means Music will work better on other distributions like Fedora. Like Calendar, Music also now uses `Gtk.FileChooserNative`.
 
-### For Developers
+## For Developers
 
 There’s a few new goodies specifically for app developers this month as well!
 
-#### Granite
+### Granite
 
 We’ve fixed in issue in some `Granite.DateTime` utilities where extra leading spaces were added. We now report `Gdk.Key.Return` as `Enter` in `Granite.accel_to_string`. You can also now easily find out if users have history enabled in System Settings with `Granite.Services.System.history_is_enabled`.
 
@@ -77,7 +77,7 @@ Show error details with the new `show_error_expander` method
 
 We’ve also addressed a couple of typos in the documentation on Valadoc.org and packagers on other distributions should note that as of this release Granite builds with Meson instead of CMake.
 
-#### Stylesheet
+### Stylesheet
 
 Switches are now shaded using a white overlay instead of Gtk.CSS’s `shade` method. This looks much nicer with green or yellow accent colors:
 
@@ -99,7 +99,7 @@ Numbered badges in Sidebars have had their color scheme inverted for a more subt
 
 Finally, Buttons in Headerbars now support `Gtk.STYLE_CLASS_RAISED` in case you’d like to make sure button borders are present for all buttons.
 
-### And More
+## And More
 
 The default location for Picture-in-Picture windows has been changed to the bottom right of the display instead of the bottom left. Screenshots taken with keyboard shortcuts are now properly saved in Pictures/Screenshots. You can now also cancel area screenshots with the Escape key. Performance of saving whole screen screenshots on HiDPI and other high resolution displays should be much improved. We also addressed a couple of visual glitches that sometimes occurred when tiling windows.
 
