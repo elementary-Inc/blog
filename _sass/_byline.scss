@@ -53,6 +53,8 @@
   }
 
   .read-time::before {
+    display: inline-block;
+    margin: 0 0.25em;
     content: " · ";
   }
 }
