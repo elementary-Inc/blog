@@ -19,7 +19,7 @@ We’re also interested in how better integrating with Metered Data networks—l
 
 We’ve been hard at work alongside several talented designers and developers, iterating on how these features could be brought to or improved in GNOME, Endless OS, and elementary OS.
 
-### Parental Controls + Digital Wellbeing
+## Parental Controls + Digital Wellbeing
 
 The hackfest focused on Parental Controls for the first two days. We started by looking at the [Endless OS implementation](https://cloud.gnome.org/s/EAHzDL7Gc24abTk) and the elementary OS implementation, and then dove into discussing the elementary plans for some sort of “digital wellbeing” concept which overlaps with parental controls.
 
@@ -46,7 +46,7 @@ The second day was largely technical, deciding how to enforce app usage restrict
 
 We’ll have more to talk about in this space for elementary OS soon, so stay tuned.
 
-### Metered Data
+## Metered Data
 
 The last two days of the hackfest were dedicated to metered data, i.e. being smarter about when data connections are not unlimited—especially around the idea of automatic updates and background downloads. There was not a _ton_ of work to do here; mostly seeing what Endless had so far, discussing prior art, and laying out a way forward.
 
@@ -61,7 +61,7 @@ Since the underlying Network Manager does already have a concept of a metered ne
 
 There is the larger ongoing discussion still happening around visualization, more robust system controls, background download scheduling—i.e. using [Mogwai](https://gitlab.freedesktop.org/pwithnall/mogwai)—and app-specific limits for metered data in GNOME. These are really interesting features and I look forward to seeing them progress in GNOME and become usable to us in elementary OS.
 
-### More
+## More
 
 Whenever you get folks from various projects across GNOME and open source into a room, other conversations and ideas inevitably spawn.
 
@@ -74,7 +74,7 @@ There was a lot of talk and work around more sane and strict defaults for libapp
 
 For all of our notes, reports, and other blog posts from the hackfest, see the [GNOME Wiki page](https://wiki.gnome.org/Hackfests/ParentalAndMetered2019#reports).
 
-### Social
+## Social
 
 As per usual, this hackfest was peppered with great food and socializing in between all of the design, discussion, and development.
 
@@ -87,7 +87,7 @@ Trying to fit the whole (cramped) Wahaca dinner table into one photo. **Clockwis
 
 We walked several miles around central London, the River Thames, London Bridge, Borough Market, and more. We enjoyed Mexican-inspired food at Wahaca, Indian food at Anokha, and modern European food at The Folly. Several of us had traditional British pies and enjoyed a few beers at pubs. We had a great time bonding and chatting about everything from history to parenting.
 
-### Thanks!
+## Thanks!
 
 <figure markdown="1">
 ![The Red Hat room we used for the majority of the hackfest](https://cdn-images-1.medium.com/max/2000/1*FEGJtggT-EhA9Tbc3Wx07Q.jpeg)
@@ -99,3 +99,4 @@ Thanks to GNOME for hosting the GNOME Beers meetup at The Ship and Anokha, and E
 I’d also like to thank everyone who’s [supported GNOME](https://www.gnome.org/support-gnome/), those who have bought an app on AppCenter, our supporters on [Bountysource](https://salt.bountysource.com/teams/elementary) and [Patreon](https://www.patreon.com/elementary), and those who’ve purchased a copy of [elementary OS](https://elementary.io/) or merch from [our store](https://elementary.io/store/). You all make organizing and attending these sorts of hackfests possible!
 
 _All photos in this post were taken by me (Cassidy James Blaede). To the extent possible under law, I have waived all copyright and related or neighboring rights to these photos — i.e. they’re released to the public domain._
+

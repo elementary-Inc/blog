@@ -5,22 +5,22 @@ description: >-
   With elementary OS, your options are far more vast.
 date: '2016-12-21T05:40:27.722Z'
 author: cassidyjames
-image: https://cdn-images-1.medium.com/max/1200/0*1ZHF9b7tL2tEN3zq.jpg
+image: https://cdn-images-1.medium.com/max/2000/0*1ZHF9b7tL2tEN3zq.jpg
 ---
 
-In the previous piece I wrote about elementary OS for [Creative Work](https://medium.com/elementaryos/switching-from-macos-creative-work-864529af1958#.2p716agoz).
+> In the previous piece I wrote about elementary OS for [Creative Work]({{ site.baseurl }}{% post_url 2016-12-21-switching-from-macos-creative-work %}).
 
 In the Apple world, you have one choice for hardware: whatever Apple makes. With elementary OS, your options are far more vast; you can get anything from a tiny thin low-power notebook to massive powerful workstation and use elementary OS.
 
 ### Existing Mac hardware
 
-![](https://cdn-images-1.medium.com/max/1200/0*1ZHF9b7tL2tEN3zq.jpg)
+![](https://cdn-images-1.medium.com/max/2000/0*1ZHF9b7tL2tEN3zq.jpg)
 
 The simplest option if you are switching from macOS, however, is to use your existing Mac hardware. Apple’s modern MacBook, MacBook Air, MacBook Pro, Mac Mini, iMac, and Mac Pro are all Intel-based computers and should work well with elementary OS. Avi Romanoff, an elementary contributor has written up a guide for [installing elementary OS on a Mac](http://aroman.github.io/elementary-on-a-mac/).
 
 ### Dedicated Vendors
 
-![](https://cdn-images-1.medium.com/max/600/0*fw9dLzQjzY24n3Lw.jpg)
+![](https://cdn-images-1.medium.com/max/2000/0*fw9dLzQjzY24n3Lw.jpg)
 
 If you are looking for new hardware and Apple’s latest doesn’t interest you, there are several companies shipping great computers with elementary OS out of the box.
 
@@ -28,7 +28,7 @@ If you are looking for new hardware and Apple’s latest doesn’t interest you,
 
 ### Likely to Work Well
 
-![](https://cdn-images-1.medium.com/max/1200/0*WdrEdNzpauVPpmwT.jpg)
+![](https://cdn-images-1.medium.com/max/2000/0*WdrEdNzpauVPpmwT.jpg)
 
 There has been an uptick in recent years of companies making and shipping computers with Linux-based OSes out of the box. [System76](https://system76.com/) is probably the biggest and most popular of these; I’d be comfortable recommending any of their laptops or desktops for an elementary OS user. Because elementary OS is Ubuntu based and System76 fanatically supports Ubuntu (with hardware selection, firmware development, and driver tweaks specifically designed to work perfectly with Ubuntu), it works great.
 

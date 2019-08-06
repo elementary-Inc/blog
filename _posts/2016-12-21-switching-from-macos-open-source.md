@@ -3,18 +3,18 @@ title: 'Switching from macOS: Open Source'
 description: What exactly is Open Source about and why does it make elementary OS better?
 date: '2016-12-21T05:48:01.061Z'
 author: cassidyjames
-image: https://cdn-images-1.medium.com/max/800/0*Bebi8XYX_2GinLYy.png
+image: https://cdn-images-1.medium.com/max/256/0*Bebi8XYX_2GinLYy.png
 ---
 
-> So far in this five part series we’ve talked about [The Basics](https://medium.com/elementaryos/switching-from-macos-the-basics-210ca808ba53#.ovhktys7p) of elementary OS (and how it compares to macOS), using elementary OS as a [Development Environment](https://medium.com/elementaryos/switching-from-macos-developer-environment-5754e40b2ae5#.8kqzm6na5), how to tackle [Creative Work](https://medium.com/elementaryos/switching-from-macos-creative-work-864529af1958#.2p716agoz) in elementary OS, and what [Hardware](https://medium.com/elementaryos/switching-from-macos-hardware-5864552a569#.2ebujfzdg) to run elementary OS on.
+> So far in this five part series we’ve talked about [The Basics]({{ site.baseurl }}{% post_url 2016-12-20-switching-from-macos-the-basics %}) of elementary OS (and how it compares to macOS), using elementary OS as a [Development Environment]({{ site.baseurl }}{% post_url 2016-12-21-switching-from-macos-developer-environment %}), how to tackle [Creative Work]({{ site.baseurl }}{% post_url 2016-12-21-switching-from-macos-creative-work %}) in elementary OS, and what [Hardware]({{ site.baseurl }}{% post_url 2016-12-21-switching-from-macos-hardware %}) to run elementary OS on.
 
 Today I wrap up with one of the greatest advantages of elementary OS over macOS: the fact that it’s Open Source.
 
 ### What is Open Source?
 
-![](https://cdn-images-1.medium.com/max/800/0*Bebi8XYX_2GinLYy.png)
+![](https://cdn-images-1.medium.com/max/256/0*Bebi8XYX_2GinLYy.png)
 
-If you’re unfamiliar with open source (or just want a refresher), luckily we wrote about [what Open Source means](http://blog.elementary.io/post/152795861461/what-does-open-source-mean) back in 2013 and it’s just as relevant today. If you’re curious what Open Source software elementary OS builds from, we have a great [Open Source](https://elementary.io/open-source) page on our website.
+If you’re unfamiliar with open source (or just want a refresher), luckily we wrote about [what Open Source means](https://elementaryos.tumblr.com/post/152795861461/what-does-open-source-mean) back in 2013 and it’s just as relevant today. If you’re curious what Open Source software elementary OS builds from, we have a great [Open Source](https://elementary.io/open-source) page on our website.
 
 With those prefaces out of the way, let’s dive in!
 

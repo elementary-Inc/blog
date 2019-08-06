@@ -21,19 +21,19 @@ We actually first started engaging with Flatpak when it was called “XDG-App”
 
 Flatpak has certainly grown and matured a lot since mid-2015, and we’re excited to be working together with the community behind it even more.
 
-### Flatpak, _not_ Flathub
+## Flatpak, _not_ Flathub
 
 Before we get too far into it, we want to make sure there’s a clear distinction that we’ll be moving towards Flatpak (the packaging format) and _not_ Flathub (a single Flatpak-powered app repository). While Flathub is a great place to get popular cross-platform apps, we still want AppCenter to be the best place to get apps that are specially developed for elementary OS.
 
 Moving to Flatpak doesn’t mean moving away from our focus on native apps, from enabling developers to get paid with pay-what-you-want downloads, or from the online AppCenter Dashboard where each app is carefully tested, reviewed, and curated before being published to users in AppCenter. We’ll be providing our own hosted and curated Flatpak repo for AppCenter, much like we provide our own hosted and curated Debian repo today.
 
-### The Rub with Debs
+## The Rub with Debs
 
 Classic Debian packaging has served us pretty well for quite some time, but it comes with some security concerns and modern packaging formats have features that we want like parallel downloads and delta updates which make installing and updating apps faster and more reliable.
 
 The headlining feature that these modern formats offer is sandboxing: the idea of limiting an app’s access to your operating system. Sandboxing apps is essential for improving security and privacy in elementary OS and it’s much less straightforward to do with Debian packaging. On the other hand, modern packaging formats are built with sandboxing in mind from the start, and enforcing a sandbox on these apps is something we can more easily do at a platform level. As we mentioned [in a previous blog post](https://medium.com/elementaryos/a-new-native-file-chooser-196acf9b06f0), we’re already making steps to prepare for a sandboxed app future.
 
-### Why Not… (insert format here)?
+## Why Not… (insert format here)?
 
 Ah the age-old technology debate—especially on display in open source communities like ours: “Why use X, and not Y? Y has serious advantages, including but not limited to…” In our case, the most common question will probably be, “But why not Snaps?”
 
@@ -49,7 +49,7 @@ Still other formats like AppImage don’t handle the sandboxing, repository, rol
 
 All of these factors combined have made Flatpak the clear right choice for AppCenter and elementary OS. It’s important to remember, however, that this decision is about **the future of AppCenter and the out-of-the-box experience** of elementary OS. Users are _always_ free to use whatever formats they choose, though we’d always recommend they aim to learn and understand the risks of sideloading apps or using non-sandboxed formats.
 
-### How Will This Affect Users?
+## How Will This Affect Users?
 
 Because we already have strict [publishing requirements](https://github.com/elementary/houston/wiki/Before-You-Publish) and thoroughly test, review, and curate app submissions to AppCenter, the transition to Flatpak will ideally be transparent to users. They will still see the quality apps made for elementary OS in AppCenter, they’ll be able to pay what they want for them, and they’ll download and install in an apparently similar way. There are some advantages we anticipate for users, though, like much faster downloads and updates (thanks to diff-based downloads).
 
@@ -61,7 +61,7 @@ As previously mentioned, something new will be the use of sandboxing and Portals
 
 While GNOME Software now offers auto updates, this is not a feature of Flatpak itself and adopting Flatpak doesn’t imply implementing auto updates. That doesn’t mean that future versions of AppCenter couldn’t offer this feature, but it also doesn’t mean that you should expect to lose control of when you’d like to run updates as a result of this transition.
 
-### How Will This Affect Developers?
+## How Will This Affect Developers?
 
 First, we want to reiterate that there’s no change to the AppCenter submission process today; we’re still accepting and reviewing apps in the same way we’ve done since the beginning.
 
@@ -71,7 +71,7 @@ In the future, we’ll begin testing a Flatpak-based submission and distribution
 
 Something else new and interesting to consider for the future is the use of “beta” or “edge” Flatpak update channels where we may be able to assist developers in shipping test versions of future updates. We’ve seen plenty of interesting work happening with regards to providing Flatpaks as part of the CI process as well. Overall, it would be safe to assume that our developer community will likely benefit from easier and safer ways to preview in-development software.
 
-### Roadmap
+## Roadmap
 
 For now, two basic things need to happen for elementary OS to support Flatpak:
 

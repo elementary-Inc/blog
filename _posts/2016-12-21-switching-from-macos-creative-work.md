@@ -3,16 +3,16 @@ title: 'Switching from macOS: Creative Work'
 description: What it’s like to do creative work or work alongside a designer on elementary OS
 date: '2016-12-21T05:30:24.475Z'
 author: cassidyjames
-image: https://cdn-images-1.medium.com/max/1200/0*bfVV1MpSSLDvNQeI.jpg
+image: https://cdn-images-1.medium.com/max/2000/0*bfVV1MpSSLDvNQeI.jpg
 ---
 
-In the previous piece I wrote about elementary OS as a [Developer Environment](https://medium.com/elementaryos/switching-from-macos-developer-environment-5754e40b2ae5#.b3mt983fd).
+> In the previous piece I wrote about elementary OS as a [Developer Environment]({{ site.baseurl }}{% post_url 2016-12-21-switching-from-macos-developer-environment %}).
 
 Apple has historically targeted creatives with its “Pro” line, and many of you might be looking at elementary OS for your new daily setup. There are really two categories of people here: those who do new, original creative work, and those who are doing development but working alongside a designer.
 
-### Doing Creative Work
+## Doing Creative Work
 
-![](https://cdn-images-1.medium.com/max/1200/0*bfVV1MpSSLDvNQeI.jpg)
+![](https://cdn-images-1.medium.com/max/2000/0*bfVV1MpSSLDvNQeI.jpg)
 
 First, if you’re doing photo manipulation, vector design, or page layout, Gimp (photo editor), Inkscape (vector design tool), and Scribus (page layout/publishing) are all very capable tools. They’ve improved leaps and bounds in the past few years, so if you’ve used them in the past and weren’t a fan, they may be worth trying again. They’re all available right from AppCenter.
 
@@ -26,7 +26,7 @@ There are definitely compatible apps and formats, though. Gimp can open and expo
 
 And you can still definitely dual-boot with macOS or Windows, or install a VM like VirtualBox and run those other OSes, but that’s a bit outside of the scope of this series. :)
 
-### Working with a Designer
+## Working with a Designer
 
 If you’re simply working alongside a designer, I have some great news! I work with two Adobe-using designers almost daily: Kate at System76 and my wife. I never have to worry about using the same tools as them, and I believe it makes for higher quality, more reusable work.
 

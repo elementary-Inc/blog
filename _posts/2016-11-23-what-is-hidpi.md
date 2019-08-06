@@ -14,7 +14,7 @@ HiDPI displays are becoming more and more popular on computers: Apple’s recent
 
 Due to the general increase in price, graphics requirements, and power draw they’re not quite the default on computers yet, but we’re definitely moving in that direction. So, what’s the deal with HiDPI?
 
-### Pixel Doubling
+## Pixel Doubling
 
 At the heart of HiDPI is pixel doubling: drawing an image with twice as many _physical_ pixels in each dimension than requested in _virtual_ pixels.
 
@@ -25,7 +25,7 @@ For example, an icon or image might be 64 virtual pixels tall, but on a HiDPI di
 
 For user interfaces, it means they look more like crisp, perfect shapes than a collection of pixels. For photos, it makes them look more like a printed photograph than a digital image. For text, it makes it look more like a physical magazine than a computer screen. For video, it allows for more detail and immersiveness as the screen fades away and becomes a window into the film.
 
-#### Half Pixels are a Lie
+### Half Pixels are a Lie
 
 So, why pixel _doubling_ and not just increasing the density on a 15" display from, say, 1080p to something like 2880×1620? To get you user interface at the same physical size\* as on the 1080p display, you would have to scale it by 1.5×. That means a dot that is requested to be drawn at 1 virtual pixel now has to be drawn at 1.5 physical pixels.
 
@@ -38,11 +38,11 @@ Some argue that the pixels are small enough that the aliasing/blurring isn’t i
 
 _\*Some (i.e._ [_Linus Torvalds_](https://plus.google.com/+LinusTorvalds/posts/d7nfnWSXjfD?sfc=true)_) think this is “insane” and want 4_× _resolution to equal 4_× _real estate, even when that would mean tiny, unreadable fonts and icons. They can have their opinions, but for most consumers that would make the device less usable. And for the handful of technical users who want that, they can work around this by manually setting the scaling factor anyway._
 
-### 4K? Quad HD? 5K? UHD? Retina? HiDPI?
+## 4K? Quad HD? 5K? UHD? Retina? HiDPI?
 
 HiDPI is a great idea, but it’s a hard concept to explain to customers (and some manufacturers don’t even seem to get the benefits, see the next section). So the industry has come up with several different buzzwords in an effort to pitch it it customers, with varying success.
 
-#### Retina
+### Retina
 
 Arguably the most effective of these efforts comes from Apple with their Retina branding. They describe Retina as meaning so pixel-dense that the human retina can’t discern the individual pixels at a normal viewing distance. That’s accurate, but also a bit of marketing speak compared to how they use it in practice. For Apple, Retina seems to simply mean pixel-doubled.
 
@@ -50,7 +50,7 @@ When they announced their first Retina display, it had 4× the pixels (2× in ea
 
 Apple has stuck with this convention as far as I can tell on every Retina-branded display produced since; they’re all simply pixel-doubled from the previous display, and set to 2× scaling in software.
 
-#### 4K, Quad HD, 5K, and UHD
+### 4K, Quad HD, 5K, and UHD
 
 Technically, 4K, Quad HD, 5K, and UHD have nothing at all to do with pixel density and HiDPI. However, since they’re the terms used to sell projectors and TVs, computer manufacturers like to use them to upsell from the “lowly HD” displays they’re replacing.
 
@@ -58,11 +58,11 @@ Don’t pay much attention to these marketing terms; instead, look at the resolu
 
 As a general guide: Quad HD or 1440p (2560×1440) is the same real estate as 720p, but at 2×; 4K (3840×2160) is like 1080p at 2×; 5K (5120×2880) is like 1440p at 2×; UHD is not consistent at all — divide the device’s resolution by two to get the real estate. Now combine that with the physical size: 1080p can make sense at native resolution on 14" to 24" displays, so 4K makes sense as the HiDPI versions of those display sizes. 1440p can make sense on 24" to 30" displays, so 5K makes sense as HiDPI at those sizes. On smaller displays (around 11" to 13"), something like 1600×900 might make sense for the native resolution, so HiDPI could be 3200×1800 (which is incedentally what Lenovo and Dell have done with some of their 13" HiDPI displays).
 
-#### HiDPI
+### HiDPI
 
 In the desktop Linux world (and it would seem in Windows land as well), the term HiDPI is being adopted as the manufacturer-independent version of pixel-doubling or “Retina.” Few manufacturers are actively using this term (System76 is!), but software developers tend to know and use it. I’d love to see it picked up as an industry standard term if used properly.
 
-### Some Manufacturers Make Poor Decisions
+## Some Manufacturers Make Poor Decisions
 
 Higher resolution is not always better. In an effort to upsell from their lower-resolution displays, some manufacturers are jumping on the 4K bandwaggon without considering the phyiscal size and how pixel doubling works.
 
@@ -78,7 +78,7 @@ Oftentimes people ask if elementary OS will support non-integer scaling to cater
 
 **_Update:_** _Underlying GNOME technology is working on fractional scaling support when running under Wayland. Once elementary OS is using Wayland, we may support fractional scaling as a non-default hardware workaround. But we plan to always stick to real pixels by default._
 
-### The Takeaway
+## The Takeaway
 
 *   HiDPI ideally means pixel-doubling
 *   Half pixels are a lie
@@ -86,3 +86,4 @@ Oftentimes people ask if elementary OS will support non-integer scaling to cater
 *   Some manufacturers make poor decisions
 
 Let me know if this helped you out or if you have your own thoughts; [tweet at me](https://twitter.com/cassidyjames) or comment here. :)
+

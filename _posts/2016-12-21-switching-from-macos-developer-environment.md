@@ -3,12 +3,12 @@ title: 'Switching from macOS: Developer Environment'
 description: Part 2 of a 5-part series
 date: '2016-12-21T05:18:06.244Z'
 author: cassidyjames
-image: https://cdn-images-1.medium.com/max/600/0*NOxTGcFB2imrjWTx.png
+image: https://cdn-images-1.medium.com/max/2000/0*NOxTGcFB2imrjWTx.png
 ---
 
-The previous piece covered [The Basics](https://medium.com/elementaryos/switching-from-macos-the-basics-210ca808ba53#.z7ml7w1as).
+> The previous piece covered [The Basics]({{ site.baseurl }}{% post_url 2016-12-20-switching-from-macos-the-basics %}).
 
-> I am a professional web developer working on multiple continuously delivered node apps on GitHub, working alongside a professional back-end developer who manages servers and our Elixir API app (among several other projects), and a quickly growing marketing team with an amazing graphic designer/illustrator who designs everything you see on [System76.com](https://system76.com).
+I am a professional web developer working on multiple continuously delivered node apps on GitHub, working alongside a professional back-end developer who manages servers and our Elixir API app (among several other projects), and a quickly growing marketing team with an amazing graphic designer/illustrator who designs everything you see on [System76.com](https://system76.com).
 
 I say this because I work in a very fast environment alongside extremely skilled professionals and need my tools to keep up. elementary OS and the tools available to me do so expertly.
 
@@ -16,7 +16,7 @@ I say this because I work in a very fast environment alongside extremely skilled
 
 Code editors can be a divisive matter; if you’re set on one, it’s likely that you’re going to want to keep using it even on a new platform. If you’re not completely set (or would be willing to try something new), however, I highly recommend you check out the text editor built into elementary OS: Scratch.
 
-![](https://cdn-images-1.medium.com/max/600/0*NOxTGcFB2imrjWTx.png)
+![](https://cdn-images-1.medium.com/max/2000/0*NOxTGcFB2imrjWTx.png)
 
 Coming from macOS, you might not even consider the default text editor for your development setup. TextEdit doesn’t even have basic features like syntax highlighting. But you might be surprised to know that most of the development of elementary OS itself is done from within Scratch.
 
@@ -28,7 +28,7 @@ What if you prefer something like Vim, Atom, or Sublime? No worries, those are a
 
 The built-in Files app in elementary OS looks simple at first (and consequently avoids being overwhelming), but tucks away many advanced features.
 
-![](https://cdn-images-1.medium.com/max/600/0*FtQ_mk04juPQgoMT.png)
+![](https://cdn-images-1.medium.com/max/2000/0*FtQ_mk04juPQgoMT.png)
 
 The pathbar at the top of the Files window is not only a way to quickly copy or type the location of the current tab, it doubles as breadcrumbs. This is something that’s hidden by default in macOS Finder and takes up extra space when enabled. In Files it also does smart tab completion and deep search, which are great time savers. Plus, there are handy shortcuts like being able to long- or secondary-click any breadcrumb in the path to get access to folder-wide action as well as jump to its sibling folders.
 
@@ -40,7 +40,7 @@ Lastly, in any folder (or from its breadcrumb!) you can secondary click to get a
 
 ### Terminal
 
-![](https://cdn-images-1.medium.com/max/600/0*-U5_e_qBdeYu5LC2.png)
+![](https://cdn-images-1.medium.com/max/2000/0*-U5_e_qBdeYu5LC2.png)
 
 The Terminal app in elementary OS is simple yet powerful (noticing a trend?). You’ll first notice the beautiful dark UI and nice fonts, but next you’ll see tabs.
 
@@ -56,9 +56,9 @@ Lastly, I really love the smart copy-paste features, and it shows how smart desi
 
 It wouldn’t be a developer-oriented post without mentioning a package manager. Thankfully, elementary OS has one baked right in!
 
-![](https://cdn-images-1.medium.com/max/600/0*Sm3qxZOL5zW14MwS.png)
+![](https://cdn-images-1.medium.com/max/2000/0*Sm3qxZOL5zW14MwS.png)
 
-elementary OS is built on Ubuntu and Debian technologies like [Apt](http://t.umblr.com/redirect?z=https%3A%2F%2Fwiki.debian.org%2FApt&t=ODRiMGNhYzhiYjU5Y2E0MTFkZWMxZDcwZmRkZGFmODU2MmM4MTM3OSxNWFQ0TXhjaQ%3D%3D&b=t%3AibgnuWZACL4bF6AGZWyLrg&p=http%3A%2F%2Fblog.elementary.io%2Fpost%2F152671475281%2Fswitching-from-macos-developer-environment&m=0). If you’re not familiar, Apt is a system-wide package manager that everything from the app store, updates, and third party packages use. It’s kind of like having Homebrew installed, but baked into the whole OS.
+elementary OS is built on Ubuntu and Debian technologies like [Apt](https://wiki.debian.org/Apt). If you’re not familiar, Apt is a system-wide package manager that everything from the app store, updates, and third party packages use. It’s kind of like having Homebrew installed, but baked into the whole OS.
 
 For example, to get started with Git on elementary OS, you can just `sudo apt install git` from Terminal on a fresh machine, and seconds later you’re ready to go. Hitting **Update All** in AppCenter (or running `sudo apt update && sudo apt upgrade` if you prefer) updates not only your development packages, but your whole OS and all of your apps. You can also install any downloaded `.deb` file designed for the version of elementary OS (or underlying version of Ubuntu), similar to installing a “bottle” in brew parlance.
 
@@ -70,7 +70,7 @@ Much of this post has been focused on web or native elementary OS development. I
 
 [Android Studio](https://developer.android.com/studio/index.html) is officially supported on Linux. Its included instructions are for Ubuntu, but work the same on elementary OS due to their shared core. Facebook also has a [React Native](https://facebook.github.io/react-native/releases/0.21/docs/getting-started-on-linux.html) guide for Linux that should also work on elementary OS. [Electron’s](http://electron.atom.io/) docs include information for building from Linux, which again, works on elementary OS. [JetBrains](http://www.jetbrains.com/)’ several IDE products line IntelliJ all run on elementary OS.
 
-Essentially, most big companies are catering more and more to being able to develop on a Linux-based platform like elementary OS. Even Apple has released [Swift](http://t.umblr.com/redirect?z=https%3A%2F%2Fswift.org%2F&t=N2RiY2Y1Y2M1ZmVjZWU0ZDM4MWUxYjAzMDYzMjcwYmYwOTk0YzYyYyxNWFQ0TXhjaQ%3D%3D&b=t%3AibgnuWZACL4bF6AGZWyLrg&p=http%3A%2F%2Fblog.elementary.io%2Fpost%2F152671475281%2Fswitching-from-macos-developer-environment&m=0) for Linux. While they still require macOS for Xcode (so no easy iOS development without a virtual machine for now), it’s clear that Linux-based platforms like elementary OS are the future of both web and native development.
+Essentially, most big companies are catering more and more to being able to develop on a Linux-based platform like elementary OS. Even Apple has released [Swift](https://swift.org) for Linux. While they still require macOS for Xcode (so no easy iOS development without a virtual machine for now), it’s clear that Linux-based platforms like elementary OS are the future of both web and native development.
 
 Do you develop on elementary OS? What are your favorite tools/features? Let us know on social media!
 

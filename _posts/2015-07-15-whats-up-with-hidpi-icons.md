@@ -8,7 +8,7 @@ image: https://cdn-images-1.medium.com/max/2000/0*ZonrjOi3sFwlSjgL.png
 
 We’ve recently returned from [GNOME WestCoast Summit](http://blog.elementary.io/post/122973077471/gnome-west-coast-summit) with a wealth of information and one of the breakthroughs we made was with regard to HiDPI icons. While the update should soon land for elementary OS Freya users, I wanted to take the time to document the changes we made. Hopefully this information will be useful to other open desktops and I do want to bring to light an open question about how third party app developers should be distributing HiDPI compatible icons.
 
-### What is a HiDPI Icon?
+## What is a HiDPI Icon?
 
 _Just to be clear, this post is relatively technical and is mainly meant for other icon theme designers. As a user, you should never have to see or worry about what we’re doing behind the scenes ;)_
 
@@ -34,7 +34,7 @@ See how the downscaled 128px icon is super blurry compared to the 64px @2x icon?
 
 If you were confused by this part, that’s okay! It can be hard to wrap your head around until you see icons in action on a HiDPI display. It make take a couple of read-throughs for it to click.
 
-### The Work Around
+## The Work Around
 
 If you’ve ever used SVG (or font) icons on the web as a solution for HiDPI, you should be saying that since we ship SVG icons it should be magic and just work. However, at the moment Gtk seems to be built around shipping raster icons. Its default behavior is to work around this by grabbing a larger canvas size. But as illustrated above, this isn’t the behavior we want. It makes our icons look ugly. So what can we do?
 
@@ -48,10 +48,11 @@ Luckily, the icon.theme spec has the ability for us to specify folders that cont
 
 That should do the trick! Your icon theme should now support HiDPI properly, assuming you’re using SVG icons. If you’re using a non-scalable format like PNG, you’ll actually have to go through and create real @2x assets. This is a good time to reconsider that choice since it’s a huge amount of work. Imagine when @3x displays come out, you’ll have to do it all at that size too.
 
-### The Question
+## The Question
 
 My big open ended question for the open desktop community is: What about 3rd party developers? I’m unsure what to tell them to distribute with their apps. How do we make sure their icons work as well? This is something I think we’ll need to come together and make sane decisions for. Decisions that will work across all our desktops and the many different icon sizes and styles that we all provide.
 
-### Wait. Wat. Halp
+## Wait. Wat. Halp
 
 If you’re totally lost right now and need help making your icons work on HiDPI, please feel free to reach out to us on social media we’ll do our best to sort you out :)
+

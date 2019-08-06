@@ -8,7 +8,7 @@ image: https://cdn-images-1.medium.com/max/1978/1*5_gDVCKTqw5t8LU3_l4uzg@2x.png
 
 It’s time for another monthly updates roundup post! This month we added several new settings, redesigned some dialogs, smashed bugs, and more. Read ahead to get the details.
 
-### System Settings
+## System Settings
 
 In February [we previewed some of the work](https://medium.com/elementaryos/accessibility-features-are-just-features-30b7ad740eb) that we had done redesigning and expanding Mouse & Touchpad settings. This includes breaking the settings up into three separate tabs, adding new settings like keypad pointer control, long-press secondary click, and the ability to ignore the touchpad when an external mouse is connected.
 
@@ -29,7 +29,7 @@ Display settings also got a minor facelift with some new, brighter, and higher-c
 
 Lastly, we fixed a crash in Sound settings affecting some devices such as the HTC Vive and we fixed an issue in Bluetooth settings that prevented some devices from pairing such as certain Logitech keyboards.
 
-### For Developers
+## For Developers
 
 We now subtly style `destructive-action` classed buttons in `Gtk.ActionBar`. They become red on hover and have a red background when focused.
 
@@ -40,7 +40,7 @@ We now subtly style `destructive-action` classed buttons in `Gtk.ActionBar`. The
 
 We also now support `osd` classed `Gtk.Progressbars` like the ones seen in GNOME Builder and Epiphany.
 
-### And More
+## And More
 
 Fix moving window to another workspace not updating panel opacity. Fix an issue that required pressing F2 several times in order to start renaming in Files. Music and Photos saw a number of dialogs redesigned and both now use the new [FileChooserNative API we talked about previously](https://medium.com/elementaryos/a-new-native-file-chooser-196acf9b06f0). Music also contains a small fix to help remember its window size more accurately.
 
