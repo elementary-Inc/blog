@@ -100,7 +100,7 @@ Progress and loading states on entries (like the address bar of browsers when a 
 
 ### Icons
 
-The most obvious icon change is the newly redesigned wired networking icons, visible if your device has Ethernet or another wired network. In the panel, the new icon is simpler and clearer—instead of the complex and hard-to-align [ISO IEC-60417-5988 "Computer network" symbol](https://www.iso.org/obp/ui#iec:grs:60417:5988), we use a simpler metaphor that has been adopted by other platforms like Android and macOS.
+The most obvious icon change is the newly redesigned wired networking icons, visible if your device has Ethernet or another wired network. In the panel, the new icon is simpler and clearer—instead of the complex and hard-to-align [ISO IEC-60417-5988 "Computer network" symbol](https://www.iso.org/obp/ui#iec:grs:60417:5988), we use a simpler metaphor that has been adopted by other platforms like Android, macOS, and Chrome OS.
 
 <figure class="half" markdown="1">
 
