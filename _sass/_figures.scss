@@ -12,6 +12,7 @@ figure {
   img {
     display: inline;
     transition: transform 250ms ease;
+    vertical-align: middle;
 
     &:active,
     &:focus {
