@@ -9,7 +9,7 @@ image: https://cdn-images-1.medium.com/max/640/1*Er3Sv7msnJQLk0gdDy0zWg.png
 It’s official: there’s been over 20 apps published through [AppCenter Dashboard](https://developer.elementary.io/) with more in development and on the way. Developers are excited that there is finally a fast and simple way to ship great, native, Open Source apps and earn an income while doing it. If you have an idea, now is the time to get it out there. But where do you begin? What should you look out for? And are there any little secrets you should know? Read on to find out!
 
 <figure class="card" markdown="1">
-![](https://cdn-images-1.medium.com/max/640/1*Er3Sv7msnJQLk0gdDy0zWg.png)
+![AppCenter by elementary](https://cdn-images-1.medium.com/max/640/1*Er3Sv7msnJQLk0gdDy0zWg.png)
 </figure>
 
 ## Getting Started
@@ -27,7 +27,7 @@ AppCenter Dashboard enforces the Reverse Domain Name Notation (RDNN) for package
 The first thing that people will see when they go to discover your app is your [banner colors](https://elementary.io/docs/code/getting-started#appdata). Try to stand out with a unique and creative color combination (hint: blue is not a creative color) and ship an icon and isn’t based on a square.
 
 <figure markdown="1">
-![Try something other than blue and describe what people do (or don’t do) when they have your app](https://cdn-images-1.medium.com/max/1600/1*iqNQTRGSh_9uvCOlHUbyJQ.png)
+![Sample banner](https://cdn-images-1.medium.com/max/1600/1*iqNQTRGSh_9uvCOlHUbyJQ.png)
 <figcaption>Try something other than blue and describe what people do (or don’t do) when they have your app</figcaption>
 </figure>
 
