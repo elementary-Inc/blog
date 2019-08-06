@@ -5,6 +5,7 @@ description: >-
   own hard work. Cassidy attended the Parental Controls &…
 date: '2019-04-02T23:32:58.869Z'
 author: danrabbit
+image: https://cdn-images-1.medium.com/max/800/1*GsVXELsVOY8vFzJJFfFkxw@2x.png
 ---
 
 While we made a pretty [big announcement on April 1]({{ site.baseurl }}{% post_url 2019-04-01-elementary-appcenter-flatpak %}), March wasn’t without its own hard work. Cassidy attended the [Parental Controls & Metered Data hackfest]({{ site.baseurl }}{% post_url 2019-03-22-parental-controls-metered-data-hackfest %}), plus we pushed out several updates to elementary OS:
@@ -65,7 +66,7 @@ We also improved keyboard navigation, fixed the build system for the `gnomekbdui
 
 This one’s a pretty significant update! We overhauled the Output Devices logic, increasing available devices—such as speakers or audio outputs over HDMI and DisplayPort—and no longer burying devices under “Ports”. In our testing this makes more sound output devices available on more hardware. If you’ve ever had issues getting HDMI, DisplayPort, or other unique audio setups to work well, this one is for you.
 
-![](https://cdn-images-1.medium.com/max/800/1*eSbWcKZ7UBkxfQpaGwEX3g@2x.png)
+![](https://cdn-images-1.medium.com/max/1600/1*eSbWcKZ7UBkxfQpaGwEX3g@2x.png)
 
 And of course, we’ve updated translations.
 
