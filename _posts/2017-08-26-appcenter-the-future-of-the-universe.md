@@ -3,6 +3,7 @@ title: AppCenter & the Future of the Universe
 description: How elementary OS can “cross the chasm”
 date: '2017-08-26T21:19:01.500Z'
 author: danrabbit
+image: https://cdn-images-1.medium.com/max/1600/1*yICO56gjmJFC-WDCALeGIw.png
 ---
 
 <figure class="full-bleed" markdown="1">
@@ -28,7 +29,7 @@ Just as in his talk, in this blog post I’d like to concentrate on the first po
 
 About 3 months ago, we launched a new version of elementary OS and a new service that we call AppCenter Dashboard. In that time, we’ve helped developers publish nearly 40 new apps.
 
-![](https://cdn-images-1.medium.com/max/1200/1*yICO56gjmJFC-WDCALeGIw.png)
+![Apps](https://cdn-images-1.medium.com/max/1600/1*yICO56gjmJFC-WDCALeGIw.png)
 
 What’s special about these apps isn’t just that they are fast and native apps instead of glorified web apps, that they are all Open Source on GitHub, or that they are custom-tailored for elementary OS instead of being cross-platform ports. What’s really great about them is that there are several, high quality productivity apps for designers, developers, students, and more. The developers publishing their apps through AppCenter Dashboard continue to make elementary OS more useful to more people each day.
 
