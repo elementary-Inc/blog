@@ -27,5 +27,8 @@
     {% endif %}
   </div>
   <time class="post-date" datetime="{{ date | date:"%Y-%m-%d" }}">{{ date | date: "%a, %b %e, %Y" }}</time>
+  {% if include.content %}
+    {% include read-time.html content=include.content %}
+  {% endif %}
 </div>
 

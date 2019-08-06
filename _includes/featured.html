@@ -13,7 +13,11 @@
       <h3>{{ post.subtitle }}</h3>
     {% endif %}
 
-    {% include byline.html author=post.author date=post.date %}
+    {% include byline.html
+      author=post.author
+      date=post.date
+      content=post.content
+    %}
   </header>
 
   {% unless post.image %}
