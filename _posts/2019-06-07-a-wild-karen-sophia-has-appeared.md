@@ -1,6 +1,6 @@
 ---
 title: "A Wild Karen Sophia Has Appeared!"
-subtitle: "And she’s bringing stickers back"
+description: "And she’s bringing stickers back"
 author: karensophia
 image: https://miro.medium.com/max/1080/1*0jRXojJqL5SclbrgoFySiA.jpeg
 ---

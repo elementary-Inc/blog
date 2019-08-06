@@ -1,6 +1,6 @@
 ---
 title:  "Get Settled into elementary OS with Onboarding"
-subtitle: "Designed to improve the first-run experience"
+description: "Designed to improve the first-run experience"
 image: https://miro.medium.com/max/1120/1*OsUdeEafTuWof7e_jdEeNg@2x.png
 layout: post
 author: cassidyjames
@@ -108,24 +108,51 @@ Since longer blocks of text are harder to read when centered, one requirement of
 
 Once we settled on the general design, iterating went relatively quickly. We added a Night Light view, but the generic display icon didn’t feel right, and we realized we didn’t have an existing full-color icon for Night Light. Daniel crafted one, and we added the view:
 
-_**Left:** Initial Night Light view \| **Right:** Current Night Light view with new icon_
+<figure class="half" markdown="1">
+![](https://cdn-images-1.medium.com/max/600/1*6cn30Tm8IYjfpWgnOmhONg@2x.png)
+![**_Left:_** Initial Night Light view | **Right:** Current Night Light view with new icon](https://cdn-images-1.medium.com/max/600/1*dZ6zFyWk48YBA-tjoB3V-g@2x.png)
+<figcaption markdown="1">
+**Left:** Initial Night Light view | **Right:** Current Night Light view with new icon
+</figcaption>
+</figure>
 
 For Housekeeping, we initially copied the general layout from System Settings. However, it didn’t feel right in the much smaller space we had in Onboarding, and the copy felt really redundant.
 
-_Housekeeping in System Settings_
+<figure markdown="1">
+![Housekeeping in System Settings](https://cdn-images-1.medium.com/max/1200/1*qWZHCeDnBkbDKvg7E0RZUw.png)
+<figcaption>Housekeeping in System Settings</figcaption>
+</figure>
+
 
 We also didn’t have a distinct icon for Housekeeping, and had previously been using a too-small version of the edit-clear icon. Dan resolved this with a redrawn and properly-hinted Housekeeping icon, and we reworked the copy and layout to be less repetitive:
-Left: Initial Housekeeping view | Right: Refined Housekeeping view
 
-_Welcome and Finished Views_
+<figure class="half" markdown="1">
+![](https://cdn-images-1.medium.com/max/600/1*xFf_YTgsqtHJAeYQFWTBYQ@2x.png)
+![**Left:** Initial Housekeeping view | **Right:** Refined Housekeeping view](https://cdn-images-1.medium.com/max/600/1*5tVjv1f9GqHfHmYjFYfJlQ@2x.png)
+<figcaption markdown="1">
+**Left:** Initial Housekeeping view | **Right:** Refined Housekeeping view
+</figcaption>
+</figure>
+
+## Welcome and Finished Views
 
 Having a mostly-blank “All Done!” view wasn’t the most helpful thing, but we wanted a landing point for “Skip” instead of just closing—this way, the user could at least go back to a previous view if they wanted to. So initially we added some common links users might want when first using elementary OS: our Learning the Basics guide, Support page, and Get Involved page.
+
+<figure class="half" markdown="1">
+![](https://cdn-images-1.medium.com/max/600/1*CB5IclpKQITaHWVNKPeEQg.png)
+![](https://cdn-images-1.medium.com/max/600/1*wXTnEP6zrb81-UciJDUytQ@2x.png)
+<figcaption>Early Welcome and Finished Views</figcaption>
+</figure>
 
 At some point, we realized that rerouting people to System Settings right off the bat was not the most helpful thing, and that if someone wanted more information about elementary OS, up front would be more helpful than after they’d spent time stepping through Onboarding. Plus, opening System Settings was a more natural jumping off point once you’ve seen some of the settings and features you can use.
 
 So we swapped the contents of the Welcome and Finished screens, and refined their copy to better explain the contents. We also added icons as sort of bullet points to the Welcome links to make them more distinct and visually interesting:
 
-_More useful, swapped views_
+<figure class="half" markdown="1">
+![Welcome to elementary OS](https://cdn-images-1.medium.com/max/600/1*OsUdeEafTuWof7e_jdEeNg@2x.png)
+![Ready to Go](https://cdn-images-1.medium.com/max/600/1*XMhBb2LH7zaW1VFQeORMow@2x.png)
+<figcaption>More useful, swapped views</figcaption>
+</figure>
 
 You might also notice that at some point during all of this iterating, we changed “Skip” to “Skip All” to be more clear that you’re not just skipping a single view, but all the Onboarding views.
 
@@ -133,6 +160,11 @@ You might also notice that at some point during all of this iterating, we change
 ### (Currently) Unused Experiments
 
 During the iterative process, you typically end up with unused concepts or experiments—and Onboarding is no exception. Here are some things we briefly explored, but aren’t currently implementing:
+
+<figure class="half" markdown="1">
+![](https://cdn-images-1.medium.com/max/600/1*ZYGe5hcp4oy-rmWlUkT_5A@2x.png)
+![](https://cdn-images-1.medium.com/max/600/1*AtC0Zh1ezJqMQncfiCEHAw@2x.png)
+</figure>
 
 **A unique color for each view.** It could work, but ends up being difficult when views’ icons would share the same color or don’t have a natural accent. Plus we weren’t in agreement whether or not we liked the sort of pastel palette needed to retain high contrast.
 
