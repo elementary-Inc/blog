@@ -3,6 +3,7 @@ title: 'Switching from macOS: Creative Work'
 description: What it’s like to do creative work or work alongside a designer on elementary OS
 date: '2016-12-21T05:30:24.475Z'
 author: cassidyjames
+image: https://cdn-images-1.medium.com/max/1200/0*bfVV1MpSSLDvNQeI.jpg
 ---
 
 In the previous piece I wrote about elementary OS as a [Developer Environment](https://medium.com/elementaryos/switching-from-macos-developer-environment-5754e40b2ae5#.b3mt983fd).
