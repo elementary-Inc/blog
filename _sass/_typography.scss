@@ -99,3 +99,17 @@ header h2 + h3 {
   opacity: 0.5;
 }
 
+blockquote {
+  max-width: var(--content-width);
+  margin-left: auto;
+  padding-left: 1em;
+  margin-right: auto;
+  font-style: italic;
+  border-left: 0.125em solid var(--accent-color);
+
+  em,
+  i {
+    font-style: normal;
+  }
+}
+
