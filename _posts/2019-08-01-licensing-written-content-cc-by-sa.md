@@ -1,6 +1,6 @@
 ---
 title: Licensing for our Written Content
-subtitle: Using Creative Commons Attribution Share-Alike
+description: Using Creative Commons Attribution Share-Alike
 author: cassidyjames
 image: https://i.snap.as/qt9Qxoo.png
 

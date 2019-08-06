@@ -1,6 +1,6 @@
 ---
 title: "Juno Updates for June, 2019"
-subtitle: "A Few Little Big Fixes"
+description: "A Few Little Big Fixes"
 author: peteruithoven
 image: https://miro.medium.com/max/506/1*bAIB3mJJqPIk03TJCqfAWA.gif
 ---
