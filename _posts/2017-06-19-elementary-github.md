@@ -1,8 +1,6 @@
 ---
 title: elementary + GitHub
-description: >-
-  We’re excited to finally say that elementary has completed our move and now
-  lives on GitHub! We’ve migrated over 70 repositories from…
+description: We’ve completed our move
 date: '2017-06-19T16:19:35.528Z'
 author: danrabbit
 image: https://cdn-images-1.medium.com/max/1000/1*zvwgIycD5ePCTv1fUNdeJg.png
