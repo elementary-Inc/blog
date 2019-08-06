@@ -1,8 +1,7 @@
 ---
 title: 'Juno Updates for March, 2019'
 description: >-
-  While we made a pretty big announcement on April 1, March wasn’t without its
-  own hard work. Cassidy attended the Parental Controls &…
+  While we made a pretty big announcement on April 1, March wasn’t without its own hard work
 date: '2019-04-02T23:32:58.869Z'
 author: danrabbit
 image: https://cdn-images-1.medium.com/max/800/1*GsVXELsVOY8vFzJJFfFkxw@2x.png
