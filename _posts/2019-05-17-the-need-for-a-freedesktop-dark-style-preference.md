@@ -16,7 +16,7 @@ However, there’s a groundswell for user-determined dark style preference acros
 
 **_Note:_** _I’m explicitly using the language “Dark Style Preference” for a reason! As you’ll read further on, it’s important that this is treated as a user “preference,” not an explicit “mode” or strictly-enforced “setting.” It’s also not a “theme” in the sense that it just swaps out some assets, but is a way for the OS to support a user expressing a preference, and apps to respond to that preference._
 
-### Research
+## Research
 
 In my time contributing to elementary and GNOME, I’ve become familiar with pleas from users to implement official support for arbitrary themes — while that itself is a large and controversial topic, I have been working over the past few years to better understand the _why_ behind these requests. In addition to listening to folks across the elementary, Pop!\_OS, and GNOME issue trackers, social media, and in-person at hackfests, meetups, and conferences, I also decided to conduct a study to see if I could identify patterns in the data; over 1,500 users of various OSes and environments like Android, GNOME, Ubuntu, and macOS (and dozens more) participated, giving me a decent look into this group of users. I wanted to look into behaviors and opinions around three distinct areas of user interfaces: custom styles, dark modes, and night light modes.
 
@@ -27,11 +27,11 @@ Clearly there’s an accessibility and usability angle here. And as with [other 
 [**Accessibility Features Are Just Features**
 _An OS-wide curb-cutting effort_medium.com](https://medium.com/elementaryos/accessibility-features-are-just-features-30b7ad740eb "https://medium.com/elementaryos/accessibility-features-are-just-features-30b7ad740eb")[](https://medium.com/elementaryos/accessibility-features-are-just-features-30b7ad740eb)
 
-### Prior Art
+## Prior Art
 
 Luckily for us, other platforms have settled into strikingly similar implementations of dark style preferences, meaning we don’t have to guess what both users and developers who have used or developed for any other major platforms might expect.
 
-#### macOS
+### macOS
 
 macOS implemented a system-wide dark style in two phases. First, the system UI (like the dock and panel) followed a user-settable dark preference. Second, Apple implemented it in their first-party default apps and opened it up to third party apps.
 
@@ -45,11 +45,11 @@ It’s also important to note that macOS doesn’t currently do anything around 
 
 The end result on macOS: a very consistent system with a few standout light third-party apps, but those are quickly disappearing as developers get on board and build their apps against the latest version of macOS. Light web content is a larger issue, but Apple is working to help resolve that with new web standards that are being implemented in Safari, Apple Mail, Chrome, Firefox, and underlying web engines like WebKit, Gecko, and Blink.
 
-#### Windows
+### Windows
 
 Windows 10 looks a bit messier than macOS due to its wide use of multiple toolkits, but the idea is largely the same to macOS. A user can set a dark style preference, and that’s enabled in the system UI plus “modern UI” apps by default (since it was a supported feature of that toolkit from day one). Some apps with the older Windows toolkit (like Explorer, their file manager) also hook off that preference and render themselves in a dark style. Other apps like Firefox, Chrome, and Edge also hook off of that preference and—just like on macOS—use the new web standards to let web pages render in a dark style as well.
 
-#### Android
+### Android
 
 Similar to macOS, Android implemented a dark style in two phases: first the system UI, then opening up the API to apps.
 
@@ -59,23 +59,23 @@ In Android 10 Q, Google is shipping this much more prominently as a user-togglab
 
 Android also includes a sort of “smart invert” option in the toolkit that inverts the brightness but not colors or images, and developers can use that as a starting point for their own dark style if they choose.
 
-#### iOS
+### iOS
 
 Much like macOS before it, iOS 13 introduced its own dark style preference. It behaves much the same as on macOS with the system UI getting a darker tint. Apps are encouraged to build against the latest iOS and use system controls when possible for automatic dark style support, but to also extensively test and adapt their apps where needed for both light and dark styles.
 
-#### Web
+### Web
 
 Dark style support—not just for app UI but also websites—is coming soon across upcoming versions of all major browsers on macOS, Windows, and Android. If the browser is requesting a dark style (because the OS is), _and_ the website has expressed support for a dark style, then the browser provides dark-styled standard widgets like buttons and text entries, and the website uses its dark styles as defined in a CSS media query. Web developers can also hook off this media query using JavaScript and do pretty much whatever they want to cater to a dark UI.
 
-### Key Requirements
+## Key Requirements
 
 Across all implementations, there are several commonalities that both developers and users will be getting used to regarding a dark style preference. These form the basis of the key requirements for a FreeDesktop implementation:
 
-#### Desktop-Wide
+### Desktop-Wide
 
 If the user is typically in dark environments or uses apps that are primarily dark, they want their software to match that experience as much as possible. Thus, a desktop-wide preference is required to signal to apps that the user would like a dark style to be used if supported. Per-app toggles can still be used for certain tools where there may be a strong user preference to go _against_ the desktop-wide preference, but in most cases, apps should listen to and respect the desktop-wide preference. By making it a desktop-wide concern (and not per-app or per-toolkit), there is also a natural place for the system UI and app UI to be kept in sync, as well as implementations across toolkits and desktop environments.
 
-#### Developer Opt In
+### Developer Opt In
 
 Apps can’t be expected to just work when swapping out their underlying styling. Developers must opt their apps in, as we see on macOS, Android, Windows, and in web standards.
 
@@ -83,23 +83,23 @@ Toolkits should not force this on apps by default, but allow them to know the us
 
 To make this easier for developers, the toolkit can provide a new property to inform the app that the user has requested a system-wide dark style, as is done in Android, macOS, and Windows. On the web, this is the media query for CSS, and developers can hook off it with JavaScript.
 
-#### Cross-Toolkit, Cross-Desktop
+### Cross-Toolkit, Cross-Desktop
 
 For the FreeDesktop, this effort and implementation must span toolkits and desktop environments for it to be effective and taken seriously by large ISVs and web developers.
 
 The latest versions of Firefox and Chrome already hook off the macOS and Windows system-wide dark preferences, opting their UI into a dark style while exposing it to websites via web standards. If we expect the same support from these browsers on FreeDesktops, we must standardize the specifiation and make it as simple as possible for these apps to hook into. Similarly, cross-desktop technologies like Electron will benefit if it is implemented in a way that is similar to what they are used to on macOS and Windows.
 
-#### Dark, Please
+### Dark, Please
 
 Lastly, a dark style preference must be nuanced both in how it is implemented and how it is communicated to users. It’s explicitly _not_ a setting between always light and always dark—without the user setting a preference for a dark style, the OS and apps should render exactly how they do today. That means if your OS shell (like GNOME Shell) is dark, it should stay dark. If your app is usually dark because it’s media-centric (like a photo viewer or video editor), it should keep its look by default. If the user sets the dark preference, apps and UI that were previously light should now become dark.
 
 Similarly, when communicating this preference to users, it shouldn’t be a choice between “light” and “dark.” Instead, it should be phrased as “prefer dark style” or similar. In elementary OS, we could use a labeled switch, plus some explanatory copy to further clarify the preference to users.
 
-### Working Prototype
+## Working Prototype
 
 Over the past several months, I’ve been following this work and working on prototypes within elementary OS to enable it; you can view the code in the `prefer-dark` branches on the elementary GitHub, or in the [Prefer Dark Style project](https://github.com/orgs/elementary/projects/43). Here’s what I have — with a reminder that this is all **unmerged prototype work**:
 
-#### User-settable preference in System Settings
+### User-settable preference in System Settings
 
 This toggles the underlying desktop-wide setting, plus provides the user with expectations.
 
@@ -113,7 +113,7 @@ Prototype “Prefer dark style” toggle in _System Settings_ → _Desktop_ → 
 
 Note that this is different from forcing the GTK stylesheet variant, or changing the entire stylesheet out from under the desktop! It simply toggles a GSetting that other implementations can also hook off of.
 
-#### Shell components
+### Shell components
 
 Components of the elementary OS desktop shell like the panel, screenshot dialog, shortcut overlay, and agent/permission dialogs have been updated to listen to this preference and request the dark GTK variant in response.
 
@@ -131,7 +131,7 @@ Components of the elementary OS desktop shell like the panel, screenshot dialog,
 
 You’ll recall this is typically the first step in a two-phase implementation as seen in macOS and Android.
 
-#### Default apps
+### Default apps
 
 Several default apps on elementary OS have been updated to listen to this preference and respond by requesting the dark variant from GTK, sometimes with minor stylesheet update to support the new dark styles.
 
@@ -148,7 +148,7 @@ Several default apps on elementary OS have been updated to listen to this prefer
 
 These include simpler apps like Calculator and Camera, as well as prototypes for much more complex apps like Files, Music, and Mail.
 
-#### Third party apps
+### Third party apps
 
 I’ve updated several of my own apps to listen to this preference and request the dark GTK variant in response.
 
@@ -180,7 +180,7 @@ I’ve updated several of my own apps to listen to this preference and request t
 
 On the other hand, some apps don’t need to do anything at all. [Clairvoyant](https://appcenter.elementary.io/com.github.cassidyjames.clairvoyant/) is supposed to be reminiscent of a magic 8-ball, so it’s always dark. My browser [Ephemeral](https://appcenter.elementary.io/com.github.cassidyjames.ephemeral/) has very custom styles that are intentionally always a dark blueish-purple; in this case, there’s nothing for me to do until I can toggle a WebKit property for web content itself. Lastly, [Principles](https://appcenter.elementary.io/com.github.cassidyjames.principles/) is a unique applet that has a transparent background and extensive custom styles (like a desktop widget), so supporting a system-wide dark style isn’t directly relevant.
 
-#### Still needs work
+### Still needs work
 
 I’ve been secretly using this setup for a few months now, and it feels pretty close in my view. However, there are few areas that aren’t quite ready for users:
 
@@ -198,7 +198,7 @@ That might seem like a lot, but formalizing the spec and getting others on board
 
 ![](https://cdn-images-1.medium.com/max/1200/1*oaqNOIWFSvAnTk_sDqmskQ.png)
 
-### What’s Next: GUADEC & Formalizing the Spec
+## What’s Next: GUADEC & Formalizing the Spec
 
 The working prototype was implemented on elementary OS, but adheres to what I expect could become a FreeDesktop.org specification, and be implemented in other projects like GNOME, KDE, XFCE, Firefox, Chrome, Electron, etc. **An example specification** [**is available here**](https://github.com/elementary/os/wiki/Dark-Style-Preference)**, and is open to collaboration.** Understandably GSettings is not likely the most cross-desktop and future-proof solution, but a similar idea should be followed in the final spec.
 
