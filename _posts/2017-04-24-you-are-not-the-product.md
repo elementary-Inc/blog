@@ -1,8 +1,9 @@
 ---
-title: You Are Not The Product
+title: You Are Not the Product
 description: A reminder about our stance on advertising and tracking
 date: '2017-04-24T19:29:52.137Z'
 author: danrabbit
+image: https://cdn-images-1.medium.com/max/1600/1*cLwxBJhf6MKETmbqR6ilnw.jpeg
 ---
 
 <figure class="full-bleed" markdown="1">

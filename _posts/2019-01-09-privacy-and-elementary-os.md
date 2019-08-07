@@ -89,7 +89,10 @@ Lastly, I’d like to remind you how we can have this stance: our users are not 
 
 Daniel has written about this a bit more in depth:
 
-[**You Are Not The Product** _A reminder about our stance on advertising and tracking_](https://medium.com/elementaryos/you-are-not-the-product-1d28c485175f "https://medium.com/elementaryos/you-are-not-the-product-1d28c485175f")[](https://medium.com/elementaryos/you-are-not-the-product-1d28c485175f)
+<div>
+{% assign post = site.posts | where:"slug", "you-are-not-the-product" | first %}
+{% include featured.html post=post %}
+</div>
 
 By ensuring our relationship and funding model is clear and direct with users, we eliminate all business incentives to harvest data. And that’s critical in order to actually respect and defend your privacy.
 
