@@ -1,5 +1,5 @@
 a.featured {
-  border-bottom: 1px solid var(--silver-500);
+  border-bottom: 1px solid var(--black-300);
   color: inherit;
   display: block;
   font-size: 0;
@@ -60,7 +60,7 @@ a.featured {
   }
 
   .featured-image {
-    background: var(--silver-200);
+    background-color: var(--silver-200);
     background-origin: border-box;
     background-position: 50%;
     background-size: cover;
@@ -83,7 +83,7 @@ a.featured {
     }
 
     @media (prefers-color-scheme: dark) {
-      background: var(--silver-900);
+      background-color: var(--silver-900);
       border: 1px solid rgba(0, 0, 0, 0.3);
     }
 

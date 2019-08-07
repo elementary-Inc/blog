@@ -8,7 +8,7 @@ image: https://cdn-images-1.medium.com/max/1000/1*zvwgIycD5ePCTv1fUNdeJg.png
 
 We’re excited to finally say that elementary has completed our move and now lives [on GitHub](https://github.com/elementary)! We’ve migrated over 70 repositories from Launchpad and bzr. So what does that really mean?
 
-<figure markdown="1">
+<figure class="card" markdown="1">
 ![GitHub Logo](https://cdn-images-1.medium.com/max/1000/1*zvwgIycD5ePCTv1fUNdeJg.png)
 </figure>
 
