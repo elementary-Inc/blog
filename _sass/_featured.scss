@@ -64,7 +64,7 @@ a.featured {
     background-origin: border-box;
     background-position: 50%;
     background-size: cover;
-    border: 1px solid rgba(0,0,0,0.15);
+    border: 1px solid rgba(0, 0, 0, 0.15);
     display: inline-block;
     height: 320px;
     margin-bottom: 1rem;
@@ -84,7 +84,7 @@ a.featured {
 
     @media (prefers-color-scheme: dark) {
       background: var(--silver-900);
-      border: 1px solid rgba(0,0,0,0.3);
+      border: 1px solid rgba(0, 0, 0, 0.3);
     }
 
     img {
