@@ -1,3 +1,5 @@
+{% unless page.thanks %}
+
 
 ---
 
@@ -10,3 +12,4 @@ _As always, thank you everyone who’s bought an app on [AppCenter], our support
 [our store]: https://elementary.io/store/
 [Get Involved]: https://elementary.io/get-involved
 
+{% endunless %}
