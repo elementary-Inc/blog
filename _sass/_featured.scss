@@ -61,7 +61,10 @@ a.featured {
 
   .featured-image {
     background: var(--silver-200);
-    border: 1px solid var(--silver-300);
+    background-origin: border-box;
+    background-position: 50%;
+    background-size: cover;
+    border: 1px solid rgba(0, 0, 0, 0.15);
     display: inline-block;
     height: 320px;
     margin-bottom: 1rem;
@@ -81,7 +84,7 @@ a.featured {
 
     @media (prefers-color-scheme: dark) {
       background: var(--silver-900);
-      border-color: var(--silver-700);
+      border: 1px solid rgba(0, 0, 0, 0.3);
     }
 
     img {
