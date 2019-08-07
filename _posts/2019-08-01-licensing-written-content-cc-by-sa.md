@@ -2,7 +2,7 @@
 title: Licensing for our Written Content
 description: Using Creative Commons Attribution Share-Alike
 author: cassidyjames
-image: https://i.snap.as/qt9Qxoo.png
+image: https://i.snap.as/RduFRru.png
 
 facebook: https://www.facebook.com/elementaryos/posts/2623525414345938
 mastodon: https://mastodon.social/@elementary/102562197489458529
