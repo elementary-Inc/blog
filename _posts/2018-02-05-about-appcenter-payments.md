@@ -35,7 +35,7 @@ Starting with the elementary OS Juno release, we’re going to try something a l
 
 We want to be clear about something really quick: **both platform security updates and critical app updates will always happen regardless of whether you’ve paid for a certain app**. We will never withhold security updates based on payment status. Also, of course, free apps are exempt here.
 
-![](https://cdn-images-1.medium.com/max/1600/1*9apwHiipblJZieVUZKi1mQ.png)
+![Payment on updates](https://cdn-images-1.medium.com/max/1600/1*9apwHiipblJZieVUZKi1mQ.png)
 
 After a ton of discussion, we think this is the best solution for a few reasons:
 
@@ -50,7 +50,7 @@ We’re fighting a bit of a complicated and up hill battle here. We strongly bel
 
 There’s one other little thing we’re going to do to help developers out. We’re going to add a new button to the footer of app info pages so that you can help fund an app’s development at any time. Whether you’ve downloaded the app or not, whether you’ve already paid for the app or not, and whether it has a new update or not, you can always go back and help your favorite developers out.
 
-![](https://cdn-images-1.medium.com/max/1200/1*n2YX8iZo4Jt3GTrDAETUJg.png)
+![Fund option in footer](https://cdn-images-1.medium.com/max/1600/1*n2YX8iZo4Jt3GTrDAETUJg.png)
 
 We hope you stick with us through some growing pains as we discover the best balance between keeping ultimate control in your hands and making sure developers can make a living developing Open Source apps for elementary OS. We think these two things will make a big impact on developers and will make it more possible for you to enjoy some really killer apps.
 
