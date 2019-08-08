@@ -1,5 +1,5 @@
 ---
-title: 'Juno Updates for December, 2018'
+title: Juno Updates for December, 2018
 description: Happy Holidays and Happy New Year!
 date: '2019-01-01T18:35:29.829Z'
 author: danrabbit
