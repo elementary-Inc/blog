@@ -4,6 +4,7 @@ description: And I have a small request
 date: '2019-07-30T14:52:09.270Z'
 author: danrabbit
 thanks: true
+image: https://images.unsplash.com/photo-1504196606672-aef5c9cefc92?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=80
 tags:
   - funding
   - open-source
