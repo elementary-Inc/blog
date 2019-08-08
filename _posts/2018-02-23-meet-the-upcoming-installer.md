@@ -4,6 +4,9 @@ description: Making elementary OS more “gettable”
 date: '2018-02-23T17:01:01.636Z'
 author: danrabbit
 image: https://cdn-images-1.medium.com/max/1600/1*-qVavEAS1iwLuKPmRyrJAA.png
+tags:
+  - installer
+  - design
 ---
 
 For a week last year, Cassidy, Cody, Corentin, and I joined System76 at their offices and worked with their team on a new installation experience for elementary OS and Pop!\_OS. elementary focused on the front-end, while System76 focused on the back-end.

@@ -4,6 +4,9 @@ description: 'It’s not the end of the cycle, it’s just the beginning'
 date: '2018-11-30T20:02:18.747Z'
 author: danrabbit
 image: https://cdn-images-1.medium.com/max/1600/1*QNb3zRCXdcGaVK60C7acJA@2x.png
+tags:
+  - updates
+  - juno
 ---
 
 Since the release of elementary OS 5 [last month](https://medium.com/elementaryos/elementary-os-5-juno-is-here-471dfdedc7b3), we’ve been hard at work on the first set of Juno updates. Let’s dive in!

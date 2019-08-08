@@ -3,6 +3,9 @@ title: "A Wild Karen Sophia Has Appeared!"
 description: "And she’s bringing stickers back"
 author: karensophia
 image: https://miro.medium.com/max/1080/1*0jRXojJqL5SclbrgoFySiA.jpeg
+tags:
+  - customer-engagement
+  - funding
 ---
 
 I come from a background as a corporate recruiter and am also an actress. What I enjoy as a recruiter is giving people an opportunity to find a career they love. A career is more than just a job — it consumes such a large percentage of our lives. It only makes sense that this time be spent earning a living that doesn’t leave us feeling unfulfilled. What I enjoy as an actress is giving people an experience they’ll remember. Entertainment has a profound ability to make people’s lives better. No matter how big the struggles we may face in life, sometimes it can help to watch a film or television show just to know that we’re not alone.

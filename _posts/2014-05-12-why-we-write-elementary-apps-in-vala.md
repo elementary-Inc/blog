@@ -4,6 +4,9 @@ description: A tremendously effective tool for our needs
 date: '2014-05-12T07:00:00.000Z'
 author: danrabbit
 image: https://cdn-images-1.medium.com/max/2000/1*zqydEido_Yipr0YiJv5hYg.png
+tags:
+  - vala
+  - devs
 ---
 
 <figure markdown="1">

@@ -4,6 +4,9 @@ description: New settings, redesigned dialogs, smashed bugs, and more
 date: '2019-05-02T16:45:32.621Z'
 author: danrabbit
 image: https://cdn-images-1.medium.com/max/1978/1*5_gDVCKTqw5t8LU3_l4uzg@2x.png
+tags:
+  - updates
+  - juno
 ---
 
 It’s time for another monthly updates roundup post! This month we added several new settings, redesigned some dialogs, smashed bugs, and more. Read ahead to get the details.

@@ -4,6 +4,9 @@ description: Happy Holidays and Happy New Year!
 date: '2019-01-01T18:35:29.829Z'
 author: danrabbit
 image: https://cdn-images-1.medium.com/max/1600/1*5DmeXcooOR5ypkMl4FjDmA@2x.jpeg
+tags:
+  - updates
+  - juno
 ---
 
 It’s time for another updates roundup! To finish off the year strong, we’re bringing you bug fixes and improvements galore.

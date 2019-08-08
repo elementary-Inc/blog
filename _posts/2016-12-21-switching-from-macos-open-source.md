@@ -4,6 +4,9 @@ description: What exactly is Open Source about and why does it make elementary O
 date: '2016-12-21T05:48:01.061Z'
 author: cassidyjames
 image: https://cdn-images-1.medium.com/max/256/0*Bebi8XYX_2GinLYy.png
+tags:
+ - switching-from-macos
+ - open-source
 ---
 
 > So far in this five part series we’ve talked about [The Basics]({{ site.baseurl }}{% post_url 2016-12-20-switching-from-macos-the-basics %}) of elementary OS (and how it compares to macOS), using elementary OS as a [Development Environment]({{ site.baseurl }}{% post_url 2016-12-21-switching-from-macos-developer-environment %}), how to tackle [Creative Work]({{ site.baseurl }}{% post_url 2016-12-21-switching-from-macos-creative-work %}) in elementary OS, and what [Hardware]({{ site.baseurl }}{% post_url 2016-12-21-switching-from-macos-hardware %}) to run elementary OS on.

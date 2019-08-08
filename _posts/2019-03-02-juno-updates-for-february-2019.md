@@ -4,6 +4,9 @@ description: Bug fixes and performance improvements
 date: '2019-03-02T20:09:30.273Z'
 author: danrabbit
 image: https://cdn-images-1.medium.com/max/1600/1*h2xQZXwatwpPoUcaNbLcQg@2x.png
+tags:
+  - updates
+  - juno
 ---
 
 This month, a number of bug fixes and performance improvements landed as updates to elementary OS 5 Juno. Read ahead for the full rundown!

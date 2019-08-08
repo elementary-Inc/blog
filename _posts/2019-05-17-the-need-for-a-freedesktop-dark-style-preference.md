@@ -4,6 +4,12 @@ description: It’s time for the FreeDesktop to catch up
 date: '2019-05-17T23:00:22.252Z'
 author: cassidyjames
 image: https://cdn-images-1.medium.com/max/1952/1*NwP8sxbRTq7pzJLhDE2rnA@2x.png
+tags:
+  - gnome
+  - fdo
+  - dark-style
+  - guadec
+  - ux
 ---
 
 > In the past year or so, [macOS](https://developer.apple.com/design/human-interface-guidelines/macos/visual-design/dark-mode/), [Windows](https://blogs.windows.com/windowsexperience/2019/04/01/windows-10-tip-dark-theme-in-file-explorer/#syl6IPzIdVQWT4k6.97), [Android](https://developer.android.com/preview/features/darktheme), [iOS](https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/dark-mode/), [Safari](https://webkit.org/blog/8840/dark-mode-support-in-webkit/), [Chrome](https://support.google.com/chrome/answer/9275525?hl=en), and [Firefox](https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/67) have announced support for or released developer opt-in to a user-set dark style preference. It’s time for the FreeDesktop to catch up.
