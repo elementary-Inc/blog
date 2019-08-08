@@ -7,7 +7,7 @@ image: https://cdn-images-1.medium.com/max/2000/1*1RRs1e_qsZVBgvddOEUElw.jpeg
 tags:
   - digital-wellbeing
   - parental-controls
-  - events
+  - event
   - gnome
 ---
 
