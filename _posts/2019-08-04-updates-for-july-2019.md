@@ -19,7 +19,7 @@ It's that time again! Time to look back at the past month and see all of the upd
 
 It's not an OS update, but it's still exciting:
 
-If you're reading this, it's because of our new blog (or RSS feed)! We spent a few days investigating various options, and we landed on a new completely static blog that gives us more control over our content, better respects your privacy, and is _way_ faster. We'll have a more comprehensive post about the new blog, our reason for self-publishing, and its architecture later—but for now: welcome!
+If you're reading this, it's because of our new blog (or [RSS feed]({{ site.baseurl }}/feed))! We spent a few days investigating various options, and we landed on a new completely static blog that gives us more control over our content, better respects your privacy, and is _way_ faster. We'll have a more comprehensive post about the new blog, our reason for self-publishing, and its architecture later—but for now: welcome!
 
 ## Files
 
