@@ -8,6 +8,9 @@ tags:
   - guadec
   - gnome
   - event
+
+mastodon: https://mastodon.social/@elementary/102583483140370484
+twitter: https://twitter.com/elementary/status/1159576769713909760
 ---
 
 <figure class="full-bleed" markdown="1">
