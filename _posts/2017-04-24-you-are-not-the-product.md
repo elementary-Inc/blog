@@ -7,6 +7,10 @@ image: https://cdn-images-1.medium.com/max/1600/1*cLwxBJhf6MKETmbqR6ilnw.jpeg
 tags:
   - funding
   - privacy
+
+facebook: https://www.facebook.com/elementaryos/posts/2630131613685318
+mastodon: https://mastodon.social/@elementary/102583310377481971
+twitter: https://twitter.com/elementary/status/1159565956894642176
 ---
 
 <figure class="full-bleed" markdown="1">
