@@ -4,6 +4,9 @@ description: What it’s like to do creative work or work alongside a designer o
 date: '2016-12-21T05:30:24.475Z'
 author: cassidyjames
 image: https://cdn-images-1.medium.com/max/2000/0*bfVV1MpSSLDvNQeI.jpg
+tags:
+  - switching-from-macos
+  - design
 ---
 
 > In the previous piece I wrote about elementary OS as a [Developer Environment]({{ site.baseurl }}{% post_url 2016-12-21-switching-from-macos-developer-environment %}).

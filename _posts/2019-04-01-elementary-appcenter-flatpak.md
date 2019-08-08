@@ -4,6 +4,9 @@ description: Preparing for the future
 date: '2019-04-01T18:44:05.974Z'
 author: cassidyjames
 image: https://cdn-images-1.medium.com/max/2000/0*vFvXvd-zOidJstQs.png
+tags:
+  - appcenter
+  - flatpak
 ---
 
 <figure markdown="1">

@@ -23,6 +23,14 @@ layout: default
 {% include license.html %}
 {% include social.html %}
 
+{% assign sortedTags = page.tags | sort %}
+<ul>
+  {% for tag in sortedTags %}
+    <li>
+      <a href="{{site.baseurl}}/tag/#{{ tag | replace: ' ', '-' }}">#{{ tag }}</a>
+    </li>
+  {% endfor %}
+</ul>
 
 <h2 class="up-next">Up Next</h2>
 

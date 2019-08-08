@@ -4,6 +4,8 @@ description: How elementary OS can “cross the chasm”
 date: '2017-08-26T21:19:01.500Z'
 author: danrabbit
 image: https://cdn-images-1.medium.com/max/1600/1*yICO56gjmJFC-WDCALeGIw.png
+tags:
+  - appcenter
 ---
 
 <figure class="full-bleed" markdown="1">

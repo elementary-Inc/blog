@@ -4,6 +4,9 @@ description: Building a sustainable app ecosystem
 date: '2018-02-05T17:01:01.399Z'
 author: danrabbit
 image: https://cdn-images-1.medium.com/max/1600/1*9apwHiipblJZieVUZKi1mQ.png
+tags:
+  - appcenter
+  - funding
 ---
 
 One of the primary goals of developing AppCenter Dashboard was to build a sustainable app ecosystem. I don’t think it’s a surprise to anyone that although the AppCenter ecosystem is growing, nobody can make a living on it yet. That’s what we mean when we say “sustainable”. Writing apps is a real, hard, full-time job. If we want to see more high-quality, Open Source apps then we need to prioritize getting third-party app developers paid.

@@ -4,6 +4,9 @@ description: We’re back from the holidays with plenty of updates
 date: '2019-02-02T02:50:31.467Z'
 author: danrabbit
 image: https://cdn-images-1.medium.com/max/1600/1*X3SqeGe8u1fA7CMFijVkcA@2x.png
+tags:
+  - updates
+  - juno
 ---
 
 It’s that time again! We’re back from the holidays with plenty of updates. Let’s dive in to what’s new in January for elementary OS:

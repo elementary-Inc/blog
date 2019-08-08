@@ -4,6 +4,11 @@ description: How we protect your data from ourselves and others
 date: '2019-01-09T16:21:00.830Z'
 author: cassidyjames
 image: https://cdn-images-1.medium.com/max/1600/1*A6acK8YdY-_VS414hveMlw.jpeg
+tags:
+  - privacy
+  - tattle-tale
+  - appcenter
+  - funding
 ---
 
 With the [release of elementary OS 5 Juno](https://medium.com/@cassidyjames/471dfdedc7b3) still fresh, I wanted to take a moment and talk about our continued privacy focus with elementary OS. We’ve always been fanatical about respecting your privacy, but with Juno, we’ve added some awesome new features that have brought it to the forefront of my mind.

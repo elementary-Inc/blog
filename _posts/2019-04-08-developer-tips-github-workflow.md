@@ -4,6 +4,10 @@ description: Best practices to make development faster and easier
 date: '2019-04-08T16:50:28.287Z'
 author: cassidyjames
 image: https://cdn-images-1.medium.com/max/2000/1*ZkedeotogXIlqipOv9bW0g.png
+tags:
+  - devs
+  - developer-tips
+  - github
 ---
 
 ![](https://cdn-images-1.medium.com/max/2000/1*ZkedeotogXIlqipOv9bW0g.png)

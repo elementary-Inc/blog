@@ -4,6 +4,10 @@ description: And I have a small request
 date: '2019-07-30T14:52:09.270Z'
 author: danrabbit
 thanks: true
+tags:
+  - funding
+  - open-source
+  - gnome
 ---
 
 If you’re not already familiar, every year on my birthday I make the same birthday wish: help out an Open Source project with their funding. It doesn’t have to be elementary or even anything in the elementary ecosystem! But your help (even if it’s just $1) can make a huge difference to improving the quality and quantity of Open Source software.

@@ -5,6 +5,8 @@ date: '2017-02-08T21:11:19.048Z'
 author: cassidyjames
 image: https://cdn-images-1.medium.com/max/1600/1*UuTEU4IAxuwvpIC0sLJxQg.png
 thanks: true
+tags:
+- appcenter
 ---
 
 ![AppCenter](https://cdn-images-1.medium.com/max/1600/1*UuTEU4IAxuwvpIC0sLJxQg.png)

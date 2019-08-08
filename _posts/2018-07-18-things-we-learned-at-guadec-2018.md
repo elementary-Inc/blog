@@ -4,6 +4,10 @@ description: You can drink on the beach in Almería
 date: '2018-07-18T18:47:13.074Z'
 author: danrabbit
 image: https://cdn-images-1.medium.com/max/1600/1*TE_HSe-JDQNjDOx9pwyHTA.jpeg
+tags:
+  - guadec
+  - gnome
+  - event
 ---
 
 <figure class="full-bleed" markdown="1">

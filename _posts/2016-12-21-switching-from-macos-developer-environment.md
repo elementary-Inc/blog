@@ -4,6 +4,9 @@ description: Part 2 of a 5-part series
 date: '2016-12-21T05:18:06.244Z'
 author: cassidyjames
 image: https://cdn-images-1.medium.com/max/2000/0*NOxTGcFB2imrjWTx.png
+tags:
+  - switching-from-macos
+  - devs
 ---
 
 > The previous piece covered [The Basics]({{ site.baseurl }}{% post_url 2016-12-20-switching-from-macos-the-basics %}).

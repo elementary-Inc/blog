@@ -4,6 +4,9 @@ description: Using open standards to empower users and parents
 date: '2018-09-24T05:12:17.843Z'
 author: cassidyjames
 image: https://cdn-images-1.medium.com/max/958/1*9uynQO1QQeGr6tMtMzqEeA@2x.png
+tags:
+ - appcenter
+ - oars
 ---
 
 Today, apps submitted to AppCenter are required to provide [Open Age Ratings Service (OARS)](https://hughsie.github.io/oars) data along with their code and other metadata. While app developers always provide this self-created data, we review it along with the app itself before each release to users to ensure it’s sane and accurate.

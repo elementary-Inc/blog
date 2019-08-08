@@ -4,6 +4,9 @@ description: New features and fixes
 date: '2019-06-02T18:51:07.426Z'
 author: peteruithoven
 image: https://cdn-images-1.medium.com/max/1600/1*F9sb5F77mvj_YPxpXdWSfA.png
+tags:
+  - updates
+  - juno
 ---
 
 It’s time for another monthly updates post! Read ahead to find out what new features and fixes came as updates to elementary OS during the month of May.

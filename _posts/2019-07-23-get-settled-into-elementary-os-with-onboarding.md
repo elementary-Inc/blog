@@ -4,6 +4,9 @@ description: "Designed to improve the first-run experience"
 image: https://miro.medium.com/max/1120/1*OsUdeEafTuWof7e_jdEeNg@2x.png
 layout: post
 author: cassidyjames
+tags:
+  - design
+  - onboarding
 ---
 
 We’ve never provided a tutorial or "welcome" on your first run of elementary OS before; our [Human Interface Guidelines] state that users “should be able to get down to business as quickly as possible,” and that “if configuration is not absolutely required for the first use, they should not be required to configure anything.” We also generally believe that if you need a tutorial, your product is likely too difficult to understand and may lead to long-term dissatisfaction. It’s like being given all of the information you could possibly need for a new career in an five-minute lecture, and then being expected to be a master of your profession; it’s both unrealistic and overwhelming!
