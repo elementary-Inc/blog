@@ -10,7 +10,7 @@ image: https://cdn-images-1.medium.com/max/256/0*Bebi8XYX_2GinLYy.png
 
 Today I wrap up with one of the greatest advantages of elementary OS over macOS: the fact that it’s Open Source.
 
-### What is Open Source?
+## What is Open Source?
 
 ![](https://cdn-images-1.medium.com/max/256/0*Bebi8XYX_2GinLYy.png)
 
@@ -18,13 +18,13 @@ If you’re unfamiliar with open source (or just want a refresher), luckily we w
 
 With those prefaces out of the way, let’s dive in!
 
-### Security & Privacy
+## Security & Privacy
 
 First and foremost, Open Source software is often praised for its superior security and privacy over closed source software like macOS. When the source code is available to audit, anyone in the community — whether a security researcher, a concerned user, or an OEM shipping the OS on their hardware — can ensure the software is secure and not collecting or leaking personal information. If they find ways it could be improved, they can file a bug or even a pull request to improve it.
 
 There’s also the advantage of crazy fast response to security disclosures; just look at Heartbleed: within hours of the disclosure, an update was pushed out to elementary users to fix the bug in SSL. This was possible because the OpenSSL code was open source and Canonical, the company that develops the Ubuntu core of elementary OS, could quickly and easily patch the code and deploy it.
 
-### Improving elementary OS for You and Others
+## Improving elementary OS for You and Others
 
 In a similar vein, if you have a specific bugfix, feature, or tweak that would benefit elementary OS as a whole, it’s actually possible to directly contribute that to elementary OS.
 
@@ -32,7 +32,7 @@ This is an incredible opportunity for third-party app developers. If your app co
 
 There’s also an advantage for more specialized installations of elementary OS. If you or your organization wanted, you could fork elementary OS for your specific use case. You could even redistribute it so long as it remains open source.
 
-### Use the Source: Education & Reuse
+## Use the Source: Education & Reuse
 
 As a third-party developer (or even just an interested user), you might be curious as to how a feature or design pattern in elementary OS was made. Instead of guessing or trying to reimplement it on your own, you can just look at the underlying source code for a definitive answer. While this may sound incredibly technical, it’s something we see developers do all the time. This also helps keep the UX on elementary OS more consistent as features are implemented the same way across apps instead of each app trying to reimplement the same experience in a slightly different way.
 

@@ -12,7 +12,7 @@ I am a professional web developer working on multiple continuously delivered nod
 
 I say this because I work in a very fast environment alongside extremely skilled professionals and need my tools to keep up. elementary OS and the tools available to me do so expertly.
 
-### Scratch
+## Scratch
 
 Code editors can be a divisive matter; if you’re set on one, it’s likely that you’re going to want to keep using it even on a new platform. If you’re not completely set (or would be willing to try something new), however, I highly recommend you check out the text editor built into elementary OS: Scratch.
 
@@ -24,7 +24,7 @@ Its killer feature is that it’s always-saved, meaning you never lose work. It 
 
 What if you prefer something like Vim, Atom, or Sublime? No worries, those are all installable in elementary OS as well.
 
-### Files
+## Files
 
 The built-in Files app in elementary OS looks simple at first (and consequently avoids being overwhelming), but tucks away many advanced features.
 
@@ -38,7 +38,7 @@ The column view is a nice option for those of you used to that in macOS, and it�
 
 Lastly, in any folder (or from its breadcrumb!) you can secondary click to get an “Open in Terminal” action. This lets you jump right into a new Terminal window from whichever path you were viewing which can be a nice time saver when you want to just dive into development. Which leads me to…
 
-### Terminal
+## Terminal
 
 ![](https://cdn-images-1.medium.com/max/2000/0*-U5_e_qBdeYu5LC2.png)
 
@@ -52,7 +52,7 @@ Another great feature is backlog search; you can hit the search icon to instantl
 
 Lastly, I really love the smart copy-paste features, and it shows how smart design can improve even the oldest of apps. If you’ve highlighted text and Ctrl+C, Terminal knows that you likely wanted to copy text instead of end the current process (if any), so it copies the text to the clipboard. Similarly, you can just Ctrl+V to paste in the terminal instead of having to work around with extra modifier keys.
 
-### Package Manager
+## Package Manager
 
 It wouldn’t be a developer-oriented post without mentioning a package manager. Thankfully, elementary OS has one baked right in!
 
@@ -64,7 +64,7 @@ For example, to get started with Git on elementary OS, you can just `sudo apt in
 
 Having the entire Debian repository at your fingertips is incredibly awesome, and it’s a huge reason longtime Linux users love Linux.
 
-### Developing for Other Platforms
+## Developing for Other Platforms
 
 Much of this post has been focused on web or native elementary OS development. If you’re a developer for other platforms, there are various ways you can continue developing while using elementary OS.
 

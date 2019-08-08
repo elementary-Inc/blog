@@ -3,6 +3,7 @@ title: Today Is My 30th Birthday
 description: And I have a small request
 date: '2019-07-30T14:52:09.270Z'
 author: danrabbit
+thanks: true
 ---
 
 If you’re not already familiar, every year on my birthday I make the same birthday wish: help out an Open Source project with their funding. It doesn’t have to be elementary or even anything in the elementary ecosystem! But your help (even if it’s just $1) can make a huge difference to improving the quality and quantity of Open Source software.
@@ -20,3 +21,4 @@ Another great way to support a wide range of Open Source projects and desktops i
 Otherwise if you don’t use elementary OS or any GNOME using OS or any Gtk+ based apps, take the time to find out how the things you do use raise funds and help them out today. Buy that thing. Make that donation. Support that crowdfunding campaign. Be a part of something bigger!
 
 Shameless self plug! If you’re feeling extra generous and you want to support me specifically, [I’m on Patreon](https://www.patreon.com/danrabbit) as well and [I have PayPal](https://www.paypal.com/paypalme2/danrabbit). Cheers!
+
