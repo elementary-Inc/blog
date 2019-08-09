@@ -17,6 +17,7 @@ body > header {
   nav {
     display: flex;
     font-size: 0;
+    overflow-x: auto;
     padding: 0 1rem;
 
     ul {
