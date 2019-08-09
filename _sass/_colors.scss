@@ -65,6 +65,8 @@
   --fg-color: var(--black-500);
   --accent-color: var(--blueberry-700);
   --header-color: var(--blueberry-300);
+  --nav-secondary-bg-color: var(--silver-100);
+  --nav-secondary-color: var(--black-300);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -73,6 +75,8 @@
     --fg-color: var(--silver-300);
     --accent-color: var(--blueberry-100);
     --header-color: var(--slate-500);
+    --nav-secondary-bg-color: var(--black-300);
+    --nav-secondary-color: var(--silver-300);
   }
 }
 

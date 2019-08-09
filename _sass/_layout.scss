@@ -14,46 +14,65 @@ body > header {
   color: var(--silver-100);
   fill: var(--silver-100);
 
-  > a {
-    color: white;
-    display: block;
-    filter: drop-shadow(0px 0px 0px white); // Increases legibility
-    font-family: var(--heading-font);
-    font-size: 3.2rem;
-    font-weight: 100;
-    margin: 0 auto;
-    max-width: var(--page-width);
-    opacity: 1;
-    padding: 1.5rem 1rem 0.5rem;
-    text-decoration: none;
+  nav {
+    display: flex;
+    font-size: 0;
+    overflow-x: auto;
+    padding: 0 1rem;
 
-    .logotype {
-      font-size: 0;
+    ul {
+      display: inline-block;
+      flex: 0 0 auto;
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      display: inline-block;
+      list-style: none;
+      vertical-align: middle;
+    }
+
+    a {
+      color: var(--silver-100);
+      display: inline-block;
+      font-family: var(--ui-font);
+      font-size: 0.85rem;
+      line-height: 2.9em;
+      opacity: 1;
+      padding: 0 0.65rem;
+      text-decoration: none;
+    }
+
+    a:hover {
+      opacity: 0.7;
+    }
+
+    svg {
+      height: 1em;
+    }
+
+    .logomark {
+      line-height: 0;
 
       svg {
         height: auto;
-        margin-right: 1rem;
-        margin-top: 0.75rem;
-        vertical-align: top;
-        width: 16rem;
       }
     }
   }
 
-  nav {
-    font-size: 0;
-    margin: 0 auto;
-    max-width: var(--page-width);
-    padding: 0 0.5rem;
+  .primary {
+    justify-content: space-between;
+  }
+
+  .secondary {
+    background-color: var(--nav-secondary-bg-color);
+    justify-content: center;
 
     a {
-      color: var(--bg-color);
-      display: inline-block;
-      font-family: var(--ui-font);
-      font-size: 0.75rem;
-      padding: 0.5rem;
-      text-decoration: none;
-      text-transform: uppercase;
+      color: var(--nav-secondary-color);
+      font-size: 0.7rem;
+      line-height: 3.6em;
     }
   }
 }
