@@ -1,5 +1,4 @@
 .featured {
-  border-bottom: 1px solid var(--black-300);
   border-radius: 0.25rem;
   color: inherit;
   display: block;
@@ -60,11 +59,6 @@
     }
   }
 
-  &.with-image,
-  &:last-child {
-    border-bottom: none;
-  }
-
   .featured-image {
     background-color: var(--silver-200);
     background-origin: border-box;
@@ -116,7 +110,6 @@
     margin-top: 2rem;
 
     .featured {
-      border-bottom: none;
       padding: 0.5rem;
 
       &:nth-child(n+2) {
