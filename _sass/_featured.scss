@@ -6,10 +6,10 @@
   opacity: 1;
   padding: 2rem 0;
   text-decoration: none;
-  transition: background-color 250ms ease;
+  transition: background-color 250ms ease, color 250ms ease;
 
   &:hover {
-    background: var(--nav-secondary-bg-color);
+    background: var(--secondary-bg-color);
   }
 
   header {
