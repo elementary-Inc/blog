@@ -66,11 +66,11 @@ body > header {
   }
 
   .secondary {
-    background-color: var(--nav-secondary-bg-color);
+    background-color: var(--secondary-bg-color);
     justify-content: center;
 
     a {
-      color: var(--nav-secondary-color);
+      color: var(--secondary-fg-color);
       font-size: 0.7rem;
       line-height: 3.6em;
     }
