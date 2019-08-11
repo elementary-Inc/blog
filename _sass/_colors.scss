@@ -64,7 +64,8 @@
   --bg-color: white;
   --fg-color: var(--black-500);
   --accent-color: var(--blueberry-700);
-  --header-color: var(--blueberry-500);
+  --header-bg-color: var(--blueberry-300);
+  --header-fg-color: var(--silver-100);
   --secondary-bg-color: var(--silver-200);
   --secondary-fg-color: var(--black-300);
 }
@@ -74,7 +75,8 @@
     --bg-color: var(--black-700);
     --fg-color: var(--silver-300);
     --accent-color: var(--blueberry-300);
-    --header-color: var(--blueberry-700);
+    --header-bg-color: var(--blueberry-100);
+    --header-fg-color: var(--black-500);
     --secondary-bg-color: var(--black-900);
     --secondary-fg-color: var(--silver-300);
   }
