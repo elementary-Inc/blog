@@ -1,10 +1,10 @@
 .featured {
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
   color: inherit;
   display: block;
   font-size: 0;
   opacity: 1;
-  padding: 2rem 0;
+  padding: 1rem;
   text-decoration: none;
   transition: background-color 250ms ease, color 250ms ease;
 
@@ -86,7 +86,7 @@
     }
 
     @media (min-width: 800px) {
-      width: calc(66.66% - 0.33rem);
+      width: calc(66.66% - 0.66rem);
     }
 
     @media (prefers-color-scheme: dark) {
@@ -116,7 +116,7 @@
     margin-top: 2rem;
 
     .featured {
-      padding: 0.5rem;
+      padding: 1rem;
 
       &:nth-child(n+2) {
         display: inline-block;

@@ -12,7 +12,7 @@ tags:
 <figure markdown="1">
 ![Photo of an accessible curb cut](https://cdn-images-1.medium.com/max/1600/0*3Q6Snc6Qga_HsPK7)
 <figcaption markdown="1">
-Photo of an accessible curb cut by [Dane Deaner](https://unsplash.com/@danedeaner?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)
+Photo of an accessible curb cut by [Dane Deaner](https://unsplash.com/@danedeaner) on [Unsplash](https://unsplash.com)
 </figcaption>
 </figure>
 
