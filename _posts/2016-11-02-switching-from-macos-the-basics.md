@@ -1,7 +1,6 @@
 ---
 title: 'Switching from macOS: The Basics'
 description: Part 1 of a 5-part series
-date: '2016-12-20T16:42:11.889Z'
 author: cassidyjames
 image: https://cdn-images-1.medium.com/max/2000/0*8xJLr8SJ60bA4sIQ.png
 tags:

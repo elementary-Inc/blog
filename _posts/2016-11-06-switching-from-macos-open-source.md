@@ -1,7 +1,6 @@
 ---
 title: 'Switching from macOS: Open Source'
 description: What exactly is Open Source about and why does it make elementary OS better?
-date: '2016-12-21T05:48:01.061Z'
 author: cassidyjames
 image: https://cdn-images-1.medium.com/max/256/0*Bebi8XYX_2GinLYy.png
 tags:
@@ -9,7 +8,7 @@ tags:
  - open-source
 ---
 
-> So far in this five part series we’ve talked about [The Basics]({{ site.baseurl }}{% post_url 2016-12-20-switching-from-macos-the-basics %}) of elementary OS (and how it compares to macOS), using elementary OS as a [Development Environment]({{ site.baseurl }}{% post_url 2016-12-21-switching-from-macos-developer-environment %}), how to tackle [Creative Work]({{ site.baseurl }}{% post_url 2016-12-21-switching-from-macos-creative-work %}) in elementary OS, and what [Hardware]({{ site.baseurl }}{% post_url 2016-12-21-switching-from-macos-hardware %}) to run elementary OS on.
+> So far in this five part series we’ve talked about [The Basics]({{ site.baseurl }}{% post_url 2016-11-02-switching-from-macos-the-basics %}) of elementary OS (and how it compares to macOS), using elementary OS as a [Development Environment]({{ site.baseurl }}{% post_url 2016-11-03-switching-from-macos-developer-environment %}), how to tackle [Creative Work]({{ site.baseurl }}{% post_url 2016-11-04-switching-from-macos-creative-work %}) in elementary OS, and what [Hardware]({{ site.baseurl }}{% post_url 2016-11-05-switching-from-macos-hardware %}) to run elementary OS on.
 
 Today I wrap up with one of the greatest advantages of elementary OS over macOS: the fact that it’s Open Source.
 
