@@ -4,7 +4,7 @@ subtitle: Why it exists, how we built it, and what's next
 author: cassidyjames
 ---
 
-In 2016, elementary moved to a Medium publication to host our official blog. At the time, Medium was touted as a simple, clean, and reader-focused host for writers. They supported custom domains, a robust API, RSS, rich formatting, and great image embedding. We have been largely happy with the experience, but in 2018 something changed. 
+In 2016, elementary moved to [a Medium publication](https://medium.com/elementaryos) to host our official blog. At the time, Medium was touted as a simple, clean, and reader-focused host for writers. They supported custom domains, a robust API, RSS, rich formatting, and great image embedding. We have been largely happy with the experience, but in 2017 something changed.
 
 ## The Decline of Medium
 
