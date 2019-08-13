@@ -8,7 +8,7 @@ In 2016, elementary moved to [a Medium publication](https://medium.com/elementar
 
 ## The Decline of Medium
 
-Medium—in its quest for financial sustainability—started getting more aggressive toward readers. First, Medium removed the ability to create an account with an email address, instead requiring a third-party social networking platform. Then, readers who were not signed in—perhaps because they didn't want yet-another-account tracking them across the Internet, or just because they were using a private browser—were shown modal pop-ups asking them to create an account.
+Medium—in its [quest for financial sustainability](https://blog.medium.com/renewing-mediums-focus-98f374a960be)—started getting more aggressive toward readers. First, Medium removed the ability to create an account with an email address, instead requiring a third-party social networking platform. Then, readers who were not signed in—perhaps because they didn't want yet-another-account tracking them across the Internet, or just because they were using a private browser—were shown modal pop-ups asking them to create an account.
 
 Medium wants all readers to always be signed into an account so they can more easily track what individual readers are doing on their platform. They also restrict how many monetized articles individuals can read, which would be difficult without being tied to a user account.
 
