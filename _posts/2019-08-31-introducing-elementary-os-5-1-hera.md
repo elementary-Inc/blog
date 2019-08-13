@@ -11,7 +11,7 @@ tags:
   - updates
 ---
 
-![Hera wallpaper](https://cdn-images-1.medium.com/max/1600/1*LjHTYMbr_p3fOsUNa38QqA.jpeg)
+![Hera wallpaper](https://cdn-images-1.medium.com/max/800/1*LjHTYMbr_p3fOsUNa38QqA.jpeg){: srcset="https://cdn-images-1.medium.com/max/1600/1*LjHTYMbr_p3fOsUNa38QqA.jpeg 2x"}
 
 In October, we [announced elementary OS 5 Juno][juno] with wide-ranging updates to provide a more refined user experience, improve productivity for new and seasoned users alike, and take our developer platform to the next level. Today we're pleased to announce elementary OS 5.1 Hera, the latest major update.
 
@@ -26,13 +26,13 @@ Hera builds on the solid foundation of Juno while bringing: 
 
 We detailed our shift in the numbering scheme from the 0.x of old to Juno being elementary OS 5 when we announced it back in October. In the same vein, Hera builds on the new numbering scheme.
 
-elementary OS 5.1 Hera takes the same foundation as Juno-utilizing the same underlying repositories and libraries-but builds on it with a refined experience. It is the culmination of our work over the past nine months packaged up into one cohesive update. As such, the 5.1 number represents that it's a major update, but not an entirely new version (which usually come around every two years). It's still significant enough, however, to deserve its own name and identity.
+elementary OS 5.1 Hera takes the same foundation as Juno—utilizing the same underlying repositories and libraries—but builds on it with a refined experience. It is the culmination of our work over the past nine months packaged up into one cohesive update. As such, the 5.1 number represents that it's a major update, but not an entirely new version (which usually come around every two years). It's still significant enough, however, to deserve its own name and identity.
 
 We always name our releases after mythological beings and deities, and Hera is no different. The Greek equivalent of Juno, Hera is considered the queen of the Greek gods and represents women, marriage, family, and childbirth.
 
 ## Updates from the Juno Release
 
-Since Hera builds on Juno, it includes [all of the monthly OS updates][updates] we've detailed since Juno's release. You can check those monthly stories for the nitty-gritty-and if you've diligently followed along, everything after Installer, Greeter, and Onboarding will be a review-but here's a higher-level overview of what Hera brings:
+Since Hera builds on Juno, it includes [all of the monthly OS updates][updates] we've detailed since Juno's release. You can check those monthly stories for the nitty-gritty—and if you've diligently followed along, everything after Installer, Greeter, and Onboarding will be a review—but here's a higher-level overview of what Hera brings:
 
 ### Installer, Greeter, and Onboarding
 
@@ -68,7 +68,7 @@ Along with the installer comes a new redesigned login and lockscreen greeter tha
 </figure>
 
 
-Lastly, [the new Onboarding app] introduces key features to users and handles common first-run tasks like managing privacy settings. Since it's a modular component-and not all baked into one piece of software along with an installer and new user creation-the Onboarding experience works great for newly-created users on existing installs, as well. When a major new feature lands in elementary OS, Onboarding can also be used to introduce it to existing users. You can read more about Onboarding and its design and development process in our story from earlier this month.
+Lastly, [the new Onboarding app] introduces key features to users and handles common first-run tasks like managing privacy settings. Since it's a modular component—and not all baked into one piece of software along with an installer and new user creation—the Onboarding experience works great for newly-created users on existing installs, as well. When a major new feature lands in elementary OS, Onboarding can also be used to introduce it to existing users. You can read more about Onboarding and its design and development process in our story from earlier this month.
 
 <!-- TODO: Include onboarding post -->
 
@@ -120,7 +120,7 @@ We've added a new Appearance tab to the Desktop settings, exposing some existing
 <figcaption>Improved Applications Menu search</figcaption>
 </figure>
 
-Lastly, we've made both System Settings and system actions like restarting much more discoverable in Hera with greatly improved deep searching from the Applications Menu. You can now search for something like "display" and get a list of all the individual features in each pane where the word "display" is used. We've also updated those keywords across all actions and settings panes, making them even easier to find-including common alternatives like "reboot" for Restart.
+Lastly, we've made both System Settings and system actions like restarting much more discoverable in Hera with greatly improved deep searching from the Applications Menu. You can now search for something like "display" and get a list of all the individual features in each pane where the word "display" is used. We've also updated those keywords across all actions and settings panes, making them even easier to find—including common alternatives like "reboot" for Restart.
 
 ### App Updates
 
@@ -143,7 +143,7 @@ AppCenter in Hera also includes our first steps towards a Flatpak future, with s
 <figcaption>Refreshed Calendar design</figcaption>
 </figure>
 
-We've put a lot of work into Calendar for Hera with a refreshed design that is brighter, cleaner, and more usable. Keyboard navigation, color palette usage, and the event dialog have also all been improved. See the February updates story for more information.
+We've put a lot of work into Calendar for Hera with a refreshed design that is brighter, cleaner, and more usable. Keyboard navigation, color palette usage, and the event dialog have also all been improved. See the [February updates story][feb] for more information.
 
 <figure markdown="1">
 ![Code](https://cdn-images-1.medium.com/max/800/1*mO9RqSUJy2WYKZWhAf3QAA@2x.png){: srcset="https://cdn-images-1.medium.com/max/1600/1*mO9RqSUJy2WYKZWhAf3QAA@2x.png 2x"}
@@ -157,7 +157,7 @@ Code has been updated for Hera with more discoverable keyboard shortcuts, the re
 <figcaption>Improved keyboard shortcut discoverability in Files</figcaption>
 </figure>
 
-For Files, we've made search more discoverable in Hera by showing the search icon and placeholder text in the Home folder, similar to a web browser's empty state. The search results dropdown is also larger and shows more results, and there's a new feature to hide thumbnails. "Cherry picking" files has been greatly improved, and we've refined the design of the color tags to be easier targets-plus we show all color tags used in a selection in the context menu. We've also improved keyboard shortcut discoverability throughout, improved the Open In and Open With menus with app icons, and made Files respect the Event Alerts setting from _System Settings_ → _Sound_ for the trash sound. Lastly, we've implemented several performance and stability improvements including fixing reported issues around file sorting, color tags, file renaming, and more.
+For Files, we've made search more discoverable in Hera by showing the search icon and placeholder text in the Home folder, similar to a web browser's empty state. The search results dropdown is also larger and shows more results, and there's a new feature to hide thumbnails. "Cherry picking" files has been greatly improved, and we've refined the design of the color tags to be easier targets—plus we show all color tags used in a selection in the context menu. We've also improved keyboard shortcut discoverability throughout, improved the Open In and Open With menus with app icons, and made Files respect the Event Alerts setting from _System Settings_ → _Sound_ for the trash sound. Lastly, we've implemented several performance and stability improvements including fixing reported issues around file sorting, color tags, file renaming, and more.
 
 <figure markdown="1">
 ![Music preferences](https://cdn-images-1.medium.com/max/337/1*mZGIW4KbddMKDyzKoaKAww@2x.png){: srcset="https://cdn-images-1.medium.com/max/674/1*mZGIW4KbddMKDyzKoaKAww@2x.png 2x"}
@@ -188,11 +188,18 @@ We've subtly improved the system stylesheet in several ways for Hera.
 <figcaption>More subtle badges in sidebars</figcaption>
 </figure>
 
-More subtle badges in sidebarsContrast is further improved-especially for apps that utilize a dark style-and we've refreshed the appearance of numbered badges in Sidebars to be a bit more subtle. We've also improved accent color shading in switches, fixed some right-to-left issues, fixed some insensitive buttons states, fixed other small issues (see the [June updates story][june] for more), and added support for raised buttons in app header bars.
+Contrast is further improved—especially for apps that utilize a dark style—and we've refreshed the appearance of numbered badges in Sidebars to be a bit more subtle. We've also improved accent color shading in switches, fixed some right-to-left issues, fixed some insensitive buttons states, fixed other small issues (see the [June updates story][june] for more), and added support for raised buttons in app header bars.
 
-The system icons have also been refreshed throughout Hera with added icons for playlists, chat, caps lock, num lock, mail actions, SSDs, and headsets. We've refined and added several new sizes for icons for pixel-perfect hinting in more contexts-including the Onboarding experience. We also added symbolic versions of several icons including location services, laptops, and firmware. We've animated the microphone mute icon in the Panel, the mobile phone icons have been updated to better match modern phones, path and group icons (for drawing/design apps) have been redesigned, we've added a few mirrored icons for right-to-left languages, and we've made several icon families a bit more consistent.
+<figure markdown="1">
+![icons](https://cdn-images-1.medium.com/max/800/1*6Gcy3M4bIJhJT_AhtoLNpA@2x.jpeg){: srcset="https://cdn-images-1.medium.com/max/1600/1*6Gcy3M4bIJhJT_AhtoLNpA@2x.jpeg 2x"}
+<figcaption>Improved system icons</figcaption>
+</figure>
 
-Lastly, the default wallpaper has been updated. This photo of a sunset over a pier was included in Juno, but we've set it as the new default to give Hera its own unique identity. At the same time the color scheme is similar to Juno with its purples, oranges and blues-evoking the more iterative relationship between the two releases.
+The system icons have also been refreshed throughout Hera with added icons for playlists, chat, caps lock, num lock, mail actions, SSDs, and headsets. We've refined and added several new sizes for icons for pixel-perfect hinting in more contexts—including the Onboarding experience. We also added symbolic versions of several icons including location services, laptops, and firmware. We've animated the microphone mute icon in the Panel, the mobile phone icons have been updated to better match modern phones, path and group icons (for drawing/design apps) have been redesigned, we've added a few mirrored icons for right-to-left languages, and we've made several icon families a bit more consistent.
+
+![Hera wallpaper](https://cdn-images-1.medium.com/max/800/1*LjHTYMbr_p3fOsUNa38QqA.jpeg){: srcset="https://cdn-images-1.medium.com/max/1600/1*LjHTYMbr_p3fOsUNa38QqA.jpeg 2x"}
+
+Lastly, the default wallpaper has been updated. This photo of a sunset over a pier was included in Juno, but we've set it as the new default to give Hera its own unique identity. At the same time the color scheme is similar to Juno with its purples, oranges and blues—evoking the more iterative relationship between the two releases.
 
 ### Hardware Support
 
@@ -206,7 +213,7 @@ The one exception is the HWE stack; if you'd like the improved hardware support,
 
 `sudo apt install --install-recommends linux-generic-hwe-18.04 xserver-xorg-hwe-18.04`
 
-New users or those who prefer a fresh start can also download elementary OS 5.1 Hera from [elementary.io]. Even if you already have an older Juno ISO, we recommend downloading the latest Hera ISO if you're planning to perform a new install-you'll automatically get the latest hardware support, the new installer and onboarding, and to reduce the number of updates necessary once it's installed.
+New users or those who prefer a fresh start can also download elementary OS 5.1 Hera from [elementary.io]. Even if you already have an older Juno ISO, we recommend downloading the latest Hera ISO if you're planning to perform a new install—you'll automatically get the latest hardware support, the new installer and onboarding, and to reduce the number of updates necessary once it's installed.
 
 [updates]: {{ site.baseurl }}/tags/#updates
 [accessibility]: {{ site.baseurl }}{% post_url 2019-02-16-accessibility-features-are-just-features %}
