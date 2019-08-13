@@ -215,11 +215,12 @@ The one exception is the HWE stack; if you'd like the improved hardware support,
 
 New users or those who prefer a fresh start can also download elementary OS 5.1 Hera from [elementary.io]. Even if you already have an older Juno ISO, we recommend downloading the latest Hera ISO if you're planning to perform a new install—you'll automatically get the latest hardware support, the new installer and onboarding, and to reduce the number of updates necessary once it's installed.
 
-[updates]: {{ site.baseurl }}/tags/#updates
 [accessibility]: {{ site.baseurl }}{% post_url 2019-02-16-accessibility-features-are-just-features %}
-[oem-design]: https://github.com/elementary/installer/wiki#every-install-is-an-oem-install
-[onboarding]: {{ site.baseurl }}{% post_url 2019-07-23-get-settled-into-elementary-os-with-onboarding %}
+[elementary.io]: https://elementary.io
+[feb]: {{ site.baseurl }}{% post_url 2019-03-02-juno-updates-for-february-2019 %}
 [june]: {{ site.baseurl }}{% post_url 2019-07-01-juno-updates-for-june-2019 %}
 [juno]: https://medium.com/elementaryos/elementary-os-5-juno-is-here-471dfdedc7b3
-[elementary.io]: https://elementary.io
+[oem-design]: https://github.com/elementary/installer/wiki#every-install-is-an-oem-install
+[onboarding]: {{ site.baseurl }}{% post_url 2019-07-23-get-settled-into-elementary-os-with-onboarding %}
+[updates]: {{ site.baseurl }}/tags/#updates
 
