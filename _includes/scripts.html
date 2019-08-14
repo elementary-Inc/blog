@@ -7,7 +7,6 @@
       if (document.activeElement === figureImage) {
         // Prevent it from triggering on focusIn
         setTimeout (function () {
-          console.log ("Blurring");
           document.activeElement.blur ();
         }, 100);
       }
