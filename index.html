@@ -8,7 +8,22 @@ redirect_from:
 ---
 
 {% unless paginator.previous_page %}
-  {% include featured.html post=paginator.posts.first %}
+  {% comment %}
+    Newest posts in a unique, Medium-like layout on the first page
+  {% endcomment %}
+  <section class="latest">
+    {% assign post=paginator.posts.first %}
+    {% include featured.html post=post %}
+
+    {% assign post=paginator.posts[1] %}
+    {% include featured.html post=post %}
+
+    {% assign post=paginator.posts[2] %}
+    {% include featured.html post=post %}
+
+    {% assign post=paginator.posts[3] %}
+    {% include featured.html post=post %}
+  </section>
 {% endunless %}
 
 <section class="more">
@@ -21,7 +36,7 @@ redirect_from:
   {% endfor %}
 {% else %}
   <h2>More Stories</h2>
-  {% for post in paginator.posts offset: 1 %}
+  {% for post in paginator.posts offset: 4 %}
     {% unless post.hidden %}
       {% include featured.html post=post %}
     {% endunless %}

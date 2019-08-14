@@ -22,10 +22,13 @@
   </div>
   <div class="author">
     <span class="name">{{ author.name }}</span>
-    {% if author.description %}
+    {% if author.description and page.layout == 'post' %}
       <span class="description">{{ author.description }}</span>
     {% endif %}
   </div>
   <time class="post-date" datetime="{{ date | date:"%Y-%m-%d" }}">{{ date | date: "%a, %b %e, %Y" }}</time>
+  {% if include.content %}
+    {% include read-time.html content=include.content %}
+  {% endif %}
 </div>
 

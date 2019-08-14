@@ -1,8 +1,10 @@
 ---
 title: "Juno Updates for June, 2019"
-subtitle: "A Few Little Big Fixes"
+description: "A Few Little Big Fixes"
 author: peteruithoven
 image: https://miro.medium.com/max/506/1*bAIB3mJJqPIk03TJCqfAWA.gif
+tags:
+  - updates
 ---
 
 It’s time for another monthly updates post! While we put a bow on some really big stuff (hint hint, wink wink, nudge nudge) to be released in July, there were a few minor updates to enjoy in June.

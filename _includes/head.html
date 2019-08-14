@@ -11,6 +11,8 @@
 
   <link rel="icon" sizes="256x256" href="https://www.gravatar.com/avatar/{{ site.gravatar }}?s=256&d=blank" />
   <meta itemprop="logo" content="https://www.gravatar.com/avatar/{{ site.gravatar }}?s=256&d=blank" />
+  <link rel="shortcut icon" href="https://elementary.io/favicon.ico">
+  <link rel="apple-touch-icon" href="https://elementary.io/images/launcher-icons/apple-touch-icon.png">
 
   <link id="feedLink" rel="alternate" type="application/rss+xml" title="RSS" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
@@ -22,14 +24,15 @@
     <meta property="twitter:image" content="{{ page.image }}" />
   {% else %}
     <meta name="twitter:card" content="summary" />
+    <meta property="twitter:image" content="https://www.gravatar.com/avatar/{{ site.gravatar }}?s=256&d=blank" />
   {% endif %}
   <meta name="twitter:site" content="@{{ site.twitter }}" />
   <meta name="twitter:creator" content="@{{ site.twitter }}" />
 
-  <meta name="description" content="{% if page.subtitle %}{{ page.subtitle }}{% else %}{{ site.description }}{% endif %}" />
-  <meta property="og:description" content="{% if page.subtitle %}{{ page.subtitle }}{% else %}{{ site.description }}{% endif %}" />
-  <meta itemprop="description" content="{% if page.subtitle %}{{ page.subtitle }}{% else %}{{ site.description }}{% endif %}" />
-  <meta name="twitter:description" content="{% if page.subtitle %}{{ page.subtitle }}{% else %}{{ site.description }}{% endif %}" />
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+  <meta itemprop="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
 
   <link rel="stylesheet" type="text/css" media="all" href="{{ '/css/main.css' | prepend: site.baseurl | append: '?v=' | append: site.time }}" />
 </head>

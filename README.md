@@ -41,8 +41,11 @@ bundle install
 ### Serve
 
 ```shell
-bundle exec jekyll serve --drafts
+bundle exec jekyll serve --host 0.0.0.0
 ```
 
-The site should now be available at http://127.0.0.1:4000/. Drafts in the `_drafts` folder will show up based on their last-edited time.
+The site should now be available at http://0.0.0.0:4000/ on your local machine, and your local machine's IP address on your network—great for testing on mobile OSes. 
 
+#### Drafts & Future Posts
+
+Append `--drafts` to the serve command, and drafts in the `_drafts` folder will show up based on their last-edited time. Similarly, append `--future` to the serve command to show future posts.

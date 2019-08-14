@@ -26,6 +26,7 @@ authors:
   peteruithoven:
     name: Peter Uithoven
     description: "Front-end Developer"
+    gravatar: f39b1485b28be1dc2b98f269235218bc
   anonymous:
     name: "Unknown Author"
 
@@ -35,7 +36,7 @@ plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
 
-paginate: 5
+paginate: 7
 paginate_path: "/archive/:num/"
 
 markdown: kramdown

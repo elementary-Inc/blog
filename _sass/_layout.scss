@@ -14,31 +14,105 @@ body > header {
   color: var(--silver-100);
   fill: var(--silver-100);
 
-  a {
-    color: white;
-    display: block;
-    filter: drop-shadow(0px 0px 0px white); // Increases legibility
-    font-family: var(--heading-font);
-    font-size: 3.2rem;
-    font-weight: 100;
-    margin: 0 auto;
-    max-width: var(--page-width);
-    opacity: 1;
-    padding: 2rem 1rem;
-    text-decoration: none;
+  nav {
+    display: flex;
+    font-size: 0;
+    overflow-x: auto;
+    padding: 0 1rem;
 
-    .logotype {
-      font-size: 0;
+    ul {
+      display: inline-block;
+      flex: 0 0 auto;
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      display: inline-block;
+      list-style: none;
+      vertical-align: middle;
+    }
+
+    a {
+      color: var(--silver-100);
+      display: inline-block;
+      font-family: var(--ui-font);
+      font-size: 0.85rem;
+      line-height: 2.9em;
+      opacity: 1;
+      padding: 0 0.65rem;
+      text-decoration: none;
+    }
+
+    a:hover {
+      opacity: 0.7;
+    }
+
+    svg {
+      height: 1em;
+    }
+
+    .logomark {
+      line-height: 0;
 
       svg {
         height: auto;
-        margin-right: 1rem;
-        margin-top: 0.75rem;
-        vertical-align: top;
-        width: 16rem;
       }
     }
   }
+
+  .primary {
+    justify-content: space-between;
+  }
+
+  .secondary {
+    background-color: var(--secondary-bg-color);
+    justify-content: center;
+
+    a {
+      color: var(--secondary-fg-color);
+      font-size: 0.7rem;
+      line-height: 3.6em;
+    }
+  }
+}
+
+body > footer {
+    background-color: var(--secondary-bg-color);
+    display: flex;
+    flex-flow: wrap-reverse;
+    justify-content: space-between;
+    overflow-x: auto;
+    padding: 0 1rem;
+
+    ul {
+      display: inline-block;
+      flex: 0 0 auto;
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      display: inline-block;
+      list-style: none;
+      vertical-align: middle;
+    }
+
+    a {
+      display: inline-block;
+      opacity: 1;
+      padding: 0 0.4rem;
+      text-decoration: none;
+    }
+
+    a,
+    p {
+      color: var(--secondary-fg-color);
+      font-family: var(--ui-font);
+      font-size: 0.6rem;
+      line-height: 3em;
+      margin: 0;
+    }
 }
 
 article {
