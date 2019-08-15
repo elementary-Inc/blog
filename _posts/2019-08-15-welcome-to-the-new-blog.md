@@ -64,7 +64,7 @@ The real selling point for us, however, was the authoring workflow. Since the co
 
 Just because it's a simple static blog doesn't mean we don't support all the modern features you'd expect:
 
-1. **[RSS feed](https://blog.elementary.io/feed)** for all the subscribing and cross-posting you could desire.
+1. **[RSS feed]({ site.baseurl }/feed)** for all the subscribing and cross-posting you could desire.
 2. **Completely responsive** design from the start.
 3. **Great typography** for long-form reading with sane line-lengths, pull quotes, etc.
 4. **Dark style** support from day zero (if your OS and browser support it).
