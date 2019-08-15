@@ -3,6 +3,9 @@ title: Welcome to the New Blog
 description: Why we left Medium, and how!
 author: cassidyjames
 image: /images/elementary-blog-code-1600.jpg
+tags:
+  - meta
+  - design
 ---
 
 <figure class="full-bleed" markdown="1">
