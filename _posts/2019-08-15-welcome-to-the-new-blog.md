@@ -1,6 +1,6 @@
 ---
 title: Welcome to the New Blog
-description: Why and how we left Medium—and what's next
+description: Why we left Medium, and how!
 author: cassidyjames
 image: /images/elementary-blog-code-1600.jpg
 ---
