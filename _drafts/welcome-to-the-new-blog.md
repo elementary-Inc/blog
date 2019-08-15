@@ -2,7 +2,12 @@
 title: Welcome to the New Blog
 description: Why and how we left Medium—and what's next
 author: cassidyjames
+image: /images/elementary-blog-code-1600.jpg
 ---
+
+<figure class="full-bleed" markdown="1">
+![Code](/images/elementary-blog-code-2560.jpg)
+</figure>
 
 In 2016, elementary moved to [a Medium publication](https://medium.com/elementaryos) to host our official blog. At the time, Medium was touted as a simple, clean, and reader-focused host for writers. They supported custom domains, a robust API, RSS, rich formatting, and great image embedding. We had been largely happy with the experience—as were our readers—but something changed in 2017.
 
@@ -128,6 +133,31 @@ One exciting area we could experiment with was supporting a dark style preferenc
 {% include featured.html post=post %}
 </aside>
 
+We're using [CSS variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) and the [`prefers-color-scheme` media query](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme) to swap out colors when the browser requests a dark style. This means we can write our CSS more semantically, using rules like `color: var(--fg-color)` instead of hardcoding colors throughout the site. It also means we can style elements like code blocks with a light or dark syntax theme depending on the browser's preference. While this isn't (yet) supported natively on elementary OS, it should make reading the blog on other OSes like Android, iOS, Chrome OS, macOS, and Windows more consistent.
+
+<figure markdown="1">
+```scss
+:root {
+  --bg-color: white;
+  --fg-color: var(--black-500);
+  --accent-color: var(--blueberry-700);
+  --header-color: var(--blueberry-300);
+  --secondary-bg-color: var(--silver-100);
+  --secondary-fg-color: var(--black-300);
+
+    @media (prefers-color-scheme: dark) {
+    --bg-color: var(--black-500);
+    --fg-color: var(--silver-300);
+    --accent-color: var(--blueberry-100);
+    --header-color: var(--slate-500);
+    --secondary-bg-color: var(--black-300);
+    --secondary-fg-color: var(--silver-300);
+  }
+}
+```
+<figcaption>Example of dark-style support in Sass</figcaption>
+</figure>
+
 We're also experimenting with and learning a lot about the process of designing for light and dark styles at the same time, which may translate back to improvements in elementary OS.
 
 ### No AMP
@@ -165,51 +195,6 @@ Ideally:
 If you have ideas and/or want to help, hit us up on social media!
 
 
-
-
 [custom-domains]: https://help.medium.com/hc/en-us/articles/115003053487-Custom-Domains-service-deprecation
 [write.as]: https://write.as
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

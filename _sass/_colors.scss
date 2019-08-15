@@ -80,10 +80,8 @@
   --header-color: var(--blueberry-300);
   --secondary-bg-color: var(--silver-100);
   --secondary-fg-color: var(--black-300);
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
+  @media (prefers-color-scheme: dark) {
     --bg-color: var(--black-500);
     --fg-color: var(--silver-300);
     --accent-color: var(--blueberry-100);

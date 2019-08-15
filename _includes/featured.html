@@ -2,7 +2,12 @@
 
 <a class="featured{% if post.image %} with-image{% endif %}{% if include.size %} {{ include.size }}{% endif %}" href="{{ post.url | prepend: site.baseurl }}">
   {% if post.image %}
-    <div class="featured-image" alt="Featured image" style="background-image: url({{ post.image }});"></div>
+    {% if post.image | slice: 0, 3 = "http" %}
+      {% assign image = post.image %}
+    {% else %}
+      {% assign image = site.baseurl + post.image %}
+    {% endif %}
+    <div class="featured-image" alt="Featured image" style="background-image: url({{ image }});"></div>
   {% endif %}
 
   <header>
