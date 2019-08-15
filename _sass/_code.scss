@@ -36,264 +36,110 @@
   background-color: var(--solarized-base3);
   color: var(--solarized-base01);
 
-  .c {
-    color: var(--solarized-base1);
-  }
-
-  .err,
-  .l,
-  .g,
-  .n,
-  .p,
-  .ge,
-  .go,
-  .gp,
-  .gs {
-    color: var(--solarized-base01);
-  }
-
-  .k,
-  .o {
-    color: var(--solarized-green);
-  }
-
-  .x {
-    color: var(--solarized-orange);
-  }
-
-  .cm {
-    color: var(--solarized-base1);
-  }
-
-  .cp {
-    color: var(--solarized-green);
-  }
-
-  .c1 {
-    color: var(--solarized-base1);
-  }
-
-  .cs {
-    color: var(--solarized-green);
-  }
-
-  .gd {
-    color: var(--solarized-cyan);
-  }
-
-  .ge {
-    font-style: italic;
-  }
-
-  .gr {
-    color: var(--solarized-red);
-  }
-
-  .gh {
-    color: var(--solarized-orange);
-  }
-
-  .gi {
-    color: var(--solarized-green);
-  }
-
   .gl {
     background-color: var(--solarized-base2);
     padding: 0 0.25em;
     text-align: right;
   }
 
-
-  .gs {
-    font-weight: bold;
+  .c,
+  .c1,
+  .cm,
+  .sb {
+    color: var(--solarized-base1);
   }
 
-  .gu {
-    color: var(--solarized-orange);
-  }
-
-  .gt {
+  .err,
+  .g,
+  .ge,
+  .go,
+  .gp,
+  .gs,
+  .gt,
+  .l,
+  .ld,
+  .n,
+  .na,
+  .nl,
+  .nn,
+  .nx,
+  .p,
+  .py,
+  .sd,
+  .sh,
+  .w {
     color: var(--solarized-base01);
   }
 
-  .kc {
+  .gd,
+  .il,
+  .m,
+  .mf,
+  .mh,
+  .mi,
+  .mo,
+  .s,
+  .s1,
+  .s2,
+  .sc,
+  .si,
+  .ss,
+  .sx {
+    color: var(--solarized-cyan);
+  }
+
+  .bp,
+  .kd,
+  .kr,
+  .nc,
+  .nd,
+  .nf,
+  .nt,
+  .nv,
+  .vc,
+  .vg,
+  .vi {
+    color: var(--solarized-blue);
+  }
+
+  .cp,
+  .cs,
+  .gi,
+  .k,
+  .kn,
+  .kp,
+  .o,
+  .ow {
+    color: var(--solarized-green);
+  }
+
+  .gh,
+  .gu,
+  .kc,
+  .ne,
+  .ni,
+  .no,
+  .se,
+  .x {
     color: var(--solarized-orange);
   }
 
-  .kd {
-    color: var(--solarized-blue);
-  }
-
-  .kn {
-    color: var(--solarized-green);
-  }
-
-  .kp {
-    color: var(--solarized-green);
-  }
-
-  .kr {
-    color: var(--solarized-blue);
-  }
-
-  .kt {
+  .gr,
+  .kt,
+  .sr {
     color: var(--solarized-red);
-  }
-
-  .ld {
-    color: var(--solarized-base01);
-  }
-
-  .m {
-    color: var(--solarized-cyan);
-  }
-
-  .s {
-    color: var(--solarized-cyan);
-  }
-
-  .na {
-    color: var(--solarized-base01);
   }
 
   .nb {
     color: var(--solarized-yellow);
   }
 
-  .nc {
-    color: var(--solarized-blue);
+  .ge {
+    font-style: italic;
   }
 
-  .no {
-    color: var(--solarized-orange);
-  }
-
-  .nd {
-    color: var(--solarized-blue);
-  }
-
-  .ni {
-    color: var(--solarized-orange);
-  }
-
-  .ne {
-    color: var(--solarized-orange);
-  }
-
-  .nf {
-    color: var(--solarized-blue);
-  }
-
-  .nl {
-    color: var(--solarized-base01);
-  }
-
-  .nn {
-    color: var(--solarized-base01);
-  }
-
-  .nx {
-    color: var(--solarized-base01);
-  }
-
-  .py {
-    color: var(--solarized-base01);
-  }
-
-  .nt {
-    color: var(--solarized-blue);
-  }
-
-  .nv {
-    color: var(--solarized-blue);
-  }
-
-  .ow {
-    color: var(--solarized-green);
-  }
-
-  .w {
-    color: var(--solarized-base01);
-  }
-
-  .mf {
-    color: var(--solarized-cyan);
-  }
-
-  .mh {
-    color: var(--solarized-cyan);
-  }
-
-  .mi {
-    color: var(--solarized-cyan);
-  }
-
-  .mo {
-    color: var(--solarized-cyan);
-  }
-
-  .sb {
-    color: var(--solarized-base1);
-  }
-
-  .sc {
-    color: var(--solarized-cyan);
-  }
-
-  .sd {
-    color: var(--solarized-base01);
-  }
-
-  .s2 {
-    color: var(--solarized-cyan);
-  }
-
-  .se {
-    color: var(--solarized-orange);
-  }
-
-  .sh {
-    color: var(--solarized-base01);
-  }
-
-  .si {
-    color: var(--solarized-cyan);
-  }
-
-  .sx {
-    color: var(--solarized-cyan);
-  }
-
-  .sr {
-    color: var(--solarized-red);
-  }
-
-  .s1 {
-    color: var(--solarized-cyan);
-  }
-
-  .ss {
-    color: var(--solarized-cyan);
-  }
-
-  .bp {
-    color: var(--solarized-blue);
-  }
-
-  .vc {
-    color: var(--solarized-blue);
-  }
-
-  .vg {
-    color: var(--solarized-blue);
-  }
-
-  .vi {
-    color: var(--solarized-blue);
-  }
-
-  .il {
-    color: var(--solarized-cyan);
+  .gs {
+    font-weight: bold;
   }
 }
 
@@ -302,95 +148,36 @@
     background-color: var(--solarized-base03);
     color: var(--solarized-base1);
 
-    .c {
-      color: var(--solarized-base01);
+    .gl {
+      background-color: var(--solarized-base02);
     }
 
-    .err {
-      color: var(--solarized-base1);
-    }
-
-    .g {
-      color: var(--solarized-base1);
-    }
-
-    .l {
-      color: var(--solarized-base1);
-    }
-
-    .n {
-      color: var(--solarized-base1);
-    }
-
-    .p {
-      color: var(--solarized-base1);
-    }
-
-    .cm {
-      color: var(--solarized-base01);
-    }
-
-    .c1 {
-      color: var(--solarized-base01);
-    }
-
-    .ge {
-      color: var(--solarized-base1);
-    }
-
-    .go {
-      color: var(--solarized-base1);
-    }
-
-    .gp {
-      color: var(--solarized-base1);
-    }
-
-    .gs {
-      color: var(--solarized-base1);
-    }
-
-    .gt {
-      color: var(--solarized-base1);
-    }
-
-    .ld {
-      color: var(--solarized-base1);
-    }
-
-    .na {
-      color: var(--solarized-base1);
-    }
-
-    .nl {
-      color: var(--solarized-base1);
-    }
-
-    .nn {
-      color: var(--solarized-base1);
-    }
-
-    .nx {
-      color: var(--solarized-base1);
-    }
-
-    .py {
-      color: var(--solarized-base1);
-    }
-
-    .w {
-      color: var(--solarized-base1);
-    }
-
+    .c,
+    .c1,
+    .cm,
     .sb {
       color: var(--solarized-base01);
     }
 
-    .sd {
-      color: var(--solarized-base1);
-    }
-
-    .sh {
+    .err,
+    .g,
+    .ge,
+    .go,
+    .gp,
+    .gs,
+    .gt,
+    .l,
+    .ld,
+    .n,
+    .na,
+    .nl,
+    .nn,
+    .nx,
+    .p,
+    .py,
+    .sd,
+    .sh,
+    .w {
       color: var(--solarized-base1);
     }
   }
