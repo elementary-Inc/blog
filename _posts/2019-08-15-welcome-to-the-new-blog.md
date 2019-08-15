@@ -99,7 +99,7 @@ The obvious example is Google Analytics; while we do use this on our main site t
 
 A less obvious form of potential tracking is via common JavaScript libraries or CSS files that you're encouraged to use by linking to a remote CDN. While that's extremely convenient and has some caching benefits—if many sites use them, users are less likely to have to download them each time—it also opens the door to tracking: each time a reader visits our site, their browser is pinging that remote server to get the resource or see if it has changed. While we may decide to trust the companies that host those assets today, the reality is that [web services pivot](https://www.entrepreneur.com/article/290001) and may find those potential trackers too attractive of a market to pass up in the future.
 
-We've also found that a clean, tailored blog doesn't actually need any JavaScript to function (a near-blasphemous concept on the modern web!), and any tiny amounts of progressively-enhancing JS we may want can be included on the page where needed. For CSS, we use Sass to mak it easier to write (and more organized across multiple component files), then the preprocessor compiles it all into one minified file.
+We've also found that a clean, tailored blog doesn't actually need any JavaScript to function (a near-blasphemous concept on the modern web!), and any tiny amounts of progressively-enhancing JS we may want can be included on the page where needed. For CSS, we use Sass to make it easier to write (and more organized across multiple component files), then the preprocessor compiles it all into one minified file.
 
 <figure markdown="1">
 ```js
