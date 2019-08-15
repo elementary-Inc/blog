@@ -124,6 +124,55 @@ Closely related, but more nefarious, are the pervasive trackers disguised as con
 
 Another great benefit: the site loads _crazy_ fast because it's not hitting and pulling down all kinds of external scripts and CSS.
 
+### Design & Styling
+
+If you've read our stories on Medium, you might notice that the new blog feels fairly Medium-like in its styling. That's not a mistake; our approach for styling has been to ease the transition from Medium while slowly moving to a more elementary-like style over time. This gives us a good typographical starting point, and helps our backlog of existing posts feel at home in the new design.
+
+<figure markdown="1">
+```css
+:root {
+  --ui-font: "Open Sans", "Noto Sans", "Roboto", "Droid Sans", sans-serif;
+  --copy-font: "Noto Serif", "Droid Serif", serif;
+  --heading-font: Raleway, var(--ui-font);
+}
+
+html {
+  font-family: var(--copy-font);
+  …
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+  …
+}
+
+.byline {
+  font-family: var(--ui-font);
+  …
+}
+```
+<figcaption>Example of our font stack</figcaption>
+</figure>
+
+One choice we made in the design was around the typefaces used: we decided to not include any fonts in the site itself, but to use a simple open font stack with native fallbacks. Platforms include high-quality typefaces these days, so using extra bandwidth to load in our own branded versions for a little bit of brand consistency just doesn't seem worth it. If you _are_ on elementary OS or have our default fonts installed, it'll feel right at home—but otherwise, we use the OS's default serif and sans-serif fonts.
+
+<figure class="half" markdown="1">
+![Initial homepage](/images/welcome-to-the-new-blog/homepage-initial.png)
+![New homepage](/images/welcome-to-the-new-blog/homepage-new.png)
+<figcaption markdown="1">
+**Left:** Initial Medium-like homepage | **Right:** Newer, more elementary-style homepage
+</figcaption>
+</figure>
+
+For the [homepage]({{ site.baseurl }}), we started with a simple list of articles. To make it more visually interesting, we added a Medium-like grid of featured articles. Over time, we've tweaked this styling to feel more elementary-styled with subtle borders and shadows to make the images stand out. Similarly, with the author byline we're using the same avatar style we us in elementary OS. For code blocks, we're using the same excellent [Solarized](https://ethanschoonover.com/solarized/) color scheme as used in our Code app.
+
+Over all, the design has been and will continue to be iterative. We may add or tweak styling as we want to do new things. But we hope it's a legible and familiar design both for former readers of our Medium publication and users of elementary OS itself.
+
 ### Dark Style
 
 One exciting area we could experiment with was supporting a dark style preference on the blog from day one. As I've [written before]({ site.baseurl }{% post_url 2019-05-17-the-need-for-a-freedesktop-dark-style-preference %}), practically all major platforms and browsers are adopting a user-set dark style preference; we'd be remiss to not build a new site with that in mind.
