@@ -74,7 +74,7 @@ One thing we've actively chosen _not_ to implement or support is some sort of co
 
 ## How It's Made
 
-So, how is the new elementary Blog actually put together?
+So, how is the new elementary Blog actually put together? Let's get web-dev nerdy.
 
 ### Jekyll Basics
 
@@ -88,8 +88,15 @@ One major constraint I set when starting the new blog was that we should avoid a
 
 The obvious example is Google Analytics; while we do use this on our main site to track the number of downloads on the homepage (and are actively seeking an alternative method), there's no compelling reason to include it here. It seems almost unfathomable to not include Google Analytics on a modern website, but we get enough sense of “engagement” via social media and press coverage to know what our users and readers find interesting. And since our goal for the blog is to spread genuinely useful information about elementary OS, we're not incentivized to tailor our content to what gets the most clicks or attracts the "right kind" of readers.
 
-A less obvious form of potential tracking is via common JavaScript libraries or CSS files that you're encouraged to use by linking to a remote CDN. While that's extremely convenient and has some caching benefits—if many sites use them, users are less likely to have to download them each time—it also opens the door to tracking: each time a reader visits our site, their browser is pinging that remote server to get the resource or see if it has changed. While we may decide to trust the companies that host those assets today, the reality is that [web services pivot](https://www.entrepreneur.com/article/290001) and may find those potential trackers too attractive of a market to pass up in the future. We've also found that a clean, tailored blog doesn't actually need any JavaScript to function (a near-blasphemous concept on the modern web!), and any tiny amounts of progressively-enhancing JS we may want can be included on the page where needed.
+<aside markdown="1">
+>It seems almost unfathomable to not include Google Analytics on a modern website.
+</aside>
 
+A less obvious form of potential tracking is via common JavaScript libraries or CSS files that you're encouraged to use by linking to a remote CDN. While that's extremely convenient and has some caching benefits—if many sites use them, users are less likely to have to download them each time—it also opens the door to tracking: each time a reader visits our site, their browser is pinging that remote server to get the resource or see if it has changed. While we may decide to trust the companies that host those assets today, the reality is that [web services pivot](https://www.entrepreneur.com/article/290001) and may find those potential trackers too attractive of a market to pass up in the future.
+
+We've also found that a clean, tailored blog doesn't actually need any JavaScript to function (a near-blasphemous concept on the modern web!), and any tiny amounts of progressively-enhancing JS we may want can be included on the page where needed. For CSS, we use Sass to mak it easier to write (and more organized across multiple component files), then the preprocessor compiles it all into one minified file.
+
+<figure markdown="1">
 ```js
 // Makes figure images focusable for zooming
 let figureImages = document.querySelectorAll ("figure img");
@@ -105,6 +112,8 @@ figureImages.forEach (function (figureImage) {
   });
 });
 ```
+<figcaption>The only JS that loads on every page</figcaption>
+</figure>
 
 Closely related, but more nefarious, are the pervasive trackers disguised as convenient ways to share web pages on social media. Companies like Facebook and Twitter encourage web developers to pepper these "share buttons" across their sites, and it [allows the services](https://lifehacker.com/twitter-is-tracking-you-on-the-web-here-s-what-you-can-5911389) to [directly track users](https://www.consumerreports.org/privacy/how-facebook-tracks-you-even-when-youre-not-on-facebook/) and their activity [across the entire Internet](https://www.theverge.com/2013/7/26/4560190/pinterest-now-tracks-web-history-for-suggestions-supports-do-not-track)—whether logged into the social media service or not. In reality, these services also support sharing a URL via a normal link, which is what we use on the site to avoid loading any code from their remote servers.
 
