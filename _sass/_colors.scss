@@ -61,16 +61,27 @@
   --black-700: #1a1a1a;
   --black-900: #000000;
 
+  --solarized-base01: #586e75;
+  --solarized-base02: #073642;
+  --solarized-base03: #002b36;
+  --solarized-base1: #93a1a1;
+  --solarized-base2: #eee8d5;
+  --solarized-base3: #fdf6e3;
+  --solarized-blue: #268bd2;
+  --solarized-cyan: #2aa198;
+  --solarized-green: #859900;
+  --solarized-orange: #cb4b16;
+  --solarized-red: #dc322f;
+  --solarized-yellow: #b58900;
+
   --bg-color: white;
   --fg-color: var(--black-500);
   --accent-color: var(--blueberry-700);
   --header-color: var(--blueberry-300);
   --secondary-bg-color: var(--silver-100);
   --secondary-fg-color: var(--black-300);
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
+  @media (prefers-color-scheme: dark) {
     --bg-color: var(--black-500);
     --fg-color: var(--silver-300);
     --accent-color: var(--blueberry-100);
