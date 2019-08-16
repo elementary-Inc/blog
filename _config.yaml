@@ -45,10 +45,7 @@ kramdown:
   syntax_highlighter_opts:
     block:
       line_numbers: true
-sass:
-  style: compressed
 
 future: false # Allows us to stage posts
 exclude: [README.md, Gemfile, Gemfile.lock, vendor]
-incremental: true # speeds up generating when working on a post
 
