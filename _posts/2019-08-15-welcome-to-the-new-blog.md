@@ -6,6 +6,11 @@ image: /images/elementary-blog-code-1600.jpg
 tags:
   - meta
   - design
+
+facebook: https://www.facebook.com/elementaryos/posts/2643224962375983
+mastodon: https://mastodon.social/@elementary/102624202798672708
+reddit: https://www.reddit.com/r/elementaryos/comments/cqzqnl/welcome_to_the_new_blog_elementary_blog/
+twitter: https://twitter.com/elementary/status/1162183150916837380
 ---
 
 <figure class="full-bleed" markdown="1">
