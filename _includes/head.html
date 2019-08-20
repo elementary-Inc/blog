@@ -20,7 +20,7 @@
   <meta name="theme-color" content="{% if page.theme-color %}{{ page.theme-color }}{% else %}{{ site.theme-color }}{% endif %}" />
 
   {% if page.image %}
-    {% assign prefix = page.image | slice: 0, 4 %}0
+    {% assign prefix = page.image | slice: 0, 4 %}
     {% if prefix == "http" %}
       {% assign image = page.image %}
     {% else %}
