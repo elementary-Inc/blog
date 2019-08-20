@@ -12,11 +12,17 @@ tags:
   - ux
 ---
 
-> In the past year or so, [macOS](https://developer.apple.com/design/human-interface-guidelines/macos/visual-design/dark-mode/), [Windows](https://blogs.windows.com/windowsexperience/2019/04/01/windows-10-tip-dark-theme-in-file-explorer/#syl6IPzIdVQWT4k6.97), [Android](https://developer.android.com/preview/features/darktheme), [iOS](https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/dark-mode/), [Safari](https://webkit.org/blog/8840/dark-mode-support-in-webkit/), [Chrome](https://support.google.com/chrome/answer/9275525?hl=en), and [Firefox](https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/67) have announced support for or released developer opt-in to a user-set dark style preference. It’s time for the FreeDesktop to catch up.
+In the past year or so, [macOS](https://developer.apple.com/design/human-interface-guidelines/macos/visual-design/dark-mode/), [Windows](https://blogs.windows.com/windowsexperience/2019/04/01/windows-10-tip-dark-theme-in-file-explorer/#syl6IPzIdVQWT4k6.97), [Android](https://developer.android.com/preview/features/darktheme), [iOS](https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/dark-mode/), [Chrome OS](https://chromeunboxed.com/chrome-os-testing-new-dark-mode/), [Safari](https://webkit.org/blog/8840/dark-mode-support-in-webkit/), [Chrome](https://support.google.com/chrome/answer/9275525?hl=en), and [Firefox](https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/67) have begun testing or released a user-set dark style preference that developers can opt into. It’s time for the FreeDesktop to catch up.
 
-OS-wide dark styles are hard. For ages you’ve been able to forcibly change out the system style on GTK, KDE, Android and Windows with something that’s dark by default instead of light, but this causes issues when apps don’t expect it (since the default is typically light). For a time, GNOME even provided a hack via Tweaks that overrode an environment variable to force the dark variant on apps, as if the apps themselves had opted in. This had the same issues. Consequently, dark styles have typically been relegated to the app’s decision — if it’s a media app, made for dark environments, etc, then it can choose to ask for a dark style. Users who wished to override the system-wide stylesheet in an effort to save their eyes or better match their environments were either out of luck or left with a mess of broken apps.
+---
 
+OS-wide dark styles are hard. For ages you’ve been able to forcibly change out the system style on GTK, KDE, Android and Windows with something that’s dark by default instead of light, but this causes issues when apps don’t expect it (since the default is typically light). For a time, GNOME even provided a hack via Tweaks that overrode an environment variable to force the dark variant on apps, as if the apps themselves had opted in. This had the same issues. Accessibility features that invert the whole display have existed, but they're not pleasant to use.
+
+Consequently, dark styles have typically been relegated to the app’s decision — if it’s a media app, made for dark environments, etc, then it can choose to ask for a dark style. Users who wished to override the system-wide stylesheet in an effort to save their eyes or better match their environments were either out of luck or left with a mess of broken apps.
+
+<aside markdown="1">
 > There is a new expectation that this is a standard, user-togglable preference.
+</aside>
 
 However, there’s a groundswell for user-determined dark style preference across platforms and experiences. Many apps designed for Android, iOS, and elementary OS today already ship their own built-in light/dark style toggle, but with the latest OS releases, there is a new expectation that this is a standard, user-togglable preference of the OS, propagated to apps and even the web.
 
@@ -47,9 +53,23 @@ Luckily for us, other platforms have settled into strikingly similar implementat
 
 macOS implemented a system-wide dark style in two phases. First, the system UI (like the dock and panel) followed a user-settable dark preference. Second, Apple implemented it in their first-party default apps and opened it up to third party apps.
 
-The first phase made sense to cater to users of “pro” apps that already use a dark UI style by default, like Photoshop or most video editors. This meant that users of those apps had a less jarring experience between their primary app UI and the system UI. It was a nice step, but was only the start.
+<figure class="card" markdown="1">
+![Yosemite]({{ site.baseurl }}/images/the-need-for-a-freedesktop-dark-style-preference/macos-yosemite-light-dark-800.png){: srcset="{{ site.baseurl }}/images/the-need-for-a-freedesktop-dark-style-preference/macos-yosemite-light-dark-1600.png 2x"}
+<figcaption markdown="1">
+"Dark menu bar and Dock" setting in macOS Yosemite; screenshot from [512 Pixels](https://512pixels.net/2018/06/on-macos-mojaves-dark-mode/)
+</figcaption>
+</figure>
 
-The second phase opened up the API for the preference to all apps, and Apple made a point of implementing it in all of their default apps. This also helps that “pro” use case where their file manager no longer blinds them when switching apps, but also means other apps from third parties can follow suit and help make a more accessible, environment-matching, and aesthetically consistent experience for users.
+The first phase in macOS Yosemite made sense to cater to users of “pro” apps that already use a dark UI style by default, like Photoshop or most video editors. This meant that users of those apps had a less jarring experience between their primary app UI and the system UI. It was a nice step, but was only the start.
+
+<figure markdown="1">
+![Mojave]({{ site.baseurl }}/images/the-need-for-a-freedesktop-dark-style-preference/macos-general-preferences-800.png){: srcset="{{ site.baseurl }}/images/the-need-for-a-freedesktop-dark-style-preference/macos-general-preferences-1600.png 2x"}
+<figcaption markdown="1">
+Appearance preference added in macOS Mojave; screenshots from [512 Pixels](https://512pixels.net/2018/06/on-macos-mojaves-dark-mode/)
+</figcaption>
+</figure>
+
+The second phase in macOS Mojave opened up the API for the preference to all apps, and Apple made a point of implementing it in all of their default apps. This also helps that “pro” use case where their file manager no longer blinds them when switching apps, but also means other apps from third parties can follow suit and help make a more accessible, environment-matching, and aesthetically consistent experience for users.
 
 macOS does not force a dark style on any apps by automatically switching out the system theme rendering underneath existing apps—instead, app developers are expected to build their apps against the latest libraries which has automatic dark style support, or to respond to the setting and manually alter their app UI as they see fit. Technically apps could completely ignore it, but user pressure encourages developers to support the latest features and not blind users when switching apps.
 
@@ -59,13 +79,40 @@ The end result on macOS: a very consistent system with a few standout light thir
 
 ### Windows
 
-Windows 10 looks a bit messier than macOS due to its wide use of multiple toolkits, but the idea is largely the same to macOS. A user can set a dark style preference, and that’s enabled in the system UI plus “modern UI” apps by default (since it was a supported feature of that toolkit from day one). Some apps with the older Windows toolkit (like Explorer, their file manager) also hook off that preference and render themselves in a dark style. Other apps like Firefox, Chrome, and Edge also hook off of that preference and—just like on macOS—use the new web standards to let web pages render in a dark style as well.
+Windows 10 looks a bit messier than macOS due to its wide use of multiple toolkits, but the idea is largely the same to macOS. A user can set a dark style preference, and that’s enabled in the system UI plus “modern UI” apps by default (since it was a supported feature of that toolkit from day one).
+
+<figure class="half card" markdown="1">
+![Windows 10 Light]({{ site.baseurl }}/images/the-need-for-a-freedesktop-dark-style-preference/windows-10-settings-light-style.png)
+![Windows 10 Dark]({{ site.baseurl }}/images/the-need-for-a-freedesktop-dark-style-preference/windows-10-settings-dark-style.png)
+<figcaption markdown="1">
+Light or dark "app mode" in Windows 10 settings; screenshots from [Windows Experience Blog](https://blogs.windows.com/windowsexperience/2019/04/01/windows-10-tip-dark-theme-in-file-explorer/)
+</figcaption>
+</figure>
+
+Some apps with the older Windows toolkit (like Explorer, their file manager) also hook off that preference and render themselves in a dark style. Other apps like Firefox, Chrome, and Edge also hook off of that preference and—just like on macOS—use the new web standards to let web pages render in a dark style as well.
 
 ### Android
 
 Similar to macOS, Android implemented a dark style in two phases: first the system UI, then opening up the API to apps.
 
-In Android 9 Pie, Google introduced a user preference for a dark mode (by default based on the wallpaper, but also user-togglable) that set some parts of the system UI to a darker style. Some first-party apps like the dialer and Messages also followed this style, while other apps like the keyboard and Google News would switch to their own dark style when Battery Saver was on to save power on OLED screens.
+<figure class="half card" markdown="1">
+![Pixel Launcher Light]({{ site.baseurl }}/images/the-need-for-a-freedesktop-dark-style-preference/android-pixel-launcher-light-800.png){: srcset="{{ site.baseurl }}/images/the-need-for-a-freedesktop-dark-style-preference/android-pixel-launcher-light-1600.png 2x"}
+![Pixel Launcher Dark]({{ site.baseurl }}/images/the-need-for-a-freedesktop-dark-style-preference/android-pixel-launcher-dark-800.png){: srcset="{{ site.baseurl }}/images/the-need-for-a-freedesktop-dark-style-preference/android-pixel-launcher-dark-1600.png 2x"}
+<figcaption markdown="1">
+Light or dark style in Android 9 Pie; screenshots from [Android Police](https://www.androidpolice.com/2017/10/17/pixel-launcher-pixel-2-automatic-dark-light-themes-based-wallpaper/)
+</figcaption>
+</figure>
+
+In Android 9 Pie, Google introduced a user preference for a dark style (by default based on the wallpaper, but also user-togglable) that set some parts of the system UI to a darker style. Some first-party apps like the dialer and Messages also followed this style, while other apps like the keyboard and Google News would switch to their own dark style when Battery Saver was on to save power on OLED screens.
+
+<figure class="third card" markdown="1">
+![Dialer]({{ site.baseurl }}/images/the-need-for-a-freedesktop-dark-style-preference/android-dialer-light-dark-800.png)
+![Settings]({{ site.baseurl }}/images/the-need-for-a-freedesktop-dark-style-preference/android-settings-light-dark-800.png)
+![Keep Notes]({{ site.baseurl }}/images/the-need-for-a-freedesktop-dark-style-preference/android-keep-notes-light-dark-800.png)
+<figcaption markdown="1">
+Various apps following the system "Dark Theme"
+</figcaption>
+</figure>
 
 In Android 10 Q, Google is shipping this much more prominently as a user-togglable “Dark Theme,” along with extensive guidelines for app developers on how to support it. It’s now a quick toggle (just like turning on/off WiFi or Night Light), and those apps plus almost all aspects of the OS all respond accordingly. OEMs can also choose if Battery Saver automatically toggles the Dark Theme on (i.e. for power saving on OLED displays), and Google does so on the flagship Pixel line of phones. This means apps don’t have to try and support both cases—if they support Dark Theme, they’ll go dark for Battery Saver as well. Developers are heavily encouraged to listen to this preference, and respond accordingly. They can opt into using the toolkit’s built-in dark style and build off of it with their own custom styling.
 
@@ -73,23 +120,61 @@ Android also includes a sort of “smart invert” option in the toolkit that in
 
 ### iOS
 
-Much like macOS before it, iOS 13 introduced its own dark style preference. It behaves much the same as on macOS with the system UI getting a darker tint. Apps are encouraged to build against the latest iOS and use system controls when possible for automatic dark style support, but to also extensively test and adapt their apps where needed for both light and dark styles.
+Much like macOS before it, iOS 13 introduced its own dark style preference, called "Appearance." It behaves much the same as on macOS with the system UI getting a darker tint. Apple also ships some wallpapers with light/dark appearance support.
+
+<figure markdown="1">
+![iOS Wallpapers]({{ site.baseurl }}/images/the-need-for-a-freedesktop-dark-style-preference/iOS-13-dark-mode-wallpapers.png)
+<figcaption markdown="1">
+Wallpapers following the "Appearance" settings in iOS 13; screenshots from [MacRumors](https://www.macrumors.com/guide/ios-dark-mode/)
+</figcaption>
+</figure>
+
+Apps are encouraged to build against the latest iOS and use system controls when possible for automatic dark style support, but to also extensively test and adapt their apps where needed for both light and dark styles.
+
+<figure markdown="1">
+![iOS Wallpapers]({{ site.baseurl }}/images/the-need-for-a-freedesktop-dark-style-preference/iOS-13-dark-mode-schedules.png)
+<figcaption markdown="1">
+Light and Dark "Appearance" settings in iOS 13; screenshots from [MacRumors](https://www.macrumors.com/guide/ios-dark-mode/)
+</figcaption>
+</figure>
+
+Interestingly, iOS 13 also includes an automatic schedule feature for the dark style.
 
 ### Web
 
-Dark style support—not just for app UI but also websites—is coming soon across upcoming versions of all major browsers on macOS, Windows, and Android. If the browser is requesting a dark style (because the OS is), _and_ the website has expressed support for a dark style, then the browser provides dark-styled standard widgets like buttons and text entries, and the website uses its dark styles as defined in a CSS media query. Web developers can also hook off this media query using JavaScript and do pretty much whatever they want to cater to a dark UI.
+Dark style support—not just for app UI but also websites—is shipping or coming soon across upcoming versions of all major browsers on macOS, Windows, Android, and Chrome OS.
+
+<figure class="half" markdown="1">
+![Safari Light]({{ site.baseurl }}/images/the-need-for-a-freedesktop-dark-style-preference/webkit-light-800.png){: srcset="{{ site.baseurl }}/images/the-need-for-a-freedesktop-dark-style-preference/webkit-light-1600.png 2x"}
+![Safari Dark]({{ site.baseurl }}/images/the-need-for-a-freedesktop-dark-style-preference/webkit-dark-800.png){: srcset="{{ site.baseurl }}/images/the-need-for-a-freedesktop-dark-style-preference/webkit-dark-1600.png 2x"}
+<figcaption markdown="1">
+WebKit.org in Safari; screenshots from [WebKit.org](https://webkit.org/blog/8840/dark-mode-support-in-webkit/)
+</figcaption>
+</figure>
+
+If the browser is requesting a dark style (because the OS is), _and_ the website has expressed support for a dark style, then the browser provides dark-styled standard widgets like buttons and text entries, and the website uses its dark styles as defined in a CSS media query.
+
+<figure class="half" markdown="1">
+![Firefox Light]({{ site.baseurl }}/images/the-need-for-a-freedesktop-dark-style-preference/firefox-elementary-blog-light-800.png){: srcset="{{ site.baseurl }}/images/the-need-for-a-freedesktop-dark-style-preference/firefox-elementary-blog-light.png 2x"}
+![Firefox Dark]({{ site.baseurl }}/images/the-need-for-a-freedesktop-dark-style-preference/firefox-elementary-blog-dark-800.png){: srcset="{{ site.baseurl }}/images/the-need-for-a-freedesktop-dark-style-preference/firefox-elementary-blog-dark.png 2x"}
+<figcaption>This site in Firefox with a Light and Dark style</figcaption>
+</figure>
+
+We're currently [supporting this on the blog]({{ site.baseurl }}{% post_url 2019-08-15-welcome-to-the-new-blog %}) with pure CSS, but web developers can also hook off this media query using JavaScript and do pretty much whatever they want to cater to a dark UI.
 
 ## Key Requirements
 
 Across all implementations, there are several commonalities that both developers and users will be getting used to regarding a dark style preference. These form the basis of the key requirements for a FreeDesktop implementation:
 
-### Desktop-Wide
+### Desktop-Wide Preference
 
-If the user is typically in dark environments or uses apps that are primarily dark, they want their software to match that experience as much as possible. Thus, a desktop-wide preference is required to signal to apps that the user would like a dark style to be used if supported. Per-app toggles can still be used for certain tools where there may be a strong user preference to go _against_ the desktop-wide preference, but in most cases, apps should listen to and respect the desktop-wide preference. By making it a desktop-wide concern (and not per-app or per-toolkit), there is also a natural place for the system UI and app UI to be kept in sync, as well as implementations across toolkits and desktop environments.
+If the user is typically in dark environments or uses apps that are primarily dark, they want their software to match that experience as much as possible. Thus, a desktop-wide preference is required to signal to apps that the user would like a dark style to be used if supported. Per-app toggles can still be used for certain tools where there may be a strong user preference to go _against_ the desktop-wide preference, but in most cases, apps should listen to and respect the desktop-wide preference.
+
+By making it a desktop-wide concern (and not per-app or per-toolkit), there is also a natural place for the system UI and app UI to be kept in sync, as well as implementations across toolkits and desktop environments.
 
 ### Developer Opt In
 
-Apps can’t be expected to just work when swapping out their underlying styling. Developers must opt their apps in, as we see on macOS, Android, Windows, and in web standards.
+Apps can’t be expected to just work when swapping out their underlying styling. Developers must opt their apps in, as we see on macOS, Android, Windows, iOS, and in web standards.
 
 Toolkits should not force this on apps by default, but allow them to know the user is requesting an OS-wide dark style and adapt their UI as they see fit. This can include the app actively opting into the toolkit’s dark variant, but developers might also choose to tweak their custom styling, switch out visual assets, desaturate certain colors, or make other changes in response to the user preference.
 
@@ -105,7 +190,7 @@ The latest versions of Firefox and Chrome already hook off the macOS and Windows
 
 Lastly, a dark style preference must be nuanced both in how it is implemented and how it is communicated to users. It’s explicitly _not_ a setting between always light and always dark—without the user setting a preference for a dark style, the OS and apps should render exactly how they do today. That means if your OS shell (like GNOME Shell) is dark, it should stay dark. If your app is usually dark because it’s media-centric (like a photo viewer or video editor), it should keep its look by default. If the user sets the dark preference, apps and UI that were previously light should now become dark.
 
-Similarly, when communicating this preference to users, it shouldn’t be a choice between “light” and “dark.” Instead, it should be phrased as “prefer dark style” or similar. In elementary OS, we could use a labeled switch, plus some explanatory copy to further clarify the preference to users.
+Similarly, when communicating this preference to users, it likely shouldn’t be a choice between “light” and “dark.” Instead, it should be phrased as “prefer dark style” or similar. In elementary OS, we could use a labeled switch, plus some explanatory copy to further clarify the preference to users.
 
 ## Working Prototype
 
@@ -216,9 +301,26 @@ The working prototype was implemented on elementary OS, but adheres to what I ex
 
 I also plan to attend [GUADEC](https://2019.guadec.org/) where I am organizing the [FreeDesktop Dark Style Preference BoF](https://wiki.gnome.org/GUADEC/2019/Hackingdays/FreeDesktopDarkStylePreferenceBoF) (what a mouthful!). I would be happy to discuss and refine these efforts at that session, and see if we can formalize the spec and implement it GNOME, elementary OS, and any other interested desktops.
 
-**_Edits:_** _On July 30, 2019 I made the following changes:_
+---
 
-- _Added an iOS section (and modified relevant copy elsewhere) since iOS 13 has implemented a dark style preference._
-- _Updated the macOS section to reflect that developers get some automatic support when building against the latest version of macOS._
-- _Added my other third-party apps and why they do or don’t change for the dark style preference._
+### Changes
+
+The following edits were made for clarity or to reflect new information.
+
+#### July 30, 2019:
+
+- Added an iOS section (and modified relevant copy elsewhere) since iOS 13 has implemented a dark style preference
+- Updated the macOS section to reflect that developers get some automatic support when building against the latest version of macOS
+- Added my other third-party apps and why they do or don’t change for the dark style preference
+
+#### August 19, 2019:
+
+- Added Chrome OS to list of platforms testing a dark style
+- Mentioned accessibility features in opening paragraph
+- Added screenshots and macOS version names to macOS section
+- Added screenshots to Windows section
+- Added screenshots to Android section
+- Added screenshots and expanded with more details in the iOS section
+- Added screenshots and mentioned the blog's styles in Web section
+- Tweaked formatting of this "Changes" section
 

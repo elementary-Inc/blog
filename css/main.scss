@@ -5,13 +5,15 @@
 
 // Global
 @import "colors";
-@import "typography";
 @import "layout";
+@import "typography";
 
 // Components
-@import "featured";
 @import "byline";
+@import "code";
+@import "featured";
 @import "figures";
+@import "nav";
 @import "tags";
 
 :root {
@@ -29,6 +31,11 @@ html {
   fill: var(--fg-color);
   margin: 0;
   overflow-x: hidden;
+}
+
+html {
+  // To blend with the footer on short pages
+  background-color: var(--secondary-bg-color);
 }
 
 svg {

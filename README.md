@@ -8,7 +8,9 @@ Remember, we moved away from other platforms for very specific reasons.
 
 1. **Completely frictionless** for readers.
 2. **As few external resources as possible**—it slows things down and introduces potential privacy issues.
-3. **Little-to-no JavaScript**—it’s a blog, not a web app.
+3. **Little-to-no JavaScript**—it’s a blog, not a web app. Currently, we only use progressively-enhancing JS for:
+   - Improving the image zoom experience
+   - Adding `target="_blank"` to external links
 
 ## Modern Niceties
 
@@ -41,8 +43,11 @@ bundle install
 ### Serve
 
 ```shell
-bundle exec jekyll serve --host 0.0.0.0 --drafts
+bundle exec jekyll serve --host 0.0.0.0
 ```
 
-The site should now be available at http://0.0.0.0:4000/ on your local machine, and your local machine's IP address on your network—great for testing on mobile OSes. Drafts in the `_drafts` folder will show up based on their last-edited time.
+The site should now be available at http://0.0.0.0:4000/ on your local machine, and your local machine's IP address on your network—great for testing on mobile OSes. 
 
+#### Drafts & Future Posts
+
+Append `--drafts` to the serve command, and drafts in the `_drafts` folder will show up based on their last-edited time. Similarly, append `--future` to the serve command to show future posts.
