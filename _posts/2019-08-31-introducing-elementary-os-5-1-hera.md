@@ -152,9 +152,10 @@ We've put a lot of work into Calendar for Hera with a refreshed design that is b
 
 Code has been updated for Hera with more discoverable keyboard shortcuts, the restoration of the line wrap setting, new "Change Branch" functionality for git projects, and the display of hidden and non-text files in the sidebar to make git management more accurately reflect the state of the repository. We've also implemented several fixes and performance improvements, especially around saving and restoring files.
 
-<figure markdown="1">
-![Files](https://cdn-images-1.medium.com/max/800/1*XG7msxmcJ-dPFZPn-fxmmQ@2x.png){: srcset="https://cdn-images-1.medium.com/max/1600/1*XG7msxmcJ-dPFZPn-fxmmQ@2x.png 2x"}
-<figcaption>Improved keyboard shortcut discoverability in Files</figcaption>
+<figure class="half" markdown="1">
+![Files Shortcuts](https://cdn-images-1.medium.com/max/800/1*XG7msxmcJ-dPFZPn-fxmmQ@2x.png){: srcset="https://cdn-images-1.medium.com/max/1600/1*XG7msxmcJ-dPFZPn-fxmmQ@2x.png 2x"}
+![Files Color Tagging](https://user-images.githubusercontent.com/611168/62493151-a0597600-b78d-11e9-9f9f-536525b004ac.png)
+<figcaption>Improved keyboard shortcut discoverability and color tagging in Files</figcaption>
 </figure>
 
 For Files, we've made search more discoverable in Hera by showing the search icon and placeholder text in the Home folder, similar to a web browser's empty state. The search results dropdown is also larger and shows more results, and there's a new feature to hide thumbnails. "Cherry picking" files has been greatly improved, and we've refined the design of the color tags to be easier targets—plus we show all color tags used in a selection in the context menu. We've also improved keyboard shortcut discoverability throughout, improved the Open In and Open With menus with app icons, and made Files respect the Event Alerts setting from _System Settings_ → _Sound_ for the trash sound. Lastly, we've implemented several performance and stability improvements including fixing reported issues around file sorting, color tags, file renaming, and more.
@@ -165,6 +166,13 @@ For Files, we've made search more discoverable in Hera by showing the search ico
 </figure>
 
 We've spent a lot of time improving Music for Hera, with large improvements to sorting in the album, list, and column views. We also updated it with more discoverable keyboard shortcuts, plus a new bold orange accent color throughout, carrying its identity from the icon into the app itself. We fixed several reported issues with queuing and playlists. Music can now also play s3m files and double clicking an album cover in the grid view will start playing that album. Lastly, album art in the grid view is now displayed more crisply on HiDPI displays.
+
+<figure markdown="1">
+![Terminal context menu]({{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/terminal-menu.png){: srcset="{{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/terminal-menu@2x.png 2x"}
+</figure>
+
+Lastly, we've updated Terminal with a few small but welcome improvements. The [Menu key](https://en.wikipedia.org/wiki/Menu_key) found on some keyboards now opens the context menu, we added a separator to the context menu to better delineate text actions from app actions, and we save more window state between sessions.
+
 
 ### Desktop
 
@@ -181,7 +189,36 @@ We've also brought several improvements to the top Panel and Indicators to Hera.
 
 ### Visual Style
 
-We've subtly improved the system stylesheet in several ways for Hera.
+We've improved the system stylesheet in several ways for Hera. To make certain situations like photo and video editing apps easier for color-correction, dark-styled apps in elementary OS now sport a dark color-neutral shade of gray instead of the previous cool-tinted gray.
+
+<figure class="half" markdown="1">
+
+![Cool](https://user-images.githubusercontent.com/611168/62438725-013d6b80-b706-11e9-9b91-8f002951600c.png)
+![Neutral](https://user-images.githubusercontent.com/611168/62438726-01d60200-b706-11e9-8edd-6f86969990d4.png)
+
+<figcaption markdown="1">
+**Left:** Previous cool-tinted dark style | **Right:** New color-neutral dark style
+</figcaption>
+</figure>
+
+We've added a subtle fade-out effect to the start and end of lists in popovers, like the list of Wi-Fi networks in the Networking indicator, or users in the Session indicator.
+
+<figure markdown="1">
+![Undershoot in Popovers]({{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/popover-fade.png){: srcset="{{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/popover-fade@2x.png 2x"}
+<figcaption>Soft fade in popover lists</figcaption>
+</figure>
+
+We're styling Keycaps in menus now with a flatter style, which will come into play as we add keycaps in menus in future updates.
+
+<figure class="half" markdown="1">
+
+![Light Menu](https://user-images.githubusercontent.com/7277719/60899965-44e4a880-a220-11e9-946e-4b26e9dc9932.png)
+![Dark Menu](https://user-images.githubusercontent.com/7277719/60899966-44e4a880-a220-11e9-9800-db7e3b6ef2fb.png)
+
+<figcaption>Keycaps in both light and dark menus</figcaption>
+</figure>
+
+Progress and loading states on entries (like the address bar of browsers when a page is loading) have been made more subtle.
 
 <figure class="card" markdown="1">
 ![Sidebar badges](https://cdn-images-1.medium.com/max/166/1*59rV-UJoPkUM_e2cK7KLFQ@2x.png){: srcset="https://cdn-images-1.medium.com/max/332/1*59rV-UJoPkUM_e2cK7KLFQ@2x.png 2x"}
