@@ -174,7 +174,7 @@ By making it a desktop-wide concern (and not per-app or per-toolkit), there is a
 
 ### Developer Opt In
 
-Apps can’t be expected to just work when swapping out their underlying styling. Developers must opt their apps in, as we see on macOS, Android, Windows, and in web standards.
+Apps can’t be expected to just work when swapping out their underlying styling. Developers must opt their apps in, as we see on macOS, Android, Windows, iOS, and in web standards.
 
 Toolkits should not force this on apps by default, but allow them to know the user is requesting an OS-wide dark style and adapt their UI as they see fit. This can include the app actively opting into the toolkit’s dark variant, but developers might also choose to tweak their custom styling, switch out visual assets, desaturate certain colors, or make other changes in response to the user preference.
 
@@ -190,7 +190,7 @@ The latest versions of Firefox and Chrome already hook off the macOS and Windows
 
 Lastly, a dark style preference must be nuanced both in how it is implemented and how it is communicated to users. It’s explicitly _not_ a setting between always light and always dark—without the user setting a preference for a dark style, the OS and apps should render exactly how they do today. That means if your OS shell (like GNOME Shell) is dark, it should stay dark. If your app is usually dark because it’s media-centric (like a photo viewer or video editor), it should keep its look by default. If the user sets the dark preference, apps and UI that were previously light should now become dark.
 
-Similarly, when communicating this preference to users, it shouldn’t be a choice between “light” and “dark.” Instead, it should be phrased as “prefer dark style” or similar. In elementary OS, we could use a labeled switch, plus some explanatory copy to further clarify the preference to users.
+Similarly, when communicating this preference to users, it likely shouldn’t be a choice between “light” and “dark.” Instead, it should be phrased as “prefer dark style” or similar. In elementary OS, we could use a labeled switch, plus some explanatory copy to further clarify the preference to users.
 
 ## Working Prototype
 
