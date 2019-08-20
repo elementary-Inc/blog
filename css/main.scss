@@ -33,6 +33,11 @@ html {
   overflow-x: hidden;
 }
 
+html {
+  // To blend with the footer on short pages
+  background-color: var(--secondary-bg-color);
+}
+
 svg {
   fill: inherit;
 }
