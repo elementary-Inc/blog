@@ -67,6 +67,47 @@ body > header {
       font-size: 0.7rem;
       line-height: 3.6em;
     }
+
+    #search-container {
+      align-self: center;
+      margin-left: 128px;
+    }
+
+    #search-input {
+      background-color: var(--silver-200);
+      border: none;
+      border-radius: 3px;
+      padding: 6px 12px;
+    }
+
+    #results-container {
+      background-color: var(--bg-color);
+      border-radius: 4px;
+      box-shadow:
+        inset 0 -1px 0 0 rgba(256, 256, 256, 0.5),
+        0 0 1px rgba(0, 0, 0, 0.3),
+        0 3px 6px rgba(0, 0, 0, 0.16),
+        0 3px 6px rgba(0, 0, 0, 0.23);
+      padding: 4px 0;
+      position: absolute;
+      transform: translate(-200px, 32px);
+      width: auto;
+      z-index: 99;
+
+        li {
+          display: block;
+
+          a {
+            color: var(--fg-color);
+            display: block;
+            line-height: 1.5rem;
+          }
+
+          a:hover {
+            background-color: var(--secondary-bg-color);
+          }
+        }
+    }
   }
 }
 
