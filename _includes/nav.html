@@ -43,12 +43,15 @@
     </ul>
   </nav>
   <nav class="secondary">
-    <a href="{{ site.baseurl }}/tags/#updates">OS Updates</a>
-    <a href="{{ site.baseurl }}/tags/#appcenter">AppCenter</a>
-    <a href="{{ site.baseurl }}/tags/#devs">Developers</a>
-    <a href="{{ site.baseurl }}/tags/#design">Design</a>
+    <div>
+      <a href="{{ site.baseurl }}/tags/#updates">OS Updates</a>
+      <a href="{{ site.baseurl }}/tags/#appcenter">AppCenter</a>
+      <a href="{{ site.baseurl }}/tags/#devs">Developers</a>
+      <a href="{{ site.baseurl }}/tags/#design">Design</a>
+    </div>
 
     <div id="search-container">
+      {% include svg/edit-find-symbolic.svg %}
       <input type="text" id="search-input" placeholder="Search Posts…">
       <ul id="results-container"></ul>
     </div>
@@ -58,8 +61,9 @@
     <script>
     SimpleJekyllSearch({
       searchInput: document.getElementById('search-input'),
-      searchResultTemplate: '<div><a href="{url}">{title}</a><span>{date}</span></div>',
+      searchResultTemplate: '<li><a href="{url}"><div class="featured-image" alt="Featured image" style="background-image: url({image});"></div><span id="title">{title}</span><span id="description">{description}</span></a></li>',
       resultsContainer: document.getElementById('results-container'),
+      noResultsText: ("No Result Found"),
       json: '/search.json'
     })
     </script>
