@@ -2,7 +2,7 @@
 title: Say Hello to the New Greeter
 description: Our redesigned login and lock screen
 author: danrabbit
-image: /images/say-hello-to-the-new-greeter/screenshot.png
+image: /images/say-hello-to-the-new-greeter/screenshot_1600.jpg
 tags:
   - design
   - first-run
@@ -12,7 +12,7 @@ tags:
 After nearly two years of design, development, and testing, I'm very excited to talk to you about a huge change to the user experience in elementary OS: our new Greeter.
 
 <figure markdown="1">
-![Greeter screenshot](/images/say-hello-to-the-new-greeter/screenshot.png)
+![Greeter screenshot]({{ site.baseurl }}/images/say-hello-to-the-new-greeter/screenshot_800.jpg){: srcset="{{ site.baseurl }}/images/say-hello-to-the-new-greeter/screenshot_1600.jpg 2x"}
 <figcaption markdown="1">
 A screenshot of the new Greeter
 </figcaption>
@@ -35,17 +35,17 @@ There was a laundry list of motivations for rethinking the greeter and we approa
 As far back as November of 2017, Cassidy attended the [GNOME Shell UX hackfest](https://blog.system76.com/post/167747412318/gnome-ux-hackfest-2017) in London where it turns out GNOME (and related parties) were struggling with a lot of the same design issues. It was here that Tobias Bernard proposed the idea of showing users' wallpapers behind their avatars in a horizontal card layout.
 
 <figure markdown="1">
-![GNOME mockups](/images/say-hello-to-the-new-greeter/gnome-mockup.png)
+![GNOME mockups]({{ site.baseurl }}/images/say-hello-to-the-new-greeter/gnome-mockup_800.jpg){: srcset="{{ site.baseurl }}/images/say-hello-to-the-new-greeter/gnome-mockup.jpg 2x"}
 <figcaption markdown="1">
-Tobias' concept roughly sketched up
+Tobias' original concept
 </figcaption>
 </figure>
 
 You can see that this design also includes distinguishing the Guest session and manual username entry from regular users by placing separate buttons at the bottom of the display. These designs and ideas took a bit of a backburner until May of 2018 when Harvey Cabaguio revisited a few of these concepts in a new set of mockups and in a more elementary style.
 
 <figure class="half" markdown="1">
-![Harvey's mockups](/images/say-hello-to-the-new-greeter/harvey-login-mockup.png)
-![Harvey's mockups](/images/say-hello-to-the-new-greeter/harvey-lock-mockup.png)
+![Harvey's mockups]({{ site.baseurl }}/images/say-hello-to-the-new-greeter/harvey-login-mockup_800.jpg){: srcset="{{ site.baseurl }}/images/say-hello-to-the-new-greeter/harvey-login-mockup_1600.jpg 2x"}
+![Harvey's mockups]({{ site.baseurl }}/images/say-hello-to-the-new-greeter/harvey-lock-mockup_800.jpg){: srcset="{{ site.baseurl }}/images/say-hello-to-the-new-greeter/harvey-lock-mockup_1600.jpg 2x"}
 <figcaption markdown="1">
 Harvey's concepts for login and lock
 </figcaption>

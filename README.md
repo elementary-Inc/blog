@@ -28,6 +28,34 @@ Use the GitHub workflow!
 2. **All PRs should be reviewed** and approved before publishing.
 3. **Use reviews and inline comments**/suggestions to collaboratively edit.
 
+### Handling Images
+
+Ideally, images are put into the `images/` directory with a folder name matching the post slug. Since the normal maximum width of articles is 800 pixels, image sizes should be as follows:
+
+- Up to 800px wide for normal width loDPI
+- Up to 1600px for normal-width HiDPI
+- Up to 800px for half- or third-width images on loDPI
+- Up to 1600px for half- or third-width images on HiDPI
+- 2560px wide for full-bleed (higher than this, even for HiDPI, gets really heavy)
+
+When scaling down, use a high quality interpolator like Sinc (Lanczos3) or NoHalo in GIMP to avoid too much blur/fuzziness.
+
+Name your sized images something sane like `image-name_800.jpg` for the loDPI version, and `image-name_1600.jpg` for the HiDPI version. When writing the markdown, use this format:
+
+```markdown
+![Alt Text]({{ site.baseurl }}/images/post-name/image-name_800.jpg){: srcset="{{ site.baseurl }}/images/post-name/image-name_1600.jpg 2x"}
+```
+
+This is a bit verbose, but ensures:
+
+- Images stay valid even if we ever move the blog
+- We only load the largest version necessary on loDPI or HiDPI
+- Both loDPI and HiDPI images are loaded at the correct physical size
+
+Optimize images with the lowest JPG percent that looks good (i.e. manually in GIMP), and use something like [Image Optimizer](https://appcenter.elementary.io/com.github.gijsgoudzwaard.image-optimizer) for PNGs.
+
+Also consider JPGs instead of PNGs when the majority of the image is photographic or a gradient (i.e. not solid colors), as that will compress way better than a PNG.
+
 ## Running Locally
 
 GitHub has pretty good docs for [running GitHub Pages sites locally](https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll). This README assumes you're on elementary OS.
@@ -46,7 +74,7 @@ bundle install
 bundle exec jekyll serve --host 0.0.0.0
 ```
 
-The site should now be available at http://0.0.0.0:4000/ on your local machine, and your local machine's IP address on your network—great for testing on mobile OSes. 
+The site should now be available at http://0.0.0.0:4000/ on your local machine, and your local machine's IP address on your network—great for testing on mobile OSes.
 
 #### Drafts & Future Posts
 
