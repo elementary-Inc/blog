@@ -38,6 +38,8 @@ Ideally, images are put into the `images/` directory with a folder name matching
 - Up to 1600px for half- or third-width images on HiDPI
 - 2560px wide for full-bleed (higher than this, even for HiDPI, gets really heavy)
 
+When scaling down, use a high quality interpolator like Sinc (Lanczos3) or NoHalo in GIMP to avoid too much blur/fuzziness.
+
 Name your sized images something sane like `image-name_800.jpg` for the loDPI version, and `image-name_1600.jpg` for the HiDPI version. When writing the markdown, use this format:
 
 ```markdown
@@ -51,6 +53,8 @@ This is a bit verbose, but ensures:
 - Both loDPI and HiDPI images are loaded at the correct physical size
 
 Optimize images with the lowest JPG percent that looks good (i.e. manually in GIMP), and use something like [Image Optimizer](https://appcenter.elementary.io/com.github.gijsgoudzwaard.image-optimizer) for PNGs.
+
+Also consider JPGs instead of PNGs when the majority of the image is photographic or a gradient (i.e. not solid colors), as that will compress way better than a PNG.
 
 ## Running Locally
 
