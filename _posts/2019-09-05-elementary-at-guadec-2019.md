@@ -151,7 +151,7 @@ It was also an opportunity for an in-person question-and-answer session with the
 
 ### The Need for a FreeDesktop Dark Style Preference
 
-This was my talk! If you've read my blog post on the topic, it's mostly review. But it was well-received and as a result, GNOME and GTK are moving forward to support a system-wide dark style preference.
+This was my talk! If you've read [my blog post]({% post_url 2019-05-17-the-need-for-a-freedesktop-dark-style-preference %}) on the topic, it's mostly review. But it was well-received and as a result, GNOME and GTK are moving forward to support a system-wide dark style preference.
 
 <figure class="embed">
   <iframe src="https://guadec.ubicast.tv/permalink/v125d0af56c87sex078k/iframe/" allowfullscreen="allowfullscreen"></iframe>
@@ -167,19 +167,23 @@ Robert McQueen
 
 ### Accessibility Features for Mutter/GNOME Shell on Wayland
 
-Oliver Fourdan
+Red Hat and GNOME software engineer Oliver Fourdan presented ongoing work within Mutter and Wayland to enable the same level of accessibility support as X11.
 
 <figure class="embed">
   <iframe src="https://guadec.ubicast.tv/permalink/v125d0b148681aw5mihz/iframe/" allowfullscreen="allowfullscreen"></iframe>
 </figure>
 
+While elementary OS doesn't use GNOME Shell (which was demoed in this talk), we should be able to use the same Mutter features within Gala and elementary OS to ensure we don't regress in accessibility when we inevitably move to Wayland.
+
 ### Designing GNOME Mobile Apps
 
-Tobias Bernard
+Purism and GNOME designer Tobias Bernard shared much of the ongoing work to port GNOME to mobile devices like the upcoming Librem 5.
 
 <figure class="embed">
   <iframe src="https://guadec.ubicast.tv/permalink/v125d0af53a1fipzbiat/iframe/" allowfullscreen="allowfullscreen"></iframe>
 </figure>
+
+While elementary OS has no plans to develop a mobile version of the OS, some of the design patterns and especially the widgets in LibHandy are of great interest; better touch support and better layouts for small and large window sizes are always welcome. As a result of this talk (and playing with LibHandy afterwards), we've filed several issues for including LibHandy in elementary OS and using it within the shell and apps.
 
 ### Usability Testing
 
