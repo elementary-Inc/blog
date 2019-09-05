@@ -159,11 +159,13 @@ This was my talk! If you've read [my blog post]({% post_url 2019-05-17-the-need-
 
 ### Is the Linux Desktop Really Dead?
 
-Robert McQueen
+Endless Chief of Engineering and GNOME Foundation board member Robert McQueen shared some of the history of Endless, their shifting strategy over time, and his vision of how GNOME can remain successful in the current computing landscape.
 
 <figure class="embed">
   <iframe src="https://guadec.ubicast.tv/permalink/v125d0af6044fmc08q4k/iframe/" allowfullscreen="allowfullscreen"></iframe>
 </figure>
+
+It's also an interesting "Business 101" and "disruption" talk condensed into a few minutes, which is very interesting. The end result from the Endless side is that Endless is planning to help GNOME teach kids to code. While that exact goal isn't something we're explicitly reaching for at elementary, the implications of that effort—making GNOME and related technologies more user-friendly and attractive—are very relevant to elementary.
 
 ### Accessibility Features for Mutter/GNOME Shell on Wayland
 
@@ -183,23 +185,31 @@ Purism and GNOME designer Tobias Bernard shared much of the ongoing work to port
   <iframe src="https://guadec.ubicast.tv/permalink/v125d0af53a1fipzbiat/iframe/" allowfullscreen="allowfullscreen"></iframe>
 </figure>
 
-While elementary OS has no plans to develop a mobile version of the OS, some of the design patterns and especially the widgets in LibHandy are of great interest; better touch support and better layouts for small and large window sizes are always welcome. As a result of this talk (and playing with LibHandy afterwards), we've filed several issues for including LibHandy in elementary OS and using it within the shell and apps.
+elementary has no plans to develop a mobile version of the OS, but some of the design patterns and especially the widgets in LibHandy are of great interest; better touch support and better layouts for small and large window sizes are always welcome. As a result of this talk (and playing with LibHandy afterwards), we've filed several issues for including LibHandy in elementary OS and using it within the shell and apps.
 
 ### Usability Testing
 
-Clarissa Lima Borges
+Software engineer and Outreachy intern Clarissa Lima Borges presented her work on usability testing in GNOME.
 
 <figure class="embed">
   <iframe src="https://guadec.ubicast.tv/permalink/v125d0af588eeqnwoffd/iframe/" allowfullscreen="allowfullscreen"></iframe>
 </figure>
 
+It was a great intro to usability itself, and usability testing specifically. One interesting take-away is that there are diminishing returns when performing usability studies; after about five user tests, your users are less likely to find new usability issues. Instead of performing dozens of usability tests to start, it's often better to test with a handful of users, iterate on the product, and then test again.
+
+You can find more information and Clarissa's usability test results at [her website](https://lborgesclarissa.wordpress.com/).
+
 ### Product Metrics & Respecting Privacy
 
-Robert McQueen
+Robert McQueen presented—this time in the unplanned unconference style—about how an open desktop could implement privacy-respecting metrics.
 
 <figure class="embed">
   <iframe src="https://guadec.ubicast.tv/permalink/v125d0af5a8ffz4hc0b7/iframe/" allowfullscreen="allowfullscreen"></iframe>
 </figure>
+
+He started with the current state of metrics in Endless OS, and then shifted to how something better could be designed and implemented in GNOME and other open source desktops. It's an area I've thought about a lot; in fact, last year at the Libre Application Summit, I sat down with folks from Purism and elementary and chatted about a theoretical privacy-respecting analytics system, why it's sought after, the risks, and how we would have to go about implementing it. It sounds like Robert has been chewing on the same idea, so we sat down afterwards and chatted about it some more.
+
+We still believe the best way to protect user data at elementary is to [not collect it in the first place]({% post_url 2019-01-09-privacy-and-elementary-os %}). However, if app developers are going to be seeking ways to track how their apps are being used (for well-intentioned purposes like knowing where to spend development), they're going to seek out less-privacy-respecting solutions. If a privacy-respecting solution existed from the start, it could actually actively protect user data while also providing value to app and platform developers. This is all theoretical right now, but it's a thread that I'm interested in keeping up on, and I'll remain in contact with Robert, other folks from Endless, and folks from companies like Purism and System76 who might share the same goals as us.
 
 ### Lightning Talks
 

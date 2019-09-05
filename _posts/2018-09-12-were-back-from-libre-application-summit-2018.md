@@ -1,16 +1,16 @@
 ---
-title: "We’re Back from Libre Application Summit 2018"
-description: "We’re Back from Libre Application Summit 2018"
+title: We’re Back from Libre Application Summit 2018
+description: Sharing Knowledge and Wisdom in Denver, Colorado
 author: cassidyjames
 date: 2018-09-12T05:19:15.486Z
-image: /assets/images/were-back-from-libre-application-summit-2018/1m_aoz4q918EzEj_nZUB7Zg.jpeg
+image: /assets/images/were-back-from-libre-application-summit-2018/1mRaQK_yUWddw-WKriNzBog.jpeg
 tags:
-  - "open-source"
-  - "elementary-os"
-  - "gnome"
+  - las
+  - gnome
+  - event
+  - flatpak
+thanks: true
 ---
-
-### Sharing Knowledge and Wisdom in Denver, Colorado
 
 This past week elementary contributors [Daniel Foré](https://twitter.com/DanielFore), Felipe Escoto, [Blake Kostner](https://medium.com/@btkostner), and I met up in Denver, Colorado for the [Libre Application Summit](https://las.gnome.org/conferences/LAS). We joined a few dozen people from GNOME, KDE, and other projects with a mission to share knowledge and experiences, plus collaborate on common technologies for app ecosystems built on open source technologies.
 
@@ -37,15 +37,9 @@ Both were very well received and spurred on great questions and discussions imme
 
 ## BoFs & Hacking
 
-<figure markdown="1">
+<figure class="third" markdown="1">
 ![](/assets/images/were-back-from-libre-application-summit-2018/1opoZeVS4nB1ePFMps02ngg.jpeg)
-</figure>
-
-<figure markdown="1">
 ![](/assets/images/were-back-from-libre-application-summit-2018/1ANsDztIXPda3v1HtKQP_MA.jpeg)
-</figure>
-
-<figure markdown="1">
 ![BoFs and hacking in the swanky venue](/assets/images/were-back-from-libre-application-summit-2018/1MtjU7xXTlvhvEIoVT9wyDg.jpeg)
 <figcaption markdown="1">
 BoFs and hacking in the swanky venue
@@ -54,15 +48,10 @@ BoFs and hacking in the swanky venue
 
 The BoFs at LAS were very informal. There were sessions about Flatpak, CI, GTK, Vala, and more. Across a few evenings and the BoF day, we also worked on tackling saving AppCenter payment methods so it’s easier to one-click purchase apps in the future. We made great progress on the design and UI prototypes. We also identified the changes that need to happen on the API side to support reusing payment methods without us having to store raw payment card data on the client or our servers.
 
-<figure markdown="1">
+<figure class="half" markdown="1">
 ![](/assets/images/were-back-from-libre-application-summit-2018/16g-4klpkbe27v1JGiBRWNQ@2x.png)
-</figure>
-
-<figure markdown="1">
 ![Prototype UI for reusing payment methods](/assets/images/were-back-from-libre-application-summit-2018/1dYWsdfx__gZeoRg3vHv9rQ@2x.png)
-<figcaption markdown="1">
-Prototype UI for reusing payment methods
-</figcaption>
+<figcaption>Prototype UI for reusing payment methods</figcaption>
 </figure>
 
 This work is ongoing and doesn’t have a set completion date, but we’re excited about the progress that was made by having a group of people in a room working on a common problem from all angles.
@@ -71,20 +60,11 @@ This work is ongoing and doesn’t have a set completion date, but we’re excit
 
 It wouldn’t be an open source conference without the social events! We joined fellow LASers around Denver at Vine Street Pub, Slice Works, The 1UP barcade, the System76 factory, and some of us even took a day trip up to Mount Evans. It was great to both meet back up with familiar faces and make new friends as we got away from the computers and bonded over food, drinks, games, and nature.
 
-<figure markdown="1">
-![](/assets/images/were-back-from-libre-application-summit-2018/1MpWXi5lgKsylFUa0ckSg4Q.jpeg)
-</figure>
-
-<figure markdown="1">
-![](/assets/images/were-back-from-libre-application-summit-2018/1mRaQK_yUWddw-WKriNzBog.jpeg)
-</figure>
-
-<figure markdown="1">
-![](/assets/images/were-back-from-libre-application-summit-2018/1Aw9oWTTHfZruWYv5BfwNaw.jpeg)
-</figure>
-
-<figure markdown="1">
+<figure class="half" markdown="1">
 ![](/assets/images/were-back-from-libre-application-summit-2018/1ZnXbNP25TeI95AW2Mt9ZtA.jpeg)
+![](/assets/images/were-back-from-libre-application-summit-2018/1MpWXi5lgKsylFUa0ckSg4Q.jpeg)
+![](/assets/images/were-back-from-libre-application-summit-2018/1mRaQK_yUWddw-WKriNzBog.jpeg)
+![](/assets/images/were-back-from-libre-application-summit-2018/1Aw9oWTTHfZruWYv5BfwNaw.jpeg)
 </figure>
 
 ## Thanks
