@@ -23,7 +23,13 @@ layout: null
             {% endif %}
             },
             {% if post.image %}
-            "image": "{{ post.image |prepend: site.baseurl | prepend: site.url }}"
+                {% assign prefix = page.image | slice: 0, 4 %} 
+                {% if prefix == "http" %} 
+                    {% assign image = page.image %} 
+                {% else %} 
+                    {% assign image = page.image | prepend: site.baseurl | prepend: site.url %} 
+                {% endif %} 
+            "image": "{{ image }}"
             {% else %}
             "excerpt": "{{ post.excerpt | strip_html | truncatewords: 40 | jsonify }}"
             {% endif %}
