@@ -5,10 +5,10 @@ author: cassidyjames
 date: 2018-09-12T05:19:15.486Z
 image: /assets/images/were-back-from-libre-application-summit-2018/1mRaQK_yUWddw-WKriNzBog.jpeg
 tags:
-  - las
-  - gnome
   - event
   - flatpak
+  - gnome
+  - las
 thanks: true
 ---
 
@@ -27,11 +27,9 @@ Talks in the large common area
 
 Some of the talks were expanded or iterated versions of talks we attended at GUADEC, which wasn’t a bad thing. It was nice to check up on the progress of technologies like Flatpak (including a much deeper dive into the technical side) and FreeDesktop-SDK. There was also a strong focus on design and UX, helped in large part by the presence of and talks by Robin Tafel from [Endless](https://endlessos.com/about-us/) and Ryan Gorley from [FreeHive](https://freehive.com/).
 
-We also gave two talks. I presented [*It’s Not Always Technical: Solving Social Problems](https://las.gnome.org/conferences/LAS/program/proposals/13)* (an expanded version of the lightning talk I gave at GUADEC).
+We also gave two talks. I presented [It’s Not Always Technical: Solving Social Problems](https://las.gnome.org/conferences/LAS/program/proposals/13) (an expanded version of the lightning talk I gave at GUADEC).
 
-
-Later, Daniel and I presented [*elementary AppCenter: Native, Open Source, Pay-What-You-Want](https://las.gnome.org/conferences/LAS/program/proposals/14).*
-
+Later, Daniel and I presented [elementary AppCenter: Native, Open Source, Pay-What-You-Want](https://las.gnome.org/conferences/LAS/program/proposals/14).
 
 Both were very well received and spurred on great questions and discussions immediately following and in the following days. It was exciting to help share our experiences and findings from building both elementary OS and AppCenter with other free software contributors. Hopefully what we’ve learned and shared will help improve approaches across the board.
 
@@ -74,3 +72,4 @@ Thanks to [GNOME](https://www.gnome.org/) for organizing and hosting the event, 
 And as always, a huge thank you to all of the app developers building for elementary OS, everyone who’s bought an app on AppCenter, our supporters on [Bountysource](https://salt.bountysource.com/teams/elementary) and[ Patreon](https://www.patreon.com/elementary), and those who’ve purchased a copy of [elementary OS](https://elementary.io/) or merch from [our store](https://elementary.io/store/). Each of these contributions helps make this all possible, and we wouldn’t be here without you.
 
 If you’d like to help improve elementary OS and AppCenter, don’t hesitate to [Get Involved](https://elementary.io/get-involved)!
+

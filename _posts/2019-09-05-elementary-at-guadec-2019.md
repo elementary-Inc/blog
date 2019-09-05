@@ -1,6 +1,6 @@
 ---
 title: elementary at GUADEC 2019
-description: Hanging out with GNOMIES in Thessaloniki, Greece
+description: Hanging out with GNOME in Thessaloniki, Greece
 author: cassidyjames
 image: https://pixelfed.social/storage/m/375e65040b19b04b60a3cf824105a89aedf089df/cd4923591853d189595583ebde7866fc60062337/mkWPZ4yvtooKq2pS1xtL6h5YawWZax9G2393zSlM.jpeg
 tags:
@@ -13,8 +13,8 @@ thanks: true
 ---
 
 <figure markdown="1">
-![The Aegean Sea seen from Thessaloniki](https://pixelfed.social/storage/m/375e65040b19b04b60a3cf824105a89aedf089df/cd4923591853d189595583ebde7866fc60062337/mkWPZ4yvtooKq2pS1xtL6h5YawWZax9G2393zSlM.jpeg)
-<figcaption>Sunset in Thessaloniki over the Aegean Sea</figcaption>
+![The Aegean Sea seen from Thessaloniki]({{ site.baseurl }}/images/elementary-at-guadec-2019/welcome-banner_800.jpg){: srcset="{{ site.baseurl }}/images/elementary-at-guadec-2019/welcome-banner_1600.jpg 2x"}
+<figcaption>Cassidy and fellow GUADEC attendees arriving at the Thessaloniki airport</figcaption>
 </figure>
 
 GUADEC is the annual **G**NOME **U**ser **A**nd **D**eveloper ~~**E**uropean~~* **C**onference where contributors to GNOME and its downstreams get together for a week of sharing their work from the past year, planning the future of their individual components, and catching up with one another. The conference is organized into two main halves: three days of talks, and three days of BoFs (with the last BoF day being more of a social day).
@@ -29,7 +29,7 @@ _* No longer restricted to Europe! In fact, a bid is being submitted to host GUA
 
 ## Talks
 
-Corentin and I split up for most of the talks for maximum coverage. As such, we attended a _lot_ of talks. We've embedded the recordings below as well, since they recorded and uploaded all of them already (which is _awesome_).
+We attended a _lot_ of talks this year. We've embedded the recordings below as well, since they recorded and uploaded all of them already (which is _awesome_).
 
 ### Desktop Secrets Management for the Future
 
@@ -121,6 +121,10 @@ Red Hat and GNOME UX designer Allan Day shared a lot of the design work that is 
 
 This talk was _so good_ and really shows the product management role that Allan and the design team serve within GNOME. I feel like this has always been the case to some extent, but is more prominent more recently. This also echoes how elementary is really a design-led organization, and many of the "tactics" he shares to improve GNOME can apply to elementary as well.
 
+<figure class="full-bleed" markdown="1">
+![Allan's talk]({{ site.baseurl }}/images/elementary-at-guadec-2019/allan-talk_2560.jpg)
+</figure>
+
 Specifically, the bits about developer and designer synchronicity, designer-developers, and development-conscious design are areas that we champion within elementary; much of the work Daniel and I have done lately has centered around prototyping and developing directly in Vala and GTK, which means we're far less likely to design something that is impractical from a technical level. It also means we're able to jump into a codebase and improve the UI directly: we don't have to make a mockup and wait for a "real developer" to come along and pick up the work. This has been a _massive_ improvement to the process within elementary.
 
 Something that has enabled that is that we do have a single preferred language and code style, which means we don't have to be fluent in C, Rust, Vala, JavaScript, Python, etc. Once we have solved a problem in one app, it's pretty generalizable across all elementary apps. Of course we still lean heavily on experienced developers, but we're able to do a lot more as designers than ever before.
@@ -165,7 +169,7 @@ Endless Chief of Engineering and GNOME Foundation board member Robert McQueen sh
   <iframe src="https://guadec.ubicast.tv/permalink/v125d0af6044fmc08q4k/iframe/" allowfullscreen="allowfullscreen"></iframe>
 </figure>
 
-It's also an interesting "Business 101" and "disruption" talk condensed into a few minutes, which is very interesting. The end result from the Endless side is that Endless is planning to help GNOME teach kids to code. While that exact goal isn't something we're explicitly reaching for at elementary, the implications of that effort—making GNOME and related technologies more user-friendly and attractive—are very relevant to elementary.
+It's also an interesting "Business 101" and "disruption" talk condensed into a few minutes, which is very interesting. The end result from the Endless side is that Endless is planning to help GNOME teach kids to code. While that exact goal isn't something we're explicitly reaching for at elementary, the implications of that effort—making GNOME and related technologies more user-friendly and attractive—are very relevant to us.
 
 ### Accessibility Features for Mutter/GNOME Shell on Wayland
 
@@ -179,13 +183,13 @@ While elementary OS doesn't use GNOME Shell (which was demoed in this talk), we 
 
 ### Designing GNOME Mobile Apps
 
-Purism and GNOME designer Tobias Bernard shared much of the ongoing work to port GNOME to mobile devices like the upcoming Librem 5.
+Purism and GNOME designer Tobias Bernard shared much of the ongoing work to port GNOME apps to mobile devices like the upcoming Librem 5.
 
 <figure class="embed">
   <iframe src="https://guadec.ubicast.tv/permalink/v125d0af53a1fipzbiat/iframe/" allowfullscreen="allowfullscreen"></iframe>
 </figure>
 
-elementary has no plans to develop a mobile version of the OS, but some of the design patterns and especially the widgets in LibHandy are of great interest; better touch support and better layouts for small and large window sizes are always welcome. As a result of this talk (and playing with LibHandy afterwards), we've filed several issues for including LibHandy in elementary OS and using it within the shell and apps.
+elementary has no plans to develop a mobile version of the OS, but some of the design patterns and especially the widgets in LibHandy are of great interest; better touch support and better layouts for small and large window sizes are always welcome. As a result of this talk (and playing with LibHandy afterwards), we've filed several issues for including LibHandy in elementary OS and using it within the desktop and apps.
 
 ### Usability Testing
 
@@ -207,7 +211,7 @@ Robert McQueen presented—this time in the unplanned unconference style—about
   <iframe src="https://guadec.ubicast.tv/permalink/v125d0af5a8ffz4hc0b7/iframe/" allowfullscreen="allowfullscreen"></iframe>
 </figure>
 
-He started with the current state of metrics in Endless OS, and then shifted to how something better could be designed and implemented in GNOME and other open source desktops. It's an area I've thought about a lot; in fact, last year at the Libre Application Summit, I sat down with folks from Purism and elementary and chatted about a theoretical privacy-respecting analytics system, why it's sought after, the risks, and how we would have to go about implementing it. It sounds like Robert has been chewing on the same idea, so we sat down afterwards and chatted about it some more.
+He started with the current state of metrics in Endless OS, and then shifted to how something better could be designed and implemented in GNOME and other open source desktops. It's an area I've thought about a lot; in fact, last year at the [Libre Application Summit]({% post_url 2018-09-12-were-back-from-libre-application-summit-2018 %}), I sat down with folks from Purism and elementary and chatted about a theoretical privacy-respecting analytics system, why it's sought after, the risks, and how we would have to go about implementing it. It sounds like Robert has been chewing on the same idea, so we sat down afterwards and chatted about it some more.
 
 We still believe the best way to protect user data at elementary is to [not collect it in the first place]({% post_url 2019-01-09-privacy-and-elementary-os %}). However, if app developers are going to be seeking ways to track how their apps are being used (for well-intentioned purposes like knowing where to spend development), they're going to seek out less-privacy-respecting solutions. If a privacy-respecting solution existed from the start, it could actually actively protect user data while also providing value to app and platform developers. This is all theoretical right now, but it's a thread that I'm interested in keeping up on, and I'll remain in contact with Robert, other folks from Endless, and folks from companies like Purism and System76 who might share the same goals as us.
 
@@ -237,6 +241,11 @@ BoFs, or "Birds of a Feather" sessions, are meetups that happen across the venue
 
 Speaking of the GTK BoF, this was the big all-day one that took most of our time on the first day. Matthias directed the discussion and opened the floor for GLib wishlist items (like an OS info API), the status of GTK4, and even the Dark Style implementation.
 
+<figure markdown="1">
+![GTK BoF]({{ site.baseurl }}/images/elementary-at-guadec-2019/gtk-bof-wide_800.jpg){: srcset="{{ site.baseurl }}/images/elementary-at-guadec-2019/gtk-bof-wide_1600.jpg 2x"}
+<figcaption>GTK BoF</figcaption>
+</figure>
+
 A lot of time was spent discussing GTK4—primarily if there were any more "headlining" features we wanted to try to get into the release to help encourage app developers to port as soon as possible. We mostly agreed that the performance improvements were a large reason to port, and didn't come up with any single "big new feature" that should be added at this point. LibDazzle and Purism's LibHandy also demonstrate that you can still do a lot more with GTK3 than most apps do, so even getting much of those widgets upstreamed into GTK4 would not be compelling features in themselves.
 
 We also talked about what is going to hold a lot of apps back from GTK4 to start: WebKitGtk. There is not currently a GTK4 port, meaning any app needing a web view will need to stay on GTK3 until that work is started and finished. That's a huge void that will take a lot of time and effort to accomplish, and as far as we know, nobody has taken it on yet.
@@ -249,11 +258,17 @@ I attended this BoF on the second day. Organized and moderated by Neil McGovern,
 
 Over all, it went exceedingly well in my eyes. We came to a conclusion that GNOME _could_ support some amount of styling if it were well-defined and well documented—right now, the only real "documentation" is Adwaita's behavior itself. This definition and documentation work would also directly benefit apps as well, as they could use the documented styles to do more interesting custom styles that would be supported in Adwaita as well as any "compatible" stylesheets. This is actually pretty similar to elementary OS, where we have publicly-exported variables, the color palette, and Granite style classes for apps to do custom styling.
 
-We agreed that there are really three areas when it comes to custom styling: the "supported" styles (currently nothing, but hopefully soon a handful of public variables, color palette, colored headerbars, etc.), "upstreamable" styles (i.e. something that a vendor or app wants to be supported but currently is not), and "here be dragons" which is everything else that's explicitly unsupported. But at least agreeing on the three areas, it means GNOME can work to increase the supported styling and downstreams can work on upstreaming, ultimately reducing the "dragons" area.
+We agreed that there are really three areas when it comes to custom styling:
+
+1. **"Supported"** styles (currently nothing, but hopefully soon a handful of public variables, color palette, colored headerbars, etc.),
+2. **"Upstreamable"** styles (i.e. stylistic changes or something that a vendor or app wants to be supported but currently is not), and
+3. **"Here be dragons"** which is everything else that's explicitly unsupported.
+
+But at least agreeing on the three areas, it means GNOME can work to increase the supported styling and downstreams can work on upstreaming, ultimately reducing the "dragons" area.
 
 Interestingly, Yaru (the Ubuntu GTK stylesheet) is already based on Adwaita (the GNOME GTK stylesheet), using a build-time variable system that the Yaru developers put together. They even demoed a Pop!\_OS inspired set of variables that does express much of the same branding as the official Pop!\_OS stylesheet without much work. Some of this work may get upstreamed into Adwaita itself, and I've been sharing our experiences with publicly-exported variables in elementary OS to enable our unique features like per-app accent colors and branded headerbars.
 
-I'm currently [helping lead this effort within GNOME](https://discourse.gnome.org/t/gtk-adwaita-and-vendor-styles/1641), and as this work continues, we'll try to share and upstream as much of our work from elementary OS as possible.
+I'm currently [helping lead this effort within GNOME](https://discourse.gnome.org/t/gtk-adwaita-and-vendor-styles/1641), and as this work continues, we'll try to share and upstream as much of our work from elementary OS as possible. Tobias also has a good write-up of this BoF in [his blog post](https://blogs.gnome.org/tbernard/2019/09/05/guadec-2019/) if you'd like a bit more detail.
 
 ### Flatpak Donations/Store
 
@@ -273,7 +288,9 @@ I'd like to give a **huge** thank you to the [GNOME Foundation](https://www.gnom
 
 As a member of the GNOME Foundation, I see my attending GNOME events as multi-purpose: First, I help represent elementary and ensure future GNOME-stack developments are generally compatible with our vision. Equally, I strive to bring my experiences, knowledge, and data collected from working on elementary OS to GNOME to help make GNOME itself better. Lastly, I learn more about the technologies we're using in elementary OS so we can go and build cool things with them. The fact that the GNOME Foundation sees so much value in this is validating, and I encourage anyone who works on GNOME or GNOME-related downstreams to [apply for Foundation membership](https://www.gnome.org/foundation/membership/)!
 
-We would also like to thank everyone who’s bought an app on [AppCenter], our supporters on [Bountysource] and [Patreon], and those who’ve purchased a copy of [elementary OS] or merch from [our store]. Each contribution helps make what we do possible. If you’d like to help improve elementary OS, don’t hesitate to [get involved].
+We'd also like to thank the sponsors [Private Internet Access](https://www.privateinternetaccess.com), [Red Hat](https://www.redhat.com), [Endless](https://endlessos.com), [Ubuntu](https://ubuntu.com), [openSUSE](https://www.opensuse.org), [Codethink](https://www.codethink.co.uk), [Igalia](https://www.igalia.com), and [Arm](https://www.arm.com) for helping to make GUADEC happen.
+
+And of course, a huge thanks to everyone who’s bought an app on [AppCenter], our supporters on [Bountysource] and [Patreon], and those who’ve purchased a copy of [elementary OS] or merch from [our store]. Each contribution helps make what we do possible. If you’d like to help improve elementary OS, don’t hesitate to [get involved].
 
 [AppCenter]: https://appcenter.elementary.io
 [Bountysource]: https://salt.bountysource.com/teams/elementary
