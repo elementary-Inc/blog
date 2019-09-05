@@ -33,7 +33,7 @@ Corentin and I split up for most of the talks for maximum coverage. As such, we 
 
 ### Desktop Secrets Management for the Future
 
-Red Hat engineer Daiki Ueno shared future improvements to the "secrets" API that manages things like passwords and encryption keys in GNOME, elementary OS, and other desktops.
+Red Hat and GNOME engineer Daiki Ueno shared future improvements to the "secrets" API that manages things like passwords and encryption keys in GNOME, elementary OS, and other desktops.
 
 <figure class="embed">
   <iframe src="https://guadec.ubicast.tv/permalink/v125d0b148f7api9muax/iframe/" allowfullscreen="allowfullscreen"></iframe>
@@ -63,7 +63,7 @@ I _think_ the title is a pun based on "GNOME" and the names of some of the popul
 
 ### Portals: Principles and Practice
 
-Portals are how sandboxed apps communicate with one another or request specific access to things they wouldn't normally get, like user files, location services, screen sharing, etc. In this talk, Red Hat manager and engineer Matthias Clasen shared a deep dive into Flatpak Portals, their architecture, the user experience, and what he's learned in the past year since Flatpak 1.0. He also collected suggestions for Portals that don't yet exist.
+Portals are how sandboxed apps communicate with one another or request specific access to things they wouldn't normally get, like user files, location services, screen sharing, etc. In this talk, Red Hat manager and GTK developer Matthias Clasen shared a deep dive into Flatpak Portals, their architecture, the user experience, and what he's learned in the past year since Flatpak 1.0. He also collected suggestions for Portals that don't yet exist.
 
 <figure class="embed">
   <iframe src="https://guadec.ubicast.tv/permalink/v125d0b148f36jtj6us1/iframe/" allowfullscreen="allowfullscreen"></iframe>
@@ -93,41 +93,57 @@ It focused on the unique challenges of the global healthcare system, and how GNU
 
 ### Packing Up Boxes
 
-Not about Flatpak, and not about GNOME Boxes
+Not about Flatpak, and not about GNOME Boxes. 😉️ GNOME Foundation engineer and core GTK developer Emmanuele Bassi shared how to use constraint-based layouts to build user interfaces in GTK4.
 
 <figure class="embed">
   <iframe src="https://guadec.ubicast.tv/permalink/v125d0ae6dc9dhybbpfg/iframe/" allowfullscreen="allowfullscreen"></iframe>
 </figure>
 
+This is something app developers have been asking for for a while, so it's exciting to see it come to GTK. I'm super interested in playing with this in my own apps and in the elementary apps once the GTK4 porting work begins.
+
 ### Simple is Hard: Creating Beautiful App Icons
 
-Jakub Steiner
+Red Hat and GNOME visual designer Jakub Steiner presented the new GNOME icon style and a quick demo of creating a new icon using the new Icon Preview app and Inkscape.
 
 <figure class="embed">
   <iframe src="https://guadec.ubicast.tv/permalink/v125d0ae6c813prh3adv/iframe/" allowfullscreen="allowfullscreen"></iframe>
 </figure>
 
+Jakub is always fun to chat with, and his goofy personality shines through in this talk. Even if you're not interested in designing GNOME icons (since elementary OS uses a different icon style), this talk is entertaining to watch.
+
 ### GNOME UX: Strategies & Tactics
 
-Allan Day
+Red Hat and GNOME UX designer Allan Day shared a lot of the design work that is going into GNOME as well as his vision for the future of GNOME.
 
 <figure class="embed">
   <iframe src="https://guadec.ubicast.tv/permalink/v125d0ae6dbd2x865wc3/iframe/" allowfullscreen="allowfullscreen"></iframe>
 </figure>
 
+This talk was _so good_ and really shows the product management role that Allan and the design team serve within GNOME. I feel like this has always been the case to some extent, but is more prominent more recently. This also echoes how elementary is really a design-led organization, and many of the "tactics" he shares to improve GNOME can apply to elementary as well.
+
+Specifically, the bits about developer and designer synchronicity, designer-developers, and development-conscious design are areas that we champion within elementary; much of the work Daniel and I have done lately has centered around prototyping and developing directly in Vala and GTK, which means we're far less likely to design something that is impractical from a technical level. It also means we're able to jump into a codebase and improve the UI directly: we don't have to make a mockup and wait for a "real developer" to come along and pick up the work. This has been a _massive_ improvement to the process within elementary.
+
+Something that has enabled that is that we do have a single preferred language and code style, which means we don't have to be fluent in C, Rust, Vala, JavaScript, Python, etc. Once we have solved a problem in one app, it's pretty generalizable across all elementary apps. Of course we still lean heavily on experienced developers, but we're able to do a lot more as designers than ever before.
+
 ### Maintaining a Flatpak Repository
 
-Alexander Larsson
+Red Hat, GNOME, and Flatpak developer Alexander Larsson shared how Flatpak remotes work and how to host one yourself.
 
 <figure class="embed">
   <iframe src="https://guadec.ubicast.tv/permalink/v125d0ae6dd77i05j8rh/iframe/" allowfullscreen="allowfullscreen"></iframe>
 </figure>
 
+He gets pretty technical into how Flatpak works on the server side with details on OSTree (like git for your filesystem), how diff-based updates work, etc. Overall it was a great talk and is super relevant to elementary since we'll be hosting our own Flatpak remote for AppCenter. If you're interested in helping elementary move to the Flatpak future, I highly recommend you watch it!
+
 ### GNOME Foundation Annual General Meeting
+
+Part of GUADEC is the GNOME Foundation's annual meeting where they go over the last year and share projections for the next year. GNOME Foundation members also get to vote on relevant topics, such as changing the term lengths of board members, and changing wording in the bylaws.
 
 <figure class="embed">
   <iframe src="https://guadec.ubicast.tv/permalink/v125d0ae6ddf7r559xos/iframe/" allowfullscreen="allowfullscreen"></iframe>
 </figure>
+
+It was also an opportunity for an in-person question-and-answer session with the GNOME Foundation board.
 
 <figure class="embed">
   <iframe src="https://guadec.ubicast.tv/permalink/v125d0ae6ca4e9nojzh3/iframe/" allowfullscreen="allowfullscreen"></iframe>
@@ -135,7 +151,7 @@ Alexander Larsson
 
 ### The Need for a FreeDesktop Dark Style Preference
 
-Me!
+This was my talk! If you've read my blog post on the topic, it's mostly review. But it was well-received and as a result, GNOME and GTK are moving forward to support a system-wide dark style preference.
 
 <figure class="embed">
   <iframe src="https://guadec.ubicast.tv/permalink/v125d0af56c87sex078k/iframe/" allowfullscreen="allowfullscreen"></iframe>
@@ -143,7 +159,7 @@ Me!
 
 ### Is the Linux Desktop Really Dead?
 
-Robery McQueen
+Robert McQueen
 
 <figure class="embed">
   <iframe src="https://guadec.ubicast.tv/permalink/v125d0af6044fmc08q4k/iframe/" allowfullscreen="allowfullscreen"></iframe>
@@ -183,9 +199,13 @@ Robert McQueen
 
 ### Lightning Talks
 
+Lightning talks are fast-paced and unplanned talks that are decided day-of and given a strict, short time limit.
+
 <figure class="embed">
   <iframe src="https://guadec.ubicast.tv/permalink/v125d0b1484a2718m3hh/iframe/" allowfullscreen="allowfullscreen"></iframe>
 </figure>
+
+The highlights for me were Alexander Larsson's GThree (a 3D rendering library for GTK) and Richard Brown's How to Survive a Speaker Having a Heart Attack on Stage.
 
 ### Free Software/Utopia
 
