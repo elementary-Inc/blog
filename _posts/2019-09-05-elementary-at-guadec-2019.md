@@ -29,81 +29,171 @@ _* No longer restricted to Europe! In fact, a bid is being submitted to host GUA
 
 ## Talks
 
-Corentin and I split up for most of the talks for maximum coverage. As such, we attended a _lot_ of talks.
+Corentin and I split up for most of the talks for maximum coverage. As such, we attended a _lot_ of talks. We've embedded the recordings below as well, since they recorded and uploaded all of them already (which is _awesome_).
 
 ### Desktop Secrets Management for the Future
 
-Red Hat engineer Daiki Ueno shared future improvements to the "secrets" API that manages things like passwords and encryption keys in GNOME, elementary OS, and other desktops. He focused specifically on the implications of sandboxing with Flatpak, and how a new version of the API could be designed for this more secure future. Much of the content was above my level of knowledge, but it was encouraging to see some of the remaining questions around Flatpak being actively worked on, and this is work that will benefit elementary OS in the future.
+Red Hat engineer Daiki Ueno shared future improvements to the "secrets" API that manages things like passwords and encryption keys in GNOME, elementary OS, and other desktops.
 
-### Managing GNOME Sesstions with systemd
+<figure class="embed">
+  <iframe src="https://guadec.ubicast.tv/permalink/v125d0b148f7api9muax/iframe/" allowfullscreen="allowfullscreen"></iframe>
+</figure>
 
-Red Hat engineer Benjamin Berg and Canonical engineer Iain Lane shared their work with moving much of the session management out of GNOME Session and into systemd. This is an area we've begun exploring in elementary OS, but it was good to hear about their experiences, some cool side-effects, and issues they had to overcome. This is ongoing work, and we'll be following it to see how it applies to elementary OS in the future as well.
+He focused specifically on the implications of sandboxing with Flatpak, and how a new version of the API could be designed for this more secure future. Much of the content was above my level of knowledge, but it was encouraging to see some of the remaining questions around Flatpak being actively worked on, and this is work that will benefit elementary OS in the future.
+
+### Managing GNOME Sessions with systemd
+
+Red Hat engineer Benjamin Berg and Canonical engineer Iain Lane shared their work with moving much of the session management out of GNOME Session and into systemd.
+
+<figure class="embed">
+  <iframe src="https://guadec.ubicast.tv/permalink/v125d0b137f3bbcudhop/iframe/" allowfullscreen="allowfullscreen"></iframe>
+</figure>
+
+This is an area we've begun exploring in elementary OS, but it was good to hear about their experiences, some cool side-effects, and issues they had to overcome. This is ongoing work, and we'll be following it to see how it applies to elementary OS in the future as well.
 
 ### GNHOME AUTTOMQATION
 
-No, my cat didn't walk across the keyboard while I was writing the name of this talk; Nathan Willis presented his thoughts around how the GNOME desktop could better support modern home automation (and "smart home") user flows. I _think_ the title is a pun based on "GNOME" and the names of some of the popular open source home automation tools in wide use today. It was an interesting talk that got my gears turning with regards to how the smartest devices in our homes (our computers) are sometimes the least integrated.
+No, my cat didn't walk across the keyboard while I was writing the name of this talk; Nathan Willis presented his thoughts around how the GNOME desktop could better support modern home automation (and "smart home") user flows.
 
-### Portals - Principles and Practice
+<figure class="embed">
+  <iframe src="https://guadec.ubicast.tv/permalink/v125d0b148d79qoix9bi/iframe/" allowfullscreen="allowfullscreen"></iframe>
+</figure>
+
+I _think_ the title is a pun based on "GNOME" and the names of some of the popular open source home automation tools in wide use today. It was an interesting talk that got my gears turning with regards to how the smartest devices in our homes (our computers) are sometimes the least integrated.
+
+### Portals: Principles and Practice
 
 Portals are how sandboxed apps communicate with one another or request specific access to things they wouldn't normally get, like user files, location services, screen sharing, etc. In this talk, Red Hat manager and engineer Matthias Clasen shared a deep dive into Flatpak Portals, their architecture, the user experience, and what he's learned in the past year since Flatpak 1.0. He also collected suggestions for Portals that don't yet exist.
 
+<figure class="embed">
+  <iframe src="https://guadec.ubicast.tv/permalink/v125d0b148f36jtj6us1/iframe/" allowfullscreen="allowfullscreen"></iframe>
+</figure>
+
 We've been [moving toward Portals]({% post_url 2019-03-12-a-new-native-file-chooser %}) in elementary OS in preparation for [using Flatpak]({% post_url 2019-04-01-elementary-appcenter-flatpak %}), and it was good to see the wide variety of portals that exist and the design considerations behind them. One portal we suggested based on our work toward [a cross-desktop settings API]({% post_url 2016-12-08-making-system-settings-access-a-cross-desktop-feature %}) was a “Connect to Network” portal; rather than a “System Settings” portal that would need to handle every possible setting an OS might have, we came to the conclusion that individual portals for specific actions would be more flexible. A new network connection portal could be used in elementary OS to prompt a user to get connected when browsing AppCenter, for example, where an Internet connection is needed to install apps. It could also be used in apps designed for any desktop environment, like a web browser, torrent client, chat app, etc.
 
-### Wineglass - How to Make Wine Accessible
+### Wineglass: How to Make Wine Accessible
 
-elementary OS user and app developer Alex Angelou gave this unconference talk (unplanned and decided day-of) about his app [Wineglass](https://appcenter.elementary.io/com.github.aggalex.wineglass/). It was a brief introduction to Wine prefixes (used to sort of sandbox Wine apps from one another), and how Wineglass works to make it faster and simpler to use Wine. It was fun seeing elementary OS up on the big screen at a GNOME conference, and his app was generally well received. During the Q&A session there were also some great discussions and suggestions, with issues being filed before we left the room.
+elementary OS user and app developer Alex Angelou gave this unconference talk (unplanned and decided day-of) about his app [Wineglass](https://appcenter.elementary.io/com.github.aggalex.wineglass/).
+
+<figure class="embed">
+  <iframe src="https://guadec.ubicast.tv/permalink/v125d0ad7c8e6dabqw92/iframe/" allowfullscreen="allowfullscreen"></iframe>
+</figure>
+
+It was a brief introduction to Wine prefixes (used to sort of sandbox Wine apps from one another), and how Wineglass works to make it faster and simpler to use Wine. It was fun seeing elementary OS up on the big screen at a GNOME conference, and his app was generally well received. During the Q&A session there were also some great discussions and suggestions, with issues being filed before we left the room.
 
 ### GNU Health: The Fight for our Rights in the Public Health System
 
-This was the first "keynote" talk, presented by Founder & President of GNU Solidario. It focused on the unique challenges of the global healthcare system, and how GNU Health tries to address them. Over all it was an interesting case study in open source software entering and taking hold in a market dominated by proprietary solutions.
+This was the first "keynote" talk, presented by Founder & President of GNU Solidario.
+
+<figure class="embed">
+  <iframe src="https://guadec.ubicast.tv/permalink/v125d0ad7835ayrnms3e/iframe/" allowfullscreen="allowfullscreen"></iframe>
+</figure>
+
+It focused on the unique challenges of the global healthcare system, and how GNU Health tries to address them. Over all it was an interesting case study in open source software entering and taking hold in a market dominated by proprietary solutions.
 
 ### Packing Up Boxes
 
 Not about Flatpak, and not about GNOME Boxes
 
+<figure class="embed">
+  <iframe src="https://guadec.ubicast.tv/permalink/v125d0ae6dc9dhybbpfg/iframe/" allowfullscreen="allowfullscreen"></iframe>
+</figure>
+
 ### Simple is Hard: Creating Beautiful App Icons
 
 Jakub Steiner
+
+<figure class="embed">
+  <iframe src="https://guadec.ubicast.tv/permalink/v125d0ae6c813prh3adv/iframe/" allowfullscreen="allowfullscreen"></iframe>
+</figure>
 
 ### GNOME UX: Strategies & Tactics
 
 Allan Day
 
+<figure class="embed">
+  <iframe src="https://guadec.ubicast.tv/permalink/v125d0ae6dbd2x865wc3/iframe/" allowfullscreen="allowfullscreen"></iframe>
+</figure>
+
 ### Maintaining a Flatpak Repository
 
 Alexander Larsson
 
+<figure class="embed">
+  <iframe src="https://guadec.ubicast.tv/permalink/v125d0ae6dd77i05j8rh/iframe/" allowfullscreen="allowfullscreen"></iframe>
+</figure>
+
 ### GNOME Foundation Annual General Meeting
+
+<figure class="embed">
+  <iframe src="https://guadec.ubicast.tv/permalink/v125d0ae6ddf7r559xos/iframe/" allowfullscreen="allowfullscreen"></iframe>
+</figure>
+
+<figure class="embed">
+  <iframe src="https://guadec.ubicast.tv/permalink/v125d0ae6ca4e9nojzh3/iframe/" allowfullscreen="allowfullscreen"></iframe>
+</figure>
 
 ### The Need for a FreeDesktop Dark Style Preference
 
 Me!
 
+<figure class="embed">
+  <iframe src="https://guadec.ubicast.tv/permalink/v125d0af56c87sex078k/iframe/" allowfullscreen="allowfullscreen"></iframe>
+</figure>
+
 ### Is the Linux Desktop Really Dead?
 
 Robery McQueen
+
+<figure class="embed">
+  <iframe src="https://guadec.ubicast.tv/permalink/v125d0af6044fmc08q4k/iframe/" allowfullscreen="allowfullscreen"></iframe>
+</figure>
 
 ### Accessibility Features for Mutter/GNOME Shell on Wayland
 
 Oliver Fourdan
 
+<figure class="embed">
+  <iframe src="https://guadec.ubicast.tv/permalink/v125d0b148681aw5mihz/iframe/" allowfullscreen="allowfullscreen"></iframe>
+</figure>
+
 ### Designing GNOME Mobile Apps
 
 Tobias Bernard
+
+<figure class="embed">
+  <iframe src="https://guadec.ubicast.tv/permalink/v125d0af53a1fipzbiat/iframe/" allowfullscreen="allowfullscreen"></iframe>
+</figure>
 
 ### Usability Testing
 
 Clarissa Lima Borges
 
+<figure class="embed">
+  <iframe src="https://guadec.ubicast.tv/permalink/v125d0af588eeqnwoffd/iframe/" allowfullscreen="allowfullscreen"></iframe>
+</figure>
+
 ### Product Metrics & Respecting Privacy
 
 Robert McQueen
 
+<figure class="embed">
+  <iframe src="https://guadec.ubicast.tv/permalink/v125d0af5a8ffz4hc0b7/iframe/" allowfullscreen="allowfullscreen"></iframe>
+</figure>
+
 ### Lightning Talks
+
+<figure class="embed">
+  <iframe src="https://guadec.ubicast.tv/permalink/v125d0b1484a2718m3hh/iframe/" allowfullscreen="allowfullscreen"></iframe>
+</figure>
 
 ### Free Software/Utopia
 
 The closing keynote presented by Deb Nicholson, Director of Community Operations at the Free Software Conservancy.
+
+<figure class="embed">
+  <iframe src="https://guadec.ubicast.tv/permalink/v125d0af5f72dycbpzkw/iframe/" allowfullscreen="allowfullscreen"></iframe>
+</figure>
 
 ## BoFs
 
