@@ -47,7 +47,57 @@ We've been [moving toward Portals]({% post_url 2019-03-12-a-new-native-file-choo
 
 elementary OS user and app developer Alex Angelou gave this unconference talk (unplanned and decided day-of) about his app [Wineglass](https://appcenter.elementary.io/com.github.aggalex.wineglass/). It was a brief introduction to Wine prefixes (used to sort of sandbox Wine apps from one another), and how Wineglass works to make it faster and simpler to use Wine. It was fun seeing elementary OS up on the big screen at a GNOME conference, and his app was generally well received. During the Q&A session there were also some great discussions and suggestions, with issues being filed before we left the room.
 
-### GNU HEALTH:
+### GNU Health: The Fight for our Rights in the Public Health System
+
+This was the first "keynote" talk, presented by Founder & President of GNU Solidario. It focused on the unique challenges of the global healthcare system, and how GNU Health tries to address them. Over all it was an interesting case study in open source software entering and taking hold in a market dominated by proprietary solutions.
+
+### Packing Up Boxes
+
+Not about Flatpak, and not about GNOME Boxes
+
+### Simple is Hard: Creating Beautiful App Icons
+
+Jakub Steiner
+
+### GNOME UX: Strategies & Tactics
+
+Allan Day
+
+### Maintaining a Flatpak Repository
+
+Alexander Larsson
+
+### GNOME Foundation Annual General Meeting
+
+### The Need for a FreeDesktop Dark Style Preference
+
+Me!
+
+### Is the Linux Desktop Really Dead?
+
+Robery McQueen
+
+### Accessibility Features for Mutter/GNOME Shell on Wayland
+
+Oliver Fourdan
+
+### Designing GNOME Mobile Apps
+
+Tobias Bernard
+
+### Usability Testing
+
+Clarissa Lima Borges
+
+### Product Metrics & Respecting Privacy
+
+Robert McQueen
+
+### Lightning Talks
+
+### Free Software/Utopia
+
+The closing keynote presented by Deb Nicholson, Director of Community Operations at the Free Software Conservancy.
 
 ## BoFs
 
@@ -55,11 +105,15 @@ BoFs, or "Birds of a Feather" sessions, are meetups that happen across the venue
 
 ### GTK
 
-Speaking of the GTK BoF, this was the big all-day one that took most of our time. Matthias directed the discussion and opened the floor for GLib wishlist items (like an OS info API), the status of GTK4, and even the Dark Style implementation.
+Speaking of the GTK BoF, this was the big all-day one that took most of our time on the first day. Matthias directed the discussion and opened the floor for GLib wishlist items (like an OS info API), the status of GTK4, and even the Dark Style implementation.
+
+A lot of time was spent discussing GTK4—primarily if there were any more "headlining" features we wanted to try to get into the release to help encourage app developers to port as soon as possible. We mostly agreed that the performance improvements were a large reason to port, and didn't come up with any single "big new feature" that should be added at this point. LibDazzle and Purism's LibHandy also demonstrate that you can still do a lot more with GTK3 than most apps do, so even getting much of those widgets upstreamed into GTK4 would not be compelling features in themselves.
+
+We also talked about what is going to hold a lot of apps back from GTK4 to start: WebKitGtk. There is not currently a GTK4 port, meaning any app needing a web view will need to stay on GTK3 until that work is started and finished. That's a huge void that will take a lot of time and effort to accomplish, and as far as we know, nobody has taken it on yet.
 
 ### Vendor Styles
 
-This BoF, organized and moderated by Neil McGovern (Executive Director of the GNOME Foundation), was all about moving forward with the sometimes at-conflict goals of GNOME apps looking as good as they can and downstream vendors (like Ubuntu or Pop!_OS) wanting to express their unique branding and styling. Rather than just sit in two separate camps, the idea was to talk it out and decide where we actually aligned, and how we could move forward to improve GNOME.
+I attended this BoF on the second day. Organized and moderated by Neil McGovern, Executive Director of the GNOME Foundation. It was all about moving forward with the sometimes at-conflict goals of GNOME apps looking as good as they can and downstream vendors (like Ubuntu or Pop!_OS) wanting to express their unique branding and styling. Rather than just sit in two separate camps, the idea was to talk it out and decide where we actually aligned, and how we could move forward to improve GNOME.
 
 Over all, it went exceedingly well in my eyes. We came to a conclusion that GNOME _could_ support some amount of styling if it were well-defined and well documented—right now, the only real "documentation" is Adwaita's behavior itself. This definition and documentation work would also directly benefit apps as well, as they could use the documented styles to do more interesting custom styles that would be supported in Adwaita as well as any "compatible" stylesheets. This is actually pretty similar to elementary OS, where we have publicly-exported variables, the color palette, and Granite style classes for apps to do custom styling.
 
@@ -67,7 +121,7 @@ We agreed that there are really three areas when it comes to custom styling: the
 
 Interestingly, Yaru (the Ubuntu GTK stylesheet) is already based on Adwaita (the GNOME GTK stylesheet), using a build-time variable system that the Yaru developers put together. They even demoed a Pop!\_OS inspired set of variables that does express much of the same branding as the official Pop!\_OS stylesheet without much work. Some of this work may get upstreamed into Adwaita itself, and I've been sharing our experiences with publicly-exported variables in elementary OS to enable our unique features like per-app accent colors and branded headerbars.
 
-I'm currently helping lead this effort within GNOME, and as this work continues, we'll try to share and upstream as much of our work as possible.
+I'm currently [helping lead this effort within GNOME](https://discourse.gnome.org/t/gtk-adwaita-and-vendor-styles/1641), and as this work continues, we'll try to share and upstream as much of our work from elementary OS as possible.
 
 ### Flatpak Donations/Store
 
@@ -82,10 +136,10 @@ As always, the social events were almost as important as the talks and BoFs; the
 I'd like to give a **huge** thank you to the [GNOME Foundation](https://www.gnome.org/foundation/) for sponsoring my travel and lodging! I had an amazing time connecting and working with folks throughout the GNOME community—especially Allan Day, Clarissa Borges, Niel McGovern, Robert McQueen, Tobias Bernard, Adrien Plazas, Julian Sparber, Matthias Clasen, Britt Yazel, Alex Angelou, Cosimo Cecchi, Ian Santopietro, Benjamin Berg, and probably dozens of others I've missed.
 
 <figure markdown="1">
-![Sponsored by GNOME Foundation](https://wiki.gnome.org/Travel/Policy?action=AttachFile&do=get&target=sponsored-by-foundation-round.png)
+![Sponsored by GNOME Foundation]({{ site.baseurl }}/images/elementary-at-guadec-2019/sponsored.png)
 </figure>
 
-As a member of the GNOME Foundation, I see my attending GNOME events as dual-purpose: First, I help represent elementary and ensure future GNOME-stack developments are generally compatible with our vision. Equally, I strive to bring my experiences, knowledge, and data collected from working on elementary OS to GNOME to help make GNOME itself better. The fact that the GNOME Foundation sees so much value in this is validating, and I encourage anyone who works on GNOME or GNOME-related downstreams to [apply for Foundation membership](https://www.gnome.org/foundation/membership/)!
+As a member of the GNOME Foundation, I see my attending GNOME events as multi-purpose: First, I help represent elementary and ensure future GNOME-stack developments are generally compatible with our vision. Equally, I strive to bring my experiences, knowledge, and data collected from working on elementary OS to GNOME to help make GNOME itself better. Lastly, I learn more about the technologies we're using in elementary OS so we can go and build cool things with them. The fact that the GNOME Foundation sees so much value in this is validating, and I encourage anyone who works on GNOME or GNOME-related downstreams to [apply for Foundation membership](https://www.gnome.org/foundation/membership/)!
 
 We would also like to thank everyone who’s bought an app on [AppCenter], our supporters on [Bountysource] and [Patreon], and those who’ve purchased a copy of [elementary OS] or merch from [our store]. Each contribution helps make what we do possible. If you’d like to help improve elementary OS, don’t hesitate to [get involved].
 
@@ -95,3 +149,4 @@ We would also like to thank everyone who’s bought an app on [AppCenter], our s
 [elementary OS]: https://elementary.io/
 [our store]: https://elementary.io/store/
 [get involved]: https://elementary.io/get-involved
+
