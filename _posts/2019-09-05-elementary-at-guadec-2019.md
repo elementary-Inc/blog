@@ -47,17 +47,31 @@ We've been [moving toward Portals]({% post_url 2019-03-12-a-new-native-file-choo
 
 elementary OS user and app developer Alex Angelou gave this unconference talk (unplanned and decided day-of) about his app [Wineglass](https://appcenter.elementary.io/com.github.aggalex.wineglass/). It was a brief introduction to Wine prefixes (used to sort of sandbox Wine apps from one another), and how Wineglass works to make it faster and simpler to use Wine. It was fun seeing elementary OS up on the big screen at a GNOME conference, and his app was generally well received. During the Q&A session there were also some great discussions and suggestions, with issues being filed before we left the room.
 
-### GNU HEALTH: 
+### GNU HEALTH:
 
 ## BoFs
 
-BoFs, or "Birds of a Feather" sessions, are meetups that happen across the venue with people who are working on or with certain technologies. For example, the GTK BoF was organized by core GTK contributors, but attended by GTK developers, folks writing GTK apps, GTK stylesheet authors, etc.
+BoFs, or "Birds of a Feather" sessions, are meetups that happen across the venue with people who are working on or with certain technologies—or just interested in a common topic. For example, the GTK BoF was organized by core GTK contributors, but attended by GTK developers, folks writing GTK apps, GTK stylesheet authors, etc.
 
 ### GTK
 
 Speaking of the GTK BoF, this was the big all-day one that took most of our time. Matthias directed the discussion and opened the floor for GLib wishlist items (like an OS info API), the status of GTK4, and even the Dark Style implementation.
 
 ### Vendor Styles
+
+This BoF, organized and moderated by Neil McGovern (Executive Director of the GNOME Foundation), was all about moving forward with the sometimes at-conflict goals of GNOME apps looking as good as they can and downstream vendors (like Ubuntu or Pop!_OS) wanting to express their unique branding and styling. Rather than just sit in two separate camps, the idea was to talk it out and decide where we actually aligned, and how we could move forward to improve GNOME.
+
+Over all, it went exceedingly well in my eyes. We came to a conclusion that GNOME _could_ support some amount of styling if it were well-defined and well documented—right now, the only real "documentation" is Adwaita's behavior itself. This definition and documentation work would also directly benefit apps as well, as they could use the documented styles to do more interesting custom styles that would be supported in Adwaita as well as any "compatible" stylesheets. This is actually pretty similar to elementary OS, where we have publicly-exported variables, the color palette, and Granite style classes for apps to do custom styling.
+
+We agreed that there are really three areas when it comes to custom styling: the "supported" styles (currently nothing, but hopefully soon a handful of public variables, color palette, colored headerbars, etc.), "upstreamable" styles (i.e. something that a vendor or app wants to be supported but currently is not), and "here be dragons" which is everything else that's explicitly unsupported. But at least agreeing on the three areas, it means GNOME can work to increase the supported styling and downstreams can work on upstreaming, ultimately reducing the "dragons" area.
+
+Interestingly, Yaru (the Ubuntu GTK stylesheet) is already based on Adwaita (the GNOME GTK stylesheet), using a build-time variable system that the Yaru developers put together. They even demoed a Pop!\_OS inspired set of variables that does express much of the same branding as the official Pop!\_OS stylesheet without much work. Some of this work may get upstreamed into Adwaita itself, and I've been sharing our experiences with publicly-exported variables in elementary OS to enable our unique features like per-app accent colors and branded headerbars.
+
+I'm currently helping lead this effort within GNOME, and as this work continues, we'll try to share and upstream as much of our work as possible.
+
+### Flatpak Donations/Store
+
+Unfortunately I was unable to attend this BoF since the Vendor Styles BoF ended up taking the whole day. However, I chatted with Robert McQueen beforehand about how AppCenter works, and he debriefed me afterwards and shared some ongoing work within Flatpak to enable payments. It sounds like they are headed in the right direction, and I expect the work here to simplify some of our Flatpak work around payments.
 
 ## Social
 
