@@ -4,9 +4,11 @@ description: Hanging out with GNOMIES in Thessaloniki, Greece
 author: cassidyjames
 image: https://pixelfed.social/storage/m/375e65040b19b04b60a3cf824105a89aedf089df/cd4923591853d189595583ebde7866fc60062337/mkWPZ4yvtooKq2pS1xtL6h5YawWZax9G2393zSlM.jpeg
 tags:
-  - guadec
-  - gnome
   - event
+  - flatpak
+  - gnome
+  - gtk
+  - guadec
 thanks: true
 ---
 
@@ -19,11 +21,15 @@ GUADEC is the annual **G**NOME **U**ser **A**nd **D**eveloper ~~**E**uropean~~* 
 
 elementary [attended for the first time]({% post_url 2018-07-18-things-we-learned-at-guadec-2018 %}) in Almería, Spain last year and had such a productive (and fun!) time that we made sure to be back again for 2019. This year Corentin Noël and I represented elementary, while Daniel took some time off to [celebrate his one-year anniversary](https://twitter.com/DanielFore/status/1163831738532941824) (congrats, Dan!).
 
+Just like last year, due to the nature of GUADEC, this post might get a bit technical and is mostly future-looking. For even more reports from a diverse group of GNOME contributors, check out the [Planet GNOME blog aggregator](https://planet.gnome.org/). That aside, let’s dive in.
+
 _* No longer restricted to Europe! In fact, a bid is being submitted to host GUADEC 2020 in Mexico. I guess we can retcon the E to stand for "Everywhere."_
+
+---
 
 ## Talks
 
-Corentin and I split up for most of the talks for maximum coverage.
+Corentin and I split up for most of the talks for maximum coverage. As such, we attended a _lot_ of talks.
 
 ### Desktop Secrets Management for the Future
 
@@ -110,6 +116,8 @@ Speaking of the GTK BoF, this was the big all-day one that took most of our time
 A lot of time was spent discussing GTK4—primarily if there were any more "headlining" features we wanted to try to get into the release to help encourage app developers to port as soon as possible. We mostly agreed that the performance improvements were a large reason to port, and didn't come up with any single "big new feature" that should be added at this point. LibDazzle and Purism's LibHandy also demonstrate that you can still do a lot more with GTK3 than most apps do, so even getting much of those widgets upstreamed into GTK4 would not be compelling features in themselves.
 
 We also talked about what is going to hold a lot of apps back from GTK4 to start: WebKitGtk. There is not currently a GTK4 port, meaning any app needing a web view will need to stay on GTK3 until that work is started and finished. That's a huge void that will take a lot of time and effort to accomplish, and as far as we know, nobody has taken it on yet.
+
+Matthias has a great [dedicated blog post](https://blog.gtk.org/2019/08/29/gtk-bof-at-guadec/) on this BoF as well.
 
 ### Vendor Styles
 
