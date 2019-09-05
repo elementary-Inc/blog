@@ -1,15 +1,14 @@
 ---
 title: "Making System Settings Access a Cross-Desktop Feature"
-description: "Corentin Noël has proposed a cross-desktop URL scheme specification for system settings and we’re excited to announce the first release of Switchboard (the system settings app in elementary OS) that makes use of it!"
-author: DanielFore
+description: A new cross-desktop URL scheme specification
+author: danrabbit
 date: 2016-12-08T17:50:50.017Z
 image: /assets/images/making-system-settings-access-a-cross-desktop-feature/0740YNDjNe4M3AKOB
 tags:
-  - "linux"
-  - "open-source"
-  - "elementary-os"
-  - "cross-platform"
+  - fdo
 ---
+
+Corentin Noël has proposed a cross-desktop URL scheme specification for system settings and we’re excited to announce the first release of Switchboard (the system settings app in elementary OS) that makes use of it!
 
 <figure markdown="1">
 ![](/assets/images/making-system-settings-access-a-cross-desktop-feature/0740YNDjNe4M3AKOB)
@@ -33,4 +32,3 @@ Sarah is also working on the app and she notices that in her desktop environment
 
 Now that support for this URL scheme has landed in Switchboard, we’ll be updating our apps and even the rest of the desktop environment to make use of it. We’ve reached out to lead developers on a couple of other desktop environments and they seemed interested in the idea. We’d love to see more developers adopt this scheme so that it gains momentum. If you have any questions or suggestions about [the specification](https://docs.google.com/document/d/1N0uqNtVXEFn3cLgNMeN75mP_dpMpCco-7uw5PKow-_Q/edit?usp=sharing) it is open to comments on Google Docs.
 
-*We’d like to say thanks again to our supporters on [Bountysource](https://salt.bountysource.com/teams/elementary) and [Patreon](https://www.patreon.com/elementary), those who’ve purchased a copy of [elementary OS](https://elementary.io/) or merch from [our store](https://elementary.io/store/). Every contribution helps make all of this possible, and we wouldn’t be here without you! If you’d like to help improve elementary OS, don’t hesitate to [Get Involved](https://elementary.io/get-involved)!*
