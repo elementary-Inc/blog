@@ -10,6 +10,11 @@ tags:
   - gtk
   - guadec
 thanks: true
+
+facebook: https://www.facebook.com/elementaryos/posts/2685264938171985
+mastodon: https://mastodon.social/@elementary/102747110984529020
+reddit: https://www.reddit.com/r/elementaryos/comments/d0jfbr/elementary_at_guadec_2019_elementary_blog/
+twitter: https://twitter.com/elementary/status/1170049282575097856
 ---
 
 <figure markdown="1">

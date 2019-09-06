@@ -7,6 +7,11 @@ tags:
   - design
   - first-run
   - juno
+
+facebook: https://www.facebook.com/elementaryos/posts/2667493236615822
+mastodon: https://mastodon.social/@elementary/102696294042635761
+reddit: https://www.reddit.com/r/elementaryos/comments/cwmqrh/say_hello_to_the_new_greeter_elementary_blog/
+twitter: https://twitter.com/elementary/status/1166796690029809664
 ---
 
 After nearly two years of design, development, and testing, I'm very excited to talk to you about a huge change to the user experience in elementary OS: our new Greeter.
