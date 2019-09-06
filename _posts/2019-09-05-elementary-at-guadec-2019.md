@@ -315,7 +315,7 @@ While not explicit planned social events, a lot of time was spent walking around
 ![Sad Breakfast]({{ site.baseurl }}/images/elementary-at-guadec-2019/breakfast-1_800.jpg){: srcset="{{ site.baseurl }}/images/elementary-at-guadec-2019/breakfast-1_1600.jpg 2x"}
 ![Good Breakfast]({{ site.baseurl }}/images/elementary-at-guadec-2019/breakfast-2_800.jpg){: srcset="{{ site.baseurl }}/images/elementary-at-guadec-2019/breakfast-2_1600.jpg 2x"}
 <figcaption markdown="1">
-**Left:** Rushed first-day breakfast | **Right:** Second-day breakfast once we knew a good spot
+**Left:** Rushed (but still delicious) first-day breakfast | **Right:** Second-day breakfast once we knew a good spot
 </figcaption>
 </figure>
 
@@ -361,6 +361,14 @@ On the last day, I attended the "Beach BoF," a day trip to the beach about a hal
 
 We did get to lounge on the beach in the sun, swim, and hang out on the sandbar several meters into the sea. We also walked a couple of kilometers along the beach to a shipwreck, and some even swam out to check it out. I did learn a hard lesson: don't fall asleep for a few hours in the sun when you're as pale as I am; you'll end up completely fried and bright red. Whoops.
 
+## Other Work
+
+With so much collaboration, sharing of ideas, and knowledgable people in one place, other work happening at GUADEC is an inevitability. Consequently, two interesting pieces of work were started this week:
+
+First, I started a _very_ early [proof of concept GNOME shim](https://github.com/cassidyjames/settings-shim) for our [settings schema spec]({% post_url 2016-12-08-making-system-settings-access-a-cross-desktop-feature %}). The idea being that GNOME-based OSes like Pop!\_OS might want to use some components originally designed for elementary OS, but not Switchboard itself. In the past we've proposed the settings schema to GNOME Control Center, but they turned it down for not being flexible enough (and because _ideally_ it would be handled by portals that don't yet exist). So, as a stopgap, the shim translates settings URL calls to GNOME Control Center calls. It's not the most ideal, but it is no more fragile than hardcoding GNOME Control Center calls into apps themselves, plus it keeps that ugliness and fragility centralized into one tiny component instead of spread across many apps.
+
+Perhaps more exciting is Corentin's work on an [elementary Flatpak SDK](https://github.com/elementary/flatpak-platform). Based on the GNOME SDK (which is in turn based on the FreeDesktop SDK), this will allow us to build Flatpak apps on the same base as elementary OS itself, with all of the benefits of Flatpak. Eventually, this is what we see core elementary apps as well as AppCenter apps being built on.
+
 ## Thank You
 
 I'd like to give a **huge** thank you to the [GNOME Foundation](https://www.gnome.org/foundation/) for sponsoring my travel and lodging! I had an amazing time connecting and working with folks throughout the GNOME community—especially Allan Day, Clarissa Borges, Niel McGovern, Robert McQueen, Tobias Bernard, Adrien Plazas, Julian Sparber, Matthias Clasen, Britt Yazel, Alex Angelou, Cosimo Cecchi, Ian Santopietro, Benjamin Berg, and probably dozens of others I've missed.
@@ -395,14 +403,4 @@ And of course, a huge thanks to everyone who’s bought an app on [AppCenter], o
 ---
 
 _Unless otherwise noted, all photos in this post were taken by Cassidy and are released to the public domain._
-
-
-<!--
-
-<figure class="half" markdown="1">
-![]({{ site.baseurl }}/images/elementary-at-guadec-2019/_800.jpg){: srcset="{{ site.baseurl }}/images/elementary-at-guadec-2019/_1600.jpg 2x"}
-<figcaption></figcaption>
-</figure>
-
--->
 
