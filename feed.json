@@ -29,10 +29,12 @@ layout: null
                 {% else %} 
                     {% assign image = page.image | prepend: site.baseurl | prepend: site.url %} 
                 {% endif %} 
-            "image": "{{ image }}"
+            "image": "{{ image }}",
             {% else %}
-            "excerpt": "{{ post.excerpt | strip_html | truncatewords: 40 | jsonify }}"
+            "excerpt": "{{ post.excerpt | strip_html | truncatewords: 40 | jsonify }}",
             {% endif %}
+            {% assign words = post.content | strip_html | number_of_words %}
+            "read_time": "{{ words | divided_by: 200 | plus: 1 }} min read"
         }
         {% unless forloop.last %},{% endunless %}
         {% endfor %}
