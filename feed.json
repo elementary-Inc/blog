@@ -23,11 +23,11 @@ layout: null
             {% endif %}
             },
             {% if post.image %}
-                {% assign prefix = page.image | slice: 0, 4 %} 
+                {% assign prefix = post.image | slice: 0, 4 %} 
                 {% if prefix == "http" %} 
-                    {% assign image = page.image %} 
+                    {% assign image = post.image %} 
                 {% else %} 
-                    {% assign image = page.image | prepend: site.baseurl | prepend: site.url %} 
+                    {% assign image = post.image | prepend: site.baseurl | prepend: site.url %} 
                 {% endif %} 
             "image": "{{ image }}",
             {% else %}
