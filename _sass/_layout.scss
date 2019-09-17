@@ -10,41 +10,41 @@ body > section {
 }
 
 body > footer {
-    background-color: var(--secondary-bg-color);
-    display: flex;
-    flex-flow: wrap-reverse;
-    justify-content: space-between;
-    overflow-x: auto;
-    padding: 0 1rem;
+  background-color: var(--secondary-bg-color);
+  display: flex;
+  flex-flow: wrap-reverse;
+  justify-content: space-between;
+  overflow-x: auto;
+  padding: 0 1rem;
 
-    ul {
-      display: inline-block;
-      flex: 0 0 auto;
-      margin: 0;
-      padding: 0;
-    }
+  ul {
+    display: inline-block;
+    flex: 0 0 auto;
+    margin: 0;
+    padding: 0;
+  }
 
-    li {
-      display: inline-block;
-      list-style: none;
-      vertical-align: middle;
-    }
+  li {
+    display: inline-block;
+    list-style: none;
+    vertical-align: middle;
+  }
 
-    a {
-      display: inline-block;
-      opacity: 1;
-      padding: 0 0.4rem;
-      text-decoration: none;
-    }
+  a {
+    display: inline-block;
+    opacity: 1;
+    padding: 0 0.4rem;
+    text-decoration: none;
+  }
 
-    a,
-    p {
-      color: var(--secondary-fg-color);
-      font-family: var(--ui-font);
-      font-size: 0.6rem;
-      line-height: 3em;
-      margin: 0;
-    }
+  a,
+  p {
+    color: var(--secondary-fg-color);
+    font-family: var(--ui-font);
+    font-size: 0.6rem;
+    line-height: 3em;
+    margin: 0;
+  }
 }
 
 article {
@@ -84,7 +84,7 @@ article {
 }
 
 hr {
-  border: none;
+  border: 0;
   margin: 3em auto;
   max-width: 50%;
 
@@ -115,4 +115,3 @@ hr {
 .up-next {
   margin: 8rem auto 0;
 }
-
