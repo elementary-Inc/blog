@@ -1,7 +1,7 @@
 body > header {
-  background-color: var(--header-color);
-  color: var(--silver-100);
-  fill: var(--silver-100);
+  background-color: var(--header-bg-color);
+  color: var(--header-fg-color);
+  fill: var(--header-fg-color);
 
   nav {
     display: flex;
@@ -23,7 +23,7 @@ body > header {
     }
 
     a {
-      color: var(--silver-100);
+      color: var(--header-fg-color);
       display: inline-block;
       font-family: var(--ui-font);
       font-size: 0.85rem;
