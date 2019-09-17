@@ -2,69 +2,13 @@
 <html lang="en-us">
   {% include head.html %}
   <body class="{% if page.url == '/' %}home {% endif %}">
-    <header>
-      <nav class="primary">
-        <ul>
-          <li><a href="https://elementary.io" class="logomark">
-            {% include svg/logomark.svg %}
-          </a></li>
-
-          <li><a href="https://elementary.io/support" target="_self">Support</a></li>
-          <li><a href="https://developer.elementary.io" target="_self">Developer</a><</li>
-          <li><a href="https://elementary.io/get-involved" target="_self">Get Involved</a></li>
-          <li><a href="https://elementary.io/store/" target="_self">Store</a></li>
-          <li><a href="{{ site.baseurl }}/">Blog</a></li>
-        </ul>
-
-        <ul>
-          <li><a href="https://www.facebook.com/elementaryos" target="_blank" rel="noopener" title="Facebook">
-            {% include svg/facebook.svg %}
-          </a></li>
-
-          <li><a href="https://mastodon.social/@elementary" target="_blank" rel="noopener" title="Mastodon">
-            {% include svg/mastodon.svg %}
-          </a></li>
-
-          <li><a href="https://www.reddit.com/r/elementaryos" target="_blank" rel="noopener" title="Reddit">
-            {% include svg/reddit.svg %}
-          </a></li>
-
-          <li><a href="https://elementaryos.stackexchange.com" target="_blank" rel="noopener" title="StackExchange">
-            {% include svg/stack-exchange.svg %}
-          </a></li>
-
-          <li><a href="https://twitter.com/elementary" target="_blank" rel="noopener" title="Twitter">
-            {% include svg/twitter.svg %}
-          </a></li>
-
-          <li><a href="https://join.slack.com/t/elementarycommunity/shared_invite/enQtMzU1NDU4OTE1MjY2LWUyOTBkZGNkZGM4MDgzZjE2ZjRiZDgwMDQ1ZTA0MzcxYjI0MDUyNGRlNDI5ZWViNDkwMzMwYzczMDY2ZjA0MTc" target="_blank" rel="noopener" title="Slack">
-            {% include svg/slack.svg %}
-          </a></li>
-        </ul>
-      </nav>
-      <nav class="secondary">
-        <a href="{{ site.baseurl }}/tags/#updates">OS Updates</a>
-        <a href="{{ site.baseurl }}/tags/#appcenter">AppCenter</a>
-        <a href="{{ site.baseurl }}/tags/#devs">Developers</a>
-        <a href="{{ site.baseurl }}/tags/#design">Design</a>
-      </nav>
-    </header>
+    {% include nav.html %}
     <section>
       {{ content }}
 
       {% include medium.html %}
     </section>
-    <footer>
-      <p>© 2019 elementary, Inc</p>
-      <ul>
-        <li><a href="https://elementary.io/press" target="_self">Press</a></li>
-        <li><a href="https://elementary.io/brand" target="_self">Brand</a></li>
-        <li><a href="https://elementary.io/oem" target="_self">OEMs</a></li>
-        <li><a href="https://elementary.io/privacy" target="_self">Privacy</a></li>
-        <li><a href="https://elementary.io/team" target="_self">Team</a></li>
-        <li><a href="https://elementary.io/open-source" target="_self">Open Source</a></li>
-      </ul>
-    </footer>
+    {% include footer.html %}
     {% include scripts.html %}
   </body>
 </html>
