@@ -44,7 +44,7 @@ We released a new version of the Date & Time pane in System Settings with a lot 
 ![Date & Time Settings]({{ site.baseurl }}/images/updates-for-august-2019/date-time_800.png){: srcset="{{ site.baseurl }}/images/updates-for-august-2019/date-time_1600.png 2x"}
 </figure>
 
-Clean-up and improvement-wise, we added an automatic timezone setting, support setting the correct timezone for the new greeter, and fixed being able to toggle week number visibility for calendars. And as usual, there are the usual updated translations for non-English users.
+Clean-up and improvement-wise, we added an automatic timezone setting, support setting the correct date and time settings for the new greeter, and fixed being able to toggle week number visibility for calendars. And as usual, there are the usual updated translations for non-English users.
 
 ## Applications Menu
 
