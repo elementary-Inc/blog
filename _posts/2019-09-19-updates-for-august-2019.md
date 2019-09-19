@@ -18,7 +18,7 @@ So, what's actually planned for the upcoming elementary OS 5.1 release? As with 
 
 However, since we moved from the 0.x numbering scheme to 5.x, we'll be treating this release a little differently. First, we've been working on significant reworking of the entire installation and first-run experience (which is where we've been hitting some snags).
 
-Because the entire installation and first-run experience is different—and greatly improved—compared to the 5.0 release, we'll be giving this release its own identity and name. Importantly, **all users of elementary OS 5 Juno will be able upgrade to 5.1** via their normal updates in AppCenter. Think of 5.1 as a mid-cycle major update that everyone gets; it's somewhere between a usual point-release an an entirely new version of the OS.
+Because the entire installation and first-run experience is different—and greatly improved—compared to the 5.0 release, we'll be giving this release its own identity and name. Importantly, **all users of elementary OS 5 Juno will be able upgrade to 5.1** via their normal updates in AppCenter. Think of 5.1 as a mid-cycle major update that everyone gets; it's somewhere between a usual point-release and an entirely new version of the OS.
 
 <aside markdown="1">
 > Think of 5.1 as a mid-cycle major update somewhere between a usual point-release an an entirely new version
