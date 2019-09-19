@@ -52,7 +52,7 @@ We pushed out a few fixes to the app-launching Applications Menu as well. We now
 
 ## Look & Feel
 
-As previously mentioned, we released the long-awaited [new greeter][greeter] in August. For existing users, this means a new card-based look, actual full HiDPI support, multi-display support, Caps and Num Lock indication, corrected time format based on the selected user's settings, and tons of bug fixes compared to the previous greeter.
+As previously mentioned, we released the long-awaited [new greeter][greeter] in August. For existing users, this means a new card-based look, actual full HiDPI support, multi-display support, Caps and Num Lock indication, corrected date and time format based on the selected user's settings, and tons of bug fixes compared to the previous greeter.
 
 <aside>
 {% assign post = site.posts | where:"slug", "say-hello-to-the-new-greeter" | first %}
