@@ -21,7 +21,7 @@ However, since we moved from the 0.x numbering scheme to 5.x, we'll be treating 
 Because the entire installation and first-run experience is different—and greatly improved—compared to the 5.0 release, we'll be giving this release its own identity and name. Importantly, **all users of elementary OS 5 Juno will be able upgrade to 5.1** via their normal updates in AppCenter. Think of 5.1 as a mid-cycle major update that everyone gets; it's somewhere between a usual point-release and an entirely new version of the OS.
 
 <aside markdown="1">
-> Think of 5.1 as a mid-cycle major update somewhere between a usual point-release an an entirely new version
+> Think of 5.1 as a mid-cycle major update somewhere between a usual point-release and an entirely new version
 </aside>
 
 Another consequence of this change is that headlining features of 5.1 have already started trickling out to 5.0: the new [greeter] and [onboarding] apps, for example, are a large part of the 5.1 release. Rather than artificially limit them to 5.1, we've started rolling them out so existing users can enjoy them as soon as possible.
