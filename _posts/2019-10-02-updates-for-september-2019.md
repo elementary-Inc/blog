@@ -2,7 +2,7 @@
 title: Updates for September, 2019
 description: Updates to apps, settings, and more—plus kicking off Hacktoberfest
 author: cassidyjames
-image: /images/updates-for-august-2019/date-time_1600.png
+image: /images/updates-for-september-2019/files-checkerboard@2x.png
 tags:
   - updates
   - juno
