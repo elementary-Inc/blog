@@ -61,21 +61,13 @@ We've released a small update to the Displays settings plug that fixes entering 
 
 The About section of System Settings shows system information and some system-wide actions. The latest release improves how we display storage information, hides the "Check for Updates" button if AppCenter is absent (i.e. on other OSes using our System Settings app), and drops showing the processor architecture since it was unreliable and we only officially support 64-bit Intel-like processors. Lastly, the "Report a Problem" button now launches the new Feedback app instead of using its own internal feedback dialog. Oh, and of course, translations have been updated.
 
-## Under the Hood
-
-That's all the user-facing updates, but there were a couple of small under-the-hood releases as well.
-
-### Granite
+## Granite
 
 The latest release of Granite, our developer library for building apps, includes a few fixes and improvements. Importantly, Granite now provides launcher API support for badges and progress bars, replacing the need for LibUnity in apps. We've added the Equals key to the accel methods, meaning keyboard shortcut tooltips will now show localized text instead of the `=` symbol. DynamicNotebook, the browser-class tab bar, gained support for "Close Tabs to the Right", and we fixed an issue where rapidly closing tabs would sometimes re-open closed tabs. Lastly, translations for Granite have been updated.
 
-### Initial Setup
-
-We released the first version of our new Initial Setup utility; this tool is automatically launched by [the new Greeter]({{ site.baseurl }}{% post_url 2019-08-27-say-hello-to-the-new-greeter %}) when no users exist on the system to help create a user and password—a key part of our new first run experience, and a major part of the upcoming 5.1 release.
-
 ## Get It
 
-That's it for this month! Remember to pop open AppCenter and hit that "Update All" button to get all these updates.
+As with each monthly update, you can expect other bug fixes, improvements, and translation updates. Remember to pop open AppCenter and hit that "Update All" button to get all these updates.
 
 <style>
   .hacktoberfest {
