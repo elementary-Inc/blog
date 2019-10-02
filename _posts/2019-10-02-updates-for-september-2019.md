@@ -49,7 +49,7 @@ Another significant release this past month was for Camera. This latest release 
 ![Camera](https://elementary.io/images/screenshots/camera.png){: srcset="https://elementary.io/images/screenshots/camera@2x.png 2x"}
 </figure>
 
-Performance has also been greatly improved on many camera models. Camera's window position is now saved, and we've cleaned up some code to make the timer button more reliable. And of course, traslations have been updated.
+Performance has also been greatly improved on many camera models. Camera's window position is now saved, and we've cleaned up some code to make the timer button more reliable. And of course, translations have been updated.
 
 ## System Settings
 
