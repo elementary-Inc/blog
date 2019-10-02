@@ -39,7 +39,7 @@ In addition, we've released several fixes and improvements for Files. Pasting fi
 </figcaption>
 </figure>
 
-We've also continued our work to clean up and modernize the Files codebase, porting more code from C to Vala and dropping deprecated code. And as usual, this release contains updated translations as well.
+We've also continued our work to clean up and modernize the Files codebase, porting more code from C to Vala and dropping deprecated code.
 
 ### Camera
 
@@ -49,21 +49,21 @@ Another significant release this past month was for Camera. This latest release 
 ![Camera](https://elementary.io/images/screenshots/camera.png){: srcset="https://elementary.io/images/screenshots/camera@2x.png 2x"}
 </figure>
 
-Performance has also been greatly improved on many camera models. Camera's window position is now saved, and we've cleaned up some code to make the timer button more reliable. And of course, translations have been updated.
+Performance has also been greatly improved on many camera models. Camera's window position is now saved, and we've cleaned up some code to make the timer button more reliable.
 
 ## System Settings
 
 ### Displays
 
-We've released a small update to the Displays settings plug that fixes entering minutes into the Night Light schedule, plus some under-the-hood fixes. Translations for the display settings have also been updated.
+We've released a small update to the Displays settings plug that fixes entering minutes into the Night Light schedule, plus some under-the-hood fixes.
 
 ### About
 
-The About section of System Settings shows system information and some system-wide actions. The latest release improves how we display storage information, hides the "Check for Updates" button if AppCenter is absent (i.e. on other OSes using our System Settings app), and drops showing the processor architecture since it was unreliable and we only officially support 64-bit Intel-like processors. Lastly, the "Report a Problem" button now launches the new Feedback app instead of using its own internal feedback dialog. Oh, and of course, translations have been updated.
+The About section of System Settings shows system information and some system-wide actions. The latest release improves how we display storage information, hides the "Check for Updates" button if AppCenter is absent (i.e. on other OSes using our System Settings app), and drops showing the processor architecture since it was unreliable and we only officially support 64-bit Intel-like processors. Lastly, the "Report a Problem" button now launches the new Feedback app instead of using its own internal feedback dialog.
 
 ## Granite
 
-The latest release of Granite, our developer library for building apps, includes a few fixes and improvements. Importantly, Granite now provides launcher API support for badges and progress bars, replacing the need for LibUnity in apps. We've added the Equals key to the accel methods, meaning keyboard shortcut tooltips will now show localized text instead of the `=` symbol. DynamicNotebook, the browser-class tab bar, gained support for "Close Tabs to the Right", and we fixed an issue where rapidly closing tabs would sometimes re-open closed tabs. Lastly, translations for Granite have been updated.
+The latest release of Granite, our developer library for building apps, includes a few fixes and improvements. Importantly, Granite now provides launcher API support for badges and progress bars, replacing the need for LibUnity in apps. We've added the Equals key to the accel methods, meaning keyboard shortcut tooltips will now show localized text instead of the `=` symbol. DynamicNotebook, the browser-class tab bar, gained support for "Close Tabs to the Right", and we fixed an issue where rapidly closing tabs would sometimes re-open closed tabs.
 
 ## Get It
 
