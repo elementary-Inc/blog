@@ -10,7 +10,7 @@ tags:
 
 Happy October! As you settle into the fall season (or spring for those of you in the Southern hemisphere!), we're back to share the last month's progress on elementary OS and all of the updates we've released.
 
-## Hacktoberfest 🍂️ 👩‍💻️ 🎃️
+## Hacktoberfest 🍂️👩‍💻️🎃️
 
 But first, this year we're participating in [Hacktoberfest](https://hacktoberfest.digitalocean.com/) yet again! We've started [labeling great issues](https://github.com/search?o=asc&q=org%3Aelementary+label%3Ahacktoberfest&s=created&state=open&type=Issues) for folks to take on this month—if you've wanted to contribute code to elementary OS but didn't know where to start, now is a great time.
 
@@ -43,7 +43,7 @@ We've also continued our work to clean up and modernize the Files codebase, port
 
 ### Camera
 
-Another significant release this past month was for Camera. This latest release greatly improves hardware compatibility for cameras on several popular laptops, including many Dell models.
+Another significant release this past month was for Camera. This latest release greatly improves hardware compatibility for cameras on several popular laptops, including many Dell models. If opening Camera showed “no device” before, give it a try again now!
 
 <figure markdown="1">
 ![Camera](https://elementary.io/images/screenshots/camera.png){: srcset="https://elementary.io/images/screenshots/camera@2x.png 2x"}
@@ -55,13 +55,27 @@ Performance has also been greatly improved on many camera models. Camera's windo
 
 ### Displays
 
+We've released a small update to the Displays settings plug that fixes entering minutes into the Night Light schedule, plus some under-the-hood fixes. Translations for the display settings have also been updated.
+
 ### About
+
+The About section of System Settings shows system information and some system-wide actions. The latest release improves how we display storage information, hides the "Check for Updates" button if AppCenter is absent (i.e. on other OSes using our System Settings app), and drops showing the processor architecture since it was unreliable and we only officially support 64-bit Intel-like processors. Lastly, the "Report a Problem" button now launches the new Feedback app instead of using its own internal feedback dialog. Oh, and of course, translations have been updated.
 
 ## Under the Hood
 
+That's all the user-facing updates, but there were a couple of small under-the-hood releases as well.
+
 ### Granite
 
+The latest release of Granite, our developer library for building apps, includes a few fixes and improvements. Importantly, Granite now provides launcher API support for badges and progress bars, replacing the need for LibUnity in apps. We've added the Equals key to the accel methods, meaning keyboard shortcut tooltips will now show localized text instead of the `=` symbol. DynamicNotebook, the browser-class tab bar, gained support for "Close Tabs to the Right", and we fixed an issue where rapidly closing tabs would sometimes re-open closed tabs. Lastly, translations for Granite have been updated.
+
 ### Initial Setup
+
+We released the first version of our new Initial Setup utility; this tool is automatically launched by [the new Greeter]({{ site.baseurl }}{% post_url 2019-08-27-say-hello-to-the-new-greeter %}) when no users exist on the system to help create a user and password—a key part of our new first run experience, and a major part of the upcoming 5.1 release.
+
+## Get It
+
+That's it for this month! Remember to pop open AppCenter and hit that "Update All" button to get all these updates.
 
 <style>
   .hacktoberfest {
