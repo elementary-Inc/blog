@@ -24,6 +24,13 @@ In September we released a couple of updates to core apps:
 
 The latest release of Files is a big one! The major new feature here is initial support for the [CloudProviders API](https://gitlab.gnome.org/World/libcloudproviders); this means file syncing and cloud storage providers like NextCloud can use this standardized API and hook directly into the Files app, without having to do anything special for elementary OS. This API is also implemented in GNOME Files, and we hope to see it adopted more widely across FreeDesktops. More information about the API and its background is available in [Carlos Soriano's blog post](https://csorianognome.wordpress.com/2015/07/07/cloud-providers/).
 
+<figure markdown="1">
+![Old]({{ site.baseurl }}/images/updates-for-september-2019/files-checkerboard.png){: srcset="{{ site.baseurl }}/images/updates-for-september-2019/files-checkerboard@2x.png 2x"}
+<figcaption>New checkerboard style behind transparent thumbnails</figcaption>
+</figure>
+
+In addition, we've released several fixes and improvements for Files. Pasting files should be more reliable, color label visibility has been improved when using a dark style (not officially supported… yet), selecting files when using the <kbd>Shift</kbd> should be more reliable, the disk space bar styling has been improved, initial window positioning has been improved (now in the center of the primary display), and we now draw a checkerboard background behind transparent image thumbnails.
+
 <figure class="half card" markdown="1">
 ![Old]({{ site.baseurl }}/images/updates-for-september-2019/files-before.png){: srcset="{{ site.baseurl }}/images/updates-for-september-2019/files-before@2x.png 2x"}
 ![New]({{ site.baseurl }}/images/updates-for-september-2019/files-after.png){: srcset="{{ site.baseurl }}/images/updates-for-september-2019/files-after@2x.png 2x"}
@@ -32,11 +39,17 @@ The latest release of Files is a big one! The major new feature here is initial 
 </figcaption>
 </figure>
 
-In addition, we've released several fixes and improvements for Files. Pasting files should be more reliable, color label visibility has been improved when using a dark style (not officially supported… yet), selecting files when using the <kbd>Shift</kbd> should be more reliable, the disk space bar styling has been improved, initial window positioning has been improved (now in the center of the primary display), and we now draw a checkerboard background behind transparent image thumbnails. We've also continued our work to clean up and modernize the Files codebase, porting more code from C to Vala and dropping deprecated code. And as usual, this release contains updated translations as well.
+We've also continued our work to clean up and modernize the Files codebase, porting more code from C to Vala and dropping deprecated code. And as usual, this release contains updated translations as well.
 
 ### Camera
 
-Another significant release this past month was for Camera. This latest release greatly improves hardware compatibility for cameras on several popular laptops, including many Dell models. Performance has also been greatly improved on many camera models. Camera's window position is now saved, and we've cleaned up some code to make the timer button more reliable. And of course, traslations have been updated.
+Another significant release this past month was for Camera. This latest release greatly improves hardware compatibility for cameras on several popular laptops, including many Dell models.
+
+<figure markdown="1">
+![Camera](https://elementary.io/images/screenshots/camera.png){: srcset="https://elementary.io/images/screenshots/camera@2x.png 2x"}
+</figure>
+
+Performance has also been greatly improved on many camera models. Camera's window position is now saved, and we've cleaned up some code to make the timer button more reliable. And of course, traslations have been updated.
 
 ## System Settings
 
