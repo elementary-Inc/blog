@@ -8,9 +8,7 @@ Remember, we moved away from other platforms for very specific reasons.
 
 1. **Completely frictionless** for readers.
 2. **As few external resources as possible**—it slows things down and introduces potential privacy issues.
-3. **Little-to-no JavaScript**—it’s a blog, not a web app. Currently, we only use progressively-enhancing JS for:
-   - Improving the image zoom experience
-   - Adding `target="_blank"` to external links
+3. **Little-to-no JavaScript**—it’s a blog, not a web app. Currently, we only use progressively-enhancing JS for improving the image zoom experience.
 
 ## Modern Niceties
 
@@ -55,6 +53,17 @@ This is a bit verbose, but ensures:
 Optimize images with the lowest JPG percent that looks good (i.e. manually in GIMP), and use something like [Image Optimizer](https://appcenter.elementary.io/com.github.gijsgoudzwaard.image-optimizer) for PNGs.
 
 Also consider JPGs instead of PNGs when the majority of the image is photographic or a gradient (i.e. not solid colors), as that will compress way better than a PNG.
+
+## Repos
+
+The blog is actually split into two repos:
+
+1. [@elementary/blog-template](https://github.com/elementary/blog-template), and
+2. [@elementary/blog](https://github.com/elementary/blog) (private)
+
+The template is the source for the design and layout. The private repo holds a copy of the template plus the actual posts themselves, and is set up with GitHub Pages. Layout and design work should always be done against the template repo.
+
+The reason for this separation is to be able to stage future/private blog posts while still letting people benefit from the template work. Ideally we'd have another solution that let us keep the contents of the blog itself public as well, without exposing future posts—or adding significantly to the complexity of maintaining the blog.
 
 ## Running Locally
 
