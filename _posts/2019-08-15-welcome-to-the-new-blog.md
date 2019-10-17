@@ -14,7 +14,7 @@ twitter: https://twitter.com/elementary/status/1162183150916837380
 ---
 
 <figure class="full-bleed" markdown="1">
-![Code](/images/elementary-blog-code-2560.jpg)
+![Code]({{ site.baseurl }}/images/elementary-blog-code-2560.jpg)
 </figure>
 
 In 2016, elementary moved to [a Medium publication](https://medium.com/elementaryos) to host our official blog. At the time, Medium was touted as a simple, clean, and reader-focused host for writers. They supported custom domains, a robust API, RSS, rich formatting, and great image embedding. We had been largely happy with the experience—as were our readers—but something changed in 2017.
@@ -170,8 +170,8 @@ h6 {
 One choice we made in the design was around the typefaces used: we decided to not include any fonts in the site itself, but to use a simple open font stack with native fallbacks. Platforms include high-quality typefaces these days, so using extra bandwidth to load in our own branded versions for a little bit of brand consistency just doesn't seem worth it. If you _are_ on elementary OS or have our default fonts installed, it'll feel right at home—but otherwise, we use the OS's default serif and sans-serif fonts.
 
 <figure class="half" markdown="1">
-![Initial homepage](/images/welcome-to-the-new-blog/homepage-initial.png)
-![New homepage](/images/welcome-to-the-new-blog/homepage-new.png)
+![Initial homepage]({{ site.baseurl }}/images/welcome-to-the-new-blog/homepage-initial.png)
+![New homepage]({{ site.baseurl }}/images/welcome-to-the-new-blog/homepage-new.png)
 <figcaption markdown="1">
 **Left:** Initial Medium-like homepage | **Right:** Newer, more elementary-style homepage
 </figcaption>
