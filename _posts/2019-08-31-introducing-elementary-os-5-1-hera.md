@@ -2,25 +2,29 @@
 title: Introducing elementary OS 5.1 Hera
 description: A major update on a solid foundation
 author: cassidyjames
-image: https://cdn-images-1.medium.com/max/1600/1*LjHTYMbr_p3fOsUNa38QqA.jpeg
+image: /images/introducing-elementary-os-5-1-hera/notebook-desktop@2x.png
 
 tags:
+  - accessibility
+  - flatpak
   - hera
   - juno
   - release
+  - sideload
   - updates
 ---
 
-![Hera wallpaper](https://cdn-images-1.medium.com/max/800/1*LjHTYMbr_p3fOsUNa38QqA.jpeg){: srcset="https://cdn-images-1.medium.com/max/1600/1*LjHTYMbr_p3fOsUNa38QqA.jpeg 2x"}
+![Hera wallpaper]({{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/notebook-desktop.png){: srcset="{{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/notebook-desktop@2x.png 2x"}
 
-In October, we [announced elementary OS 5 Juno][juno] with wide-ranging updates to provide a more refined user experience, improve productivity for new and seasoned users alike, and take our developer platform to the next level. Today we're pleased to announce elementary OS 5.1 Hera, the latest major update.
+Last October, we [announced elementary OS 5 Juno][juno] with wide-ranging updates to provide a more refined user experience, improve productivity for new and seasoned users alike, and take our developer platform to the next level. Today we're pleased to announce elementary OS 5.1 Hera, the latest major update.
 
 Hera builds on the solid foundation of Juno while bringing: 
 
-1. A brand new installer, greeter, and onboarding experience
-2. Major updates around accessibility and System Settings
-3. Iterative improvements across nearly all apps
-4. The latest hardware enablement and support
+1. A brand new Greeter and Onboarding experience
+2. Flatpak support with Sideload and AppCenter
+3. Major updates around accessibility and System Settings
+4. Iterative improvements across nearly all apps
+5. The latest hardware enablement and support
 
 ## What's in a Name and Number?
 
@@ -32,31 +36,29 @@ We always name our releases after mythological beings and deities, and Hera is n
 
 ## Updates from the Juno Release
 
-Since Hera builds on Juno, it includes [all of the monthly OS updates][updates] we've detailed since Juno's release. You can check those monthly stories for the nitty-gritty—and if you've diligently followed along, everything after Installer, Greeter, and Onboarding will be a review—but here's a higher-level overview of what Hera brings:
+Since Hera builds on Juno, it includes [all of the monthly OS updates][updates] we've detailed since Juno's release. You can check those monthly stories for the nitty-gritty—and if you've diligently followed along, everything after Greeter and Onboarding will be a review—but here's a higher-level overview of what Hera brings:
 
-### Installer, Greeter, and Onboarding
+### Greeter & Onboarding
 
-This is the trifecta of major new features for Hera. 
-
-<figure class="third" markdown="1">
-![Disk Encryption](https://cdn-images-1.medium.com/max/800/1*yduIK-8ivl7dJj1sDHEqzQ@2x.png){: srcset="https://cdn-images-1.medium.com/max/1600/1*yduIK-8ivl7dJj1sDHEqzQ@2x.png 2x"}
-![Keyboard Layout](https://cdn-images-1.medium.com/max/800/1*1q2aXstHd_08_KYMTtgj8g@2x.png){: srcset="https://cdn-images-1.medium.com/max/1600/1*1q2aXstHd_08_KYMTtgj8g@2x.png 2x"}
-![Select a Language](https://cdn-images-1.medium.com/max/800/1*eKhZa1Ir8HB9m9Wfc5ka3w@2x.png){: srcset="https://cdn-images-1.medium.com/max/1600/1*eKhZa1Ir8HB9m9Wfc5ka3w@2x.png 2x"}
-<figcaption>A few screens of the new Installer</figcaption>
-</figure>
-
-We've been working on the new Installer for over a year now, and it's finally ready to ship to users. It's designed to be simple and straightforward, and really fast. It handles getting the OS installed onto bare metal, and little more. In line with our Secure By Default efforts, it heavily encourages full-disk encryption out of the box to keep user data more secure.
+This is the duo of major new features for Hera, and greatly improves the first-run experience for users.
 
 <figure markdown="1">
-![Customize Partitions](https://cdn-images-1.medium.com/max/800/1*9aBxCBQ2lIlMh_iroBp6bg@2x.png){: srcset="https://cdn-images-1.medium.com/max/1600/1*9aBxCBQ2lIlMh_iroBp6bg@2x.png 2x"}
-<figcaption>Customize Partitions view for more control</figcaption>
+![Greeter screenshot]({{ site.baseurl }}/images/say-hello-to-the-new-greeter/screenshot_800.jpg){: srcset="{{ site.baseurl }}/images/say-hello-to-the-new-greeter/screenshot_1600.jpg 2x"}
+<figcaption markdown="1">
+A screenshot of the new Greeter
+</figcaption>
 </figure>
 
-It does also include a Customize Partitions feature to let users with more unique setups (including specific filesystem preferences and multi-booting installs) install elementary OS just how they'd like.
+The newly redesigned login and lockscreen greeter looks sharper, works better, and will allow us to more closely tie into a new installer in the future to streamline the first boot experience, only handling creating a new user once the OS is installed. This follows our [every-install-is-an-OEM-install design][oem-design], meaning less variance between installing your own OS and getting it included from an OEM.
 
-<!-- TODO: Greeter screenshot -->
+Today, it also fixes many reported issues with the previous greeter including focus issues, HiDPI issues, and better localization. Plus there are some nice new features like notifying when Caps or Num Lock are on, and making Log In as Guest more distinct when it's enabled.
 
-Along with the installer comes a new redesigned login and lockscreen greeter that looks sharper, works better, and handles creating a new user when none exist. It also fixes many reported issues with the previous greeter including focus issues, HiDPI issues, and better localization. It pairs with the installer to streamline the first boot experience, only handling creating a new user once the OS is installed. This follows our [every-install-is-an-OEM-install design][oem-design], meaning less variance between installing your own OS and getting it included from an OEM.
+<aside>
+{% assign post = site.posts | where:"slug", "say-hello-to-the-new-greeter" | first %}
+{% include featured.html post=post %}
+</aside>
+
+[The new Onboarding app][onboarding] that ships with Hera introduces key features to users and handles common first-run tasks like managing privacy settings.
 
 <figure class="third" markdown="1">
 ![Welcome screenshot](https://miro.medium.com/max/1120/1*OsUdeEafTuWof7e_jdEeNg@2x.png)
@@ -67,12 +69,41 @@ Along with the installer comes a new redesigned login and lockscreen greeter tha
 ![Finished screenshot](https://miro.medium.com/max/1124/1*XMhBb2LH7zaW1VFQeORMow@2x.png)
 </figure>
 
+Since it's a modular component—and not all baked into one piece of software along with an installer and new user creation—the Onboarding experience works great for newly-created users on existing installs, as well. When a major new feature lands in elementary OS, Onboarding can also be used to introduce it to existing users. You can read more about Onboarding and its design and development process in [our story from July][onboarding].
 
-Lastly, [the new Onboarding app] introduces key features to users and handles common first-run tasks like managing privacy settings. Since it's a modular component—and not all baked into one piece of software along with an installer and new user creation—the Onboarding experience works great for newly-created users on existing installs, as well. When a major new feature lands in elementary OS, Onboarding can also be used to introduce it to existing users. You can read more about Onboarding and its design and development process in our story from earlier this month.
+<aside>
+{% assign post = site.posts | where:"slug", "get-settled-into-elementary-os-with-onboarding" | first %}
+{% include featured.html post=post %}
+</aside>
 
-<!-- TODO: Include onboarding post -->
+Together, these two components greatly improve the first impressions of elementary OS from first run or getting a new computer all the way through using your account for the first time. With a fresh codebase across both, we'll also be able to more quickly iterate on features and fixes. And the new Installer will round out the trifecta in a future update.
 
-Together, these three components greatly improve the first impressions of elementary OS from installing the OS or getting a new computer all the way through using your account for the first time. With a fresh codebase across all three, we'll also be able to more quickly iterate on features and fixes.
+### Sideload, Flatpak, & AppCenter
+
+During this cycle, Flatpak has really matured as a technology which has lead us to commit to [a Flatpak future for our AppCenter ecosystem][flatpak]. Beyond that—and more immediately relevant—we've been hard at work to design a new sideloading experience for users to more safely get apps if they venture outside of AppCenter.
+
+While we always recommend installing curated AppCenter apps where we've done extensive automated and human reviews, we understand that some apps will not meet the strict requirements for AppCenter—and will thus be distributed elsewhere. Rather than encouraging users to drop to a Terminal, add inherently insecure PPAs, or install packages that end up getting root access to the system, we've decided to make a new app called Sideload to make it extremely easy to sideload Flatpak apps.
+
+<figure class="third" markdown="1">
+![Sideload](https://raw.githubusercontent.com/elementary/sideload/master/data/screenshot.png)
+![Sideload progress](https://raw.githubusercontent.com/elementary/sideload/master/data/screenshot-progress.png)
+![Sideload success](https://raw.githubusercontent.com/elementary/sideload/master/data/screenshot-success.png)
+<figcaption>The new Sideload app</figcaption>
+</figure>
+
+Sideload explains the implications of installing an app including potential download size and if it will add a remote that might contian other apps. Updates to sideloaded apps will appear in AppCenter alongside all other updates, and apps from any added Flatpak remotes will show up in AppCenter as uncurated apps.
+
+<figure markdown="1">
+![AppCenter categories](https://cdn-images-1.medium.com/max/800/1*r2DZyxdSOc6wSYzkFdSJjw@2x.png){: srcset="https://cdn-images-1.medium.com/max/1600/1*r2DZyxdSOc6wSYzkFdSJjw@2x.png 2x"}
+<figcaption>New & Improved AppCenter categories</figcaption>
+</figure>
+
+Lastly, to make more apps more discoverable in AppCenter, we've improved and added several new categories in Hera. We've also greatly improved performance and stability in several areas, plus fixed reported issues including ones related to email validation, visibility of available apps, and button styles. And since Hera is built from the same foundation as Juno, **all AppCenter apps released so far for Juno will automatically be available in Hera**.
+
+{% comment %}
+<!-- TODO: Uncomment if it's released, otherwise remove -->
+AppCenter in Hera also includes our first steps towards a Flatpak future, with support for the newer packaging format built-in. While nothing has changed with the way curated apps are distributed to elementary OS just yet, any manually-added Flatpak remotes are now usable within AppCenter.
+{% endcomment %}
 
 ### Accessibility and System Settings
 
@@ -116,6 +147,13 @@ Bluetooth settings have been improved with more reliable pairing and trusting of
 We've added a new Appearance tab to the Desktop settings, exposing some existing accessibility settings and making them more discoverable. This includes a new wider range of supported text sizes, from small (0.75x) to larger (1.5x). This should help those who need larger or smaller text, including alleviating some issues with certain hardware combinations where 1x or 2x display scaling is not the best fit.
 
 <figure markdown="1">
+![Date & Time Settings]({{ site.baseurl }}/images/updates-for-august-2019/date-time_800.png){: srcset="{{ site.baseurl }}/images/updates-for-august-2019/date-time_1600.png 2x"}
+<figcaption>Refined Date &amp; Time settings</figcaption>
+</figure>
+
+For Date & Time settings in Hera, we've cleaned up the design and added an automatic timezone setting.
+
+<figure markdown="1">
 ![Applications Menu search](https://cdn-images-1.medium.com/max/697/1*TTr3mUvKtb--h57ZVCxORA@2x.png){: srcset="https://cdn-images-1.medium.com/max/1395/1*TTr3mUvKtb--h57ZVCxORA@2x.png 2x"}
 <figcaption>Improved Applications Menu search</figcaption>
 </figure>
@@ -126,17 +164,22 @@ Lastly, we've made both System Settings and system actions like restarting much 
 
 As with any major elementary OS update, we've been hard at work on several built-in apps for Hera.
 
-<figure markdown="1">
-![AppCenter categories](https://cdn-images-1.medium.com/max/800/1*r2DZyxdSOc6wSYzkFdSJjw@2x.png){: srcset="https://cdn-images-1.medium.com/max/1600/1*r2DZyxdSOc6wSYzkFdSJjw@2x.png 2x"}
-<figcaption>New & Improved AppCenter categories</figcaption>
+#### Files
+
+Files in Hera received a major new feature: CloudProviders support. This means file syncing and cloud storage providers like NextCloud can use this standardized API and hook directly into the Files app, without having to do anything special for elementary OS. This API is also implemented in GNOME Files, and we hope to see it adopted more widely across FreeDesktops. We've also spent a ton of time improving Files in Hera.
+
+<figure class="third" markdown="1">
+![Files Shortcuts](https://cdn-images-1.medium.com/max/800/1*XG7msxmcJ-dPFZPn-fxmmQ@2x.png){: srcset="https://cdn-images-1.medium.com/max/1600/1*XG7msxmcJ-dPFZPn-fxmmQ@2x.png 2x"}
+![Files Color Tagging](https://user-images.githubusercontent.com/611168/62493151-a0597600-b78d-11e9-9f9f-536525b004ac.png)
+![Checkerboard]({{ site.baseurl }}/images/updates-for-september-2019/files-checkerboard.png){: srcset="{{ site.baseurl }}/images/updates-for-september-2019/files-checkerboard@2x.png 2x"}
+<figcaption>Keyboard shortcut discoverability, color tagging, and checkerboard thumbnail backgrounds in Files</figcaption>
 </figure>
 
-To make more apps more discoverable in AppCenter, we've improved and added several new categories in Hera. We've also greatly improved performance and stability in several areas, plus fixed reported issues including ones related to email validation, visibility of available apps, and button styles. And since Hera is built from the same foundation as Juno, **all AppCenter apps released so far for Juno will automatically be available in Hera**.
+We've made search more discoverable by showing the search icon and placeholder text in the Home folder, similar to a web browser's empty state. The search results dropdown is also larger and shows more results, and there's a new feature to hide thumbnails. "Cherry picking" files has been greatly improved, and we've refined the design of the color tags to be easier targets—plus we show all color tags used in a selection in the context menu. We also now draw a checkerboard background behind transparent image thumbnails, making them easier to see.
 
-{% comment %}
-<!-- TODO: Uncomment if it's released, otherwise remove -->
-AppCenter in Hera also includes our first steps towards a Flatpak future, with support for the newer packaging format built-in. While nothing has changed with the way curated apps are distributed to elementary OS just yet, any manually-added Flatpak remotes are now usable within AppCenter.
-{% endcomment %}
+We've also improved keyboard shortcut discoverability throughout, improved the Open In and Open With menus with app icons, and made Files respect the Event Alerts setting from _System Settings_ → _Sound_ for the trash sound. Lastly, we've implemented several performance and stability improvements including fixing reported issues around file sorting, pasting, selecting files, color tags, file renaming, and more.
+
+#### Calendar
 
 <figure markdown="1">
 ![Calendar](https://cdn-images-1.medium.com/max/800/1*GqkCuLStGsy2cfvXU8jqTA@2x.png){: srcset="https://cdn-images-1.medium.com/max/1600/1*GqkCuLStGsy2cfvXU8jqTA@2x.png 2x"}
@@ -145,6 +188,8 @@ AppCenter in Hera also includes our first steps towards a Flatpak future, with s
 
 We've put a lot of work into Calendar for Hera with a refreshed design that is brighter, cleaner, and more usable. Keyboard navigation, color palette usage, and the event dialog have also all been improved. See the [February updates story][feb] for more information.
 
+#### Code
+
 <figure markdown="1">
 ![Code](https://cdn-images-1.medium.com/max/800/1*mO9RqSUJy2WYKZWhAf3QAA@2x.png){: srcset="https://cdn-images-1.medium.com/max/1600/1*mO9RqSUJy2WYKZWhAf3QAA@2x.png 2x"}
 <figcaption>Improved keyboard shortcut discoverability in Code</figcaption>
@@ -152,27 +197,32 @@ We've put a lot of work into Calendar for Hera with a refreshed design that is b
 
 Code has been updated for Hera with more discoverable keyboard shortcuts, the restoration of the line wrap setting, new "Change Branch" functionality for git projects, and the display of hidden and non-text files in the sidebar to make git management more accurately reflect the state of the repository. We've also implemented several fixes and performance improvements, especially around saving and restoring files.
 
-<figure class="half" markdown="1">
-![Files Shortcuts](https://cdn-images-1.medium.com/max/800/1*XG7msxmcJ-dPFZPn-fxmmQ@2x.png){: srcset="https://cdn-images-1.medium.com/max/1600/1*XG7msxmcJ-dPFZPn-fxmmQ@2x.png 2x"}
-![Files Color Tagging](https://user-images.githubusercontent.com/611168/62493151-a0597600-b78d-11e9-9f9f-536525b004ac.png)
-<figcaption>Improved keyboard shortcut discoverability and color tagging in Files</figcaption>
-</figure>
+#### Music
 
-For Files, we've made search more discoverable in Hera by showing the search icon and placeholder text in the Home folder, similar to a web browser's empty state. The search results dropdown is also larger and shows more results, and there's a new feature to hide thumbnails. "Cherry picking" files has been greatly improved, and we've refined the design of the color tags to be easier targets—plus we show all color tags used in a selection in the context menu. We've also improved keyboard shortcut discoverability throughout, improved the Open In and Open With menus with app icons, and made Files respect the Event Alerts setting from _System Settings_ → _Sound_ for the trash sound. Lastly, we've implemented several performance and stability improvements including fixing reported issues around file sorting, color tags, file renaming, and more.
+We've spent a lot of time improving Music for Hera, with large improvements to sorting in the album, list, and column views.
 
 <figure markdown="1">
 ![Music preferences](https://cdn-images-1.medium.com/max/337/1*mZGIW4KbddMKDyzKoaKAww@2x.png){: srcset="https://cdn-images-1.medium.com/max/674/1*mZGIW4KbddMKDyzKoaKAww@2x.png 2x"}
 <figcaption>Improved keyboard shortcut discoverability in Files</figcaption>
 </figure>
 
-We've spent a lot of time improving Music for Hera, with large improvements to sorting in the album, list, and column views. We also updated it with more discoverable keyboard shortcuts, plus a new bold orange accent color throughout, carrying its identity from the icon into the app itself. We fixed several reported issues with queuing and playlists. Music can now also play s3m files and double clicking an album cover in the grid view will start playing that album. Lastly, album art in the grid view is now displayed more crisply on HiDPI displays.
+We also updated it with more discoverable keyboard shortcuts, plus a new bold orange accent color throughout, carrying its identity from the icon into the app itself. We fixed several reported issues with queuing and playlists. Music can now also play s3m files and double clicking an album cover in the grid view will start playing that album. Lastly, album art in the grid view is now displayed more crisply on HiDPI displays.
+
+#### Camera
+
+<figure markdown="1">
+![Camera](https://elementary.io/images/screenshots/camera.png){: srcset="https://elementary.io/images/screenshots/camera@2x.png 2x"}
+</figure>
+
+We've updated the Camera app in Hera for greatly improved hardware compatibility and performance with cameras on several popular laptops, including many Dell models.
+
+#### Terminal
 
 <figure markdown="1">
 ![Terminal context menu]({{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/terminal-menu.png){: srcset="{{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/terminal-menu@2x.png 2x"}
 </figure>
 
-Lastly, we've updated Terminal with a few small but welcome improvements. The [Menu key](https://en.wikipedia.org/wiki/Menu_key) found on some keyboards now opens the context menu, we added a separator to the context menu to better delineate text actions from app actions, and we save more window state between sessions.
-
+Lastly, we've updated Terminal with a few small but welcome improvements. The [Menu key](https://en.wikipedia.org/wiki/Menu_key) found on some keyboards now opens the context menu, we've improved contrast with the dark style, we added a separator to the context menu to better delineate text actions from app actions, and we save more window state between sessions.
 
 ### Desktop
 
@@ -240,7 +290,7 @@ Lastly, the default wallpaper has been updated. This photo of a sunset over a pi
 
 ### Hardware Support
 
-Along with all of the functional updates, translations, and issue fixes comes the latest hardware enablement provided by Linux 4.18 and the LTS HWE stack from Canonical. This includes improved support for more recent processors, GPUs, input devices, and more.
+Along with all of the functional updates, translations, and issue fixes comes the latest hardware enablement provided by Linux 5.0 and the LTS HWE stack from Canonical. This includes improved support for more recent processors, GPUs, input devices, and more.
 
 ## Get It
 
@@ -250,7 +300,7 @@ The one exception is the HWE stack; if you'd like the improved hardware support,
 
 `sudo apt install --install-recommends linux-generic-hwe-18.04 xserver-xorg-hwe-18.04`
 
-New users or those who prefer a fresh start can also download elementary OS 5.1 Hera from [elementary.io]. Even if you already have an older Juno ISO, we recommend downloading the latest Hera ISO if you're planning to perform a new install—you'll automatically get the latest hardware support, the new installer and onboarding, and to reduce the number of updates necessary once it's installed.
+New users or those who prefer a fresh start can also download elementary OS 5.1 Hera from [elementary.io]. Even if you already have an older Juno ISO, we recommend downloading the latest Hera ISO if you're planning to perform a new install—you'll automatically get the latest hardware support from the start, the new onboarding experience, and reduce the number of updates necessary once it's installed.
 
 [accessibility]: {{ site.baseurl }}{% post_url 2019-02-16-accessibility-features-are-just-features %}
 [elementary.io]: https://elementary.io
@@ -260,4 +310,6 @@ New users or those who prefer a fresh start can also download elementary OS 5.1 
 [oem-design]: https://github.com/elementary/installer/wiki#every-install-is-an-oem-install
 [onboarding]: {{ site.baseurl }}{% post_url 2019-07-23-get-settled-into-elementary-os-with-onboarding %}
 [updates]: {{ site.baseurl }}/tags/#updates
+[greeter]: {{ site.baseurl }}{% post_url 2019-08-27-say-hello-to-the-new-greeter %}
+[flatpak]: {{ site.baseurl }}{% post_url 2019-04-01-elementary-appcenter-flatpak %}
 
