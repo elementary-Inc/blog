@@ -38,10 +38,14 @@ This process is a bit complex, so we've started by documenting the current packa
 
 ### ISO Building
 
-If you thought package releases were complex, ISO building is on a whole other level. When we want to make a downloadable version of elementary OS, we use a collection of scripts to build the OS from Debian Live Build, packages from the Ubuntu repositories, and packages from our Launchpad repos. The resulting ISO must then be tested to ensure it: boots across a variety of hardware; installs successfully; and ends up with a correct install.
+If you thought package releases were complex, ISO building is on a whole other level. When we want to make a downloadable version of elementary OS, we use a collection of scripts to build the OS from Debian Live Build, packages from the Ubuntu repositories, and packages from our Launchpad repos. Some packages are built by taking the upstream source code and applying our own patches, since the original code was designed for Ubuntu and not elementary OS. Once the OS is built, the resulting ISO must then be tested to ensure it: boots across a variety of hardware; installs successfully BIOS, UEFI, Secure Boot, with and without Internet, etc.; and ends up with a correct install.
 
 This process had no real documentation or visibility, so we've been working on documenting and moving the ISO building process to GitHub CI as well. Before, there were disparate scripts and lengthy docs scattered about from nearly a decade of building elementary OS, but no definitive, “this is how we do it today.” We're happy to be working with dedicated volunteers and contributors like Keli Grubb, Martin Wimpress, and Corentin Noël to get things into shape.
 
 A functional ISO building process has been documented and is being tested in the [OS repo on GitHub](https://github.com/elementary/os). We're still working out some kinks, but getting this information documented and public has given us a baseline to build from.
 
+## What's Next
 
+Now that we have a baseline for both package releases and ISO builds, we're testing them and starting to use them in production. 5.1 will feature this work, and be released once we are confident it is robust and reliable. Updates to 5.0 in the meantime will also begin to use the updated package release process.
+
+If you're interested in getting involved in this work, we highly recommend checking out the [OS repo] and [release process on the wiki]. You can also jump into our [Community Slack] to get in touch with the team.
