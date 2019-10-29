@@ -22,7 +22,7 @@ While we always recommend users visit AppCenter for quality curated apps made fo
 
 This also means that Flatpak is enabled out of the box on elementary OS now, and we've [submitted a pull request](https://github.com/flatpak/flatpak.github.io/pull/355) to simplify the Flatpak [quick setup instructions](https://flatpak.org/setup/elementary%20OS/) on Flatpak.org to reflect this.
 
-Sideload is a new app and we have plans to iterate on it over time, but it's already super useful and straightforward.
+Sideload is a new app and we have plans to iterate on it over time, but it's already super useful and straightforward. The first version was released in October and it will be rolling out to users soon.
 
 ## Updates Released
 
