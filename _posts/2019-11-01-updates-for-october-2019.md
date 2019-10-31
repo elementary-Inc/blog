@@ -40,7 +40,11 @@ With users adding more non-curated apps into AppCenter with an officially-suppor
 
 ![Non-curated warning](https://user-images.githubusercontent.com/611168/67596163-572e1800-f725-11e9-927b-24d23536cfa7.png)
 
-We've also cleaned up and refactored a _ton_ of code in AppCenter, bringing massive performance improvements and numerous layout fixes. Paired with a newer version of PackageKit, AppCenter performs more actions in parallel. As a result, it's about 10× faster for certain operations like showing featured apps on the home page.
+On app listings, we've added a loading animation to screenshots, plus added new forward/back navigation buttons on hover in case the little dots were too hard to hit.
+
+This release also adds the ability to browse and uninstall apps while not connected to the Internet, with a new network infobar that appears and directs you to your networking settings if you're offline.
+
+Lastly, we've also cleaned up and refactored a _ton_ of code in AppCenter, bringing massive performance improvements and numerous layout fixes. Paired with a newer version of PackageKit, AppCenter performs more actions in parallel. As a result, it's **about 10× faster** for certain operations like showing featured apps on the home page.
 
 ### Calendar: Iconography & Recurring Events
 
