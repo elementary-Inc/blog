@@ -14,6 +14,9 @@ layout: null
             "description": {{ post.description | jsonify }},
             {% endif %}
             "author": {
+            {% if site.authors[post.author].name %}
+                {% assign author=site.authors[post.author]  %}
+            {% endif %}
             {% if author.gravatar %}
                 "gravatar": "{{ author.gravatar }}",
                 "name": "{{ author.name }}"
