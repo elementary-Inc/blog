@@ -14,15 +14,19 @@ We'll share more on that later, but first: let's take a look at all of the updat
 
 ## Sideload & Flatpak
 
-This month we have a brand new app for elementary OS to enable easier sideloading of apps. Sideload handles `flatpakref` files, like those you might find on [Flathub](https://flathub.org) or another third-party website providing a Flatpak app for download.
+We have a brand new app for elementary OS to enable easier sideloading of apps. Sideload handles `flatpakref` files, like those you might find on [Flathub](https://flathub.org) or another third-party website providing a Flatpak app for download.
 
-![Sideload screenshot](https://raw.githubusercontent.com/elementary/sideload/master/data/screenshot.png)
+![Sideload screenshot]({{ site.baseurl }}/images/updates-for-october-2019/sideload.png){: srcset="{{ site.baseurl }}/images/updates-for-october-2019/sideload@2x.png 2x"}
 
 While we always recommend users visit AppCenter for quality curated apps made for elementary OS, we understand that there are some cross-platform apps that don't meet the requirements to be curated in AppCenter. Rather than leaving users out on their own to add insecure PPAs or run random scripts as root, Sideload facilitates a safer way to help users get sandboxed apps.
 
 This also means that Flatpak is enabled out of the box on elementary OS now, and we've [submitted a pull request](https://github.com/flatpak/flatpak.github.io/pull/355) to simplify the Flatpak [quick setup instructions](https://flatpak.org/setup/elementary%20OS/) on Flatpak.org to reflect this.
 
-Sideload is a new app and we have plans to iterate on it over time, but it's already super useful and straightforward. The first version was released in October and it will be rolling out to users soon.
+Sideload is a new app and we have plans to iterate on it over time, but it's already super useful and straightforward. The first version was released in October and it will be rolling out to users soon. If you want to get your hands on it early (and aren't afraid of the Terminal), you can install it with:
+
+```shell
+sudo apt install io.elementary.sideload
+```
 
 ## Updates Released
 
@@ -38,7 +42,7 @@ The big AppCenter update is finally here! This release adds Flatpak support out 
 
 With users adding more non-curated apps into AppCenter with an officially-supported method, we also took time to be more clear about the implications of installing non-curated apps with a new dialog, similar to the Sideload dialog. As with Sideload, this is a starting point and we plan to iterate on it further, especially exposing more specific Flatpak permissions.
 
-![Non-curated warning](https://user-images.githubusercontent.com/611168/67596163-572e1800-f725-11e9-927b-24d23536cfa7.png)
+![Non-curated warning]({{ site.baseurl }}/images/updates-for-october-2019/non-curated.png){: srcset="{{ site.baseurl }}/images/updates-for-october-2019/non-curated@2x.png 2x"}
 
 On app listings, we've added a loading animation to screenshots, plus added new forward/back navigation buttons on hover in case the little dots were too hard to hit.
 
@@ -46,25 +50,49 @@ This release also adds the ability to browse and uninstall apps while not connec
 
 Lastly, we've also cleaned up and refactored a _ton_ of code in AppCenter, bringing massive performance improvements and numerous layout fixes. Paired with a newer version of PackageKit, AppCenter performs more actions in parallel. As a result, it's **about 10× faster** for certain operations like showing featured apps on the home page.
 
+### Greeter: Lots of little fixes
+
+We released the first update to the greeter since the new version was released, and it contains a handful of small but meaningful fixes. The greeter should better respect NumLock settings, saves the last user on attempted login, and has sounds enabled (i.e. for the "thud" when backspacing in an empty entry). We also fixed the wallpaper preview for wallpapers of certain aspect ratios, like those for ultra-wide displays. Entering a password no longer immediately removes it, and entering an incorrect password now highlights the typed password after erroring. Design-wise, we've reduced the size of non-focused user names to make the selected user more prominent.
+
+<!--
 ### Calendar: Iconography & Recurring Events
 
 Certain events in Calendar now get a cute little icon like an airplane for flights, a car for road trips, a film strip for movie showings, a ring for weddings, etc. It adds some character but also helps distinguish them if you have many events. Calendar is also smarter about the default time for new events being created for the current day, using the next whole hour (or the last hour of the day if it's after 11 PM).
 
 The release also includes major fixes for recurring events along with smaller fixes for various layout issues.
+-->
 
-### Panel: Date & Time Redesign
+### Panel: Fixes
 
-In October we released a minor update to the top panel that fixes some reported focus and touchscreen issues.
+We released a minor update to the top panel that fixes a couple of reported issues. First, we've fixed the issue where some users could get the panel to move by dragging with multiple fingers on a touchscreen. We also fixed some focus issues where opening the Applications Menu or certain dialogs from the Panel would get into weird states.
 
-We also released a major new design for the Date & Time indicator in the top panel. It includes more clear navigation, a dot for events on each day, plus a side pane with the selected day's events. It also includes the same recurring event fixes as Calendar.
+### Date & Time Indicator: Redesign & Fixes
 
-### System Settings: Housekeeping & Bluetooth
+In October we released a major new design for the Date & Time indicator in the top panel. It includes more clear navigation, a dot for events on each day, plus a side pane with the selected day's events. The new design also fixes issues with using a large text size in the Appearance or Universal Access settings and improves overall performance.
 
-We reworked the design of the Housekeeping settings in the Security & Privacy settings to better match the design of the new Onboarding app. The Bluetooth settings now include a new pairing agent to better handle devices that need a passcode or key to pair.
+![Date & Time indicator screenshot]({{ site.baseurl }}/images/updates-for-october-2019/datetime.png){: srcset="{{ site.baseurl }}/images/updates-for-october-2019/datetime@2x.png 2x"}
+
+We've also released major fixes for recurring events in the indicator, and display an error dialog if the Calendar fails to open for some reason when selecting a day or event.
+
+### Security & Privacy Settings: Housekeeping Redesign
+
+![Housekeeping screenshot]({{ site.baseurl }}/images/updates-for-october-2019/housekeeping.png){: srcset="{{ site.baseurl }}/images/updates-for-october-2019/housekeeping@2x.png 2x"}
+
+We reworked the design of the Housekeeping settings in the Security & Privacy settings to better match the design of the new Onboarding app.
+
+### Bluetooth Settings: Pairing Agent
+
+<figure class="half" markdown="1">
+![Bluetooth pairing agent PIN dialog]({{ site.baseurl }}/images/updates-for-october-2019/pairing-pin.png){: srcset="{{ site.baseurl }}/images/updates-for-october-2019/pairing-pin@2x.png 2x"}
+![Bluetooth pairing agent passkey dialog]({{ site.baseurl }}/images/updates-for-october-2019/pairing-passkey.png){: srcset="{{ site.baseurl }}/images/updates-for-october-2019/pairing-passkey@2x.png 2x"}
+<figcaption>New Bluetooth pairing agent for PINs and passkeys</figcaption>
+</figure>
+
+The Bluetooth settings now include a new pairing agent to better handle devices that need a PIN or passkey to pair. This dialog shows up when pairing a device like a keyboard, and should increase the compatibility of elementary OS for more wireless devices.
 
 ## Hacktoberfest 🍂️👩‍💻️🎃️
 
-Besides releasing a ton of updates in October, this year we also saw great participation in [Hacktoberfest](https://hacktoberfest.digitalocean.com/) solving bitesize bugs across our projects and working with new contributors on their first ever contributions to elementary.
+Besides releasing a bundle of updates in October, this year we also saw great participation in [Hacktoberfest](https://hacktoberfest.digitalocean.com/) solving bitesize bugs across our projects and working with new contributors on their first ever contributions to elementary.
 
 <!-- TODO: List some Hacktoberfest issues that were fixed -->
 
