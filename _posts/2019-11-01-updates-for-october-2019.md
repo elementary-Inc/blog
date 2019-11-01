@@ -1,6 +1,6 @@
 ---
 title: Updates for October, 2019
-description: Prepping for LAS, releasing ALL THE THINGS, and wrapping up Hacktoberfest
+description: "The Flatpak Update. Plus: prepping for LAS and wrapping up Hacktoberfest."
 author: cassidyjames
 image: /images/updates-for-october-2019/sideload@2x.png
 tags:
