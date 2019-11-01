@@ -72,7 +72,7 @@
 
     <p>We'd like to specially thank
     {% if page.sponsor.link %}
-      <a href="{ page.sponsor.link }" rel="noreferrer nofollow noopener" target="_blank">
+      <a href="{{ page.sponsor.link }}" rel="noreferrer nofollow noopener" target="_blank">
     {% endif %}{{ page.sponsor.name }}{% if page.sponsor.link %}</a>{% endif %} for sponsoring this work and blog post. {% if page.sponsor.hook %}{{ page.sponsor.hook }}{% endif %}</p>
   </div>
 {% endif %}
