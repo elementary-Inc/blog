@@ -54,11 +54,16 @@ With users adding more non-curated apps into AppCenter with an officially-suppor
 
 On app listings, we've added a loading animation to screenshots, plus added new forward/back navigation buttons on hover in case the little dots were too hard to hit.
 
+<figure markdown="1">
+![AppCenter]({{ site.baseurl }}/images/updates-for-october-2019/appcenter-fondo.png)
+<figcaption>AppCenter app listing with new screenshot navigation</figcaption>
+</figure>
+
 This release also adds the ability to browse and uninstall apps while not connected to the Internet, with a new network infobar that appears and directs you to your networking settings if you're offline.
 
 <figure markdown="1">
-![AppCenter](https://elementary.io/images/screenshots/appcenter.png){: srcset="https://elementary.io/images/screenshots/appcenter@2x.png 2x"}
-<figcaption>AppCenter home page shows apps up to 10× faster</figcaption>
+![Network infobar]({{ site.baseurl }}/images/updates-for-october-2019/appcenter-network.png){: srcset="{{ site.baseurl }}/images/updates-for-october-2019/appcenter-network@2x.png 2x"}
+<figcaption>Network infobar lets you browse cached apps and uninstall while offline</figcaption>
 </figure>
 
 Lastly, we've also cleaned up and refactored a _ton_ of code in AppCenter, bringing massive performance improvements and numerous layout fixes. Paired with a newer version of PackageKit, AppCenter performs more actions in parallel. As a result, it's **about 10× faster** for certain operations like showing featured apps on the home page.
@@ -97,11 +102,13 @@ We reworked the design of the Housekeeping settings in the Security & Privacy se
 
 The Bluetooth settings now include a new pairing agent to better handle devices that need a PIN or passkey to pair. This dialog shows up when pairing a device like a keyboard, and should increase the compatibility of elementary OS for more wireless devices.
 
-### System Stylesheet: Improved Look & Feel
+### Look & Feel
 
-In the look & feel department, we released a new version of the system stylesheet that controls how everything from buttons to menus are styled. The changes are subtle, but overall keep things consistent looking great.
+In the look & feel department, we released a new version of the system stylesheet—which controls how everything from buttons to menus are styled—as well as the icon set. The changes are subtle, but overall keep things consistent and looking great.
 
-We focused a bit on shadows: we made popover shadows more consistent, plus we improved the shadows on legacy-decorated windows (like those for GTK2 or Electron apps) by lightening them up a bit. Scrollbars in WebKit web views like in Epiphany have been improved with a wider hover state. Support for wide separators in apps like Tilix has been added. We fixed insensitive flat buttons in list rows. We also fixed unreadable keycap text in certain situations. Lastly, we've removed a handful of obsolete or duplicated styles.
+For the stylesheet, we focused a bit on shadows: we made popover shadows more consistent, plus we improved the shadows on legacy-decorated windows (like those for GTK2 or Electron apps) by lightening them up a bit. Scrollbars in WebKit web views like in Epiphany have been improved with a wider hover state. Support for wide separators in apps like Tilix has been added. We fixed insensitive flat buttons in list rows. We also fixed unreadable keycap text in certain situations. Lastly, we've removed a handful of obsolete or duplicated styles.
+
+For the icons, we refreshed the system update icon with a new metaphor (a download-like arrow on a badge), and added a new symbolic version to be used in places like Sideload and AppCenter's non-curated warning dialog. We've also increased the size of the inset symbols on 32px home icons, making them easier to see at a glance. We added a new workspace preferences icon, and added extra sizes for locale preferences, wireless signal, and user status icons. Lastly, we added a new view-reader icon for reading modes like in Epiphany.
 
 We've also laid the foundations for some upcoming developments with the Dock: we've ensured that the dock badge is always red—even if the stylesheet uses a different accent color—and we've added a (currently hidden) dark style that can be manually enabled in Plank's hidden preferences. More on that later. 😉️
 
