@@ -63,7 +63,9 @@ Lastly, we've also cleaned up and refactored a _ton_ of code in AppCenter, bring
 
 ### Greeter: Lots of little fixes
 
-We released the first update to the greeter since the new version was released, and it contains a handful of small but meaningful fixes. The greeter should better respect NumLock settings, saves the last user on attempted login, and has sounds enabled (i.e. for the "thud" when backspacing in an empty entry). We also fixed the wallpaper preview for wallpapers of certain aspect ratios, like those for ultra-wide displays. Entering a password no longer immediately removes it, and entering an incorrect password now highlights the typed password after erroring. Design-wise, we've reduced the size of non-focused user names to make the selected user more prominent.
+We released the first update to the greeter since the new version was released, and it contains a handful of small but meaningful fixes. The greeter should better respect NumLock settings, saves the last user on attempted login, and has sounds enabled (i.e. for the "thud" when backspacing in an empty entry). We also fixed the wallpaper preview for wallpapers of certain aspect ratios, like those for ultra-wide displays. Entering a password no longer immediately removes it, and entering an incorrect password now highlights the typed password after erroring.
+
+Design-wise, we've reduced the size of non-focused user names to make the selected user more prominent.
 
 ### Panel: Fixes
 
@@ -92,6 +94,14 @@ We reworked the design of the Housekeeping settings in the Security & Privacy se
 </figure>
 
 The Bluetooth settings now include a new pairing agent to better handle devices that need a PIN or passkey to pair. This dialog shows up when pairing a device like a keyboard, and should increase the compatibility of elementary OS for more wireless devices.
+
+### System Stylesheet: Improved Look & Feel
+
+In the look & feel department, we released a new version of the system stylesheet that controls how everything from buttons to menus are styled. The changes are subtle, but overall keep things consistent looking great.
+
+We focused a bit on shadows: we made popover shadows more consistent, plus we improved the shadows on legacy-decorated windows (like those for GTK2 or Electron apps) by lightening them up a bit. Scrollbars in WebKit web views like in Epiphany have been improved with a wider hover state. Support for wide separators in apps like Tilix has been added. We fixed insensitive flat buttons in list rows. We also fixed unreadable keycap text in certain situations. Lastly, we've removed a handful of obsolete or duplicated styles.
+
+We've also laid the foundations for some upcoming developments with the Dock: we've ensured that the dock badge is always red—even if the stylesheet uses a different accent color—and we've added a (currently hidden) dark style that can be manually enabled in Plank's hidden preferences. More on that later. 😉️
 
 ## Hacktoberfest 🍂️👩‍💻️🎃️
 
