@@ -3,17 +3,24 @@ title: Updates for October, 2019
 description: "The Flatpak Update. Plus: prepping for LAS and wrapping up Hacktoberfest."
 author: cassidyjames
 image: /images/updates-for-october-2019/sideload@2x.png
+
 tags:
   - updates
   - juno
   - flatpak
   - appcenter
+
 sponsor:
   name: System76
   link: https://s76.co/ElementarySponsorship
   image: /images/sponsors/system76.png
   image-2x: /images/sponsors/system76@2x.png
   hook: "They make killer Linux laptops, desktops, and servers. If you're looking for a new computer, head their way!"
+
+facebook: https://www.facebook.com/elementaryos/posts/2804510489580762
+mastodon: https://mastodon.social/@elementary/103065145606890904
+reddit: https://www.reddit.com/r/elementaryos/comments/dqajba/updates_for_october_2019_elementary_blog/
+twitter: https://twitter.com/elementary/status/1190376602913427456
 ---
 
 Welcome to November! A bit later this month we’ll be attending the [Linux App Summit](https://linuxappsummit.org) alongside folks from Canonical, CodeThink, Collabora, Endless, Flatpak, Fractal, GNOME, GStreamer, KDE, Krita, LibreOffice, Meson, Purism, Red Hat, Ubuntu and more in Barcelona, Spain to hang out and work with folks from across the open source community—plus we'll be giving a couple of talks about [Curb Cuts](https://conf.linuxappsummit.org/en/LAS2019/public/events/43) and [Growing Beyond the System Tray](https://conf.linuxappsummit.org/en/LAS2019/public/events/48).
@@ -121,3 +128,12 @@ Thank you to all those contributors who made a difference, and thanks to the vol
 ## Get the Updates
 
 As with each monthly update, you can also expect general bug fixes, performance improvements, and translation updates that we didn't detail here. Open up AppCenter and hit that "Update All" button to get the goods.
+
+## More Flatpak Details
+
+The response to Flatpak support in elementary OS has been overwhelmingly positive! We covered a lot of the details and frequently-asked questions back in April when we [first announced]({% post_url 2019-04-01-elementary-appcenter-flatpak %}) our Flatpak plans. Be sure to give that a read if you want to learn more or want to see our longer-term plans.
+
+<aside>
+{% assign post = site.posts | where:"slug", "elementary-appcenter-flatpak" | first %}
+{% include featured.html post=post %}
+</aside>
