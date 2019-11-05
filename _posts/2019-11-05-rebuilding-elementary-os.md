@@ -2,11 +2,19 @@
 title: Rebuilding elementary OS
 description: Our road to a better release process, automated builds, and more
 author: cassidyjames
+image: /images/rebuilding-elementary-os/header_1600.jpg
+
 tags:
   - github
   - infrastructure
   - juno
-image: /images/rebuilding-elementary-os/header_1600.jpg
+
+sponsor:
+  name: System76
+  link: https://s76.co/ElementarySponsorship
+  image: /images/sponsors/system76.png
+  image-2x: /images/sponsors/system76@2x.png
+  hook: "They make killer Linux laptops, desktops, and servers. If you're looking for a new computer, head their way!"
 
 facebook: https://www.facebook.com/elementaryos/posts/2812922722072872
 mastodon: https://mastodon.social/@elementary/103087792838553220
