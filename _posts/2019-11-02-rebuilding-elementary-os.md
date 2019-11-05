@@ -64,6 +64,12 @@ This process had no real documentation or visibility, so we've been working on d
 
 A functional ISO building process has been documented and is being tested in the [OS repo on GitHub][os repo]. We're still working out some kinks, but getting this information documented and public has given us a baseline to build from.
 
+### Other Automation
+
+While working on these new automated processes, we also built [a few GitHub Actions](https://github.com/elementary/actions) for ourselves and others to use in their projects. [Vala Lint](https://github.com/elementary/actions/blob/master/vala-lint/README.md) ensures each repo's code passes our strict code style guidelines, the [Release](https://github.com/elementary/actions/blob/master/release/README.md) action is what automates creating GitHub Releases and bumping versions, and a new [Gettext Template](https://github.com/elementary/actions/blob/master/gettext-template/README.md) action automates the process of updating POT and PO templates when there are translatable string changes.
+
+Each of these actions solves a need for us internally at elementary, but they're also super helpful for our third-party app ecosystem! As we further automate processes, we'll think about how we can use GitHub Actions to make things even better.
+
 ## What's Next
 
 Now that we have a baseline for both package releases and ISO builds, we're testing them and starting to use them in production. 5.1 will prominently feature this work, and be released once we are confident it is robust and reliable. Updates to 5.0 in the meantime have also begun to use the updated package release process.
