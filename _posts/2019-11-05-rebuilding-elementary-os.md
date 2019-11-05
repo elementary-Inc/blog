@@ -7,6 +7,11 @@ tags:
   - infrastructure
   - juno
 image: /images/rebuilding-elementary-os/header_1600.jpg
+
+facebook: https://www.facebook.com/elementaryos/posts/2812922722072872
+mastodon: https://mastodon.social/@elementary/103087792838553220
+reddit: https://www.reddit.com/r/elementaryos/comments/ds7008/rebuilding_elementary_os_elementary_blog/
+twitter: https://twitter.com/elementary/status/1191852661085261824
 ---
 
 <figure class="full-bleed" markdown="1">
