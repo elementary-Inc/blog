@@ -36,7 +36,7 @@ One major hurdle with all of this work is that there was a substantial lack of d
 
 ### Package Releases
 
-Every piece of a software update for elementary OS is delivered to users' devices as a "package" of compiled code. This package is built from the source code we host on GitHub, but delivered via the Launchpad infrastructure. When we feel a specific component is ready to be sent out as an update, we create a "release" on GitHub, that snapshot of the code is pulled in and built by Launchpad, it's placed into the Lauchpad repository, users' devices regularly query that repository for available updates, then the package is downloaded and installed.
+Every piece of a software update for elementary OS is delivered to users’ devices as a “package” of compiled code. When we feel a specific component is ready to be sent out as an update, we update AppData and Debian packaging and create a “release” on GitHub; that snapshot of the code is then pulled in, built, and placed into a repository by Launchpad; From there, user's devices regularly query that repository for available updates and, when you're ready, the package is finally downloaded and installed.
 
 The whole process is a bit complex and was never properly documented, so we started there. As we discussed and documented it, we realized how much was one-off human labor that could be largely automated. So at the same time, we came up with and documented a more ideal process that uses our CI integrations to create the right files, tag the release, and trigger builds. This new process is what now lives on the [OS wiki]. There's still a bit of human interaction, but it's much less work and fits into our regular development workflow much better.
 
