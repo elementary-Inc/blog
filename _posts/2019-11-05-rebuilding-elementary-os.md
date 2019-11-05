@@ -6,11 +6,11 @@ tags:
   - github
   - infrastructure
   - juno
-image: images/rebuilding-elementary-os/header_1600.jpg
+image: /images/rebuilding-elementary-os/header_1600.jpg
 ---
 
 <figure class="full-bleed" markdown="1">
-![]({{ site.baseurl }}/images/rebuilding-elementary-os/header_2560.jpg)
+![Robot playing a keyboard]({{ site.baseurl }}/images/rebuilding-elementary-os/header_2560.jpg)
 </figure>
 
 If you've been following elementary OS, your top thought right now is probably, “Where’s 5.1?” If you've been following elementary OS for quite some time, you're _also_ probably familiar with our unofficial, “When it's ready” release schedule—we don't announce things until we're absolutely sure it's going to ship, and we don't release until we're very confident in the end result—even if that means we take a bit longer than people would like.
