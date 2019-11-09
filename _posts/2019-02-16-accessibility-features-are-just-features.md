@@ -18,9 +18,9 @@ Photo of an accessible curb cut by [Dane Deaner](https://unsplash.com/@danedeane
 
 For some time now, Daniel and I have been talking about how accessibility features really ought to just be standard features of the desktop. Much like [curb cuts](https://99percentinvisible.org/episode/curb-cuts/)—the slopes on sidewalks designed to make traversal with a wheelchair possible—many “accessibility” features can be used to improve the experiences of everyone, regardless of any specific ability or impairment. In addition, the ubiquitous nature of these features can greatly destigmatize their use.
 
-## Input & Ouput
+## Examples from Other Platforms
 
-While some may decry them as not "real" OSes, mobile OSes have been incredibly successful in integrating accessibility features into the daily lives of millions and potentially billions of users. Features that have been subpar without extremely specialized tools on the desktop have become common place.
+Mobile OSes have been incredibly successful in integrating accessibility features into the daily lives of millions and potentially billions of users. Features that have been subpar without extremely specialized tools on the desktop have become common place.
 
 ### On-Screen Keyboard
 
@@ -28,21 +28,20 @@ The most obvious one for touchscreen devices is the on-screen keyboard. On the d
 
 However, on-screen keyboards have also become important for hardware accessibility—that is, the software being more accessible to users with different hardware form factors. Install GNOME or elementary OS on a tablet, and you're going to need to type something eventually. An on-screen keyboard lets the software be more compatible with this hardware.
 
-#### Speech Input (Speech to Text)
+#### Speech
 
-Another—and perhaps the most compelling—example is speech input and output in mobile OSes and smart home devices. Traditionally, speech input had been designed for people who were unable to or unwilling to type into their computer. On the desktop, dictation software promised to allow you to write a document without touching the keyboard. Some software was even designed to let you use the entire computer without using the keyboard or mouse.
+Another—and perhaps the most compelling—example is speech input and output in mobile OSes and smart home devices. Traditionally, speech input had been designed for people who were unable to or unwilling to type into their computer. On the desktop, dictation software promised to allow you to write a document without touching the keyboard. Some software was even designed to let you use the entire computer without using the keyboard or mouse. On the flip side, text-to-speech or screen reading has been around for a long time, but has been generally lacking on desktop platforms without expensive, specialized software.
 
-But mobile OSes really took this feature to another level. On Android today, anywhere you can type with a keyboard, you can speak. Voice input is built into the keyboard itself, meaning if you don't have the fine motor control to tap away at tiny virtual keycaps, you can still send messages to people, perform Internet searches, etc. This is an incredible accessibility feature!
+But mobile OSes really took both of these features to another level. On Android today, anywhere you can type with a keyboard, you can speak. Voice input is built into the keyboard itself, meaning if you don't have the fine motor control to tap away at tiny virtual keycaps, you can still send messages to people, perform Internet searches, etc. This is an incredible accessibility feature!
 
 But it's not just helpful for folks who have a permanent physical difference that means they can't use a keyboard. For a new dad who is trying to wrangle his daughter while still staying in contact with the outside world, the ability to use my voice to control and input text into my device instead of using my very full hands is a godsend. “Hey Google… (Hey Siri… Alexa… Mycroft…) what's the weather?” might be way more convenient in the morning before I've put my contacts in and fully woken up than finding a gadget, unlocking it, opening up a weather app, etc. My mother-in-law who is perfectly _capable_ of typing into a phone keyboard greatly prefers speech input for longer messages because to her, it's just more natural and faster to speak.
 
-Speech input is a major feature, and an extremely difficult problem. But it's a perfect example of a compelling feature that has huge accessibility benefits as well as being genuinely useful to a wide variety of people.
+Both speech input and output are major features individually, and are both extremely difficult problems. But they're perfect examples of compelling features that have huge accessibility benefits as well as being genuinely useful to a wide variety of people—regardless of them thinking of themselves as “disabled” or in need of an “accessibility" feature.
 
-#### Screen Readers (Text to Speech)
+## Captioning
 
-…
+Closed captioning as you see on a television has been around since the 1970s, and has become required by law in some countries as part of anti-discrimination legislation.
 
-What may have began as an accessibility feature has become pervasive on mobile OSes and smart home devices—and genuinely helpful to a wide variety of users—regardless of them thinking of themselves as “disabled” or in need of an “accessibility" feature.
 
 ## It's a Mindset
 
