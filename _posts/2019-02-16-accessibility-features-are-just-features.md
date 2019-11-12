@@ -18,6 +18,8 @@ Photo of an accessible curb cut by [Dane Deaner](https://unsplash.com/@danedeane
 
 For some time now, Daniel and I have been talking about how accessibility features really ought to just be standard features of the desktop. Much like [curb cuts](https://99percentinvisible.org/episode/curb-cuts/)—the slopes on sidewalks designed to make traversal with a wheelchair possible—many “accessibility” features can be used to improve the experiences of everyone, regardless of any specific ability or impairment. In addition, the ubiquitous nature of these features can greatly destigmatize their use.
 
+For full disclosure, I am not personally an accessibility expert; in elementary OS and the broader open source world we lean heavily both on conventions and expert research that has been published by others.
+
 ## Examples from Other Platforms
 
 Mobile OSes have been incredibly successful in integrating accessibility features into the daily lives of millions and potentially billions of users. Features that have been subpar without extremely specialized tools on the desktop have become common place.
@@ -30,7 +32,7 @@ However, on-screen keyboards have also become important for hardware accessibili
 
 #### Speech
 
-Another—and perhaps the most compelling—example is speech input and output in mobile OSes and smart home devices. Traditionally, speech input had been designed for people who were unable to or unwilling to type into their computer. On the desktop, dictation software promised to allow you to write a document without touching the keyboard. Some software was even designed to let you use the entire computer without using the keyboard or mouse. On the flip side, text-to-speech or screen reading has been around for a long time, but has been generally lacking on desktop platforms without expensive, specialized software.
+Another example is speech input and output in mobile OSes and smart home devices. Traditionally, speech input had been designed for people who were unable to or unwilling to type into their computer. On the desktop, dictation software promised to allow you to write a document without touching the keyboard. Some software was even designed to let you use the entire computer without using the keyboard or mouse. On the flip side, text-to-speech or screen reading has been around for a long time, but has been generally lacking on desktop platforms without expensive, specialized software.
 
 But mobile OSes really took both of these features to another level. On Android today, anywhere you can type with a keyboard, you can speak. Voice input is built into the keyboard itself, meaning if you don't have the fine motor control to tap away at tiny virtual keycaps, you can still send messages to people, perform Internet searches, etc. This is an incredible accessibility feature!
 
@@ -40,14 +42,17 @@ Both speech input and output are major features individually, and are both extre
 
 ## Captioning
 
-Closed captioning as you see on a television has been around since the 1970s, and has become required by law in some countries as part of anti-discrimination legislation.
+Closed captioning as you see on a television has been around since the 1970s, and has become required by law in some countries as part of anti-discrimination legislation. What's interesting is that captions have been adopted widely by people who are not hard of hearing; for example, captions have become standard features both for second-language learners and for public spaces that don't want extra noise polution.
 
+More recently, Android has implemented system-wide live captions that do all sorts of magic on-device machine learning to caption videos, audio, and even live speech in realtime. This is incredible for so many situations like, yes, those who are hard of hearing, but also those watching a video with speech in a quiet environment.
 
 ## It's a Mindset
 
-While the examples I've provided so far are major features, this idea of "accessibility features are just features" is really a mindset that should be applied throughout the design of experiences of both platforms and apps. We've recently been talking about how a dark style preference is useful from both a traditional accessibility perspective as well as improving the experiences of almost everyone in certain situations.
+While the examples I've provided so far are major features—and individually would take a ton of effort to implement, this idea of "accessibility features are just features" is really a mindset that should be applied throughout the design of experiences of both platforms and apps. We've recently been talking about how a dark style preference is useful from both a traditional accessibility perspective as well as improving the experiences of almost everyone in certain situations.
 
 In elementary OS, we used to have a concept in the HIG called "Minimal Configuration," the idea being that apps and the OS should be as minimally configurable as possible to reduce complexity—both of development and use. However, taken to an extreme, minimalism is excluding certain classes of users. Instead, we've shifted to a concept of "Accessible Configuration," focusing on offering configuration or customization when it can serve an accessibility or hardware need. And by catering to these accessible needs, it makes the product more useful to everyone.
+
+<!-- TODO: more theoreticals/examples? -->
 
 For example, while it's perfectly sane to prefer a certain font in your app as part of its branding, understand how that affects people who might have dyslexia. Perhaps offer a few font options, or offer an option to use the system font—especially if the user can already configure the system font to be more accomadating to their needs.
 
