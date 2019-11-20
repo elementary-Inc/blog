@@ -30,7 +30,21 @@ Daniel and I each gave a talk this year, bringing our insights and perspectives 
 
 ### Growing Beyond the System Tray
 
+Daniel presented a bit of history behind the concept of a "System Tray," why it has been problematic for platforms and users, and the better APIs that have replaced it for a better user experience without removing functionality.
+
+{% include youtube.html v='fPFdV-Z69Lo' %}
+
+Dan has also contributed to [islinuxabout.xyz/systray](https://islinuxabout.xyz/systray/) which takes a look at the APIs that exist for better integration across desktops.
+
 ### Curb Cuts
+
+Curb cuts—the slopes on sidewalks designed to make traversal with a wheelchair possible—improve the experience for everyone, regardless of any specific ability or impairment. Similarly, digital accessibility features should be ubiquitous and well-supported.
+
+In this talk I share how some "accessibility" features have become ubiquitous on other platforms, and how to keep the needs of your users in mind when creating apps and platforms.
+
+{% include youtube.html v='YQBuFm4gx7s' %}
+
+We've also been tracking this effort across elementary OS in an [organization-wide GitHub Project](https://github.com/orgs/elementary/projects/35) so you can follow along!
 
 ## More Talks
 
