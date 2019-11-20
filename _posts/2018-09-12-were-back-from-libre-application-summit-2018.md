@@ -1,6 +1,6 @@
 ---
 title: We’re Back from Libre Application Summit 2018
-description: Sharing Knowledge and Wisdom in Denver, Colorado
+description: Sharing knowledge and wisdom in Denver, Colorado
 author: cassidyjames
 date: 2018-09-12T05:19:15.486Z
 image: /assets/images/were-back-from-libre-application-summit-2018/1mRaQK_yUWddw-WKriNzBog.jpeg
