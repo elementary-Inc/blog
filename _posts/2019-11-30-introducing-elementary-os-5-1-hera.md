@@ -95,7 +95,7 @@ While we always recommend installing curated AppCenter apps where we've done ext
 <figcaption>The new Sideload app</figcaption>
 </figure>
 
-Sideload explains the implications of installing an app including potential download size and if it will add a remote that might contian other apps. Updates to sideloaded apps will appear in AppCenter alongside all other updates, and apps from any added Flatpak remotes will show up in AppCenter as uncurated apps.
+Sideload explains the implications of installing an app including potential download size and if it will add a remote that might contain other apps. Updates to sideloaded apps will appear in AppCenter alongside all other updates, and apps from any added Flatpak remotes will show up in AppCenter as uncurated apps.
 
 <figure markdown="1">
 ![AppCenter categories](https://cdn-images-1.medium.com/max/800/1*r2DZyxdSOc6wSYzkFdSJjw@2x.png){: srcset="https://cdn-images-1.medium.com/max/1600/1*r2DZyxdSOc6wSYzkFdSJjw@2x.png 2x"}
@@ -314,4 +314,3 @@ New users or those who prefer a fresh start can also download elementary OS 5.1 
 [updates]: {{ site.baseurl }}/tags/#updates
 [greeter]: {{ site.baseurl }}{% post_url 2019-08-27-say-hello-to-the-new-greeter %}
 [flatpak]: {{ site.baseurl }}{% post_url 2019-04-01-elementary-appcenter-flatpak %}
-
