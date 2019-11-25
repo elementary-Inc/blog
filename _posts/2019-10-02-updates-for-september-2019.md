@@ -3,9 +3,15 @@ title: Updates for September, 2019
 description: Updates to apps, settings, and more—plus kicking off Hacktoberfest
 author: cassidyjames
 image: /images/updates-for-september-2019/files-checkerboard@2x.png
+
 tags:
   - updates
   - juno
+
+facebook: https://www.facebook.com/elementaryos/posts/2735369693161509
+mastodon: https://mastodon.social/@elementary/102894076844604995
+reddit: https://reddit.com/r/elementaryos/comments/dci075/updates_for_september_2019_elementary_blog/
+twitter: https://twitter.com/elementary/status/1179454719632302081
 ---
 
 Happy October! As you settle into the fall season (or spring for those of you in the Southern hemisphere!), we're back to share the last month's progress on elementary OS and all of the updates we've released.
