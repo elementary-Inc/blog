@@ -14,23 +14,27 @@ tags:
   - updates
 ---
 
-![Hera wallpaper]({{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/notebook-desktop.png){: srcset="{{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/notebook-desktop@2x.png 2x"}
-
 Last October, we [announced elementary OS 5 Juno][juno] with wide-ranging updates to provide a more refined user experience, improve productivity for new and seasoned users alike, and take our developer platform to the next level. Today we're pleased to announce elementary OS 5.1 Hera, the latest major update.
+
+![Hera wallpaper]({{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/notebook-desktop.png){: srcset="{{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/notebook-desktop@2x.png 2x"}
 
 Hera builds on the solid foundation of Juno while bringing: 
 
-1. A brand new Greeter and Onboarding experience
-2. Flatpak support with Sideload and AppCenter
-3. Major updates around accessibility and System Settings
-4. Iterative improvements across nearly all apps
-5. The latest hardware enablement and support
+1. **A brand new first-run experience** with Greeter and Onboarding
+2. **Flatpak support** with Sideload and AppCenter
+3. **Major updates around accessibility** and System Settings
+4. **Iterative improvements** across nearly all apps
+5. **The latest hardware support** with a new Linux kernel and hardware enablement stack
 
 ## What's in a Name and Number?
 
 We detailed our shift in the numbering scheme from the 0.x of old to Juno being elementary OS 5 when we announced it back in October. In the same vein, Hera builds on the new numbering scheme.
 
-elementary OS 5.1 Hera takes the same foundation as Juno—utilizing the same underlying repositories and libraries—but builds on it with a refined experience. It is the culmination of our work over the past nine months packaged up into one cohesive update. As such, the 5.1 number represents that it's a major update, but not an entirely new version (which usually come around every two years). It's still significant enough, however, to deserve its own name and identity.
+<aside markdown="1">
+>Hera is the culmination of our work over the past year packaged up into one cohesive update.
+</aside>
+
+elementary OS 5.1 Hera takes the same foundation as Juno—utilizing the same underlying repositories and libraries—but builds on it with a refined experience. It is the culmination of our work over the past year packaged up into one cohesive update. As such, the 5.1 number represents that it's a major update, but not an entirely new version (which usually come around every two years). It's still significant enough, however, to deserve its own name and identity.
 
 We always name our releases after mythological beings and deities, and Hera is no different. The Greek equivalent of Juno, Hera is considered the queen of the Greek gods and represents women, marriage, family, and childbirth.
 
@@ -82,7 +86,7 @@ Together, these two components greatly improve the first impressions of elementa
 
 During this cycle, Flatpak has really matured as a technology which has lead us to commit to [a Flatpak future for our AppCenter ecosystem][flatpak]. Beyond that—and more immediately relevant—we've been hard at work to design a new sideloading experience for users to more safely get apps if they venture outside of AppCenter.
 
-While we always recommend installing curated AppCenter apps where we've done extensive automated and human reviews, we understand that some apps will not meet the strict requirements for AppCenter—and will thus be distributed elsewhere. Rather than encouraging users to drop to a Terminal, add inherently insecure PPAs, or install packages that end up getting root access to the system, we've decided to make a new app called Sideload to make it extremely easy to sideload Flatpak apps.
+While we always recommend installing curated AppCenter apps where we've done extensive automated and human reviews, we understand that some apps will not meet the strict requirements for AppCenter—and will thus be distributed elsewhere. Rather than encouraging users to drop to a Terminal, add inherently insecure PPAs, or install packages that end up getting root access to the system, we've created a new core elementary OS utility called Sideload to make it extremely easy to sideload Flatpak apps.
 
 <figure class="third" markdown="1">
 ![Sideload](https://raw.githubusercontent.com/elementary/sideload/master/data/screenshot.png)
@@ -100,10 +104,7 @@ Sideload explains the implications of installing an app including potential down
 
 Lastly, to make more apps more discoverable in AppCenter, we've improved and added several new categories in Hera. We've also greatly improved performance and stability in several areas, plus fixed reported issues including ones related to email validation, visibility of available apps, and button styles. And since Hera is built from the same foundation as Juno, **all AppCenter apps released so far for Juno will automatically be available in Hera**.
 
-{% comment %}
-<!-- TODO: Uncomment if it's released, otherwise remove -->
 AppCenter in Hera also includes our first steps towards a Flatpak future, with support for the newer packaging format built-in. While nothing has changed with the way curated apps are distributed to elementary OS just yet, any manually-added Flatpak remotes are now usable within AppCenter.
-{% endcomment %}
 
 ### Accessibility and System Settings
 
@@ -123,14 +124,15 @@ The Displays settings have been improved, bringing a more reliable scaling facto
 
 Sound settings have also been improved with a new approach to handling external devices. The result is a simpler way of picking your output device and the more reliable display of available devices. We've also added the "Flash screen" option for event alerts here to better manage whether alerts are audible, visual, both, or neither. This is particularly handy for the hearing impaired or to use in environments where an audible alert would be inappropriate, like live production.
 
-<figure class="third" markdown="1">
-![General Mouse & Touchpad settings](https://cdn-images-1.medium.com/max/800/1*7sjK_MxYqydyoW-YqlApPw@2x.png){: srcset="https://cdn-images-1.medium.com/max/1600/1*7sjK_MxYqydyoW-YqlApPw@2x.png 2x"}
-![Mouse settings](https://cdn-images-1.medium.com/max/800/1*C2FeSPnxKkb-4bOHA5VJxw@2x.png){: srcset="https://cdn-images-1.medium.com/max/1600/1*C2FeSPnxKkb-4bOHA5VJxw@2x.png 2x"}
-![Touchpad settings](https://cdn-images-1.medium.com/max/800/1*NxDWr5_QRXNRQ3lQFvDJMw@2x.png){: srcset="https://cdn-images-1.medium.com/max/1600/1*NxDWr5_QRXNRQ3lQFvDJMw@2x.png 2x"}
+<figure class="half" markdown="1">
+![Clicking]({{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/clicking.png){: srcset="{{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/clicking@2x.png 2x"}
+![Pointing]({{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/pointing.png){: srcset="{{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/pointing@2x.png 2x"}
+![Mouse]({{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/mouse.png){: srcset="{{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/mouse@2x.png 2x"}
+![Touchpad]({{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/touchpad.png){: srcset="{{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/touchpad@2x.png 2x"}
 <figcaption>Improved Mouse & Touchpad settings</figcaption>
 </figure>
 
-Mouse & Touchpad settings have been redesigned and improved for Hera. They're now organized into tabs for different hardware-specific settings, plus several accessibility settings like long-press secondary click, reveal pointer, and control pointer using keypad have been exposed. We've also added the highly-requested "Ignore when mouse is connected" toggle to the touchpad settings.
+Mouse & Touchpad settings have been redesigned and improved for Hera. They're now organized into sections for different behavior- and hardware-specific settings, plus several accessibility settings like long-press secondary click, reveal pointer, and control pointer using keypad have been exposed. We've also added the highly-requested "Ignore when mouse is connected" toggle to the touchpad settings.
 
 <figure markdown="1">
 ![Bluetooth settings](https://cdn-images-1.medium.com/max/800/1*RPQW7xDn904fMIufTe7sRg@2x.png){: srcset="https://cdn-images-1.medium.com/max/1600/1*RPQW7xDn904fMIufTe7sRg@2x.png 2x"}
@@ -144,7 +146,7 @@ Bluetooth settings have been improved with more reliable pairing and trusting of
 <figcaption>New Desktop Appearance settings</figcaption>
 </figure>
 
-We've added a new Appearance tab to the Desktop settings, exposing some existing accessibility settings and making them more discoverable. This includes a new wider range of supported text sizes, from small (0.75x) to larger (1.5x). This should help those who need larger or smaller text, including alleviating some issues with certain hardware combinations where 1x or 2x display scaling is not the best fit.
+We've added a new Appearance tab to the Desktop settings, exposing some existing accessibility settings and making them more discoverable. This includes a new wider range of supported text sizes, from small (0.75×) to larger (1.5×). This should help those who need larger or smaller text, including alleviating some issues with certain hardware combinations where 1× or 2× display scaling is not the best fit.
 
 <figure markdown="1">
 ![Date & Time Settings]({{ site.baseurl }}/images/updates-for-august-2019/date-time_800.png){: srcset="{{ site.baseurl }}/images/updates-for-august-2019/date-time_1600.png 2x"}
