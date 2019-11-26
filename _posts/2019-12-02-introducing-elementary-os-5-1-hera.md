@@ -38,6 +38,8 @@ Hera builds on the solid foundation of Juno while bringing: 
 
 If you're just interested in downloading it, head on over to [elementary.io] to get yourself a copy or open AppCenter on Juno and hit "Update All". If you want to read about the changes, carry on.
 
+---
+
 ## What's in a Name and Number?
 
 We detailed our shift in the numbering scheme from the 0.x of old to Juno being elementary OS 5 when we announced it back in October. In the same vein, Hera builds on the new numbering scheme.
