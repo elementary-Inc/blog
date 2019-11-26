@@ -181,6 +181,21 @@ For Date & Time settings in Hera, we've cleaned up the design and added an autom
 
 We've improved Language & Region settings in Hera. Installing new languages has been moved to a dialog to make it cleaner and more straightforward, the sidebar updates the status of languages more accurately, and the settings now only prompt you to authenticate when you actually need to—leading to a cleaner design and avoding stacked infobars.
 
+<figure class="half" markdown="1">
+![VPN settings]({{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/vpn_800.png){: srcset="{{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/vpn.png 2x"}
+![Hotspot settings]({{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/hotspot.png){: srcset="{{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/hotspot@2x.png 2x"}
+<figcaption>Redesigned VPN and Hotspot settings</figcaption>
+</figure>
+
+Hera's Network settings have also been redesigned in a few places: the Hotspot settings are now in-page instead of in a separate dialog, and the new VPN page is much easier to use.
+
+<figure markdown="1">
+![Housekeeping screenshot]({{ site.baseurl }}/images/updates-for-october-2019/housekeeping.png){: srcset="{{ site.baseurl }}/images/updates-for-october-2019/housekeeping@2x.png 2x"}
+<figcaption>Reworked Housekeeping settings</figcaption>
+</figure>
+
+We reworked the design of the Housekeeping settings in the Security & Privacy settings to better match the design of the new Onboarding app.
+
 <figure markdown="1">
 ![Applications Menu search](https://cdn-images-1.medium.com/max/697/1*TTr3mUvKtb--h57ZVCxORA@2x.png){: srcset="https://cdn-images-1.medium.com/max/1395/1*TTr3mUvKtb--h57ZVCxORA@2x.png 2x"}
 <figcaption>Improved Applications Menu search</figcaption>
@@ -331,15 +346,17 @@ The system icons have also been refreshed throughout Hera with added icons for p
 
 Lastly, the default wallpaper has been updated. This photo of a sunset over a pier was included in Juno, but we've set it as the new default to give Hera its own unique identity. At the same time the color scheme is similar to Juno with its purples, oranges and blues—evoking the more iterative relationship between the two releases.
 
-### Hardware Support
+### Under the Hood
 
-Along with all of the functional updates, translations, and issue fixes comes the latest hardware enablement provided by Linux 5.0 and the LTS HWE stack from Canonical. This includes improved support for more recent processors, GPUs, input devices, and more.
+An issue causing delayed shut downs was found and fixed. Apps installed as Snaps now properly show in Startup Apps settings. Flatpak is now included out of the box.
+
+Along with all of the functional updates, translations, and issue fixes comes the latest hardware enablement provided by Linux 5.0 and the long-term support (LTS) hardware enablement (HWE) stack from Canonical. This includes improved support for more recent processors, GPUs, input devices, and more.
 
 ## Get It
 
 Due to the rolling nature of elementary OS updates, **users of elementary OS 5 Juno get the update to 5.1 Hera alongside regular system updates** from AppCenter. You can also always check _System Settings_ → _About_ to ensure you're on the latest version. If you haven't been upgraded to 5.1 Hera yet, hit the "Check for Updates" button to open AppCenter, and install any updates listed. 
 
-The one exception is the HWE stack; if you'd like the improved hardware support, you can install the latest HWE stack from Terminal with the following command:
+The one exception is the LTS HWE stack; if you're on an existing Juno install and would like or need the improved hardware support, you can install it from Terminal with the following command:
 
 `sudo apt install --install-recommends linux-generic-hwe-18.04 xserver-xorg-hwe-18.04`
 
