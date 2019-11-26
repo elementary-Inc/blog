@@ -246,11 +246,13 @@ We've updated the Camera app in Hera for greatly improved hardware compatibility
 
 #### Terminal
 
+Lastly, we've updated Terminal with a few small but welcome improvements.
+
 <figure markdown="1">
-![Terminal context menu]({{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/terminal-menu.png){: srcset="{{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/terminal-menu@2x.png 2x"}
+![Terminal with context menu]({{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/terminal.png){: srcset="{{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/terminal@2x.png 2x"}
 </figure>
 
-Lastly, we've updated Terminal with a few small but welcome improvements. The [Menu key](https://en.wikipedia.org/wiki/Menu_key) found on some keyboards now opens the context menu, we've improved contrast with the dark style, we added a separator to the context menu to better delineate text actions from app actions, and we save more window state between sessions.
+The [Menu key](https://en.wikipedia.org/wiki/Menu_key) found on some keyboards now opens the context menu, middle-click paste is more reliably in sync with the system-wide setting, we've improved contrast with the dark style, we improved the context menu with keyboard shortcuts and better delineation between text actions and app actions, and we save more of the window state between sessions.
 
 ### Desktop
 
