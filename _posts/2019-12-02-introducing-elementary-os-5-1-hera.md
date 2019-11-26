@@ -54,7 +54,7 @@ We always name our releases after mythological beings and deities, and Hera is n
 
 ## Updates from the Juno Release
 
-Since Hera builds on Juno, it includes [all of the monthly OS updates][updates] we've detailed since Juno's release. You can check those monthly stories for the nitty-gritty—and if you've diligently followed along, everything after Greeter and Onboarding will be a review—but here's a higher-level overview of what Hera brings:
+Since Hera builds on Juno, it includes [all of the monthly OS updates][updates] we've detailed since Juno's release. You can check those monthly stories for the nitty-gritty—and if you've diligently followed along, much of this will be a review—but here's a higher-level overview of what Hera brings:
 
 ### Greeter & Onboarding
 
