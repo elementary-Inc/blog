@@ -274,6 +274,14 @@ We've spent a lot of time improving Music for Hera, with large improvements to s
 
 We also made keyboard shortcuts more discoverable, plus added a new bold orange accent color throughout, carrying its identity from the icon into the app itself. We fixed several reported issues with queuing and playlists. Music can now also play s3m files and double clicking an album cover in the grid view will start playing that album. Lastly, album art in the grid view is now displayed more crisply on HiDPI displays.
 
+#### Videos
+
+<figure markdown="1">
+![Videos]({{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/videos.png){: srcset="{{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/videos@2x.png 2x"}
+</figure>
+
+The Videos app in Hera now supports automatically queuing up episodes when watching shows. It has also been updated show audio track titles, i.e. with the language name. Keyboard navigation has been improved, and it's now easier to clear playlist queue with a dedicated button.
+
 #### Camera
 
 <figure markdown="1">
