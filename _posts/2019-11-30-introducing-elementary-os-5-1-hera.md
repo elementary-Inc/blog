@@ -205,7 +205,7 @@ We've spent a lot of time improving Music for Hera, with large improvements to s
 
 <figure markdown="1">
 ![Music preferences](https://cdn-images-1.medium.com/max/337/1*mZGIW4KbddMKDyzKoaKAww@2x.png){: srcset="https://cdn-images-1.medium.com/max/674/1*mZGIW4KbddMKDyzKoaKAww@2x.png 2x"}
-<figcaption>Improved keyboard shortcut discoverability in Files</figcaption>
+<figcaption>New accent color in Music</figcaption>
 </figure>
 
 We also updated it with more discoverable keyboard shortcuts, plus a new bold orange accent color throughout, carrying its identity from the icon into the app itself. We fixed several reported issues with queuing and playlists. Music can now also play s3m files and double clicking an album cover in the grid view will start playing that album. Lastly, album art in the grid view is now displayed more crisply on HiDPI displays.
