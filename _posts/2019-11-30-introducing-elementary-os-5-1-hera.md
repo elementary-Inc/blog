@@ -12,6 +12,14 @@ tags:
   - release
   - sideload
   - updates
+
+sponsor:
+  name: System76
+  link: https://s76.co/ElementarySponsorship
+  image: /images/sponsors/system76.png
+  image-2x: /images/sponsors/system76@2x.png
+  hook: "They make killer Linux laptops, desktops, and servers and have a sale now through January 2, 2020. If you're looking for a new computer, head their way!"
+
 ---
 
 Last October, we [announced elementary OS 5 Juno][juno] with wide-ranging updates to provide a more refined user experience, improve productivity for new and seasoned users alike, and take our developer platform to the next level. Today we're pleased to announce elementary OS 5.1 Hera, the latest major update.
