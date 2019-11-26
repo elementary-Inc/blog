@@ -34,6 +34,8 @@ Hera builds on the solid foundation of Juno while bringing: 
 4. **Iterative improvements** across nearly all apps
 5. **The latest hardware support** with a new Linux kernel and hardware enablement stack
 
+If you're just interested in downloading it, head on over to [elementary.io] to get yourself a copy or open AppCenter on Juno and hit "Update All". If you want to read about the changes, carry on.
+
 ## What's in a Name and Number?
 
 We detailed our shift in the numbering scheme from the 0.x of old to Juno being elementary OS 5 when we announced it back in October. In the same vein, Hera builds on the new numbering scheme.
@@ -90,9 +92,9 @@ Since it's a modular component—and not all baked into one piece of software al
 
 Together, these two components greatly improve the first impressions of elementary OS from first run or getting a new computer all the way through using your account for the first time. With a fresh codebase across both, we'll also be able to more quickly iterate on features and fixes. And the new Installer will round out the trifecta in a future update.
 
-### Sideload, Flatpak, & AppCenter
+### Flatpak
 
-During this cycle, Flatpak has really matured as a technology which has lead us to commit to [a Flatpak future for our AppCenter ecosystem][flatpak]. Beyond that—and more immediately relevant—we've been hard at work to design a new sideloading experience for users to more safely get apps if they venture outside of AppCenter.
+Flatpak is an open source technology that enables developers to ship apps to different desktops in a way that is more secure and privacy-respecting for users. Over the past year, Flatpak has really matured as a technology which has lead us to commit to [a Flatpak future for our AppCenter ecosystem][flatpak]. Beyond that—and more immediately relevant—we've been hard at work to design a new sideloading experience for users to more safely get apps if they venture outside of AppCenter.
 
 #### Sideload
 
@@ -264,12 +266,13 @@ Code has been updated for Hera with more discoverable keyboard shortcuts, the re
 
 We've spent a lot of time improving Music for Hera, with large improvements to sorting in the album, list, and column views.
 
-<figure markdown="1">
+<figure class="half" markdown="1">
+![Music library]({{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/music_800.png){: srcset="{{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/music.png 2x"}
 ![Music preferences](https://cdn-images-1.medium.com/max/337/1*mZGIW4KbddMKDyzKoaKAww@2x.png){: srcset="https://cdn-images-1.medium.com/max/674/1*mZGIW4KbddMKDyzKoaKAww@2x.png 2x"}
 <figcaption>New accent color in Music</figcaption>
 </figure>
 
-We also updated it with more discoverable keyboard shortcuts, plus a new bold orange accent color throughout, carrying its identity from the icon into the app itself. We fixed several reported issues with queuing and playlists. Music can now also play s3m files and double clicking an album cover in the grid view will start playing that album. Lastly, album art in the grid view is now displayed more crisply on HiDPI displays.
+We also made keyboard shortcuts more discoverable, plus added a new bold orange accent color throughout, carrying its identity from the icon into the app itself. We fixed several reported issues with queuing and playlists. Music can now also play s3m files and double clicking an album cover in the grid view will start playing that album. Lastly, album art in the grid view is now displayed more crisply on HiDPI displays.
 
 #### Camera
 
@@ -365,12 +368,17 @@ Progress and loading states on entries (like the address bar of browsers when a 
 
 Contrast is further improved—especially for apps that utilize a dark style—and we've refreshed the appearance of numbered badges in Sidebars to be a bit more subtle. We've also improved accent color shading in switches, fixed some right-to-left issues, fixed some insensitive buttons states, fixed other small issues (see the [June updates story][june] for more), and added support for raised buttons in app header bars.
 
-<figure markdown="1">
-![icons](https://cdn-images-1.medium.com/max/800/1*6Gcy3M4bIJhJT_AhtoLNpA@2x.jpeg){: srcset="https://cdn-images-1.medium.com/max/1600/1*6Gcy3M4bIJhJT_AhtoLNpA@2x.jpeg 2x"}
-<figcaption>Improved system icons</figcaption>
+<figure class="half" markdown="1">
+![Panel](https://user-images.githubusercontent.com/611168/62439029-6cd40880-b707-11e9-9326-471a0030135a.png)
+![System Settings](https://user-images.githubusercontent.com/7277719/49260561-f56d0d00-f3f2-11e8-8014-997873952cd2.png)
+<figcaption markdown="1">
+**Left:** New wired icon in the Panel | **Right:** New wired icon in Networking settings
+</figcaption>
 </figure>
 
-The system icons have also been refreshed throughout Hera with added icons for playlists, chat, caps lock, num lock, mail actions, SSDs, and headsets. We've refined and added several new sizes for icons for pixel-perfect hinting in more contexts—including the Onboarding experience. We also added symbolic versions of several icons including location services, laptops, and firmware. We've animated the microphone mute icon in the Panel, the mobile phone icons have been updated to better match modern phones, path and group icons (for drawing/design apps) have been redesigned, we've added a few mirrored icons for right-to-left languages, and we've made several icon families a bit more consistent.
+The system icons have also been refreshed throughout Hera. One noticable change is the wired network icon, which has been changed from an Ethernet-like symbol to a simpler symbol that has become convention across other platforms like Android, macOS, and Chrome OS. Read more about this change in the [July updates]({% post_url 2019-08-04-updates-for-july-2019 %}) post.
+
+We've also added icons for playlists, chat, caps lock, num lock, mail actions, SSDs, and headsets. We've refined and added several new sizes for icons for pixel-perfect hinting in more contexts—including the Onboarding experience. We also added symbolic versions of several icons including location services, laptops, and firmware. We've animated the microphone mute icon in the Panel, the mobile phone icons have been updated to better match modern phones, path and group icons (for drawing/design apps) have been redesigned, we've added a few mirrored icons for right-to-left languages, and we've made several icon families a bit more consistent.
 
 ![Hera wallpaper](https://cdn-images-1.medium.com/max/800/1*LjHTYMbr_p3fOsUNa38QqA.jpeg){: srcset="https://cdn-images-1.medium.com/max/1600/1*LjHTYMbr_p3fOsUNa38QqA.jpeg 2x"}
 
@@ -378,7 +386,7 @@ Lastly, the default wallpaper has been updated. This photo of a sunset over a pi
 
 ### Under the Hood
 
-An issue causing delayed shut downs was found and fixed. Apps installed as Snaps now properly show in Startup Apps settings. Flatpak is now included out of the box.
+An issue causing delayed shut downs in Juno was found and fixed for Hera. Apps installed as Snaps now properly show in Startup Apps settings. Flatpak is now included out of the box.
 
 Along with all of the functional updates, translations, and issue fixes comes the latest hardware enablement provided by Linux 5.0 and the long-term support (LTS) hardware enablement (HWE) stack from Canonical. This includes improved support for more recent processors, GPUs, input devices, and more.
 
@@ -390,7 +398,7 @@ The one exception is the LTS HWE stack; if you're on an existing Juno install an
 
 `sudo apt install --install-recommends linux-generic-hwe-18.04 xserver-xorg-hwe-18.04`
 
-New users or those who prefer a fresh start can also download elementary OS 5.1 Hera from [elementary.io]. Even if you already have an older Juno ISO, we recommend downloading the latest Hera ISO if you're planning to perform a new install—you'll automatically get the latest hardware support from the start, the new onboarding experience, and reduce the number of updates necessary once it's installed.
+New users or those who prefer a fresh start can also [download elementary OS 5.1 Hera from elementary.io][elementary.io]. Even if you already have an older Juno ISO, we recommend downloading the latest Hera ISO if you're planning to perform a new install—you'll automatically get the latest hardware support from the start, the new onboarding experience, and reduce the number of updates necessary once it's installed.
 
 [accessibility]: {{ site.baseurl }}{% post_url 2019-02-16-accessibility-features-are-just-features %}
 [elementary.io]: https://elementary.io
