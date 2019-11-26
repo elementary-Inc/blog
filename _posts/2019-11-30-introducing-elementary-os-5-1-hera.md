@@ -172,6 +172,13 @@ We've added a new Appearance tab to the Desktop settings, exposing some existing
 For Date & Time settings in Hera, we've cleaned up the design and added an automatic timezone setting.
 
 <figure markdown="1">
+![Locale Settings]({{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/language-install.png)
+<figcaption>Improved Language & Region settings</figcaption>
+</figure>
+
+We've improved Language & Region settings in Hera. Installing new languages has been moved to a dialog to make it cleaner and more straightforward, the sidebar updates the status of languages more accurately, and the settings now only prompt you to authenticate when you actually need to—leading to a cleaner design and avoding stacked infobars.
+
+<figure markdown="1">
 ![Applications Menu search](https://cdn-images-1.medium.com/max/697/1*TTr3mUvKtb--h57ZVCxORA@2x.png){: srcset="https://cdn-images-1.medium.com/max/1395/1*TTr3mUvKtb--h57ZVCxORA@2x.png 2x"}
 <figcaption>Improved Applications Menu search</figcaption>
 </figure>
