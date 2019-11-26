@@ -196,6 +196,16 @@ Hera's Network settings have also been redesigned in a few places: the Hotspot s
 
 We reworked the design of the Housekeeping settings in the Security & Privacy settings to better match the design of the new Onboarding app.
 
+<figure class="half" markdown="1">
+![Power settings]({{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/power.png){: srcset="{{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/power@2x.png 2x"}
+![Shut Down dialog]({{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/shutdown.png){: srcset="{{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/shutdown@2x.png 2x"}
+<figcaption markdown="1">
+**Left:** Prompt to shutdown setting | **Right:** Shut Down dialog
+</figcaption>
+</figure>
+
+In Power settings, we've added a new "Prompt to shutdown" option for the power button alongside the existing "Do nothing" and "Suspend" options. When chosen, pressing a physical power button on your device will show the standard Shut Down dialog which can be handy as a safeguard against accidental shut downs.
+
 <figure markdown="1">
 ![Applications Menu search](https://cdn-images-1.medium.com/max/697/1*TTr3mUvKtb--h57ZVCxORA@2x.png){: srcset="https://cdn-images-1.medium.com/max/1395/1*TTr3mUvKtb--h57ZVCxORA@2x.png 2x"}
 <figcaption>Improved Applications Menu search</figcaption>
