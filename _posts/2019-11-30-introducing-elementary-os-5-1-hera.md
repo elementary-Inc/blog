@@ -230,14 +230,27 @@ Lastly, we've updated Terminal with a few small but welcome improvements. The [M
 
 We've been steadily improving the core desktop experience in elementary OS Hera.
 
-Picture-in-Picture now displays at the bottom-right of the display by default, better matching where users expected it. We've made several usability and performance improvements to taking screenshots.  We also addressed a couple of visual glitches that sometimes occurred when tiling windows and on HiDPI displays after switching the scaling factor.
+Picture-in-Picture now displays at the bottom-right of the display by default, better matching where users expected it. We've made several usability and performance improvements to taking screenshots. And we've addressed a couple of visual glitches that sometimes occurred when tiling windows and on HiDPI displays after switching the scaling factor.
 
-<figure markdown="1">
+#### Indicators
+
+We've also brought several improvements to the top Panel and Indicators to Hera.
+
+<figure class="half" markdown="1">
+![Date & Time indicator]({{ site.baseurl }}/images/updates-for-october-2019/datetime.png){: srcset="{{ site.baseurl }}/images/updates-for-october-2019/datetime@2x.png 2x"}
 ![Session indicator](https://cdn-images-1.medium.com/max/288/1*SUshGaq26qOgbMP3gkxi0g@2x.png){: srcset="https://cdn-images-1.medium.com/max/577/1*SUshGaq26qOgbMP3gkxi0g@2x.png 2x"}
-<figcaption>Session Indicator with keyboard shortcuts</figcaption>
+<figcaption markdown="1">
+**Left:** New Date & Time indicator design | **Right:** Session indicator with keyboard shortcuts
+</figcaption>
 </figure>
 
-We've also brought several improvements to the top Panel and Indicators to Hera. The Applications Menu now shows all configured keyboard shortcuts in its tooltip and is a bit faster. We've improved the design of the Bluetooth indicator to be more consistent with other indicators and added connection status badge to each device. The Date & Time indicator makes the selected day more clear and more reliably shows events for the current day. The Session indicator now shows keyboard shortcuts for lock and log out. We improved several aspects of the Sound indicator including smooth scrolling, touchpad scrolling, and scroll directions, plus new features for microphone users like scrolling or middle-clicking the mic icon on the panel to adjust or mute input.
+The Date & Time indicator has been redesigned with more clear navigation, dots on days with events, a more clear indication of the selected day, and a new side pane with the selected day's events.
+
+Following our OS-wide efforts to progressively disclose keyboard shortcuts, the Session indicator now shows keyboard shortcuts for lock and log out.
+
+We also improved several aspects of the Sound indicator including smooth scrolling, touchpad scrolling, and scroll directions, plus new features for microphone users like scrolling or middle-clicking the mic icon on the panel to adjust or mute input.
+
+And a lot of little things: the Applications Menu now shows all configured keyboard shortcuts in its tooltip and is a bit faster, we've improved the design of the Bluetooth indicator to be more consistent with other indicators and added connection status badge to each device, we fixed some minor visual inconsistencies in the Notifications indicator, and all indicators have been better translated into more languages.
 
 ### Visual Style
 
