@@ -63,9 +63,9 @@ A screenshot of the new Greeter
 </figcaption>
 </figure>
 
-The newly redesigned login and lockscreen greeter looks sharper, works better, and will allow us to more closely tie into a new installer in the future to streamline the first boot experience, only handling creating a new user once the OS is installed. This follows our [every-install-is-an-OEM-install design][oem-design], meaning less variance between installing your own OS and getting it included from an OEM.
+The newly redesigned login and lockscreen greeter looks sharper, works better, and fixes many reported issues with the previous greeter including focus issues, HiDPI issues, and better localization.
 
-Today, it also fixes many reported issues with the previous greeter including focus issues, HiDPI issues, and better localization. Plus there are some nice new features like notifying when Caps or Num Lock are on, and making Log In as Guest more distinct when it's enabled.
+The new design in Hera was in response to user feedback from Juno, and enables some nice new features. It now always shows usernames for all users, shows users' their backgrounds as cards so you can more easily find users who maybe haven't set differentiating avatars, notifies when Caps or Num Lock are on, and makes “Log In as Guest” more distinct when it's enabled.
 
 <aside>
 {% assign post = site.posts | where:"slug", "say-hello-to-the-new-greeter" | first %}
