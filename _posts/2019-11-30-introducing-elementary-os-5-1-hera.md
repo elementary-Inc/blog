@@ -111,7 +111,7 @@ Sideload explains the implications of installing an app including potential down
 
 #### AppCenter
 
-We've focused heavily on AppCenter for Hera—after all, it's [the center of our platform]({% post_url 2017-02-08-building-the-future-of-elementary-os %}). The headlining feature is Flatpak support; updates to sideloaded apps will appear in AppCenter alongside all other updates, and apps from any user-added Flatpak remotes will show up in AppCenter as uncurated apps. But we've also improved just about everything else.
+We've focused heavily on AppCenter for Hera—after all, it's [the center of our platform]({% post_url 2017-02-08-building-the-future-of-elementary-os %}). The headlining feature is Flatpak support: updates to sideloaded apps will appear in AppCenter alongside all other updates, and apps from any user-added Flatpak remotes will show up in AppCenter as uncurated apps. But we've also improved just about everything else.
 
 First, AppCenter is up to 10× faster in Hera, loading the homepage and featured apps blazingly fast. We've also improved performance throughout the app and do more tasks in parallel, leading to lower memory usage and an all-around faster experience.
 
