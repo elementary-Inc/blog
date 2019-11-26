@@ -150,12 +150,15 @@ Sound settings have also been improved with a new approach to handling external 
 
 Mouse & Touchpad settings have been redesigned and improved for Hera. They're now organized into sections for different behavior- and hardware-specific settings, plus several accessibility settings like long-press secondary click, reveal pointer, and control pointer using keypad have been exposed. We've also added the highly-requested "Ignore when mouse is connected" toggle to the touchpad settings.
 
-<figure markdown="1">
 ![Bluetooth settings](https://cdn-images-1.medium.com/max/800/1*RPQW7xDn904fMIufTe7sRg@2x.png){: srcset="https://cdn-images-1.medium.com/max/1600/1*RPQW7xDn904fMIufTe7sRg@2x.png 2x"}
-<figcaption>Improved Bluetooth settings</figcaption>
+
+<figure class="half" markdown="1">
+![Bluetooth pairing agent PIN dialog]({{ site.baseurl }}/images/updates-for-october-2019/pairing-pin.png){: srcset="{{ site.baseurl }}/images/updates-for-october-2019/pairing-pin@2x.png 2x"}
+![Bluetooth pairing agent passkey dialog]({{ site.baseurl }}/images/updates-for-october-2019/pairing-passkey.png){: srcset="{{ site.baseurl }}/images/updates-for-october-2019/pairing-passkey@2x.png 2x"}
+<figcaption>Improved Bluetooth settings with a pairing agent for PINs and passkeys</figcaption>
 </figure>
 
-Bluetooth settings have been improved with more reliable pairing and trusting of devices, plus improved device support including certain keyboards and devices that require pairing with a pin or code.
+Bluetooth settings have been improved with more reliable pairing and trusting of devices, plus a new pairing agent to better handle devices that need a PIN or passkey to pair. This dialog shows up when pairing a device like a keyboard, and increases the compatibility of elementary OS for more wireless devices.
 
 <figure markdown="1">
 ![Desktop Appearance settings](https://cdn-images-1.medium.com/max/800/1*m-kaKQqh_o9XsqFa967kaA@2x.png){: srcset="https://cdn-images-1.medium.com/max/1600/1*m-kaKQqh_o9XsqFa967kaA@2x.png 2x"}
