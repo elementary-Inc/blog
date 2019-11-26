@@ -18,7 +18,7 @@ sponsor:
   link: https://s76.co/ElementarySponsorship
   image: /images/sponsors/system76.png
   image-2x: /images/sponsors/system76@2x.png
-  hook: "They make killer Linux laptops, desktops, and servers and have a sale now through January 2, 2020. If you're looking for a new computer, head their way!"
+  hook: "They make killer Linux laptops, desktops, and servers—and they have a sale going on now through January 2, 2020. If you're looking for a new computer, head their way!"
 
 ---
 
