@@ -86,6 +86,8 @@ Together, these two components greatly improve the first impressions of elementa
 
 During this cycle, Flatpak has really matured as a technology which has lead us to commit to [a Flatpak future for our AppCenter ecosystem][flatpak]. Beyond that—and more immediately relevant—we've been hard at work to design a new sideloading experience for users to more safely get apps if they venture outside of AppCenter.
 
+#### Sideload
+
 While we always recommend installing curated AppCenter apps where we've done extensive automated and human reviews, we understand that some apps will not meet the strict requirements for AppCenter—and will thus be distributed elsewhere. Rather than encouraging users to drop to a Terminal, add inherently insecure PPAs, or install packages that end up getting root access to the system, we've created a new core elementary OS utility called Sideload to make it extremely easy to sideload Flatpak apps.
 
 <figure class="third" markdown="1">
@@ -95,16 +97,30 @@ While we always recommend installing curated AppCenter apps where we've done ext
 <figcaption>The new Sideload app</figcaption>
 </figure>
 
-Sideload explains the implications of installing an app including potential download size and if it will add a remote that might contain other apps. Updates to sideloaded apps will appear in AppCenter alongside all other updates, and apps from any added Flatpak remotes will show up in AppCenter as uncurated apps.
+Sideload explains the implications of installing an app including potential download size and if it will add a remote that might contain other apps.
+
+#### AppCenter
+
+We've focused heavily on AppCenter for Hera—after all, it's [the center of our platform]({% post_url 2017-02-08-building-the-future-of-elementary-os %}). The headlining feature is Flatpak support; updates to sideloaded apps will appear in AppCenter alongside all other updates, and apps from any user-added Flatpak remotes will show up in AppCenter as uncurated apps. But we've also improved just about everything else.
+
+First, AppCenter is up to 10× faster in Hera, loading the homepage and featured apps blazingly fast. We've also improved performance throughout the app and do more tasks in parallel, leading to lower memory usage and an all-around faster experience.
+
+<figure class="half" markdown="1">
+![AppCenter]({{ site.baseurl }}/images/updates-for-october-2019/appcenter-fondo.png)
+![Network infobar]({{ site.baseurl }}/images/updates-for-october-2019/appcenter-network.png){: srcset="{{ site.baseurl }}/images/updates-for-october-2019/appcenter-network@2x.png 2x"}
+<figcaption markdown="1">
+**Left:** App listing with new screenshot navigation | **Right:** Browse cached apps and uninstall while offline
+</figcaption>
+</figure>
+
+On app listings, we've added a loading animation to screenshots, plus added new forward/back navigation buttons on hover in case the little dots were too hard to hit. App listings now support choosing between different app sources if the same app is provided by multiple remotes. AppCenter in Hera also works much better when your device is offline; you can continue to browse cached apps and uninstall existing apps without a network connection.
 
 <figure markdown="1">
 ![AppCenter categories](https://cdn-images-1.medium.com/max/800/1*r2DZyxdSOc6wSYzkFdSJjw@2x.png){: srcset="https://cdn-images-1.medium.com/max/1600/1*r2DZyxdSOc6wSYzkFdSJjw@2x.png 2x"}
 <figcaption>New & Improved AppCenter categories</figcaption>
 </figure>
 
-Lastly, to make more apps more discoverable in AppCenter, we've improved and added several new categories in Hera. We've also greatly improved performance and stability in several areas, plus fixed reported issues including ones related to email validation, visibility of available apps, and button styles. And since Hera is built from the same foundation as Juno, **all AppCenter apps released so far for Juno will automatically be available in Hera**.
-
-AppCenter in Hera also includes our first steps towards a Flatpak future, with support for the newer packaging format built-in. While nothing has changed with the way curated apps are distributed to elementary OS just yet, any manually-added Flatpak remotes are now usable within AppCenter.
+To make more apps more discoverable in AppCenter, we've improved and added several new categories in Hera. We've also fixed reported issues including ones related to email validation, visibility of available apps, and button styles. And since Hera is built from the same foundation as Juno, **all AppCenter apps released so far for Juno will automatically be available in Hera**.
 
 ### Accessibility and System Settings
 
