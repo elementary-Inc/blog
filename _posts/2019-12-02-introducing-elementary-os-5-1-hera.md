@@ -69,7 +69,7 @@ A screenshot of the new Greeter
 
 The newly redesigned login and lockscreen greeter looks sharper, works better, and fixes many reported issues with the previous greeter including focus issues, HiDPI issues, and better localization.
 
-The new design in Hera was in response to user feedback from Juno, and enables some nice new features. It now always shows usernames for all users, shows users' their backgrounds as cards so you can more easily find users who maybe haven't set differentiating avatars, notifies when Caps or Num Lock are on, and makes “Log In as Guest” more distinct when it's enabled.
+The new design in Hera was in response to user feedback from Juno, and enables some nice new features. It now always shows usernames for all users, shows users' backgrounds as cards so you can more easily find users who maybe haven't set differentiating avatars, notifies when Caps or Num Lock are on, and makes “Log In as Guest” more distinct when it's enabled.
 
 <aside>
 {% assign post = site.posts | where:"slug", "say-hello-to-the-new-greeter" | first %}
