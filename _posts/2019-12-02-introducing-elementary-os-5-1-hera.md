@@ -90,7 +90,7 @@ Since it's a modular component—and not all baked into one piece of software al
 {% include featured.html post=post %}
 </aside>
 
-Together, these two components greatly improve the first impressions of elementary OS from first run or getting a new computer all the way through using your account for the first time. With a fresh codebase across both, we'll also be able to more quickly iterate on features and fixes. And the new Installer will round out the trifecta in a future update.
+Together, these two components greatly improve the first impressions of elementary OS from first run or getting a new computer all the way through using your account for the first time. With a fresh codebase across both, we'll also be able to more quickly iterate on features and fixes.
 
 ### Flatpak
 
