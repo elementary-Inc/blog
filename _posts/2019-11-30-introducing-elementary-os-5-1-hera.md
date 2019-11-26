@@ -280,7 +280,7 @@ We also made keyboard shortcuts more discoverable, plus added a new bold orange 
 ![Videos]({{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/videos.png){: srcset="{{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/videos@2x.png 2x"}
 </figure>
 
-The Videos app in Hera now supports automatically queuing up episodes when watching shows. It has also been updated show audio track titles, i.e. with the language name. Keyboard navigation has been improved, and it's now easier to clear playlist queue with a dedicated button.
+The Videos app in Hera now supports automatically queuing up episodes when watching shows. It has also been updated to show audio track titles, i.e. with the language name. Keyboard navigation has been improved, and it's now easier to clear playlist queue with a dedicated button.
 
 #### Camera
 
