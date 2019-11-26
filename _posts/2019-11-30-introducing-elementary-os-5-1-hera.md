@@ -131,7 +131,7 @@ In February, we [shared our philosophy on accessibility features][accessibility]
 <figcaption>Improved Displays settings</figcaption>
 </figure>
 
-The Displays settings have been improved, bringing a more reliable scaling factor setting, new refresh rate options, and an improved design using palette colors.
+The Displays settings have been improved, bringing a more reliable scaling factor setting, new refresh rate options, and an improved design using palette colors. Display moving, snapping, and aligning has also been reworked, making it much easier and less error-prone to align displays to match their physical orientation.
 
 <figure markdown="1">
 ![Sound](https://cdn-images-1.medium.com/max/800/1*NPiwb5nTWZoM_Y5moHPAYw@2x.png){: srcset="https://cdn-images-1.medium.com/max/1600/1*NPiwb5nTWZoM_Y5moHPAYw@2x.png 2x"}
