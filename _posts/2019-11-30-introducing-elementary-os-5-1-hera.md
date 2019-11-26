@@ -156,7 +156,7 @@ Sound settings have also been improved with a new approach to handling external 
 <figcaption>Improved Mouse & Touchpad settings</figcaption>
 </figure>
 
-Mouse & Touchpad settings have been redesigned and improved for Hera. They're now organized into sections for different behavior- and hardware-specific settings, plus several accessibility settings like long-press secondary click, reveal pointer, and control pointer using keypad have been exposed. We've also added the highly-requested "Ignore when mouse is connected" toggle to the touchpad settings.
+Mouse & Touchpad settings have been redesigned and improved for Hera. They're now organized into sections for different behavior- and hardware-specific settings, plus several accessibility settings like long-press secondary click, reveal pointer, double-click speed, and control pointer using keypad have been exposed. We've also added the highly-requested "Ignore when mouse is connected" toggle to the touchpad settings, and fixed the middle-click setting not appearing in certain situations.
 
 ![Bluetooth settings](https://cdn-images-1.medium.com/max/800/1*RPQW7xDn904fMIufTe7sRg@2x.png){: srcset="https://cdn-images-1.medium.com/max/1600/1*RPQW7xDn904fMIufTe7sRg@2x.png 2x"}
 
@@ -174,6 +174,8 @@ Bluetooth settings have been improved with more reliable pairing and trusting of
 </figure>
 
 We've added a new Appearance tab to the Desktop settings, exposing some existing accessibility settings and making them more discoverable. This includes a new wider range of supported text sizes, from small (0.75×) to larger (1.5×). This should help those who need larger or smaller text, including alleviating some issues with certain hardware combinations where 1× or 2× display scaling is not the best fit.
+
+Over in the Wallpaper page, we've fixed reported issues with setting wallpapers on the Login and Lock screen.
 
 <figure markdown="1">
 ![Date & Time Settings]({{ site.baseurl }}/images/updates-for-august-2019/date-time_800.png){: srcset="{{ site.baseurl }}/images/updates-for-august-2019/date-time_1600.png 2x"}
@@ -286,6 +288,10 @@ Lastly, we've updated Terminal with a few small but welcome improvements.
 </figure>
 
 The [Menu key](https://en.wikipedia.org/wiki/Menu_key) found on some keyboards now opens the context menu, middle-click paste is more reliably in sync with the system-wide setting, we've improved contrast with the dark style, we improved the context menu with keyboard shortcuts and better delineation between text actions and app actions, and we save more of the window state between sessions.
+
+#### And More…
+
+Photos shows a checkerboard behind translucent images and has improved dialogs throughout. Calculator has better decimal localization. Screenshot closes with the <kbd>Esc</kbd> key. Every app has improved translations across nearly every language.
 
 ### Desktop
 
