@@ -2,7 +2,7 @@
 title: Introducing elementary OS 5.1 Hera
 description: A major update on a solid foundation
 author: cassidyjames
-image: /images/introducing-elementary-os-5-1-hera/notebook-desktop@2x.png
+image: /images/introducing-elementary-os-5-1-hera/wallpaper.jpg
 
 tags:
   - accessibility
@@ -24,7 +24,7 @@ sponsor:
 
 Last October, we [announced elementary OS 5 Juno][juno] with wide-ranging updates to provide a more refined user experience, improve productivity for new and seasoned users alike, and take our developer platform to the next level. Today we're pleased to announce elementary OS 5.1 Hera, the latest major update.
 
-![Hera wallpaper]({{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/notebook-desktop.png){: srcset="{{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/notebook-desktop@2x.png 2x"}
+![Hera on a notebook computer]({{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/notebook-desktop.png){: srcset="{{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/notebook-desktop@2x.png 2x"}
 
 Hera builds on the solid foundation of Juno while bringing: 
 
@@ -388,9 +388,18 @@ The system icons have also been refreshed throughout Hera. One noticable change 
 
 We've also added icons for playlists, chat, caps lock, num lock, mail actions, SSDs, and headsets. We've refined and added several new sizes for icons for pixel-perfect hinting in more contexts—including the Onboarding experience. We also added symbolic versions of several icons including location services, laptops, and firmware. We've animated the microphone mute icon in the Panel, the mobile phone icons have been updated to better match modern phones, path and group icons (for drawing/design apps) have been redesigned, we've added a few mirrored icons for right-to-left languages, and we've made several icon families a bit more consistent.
 
-![Hera wallpaper](https://cdn-images-1.medium.com/max/800/1*LjHTYMbr_p3fOsUNa38QqA.jpeg){: srcset="https://cdn-images-1.medium.com/max/1600/1*LjHTYMbr_p3fOsUNa38QqA.jpeg 2x"}
+![Hera wallpaper]({{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/wallpaper.jpg){: srcset="{{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/wallpaper@2x.jpg 2x"}
 
-Lastly, the default wallpaper has been updated. This photo of a sunset over a pier was included in Juno, but we've set it as the new default to give Hera its own unique identity. At the same time the color scheme is similar to Juno with its purples, oranges and blues—evoking the more iterative relationship between the two releases.
+<figure class="third" markdown="1">
+![Canazei Granite Ridges wallpaper]({{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/canazei-granite-ridges.jpg){: srcset="{{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/canazei-granite-ridges@2x.jpg 2x"}
+![Julia Craice wallpaper]({{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/julia-craice.jpg){: srcset="{{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/julia-craice@2x.jpg 2x"}
+![Nattu Adnan wallpaper]({{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/nattu-adnan.jpg){: srcset="{{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/nattu-adnan@2x.jpg 2x"}
+<figcaption markdown="1">
+**Top:** Updated default wallpaper | **Bottom:** Three new wallpapers
+</figcaption>
+</figure>
+
+Lastly, we've updated the wallpapers. Three new photos join the set: snowy granite mountain ridges, a black and white pair of birds flying over a hill, and an interesting top-down view of brilliant blue water breaking on a beach. The default wallpaper has also been updated; this photo of a sunset over a pier was included in Juno, but we've set it as the new default to give Hera its own unique identity. At the same time, the color scheme is similar to Juno with its purples, oranges and blues—evoking the more iterative relationship between the two releases.
 
 ### Under the Hood
 
