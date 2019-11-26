@@ -168,7 +168,7 @@ As with any major elementary OS update, we've been hard at work on several built
 
 #### Files
 
-Files in Hera received a major new feature: CloudProviders support. This means file syncing and cloud storage providers like NextCloud can use this standardized API and hook directly into the Files app, without having to do anything special for elementary OS. This API is also implemented in GNOME Files, and we hope to see it adopted more widely across FreeDesktops. We've also spent a ton of time improving Files in Hera.
+Files in Hera received a major new feature: CloudProviders support. This means file syncing and cloud storage providers like NextCloud can use this standardized API and hook directly into the Files app, without having to do anything special for elementary OS. This API is also planned to be implemented in GNOME Files, and we hope to see it adopted more widely across FreeDesktops. We've also spent a ton of time improving Files in Hera.
 
 <figure class="third" markdown="1">
 ![Files Shortcuts](https://cdn-images-1.medium.com/max/800/1*XG7msxmcJ-dPFZPn-fxmmQ@2x.png){: srcset="https://cdn-images-1.medium.com/max/1600/1*XG7msxmcJ-dPFZPn-fxmmQ@2x.png 2x"}
