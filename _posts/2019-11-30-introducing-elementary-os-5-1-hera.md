@@ -299,6 +299,12 @@ We've been steadily improving the core desktop experience in elementary OS Hera.
 
 Picture-in-Picture now displays at the bottom-right of the display by default, better matching where users expected it. We've made several usability and performance improvements to taking screenshots. And we've addressed a couple of visual glitches that sometimes occurred when tiling windows and on HiDPI displays after switching the scaling factor.
 
+<figure markdown="1">
+![Shortcut Overlay]({{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/shortcuts.png){: srcset="{{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/shortcuts@2x.png 2x"}
+</figure>
+
+The Shortcut Overlay introduced in Juno has been expanded to include more shortcuts, including Close Window (<kbd>Alt</kbd><kbd>F4</kbd> by default) and Switch Keyboard Layout.
+
 #### Indicators
 
 We've also brought several improvements to the top Panel and Indicators to Hera.
