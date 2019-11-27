@@ -198,7 +198,7 @@ For Date & Time settings in Hera, we've cleaned up the design and added an autom
 <figcaption>Improved Language & Region settings</figcaption>
 </figure>
 
-We've improved Language & Region settings in Hera. Installing new languages has been moved to a dialog to make it cleaner and more straightforward, the sidebar updates the status of languages more accurately, and the settings now only prompt you to authenticate when you actually need to—leading to a cleaner design and avoding stacked infobars.
+We've improved Language & Region settings in Hera. Installing new languages has been moved to a dialog to make it cleaner and more straightforward, the sidebar updates the status of languages more accurately, and the settings now only prompt you to authenticate when you actually need to—leading to a cleaner design and avoiding stacked infobars.
 
 <figure class="half" markdown="1">
 ![VPN settings]({{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/vpn_800.png){: srcset="{{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/vpn.png 2x"}
