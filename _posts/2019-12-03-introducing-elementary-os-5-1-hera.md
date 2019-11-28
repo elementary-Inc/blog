@@ -21,7 +21,7 @@ sponsor:
   hook: "They make killer Linux laptops, desktops, and servers—and they have a sale going on now through January 2, 2020. If you're looking for a new computer, head their way!"
 
 # NOTE: `true` to hide, or a time will show in the embargo message.
-hidden: 2019-12-02T19:00:00Z
+hidden: 2019-12-03T15:00:00Z
 
 # NOTE: Added so it will show up without --future. Remove after the release date.
 date: 2019-11-26
