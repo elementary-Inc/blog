@@ -144,18 +144,11 @@ To make more apps more discoverable in AppCenter, we've improved and added sever
 In February, we [shared our philosophy on accessibility features][accessibility] and how they should be exposed as fully-supported features to all users. In elementary OS 5.1 Hera, we're now shipping several improvements in System Settings that expose more accessible settings for all users. Performance and keyboard shortcut discoverability has also been improved. We've also improved several other areas in System Settings based on reported issues.
 
 <figure markdown="1">
-![Displays](https://cdn-images-1.medium.com/max/800/1*MktQpi08_85vY78wMKLWDg.png){: srcset="https://cdn-images-1.medium.com/max/1600/1*MktQpi08_85vY78wMKLWDg.png 2x"}
-<figcaption>Improved Displays settings</figcaption>
-</figure>
-
-The Displays settings have been improved, bringing a more reliable scaling factor setting, new refresh rate options, and an improved design using palette colors. Display moving, snapping, and aligning has also been reworked, making it much easier and less error-prone to align displays to match their physical orientation.
-
-<figure markdown="1">
 ![Sound](https://cdn-images-1.medium.com/max/800/1*NPiwb5nTWZoM_Y5moHPAYw@2x.png){: srcset="https://cdn-images-1.medium.com/max/1600/1*NPiwb5nTWZoM_Y5moHPAYw@2x.png 2x"}
 <figcaption>Improved Sound settings</figcaption>
 </figure>
 
-Sound settings have also been improved with a new approach to handling external devices. The result is a simpler way of picking your output device and the more reliable display of available devices. We've also added the "Flash screen" option for event alerts here to better manage whether alerts are audible, visual, both, or neither. This is particularly handy for the hearing impaired or to use in environments where an audible alert would be inappropriate, like live production.
+Sound settings have been improved with a new approach to handling external devices. The result is a simpler way of picking your output device and the more reliable display of available devices. We've also added the "Flash screen" option for event alerts here to better manage whether alerts are audible, visual, both, or neither. This is particularly handy for the hearing impaired or to use in environments where an audible alert would be inappropriate, like live production.
 
 <figure class="half" markdown="1">
 ![Clicking]({{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/clicking.png){: srcset="{{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/clicking@2x.png 2x"}
@@ -167,6 +160,22 @@ Sound settings have also been improved with a new approach to handling external 
 
 Mouse & Touchpad settings have been redesigned and improved for Hera. They're now organized into sections for different behavior- and hardware-specific settings, plus several accessibility settings like long-press secondary click, reveal pointer, double-click speed, and control pointer using keypad have been exposed. We've also added the highly-requested "Ignore when mouse is connected" toggle to the touchpad settings, and fixed the middle-click setting not appearing in certain situations.
 
+<figure markdown="1">
+![Desktop Appearance settings](https://cdn-images-1.medium.com/max/800/1*m-kaKQqh_o9XsqFa967kaA@2x.png){: srcset="https://cdn-images-1.medium.com/max/1600/1*m-kaKQqh_o9XsqFa967kaA@2x.png 2x"}
+<figcaption>New Desktop Appearance settings</figcaption>
+</figure>
+
+We've added a new Appearance tab to the Desktop settings, exposing some existing accessibility settings and making them more discoverable. This includes a new wider range of supported text sizes, from small (0.75×) to larger (1.5×). This should help those who need larger or smaller text, including alleviating some issues with certain hardware combinations where 1× or 2× display scaling is not the best fit.
+
+Over in the Wallpaper page, we've fixed reported issues with setting wallpapers on the Login and Lock screen.
+
+<figure markdown="1">
+![Displays](https://cdn-images-1.medium.com/max/800/1*MktQpi08_85vY78wMKLWDg.png){: srcset="https://cdn-images-1.medium.com/max/1600/1*MktQpi08_85vY78wMKLWDg.png 2x"}
+<figcaption>Improved Displays settings</figcaption>
+</figure>
+
+The Displays settings have been improved, bringing a more reliable scaling factor setting, new refresh rate options, and an improved design using palette colors. Display moving, snapping, and aligning has also been reworked, making it much easier and less error-prone to align displays to match their physical orientation.
+
 ![Bluetooth settings](https://cdn-images-1.medium.com/max/800/1*RPQW7xDn904fMIufTe7sRg@2x.png){: srcset="https://cdn-images-1.medium.com/max/1600/1*RPQW7xDn904fMIufTe7sRg@2x.png 2x"}
 
 <figure class="half" markdown="1">
@@ -176,15 +185,6 @@ Mouse & Touchpad settings have been redesigned and improved for Hera. They're no
 </figure>
 
 Bluetooth settings have been improved with more reliable pairing and trusting of devices, plus a new pairing agent to better handle devices that need a PIN or passkey to pair. This dialog shows up when pairing a device like a keyboard, and increases the compatibility of elementary OS for more wireless devices.
-
-<figure markdown="1">
-![Desktop Appearance settings](https://cdn-images-1.medium.com/max/800/1*m-kaKQqh_o9XsqFa967kaA@2x.png){: srcset="https://cdn-images-1.medium.com/max/1600/1*m-kaKQqh_o9XsqFa967kaA@2x.png 2x"}
-<figcaption>New Desktop Appearance settings</figcaption>
-</figure>
-
-We've added a new Appearance tab to the Desktop settings, exposing some existing accessibility settings and making them more discoverable. This includes a new wider range of supported text sizes, from small (0.75×) to larger (1.5×). This should help those who need larger or smaller text, including alleviating some issues with certain hardware combinations where 1× or 2× display scaling is not the best fit.
-
-Over in the Wallpaper page, we've fixed reported issues with setting wallpapers on the Login and Lock screen.
 
 <figure markdown="1">
 ![Date & Time Settings]({{ site.baseurl }}/images/updates-for-august-2019/date-time_800.png){: srcset="{{ site.baseurl }}/images/updates-for-august-2019/date-time_1600.png 2x"}
@@ -234,22 +234,7 @@ Lastly, we've made both System Settings and system actions like restarting much 
 
 ### App Updates
 
-As with any major elementary OS update, we've been hard at work on several built-in apps for Hera.
-
-#### Files
-
-Files in Hera received a major new feature: CloudProviders support. This means file syncing and cloud storage providers like NextCloud can use this standardized API and hook directly into the Files app, without having to do anything special for elementary OS. This API is also planned to be implemented in GNOME Files, and we hope to see it adopted more widely across FreeDesktops. We've also spent a ton of time improving Files in Hera.
-
-<figure class="third" markdown="1">
-![Files Shortcuts](https://cdn-images-1.medium.com/max/800/1*XG7msxmcJ-dPFZPn-fxmmQ@2x.png){: srcset="https://cdn-images-1.medium.com/max/1600/1*XG7msxmcJ-dPFZPn-fxmmQ@2x.png 2x"}
-![Files Color Tagging](https://user-images.githubusercontent.com/611168/62493151-a0597600-b78d-11e9-9f9f-536525b004ac.png)
-![Checkerboard]({{ site.baseurl }}/images/updates-for-september-2019/files-checkerboard.png){: srcset="{{ site.baseurl }}/images/updates-for-september-2019/files-checkerboard@2x.png 2x"}
-<figcaption>Keyboard shortcut discoverability, color tagging, and checkerboard thumbnail backgrounds in Files</figcaption>
-</figure>
-
-We've made search more discoverable by showing the search icon and placeholder text in the Home folder, similar to a web browser's empty state. The search results dropdown is also larger and shows more results, and there's a new feature to hide thumbnails. "Cherry picking" files has been greatly improved, and we've refined the design of the color tags to be easier targets—plus we show all color tags used in a selection in the context menu. We also now draw a checkerboard background behind transparent image thumbnails, making them easier to see.
-
-We've also improved keyboard shortcut discoverability throughout, improved the Open In and Open With menus with app icons, and made Files respect the Event Alerts setting from _System Settings_ → _Sound_ for the trash sound. Lastly, we've implemented several performance and stability improvements including fixing reported issues around file sorting, pasting, selecting files, color tags, file renaming, and more.
+As with any major elementary OS update, we've been hard at work on several of the core apps for Hera.
 
 #### Calendar
 
@@ -260,14 +245,17 @@ We've also improved keyboard shortcut discoverability throughout, improved the O
 
 We've put a lot of work into Calendar for Hera with a refreshed design that is brighter, cleaner, and more usable. Keyboard navigation, color palette usage, and the event dialog have also all been improved. See the [February updates story][feb] for more information.
 
-#### Code
+#### Camera
 
 <figure markdown="1">
-![Code](https://cdn-images-1.medium.com/max/800/1*mO9RqSUJy2WYKZWhAf3QAA@2x.png){: srcset="https://cdn-images-1.medium.com/max/1600/1*mO9RqSUJy2WYKZWhAf3QAA@2x.png 2x"}
-<figcaption>Improved keyboard shortcut discoverability in Code</figcaption>
+![Camera](https://elementary.io/images/screenshots/camera.png){: srcset="https://elementary.io/images/screenshots/camera@2x.png 2x"}
 </figure>
 
-Code has been updated for Hera with more discoverable keyboard shortcuts, the restoration of the line wrap setting, new "Change Branch" functionality for git projects, and the display of hidden and non-text files in the sidebar to make git management more accurately reflect the state of the repository. We've also implemented several fixes and performance improvements, especially around saving and restoring files.
+We've updated the Camera app in Hera for greatly improved hardware compatibility and performance with cameras on several popular laptops, including many Dell models.
+
+#### Photos
+
+In Photos we now show a checkerboard background behind translucent image thumbnails. We've also worked to improve the UI of dialogs throughout the app.
 
 #### Music
 
@@ -289,13 +277,29 @@ We also made keyboard shortcuts more discoverable, plus added a new bold orange 
 
 The Videos app in Hera now supports automatically queuing up episodes when watching shows. It has also been updated to show audio track titles, i.e. with the language name. Keyboard navigation has been improved, and it's now easier to clear playlist queue with a dedicated button.
 
-#### Camera
+#### Files
 
-<figure markdown="1">
-![Camera](https://elementary.io/images/screenshots/camera.png){: srcset="https://elementary.io/images/screenshots/camera@2x.png 2x"}
+Files in Hera received a major new feature: CloudProviders support. This means file syncing and cloud storage providers like NextCloud can use this standardized API and hook directly into the Files app, without having to do anything special for elementary OS. This API is also planned to be implemented in GNOME Files, and we hope to see it adopted more widely across FreeDesktops. We've also spent a ton of time improving Files in Hera.
+
+<figure class="third" markdown="1">
+![Files Shortcuts](https://cdn-images-1.medium.com/max/800/1*XG7msxmcJ-dPFZPn-fxmmQ@2x.png){: srcset="https://cdn-images-1.medium.com/max/1600/1*XG7msxmcJ-dPFZPn-fxmmQ@2x.png 2x"}
+![Files Color Tagging](https://user-images.githubusercontent.com/611168/62493151-a0597600-b78d-11e9-9f9f-536525b004ac.png)
+![Checkerboard]({{ site.baseurl }}/images/updates-for-september-2019/files-checkerboard.png){: srcset="{{ site.baseurl }}/images/updates-for-september-2019/files-checkerboard@2x.png 2x"}
+<figcaption>Keyboard shortcut discoverability, color tagging, and checkerboard thumbnail backgrounds in Files</figcaption>
 </figure>
 
-We've updated the Camera app in Hera for greatly improved hardware compatibility and performance with cameras on several popular laptops, including many Dell models.
+We've made search more discoverable by showing the search icon and placeholder text in the Home folder, similar to a web browser's empty state. The search results dropdown is also larger and shows more results, and there's a new feature to hide thumbnails. "Cherry picking" files has been greatly improved, and we've refined the design of the color tags to be easier targets—plus we show all color tags used in a selection in the context menu. We also now draw a checkerboard background behind transparent image thumbnails, making them easier to see.
+
+We've also improved keyboard shortcut discoverability throughout, improved the Open In and Open With menus with app icons, and made Files respect the Event Alerts setting from _System Settings_ → _Sound_ for the trash sound. Lastly, we've implemented several performance and stability improvements including fixing reported issues around file sorting, pasting, selecting files, color tags, file renaming, and more.
+
+#### Code
+
+<figure markdown="1">
+![Code](https://cdn-images-1.medium.com/max/800/1*mO9RqSUJy2WYKZWhAf3QAA@2x.png){: srcset="https://cdn-images-1.medium.com/max/1600/1*mO9RqSUJy2WYKZWhAf3QAA@2x.png 2x"}
+<figcaption>Improved keyboard shortcut discoverability in Code</figcaption>
+</figure>
+
+Code has been updated for Hera with more discoverable keyboard shortcuts, the restoration of the line wrap setting, new "Change Branch" functionality for git projects, and the display of hidden and non-text files in the sidebar to make git management more accurately reflect the state of the repository. We've also implemented several fixes and performance improvements, especially around saving and restoring files.
 
 #### Terminal
 
@@ -309,7 +313,7 @@ The [Menu key](https://en.wikipedia.org/wiki/Menu_key) found on some keyboards n
 
 #### And More…
 
-Photos shows a checkerboard behind translucent images and has improved dialogs throughout. Calculator has better decimal localization. Screenshot closes with the <kbd>Esc</kbd> key. Every app has improved translations across nearly every language.
+Several other core apps have seen smaller improvements for Hera. For example, Calculator has better decimal localization, and Screenshot closes with the <kbd>Esc</kbd> key. Plus, every app has improved translations across nearly every language.
 
 ### Desktop
 
@@ -343,7 +347,7 @@ We also improved several aspects of the Sound indicator including smooth scrolli
 
 And a lot of little things: the Applications Menu now shows all configured keyboard shortcuts in its tooltip and is a bit faster, we added a new "View in AppCenter" item to apps' context menus in the Applications Menu, we've improved the design of the Bluetooth indicator to be more consistent with other indicators and added connection status badge to each device, we fixed some minor visual inconsistencies in the Notifications indicator, and all indicators have been better translated into more languages.
 
-### Visual Style
+#### Visual Style
 
 We've improved the system stylesheet in several ways for Hera. To make certain situations like photo and video editing apps easier for color-correction, dark-styled apps in elementary OS now sport a dark color-neutral shade of gray instead of the previous cool-tinted gray.
 
