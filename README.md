@@ -83,6 +83,8 @@ This guide assumes you're on elementary OS or a similar Ubuntu-based environment
 
 - `jekyll` and `bundler`
 
+We recommend installing gems to a (hidden) directory in your home folder:
+
 ```shell
 echo '' >> ~/.bashrc
 echo '# Install Ruby Gems to ~/.gems' >> ~/.bashrc
@@ -91,6 +93,8 @@ echo 'export PATH="$HOME/.gems/bin:$PATH"' >> ~/.bashrc
 echo '' >> ~/.bashrc
 source ~/.bashrc
 ```
+
+Install jekyll and bundler:
 
 ```shell
 gem install jekyll bundler
