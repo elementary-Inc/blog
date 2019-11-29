@@ -416,7 +416,7 @@ Lastly, we've updated the wallpapers. Three new photos join the set: snowy grani
 
 An issue causing delayed shut downs in Juno was found and fixed for Hera. Apps installed as Snaps now properly show in Startup Apps settings. Flatpak is now included out of the box.
 
-Along with all of the functional updates, translations, and issue fixes comes the latest hardware enablement provided by Linux 5.0 and the long-term support (LTS) hardware enablement (HWE) stack from Canonical. This includes improved support for more recent processors, GPUs, input devices, and more.
+Along with all of the functional updates, translations, and issue fixes comes the latest hardware enablement provided by Linux 5.0 and the long-term support (LTS) hardware enablement (HWE) stack from Canonical. This includes improved support for more recent processors, GPUs, input devices, and more. We'd like to give special thanks to the Ubuntu kernel and foundations teams for the work making this possible!
 
 ## Get It
 
