@@ -1,6 +1,6 @@
 ---
-title: We’re Back from Libre Application Summit 2018
-description: Sharing Knowledge and Wisdom in Denver, Colorado
+title: We’re Back from LAS 2018
+description: Sharing knowledge and wisdom in Denver, Colorado
 author: cassidyjames
 date: 2018-09-12T05:19:15.486Z
 image: /assets/images/were-back-from-libre-application-summit-2018/1mRaQK_yUWddw-WKriNzBog.jpeg
@@ -12,7 +12,7 @@ tags:
 thanks: true
 ---
 
-This past week elementary contributors [Daniel Foré](https://twitter.com/DanielFore), Felipe Escoto, [Blake Kostner](https://medium.com/@btkostner), and I met up in Denver, Colorado for the [Libre Application Summit](https://las.gnome.org/conferences/LAS). We joined a few dozen people from GNOME, KDE, and other projects with a mission to share knowledge and experiences, plus collaborate on common technologies for app ecosystems built on open source technologies.
+This past week elementary contributors [Daniel Foré](https://twitter.com/DanielFore), Felipe Escoto, [Blake Kostner](https://medium.com/@btkostner), and I met up in Denver, Colorado for the [Libre Application Summit (LAS)](https://las.gnome.org/conferences/LAS). We joined a few dozen people from GNOME, KDE, and other projects with a mission to share knowledge and experiences, plus collaborate on common technologies for app ecosystems built on open source technologies.
 
 The event was three days of talks and impromptu hacking, plus one day of BoFs (birds-of-a-feather meetings, based around a common interest) and hacking. And then after the official event there was another impromptu day of exploring the mountains of Colorado.
 
