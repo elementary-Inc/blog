@@ -19,12 +19,6 @@ sponsor:
   image: /images/sponsors/system76.png
   image-2x: /images/sponsors/system76@2x.png
   hook: "They make killer Linux laptops, desktops, and servers—and they have a sale going on now through January 2, 2020. If you're looking for a new computer, head their way!"
-
-# NOTE: `true` to hide, or a time will show in the embargo message.
-hidden: 2019-12-03T15:00:00Z
-
-# NOTE: Added so it will show up without --future. Remove after the release date.
-date: 2019-11-26
 ---
 
 Last October, we [announced elementary OS 5 Juno][juno] with wide-ranging updates to provide a more refined user experience, improve productivity for new and seasoned users alike, and take our developer platform to the next level. Today we're pleased to announce elementary OS 5.1 Hera, the latest major update.
