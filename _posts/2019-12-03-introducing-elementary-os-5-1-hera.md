@@ -19,6 +19,11 @@ sponsor:
   image: /images/sponsors/system76.png
   image-2x: /images/sponsors/system76@2x.png
   hook: "They make killer Linux laptops, desktops, and servers—and they have a sale going on now through January 2, 2020. If you're looking for a new computer, head their way!"
+
+facebook: https://www.facebook.com/elementaryos/posts/2877229498975527
+mastodon: https://mastodon.social/@elementary/103244456221226748
+reddit: https://www.reddit.com/r/elementaryos/comments/e5i6qh/_/
+twitter: https://twitter.com/elementary/status/1201879011141586945
 ---
 
 Last October, we [announced elementary OS 5 Juno][juno] with wide-ranging updates to provide a more refined user experience, improve productivity for new and seasoned users alike, and take our developer platform to the next level. Today we're pleased to announce elementary OS 5.1 Hera, the latest major update.
