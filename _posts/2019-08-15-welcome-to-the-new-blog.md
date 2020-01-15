@@ -177,7 +177,7 @@ One choice we made in the design was around the typefaces used: we decided to no
 </figcaption>
 </figure>
 
-For the [homepage]({{ site.baseurl }}), we started with a simple list of articles. To make it more visually interesting, we added a Medium-like grid of featured articles. Over time, we've tweaked this styling to feel more elementary-styled with subtle borders and shadows to make the images stand out. Similarly, with the author byline we're using the same avatar style we us in elementary OS. For code blocks, we're using the same excellent [Solarized](https://ethanschoonover.com/solarized/) color scheme as used in our Code app.
+For the [homepage]({{ site.baseurl }}), we started with a simple list of articles. To make it more visually interesting, we added a Medium-like grid of featured articles. Over time, we've tweaked this styling to feel more elementary-styled with subtle borders and shadows to make the images stand out. Similarly, with the author byline we're using the same avatar style we use in elementary OS. For code blocks, we're using the same excellent [Solarized](https://ethanschoonover.com/solarized/) color scheme as used in our Code app.
 
 Over all, the design has been and will continue to be iterative. We may add or tweak styling as we want to do new things. But we hope it's a legible and familiar design both for former readers of our Medium publication and users of elementary OS itself.
 

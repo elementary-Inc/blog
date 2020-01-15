@@ -1,5 +1,5 @@
 ---
-title: Building The Next Generation of Apps
+title: Building the Next Generation of Apps
 description: Platform improvements and goals for Juno
 date: '2018-04-09T16:26:01.026Z'
 author: danrabbit
