@@ -13,7 +13,7 @@ I think we’re all familiar with common window controls. We have Close, Minimiz
 
 ## Close
 
-This is probably the standard window control. No matter what environment, you need a way to close your apps. Typically, this is denoted by an 'x', sometimes red or orange. It's probably the most obvious button too. When you click, your app's window disappears. Poof, gone. But, uh, sometimes It's not really gone. For example, when you click close on a music player's window, you expect it still play music right? But wait, isn't that what Minimize is supposed to do? This is a bit of a dilemma. Does close mean close or quit?
+This is probably the standard window control. No matter what environment, you need a way to close your apps. Typically, this is denoted by an 'x', sometimes red or orange. It's probably the most obvious button too. When you click, your app's window disappears. Poof, gone. But, uh, sometimes It's not really gone. For example, when you click close on a music player's window, you expect it still play music right? But wait, isn't that what Minimize is supposed to do? This is a bit of a dilemma. [Does close mean close or quit?](https://ubuntu.com/blog/quit)
 
 ## Background Processes
 
