@@ -23,7 +23,7 @@ Monday, we were **given a demo of XDG-App**, a way of sandboxing apps and provid
 
 ![A HiDPI laptop running elementary OS](https://66.media.tumblr.com/ca74662c9ce25d8abb47df139d7ab92a/tumblr_inline_nqtv93Xia51r2vnpt_1280.jpg)
 
-elementary OS doesn’t fully support HiDPI displays right now, but it’s **going to get better** soon. Daniel worked with GTK developer Alexander Larsson (and a HiDPI display) to investigate how to get our icons working perfectly with @2x pixel-doubling. We’re testing an update to the icon set that should make icons draw beautifully crisp and resolution-independent, exactly how GTK itself is drawn. We also discovered several bugs in the way we’re using icons across elementary apps and have filed the appropriate bugs. Fixes should be coming soon!
+elementary OS doesn’t fully support HiDPI displays right now, but it’s **going to get better** soon. Daniel worked with GTK developer Alexander Larsson (and a HiDPI display) to investigate how to get our icons working perfectly with @2x pixel-doubling. We’re testing [an update to the icon set](/whats-up-with-hidpi-icons/) that should make icons draw beautifully crisp and resolution-independent, exactly how GTK itself is drawn. We also discovered several bugs in the way we’re using icons across elementary apps and have filed the appropriate bugs. Fixes should be coming soon!
 
 ## Mutter
 
