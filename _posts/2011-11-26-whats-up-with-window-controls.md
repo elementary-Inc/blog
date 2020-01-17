@@ -39,7 +39,6 @@ It seems like there are quite a few views of what Maximize really means. One sch
 
 Let's assume for now, because of our previous talk, we're only going to use two buttons. We've decided that the developer knows best when it comes to what close means, so we're going to trust him and drop the minimize button. We've also decided that having both maximize and full screen is a bit redundant, so we're gonna go all the way with a wanna-be full screen button. But where in heaven's name do we put them? Commence flame war!
 
-
 ## Let The HIG Decide
 
 In our HIG, we say that we'd like the most commonly used toolbar buttons on the left side of the window, and the least commonly used on the right side. This is because of the way we read and where our brain says that our eyes should start on a page (in GTK, when you use a Right-To-Left language, the toolbar layout is flipped). Why not apply the same logic to the window controls? Let's place the most used ones on the left side, and the least used ones on the right side. And since we now only have two window controls to deal with, this should be easy!

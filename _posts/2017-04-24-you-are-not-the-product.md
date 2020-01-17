@@ -7,6 +7,7 @@ image: https://cdn-images-1.medium.com/max/1600/1*cLwxBJhf6MKETmbqR6ilnw.jpeg
 tags:
   - funding
   - privacy
+  - meta
 
 facebook: https://www.facebook.com/elementaryos/posts/2630131613685318
 mastodon: https://mastodon.social/@elementary/102583310377481971
