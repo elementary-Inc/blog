@@ -1,6 +1,7 @@
 ---
 title: GNOME West Coast Summit
 author: cassidyjames
+image: https://66.media.tumblr.com/c632632fc9f7abf9170af2ac18393975/tumblr_inline_nqtvig9bYv1r2vnpt_1280.jpg
 tags:
   - event
   - gnome
