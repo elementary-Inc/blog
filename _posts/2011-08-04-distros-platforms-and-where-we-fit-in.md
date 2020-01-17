@@ -1,7 +1,6 @@
 ---
 title:  "Distros, Platforms, and Where We Fit In"
 author: danrabbit
-date: 2011-08-04
 ---
 
 We often get asked to distribute software like LibreOffice, Firefox, Google Chrome, WINE, applications that use Qt, etc. And for the traditional Linux distribution this is a perfectly reasonable request. The typical distro make up for home users consists of a kind of software Top 40 where the distributors pick out their favorite existing apps and bundle them together along with their favorite existing theme. Then they usually have some sort of branded default wallpaper. Maybe they'll go the extra mile to replace splash screens (Yes some apps do still have splash screens) with branded ones. Sometimes a distributor will even contribute "upstream" in order to lobby certain changes. And very rarely a distributor will create their own software as a little special something.
