@@ -1,6 +1,8 @@
 ---
-title: What's (Still) Up with Window Controls?
+title: What's (Still) Up With Window Controls?
 author: danrabbit
+tags:
+  - design
 ---
 
 In my original post, [“What’s Up With Window Controls?”](/whats-up-with-window-controls), I outlined some of the things we were thinking about window controls in elementary and the beginning of an experiment. As of now, we’ve been running that experiment for about a full year. So let’s talk about it.
