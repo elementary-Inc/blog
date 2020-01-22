@@ -129,3 +129,20 @@ hr {
 .up-next {
   margin: 8rem auto 0;
 }
+
+aside.outdated {
+  background: var(--warning-bg-color);
+  bottom: 0;
+  color: var(--warning-fg-color);
+  display: block;
+  font-family: var(--ui-font);
+  font-size: 0.8rem;
+  left: 50%;
+  opacity: 0.8;
+  padding: 0.5em 1em;
+  position: relative;
+  text-align: center;
+  transform: translateX(-50%);
+  width: 100vw;
+  z-index: 1;
+}
