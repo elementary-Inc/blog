@@ -81,7 +81,7 @@ We’re always happy to meet new developers. If you’re a developer or tester i
 
 There is also the elementary Developer Community mailing list, where developers can ask questions, propose or brainstorm ideas, and discuss development in a non-real-time fashion. It’s a great place to introduce yourself as a developer and find a project to help with.
 
-With this beta, we’ll be targeting bugs toward the Luna Beta 2 milestone on Launchpad. It might be a good idea to familiarize yourself with that milestone and even try tackling some bugs as they pop up.
+With this beta, we’ll be targeting bugs toward the [Luna Beta 2 milestone on Launchpad](https://bugs.launchpad.net/elementaryos/+milestone/luna-beta2). It might be a good idea to familiarize yourself with that milestone and even try tackling some bugs as they pop up.
 
 ### Contribute Financially
 
