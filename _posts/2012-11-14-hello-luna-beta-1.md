@@ -87,6 +87,10 @@ With this beta, we’ll be targeting bugs toward the Luna Beta 2 milestone on La
 
 Last but not least, you can [contribute financially to elementary](https://elementary.io/get-involved/#funding). We’re 100% volunteer and rely on your contributions to fund things like the website, travel expenses to developer conferences (where we meet incredible people, learn valuable new things, and make friends with other projects), and anything else that furthers our mission. Every little bit counts and we offer multiple ways to donate like credit card, flattr, and PayPal.
 
----
+## How to Download/Install
+
+Now that you’ve read about all of the work that’s gone into this beta and how to help us out, you probably want to know how to download and install it. Downloading is simple; just click the button below for your processor type (32- or 64-bit). Then just burn it to a CD or USB disk as you would any other OS. If you need help, you can follow along with our user guide from Jupiter.
+
+_Note: broken download links have been removed._
 
 Remember that **this is a beta and is not indicative of the final version.** We respectfully ask any press to make this clear if they decide to write about this beta. We’re pushing this beta out to get wider testing and feedback before our final release and as such, it is not intended for typical end users.
