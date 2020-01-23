@@ -6,6 +6,7 @@ image: https://cdn-images-1.medium.com/max/2000/0*NOxTGcFB2imrjWTx.png
 tags:
   - switching-from-macos
   - devs
+  - evergreen
 ---
 
 > The previous piece covered [The Basics]({{ site.baseurl }}{% post_url 2016-11-02-switching-from-macos-the-basics %}).

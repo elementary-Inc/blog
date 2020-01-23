@@ -6,6 +6,7 @@ image: /images/10x10-design-process/sketch.jpg
 
 tags:
   - design
+  - evergreen
 ---
 
 As a User Experience designer for elementary, I'm often shown different pixel-perfect mockups or even in-code implementations and asked what I think. I typically note what I love, what I like but could be expanded on or done differently, and then what I think is crap. This feedback loop works… sometimes. Read on to find out the underlying problem and possible solution.

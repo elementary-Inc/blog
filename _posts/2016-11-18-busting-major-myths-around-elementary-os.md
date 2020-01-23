@@ -7,6 +7,7 @@ tags:
   - gnome
   - myths
   - design
+  - evergreen
 ---
 
 The open source desktop landscape is complicated. There are many distros, many desktop environments, and so many things to know about each of them. We often see folks fall into some of the same pieces of misinformation when reporting on or commenting about elementary OS. So here’s a look at some of the major myths around elementary OS and what the actual facts are.

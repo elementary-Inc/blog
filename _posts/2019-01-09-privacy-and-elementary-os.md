@@ -9,6 +9,7 @@ tags:
   - tattle-tale
   - appcenter
   - funding
+  - evergreen
 ---
 
 With the [release of elementary OS 5 Juno](https://medium.com/@cassidyjames/471dfdedc7b3) still fresh, I wanted to take a moment and talk about our continued privacy focus with elementary OS. We’ve always been fanatical about respecting your privacy, but with Juno, we’ve added some awesome new features that have brought it to the forefront of my mind.

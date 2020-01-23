@@ -3,6 +3,7 @@ title: Managing Criticism on Both Ends
 author: cassidyjames
 tags:
   - meta
+  - evergreen
 ---
 
 I've been working with elementary and the community for quite some time now, and I've gotten a pretty good feel for the individuals that make up the awesome team. Not only that, but I know the direction of the project as a whole, and I help keep things on track. Heck, that's why I'm part of the team to begin with. I've invested countless hours of my time into helping to craft an incredible open computing platform. So when it receives criticism, I take it personally.
