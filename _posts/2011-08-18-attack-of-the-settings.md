@@ -25,7 +25,7 @@ As you can see, Switchboard arranges the different settings available to you by 
 
 If the app above is the brains of Switchboard, then plugs are its brawn. Plugs are small mini-applications written using LibPantheon—a Vala library that provides APIs for interacting with and extending the Pantheon desktop. LibPantheon provides APIs and tools for creating plugs for Switchboard, and it is mainly because of this consistent set of APIs that Switchboard is able to provide a clean and coherent experience. On the technical level, Switchboard plugs are executable binaries (like normal desktop apps) with small textfiles that describe the plug to Switchboard. When a plug is selected from the Switchboard app, the plug embeds itself into the window of Switchboard, giving the illusion that Switchboard contains all of the code for it’s plugs.
 
-## Switchboard is not..
+## Switchboard is not…
 
 To alleviate and minimize any confusion, Switchboard is not a place for your application to store its settings or provide configuration options. It is not a replacement for things like GSettings, dconf, gconf, and configuration files. Rather, it is a graphical abstraction of such technologies for system components and hardware. A general rule of thumb is that if your app is stand-alone and not hardware related, it doesn’t need a plug. Things like your favorite dictionary app or game should use technologies like the app menu and configuration screens to modify their behavior. Switchboard is meant to provide a place for global configuration settings, such as power options, device syncing, or third-party hardware.
 
