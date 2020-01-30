@@ -7,7 +7,7 @@ tags:
  - updates
 ---
 
-Fresh on the heels of [releasing elementary OS 5.1 Hera](/introducing-elementary-os-5-1-hera), we spent January pushing out several developer-focused updates to core apps. We also focused on System Settings and some small visual improvements.
+Fresh on the heels of [releasing elementary OS 5.1 Hera](/introducing-elementary-os-5-1-hera), we spent January pushing out several developer-focused updates to core apps. We also focused on privacy, System Settings, and some small visual improvements.
 
 ## Code
 
