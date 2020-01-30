@@ -28,7 +28,7 @@ We released [Terminal 5.5](https://github.com/elementary/terminal/releases/tag/5
 
 ![Terminal Screenshot](https://raw.githubusercontent.com/elementary/terminal/1f869829535c52ecd7e4533adecb016432dd532a/data/screenshot.png){: width="1626" height="1200"}
 
-We also added keyboard scrolling with <kbd>Ctrl</kbd><kbd>+</kbd>/<kbd>-</kbd>, made Terminal instantly reflect font changes, added the `sudo` password prompt text when copying the last output, and fixed a couple of issues with duplicated or extra "Home" tabs on startup.
+We also added keyboard scrolling with <kbd>Ctrl</kbd>+ Mouse Scroll, made Terminal instantly reflect font changes, added the `sudo` password prompt text when copying the last output, and fixed a couple of issues with duplicated or extra "Home" tabs on startup.
 
 ## Files
 
