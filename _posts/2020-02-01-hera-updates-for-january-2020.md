@@ -42,12 +42,15 @@ We pushed out [an update](https://github.com/elementary/default-settings/release
 
 An [update to System Settings](https://github.com/elementary/switchboard/releases/tag/2.3.8) fixed some issues with tiling, restoring the correct window size, and alignment at large window sizes.
 
-<figure markdown="1">
-![Screenshot of Mouse & Touchpad settings](https://raw.githubusercontent.com/elementary/switchboard-plug-mouse-touchpad/e29971124f1949ddee3077178c6202f7d3f910bd/data/screenshot-clicking.png){: width="1978" height="1370"}
-<figcaption>Updated Mouse & Touchpad settings</figcaption>
+<figure class="half" markdown="1">
+![Old Mouse & Touchpad settings](https://raw.githubusercontent.com/elementary/switchboard-plug-mouse-touchpad/5928c23e2e842137251750397f28e742f083dfce/data/screenshot-clicking.png){: width="1978" height="1370"}
+![Updated Mouse & Touchpad settings](https://raw.githubusercontent.com/elementary/switchboard-plug-mouse-touchpad/e29971124f1949ddee3077178c6202f7d3f910bd/data/screenshot-clicking.png){: width="1978" height="1370"}
+<figcaption markdown="1">
+**Left:** Previous Mouse & Touchpad settings | **Right:** Updated Mouse & Touchpad settings
+</figcaption>
 </figure>
 
-We [updated the Mouse & Touchpad](https://github.com/elementary/switchboard-plug-mouse-touchpad/releases/tag/2.4.0) settings to add new Dwell Click and Pointer Size settings, making the default settings [more accessible to everyone](/accessibility-features-are-just-features). We also refreshed the primary button selection styling to make it more clear.
+We [updated the Mouse & Touchpad](https://github.com/elementary/switchboard-plug-mouse-touchpad/releases/tag/2.4.0) settings to add new Dwell Click and Pointer Size settings, making the default settings [more accessible to everyone](/accessibility-features-are-just-features). We also refreshed the primary button selection styling to make it more clear and added explicit number entries for the dwell click and long-press secondary click settings.
 
 ![Screenshot of the Screenshot app](https://raw.githubusercontent.com/elementary/screenshot/64ef0e25f1e302d678b3dd85a6c1f24c8801102d/data/screenshot.png){: width="442" height="448"}
 
