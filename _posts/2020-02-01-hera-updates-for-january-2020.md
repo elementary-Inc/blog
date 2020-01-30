@@ -2,6 +2,7 @@
 title: Hera Updates for January, 2020
 description: Focusing on developers, privacy, and fine tuning
 author: cassidyjames
+image: https://raw.githubusercontent.com/elementary/terminal/1f869829535c52ecd7e4533adecb016432dd532a/data/screenshot.png
 tags:
  - hera
  - updates
@@ -31,9 +32,9 @@ We also added keyboard scrolling with <kbd>Ctrl</kbd><kbd>+</kbd>/<kbd>-</kbd>, 
 
 ## Files
 
-Another big release in January was [Files 4.3](https://github.com/elementary/files/releases/tag/4.3.0). This developer-focused update added Git integration directly into Files, showing the status of files in your Git project folders. Lastly, we fixed several smaller issues with the pathbar, tabs, styling, and the headerbar.
+Another big release in January was [Files 4.3](https://github.com/elementary/files/releases/tag/4.3.0). This developer-focused update added Git integration directly into Files, showing the status of files in your Git project folders. We also fixed several smaller issues with the pathbar, tabs, styling, and the headerbar.
 
-Similar to Code, Files also now respects the system-wide _Security & Privacy_ → _History_ setting.
+Similar to Code, Files now respects the system-wide _Security & Privacy_ → _History_ setting.
 
 ## And More!
 
@@ -41,7 +42,12 @@ We pushed out [an update](https://github.com/elementary/default-settings/release
 
 An [update to System Settings](https://github.com/elementary/switchboard/releases/tag/2.3.8) fixed some issues with tiling, restoring the correct window size, and alignment at large window sizes.
 
-We [updated the Mouse & Touchpad](https://github.com/elementary/switchboard-plug-mouse-touchpad/releases/tag/2.4.0) settings to add new Dwell Click and Pointer Size settings, making the default settings [more accessible to everyone](/accessibility-features-are-just-features).
+<figure markdown="1">
+![Screenshot of Mouse & Touchpad settings](https://raw.githubusercontent.com/elementary/switchboard-plug-mouse-touchpad/e29971124f1949ddee3077178c6202f7d3f910bd/data/screenshot-clicking.png){: width="1978" height="1370"}
+<figcaption>Updated Mouse & Touchpad settings</figcaption>
+</figure>
+
+We [updated the Mouse & Touchpad](https://github.com/elementary/switchboard-plug-mouse-touchpad/releases/tag/2.4.0) settings to add new Dwell Click and Pointer Size settings, making the default settings [more accessible to everyone](/accessibility-features-are-just-features). We also refreshed the primary button selection styling to make it more clear.
 
 ![Screenshot of the Screenshot app](https://raw.githubusercontent.com/elementary/screenshot/64ef0e25f1e302d678b3dd85a6c1f24c8801102d/data/screenshot.png){: width="442" height="448"}
 
