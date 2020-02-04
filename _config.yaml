@@ -25,6 +25,10 @@ authors:
     name: Karen Sophia
     description: "Customer Engagement"
     # gravatar: e0ac5d5e717da67a36ac72adf235bc42
+  kgrubb:
+    name: Keli Grubb
+    description: Developer
+    gravatar: 8e8d16d136c38f3a28820490c17928d1
   peteruithoven:
     name: Peter Uithoven
     description: "Front-end Developer"
