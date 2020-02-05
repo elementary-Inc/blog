@@ -2,7 +2,7 @@
 title: We’re Going to WestCoast Summit!
 tags:
   - event
-  - GNOME
+  - gnome
 ---
 
 At the end of June, we’ll be meeting up with GNOME developers from the United States to discuss our future plans and how we can collaborate. It’s a wonderful opportunity to meet other players from the open source world in California’s famous Silicon Valley.
