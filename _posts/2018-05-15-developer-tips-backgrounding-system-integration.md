@@ -103,6 +103,4 @@ The [HIG entry](https://elementary.io/docs/human-interface-guidelines#system-ind
 
 Apps should run in the background when it makes sense, and use the great ways to integrate into the OS through the Dock, Applications Menu, and Notifications. This helps keep users in control of their system and allows for deeper system integration when it makes sense — like when we added static QuickLists and dock badges to the Applications Menu.
 
-I hope this helps you build great apps for your users on elementary OS and AppCenter! We’ve written a handful of other [Developer Tips](/tags/#developer-tips) articles to guide you.
-
-Is there an aspect of developing for AppCenter and elementary OS that we haven’t covered? Let us know with a response or on social media!
+I hope this helps you build great apps for your users on elementary OS and AppCenter! We’ve written a handful of other [Developer Tips](/tags/#developer-tips) articles to guide you. Is there an aspect of developing for AppCenter and elementary OS that we haven’t covered? Let us know on social media!
