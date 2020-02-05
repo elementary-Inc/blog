@@ -1,15 +1,12 @@
 ---
-title: "Introducing New AppCenter Sharing URLs"
+title: Introducing New AppCenter Sharing URLs
 description: "Easily share apps to users whether or not they’re on elementary OS"
 author: cassidyjames
 date: 2018-07-20T19:32:46.360Z
-image: /assets/images/introducing-new-appcenter-sharing-urls/1_mzxdebxqeMgyDfAAHn5ug.png
+image: /images/introducing-new-appcenter-sharing-urls/1_mzxdebxqeMgyDfAAHn5ug.png
 tags:
-  - "web-development"
-  - "tips"
-  - "appcenter"
-  - "open-source"
-  - "elementary-os"
+  - web
+  - appcenter
 ---
 
 Over the past several weeks I’ve been working on a revamped [appcenter.elementary.io](https://appcenter.elementary.io/). Today I’m happy to announce its official debut!
@@ -25,7 +22,7 @@ It works fine when everyone is on elementary OS, but I wanted to expand it to be
 If you’re running elementary OS, you can use the “Share” button on any curated app’s AppCenter page to send a link. This link now points to a web-based listing of the app, where users of elementary OS can easily open their own native AppCenter to install it, while everyone else can still view the app listing with screenshots, the description, etc. on the web.
 
 <figure markdown="1">
-![Preview of a web-based app listing](/assets/images/introducing-new-appcenter-sharing-urls/1-HNF7ahBA3j_TNzgTBkYbA.png)
+![Preview of a web-based app listing](/images/introducing-new-appcenter-sharing-urls/1-HNF7ahBA3j_TNzgTBkYbA.png)
 <figcaption markdown="1">
 Preview of a web-based app listing
 </figcaption>
@@ -38,13 +35,14 @@ Anyone can link to or share this URL; if you’re an app developer and want to s
 The last piece of this puzzle is the new homepage at [appcenter.elementary.io](https://appcenter.elementary.io). Originally, this wasn’t even planned as part of the new site. But once we had all the data in one place, it made sense to make a little landing page and a count of all of the apps.
 
 <figure markdown="1">
-![](/assets/images/introducing-new-appcenter-sharing-urls/1_mzxdebxqeMgyDfAAHn5ug.png)
+![](/images/introducing-new-appcenter-sharing-urls/1_mzxdebxqeMgyDfAAHn5ug.png)
 </figure>
 
 While I don’t plan for this to replicate the entire experience of browsing apps in AppCenter, it’s a handy resource to see what all is available and just how many apps there are.
 
 ## How It’s Made: Let’s Get Nerdy
-> # If you’re uninterested in the technical details and web development, this section is probably super boring. Feel free to skip it! But for those following along, I wanted to tell a bit of the story:
+
+>If you’re uninterested in the technical details and web development, this section is probably super boring. Feel free to skip it! But for those following along, I wanted to tell a bit of the story:
 
 ### Going Static
 
@@ -69,7 +67,7 @@ Once this was all working, it meant we had a fully automated web-based AppStream
 I set up the last piece: a simpler version of the `appstream://` URL generation. The old version attempted to throw this redirect automatically based on user agent, but it turns out confidently detecting elementary OS (or any specific build of a Linux-based OS) is pretty hard. Instead, we can do a minimal amount of guessing about your OS (Is it Linux? Is it not Android? Then you might be on elementary OS.), and only show the dialog then. If you’re on macOS, some other known Linux distro, Windows, an iPhone, etc. you’ll just see the app listing with a button to get elementary OS. If you might be on elementary OS, you see this dialog instead of an automatic redirect:
 
 <figure markdown="1">
-![The new “Open in AppCenter” dialog](/assets/images/introducing-new-appcenter-sharing-urls/18rtpg7U9KEAFD5YDMjUoRw.png)
+![The new “Open in AppCenter” dialog](/images/introducing-new-appcenter-sharing-urls/18rtpg7U9KEAFD5YDMjUoRw.png)
 <figcaption markdown="1">
 The new “Open in AppCenter” dialog
 </figcaption>
@@ -80,5 +78,3 @@ Here you can hit the big blue button to pop open AppCenter to this app’s page 
 ### Contributing
 
 Want to make the site even better? Like everything we do at elementary, it’s open source and open to collaboration [on GitHub](https://github.com/elementary/appcenter-web). File an issue, submit a PR, or fork it and build your own thing!
-
-*Thank you to everyone who’s shared or bought an app on AppCenter, our supporters on [Bountysource](https://salt.bountysource.com/teams/elementary) and[ Patreon](https://www.patreon.com/elementary), and those who’ve purchased a copy of [elementary OS](https://elementary.io/) or merch from [our store](https://elementary.io/store/). Every contribution helps make all of this possible, and we wouldn’t be here without you! If you’d like to help improve elementary OS, don’t hesitate to [Get Involved](https://elementary.io/get-involved)!*

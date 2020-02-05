@@ -1,18 +1,15 @@
 ---
-title: "AppCenter Website Updates"
-description: "Release notes, prices, and more"
+title: AppCenter Website Updates
+description: Release notes, prices, and more
 author: cassidyjames
 date: 2019-01-28T19:16:59.804Z
-image: /assets/images/appcenter-website-updates/1kIeio0vBb2IEPF8lGkFM-A.png
+image: /images/appcenter-website-updates/1kIeio0vBb2IEPF8lGkFM-A.png
 tags:
-  - "elementary-os"
-  - "appcenter"
-  - "developer"
-  - "pay-what-you-want"
-  - "open-source"
+  - appcenter
+  - devs
 ---
 
-In July, we revealed [a brand new experience for sharing AppCenter URLs,](https://medium.com/elementaryos/introducing-new-appcenter-sharing-urls-4da5ee92f12d) powered by a new AppCenter website. It’s now been running smoothly for over six months, handling hundreds of app submissions and updates in a completely automated fashion. Today I’m happy to announce two important improvements to the AppCenter website: release notes and prices.
+In July, we revealed [a brand new experience for sharing AppCenter URLs,](/introducing-new-appcenter-sharing-urls) powered by a new AppCenter website. It’s now been running smoothly for over six months, handling hundreds of app submissions and updates in a completely automated fashion. Today I’m happy to announce two important improvements to the AppCenter website: release notes and prices.
 
 ## Release Notes
 
@@ -21,7 +18,7 @@ Every release submitted to AppCenter requires up-to-date and accurate release de
 No longer! AppCenter on the web now displays a list of recent releases, much like AppCenter on elementary OS. Since we don’t know which version a user has installed (if any) from the web, we show several releases worth of data. The latest release’s details are expanded so users can see what the latest update entailed, but each previous release can also be expanded. Each release also shows its release date, which can in itself serve as a great at-a-glance look into the developer’s update commitment (and doubles as a last-updated field for the latest release).
 
 <figure markdown="1">
-![Example of release notes on the AppCenter website](/assets/images/appcenter-website-updates/1kIeio0vBb2IEPF8lGkFM-A.png)
+![Example of release notes on the AppCenter website](/images/appcenter-website-updates/1kIeio0vBb2IEPF8lGkFM-A.png)
 <figcaption markdown="1">
 Example of release notes on the AppCenter website
 </figcaption>
@@ -36,7 +33,7 @@ Another small but important update is the inclusion of prices for paid apps. Bef
 Now, AppCenter on the web includes a new “Get it on AppCenter” section that serves two purposes: first, it exposes the developer-provided suggested price if the app is monetized; second, it provides more context about AppCenter itself for people who are potentially new to elementary OS and AppCenter.
 
 <figure markdown="1">
-![Example of the new “Get it on AppCenter” section, including pricing](/assets/images/appcenter-website-updates/1zityHyOjYsPsyxuqucMz2g.png)
+![Example of the new “Get it on AppCenter” section, including pricing](/images/appcenter-website-updates/1zityHyOjYsPsyxuqucMz2g.png)
 <figcaption markdown="1">
 Example of the new “Get it on AppCenter” section, including pricing
 </figcaption>
@@ -51,5 +48,3 @@ The latter makes sense since if you’re on elementary OS, you can just hit the 
 We also recently added a way to reset the “not on elementary OS” setting, a common user request: simply hit the new “Reset Preferences” button on the bottom of the home page. Thanks to community contributor [Spencer Kuzara](https://github.com/kodaxx) for putting in the work to ship that. We’ve also made a handful of small improvements to when app links (like the app’s homepage or issue tracker) are displayed to make that more reliable.
 
 Want to make the site even better? Like everything we do at elementary, it’s open source and open to collaboration [on GitHub](https://github.com/elementary/appcenter-web). File an issue, submit a PR, or fork it and build your own thing!
-
-*Thank you to everyone who’s shared or bought an app on AppCenter, our supporters on [Bountysource](https://salt.bountysource.com/teams/elementary) and [Patreon](https://www.patreon.com/elementary), and those who’ve purchased a copy of [elementary OS](https://elementary.io/) or merch from [our store](https://elementary.io/store/). Every contribution helps make all of this possible, and we wouldn’t be here without you! If you’d like to help improve elementary OS, don’t hesitate to [Get Involved](https://elementary.io/get-involved)!*
