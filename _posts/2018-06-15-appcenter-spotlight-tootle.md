@@ -3,23 +3,14 @@ title: "AppCenter Spotlight&#58; Tootle"
 description: "Lightning fast client for Mastodon"
 author: cassidyjames
 date: 2018-06-15T16:35:46.601Z
-image: /assets/images/appcenter-spotlight-tootle/0snfmdA90arYYTNT2.png
+image: /images/appcenter-spotlight-tootle/0snfmdA90arYYTNT2.png
 tags:
-  - "mastodon"
-  - "federation"
-  - "appcenter-spotlight"
-  - "elementary-os"
-  - "open-source"
+  - appcenter-spotlight
 ---
 
-It [hasn’t been long](https://medium.com/elementaryos/appcenter-spotlight-transporter-7c9db2472f37) since we featured an app by Bleak Grey, but he’s back at it. This month we’re taking a look at Tootle, a brand new native Mastodon client for elementary OS.
+It [hasn’t been long](/appcenter-spotlight-transporter) since we featured an app by Bleak Grey, but he’s back at it. This month we’re taking a look at Tootle, a brand new native Mastodon client for elementary OS.
 
-<figure markdown="1">
-![On elementary OS? Hit the button to get Tootle.](/assets/images/appcenter-spotlight-tootle/1nj0SqX8s3nICqGmfKcT6vg@2x.png)
-<figcaption markdown="1">
-On elementary OS? Hit the button to get Tootle.
-</figcaption>
-</figure>
+{% include appcenter.html rdnn="com.github.bleakgrey.tootle" %}
 
 ## Mastodon?
 
@@ -27,12 +18,9 @@ If you’ve not heard of [Mastodon](https://joinmastodon.org/), it’s an open s
 
 In a nutshell, Mastodon is a decentralized and open source social network that’s gotten a lot of press recently. You can read more about it at [joinmastodon.org](https://joinmastodon.org/).
 
-<figure markdown="1">
-![](/assets/images/appcenter-spotlight-tootle/0snfmdA90arYYTNT2.png)
-</figure>
-
-<figure markdown="1">
-![](/assets/images/appcenter-spotlight-tootle/0Ana8C5N17Bx6XLHM.png)
+<figure class="half" markdown="1">
+![](/images/appcenter-spotlight-tootle/0snfmdA90arYYTNT2.png)
+![](/images/appcenter-spotlight-tootle/0Ana8C5N17Bx6XLHM.png)
 </figure>
 
 Tootle, then, is a native client for your Mastodon accounts, allowing you to see the timeline, get notifications, and send “toots” (short messages, like “tweets”) out to the world. It looks and works a lot like a desktop Twitter app, but is super fast and designed specifically for Mastodon.
@@ -51,15 +39,6 @@ There’s also an upcoming release for Tootle that adds what Bleak is calling �
 
 Tootle is [available on AppCenter](https://appcenter.elementary.io/com.github.bleakgrey.tootle) today **for free.** Like all apps on AppCenter, its source code is also openly-licensed and [available on GitHub](https://github.com/bleakgrey/tootle).
 
-<figure markdown="1">
-![On elementary OS? Hit the button to get Tootle.](/assets/images/appcenter-spotlight-tootle/1nj0SqX8s3nICqGmfKcT6vg@2x.png)
-<figcaption markdown="1">
-On elementary OS? Hit the button to get Tootle.
-</figcaption>
-</figure>
+{% include appcenter.html rdnn="com.github.bleakgrey.tootle" %}
 
 As with Transporter, Bleak encourages people who want to help out with Tootle to get involved in any way they can — issues, ideas, feature requests, and pull requests are all welcome. Check the details on [GitHub](https://github.com/bleakgrey/tootle#contributing).
-
-*Thank you to all of the app developers like Bleak Grey, everyone who’s bought an app on AppCenter, our supporters on [Bountysource](https://salt.bountysource.com/teams/elementary) and[ Patreon](https://www.patreon.com/elementary), and those who’ve purchased a copy of [elementary OS](https://elementary.io/) or merch from [our store](https://elementary.io/store/). Each of these contributions helps make this all possible, and we wouldn’t be here without you.*
-
-*As always, if you’d like to help improve elementary OS, don’t hesitate to [Get Involved](https://elementary.io/get-involved)!*
