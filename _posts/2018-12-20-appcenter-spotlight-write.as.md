@@ -2,6 +2,7 @@
 title: 'AppCenter Spotlight: Write.as'
 description: Publish a thought in seconds
 author: cassidyjames
+image: https://cdn-images-1.medium.com/max/800/0*ySOuMXI64vUKZwpI.jpg
 date: '2018-12-20T22:13:10.873Z'
 tags:
   - appcenter-spotlight
