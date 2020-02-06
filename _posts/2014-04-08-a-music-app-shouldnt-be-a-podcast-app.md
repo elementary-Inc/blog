@@ -4,6 +4,7 @@ author: cassidyjames
 image: /images/a-music-app-shouldnt-be-a-podcast-app/music.png
 tags:
   - design
+  - evergreen
 ---
 
 Many popular music apps handle not only music, but podcasts. The thinking goes that since both are comprised of MP3s (or other audio files), that they should be handled in the same app.
