@@ -28,7 +28,7 @@ twitter: https://twitter.com/elementary/status/1201879011141586945
 
 Last October, we [announced elementary OS 5 Juno][juno] with wide-ranging updates to provide a more refined user experience, improve productivity for new and seasoned users alike, and take our developer platform to the next level. Today we're pleased to announce elementary OS 5.1 Hera, the latest major update.
 
-![Hera on a notebook computer]({{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/notebook-desktop.png){: srcset="{{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/notebook-desktop@2x.png 2x"}
+![Hera on a notebook computer]({{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/notebook-desktop.png){: srcset="{{ site.baseurl }}/images/introducing-elementary-os-5-1-hera/notebook-desktop@2x.png 2x" width="800" height="432"}
 
 Hera builds on the solid foundation of Juno while bringing: 
 
