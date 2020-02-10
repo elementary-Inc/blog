@@ -1,6 +1,6 @@
 ---
 title: AppCenter for Everyone
-description: Taking the indie, open source app store to the next level →
+description: Taking the indie, open source app store to the next level
 author: danrabbit
 image: /images/appcenter-for-everyone/header.jpg
 redirect_to: https://www.indiegogo.com/projects/appcenter-for-everyone/
