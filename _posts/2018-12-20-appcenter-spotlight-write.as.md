@@ -4,13 +4,14 @@ description: Publish a thought in seconds
 author: cassidyjames
 image: https://cdn-images-1.medium.com/max/800/0*ySOuMXI64vUKZwpI.jpg
 date: '2018-12-20T22:13:10.873Z'
+rdnn: com.github.writeas.writeas-gtk
 tags:
   - appcenter-spotlight
 ---
 
 It’s been a while since we did an AppCenter Spotlight due to the [massive Juno release](https://medium.com/elementaryos/elementary-os-5-juno-is-here-471dfdedc7b3) and [subsequent updates](/juno-updates-for-november-2018), but today we’re back with an app I’m delighted to share with you all.
 
-{% include appcenter.html rdnn="com.github.writeas.writeas-gtk" %}
+{% include appcenter.html %}
 
 Write.as is a distraction-free text editor on the surface, but underneath is so much more. [A Bunch Tell](https://abunchtell.com/) — the developers behind Write.as — describe it as a minimalist privacy-conscious writing and publishing platform and, “the quickest way to publish a thought.” I’ve been following the service itself off and on for a while now, but this week their native desktop app landed in elementary OS. Paired with the online service, it’s a great example of a well thought out experience, and one that I’m excited to follow as it evolves.
 
@@ -89,7 +90,7 @@ Besides the philosophical similarities, Matt said developing Write.as for elemen
 
 Write.as is [available on AppCenter today](https://appcenter.elementary.io/com.github.writeas.writeas-gtk) for the suggested price of $25. The Write.as team are asking $25 by default, but also tell existing subscribers, students, educators, and nonprofits to adjust the price as they see fit.
 
-{% include appcenter.html rdnn="com.github.writeas.writeas-gtk" %}
+{% include appcenter.html %}
 
 They also make an [iOS](https://itunes.apple.com/app/apple-store/id1000755153) and [Android](https://play.google.com/store/apps/details?id=com.abunchtell.writeas) version for writing on the go, so be sure to check those out. As with all apps on AppCenter, Write.as is [open source and available on GitHub](https://github.com/writeas/writeas-gtk). Drop by and file any issues you might have or follow the repo to track updates.
 

@@ -4,11 +4,12 @@ description: Create, develop, and visualize your ideas
 author: cassidyjames
 date: 2018-09-03T05:12:51.624Z
 image: /images/appcenter-spotlight-minder/0cMT1noyI1R7rq5Wz.png
+rdnn: com.github.phase1geo.minder
 tags:
   - appcenter-spotlight
 ---
 
-{% include appcenter.html rdnn="com.github.phase1geo.minder" %}
+{% include appcenter.html %}
 
 <figure markdown="1">
 ![Minder with map properties, including layouts and themes](/images/appcenter-spotlight-minder/0cMT1noyI1R7rq5Wz.png)
@@ -83,7 +84,7 @@ After that, Trevor plans to take a look at the current ecosystem of apps in AppC
 
 Minder is [available on AppCenter](https://appcenter.elementary.io/com.github.phase1geo.minder) today for the recommended price of **just $5**. Like all AppCenter apps, its source code is openly-licensed and [available on GitHub](https://github.com/phase1geo/minder/).
 
-{% include appcenter.html rdnn="com.github.phase1geo.minder" %}
+{% include appcenter.html %}
 
 Get in touch with Trevor and let him know what you think of Minder! You can email him at phase1geo [at] gmail.com or find him on Twitter at [@phase1g_o](https://twitter.com/@phase1g_o). If you’d like to make contributions, report bugs, or make feature requests to Minder be sure [follow the project on GitHub](https://github.com/phase1geo/minder/).
 

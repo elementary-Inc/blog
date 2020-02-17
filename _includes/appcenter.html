@@ -1,3 +1,9 @@
+{% if page.rdnn %}
+    {% assign rdnn = page.rdnn %}
+{% else %}
+    {% assign rdnn = include.rdnn %}
+{% endif %}
+
 <aside markdown="1">
-[![Get it on AppCenter](https://appcenter.elementary.io/badge.svg)](https://appcenter.elementary.io/{{ include.rdnn }})﻿
+[![Get it on AppCenter](https://appcenter.elementary.io/badge.svg)](https://appcenter.elementary.io/{{ rdnn }})﻿
 </aside>
