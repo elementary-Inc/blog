@@ -6,6 +6,7 @@ image: https://cdn-images-1.medium.com/max/256/0*Bebi8XYX_2GinLYy.png
 tags:
  - switching-from-macos
  - open-source
+  - evergreen
 ---
 
 > So far in this five part series we’ve talked about [The Basics]({{ site.baseurl }}{% post_url 2016-11-02-switching-from-macos-the-basics %}) of elementary OS (and how it compares to macOS), using elementary OS as a [Development Environment]({{ site.baseurl }}{% post_url 2016-11-03-switching-from-macos-developer-environment %}), how to tackle [Creative Work]({{ site.baseurl }}{% post_url 2016-11-04-switching-from-macos-creative-work %}) in elementary OS, and what [Hardware]({{ site.baseurl }}{% post_url 2016-11-05-switching-from-macos-hardware %}) to run elementary OS on.

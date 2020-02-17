@@ -6,6 +6,7 @@ image: https://cdn-images-1.medium.com/max/2000/0*bfVV1MpSSLDvNQeI.jpg
 tags:
   - switching-from-macos
   - design
+  - evergreen
 ---
 
 > In the previous piece I wrote about elementary OS as a [Developer Environment]({{ site.baseurl }}{% post_url 2016-11-03-switching-from-macos-developer-environment %}).

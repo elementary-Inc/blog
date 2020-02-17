@@ -7,6 +7,8 @@ image: https://cdn-images-1.medium.com/max/2000/1*zqydEido_Yipr0YiJv5hYg.png
 tags:
   - vala
   - devs
+  - meta
+  - evergreen
 ---
 
 <figure markdown="1">

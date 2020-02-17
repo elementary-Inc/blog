@@ -8,6 +8,7 @@ image: https://cdn-images-1.medium.com/max/2000/0*1ZHF9b7tL2tEN3zq.jpg
 tags:
   - switching-from-macos
   - oems
+  - evergreen
 ---
 
 > In the previous piece I wrote about elementary OS for [Creative Work]({{ site.baseurl }}{% post_url 2016-11-04-switching-from-macos-creative-work %}).

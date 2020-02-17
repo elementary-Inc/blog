@@ -5,6 +5,7 @@ author: cassidyjames
 image: https://cdn-images-1.medium.com/max/2000/0*8xJLr8SJ60bA4sIQ.png
 tags:
   - switching-from-macos
+  - evergreen
 ---
 
 We’ve been getting a ton of traffic at [elementary.io](https://elementary.io) and hearing a lot of chatter from Apple users after the underwhelming MacBook Pro event— mainly that Apple has abandoned the “Pro” market for which so many of their products are named. With this five part series, I’d love to show you how elementary OS is great for both casual computer users and professional developers. Particularly those coming from or more familiar with macOS.
