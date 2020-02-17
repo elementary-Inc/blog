@@ -1,7 +1,7 @@
-{% if page.rdnn %}
-    {% assign rdnn = page.rdnn %}
-{% else %}
+{% if include.rdnn %}
     {% assign rdnn = include.rdnn %}
+{% else %}
+    {% assign rdnn = page.rdnn %}
 {% endif %}
 
 <aside markdown="1">
