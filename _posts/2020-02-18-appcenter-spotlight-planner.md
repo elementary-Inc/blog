@@ -9,7 +9,7 @@ tags:
   - appcenter-spotlight
 ---
 
-If you've been looking for a great task management app, look no further: Planner by Alain M. is the one. It's also by far one of the most polished apps I've seen in AppCenter—it does so much, but it does it all well.
+If you've been looking for a great task management app, look no further: Planner by Alain is the one. It's also by far one of the most polished apps I've seen in AppCenter—it does so much, but it does it all well.
 
 {% include appcenter.html %}
 
@@ -20,7 +20,7 @@ Planner is designed around to-do lists, but it's much more than just a single li
 Planner is developed by Alain, a 25-year-old systems engineer and app developer from Cusco, Peru.
 
 <figure class="circle" markdown="1">
-![Alain](/images/appcenter-spotlight-planner/alain.jpg){: width="236" height="236"}
+![Alain](/images/appcenter-spotlight-planner/alain.jpg){: srcset="/images/appcenter-spotlight-planner/alain@2x.jpg 2x" width="320" height="320"}
 </figure>
 
 >My favorite hobby is listening to music, I feel that I concentrate much more when I put on my headphones and listen to a good hard rock at full volume. Otherwise, living in a tourist country, I like to travel and see new places. And from time to time I also like to cook (my girlfriend always tells me I'm a good cook).
@@ -37,7 +37,7 @@ So far, Alain has been happy with both elementary OS and AppCenter.
 
 >I really like elementary OS and AppCenter (I consider myself a fanboy) distributing your application for everyone to use is very easy.
 
-His one critique is that our payment processor [does not currently support Peru](https://stripe.com/global), so he can't monetize Planner yet (without incorporating a company in another country, i.e. using [Stripe Atlas](https://stripe.com/atlas)). However, he has seen some success in using [PayPal] and [Patreon] to help sustain development.
+The one critique is that our payment processor [does not currently support Peru](https://stripe.com/global), so Planner can't be monetized yet (without incorporating a company in another country, i.e. using [Stripe Atlas](https://stripe.com/atlas)). However, Alain has seen some success in using [PayPal] and [Patreon] to help sustain development.
 
 ## How Planner Works
 
@@ -84,21 +84,21 @@ Planner is [available on AppCenter](https://appcenter.elementary.io/{{ page.rdnn
 
 {% include appcenter.html %}
 
-While Alain has made Planner available for free, he does have a [PayPal] and [Patreon] to help sustain development. If you're a fan of Planner or his other apps, consider supporting him or becoming a patron! You can follow Alain on Twitter at [@alainm23], or Planner at [@planner_todo].
+While Alain has made Planner available for free, they do have a [PayPal] and [Patreon] to help sustain development. If you're a fan of Planner or Alain's other apps, consider contributing via PayPal or becoming a patron! You can follow Alain on Twitter at [@alainm23], or Planner at [@planner_todo].
 
 ## Future
 
-What's coming in the future from Alain? He provided some teases:
+What's coming in the future from Alain? They provided some teases:
 
 >I have some ideas for Planner 3. I've been thinking about developing a mobile application and stop using Todoist as a synchronization server and develop one of my own. I've also been thinking about developing a native Apple Music client for Linux and a multisystem game emulator similar to OpenEmu.
 
-While these weren't strict promises, I would definitely be interested in an online music app and game emulator! I look forward to seeing what he does next. 
+While these weren't strict promises, I would definitely be interested in an online music app and game emulator! I look forward to seeing what they do next.
 
 ## Thanks
 
 Thanks to all of the app developers like Alain, everyone who has bought an app on AppCenter, and to all of our supporters, backers, and customers! Your contributions make elementary possible. If you’d like to help build and improve elementary OS, don’t hesitate to [Get Involved](https://elementary.io/get-involved).
 
-Alain would like to thank all the people who helped him develop Planner, and everyone who has contributed via PayPal and Patreon.
+Alain would like to thank all the people who helped them develop Planner, and everyone who has contributed via PayPal and Patreon.
 
 [PayPal]: https://www.paypal.me/alainm23
 [Patreon]: https://www.patreon.com/alainm23
