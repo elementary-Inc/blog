@@ -63,6 +63,13 @@ Example project list
 
 What strikes me most about Planner is its thoroughly thought out design, including tons of tiny, delightful animations and impressive details. For example, when you select the Inbox, Today, or Upcoming views, their icons have a cute little wiggle within the colored box. It's tiny and easily missable, but it's the kind of attention to detail that makes an app really stand out. Similarly, delete buttons spin out from the side on hover, the "Add list" options slide up in a card over the sidebar, and extra controls like buttons for expanding a list or editing a section smoothly fade in when needed.
 
+<figure class="card" markdown="1">
+![Animations in Planner](/images/appcenter-spotlight-planner/animations.gif){: width="397" height="342"}
+<figcaption markdown="1">
+Look at these cute little animations!
+</figcaption>
+</figure>
+
 All of the little animations feel like they do something to both add to delight and help communicate the spatial model (where things on the screen are coming from or going to when they appear or disappear). And they do so without affecting performance at all.
 
 ### Todoist Sync
