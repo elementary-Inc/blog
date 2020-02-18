@@ -86,6 +86,14 @@ Planner is [available on AppCenter](https://appcenter.elementary.io/{{ page.rdnn
 
 While Alain has made Planner available for free, he does have a [PayPal] and [Patreon] to help sustain development. If you're a fan of Planner or his other apps, consider supporting him or becoming a patron! You can follow Alain on Twitter at [@alainm23], or Planner at [@planner_todo].
 
+## Future
+
+What's coming in the future from Alain? He provided some teases:
+
+>I have some ideas for Planner 3. I've been thinking about developing a mobile application and stop using Todoist as a synchronization server and develop one of my own. I've also been thinking about developing a native Apple Music client for Linux and a multisystem game emulator similar to OpenEmu.
+
+While these weren't strict promises, I would definitely be interested in an online music app and game emulator! I look forward to seeing what he does next. 
+
 ## Thanks
 
 Thanks to all of the app developers like Alain, everyone who has bought an app on AppCenter, and to all of our supporters, backers, and customers! Your contributions make elementary possible. If you’d like to help build and improve elementary OS, don’t hesitate to [Get Involved](https://elementary.io/get-involved).
