@@ -78,14 +78,6 @@ Cross-device support with Todoist
 
 To me, syncing with multiple devices is table stakes for a project management or to-do app. I don't always have my main computer right in front of me, but that shouldn't stop me from jotting down a to-do or checking something off as done. Planner delivers wonderfully with its Todoist support.
 
-## Get Planner
-
-Planner is [available on AppCenter](https://appcenter.elementary.io/{{ page.rdnn }}) today for free. As with all apps on AppCenter, it's open source and [available on Github](https://github.com/alainm23/planner).
-
-{% include appcenter.html %}
-
-While Alain has made Planner available for free, they do have a [PayPal] and [Patreon] to help sustain development. If you're a fan of Planner or Alain's other apps, consider contributing via PayPal or becoming a patron! You can follow Alain on Twitter at [@alainm23], or Planner at [@planner_todo].
-
 ## Future
 
 What's coming in the future from Alain? They provided some teases:
@@ -94,11 +86,21 @@ What's coming in the future from Alain? They provided some teases:
 
 While these weren't strict promises, I would definitely be interested in an online music app and game emulator! I look forward to seeing what they do next.
 
+## Get Planner
+
+Planner is [available on AppCenter](https://appcenter.elementary.io/{{ page.rdnn }}) today for free. As with all apps on AppCenter, it's open source and [available on Github](https://github.com/alainm23/planner).
+
+{% include appcenter.html %}
+
+While Alain has made Planner available for free, they do have a [PayPal] and [Patreon] to help sustain development. If you're a fan of Planner or Alain's other apps, consider contributing via PayPal or becoming a patron! You can follow Alain on Twitter at [@alainm23], or Planner at [@planner_todo].
+
 ## Thanks
 
 Thanks to all of the app developers like Alain, everyone who has bought an app on AppCenter, and to all of our supporters, backers, and customers! Your contributions make elementary possible. If you’d like to help build and improve elementary OS, don’t hesitate to [Get Involved](https://elementary.io/get-involved).
 
 Alain would like to thank all the people who helped them develop Planner, and everyone who has contributed via PayPal and Patreon.
+
+{% include spotlight.html %}
 
 [PayPal]: https://www.paypal.me/alainm23
 [Patreon]: https://www.patreon.com/alainm23
