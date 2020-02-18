@@ -37,7 +37,7 @@ So far, Alain has been happy with both elementary OS and AppCenter.
 
 >I really like elementary OS and AppCenter (I consider myself a fanboy) distributing your application for everyone to use is very easy.
 
-His one critique is that our payment processor does not currently support Peru, so he can't monetize Planner yet (without incorporating a company in another country, i.e. using [Stripe Atlas](https://stripe.com/atlas)). However, he has seen some success in using [PayPal] and [Patreon] to help sustain development.
+His one critique is that our payment processor [does not currently support Peru](https://stripe.com/global), so he can't monetize Planner yet (without incorporating a company in another country, i.e. using [Stripe Atlas](https://stripe.com/atlas)). However, he has seen some success in using [PayPal] and [Patreon] to help sustain development.
 
 ## How Planner Works
 
