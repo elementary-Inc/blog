@@ -5,6 +5,7 @@ author: cassidyjames
 rdnn: com.github.alainm23.planner
 image: /images/appcenter-spotlight-planner/project_800.png
 thanks: true
+hidden: true
 tags:
   - appcenter-spotlight
 ---
