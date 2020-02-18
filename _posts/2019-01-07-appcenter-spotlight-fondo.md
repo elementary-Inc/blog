@@ -4,11 +4,12 @@ description: "Find the most beautiful wallpapers"
 author: cassidyjames
 date: 2019-01-07T23:48:12.582Z
 image: /images/appcenter-spotlight-fondo/1d6OfLEIQWFHKFHU_wyyPFw.png
+rdnn: com.github.calo001.fondo
 tags:
   - appcenter-spotlight
 ---
 
-{% include appcenter.html rdnn="com.github.calo001.fondo" %}
+{% include appcenter.html %}
 
 elementary uses [Unsplash](https://unsplash.com) as a source for many of our wallpapers, and now there’s a native app here to let you easily browse and set even more wallpapers from the world’s most generous community of photographers.
 
@@ -72,4 +73,4 @@ Be sure to follow Carlos across the web to keep in touch about Fondo and any fut
 
 Fondo is [available on AppCenter](https://appcenter.elementary.io/com.github.calo001.fondo) today for free. As with all apps on AppCenter, it is also open source and [available on GitHub](https://github.com/calo001/fondo).
 
-{% include appcenter.html rdnn="com.github.calo001.fondo" %}
+{% include appcenter.html %}
