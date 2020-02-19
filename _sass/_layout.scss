@@ -64,7 +64,8 @@ article {
     max-width: var(--content-width);
   }
 
-  img {
+  img,
+  video {
     display: block;
     height: auto;
     margin-left: auto;
