@@ -67,7 +67,6 @@ What strikes me most about Planner is its thoroughly thought out design, includi
     <video width="448" height="384" autoplay="true" loop="true" playsinline="true" muted="true">
         <source src="/videos/appcenter-spotlight-planner/animations.webm" type="video/webm">
         <source src="/videos/appcenter-spotlight-planner/animations.mp4" type="video/mp4">
-        <img alt="Animations" src="/images/appcenter-spotlight-planner/animations.gif" width="904" height="774" />
     </video>
     <figcaption>Look at these cute little animations!</figcaption>
 </figure>
