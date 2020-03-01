@@ -30,8 +30,11 @@ This release includes keyboard shortcuts in context menus, fixes an issue with t
 
 We brought new features and minor updates to Code 3.3.
 
-<figure class="card" markdown="1">
-![Code](/images/hera-updates-for-february-2020/code@2x.png){: width="615" height="481"}
+<figure class="card">
+  <picture>
+    <source srcset="/images/hera-updates-for-february-2020/code-dark@2x.png" media="(prefers-color-scheme: dark)">
+    <img alt="Code" src="/images/hera-updates-for-february-2020/code@2x.png" width="615" height="481" />
+  </picture>
 </figure>
 
 A new "Close Other Folders" menu item helps clean up the project sidebar, the cyclic search setting in find/replace is now remembered between sessions, we added keyboard shortcuts to menu items, top-level project folders are no longer selectable (since it didn't do anything), and new windows now open up centered on your display.
