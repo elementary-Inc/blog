@@ -29,7 +29,7 @@ We brought new features and minor updates to Code 3.3 in February. A new "Close 
 
 ## …and more
 
-We released a minor update to the login and lock screen Greeter that ensures manual login is available when users are hidden. Similar to AppCenter, we improved the performance and accuracy of the download size calculation for Sideload 1.0.1.
+We released a minor update to the login and lock screen Greeter that ensures manual login is available when users are hidden. Similar to AppCenter, we improved the performance and accuracy of the download size calculation for Sideload 1.0.1. A minor 5.4.2 update to the system stylesheet ensures text in dialog buttons remains vertically aligned.
 
 ## Get It
 
