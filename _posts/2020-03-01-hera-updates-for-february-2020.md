@@ -2,6 +2,7 @@
 title: Hera Updates for February, 2020
 description: Improvements to AppCenter, Files, Code, and more
 author: cassidyjames
+image: /images/hera-updates-for-february-2020/code@2x.png
 tags:
  - hera
  - updates
@@ -11,21 +12,29 @@ This month we launched our [AppCenter for Everyone campaign](https://www.indiego
 
 ## AppCenter
 
+We released AppCenter 3.2.2 with a ton of small but meaningful updates and fixes.
+
 ![AppCenter](https://raw.githubusercontent.com/elementary/appcenter/master/data/screenshot.png)
 
-We released AppCenter 3.2.2 with a ton of small but meaningful updates and fixes: more accurate download size estimates, faster loading for the Installed view, more consistent inclusion and sorting of apps in list views—especially for Flatpaks that weren't showing before, fixes for HTML entities (like `&amp;`) showing in app names, the ability to remove externally-installed Flatpaks from the Applications Menu, less bandwidth use (and faster loading) by downloading smaller screenshots when needed, a fixed "restart required" notification and infobar, and no more "Open" button on system components that aren't apps.
+The release includes more accurate download size estimates, faster loading for the Installed view, more consistent inclusion and sorting of apps in list views—especially for Flatpaks that weren't showing before, fixes for HTML entities (like `&amp;`) showing in app names, the ability to remove externally-installed Flatpaks from the Applications Menu, less bandwidth use (and faster loading) by downloading smaller screenshots when needed, a fixed "restart required" notification and infobar, and no more "Open" button on system components that aren't apps.
 
 ## Files
 
+We also released Files 4.4 in February.
+
 ![Files](https://raw.githubusercontent.com/elementary/files/master/data/screenshot-grid.png)
 
-We also released Files 4.4 in February. This release includes keyboard shortcuts in context menus, fixes an issue with the breadcrumbs in the file chooser, shows a warning when ejecting an in-use drive, and new red destructive styling on some trash dialog buttons. It also includes some minor fixes for the cursor and folder-open icon in the column view.
+This release includes keyboard shortcuts in context menus, fixes an issue with the breadcrumbs in the file chooser, shows a warning when ejecting an in-use drive, and new red destructive styling on some trash dialog buttons. It also includes some minor fixes for the cursor and folder-open icon in the column view.
 
 ## Code
 
-![Code](https://raw.githubusercontent.com/elementary/code/master/data/screenshot.png)
+We brought new features and minor updates to Code 3.3.
 
-We brought new features and minor updates to Code 3.3 in February. A new "Close Other Folders" menu item helps clean up the project sidebar, the cyclic search setting in find/replace is now remembered between sessions, we added keyboard shortcuts to menu items, top-level project folders are no longer selectable (since it didn't do anything), and new windows now open up centered on your display.
+<figure class="card" markdown="1">
+![Code](/images/hera-updates-for-february-2020/code@2x.png){: width="615" height="481"}
+</figure>
+
+A new "Close Other Folders" menu item helps clean up the project sidebar, the cyclic search setting in find/replace is now remembered between sessions, we added keyboard shortcuts to menu items, top-level project folders are no longer selectable (since it didn't do anything), and new windows now open up centered on your display.
 
 ## …and more
 
