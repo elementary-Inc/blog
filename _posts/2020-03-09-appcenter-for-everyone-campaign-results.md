@@ -14,7 +14,7 @@ tags:
 
 Today marks the end of the [AppCenter for Everyone](/appcenter-for-everyone) crowdfunding campaign. We're happy to report that we hit **over 190%** of our original goal, thanks to **619 backers** pledging a total of **$19,002**. Thank you to everyone who backed the campaign and shared it on social media! As previously shared, any excess above our expenses for the sprint will be put towards further development of AppCenter and elementary OS.
 
-We’ll be sending out **86** mugs, **77** hoodies, **129** sticker packs, and **270** early access invites to backers. **507** names will be added to the AppCenter source code.
+We’ll be sending out **87** mugs, **78** hoodies, **129** sticker packs, and **270** early access invites to backers. **507** names will be added to the AppCenter source code, and we'll be sending out **565** thank you emails.
 
 We smashed through our original $10,000 goal in just a few days, and launched a [stretch goal for a Privacy & Security sprint](https://www.indiegogo.com/projects/appcenter-for-everyone/updates/14). While we didn't _quite_ meet the 200% stretch goal, we came really close! We expect to be able to use the excess funds to cover at least part of the expenses for an additional sprint later this year.
 
