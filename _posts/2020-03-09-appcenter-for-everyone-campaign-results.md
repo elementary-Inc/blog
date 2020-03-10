@@ -30,7 +30,7 @@ Assuming the sprint takes place as planned, here's our anticipated timeline.
 
 ### AppCenter for Everyone Sprint
 
-The sprint is March 12–19, including arrival/departure days. We plan to be flexible based on discussion at the sprint itself, but we've planned to break into three teams and have a rough idea of tasks to tackle each day:
+The sprint is March 12–19, including arrival/departure days. We plan to be flexible based on discussion at the sprint itself, but we've planned to break into three teams and have a rough idea of tasks to tackle each day. You can follow along with the sprint plans and progress on our [GitHub Project](https://github.com/orgs/elementary/projects/72) as well.
 
 #### Design Track
 
