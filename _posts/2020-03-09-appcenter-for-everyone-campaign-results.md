@@ -49,7 +49,6 @@ The sprint is March 12–19, including arrival/departure days. We plan to be fle
 - Trigger AppCenter builds using hooks
 - Create an internal Flatpak repo and build with release hooks
 - AppCenter Dashboard
-- GitLab support (stretch)
 
 #### Desktop Track
 
@@ -57,13 +56,12 @@ The sprint is March 12–19, including arrival/departure days. We plan to be fle
 - Save payment tokens with the Secrets Portal
 - Restore purchases from Stripe Customer account
 - FileChooser portal
-- Automatic updates
 
 ### Rewards
 
-We plan to start the work towards fulfilling physical rewards (i.e. ensuring we have correct sizes and addresses, getting stickers ordered, etc.) this week, but expect to complete that work and start shipping them after the sprint (late March/early April).
+We plan to start the work towards fulfilling physical rewards (i.e. ensuring we have correct sizes and addresses, getting stickers ordered, etc.) soon after the sprint, and shipping physical rewards out in May.
 
-Backers of the "Your Name In Our Source Code" perk and higher will be added to the AppCenter source code this week. Backers of the "Early Access" perk and higher will receive an email with early access instructions later this year once we have usable development builds of elementary OS 6.
+Backers of the "Your Name In Our Source Code" perk and higher have been added to the [AppCenter source code](https://github.com/elementary/appcenter/tree/master/BACKERS.md)—if you selected one of these perks but chose to keep your contribution anonymous, please send us a message to list your name. Backers of the "Early Access" perk and higher will receive an email with early access instructions once we have usable development builds of elementary OS 6, which we expect to be this April.
 
 ### Privacy & Security Sprint
 
