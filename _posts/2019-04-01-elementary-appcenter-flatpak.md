@@ -3,7 +3,7 @@ title: elementary AppCenter + Flatpak
 description: Preparing for the future
 date: '2019-04-01T18:44:05.974Z'
 author: cassidyjames
-image: /images/elementary-appcenter-flatpak.png
+image: /images/elementary-appcenter-flatpak/flatpak.png
 tags:
   - appcenter
   - flatpak
