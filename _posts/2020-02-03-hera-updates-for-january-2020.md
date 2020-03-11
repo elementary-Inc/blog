@@ -6,6 +6,11 @@ image: https://raw.githubusercontent.com/elementary/terminal/1f869829535c52ecd7e
 tags:
  - hera
  - updates
+
+facebook: https://www.facebook.com/elementaryos/posts/3019965241368618
+mastodon: https://mastodon.social/@elementary/103598029607557817
+reddit: https://www.reddit.com/r/elementaryos/comments/eyi5xt/hera_updates_for_january_2020_elementary_blog/
+twitter: https://twitter.com/elementary/status/1224507935117795330
 ---
 
 Fresh on the heels of [releasing elementary OS 5.1 Hera](/introducing-elementary-os-5-1-hera), we spent January pushing out several developer-focused updates to core apps. We also focused on privacy, System Settings, and some small visual improvements.
