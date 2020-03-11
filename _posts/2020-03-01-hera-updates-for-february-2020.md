@@ -6,6 +6,11 @@ image: /images/hera-updates-for-february-2020/code@2x.png
 tags:
  - hera
  - updates
+
+facebook: https://www.facebook.com/elementaryos/posts/3082039618494513
+mastodon: https://mastodon.social/@elementary/103754936101433262
+reddit: https://www.reddit.com/r/elementaryos/comments/fcfsvb/hera_updates_for_february_elementary_blog/
+twitter: https://twitter.com/elementary/status/1234550184438304771
 ---
 
 This month we launched our [AppCenter for Everyone campaign](https://www.indiegogo.com/projects/appcenter-for-everyone), smashed through the goal in just a few days, and launched a [stretch goal for an additional sprint](https://www.indiegogo.com/projects/appcenter-for-everyone/updates/14). But we've also been hard at work releasing updates to elementary OS 5.1 Hera.
