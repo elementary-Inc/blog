@@ -28,7 +28,7 @@ Unfortunately, it felt like a lot of individual pieces of work were thrown out d
 
 ### Web Track
 
-A large part of our web team's goals to start was to investigate, understand, and communicate how all of the different web components fit together for a full Flatpak store; there's a Flatpak remore, flat-manager, linux-store-backend, linux-store-frontend, an account/authenticator web service, and then the dashboard (that we're building).
+A large part of our web team's goals to start was to investigate, understand, and communicate how all of the different web components fit together for a full Flatpak store; there's a Flatpak remote, flat-manager, linux-store-backend, linux-store-frontend, an account/authenticator web service, and then the dashboard (that we're building).
 
 Our web team worked on spinning up an OAuth server that could create a passwordless account (leaning on email link based sign in for now), with fancy websockets for a seamless login. We also threw together a small prototyping project so we could iterate on some web concepts quickly without spinning up a whole dynamic server.
 
