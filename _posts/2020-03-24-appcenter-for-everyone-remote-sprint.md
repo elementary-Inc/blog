@@ -16,23 +16,25 @@ While we ended up postponing the in-person [AppCenter for Everyone](/appcenter-f
 
 ## What We Worked On
 
-We did get some things done, though, and have a clearer picture of the path forward.
+Over the course of the attempted remote sprint, it became increasingly clear that for a product of this complexity, getting all of the stake holders in the same place and time is an absolute necessity. Due to issues with time zones, an inability to rapidly diagram or sketch collaboratively, and the general friction that comes with lag on a conference call between people on different continents, there were several times where we spent hours in the wrong direction. Unfortunately, it felt like a lot of individual pieces of work were thrown out due to evolving requirements and discoveries during the remote sprint. While that's typical _to an extent_ with any sprint, it felt like the remote aspect made it especially true this time around.
+
+We did learn and think through things, though, and we have a clearer picture of the path to take from here. But we're look forward to getting together in person and more productively working through these challenges.
+
 
 ### Design Track
 
-Design-wise we whiteboarded, worked through, and ultimately prototyped a few components of the future AppCenter experience. One prototype branch addressed adding an account menu to the native AppCenter client along with app download history and links to the other places to manage your payment methods and online accounts. Another couple of branches explored embedding first a web-based OAuth flow and then a native OAuth flow for an elementary sync account (name still pending), which would power syncing your payment methods and purchase history between devices.
+Design-wise we individually sketched and whiteboarded, shared and worked through those designs, and ultimately prototyped a few components of the future AppCenter experience. One prototype branch addressed adding an account menu to the native AppCenter client along with app download history and links to the other places to manage your payment methods and online accounts. Another couple of branches explored embedding first a web-based OAuth flow and then a native OAuth flow for an elementary sync account (name still pending), which would power syncing your payment methods and purchase history between devices.
 
-We also worked on a few branches for Online Accounts and the Wallet plug in System Settings to clean up the code and pave the way to these features.
+We also worked on a few branches for Online Accounts and the Wallet in System Settings to clean up the code and pave the way to these features. Even independently of our work on AppCenter, the substantial changes to Online Accounts should be a much smoother and more reliable workflow. Our UX work in the Wallet has also lead to some thoughts around the way we manage lists of items in other parts of the operating system and we're hoping to see that work begin to trick out soon.
 
-Unfortunately, it felt like a lot of individual pieces of work were thrown out due to evolving requirements and discoveries during the remote sprint. While that's typical _to an extent_ with any sprint, it felt like the remote aspect made it especially true this time around. We did learn and think through things, but we look forward to getting together in person and more productively working through some of the design tasks.
 
 ### Web Track
 
-A large part of our web team's goals to start was to investigate, understand, and communicate how all of the different web components fit together for a full Flatpak store; there's a Flatpak remote, flat-manager, linux-store-backend, linux-store-frontend, an account/authenticator web service, and then the dashboard (that we're building).
+In the beginning, a large part of our web team's goals was to investigate, understand, and communicate how all of the different web components fit together for a full Flatpak store: there's the Flatpak remote which stores and serves published apps, flat-manager which builds Flatpaks into that remote, linux-store-backend and linux-store-frontend which provide the web interface for sites like Flathub (and potentially appcenter.elementary.io), an account/authenticator web service which informs Flatpak of which apps you have previously purchased, and then the publishing dashboard where developers can submit their apps and view the status of those submissions.
 
-Our web team worked on spinning up an OAuth server that could create a passwordless account (leaning on email link based sign in for now), with fancy websockets for a seamless login. We also threw together a small prototyping project so we could iterate on some web concepts quickly without spinning up a whole dynamic server.
+In order to tie purchase history to an account that you can sign into on your computer, our web team worked on spinning up an OAuth server that could create a passwordless, email-link-based sign in, with fancy websockets for a native, seamless login. We also threw together a small prototyping project so we could iterate on some web concepts quickly without spinning up a whole dynamic server.
 
-We built a rough prototype web service mockup to start hooking into the Flatpak Authenticator—even if much or all of this code is thrown away in the end, it was useful to begin hooking all the pieces together and understanding what each part needed to do.
+We also built a rough prototype web service mockup to start hooking into the Flatpak Authenticator—even if much or all of this code is thrown away in the end, it was useful to begin hooking all the pieces together and understanding what each part needed to do.
 
 ### Desktop Track
 
@@ -42,7 +44,7 @@ On the desktop side of things, we started work on a shared library for component
 
 While prototyping, an issue with Valadoc cropped up that prevented some docs from loading properly. So as part of the sprint we found the root cause (a too-large build environment) and worked to resolve it and get Valadoc.org working smoothly again.
 
-We also worked toward some elementary OS 6 goals, working with Mutter and Vala upstream to get some fixes and new bindings in. We continued our work porting more Files code from C to Vala, and investigated some Flatpak implications for both Mail and Online Accounts management.
+We also worked toward some elementary OS 6 goals, working with Mutter and Vala upstream to get some fixes and new bindings in. We continued our work porting more Files code from C to Vala, and investigated some Flatpak implications for both Mail and Online Accounts management. As of now, daily images are being built with the new installer workflow and the live environment works as expected. We're facing a partitioning failure during installation, but we're excited to be so close to delivering a private preview to campaign backers.
 
 ## What's Next
 
