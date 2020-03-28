@@ -19,11 +19,11 @@ We did learn and think through things, though, and we have a clearer picture of 
 
 ### Design Track
 
-Design-wise we individually sketched and whiteboarded, shared and worked through those designs, and ultimately prototyped a few components of the future AppCenter experience. 
+Design-wise we individually sketched and whiteboarded, shared and worked through those designs, and ultimately prototyped a few components of the future AppCenter experience.
 
 <figure class="half" markdown="1">
-![Whiteboard sketches](/images/appcenter-for-everyone/whiteboard-sketch.jpg){: srcset="/images/appcenter-for-everyone/whiteboard-sketch@2x.png 2x"}
-![Notebook sketch](/images/appcenter-for-everyone/notebook-sketch.jpg){: srcset="/images/appcenter-for-everyone/notebook-sketch@2x.png 2x"}
+![Whiteboard sketches](/images/appcenter-for-everyone/whiteboard-sketch.jpg){: srcset="/images/appcenter-for-everyone/whiteboard-sketch@2x.jpg 2x"}
+![Notebook sketch](/images/appcenter-for-everyone/notebook-sketch.jpg){: srcset="/images/appcenter-for-everyone/notebook-sketch@2x.jpg 2x"}
 <figcaption>Rough sketches while working through Onboarding and OAuth flows</figcaption>
 </figure>
 
@@ -37,7 +37,7 @@ One prototype branch addressed adding an account menu to the native AppCenter cl
 <figcaption>Prototype branches of AppCenter and Onboarding</figcaption>
 </figure>
 
-We also worked on a few branches for Online Accounts and the Wallet in System Settings to clean up the code and pave the way to these features. Even independently of our work on AppCenter, the substantial changes to Online Accounts should be a much smoother and more reliable workflow. 
+We also worked on a few branches for Online Accounts and the Wallet in System Settings to clean up the code and pave the way to these features. Even independently of our work on AppCenter, the substantial changes to Online Accounts should be a much smoother and more reliable workflow.
 
 <figure class="half" markdown="1">
 ![Delete in Online Accounts](/images/appcenter-for-everyone/online-accounts-delete.png)
@@ -78,8 +78,8 @@ As soon as it is considered safe and appropriate, we do still plan to host an in
 
 ### Backer Rewards
 
-We're working towards fulfilling backer rewards from the Indiegogo campaign. So far, we've updated the [BACKERS.md file](https://github.com/elementary/appcenter/blob/master/BACKERS.md) to include any non-anonymous backers of the $10 tier or higher—as mentioned in [an earlier update](https://www.indiegogo.com/projects/appcenter-for-everyone#/updates/17), please double-check the file and message us through Indiegogo if you'd like your name changed or if you backed anonymously but would like your name included. 
+We're working towards fulfilling backer rewards from the Indiegogo campaign. So far, we've updated the [BACKERS.md file](https://github.com/elementary/appcenter/blob/master/BACKERS.md) to include any non-anonymous backers of the $10 tier or higher—as mentioned in [an earlier update](https://www.indiegogo.com/projects/appcenter-for-everyone#/updates/17), please double-check the file and message us through Indiegogo if you'd like your name changed or if you backed anonymously but would like your name included.
 
-Our physical reward partner has informed us that they expect delays due to numerous shelter-in-place orders and reduced capacity at their fullfilment centers; consequently stickers, mugs, and hoodies may take a bit longer to produce and arrive than expected. We'll keep you updated via Indiegogo updates with the latest information as we receive it. 
+Our physical reward partner has informed us that they expect delays due to numerous shelter-in-place orders and reduced capacity at their fullfilment centers; consequently stickers, mugs, and hoodies may take a bit longer to produce and arrive than expected. We'll keep you updated via Indiegogo updates with the latest information as we receive it.
 
 We have received test prints of both types of hoodies, and they do look great! The zip hoodie is a thinner, tighter fit material (more similar to a soft tee-shirt fabric), which makes it great for layering—especially in the spring and summer. Remember, if you did want to change the type or size of your hoodie, please message us on Indiegogo ASAP as we plan to begin fulfilling those orders soon. If you're unsure, check the [hoodie size chart we posted back on Feb 10](https://www.indiegogo.com/projects/appcenter-for-everyone#/updates/10).
