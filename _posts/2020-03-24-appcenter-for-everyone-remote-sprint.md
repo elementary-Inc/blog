@@ -12,7 +12,7 @@ tags:
 ![Confetti](/images/appcenter-for-everyone/confetti_2560.jpg)
 </figure>
 
-While we ended up postponing the in-person [AppCenter for Everyone](/appcenter-for-everyone) due to concerns around COVID-19, we did still get together remotely to get started on some of the work. We're a completely remote company and open source project to begin with, so we're used to working remotely; however, we had planned to get together in person to knock out more rapid whiteboarding, prototyping, and discussion that we've found is only at its most effective when people are in the same timezone and physical location for a few days.
+While we ended up postponing the in-person [AppCenter for Everyone](/appcenter-for-everyone) sprint due to concerns around COVID-19, we did still get together remotely to get started on some of the work. We're a completely remote company and open source project to begin with, so we're used to working remotely; however, we had planned to get together in person to knock out more rapid whiteboarding, prototyping, and discussion that we've found is only at its most effective when people are in the same timezone and physical location for a few days.
 
 ## What We Worked On
 
