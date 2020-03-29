@@ -14,7 +14,7 @@ While we ended up postponing the in-person [AppCenter for Everyone](/appcenter-f
 
 Over the course of the attempted remote sprint, it became increasingly clear that for a product of this complexity, getting all of the stake holders in the same place and time is an absolute necessity. Due to issues with time zones, an inability to rapidly diagram or sketch collaboratively, and the general friction that comes with lag on a conference call between people on different continents, there were several times where we spent hours in the wrong direction. Unfortunately, it felt like a lot of individual pieces of work were thrown out due to evolving requirements and discoveries during the remote sprint. While that's typical _to an extent_ with any sprint, it felt like the remote aspect made it especially true this time around.
 
-We did learn and think through things, though, and we have a clearer picture of the path to take from here. But we're look forward to getting together in person and more productively working through these challenges.
+We did learn and think through things, though, and we have a clearer picture of the path to take from here. But we're looking forward to getting together in person and more productively working through these challenges.
 
 
 ### Design Track
