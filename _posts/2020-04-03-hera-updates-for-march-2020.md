@@ -42,7 +42,7 @@ We also fixed an issue with disappearing notifications in the [Notifications ind
 
 ## System Settings
 
-In [System Settings](), we fixed a translation bug for Portuguese; updated the Universal Access settings to deduplicate some settings found elsewhere (as part of our [Curb Cuts effort](/accessibility-features-are-just-features)); added a new "Workspaces" icon and fixed how the Space key works with shortcuts in Keyboard settings; and fixed an issue with cancelling installing languages in the Language & Region settings.
+In [System Settings 2.3.9](https://github.com/elementary/switchboard/releases/tag/2.3.9), we fixed a translation bug for Portuguese. We also [updated the Universal Access settings](https://github.com/elementary/switchboard-plug-a11y/releases/tag/2.2.0) to deduplicate some settings found elsewhere (as part of our [Curb Cuts effort](/accessibility-features-are-just-features)); added a new "Workspaces" icon and fixed how the Space key works with shortcuts in a [Keyboard settings update](https://github.com/elementary/switchboard-plug-keyboard/releases/tag/2.3.6); and fixed an issue with cancelling installing languages in a [Language & Region settings update](https://github.com/elementary/switchboard-plug-locale/releases/tag/2.5.1).
 
 <figure markdown="1">![Wireless Network settings](/images/hera-updates-for-march-2020/wireless.png){: srcset="/images/hera-updates-for-march-2020/wireless@2x.png 2x" width="989" height="685"}
 <figcaption>Refreshed design for the Wireless Network settings</figcaption>
