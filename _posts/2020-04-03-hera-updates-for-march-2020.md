@@ -66,7 +66,7 @@ We released the [3.3 update for Gala](https://github.com/elementary/gala/release
 
 An under-the-hood change this month was the retiring of an old desktop component called [Cerbere](https://github.com/elementary/cerbere). Without getting too into the weeds, our desktop now works more closely with upstream components to ensure the session is launched and managed properly.
 
-A small [update to Terminal](https://github.com/elementary/terminal/releases/tag/5.5.2) adds a new `-t` command-line option to open a new tab, plus fixes accidental URL clicks. [Sideload 1.1](https://github.com/elementary/sideload/releases/tag/1.1.0) now shows the name of the app once the its data has loaded, making it easier to see and remember what you're about to install. And we added a new distinct app icon for Onboarding in [the 1.2 update](https://github.com/elementary/onboarding/releases/tag/1.2.0).
+[Calculator 1.5.5](https://github.com/elementary/calculator/releases/tag/1.5.5) includes a fix for inserting multi-byte characters. A small [update to Terminal](https://github.com/elementary/terminal/releases/tag/5.5.2) adds a new `-t` command-line option to open a new tab, plus fixes accidental URL clicks. [Sideload 1.1](https://github.com/elementary/sideload/releases/tag/1.1.0) now shows the name of the app once the its data has loaded, making it easier to see and remember what you're about to install. And we added a new distinct app icon for Onboarding in [the 1.2 update](https://github.com/elementary/onboarding/releases/tag/1.2.0).
 
 Finally, we released [an update](https://github.com/elementary/granite/releases/tag/5.3.1) to Granite, our library for developers, that better aligns labels in settings sidebars and makes keyboard shortcut labels settable.
 
