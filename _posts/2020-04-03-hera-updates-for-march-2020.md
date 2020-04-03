@@ -2,7 +2,7 @@
 title: Hera Updates for March, 2020
 description: Small improvements and fixes across the board
 author: cassidyjames
-image:
+image: /images/hera-updates-for-march-2020/wireless@2x.png
 tags:
  - hera
  - updates
@@ -59,6 +59,18 @@ An under-the-hood change this month was the retiring of an old desktop component
 A small [update to Terminal](https://github.com/elementary/terminal/releases/tag/5.5.2) adds a new `-t` command-line option to open a new tab, plus fixes accidental URL clicks. [Sideload 1.1](https://github.com/elementary/sideload/releases/tag/1.1.0) now shows the name of the app once the its data has loaded, making it easier to see and remember what you're about to install. And we added a new distinct app icon for Onboarding in [the 1.2 update](https://github.com/elementary/onboarding/releases/tag/1.2.0).
 
 Finally, we released [an update](https://github.com/elementary/granite/releases/tag/5.3.1) to Granite, our library for developers, that better aligns labels in settings sidebars and makes keyboard shortcut labels settable.
+
+### New Releases Tool
+
+To help us (and downstream projects) better track releases, we built out a little [releases tool](https://releases.elementary.io/) this week using the GitHub API, GitHub Actions to automatically keep up up to date, and GitHub Pages for hosting. It's just a start, but it's already super handy with a clear design, responsive layout, and automatic light/dark styles based on your browser.
+
+<figure class="half" markdown="1">
+![Light](/images/hera-updates-for-march-2020/releases-light@2x.png){: width="1403" height="970"}
+![Dark](/images/hera-updates-for-march-2020/releases-dark@2x.png){: width="1403" height="970"}
+<figcaption>New Releases tool in light and dark</figcaption>
+</figure>
+
+Want to see how it works or adapt it to your own uses? Check out the [source code on GitHub](https://github.com/elementary/releases).
 
 ## Get It
 
