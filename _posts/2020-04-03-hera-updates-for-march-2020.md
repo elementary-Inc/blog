@@ -38,7 +38,7 @@ With the [4.4.2 release](https://github.com/elementary/files/releases/tag/4.4.2)
 
 We spent some time this month pushing out updates to [the top panel itself](https://github.com/elementary/wingpanel/releases/tag/2.3.0) along with many of the indicators. Importantly, we fixed the panel interfering with certain display setups, like when a secondary display is above the primary display—multi-display users rejoice!
 
-We also fixed an issue with disappearing notifications in the [Notifications indicator](https://github.com/elementary/wingpanel-indicator-notifications/releases/tag/2.1.4), corrected the display of "Unknown Artist" in the [Sound indicator](https://github.com/elementary/wingpanel-indicator-sound/releases/tag/2.1.5), improved performance in the [Session indicator](https://github.com/elementary/wingpanel-indicator-session/releases/tag/2.2.8), and updated translations for many others.
+We also fixed an issue with disappearing notifications in a [Notifications indicator update](https://github.com/elementary/wingpanel-indicator-notifications/releases/tag/2.1.4), corrected the display of "Unknown Artist" with a [Sound indicator update](https://github.com/elementary/wingpanel-indicator-sound/releases/tag/2.1.5), improved performance with a [Session indicator update](https://github.com/elementary/wingpanel-indicator-session/releases/tag/2.2.8), and updated translations for many others.
 
 ## System Settings
 
@@ -48,7 +48,7 @@ In [System Settings 2.3.9](https://github.com/elementary/switchboard/releases/ta
 <figcaption>Refreshed design for the Wireless Network settings</figcaption>
 </figure>
 
-We released an improved design for the Wireless page in Network settings, which should make it more reliable and clear to join and manage networks. We also updated translations for most of the other settings pages.
+We [released](https://github.com/elementary/switchboard-plug-network/releases/tag/2.3.0) an improved design for the Wireless page in Network settings, which should make it more reliable and clear to join and manage networks. We also updated translations for most of the other settings pages.
 
 ## Calendar
 
