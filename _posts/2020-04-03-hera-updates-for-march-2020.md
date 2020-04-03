@@ -23,6 +23,13 @@ We released [Music 5.0.5](https://github.com/elementary/music/releases/tag/5.0.5
 
 We continued our quest to make Code the best editor for elementary OS with a [new 3.4 update](https://github.com/elementary/code/releases/tag/3.4.0) this month. A file's Git status now shows in its tooltip in the project sidebar, making it easier to understand what the status icons mean—especially if you're colorblind or just don't remember. We also added an option for explicit case-sensitive find/replace for those times when you want to find or replace the word `foo` but _not_ `Foo`.
 
+<figure>
+  <picture>
+    <source srcset="/images/hera-updates-for-march-2020/code-dark@2x.png" media="(prefers-color-scheme: dark)">
+    <img alt="Code" src="/images/hera-updates-for-march-2020/code-light@2x.png" width="1102" height="759" />
+  </picture>
+</figure>
+
 A couple of fixes round out the release, including fixing a switch alignment issue in the Font settings and correctly showing the Toggle Comment context menu item whether or not any text is selected.
 
 ## Files
@@ -39,8 +46,7 @@ We also fixed an issue with disappearing notifications in the [Notifications ind
 
 In System Settings, we fixed a translation bug for Portuguese; updated the Universal Access settings to deduplicate some settings found elsewhere (as part of our [Curb Cuts effort](/accessibility-features-are-just-features)); added a new "Workspaces" icon and fixed how the Space key works with shortcuts in Keyboard settings; and fixed an issue with cancelling installing languages in the Language & Region settings.
 
-<figure markdown="1">
-![Wireless Network settings](/images/hera-updates-march-2020/wireless.png){: srcset="/images/hera-updates-march-2020/wireless@2x.png 2x" width="989" height="685"}
+<figure markdown="1">![Wireless Network settings](/images/hera-updates-for-march-2020/wireless.png){: srcset="/images/hera-updates-for-march-2020/wireless@2x.png 2x" width="989" height="685"}
 <figcaption>Refreshed design for the Wireless Network settings</figcaption>
 </figure>
 
