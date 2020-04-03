@@ -15,10 +15,6 @@ twitter:
 
 Fresh on the heels of the [AppCenter for Everyone Remote Sprint](/appcenter-for-everyone-remote-sprint), we still managed to push out a good amount of updates over the course of March (and early April). Let's dive into what's new.
 
-## Music
-
-We released [Music 5.0.5](https://github.com/elementary/music/releases/tag/5.0.5) with a couple of fixes and performance improvements. Namely, we fixed removing items from the queue, and we made the sensitivity of the equalizer sliders more reliable when using certain settings.
-
 ## Code
 
 We continued our quest to make Code the best editor for elementary OS with a [new 3.4 update](https://github.com/elementary/code/releases/tag/3.4.0) this month. A file's Git status now shows in its tooltip in the project sidebar, making it easier to understand what the status icons mean—especially if you're colorblind or just don't remember. We also added an option for explicit case-sensitive find/replace for those times when you want to find or replace the word `foo` but _not_ `Foo`.
@@ -53,6 +49,14 @@ In System Settings, we fixed a translation bug for Portuguese; updated the Unive
 </figure>
 
 We released an improved design for the Wireless page in Network settings, which should make it more reliable and clear to join and manage networks. We also updated translations for most of the other settings pages.
+
+## Music
+
+We released [Music 5.0.5](https://github.com/elementary/music/releases/tag/5.0.5) with a couple of fixes and performance improvements. Namely, we fixed removing items from the queue, and we made the sensitivity of the equalizer sliders more reliable when using certain settings.
+
+## Desktop
+
+We released the [3.3 update for Gala](https://github.com/elementary/gala/releases/tag/3.3.0), the component that displays multitasking and manages windows. The update includes keyboard shortcuts in window menus, fixes media keys not working in certain situations, and fixes the displaying of a "Gala Background Services" item in the dock when logging in.
 
 ## …and more!
 
