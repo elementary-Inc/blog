@@ -42,7 +42,7 @@ With the [4.4.2 release](https://github.com/elementary/files/releases/tag/4.4.2)
 
 We spent some time this month pushing out updates to [the top panel itself](https://github.com/elementary/wingpanel/releases/tag/2.3.0) along with many of the indicators. Importantly, we fixed the panel interfering with certain display setups, like when a secondary display is above the primary display—multi-display users rejoice!
 
-We also fixed an issue with disappearing notifications in the [Notifications indicator](https://github.com/elementary/wingpanel-indicator-notifications/releases/tag/2.1.4), improved performance in the [Session indicator](https://github.com/elementary/wingpanel-indicator-session/releases/tag/2.2.8), and updated translations for many others.
+We also fixed an issue with disappearing notifications in the [Notifications indicator](https://github.com/elementary/wingpanel-indicator-notifications/releases/tag/2.1.4), corrected the display of "Unknown Artist" in the [Sound indicator](https://github.com/elementary/wingpanel-indicator-sound/releases/tag/2.1.5), improved performance in the [Session indicator](https://github.com/elementary/wingpanel-indicator-session/releases/tag/2.2.8), and updated translations for many others.
 
 ## System Settings
 
