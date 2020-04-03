@@ -1,6 +1,6 @@
 ---
 title: Hera Updates for March, 2020
-description: Small improvements and fixes across the board
+description: OS 5.1.3 brings improvements and fixes across the board
 author: cassidyjames
 image: /images/hera-updates-for-march-2020/wireless@2x.png
 tags:
@@ -13,7 +13,7 @@ reddit:
 twitter:
 ---
 
-Fresh on the heels of the [AppCenter for Everyone Remote Sprint](/appcenter-for-everyone-remote-sprint), we still managed to push out a good amount of updates over the course of March (and early April). Let's dive into what's new.
+Fresh on the heels of the [AppCenter for Everyone Remote Sprint](/appcenter-for-everyone-remote-sprint), we still managed to push out a good amount of updates over the course of March (and early April), bundled up in an OS 5.1.3 update. Let's dive into what's new.
 
 ## Code
 
@@ -75,3 +75,5 @@ Try it out at [releases.elementary.io](https://releases.elementary.io/). Want to
 ## Get It
 
 As always, you can get these updates on elementary OS 5.1 Hera alongside updated translations, bug fixes, and performance improvements by opening AppCenter and hitting **Update All**.
+
+If you're new to elementary OS or would just like a fresh ISO, these updates are included in the new elementary OS 5.1.3 Hera download on [our homepage](https://elementary.io).
