@@ -64,7 +64,7 @@ We also fixed media keys not working in certain situations, and fixed displaying
 
 ## …and more!
 
-An under-the-hood change this month was the retiring of an old desktop component called [Cerbere](https://github.com/elementary/cerbere). Without getting too into the weeds, our desktop now works more closely with upstream components to ensure the session is launched and managed properly.
+An under-the-hood change this month was the retiring of an old desktop component called [Cerbere](https://github.com/elementary/cerbere). Without getting too into the weeds, our desktop now works more closely with upstream components to ensure the session and required desktop components are launched properly and remain running. Importantly, this also resolves issues with long shutdown times on elementary OS.
 
 Saving event reminders should be more reliable in Calendar, event participant details will be ellipsized if too long, and events should no longer be accidentally rescheduled when editing their title. We fixed removing items from the queue in Music, and we made the sensitivity of the equalizer sliders more reliable. We released a fix for inserting multi-byte characters in Calculator. A small update to Terminal adds a new `-t` command-line option to open a new tab, plus fixes accidental URL clicks. Sideload now shows the name of the app once the its data has loaded, making it easier to see and remember what you're about to install. And we added a new distinct app icon for Onboarding.
 
@@ -72,7 +72,7 @@ Finally, we released [an update](https://github.com/elementary/granite/releases/
 
 ### New Releases Tool
 
-To help us (and downstream projects) better track releases, we built out a little [releases tool](https://releases.elementary.io/) this week using the GitHub API, GitHub Actions to automatically keep up up to date, and GitHub Pages for hosting. It's just a start, but it's already super handy with a clear design, responsive layout, and automatic light/dark styles based on your browser.
+To help us (and downstream projects) better track releases, we built out a little [releases tool](https://releases.elementary.io/) this week. It's just a start, but it's already super handy with a clear design, responsive layout, and automatic light/dark styles based on your browser.
 
 Try it out at [releases.elementary.io](https://releases.elementary.io/). Want to see how it works or adapt it to your own uses? Check out the [source code on GitHub](https://github.com/elementary/releases).
 
