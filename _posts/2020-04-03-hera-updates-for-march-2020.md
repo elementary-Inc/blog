@@ -64,13 +64,7 @@ Finally, we released [an update](https://github.com/elementary/granite/releases/
 
 To help us (and downstream projects) better track releases, we built out a little [releases tool](https://releases.elementary.io/) this week using the GitHub API, GitHub Actions to automatically keep up up to date, and GitHub Pages for hosting. It's just a start, but it's already super handy with a clear design, responsive layout, and automatic light/dark styles based on your browser.
 
-<figure class="half" markdown="1">
-![Light](/images/hera-updates-for-march-2020/releases-light@2x.png){: width="1403" height="970"}
-![Dark](/images/hera-updates-for-march-2020/releases-dark@2x.png){: width="1403" height="970"}
-<figcaption>New Releases tool in light and dark</figcaption>
-</figure>
-
-Want to see how it works or adapt it to your own uses? Check out the [source code on GitHub](https://github.com/elementary/releases).
+Try it out at [releases.elementary.io](https://releases.elementary.io/). Want to see how it works or adapt it to your own uses? Check out the [source code on GitHub](https://github.com/elementary/releases).
 
 ## Get It
 
