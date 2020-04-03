@@ -34,9 +34,11 @@ We landed several fixes for Files this month. We corrected a "New Folder" shortc
 
 ## Panel & Indicators
 
-We spent some time this month pushing out updates to [the top panel itself](https://github.com/elementary/wingpanel/releases/tag/2.3.0) along with many of the indicators. Importantly, we fixed the panel interfering with certain display setups, like when a secondary display is above the primary display—multi-display users rejoice! We also reduced memory usage of the panel itself with more efficient code.
+We spent some time this month pushing out updates to Panel itself along with many of the indicators. Importantly, we fixed the panel interfering with certain display setups, like when a secondary display is above the primary display—multi-display users rejoice!
 
-We also fixed an issue with disappearing notifications in a [Notifications indicator update](https://github.com/elementary/wingpanel-indicator-notifications/releases/tag/2.1.4), corrected the display of "Unknown Artist" with a [Sound indicator update](https://github.com/elementary/wingpanel-indicator-sound/releases/tag/2.1.5), improved performance with a [Session indicator update](https://github.com/elementary/wingpanel-indicator-session/releases/tag/2.2.8), and updated translations for many others.
+We fixed an issue with disappearing notifications in the Notifications indicator, corrected "Unknown Title" to "Unknown Artist" when we don't receive artist data in the Sound indicator, and improved performance in the Session indicator.
+
+Over all, we've been focusing on improving performance and reducing memory usage of the Panel and indicators. We're happy for those improvements to start making their way to users this month.
 
 ## System Settings
 
