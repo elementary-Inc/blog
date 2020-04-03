@@ -1,0 +1,59 @@
+---
+title: Hera Updates for March, 2020
+description: Small improvements and fixes across the board
+author: cassidyjames
+image:
+tags:
+ - hera
+ - updates
+
+facebook:
+mastodon:
+reddit:
+twitter:
+---
+
+Fresh on the heels of the [AppCenter for Everyone Remote Sprint](/appcenter-for-everyone-remote-sprint), we still managed to push out a good amount of updates over the course of March (and early April). Let's dive into what's new.
+
+## Music
+
+We released [Music 5.0.5](https://github.com/elementary/music/releases/tag/5.0.5) with a couple of fixes and performance improvements. Namely, we fixed removing items from the queue, and we made the sensitivity of the equalizer sliders more reliable when using certain settings.
+
+## Code
+
+We continued our quest to make Code the best editor for elementary OS with a [new 3.4 update](https://github.com/elementary/code/releases/tag/3.4.0) this month. A file's Git status now shows in its tooltip in the project sidebar, making it easier to understand what the status icons mean—especially if you're colorblind or just don't remember. We also added an option for explicit case-sensitive find/replace for those times when you want to find or replace the word `foo` but _not_ `Foo`.
+
+A couple of fixes round out the release, including fixing a switch alignment issue in the Font settings and correctly showing the Toggle Comment context menu item whether or not any text is selected.
+
+## Files
+
+We landed [several fixes for Files](https://github.com/elementary/files/releases/tag/4.4.1) this month, including correcting a "New Folder" shortcut label, fixing navigation with back/forward context menu items, ensuring the path bar shows the correct path when closing a tab, ensuring keyboard shortcuts work immediately after creating or renaming a file, and omitting `file://` in certain user-facing places.
+
+## Panel & Indicators
+
+We spent some time this month pushing out updates to [the top panel itself](https://github.com/elementary/wingpanel/releases/tag/2.3.0) along with many of the indicators. Importantly, we fixed the panel interfering with certain display setups, like when a secondary display is above the primary display—multi-display users rejoice!
+
+We also fixed an issue with disappearing notifications in the [Notifications indicator](https://github.com/elementary/wingpanel-indicator-notifications/releases/tag/2.1.4), improved performance in the [Session indicator](https://github.com/elementary/wingpanel-indicator-session/releases/tag/2.2.8), and updated translations for many others.
+
+## System Settings
+
+In System Settings, we fixed a translation bug for Portuguese; updated the Universal Access settings to deduplicate some settings found elsewhere (as part of our [Curb Cuts effort](/accessibility-features-are-just-features)); added a new "Workspaces" icon and fixed how the Space key works with shortcuts in Keyboard settings; and fixed an issue with cancelling installing languages in the Language & Region settings.
+
+<figure markdown="1">
+![Wireless Network settings](/images/hera-updates-march-2020/wireless.png){: srcset="/images/hera-updates-march-2020/wireless@2x.png 2x" width="989" height="685"}
+<figcaption>Refreshed design for the Wireless Network settings</figcaption>
+</figure>
+
+We released an improved design for the Wireless page in Network settings, which should make it more reliable and clear to join and manage networks. We also updated translations for most of the other settings pages.
+
+## …and more!
+
+An under-the-hood change this month was the retiring of an old desktop component called [Cerbere](https://github.com/elementary/cerbere). Without getting too into the weeds, our desktop now works more closely with upstream components to ensure the session is launched and managed properly.
+
+A small [update to Terminal](https://github.com/elementary/terminal/releases/tag/5.5.2) adds a new `-t` command-line option to open a new tab, plus fixes accidental URL clicks. [Sideload 1.1](https://github.com/elementary/sideload/releases/tag/1.1.0) now shows the name of the app once the its data has loaded, making it easier to see and remember what you're about to install. And we added a new distinct app icon for Onboarding in [the 1.2 update](https://github.com/elementary/onboarding/releases/tag/1.2.0).
+
+Finally, we released [an update](https://github.com/elementary/granite/releases/tag/5.3.1) to Granite, our library for developers, that better aligns labels in settings sidebars and makes keyboard shortcut labels settable.
+
+## Get It
+
+As always, you can get these updates on elementary OS 5.1 Hera alongside updated translations, bug fixes, and performance improvements by opening AppCenter and hitting **Update All**.
