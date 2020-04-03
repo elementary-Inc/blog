@@ -34,7 +34,9 @@ A couple of fixes round out the release, including fixing a switch alignment iss
 
 ## Files
 
-We landed [several fixes for Files](https://github.com/elementary/files/releases/tag/4.4.1) this month, including correcting a "New Folder" shortcut label, fixing navigation with back/forward context menu items, ensuring the path bar shows the correct path when closing a tab, ensuring keyboard shortcuts work immediately after creating or renaming a file, and omitting `file://` in certain user-facing places.
+We landed several fixes for Files this month. With the [4.4.1 release](https://github.com/elementary/files/releases/tag/4.4.1) we corrected a "New Folder" shortcut label, fixed navigation with back/forward context menu items, ensured the path bar shows the correct path when closing a tab, ensured keyboard shortcuts work immediately after creating or renaming a file, and omitted `file://` in certain user-facing places.
+
+With the [4.4.2 release](https://github.com/elementary/files/releases/tag/4.4.2) we fixed a crash when a device icon is coming from a file, fixed missing device icons, fixed occasional view freezes after renaming files, improved renaming logic when dealing with leading/trailing whitespaces, fixed breadcrumbs sometimes being incorrect at startup, and hide the `file://`` prefix in navigation button menu items.
 
 ## Panel & Indicators
 
