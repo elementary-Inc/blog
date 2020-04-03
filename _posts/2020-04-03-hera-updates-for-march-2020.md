@@ -52,23 +52,21 @@ We also added a new "Workspaces" icon and fixed how the Space key works with sho
 
 Lastly, we released an improved design for the Wireless page in Network settings, which should make it more reliable and clear to join and manage networks.
 
-## Calendar
-
-This month we released a [minor update to Calendar](https://github.com/elementary/calendar/releases/tag/5.0.4) to fix a few issues; saving event reminders should be more reliable, participant details will be ellipsized if too long, and events should no longer be accidentally rescheduled when editing their title.
-
-## Music
-
-We released [Music 5.0.5](https://github.com/elementary/music/releases/tag/5.0.5) with a couple of fixes and performance improvements. Namely, we fixed removing items from the queue, and we made the sensitivity of the equalizer sliders more reliable when using certain settings.
-
 ## Desktop
 
-We released the [3.3 update for Gala](https://github.com/elementary/gala/releases/tag/3.3.0), the component that displays multitasking and manages windows. The update includes keyboard shortcuts in window menus, fixes media keys not working in certain situations, and fixes the displaying of a "Gala Background Services" item in the dock when logging in.
+We released an update for Gala—the component that displays multitasking and manages windows—that includes keyboard shortcuts in the secondary-click context menu for title/header bars. This is a part of our ongoing [Keyboard Shortcut Discoverability project](https://github.com/orgs/elementary/projects/32) which aims to make keyboard usage more contextually-learnable in elementary OS.
+
+<figure markdown="1">![Wireless Network settings](/images/hera-updates-for-march-2020/gala-menu.png){: srcset="/images/hera-updates-for-march-2020/gala-menu@2x.png 2x" width="580" height="462"}
+<figcaption>Keyboard shortcuts in the window menu</figcaption>
+</figure>
+
+We also fixed media keys not working in certain situations, and fixed displaying a "Gala Background Services" item in the dock when logging in.
 
 ## …and more!
 
 An under-the-hood change this month was the retiring of an old desktop component called [Cerbere](https://github.com/elementary/cerbere). Without getting too into the weeds, our desktop now works more closely with upstream components to ensure the session is launched and managed properly.
 
-[Calculator 1.5.5](https://github.com/elementary/calculator/releases/tag/1.5.5) includes a fix for inserting multi-byte characters. A small [update to Terminal](https://github.com/elementary/terminal/releases/tag/5.5.2) adds a new `-t` command-line option to open a new tab, plus fixes accidental URL clicks. [Sideload 1.1](https://github.com/elementary/sideload/releases/tag/1.1.0) now shows the name of the app once the its data has loaded, making it easier to see and remember what you're about to install. And we added a new distinct app icon for Onboarding in [the 1.2 update](https://github.com/elementary/onboarding/releases/tag/1.2.0).
+Saving event reminders should be more reliable in Calendar, event participant details will be ellipsized if too long, and events should no longer be accidentally rescheduled when editing their title. We fixed removing items from the queue in Music, and we made the sensitivity of the equalizer sliders more reliable. We released a fix for inserting multi-byte characters in Calculator. A small update to Terminal adds a new `-t` command-line option to open a new tab, plus fixes accidental URL clicks. Sideload now shows the name of the app once the its data has loaded, making it easier to see and remember what you're about to install. And we added a new distinct app icon for Onboarding.
 
 Finally, we released [an update](https://github.com/elementary/granite/releases/tag/5.3.1) to Granite, our library for developers, that better aligns labels in settings sidebars and makes keyboard shortcut labels settable.
 
