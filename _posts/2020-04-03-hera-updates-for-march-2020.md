@@ -17,7 +17,7 @@ Fresh on the heels of the [AppCenter for Everyone Remote Sprint](/appcenter-for-
 
 ## Code
 
-We continued our quest to make Code the best editor for elementary OS with a [new 3.4 update](https://github.com/elementary/code/releases/tag/3.4.0) this month. A file's Git status now shows in its tooltip in the project sidebar, making it easier to understand what the status icons mean—especially if you're colorblind or just don't remember. We also added an option for explicit case-sensitive find/replace for those times when you want to find or replace the word `foo` but _not_ `Foo`.
+We continued our quest to make Code the best editor for elementary OS this month. A file's Git status now shows in its tooltip in the project sidebar, making it easier to understand what the status icons mean—especially if you're colorblind or just don't remember. We also added an option for explicit case-sensitive find/replace for those times when you want to find or replace the word `foo` but _not_ `Foo`.
 
 <figure>
   <picture>
@@ -30,9 +30,7 @@ A couple of fixes round out the release, including fixing a switch alignment iss
 
 ## Files
 
-We landed several fixes for Files this month. With the [4.4.1 release](https://github.com/elementary/files/releases/tag/4.4.1) we corrected a "New Folder" shortcut label, fixed navigation with back/forward context menu items, ensured the path bar shows the correct path when closing a tab, ensured keyboard shortcuts work immediately after creating or renaming a file, and omitted `file://` in certain user-facing places.
-
-With the [4.4.2 release](https://github.com/elementary/files/releases/tag/4.4.2) we fixed a crash when a device icon is coming from a file, fixed missing device icons, fixed occasional view freezes after renaming files, improved renaming logic when dealing with leading/trailing whitespaces, fixed breadcrumbs sometimes being incorrect at startup, and hide the `file://`` prefix in navigation button menu items.
+We landed several fixes for Files this month. We corrected a "New Folder" shortcut label, fixed navigation with back/forward context menu items, ensured the path bar shows the correct path when closing a tab and at startup, fixed several small issues when renaming a file, and omitted `file://` in certain user-facing places. We also fixed a few rare freezes and crashes.
 
 ## Panel & Indicators
 
