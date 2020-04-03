@@ -2,7 +2,7 @@
 title: Hera Updates for March, 2020
 description: OS 5.1.3 brings improvements and fixes across the board
 author: cassidyjames
-image: /images/hera-updates-for-march-2020/wireless@2x.png
+image: /images/hera-updates-for-march-2020/gala-menu@2x.png
 tags:
  - hera
  - updates
@@ -62,19 +62,21 @@ We released an update for Gala—the component that displays multitasking and ma
 
 We also fixed media keys not working in certain situations, and fixed displaying a "Gala Background Services" item in the dock when logging in.
 
-## …and more!
-
 An under-the-hood change this month was the retiring of an old desktop component called [Cerbere](https://github.com/elementary/cerbere). Without getting too into the weeds, our desktop now works more closely with upstream components to ensure the session and required desktop components are launched properly and remain running. Importantly, this also resolves issues with long shutdown times on elementary OS.
 
-Saving event reminders should be more reliable in Calendar, event participant details will be ellipsized if too long, and events should no longer be accidentally rescheduled when editing their title. We fixed removing items from the queue in Music, and we made the sensitivity of the equalizer sliders more reliable. We released a fix for inserting multi-byte characters in Calculator. A small update to Terminal adds a new `-t` command-line option to open a new tab, plus fixes accidental URL clicks. Sideload now shows the name of the app once the its data has loaded, making it easier to see and remember what you're about to install. And we added a new distinct app icon for Onboarding.
+## …and more!
+
+Saving event reminders should be more reliable in Calendar, plus event participant details will be ellipsized if too long, and events should no longer be accidentally rescheduled when editing their title.
+
+We fixed removing items from the queue in Music, and we made the sensitivity of the equalizer sliders more reliable. We released a fix for inserting multi-byte characters in Calculator. A small update to Terminal adds a new `-t` command-line option to open a new tab, plus fixes accidental URL clicks.
+
+Sideload now shows the name of the app once the its data has loaded, making it easier to see and remember what you're about to install. And we added a new distinct app icon for Onboarding, instead of just using the OS icon.
 
 Finally, we released [an update](https://github.com/elementary/granite/releases/tag/5.3.1) to Granite, our library for developers, that better aligns labels in settings sidebars and makes keyboard shortcut labels settable.
 
 ### New Releases Tool
 
-To help us (and downstream projects) better track releases, we built out a little [releases tool](https://releases.elementary.io/) this week. It's just a start, but it's already super handy with a clear design, responsive layout, and automatic light/dark styles based on your browser.
-
-Try it out at [releases.elementary.io](https://releases.elementary.io/). Want to see how it works or adapt it to your own uses? Check out the [source code on GitHub](https://github.com/elementary/releases).
+To help us (and downstream projects) better track releases, we built out a little [releases tool](https://releases.elementary.io/) this week. It's just a start, but it's already super handy with a clear design, responsive layout, and automatic light/dark styles based on your browser. Try it out at [releases.elementary.io](https://releases.elementary.io/). Want to see how it works or adapt it to your own uses? Check out the [source code on GitHub](https://github.com/elementary/releases).
 
 ## Get It
 
