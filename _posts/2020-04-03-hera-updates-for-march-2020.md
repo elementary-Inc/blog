@@ -42,13 +42,15 @@ Over all, we've been focusing on improving performance and reducing memory usage
 
 ## System Settings
 
-In [System Settings 2.3.9](https://github.com/elementary/switchboard/releases/tag/2.3.9), we fixed a translation bug for Portuguese. We also [updated the Universal Access settings](https://github.com/elementary/switchboard-plug-a11y/releases/tag/2.2.0) to deduplicate some settings found elsewhere (as part of our [Curb Cuts effort](/accessibility-features-are-just-features)); added a new "Workspaces" icon and fixed how the Space key works with shortcuts in a [Keyboard settings update](https://github.com/elementary/switchboard-plug-keyboard/releases/tag/2.3.6); and fixed an issue with cancelling installing languages in a [Language & Region settings update](https://github.com/elementary/switchboard-plug-locale/releases/tag/2.5.1).
+We updated the Universal Access settings to deduplicate some settings found elsewhere as part of our [Curb Cuts effort](/accessibility-features-are-just-features). For example, dwell clicking is now in the Mouse & Touchpad settings, transparency and text size are now in Desktop settings. If you're ever unsure where a setting might be, System Settings has great search for individual settings from both the Search entry inside the app and the Applications Menu.
+
+We also added a new "Workspaces" icon and fixed how the Space key works with shortcuts in Keyboard settings, fixed an issue with cancelling installing languages in Language & Region settings, and fixed a translation bug for Portuguese in the System Settings app itself.
 
 <figure markdown="1">![Wireless Network settings](/images/hera-updates-for-march-2020/wireless.png){: srcset="/images/hera-updates-for-march-2020/wireless@2x.png 2x" width="989" height="685"}
 <figcaption>Refreshed design for the Wireless Network settings</figcaption>
 </figure>
 
-We [released](https://github.com/elementary/switchboard-plug-network/releases/tag/2.3.0) an improved design for the Wireless page in Network settings, which should make it more reliable and clear to join and manage networks. We also updated translations for most of the other settings pages.
+Lastly, we released an improved design for the Wireless page in Network settings, which should make it more reliable and clear to join and manage networks.
 
 ## Calendar
 
