@@ -42,13 +42,17 @@ We also fixed an issue with disappearing notifications in the [Notifications ind
 
 ## System Settings
 
-In System Settings, we fixed a translation bug for Portuguese; updated the Universal Access settings to deduplicate some settings found elsewhere (as part of our [Curb Cuts effort](/accessibility-features-are-just-features)); added a new "Workspaces" icon and fixed how the Space key works with shortcuts in Keyboard settings; and fixed an issue with cancelling installing languages in the Language & Region settings.
+In [System Settings](), we fixed a translation bug for Portuguese; updated the Universal Access settings to deduplicate some settings found elsewhere (as part of our [Curb Cuts effort](/accessibility-features-are-just-features)); added a new "Workspaces" icon and fixed how the Space key works with shortcuts in Keyboard settings; and fixed an issue with cancelling installing languages in the Language & Region settings.
 
 <figure markdown="1">![Wireless Network settings](/images/hera-updates-for-march-2020/wireless.png){: srcset="/images/hera-updates-for-march-2020/wireless@2x.png 2x" width="989" height="685"}
 <figcaption>Refreshed design for the Wireless Network settings</figcaption>
 </figure>
 
 We released an improved design for the Wireless page in Network settings, which should make it more reliable and clear to join and manage networks. We also updated translations for most of the other settings pages.
+
+## Calendar
+
+This month we released a [minor update to Calendar](https://github.com/elementary/calendar/releases/tag/5.0.4) to fix a few issues; saving event reminders should be more reliable, participant details will be ellipsized if too long, and events should no longer be accidentally rescheduled when editing their title.
 
 ## Music
 
