@@ -4,6 +4,10 @@ figure {
   position: relative;
   text-align: center;
 
+  article & p {
+    max-width: 100%; // Fix Markdown wrapping images in `<p>` and setting max-width
+  }
+
   * {
     margin: 0;
     max-width: 100%;
