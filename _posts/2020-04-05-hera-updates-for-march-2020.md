@@ -70,6 +70,10 @@ Saving event reminders should be more reliable in Calendar, plus event participa
 
 We fixed removing items from the queue in Music, and we made the sensitivity of the equalizer sliders more reliable. We released a fix for inserting multi-byte characters in Calculator. A small update to Terminal adds a new `-t` command-line option to open a new tab, plus fixes accidental URL clicks.
 
+<figure markdown="1">![Wireless Network settings](/images/hera-updates-for-march-2020/sideload.png){: srcset="/images/hera-updates-for-march-2020/sideload@2x.png 2x" width="543" height="378"}
+<figcaption>App name in Sideload</figcaption>
+</figure>
+
 Sideload now shows the name of the app once the its data has loaded, making it easier to see and remember what you're about to install. And we added a new distinct app icon for Onboarding, instead of just using the OS icon.
 
 Finally, we released [an update](https://github.com/elementary/granite/releases/tag/5.3.1) to Granite, our library for developers, that better aligns labels in settings sidebars and makes keyboard shortcut labels settable.
