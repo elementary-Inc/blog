@@ -82,4 +82,4 @@ To help us (and downstream projects) better track releases, we built out a littl
 
 As always, you can get these updates on elementary OS 5.1 Hera alongside updated translations, bug fixes, and performance improvements by opening AppCenter and hitting **Update All**.
 
-If you're new to elementary OS or would just like a fresh ISO, these updates are included in the new elementary OS 5.1.3 Hera download on [our homepage](https://elementary.io).
+If you're new to elementary OS or would just like a fresh ISO, these updates will be included in a new elementary OS 5.1.3 Hera download on [our homepage](https://elementary.io) soon.
