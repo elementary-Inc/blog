@@ -74,7 +74,7 @@ We fixed removing items from the queue in Music, and we made the sensitivity of 
 <figcaption>App name in Sideload</figcaption>
 </figure>
 
-Sideload now shows the name of the app once the its data has loaded, making it easier to see and remember what you're about to install. And we added a new distinct app icon for Onboarding, instead of just using the OS icon.
+Sideload now shows the name of the app once its data has loaded, making it easier to see and remember what you're about to install. And we added a new distinct app icon for Onboarding, instead of just using the OS icon.
 
 Finally, we released [an update](https://github.com/elementary/granite/releases/tag/5.3.1) to Granite, our library for developers, that better aligns labels in settings sidebars and makes keyboard shortcut labels settable.
 
