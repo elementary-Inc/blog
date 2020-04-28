@@ -23,6 +23,14 @@ Category View shows apps in a scrollable list instead of a grid—this better su
 
 We've also improved both keyboard navigation and performance throughout the Applications Menu.
 
+## System Settings
+
+We pushed out updates to several System Settings panes this month. For the Desktop Settings, we now Illustrate dock icon sizes—making it much easier to visualize. We also fixed system wallpapers being duplicated when applied. And we updated search result terms to include the accessibility feautres like text size, window animations, and Panel translucency—these will make it easier to find what you're looking for from the Applications Menu or System Settings search.
+
+![Screenshot of Desktop Settings]()
+
+In Display Settings, we've fixed one-pixel gaps that could show up between displays, plus we now ensure rotated displays are properly centered. In Mouse & Touchpad Settings we've fixed stretched switches when using large text.
+
 ## AppCenter
 
 Prevent crashes when updating Flatpaks and system updates at the same time. Prevent suspending when installing, updating, or removing apps or updates.
@@ -30,14 +38,6 @@ Prevent crashes when updating Flatpaks and system updates at the same time. Prev
 ## Videos
 
 Several fixes, including better remembering the last-played video and its playback position, more reliably updating the "replay" button description, and fixing a missing icon in the episode view.
-
-## Settings
-
-We pushed out updates to several System Settings panes this month. For the Desktop Settings, we now Illustrate dock icon sizes—making it much easier to visualize. We also fixed system wallpapers being duplicated when applied. And we updated search result terms to include the accessibility feautres like text size, window animations, and Panel translucency—these will make it easier to find what you're looking for from the Applications Menu or System Settings search.
-
-![Screenshot of Desktop Settings]()
-
-In Display Settings, we've fixed one-pixel gaps that could show up between displays, plus we now ensure rotated displays are properly centered. In Mouse & Touchpad Settings we've fixed stretched switches when using large text.
 
 ## More
 
