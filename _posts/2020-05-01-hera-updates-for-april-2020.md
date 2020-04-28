@@ -11,11 +11,17 @@ tags:
 
 Informed by our work last year at the [Metered Data & Parental Controls hackfest](/parental-controls-metered-data-hackfest), we've started overhauling Parental Controls. While we're focusing on the digital wellbeing aspects, we decided to rename it to the more straightforward "Screen Time & Limits." But it's more than just a rename; Screen Time & Limits is now available for your own account in addition to other non-administrator accounts on the device—so you can set your own rules around screen time, Internet access, and app usage.
 
+![Screenshot of Screen Time & Limits]()
+
 As a result of reworking the feature, Screen Time & Limits is also much more reliable than before. If you previously had issues with Parental Controls, give Screen Time & Limits a try and let us know what you think.
 
 ## Applications Menu
 
-Category View shows apps in a scrollable list instead of a grid—this better supports that classic applications menu workflow that Category View users have been asking for. Improved keyboard navigation and performance improvements.
+Category View shows apps in a scrollable list instead of a grid—this better supports that classic applications menu workflow that Category View users have been asking for.
+
+![Screenshot of Applications Menu Category View]()
+
+We've also improved both keyboard navigation and performance throughout the Applications Menu.
 
 ## AppCenter
 
@@ -27,15 +33,20 @@ Several fixes, including better remembering the last-played video and its playba
 
 ## Settings
 
-Display settings: Fix gaps between displays, properly center rotated displays
-Mouse & Touchpad settings: Fix stretched switches when using large text
-Desktop Settings: Illustrate dock icon sizes. Fix system wallpapers being duplicated when applied. Update search results to include the accessibility feautres like text size, window animations, and Panel translucency.
+We pushed out updates to several System Settings panes this month. For the Desktop Settings, we now Illustrate dock icon sizes—making it much easier to visualize. We also fixed system wallpapers being duplicated when applied. And we updated search result terms to include the accessibility feautres like text size, window animations, and Panel translucency—these will make it easier to find what you're looking for from the Applications Menu or System Settings search.
+
+![Screenshot of Desktop Settings]()
+
+In Display Settings, we've fixed one-pixel gaps that could show up between displays, plus we now ensure rotated displays are properly centered. In Mouse & Touchpad Settings we've fixed stretched switches when using large text.
 
 ## More
 
 Gala: Fix crash when changing workspaces while certain windows are being opened
+
 Greeter: fix an issue with media keys
+
 WingPanel: Fix an issue with some 3 monitor layouts, Reduce spacing between icons
+
 Photos: Add "Open In" menu to photo viewer
 
 ## Get It
