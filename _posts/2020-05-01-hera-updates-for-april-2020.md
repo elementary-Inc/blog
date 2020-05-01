@@ -2,9 +2,15 @@
 title: "Hera Updates for April, 2020"
 description: Screen Time & Limits, a revamped Applications Menu, deep System Settings search, and more for OS 5.1.4
 author: cassidyjames
+image: /images/hera-updates-for-april-2020/dock-settings.png
 tags:
  - hera
  - updates
+
+facebook:
+mastodon:
+reddit:
+twitter:
 ---
 
 ## Parental Controls → Screen Time & Limits
@@ -82,13 +88,11 @@ We released several fixes for Videos in April, including better remembering the 
 
 ## More
 
-Gala: Fix crash when changing workspaces while certain windows are being opened
+In April, we updated our Gala window manager to fix a crash when changing workspaces while certain windows are being opened. We also fixed disappearing windows when switching workspaces while using "Always on Visible Workspace" or multiple displays.
 
-Greeter: fix an issue with media keys
+We fixed an issue with media keys in the login and lockscreen greeter, fixed an issue with the Panel on some three-monitor layouts, and slightly reduced spacing between Panel indicator icons.
 
-WingPanel: Fix an issue with some 3 monitor layouts, Reduce spacing between icons
-
-Photos: Add "Open In" menu to photo viewer
+In the Photos app, we added an "Open In" menu to the photo viewer, making it easier to use it as a previewer before launching another app.
 
 ## Get It
 
