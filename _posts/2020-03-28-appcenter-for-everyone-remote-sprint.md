@@ -6,6 +6,11 @@ image: /images/appcenter-for-everyone/sync-email@2x.png
 tags:
  - appcenter
  - event
+
+facebook: https://www.facebook.com/elementaryos/posts/3143251365706671
+mastodon: https://mastodon.social/@elementary/103903208102630734
+reddit: https://www.reddit.com/r/elementaryos/comments/fquub0/appcenter_for_everyone_remote_sprint_elementary/
+twitter: https://twitter.com/elementary/status/1244039116980998144
 ---
 
 While we ended up postponing the in-person [AppCenter for Everyone](/appcenter-for-everyone) sprint due to concerns around COVID-19, we did still get together remotely to get started on some of the work. We're a completely remote company and open source project to begin with, so we're used to working remotely; however, we had planned to get together in person to knock out more rapid whiteboarding, prototyping, and discussion that we've found is only at its most effective when people are in the same timezone and physical location for a few days.
@@ -15,7 +20,6 @@ While we ended up postponing the in-person [AppCenter for Everyone](/appcenter-f
 Over the course of the attempted remote sprint, it became increasingly clear that for a product of this complexity, getting all of the stake holders in the same place and time is an absolute necessity. Due to issues with time zones, an inability to rapidly diagram or sketch collaboratively, and the general friction that comes with lag on a conference call between people on different continents, there were several times where we spent hours in the wrong direction. Unfortunately, it felt like a lot of individual pieces of work were thrown out due to evolving requirements and discoveries during the remote sprint. While that's typical _to an extent_ with any sprint, it felt like the remote aspect made it especially true this time around.
 
 We did learn and think through things, though, and we have a clearer picture of the path to take from here. But we're looking forward to getting together in person and more productively working through these challenges.
-
 
 ### Design Track
 
