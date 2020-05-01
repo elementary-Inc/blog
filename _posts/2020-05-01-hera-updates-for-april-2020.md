@@ -62,7 +62,9 @@ New illustrated Dock size in _System Settings_ → _Desktop_
 </figcaption>
 </figure>
 
-In Display Settings, we've fixed one-pixel gaps that could show up between displays, plus we now ensure rotated displays are properly centered. In Mouse & Touchpad Settings we've fixed stretched switches when using large text. For User Accounts Settings, we improved how administrator actions work: we show more accurate reasons for settings being locked, plus only ask for administrator permission on demand when enabling or disabling accounts.
+In Display Settings, we've fixed one-pixel gaps that could show up between displays, plus we now ensure rotated displays are properly centered. In Mouse & Touchpad Settings we've fixed stretched switches when using large text.
+
+For User Accounts Settings, we improved how administrator actions work: we show more accurate reasons for settings being locked, plus only ask for administrator permission on demand when enabling or disabling accounts. This is part of a larger effort to move away from info bars asking to authenticate and toward more contextual authentication. It not only makes things less cluttered, but it makes sure users don’t authenticate unless they actually need to to, which is safer anyways—we don’t want to train people to type their password all the time for no good reason.
 
 ## AppCenter
 
