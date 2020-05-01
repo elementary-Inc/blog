@@ -28,7 +28,7 @@ As a result of reworking the feature, Screen Time & Limits is also much more rel
 
 ## Applications Menu
 
-The Applications Menu handles browsing, searching for, and launching both apps and app actions. This month we released a major update that greatly improves its responsiveness and fluidity on trackpads—and makes it easily usable on touchscreens as well. We've also updatd the category view to show apps in a scrollable list instead of a grid, better supporting a classic menu workflow that some users have been asking for.
+The Applications Menu handles browsing, searching for, and launching both apps and app actions. This month we released a major update that greatly improves its responsiveness and fluidity on trackpads—and makes it easily usable on touchscreens as well. We've also updated the category view to show apps in a scrollable list instead of a grid, better supporting a classic menu workflow that some users have been asking for.
 
 <figure>
   <picture>
