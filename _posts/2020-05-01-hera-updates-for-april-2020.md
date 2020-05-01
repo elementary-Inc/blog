@@ -85,6 +85,8 @@ For keyboard users, you'll be happy to know that you can hit the down arrow from
 
 On the fixes front, AppCenter will now use configured network proxies for apt operations, won't show a non-curated warning when updating non-curated apps, and will show a more informative loading screen when checking for updates. We also fixed a crash when updating Flatpaks and system updates at the same time, and prevent the device from suspending when installing, updating, or removing apps or updates.
 
+Most of this work is thanks to [David Hewitt](https://github.com/davidmhewitt/)—you can support him directly on [GitHub Sponsors](https://github.com/sponsors/davidmhewitt)!
+
 ## Videos
 
 We released several fixes for Videos in April, including better remembering the last-played video and its playback position, more reliably updating the "replay" button description, and fixing a missing icon in the episode view.
