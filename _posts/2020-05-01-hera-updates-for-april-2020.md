@@ -94,6 +94,8 @@ We fixed an issue with media keys in the login and lockscreen greeter, fixed an 
 
 In the Photos app, we added an "Open In" menu to the photo viewer, making it easier to use it as a previewer before launching another app.
 
+We released a new version of Granite, our developer library, that adds a new method to share user preferences with apps.
+
 ## Get It
 
 As always, you can get these updates on elementary OS 5.1 Hera alongside updated translations, bug fixes, and performance improvements by opening AppCenter and hitting **Update All**.
