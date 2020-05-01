@@ -47,7 +47,7 @@ Search inside of System Settings has been completely redesigned and significantl
 <figure markdown="1">
 ![Screenshot of System Settings search](/images/{{ page.slug }}/system-settings-search.png){: srcset="/images/{{ page.slug }}/system-settings-search@2x.png 2x" width="916" height="681"}
 <figcaption markdown="1">
-Redesigned search in System Settings {{page.slug}}
+Redesigned search in System Settings
 </figcaption>
 </figure>
 
