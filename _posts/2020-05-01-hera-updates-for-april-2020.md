@@ -30,11 +30,12 @@ As a result of reworking the feature, Screen Time & Limits is also much more rel
 
 The Applications Menu handles browsing, searching for, and launching both apps and app actions. This month we released a major update that greatly improves its responsiveness and fluidity on trackpads—and makes it easily usable on touchscreens as well. We've also updatd the category view to show apps in a scrollable list instead of a grid, better supporting a classic menu workflow that some users have been asking for.
 
-<figure markdown="1">
-![Screenshot of Applications Menu Category View](/images/{{ page.slug }}/applications-menu.png){: srcset="/images/{{ page.slug }}/applications-menu@2x.png 2x" width="755" height="592"}
-<figcaption markdown="1">
-Redesigned Applications Menu category view
-</figcaption>
+<figure>
+  <picture>
+    <source srcset="/images/{{ page.slug }}/applications-menu-dark.png" srcset="/images/{{ page.slug }}/applications-menu-dark@2x.png 2x" media="(prefers-color-scheme: dark)">
+    <img alt="Code" src="/images/{{ page.slug }}/applications-menu.png" srcset="/images/{{ page.slug }}/applications-menu@2x.png 2x" width="755" height="592" />
+  </picture>
+  <figcaption>Redesigned Applications Menu category view</figcaption>
 </figure>
 
 While we were at it, we improved both keyboard navigation and performance throughout the Applications Menu.
