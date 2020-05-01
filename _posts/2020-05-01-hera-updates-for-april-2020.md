@@ -53,7 +53,7 @@ Redesigned search in System Settings {{page.slug}}
 
 We also pushed out updates to several System Settings panes this month.
 
-For the Desktop Settings, we now illustrate dock icon sizes—making it much easier to visualize. We also fixed system wallpapers being duplicated when applied. And we updated search result terms to include the accessibility feautres like text size, window animations, and Panel translucency—these will make it easier to find what you're looking for from the Applications Menu or System Settings search.
+For the Desktop Settings, we now illustrate dock icon sizes—making it much easier to visualize. We also fixed system wallpapers being duplicated when applied. And we updated search result terms to include the accessibility features like text size, window animations, and Panel translucency—these will make it easier to find what you're looking for from the Applications Menu or System Settings search.
 
 <figure markdown="1">
 ![Screenshot of Desktop Settings](/images/{{ page.slug }}/dock-settings.png){: srcset="/images/{{ page.slug }}/dock-settings@2x.png 2x" width="916" height="681"}
