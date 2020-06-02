@@ -13,7 +13,7 @@ reddit:
 twitter:
 ---
 
-In May, we focused on quality-of-life improvements primarily across AppCenter and Files along with several smaller fixes. These updates have been released to users of elementary OS 5.1 throughout the month, and are available in the new OS 5.1.5 ISO from [the homepage](https://elementary.io).
+In May, we focused on quality-of-life improvements primarily across AppCenter and Files along with several smaller fixes. These updates have been released to users of elementary OS 5.1 throughout the month.
 
 ## AppCenter
 
