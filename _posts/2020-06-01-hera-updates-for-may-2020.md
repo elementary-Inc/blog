@@ -2,7 +2,7 @@
 title: "Hera Updates for May, 2020"
 description: Improvements across AppCenter, Files, and more for OS 5.1.5
 author: cassidyjames
-image:
+image: /images/hera-updates-for-may-2020/files-list-overlaybar.png
 tags:
  - hera
  - updates
@@ -27,7 +27,12 @@ On the more minor side, we made improvements to ensure apps on the homepage are 
 
 In Files, copying an image and pasting into another app will paste the image itself instead of file paths, if possible; for example, you can now paste images right into an image editor or web apps in certain browsers. Similarly, you can now paste one or more cut or copied files into a folder by pressing <kbd>Ctrl</kbd><kbd>V</kbd> with the folder selected.
 
-We now show the file info overlay in the List View as well, i.e. making it quicker to see the size of images at a glance no matter which view you prefer. You can now use the <kbd>Tab</kbd> key to cycle through search results instead of just the arrow keys. And when trying to open trashed files, we now show an informative dialog to let users know they must restore or move the file first.
+<figure markdown="1">
+![File info overlay in Files app](/images/hera-updates-for-may-2020/files-list-overlaybar.png){: srcset="/images/hera-updates-for-may-2020/files-list-overlaybar@2x.png 2x" width="963" height="668"}
+<figcaption>The file info overlay shows in the Files list view</figcaption>
+</figure>
+
+We now show the file info overlay in the list view as well, i.e. making it quicker to see the size of images at a glance no matter which view you prefer. You can now use the <kbd>Tab</kbd> key to cycle through search results instead of just the arrow keys. And when trying to open trashed files, we now show an informative dialog to let users know they must restore or move the file first.
 
 We also fixed a handful of smaller issues: we fixed a small uneditable area in the pathbar when in the Home folder, fixed an issue that prevented file modification times from showing, fixed the size of restored tiled windows, and fixed color tags disappearing when thumbnails are hidden.
 
