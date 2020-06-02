@@ -1,6 +1,6 @@
 ---
 title: "Hera Updates for May, 2020"
-description: Improvements across AppCenter, Files, System Settings for OS 5.1.5
+description: Improvements across AppCenter, Files, and more for OS 5.1.5
 author: cassidyjames
 image:
 tags:
@@ -13,7 +13,7 @@ reddit:
 twitter:
 ---
 
-In May, we focused on quality-of-life improvements primarily across AppCenter, Files, and System Settings panes. These updates have been released to users of elementary OS 5.1 throughout the month, and are available in the new OS 5.1.5 ISO from [the homepage](https://elementary.io).
+In May, we focused on quality-of-life improvements primarily across AppCenter and Files along with several smaller fixes. These updates have been released to users of elementary OS 5.1 throughout the month, and are available in the new OS 5.1.5 ISO from [the homepage](https://elementary.io).
 
 ## AppCenter
 
@@ -29,17 +29,15 @@ In Files, copying an image and pasting into another app will paste the image its
 
 We now show the file info overlay in the List View as well, i.e. making it quicker to see the size of images at a glance no matter which view you prefer. You can now use the <kbd>Tab</kbd> key to cycle through search results instead of just the arrow keys. And when trying to open trashed files, we now show an informative dialog to let users know they must restore or move the file first.
 
-We also fixed a handful of smaller issues. We fixed a small uneditable area in pathbar which is showing home folder placeholder, fixed an issue that prevented file modification times from showing, fixed the size of restored tiled windows, and fixed color tags disappearing when thumbnails are hidden.
-
-## System Settings
-
-Fix potential freeze when changing settings from multiple panes for Power, Date & Time, and Desktop settings.
-
-Better support for various network encryption types and More accurately report encryption type in Network settings
+We also fixed a handful of smaller issues: we fixed a small uneditable area in the pathbar when in the Home folder, fixed an issue that prevented file modification times from showing, fixed the size of restored tiled windows, and fixed color tags disappearing when thumbnails are hidden.
 
 ## …and More
 
-We greatly improved performance when switching months in date/time indicator when you have events, plus we fixed missing event dots in certain situations. We updated icons to use new consistent Bubblegum and Mint palette colors, plus added `software-update-urgent` and `sync-synchronizing`, and new sizes for `window-close-symbolic` and preference icons.
+In the Network settings, we improved support for several network encryption types, and more accurately report the encryption type. We also fixed potential freeze when changing settings from multiple panes including Power, Date & Time, and Desktop settings.
+
+We greatly improved performance when switching months in the Date & Time indicator when you have events, plus we fixed missing event dots in certain situations. In the Calendar app itself, we fixed several issues with adding and removing monthly recurring events.
+
+We updated system icons to use new consistent Bubblegum and Mint palette colors, plus added `software-update-urgent` and `sync-synchronizing`, and new sizes for `window-close-symbolic` and preference icons.
 
 ## Get It
 
