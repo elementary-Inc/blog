@@ -8,6 +8,7 @@ thanks: true
 
 tags:
   - appcenter-spotlight
+  - interview
 
 facebook: https://www.facebook.com/elementaryos/posts/3052846374747171
 mastodon: https://mastodon.social/@elementary/103682138652819524

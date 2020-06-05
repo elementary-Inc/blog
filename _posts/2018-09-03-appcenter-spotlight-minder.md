@@ -7,6 +7,7 @@ image: /images/appcenter-spotlight-minder/0cMT1noyI1R7rq5Wz.png
 rdnn: com.github.phase1geo.minder
 tags:
   - appcenter-spotlight
+  - interview
 ---
 
 {% include appcenter.html %}

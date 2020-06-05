@@ -7,6 +7,7 @@ image: /images/appcenter-spotlight-fondo/1d6OfLEIQWFHKFHU_wyyPFw.png
 rdnn: com.github.calo001.fondo
 tags:
   - appcenter-spotlight
+  - interview
 ---
 
 {% include appcenter.html %}
