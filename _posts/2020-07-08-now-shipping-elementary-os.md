@@ -8,14 +8,14 @@ tags:
   - oem
 ---
 
-Since our first release of elementary OS in 2011, folks have asked us how they can buy a computer running elementary OS out of the box. While instaling an operating system may be common knowledge within Linux user groups and IT departments, it's a huge hurdle for everyday users who just want a computer that works. We've also long been in discussions with OEMs about shipping elementary OS and how that relationship between users, the OEM, and elementary would look.
+Today, we're pleased to announce that elementary OS 5.1 Hera is now available out of the box on over a dozen models from two retailers, with more in the works.
 
 <figure markdown="1">
 ![Star LabTop laptop computer running elementary OS]({{ page.image }})
 <figcaption>Star LabTop Mk IV running elementary OS</figcaption>
 </figure>
 
-Today, we're pleased to announce that **elementary OS is available out of the box on over a dozen models from two OEMs, with more in the works.** Let's dive into why that matters, and the road that has led us here.
+Since our first release of elementary OS in 2011, folks have asked us how they can buy a computer running elementary OS out of the box. While instaling an operating system may be common knowledge within Linux user groups and IT departments, it's a huge hurdle for everyday users who just want a computer that works. We've also long been in discussions with OEMs about shipping elementary OS and how that relationship between users, the OEM, and elementary would look.
 
 ## Making elementary OS more “gettable”
 
@@ -42,43 +42,58 @@ While we would _love_ to design and build our own devices for elementary OS, we'
 
 ## OEM Program: Retailers & Partners
 
-In that vein, we've restructured our OEM program to make it both easier to ship elementary OS and for those purchases to support the work we do. We now have two tiers for OEMs: Retailers and Partners. For more info (and more resources for OEMs), see the [OEMs page on our website](https://elementary.io/oem). While all OEMs must comply with [our trademarks][brand], the other requirements and perks for the tiers differ.
+In that vein, we've restructured our OEM program to make it both easier to ship elementary OS and for those purchases to support the work we do. We now have two tiers for OEMs: Retailers and Partners. While all OEMs must comply with [our branding and trademarks](https://elementary.io/brand), the other requirements and perks for the tiers differ.
 
 ### Retailers
 
-Retailers are companies that ship devices with elementary OS while complying with our trademarks. In return, we list a link to the retailer's site or landing page in [our store][store].
+Retailers are companies that ship devices with elementary OS while complying with our trademarks. In return, we list a link to the retailer's site or landing page in [our store].
 
 While we don't certify individual retailer models, we do ensure we have a relationship with the company, and we work with the company to determine an appropriate royalty, referral, or other way the OEM can contribute to elementary OS. This ensures we're promoting companies that have signed on to directly support elementary in some measuarable way.
 
 ### Partners
 
-Partners are a higher tier that requires more involvement from both sides; in addition to selling devices with elementary OS and complying with our trademarks, partners must follow stricter software guidelines and receive per-model approval by elementary. In return, we feature the specific models in [our store][store] with higher prominence.
+Partners are a higher tier that requires more involvement from both sides; in addition to selling devices with elementary OS and complying with our trademarks, partners must follow stricter software guidelines and receive per-model approval by elementary. In return, we feature the specific models in [our store] with higher prominence.
 
 Partner devices require a negotiable per-device royalty. Thus, purchasing a partner device guarantees a portion of your purchase goes to elementary and helps ensure the long-term sustainability of elementary OS.
 
 ## Get a Device
 
-Head over to the [elementary Store][store] for our current retailers—and keep an eye out for additional retailers and partners in the coming months. Our first two retailers are Laptop With Linux and Star Labs:
+Head over to the [elementary Store][our store] for our current retailers—and keep an eye out for additional retailers and partners in the coming months. Our first two retailers are Laptop With Linux and Star Labs:
 
 ### Laptop With Linux
 
 Based in the Netherlands, [Laptop With Linux] offers several laptops and mini desktops optimized for elementary OS. Laptops range from thin-and-light notebooks with 14&Prime; displays to workstations with 17.3&Prime; displays.
 
-<figure markdown="1">
+<figure class="constrained" markdown="1">
 ![Laptop With Linux computer running elementary OS](/images/now-shipping-elementary-os/laptop-with-linux.png)
-<figcaption>14&Prime; Laptop With Linux running elementary OS</figcaption>
+<figcaption markdown="1">
+17.3&Prime; model running elementary OS
+</figcaption>
 </figure>
+
+<div style="text-align: center;" markdown="1">
+[Visit Laptop With Linux][Laptop With Linux]{: class="button"}
+</div>
 
 ### Star Labs
 
 [Star Labs] is based in the United Kingdom and offers a very small number of thin and light laptop models, designed to run elementary OS. Their laptops are on the smaller end, with 11&Prime; to 13.3&Prime; displays.
 
-<figure markdown="1">
+<figure class="constrained" markdown="1">
 ![Star LabTop laptop computer running elementary OS](/images/now-shipping-elementary-os/star-labs.png)
-<figcaption>Star LabTop Mk IV running elementary OS</figcaption>
+<figcaption markdown="1">
+Star LabTop Mk IV running elementary OS
+</figcaption>
 </figure>
 
-[store]: https://elementary.io/store/#devices
-[brand]: https://elementary.io/brand
+<div style="text-align: center;" markdown="1">
+[Visit Star Labs][Star Labs]{: class="button"}
+</div>
+
+### More to Come
+
+We're in talks with additional OEMs about potential retailer or partner relationships; stay tuned to the blog and [our store]. If you're an OEM that would like to discuss becoming a retailer or partner, check out our [Information for OEMs](https://elementary.io/oem).
+
+[our store]: https://elementary.io/store/#devices
 [Laptop With Linux]: https://laptopwithlinux.com/?ref=36&utm_source=referral&utm_medium=elementary&utm_campaign=elementary
 [Star Labs]: https://laptopwithlinux.com/?ref=36&utm_source=referral&utm_medium=elementary&utm_campaign=elementary
