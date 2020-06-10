@@ -48,7 +48,7 @@ In that vein, we've restructured our OEM program to make it both easier to ship 
 
 Retailers are companies that ship devices with elementary OS while complying with our trademarks. In return, we list a link to the retailer's site or landing page in [our store].
 
-While we don't certify individual retailer models, we do ensure we have a relationship with the company, and we work with the company to determine an appropriate royalty, referral, or other way the OEM can contribute to elementary OS. This ensures we're promoting companies that have signed on to directly support elementary in some measuarable way.
+While we don't certify individual retailer models, we do ensure we have a relationship with the company, and we work with the company to determine an appropriate royalty, referral, or other way the OEM can contribute to elementary OS. This ensures we're promoting companies that have signed on to directly support elementary in some measurable way.
 
 ### Partners
 
