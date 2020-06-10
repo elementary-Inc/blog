@@ -15,7 +15,7 @@ Today, we're pleased to announce that elementary OS 5.1 Hera is now available ou
 <figcaption>Star LabTop Mk IV running elementary OS</figcaption>
 </figure>
 
-Since our first release of elementary OS in 2011, folks have asked us how they can buy a computer running elementary OS out of the box. While instaling an operating system may be common knowledge within Linux user groups and IT departments, it's a huge hurdle for everyday users who just want a computer that works. We've also long been in discussions with OEMs about shipping elementary OS and how that relationship between users, the OEM, and elementary would look.
+Since our first release of elementary OS in 2011, folks have asked us how they can buy a computer running elementary OS out of the box. While installing an operating system may be common knowledge within Linux user groups and IT departments, it's a huge hurdle for everyday users who just want a computer that works. We've also long been in discussions with OEMs about shipping elementary OS and how that relationship between users, the OEM, and elementary would look.
 
 ## Making elementary OS more “gettable”
 
