@@ -1,13 +1,19 @@
 ---
 title: "Now Shipping elementary OS"
-description: Over a dozen models from two OEMs, and counting
+description: Over a dozen models from two retailers, and counting
 author: cassidyjames
+image: /images/now-shipping-elementary-os/star-labs.png
 tags:
   - devices
   - oem
 ---
 
 Since our first release of elementary OS in 2011, folks have asked us how they can buy a computer running elementary OS out of the box. While instaling an operating system may be common knowledge within Linux user groups and IT departments, it's a huge hurdle for everyday users who just want a computer that works. We've also long been in discussions with OEMs about shipping elementary OS and how that relationship between users, the OEM, and elementary would look.
+
+<figure markdown="1">
+![Star LabTop laptop computer running elementary OS]({{ page.image }})
+<figcaption>Star LabTop Mk IV running elementary OS</figcaption>
+</figure>
 
 Today, we're pleased to announce that **elementary OS is available out of the box on over a dozen models from two OEMs, with more in the works.** Let's dive into why that matters, and the road that has led us here.
 
@@ -46,7 +52,7 @@ While we don't certify individual retailer models, we do ensure we have a relati
 
 ### Partners
 
-Partners are a higher tier that requires more involvement from both sides; in addition to selling devices with elementary OS and complying with our trademarks, partners must follow stricter software guidelines and direct per-model approval by elementary. In return, we feature the specific models in [our store][store] with higher prominence.
+Partners are a higher tier that requires more involvement from both sides; in addition to selling devices with elementary OS and complying with our trademarks, partners must follow stricter software guidelines and receive per-model approval by elementary. In return, we feature the specific models in [our store][store] with higher prominence.
 
 Partner devices require a negotiable per-device royalty. Thus, purchasing a partner device guarantees a portion of your purchase goes to elementary and helps ensure the long-term sustainability of elementary OS.
 
@@ -56,11 +62,21 @@ Head over to the [elementary Store][store] for our current retailers—and keep 
 
 ### Laptop With Linux
 
-Based in the Netherlands, [Laptop With Linux] offers laptops and mini desktops
+Based in the Netherlands, [Laptop With Linux] offers several laptops and mini desktops optimized for elementary OS. Laptops range from thin-and-light notebooks with 14&Prime; displays to workstations with 17.3&Prime; displays.
+
+<figure markdown="1">
+![Laptop With Linux computer running elementary OS](/images/now-shipping-elementary-os/laptop-with-linux.png)
+<figcaption>14&Prime; Laptop With Linux running elementary OS</figcaption>
+</figure>
 
 ### Star Labs
 
-[Star Labs] is based in the United Kingdom, and offers a small number of attractive laptops.
+[Star Labs] is based in the United Kingdom and offers a very small number of thin and light laptop models, designed to run elementary OS. Their laptops are on the smaller end, with 11&Prime; to 13.3&Prime; displays.
+
+<figure markdown="1">
+![Star LabTop laptop computer running elementary OS](/images/now-shipping-elementary-os/star-labs.png)
+<figcaption>Star LabTop Mk IV running elementary OS</figcaption>
+</figure>
 
 [store]: https://elementary.io/store/#devices
 [brand]: https://elementary.io/brand
