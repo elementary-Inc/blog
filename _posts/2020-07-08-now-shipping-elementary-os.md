@@ -77,8 +77,9 @@ Based in the Netherlands, [Laptop With Linux] offers several laptops and mini de
 
 >The switch to Linux can often be a very big one. Fortunately, elementary OS is one of the most visually attractive and user friendly Linux-based operating systems, and our customers often choose it when making the switch.
 >
->Without projects such as elementary OS, the proportion of Linux users would never grow. We are therefore very excited to offer elementary OS on our laptops and mini computers, and give something back to elementary with every sale.  \
->–Peter Pont, [Laptop With Linux]
+>Without projects such as elementary OS, the proportion of Linux users would never grow. We are therefore very excited to offer elementary OS on our laptops and mini computers, and give something back to elementary with every sale.
+>
+><span class="attribution" markdown="1">Peter Pont, [Laptop With Linux]</span>
 
 ### Star Labs
 
@@ -95,8 +96,9 @@ Star LabTop Mk IV running elementary OS
 [Visit Star Labs][Star Labs]{: class="button"}
 </div>
 
->We are excited to team up with elementary with elementary OS now available on our laptops. With the OS being light, clean, and visually stunning, they break the boundaries for Linux going forward. The combination of elementary OS and the LabTop Mk IV creates the ultimate open source experience out of the box.  \
->–Sean Rhodes, Technical Project Lead at [Star Labs]
+>We are excited to team up with elementary with elementary OS now available on our laptops. With the OS being light, clean, and visually stunning, they break the boundaries for Linux going forward. The combination of elementary OS and the LabTop Mk IV creates the ultimate open source experience out of the box.
+>
+><span class="attribution" markdown="1">Sean Rhodes, Technical Project Lead at [Star Labs]</span>
 
 ### More to Come
 
