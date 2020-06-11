@@ -106,4 +106,4 @@ We're in talks with additional OEMs about potential retailer or partner relation
 
 [our store]: https://elementary.io/store/#devices
 [Laptop With Linux]: https://laptopwithlinux.com/?ref=36&utm_source=referral&utm_medium=elementary&utm_campaign=elementary
-[Star Labs]: https://laptopwithlinux.com/?ref=36&utm_source=referral&utm_medium=elementary&utm_campaign=elementary
+[Star Labs]:  https://starlabs.systems/?rfsn=4227837.e8f025
