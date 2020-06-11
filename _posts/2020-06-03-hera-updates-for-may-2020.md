@@ -48,4 +48,4 @@ We updated system icons to use new consistent Bubblegum and Mint palette colors,
 
 As always, you can get these updates on elementary OS 5.1 Hera alongside updated translations, bug fixes, and performance improvements by opening AppCenter and hitting **Update All**.
 
-If you're new to elementary OS or would just like a fresh ISO, these updates will are included in a new elementary OS 5.1.5 Hera download on [our homepage](https://elementary.io) now.
+If you're new to elementary OS or would just like a fresh ISO, these updates are included in a new elementary OS 5.1.5 Hera download on [our homepage](https://elementary.io) now.
