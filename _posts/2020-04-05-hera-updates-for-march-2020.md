@@ -44,7 +44,7 @@ Over all, we've been focusing on improving performance and reducing memory usage
 
 We updated the Universal Access settings to deduplicate some settings found elsewhere as part of our [Curb Cuts effort](/accessibility-features-are-just-features). For example, dwell clicking is now in the Mouse & Touchpad settings, and transparency and text size are now in Desktop settings. If you're ever unsure where a setting might be, System Settings has great search for individual settings from both the Search entry inside the app and from the Applications Menu.
 
-We also added a new "Workspaces" icon and fixed how the Space key works with shortcuts in Keyboard settings, fixed an issue with cancelling installing languages in Language & Region settings, and fixed a translation bug for Portuguese in the System Settings app itself.
+We also added a new "Workspaces" icon and fixed how the Space key works with shortcuts in Keyboard settings, fixed an issue with canceling installing languages in Language & Region settings, and fixed a translation bug for Portuguese in the System Settings app itself.
 
 <figure markdown="1">![Wireless Network settings](/images/hera-updates-for-march-2020/wireless.png){: srcset="/images/hera-updates-for-march-2020/wireless@2x.png 2x" width="989" height="685"}
 <figcaption>Refreshed design for the Wireless Network settings</figcaption>

@@ -15,7 +15,7 @@ twitter: https://twitter.com/elementary/status/1256323136401707008
 
 ## Parental Controls → Screen Time & Limits
 
-Informed by our work last year at the [Metered Data & Parental Controls hackfest](/parental-controls-metered-data-hackfest), we've started overhauling Parental Controls. While we're focusing on the digital wellbeing aspects, we decided to rename it to the more straightforward "Screen Time & Limits." But it's more than just a rename; Screen Time & Limits is now available for your own account in addition to other non-administrator accounts on the device—so you can set your own rules around screen time, Internet access, and app usage.
+Informed by our work last year at the [Metered Data & Parental Controls hackfest](/parental-controls-metered-data-hackfest), we've started overhauling Parental Controls. While we're focusing on the digital well-being aspects, we decided to rename it to the more straightforward "Screen Time & Limits." But it's more than just a rename; Screen Time & Limits is now available for your own account in addition to other non-administrator accounts on the device—so you can set your own rules around screen time, Internet access, and app usage.
 
 <figure markdown="1">
 ![Screenshot of Screen Time & Limits](/images/{{ page.slug }}/screen-time-limits.png){: srcset="/images/{{ page.slug }}/screen-time-limits@2x.png 2x" width="989" height="685"}
@@ -28,7 +28,7 @@ As a result of reworking the feature, Screen Time & Limits is also much more rel
 
 ## Applications Menu
 
-The Applications Menu handles browsing, searching for, and launching both apps and app actions. This month we released a major update that greatly improves its responsiveness and fluidity on trackpads—and makes it easily usable on touchscreens as well. We've also updated the category view to show apps in a scrollable list instead of a grid, better supporting a classic menu workflow that some users have been asking for.
+The Applications Menu handles browsing, searching for, and launching both apps and app actions. This month we released a major update that greatly improves its responsiveness and fluidity on touchpads—and makes it easily usable on touchscreens as well. We've also updated the category view to show apps in a scrollable list instead of a grid, better supporting a classic menu workflow that some users have been asking for.
 
 <figure>
   <picture>

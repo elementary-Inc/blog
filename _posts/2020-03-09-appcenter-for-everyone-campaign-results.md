@@ -71,4 +71,3 @@ Backers of the "Your Name In Our Source Code" perk and higher have been added to
 ### Privacy & Security Sprint
 
 We have started discussing a follow-up Privacy & Security sprint, but have not planned any specific dates yet. The COVID-19 situation will very likely factor into our travel plans and whether or not we plan a physical sprint, opt for fully-remote, do smaller simultaneous satellite gatherings, etc. We'll keep you updated as we know/plan more!
-
