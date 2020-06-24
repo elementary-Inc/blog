@@ -41,6 +41,8 @@
   <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
 
   <link rel="stylesheet" type="text/css" media="all" href="{{ '/css/main.css' | prepend: site.baseurl | append: '?v=' | append: site.time }}" />
-  <script async defer data-domain="blog.elementary.io" src="https://stats.elementary.io/js/index.js"></script>
+  {% unless jekyll.environment == "development" %}
+    <script async defer data-domain="blog.elementary.io" src="https://stats.elementary.io/js/index.js"></script>
+  {% endunless %}
 </head>
 
