@@ -1,10 +1,15 @@
 ---
 title: "Goodbye, Bountysource"
-description: We're leaving Bountysource. Here's why.
+description: "We’re leaving Bountysource. Here’s why."
 author: cassidyjames
 image: /images/goodbye-bountysource-hello-github-sponsors/feature.png
 tags:
   - funding
+
+facebook: https://www.facebook.com/elementaryos/posts/3376497152382090
+mastodon: https://mastodon.social/@elementary/104401113688386951
+reddit: https://www.reddit.com/r/elementaryos/comments/hf9unw/goodbye_bountysource_elementary_blog/
+twitter: https://twitter.com/elementary/status/1275905181755064326
 ---
 
 ![Bountysource → GitHub Sponsors](/images/{{ page.slug }}/feature.png){: width="800" height="450" srcset="/images/{{ page.slug }}/feature@2x.png"}
