@@ -1,13 +1,13 @@
 ---
-title: Linux++ Interviews Cassidy James Blaede
-description: An excerpt of the interview from Linux++ issue 19
+title: Linux++ Interviews Cassidy
+description: An excerpt from Linux++ issue 19
 author: linuxplusplus
 image: /images/linux-plus-plus-interview-cassidy-james-blaede/feature.png
 tags:
   - interview
 ---
 
-![Linux++]({{ page.image }})
+![Linux++]({{ page.image }}){: srcset="/images/{{ page.slug }}/feature@2x.png 2x" width="800" height="266"}
 
 <aside markdown="1">
 >Below is an excerpt of Linux++ issue 19. Be sure to read [the full article][article].
