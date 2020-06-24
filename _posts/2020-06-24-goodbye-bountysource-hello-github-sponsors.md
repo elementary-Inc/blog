@@ -7,9 +7,7 @@ tags:
   - funding
 ---
 
-<figure class="card" markdown="1">
-![Bountysource → GitHub Sponsors]({{ page.image }}){: width="1600" height="900" srcset="/images/{{ page.slug }}/feature@2x.png"}
-</figure>
+![Bountysource → GitHub Sponsors](/images/{{ page.slug }}/feature.png){: width="800" height="450" srcset="/images/{{ page.slug }}/feature@2x.png"}
 
 If you have used [Bountysource](https://bountysource.com) in the past, you may have received an email announcing new terms of service that included a clause that would forfeit unclaimed bounties. On June 16, Bountysource sent this message:
 
