@@ -1,6 +1,6 @@
 ---
 title: Linux++ Interviews Cassidy
-description: An excerpt from Linux++ issue 19
+description: An excerpt from Linux++ issue 20
 author: linuxplusplus
 image: /images/linux-plus-plus-interview-cassidy-james-blaede/feature.png
 tags:
@@ -10,7 +10,7 @@ tags:
 ![Linux++]({{ page.image }}){: srcset="/images/{{ page.slug }}/feature@2x.png 2x" width="800" height="266"}
 
 <aside markdown="1">
->Below is an excerpt of Linux++ issue 19. Be sure to read [the full article][article].
+>Below is an excerpt of Linux++ issue 20. Be sure to read [the full article][article].
 </aside>
 
 This week Linux++ is very excited to welcome Cassidy Blaede James, co-founder of elementary OS, tech blogger, active Linux community member, and open source UX architect. Cassidy is well-known for his writing and crafting of great blog posts as well as elementary OS update posts. His team at elementary OS have gone on to create one of the most popular distributions in the Linux world right now and continue to push the boundaries of what is possible.
@@ -50,11 +50,11 @@ This week Linux++ is very excited to welcome Cassidy Blaede James, co-founder of
 ---
 
 <aside markdown="1">
-[Linux++](https://medium.com/linux-plus-plus/) is a weekly article that dives into the topics, events, and headlines throughout the GNU/Linux and open-source world as well as highlighting the passionate community that surrounds it.
+_Linux++_ is a weekly article that dives into the topics, events, and headlines throughout the GNU/Linux and open-source world as well as highlighting the passionate community that surrounds it.
 </aside>
 
 <div markdown="1" style="text-align: center;">
 [Read Full Article][article]{: class="button"}
 </div>
 
-[article]: https://medium.com/linux-plus-plus
+[article]: https://frontpagelinux.com/news/linux-plusplus-issue-20/
