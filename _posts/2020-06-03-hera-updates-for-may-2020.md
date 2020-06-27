@@ -2,7 +2,7 @@
 title: "Hera Updates for May, 2020"
 description: Improvements across AppCenter, Files, and more for OS 5.1.5
 author: cassidyjames
-image: /images/hera-updates-for-may-2020/files-list-overlaybar.png
+image: /images/hera-updates-for-may-2020/card.png
 tags:
  - hera
  - updates
