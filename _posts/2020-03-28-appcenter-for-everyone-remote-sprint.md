@@ -2,7 +2,7 @@
 title: AppCenter for Everyone Remote Sprint
 description: What we accomplished despite postponing the in-person sprint
 author: cassidyjames
-image: /images/appcenter-for-everyone/sync-email@2x.png
+image: /images/appcenter-for-everyone/card@2x.png
 tags:
  - appcenter
  - event

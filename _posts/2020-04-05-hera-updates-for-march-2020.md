@@ -2,7 +2,7 @@
 title: Hera Updates for March, 2020
 description: OS 5.1.3 brings improvements and fixes across the board
 author: cassidyjames
-image: /images/hera-updates-for-march-2020/gala-menu.png
+image: /images/hera-updates-for-march-2020/card@2x.png
 tags:
  - hera
  - updates
