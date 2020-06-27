@@ -2,7 +2,7 @@
 title: "Hera Updates for April, 2020"
 description: Screen Time & Limits, a revamped Applications Menu, deep System Settings search, and more for OS 5.1.4
 author: cassidyjames
-image: /images/hera-updates-for-april-2020/dock-settings.png
+image: /images/hera-updates-for-april-2020/card@2x.png
 tags:
  - hera
  - updates

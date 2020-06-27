@@ -2,7 +2,7 @@
 title: "Now Shipping elementary OS"
 description: Over a dozen models from two retailers, and counting
 author: cassidyjames
-image: /images/now-shipping-elementary-os/card.png
+image: /images/now-shipping-elementary-os/card@2x.png
 tags:
   - devices
   - oem
