@@ -1,14 +1,26 @@
 ---
 title: "Hera Updates for June, 2020"
-description: "OS 5.1.6"
+description: "OS 5.1.6 brings further increased stability and performance"
 author: danrabbit
-image:
+image: /images/hera-updates-for-june-2020/code@2x.png
 tags:
   - updates
   - hera
+  - devs
 ---
 
 June was a busy month for elementary; we [started shipping elementary OS](/now-shipping-elementary-os/) on retailer devices, said [goodbye to Bountysource](/goodbye-bountysource-hello-github-sponsors/), started using [Plausible](https://plausible.io/blog.elementary.io) on the web (More about that later!), and of course, pushed out several updates to elementary OS. <!-- As usual, these updates are available in a new OS 5.1.6 ISO at [elementary.io](https://elementary.io) -->
+
+## Code
+
+<figure markdown="1">
+![Outline placeholder in Code](/images/hera-updates-for-june-2020/code@2x.png){: srcset="/images/hera-updates-for-june-2020/code@2x.png 2x" width="1039" height="719"}
+<figcaption>The Outline/Symbols plugin in Code now shows a placeholder when empty</figcaption>
+</figure>
+
+We now show a placeholder in the Outline/Symbols plugin when no symbols are found to prevent the sidebar jumping around when switching through different types of code files. We also addressed an issue where the folder sidebar layout could become squished and empty, ensuring that the "Open project folder…" button remains visible.
+
+You can now scroll past the end of a file, making it easy to get a line of code exactly where you feel comfortable with it on screen. And we've optimized the way Code saves and loads its window size and position to reduce how often it accesses your disk.
 
 ## AppCenter
 
@@ -21,12 +33,6 @@ A couple of regressions in Files' pathbar behavior were resolved, namely when se
 ## Videos
 
 Videos should now start up much faster if you have a large video library and have more robust handling for missing or moved library folders. Plus, this release includes fixes for loading external subtitles.
-
-## Code
-
-We now show a placeholder in the Outline/Symbols plugin when no symbols are found to prevent the sidebar jumping around when switching through different types of code files. We also addressed an issue where the folder sidebar layout could become squished and empty, ensuring that the "Open project folder…" button remains visible.
-
-You can now scroll past the end of a file, making it easy to get a line of code exactly where you feel comfortable with it on screen. And we've optimized the way Code saves and loads its window size and position to reduce how often it accesses your disk.
 
 ## And More
 
