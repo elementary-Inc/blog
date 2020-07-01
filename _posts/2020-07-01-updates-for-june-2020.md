@@ -1,6 +1,6 @@
 ---
 title: "Hera Updates for June, 2020"
-description: "OS 5.1.6 brings further increased stability and performance"
+description: "Fixes and improvements with OS 5.1.6, plus a note about the future"
 author: danrabbit
 image: /images/hera-updates-for-june-2020/code@2x.png
 tags:
@@ -32,7 +32,7 @@ A couple of regressions in Files' pathbar behavior were resolved, namely when se
 
 ## Videos
 
-Videos should now start up much faster if you have a large video library and have more robust handling for missing or moved library folders. Plus, this release includes fixes for loading external subtitles.
+Videos should now start up much faster with a large video library, and we added more robust handling for missing or moved library folders. Plus, this release includes fixes for loading external subtitles.
 
 ## And More
 
@@ -42,7 +42,7 @@ Also, several system components received minor updates to ensure that sessions e
 
 ## Updates for Developers
 
-To smooth out the transition to elementary OS 6, we've released Granite 5.5.0 with a couple of a new things and a whole slew of deprecations! The new style constants `Granite.STYLE_CLASS_COLOR_BUTTON` and `Granite.STYLE_CLASS_ROUNDED` will become more useful in 6.0's fancy new stylesheet—there aren't color button styles in 5.x's stylesheet, but they're now available if you'd like to make use of them. Additionally, `Granite.Widgets.SourceList` now includes `Gtk.STYLE_CLASS_SIDEBAR` by default and we'll likely deprecate `Granite.STYLE_CLASS_SOURCE_LIST` in a future release.
+To smooth out the transition to elementary OS 6, we've released Granite 5.5.0 with a couple of a new things and a whole slew of deprecations! The new style constants `Granite.STYLE_CLASS_COLOR_BUTTON` and `Granite.STYLE_CLASS_ROUNDED` will become more useful in 6.0's fancy new stylesheet—there aren't color button styles in 5.x's stylesheet, but these style constants are now available if you'd like to make use of them. Additionally, `Granite.Widgets.SourceList` now includes `Gtk.STYLE_CLASS_SIDEBAR` by default and we'll likely deprecate `Granite.STYLE_CLASS_SOURCE_LIST` in a future release.
 
 The more important change is the number of deprecations in this release. There are several utilities and widgets in Granite that are now much better handled by Gtk and GLib, and will likely be removed in Granite 6.0. Expect to see some new deprecation warnings in Terminal if you're using any of the following:
 
@@ -63,4 +63,4 @@ As we head into the second half of the year, more and more development focus is 
 
 ## And Updates About Sponsors
 
-We're super grateful and excited that we've reached over 50% of our first goal and over 100 sponsors on [Github Sponsors](https://github.com/sponsors/elementary/)! In case you're unfamiliar we're currently raising money there with the hope to create a regular, monthly contract for one of our oldest contributors: [Corentin Noël](https://github.com/tintou). Every contribution brings us closer to putting more development time into the fixes and features that you care about.
+We're super grateful and excited that we've reached over 50% of our first goal and over 100 sponsors on [Github Sponsors](https://github.com/sponsors/elementary/)! In case you're unfamiliar we're currently raising money there with the hope to create a regular, monthly contract for one of our longest contributors: [Corentin Noël](https://github.com/tintou). Every contribution brings us closer to putting more development time into the fixes and features that you care about.
