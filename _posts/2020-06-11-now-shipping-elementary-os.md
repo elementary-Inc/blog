@@ -2,7 +2,7 @@
 title: "Now Shipping elementary OS"
 description: Over a dozen models from two retailers, and counting
 author: cassidyjames
-image: /images/now-shipping-elementary-os/star-labs.png
+image: /images/now-shipping-elementary-os/card@2x.png
 tags:
   - devices
   - oem
@@ -11,8 +11,7 @@ tags:
 Today, we're pleased to announce that elementary OS 5.1 Hera is now available out of the box on over a dozen models from two retailers, with more in the works.
 
 <figure markdown="1">
-![Star LabTop laptop computer running elementary OS]({{ page.image }})
-<figcaption>Star LabTop Mk IV running elementary OS</figcaption>
+![Star LabTop laptop computer running elementary OS]({{ page.image }}){: srcset="/images/{{ page.slug }}/card@2x.png 2x" width="800" height="450"}
 </figure>
 
 Since our first release of elementary OS in 2011, folks have asked us how they can buy a computer running elementary OS out of the box. While installing an operating system may be common knowledge within Linux user groups and IT departments, it's a huge hurdle for everyday users who just want a computer that works. We've also long been in discussions with OEMs about shipping elementary OS and how that relationship between users, the OEM, and elementary would look.

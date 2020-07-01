@@ -7,6 +7,7 @@ date: '2018-12-20T22:13:10.873Z'
 rdnn: com.github.writeas.writeas-gtk
 tags:
   - appcenter-spotlight
+  - interview
 ---
 
 It’s been a while since we did an AppCenter Spotlight due to the [massive Juno release](https://medium.com/elementaryos/elementary-os-5-juno-is-here-471dfdedc7b3) and [subsequent updates](/juno-updates-for-november-2018), but today we’re back with an app I’m delighted to share with you all.
