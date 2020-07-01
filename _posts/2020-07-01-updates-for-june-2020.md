@@ -2,7 +2,7 @@
 title: "Hera Updates for June, 2020"
 description: "OS 5.1.6 brings further increased stability and performance"
 author: danrabbit
-image: /images/hera-updates-for-june-2020/code@2x.png
+image: /images/hera-updates-for-june-2020/card.png
 tags:
   - updates
   - hera
@@ -13,8 +13,11 @@ June was a busy month for elementary; we [started shipping elementary OS](/now-s
 
 ## Code
 
-<figure markdown="1">
-![Outline placeholder in Code](/images/hera-updates-for-june-2020/code@2x.png){: srcset="/images/hera-updates-for-june-2020/code@2x.png 2x" width="1039" height="719"}
+<figure>
+  <picture>
+    <source srcset="/images/hera-updates-for-june-2020/code-dark@2x.png" media="(prefers-color-scheme: dark)">
+    <img alt="Code" src="/images/hera-updates-for-june-2020/code@2x.png" width="1037" height="711" />
+  </picture>
 <figcaption>The Outline/Symbols plugin in Code now shows a placeholder when empty</figcaption>
 </figure>
 
