@@ -46,22 +46,14 @@ Calendar and the accompanying Date & Time panel indicator received a fix for eve
 
 ## Updates for Developers
 
-granite 5.5.0 Released
+To smooth out the transition to elementary OS 6, we've released Granite 5.5.0 with a couple of a new things and a whole slew of deprecations! The new style constants `Granite.STYLE_CLASS_COLOR_BUTTON` and `Granite.STYLE_CLASS_ROUNDED` will become more useful in 6.0's fancy new stylesheet—there aren't color button styles in 5.x's stylesheet, but they're now available if you'd like to make use of them. Additionally, `Granite.Widgets.SourceList` now includes `Gtk.STYLE_CLASS_SIDEBAR` by default and we'll likely deprecate `Granite.STYLE_CLASS_SOURCE_LIST` in a future release.
 
-New Style Constants:
+The more important change is the number of deprecations in this release. There are several utilties and widgets in Granite that are now much better handled by Gtk and GLib, and will likely be removed in Granite 6.0. Expect to see some new deprecation warnings in Terminal if you're using any of the following:
 
-STYLE_CLASS_COLOR_BUTTON
-STYLE_CLASS_ROUNDED
-Deprecations:
-
-Several theming utilities. Use Gtk.CssProvider and Gtk.StyleContext instead
-Granite.Services.SimpleCommand. Use GLib.AppInfo.create_from_commandline instead
-Old unused utilities like get_button_layout_schema, get_default_close_button_position, and Granite.Services.Paths
-Old unused widgets like CollapsiblePaned and CompositedWindow
-Other Changes:
-
-Granite.SourceList now gets Gtk.STYLE_CLASS_SIDEBAR by default
-Updated translations
+- `Granite.Services.SimpleCommand` is deprecated and `GLib.AppInfo.create_from_commandline` should be used instead.
+- Several theming utilites including `Granite.Utils.set_theming` and `Granite.Utils.get_css_provider` are now deprecated and `Gtk.CssProvider` and `Gtk.StyleContext` should be used directly instead.
+- `Granite.Services.Paths` is deprecated and `GLib.Environment` provides methods that should be used instead.
+- Old, unused utilities like `Granite.Utils.get_button_layout_schema` and `Granite.Utils.get_default_close_button_position` are now deprecated with no recommended replacement. There should no longer be a need for these at all. This also applies to the widgets `Granite.Widgets.CollapsiblePaned` and `Granite.Widgets.CompositedWindow` which are no longer necessary with modern Gtk3.
 
 ## And More
 
