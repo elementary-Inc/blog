@@ -3,8 +3,8 @@ on:
   pull_request:
     paths:
       - '**.jpg'
-      - '**.png'
-      - '**.webp'
+      # - '**.png'
+      # - '**.webp'
 jobs:
   build:
     name: calibreapp/image-actions
