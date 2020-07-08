@@ -2,18 +2,13 @@
 <html lang="en-us">
   {% include head.html %}
   <body class="{% if page.url == '/' %}home {% endif %}">
-    <header>
-      <a href="{{ site.baseurl }}/">
-        <span class="logotype">elementary{% include logotype.svg %}</span>
-        blog
-      </a>
-    </header>
+    {% include nav.html %}
     <section>
-      {{ content }}
+      {{ content | replace: '<a href="http', '<a rel="nofollow noopener noreferrer" target="_blank" href="http' }}
 
       {% include medium.html %}
     </section>
+    {% include footer.html %}
     {% include scripts.html %}
   </body>
 </html>
-

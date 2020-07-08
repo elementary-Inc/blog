@@ -4,6 +4,10 @@ description: Bug fixes and performance improvements
 date: '2019-03-02T20:09:30.273Z'
 author: danrabbit
 image: https://cdn-images-1.medium.com/max/1600/1*h2xQZXwatwpPoUcaNbLcQg@2x.png
+tags:
+  - updates
+  - juno
+  - calendar
 ---
 
 This month, a number of bug fixes and performance improvements landed as updates to elementary OS 5 Juno. Read ahead for the full rundown!
@@ -15,22 +19,22 @@ The headlining release this month is the latest version of Calendar. We’ve don
 Events in the calendar view and the sidebar now have a more modern styling that make much better use of color. The whole calendar view is now brighter, with subtler lines and less distracting UI elements. You’ll also notice that we make use of a Lime accent color throughout the UI.
 
 <figure markdown="1">
-![Calendar has a new, more modern and more colorful look](https://cdn-images-1.medium.com/max/1600/1*h2xQZXwatwpPoUcaNbLcQg@2x.png)
+![Calendar has a new, more modern and more colorful look](https://cdn-images-1.medium.com/max/800/1*h2xQZXwatwpPoUcaNbLcQg@2x.png){: srcset="https://cdn-images-1.medium.com/max/1600/1*h2xQZXwatwpPoUcaNbLcQg@2x.png 2x"}
 <figcaption>Calendar has a new, more modern and more colorful look</figcaption>
 </figure>
 
 We’ve also improved keyboard navigation in several places. The sidebar can now be navigated and events activated using the keyboard. We’ve added keyboard shortcuts for common actions and you can see their accelerators in the tooltips for Headerbar items. You can also now search for calendars when choosing which calendar to add a new event to.
 
 <figure markdown="1">
-![Search for calendars when selecting which calendar to add an event to](https://cdn-images-1.medium.com/max/1600/1*Jg5Usx7Efg344UsXXMuZzQ@2x.png)
+![Search for calendars when selecting which calendar to add an event to](https://cdn-images-1.medium.com/max/582/1*Jg5Usx7Efg344UsXXMuZzQ@2x.png){: srcset="https://cdn-images-1.medium.com/max/1164/1*Jg5Usx7Efg344UsXXMuZzQ@2x.png 2x"}
 <figcaption>Search for calendars when selecting which calendar to add an event to</figcaption>
 </figure>
 
 When managing calendars, you’ll notice that checkboxes use the calendar’s color. There’s also a new color chooser that make use of hues from the elementary palette.
 
 <figure class="half" markdown="1">
-![List of calendars](https://cdn-images-1.medium.com/max/600/1*hvez0-kui0oqEPWA9n2wRg@2x.png)
-![New calendar](https://cdn-images-1.medium.com/max/800/1*tYNxZmFzzSdDZaKhJHZWKQ@2x.png)
+![List of calendars](https://cdn-images-1.medium.com/max/700/1*hvez0-kui0oqEPWA9n2wRg@2x.png)
+![New calendar](https://cdn-images-1.medium.com/max/685/1*tYNxZmFzzSdDZaKhJHZWKQ@2x.png)
 <figcaption>New color choices when managing calendars</figcaption>
 </figure>
 
@@ -69,7 +73,7 @@ We’ve fixed in issue in some `Granite.DateTime` utilities where extra leading 
 Users of `Granite.MessageDialog` can now easily show raw error messages or other raw output with the new `show_error_expander` method:
 
 <figure markdown="1">
-![Show error details with the new show_error_expander method](https://cdn-images-1.medium.com/max/800/1*tfGftjSO6p4QFA2ti8wsLg@2x.png)
+![Show error details with the new show_error_expander method](https://cdn-images-1.medium.com/max/487/1*tfGftjSO6p4QFA2ti8wsLg@2x.png){: srcset="https://cdn-images-1.medium.com/max/974/1*tfGftjSO6p4QFA2ti8wsLg@2x.png 2x"}
 <figcaption markdown="1">
 Show error details with the new `show_error_expander` method
 </figcaption>
@@ -82,7 +86,7 @@ We’ve also addressed a couple of typos in the documentation on Valadoc.org and
 Switches are now shaded using a white overlay instead of Gtk.CSS’s `shade` method. This looks much nicer with green or yellow accent colors:
 
 <figure class="card" markdown="1">
-![Left: old shading method; Right: new shading method](https://cdn-images-1.medium.com/max/1600/1*2KI_sGQqwcis5yonta1-tw.png)
+![Left: old shading method; Right: new shading method](https://cdn-images-1.medium.com/max/372/1*2KI_sGQqwcis5yonta1-tw.png){: srcset="https://cdn-images-1.medium.com/max/744/1*2KI_sGQqwcis5yonta1-tw.png 2x"}
 <figcaption markdown="1">
 **Left:** old shading method | **Right:** new shading method
 </figcaption>
@@ -93,8 +97,8 @@ Groups of widgets using `Gtk.STYLE_CLASS_LINKED` now appear correctly in RTL lan
 Numbered badges in Sidebars have had their color scheme inverted for a more subtle look:
 
 <figure class="card" markdown="1">
-![Badges in sidebars are now more subtle looking](https://cdn-images-1.medium.com/max/1600/1*-V8A_yJLAhrGFQKmRVpvrg@2x.png)
-<figcaption>Badges in sidebars are now more subtle looking</figcaption>
+![Sidebar badges](https://cdn-images-1.medium.com/max/166/1*59rV-UJoPkUM_e2cK7KLFQ@2x.png){: srcset="https://cdn-images-1.medium.com/max/332/1*59rV-UJoPkUM_e2cK7KLFQ@2x.png 2x"}
+<figcaption>Badges in sidebars are now more subtle looking</figcaption>
 </figure>
 
 Finally, Buttons in Headerbars now support `Gtk.STYLE_CLASS_RAISED` in case you’d like to make sure button borders are present for all buttons.

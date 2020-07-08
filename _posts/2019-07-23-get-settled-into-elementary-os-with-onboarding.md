@@ -4,6 +4,9 @@ description: "Designed to improve the first-run experience"
 image: https://miro.medium.com/max/1120/1*OsUdeEafTuWof7e_jdEeNg@2x.png
 layout: post
 author: cassidyjames
+tags:
+  - design
+  - onboarding
 ---
 
 We’ve never provided a tutorial or "welcome" on your first run of elementary OS before; our [Human Interface Guidelines] state that users “should be able to get down to business as quickly as possible,” and that “if configuration is not absolutely required for the first use, they should not be required to configure anything.” We also generally believe that if you need a tutorial, your product is likely too difficult to understand and may lead to long-term dissatisfaction. It’s like being given all of the information you could possibly need for a new career in an five-minute lecture, and then being expected to be a master of your profession; it’s both unrealistic and overwhelming!
@@ -29,12 +32,12 @@ Each of these steps is handled by a separate, modular piece of software. Technic
 Onboarding launches the first time you log into your user account on elementary OS (or, if you’re already running elementary OS today, it will run the first time you log in after it arrives via an update). Here’s a look at it today:
 
 <figure class="third" markdown="1">
-  ![Welcome screenshot](https://miro.medium.com/max/1120/1*OsUdeEafTuWof7e_jdEeNg@2x.png)
-  ![Location Services screenshot](https://miro.medium.com/max/1120/1*CHRbLVIpEKti-vzcN6c8IA@2x.png)
-  ![Night Light screenshot](https://miro.medium.com/max/1120/1*dZ6zFyWk48YBA-tjoB3V-g@2x.png)
-  ![Housekeeping screenshot](https://miro.medium.com/max/1120/1*5tVjv1f9GqHfHmYjFYfJlQ@2x.png)
-  ![AppCenter screenshot](https://miro.medium.com/max/1120/1*2lEgiaFuFnV-fM9WcsU4sQ@2x.png)
-  ![Finished screenshot](https://miro.medium.com/max/1124/1*XMhBb2LH7zaW1VFQeORMow@2x.png)
+![Welcome screenshot](https://miro.medium.com/max/1120/1*OsUdeEafTuWof7e_jdEeNg@2x.png)
+![Location Services screenshot](https://miro.medium.com/max/1120/1*CHRbLVIpEKti-vzcN6c8IA@2x.png)
+![Night Light screenshot](https://miro.medium.com/max/1120/1*dZ6zFyWk48YBA-tjoB3V-g@2x.png)
+![Housekeeping screenshot](https://miro.medium.com/max/1120/1*5tVjv1f9GqHfHmYjFYfJlQ@2x.png)
+![AppCenter screenshot](https://miro.medium.com/max/1120/1*2lEgiaFuFnV-fM9WcsU4sQ@2x.png)
+![Finished screenshot](https://miro.medium.com/max/1124/1*XMhBb2LH7zaW1VFQeORMow@2x.png)
 </figure>
 
 That’s it! That’s the entirety of the process, and you can jump around as you’d please, or skip it at any time. We’ve designed it to be to the point and only handle one useful feature per view. We also linked to some existing resources right up front instead of trying to recreate them in the app. Lastly, we remind you that you can configure any hardware or change any of these settings from System Settings.
@@ -46,9 +49,9 @@ Okay, I may have fibbed a bit when saying that was all. During the design and de
 For example, if we introduced Housekeeping as a major new feature, users could be greeted with this slimmed down version of Onboarding:
 
 <figure class="third" markdown="1">
-  ![Update screenshot](https://miro.medium.com/max/1120/1*36Ig15LS_4F-gY1hV9lfDQ@2x.png)
-  ![Housekeeping screenshot](https://miro.medium.com/max/1120/1*Rncwyen7EHPQDWv4oWOkIA@2x.png)
-  ![Finished screenshot](https://miro.medium.com/max/1120/1*EpLeTddc9bkOL9l50IZggg@2x.png)
+![Update screenshot](https://miro.medium.com/max/1120/1*36Ig15LS_4F-gY1hV9lfDQ@2x.png)
+![Housekeeping screenshot](https://miro.medium.com/max/1120/1*Rncwyen7EHPQDWv4oWOkIA@2x.png)
+![Finished screenshot](https://miro.medium.com/max/1120/1*EpLeTddc9bkOL9l50IZggg@2x.png)
 </figure>
 
 This is modular and should work for any new major features we decide to add, so long as we deem them important enough to alert users—a very high bar.

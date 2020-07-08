@@ -4,6 +4,10 @@ description: 'Helpful tips, common pitfalls, and frequently asked questions'
 date: '2017-06-26T16:49:41.423Z'
 author: danrabbit
 image: https://cdn-images-1.medium.com/max/640/1*Er3Sv7msnJQLk0gdDy0zWg.png
+tags:
+  - appcenter
+  - devs
+  - evergreen
 ---
 
 It’s official: there’s been over 20 apps published through [AppCenter Dashboard](https://developer.elementary.io/) with more in development and on the way. Developers are excited that there is finally a fast and simple way to ship great, native, Open Source apps and earn an income while doing it. If you have an idea, now is the time to get it out there. But where do you begin? What should you look out for? And are there any little secrets you should know? Read on to find out!

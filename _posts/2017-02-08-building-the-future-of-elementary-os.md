@@ -4,6 +4,9 @@ description: Why AppCenter is the center of our platform
 date: '2017-02-08T21:11:19.048Z'
 author: cassidyjames
 image: https://cdn-images-1.medium.com/max/1600/1*UuTEU4IAxuwvpIC0sLJxQg.png
+thanks: true
+tags:
+- appcenter
 ---
 
 ![AppCenter](https://cdn-images-1.medium.com/max/1600/1*UuTEU4IAxuwvpIC0sLJxQg.png)
@@ -16,7 +19,7 @@ But above all, what has persisted is the demand and desire for truly native apps
 
 Rather than rely on web technologies, ported apps, and subpar user experiences, elementary OS is investing our future in an indie-focused, pay-what-you-want native AppCenter tailored to open source developers.
 
-### Where We Are
+## Where We Are
 
 We have shipped four versions of elementary OS since 2011. We’ve served up millions of OS downloads, the majority to closed source OS users.
 
@@ -33,7 +36,7 @@ This means the latest version of apps, directly from developers, built on demand
 
 An initial version of [AppCenter Dashboard](https://developer.elementary.io) is currently in private beta testing with developers, and they love it. We look forward to hooking this up to AppCenter in an upcoming point release of elementary OS Loki.
 
-### Pay What You Want
+## Pay What You Want
 
 Each version of elementary OS has been made available for the price of “pay-what-you-want.” We strongly believe in making sure that developers can secure funding for their work, but we also recognize that not everyone can afford a single market value for software.
 
@@ -47,7 +50,7 @@ As [Humble Bundle](https://www.humblebundle.com) (and our experience over the la
 
 We are excited to announce that every app in AppCenter will be be able to be made available for pay-what-you-want.
 
-### Why elementary OS?
+## Why elementary OS?
 
 We have been building a top-notch computing experience for laptops and desktops for years. Our users cite the simplicity, power, and speed of elementary OS as reasons for using it over closed source platforms, as well as our focus on a laptop- and desktop-first approach rather than focusing other hardware like servers or phones.
 
@@ -57,7 +60,7 @@ Users flocking from Windows appreciate the focus on privacy and security. Those 
 
 We think that anyone who uses elementary OS will recognize its value, and if you haven’t yet, [check it out](https://elementary.io)!
 
-### How You Can Help
+## How You Can Help
 
 <figure class="card" markdown="1">
 ![AppCenter by elementary](https://cdn-images-1.medium.com/max/640/1*Er3Sv7msnJQLk0gdDy0zWg.png)
@@ -66,3 +69,4 @@ We think that anyone who uses elementary OS will recognize its value, and if you
 We just kicked off [a small crowdfunding campaign](https://igg.me/at/appcenter) to help us deliver a fully working pay-what-you-want AppCenter and AppCenter Dashboard as quickly as possible. If you believe in our vision of native apps, we’d love your help backing the campaign! There are a number of [rewards](https://igg.me/at/appcenter) you can check out at [the campaign](https://igg.me/at/appcenter).
 
 _We’d like to say thanks again to our existing supporters on_ [_Bountysource_](https://salt.bountysource.com/teams/elementary) _and_ [_Patreon_](https://www.patreon.com/elementary)_, and those who’ve purchased a copy of_ [_elementary OS_](https://elementary.io/) _or merch from_ [_our store_](https://elementary.io/store/)_. Every contribution has helped get us this far, and we wouldn’t be at this amazing milestone without you! If you’d like to help improve elementary OS, don’t hesitate to_ [_back our AppCenter crowdfunding campaign_](https://igg.me/at/appcenter) _or_ [_Get Involved_](https://elementary.io/get-involved)_!_
+

@@ -4,6 +4,9 @@ description: New settings, redesigned dialogs, smashed bugs, and more
 date: '2019-05-02T16:45:32.621Z'
 author: danrabbit
 image: https://cdn-images-1.medium.com/max/1978/1*5_gDVCKTqw5t8LU3_l4uzg@2x.png
+tags:
+  - updates
+  - juno
 ---
 
 It’s time for another monthly updates roundup post! This month we added several new settings, redesigned some dialogs, smashed bugs, and more. Read ahead to get the details.
@@ -45,3 +48,4 @@ We also now support `osd` classed `Gtk.Progressbars` like the ones seen in GNOME
 Fix moving window to another workspace not updating panel opacity. Fix an issue that required pressing F2 several times in order to start renaming in Files. Music and Photos saw a number of dialogs redesigned and both now use the new [FileChooserNative API we talked about previously](https://medium.com/elementaryos/a-new-native-file-chooser-196acf9b06f0). Music also contains a small fix to help remember its window size more accurately.
 
 In addition to the updates mentioned above, you can always rely on updated translations, stability and performance fixes, and general code cleaning. Make sure to pop open AppCenter and hit “Update All” to get the latest and greatest.
+

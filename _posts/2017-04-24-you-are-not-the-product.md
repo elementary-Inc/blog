@@ -4,6 +4,15 @@ description: A reminder about our stance on advertising and tracking
 date: '2017-04-24T19:29:52.137Z'
 author: danrabbit
 image: https://cdn-images-1.medium.com/max/1600/1*cLwxBJhf6MKETmbqR6ilnw.jpeg
+tags:
+  - funding
+  - privacy
+  - meta
+  - evergreen
+
+facebook: https://www.facebook.com/elementaryos/posts/2630131613685318
+mastodon: https://mastodon.social/@elementary/102583310377481971
+twitter: https://twitter.com/elementary/status/1159565956894642176
 ---
 
 <figure class="full-bleed" markdown="1">

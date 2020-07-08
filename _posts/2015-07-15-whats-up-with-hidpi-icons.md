@@ -4,9 +4,13 @@ description: Thoughts from the GNOME WestCoast Summit
 date: '2015-07-15T07:00:00.000Z'
 author: danrabbit
 image: https://cdn-images-1.medium.com/max/2000/0*ZonrjOi3sFwlSjgL.png
+tags:
+  - hidpi
+  - devs
+  - icons
 ---
 
-We’ve recently returned from [GNOME WestCoast Summit](https://elementaryos.tumblr.com/post/122973077471/gnome-west-coast-summit) with a wealth of information and one of the breakthroughs we made was with regard to HiDPI icons. While the update should soon land for elementary OS Freya users, I wanted to take the time to document the changes we made. Hopefully this information will be useful to other open desktops and I do want to bring to light an open question about how third party app developers should be distributing HiDPI compatible icons.
+We’ve recently returned from [GNOME WestCoast Summit](/gnome-west-coast-summit) with a wealth of information and one of the breakthroughs we made was with regard to HiDPI icons. While the update should soon land for elementary OS Freya users, I wanted to take the time to document the changes we made. Hopefully this information will be useful to other open desktops and I do want to bring to light an open question about how third party app developers should be distributing HiDPI compatible icons.
 
 ## What is a HiDPI Icon?
 

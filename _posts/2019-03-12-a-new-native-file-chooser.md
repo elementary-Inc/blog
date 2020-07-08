@@ -4,6 +4,9 @@ description: And how you can get your apps ready for it
 date: '2019-03-12T01:47:18.418Z'
 author: danrabbit
 image: https://cdn-images-1.medium.com/max/1600/1*FgU8d63DkrYohV6JejUmFA.png
+tags:
+  - devs
+  - flatpak
 ---
 
 About 3 years ago now, we were faced with a bit of a problem: the design of the file chooser in Gtk was rapidly becoming out of sync with the design of Files and with dialogs in elementary OS in general as part of a redesign effort within GNOME. This change moved action buttons from their familiar location and stripped color from the sidebar, among other things. So, shortly after the release of elementary OS Freya, we debuted our own redesigned file chooser dialog using the Gtk.Module system.

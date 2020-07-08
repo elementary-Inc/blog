@@ -21,8 +21,10 @@
     />
   </div>
   <div class="author">
+    {% if include.link == true %}<a href="{{ site.baseurl }}/authors/#{{ include.author }}">{% endif %}
     <span class="name">{{ author.name }}</span>
-    {% if author.description %}
+    {% if include.link == true %}</a>{% endif %}
+    {% if author.description and page.layout == 'post' %}
       <span class="description">{{ author.description }}</span>
     {% endif %}
   </div>

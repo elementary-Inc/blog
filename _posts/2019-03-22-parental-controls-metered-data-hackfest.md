@@ -4,6 +4,11 @@ description: Working with GNOME on shared features
 date: '2019-03-22T00:48:49.069Z'
 author: cassidyjames
 image: https://cdn-images-1.medium.com/max/2000/1*1RRs1e_qsZVBgvddOEUElw.jpeg
+tags:
+  - digital-wellbeing
+  - parental-controls
+  - event
+  - gnome
 ---
 
 This week I’ve been in London, UK to attend the [Parental Controls & Metered Data hackfest](https://wiki.gnome.org/Hackfests/ParentalAndMetered2019) and work alongside folks from GNOME, Endless, Red Hat, Canonical, and more on designing and implementing Parental Controls in GNOME and related parts of the stack.
