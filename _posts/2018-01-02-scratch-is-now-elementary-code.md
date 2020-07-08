@@ -1,10 +1,12 @@
 ---
-title: Scratch is now elementary Code
-description: More than a name change
+title: "Scratch is now elementary Code"
+description: "More than a name change"
 date: '2018-01-02T22:44:57.840Z'
-categories: []
-keywords: []
-slug: /@cassidyjames/scratch-is-now-code-2838e03134c7
+author: cassidyjames
+image: https://cdn-images-1.medium.com/max/600/1*JVvsDBXzN9Q7jhiGOD0B3A.png
+tags:
+  - juno
+  - devs
 ---
 
 In 2011, elementary debuted our own “text editor.” We’ve shipped it in elementary OS ever since as Scratch, the default app for handling any plain text files, but it’s evolved into more than a simple notepad.
@@ -37,5 +39,3 @@ We now enable the folder manager plugin (where you can load a project’s file t
 ### Coming to Juno
 
 This is the first of many big changes coming to a new major release of elementary OS. Stay tuned for sneak previews and teasers as we work on the next big thing!
-
-_We’d like to say thanks to everyone who’s bought an app on AppCenter, our supporters on_ [_Bountysource_](https://salt.bountysource.com/teams/elementary) _and_ [_Patreon_](https://www.patreon.com/elementary)_, and those who’ve purchased a copy of_ [_elementary OS_](https://elementary.io/) _or merch from_ [_our store_](https://elementary.io/store/)_. Every contribution helps make all of this possible, and we wouldn’t be here without you! If you’d like to help improve elementary OS, don’t hesitate to_ [_Get Involved_](https://elementary.io/get-involved)_!_

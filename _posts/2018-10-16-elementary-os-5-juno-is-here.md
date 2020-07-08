@@ -33,7 +33,10 @@ elementary OS is made up of two main parts: the “desktop” which includes the
 
 AppCenter is our built-in app store where users can download free and paid apps that are purpose-built for elementary OS. With AppCenter we’re doing things a bit differently from our competitors. First, every single app in AppCenter is open source because we firmly believe in the world-changing power of freely-licensed code and open source software. Second, all paid apps are offered with a developer-provided suggested price, but are ultimately pay-what-you-want. Users choose what to pay—if anything at all—when they download paid apps.
 
-[**Building the Future of elementary OS** _Why AppCenter is the center of our platform_](https://medium.com/elementaryos/building-the-future-of-elementary-os-9df3fa940b67 "https://medium.com/elementaryos/building-the-future-of-elementary-os-9df3fa940b67")[](https://medium.com/elementaryos/building-the-future-of-elementary-os-9df3fa940b67)
+<aside>
+{% assign post = site.posts | where:"slug", "building-the-future-of-elementary-os" | first %}
+{% include featured.html post=post %}
+</aside>
 
 We use a pay-what-you-want model because it makes it incredibly easy for those who want and are able to fund development to do so, while keeping things accessible for individuals or organizations where the costs might be prohibitive. Our goal is a sustainable open source ecosystem of quality apps that people love.
 
@@ -69,7 +72,7 @@ If a paid app has been downloaded for free in the past, it will now prompt again
 <figcaption>Users can directly fund apps at any time</figcaption>
 </figure>
 
-We’ve added **a new “Fund” option** in the footer of all paid apps, making it easier yet again for users to help directly support the development of an app they’ve already purchased or haven’t even installed. For the whole rundown, be sure to read our [About AppCenter Payments](https://medium.com/elementaryos/about-appcenter-payments-daa76a1a3b59) post from earlier this year.
+We’ve added **a new “Fund” option** in the footer of all paid apps, making it easier yet again for users to help directly support the development of an app they’ve already purchased or haven’t even installed. For the whole rundown, be sure to read our [About AppCenter Payments](/about-appcenter-payments) post from earlier this year.
 
 <figure markdown="1">
 ![AppCenter payment dialog](https://cdn-images-1.medium.com/max/982/1*3pDgwkAr7dErrHYlACEj0Q.png)
@@ -78,15 +81,18 @@ We’ve added **a new “Fund” option** in the footer of all paid apps, making
 
 We’ve also revisited the payment dialog for purchasing apps: we’ve implemented **better payment card formatting and validation** to cut down on errors, we now hide payment details when the fields aren’t focused to cut down on shoulder-surfer surveillance, and we’ve made it more consistent with other authentication dialogs, and consequently clearer that this is a trusted and secure dialog that is in fact coming from elementary OS.
 
-We’ve focused on small things, too: we show the download size of apps in their header so bandwidth-conscious users will know if they want to grab an app now, or when they’re on an unmetered connection; when a user goes to download an app that might contain explicit content, we give them [a heads up](https://medium.com/elementaryos/appcenter-and-content-ratings-1ec5c198d7fe); category colors have been refined and adapted to our color palette; icons are higher-resolution and pixel-perfect on both LoDPI and HiDPI displays; and categories now contain both more apps and more relevant apps.
+We’ve focused on small things, too: we show the download size of apps in their header so bandwidth-conscious users will know if they want to grab an app now, or when they’re on an unmetered connection; when a user goes to download an app that might contain explicit content, we give them [a heads up](/appcenter-and-content-ratings); category colors have been refined and adapted to our color palette; icons are higher-resolution and pixel-perfect on both LoDPI and HiDPI displays; and categories now contain both more apps and more relevant apps.
 
-[**AppCenter and Content Ratings** _Using open standards to empower users and parents_](https://medium.com/elementaryos/appcenter-and-content-ratings-1ec5c198d7fe "https://medium.com/elementaryos/appcenter-and-content-ratings-1ec5c198d7fe")[](https://medium.com/elementaryos/appcenter-and-content-ratings-1ec5c198d7fe)
+<aside>
+{% assign post = site.posts | where:"slug", "appcenter-and-content-ratings" | first %}
+{% include featured.html post=post %}
+</aside>
 
 In beta testing, we’ve received positive feedback about each of these improvements from both app developers and users. The next time you’re in AppCenter we hope you’ll purchase an app to help build this sustainable open source ecosystem with us.
 
 ### elementary Code: Purpose-built for Developers
 
-We wrote about [Scratch becoming Code](https://medium.com/elementaryos/scratch-is-now-code-2838e03134c7) at the beginning of the year, and that’s now fully realized in elementary OS 5 Juno. Code in Juno received the most attention, refinement, and improvement over its counterpart in Loki compared to any other app. Developers: this one’s for you.
+We wrote about [Scratch becoming Code](/scratch-is-now-elementary-code) at the beginning of the year, and that’s now fully realized in elementary OS 5 Juno. Code in Juno received the most attention, refinement, and improvement over its counterpart in Loki compared to any other app. Developers: this one’s for you.
 
 ![](https://cdn-images-1.medium.com/max/1600/1*NwXZpg10C3z4woBGXeCouA@2x.png)
 
@@ -114,7 +120,10 @@ With the adoption of the folder manager into the core, we were able to add a few
 
 We also refined a lot of little things: the optional Mini Map is now using a purpose-built font, making it much more visible at a glance; we draw **spaces for selected text and trailing whitespace** by default; there’s a new animation for switching between project folders and symbols; and more options are visible without having to dive into a Preferences dialog.
 
-[**Scratch is now elementary Code** _More than a name change_](https://medium.com/elementaryos/scratch-is-now-code-2838e03134c7 "https://medium.com/elementaryos/scratch-is-now-code-2838e03134c7")[](https://medium.com/elementaryos/scratch-is-now-code-2838e03134c7)
+<aside>
+{% assign post = site.posts | where:"slug", "scratch-is-now-elementary-code" | first %}
+{% include featured.html post=post %}
+</aside>
 
 If you’ve previously used Scratch and left it for a different editor, we encourage you to give Code a try. We think you’ll be thrilled with the absolute overhaul! And if you’ve never written an app before, you’ll be able to get off the ground running with the help of Code.
 
