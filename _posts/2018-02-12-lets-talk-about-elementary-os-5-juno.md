@@ -62,7 +62,7 @@ We don’t yet have a locked-in, guaranteed public roadmap for Juno (recall the 
 
 There are also a number of things we always have to do for a new release: migrate to (and test with) the latest versions of GTK+, Mutter, and other components of the stack. And of course a new release will contain a newer version of the Linux kernel and hardware stack along with new and improved hardware support.
 
-With the new version of GTK+ we’ll be able to start both exploring using new widgets where appropriate and taking advantage of new features in Gtk.CSS. We’re also aiming to continue to improve the HiDPI experience in Juno since several underlying components have received HiDPI fixes. We’ve also started to explore new capabilities in the settings daemon like Night Light, and plan to make some changes around [AppCenter payments](https://medium.com/elementaryos/about-appcenter-payments-daa76a1a3b59). We’ll share more when we have more to share!
+With the new version of GTK+ we’ll be able to start both exploring using new widgets where appropriate and taking advantage of new features in Gtk.CSS. We’re also aiming to continue to improve the HiDPI experience in Juno since several underlying components have received HiDPI fixes. We’ve also started to explore new capabilities in the settings daemon like Night Light, and plan to make some changes around [AppCenter payments](/about-appcenter-payments). We’ll share more when we have more to share!
 
 ### What About Loki?
 
