@@ -1,21 +1,18 @@
 ---
 title: "Peace Out, About Dialogs"
 description: "and hello metadata standards"
-author: DanielFore
+author: danrabbit
 date: 2017-06-28T15:48:24.851Z
-image: /assets/images/peace-out-about-dialogs/1mrrQ-gyPp_02a4_UFX5O0g.png
+image: /images/peace-out-about-dialogs/1mrrQ-gyPp_02a4_UFX5O0g.png
 tags:
-  - "elementary-os"
-  - "linux"
-  - "appstream"
-  - "open-source"
-  - "design"
+  - devs
+  - design
 ---
 
 When we first started writing apps, package managers were not very friendly things. They pretty much looked like this:
 
 <figure markdown="1">
-![Doesn’t wanna be friends. Only manages packages.](/assets/images/peace-out-about-dialogs/1B7e58f6IwUCUtnlEtpFdxQ.png)
+![Doesn’t wanna be friends. Only manages packages.](/images/peace-out-about-dialogs/1B7e58f6IwUCUtnlEtpFdxQ.png)
 <figcaption markdown="1">
 Doesn’t wanna be friends. Only manages packages.
 </figcaption>
@@ -24,7 +21,7 @@ Doesn’t wanna be friends. Only manages packages.
 But app developers wanted a way to provide *metadata* with their apps. Stuff like licensing information and a link back to their website. So soon there was something that looked a lot like this:
 
 <figure markdown="1">
-![An old Gtk2 about dialog](/assets/images/peace-out-about-dialogs/0SNlhBVJ3W1tzVpH8)
+![An old Gtk2 about dialog](/images/peace-out-about-dialogs/0SNlhBVJ3W1tzVpH8)
 <figcaption markdown="1">
 An old Gtk2 about dialog
 </figcaption>
@@ -32,12 +29,10 @@ An old Gtk2 about dialog
 
 But as we started writing more apps, we realized that there was a standard set of links we wanted to provide with every app that wasn’t covered here: a place to get help, a place to report issues, and a place to suggest translations. So we decided to write our own Granite About Dialog.
 
-<figure markdown="1">
-![](/assets/images/peace-out-about-dialogs/0FR5T1GxBGcfY5KAI)
-</figure>
 
-<figure markdown="1">
-![Left: The super rad Firefox about dialog; Right: Granite’s About dialog](/assets/images/peace-out-about-dialogs/1mrrQ-gyPp_02a4_UFX5O0g.png)
+<figure class="half" markdown="1">
+![](/images/peace-out-about-dialogs/0FR5T1GxBGcfY5KAI)
+![Left: The super rad Firefox about dialog; Right: Granite’s About dialog](/images/peace-out-about-dialogs/1mrrQ-gyPp_02a4_UFX5O0g.png)
 <figcaption markdown="1">
 Left: The super rad Firefox about dialog; Right: Granite’s About dialog
 </figcaption>
@@ -52,7 +47,7 @@ We decided that we’d put a link to this dialog in the gear menu of all our app
 Ever since the iOS App Store, we’ve had to rethink what a package manager’s job is. It suddenly became a place where you not only expected to be able to add and remove packages, but a place to discover and evaluate new apps that you’ve never heard of before. And for that, apps need to display metadata: descriptions, screenshots, licensing information, and *links to useful web pages*. With AppCenter, about dialogs start to make a lot less sense. There’s already a canonical place to see application metadata. And now there’s even a standard specification called [AppStream](https://www.freedesktop.org/software/appstream/docs/sect-Metadata-Application.html) so that app developers and app store developers can be on the same page about what things they expect to be able to share. To that end, we’re making a couple of changes in elementary OS.
 
 <figure markdown="1">
-![New AppInfo page footers in AppCenter](/assets/images/peace-out-about-dialogs/145GeVGqVbNw2tyr6SrPByQ.png)
+![New AppInfo page footers in AppCenter](/images/peace-out-about-dialogs/145GeVGqVbNw2tyr6SrPByQ.png)
 <figcaption markdown="1">
 New AppInfo page footers in AppCenter
 </figcaption>
@@ -68,16 +63,14 @@ We’ll also soon deprecate the Granite About Dialog widget so developers will s
 
 If you’re a developer ready to kill the About dialog in your app, make sure that you’re making use of the [following tags](https://www.freedesktop.org/software/appstream/docs/chap-Metadata.html#sect-Metadata-GenericComponent) in your `appdata.xml` file:
 
-* `&lt;project_license&gt;`
+  * `<project_license>`
 
-* `&lt;url type="homepage"&gt;`
+  * `<url type="homepage">`
 
-* `&lt;url type="bugtracker"&gt;`
+  * `<url type="bugtracker">`
 
-* `&lt;url type="help"&gt;`
+  * `<url type="help">`
 
-* `&lt;url type="translate"&gt;`
+  * `<url type="translate">`
 
 Then, remove the About dialog from your apps, if you are using them. Now, feel free that you can make new UI decisions that aren’t based around legacy concepts! Choose not to have a gear menu if you don’t want one. And lastly, enjoy an uncluttered applications search.
-
-*We’d like to say thanks again to everyone who’s bought an app on AppCenter, our supporters on[ Bountysource](https://salt.bountysource.com/teams/elementary) and[ Patreon](https://www.patreon.com/elementary), and those who’ve purchased a copy of[ elementary OS](https://elementary.io/) or merch from[ our store](https://elementary.io/store/). Every contribution helps make all of this possible, and we wouldn’t be here without you! If you’d like to help improve elementary OS, don’t hesitate to [Get Involved](https://elementary.io/get-involved)!*
