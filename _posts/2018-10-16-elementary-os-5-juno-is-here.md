@@ -276,8 +276,10 @@ System-wide keyboard shortcuts
 
 By default, Shortcut Overlay comes up when you tap the ⌘ key on your keyboard. This gives you a one-key introduction to (or reminder of) the major system-wide keyboard shortcuts in elementary OS. For users coming from Windows, this also gives them _something_ when they tap their Windows key, helping guide them to the rest of shortcuts for the OS, including ⌘+Space for the Applications Menu.
 
-[**Why the Looped Square (⌘) Symbol?**
-_Keyboard shortcuts in elementary OS are the same no matter if it’s a Windows-branded keyboard or not; we just use the ⌘…_medium.com](https://medium.com/@cassidyjames/why-the-looped-square-symbol-809a3de71bea "https://medium.com/@cassidyjames/why-the-looped-square-symbol-809a3de71bea")[](https://medium.com/@cassidyjames/why-the-looped-square-symbol-809a3de71bea)
+<aside>
+{% assign post = site.posts | where:"slug", "why-the-looped-square-symbol" | first %}
+{% include featured.html post=post %}
+</aside>
 
 One of the most handy parts, though, is the **Keyboard Settings button** at the top-right of the window. This lets you jump straight into the Shortcuts tab of the system keyboard settings where you can change all of the shortcuts for the entire system, and even create your own custom ones. And of course, whatever you change in System Settings is reflected in the Shortcut Overlay the next time you bring it up.
 
@@ -577,7 +579,7 @@ You’ve made it all the way here! **elementary OS 5 Juno is available right now
 
 ## Thank You
 
-Last but absolutely not least, **we’d like to thank every single person who has contributed to elementary OS** in one way or another. Thank you to everyone who has bought an app on AppCenter. Thank you to all of the developers releasing their apps on AppCenter. Thank you to our supporters on [Bountysource](https://salt.bountysource.com/teams/elementary) and [Patreon](https://www.patreon.com/elementary). Thank you to each and every one of you who has purchased a copy of [elementary OS](https://elementary.io/). Thanks to all of you who have supported us by buying merch from [our store](https://elementary.io/store/).
+Last but absolutely not least, **we’d like to thank every single person who has contributed to elementary OS** in one way or another. Thank you to everyone who has bought an app on AppCenter. Thank you to all of the developers releasing their apps on AppCenter. Thank you to our supporters on Bountysource and [Patreon](https://www.patreon.com/elementary). Thank you to each and every one of you who has purchased a copy of [elementary OS](https://elementary.io/). Thanks to all of you who have supported us by buying merch from [our store](https://elementary.io/store/).
 
 Every single contribution—be it coding, translations, funding, design, app development, support, or hype—helps make all of this possible, and we wouldn’t be here without you. Juno is such an incredible release, and it’s here thanks to all of our supporters. ❤
 
