@@ -1,12 +1,11 @@
 ---
-title: Why We Use “Checks” in Checkboxes and Radio Buttons
-description: >-
-  Checkboxes and radio buttons are honestly used pretty sparingly in elementary
-  OS, and even more sparingly together. When they are used…
-date: '2018-09-22T05:00:43.450Z'
-categories: []
-keywords: []
-slug: /@cassidyjames/why-we-use-checks-in-checkboxes-and-radio-buttons-eab1218a7cfb
+title: "Why We Use “Checks” in Checkboxes and Radio Buttons"
+description:
+author: cassidyjames
+date: 2018-07-20T19:32:46.360Z
+image:
+tags:
+  - design
 ---
 
 Checkboxes and radio buttons are honestly used pretty sparingly in elementary OS, and even more sparingly together. When they are used, it’s fairly obvious from context whether it’s a multi-select or exclusive-select situation. Further, with radio buttons it can be unclear in some contexts what exactly a circle with a dot in it (what we used to do for radios) means, whereas a circle with a check is a common metaphor throughout the OS.
