@@ -1,10 +1,13 @@
 ---
-title: elementary OS 5 Juno is Here
+title: "elementary OS 5 Juno is Here"
 description: 'Refinement, Productivity, & an Improved Developer Platform'
 date: '2018-10-16T19:01:04.732Z'
 author: cassidyjames
 image: https://cdn-images-1.medium.com/max/1600/1*ijeWZhhxGB4gfI030ItS0g.png
 thanks: true # includes a thank-you, so disable the automatic one
+tags:
+  - juno
+  - updates
 ---
 
 ![](https://cdn-images-1.medium.com/max/1600/1*ijeWZhhxGB4gfI030ItS0g.png)
@@ -17,7 +20,10 @@ thanks: true # includes a thank-you, so disable the automatic one
 
 Today we’re proud to officially release elementary OS 5.
 
-[**Let’s talk about elementary OS 5 Juno** _Why we went from 0.4 to 5.0_](https://medium.com/elementaryos/lets-talk-about-elementary-os-5-0-juno-a3a65b97ee7e "https://medium.com/elementaryos/lets-talk-about-elementary-os-5-0-juno-a3a65b97ee7e")[](https://medium.com/elementaryos/lets-talk-about-elementary-os-5-0-juno-a3a65b97ee7e)
+<aside>
+{% assign post = site.posts | where:"slug", "lets-talk-about-elementary-os-5-juno" | first %}
+{% include featured.html post=post %}
+</aside>
 
 ## Majorly Updated Apps
 
