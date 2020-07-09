@@ -3,13 +3,9 @@ title: "Cleaning Up App Codenames"
 description: "GitHub and RDNN make for a more sane scheme"
 author: cassidyjames
 date: 2017-07-21T15:14:14.057Z
-image: /assets/images/cleaning-up-app-codenames/10aDjghzZlPSzu9-d1AtSCQ.png
+image: /images/cleaning-up-app-codenames/10aDjghzZlPSzu9-d1AtSCQ.png
 tags:
-  - "linux"
-  - "open-source"
-  - "elementary-os"
-  - "coding"
-  - "software-development"
+  - dev
 ---
 
 We’re making some changes to our app codenames (and how we refer to apps) to clean up a few mismatched schemes. This gets a little nerdy (talking about GSettings and AppData), but it’s good info for any developers or just curious users of elementary OS.
@@ -19,7 +15,7 @@ We’re making some changes to our app codenames (and how we refer to apps) to c
 Historically, elementary apps were given fun and clever code names; we had “Dexter” the contacts app (rolodex), “Postler” the email app (postal mail, plus reflecting the “Dexter” name), “BeatBox” the music player (which later became “Noise”), “Audience” the video player, etc. This convention came from the fact that our apps —which predate our desktop environment and OS — were third-party apps on top of Ubuntu. We had fun and clever names to stand out from the crowd of pre-installed and popular apps on Ubuntu at the time.
 
 <figure markdown="1">
-![BeatBox on Ubuntu many, many years ago…](/assets/images/cleaning-up-app-codenames/10aDjghzZlPSzu9-d1AtSCQ.png)
+![BeatBox on Ubuntu many, many years ago…](/images/cleaning-up-app-codenames/10aDjghzZlPSzu9-d1AtSCQ.png)
 <figcaption markdown="1">
 BeatBox on Ubuntu many, many years ago…
 </figcaption>
@@ -44,7 +40,7 @@ Further, we’re adopting [RDNN](https://en.wikipedia.org/wiki/Reverse_domain_na
 Moving forward, an elementary app with a generic name Baz would have a repository of github.com/elementary/baz, an app ID (including .desktop and AppData filenames) of `io.elementary.baz`, a binary of `io.elementary.baz`, and a gsettings path of `/io/elementary/baz`. User-facing, we’ll continue to refer to apps by their generic names (just “Baz”) as well.
 
 <figure markdown="1">
-![The few apps whose gsettings we’ve begun to migrate](/assets/images/cleaning-up-app-codenames/1caBJZsZA3-d0pJfy65x2ug.png)
+![The few apps whose gsettings we’ve begun to migrate](/images/cleaning-up-app-codenames/1caBJZsZA3-d0pJfy65x2ug.png)
 <figcaption markdown="1">
 The few apps whose gsettings we’ve begun to migrate
 </figcaption>
@@ -56,16 +52,9 @@ We’ve started making this migration with a few apps, and we’re considering i
 
 ## tl;dr
 
-* App codenames are a mess right now for historical reasons
-
-* We’re standardizing on generic names
-
-* Repos live at github.com/elementary/genericname
-
-* App IDs use RDNN, so io.elementary.genericname
-
-* We’ll prefix “elementary” only for clarity, i.e. “elementary Files” vs “GNOME Files”
-
-* This is a migration, not instantaneous. It will take a while to complete, but work is already underway.
-
-*We’d like to say thanks again to everyone who’s bought an app on AppCenter, our supporters on [Bountysource](https://salt.bountysource.com/teams/elementary) and [Patreon](https://www.patreon.com/elementary), and those who’ve purchased a copy of [elementary OS](https://elementary.io/) or merch from [our store](https://elementary.io/store/). Every contribution helps make all of this possible, and we wouldn’t be here without you! If you’d like to help improve elementary OS, don’t hesitate to [Get Involved](https://elementary.io/get-involved)!*
+  * App codenames are a mess right now for historical reasons
+  * We’re standardizing on generic names
+  * Repos live at github.com/elementary/genericname
+  * App IDs use RDNN, so io.elementary.genericname
+  * We’ll prefix “elementary” only for clarity, i.e. “elementary Files” vs “GNOME Files”
+  * This is a migration, not instantaneous. It will take a while to complete, but work is already underway.
