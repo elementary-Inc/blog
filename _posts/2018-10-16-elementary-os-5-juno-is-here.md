@@ -222,7 +222,7 @@ The user interface has also been refined with **new bookmark management**, new z
 We’ve updated all apps in elementary OS 5 Juno with new and improved translations, performance improvements, and bug fixes.
 
 <figure class="full-bleed" markdown="1">
-![divider](https://cdn-images-1.medium.com/max/2560/1*9Use1S4OgFHQ6YU3oxEfSQ.jpeg)
+![divider](https://cdn-images-1.medium.com/max/1280/1*9Use1S4OgFHQ6YU3oxEfSQ.jpeg){: srcset="https://cdn-images-1.medium.com/max/2560/1*9Use1S4OgFHQ6YU3oxEfSQ.jpeg 2x" width="1280" height="340"}
 </figure>
 
 ## Desktop Features
@@ -358,7 +358,7 @@ With Juno, elementary OS now supports **rich, full-color emoji** throughout the 
 In supported text entries, you can use the context menu with a right- or two-finger-click and choose the new “Insert Emoji” item to get the new input method. You can also tap the Ctrl+; keyboard shortcut with any native app text entry in focus.
 
 <figure class="full-bleed" markdown="1">
-![divider](https://cdn-images-1.medium.com/max/2560/1*9Use1S4OgFHQ6YU3oxEfSQ.jpeg)
+![divider](https://cdn-images-1.medium.com/max/1280/1*9Use1S4OgFHQ6YU3oxEfSQ.jpeg){: srcset="https://cdn-images-1.medium.com/max/2560/1*9Use1S4OgFHQ6YU3oxEfSQ.jpeg 2x" width="1280" height="340"}
 </figure>
 
 ## Look & Feel
@@ -457,7 +457,7 @@ Design isn’t just about static pixels on a screen; more than ever, motion play
 A more subtle but probably more-frequently-seen animation in Juno is the new **accent-colored overscroll** feedback. Overscrolling occurs when a user attempts to scroll past the edge of a view, whether with a mouse, touchpad, or touch screen. In Loki, the view simply stopped when it hit the edge, and that was that. In elementary OS 5 Juno, we’ve added a subtle glow of the window’s accent color to let users know what’s happening. By default in Juno, this will be the common elementary-blue color that you’re used to seeing across the OS. But apps are able to set their own accent color (i.e. for highlights, focus indication, etc.), and this new overscroll glow will reflect that.
 
 <figure class="full-bleed" markdown="1">
-![divider](https://cdn-images-1.medium.com/max/2560/1*9Use1S4OgFHQ6YU3oxEfSQ.jpeg)
+![divider](https://cdn-images-1.medium.com/max/1280/1*9Use1S4OgFHQ6YU3oxEfSQ.jpeg){: srcset="https://cdn-images-1.medium.com/max/2560/1*9Use1S4OgFHQ6YU3oxEfSQ.jpeg 2x" width="1280" height="340"}
 </figure>
 
 ## System Settings
@@ -508,7 +508,9 @@ It’s now much easier to find the right project to report an issue against on G
 
 We’ve improved the design within the Language & Region settings. There’s also now an obvious link to keyboard settings (since the two are closely related) straight from here.
 
-![](https://cdn-images-1.medium.com/max/1600/1*L8AHf304Qa-Fc9q1PSG_-w@2x.png)
+<figure markdown="1">
+![Language & Region settings](https://cdn-images-1.medium.com/max/1006/1*L8AHf304Qa-Fc9q1PSG_-w@2x.png){: srcset="https://cdn-images-1.medium.com/max/2012/1*L8AHf304Qa-Fc9q1PSG_-w@2x.png 2x" width="1006" height="684"}
+</figure>
 
 ### Displays
 
@@ -518,7 +520,9 @@ First, we’ve **added a setting for scaling factor**. elementary OS automatical
 
 We’ve also a **rotation lock toggle** for devices that have an accelerometer. This is great for tablet or 2-in-1 form factors where you might want to flip the screen around, but sometimes you want it locked.
 
-![](https://cdn-images-1.medium.com/max/1600/1*bVy0uG_BuJLmh39Ck6i0nA@2x.png)
+<figure markdown="1">
+![Displays settings](https://cdn-images-1.medium.com/max/1006/1*bVy0uG_BuJLmh39Ck6i0nA@2x.png){: srcset="https://cdn-images-1.medium.com/max/2012/1*bVy0uG_BuJLmh39Ck6i0nA@2x.png 2x" width="1006" height="684"}
+</figure>
 
 We’ve **improved multi-display drag and drop layout** in Juno, especially around display rotation. Things should be more consistent, more clear, and more accurate to the real world layout.
 
@@ -530,18 +534,22 @@ Keyboards are very personal pieces of hardware; not only are there so many diffe
 
 To start, users coming from other platforms may be used to using the ⌘ key to display something like the Applications Menu. We’re happy to say that in Juno, you can now **configure the ⌘ key behavior** to show the new Shortcut Overlay, launch the Applications Menu, or do nothing as in Loki.
 
-![](https://cdn-images-1.medium.com/max/1600/1*9Jqem1bIzFn2ULp7F_wPPA@2x.png)
+<figure markdown="1">
+![Keyboard settings](https://cdn-images-1.medium.com/max/1023/1*9Jqem1bIzFn2ULp7F_wPPA@2x.png){: srcset="https://cdn-images-1.medium.com/max/2046/1*9Jqem1bIzFn2ULp7F_wPPA@2x.png 2x" width="1023" height="717"}
+</figure>
 
 If you regularly type extended Latin or other special characters, you may be familiar with the  [Compose key](https://en.wikipedia.org/wiki/Compose_key). Now in Juno, you can choose from several different keys depending on your preference and what is convenient on your hardware, including Caps Lock, Menu, Right Alt, Right Ctrl, and Right ⌘.
 
 <figure class="half" markdown="1">
-![](https://cdn-images-1.medium.com/max/1600/1*4DcpT01R4Cx2ro-dHIzTyQ@2x.png)
-![](https://cdn-images-1.medium.com/max/1600/1*z7n2PidkUN4gxlGDQgU1Mw@2x.png)
+![Add keyboard layout](https://cdn-images-1.medium.com/max/1005/1*4DcpT01R4Cx2ro-dHIzTyQ@2x.png){: srcset="https://cdn-images-1.medium.com/max/2010/1*4DcpT01R4Cx2ro-dHIzTyQ@2x.png 2x" width="1005" height="703"}
+![Add keyboard layout detail](https://cdn-images-1.medium.com/max/1005/1*z7n2PidkUN4gxlGDQgU1Mw@2x.png){: srcset="https://cdn-images-1.medium.com/max/2010/1*z7n2PidkUN4gxlGDQgU1Mw@2x.png 2x" width="1005" height="703"}
 </figure>
 
 Thanks to some of the installer work done in collaboration with System76, we’ve also redesigned the keyboard layout chooser with new features like search and layout previews and without oversized and clumsy dropdown menus.
 
-![](https://cdn-images-1.medium.com/max/1600/1*viq4cuKSYoh2BrxL0t20fQ@2x.png)
+<figure markdown="1">
+![Keyboard shortcut settings](https://cdn-images-1.medium.com/max/1023/1*viq4cuKSYoh2BrxL0t20fQ@2x.png){: srcset="https://cdn-images-1.medium.com/max/2046/1*viq4cuKSYoh2BrxL0t20fQ@2x.png 2x" width="1023" height="717"}
+</figure>
 
 For Juno, we’ve also redesigned the Keyboard Shortcuts settings with new icons for categories, and we’ve removed confusing symbols like ⌥. We’ve also added **new settings** for shortcuts like cycling workspaces and zoom.
 
@@ -549,11 +557,13 @@ For Juno, we’ve also redesigned the Keyboard Shortcuts settings with new icons
 
 Like keyboards, a mouse or touchpad is a very personal input device that can lead to different preferences or behaviors. In elementary OS Juno, we’ve added several more settings to help address this.
 
-![Mouse & Touchpad settings](https://cdn-images-1.medium.com/max/1600/1*Y1n5IpRmMqXXD-GqhmHgMQ@2x.png)
+<figure markdown="1">
+![Mouse & Touchpad settings](https://cdn-images-1.medium.com/max/875/1*Y1n5IpRmMqXXD-GqhmHgMQ@2x.png){: srcset="https://cdn-images-1.medium.com/max/1750/1*Y1n5IpRmMqXXD-GqhmHgMQ@2x.png 2x" width="875" height="764"}
+</figure>
 
 First, we’ve added a new option to **enable or disable middle click paste**. For longtime Linux users, this is a common feature as a bit of an extra text editing shortcut. But for users coming from other platforms, this might just get in their way, so now it can be toggled on or off.
 
-On devices with a touchpad (like a laptop), we’ve also added a setting to **enable or disable the touchpad while typing**. This is a highly-requested feature from people who play games on the touchpad, as previously in some games there would be a delay between pressing keys (like W, A, S, and D for moving around) and being able to use the touchpad. While this cuts down significantly on accidental cursor movement and clicks while typing, it can be frustrating for those games. So we’ve added a setting!
+On devices with a touchpad (like a laptop), we’ve also added a setting to **enable or disable the touchpad while typing**. This is a highly-requested feature from people who play games on the touchpad, as previously in some games there would be a delay between pressing keys (like <kbd>W</kbd>, <kbd>A</kbd>, <kbd>S</kbd>, and <kbd>D</kbd> for moving around) and being able to use the touchpad. While this cuts down significantly on accidental cursor movement and clicks while typing, it can be frustrating for those games. So we’ve added a setting!
 
 We’ve also added selectable **mouse acceleration profiles** in Juno, another common request from gamers and other users. Choose from the hardware default, no acceleration, or adaptive acceleration in a new dropdown.
 
@@ -565,7 +575,9 @@ The power settings let you choose display, power button, suspend, and other powe
 
 We’ve **completely redesigned the sound input and output settings** for elementary OS Juno. It’s now simpler to choose devices, adjust balance, check your mic balance, and more.
 
-![Sound settings](https://cdn-images-1.medium.com/max/876/1*VY71Sb0qr83sk0AyMGeo9g@2x.png){: srcset="https://cdn-images-1.medium.com/max/1752/1*VY71Sb0qr83sk0AyMGeo9g@2x.png"}
+<figure markdown="1">
+![Sound settings](https://cdn-images-1.medium.com/max/876/1*VY71Sb0qr83sk0AyMGeo9g@2x.png){: srcset="https://cdn-images-1.medium.com/max/1752/1*VY71Sb0qr83sk0AyMGeo9g@2x.png 2x" width="876" height="606"}
+</figure>
 
 We’ve also added a **new “Event Sounds” toggle**, which lets you enable or disable the “thud” noise when you hit the end of a text entry or try to Alt+Tab with no available windows.
 
@@ -574,8 +586,8 @@ We’ve also added a **new “Event Sounds” toggle**, which lets you enable or
 We’ve touched up the User Accounts settings in Juno. It’s now more clear how to change a password, and Guest Session settings are more consistent with other settings panes.
 
 <figure class="half" markdown="1">
-![User Accounts settings](https://cdn-images-1.medium.com/max/876/1*eyLQE_FCg6Ol7hHxkPPD6w@2x.png){: srcset="https://cdn-images-1.medium.com/max/1752/1*eyLQE_FCg6Ol7hHxkPPD6w@2x.png 2x"}
-![New user creation](https://cdn-images-1.medium.com/max/920/1*pbut2_BCInmrY6v0UwmYJg@2x.png)
+![User Accounts settings](https://cdn-images-1.medium.com/max/876/1*eyLQE_FCg6Ol7hHxkPPD6w@2x.png){: srcset="https://cdn-images-1.medium.com/max/1752/1*eyLQE_FCg6Ol7hHxkPPD6w@2x.png 2x" width="876" height="606"}
+![New user creation](https://cdn-images-1.medium.com/max/460/1*pbut2_BCInmrY6v0UwmYJg@2x.png){: srcset="https://cdn-images-1.medium.com/max/920/1*pbut2_BCInmrY6v0UwmYJg@2x.png" width="460" height="557"}
 <figcaption>User Accounts settings and new user creation</figcaption>
 </figure>
 
@@ -585,20 +597,26 @@ We also refined the new user creation. We’ve moved it to its own dialog and im
 
 Privacy and security are paramount to elementary OS. In Security & Privacy settings, we provide control over OS-wide history (used for extra functionality, like offering recently-used files in apps). Users can toggle OS-wide history with a switch, or pick and choose which apps are affected. Security & Privacy settings also give control over when the session locks, as well as an OS-wide firewall. With elementary OS 5 Juno, we’ve added even more features to help you safeguard your private data.
 
-![Housekeeping settings](https://cdn-images-1.medium.com/max/773/1*MF6GlwN6RRH7SWnfBPDw1w@2x.png){: srcset="https://cdn-images-1.medium.com/max/1546/1*MF6GlwN6RRH7SWnfBPDw1w@2x.png 2x"}
+<figure markdown="1">
+![Housekeeping settings](https://cdn-images-1.medium.com/max/773/1*MF6GlwN6RRH7SWnfBPDw1w@2x.png){: srcset="https://cdn-images-1.medium.com/max/1546/1*MF6GlwN6RRH7SWnfBPDw1w@2x.png 2x" width="773" height="541.5"}
+</figure>
 
 **Housekeeping** is a brand new optional feature in Juno to help keep your temporary and trashed files tidied up. Not only does this keep your device’s storage free, it can help ensure your private data doesn’t come back to haunt you.
 
 Now in Juno, when apps attempt to use your location, elementary OS displays a **Location Services approval dialog** with the app’s name and icon, plus the precision level that was requested.
 
-![Location Services dialog](https://cdn-images-1.medium.com/max/460/1*CGlytKO-lQIw2oGoZ9AcMA@2x.png){: srcset="https://cdn-images-1.medium.com/max/980/1*CGlytKO-lQIw2oGoZ9AcMA@2x.png 2x"}
+<figure markdown="1">
+![Location Services dialog](https://cdn-images-1.medium.com/max/460/1*CGlytKO-lQIw2oGoZ9AcMA@2x.png){: srcset="https://cdn-images-1.medium.com/max/980/1*CGlytKO-lQIw2oGoZ9AcMA@2x.png 2x" width="460" height="209"}
+</figure>
 
 To manage these new permissions, we’ve added a **brand new Location Services section** to Security & Privacy. Here you can toggle Location Services for the whole system, or approve or deny specific apps.
 
-![Location Services settings](https://cdn-images-1.medium.com/max/876/1*Awa5JFtFszp5RGlvSPBH5w@2x.png){: srcset="https://cdn-images-1.medium.com/max/1752/1*Awa5JFtFszp5RGlvSPBH5w@2x.png 2x"}
+<figure markdown="1">
+![Location Services settings](https://cdn-images-1.medium.com/max/876/1*Awa5JFtFszp5RGlvSPBH5w@2x.png){: srcset="https://cdn-images-1.medium.com/max/1752/1*Awa5JFtFszp5RGlvSPBH5w@2x.png 2x" width="876"}
+</figure>
 
 <figure class="full-bleed" markdown="1">
-![divider](https://cdn-images-1.medium.com/max/2560/1*9Use1S4OgFHQ6YU3oxEfSQ.jpeg)
+![divider](https://cdn-images-1.medium.com/max/1280/1*9Use1S4OgFHQ6YU3oxEfSQ.jpeg){: srcset="https://cdn-images-1.medium.com/max/2560/1*9Use1S4OgFHQ6YU3oxEfSQ.jpeg 2x" width="1280" height="340"}
 </figure>
 
 ## Platform Improvements (i.e. for developers)
@@ -613,10 +631,10 @@ We’ve put a lot of work into **Granite**, our GTK-based widget and helper libr
 
 For even more developer-facing changes, check out these posts:
 
-*   [Cleaning Up App Codenames](https://medium.com/elementaryos/cleaning-up-app-codenames-ef9fc637ddef)
-*   [All Aboard The Meson Future Hype Train](https://medium.com/elementaryos/all-aboard-the-meson-future-hype-train-2b6c478b6b9e)
-*   [Introducing Houston CI](https://medium.com/elementaryos/introducing-houston-ci-3179ec34e726)
-*   [Updating Your Apps for Juno](https://medium.com/elementaryos/developer-tips-updating-your-apps-for-juno-453c07a5b3a7)
+* [Cleaning Up App Codenames](https://medium.com/elementaryos/cleaning-up-app-codenames-ef9fc637ddef)
+* [All Aboard The Meson Future Hype Train](https://medium.com/elementaryos/all-aboard-the-meson-future-hype-train-2b6c478b6b9e)
+* [Introducing Houston CI](https://medium.com/elementaryos/introducing-houston-ci-3179ec34e726)
+* [Updating Your Apps for Juno](https://medium.com/elementaryos/developer-tips-updating-your-apps-for-juno-453c07a5b3a7)
 
 ## …And More
 
@@ -629,7 +647,7 @@ We’ve made several **improvements to the login and lock screen** greeter: wind
 Lastly, with the Juno development cycle we’ve adopted more cross-desktop standards improved the cross-distro support for several components. This came with a lot of help from Fedora maintainers and developers. The result is more reusable code for other desktops and users of other distros like Fedora, Arch, openSUSE, etc.
 
 <figure class="full-bleed" markdown="1">
-![divider](https://cdn-images-1.medium.com/max/2560/1*9Use1S4OgFHQ6YU3oxEfSQ.jpeg)
+![divider](https://cdn-images-1.medium.com/max/1280/1*9Use1S4OgFHQ6YU3oxEfSQ.jpeg){: srcset="https://cdn-images-1.medium.com/max/2560/1*9Use1S4OgFHQ6YU3oxEfSQ.jpeg 2x" width="1280" height="340"}
 </figure>
 
 ## Download elementary OS 5 Juno
@@ -641,4 +659,3 @@ You’ve made it all the way here! **elementary OS 5 Juno is available right now
 Last but absolutely not least, **we’d like to thank every single person who has contributed to elementary OS** in one way or another. Thank you to everyone who has bought an app on AppCenter. Thank you to all of the developers releasing their apps on AppCenter. Thank you to our supporters on Bountysource and [Patreon](https://www.patreon.com/elementary). Thank you to each and every one of you who has purchased a copy of [elementary OS](https://elementary.io/). Thanks to all of you who have supported us by buying merch from [our store](https://elementary.io/store/).
 
 Every single contribution—be it coding, translations, funding, design, app development, support, or hype—helps make all of this possible, and we wouldn’t be here without you. Juno is such an incredible release, and it’s here thanks to all of our supporters. ❤
-
