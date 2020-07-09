@@ -120,7 +120,7 @@ While working on Juno, we encouraged people who typically used other editors lik
 The folder manager—previously an optional plugin—is now built in to the core, allowing tighter integration. We’ve completely revamped it, packing in more features while ensuring it’s still easy to use. Handling files and folders is easier than ever: we added a **simpler “Open in” menu** that shows in-app locations (like a new tab), your system file manager (Files by default), and other apps that can handle the selected file type. For folders, this means you can pop them open in a file manager or the Terminal straight from the context menu. We’ve also moved the Contractor-powered “Other actions” here, centralizing all file-related actions to one sane contextual spot. Lastly, the **sidebar is now toggleable** per-window from the menu or with F9, helping you use your display real estate more efficiently.
 
 <figure markdown="1">
-![New Git integration](https://cdn-images-1.medium.com/max/837/1*vHHGkr0iCkvAtYMEjg3mBg@2x.png){: srcset="https://cdn-images-1.medium.com/max/419/1*vHHGkr0iCkvAtYMEjg3mBg@2x.png 2x" width="418.5" height="800"}
+![New Git integration](https://cdn-images-1.medium.com/max/419/1*vHHGkr0iCkvAtYMEjg3mBg@2x.png){: srcset="https://cdn-images-1.medium.com/max/837/1*vHHGkr0iCkvAtYMEjg3mBg@2x.png 2x" width="418.5" height="800"}
 <figcaption>New Git integration</figcaption>
 </figure>
 
