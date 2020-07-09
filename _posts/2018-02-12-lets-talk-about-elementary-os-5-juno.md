@@ -1,17 +1,16 @@
 ---
-title: Let’s talk about elementary OS 5 Juno
-description: >-
-  We’ve avoided talking too much about Juno until recently because frankly, we’d
-  been focused on pushing constant updates out to Loki. We’ve…
+title: "Let’s talk about elementary OS 5 Juno"
+description: ""
 date: '2018-02-12T17:01:02.129Z'
-categories: []
-keywords: []
-slug: /@cassidyjames/lets-talk-about-elementary-os-5-0-juno-a3a65b97ee7e
+author: cassidyjames
+image: https://cdn-images-1.medium.com/max/1200/1*6Fjtm3yS70hXx7cWa_0lAg.png
+tags:
+  - juno
 ---
 
 ![](https://cdn-images-1.medium.com/max/1200/1*6Fjtm3yS70hXx7cWa_0lAg.png)
 
-We’ve avoided talking too much about Juno until recently because frankly, we’d been focused on pushing constant updates out to Loki. We’ve pushed out the [substantial 0.4.1 release](https://medium.com/elementaryos/new-release-elementary-os-loki-0-4-1-2a756549ee76) as well as a steady stream of feature, bugfix, security, and quality of life [updates that we’ve detailed monthly](https://medium.com/elementaryos/tagged/updates). Further, we released the [major update to AppCenter](https://medium.com/elementaryos/tagged/appcenter) that brings quality pay-what-you-want apps built for elementary OS right to your desktop, and we’ve been enjoying the [incredible apps](https://medium.com/elementaryos/tagged/appcenter-spotlight) that are being released.
+We’ve avoided talking too much about Juno until recently because frankly, we’d been focused on pushing constant updates out to Loki. We’ve pushed out the [substantial 0.4.1 release](https://medium.com/elementaryos/new-release-elementary-os-loki-0-4-1-2a756549ee76) as well as a steady stream of feature, bugfix, security, and quality of life [updates that we’ve detailed monthly](/tags/#updates). Further, we released the [major update to AppCenter](/tags/#appcenter) that brings quality pay-what-you-want apps built for elementary OS right to your desktop, and we’ve been enjoying the [incredible apps](/tags/#appcenter-spotlight) that are being released.
 
 But we’re finally ready to start (cautiously!) talking about Juno, the next major release of elementary OS.
 
@@ -63,12 +62,10 @@ We don’t yet have a locked-in, guaranteed public roadmap for Juno (recall the 
 
 There are also a number of things we always have to do for a new release: migrate to (and test with) the latest versions of GTK+, Mutter, and other components of the stack. And of course a new release will contain a newer version of the Linux kernel and hardware stack along with new and improved hardware support.
 
-With the new version of GTK+ we’ll be able to start both exploring using new widgets where appropriate and taking advantage of new features in Gtk.CSS. We’re also aiming to continue to improve the HiDPI experience in Juno since several underlying components have received HiDPI fixes. We’ve also started to explore new capabilities in the settings daemon like Night Light, and plan to make some changes around [AppCenter payments](https://medium.com/elementaryos/about-appcenter-payments-daa76a1a3b59). We’ll share more when we have more to share!
+With the new version of GTK+ we’ll be able to start both exploring using new widgets where appropriate and taking advantage of new features in Gtk.CSS. We’re also aiming to continue to improve the HiDPI experience in Juno since several underlying components have received HiDPI fixes. We’ve also started to explore new capabilities in the settings daemon like Night Light, and plan to make some changes around [AppCenter payments](/about-appcenter-payments). We’ll share more when we have more to share!
 
 ### What About Loki?
 
 We’ve continued to push out updates to elementary OS Loki while we’ve prepared for Juno, and app developers are continuing to publish new apps and updates to existing apps on AppCenter to all of our Loki users. However, as we mentioned in our [2017 Year in Review](https://medium.com/elementaryos/our-2017-in-review-866e0a9d0114), Loki will be going into maintenance mode. New major features will be built for Juno, while Loki will mostly only receive stability and security updates going forward.
 
 Once we release a Juno beta, app developers will be able to begin testing their apps on the new release and preparing for the new stack and features. We’ll have more information to share closer to the beta!
-
-_We’d like to say thanks to everyone who’s bought an app on AppCenter, our supporters on_ [_Bountysource_](https://salt.bountysource.com/teams/elementary) _and_ [_Patreon_](https://www.patreon.com/elementary)_, and those who’ve purchased a copy of_ [_elementary OS_](https://elementary.io/) _or merch from_ [_our store_](https://elementary.io/store/)_. Every contribution helps make all of this possible, and we wouldn’t be here without you! If you’d like to help improve elementary OS, don’t hesitate to_ [_Get Involved_](https://elementary.io/get-involved)_!_

@@ -1,10 +1,12 @@
 ---
-title: Scratch is now elementary Code
-description: More than a name change
+title: "Scratch is now elementary Code"
+description: "More than a name change"
 date: '2018-01-02T22:44:57.840Z'
-categories: []
-keywords: []
-slug: /@cassidyjames/scratch-is-now-code-2838e03134c7
+author: cassidyjames
+image: https://cdn-images-1.medium.com/max/600/1*JVvsDBXzN9Q7jhiGOD0B3A.png
+tags:
+  - juno
+  - devs
 ---
 
 In 2011, elementary debuted our own “text editor.” We’ve shipped it in elementary OS ever since as Scratch, the default app for handling any plain text files, but it’s evolved into more than a simple notepad.
@@ -19,10 +21,12 @@ For Scratch, we always intended for it to be a _code_ editor, not just a generic
 
 By rebranding to Code, it lets us focus on what we intended from the start: building a great native code editor for developers on elementary OS. It also lets us reduce confusion between our app and the [visual programming language](https://en.wikipedia.org/wiki/Scratch_%28programming_language%29) also known as Scratch. :)
 
+<figure class="third" markdown="1">
 ![](https://cdn-images-1.medium.com/max/600/1*UYsmhLP8L6OHrLP55dBqNA.png)
 ![](https://cdn-images-1.medium.com/max/400/1*OA7Np5o_n3FymO9kd3doOw.png)
 ![Old, generic, “text editor” Scratch icon versus the new, shiny, Code icon](https://cdn-images-1.medium.com/max/600/1*JVvsDBXzN9Q7jhiGOD0B3A.png)
-Old, generic, “text editor” Scratch icon versus the new, shiny, Code icon
+<figcaption>Old, generic, “text editor” Scratch icon versus the new, shiny, Code icon</figcaption>
+</figure>
 
 Code follows our [revised naming scheme](https://medium.com/elementaryos/cleaning-up-app-codenames-ef9fc637ddef) of just naming apps what they are or what they get you to; Files, Music, Videos, Calendar, Mail, Photos, etc. Now with Code, there’s no question as to the app’s purpose or intent. If you need to disambiguate, you can call it “elementary Code.”
 
@@ -37,5 +41,3 @@ We now enable the folder manager plugin (where you can load a project’s file t
 ### Coming to Juno
 
 This is the first of many big changes coming to a new major release of elementary OS. Stay tuned for sneak previews and teasers as we work on the next big thing!
-
-_We’d like to say thanks to everyone who’s bought an app on AppCenter, our supporters on_ [_Bountysource_](https://salt.bountysource.com/teams/elementary) _and_ [_Patreon_](https://www.patreon.com/elementary)_, and those who’ve purchased a copy of_ [_elementary OS_](https://elementary.io/) _or merch from_ [_our store_](https://elementary.io/store/)_. Every contribution helps make all of this possible, and we wouldn’t be here without you! If you’d like to help improve elementary OS, don’t hesitate to_ [_Get Involved_](https://elementary.io/get-involved)_!_
