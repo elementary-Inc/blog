@@ -3,7 +3,7 @@ title: "elementary OS 5 Juno is Here"
 description: 'Refinement, Productivity, & an Improved Developer Platform'
 date: '2018-10-16T19:01:04.732Z'
 author: cassidyjames
-image: https://cdn-images-1.medium.com/max/1600/1*ijeWZhhxGB4gfI030ItS0g.png
+image: /images/elementary-os-5-juno-is-here/card.png
 thanks: true # includes a thank-you, so disable the automatic one
 tags:
   - juno
