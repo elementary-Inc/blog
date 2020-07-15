@@ -48,7 +48,7 @@ body > footer {
 }
 
 article {
-  margin-bottom: 8rem;
+  margin-bottom: 4rem;
 
   p,
   ul,
@@ -91,6 +91,7 @@ article {
         margin: 1.5em auto;
 
         svg {
+          color: var(--fg-color);
           height: 2em;
           margin-left: 1.5em;
           margin-right: 1.5em;
@@ -117,14 +118,28 @@ hr {
   display: block;
   font-family: var(--ui-font);
   font-size: 0.75rem;
-  line-height: 1.5em;
   margin: 0 auto;
-  max-width: 360px;
+  max-width: var(--content-width);
   text-align: center;
 
-  img {
-    display: block;
-    margin: 0 auto;
+  a,
+  svg {
+    color: var(--secondary-fg-color);
+    vertical-align: middle;
+  }
+
+  a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  svg {
+    height: 1.25em;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
   }
 }
 

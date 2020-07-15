@@ -29,6 +29,10 @@ authors:
     name: Keli Grubb
     description: Developer
     gravatar: 8e8d16d136c38f3a28820490c17928d1
+  linuxplusplus:
+    name: Eric Londo
+    description: "Editor of Linux++"
+    gravatar: e9c9929bf9d55d9d3642524e4bde3a2f
   peteruithoven:
     name: Peter Uithoven
     description: "Front-end Developer"
