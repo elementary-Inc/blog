@@ -8,7 +8,7 @@ tags:
   - privacy
 ---
 
-We've always believed that our user experience doesn't just begin when people use elementary OS; it begins from the first moment that someone interacts with our organization in any way. And for a lot of people, that experience starts with our website. You may already know about our stance on privacy, advertising, and tracking from our previous blog posts, and that a core part of our business model is that you are our customer, not a product.
+We've always believed that our user experience doesn't just begin when people use elementary OS; it begins from the first moment that someone interacts with our organization in any way. And for a lot of people, that experience starts with our website. You may already know about [our stance on privacy](/privacy-and-elementary-os), advertising, and tracking from our previous blog posts, and that a core part of our business model is that [you are our customer, not a product](/you-are-not-the-product).
 
 <aside>
 {% assign post = site.posts | where:"slug", "you-are-not-the-product" | first %}
