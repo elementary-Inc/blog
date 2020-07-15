@@ -8,7 +8,7 @@ tags:
   - privacy
 ---
 
-We've always believed that our user experience doesn't just begin when people use elementary OS; it begins from the first moment that someone interacts with our organization in any way. And for a lot of people, that experience starts with our website. You may already know about our stance on privacy, advertising, and tracking from our previous blogposts, and that a core part of our business model is that you are our customer, not a product.
+We've always believed that our user experience doesn't just begin when people use elementary OS; it begins from the first moment that someone interacts with our organization in any way. And for a lot of people, that experience starts with our website. You may already know about our stance on privacy, advertising, and tracking from our previous blog posts, and that a core part of our business model is that you are our customer, not a product.
 
 <aside>
 {% assign post = site.posts | where:"slug", "you-are-not-the-product" | first %}
@@ -32,7 +32,7 @@ But Google Analytics tracks a whole lot more than that, and frankly we don't wan
 
 # The Challenge
 
-Google Analytics is by far the most popular analytics solution available and there are few privacy-respecting alternatives. We considered a few self-hosted products like [Matomo](https://matomo.org/), but we couldn't find a good fit in terms of maintanence, pricing, and features. That is, until we stumbled upon Plausible.
+Google Analytics is by far the most popular analytics solution available and there are few privacy-respecting alternatives. We considered a few self-hosted products like [Matomo](https://matomo.org/), but we couldn't find a good fit in terms of maintenance, pricing, and features. That is, until we stumbled upon Plausible.
 
 Plausible is a UK-based startup that provides a hosted, privacy-conscious analytics solution with simple and fair pricing and support for custom events. The product itself fits what we're looking for in an analytics solution, and it's encouraging to see that they are actively growing and developing new features, but what really got our attention is their messaging around their business model. Read [their blog post on monetizing](https://plausible.io/blog/open-source-funding) and see if it sounds familiar.
 
