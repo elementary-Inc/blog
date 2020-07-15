@@ -22,7 +22,7 @@ You might also know that our website has a comprehensive [privacy page](https://
 If you're not familiar with the concept, you may be surprised to know that the majority of the websites you regularly visit are collecting statiscal data about your usage of the website. Website developers then use this data to optimize infrastructure, pinpoint problems, or even drive design decisions—something we don't advise.
 
 <aside>
-{% assign post = site.posts | where:"slug", "privacy-and-elementary-os/" | first %}
+{% assign post = site.posts | where:"slug", "privacy-and-elementary-os" | first %}
 {% include featured.html post=post %}
 </aside>
 
@@ -36,7 +36,24 @@ Google Analytics is by far the most popular analytics solution available and the
 
 Plausible is a UK-based startup that provides a hosted, privacy-conscious analytics solution with simple and fair pricing and support for custom events. The product itself fits what we're looking for in an analytics solution, and it's encouraging to see that they are actively growing and developing new features, but what really got our attention is their messaging around their business model. Read [their blog post on monetizing](https://plausible.io/blog/open-source-funding) and see if it sounds familiar.
 
-https://twitter.com/plausiblehq/status/1282678251148763137?s=21
+<div class="twitter-card" markdown="0">
+  <a href="https://twitter.com/plausiblehq/status/1282678251148763137">
+    <div class="header">
+        <img class="avatar" src="/images/leaving-google-analytics-is-finally-plausible/twitter-avatar.png" />
+        <strong>Plausible Analytics</strong>
+        <p>@PlausibleHQ</p>
+        <img class="logo" src="/images/twitter.svg" />
+    </div>
+    <p>
+        A day in the life of a startup...<br />
+        "Wanted to quickly reach out and see if you'd be interested in raising funds or taking investment"<br />
+        No.<br />
+        "Any interest in talking about an exit?"<br />
+        No.
+    </p>
+    <p class="timestamp">7:08 AM · Jul 13, 2020</p>
+  </a>
+</div>
 
 Unlike Google, Plausible isn't in the advertising game and doesn't have an obvious incentive to collect and sell user data. And they've made it clear that they're not interested in being scooped up by VCs or new ownership that might seek to change those values. They make money the same way elementary does: by directly charging customers for their product. We know firsthand how important it is to make sure that your business is built around your ethics, and we get the same feeling from the folks at Plausible. We're excited to be supporting a company that shares our values and respects the people visiting our website.
 
