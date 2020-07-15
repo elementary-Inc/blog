@@ -2,7 +2,7 @@
 title: "Leaving Google Analytics is Finally Plausible"
 description: "Another big step towards privacy and transparency"
 author: danrabbit
-image:
+image: /images/leaving-google-analytics-is-finally-plausible/blog-card.png
 tags:
   - web
   - privacy
@@ -19,7 +19,7 @@ You might also know that our website has a comprehensive [privacy page](https://
 
 # What Are Analytics?
 
-If you're not familiar with the concept, you may be surprised to know that the majority of the websites you regularly visit are collecting statistical data about your usage of the website. Website developers then use this data to optimize infrastructure, pinpoint problems, or even drive design decisions—something we don't advise.
+If you're not familiar with the concept, you may be surprised to know that the majority of the websites you regularly visit are collecting statistical data about your usage of the website. Website developers then use this data to optimize infrastructure, pinpoint problems, or even drive design decisions—something we don't particularly advise.
 
 <aside>
 {% assign post = site.posts | where:"slug", "privacy-and-elementary-os" | first %}
