@@ -38,7 +38,7 @@ Google Analytics lets us keep tabs on that data, but Google tracks _a whole lot 
 
 If you don't know, Google happily tracks you across all the websites you visit if those sites use Google Analytics, or if you use Google search. Google then infers and remembers all sorts of information about you; for example: your age range, an inferred gender, if you've changed jobs or moved recently, and whether you like to spend time outdoors. Google then uses all of this data to target ads to you, in the hopes that more precise ads will get you to bite, thus earning them their commission.
 
-They then offer those profiles up inside of Google Analytics, letting website owners drill down using "In-Market Segments." The entire mechanism invasive—and unnecessary for us. And even though we may choose to ignore these profiles and data, by using Google Analytics on our website, we've contributed to creating them. This data collection and surveillance does not align with our values, and we've been investigating how we can move away for quite some time now.
+They then offer those profiles up inside of Google Analytics, letting website owners drill down using "In-Market Segments." The entire mechanism is invasive—and unnecessary for us. And even though we may choose to ignore these profiles and data, by using Google Analytics on our website, we've contributed to creating them. This data collection and surveillance does not align with our values, and we've been investigating how we can move away for quite some time now.
 
 ## The Challenge
 
