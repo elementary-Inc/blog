@@ -7,6 +7,7 @@ image: /images/appcenter-website-updates/1kIeio0vBb2IEPF8lGkFM-A.png
 tags:
   - appcenter
   - devs
+  - web
 ---
 
 In July, we revealed [a brand new experience for sharing AppCenter URLs,](/introducing-new-appcenter-sharing-urls) powered by a new AppCenter website. It’s now been running smoothly for over six months, handling hundreds of app submissions and updates in a completely automated fashion. Today I’m happy to announce two important improvements to the AppCenter website: release notes and prices.
