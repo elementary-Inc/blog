@@ -6,6 +6,11 @@ image: /images/leaving-google-analytics-is-finally-plausible/blog-card.png
 tags:
   - web
   - privacy
+  
+facebook: https://www.facebook.com/elementaryos/posts/3439881266043678
+mastodon: https://mastodon.social/@elementary/104525268598122717
+reddit: https://www.reddit.com/r/elementaryos/comments/hsgynl/leaving_google_analytics_is_finally_plausible/
+twitter: https://twitter.com/elementary/status/1283851023568850947
 ---
 
 We've always believed that our user experience doesn't just begin when people use elementary OS; it begins from the first moment that someone interacts with our organization in any way. And for a lot of people, that experience starts with our website. You may already know about [our stance on privacy](/privacy-and-elementary-os), advertising, and tracking from our previous blog posts, and that a core part of our business model is that [you are our customer, not a product](/you-are-not-the-product).

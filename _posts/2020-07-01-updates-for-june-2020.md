@@ -7,6 +7,11 @@ tags:
   - updates
   - hera
   - devs
+
+facebook: https://www.facebook.com/elementaryos/posts/3398595123505626
+mastodon: https://mastodon.social/@elementary/104445051158152816
+reddit: https://www.reddit.com/r/elementaryos/comments/hjods1/hera_updates_for_june_2020_elementary_blog/
+twitter: https://twitter.com/elementary/status/1278717200606642182
 ---
 
 June was a busy month for elementary; we [started shipping elementary OS](/now-shipping-elementary-os/) on retailer devices, said [goodbye to Bountysource](/goodbye-bountysource-hello-github-sponsors/), started using [Plausible](https://plausible.io/blog.elementary.io) on the web (More about that later!), and of course, pushed out several updates to elementary OS. <!-- As usual, these updates are available in a new OS 5.1.6 ISO at [elementary.io](https://elementary.io) -->
