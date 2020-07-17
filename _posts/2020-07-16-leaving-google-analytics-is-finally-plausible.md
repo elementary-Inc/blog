@@ -6,7 +6,7 @@ image: /images/leaving-google-analytics-is-finally-plausible/blog-card.png
 tags:
   - web
   - privacy
-  
+
 facebook: https://www.facebook.com/elementaryos/posts/3439881266043678
 mastodon: https://mastodon.social/@elementary/104525268598122717
 reddit: https://www.reddit.com/r/elementaryos/comments/hsgynl/leaving_google_analytics_is_finally_plausible/
@@ -53,11 +53,16 @@ Plausible is a small UK-based company that provides a hosted, privacy-conscious 
 
 {% include twitter-card.html
   name="Plausible Analytics"
-  account="@PlausibleHQ"
+  account="PlausibleHQ"
   avatar="/images/leaving-google-analytics-is-finally-plausible/twitter-avatar.png"
-  href="https://twitter.com/plausiblehq/status/1282678251148763137"
-  timestamp="7:08 AM · Jul 13, 2020"
-  contents="A day in the life of a startup...<br /><br />\"Wanted to quickly reach out and see if you'd be interested in raising funds or taking investment\"<br /><br />No.<br /><br />\"Any interest in talking about an exit?\"<br /><br />No."
+  id="1282678251148763137"
+  timestamp="2020-07-13 7:08 AM PDT"
+  contents="A day in the life of a startup...<br /><br />
+    \"Wanted to quickly reach out and see if you'd be interested in raising
+    funds or taking investment\"<br /><br />
+    No.<br /><br />
+    \"Any interest in talking about an exit?\"<br /><br />
+    No."
 %}
 
 Unlike Google, Plausible isn't in the advertising game and doesn't have an incentive to collect and sell user data. And they've made it clear that they're not interested in being scooped up by VCs or new ownership that might seek to change those values. They make money the same way elementary does: by directly charging customers for their product. We know firsthand how important it is to make sure that your business is built around your ethics, and we get the same feeling from the folks at Plausible. We're excited to be supporting a company that shares our values and respects the people visiting our website.
