@@ -2,7 +2,7 @@
 title:  "Updates for July, 2019"
 description: Lots of small updates, and a new blog!
 author: cassidyjames
-image: https://user-images.githubusercontent.com/611168/62493151-a0597600-b78d-11e9-9f9f-536525b004ac.png
+image: /images/updates-for-july-2019/0bohRyOtytbmnC9fS.png
 tags:
   - updates
   - juno
@@ -25,8 +25,8 @@ If you're reading this, it's because of our new blog (or [RSS feed]({{ site.base
 
 We released a whole bunch of updates to Files in July, thanks largely to the hard work of [Jeremy Wootten](https://github.com/jeremypw), [Corentin Noël](https://github.com/tintou), and [Paulo Galardi](https://github.com/lainsce).
 
-<figure class="card" markdown="1">
-![Files color tagging](https://user-images.githubusercontent.com/611168/62493151-a0597600-b78d-11e9-9f9f-536525b004ac.png)
+<figure markdown="1">
+![Files color tagging](/images/updates-for-july-2019/0bohRyOtytbmnC9fS.png){: width="1032" height="733"}
 </figure>
 
 Color tagging has been greatly improved! The menu item for selecting color tags has been rewritten, using GTK instead of custom Cairo drawing. The click targets are bigger and more clear, plus contrast has been improved. The menu also now shows all tags for selected files, which is a nice touch.
@@ -39,8 +39,8 @@ Under-the-hood, we ported more code from C to Vala to make it easier to read and
 
 ## Terminal
 
-<figure markdown="1">
-![Terminal context menu](https://user-images.githubusercontent.com/7277719/60905104-3a7adc80-a229-11e9-85aa-7a234a632687.png)
+<figure class="card" markdown="1">
+![Terminal context menu](/images/updates-for-july-2019/0ArkmmHWHxNVpVfhq.png){: width="222" height="249"}
 </figure>
 
 [Terminal](https://github.com/elementary/terminal/releases/tag/5.3.6) received a few small improvements: the [Menu key](https://en.wikipedia.org/wiki/Menu_key) found on some keyboards now opens the context menu, we added a separator to the context menu to better delineate text actions from app actions, and we save more window state between sessions.
@@ -48,7 +48,7 @@ Under-the-hood, we ported more code from C to Vala to make it easier to read and
 ## Onboarding
 
 <figure markdown="1">
-![onboarding-screenshot](https://miro.medium.com/max/1120/1*OsUdeEafTuWof7e_jdEeNg@2x.png)
+![onboarding-screenshot](/images/updates-for-july-2019/0qzyWf6x8Up4jaw1I.png){: width="560" height="506"}
 </figure>
 
 The [new Onboarding app]({{ site.baseurl }}{% post_url 2019-07-23-get-settled-into-elementary-os-with-onboarding %}) was released in July! It has not been included by default in the desktop session, so you probably haven't seen it if you're an existing user. Hold tight, it will be included by default in an upcoming update.
@@ -67,8 +67,8 @@ The big new change here is the color-neutral dark style. Dark-styled apps in ele
 
 <figure class="half" markdown="1">
 
-![Cool](https://user-images.githubusercontent.com/611168/62438725-013d6b80-b706-11e9-9b91-8f002951600c.png)
-![Neutral](https://user-images.githubusercontent.com/611168/62438726-01d60200-b706-11e9-8edd-6f86969990d4.png)
+![Cool](/images/updates-for-july-2019/09Bewh9Yj_oR1A2xw.png)
+![Neutral](/images/updates-for-july-2019/0RBPSwUd8OPpOi3Hx.png)
 
 <figcaption markdown="1">
 **Left:** Previous cool-tinted dark style | **Right:** New color-neutral dark style
@@ -81,8 +81,8 @@ We also added a subtle fade-out effect to the start and end of lists in popovers
 
 <figure class="half" markdown="1">
 
-![No undershoot in Popovers](https://user-images.githubusercontent.com/523210/60992755-6abb9b80-a34d-11e9-8be0-4f5d53522a66.png)
-![Undershoot in Popovers](https://user-images.githubusercontent.com/523210/60992804-87f06a00-a34d-11e9-820b-c581f634313f.png)
+![No undershoot in Popovers](/images/updates-for-july-2019/0PLUxBL6a-cS_59yb.png)
+![Undershoot in Popovers](/images/updates-for-july-2019/0SN_CUmoCsoYDm1FK.png)
 
 <figcaption markdown="1">
 **Left:** Old hard cut-off in popover lists | **Right:** Soft fade in popover lists
@@ -93,8 +93,8 @@ We're styling Keycaps in menus now with a flatter style, which will come into pl
 
 <figure class="half" markdown="1">
 
-![Light Menu](https://user-images.githubusercontent.com/7277719/60899965-44e4a880-a220-11e9-946e-4b26e9dc9932.png)
-![Dark Menu](https://user-images.githubusercontent.com/7277719/60899966-44e4a880-a220-11e9-9800-db7e3b6ef2fb.png)
+![Light Menu](/images/updates-for-july-2019/0ebA8Kq7yA0oJ71tI.png)
+![Dark Menu](/images/updates-for-july-2019/0_ZZDIV25P7yF3W7a.png)
 
 <figcaption>Keycaps in both light and dark menus</figcaption>
 </figure>
@@ -107,8 +107,8 @@ The most obvious icon change is the newly redesigned wired networking icons, vis
 
 <figure class="half" markdown="1">
 
-![Panel](https://user-images.githubusercontent.com/611168/62439029-6cd40880-b707-11e9-9326-471a0030135a.png)
-![System Settings](https://user-images.githubusercontent.com/7277719/49260561-f56d0d00-f3f2-11e8-8014-997873952cd2.png)
+![Panel](/images/updates-for-july-2019/0sqonzVH__6SHS3ag.png)
+![System Settings](/images/updates-for-july-2019/0YXnbZQOejN20VAWL.png)
 
 <figcaption markdown="1">
 **Left:** New wired icon in the Panel | **Right:** New wired icon in Networking settings
