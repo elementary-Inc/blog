@@ -22,7 +22,7 @@ You can get these updates plus other bug fixes and updated translations by openi
 
 ## AppCenter for Everyone
 
-In February, we ran launched the [AppCenter for Everyone](/appcenter-for-everyone/) crowdfunding campaign to take the indie, open source app store to the next level. Little did we know that the global COVID-19 pandemic would hit right when we planned to have our in-person sprint. We [smashed our goal](/appcenter-for-everyone-campaign-results/), but had to postpone the in-person sprint in favor of a smaller [remote sprint](/appcenter-for-everyone-remote-sprint/). We accomplished some work remotely, but were not able to meet all of the AppCenter for Everyone goals—we have still set aside the funds for an in-person AppCenter for Everyone sprint once it is safe to gather again.
+In February, we launched the [AppCenter for Everyone](/appcenter-for-everyone/) crowdfunding campaign to take the indie, open source app store to the next level. Little did we know that the global COVID-19 pandemic would hit right when we planned to have our in-person sprint. We [smashed our goal](/appcenter-for-everyone-campaign-results/), but had to postpone the in-person sprint in favor of a smaller [remote sprint](/appcenter-for-everyone-remote-sprint/). We accomplished some work remotely, but were not able to meet all of the AppCenter for Everyone goals—we have still set aside the funds for an in-person AppCenter for Everyone sprint once it is safe to gather again.
 
 One of the major backer rewards was "early access to elementary OS 6," which we've been hard at work to deliver. Which leads us to…
 
