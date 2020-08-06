@@ -52,7 +52,7 @@ While we now have Early Access Builds, there is still _a lot_ of work to do on e
 
   - **New Tasks app** that handles local tasks as well as any task lists synced with the Evolution data server.
 
-- **New installer and initial setup** to round out that first-run experience. Installing should be much faster and more streamlined, only asking for the essentials to get the OS onto your device. This is also great for OEMs, as they can use the new installer itself to image devices, or just flash an image without a user to run through initial setup on first boot.
+- **New installer and initial setup** to round out that first-run experience. Installing should be much faster and more streamlined, only asking for the essentials to get the OS onto your device. This is also great for OEMs, as they can use the new installer itself to image devices, or—like with some experimental Pinebook Pro images we've been playing with—just flash an image without a user to run through initial setup on first boot.
 
 - **More multi-touch support** for navigation in apps, utilizing the Libhandy library. These gestures work on touch screens, trackpads, and mouse scroll wheels. On touch devices, swipes track 1:1 with your fingers on the screen or trackpad. Epiphany will also support similar touch gestures for going back and forward.
 
