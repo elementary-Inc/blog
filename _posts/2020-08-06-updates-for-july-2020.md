@@ -56,7 +56,9 @@ While we now have Early Access Builds, there is still _a lot_ of work to do on e
 
 - **More multi-touch support** for navigation in apps, utilizing the Libhandy library. These gestures work on touch screens, trackpads, and mouse scroll wheels. On touch devices, swipes track 1:1 with your fingers on the screen or trackpad. Epiphany will also support similar touch gestures for going back and forward.
 
-We'll share updates on elementary OS 6 development along the way, but that's a quick peek behind the curtain for now. As always, if you want to learn more, you're always welcome to [get involved](https://elementary.io/get-involved) and help shape the future of elementary OS.
+- **And more…** This is just what we're comfortable sharing now. :)
+
+We'll share more updates on elementary OS 6 development along the way, but that's a quick peek behind the curtain for now. If you want to learn more, you can find the [OS 6.0 release project](https://github.com/orgs/elementary/projects/55) on GitHub—plus you're always welcome to [get involved](https://elementary.io/get-involved) and help shape the future.
 
 [elementary.io]: https://elementary.io
 [builds]: https://builds.elementary.io
