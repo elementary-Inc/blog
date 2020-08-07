@@ -2,9 +2,14 @@
 title: "Let's Talk elementary OS 6"
 description: "Updates for July, plus early access to the next major version"
 author: cassidyjames
+image: /images/updates-for-july-2020/card.png
 tags:
   - updates
 ---
+
+<figure class="constrained" markdown="1">
+![Teaser](/images/{{ page.slug}}/card.png){: width="1600" height="900"}
+</figure>
 
 Unlike many operating systems—especially in the open source desktop space—elementary OS gets frequent feature updates _between_ major versions. This means throughout the elementary OS 5 lifecycle, we released [updates every month](/tags/#updates), including both fixes and oftentimes major new features like a brand new first-run experience including a [new login/lock screen greeter](/say-hello-to-the-new-greeter/), initial setup, and [welcome](/get-settled-into-elementary-os-with-onboarding/); [Flatpak support](/updates-for-october-2019/) with Sideload and AppCenter; exposing keyboard shortcuts across the system; broad [accessible settings updates](/accessibility-features-are-just-features/); and much more. At the same time, curated apps designed for elementary OS are constantly released and updated by their developers on AppCenter.
 
@@ -72,7 +77,7 @@ While we now have Early Access Builds, there is still _a lot_ of work to do on e
 
 - **More multi-touch support** for navigation in apps, utilizing the Libhandy library. These gestures work on touch screens, trackpads, and mouse scroll wheels. On touch devices, swipes track 1:1 with your fingers on the screen or trackpad. Epiphany will also support similar touch gestures for going back and forward.
 
-- **And more…** This is just what we're comfortable sharing now. :)
+- **And more…** this is just what we're comfortable sharing now. :)
 
 We'll share more updates on elementary OS 6 development along the way, but that's a quick peek behind the curtain for now. If you want to learn more, you can find the [OS 6.0 release project](https://github.com/orgs/elementary/projects/55) on GitHub—plus you're always welcome to [get involved](https://elementary.io/get-involved) and help shape the future.
 
