@@ -14,11 +14,25 @@ This semi- "rolling release" cycle means elementary OS users get the latest feat
 
 Hera will continue to receive security and stability updates to its underlying libraries from the Ubuntu LTS repositories until April of 2028, courtesy of Canonical. But our primary focus at elementary has now fully shifted to OS 6. That said, we still released a handful of updates to OS 5.1 throughout July and early August:
 
-<!-- TODO: Run down any updates released to users since the Updates for June post -->
+In Keyboard Settings, we've added a new Input Methods view. This helps users of [Ibus](https://en.wikipedia.org/wiki/Intelligent_Input_Bus) set up and manage their input methods—especially useful for those typing Chinese, Japanese, Korean, Vietnamese, and other characters and scripts.
+
+<figure markdown="1">
+![Input Method settings](/images/{{ page.slug }}/input-method.png){: srcset="/images/{{ page.slug }}/input-method@2x.png 2x" width="914" height="679"}
+<figcaption>New Input Method settings</figcaption>
+</figure>
+
+We also released an update to the the Music indicator in the top Panel that ensures your default music player (as set in _System Settings_ → _Applications_ → _Default_) is shown when there is no music playing. This makes it even faster to get back into your tunes no matter your preferred music player.
+
+<figure class="card" markdown="1">
+![Music indicator](/images/{{ page.slug }}/music-indicator.png){: srcset="/images/{{ page.slug }}/music-indicator@2x.png 2x" width="419" height="221"}
+<figcaption>Music Indicator</figcaption>
+</figure>
+
+A minor update to AppCenter ensures its window position is saved and restored correctly, plus lets you click on the little update number badge in the header bar to get to the updates page.
 
 Thanks to the quick work of Ubuntu and Canonical, elementary OS 5.1 Hera has also been updated to mitigate the ["boothole" vulnerability](https://eclypsium.com/2020/07/29/theres-a-hole-in-the-boot/).
 
-You can get these updates plus other bug fixes and updated translations by opening AppCenter and hitting "Update All." New installs can also use the updated elementary OS 5.1.7 downloads available at [elementary.io].
+You can get these updates plus other bug fixes and updated translations by opening AppCenter and hitting "Update All." New installs can also use the updated elementary OS 5.1.7 downloads, available soon at [elementary.io].
 
 ## AppCenter for Everyone
 
