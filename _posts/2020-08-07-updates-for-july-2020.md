@@ -18,14 +18,16 @@ In Keyboard Settings, we've added a new Input Methods view. This helps users of 
 
 <figure markdown="1">
 ![Input Method settings](/images/{{ page.slug }}/input-method.png){: srcset="/images/{{ page.slug }}/input-method@2x.png 2x" width="914" height="679"}
-<figcaption>New Input Method settings</figcaption>
+<figcaption markdown="1">
+New Input Method settings in _System Settings_ → _Keyboard_
+</figcaption>
 </figure>
 
-We also released an update to the the Music indicator in the top Panel that ensures your default music player (as set in _System Settings_ → _Applications_ → _Default_) is shown when there is no music playing. This makes it even faster to get back into your tunes no matter your preferred music player.
+We also released an update to the the Music Indicator in the top Panel that ensures your default music player (as set in _System Settings_ → _Applications_ → _Default_) is shown when there is no music playing. This makes it even faster to get back into your tunes no matter your preferred music player.
 
 <figure class="card" markdown="1">
 ![Music indicator](/images/{{ page.slug }}/music-indicator.png){: srcset="/images/{{ page.slug }}/music-indicator@2x.png 2x" width="419" height="221"}
-<figcaption>Music Indicator</figcaption>
+<figcaption>Music Indicator with an alternate default music player</figcaption>
 </figure>
 
 A minor update to AppCenter ensures its window position is saved and restored correctly, plus lets you click on the little update number badge in the header bar to get to the updates page.
