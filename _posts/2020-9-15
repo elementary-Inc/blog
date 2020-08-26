@@ -1,0 +1,28 @@
+---
+title: "Architectural changes in elementary OS 6"
+description: ""
+author: danrabbit
+image: 
+tags:
+  - odin
+---
+
+There are some big under-the-hood changes coming that enable new features and make the session more stable and reliable, plus more portable to other distros and less reliant on OS patches.
+
+## ScreenShield
+Our window manager now includes a ScreenShield interface, replacing Light Locker. You get a nice fade out animation when the session is going to sleep and late locking means music continues to play until you wake the device up.
+
+## Settings Daemon
+We use GNOME Settings Daemon to handle a bunch of things, but now we also have our own settings daemon. One of the major functions of the daemon is keeping settings in sync with the greeter, which enables features like keyboard layout switching. The Daemon also handles automatic dark mode switching. We're looking at simplifying other components of the desktop using this new daemon like syncing the wallpaper to the greeter which would be better compatible with cross-platform 3rd party apps.
+
+## No DPMS Helper
+We used to carry a patch to disable DPMS handling in GNOME Settings daemon and set it ourselves with a small bash script. Instead we now leverage that functionality in GSD. So no patches and one less moving part
+
+## Cursor A11y Features in the Window Manager
+Reveal cursor and Dwell Click features are now part of the window manager. This is step on our path to Wayland readiness, but it also means full creative control over these features. Dwell click settings now integrate into the a11y indicator instead of the awkward floating window from before
+
+## Native Notifications Server
+The notification server that used to be a part of the window manager is now a native Gtk app. This means we can now put native Gtk widgets inside notifications like buttons for actions
+
+## Screenshot Interface
+Another step towards wayland readiness, screenshots are now handled by the window manager whether taken from the app or with a keyboard shortcut. This vastly simplifies the functionality of the screenshot app.
