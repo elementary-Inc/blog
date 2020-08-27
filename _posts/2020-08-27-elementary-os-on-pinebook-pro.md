@@ -19,11 +19,11 @@ The process of producing both functional and high-quality builds of elementary O
 
 ### Kernel & Bootloader
 
-Thanks to the great work that the Manjaro ARM team have done in this field, getting a working kernel for the Pinebook Pro was relatively painless. We've simply taken a mainline kernel straight from [kernel.org](https://kernel.org), applied a few patches copied from the Manjaro repository and used a config set similar to the Manjaro one. It needed tweaking slightly to be compatible with the way Ubuntu/elementary works.
+Thanks to the great work that the Manjaro ARM team have done in this field, getting a working kernel for the Pinebook Pro was relatively painless. We've simply taken a mainline kernel straight from [kernel.org](https://kernel.org), applied a few patches copied from the Manjaro repository and used a configuration set similar to the Manjaro one. It needed tweaking slightly to be compatible with the way Ubuntu/elementary works.
 
-For example, we've had to disable kernel module compression in the kernel config as this isn't compatible with the Ubuntu `update-initramfs` scripts yet.
+For example, we've had to disable kernel module compression in the kernel configuration as this isn't compatible with the Ubuntu `update-initramfs` scripts yet.
 
-Unfortunately, Ubuntu hasn't released any kernels that are new enough or contain the necessary tweaks, options and patches to run on the Pinebook Pro yet. So this is one major area where the Pinebook Pro builds differ from the regular Intel/AMD builds. You'll notice that we're using kernel 5.7.11 currently, though this is likely to be upgraded to 5.8 soon (as it allows dropping some more patches that have been mainlined).
+As of this post, Ubuntu hasn't released any kernels that are new enough or contain the necessary tweaks, options, and patches to run on the Pinebook Pro. So this is one major area where the Pinebook Pro builds differ from the regular Intel/AMD builds. You'll notice that we're using kernel 5.7.11 currently, though this is likely to be upgraded to 5.8 soon (as it allows dropping some more patches that have been mainlined).
 
 elementary normally relies heavily on the fantastic work done by Canonical in testing and maintaining kernel releases. So maintaining our own kernel configuration and patchset is a bit of a departure from that. Ubuntu already releases [specific kernels for the Raspberry Pi](https://packages.ubuntu.com/focal/linux-raspi), perhaps we'll see a ready made Pinebook Pro one in the future. In the short term however, we may consider packaging the Pinebook Pro kernel into a .deb and hosting it on a PPA, so we can push updates in future if necessary. Currently the kernel is just built into the image at build time.
 
@@ -33,9 +33,9 @@ The bootloader is a similar story. We needed a version that was new enough to su
 
 Despite elementary OS being a relatively light distribution, performance still isn't as good as you would hope given the capability of the hardware. This is down to GTK3 largely not using GPU acceleration, especially when running on Xorg. There are a number of tweaks we've applied to improve the experience somewhat, though there won't be any big leaps in performance until we can move the stack to Wayland and to a greater extent GTK4.
 
-One interesting point is that you can clearly notice the difference between the GPU accelerated animations (done by the Compositor) and those done largely on the CPU by GTK. For example, the `Alt+Tab` animation feels pretty smooth compared to the animation used when opening the applications menu. So the potential of the hardware is there, it's just unfortunate that the software isn't quite ready to take advantage yet.
+One interesting point is that you can clearly notice the difference between the GPU accelerated animations (done by the Compositor) and those done largely on the CPU by GTK. For example, the <kbd>Alt</kbd><kbd>Tab</kbd> animation feels pretty smooth compared to the animation used when opening the applications menu. So the potential of the hardware is there, the software stack just isn't quite ready to take advantage of it yet.
 
-The first tweak we applied was disabling the `ondemand` CPU governor which is forced on by default as a systemd unit on Ubuntu. This allows the kernel to use the `schedutil` governor which has been enabled and set as the default in our kernel config. The `schedutil` governor is a much newer governor with an awareness of the different performance/power utilisation levels of the big.LITTLE cores in the ARM CPU. Switching to this gave an immediate noticeable gain in performance.
+The first performance tweak we applied was disabling the `ondemand` CPU governor which is forced on by default as a systemd unit on Ubuntu. This allows the kernel to use the `schedutil` governor which has been enabled and set as the default in our kernel configuration. The `schedutil` governor is a much newer governor with an awareness of the different performance/power utilization levels of the big.LITTLE cores in the ARM CPU. Switching to this gave an immediate noticeable gain in performance.
 
 Both `ondemand` and `schedutil` scale the frequency of the processor cores in response to load. However, if they aren't doing this efficiently or if the CPU has delays or slowdowns while it's switching frequency, you notice a bit of latency while the frequency picks up, then things feel a bit more speedy for a few seconds and then they slow down again.
 
@@ -45,15 +45,15 @@ If you wish to disable these frequency tweaks and have longer battery life but w
 
 ### Keyboard and Trackpad Tweaks
 
-We've applied 3 independent config tweaks to get the keyboard and trackpad functioning better under elementary OS.
+We've applied three different configuration tweaks to get the keyboard and trackpad functioning better under elementary OS.
 
-The first is some UDev config originated from Manjaro to correctly map the sleep and brightness keys on the keyboard (`Fn+ESC`, `Fn+F1`, `Fn+F2`). Some similar config tweaks could be used to essential invert the Fn key (i.e. pressing the F1 key would turn the brightness down and Fn+F1 would function as F1). As this is not the intended layout of the keyboard, we likely won't apply this config by default, but we'll update this page with details of how to do so when ready.
+The first is some UDev configuration originated from Manjaro to correctly map the sleep (<kbd>Fn</kbd><kbd>Esc</kbd>) and brightness (<kbd>Fn</kbd><kbd>F1</kbd>/<kbd>F2</kbd>) keys on the keyboard. Some similar configuration tweaks could be used to essentially invert the <kbd>Fn</kbd> key (i.e. pressing the <kbd>F1</kbd> key would turn the brightness down and <kbd>Fn</kbd><kbd>F1</kbd> would function as F1), but we're not sure if we will ship that by default.
 
-The second tweak is some libinput config at `/etc/libinput/local-overrides.quirks`. This file tells libinput that the Pinebook keyboard is "internal", as it automatically assumes USB keyboards (the Pinebook Pro keyboard is on the USB bus) are external unless it is told otherwise. This has the effect of allowing libinput to "pair" the keyboard with the trackpad, meaning that when the "disable while typing" setting is enabled for the trackpad, it functions correctly. External keyboards do not disable the trackpad.
+The second tweak is some LibInput configuration at `/etc/libinput/local-overrides.quirks`. This file tells LibInput that the Pinebook keyboard is "internal", as it automatically assumes USB keyboards (the Pinebook Pro keyboard is on the USB bus) are external unless it is told otherwise. This has the effect of allowing LibInput to "pair" the keyboard with the trackpad, meaning that when the "disable while typing" setting is enabled for the trackpad, it functions correctly. External keyboards do not disable the trackpad.
 
-The final tweak at the bottom of `/etc/udev/hwdb.d/10-usb-kbd.hwdb` disables a device that the keyboard firmware reports as a "keyboard mouse". We assume that the keyboard firmware has some provision for a Trackpoint style mouse that doesn't physically exist on the keyboard, but the firmware still reports it. Having this device enabled resulted in the trackpad being disabled if you enabled the "disable when external mouse connected" option. The phantom "keyboard mouse" device was again assumed to be external, meaning `libinput` assumed you had an additional external mouse connected and that you didn't want the trackpad anymore.
+The final tweak at the bottom of `/etc/udev/hwdb.d/10-usb-kbd.hwdb` disables a device that the keyboard firmware reports as a "keyboard mouse". We assume that the keyboard firmware has some provision for a Trackpoint-style pointer that doesn't physically exist on the keyboard, but the firmware still reports it. Having this device enabled resulted in the trackpad being disabled if you enabled the "disable when external mouse connected" option. The phantom "keyboard mouse" device was again assumed to be external, meaning LibInput assumed you had an additional external mouse connected and that you didn't want the trackpad anymore.
 
-It's possible that some/all of these tweaks are not necessary/useful on distributions that use the synaptics driver instead of `libinput` for the trackpad, but elementary OS uses `libinput` by default.
+It's possible that some/all of these tweaks are not necessary/useful on distributions that use the Synaptics driver instead of LibInput for the trackpad, but elementary OS uses LibInput by default.
 
 ### Power Management
 
@@ -61,11 +61,11 @@ The biggest and most time consuming issue we came across while porting elementar
 
 Using a UART cable for debugging resulted in some kernel warnings about the i2c code for handling the shutdown call to the PMIC (Power Management Integrated Circuit) not being "atomic". This turned out to be an important hint, but it is a relatively normal message that you'll also see on other distributions using a similar kernel.
 
-After much digging, it turned out that something in our stack pulls in a package called `irqbalance` by default. This distributes the hardware interrupts among the CPU cores to try and get better performance. The fact that the i2c code in the rockchip driver is not atomic means that it relies on interrupts to function.
+After much digging, it turned out that something in our stack pulls in a package called `irqbalance` by default. This distributes the hardware interrupts among the CPU cores to try and get better performance. The fact that the i2c code in the Rockchip driver is not atomic means that it relies on interrupts to function.
 
-During shutdown, the kernel disables interrupts on all but the first CPU core. The fact that `irqbalance` has potentially told a different core to handle the interrupts for the PMIC is the problem here. It also explains the random/sporadic behaviour. Removing the package was enough to fix the issue as the kernel has its own interrupt distribution code and is smart enough to ensure the interrupts are handled on the first core during shutdown.
+During shutdown, the kernel disables interrupts on all but the first CPU core. The fact that `irqbalance` has potentially told a different core to handle the interrupts for the PMIC is the problem here. It also explains the random/sporadic behavior. Removing the package was enough to fix the issue as the kernel has its own interrupt distribution code and is smart enough to ensure the interrupts are handled on the first core during shutdown.
 
-A lot of ARM platforms handle power management functions like shutdown and suspend in a low level firmware interface called PSCI (Power State Coordination Interface). Instead of communicating directly with the PMIC chip like the current kernel in the Pinebook Pro image does, the kernel can communicate with the standardised PSCI API.
+A lot of ARM platforms handle power management functions like shutdown and suspend in a low level firmware interface called PSCI (Power State Coordination Interface). Instead of communicating directly with the PMIC chip like the current kernel in the Pinebook Pro image does, the kernel can communicate with the standardized PSCI API.
 
 Unfortunately, these shutdown and suspend interfaces are not yet implemented in the open-source ARM TF-A (Trusted Firmware-A) meaning these functions have been implemented in the kernel in a non-standard way. This is understandable given the amount of work required to implement these functions in the low level firmware. Hopefully, when these features are implemented in the firmware, it should be possible to drop these non-standard patches and hopefully have improved suspend power draw levels.
 
@@ -75,7 +75,7 @@ A lot of manufacturers of ARM platforms offer a BSP (Board Support Package), whi
 
 In its current state, we would not consider elementary OS on Pinebook Pro as polished of an experience as running on well-supported Intel-based hardware.
 
-That said, the audience for Pinebook Pro is substantially more technical and Linux-savvy than your average computer user; as such, we've decided to publish our experimental builds under our [Early Access builds][builds] program. This means dedicated [sponsors] of elementary OS who wish to run elementary OS on Pinebook Pro can download it from the same place as Early Access builds of elementary OS As a note, all of this work has been focused on bringing the **pre-release of elementary OS 6** to Pinebook Pro, so all the usual disclaimers about pre-release builds apply here as well.
+That said, the audience for Pinebook Pro is substantially more technical and Linux-savvy than your average computer user; as such, we've decided to publish our experimental builds under our [Early Access builds][builds] program. This means dedicated [sponsors] of elementary OS who wish to run elementary OS on Pinebook Pro can download it from the same place as Early Access builds of elementary OS. As a note, all of this work has been focused on bringing the **pre-release of elementary OS 6** to Pinebook Pro, so all the usual disclaimers about pre-release builds apply here as well.
 
 <div style="text-align: center;" markdown="1">
 [Pinebook Pro on the elementary OS Wiki][wiki]{: .button}
