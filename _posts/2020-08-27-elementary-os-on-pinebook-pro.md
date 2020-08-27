@@ -5,11 +5,11 @@ author: davidmhewitt
 image: /images/elementary-os-on-pinebook-pro/card.jpg
 ---
 
+In June, PINE64 reached out to see if elementary would be interested in experimenting with elementary OS on Pinebook Pro. We'd been loosely following PINE64 and the progress of Pinebook Pro, but hadn't gotten our hands on one—so we expressed our interest. PINE64 was gracious enough to send a few devices out to members of our team, and our work began.
+
 <figure class="constrained" markdown="1">
 ![Pinebook Pro]({{ page.image }}){: width="2048" height="1364"}
 </figure>
-
-In June, PINE64 reached out to see if elementary would be interested in experimenting with elementary OS on Pinebook Pro. We'd been loosely following PINE64 and the progress of Pinebook Pro, but hadn't gotten our hands on one—so we expressed our interest. PINE64 was gracious enough to send a few devices out to members of our team, and our work began.
 
 First, a bit of a disclaimer: Pinebook Pro support is still considered an experiment for elementary OS, and it's not something we have committed to officially support indefinitely. That said, the experience so far has been a lot of fun, and we're happy with the current state. Second, this post isn't going to get into a lot of details about the hardware itself; for that, see [Cassidy's recent personal blog post](https://cassidyjames.com/blog/pinebook-pro/). Lastly, our work on bringing elementary OS to Pinebook Pro has been made possible by PINE64 generously providing the hardware as well as by funding from our [Early Access][builds] sponsors. If you'd like to see more projects like this, consider backing us on [GitHub Sponsors][sponsors].
 
@@ -70,6 +70,12 @@ A lot of ARM platforms handle power management functions like shutdown and suspe
 Unfortunately, these shutdown and suspend interfaces are not yet implemented in the open-source ARM TF-A (Trusted Firmware-A) meaning these functions have been implemented in the kernel in a non-standard way. This is understandable given the amount of work required to implement these functions in the low level firmware. Hopefully, when these features are implemented in the firmware, it should be possible to drop these non-standard patches and hopefully have improved suspend power draw levels.
 
 A lot of manufacturers of ARM platforms offer a BSP (Board Support Package), which can include closed source firmware and a custom kernel (which is now a relatively out of date version). Rockchip offers a BSP firmware image and kernel where the suspend performance is improved, but we've opted for up to date and more easily auditable versions of these components.
+
+## Looking Forward
+
+Now that we've enabled builds for Pinebook Pro and have a few contributors using it on a regular basis, we'll likely continue using and treating it as a sort of common benchmark platform. For example, the lower-powered nature of the hardware lends itself well as a performance baseline that we can use to improve elementary OS. This work can help us tune and improve performance across all platforms—not just Pinebook Pro.
+
+More generally, this experience has also been the first time we've had a coordinated hardware enablement effort with multiple contributors using identical machines. This sort of workflow has significant advantages, and may inform our hardware decisions going forward.
 
 ## Run elementary OS on Pinebook Pro
 
