@@ -5,7 +5,7 @@ author: davidmhewitt
 image: /images/elementary-os-on-pinebook-pro/card.jpg
 ---
 
-In June, PINE64 reached out to see if elementary would be interested in experimenting with elementary OS on Pinebook Pro. We'd been loosely following PINE64 and the progress of Pinebook Pro, but hadn't gotten our hands on one—so we expressed our interest. PINE64 was gracious enough to send a few devices out to members of our team, and our work began.
+In June, [PINE64](https://pine64.org) reached out to see if elementary would be interested in experimenting with elementary OS on [Pinebook Pro](https://www.pine64.org/pinebook-pro/). We'd been loosely following PINE64 and the progress of Pinebook Pro, but hadn't gotten our hands on one—so we expressed our interest. PINE64 was gracious enough to send a few devices out to members of our team, and our work began.
 
 <figure class="constrained" markdown="1">
 ![Pinebook Pro]({{ page.image }}){: width="2048" height="1364"}
@@ -19,19 +19,17 @@ The process of producing both functional and high-quality builds of elementary O
 
 ### Kernel & Bootloader
 
-Thanks to the great work that the Manjaro ARM team have done in this field, getting a working kernel for the Pinebook Pro was relatively painless. We've simply taken a mainline kernel straight from [kernel.org](https://kernel.org), applied a few patches copied from the Manjaro repository and used a configuration set similar to the Manjaro one. It needed tweaking slightly to be compatible with the way Ubuntu/elementary works.
+Thanks to the great work that the Manjaro ARM team have done in this field, getting a working kernel for the Pinebook Pro was relatively painless. We've simply taken a mainline kernel straight from [kernel.org](https://kernel.org), applied a few patches copied from the Manjaro repository and used a configuration set similar to the Manjaro one. It needed tweaking slightly to be compatible with the way Ubuntu/elementary works. For example, we've had to disable kernel module compression in the kernel configuration as this isn't compatible with the Ubuntu `update-initramfs` scripts yet.
 
-For example, we've had to disable kernel module compression in the kernel configuration as this isn't compatible with the Ubuntu `update-initramfs` scripts yet.
+As of this post, Ubuntu hasn't released any kernels that are new enough or contain the necessary tweaks, options, and patches to run on the Pinebook Pro. So this is one major area where the Pinebook Pro builds differ from the regular Intel/AMD builds. We were initially using kernel 5.7, but have since upgraded to 5.8, which allowed dropping some more patches that have been mainlined.
 
-As of this post, Ubuntu hasn't released any kernels that are new enough or contain the necessary tweaks, options, and patches to run on the Pinebook Pro. So this is one major area where the Pinebook Pro builds differ from the regular Intel/AMD builds. You'll notice that we're using kernel 5.7.11 currently, though this is likely to be upgraded to 5.8 soon (as it allows dropping some more patches that have been mainlined).
-
-elementary normally relies heavily on the fantastic work done by Canonical in testing and maintaining kernel releases. So maintaining our own kernel configuration and patchset is a bit of a departure from that. Ubuntu already releases [specific kernels for the Raspberry Pi](https://packages.ubuntu.com/focal/linux-raspi), perhaps we'll see a ready made Pinebook Pro one in the future. In the short term however, we may consider packaging the Pinebook Pro kernel into a .deb and hosting it on a PPA, so we can push updates in future if necessary. Currently the kernel is just built into the image at build time.
+elementary normally relies heavily on the fantastic work done by Canonical in testing and maintaining kernel releases. So maintaining our own kernel configuration and patchset is a bit of a departure from that. Ubuntu already releases [specific kernels for the Raspberry Pi](https://packages.ubuntu.com/focal/linux-raspi), perhaps we'll see a ready made Pinebook Pro one in the future. In the short term however, we may consider packaging the Pinebook Pro kernel into a .deb and hosting it on a PPA, so we can push updates in future if necessary. For now, though, the kernel is just built into the image at build time and so **does not currently receive updates**.
 
 The bootloader is a similar story. We needed a version that was new enough to support the Pinebook Pro and a few patches, so this has come directly from mainline u-boot and not yet packaged as an upgradable .deb.
 
 ### Performance
 
-Despite elementary OS being a relatively light distribution, performance still isn't as good as you would hope given the capability of the hardware. This is down to GTK3 largely not using GPU acceleration, especially when running on Xorg. There are a number of tweaks we've applied to improve the experience somewhat, though there won't be any big leaps in performance until we can move the stack to Wayland and to a greater extent GTK4.
+Despite elementary OS being a relatively performant distribution, the experience still isn't as good as you might hope given the capability of the hardware. This is down to GTK3 largely not using GPU acceleration, especially when running on Xorg. There are a number of tweaks we've applied to improve the experience somewhat, though there won't be any big leaps in performance until we can move the stack to Wayland and to a greater extent GTK4.
 
 One interesting point is that you can clearly notice the difference between the GPU accelerated animations (done by the Compositor) and those done largely on the CPU by GTK. For example, the <kbd>Alt</kbd><kbd>Tab</kbd> animation feels pretty smooth compared to the animation used when opening the applications menu. So the potential of the hardware is there, the software stack just isn't quite ready to take advantage of it yet.
 
@@ -88,6 +86,14 @@ That said, the audience for Pinebook Pro is substantially more technical and Lin
 </div>
 
 Once you have access to Early Access builds, head over to the [elementary OS wiki][wiki] to get it installed on your own hardware. If you find and file any issues, please remember to specify the build of the OS you downloaded as well as that you are running on Pinebook Pro—it will help us validate and triage issues much more quickly.
+
+---
+
+<aside markdown="1">
+## Sponsor David Hewitt
+
+Cassidy from elementary here. David Hewitt has done the vast majority of this work on a volunteer basis, tackling the low-level issues and getting builds up and running for Pinebook Pro. To support him and his work directly, please consider [sponsoring him via GitHub Sponsors](https://github.com/sponsors/davidmhewitt)!
+</aside>
 
 [builds]: https://builds.elementary.io
 [sponsors]: https://github.com/sponsors/elementary
