@@ -1,6 +1,6 @@
 ---
 title: "Leaving Google Analytics is Finally Plausible"
-description: "Another big step towards privacy and transparency"
+description: "Reviewing another big step towards privacy and transparency"
 author: danrabbit
 image: /images/leaving-google-analytics-is-finally-plausible/blog-card.png
 tags:
