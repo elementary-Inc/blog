@@ -9,6 +9,7 @@
 @import "typography";
 
 // Components
+@import "at-a-glance";
 @import "byline";
 @import "code";
 @import "featured";
@@ -18,7 +19,7 @@
 @import "twitter-cards";
 
 :root {
-    color-scheme: light dark;
+  color-scheme: light dark;
 }
 
 * {
