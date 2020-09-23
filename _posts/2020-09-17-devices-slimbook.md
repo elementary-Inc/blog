@@ -1,6 +1,6 @@
 ---
-title: More Devices Shipping elementary OS
-description: Slimbook joins the program, plus additional models from existing retailers
+title: Slimbook Joins the elementary OS Retailer Program
+description: Plus, additional models from existing retailers
 author: cassidyjames
 image: /images/devices-slimbook/card.jpg
 tags:
@@ -34,7 +34,7 @@ Both [Laptop with Linux] and [Star Labs] have launched additional models with el
 
 ### Laptop With Linux
 
-Laptop With Linux has launched new [14-inch](https://laptopwithlinux.com/product/tongfang-pf4nu1f/) and [15.6-inch](https://laptopwithlinux.com/product/tongfang-pf5nu1g-amd-linux-laptop/) Tongfang laptops with AMD Ryzen processors. These new models sport durable but lightweight magnesium-alloy chassis, IPS displays, and up to 8-core AMD Ryzen 7 4800H processors. As of this post, they start around $740 USD.
+Laptop With Linux has launched new [14-inch](https://laptopwithlinux.com/product/tongfang-pf4nu1f/?ref=36&utm_source=referral&utm_medium=elementary&utm_campaign=elementary) and [15.6-inch](https://laptopwithlinux.com/product/tongfang-pf5nu1g-amd-linux-laptop/?ref=36&utm_source=referral&utm_medium=elementary&utm_campaign=elementary) Tongfang laptops with AMD Ryzen processors. These new models sport durable but lightweight magnesium-alloy chassis, IPS displays, and up to 8-core AMD Ryzen 7 4800H processors. As of this post, they start around $740 USD.
 
 <figure class="half" markdown="1">
 ![Tongfang 15](/images/devices-slimbook/laptop-with-linux-tongfang-15.png)
@@ -44,11 +44,11 @@ Laptop With Linux has launched new [14-inch](https://laptopwithlinux.com/product
 </figcaption>
 </figure>
 
-These models are also the first from Laptop With Linux to feature their new "Super" key design, referred to in elementary OS with the [Looped Square (⌘) symbol](/why-the-looped-square-symbol).
+These models are also the first from Laptop With Linux to feature their new "Super" key design, referred to in elementary OS with the [Looped Square (⌘) symbol](/why-the-looped-square-symbol). Lastly, Laptop with Linux now ships worldwide with VAT-free checkout for countries outside the EU.
 
 ### Star Labs
 
-The new [Lite Mk III](https://starlabs.systems/pages/lite-mk-iii?rfsn=4227837.e8f025) is available for pre-order now. It's a tiny, fanless, but capable laptop, with an 11-inch matte IPS display. It rocks a backlit keyboard, glass trackpad, and stereo speakers—and it charges over USB-C. As of this post, it starts at $432 USD.
+The new [Lite Mk III](https://starlabs.systems/pages/lite-mk-iii?rfsn=4227837.e8f025) is available for pre-order from Star Labs now. It's a tiny, fanless, but capable laptop with an 11-inch matte IPS display. It rocks a backlit keyboard, glass trackpad, and stereo speakers—and it charges over USB-C. As of this post, it starts at $432 USD.
 
 <figure class="constrained" markdown="1">
 ![Star Labs Lite Mk III](/images/devices-slimbook/star-labs-lite-mk-iii.png)
