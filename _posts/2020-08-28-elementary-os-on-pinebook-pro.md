@@ -3,6 +3,8 @@ title: elementary OS on Pinebook Pro
 description: An experimental case of hardware enablement
 author: davidmhewitt
 image: /images/elementary-os-on-pinebook-pro/card.jpg
+tags:
+  - devices
 ---
 
 In June, [PINE64](https://pine64.org) reached out to see if elementary would be interested in experimenting with elementary OS on [Pinebook Pro](https://www.pine64.org/pinebook-pro/). We'd been loosely following PINE64 and the progress of Pinebook Pro, but hadn't gotten our hands on one—so we expressed our interest. PINE64 was gracious enough to send a few devices out to members of our team, and our work began.
