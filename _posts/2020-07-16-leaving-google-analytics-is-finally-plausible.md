@@ -1,6 +1,6 @@
 ---
 title: "Leaving Google Analytics is Finally Plausible"
-description: "Another big step towards privacy and transparency"
+description: "Reviewing another big step towards privacy and transparency"
 author: danrabbit
 image: /images/leaving-google-analytics-is-finally-plausible/blog-card.png
 tags:
@@ -67,6 +67,12 @@ Plausible is a small UK-based company that provides a hosted, privacy-conscious 
 
 Unlike Google, Plausible isn't in the advertising game and doesn't have an incentive to collect and sell user data. And they've made it clear that they're not interested in being scooped up by VCs or new ownership that might seek to change those values. They make money the same way elementary does: by directly charging customers for their product. We know firsthand how important it is to make sure that your business is built around your ethics, and we get the same feeling from the folks at Plausible. We're excited to be supporting a company that shares our values and respects the people visiting our website.
 
+## Our Review of Plausible Analytics (So Far)
+
+We used Plausible in parallel with Google Analytics for a month to see how they compared, and we were thrilled with the results. We were able to largely recreate the aggregate data we're interested in using Plausible's goals feature—namely: what version of the OS is being downloaded, what OSes downloads are coming from, and how many downloaders paid versus bypassed the payment. At the same time, much less data is even processed; for example, we completely stopped getting any sort of demographic data from the Google advertising network. The Plausible dashboard is also _far_ easier to use and understand at a glance; instead of a massive web app offering near-infinte sub-sections and complex filters, Plausible offers up a simple one-page dashboard with all the key data you need.
+
+This may not be an expansive review, but over all we're very happy with Plausible Analytics. They've enabled us to get rid of Google Analytics while still keeping tabs on important product-related data. And most importantly, we are able to do so in a way that is much more transparent and trustworthy.
+
 ## Improving Transparency
 
 One of the most interesting and unique features of Plausible is their open invitation and celebration of data transparency. First, their entire product is open source; when it comes to privacy, the source code being open and auditable by anyone—experts and end users alike—is paramount. But they go above and beyond that: every user of Plausible is able and encouraged to make their analytics dashboard public so everyone can see the data for themselves and know that nothing fishy is going on.
@@ -82,5 +88,10 @@ We've embraced this new feature at elementary and opened up the dashboards for o
   * [Developer Portal](https://plausible.io/developer.elementary.io)
   * [AppCenter on the Web](https://plausible.io/appcenter.elementary.io)
   * [Release Tracking](https://plausible.io/releases.elementary.io)
+  * [Early Access Builds](https://plausible.io/builds.elementary.io)
 
 We hope that this move will provide a tangible improvement to your digital life and give you even more peace of mind when using elementary products. We're always working towards the ideal and we're confident we've made a big step by switching to Plausible. Let us know on social media what you think of the new public analytics dashboard, and feel free to ask questions about how we're using this data!
+
+---
+
+**Update (Sep 8, 2020):** We expanded on our review of using Plausible, and added a link to our new Early Access Builds dashboard.

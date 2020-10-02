@@ -5,7 +5,6 @@ author: cassidyjames
 image: /images/now-shipping-elementary-os/card@2x.png
 tags:
   - devices
-  - oem
 ---
 
 Today, we're pleased to announce that elementary OS 5.1 Hera is now available out of the box on over a dozen models from two retailers, with more in the works.
