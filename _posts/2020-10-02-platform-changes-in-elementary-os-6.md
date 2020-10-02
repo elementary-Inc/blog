@@ -2,24 +2,30 @@
 title: "Platform Changes in elementary OS 6"
 description: "New technology that improves your experience"
 author: danrabbit
-image: 
+image: /images/updates-for-july-2020/card.png
 tags:
   - odin
 ---
 
 Since elementary makes regular updates to elementary OS throughout its lifecycle, you may be asking yourself why development focus has shifted to elementary OS 6 and why these updates can't be shipped to elementary OS 5. In short, the answer is big, breaking changes in technology. While our updates to elementary OS 5 have been largely incremental improvements, elementary OS 6 rips up old plumbing and reconsiders how things work under-the hood in order to enable new features, make your experience more stable and reliable, improve compatibility with 3rd party apps, and make our desktop more portable to other open source operating systems. Here is a slightly technical look at some of the changes that you'll see in the next big version of elementary OS.
 
-## Multi-touch Navigation
-In elementary OS 6, we're shipping the latest version of Handy, a development library originally meant to make it easier to develop apps for Open Source mobile operating systems like PureOS. Handy provides navigation widgets that react to multi-touch gestures with 1:1 finger tracking. You may have already experienced this in elementary OS 5 in the applications menu and during onboarding. We now provide these 1:1 swipe navigation gestures in many other places like the Date & Time indicator, during multi-step configuration such as in the Installer and Keyboard Input Settings, and when navigating inside apps like Feedback. We still have some work to do, but our goal is to make navigation as easy as a swipe system-wide.
-
 ## A New (S)CSS Framework
-Believe it or not, the CSS framework shipped in elementary OS 5 has been in development for 7 years already. It has gone through many iterations and breaking changes in Gtk which have resulted in a bit of cruft over time. And after these many years of refinement it has become clear that it contains some fundamental shortcomings that have manifested as various small UI bugs. In elementary OS 6, we have completely rewritten our Gtk.CSS framework using Sass, a CSS extension language that compiles down into Gtk-compatible CSS. This enables a major new feature—customizable accent colors—and makes it much easier to properly maintain the dark style. We've also greatly improved compatibility with apps built for the GNOME CSS framework Adwaita. You'll also notice a much more uniform appearance thanks to the use of Sass features like inheritance and functions, all while maintainability is made much easier by nesting. The overall visual style features improved use of light and shadow and increases contrast for better legibility. All of this jargon to say that elementary OS 6 looks really, really good.
+
+<figure>
+  <picture>
+    <source srcset="/images/platform-changes-in-elementary-os-6/widget-factory-dark@2x.png" media="(prefers-color-scheme: dark)">
+    <img alt="Gtk Widget Factory" src="/images/platform-changes-in-elementary-os-6/widget-factory@2x.png" width="1249" height="743" />
+  </picture>
+<figcaption>A selection of widget styles using the new work-in-progress SCSS framework</figcaption>
+</figure>
+
+Believe it or not, the CSS framework shipped in elementary OS 5 has been in development for 7 years already. It has gone through many iterations and breaking changes in Gtk which have resulted in a bit of cruft over time. And after these many years of refinement it has become clear that it contains some fundamental shortcomings that have manifested as various small UI bugs. In elementary OS 6, we have completely rewritten our Gtk.CSS framework using [Sass](https://sass-lang.com), a CSS extension language that compiles down into Gtk-compatible CSS. This enables a major new feature—customizable accent colors—and makes it much easier to properly maintain the dark style. We've also greatly improved compatibility with apps built for the GNOME CSS framework Adwaita. You'll also notice a much more uniform appearance thanks to the use of Sass features like inheritance and functions, all while maintainability is made much easier by nesting. The overall visual style features improved use of light and shadow and increases contrast for better legibility as well as more prominent button styles. All of this jargon to say that elementary OS 6 already looks really, really good. We'll have a more in-depth post later comparing the major differences in appearance between elementary OS 5 and 6, including changes to iconography.
 
 ## Settings Daemon
-We already make use of GNOME Settings daemon to provide a simple configuration interface for many system functions, but in elementary OS 6 we're also introducing our own settings daemon to provide additional features. One of the major functions of elementary settings daemon is to keep your settings in sync with the login and lock screen. This has already brought keyboard layout switching to the login and lock screen and will eventually support keeping many more configuration options in sync. Soon, elementary settings daemon will handle an automatic dark style schedule. And we're investigating other ways this new settings daemon can streamline system components, improve reliability, and provide better compatibility with 3rd party apps.
+We already make use of GNOME Settings daemon to provide a simple configuration interface for many system functions, but in elementary OS 6 we're also introducing our own settings daemon to provide additional features. One of the major functions of elementary settings daemon is to keep your settings in sync with the login and lock screen. This has already brought keyboard layout switching to the login and lock screen and will eventually support keeping many more configuration options in sync. elementary settings daemon also handles an automatic dark style schedule. And we're investigating other ways this new settings daemon can streamline system components, improve reliability, and provide better compatibility with 3rd party apps.
 
 ## ScreenShield
-In elementary OS 5, you may have encountered issues with automatic screen locking while watching videos or performing other long-running tasks that shouldn't be interrupted or cases where your automatic screen locking settings weren't being respected. In elementary OS 6, we've replaced Light Locker with our own ScreenShield implementation. This implementation leans more heavily on features provided by GNOME Settings Daemon and brings greater compatibility with 3rd party apps. ScreenShield reliably respects the Gtk.Application.Inhibit API which makes it much easier for developers to request that your device doesn't automatically lock or sleep. ScreenShield also introduces a nice fade out animation right before sleep, and it makes use of Late Locking which means you can continue to play music in the background until you wake the device up. This implementation also replaces an old component called DPMS Helper, and provides better portability for those who like to run Pantheon on other operating systems like Fedora and NixOS. Overall, your screen locking and sleep experience should be much more reliable and predictable in elementary OS 6.
+In elementary OS 5, you may have encountered issues with automatic screen locking while watching videos or performing other long-running tasks that shouldn't be interrupted or cases where your automatic screen locking settings weren't being respected. In elementary OS 6, we've replaced Light Locker with our own ScreenShield implementation. This implementation leans more heavily on features provided by GNOME Settings Daemon and brings greater compatibility with 3rd party apps. ScreenShield reliably respects the [`Gtk.Application.Inhibit` API](https://valadoc.org/gtk+-3.0/Gtk.Application.inhibit.html) which makes it much easier for developers to request that your device doesn't automatically lock or sleep. ScreenShield also introduces a nice fade out animation right before sleep, and it makes use of Late Locking which means you can continue to play music in the background until you wake the device up. This implementation also replaces an old component called DPMS Helper, and provides better portability for those who like to run Pantheon on other operating systems like Fedora and NixOS. Overall, your screen locking and sleep experience should be much more reliable and predictable in elementary OS 6.
 
 ## Improved Accessibility Features
 You may already be familiar with the Reveal Pointer and Dwell Click features present in elementary OS 5. While Reveal Pointer makes it easy to locate the pointer on your display, Dwell Click provides assistance to people who may have trouble clicking mouse buttons such as those suffering from RSI, Arthritis, or even temporary disability like a broken finger. In elementary OS 5 these feature were provided by plugins to the GNOME Settings Daemon, but in elementary OS 6 they are now provided directly by our window manager. The primary motivation for this change is the eventual move to Wayland (a protocol that will make your device faster and safer), but this also gives us more creative control over these features. For example, Dwell Click settings are now available from a system indicator in the panel instead of using an awkward floating window.
@@ -28,9 +34,31 @@ You may already be familiar with the Reveal Pointer and Dwell Click features pre
 Another step towards preparing for Wayland is the implementation of the screenshot interface in the window manager. In short, this now means that screenshots are captured by the window manager, whether taken from the Screenshot app or with a keyboard shortcut. This vastly simplifies the functionality of the Screenshot app and ensures feature parity between the two interfaces. In a future release of elementary OS that makes use of Wayland, this will eventually provide the ability to require that apps ask your permission before capturing the screen, improving your privacy.
 
 ## Improved Notifications
+
+<figure>
+  <picture>
+    <source srcset="/images/platform-changes-in-elementary-os-6/notification-dark@2x.png" media="(prefers-color-scheme: dark)">
+    <img alt="Notification Bubble" src="/images/platform-changes-in-elementary-os-6/notification@2x.png" width="416" height="176" />
+  </picture>
+<figcaption>New notification bubbles support full-color Emoji</figcaption>
+</figure>
+
 In elementary OS 5, the component which draws notification bubbles on screen is part of the window manager. When the feature was first introduced, this gave us a lot of control over drawing and animations and made sense since these bubbles are placed and interacted with differently from app windows. However, we soon encountered major drawbacks with regards to making notifications more expressive and interactive. In elementary OS 6, notifications are drawn using Gtk, the same toolkit we use for apps. We've been able to retain the general look and feel of the old notifications while making them more consistent with the rest of the system. Plus, we can now support the system dark style preference, support for images in notifications is improved, we can display full-color emoji, and soon we will be able to support notifications with buttons so you can take action quickly without having to navigate away from the things you're focused on.
 
 The notifications indicator is also receiving a face lift to better mirror the capabilities of notification bubbles. You can look forward to the same improved handling of images and actions as well as features like the ability for apps to replace old notifications with up-to-date ones. This will keep your list of missed notifications lean and relevant.
+
+## Multi-touch Gestures
+
+<figure>
+  <picture>
+    <source srcset="/images/platform-changes-in-elementary-os-6/notification-swipe-dark@2x.png" media="(prefers-color-scheme: dark)">
+    <img alt="Notification Center" src="/images/platform-changes-in-elementary-os-6/notification-swipe@2x.png" width="393" height="666" />
+  </picture>
+<figcaption>A notification bubble being swiped away in the new Notification Center</figcaption>
+</figure>
+
+In elementary OS 6, we're shipping the latest version of [Handy](https://valadoc.org/libhandy-1/Hdy.html), a development library originally meant to make it easier to develop apps for Open Source mobile operating systems like PureOS. Handy provides navigation widgets that react to multi-touch gestures with 1:1 finger tracking. You may have already experienced this in elementary OS 5 in the applications menu and during onboarding. We now provide these 1:1 swipe navigation gestures in many other places like the Date & Time indicator, during multi-step configuration such as in the Installer and Keyboard Input Settings, and when navigating inside apps like Feedback. We're also working on gestures for things like dismissing bubbles in the notifications indicator. We still have some work to do, but our goal is to make navigation as easy as a swipe system-wide.
+
 
 ## System-wide Flatpak Support
 You may be aware that we already support side loading Flatpak apps in elementary OS 5 and that AppCenter will help you keep those apps up to date. And when you side load an app, the installation is local to your account so you can install as many apps as you like without cluttering up others' accounts. In elementary OS 6, we also support sharing Flatpak apps system wide. This is essential for our plan to ship apps in elementary OS as Flatpaks out of the box. The first app we plan to ship as a Flatpak is our web browser Epiphany.
@@ -42,3 +70,9 @@ Since I mentioned Wayland a couple of times, I want to make it clear that we are
 
 ## Get Early Access
 If you're excited by what you read here and want to get your hands on the developer preview of elementary OS 6, you can! GitHub sponsors at the $10/mo or above tier get access to our daily builds server where you can test the latest and greatest experimental builds, including builds for Pinebook Pro. Subscribing helps us fund the development of elementary OS and brings us that much closer to delivering the final product.
+
+<div style="text-align: center" markdown="1">
+[Get Early Access Builds][builds]{: .button}
+</div>
+
+[builds]: https://builds.elementary.io
