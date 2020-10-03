@@ -9,7 +9,7 @@ tags:
 
 Since elementary makes regular updates to elementary OS throughout its lifecycle, you may be asking yourself why development focus has shifted to elementary OS 6 and why these updates can't be shipped to elementary OS 5. In short, the answer is big, breaking changes in technology. While our updates to elementary OS 5 have been largely incremental improvements, elementary OS 6 rips up old plumbing and reconsiders how things work under-the hood in order to enable new features, make your experience more stable and reliable, improve compatibility with 3rd party apps, and make our desktop more portable to other open source operating systems. Here is a slightly technical look at some of the changes that you'll see in the next big version of elementary OS.
 
-## A New (S)CSS Framework
+## A New (S)CSS Stylesheet
 
 <figure>
   <picture>
@@ -66,7 +66,7 @@ You may be aware that we already support side loading Flatpak apps in elementary
 We want to start with Epiphany for two main reasons. The first reason is that as your primary portal to the web keeping web pages opened in Epiphany confined is a big step up for security. The second reason is that the web is constantly changing and evolving, so it's important for us to be able to ship the very latest in web rendering technology. At the moment, we ship updates to WebKit (the rendering engine used by Epiphany and other popular web browsers like Safari) when Canonical does. This means that WebKit gets frequent security updates, but sometimes lags behind on features and compatibility. With the Epiphany Flatpak, we'll be able to ship the latest WebKit in a confined manner to make sure you can browser the web in a secure, fast, Open Source, and widely compatible web browser.
 
 ## Not Wayland (Yet)
-Since I mentioned Wayland a couple of times, I want to make it clear that we aren't quite ready to make that transition just yet. While making steps towards Wayland-readiness we're able to improve our architecture and prepare for features that increase security and privacy, but there's still a lot to do before we can run elementary OS with Wayland.
+Since I mentioned Wayland a couple of times, I want to make it clear that we aren't quite ready to make that transition just yet. While making steps towards Wayland-readiness we're able to improve our architecture and prepare for features that increase security and privacy, but there's still a lot to do before we can run elementary OS with Wayland. Since Ubuntu—our upstream—has also made the decision to stick with X11 for their 20.04 release, we feel like its reasonable to take our time and make sure we get it right.
 
 ## Get Early Access
 If you're excited by what you read here and want to get your hands on the developer preview of elementary OS 6, you can! GitHub sponsors at the $10/mo or above tier get access to our daily builds server where you can test the latest and greatest experimental builds, including builds for Pinebook Pro. Subscribing helps us fund the development of elementary OS and brings us that much closer to delivering the final product.
