@@ -5,6 +5,7 @@ author: cassidyjames
 image: /images/updates-for-july-2020/card.png
 tags:
   - updates
+  - odin
 ---
 
 <figure class="constrained" markdown="1">
