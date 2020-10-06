@@ -16,7 +16,7 @@ Since elementary makes regular updates to elementary OS throughout its lifecycle
     <source srcset="/images/platform-changes-in-elementary-os-6/widget-factory-dark@2x.png" media="(prefers-color-scheme: dark)">
     <img alt="GTK Widget Factory" src="/images/platform-changes-in-elementary-os-6/widget-factory@2x.png" width="1249" height="743" />
   </picture>
-<figcaption>A selection of widget styles using the new work-in-progress Sass framework</figcaption>
+<figcaption>A selection of widget styles using the new work-in-progress Sass stylesheet</figcaption>
 </figure>
 
 Believe it or not, the CSS-based system stylesheet shipped in elementary OS 5 has been in development for 7 years already. It has gone through many iterations and breaking changes in GTK which have resulted in a bit of cruft over time. And after these many years of refinement it has become clear that it contains some fundamental shortcomings that have manifested as various small UI bugs. In elementary OS 6, we have completely rewritten our Gtk.CSS system stylesheet using [Sass](https://sass-lang.com), a CSS extension language that compiles down into GTK-compatible CSS. This enables a major new feature—customizable accent colors—and makes it much easier to properly maintain the dark style. We've also greatly improved compatibility with apps built for the GNOME "Adwaita" stylesheet. You'll notice a much more uniform appearance thanks to the use of Sass features like inheritance and functions, all while maintainability is made much easier by nesting. 
