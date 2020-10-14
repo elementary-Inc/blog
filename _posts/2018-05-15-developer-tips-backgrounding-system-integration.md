@@ -15,7 +15,7 @@ How your app should integrate with elementary OS and run in the background can b
 
 The first step is to have your app continue to do work while not in the foreground. In elementary OS, we encourage an [“Always Saved” user workflow](https://elementary.io/docs/human-interface-guidelines#always-saved) along with sane [background tasks](https://elementary.io/docs/human-interface-guidelines#background-tasks). Together, these mean users don’t have to worry about saving things or being careful with closing apps, as everything should just work and come back how they left it.
 
-If your app’s main window is closed, you can override the `[delete_event`](https://valadoc.org/gtk+-3.0/Gtk.Widget.delete_event.html) to continue to do work and integrate with the OS through the Dock, Applications Menu, and Notifications. This is similar to how Mail keeps checking for incoming emails, Music keeps on playing, and AppCenter continues updates all when their respective windows are closed.
+If your app’s main window is closed, you can override the [`delete_event`](https://valadoc.org/gtk+-3.0/Gtk.Widget.delete_event.html) to continue to do work and integrate with the OS through the Dock, Applications Menu, and Notifications. This is similar to how Mail keeps checking for incoming emails, Music keeps on playing, and AppCenter continues updates all when their respective windows are closed.
 
 Always respect the user’s resources and don’t run in the background if you don’t need to. But if it makes sense for your app and the user would expect it, it can be a great experience. Just be sure to close down your app to free up resources when it’s not doing any work.
 
