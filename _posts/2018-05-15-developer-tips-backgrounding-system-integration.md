@@ -9,7 +9,7 @@ tags:
   - developer-tips
 ---
 
-How your app should integrate with elementary OS and run in the background can be a tricky topic; other platforms have different conventions like minimizing to a system tray or being sort of document-based instead of app-based, which can lead to weird interactions if carried over to elementary OS. So what’s the *right *way to run in the background and integrate with the OS? Let’s take a look.
+How your app should integrate with elementary OS and run in the background can be a tricky topic; other platforms have different conventions like minimizing to a system tray or being sort of document-based instead of app-based, which can lead to weird interactions if carried over to elementary OS. So what’s the _right_ way to run in the background and integrate with the OS? Let’s take a look.
 
 ## Backgrounding Your App
 
@@ -99,7 +99,7 @@ System Indicators are displayed based on context.
 </figcaption>
 </figure>
 
-The [HIG entry](https://elementary.io/docs/human-interface-guidelines#system-indicators) goes into more detail, but in summary: *application* indicators are an anti-pattern, and not supported in elementary OS.
+The [HIG entry](https://elementary.io/docs/human-interface-guidelines#system-indicators) goes into more detail, but in summary: _application_ indicators are an anti-pattern, and not supported in elementary OS.
 
 Apps should run in the background when it makes sense, and use the great ways to integrate into the OS through the Dock, Applications Menu, and Notifications. This helps keep users in control of their system and allows for deeper system integration when it makes sense — like when we added static QuickLists and dock badges to the Applications Menu.
 
