@@ -29,7 +29,7 @@ Revitalized computers can be handy as a **secondary machine** to have around for
 
 We could get way into the weeds here, but in summary: an operating system is the base software that runs on a device. It's what you see when you turn on a computer to log in, and it provides the core user interface to let you launch apps, install updates, etc. It also comes with the default "system apps" of its own, which might include a web browser, calculator, file manager, system settings, and app store.
 
-<!-- Maybe graphic of some OS logos for recognition? -->
+![Logos of Windows, Android, Chrome OS, macOS, iOS, and elementary OS](/images/{{ page.slug }}/logos.png)
 
 When you buy a device, it comes with an operating system already installed: Macs run macOS, Windows computers run Windows, Chromebooks run Chrome OS, Android phones run Android, iPhones run iOS, etc. You can even [get a computer running elementary OS](https://elementary.io/store#devices) out of the box, too.
 
