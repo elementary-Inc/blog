@@ -23,7 +23,7 @@ The obvious reason it's worth revitalizing a computer rather than buying a new o
 
 Even if money is not an issue, there are still good reasons to revitalize an existing computer. For one, it's **better for the planet**; in 2019, 53.6 million metric tons of electronics waste was generated, and it's increasing by nearly two million metric tons per year[*](#cite). Electronics waste contaminates water and food supplies, putting people at risk around the world. Producing new electronics also causes pollution by releasing carbon dioxide and other gasses into the atmosphere.
 
-Revitalized computers can be handy to have around as a **secondary machine** to have around for guests, as a backup machine, etc. If you don't personally have a need for the computer anymore, revitalized computers are **great to repurpose** for schools, non-profits, small businesses, parents, or children as their first computer—for all the same reasons as above. Lastly, it can just be **satisfying** to repurpose something and make it work better than it used to!
+Revitalized computers can be handy as a **secondary machine** to have around for guests, as a backup machine, etc. If you don't personally have a need for the computer anymore, revitalized computers are **great to repurpose** for schools, non-profits, small businesses, parents, or children as their first computer—for all the same reasons as above. Lastly, it can just be **satisfying** to repurpose something and make it work better than it used to!
 
 ## What Exactly is an Operating System?
 
