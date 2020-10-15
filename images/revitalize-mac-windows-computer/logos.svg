@@ -8,13 +8,16 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="1500"
-   height="875"
-   viewBox="0 0 396.87499 231.51042"
+   width="1600"
+   height="984"
+   viewBox="0 0 423.33333 260.35001"
    version="1.1"
    id="svg8"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
-   sodipodi:docname="logos.svg">
+   sodipodi:docname="logos.svg"
+   inkscape:export-filename="/home/cassidyjames/Projects/elementary/blog/images/revitalize-mac-windows-computer/logos.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
   <defs
      id="defs2">
     <style
@@ -120,8 +123,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.54551259"
-     inkscape:cx="477.86927"
-     inkscape:cy="363.83505"
+     inkscape:cx="479.29111"
+     inkscape:cy="413.83505"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -134,10 +137,11 @@
      inkscape:window-x="0"
      inkscape:window-y="30"
      inkscape:window-maximized="1"
-     fit-margin-top="125"
-     fit-margin-left="125"
-     fit-margin-right="125"
-     fit-margin-bottom="125" />
+     fit-margin-top="175"
+     fit-margin-left="175"
+     fit-margin-right="175"
+     fit-margin-bottom="175"
+     lock-margins="true" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -153,7 +157,8 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(13.229166,13.229166)">
     <image
        width="66.145836"
        height="66.145836"
@@ -709,7 +714,7 @@ tmwp0BuQtdZ97LHHzvJ9f4u1dosxZh2w1lq7lszAu+xXDAgbYzqnjusAInUrXESaTcoYMwFgrR0H
 "
        id="image861"
        x="165.36458"
-       y="132.29167"
+       y="132.29169"
        style="stroke-width:2.00001" />
     <image
        width="66.145836"
@@ -1512,8 +1517,8 @@ suu67Ps+l0olBgDwfZ8BAGaHNQDA7MAGAMhCG2BGxQ1w9JCW4BbifZJAF+L4esefqWz4PnO00M9k
 17H8zDUq/WbNvwBkZv8i8GHNDmaAmeGceZfKejYJbCFOkv8PewVct+ADYigAAAAASUVORK5CYII=
 "
        id="image875"
-       x="33.072918"
-       y="132.29167"
+       x="33.072922"
+       y="132.29169"
        style="stroke-width:2" />
     <image
        width="66.145836"
@@ -1589,12 +1594,12 @@ X9ABYJeuaCJf0AFgSDacyBd0ABiLP/zf39TixWFVd1hVh1XdQVU7rKqD/wf8f6jccAUaWwAAAABJ
 RU5ErkJggg==
 "
        id="image889"
-       x="33.072918"
+       x="33.072922"
        y="33.072918"
        style="stroke-width:2" />
     <g
        id="g926"
-       transform="matrix(0.15270884,0,0,0.15270884,148.57439,60.723457)"
+       transform="matrix(0.15270884,0,0,0.15270884,148.57439,60.723459)"
        style="stroke-width:1.7326">
       <path
          class="a"
@@ -1604,7 +1609,7 @@ RU5ErkJggg==
     </g>
     <g
        id="g1010"
-       transform="matrix(0.63346944,0,0,0.63164684,289.87036,123.58186)"
+       transform="matrix(0.63346944,0,0,0.63164684,289.87036,123.58187)"
        style="stroke-width:0.418275">
       <path
          style="fill:url(#radialGradient3163);fill-opacity:1;stroke:none;stroke-width:0.418275"
