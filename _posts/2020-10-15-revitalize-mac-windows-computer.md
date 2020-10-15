@@ -47,7 +47,13 @@ Since elementary OS is built on a solid GNU/Linux foundation and comes with Flat
 
 To get elementary OS, just head to [elementary.io](https://elementary.io). While Microsoft charges $200 or more for a full-featured copy of Windows 10, **elementary OS is available as a pay-what-you-want purchase** meaning you choose the amount you're able to pay, and you get the OS. You can even [type $0 to try it out](/payments), then [come back and contribute later](https://elementary.io/get-involved#funding). We charge for elementary OS because unlike with most tech, [you are not the product](/you-are-not-the-product); the OS itself is.
 
-We also have a [step-by-step installation guide](https://elementary.io/docs/installation) to help get you going. elementary OS is designed so you can try it out before you commit to installing it, too: when you boot your computer to the installer, it runs off of a flash drive instead of your computer's hard drive. If you decide to go ahead with the installation, the installer walks you through the few options and then you're good to go.
+We have a [step-by-step installation guide](https://elementary.io/docs/installation) to help get you going. elementary OS is designed so you can try it out before you commit to installing it, too: when you boot your computer to the installer, it runs off of a flash drive instead of your computer's hard drive. If you decide to go ahead with the installation, the installer walks you through the few options and then you're good to go.
+
+<div style="text-align: center" markdown="1">
+[Learn More and Download](https://elementary.io){: .button}
+</div>
+
+---
 
 <small markdown="1">
 \* [Forti V., Baldé C.P., Kuehr R., Bel G. The Global E-waste Monitor 2020: Quantities, flows and the circular economy potential. United Nations University (UNU)/United Nations Institute for Training and Research (UNITAR) – co-hosted SCYCLE Programme, International Telecommunication Union (ITU) & International Solid Waste Association (ISWA), Bonn/Geneva/Rotterdam.](https://globalewaste.org/news/surge-global-waste/){: id="cite"}
