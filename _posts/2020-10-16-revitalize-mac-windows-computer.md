@@ -1,6 +1,6 @@
 ---
-title: "How to Revitalize Your Mac or Windows PC with elementary OS"
-description: "Stop! Don’t throw out that old computer!"
+title: "How to Revitalize Your Mac or Windows PC"
+description: "Bring back a struggling computer with elementary OS"
 author: cassidyjames
 image: /images/revitalize-mac-windows-computer/feature_1600.jpg
 tags:
