@@ -57,10 +57,10 @@ Since elementary OS is built on a solid GNU/Linux foundation and comes with Flat
 
 ## Getting and Installing elementary OS
 
-Most modern tech companies would make a product like elementary OS "free" while harvesting your data behind your back to serve ads or exchange with other companies. elementary will _never_ do that—we even [actively protect your data from ourselves and others](/privacy-and-elementary-os/). We firmly believe that [you are not the product](/you-are-not-the-product); elementary OS itself is. And while Microsoft charges $200 or more for a full-featured copy of Windows 10 _and_ harvests your data, **elementary OS is available for a pay-what-you-want price**, meaning you choose the amount you're able to pay, and you get a copy. If you're a student—or just short on cash—you can even type $0 to get elementary OS for free, then [come back and contribute later](https://elementary.io/get-involved#funding). To get elementary OS, just head to [elementary.io](https://elementary.io). 
+Most modern tech companies would make a product like elementary OS "free" while harvesting your data behind your back to serve ads or exchange with other companies. elementary will _never_ do that—we even [actively protect your data from ourselves and others](/privacy-and-elementary-os/). We firmly believe that [you are not the product](/you-are-not-the-product); elementary OS itself is. And while Microsoft charges $200 or more for a full-featured copy of Windows 10 _and_ harvests your data, **elementary OS is available for a pay-what-you-want price**, meaning you choose the amount you're able to pay, and you get a copy. If you're a student—or just short on cash—you can even type $0 to get elementary OS for free, then [come back and contribute later](https://elementary.io/get-involved#funding). To get elementary OS, just head to [elementary.io](https://elementary.io).
 
 <aside markdown="1">
->Unlike with most tech, you are not the product; elementary OS itself is.
+>We firmly believe that you are not the product; elementary OS itself is.
 </aside>
 
 We have a [step-by-step installation guide](https://elementary.io/docs/installation) to help get you going. elementary OS is designed so you can try it out on your device before you commit to installing it, too: when you boot your computer to the installer, it runs off of a flash drive instead of your computer's hard drive. If you decide to go ahead with the installation, the installer walks you through the few options and then you're good to go.
