@@ -1,6 +1,6 @@
 ---
-title: "How to Revitalize Your Mac or Windows Computer"
-description: "Forget about IT and focus on what matters with elementary OS"
+title: "How to Revitalize Your Mac or Windows PC with elementary OS"
+description: "Stop! Don’t throw out that old computer!"
 author: cassidyjames
 image: /images/revitalize-mac-windows-computer/feature_1600.jpg
 tags:
