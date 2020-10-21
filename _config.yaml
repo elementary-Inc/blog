@@ -53,6 +53,8 @@ plugins:
 paginate: 7
 paginate_path: "/archive/:num/"
 
+github: [metadata]
+
 markdown: kramdown
 kramdown:
   syntax_highlighter: rouge
