@@ -4,8 +4,9 @@ name: Publish
 
 on:
   push:
-    - main
-    - cron
+    branches:
+      - main
+      - cron
   schedule:
     - cron: "0 0 * * *"
 
