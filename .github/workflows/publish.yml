@@ -25,9 +25,15 @@ jobs:
           path: vendor/bundle
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
 
-      - uses: helaili/jekyll-action@2.0.4
+      - name: Build
+        run: |
+          docker run \
+          -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+          jekyll/builder:3 /bin/bash -c "chmod 777 /srv/jekyll && jekyll build"
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v2
         env:
-          JEKYLL_PAT: ${{ secrets.GIT_USER_TOKEN }}
-          JEKYLL_GITHUB_TOKEN: ${{ secrets.GIT_USER_TOKEN }}
-        with:
-          target_branch: 'gh-pages'
+          PERSONAL_TOKEN: ${{ secrets.GIT_USER_TOKEN }}
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: ./_site
