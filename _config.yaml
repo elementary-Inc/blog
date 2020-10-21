@@ -1,5 +1,7 @@
 title: "elementary Blog"
 description: "We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS"
+url: https://blog.elementary.io
+baseurl: ""
 permalink: /:title/
 theme-color: "#64baff"
 gravatar: eaa3cc978770998ea2bd4382935bf0f4
