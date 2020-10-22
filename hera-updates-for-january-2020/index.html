@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Hera Updates for January, 2020 &sdot; elementary Blog</title>
+  <meta property="og:title" content="Hera Updates for January, 2020" />
+  <meta itemprop="name" content="Hera Updates for January, 2020" />
+  <meta name="twitter:title" content="Hera Updates for January, 2020" />
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="icon" sizes="256x256" href="https://www.gravatar.com/avatar/eaa3cc978770998ea2bd4382935bf0f4?s=256&d=blank" />
+  <meta itemprop="logo" content="https://www.gravatar.com/avatar/eaa3cc978770998ea2bd4382935bf0f4?s=256&d=blank" />
+  <link rel="shortcut icon" href="https://elementary.io/favicon.ico">
+  <link rel="apple-touch-icon" href="https://elementary.io/images/launcher-icons/apple-touch-icon.png">
+
+  <link rel="alternate" type="application/rss+xml" title="elementary Blog" href="https://blog.elementary.io/feed.xml" />
+
+  <meta name="author" content="" />
+  <meta name="theme-color" content="#64baff" />
+
+  
+    
+    
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:image" content="https://raw.githubusercontent.com/elementary/terminal/1f869829535c52ecd7e4533adecb016432dd532a/data/screenshot.png" />
+  
+  <meta name="twitter:site" content="@elementary" />
+  <meta name="twitter:creator" content="@elementary" />
+
+  <meta name="description" content="Focusing on developers, privacy, and fine tuning" />
+  <meta property="og:description" content="Focusing on developers, privacy, and fine tuning" />
+  <meta itemprop="description" content="Focusing on developers, privacy, and fine tuning" />
+  <meta name="twitter:description" content="Focusing on developers, privacy, and fine tuning" />
+
+  <link rel="stylesheet" type="text/css" media="all" href="/css/main.css?v=2020-10-21 19:11:46 -0500" />
+  
+    <script async defer data-domain="blog.elementary.io" src="https://stats.elementary.io/js/index.js"></script>
+    <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+  
+</head>
+
+  <body class="">
+    <header>
+  <nav class="primary">
+    <ul>
+      <li><a href="https://elementary.io" class="logomark" target="_self">
+        <svg xmlns="http://www.w3.org/2000/svg" height="22" width="22"><path d="M11 0C4.926 0 0 4.926 0 11s4.926 11 11 11 11-4.926 11-11S17.074 0 11 0zm-.02 1.049h.002a.07.07 0 0 0 .018 0c4.548 0 8.384 3.052 9.57 7.217a17.315 17.315 0 0 1-4.213 5.496c-.847.733-1.773 1.383-2.79 1.842-1.018.458-2.136.719-3.247.656a5.6 5.6 0 0 1-2.271-.633 18.276 18.276 0 0 0 5.078-4.12c.956-1.116 1.791-2.39 2.115-3.833.165-.722.19-1.48.04-2.207a4.079 4.079 0 0 0-.999-1.965 4.013 4.013 0 0 0-1.855-1.098 4.85 4.85 0 0 0-2.153-.078c-1.423.261-2.693 1.086-3.705 2.108-1.787 1.8-2.89 4.34-2.687 6.875.102 1.267.524 2.511 1.252 3.554.143.205.302.398.467.584a16.228 16.228 0 0 1-3.086.739A9.946 9.946 0 0 1 10.98 1.049zm.07 2.02c.004-.001.016.002.012.001.692 0 1.387.211 1.936.627a3.2 3.2 0 0 1 1.068 1.49 4.12 4.12 0 0 1 .192 1.848c-.143 1.243-.77 2.388-1.533 3.393-1.354 1.778-3.156 3.203-5.159 4.2-.19.095-.386.187-.582.274a5.114 5.114 0 0 1-1.05-1.295c-.59-1.044-.784-2.284-.67-3.482.116-1.199.526-2.356 1.082-3.43.643-1.244 1.516-2.418 2.732-3.09a4.14 4.14 0 0 1 1.973-.537zm9.83 6.81c.042.367.071.739.071 1.117 0 5.497-4.452 9.953-9.95 9.953a9.917 9.917 0 0 1-7.59-3.53 18.138 18.138 0 0 0 3.17-1.06c.461.346.967.634 1.507.84 1.59.61 3.392.52 4.996-.035 1.603-.555 3.021-1.549 4.256-2.705a18.264 18.264 0 0 0 3.54-4.58z"/></svg>
+      </a></li>
+
+      <li><a href="https://elementary.io/support" target="_self">Support</a></li>
+      <li><a href="https://developer.elementary.io" target="_self">Developer</a><</li>
+      <li><a href="https://elementary.io/get-involved" target="_self">Get Involved</a></li>
+      <li><a href="https://elementary.io/store/" target="_self">Store</a></li>
+      <li><a href="/">Blog</a></li>
+    </ul>
+
+    <ul>
+      <li><a href="/feed.xml" title="RSS Feed">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M400 32H48C21.49 32 0 53.49 0 80v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V80c0-26.51-21.49-48-48-48zM112 416c-26.51 0-48-21.49-48-48s21.49-48 48-48 48 21.49 48 48-21.49 48-48 48zm157.533 0h-34.335c-6.011 0-11.051-4.636-11.442-10.634-5.214-80.05-69.243-143.92-149.123-149.123-5.997-.39-10.633-5.431-10.633-11.441v-34.335c0-6.535 5.468-11.777 11.994-11.425 110.546 5.974 198.997 94.536 204.964 204.964.352 6.526-4.89 11.994-11.425 11.994zm103.027 0h-34.334c-6.161 0-11.175-4.882-11.427-11.038-5.598-136.535-115.204-246.161-251.76-251.76C68.882 152.949 64 147.935 64 141.774V107.44c0-6.454 5.338-11.664 11.787-11.432 167.83 6.025 302.21 141.191 308.205 308.205.232 6.449-4.978 11.787-11.432 11.787z"/></svg>
+      </a></li>
+
+      <li><a href="https://www.facebook.com/elementaryos" target="_blank" rel="noopener" title="Facebook">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg>
+      </a></li>
+
+      <li><a href="https://mastodon.social/@elementary" target="_blank" rel="noopener" title="Mastodon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M433 179.11c0-97.2-63.71-125.7-63.71-125.7-62.52-28.7-228.56-28.4-290.48 0 0 0-63.72 28.5-63.72 125.7 0 115.7-6.6 259.4 105.63 289.1 40.51 10.7 75.32 13 103.33 11.4 50.81-2.8 79.32-18.1 79.32-18.1l-1.7-36.9s-36.31 11.4-77.12 10.1c-40.41-1.4-83-4.4-89.63-54a102.54 102.54 0 0 1-.9-13.9c85.63 20.9 158.65 9.1 178.75 6.7 56.12-6.7 105-41.3 111.23-72.9 9.8-49.8 9-121.5 9-121.5zm-75.12 125.2h-46.63v-114.2c0-49.7-64-51.6-64 6.9v62.5h-46.33V197c0-58.5-64-56.6-64-6.9v114.2H90.19c0-122.1-5.2-147.9 18.41-175 25.9-28.9 79.82-30.8 103.83 6.1l11.6 19.5 11.6-19.5c24.11-37.1 78.12-34.8 103.83-6.1 23.71 27.3 18.4 53 18.4 175z"/></svg>
+      </a></li>
+
+      <li><a href="https://www.reddit.com/r/elementaryos" target="_blank" rel="noopener" title="Reddit">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M201.5 305.5c-13.8 0-24.9-11.1-24.9-24.6 0-13.8 11.1-24.9 24.9-24.9 13.6 0 24.6 11.1 24.6 24.9 0 13.6-11.1 24.6-24.6 24.6zM504 256c0 137-111 248-248 248S8 393 8 256 119 8 256 8s248 111 248 248zm-132.3-41.2c-9.4 0-17.7 3.9-23.8 10-22.4-15.5-52.6-25.5-86.1-26.6l17.4-78.3 55.4 12.5c0 13.6 11.1 24.6 24.6 24.6 13.8 0 24.9-11.3 24.9-24.9s-11.1-24.9-24.9-24.9c-9.7 0-18 5.8-22.1 13.8l-61.2-13.6c-3-.8-6.1 1.4-6.9 4.4l-19.1 86.4c-33.2 1.4-63.1 11.3-85.5 26.8-6.1-6.4-14.7-10.2-24.1-10.2-34.9 0-46.3 46.9-14.4 62.8-1.1 5-1.7 10.2-1.7 15.5 0 52.6 59.2 95.2 132 95.2 73.1 0 132.3-42.6 132.3-95.2 0-5.3-.6-10.8-1.9-15.8 31.3-16 19.8-62.5-14.9-62.5zM302.8 331c-18.2 18.2-76.1 17.9-93.6 0-2.2-2.2-6.1-2.2-8.3 0-2.5 2.5-2.5 6.4 0 8.6 22.8 22.8 87.3 22.8 110.2 0 2.5-2.2 2.5-6.1 0-8.6-2.2-2.2-6.1-2.2-8.3 0zm7.7-75c-13.6 0-24.6 11.1-24.6 24.9 0 13.6 11.1 24.6 24.6 24.6 13.8 0 24.9-11.1 24.9-24.6 0-13.8-11-24.9-24.9-24.9z"/></svg>
+      </a></li>
+
+      <li><a href="https://elementaryos.stackexchange.com" target="_blank" rel="noopener" title="StackExchange">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M17.7 332.3h412.7v22c0 37.7-29.3 68-65.3 68h-19L259.3 512v-89.7H83c-36 0-65.3-30.3-65.3-68v-22zm0-23.6h412.7v-85H17.7v85zm0-109.4h412.7v-85H17.7v85zM365 0H83C47 0 17.7 30.3 17.7 67.7V90h412.7V67.7C430.3 30.3 401 0 365 0z"/></svg>
+      </a></li>
+
+      <li><a href="https://twitter.com/elementary" target="_blank" rel="noopener" title="Twitter">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+      </a></li>
+
+      <li><a href="https://join.slack.com/t/elementarycommunity/shared_invite/enQtMzU1NDU4OTE1MjY2LWUyOTBkZGNkZGM4MDgzZjE2ZjRiZDgwMDQ1ZTA0MzcxYjI0MDUyNGRlNDI5ZWViNDkwMzMwYzczMDY2ZjA0MTc" target="_blank" rel="noopener" title="Slack">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M94.12 315.1c0 25.9-21.16 47.06-47.06 47.06S0 341 0 315.1c0-25.9 21.16-47.06 47.06-47.06h47.06v47.06zm23.72 0c0-25.9 21.16-47.06 47.06-47.06s47.06 21.16 47.06 47.06v117.84c0 25.9-21.16 47.06-47.06 47.06s-47.06-21.16-47.06-47.06V315.1zm47.06-188.98c-25.9 0-47.06-21.16-47.06-47.06S139 32 164.9 32s47.06 21.16 47.06 47.06v47.06H164.9zm0 23.72c25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06H47.06C21.16 243.96 0 222.8 0 196.9s21.16-47.06 47.06-47.06H164.9zm188.98 47.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06h-47.06V196.9zm-23.72 0c0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06V79.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06V196.9zM283.1 385.88c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06v-47.06h47.06zm0-23.72c-25.9 0-47.06-21.16-47.06-47.06 0-25.9 21.16-47.06 47.06-47.06h117.84c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06H283.1z"/></svg>
+      </a></li>
+    </ul>
+  </nav>
+  <nav class="secondary">
+    <div>
+      <a href="/tags/#updates">OS Updates</a>
+      <a href="/tags/#appcenter">AppCenter</a>
+      <a href="/tags/#devs">Developers</a>
+      <a href="/tags/#design">Design</a>
+    </div>
+
+    <div id="search-container" class="hidden">
+      <svg height='16' width='16' xmlns='http://www.w3.org/2000/svg'>
+    <g color='#000' transform='translate(-613 11)'>
+        
+        <path d='M619.5-10c-3.026 0-5.5 2.474-5.5 5.5s2.474 5.5 5.5 5.5a5.46 5.46 0 0 0 3.112-.975l3.681 3.682a1 1 0 1 0 1.414-1.414l-3.681-3.682A5.46 5.46 0 0 0 625-4.5c0-3.026-2.474-5.5-5.5-5.5zm0 1.25a4.25 4.25 0 0 1 4.25 4.25 4.25 4.25 0 0 1-4.25 4.25 4.25 4.25 0 0 1-4.25-4.25 4.25 4.25 0 0 1 4.25-4.25z' fill='#666' font-family='sans-serif' font-weight='400' overflow='visible' style='line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;shape-padding:0;isolation:auto;mix-blend-mode:normal' white-space='normal'/>
+    </g>
+</svg>
+
+      <input type="text" id="search-input" placeholder="Search Posts…">
+      <ul id="results-container"></ul>
+    </div>
+
+    <script src="/scripts/search.js"></script>
+
+    <script>
+      document.getElementById('search-container').classList.remove("hidden")
+
+      SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        searchResultTemplate: `<li>
+          <a href="{url}">
+            <div class="featured-image" alt="Featured image" style="background-image: url({image});"></div>
+            <span id="title">{title}</span>
+            <span id="description">{description}</span>
+          </a>
+        </li>`,
+        resultsContainer: document.getElementById('results-container'),
+        noResultsText: ("No Result Found"),
+        json: '/search.json'
+      })
+    </script>
+  </nav>
+</header>
+
+    <section>
+      
+
+
+
+
+
+  
+  
+  
+
+
+
+<article>
+  
+  <header>
+    <h1>
+
+
+
+   Hera Updates for January,&nbsp;2020
+
+</h1>
+    
+      <h2>
+
+
+
+   Focusing on developers, privacy, and fine&nbsp;tuning
+
+</h2>
+    
+
+    
+
+
+
+<div class="byline">
+  <div class="avatar">
+    <img
+      
+        srcset="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&d=blank 2x"
+        src="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&d=blank"
+        alt="Avatar for Cassidy James Blaede"
+      
+    />
+  </div>
+  <div class="author">
+    <a href="/authors/#cassidyjames">
+    <span class="name">Cassidy James Blaede</span>
+    </a>
+    
+      <span class="description">Co-founder & CXO</span>
+    
+  </div>
+  <time class="post-date" datetime="2020-02-03">Mon, Feb  3, 2020</time>
+  
+    <span class="read-time" title="Estimated read time">
+  
+  4 min read
+</span>
+
+
+  
+</div>
+
+
+    <aside class="tags">
+  
+  
+    <a class="tag" href="/tags/#hera">#hera</a>
+  
+    <a class="tag" href="/tags/#updates">#updates</a>
+  
+</aside>
+
+
+  </header>
+
+  <section>
+    <p>Fresh on the heels of <a href="/introducing-elementary-os-5-1-hera">releasing elementary OS 5.1 Hera</a>, we spent January pushing out several developer-focused updates to core apps. We also focused on privacy, System Settings, and some small visual improvements.</p>
+
+<h2 id="code">Code</h2>
+
+<p>The biggest release in January was definitely <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/elementary/code/releases/tag/3.2.0">Code 3.2</a>.</p>
+
+<p>We focused heavily on making Code even more project-oriented, improving the project sidebar in several ways. The most obvious change is that the “Open Folder” button has been renamed to “Add Project Folder…” and moved to the project sidebar, more directly associating them. Nearby we added a “Manage project folders…” menu, including new “Alphabetize” and “Collapse All” actions to keep things tidy. We also improved the project sidebar by dimming <code class="language-plaintext highlighter-rouge">.gitignore</code>d files, hiding temporary <code class="language-plaintext highlighter-rouge">~</code> files, and adding a new “Open In” menu to top-level project folders—making it easier to open an entire project in your terminal, file manager, or an IDE.</p>
+
+<p>On the editor side, we enabled bracket completion and auto-indent by default; these are super handy plugins that we’ve been <a href="/eating-our-own-dog-food">dogfooding</a> for a long time, and we feel they’re at a point where they stay out of the way when needed but substantially improve the default coding experience. A new default “Smart cut/copy lines” feature lets you cut or copy the entire current line when there’s no active selection. A new confirmation dialog helps cut down on accidental data loss from restoring an old version of the file.</p>
+
+<p>Zooming with the keyboard should be more consistent by fixing the <kbd>Ctrl</kbd><kbd>+</kbd> shortcut in some layouts, and zooming with the keyboard is now possible in the terminal plugin. The “Draw Spaces” setting has been simplified to a binary “For selected text” or “Always” option. We fixed the shortcut for “Search previous” in the Find toolbar, and we now use color and iconography to represent no Find results—making it more accessible even if color is hard to distinguish. When creating a new file from the sidebar, you can now name it first (preventing making an unwanted “new file” in your project).</p>
+
+<p>On the privacy front, Code now follows the system-wide <a href="settings://privacy"><em>Security &amp; Privacy</em> → <em>History</em></a> setting and will not restore recently-opened files when History is toggled off.</p>
+
+<h2 id="terminal">Terminal</h2>
+
+<p>We released <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/elementary/terminal/releases/tag/5.5.0">Terminal 5.5</a> (and a <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/elementary/terminal/releases/tag/5.5.1">5.5.1</a> follow-up) in January. The big obvious new feature here is that we now expose the “Natural Copy/Paste” setting in the Settings menu, along with a short description of what it does; this should be helpful to anyone who uses CLI apps that didn’t play nicely with the feature.</p>
+
+<p><img src="https://raw.githubusercontent.com/elementary/terminal/1f869829535c52ecd7e4533adecb016432dd532a/data/screenshot.png" alt="Terminal Screenshot" width="1626" height="1200" /></p>
+
+<p>We also added zooming with <kbd>Ctrl</kbd> + Mouse Scroll, made Terminal instantly reflect font changes, added the <code class="language-plaintext highlighter-rouge">sudo</code> password prompt text when copying the last output, and fixed a couple of issues with duplicated or extra “Home” tabs on startup.</p>
+
+<h2 id="files">Files</h2>
+
+<p>Another big release in January was <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/elementary/files/releases/tag/4.3.0">Files 4.3</a>. This developer-focused update added Git integration directly into Files, showing the status of files in your Git project folders. We also fixed several smaller issues with the pathbar, tabs, styling, and the headerbar.</p>
+
+<p>Similar to Code, Files now respects the system-wide <em>Security &amp; Privacy</em> → <em>History</em> setting.</p>
+
+<h2 id="and-more">And More!</h2>
+
+<p>We pushed out <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/elementary/default-settings/releases/tag/5.1.2">an update</a> to the under-the-hood Default Settings package that removed some deprecated code and enabled some Greeter power settings. For enhanced privacy, it also changed the default Epiphany behavior to only accept first-party cookies and changed the default search engine to DuckDuckGo; if you’d already changed these settings, your changes will still be respected—and you can always pick your default search engine or add a new one in the Epiphany preferences.</p>
+
+<p>An <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/elementary/switchboard/releases/tag/2.3.8">update to System Settings</a> fixed some issues with tiling, restoring the correct window size, and alignment at large window sizes.</p>
+
+<figure class="half">
+  <p><img src="https://raw.githubusercontent.com/elementary/switchboard-plug-mouse-touchpad/5928c23e2e842137251750397f28e742f083dfce/data/screenshot-clicking.png" alt="Old Mouse &amp; Touchpad settings" width="1978" height="1370" />
+<img src="https://raw.githubusercontent.com/elementary/switchboard-plug-mouse-touchpad/e29971124f1949ddee3077178c6202f7d3f910bd/data/screenshot-clicking.png" alt="Updated Mouse &amp; Touchpad settings" width="1978" height="1370" /></p>
+  <figcaption>
+    <p><strong>Left:</strong> Previous Mouse &amp; Touchpad settings | <strong>Right:</strong> Updated Mouse &amp; Touchpad settings</p>
+  </figcaption>
+</figure>
+
+<p>We <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/elementary/switchboard-plug-mouse-touchpad/releases/tag/2.4.0">updated the Mouse &amp; Touchpad</a> settings to add new Dwell Click and Pointer Size settings, making the default settings <a href="/accessibility-features-are-just-features">more accessible to everyone</a>. We also refreshed the primary button selection styling to make it more clear and added explicit number entries for the dwell click and long-press secondary click settings.</p>
+
+<p><img src="https://raw.githubusercontent.com/elementary/screenshot/64ef0e25f1e302d678b3dd85a6c1f24c8801102d/data/screenshot.png" alt="Screenshot of the Screenshot app" width="442" height="448" /></p>
+
+<p>Updates to <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/elementary/screenshot/releases/tag/1.7.1">Screenshot</a> and the <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/elementary/wingpanel-indicator-session/releases/tag/2.2.7">Session Indicator</a> improved minor styling in concert with a <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/elementary/stylesheet/releases/tag/5.4.1">Stylesheet update</a> which also improved text contrast in text selections.</p>
+
+<figure class="half">
+  <p><img src="https://user-images.githubusercontent.com/7277719/71684000-f2a4c000-2d48-11ea-8a29-839276a51375.png" alt="Before, Light" />
+<img src="https://user-images.githubusercontent.com/7277719/71684788-46b0a400-2d4b-11ea-80ce-063bd1710230.png" alt="Before, Dark" />
+<img src="https://user-images.githubusercontent.com/7277719/71683998-f2a4c000-2d48-11ea-94fb-132aaa5a457f.png" alt="After, Light" />
+<img src="https://user-images.githubusercontent.com/7277719/71684763-313b7a00-2d4b-11ea-95eb-4fcf8b901a04.png" alt="After, Dark" /></p>
+  <figcaption>
+    <p><strong>Above:</strong> Old text selection style | <strong>Below:</strong> New text selection style</p>
+  </figcaption>
+</figure>
+
+<p>We released <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/elementary/gala/releases/tag/3.2.0">Gala 3.2</a> which brings Gala in line with our release processes, improves legacy app window shadows, prevents a potential crash when taking screenshots, fixes notification positioning after changing display scaling, and fixes animations for moving and maximizing tiled windows.</p>
+
+<h2 id="get-it">Get It</h2>
+
+<p>As always, you can get these updates on elementary OS 5.1 Hera alongside updated translations, bug fixes, and performance updates by popping open AppCenter and hitting <strong>Update All</strong>.</p>
+
+  </section>
+
+  
+<div class="thanks">
+  <hr/>
+
+  <h2>Thank You</h2>
+  <p>Thanks to all of our supporters, backers, and customers! Your contributions make elementary possible. If you’d like to help build and improve elementary OS, don’t hesitate to <a rel="nofollow noopener noreferrer" target="_blank" href="https://elementary.io/get-involved" onclick="plausible('Link: Get Involved')">Get Involved</a>.</p>
+
+  <div class="links">
+    <a
+      href="https://elementary.io/"
+      rel="noreferrer nofollow noopener"
+      target="_blank"
+      title="elementary downloads"
+      onclick="plausible('Link: Homepage')"
+    >
+      <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg4"
+   version="1.1"
+   viewBox="0 0 512 512">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8" />
+  <path
+     d="M 256,7.999995 C 119.0589,7.999995 7.999994,119.0589 7.999994,255.99999 7.999994,392.94109 119.0589,504 256,504 392.9411,504 504.00001,392.9411 504.00001,255.99999 504.00001,119.0589 392.9411,7.999995 256,7.999995 Z m -0.45091,23.65018 v 0 a 1.5781818,1.5781818 0 0 0 0.40582,0 c 102.53673,0 189.0211,68.808725 215.76,162.710545 a 390.37455,390.37455 0 0 1 -94.984,123.90982 c -19.096,16.52582 -39.97309,31.18036 -62.90182,41.52873 -22.95127,10.32582 -48.15709,16.21018 -73.20509,14.78982 a 126.25455,126.25455 0 0 1 -51.20073,-14.27128 412.04074,412.04074 0 0 0 114.48582,-92.88727 c 21.55345,-25.16073 40.37891,-53.88363 47.68364,-86.41673 3.72,-16.27781 4.28363,-33.36727 0.90181,-49.75782 A 91.962911,91.962911 0 0 0 329.97163,86.954176 90.474911,90.474911 0 0 0 288.14982,62.199266 109.34546,109.34546 0 0 0 239.60945,60.440721 c -32.08218,5.884363 -60.71491,24.484364 -83.53091,47.525819 -40.28873,40.58182 -65.156356,97.84727 -60.579636,155 2.29964,28.56509 11.813816,56.61164 28.226906,80.12655 3.224,4.62181 6.80873,8.97309 10.52873,13.16654 A 365.86764,365.86764 0 0 1 64.679274,372.92072 224.2371,224.2371 0 0 1 255.504,31.650175 Z m 1.57818,45.541819 c 0,-0.02255 0.36073,0.04509 0.27055,0.02254 15.60145,0 31.27054,4.757091 43.648,14.136001 a 72.145456,72.145456 0 0 1 24.07854,33.592725 92.887275,92.887275 0 0 1 4.32873,41.664 c -3.224,28.024 -17.36,53.83855 -34.56218,76.49673 -30.52655,40.08582 -71.15346,72.21309 -116.31201,94.69091 -4.28363,2.14182 -8.70254,4.216 -13.12145,6.17746 a 115.29746,115.29746 0 0 1 -23.67273,-29.19637 c -13.30182,-23.53745 -17.67563,-51.49382 -15.10545,-78.50327 2.61527,-27.032 11.85891,-53.11709 24.39418,-77.33091 14.49673,-28.04655 34.17891,-54.51491 61.59418,-69.665457 a 93.338184,93.338184 0 0 1 44.48219,-12.10691 z M 478.7491,230.72654 c 0.94691,8.27418 1.60072,16.66109 1.60072,25.18327 0,123.93237 -100.37237,224.39491 -224.32728,224.39491 A 223.58328,223.58328 0 0 1 84.902544,400.71927 408.92946,408.92946 0 0 0 156.37163,376.82109 c 10.39346,7.80072 21.80146,14.29381 33.976,18.93818 35.84728,13.75273 76.47419,11.72363 112.6371,-0.78909 36.14036,-12.51273 68.10981,-34.92291 95.95346,-60.98546 A 411.77019,411.77019 0 0 0 478.7491,230.72654 Z"
+     id="path817" />
+</svg>
+
+    </a>
+
+    <a
+      href="https://appcenter.elementary.io"
+      rel="noreferrer nofollow noopener"
+      target="_blank"
+      title="AppCenter"
+      onclick="plausible('Link: AppCenter')"
+    >
+      <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   viewBox="0 0 319.99999 279.99999"
+   id="svg2"
+   version="1.1">
+  <defs
+     id="defs4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     transform="translate(-96,-656.36219)">
+    <path
+       d="m 116,656.36219 -20,60 v 20 c 0,40 40,40 40,40 22.16,0 40,-17.84 40,-40 0,22.16 17.84,40 40,40 22.16,0 40,-17.84 40,-40 0,22.16 17.84,40 40,40 22.16,0 40,-17.84 40,-40 0,22.16 17.84,40 40,40 0,0 40,0 40,-40 v -20 l -20,-60 z m 0,140 v 120 c 0,0 0,20 20,20 h 100 140 c 20,0 20,-20 20,-20 v -120 h -20 v 120 h -40 v -70 c 0,-16.62 -13.38,-30 -30,-30 -16.62,0 -30,13.38 -30,30 v 70 H 136 v -120 z m 60,20 v 60 h 60 v -60 z"
+       id="rect8928-6-4" />
+  </g>
+</svg>
+
+    </a>
+
+    <a
+      href="https://github.com/sponsors/elementary"
+      rel="noreferrer nofollow noopener"
+      target="_blank"
+      title="GitHub"
+      onclick="plausible('Link: GitHub Sponsors')"
+    >
+      <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" class="svg-inline--fa fa-github fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
+    </a>
+
+    <a
+      href="https://www.patreon.com/elementary"
+      rel="noreferrer nofollow noopener"
+      target="_blank"
+      title="Patreon"
+      onclick="plausible('Link: Patreon')"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M512 194.8c0 101.3-82.4 183.8-183.8 183.8-101.7 0-184.4-82.4-184.4-183.8 0-101.6 82.7-184.3 184.4-184.3C429.6 10.5 512 93.2 512 194.8zM0 501.5h90v-491H0v491z"/></svg>
+    </a>
+
+    <a
+      href="https://www.paypal.me/elementary"
+      rel="noreferrer nofollow noopener"
+      target="_blank"
+      title="Paypal"
+      onclick="plausible('Link: Paypal')"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M111.4 295.9c-3.5 19.2-17.4 108.7-21.5 134-.3 1.8-1 2.5-3 2.5H12.3c-7.6 0-13.1-6.6-12.1-13.9L58.8 46.6c1.5-9.6 10.1-16.9 20-16.9 152.3 0 165.1-3.7 204 11.4 60.1 23.3 65.6 79.5 44 140.3-21.5 62.6-72.5 89.5-140.1 90.3-43.4.7-69.5-7-75.3 24.2zM357.1 152c-1.8-1.3-2.5-1.8-3 1.3-2 11.4-5.1 22.5-8.8 33.6-39.9 113.8-150.5 103.9-204.5 103.9-6.1 0-10.1 3.3-10.9 9.4-22.6 140.4-27.1 169.7-27.1 169.7-1 7.1 3.5 12.9 10.6 12.9h63.5c8.6 0 15.7-6.3 17.4-14.9.7-5.4-1.1 6.1 14.4-91.3 4.6-22 14.3-19.7 29.3-19.7 71 0 126.4-28.8 142.9-112.3 6.5-34.8 4.6-71.4-23.8-92.6z"/></svg>
+    </a>
+
+    <a
+      href="https://elementary.io/store/"
+      rel="noreferrer nofollow noopener"
+      target="_blank"
+      title="elementary merch store"
+      onclick="plausible('Link: Store')"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z"/></svg>
+    </a>
+  </div>
+</div>
+
+
+
+
+</article>
+
+<div class="license">
+  <a title=" This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License" rel="license" target="_blank" href="http://creativecommons.org/licenses/by-sa/4.0/">
+    Some rights reserved
+  </a>
+  <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="creative-commons" class="svg-inline--fa fa-creative-commons fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M245.83 214.87l-33.22 17.28c-9.43-19.58-25.24-19.93-27.46-19.93-22.13 0-33.22 14.61-33.22 43.84 0 23.57 9.21 43.84 33.22 43.84 14.47 0 24.65-7.09 30.57-21.26l30.55 15.5c-6.17 11.51-25.69 38.98-65.1 38.98-22.6 0-73.96-10.32-73.96-77.05 0-58.69 43-77.06 72.63-77.06 30.72-.01 52.7 11.95 65.99 35.86zm143.05 0l-32.78 17.28c-9.5-19.77-25.72-19.93-27.9-19.93-22.14 0-33.22 14.61-33.22 43.84 0 23.55 9.23 43.84 33.22 43.84 14.45 0 24.65-7.09 30.54-21.26l31 15.5c-2.1 3.75-21.39 38.98-65.09 38.98-22.69 0-73.96-9.87-73.96-77.05 0-58.67 42.97-77.06 72.63-77.06 30.71-.01 52.58 11.95 65.56 35.86zM247.56 8.05C104.74 8.05 0 123.11 0 256.05c0 138.49 113.6 248 247.56 248 129.93 0 248.44-100.87 248.44-248 0-137.87-106.62-248-248.44-248zm.87 450.81c-112.54 0-203.7-93.04-203.7-202.81 0-105.42 85.43-203.27 203.72-203.27 112.53 0 202.82 89.46 202.82 203.26-.01 121.69-99.68 202.82-202.84 202.82z"></path></svg>
+  <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="creative-commons-by" class="svg-inline--fa fa-creative-commons-by fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M314.9 194.4v101.4h-28.3v120.5h-77.1V295.9h-28.3V194.4c0-4.4 1.6-8.2 4.6-11.3 3.1-3.1 6.9-4.7 11.3-4.7H299c4.1 0 7.8 1.6 11.1 4.7 3.1 3.2 4.8 6.9 4.8 11.3zm-101.5-63.7c0-23.3 11.5-35 34.5-35s34.5 11.7 34.5 35c0 23-11.5 34.5-34.5 34.5s-34.5-11.5-34.5-34.5zM247.6 8C389.4 8 496 118.1 496 256c0 147.1-118.5 248-248.4 248C113.6 504 0 394.5 0 256 0 123.1 104.7 8 247.6 8zm.8 44.7C130.2 52.7 44.7 150.6 44.7 256c0 109.8 91.2 202.8 203.7 202.8 103.2 0 202.8-81.1 202.8-202.8.1-113.8-90.2-203.3-202.8-203.3z"></path></svg>
+  <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="creative-commons-sa" class="svg-inline--fa fa-creative-commons-sa fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M247.6 8C389.4 8 496 118.1 496 256c0 147.1-118.5 248-248.4 248C113.6 504 0 394.5 0 256 0 123.1 104.7 8 247.6 8zm.8 44.7C130.2 52.7 44.7 150.6 44.7 256c0 109.8 91.2 202.8 203.7 202.8 103.2 0 202.8-81.1 202.8-202.8.1-113.8-90.2-203.3-202.8-203.3zM137.7 221c13-83.9 80.5-95.7 108.9-95.7 99.8 0 127.5 82.5 127.5 134.2 0 63.6-41 132.9-128.9 132.9-38.9 0-99.1-20-109.4-97h62.5c1.5 30.1 19.6 45.2 54.5 45.2 23.3 0 58-18.2 58-82.8 0-82.5-49.1-80.6-56.7-80.6-33.1 0-51.7 14.6-55.8 43.8h18.2l-49.2 49.2-49-49.2h19.4z"></path></svg>
+</div>
+
+
+<div class="social">
+  <h2>Join the Discussion on Social Media</h2>
+
+  
+    <div class="official">
+      <h3>Official Posts</h3>
+
+      
+        <a
+          href="https://twitter.com/elementary/status/1224507935117795330"
+          rel="noreferrer nofollow noopener"
+          target="_blank"
+          title="Twitter"
+          onclick="plausible('Social: Twitter')"
+        >
+          <img src="/images/twitter.svg" alt="Twitter" />
+        </a>
+      
+
+      
+        <a
+          href="https://mastodon.social/@elementary/103598029607557817"
+          rel="noreferrer nofollow noopener"
+          target="_blank"
+          title="Mastodon"
+          onclick="plausible('Social: Mastodon')"
+        >
+          <img src="/images/mastodon.svg" alt="Mastodon" />
+        </a>
+      
+
+      
+        <a
+          href="https://www.reddit.com/r/elementaryos/comments/eyi5xt/hera_updates_for_january_2020_elementary_blog/"
+          rel="noreferrer nofollow noopener"
+          target="_blank"
+          title="Reddit"
+          onclick="plausible('Social: Reddit')"
+        >
+          <img src="/images/reddit.svg" alt="Reddit" />
+        </a>
+      
+
+      
+        <a
+          href="https://www.facebook.com/elementaryos/posts/3019965241368618"
+          rel="noreferrer nofollow noopener"
+          target="_blank"
+          title="Facebook"
+          onclick="plausible('Social: Facebook')"
+        >
+          <img src="/images/facebook.svg" alt="Facebook" />
+        </a>
+      
+    </div>
+  
+
+  <div class="share">
+    <h3>Share</h3>
+    
+
+    <a
+      href="https://twitter.com/intent/tweet?text=Hera Updates for January, 2020&url=https://blog.elementary.io/hera-updates-for-january-2020/&via=elementary&original_referer=https://blog.elementary.io/hera-updates-for-january-2020/"
+      rel="noreferrer nofollow noopener"
+      target="_blank"
+      title="Twitter"
+      onclick="plausible('Share: Twitter')"
+    >
+      <img src="/images/twitter.svg" alt="Twitter" />
+    </a>
+
+    <a
+      href="http://www.reddit.com/submit?title=Hera Updates for January, 2020&url=https://blog.elementary.io/hera-updates-for-january-2020/"
+      rel="noreferrer nofollow noopener"
+      target="_blank"
+      title="Reddit"
+      onclick="plausible('Share: Reddit')"
+    >
+      <img src="/images/reddit.svg" alt="Reddit" />
+    </a>
+
+    <a
+      href="https://www.facebook.com/sharer/sharer.php?u=https://blog.elementary.io/hera-updates-for-january-2020/"
+      rel="noreferrer nofollow noopener"
+      target="_blank"
+      title="Facebook"
+      onclick="plausible('Share: Facebook')"
+    >
+      <img src="/images/facebook.svg" alt="Facebook" />
+    </a>
+
+    <a
+      href="https://blog.elementary.io/hera-updates-for-january-2020/"
+
+      title="Permalink"
+      onclick="plausible('Share: Permalink')"
+    >
+      <img src="/images/edit-copy-32.svg" alt="Permalink" />
+    </a>
+  </div>
+</div>
+
+
+
+<h2 class="up-next">Up Next</h2>
+
+
+  
+    
+
+<a class="featured with-image 1" href="/5.1.2-hera-download/">
+  
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/5.1.2-hera-download/starbucks.jpg);"></div>
+  
+
+  <header>
+    <h2>
+
+
+
+   New Hera ISO Available for&nbsp;Download
+
+</h2>
+    
+      <h3>
+        
+
+
+
+   Our new release process brings us elementary OS&nbsp;5.1.2
+
+
+        
+      </h3>
+    
+
+    
+
+
+
+<div class="byline">
+  <div class="avatar">
+    <img
+      
+        srcset="https://www.gravatar.com/avatar/8e8d16d136c38f3a28820490c17928d1?s=96&d=blank 2x"
+        src="https://www.gravatar.com/avatar/8e8d16d136c38f3a28820490c17928d1?s=48&d=blank"
+        alt="Avatar for Keli Grubb"
+      
+    />
+  </div>
+  <div class="author">
+    
+    <span class="name">Keli Grubb</span>
+    
+    
+      <span class="description">Developer</span>
+    
+  </div>
+  <time class="post-date" datetime="2020-02-05">Wed, Feb  5, 2020</time>
+  
+    <span class="read-time" title="Estimated read time">
+  
+  2 min read
+</span>
+
+
+  
+</div>
+
+
+  </header>
+
+  
+</a>
+
+
+  
+
+
+
+  
+    
+
+<a class="featured with-image 1" href="/our-2019-in-review/">
+  
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/our-2019-in-review/2019.jpg);"></div>
+  
+
+  <header>
+    <h2>
+
+
+
+   Our 2019 in&nbsp;Review
+
+</h2>
+    
+      <h3>
+        
+
+
+
+   And looking forward in&nbsp;2020
+
+
+        
+      </h3>
+    
+
+    
+
+
+
+<div class="byline">
+  <div class="avatar">
+    <img
+      
+        srcset="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&d=blank 2x"
+        src="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&d=blank"
+        alt="Avatar for Cassidy James Blaede"
+      
+    />
+  </div>
+  <div class="author">
+    
+    <span class="name">Cassidy James Blaede</span>
+    
+    
+      <span class="description">Co-founder & CXO</span>
+    
+  </div>
+  <time class="post-date" datetime="2020-01-15">Wed, Jan 15, 2020</time>
+  
+    <span class="read-time" title="Estimated read time">
+  
+  10 min read
+</span>
+
+
+  
+</div>
+
+
+  </header>
+
+  
+</a>
+
+
+  
+
+
+
+
+      <div class="medium">
+  <hr />
+  <article>
+    <h2>Looking for More?</h2>
+    <p>While we're migrating posts to the elementary blog, some older stories are still only on the <a href="https://medium.com/elementaryos" target="_blank" onclick="plausible('Link: Medium')">official elementary Medium publication</a>. Head over there to read more.
+  </article>
+</div>
+
+
+    </section>
+    <footer>
+  <p>© 2020 elementary, Inc</p>
+  <ul>
+    <li><a href="https://elementary.io/press" target="_self">Press</a></li>
+    <li><a href="https://elementary.io/brand" target="_self">Brand</a></li>
+    <li><a href="https://elementary.io/oem" target="_self">OEMs</a></li>
+    <li><a href="https://elementary.io/privacy" target="_self">Privacy</a></li>
+    <li><a href="https://elementary.io/team" target="_self">Team</a></li>
+    <li><a href="https://elementary.io/open-source" target="_self">Open Source</a></li>
+  </ul>
+</footer>
+
+    <script>
+  // Makes figure images focusable for zooming
+  let figureImages = document.querySelectorAll ("figure img");
+  figureImages.forEach (function (figureImage) {
+    figureImage.setAttribute ("tabindex", -1);
+    document.addEventListener ('mousedown', event => {
+      if (document.activeElement === figureImage) {
+        // Prevent it from triggering on focusIn
+        setTimeout (function () {
+          document.activeElement.blur ();
+        }, 100);
+      }
+    });
+  });
+</script>
+
+
+  </body>
+</html>

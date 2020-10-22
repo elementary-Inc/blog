@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>elementary at GUADEC 2019 &sdot; elementary Blog</title>
+  <meta property="og:title" content="elementary at GUADEC 2019" />
+  <meta itemprop="name" content="elementary at GUADEC 2019" />
+  <meta name="twitter:title" content="elementary at GUADEC 2019" />
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="icon" sizes="256x256" href="https://www.gravatar.com/avatar/eaa3cc978770998ea2bd4382935bf0f4?s=256&d=blank" />
+  <meta itemprop="logo" content="https://www.gravatar.com/avatar/eaa3cc978770998ea2bd4382935bf0f4?s=256&d=blank" />
+  <link rel="shortcut icon" href="https://elementary.io/favicon.ico">
+  <link rel="apple-touch-icon" href="https://elementary.io/images/launcher-icons/apple-touch-icon.png">
+
+  <link rel="alternate" type="application/rss+xml" title="elementary Blog" href="https://blog.elementary.io/feed.xml" />
+
+  <meta name="author" content="" />
+  <meta name="theme-color" content="#64baff" />
+
+  
+    
+    
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:image" content="https://blog.elementary.io/images/elementary-at-guadec-2019/welcome-banner_1600.jpg" />
+  
+  <meta name="twitter:site" content="@elementary" />
+  <meta name="twitter:creator" content="@elementary" />
+
+  <meta name="description" content="Hanging out with GNOME in Thessaloniki, Greece" />
+  <meta property="og:description" content="Hanging out with GNOME in Thessaloniki, Greece" />
+  <meta itemprop="description" content="Hanging out with GNOME in Thessaloniki, Greece" />
+  <meta name="twitter:description" content="Hanging out with GNOME in Thessaloniki, Greece" />
+
+  <link rel="stylesheet" type="text/css" media="all" href="/css/main.css?v=2020-10-21 19:11:46 -0500" />
+  
+    <script async defer data-domain="blog.elementary.io" src="https://stats.elementary.io/js/index.js"></script>
+    <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+  
+</head>
+
+  <body class="">
+    <header>
+  <nav class="primary">
+    <ul>
+      <li><a href="https://elementary.io" class="logomark" target="_self">
+        <svg xmlns="http://www.w3.org/2000/svg" height="22" width="22"><path d="M11 0C4.926 0 0 4.926 0 11s4.926 11 11 11 11-4.926 11-11S17.074 0 11 0zm-.02 1.049h.002a.07.07 0 0 0 .018 0c4.548 0 8.384 3.052 9.57 7.217a17.315 17.315 0 0 1-4.213 5.496c-.847.733-1.773 1.383-2.79 1.842-1.018.458-2.136.719-3.247.656a5.6 5.6 0 0 1-2.271-.633 18.276 18.276 0 0 0 5.078-4.12c.956-1.116 1.791-2.39 2.115-3.833.165-.722.19-1.48.04-2.207a4.079 4.079 0 0 0-.999-1.965 4.013 4.013 0 0 0-1.855-1.098 4.85 4.85 0 0 0-2.153-.078c-1.423.261-2.693 1.086-3.705 2.108-1.787 1.8-2.89 4.34-2.687 6.875.102 1.267.524 2.511 1.252 3.554.143.205.302.398.467.584a16.228 16.228 0 0 1-3.086.739A9.946 9.946 0 0 1 10.98 1.049zm.07 2.02c.004-.001.016.002.012.001.692 0 1.387.211 1.936.627a3.2 3.2 0 0 1 1.068 1.49 4.12 4.12 0 0 1 .192 1.848c-.143 1.243-.77 2.388-1.533 3.393-1.354 1.778-3.156 3.203-5.159 4.2-.19.095-.386.187-.582.274a5.114 5.114 0 0 1-1.05-1.295c-.59-1.044-.784-2.284-.67-3.482.116-1.199.526-2.356 1.082-3.43.643-1.244 1.516-2.418 2.732-3.09a4.14 4.14 0 0 1 1.973-.537zm9.83 6.81c.042.367.071.739.071 1.117 0 5.497-4.452 9.953-9.95 9.953a9.917 9.917 0 0 1-7.59-3.53 18.138 18.138 0 0 0 3.17-1.06c.461.346.967.634 1.507.84 1.59.61 3.392.52 4.996-.035 1.603-.555 3.021-1.549 4.256-2.705a18.264 18.264 0 0 0 3.54-4.58z"/></svg>
+      </a></li>
+
+      <li><a href="https://elementary.io/support" target="_self">Support</a></li>
+      <li><a href="https://developer.elementary.io" target="_self">Developer</a><</li>
+      <li><a href="https://elementary.io/get-involved" target="_self">Get Involved</a></li>
+      <li><a href="https://elementary.io/store/" target="_self">Store</a></li>
+      <li><a href="/">Blog</a></li>
+    </ul>
+
+    <ul>
+      <li><a href="/feed.xml" title="RSS Feed">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M400 32H48C21.49 32 0 53.49 0 80v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V80c0-26.51-21.49-48-48-48zM112 416c-26.51 0-48-21.49-48-48s21.49-48 48-48 48 21.49 48 48-21.49 48-48 48zm157.533 0h-34.335c-6.011 0-11.051-4.636-11.442-10.634-5.214-80.05-69.243-143.92-149.123-149.123-5.997-.39-10.633-5.431-10.633-11.441v-34.335c0-6.535 5.468-11.777 11.994-11.425 110.546 5.974 198.997 94.536 204.964 204.964.352 6.526-4.89 11.994-11.425 11.994zm103.027 0h-34.334c-6.161 0-11.175-4.882-11.427-11.038-5.598-136.535-115.204-246.161-251.76-251.76C68.882 152.949 64 147.935 64 141.774V107.44c0-6.454 5.338-11.664 11.787-11.432 167.83 6.025 302.21 141.191 308.205 308.205.232 6.449-4.978 11.787-11.432 11.787z"/></svg>
+      </a></li>
+
+      <li><a href="https://www.facebook.com/elementaryos" target="_blank" rel="noopener" title="Facebook">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg>
+      </a></li>
+
+      <li><a href="https://mastodon.social/@elementary" target="_blank" rel="noopener" title="Mastodon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M433 179.11c0-97.2-63.71-125.7-63.71-125.7-62.52-28.7-228.56-28.4-290.48 0 0 0-63.72 28.5-63.72 125.7 0 115.7-6.6 259.4 105.63 289.1 40.51 10.7 75.32 13 103.33 11.4 50.81-2.8 79.32-18.1 79.32-18.1l-1.7-36.9s-36.31 11.4-77.12 10.1c-40.41-1.4-83-4.4-89.63-54a102.54 102.54 0 0 1-.9-13.9c85.63 20.9 158.65 9.1 178.75 6.7 56.12-6.7 105-41.3 111.23-72.9 9.8-49.8 9-121.5 9-121.5zm-75.12 125.2h-46.63v-114.2c0-49.7-64-51.6-64 6.9v62.5h-46.33V197c0-58.5-64-56.6-64-6.9v114.2H90.19c0-122.1-5.2-147.9 18.41-175 25.9-28.9 79.82-30.8 103.83 6.1l11.6 19.5 11.6-19.5c24.11-37.1 78.12-34.8 103.83-6.1 23.71 27.3 18.4 53 18.4 175z"/></svg>
+      </a></li>
+
+      <li><a href="https://www.reddit.com/r/elementaryos" target="_blank" rel="noopener" title="Reddit">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M201.5 305.5c-13.8 0-24.9-11.1-24.9-24.6 0-13.8 11.1-24.9 24.9-24.9 13.6 0 24.6 11.1 24.6 24.9 0 13.6-11.1 24.6-24.6 24.6zM504 256c0 137-111 248-248 248S8 393 8 256 119 8 256 8s248 111 248 248zm-132.3-41.2c-9.4 0-17.7 3.9-23.8 10-22.4-15.5-52.6-25.5-86.1-26.6l17.4-78.3 55.4 12.5c0 13.6 11.1 24.6 24.6 24.6 13.8 0 24.9-11.3 24.9-24.9s-11.1-24.9-24.9-24.9c-9.7 0-18 5.8-22.1 13.8l-61.2-13.6c-3-.8-6.1 1.4-6.9 4.4l-19.1 86.4c-33.2 1.4-63.1 11.3-85.5 26.8-6.1-6.4-14.7-10.2-24.1-10.2-34.9 0-46.3 46.9-14.4 62.8-1.1 5-1.7 10.2-1.7 15.5 0 52.6 59.2 95.2 132 95.2 73.1 0 132.3-42.6 132.3-95.2 0-5.3-.6-10.8-1.9-15.8 31.3-16 19.8-62.5-14.9-62.5zM302.8 331c-18.2 18.2-76.1 17.9-93.6 0-2.2-2.2-6.1-2.2-8.3 0-2.5 2.5-2.5 6.4 0 8.6 22.8 22.8 87.3 22.8 110.2 0 2.5-2.2 2.5-6.1 0-8.6-2.2-2.2-6.1-2.2-8.3 0zm7.7-75c-13.6 0-24.6 11.1-24.6 24.9 0 13.6 11.1 24.6 24.6 24.6 13.8 0 24.9-11.1 24.9-24.6 0-13.8-11-24.9-24.9-24.9z"/></svg>
+      </a></li>
+
+      <li><a href="https://elementaryos.stackexchange.com" target="_blank" rel="noopener" title="StackExchange">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M17.7 332.3h412.7v22c0 37.7-29.3 68-65.3 68h-19L259.3 512v-89.7H83c-36 0-65.3-30.3-65.3-68v-22zm0-23.6h412.7v-85H17.7v85zm0-109.4h412.7v-85H17.7v85zM365 0H83C47 0 17.7 30.3 17.7 67.7V90h412.7V67.7C430.3 30.3 401 0 365 0z"/></svg>
+      </a></li>
+
+      <li><a href="https://twitter.com/elementary" target="_blank" rel="noopener" title="Twitter">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+      </a></li>
+
+      <li><a href="https://join.slack.com/t/elementarycommunity/shared_invite/enQtMzU1NDU4OTE1MjY2LWUyOTBkZGNkZGM4MDgzZjE2ZjRiZDgwMDQ1ZTA0MzcxYjI0MDUyNGRlNDI5ZWViNDkwMzMwYzczMDY2ZjA0MTc" target="_blank" rel="noopener" title="Slack">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M94.12 315.1c0 25.9-21.16 47.06-47.06 47.06S0 341 0 315.1c0-25.9 21.16-47.06 47.06-47.06h47.06v47.06zm23.72 0c0-25.9 21.16-47.06 47.06-47.06s47.06 21.16 47.06 47.06v117.84c0 25.9-21.16 47.06-47.06 47.06s-47.06-21.16-47.06-47.06V315.1zm47.06-188.98c-25.9 0-47.06-21.16-47.06-47.06S139 32 164.9 32s47.06 21.16 47.06 47.06v47.06H164.9zm0 23.72c25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06H47.06C21.16 243.96 0 222.8 0 196.9s21.16-47.06 47.06-47.06H164.9zm188.98 47.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06h-47.06V196.9zm-23.72 0c0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06V79.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06V196.9zM283.1 385.88c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06v-47.06h47.06zm0-23.72c-25.9 0-47.06-21.16-47.06-47.06 0-25.9 21.16-47.06 47.06-47.06h117.84c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06H283.1z"/></svg>
+      </a></li>
+    </ul>
+  </nav>
+  <nav class="secondary">
+    <div>
+      <a href="/tags/#updates">OS Updates</a>
+      <a href="/tags/#appcenter">AppCenter</a>
+      <a href="/tags/#devs">Developers</a>
+      <a href="/tags/#design">Design</a>
+    </div>
+
+    <div id="search-container" class="hidden">
+      <svg height='16' width='16' xmlns='http://www.w3.org/2000/svg'>
+    <g color='#000' transform='translate(-613 11)'>
+        
+        <path d='M619.5-10c-3.026 0-5.5 2.474-5.5 5.5s2.474 5.5 5.5 5.5a5.46 5.46 0 0 0 3.112-.975l3.681 3.682a1 1 0 1 0 1.414-1.414l-3.681-3.682A5.46 5.46 0 0 0 625-4.5c0-3.026-2.474-5.5-5.5-5.5zm0 1.25a4.25 4.25 0 0 1 4.25 4.25 4.25 4.25 0 0 1-4.25 4.25 4.25 4.25 0 0 1-4.25-4.25 4.25 4.25 0 0 1 4.25-4.25z' fill='#666' font-family='sans-serif' font-weight='400' overflow='visible' style='line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;shape-padding:0;isolation:auto;mix-blend-mode:normal' white-space='normal'/>
+    </g>
+</svg>
+
+      <input type="text" id="search-input" placeholder="Search Posts…">
+      <ul id="results-container"></ul>
+    </div>
+
+    <script src="/scripts/search.js"></script>
+
+    <script>
+      document.getElementById('search-container').classList.remove("hidden")
+
+      SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        searchResultTemplate: `<li>
+          <a href="{url}">
+            <div class="featured-image" alt="Featured image" style="background-image: url({image});"></div>
+            <span id="title">{title}</span>
+            <span id="description">{description}</span>
+          </a>
+        </li>`,
+        resultsContainer: document.getElementById('results-container'),
+        noResultsText: ("No Result Found"),
+        json: '/search.json'
+      })
+    </script>
+  </nav>
+</header>
+
+    <section>
+      
+
+
+
+
+
+  
+  
+  
+
+
+
+<article>
+  
+  <header>
+    <h1>
+
+
+
+   elementary at GUADEC&nbsp;2019
+
+</h1>
+    
+      <h2>
+
+
+
+   Hanging out with GNOME in Thessaloniki,&nbsp;Greece
+
+</h2>
+    
+
+    
+
+
+
+<div class="byline">
+  <div class="avatar">
+    <img
+      
+        srcset="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&d=blank 2x"
+        src="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&d=blank"
+        alt="Avatar for Cassidy James Blaede"
+      
+    />
+  </div>
+  <div class="author">
+    <a href="/authors/#cassidyjames">
+    <span class="name">Cassidy James Blaede</span>
+    </a>
+    
+      <span class="description">Co-founder & CXO</span>
+    
+  </div>
+  <time class="post-date" datetime="2019-09-05">Thu, Sep  5, 2019</time>
+  
+    <span class="read-time" title="Estimated read time">
+  
+  20 min read
+</span>
+
+
+  
+</div>
+
+
+    <aside class="tags">
+  
+  
+    <a class="tag" href="/tags/#event">#event</a>
+  
+    <a class="tag" href="/tags/#flatpak">#flatpak</a>
+  
+    <a class="tag" href="/tags/#gnome">#gnome</a>
+  
+    <a class="tag" href="/tags/#gtk">#gtk</a>
+  
+    <a class="tag" href="/tags/#guadec">#guadec</a>
+  
+</aside>
+
+
+  </header>
+
+  <section>
+    <figure>
+  <p><img src="/images/elementary-at-guadec-2019/welcome-banner_800.jpg" alt="Welcome Banner" srcset="/images/elementary-at-guadec-2019/welcome-banner_1600.jpg 2x" /></p>
+  <figcaption>Cassidy and fellow GUADEC attendees arriving at the Thessaloniki airport</figcaption>
+</figure>
+
+<p>GUADEC is the annual <strong>G</strong>NOME <strong>U</strong>ser <strong>A</strong>nd <strong>D</strong>eveloper <del><strong>E</strong>uropean</del>* <strong>C</strong>onference where contributors to GNOME and its downstreams get together for a week of sharing their work from the past year, planning the future of their individual components, and catching up with one another. The conference is organized into two main halves: three days of talks, and three days of BoFs (with the last BoF day being more of a social day).</p>
+
+<p>elementary <a href="/things-we-learned-at-guadec-2018/">attended for the first time</a> in Almería, Spain last year and had such a productive (and fun!) time that we made sure to be back again for 2019. This year Corentin Noël and I represented elementary, while Daniel took some time off to <a rel="nofollow noopener noreferrer" target="_blank" href="https://twitter.com/DanielFore/status/1163831738532941824">celebrate his one-year anniversary</a> (congrats, Dan!).</p>
+
+<p>Just like last year, due to the nature of GUADEC, this post might get a bit technical and is mostly future-looking. For even more reports from a diverse group of GNOME contributors, check out the <a rel="nofollow noopener noreferrer" target="_blank" href="https://planet.gnome.org/">Planet GNOME blog aggregator</a>. That aside, let’s dive in.</p>
+
+<p><em>* No longer restricted to Europe! In fact, a bid is being submitted to host GUADEC 2020 in Mexico. I guess we can retcon the E to stand for “Everywhere.”</em></p>
+
+<hr />
+
+<figure class="full-bleed">
+  <p><img src="/images/elementary-at-guadec-2019/allan-talk_2560.jpg" alt="Allan's talk" /></p>
+  <figcaption>Allan’s talk</figcaption>
+</figure>
+
+<h2 id="talks">Talks</h2>
+
+<p>We attended a <em>lot</em> of talks this year. We’ve linked to the recordings below as well, since they uploaded all of them already (which is <em>awesome</em>).</p>
+
+<h3 id="desktop-secrets-management-for-the-future">Desktop Secrets Management for the Future</h3>
+
+<p>Red Hat and GNOME engineer Daiki Ueno shared future improvements to the “secrets” API that manages things like passwords and encryption keys in GNOME, elementary OS, and other desktops.</p>
+
+<div class="center">
+  <p><a rel="nofollow noopener noreferrer" target="_blank" href="https://guadec.ubicast.tv/permalink/v125d0b148f7api9muax/" class="button">▶️ Watch Stream</a></p>
+</div>
+
+<p>He focused specifically on the implications of sandboxing with Flatpak, and how a new version of the API could be designed for this more secure future. Much of the content was above my level of knowledge, but it was encouraging to see some of the remaining questions around Flatpak being actively worked on, and this is work that will benefit elementary OS in the future.</p>
+
+<h3 id="managing-gnome-sessions-with-systemd">Managing GNOME Sessions with systemd</h3>
+
+<p>Red Hat engineer Benjamin Berg and Canonical engineer Iain Lane shared their work with moving much of the session management out of GNOME Session and into systemd.</p>
+
+<div class="center">
+  <p><a rel="nofollow noopener noreferrer" target="_blank" href="https://guadec.ubicast.tv/permalink/v125d0b137f3bbcudhop/" class="button">▶️ Watch Stream</a></p>
+</div>
+
+<p>This is an area we’ve begun exploring in elementary OS, but it was good to hear about their experiences, some cool side-effects, and issues they had to overcome. This is ongoing work, and we’ll be following it to see how it applies to elementary OS in the future as well.</p>
+
+<h3 id="gnhome-auttomqation">GNHOME AUTTOMQATION</h3>
+
+<p>No, my cat didn’t walk across the keyboard while I was writing the name of this talk; Nathan Willis presented his thoughts around how the GNOME desktop could better support modern home automation (and “smart home”) user flows.</p>
+
+<div class="center">
+  <p><a rel="nofollow noopener noreferrer" target="_blank" href="https://guadec.ubicast.tv/permalink/v125d0b148d79qoix9bi/" class="button">▶️ Watch Stream</a></p>
+</div>
+
+<p>I <em>think</em> the title is a pun based on “GNOME” and the names of some of the popular open source home automation tools in wide use today. It was an interesting talk that got my gears turning with regards to how the smartest devices in our homes (our computers) are sometimes the least integrated.</p>
+
+<h3 id="portals-principles-and-practice">Portals: Principles and Practice</h3>
+
+<p>Portals are how sandboxed apps communicate with one another or request specific access to things they wouldn’t normally get, like user files, location services, screen sharing, etc. In this talk, Red Hat manager and GTK developer Matthias Clasen shared a deep dive into Flatpak Portals, their architecture, the user experience, and what he’s learned in the past year since Flatpak 1.0. He also collected suggestions for Portals that don’t yet exist.</p>
+
+<div class="center">
+  <p><a rel="nofollow noopener noreferrer" target="_blank" href="https://guadec.ubicast.tv/permalink/v125d0b148f36jtj6us1/" class="button">▶️ Watch Stream</a></p>
+</div>
+
+<p>We’ve been <a href="/a-new-native-file-chooser/">moving toward Portals</a> in elementary OS in preparation for <a href="/elementary-appcenter-flatpak/">using Flatpak</a>, and it was good to see the wide variety of portals that exist and the design considerations behind them. One portal we suggested based on our work toward <a href="/making-system-settings-access-a-cross-desktop-feature/">a cross-desktop settings API</a> was a “Connect to Network” portal; rather than a “System Settings” portal that would need to handle every possible setting an OS might have, we came to the conclusion that individual portals for specific actions would be more flexible. A new network connection portal could be used in elementary OS to prompt a user to get connected when browsing AppCenter, for example, where an Internet connection is needed to install apps. It could also be used in apps designed for any desktop environment, like a web browser, torrent client, chat app, etc.</p>
+
+<h3 id="wineglass-how-to-make-wine-accessible">Wineglass: How to Make Wine Accessible</h3>
+
+<p>elementary OS user and app developer Alex Angelou gave this unconference talk (unplanned and decided day-of) about his app <a rel="nofollow noopener noreferrer" target="_blank" href="https://appcenter.elementary.io/com.github.aggalex.wineglass/">Wineglass</a>.</p>
+
+<div class="center">
+  <p><a rel="nofollow noopener noreferrer" target="_blank" href="https://guadec.ubicast.tv/permalink/v125d0ad7c8e6dabqw92/" class="button">▶️ Watch Stream</a></p>
+</div>
+
+<p>It was a brief introduction to Wine prefixes (used to sort of sandbox Wine apps from one another), and how Wineglass works to make it faster and simpler to use Wine. It was fun seeing elementary OS up on the big screen at a GNOME conference, and his app was generally well received. During the Q&amp;A session there were also some great discussions and suggestions, with issues being filed before we left the room.</p>
+
+<h3 id="gnu-health-the-fight-for-our-rights-in-the-public-health-system">GNU Health: The Fight for our Rights in the Public Health System</h3>
+
+<p>This was the first “keynote” talk, presented by Founder &amp; President of GNU Solidario.</p>
+
+<div class="center">
+  <p><a rel="nofollow noopener noreferrer" target="_blank" href="https://guadec.ubicast.tv/permalink/v125d0ad7835ayrnms3e/" class="button">▶️ Watch Stream</a></p>
+</div>
+
+<p>It focused on the unique challenges of the global healthcare system, and how GNU Health tries to address them. Over all it was an interesting case study in open source software entering and taking hold in a market dominated by proprietary solutions.</p>
+
+<h3 id="packing-up-boxes">Packing Up Boxes</h3>
+
+<p>Not about Flatpak, and not about GNOME Boxes. 😉️ GNOME Foundation engineer and core GTK developer Emmanuele Bassi shared how to use constraint-based layouts to build user interfaces in GTK4.</p>
+
+<div class="center">
+  <p><a rel="nofollow noopener noreferrer" target="_blank" href="https://guadec.ubicast.tv/permalink/v125d0ae6dc9dhybbpfg/" class="button">▶️ Watch Stream</a></p>
+</div>
+
+<p>This is something app developers have been asking for for a while, so it’s exciting to see it come to GTK. I’m super interested in playing with this in my own apps and in the elementary apps once the GTK4 porting work begins.</p>
+
+<h3 id="simple-is-hard-creating-beautiful-app-icons">Simple is Hard: Creating Beautiful App Icons</h3>
+
+<p>Red Hat and GNOME visual designer Jakub Steiner presented the new GNOME icon style and a quick demo of creating a new icon using the new Icon Preview app and Inkscape.</p>
+
+<div class="center">
+  <p><a rel="nofollow noopener noreferrer" target="_blank" href="https://guadec.ubicast.tv/permalink/v125d0ae6c813prh3adv/" class="button">▶️ Watch Stream</a></p>
+</div>
+
+<p>Jakub is always fun to chat with, and his goofy personality shines through in this talk. Even if you’re not interested in designing GNOME icons (since elementary OS uses a different icon style), this talk is entertaining to watch.</p>
+
+<h3 id="gnome-ux-strategies--tactics">GNOME UX: Strategies &amp; Tactics</h3>
+
+<p>Red Hat and GNOME UX designer Allan Day shared a lot of the design work that is going into GNOME as well as his vision for the future of GNOME.</p>
+
+<div class="center">
+  <p><a rel="nofollow noopener noreferrer" target="_blank" href="https://guadec.ubicast.tv/permalink/v125d0ae6dbd2x865wc3/" class="button">▶️ Watch Stream</a></p>
+</div>
+
+<p>This talk was <em>so good</em> and really shows the product management role that Allan and the design team serve within GNOME. I feel like this has always been the case to some extent, but is more prominent more recently. This also echoes how elementary is really a design-led organization, and many of the “tactics” he shares to improve GNOME can apply to elementary as well.</p>
+
+<figure>
+  <p><img src="/images/elementary-at-guadec-2019/allan_800.jpg" alt="Allan Day" srcset="/images/elementary-at-guadec-2019/allan_1600.jpg 2x" /></p>
+  <figcaption>
+    <p>Allan Day | <em>Photo by <a rel="nofollow noopener noreferrer" target="_blank" href="https://www.flickr.com/photos/183829480@N06/48623731202/in/pool-14662216@N23/">Richard Brown</a>, <a rel="nofollow noopener noreferrer" target="_blank" href="https://creativecommons.org/licenses/by-nc/2.0/">CC BY-NC 2.0</a></em></p>
+  </figcaption>
+</figure>
+
+<p>Specifically, the bits about developer and designer synchronicity, designer-developers, and development-conscious design are areas that we champion within elementary; much of the work Daniel and I have done lately has centered around prototyping and developing directly in Vala and GTK, which means we’re far less likely to design something that is impractical from a technical level. It also means we’re able to jump into a codebase and improve the UI directly: we don’t have to make a mockup and wait for a “real developer” to come along and pick up the work. This has been a <em>massive</em> improvement to the process within elementary.</p>
+
+<p>Something that has enabled that is that we do have a single preferred language and code style, which means we don’t have to be fluent in C, Rust, Vala, JavaScript, Python, etc. Once we have solved a problem in one app, it’s pretty generalizable across all elementary apps. Of course we still lean heavily on experienced developers, but we’re able to do a lot more as designers than ever before.</p>
+
+<h3 id="maintaining-a-flatpak-repository">Maintaining a Flatpak Repository</h3>
+
+<p>Red Hat, GNOME, and Flatpak developer Alexander Larsson shared how Flatpak remotes work and how to host one yourself.</p>
+
+<div class="center">
+  <p><a rel="nofollow noopener noreferrer" target="_blank" href="https://guadec.ubicast.tv/permalink/v125d0ae6dd77i05j8rh/" class="button">▶️ Watch Stream</a></p>
+</div>
+
+<p>He gets pretty technical into how Flatpak works on the server side with details on OSTree (like git for your filesystem), how diff-based updates work, etc. Overall it was a great talk and is super relevant to elementary since we’ll be hosting our own Flatpak remote for AppCenter. If you’re interested in helping elementary move to the Flatpak future, I highly recommend you watch it!</p>
+
+<h3 id="gnome-foundation-annual-general-meeting">GNOME Foundation Annual General Meeting</h3>
+
+<p>Part of GUADEC is the GNOME Foundation’s annual meeting where they go over the last year and share projections for the next year. GNOME Foundation members also get to vote on relevant topics, such as changing the term lengths of board members, and changing wording in the bylaws.</p>
+
+<div class="center">
+  <p><a rel="nofollow noopener noreferrer" target="_blank" href="https://guadec.ubicast.tv/permalink/v125d0ae6ddf7r559xos/" class="button">▶️ Watch Stream</a></p>
+</div>
+
+<p>It was also an opportunity for an in-person question-and-answer session with the GNOME Foundation board.</p>
+
+<div class="center">
+  <p><a rel="nofollow noopener noreferrer" target="_blank" href="https://guadec.ubicast.tv/permalink/v125d0ae6ca4e9nojzh3/" class="button">▶️ Watch Stream</a></p>
+</div>
+
+<h3 id="the-need-for-a-freedesktop-dark-style-preference">The Need for a FreeDesktop Dark Style Preference</h3>
+
+<p>This was my talk! If you’ve read <a href="/the-need-for-a-freedesktop-dark-style-preference/">my blog post</a> on the topic, it’s mostly review. But it was well-received and as a result, GNOME and GTK are moving forward to support a system-wide dark style preference.</p>
+
+<div class="center">
+  <p><a rel="nofollow noopener noreferrer" target="_blank" href="https://guadec.ubicast.tv/permalink/v125d0af56c87sex078k/" class="button">▶️ Watch Stream</a></p>
+</div>
+
+<h3 id="is-the-linux-desktop-really-dead">Is the Linux Desktop Really Dead?</h3>
+
+<p>Endless Chief of Engineering and GNOME Foundation board member Robert McQueen shared some of the history of Endless, their shifting strategy over time, and his vision of how GNOME can remain successful in the current computing landscape.</p>
+
+<div class="center">
+  <p><a rel="nofollow noopener noreferrer" target="_blank" href="https://guadec.ubicast.tv/permalink/v125d0af6044fmc08q4k/" class="button">▶️ Watch Stream</a></p>
+</div>
+
+<p>It’s also sort of a “Business 101” and “disruption” talk condensed into a few minutes, which was very interesting. The end result from the Endless side is that Endless is planning to help GNOME teach kids to code. While that exact goal isn’t something we’re explicitly reaching for at elementary, the implications of that effort—making GNOME and related technologies more user-friendly and attractive—are very relevant to us.</p>
+
+<h3 id="accessibility-features-for-muttergnome-shell-on-wayland">Accessibility Features for Mutter/GNOME Shell on Wayland</h3>
+
+<p>Red Hat and GNOME software engineer Oliver Fourdan presented ongoing work within Mutter and Wayland to enable the same level of accessibility support as X11.</p>
+
+<div class="center">
+  <p><a rel="nofollow noopener noreferrer" target="_blank" href="https://guadec.ubicast.tv/permalink/v125d0b148681aw5mihz/" class="button">▶️ Watch Stream</a></p>
+</div>
+
+<p>While elementary OS doesn’t use GNOME Shell (which was demoed in this talk), we should be able to use the same Mutter features within Gala and elementary OS to ensure we don’t regress in accessibility when we inevitably move to Wayland.</p>
+
+<h3 id="designing-gnome-mobile-apps">Designing GNOME Mobile Apps</h3>
+
+<p>Purism and GNOME designer Tobias Bernard shared much of the ongoing work to port GNOME apps to mobile devices like the upcoming Librem 5.</p>
+
+<div class="center">
+  <p><a rel="nofollow noopener noreferrer" target="_blank" href="https://guadec.ubicast.tv/permalink/v125d0af53a1fipzbiat/" class="button">▶️ Watch Stream</a></p>
+</div>
+
+<p>elementary has no plans to develop a mobile version of the OS, but some of the design patterns and especially the widgets in LibHandy are of great interest; better touch support and better layouts for small and large window sizes are always welcome. As a result of this talk (and playing with LibHandy afterwards), we’ve filed several issues for including LibHandy in elementary OS and using it within the desktop and apps.</p>
+
+<h3 id="usability-testing">Usability Testing</h3>
+
+<p>Software engineer and Outreachy intern Clarissa Lima Borges presented her work on usability testing in GNOME.</p>
+
+<div class="center">
+  <p><a rel="nofollow noopener noreferrer" target="_blank" href="https://guadec.ubicast.tv/permalink/v125d0af588eeqnwoffd/" class="button">▶️ Watch Stream</a></p>
+</div>
+
+<p>It was a great intro to usability itself, and usability testing specifically. One interesting take-away is that there are diminishing returns when performing usability studies; after about five user tests, your users are less likely to find new usability issues. Instead of performing dozens of usability tests to start, it’s often better to test with a handful of users, iterate on the product, and then test again.</p>
+
+<p>You can find more information and Clarissa’s usability test results at <a rel="nofollow noopener noreferrer" target="_blank" href="https://lborgesclarissa.wordpress.com/">her website</a>.</p>
+
+<h3 id="product-metrics--respecting-privacy">Product Metrics &amp; Respecting Privacy</h3>
+
+<p>Robert McQueen presented—this time in the unplanned unconference style—about how an open desktop could implement privacy-respecting metrics.</p>
+
+<div class="center">
+  <p><a rel="nofollow noopener noreferrer" target="_blank" href="https://guadec.ubicast.tv/permalink/v125d0af5a8ffz4hc0b7/" class="button">▶️ Watch Stream</a></p>
+</div>
+
+<p>He started with the current state of metrics in Endless OS, and then shifted to how something better could be designed and implemented in GNOME and other open source desktops. It’s an area I’ve thought about a lot; in fact, last year at the <a href="/were-back-from-libre-application-summit-2018/">Libre Application Summit</a>, I sat down with folks from Purism and elementary and chatted about a theoretical privacy-respecting analytics system, why it’s sought after, the risks, and how we would have to go about implementing it. It sounds like Robert has been chewing on the same idea, so we sat down afterwards and chatted about it some more.</p>
+
+<figure>
+  <p><img src="/images/elementary-at-guadec-2019/robert_800.jpg" alt="Robert McQueen" srcset="/images/elementary-at-guadec-2019/robert_1600.jpg 2x" /></p>
+  <figcaption>
+    <p>Robert McQueen | <em>Photo by <a rel="nofollow noopener noreferrer" target="_blank" href="https://www.flickr.com/photos/183829480@N06/48623585931/in/pool-14662216@N23/">Richard Brown</a>, <a rel="nofollow noopener noreferrer" target="_blank" href="https://creativecommons.org/licenses/by-nc/2.0/">CC BY-NC 2.0</a></em></p>
+  </figcaption>
+</figure>
+
+<p>We still believe the best way to protect user data at elementary is to <a href="/privacy-and-elementary-os/">not collect it in the first place</a>. However, if app developers are going to be seeking ways to track how their apps are being used (for well-intentioned purposes like knowing where to spend development), they’re going to seek out less-privacy-respecting solutions. If a privacy-respecting solution existed from the start, it could actually actively protect user data while also providing value to app and platform developers. This is all theoretical right now, but it’s a thread that I’m interested in keeping up on, and I’ll remain in contact with Robert, other folks from Endless, and folks from companies like Purism and System76 who might share the same goals as us.</p>
+
+<h3 id="lightning-talks">Lightning Talks</h3>
+
+<p>Lightning talks are fast-paced and unplanned talks that are decided day-of and given a strict, short time limit.</p>
+
+<div class="center">
+  <p><a rel="nofollow noopener noreferrer" target="_blank" href="https://guadec.ubicast.tv/permalink/v125d0b1484a2718m3hh/" class="button">▶️ Watch Stream</a></p>
+</div>
+
+<p>The highlights for me were Alexander Larsson’s GThree (a 3D rendering library for GTK) and Richard Brown’s How to Survive a Speaker Having a Heart Attack on Stage.</p>
+
+<h3 id="free-softwareutopia">Free Software/Utopia</h3>
+
+<p>The closing keynote presented by Deb Nicholson, Director of Community Operations at the Free Software Conservancy.</p>
+
+<div class="center">
+  <p><a rel="nofollow noopener noreferrer" target="_blank" href="https://guadec.ubicast.tv/permalink/v125d0af5f72dycbpzkw/" class="button">▶️ Watch Stream</a></p>
+</div>
+
+<hr />
+
+<figure class="full-bleed">
+  <p><img src="/images/elementary-at-guadec-2019/gtk-bof-wide_2560.jpg" alt="GTK BoF" /></p>
+  <figcaption>GTK BoF</figcaption>
+</figure>
+
+<h2 id="bofs">BoFs</h2>
+
+<p>BoFs, or “Birds of a Feather” sessions, are meetups that happen across the venue with people who are working on or with certain technologies—or just interested in a common topic. For example, the GTK BoF was organized by core GTK contributors, but attended by GTK developers, folks writing GTK apps, GTK stylesheet authors, etc.</p>
+
+<h3 id="gtk">GTK</h3>
+
+<p>Speaking of the GTK BoF, this was the big all-day one that took most of our time on the first day. Matthias directed the discussion and opened the floor for GLib wishlist items (like an OS info API), the status of GTK4, and even the Dark Style implementation.</p>
+
+<p>A lot of time was spent discussing GTK4—primarily if there were any more “headlining” features we wanted to try to get into the release to help encourage app developers to port as soon as possible. We mostly agreed that the performance improvements were a large reason to port, and didn’t come up with any single “big new feature” that should be added at this point. LibDazzle and Purism’s LibHandy also demonstrate that you can still do a lot more with GTK3 than most apps do, so even getting much of those widgets upstreamed into GTK4 would not be compelling features in themselves.</p>
+
+<figure>
+  <p><img src="/images/elementary-at-guadec-2019/gtk-bof_800.jpg" alt="GTK BoF" srcset="/images/elementary-at-guadec-2019/gtk-bof_1600.jpg 2x" /></p>
+  <figcaption>GTK BoF</figcaption>
+</figure>
+
+<p>We also talked about what is going to hold a lot of apps back from GTK4 to start: WebKitGtk. There is not currently a GTK4 port, meaning any app needing a web view will need to stay on GTK3 until that work is started and finished. That’s a huge void that will take a lot of time and effort to accomplish, and as far as we know, nobody has taken it on yet.</p>
+
+<p>Matthias has a great <a rel="nofollow noopener noreferrer" target="_blank" href="https://blog.gtk.org/2019/08/29/gtk-bof-at-guadec/">dedicated blog post</a> on this BoF as well.</p>
+
+<h3 id="vendor-styles">Vendor Styles</h3>
+
+<p>I attended this BoF on the second day. Organized and moderated by Neil McGovern, Executive Director of the GNOME Foundation. It was all about moving forward with the sometimes at-conflict goals of GNOME apps looking as good as they can and downstream vendors (like Ubuntu or Pop!_OS) wanting to express their unique branding and styling. Rather than just sit in two separate camps, the idea was to talk it out and decide where we actually aligned, and how we could move forward to improve GNOME.</p>
+
+<p>Over all, it went exceedingly well in my eyes. We came to a conclusion that GNOME <em>could</em> support some amount of styling if it were well-defined and well documented—right now, the only real “documentation” is Adwaita’s behavior itself. This definition and documentation work would also directly benefit apps as well, as they could use the documented styles to do more interesting custom styles that would be supported in Adwaita as well as any “compatible” stylesheets. This is actually pretty similar to elementary OS, where we have publicly-exported variables, the color palette, and Granite style classes for apps to do custom styling.</p>
+
+<p>We agreed that there are really three areas when it comes to custom styling:</p>
+
+<ol>
+  <li><strong>“Supported”</strong> styles (currently nothing, but hopefully soon a handful of public variables, color palette, colored headerbars, etc.),</li>
+  <li><strong>“Upstreamable”</strong> styles (i.e. stylistic changes or something that a vendor or app wants to be supported but currently is not), and</li>
+  <li><strong>“Here be dragons”</strong> which is everything else that’s explicitly unsupported.</li>
+</ol>
+
+<p>But at least agreeing on the three areas, it means GNOME can work to increase the supported styling and downstreams can work on upstreaming, ultimately reducing the “dragons” area.</p>
+
+<p>Interestingly, Yaru (the Ubuntu GTK stylesheet) is already based on Adwaita (the GNOME GTK stylesheet), using a build-time variable system that the Yaru developers put together. They even demoed a Pop!_OS inspired set of variables that does express much of the same branding as the official Pop!_OS stylesheet without much work. Some of this work may get upstreamed into Adwaita itself, and I’ve been sharing our experiences with publicly-exported variables in elementary OS to enable our unique features like per-app accent colors and branded headerbars.</p>
+
+<p>I’m currently <a rel="nofollow noopener noreferrer" target="_blank" href="https://discourse.gnome.org/t/gtk-adwaita-and-vendor-styles/1641">helping lead this effort within GNOME</a>, and as this work continues, we’ll try to share and upstream as much of our work from elementary OS as possible. Tobias also has a good write-up of this BoF in <a rel="nofollow noopener noreferrer" target="_blank" href="https://blogs.gnome.org/tbernard/2019/09/05/guadec-2019/">his blog post</a> if you’d like a bit more detail.</p>
+
+<h3 id="flatpak-donationsstore">Flatpak Donations/Store</h3>
+
+<p>Unfortunately I was unable to attend this BoF since the Vendor Styles BoF ended up taking the whole day. However, I chatted with Robert McQueen beforehand about how AppCenter works, and he debriefed me afterwards and shared some ongoing work within Flatpak to enable payments. It sounds like they are headed in the right direction, and I expect the work here to simplify some of our Flatpak work around payments.</p>
+
+<h2 id="social">Social</h2>
+
+<p>As always, the social events were almost as important as the talks and BoFs; they provide a time and space to get to know folks, have fun, and chat about things—GNOME-related and otherwise—that don’t have an official time and place in the schedule.</p>
+
+<h3 id="food--exploration">Food &amp; Exploration</h3>
+
+<p>While not explicit planned social events, a lot of time was spent walking around Thessaloniki, trying out different breakfast, coffee, and dinner spots.</p>
+
+<figure class="third">
+  <p><img src="/images/elementary-at-guadec-2019/designers-walking_800.jpg" alt="Designers walking" srcset="/images/elementary-at-guadec-2019/designers-walking_1600.jpg 2x" />
+<img src="/images/elementary-at-guadec-2019/thessaloniki-street_800.jpg" alt="A street in Thessaloniki" srcset="/images/elementary-at-guadec-2019/thessaloniki-street_1600.jpg 2x" />
+<img src="/images/elementary-at-guadec-2019/walking-white-tower-sunset_800.jpg" alt="Walking to the White Tower at sunset" srcset="/images/elementary-at-guadec-2019/walking-white-tower-sunset_1600.jpg 2x" /></p>
+  <figcaption>Walking around Thessaloniki</figcaption>
+</figure>
+
+<figure class="half">
+  <p><img src="/images/elementary-at-guadec-2019/breakfast-1_800.jpg" alt="Sad Breakfast" srcset="/images/elementary-at-guadec-2019/breakfast-1_1600.jpg 2x" />
+<img src="/images/elementary-at-guadec-2019/breakfast-2_800.jpg" alt="Good Breakfast" srcset="/images/elementary-at-guadec-2019/breakfast-2_1600.jpg 2x" /></p>
+  <figcaption>
+    <p><strong>Left:</strong> Rushed (but still delicious) first-day breakfast | <strong>Right:</strong> Second-day breakfast once we knew a good spot</p>
+  </figcaption>
+</figure>
+
+<p>As far as coffee goes, I was a <em>huge</em> fan of freddo cappuccino; basically an iced coffee topped with delicious, frothy cold milk.</p>
+
+<h3 id="picnic">Picnic</h3>
+
+<p>An official social event one evening was a “picnic” farther inland at Platanakia Natura in Panorama, Greece. We took two big buses out, almost got the bus stuck on a tiny dirt road, and ended up hanging out near the forest enjoying local food and drinks.</p>
+
+<figure class="half">
+  <p><img src="/images/elementary-at-guadec-2019/picnic-2_800.jpg" alt="Picnic 2" srcset="/images/elementary-at-guadec-2019/picnic-2_1600.jpg 2x" />
+<img src="/images/elementary-at-guadec-2019/picnic-1_800.jpg" alt="Picnic 1" srcset="/images/elementary-at-guadec-2019/picnic-1_1600.jpg 2x" /></p>
+  <figcaption>Socializing at the picnic</figcaption>
+</figure>
+
+<p>This was a great time to mingle and cross-polinate ideas. I know I personally ended up talking with folks who wanted to use AppCenter in another distro, long-time users of elementary OS, people who wanted to discuss the idea of privacy-respecting metrics, and more.</p>
+
+<h3 id="beers">Beers</h3>
+
+<p>Several of my GNOME friends are fans of beer. Naturally, we visited several local pubs and bars to try out the local beers. It turns out, there are local Greek and even Thessalonian beers that are very good!</p>
+
+<figure class="half">
+  <p><img src="/images/elementary-at-guadec-2019/sknipa_800.jpg" alt="Sknipa" srcset="/images/elementary-at-guadec-2019/sknipa_1600.jpg 2x" />
+<img src="/images/elementary-at-guadec-2019/imperial-stout_800.jpg" alt="Imperial Stout" srcset="/images/elementary-at-guadec-2019/imperial-stout_1600.jpg 2x" /></p>
+  <figcaption>Two local beers I enjoyed</figcaption>
+</figure>
+
+<p>One evening Neil McGovern, Robert McQueen, Matthias Clasen, David King, Ian Santopietro, and I headed out to find local beers. The first place we headed to was inexplicably closed (their hours said they should be open!), but we eventually found a few places to try the local brew.</p>
+
+<figure class="half">
+  <p><img src="/images/elementary-at-guadec-2019/closed-bar_800.jpg" alt="Closed Bar" srcset="/images/elementary-at-guadec-2019/closed-bar_1600.jpg 2x" />
+<img src="/images/elementary-at-guadec-2019/drinks_800.jpg" alt="Drinks" srcset="/images/elementary-at-guadec-2019/drinks_1600.jpg 2x" /></p>
+  <figcaption></figcaption>
+</figure>
+
+<h3 id="beach-bof">Beach BoF</h3>
+
+<p>On the last day, I attended the “Beach BoF,” a day trip to the beach about a half hour drive away from Thessaloniki. Unfortunately I didn’t get many photos, as I left my phone packed away, safe from the sand and sea.</p>
+
+<figure>
+  <p><img src="/images/elementary-at-guadec-2019/cassidy_400.jpg" alt="Cassidy" srcset="/images/elementary-at-guadec-2019/cassidy_800.jpg 2x" /></p>
+</figure>
+
+<p>We did get to lounge on the beach in the sun, swim, and hang out on the sandbar several meters into the sea. We also walked a couple of kilometers along the beach to a shipwreck, and some even swam out to check it out. I did learn a hard lesson: don’t fall asleep for a few hours in the sun when you’re as pale as I am; you’ll end up completely fried and bright red. Whoops.</p>
+
+<h2 id="other-work">Other Work</h2>
+
+<p>With so much collaboration, sharing of ideas, and knowledgable people in one place, other work happening at GUADEC is an inevitability. Consequently, two interesting pieces of work were started this week:</p>
+
+<p>First, I started a <em>very</em> early <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/cassidyjames/settings-shim">proof of concept GNOME shim</a> for our <a href="/making-system-settings-access-a-cross-desktop-feature/">settings schema spec</a>. The idea being that GNOME-based OSes like Pop!_OS might want to use some components originally designed for elementary OS, but not Switchboard itself. In the past we’ve proposed the settings schema to GNOME Control Center, but they turned it down for not being flexible enough (and because <em>ideally</em> it would be handled by portals that don’t yet exist). So, as a stopgap, the shim translates settings URL calls to GNOME Control Center calls. It’s not the most ideal, but it is no more fragile than hardcoding GNOME Control Center calls into apps themselves, plus it keeps that ugliness and fragility centralized into one tiny component instead of spread across many apps.</p>
+
+<p>Perhaps more exciting is Corentin’s work on an <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/elementary/flatpak-platform">elementary Flatpak SDK</a>. Based on the GNOME SDK (which is in turn based on the FreeDesktop SDK), this will allow us to build Flatpak apps on the same base as elementary OS itself, with all of the benefits of Flatpak. Eventually, this is what we see core elementary apps as well as AppCenter apps being built on.</p>
+
+<h2 id="thank-you">Thank You</h2>
+
+<p>I’d like to give a <strong>huge</strong> thank you to the <a rel="nofollow noopener noreferrer" target="_blank" href="https://www.gnome.org/foundation/">GNOME Foundation</a> for sponsoring my travel and lodging! I had an amazing time connecting and working with folks throughout the GNOME community—especially Allan Day, Clarissa Borges, Niel McGovern, Robert McQueen, Tobias Bernard, Adrien Plazas, Julian Sparber, Matthias Clasen, Britt Yazel, Alex Angelou, Cosimo Cecchi, Ian Santopietro, Benjamin Berg, and probably dozens of others I’ve missed.</p>
+
+<figure>
+  <p><img src="/images/elementary-at-guadec-2019/sponsored.png" alt="Sponsored by GNOME Foundation" /></p>
+</figure>
+
+<p>As a member of the GNOME Foundation, I see my attending GNOME events as multi-purpose: First, I help represent elementary and ensure future GNOME-stack developments are generally compatible with our vision. Equally, I strive to bring my experiences, knowledge, and data collected from working on elementary OS to GNOME to help make GNOME itself better. Lastly, I learn more about the technologies we’re using in elementary OS so we can go and build cool things with them. The fact that the GNOME Foundation sees so much value in this is validating, and I encourage anyone who works on GNOME or GNOME-related downstreams to <a rel="nofollow noopener noreferrer" target="_blank" href="https://www.gnome.org/foundation/membership/">apply for Foundation membership</a>!</p>
+
+<figure>
+  <p><img src="/images/elementary-at-guadec-2019/white-tower_800.jpg" alt="White Tower" srcset="/images/elementary-at-guadec-2019/white-tower_1600.jpg 2x" /></p>
+  <figcaption>The White Tower</figcaption>
+</figure>
+
+<p>We’d also like to thank the sponsors <a rel="nofollow noopener noreferrer" target="_blank" href="https://www.privateinternetaccess.com">Private Internet Access</a>, <a rel="nofollow noopener noreferrer" target="_blank" href="https://www.redhat.com">Red Hat</a>, <a rel="nofollow noopener noreferrer" target="_blank" href="https://endlessos.com">Endless</a>, <a rel="nofollow noopener noreferrer" target="_blank" href="https://ubuntu.com">Ubuntu</a>, <a rel="nofollow noopener noreferrer" target="_blank" href="https://www.opensuse.org">openSUSE</a>, <a rel="nofollow noopener noreferrer" target="_blank" href="https://www.codethink.co.uk">Codethink</a>, <a rel="nofollow noopener noreferrer" target="_blank" href="https://www.igalia.com">Igalia</a>, and <a rel="nofollow noopener noreferrer" target="_blank" href="https://www.arm.com">Arm</a> for helping to make GUADEC happen.</p>
+
+<figure>
+  <p><img src="/images/elementary-at-guadec-2019/sunset_800.jpg" alt="Sunset" srcset="/images/elementary-at-guadec-2019/sunset_1600.jpg 2x" /></p>
+  <figcaption>Sunset over the Aegean Sea</figcaption>
+</figure>
+
+<p>And of course, a huge thanks to everyone who’s bought an app on <a rel="nofollow noopener noreferrer" target="_blank" href="https://appcenter.elementary.io">AppCenter</a>, our supporters on <a rel="nofollow noopener noreferrer" target="_blank" href="https://salt.bountysource.com/teams/elementary">Bountysource</a> and <a rel="nofollow noopener noreferrer" target="_blank" href="https://www.patreon.com/elementary">Patreon</a>, and those who’ve purchased a copy of <a rel="nofollow noopener noreferrer" target="_blank" href="https://elementary.io/">elementary OS</a> or merch from <a rel="nofollow noopener noreferrer" target="_blank" href="https://elementary.io/store/">our store</a>. Each contribution helps make what we do possible. If you’d like to help improve elementary OS, don’t hesitate to <a rel="nofollow noopener noreferrer" target="_blank" href="https://elementary.io/get-involved">get involved</a>.</p>
+
+<hr />
+
+<p><em>Unless otherwise noted, all photos in this post were taken by Cassidy and are released to the public domain.</em></p>
+
+
+  </section>
+
+  
+
+
+
+</article>
+
+<div class="license">
+  <a title=" This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License" rel="license" target="_blank" href="http://creativecommons.org/licenses/by-sa/4.0/">
+    Some rights reserved
+  </a>
+  <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="creative-commons" class="svg-inline--fa fa-creative-commons fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M245.83 214.87l-33.22 17.28c-9.43-19.58-25.24-19.93-27.46-19.93-22.13 0-33.22 14.61-33.22 43.84 0 23.57 9.21 43.84 33.22 43.84 14.47 0 24.65-7.09 30.57-21.26l30.55 15.5c-6.17 11.51-25.69 38.98-65.1 38.98-22.6 0-73.96-10.32-73.96-77.05 0-58.69 43-77.06 72.63-77.06 30.72-.01 52.7 11.95 65.99 35.86zm143.05 0l-32.78 17.28c-9.5-19.77-25.72-19.93-27.9-19.93-22.14 0-33.22 14.61-33.22 43.84 0 23.55 9.23 43.84 33.22 43.84 14.45 0 24.65-7.09 30.54-21.26l31 15.5c-2.1 3.75-21.39 38.98-65.09 38.98-22.69 0-73.96-9.87-73.96-77.05 0-58.67 42.97-77.06 72.63-77.06 30.71-.01 52.58 11.95 65.56 35.86zM247.56 8.05C104.74 8.05 0 123.11 0 256.05c0 138.49 113.6 248 247.56 248 129.93 0 248.44-100.87 248.44-248 0-137.87-106.62-248-248.44-248zm.87 450.81c-112.54 0-203.7-93.04-203.7-202.81 0-105.42 85.43-203.27 203.72-203.27 112.53 0 202.82 89.46 202.82 203.26-.01 121.69-99.68 202.82-202.84 202.82z"></path></svg>
+  <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="creative-commons-by" class="svg-inline--fa fa-creative-commons-by fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M314.9 194.4v101.4h-28.3v120.5h-77.1V295.9h-28.3V194.4c0-4.4 1.6-8.2 4.6-11.3 3.1-3.1 6.9-4.7 11.3-4.7H299c4.1 0 7.8 1.6 11.1 4.7 3.1 3.2 4.8 6.9 4.8 11.3zm-101.5-63.7c0-23.3 11.5-35 34.5-35s34.5 11.7 34.5 35c0 23-11.5 34.5-34.5 34.5s-34.5-11.5-34.5-34.5zM247.6 8C389.4 8 496 118.1 496 256c0 147.1-118.5 248-248.4 248C113.6 504 0 394.5 0 256 0 123.1 104.7 8 247.6 8zm.8 44.7C130.2 52.7 44.7 150.6 44.7 256c0 109.8 91.2 202.8 203.7 202.8 103.2 0 202.8-81.1 202.8-202.8.1-113.8-90.2-203.3-202.8-203.3z"></path></svg>
+  <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="creative-commons-sa" class="svg-inline--fa fa-creative-commons-sa fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M247.6 8C389.4 8 496 118.1 496 256c0 147.1-118.5 248-248.4 248C113.6 504 0 394.5 0 256 0 123.1 104.7 8 247.6 8zm.8 44.7C130.2 52.7 44.7 150.6 44.7 256c0 109.8 91.2 202.8 203.7 202.8 103.2 0 202.8-81.1 202.8-202.8.1-113.8-90.2-203.3-202.8-203.3zM137.7 221c13-83.9 80.5-95.7 108.9-95.7 99.8 0 127.5 82.5 127.5 134.2 0 63.6-41 132.9-128.9 132.9-38.9 0-99.1-20-109.4-97h62.5c1.5 30.1 19.6 45.2 54.5 45.2 23.3 0 58-18.2 58-82.8 0-82.5-49.1-80.6-56.7-80.6-33.1 0-51.7 14.6-55.8 43.8h18.2l-49.2 49.2-49-49.2h19.4z"></path></svg>
+</div>
+
+
+<div class="social">
+  <h2>Join the Discussion on Social Media</h2>
+
+  
+    <div class="official">
+      <h3>Official Posts</h3>
+
+      
+        <a
+          href="https://twitter.com/elementary/status/1170049282575097856"
+          rel="noreferrer nofollow noopener"
+          target="_blank"
+          title="Twitter"
+          onclick="plausible('Social: Twitter')"
+        >
+          <img src="/images/twitter.svg" alt="Twitter" />
+        </a>
+      
+
+      
+        <a
+          href="https://mastodon.social/@elementary/102747110984529020"
+          rel="noreferrer nofollow noopener"
+          target="_blank"
+          title="Mastodon"
+          onclick="plausible('Social: Mastodon')"
+        >
+          <img src="/images/mastodon.svg" alt="Mastodon" />
+        </a>
+      
+
+      
+        <a
+          href="https://www.reddit.com/r/elementaryos/comments/d0jfbr/elementary_at_guadec_2019_elementary_blog/"
+          rel="noreferrer nofollow noopener"
+          target="_blank"
+          title="Reddit"
+          onclick="plausible('Social: Reddit')"
+        >
+          <img src="/images/reddit.svg" alt="Reddit" />
+        </a>
+      
+
+      
+        <a
+          href="https://www.facebook.com/elementaryos/posts/2685264938171985"
+          rel="noreferrer nofollow noopener"
+          target="_blank"
+          title="Facebook"
+          onclick="plausible('Social: Facebook')"
+        >
+          <img src="/images/facebook.svg" alt="Facebook" />
+        </a>
+      
+    </div>
+  
+
+  <div class="share">
+    <h3>Share</h3>
+    
+
+    <a
+      href="https://twitter.com/intent/tweet?text=elementary at GUADEC 2019&url=https://blog.elementary.io/elementary-at-guadec-2019/&via=elementary&original_referer=https://blog.elementary.io/elementary-at-guadec-2019/"
+      rel="noreferrer nofollow noopener"
+      target="_blank"
+      title="Twitter"
+      onclick="plausible('Share: Twitter')"
+    >
+      <img src="/images/twitter.svg" alt="Twitter" />
+    </a>
+
+    <a
+      href="http://www.reddit.com/submit?title=elementary at GUADEC 2019&url=https://blog.elementary.io/elementary-at-guadec-2019/"
+      rel="noreferrer nofollow noopener"
+      target="_blank"
+      title="Reddit"
+      onclick="plausible('Share: Reddit')"
+    >
+      <img src="/images/reddit.svg" alt="Reddit" />
+    </a>
+
+    <a
+      href="https://www.facebook.com/sharer/sharer.php?u=https://blog.elementary.io/elementary-at-guadec-2019/"
+      rel="noreferrer nofollow noopener"
+      target="_blank"
+      title="Facebook"
+      onclick="plausible('Share: Facebook')"
+    >
+      <img src="/images/facebook.svg" alt="Facebook" />
+    </a>
+
+    <a
+      href="https://blog.elementary.io/elementary-at-guadec-2019/"
+
+      title="Permalink"
+      onclick="plausible('Share: Permalink')"
+    >
+      <img src="/images/edit-copy-32.svg" alt="Permalink" />
+    </a>
+  </div>
+</div>
+
+
+
+<h2 class="up-next">Up Next</h2>
+
+
+  
+    
+
+<a class="featured with-image 1" href="/updates-for-august-2019/">
+  
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/updates-for-august-2019/date-time_1600.png);"></div>
+  
+
+  <header>
+    <h2>
+
+
+
+   Updates for August,&nbsp;2019
+
+</h2>
+    
+      <h3>
+        
+
+
+
+   Plus some info about the 5.1&nbsp;release
+
+
+        
+      </h3>
+    
+
+    
+
+
+
+<div class="byline">
+  <div class="avatar">
+    <img
+      
+        srcset="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&d=blank 2x"
+        src="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&d=blank"
+        alt="Avatar for Cassidy James Blaede"
+      
+    />
+  </div>
+  <div class="author">
+    
+    <span class="name">Cassidy James Blaede</span>
+    
+    
+      <span class="description">Co-founder & CXO</span>
+    
+  </div>
+  <time class="post-date" datetime="2019-09-19">Thu, Sep 19, 2019</time>
+  
+    <span class="read-time" title="Estimated read time">
+  
+  4 min read
+</span>
+
+
+  
+</div>
+
+
+  </header>
+
+  
+</a>
+
+
+  
+
+
+
+  
+    
+
+<a class="featured with-image 1" href="/say-hello-to-the-new-greeter/">
+  
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/say-hello-to-the-new-greeter/screenshot_1600.jpg);"></div>
+  
+
+  <header>
+    <h2>
+
+
+
+   Say Hello to the New&nbsp;Greeter
+
+</h2>
+    
+      <h3>
+        
+
+
+
+   Our redesigned login and lock&nbsp;screen
+
+
+        
+      </h3>
+    
+
+    
+
+
+
+<div class="byline">
+  <div class="avatar">
+    <img
+      
+        srcset="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&d=blank 2x"
+        src="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&d=blank"
+        alt="Avatar for Daniel Foré"
+      
+    />
+  </div>
+  <div class="author">
+    
+    <span class="name">Daniel Foré</span>
+    
+    
+      <span class="description">Founder & CEO</span>
+    
+  </div>
+  <time class="post-date" datetime="2019-08-27">Tue, Aug 27, 2019</time>
+  
+    <span class="read-time" title="Estimated read time">
+  
+  6 min read
+</span>
+
+
+  
+</div>
+
+
+  </header>
+
+  
+</a>
+
+
+  
+
+
+
+
+      <div class="medium">
+  <hr />
+  <article>
+    <h2>Looking for More?</h2>
+    <p>While we're migrating posts to the elementary blog, some older stories are still only on the <a href="https://medium.com/elementaryos" target="_blank" onclick="plausible('Link: Medium')">official elementary Medium publication</a>. Head over there to read more.
+  </article>
+</div>
+
+
+    </section>
+    <footer>
+  <p>© 2020 elementary, Inc</p>
+  <ul>
+    <li><a href="https://elementary.io/press" target="_self">Press</a></li>
+    <li><a href="https://elementary.io/brand" target="_self">Brand</a></li>
+    <li><a href="https://elementary.io/oem" target="_self">OEMs</a></li>
+    <li><a href="https://elementary.io/privacy" target="_self">Privacy</a></li>
+    <li><a href="https://elementary.io/team" target="_self">Team</a></li>
+    <li><a href="https://elementary.io/open-source" target="_self">Open Source</a></li>
+  </ul>
+</footer>
+
+    <script>
+  // Makes figure images focusable for zooming
+  let figureImages = document.querySelectorAll ("figure img");
+  figureImages.forEach (function (figureImage) {
+    figureImage.setAttribute ("tabindex", -1);
+    document.addEventListener ('mousedown', event => {
+      if (document.activeElement === figureImage) {
+        // Prevent it from triggering on focusIn
+        setTimeout (function () {
+          document.activeElement.blur ();
+        }, 100);
+      }
+    });
+  });
+</script>
+
+
+  </body>
+</html>

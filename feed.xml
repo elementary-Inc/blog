@@ -1,0 +1,1283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>elementary Blog</title>
+    <description>We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS</description>
+    <link>https://blog.elementary.io/</link>
+    <atom:link href="https://blog.elementary.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 21 Oct 2020 19:11:46 -0500</pubDate>
+    <lastBuildDate>Wed, 21 Oct 2020 19:11:46 -0500</lastBuildDate>
+    <generator>Jekyll v3.9.0</generator>
+    
+      
+        <item>
+          <title>How to Revitalize Your Mac or Windows PC</title>
+          <description>&lt;p&gt;&lt;img src=&quot;/images/revitalize-mac-windows-computer/feature_1600.jpg&quot; alt=&quot;A computer running elementary OS&quot; width=&quot;800&quot; height=&quot;534&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You might be familiar with the situation: you have what &lt;em&gt;should&lt;/em&gt; be a perfectly-good computer, but it’s crashing, running slowly, or infected with some sort of malware. Or maybe the latest macOS or Windows update came out, and it just isn’t running as well as it used to.&lt;/p&gt;
+
+&lt;p&gt;Whether this is your computer or a friend or family member’s—if you’re lucky enough to be their defacto IT person—there’s only so much you can do. You can spend hours trying to clean up the computer: uninstalling unused and suspicious programs, making sure all the drivers are up to date, running anti-virus scans, and diving deep into the settings to see if there’s anything you can tune—or the nuclear option of completely reinstalling the original operating system. You can go the hardware route and see if physically cleaning the computer, swapping to a new hard drive, or adding more RAM improves things. Or, you can give up and spend hundreds or thousands of dollars on a new computer that will just as likely run into the same issues after a few years.&lt;/p&gt;
+
+&lt;p&gt;There’s a better option, though, that just might have your computer running better than ever: revitalize it by installing a new operating system like elementary OS.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-revitalize&quot;&gt;Why Revitalize?&lt;/h2&gt;
+
+&lt;p&gt;The obvious reason it’s worth revitalizing a computer rather than buying a new one is to &lt;strong&gt;save money&lt;/strong&gt;; new computers tend to be expensive! They’re powerful, complex gadgets, and getting one that will handle everything you need and last for years can be pricey. If you go the budget computer route, the computer might not handle what you need or last as long as you’d like; using a higher-end machine from a few years ago is usually better than buying a new budget computer, as so many compromises are made just to hit a certain price point. So even if your hardware is somewhat outdated or you think it’s just time for a new machine, revitalizing is still the more budget friendly option—and usually the better route.&lt;/p&gt;
+
+&lt;p&gt;Even if money is not an issue, there are still good reasons to revitalize an existing computer. For one, it’s &lt;strong&gt;better for the planet&lt;/strong&gt;; in 2019, &lt;a href=&quot;https://globalewaste.org/news/surge-global-waste/&quot;&gt;53.6 million metric tons of electronics waste was generated, and it’s increasing by nearly two million metric tons per year&lt;/a&gt;. Electronics waste contaminates water and food supplies, putting people at risk around the world. Producing new electronics also causes pollution by releasing carbon dioxide and other gasses into the atmosphere.&lt;/p&gt;
+
+&lt;p&gt;Revitalized computers can also be handy as a &lt;strong&gt;secondary machine&lt;/strong&gt; to have around for guests, as a backup machine, etc. If you don’t personally have a need for the computer anymore, revitalized computers are &lt;strong&gt;great to repurpose&lt;/strong&gt; for schools, non-profits, small businesses, parents, or as a child’s first computer—for all the same reasons as above. Lastly, it can just be &lt;strong&gt;satisfying&lt;/strong&gt; to repurpose something and make it work better than it used to!&lt;/p&gt;
+
+&lt;p&gt;Installing a new operating system like elementary OS is a great way to completely revitalize your existing device.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-exactly-is-an-operating-system&quot;&gt;What Exactly is an Operating System?&lt;/h2&gt;
+
+&lt;p&gt;We could get way into the weeds here, but in summary: an operating system is the base software that runs on a device. It’s what you see when you turn on a computer to log in, and it provides the core user interface you use to launch apps, install updates, etc. It also comes with the default “system apps” of its own, which might include a web browser, calculator, file manager, system settings, and app store.&lt;/p&gt;
+
+&lt;figure class=&quot;constrained&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/revitalize-mac-windows-computer/logos.png&quot; alt=&quot;Logos of Windows, Android, Chrome OS, macOS, iOS, and elementary OS&quot; width=&quot;800&quot; height=&quot;492&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;Windows, Android, Chrome OS, macOS, iOS, and elementary OS are all operating systems&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;When you buy a device, it comes with an operating system already installed: Macs run macOS, Windows computers run Windows, Chromebooks run Chrome OS, Android phones run Android, iPhones run iOS, etc. You can even &lt;a href=&quot;https://elementary.io/store#devices&quot;&gt;get a computer running elementary OS&lt;/a&gt; out of the box, too.&lt;/p&gt;
+
+&lt;p&gt;Macs and computers that come with Windows, elementary OS, or other Linux-based operating systems typically let you install an alternate operating system. Just remember, when you install another operating system it replaces all of the apps and data on your computer—so be sure to back up anything important, first!&lt;/p&gt;
+
+&lt;h2 id=&quot;why-elementary-os&quot;&gt;Why elementary OS?&lt;/h2&gt;
+
+&lt;p&gt;Installing elementary OS is a great way to revitalize a computer, as it will give you a fresh new operating system built to be fast, productive, and privacy-respecting from the start.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/introducing-elementary-os-5-1-hera/notebook-desktop.png&quot; alt=&quot;elementary OS&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;elementary OS is a modern operating system without the decades of legacy that comes with Windows and macOS, meaning it’s leaner and simpler, too. It also isn’t prone to the same crashes, viruses, and malware that are commonplace on Windows. If you’re coming from a Mac, elementary OS doesn’t artificially hold back updates or features from your hardware, because we’re not trying to sell you a new Mac!&lt;/p&gt;
+
+&lt;aside&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;A fresh new operating system built to be fast, productive, and privacy-respecting from the start.&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;elementary OS is both low maintenance and easy to use, making it a perfect fit for family members, businesses, or anyone who just wants to use their computer to get things done. Updates come regularly and don’t require any extra permission to install. You can set up non-administrator accounts to let someone use the computer without having access to lower-level settings. AppCenter hosts a safe, curated selection of apps that are reviewed to ensure they work well and respect your privacy. And with Screen Time &amp;amp; Limits, you can set boundaries for yourself or non-admin users around what websites can be viewed, what apps can be used, and when the computer can be used.&lt;/p&gt;
+
+&lt;p&gt;Since elementary OS is built on a solid GNU/Linux foundation and comes with Flatpak support, there’s also a &lt;a href=&quot;https://flathub.org/home&quot;&gt;universe of non-curated apps&lt;/a&gt; that are compatible including everything from Zoom, Skype, Telegram, Slack, Firefox, and LibreOffice to Spotify, Discord, Minecraft, and even Steam. And these apps are super easy to install just by downloading and clicking. Simple!&lt;/p&gt;
+
+&lt;h2 id=&quot;getting-and-installing-elementary-os&quot;&gt;Getting and Installing elementary OS&lt;/h2&gt;
+
+&lt;p&gt;Most modern tech companies would make a product like elementary OS “free” while harvesting your data behind your back to serve ads or exchange with other companies. elementary will &lt;em&gt;never&lt;/em&gt; do that—we even &lt;a href=&quot;/privacy-and-elementary-os/&quot;&gt;actively protect your data from ourselves and others&lt;/a&gt;. We firmly believe that &lt;a href=&quot;/you-are-not-the-product&quot;&gt;you are not the product&lt;/a&gt;; elementary OS itself is. And while Microsoft charges $200 or more for a full-featured copy of Windows 10 &lt;em&gt;and&lt;/em&gt; harvests your data, &lt;strong&gt;elementary OS is available for a pay-what-you-want price&lt;/strong&gt;, meaning you choose the amount you’re able to pay, and you get a copy. If you’re a student—or just short on cash—you can even type $0 to get elementary OS for free, then &lt;a href=&quot;https://elementary.io/get-involved#funding&quot;&gt;come back and contribute later&lt;/a&gt;. To get elementary OS, just head to &lt;a href=&quot;https://elementary.io&quot;&gt;elementary.io&lt;/a&gt;.&lt;/p&gt;
+
+&lt;aside&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;We firmly believe that you are not the product; elementary OS itself is.&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;We have a &lt;a href=&quot;https://elementary.io/docs/installation&quot;&gt;step-by-step installation guide&lt;/a&gt; to help get you going. elementary OS is designed so you can try it out on your device before you commit to installing it, too: when you boot your computer to the installer, it runs off of a flash drive instead of your computer’s hard drive. If you decide to go ahead with the installation, the installer walks you through the few options and then you’re good to go.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;
+  &lt;p&gt;&lt;a href=&quot;https://elementary.io&quot; class=&quot;button&quot;&gt;Learn More and Download&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+          <pubDate>Fri, 16 Oct 2020 00:00:00 -0500</pubDate>
+          <link>https://blog.elementary.io/revitalize-mac-windows-computer/</link>
+          <guid isPermaLink="true">https://blog.elementary.io/revitalize-mac-windows-computer/</guid>
+          
+              
+              
+          <enclosure url="https://blog.elementary.io" />
+          
+          
+          <category>evergreen</category>
+          
+          <category>meta</category>
+          
+          
+        </item>
+      
+    
+      
+        <item>
+          <title>Platform Changes in elementary OS 6</title>
+          <description>&lt;p&gt;Since elementary makes regular updates to elementary OS throughout its lifecycle, you may be asking yourself why development focus has shifted to elementary OS 6 and why these updates can’t be shipped to elementary OS 5. In short, the answer is big, breaking changes in technology. While our updates to elementary OS 5 have been largely incremental improvements, elementary OS 6 rips up old plumbing and reconsiders how things work under-the hood in order to enable new features, make your experience more stable and reliable, improve compatibility with third-party apps, and make our desktop more portable to other open source operating systems. Here is a slightly technical look at some of the changes that you’ll see in the next big version of elementary OS.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-new-scss-based-system-stylesheet&quot;&gt;A New (S)CSS-based System Stylesheet&lt;/h2&gt;
+
+&lt;figure&gt;
+  &lt;picture&gt;
+    &lt;source srcset=&quot;/images/platform-changes-in-elementary-os-6/widget-factory-dark@2x.png&quot; media=&quot;(prefers-color-scheme: dark)&quot; /&gt;
+    &lt;img alt=&quot;GTK Widget Factory&quot; src=&quot;/images/platform-changes-in-elementary-os-6/widget-factory@2x.png&quot; width=&quot;1249&quot; height=&quot;743&quot; /&gt;
+  &lt;/picture&gt;
+&lt;figcaption&gt;A selection of widget styles using the new work-in-progress Sass stylesheet&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Believe it or not, the CSS-based system stylesheet shipped in elementary OS 5 has been in development for 7 years already. It has gone through many iterations and breaking changes in GTK which have resulted in a bit of cruft over time. And after these many years of refinement it has become clear that it contains some fundamental shortcomings that have manifested as various small UI bugs. In elementary OS 6, we have completely rewritten our Gtk.CSS system stylesheet using &lt;a href=&quot;https://sass-lang.com&quot;&gt;Sass&lt;/a&gt;, a CSS extension language that compiles down into GTK-compatible CSS. This enables a major new feature—customizable accent colors—and makes it much easier to properly maintain the dark style. We’ve also greatly improved compatibility with apps built for the GNOME “Adwaita” stylesheet. You’ll notice a much more uniform appearance thanks to the use of Sass features like inheritance and functions, all while maintainability is made much easier by nesting.&lt;/p&gt;
+
+&lt;p&gt;The overall visual style retains much of our iconic look, but features improved use of light and shadow and increases contrast for better legibility as well as making button styles much more prominent. All of this to say that while things are still a work in progress, elementary OS 6 already looks really, really good. We’ll have a more in-depth post later comparing the major differences in appearance between elementary OS 5 and 6, including changes to iconography.&lt;/p&gt;
+
+&lt;h2 id=&quot;settings-daemon&quot;&gt;Settings Daemon&lt;/h2&gt;
+
+&lt;p&gt;We already make use of GNOME Settings daemon to provide a simple configuration interface for many system functions, but in elementary OS 6 we’re also introducing our own settings daemon to provide additional features. One of the major functions of elementary settings daemon is to keep your settings in sync with the login and lock screen. This has already brought keyboard layout switching to the login and lock screen and will eventually support keeping many more configuration options in sync. elementary settings daemon also handles an automatic dark style schedule, and we’re investigating other ways this new settings daemon can streamline system components, improve reliability, and provide better compatibility with third-party apps.&lt;/p&gt;
+
+&lt;h2 id=&quot;screen-shield&quot;&gt;Screen Shield&lt;/h2&gt;
+
+&lt;p&gt;In elementary OS 5, you may have encountered issues with automatic screen locking while watching videos or performing other long-running tasks that shouldn’t be interrupted or cases where your automatic screen locking settings weren’t being respected. In elementary OS 6, we’ve replaced Light Locker with our own “screen shield” implementation. This implementation leans more heavily on features provided by GNOME Settings Daemon and brings greater compatibility with third-party apps. This new screen shield reliably respects the &lt;a href=&quot;https://valadoc.org/gtk+-3.0/Gtk.Application.inhibit.html&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Gtk.Application.Inhibit&lt;/code&gt;&lt;/a&gt; API which makes it much easier for developers to request that your device doesn’t automatically lock or sleep. It also introduces a nice fade out animation right before sleep, and it makes use of “late locking” which means you can continue to play music in the background until you wake the device up.&lt;/p&gt;
+
+&lt;p&gt;This new screen shield also replaces an old component called DPMS Helper and provides better portability for those who like to run Pantheon on other operating systems like Fedora and NixOS. Overall, your screen locking and sleep experience should be much more reliable and predictable in elementary OS 6.&lt;/p&gt;
+
+&lt;h2 id=&quot;improved-accessibility-features&quot;&gt;Improved Accessibility Features&lt;/h2&gt;
+
+&lt;p&gt;You may already be familiar with the Reveal Pointer and Dwell Click features present in elementary OS 5. While Reveal Pointer makes it easy to locate the pointer on your display, Dwell Click provides assistance to people who may have trouble clicking mouse buttons such as those suffering from RSI, Arthritis, or even temporary disability like a broken finger. In elementary OS 5 these feature were provided by plugins to the GNOME Settings Daemon, but in elementary OS 6 they are now provided directly by our window manager. The primary motivation for this change is the eventual move to Wayland (a protocol that will make your device faster and safer), but this also gives us more creative control over these features. For example, Dwell Click settings are now available from a system indicator in the panel instead of using an awkward floating window.&lt;/p&gt;
+
+&lt;h2 id=&quot;screenshot-interface&quot;&gt;Screenshot Interface&lt;/h2&gt;
+
+&lt;p&gt;Another step towards preparing for Wayland is the implementation of the screenshot interface in the window manager. In short, this now means that screenshots are captured by the window manager, whether taken from the Screenshot app or with a keyboard shortcut. This vastly simplifies the functionality of the Screenshot app and ensures feature parity between the two interfaces. In a future release of elementary OS that makes use of Wayland, this will eventually provide the ability to require that apps ask your permission before capturing the screen, improving your privacy.&lt;/p&gt;
+
+&lt;h2 id=&quot;improved-notifications&quot;&gt;Improved Notifications&lt;/h2&gt;
+
+&lt;figure&gt;
+  &lt;picture&gt;
+    &lt;source srcset=&quot;/images/platform-changes-in-elementary-os-6/notification-dark@2x.png&quot; media=&quot;(prefers-color-scheme: dark)&quot; /&gt;
+    &lt;img alt=&quot;Notification Bubble&quot; src=&quot;/images/platform-changes-in-elementary-os-6/notification@2x.png&quot; width=&quot;416&quot; height=&quot;176&quot; /&gt;
+  &lt;/picture&gt;
+&lt;figcaption&gt;New notification bubbles support full-color Emoji&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;In elementary OS 5, the component which draws notification bubbles on screen is part of the window manager. When the feature was first introduced, this gave us a lot of control over drawing and animations and made sense since these bubbles are placed and interacted with differently from app windows. However, we soon encountered major drawbacks with regards to making notifications more expressive and interactive. In elementary OS 6, notifications are drawn using Gtk, the same toolkit we use for apps. We’ve been able to retain the general look and feel of the old notifications while making them more consistent with the rest of the system. Plus, we can now support the system dark style preference, support for images in notifications is improved, we can display full-color emoji, and soon we will be able to support notifications with buttons so you can take action quickly without having to navigate away from the things you’re focused on.&lt;/p&gt;
+
+&lt;p&gt;The notifications indicator is also receiving a face lift to better mirror the capabilities of notification bubbles. You can look forward to the same improved handling of images and actions as well as features like the ability for apps to replace old notifications with up-to-date ones. This will keep your list of missed notifications lean and relevant.&lt;/p&gt;
+
+&lt;h2 id=&quot;multi-touch-gestures&quot;&gt;Multi-touch Gestures&lt;/h2&gt;
+
+&lt;figure&gt;
+  &lt;picture&gt;
+    &lt;source srcset=&quot;/images/platform-changes-in-elementary-os-6/notification-swipe-dark@2x.png&quot; media=&quot;(prefers-color-scheme: dark)&quot; /&gt;
+    &lt;img alt=&quot;Notification Center&quot; src=&quot;/images/platform-changes-in-elementary-os-6/notification-swipe@2x.png&quot; width=&quot;393&quot; height=&quot;666&quot; /&gt;
+  &lt;/picture&gt;
+&lt;figcaption&gt;A notification bubble being swiped away in the new Notification Center&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;In elementary OS 6, we’re shipping the latest version of &lt;a href=&quot;https://valadoc.org/libhandy-1/Hdy.html&quot;&gt;Handy&lt;/a&gt;, a development library originally meant to make it easier to develop apps for Open Source mobile operating systems like PureOS. Handy provides navigation widgets that react to multi-touch gestures with 1:1 finger tracking. You may have already experienced this in elementary OS 5 in the applications menu and during onboarding. We now provide these 1:1 swipe navigation gestures in many other places like the Date &amp;amp; Time indicator, during multi-step configuration such as in the Installer and Keyboard Input Settings, and when navigating inside apps like Feedback. We’re also working on gestures for things like dismissing bubbles in the notifications indicator, and the latest versions of both WebKit and the Epiphany web browser support these multi-touch gestures. We still have some work to do, but our goal is to make navigation as easy as a swipe system-wide.&lt;/p&gt;
+
+&lt;h2 id=&quot;system-wide-flatpak-support&quot;&gt;System-wide Flatpak Support&lt;/h2&gt;
+
+&lt;p&gt;You may be aware that we already support sideloading Flatpak apps in elementary OS 5, and that AppCenter will help you keep those apps up to date. And when you side load an app, the installation is local to your account so you can install as many apps as you like without cluttering up others’ accounts. In elementary OS 6, we also support sharing Flatpak apps system wide. This is essential for our plan to ship apps in elementary OS as Flatpaks out of the box. The first app we plan to ship as a Flatpak is our web browser Epiphany.&lt;/p&gt;
+
+&lt;p&gt;We want to start with Epiphany for two main reasons. The first reason is that as your primary portal to the web, confining web pages opened in Epiphany is a big step up for security. The second reason is that the web is constantly changing and evolving, so it’s important for us to be able to ship the very latest in web rendering technology. At the moment, we ship updates to WebKit (the rendering engine used by Epiphany and other popular web browsers like Safari) when Canonical does. This means that WebKit gets frequent security updates, but sometimes lags behind on features and compatibility. With the Epiphany Flatpak, we’ll be able to ship the latest WebKit in a confined manner to make sure you can browser the web in a secure, fast, Open Source, and widely compatible web browser.&lt;/p&gt;
+
+&lt;h2 id=&quot;not-wayland-yet&quot;&gt;Not Wayland (Yet)&lt;/h2&gt;
+
+&lt;p&gt;Since I mentioned Wayland a couple of times, I want to make it clear that we aren’t quite ready to make that transition just yet. While making steps towards Wayland-readiness we’re able to improve our architecture and prepare for features that increase security and privacy, but there’s still a lot to do before we can run elementary OS with Wayland. Since Ubuntu—our immediate upstream—has also made the decision to stick with X11 for their 20.04 LTS release, we feel like it’s reasonable to take our time and make sure we get it right.&lt;/p&gt;
+
+&lt;h2 id=&quot;get-early-access&quot;&gt;Get Early Access&lt;/h2&gt;
+
+&lt;p&gt;If you’re excited by what you read here and want to get your hands on the developer preview of elementary OS 6, you can! GitHub sponsors at the $10/mo or above tier get access to our daily builds server where you can test the latest and greatest experimental builds, including builds for Pinebook Pro. Subscribing helps us fund the development of elementary OS and brings us that much closer to delivering the final product.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;
+  &lt;p&gt;&lt;a href=&quot;https://builds.elementary.io&quot; class=&quot;button&quot;&gt;Get Early Access Builds&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+          <pubDate>Mon, 05 Oct 2020 00:00:00 -0500</pubDate>
+          <link>https://blog.elementary.io/platform-changes-in-elementary-os-6/</link>
+          <guid isPermaLink="true">https://blog.elementary.io/platform-changes-in-elementary-os-6/</guid>
+          
+              
+              
+          <enclosure url="https://blog.elementary.io" />
+          
+          
+          <category>odin</category>
+          
+          
+        </item>
+      
+    
+      
+        <item>
+          <title>Slimbook Joins the elementary OS Retailer Program</title>
+          <description>&lt;figure&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/devices-slimbook/slimbook-feature.jpg&quot; alt=&quot;Slimbook Pro X and Apollo&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;&lt;strong&gt;Left:&lt;/strong&gt; Slimbook Pro X | &lt;strong&gt;Right:&lt;/strong&gt; Slimbook Apollo&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://slimbook.es?utm_source=referral&amp;amp;utm_medium=elementary&amp;amp;utm_campaign=elementary&quot;&gt;Slimbook&lt;/a&gt; &lt;small&gt;(&lt;a href=&quot;https://slimbook.es/en?utm_source=referral&amp;amp;utm_medium=elementary&amp;amp;utm_campaign=elementary&quot;&gt;English version&lt;/a&gt;)&lt;/small&gt; offers several laptops, desktops, mini desktops, and all-in-ones with elementary OS. Based in Spain, they specialize in hardware specifically designed to run Linux-based operating systems. Slimbook joins &lt;a href=&quot;/now-shipping-elementary-os&quot;&gt;existing retailers&lt;/a&gt; to offer customers an increasingly wide range of devices running elementary OS out of the box while directly supporting elementary with each purchase.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/devices-slimbook/slimbook-essential-15.jpg&quot; alt=&quot;Slimbook Essential 15&quot; /&gt;&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;This coincides nicely with Slimbook’s recent launch of their new &lt;a href=&quot;https://slimbook.es/essential?utm_source=referral&amp;amp;utm_medium=elementary&amp;amp;utm_campaign=elementary&quot;&gt;Essential&lt;/a&gt; &lt;small&gt;(&lt;a href=&quot;https://slimbook.es/en/essential-en?utm_source=referral&amp;amp;utm_medium=elementary&amp;amp;utm_campaign=elementary&quot;&gt;English version&lt;/a&gt;)&lt;/small&gt; line. These 14- and 15-inch laptops are focused on being more affordable while still offering great hardware. They come with 10th-gen Intel Core processors, backlit keyboards, DDR4 memory, and fast NVMe storage—all starting at 499€ as of this post.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;
+  &lt;p&gt;&lt;a href=&quot;https://slimbook.es?utm_source=referral&amp;amp;utm_medium=elementary&amp;amp;utm_campaign=elementary&quot; class=&quot;button&quot;&gt;Visit Slimbook&lt;/a&gt;&lt;br /&gt;
+&lt;small&gt;&lt;a href=&quot;https://slimbook.es/en?utm_source=referral&amp;amp;utm_medium=elementary&amp;amp;utm_campaign=elementary&quot;&gt;English version&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Slimbook’s joining the program brings the total to over two dozen models from different retailers. For more background on our work with OEMs—including why it’s so important to the user experience—see our &lt;a href=&quot;/now-shipping-elementary-os&quot;&gt;Now Shipping elementary OS&lt;/a&gt; blog post.&lt;/p&gt;
+
+&lt;aside&gt;
+
+
+
+&lt;a class=&quot;featured with-image 1&quot; href=&quot;/now-shipping-elementary-os/&quot;&gt;
+  
+    &lt;div class=&quot;featured-image&quot; alt=&quot;Featured image&quot; style=&quot;background-image: url(/images/now-shipping-elementary-os/card@2x.png);&quot;&gt;&lt;/div&gt;
+  
+
+  &lt;header&gt;
+    &lt;h2&gt;
+
+
+
+   Now Shipping elementary&amp;nbsp;OS
+
+&lt;/h2&gt;
+    
+      &lt;h3&gt;
+        
+
+
+
+   Over a dozen models from two retailers, and&amp;nbsp;counting
+
+
+        
+      &lt;/h3&gt;
+    
+
+    
+
+
+
+&lt;div class=&quot;byline&quot;&gt;
+  &lt;div class=&quot;avatar&quot;&gt;
+    &lt;img srcset=&quot;https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&amp;amp;d=blank 2x&quot; src=&quot;https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&amp;amp;d=blank&quot; alt=&quot;Avatar for Cassidy James Blaede&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;author&quot;&gt;
+    
+    &lt;span class=&quot;name&quot;&gt;Cassidy James Blaede&lt;/span&gt;
+    
+    
+      &lt;span class=&quot;description&quot;&gt;Co-founder &amp;amp; CXO&lt;/span&gt;
+    
+  &lt;/div&gt;
+  &lt;time class=&quot;post-date&quot; datetime=&quot;2020-06-11&quot;&gt;Thu, Jun 11, 2020&lt;/time&gt;
+  
+    &lt;span class=&quot;read-time&quot; title=&quot;Estimated read time&quot;&gt;
+  
+  5 min read
+&lt;/span&gt;
+
+
+  
+&lt;/div&gt;
+
+
+  &lt;/header&gt;
+
+  
+&lt;/a&gt;
+
+
+&lt;/aside&gt;
+
+&lt;h2 id=&quot;updates-from-existing-retailers&quot;&gt;Updates from Existing Retailers&lt;/h2&gt;
+
+&lt;p&gt;Both &lt;a href=&quot;https://laptopwithlinux.com/?ref=36&amp;amp;utm_source=referral&amp;amp;utm_medium=elementary&amp;amp;utm_campaign=elementary&quot;&gt;Laptop with Linux&lt;/a&gt; and &lt;a href=&quot;https://starlabs.systems/?rfsn=4227837.e8f025&quot;&gt;Star Labs&lt;/a&gt; have launched additional models with elementary OS.&lt;/p&gt;
+
+&lt;h3 id=&quot;laptop-with-linux&quot;&gt;Laptop With Linux&lt;/h3&gt;
+
+&lt;p&gt;Laptop With Linux has launched new &lt;a href=&quot;https://laptopwithlinux.com/product/tongfang-pf4nu1f/?ref=36&amp;amp;utm_source=referral&amp;amp;utm_medium=elementary&amp;amp;utm_campaign=elementary&quot;&gt;14-inch&lt;/a&gt; and &lt;a href=&quot;https://laptopwithlinux.com/product/tongfang-pf5nu1g-amd-linux-laptop/?ref=36&amp;amp;utm_source=referral&amp;amp;utm_medium=elementary&amp;amp;utm_campaign=elementary&quot;&gt;15.6-inch&lt;/a&gt; Tongfang laptops with AMD Ryzen processors. These new models sport durable but lightweight magnesium-alloy chassis, IPS displays, and up to 8-core AMD Ryzen 7 4800H processors. As of this post, they start around $740 USD.&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/devices-slimbook/laptop-with-linux-tongfang-15.png&quot; alt=&quot;Tongfang 15&quot; /&gt;
+&lt;img src=&quot;/images/devices-slimbook/laptop-with-linux-super.jpg&quot; alt=&quot;Super key&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;&lt;strong&gt;Left:&lt;/strong&gt; Tongfang Ryzen laptop | &lt;strong&gt;Right:&lt;/strong&gt; Close-up of Super key&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;These models are also the first from Laptop With Linux to feature their new “Super” key design, referred to in elementary OS with the &lt;a href=&quot;/why-the-looped-square-symbol&quot;&gt;Looped Square (⌘) symbol&lt;/a&gt;. Lastly, Laptop with Linux now ships worldwide with VAT-free checkout for countries outside the EU.&lt;/p&gt;
+
+&lt;h3 id=&quot;star-labs&quot;&gt;Star Labs&lt;/h3&gt;
+
+&lt;p&gt;The new &lt;a href=&quot;https://starlabs.systems/pages/lite-mk-iii?rfsn=4227837.e8f025&quot;&gt;Lite Mk III&lt;/a&gt; is available for pre-order from Star Labs now. It’s a tiny, fanless, but capable laptop with an 11-inch matte IPS display. It rocks a backlit keyboard, glass trackpad, and stereo speakers—and it charges over USB-C. As of this post, it starts at $432 USD.&lt;/p&gt;
+
+&lt;figure class=&quot;constrained&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/devices-slimbook/star-labs-lite-mk-iii.png&quot; alt=&quot;Star Labs Lite Mk III&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;Star Labs Lite Mk III&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Star Labs is also bringing Coreboot to the &lt;a href=&quot;https://starlabs.systems/pages/labtop-mk-iv?rfsn=4227837.e8f025&quot;&gt;LabTop Mk IV&lt;/a&gt; soon; this means faster boot times and a more open and verifiable boot process.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;As always, you can find our growing list of retailers on our &lt;a href=&quot;https://elementary.io/store/#devices&quot;&gt;store&lt;/a&gt;. If you’re an OEM that would like to discuss becoming a retailer or partner, please see our &lt;a href=&quot;https://elementary.io/oem&quot;&gt;Information for OEMs&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;
+  &lt;p&gt;&lt;a href=&quot;https://elementary.io/store/#devices&quot; class=&quot;button&quot;&gt;Visit the Store&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+          <pubDate>Thu, 24 Sep 2020 00:00:00 -0500</pubDate>
+          <link>https://blog.elementary.io/devices-slimbook/</link>
+          <guid isPermaLink="true">https://blog.elementary.io/devices-slimbook/</guid>
+          
+              
+              
+          <enclosure url="https://blog.elementary.io" />
+          
+          
+          <category>devices</category>
+          
+          
+        </item>
+      
+    
+      
+        <item>
+          <title>elementary OS on Pinebook Pro</title>
+          <description>&lt;p&gt;In June, &lt;a href=&quot;https://pine64.org&quot;&gt;PINE64&lt;/a&gt; reached out to see if elementary would be interested in experimenting with elementary OS on &lt;a href=&quot;https://www.pine64.org/pinebook-pro/&quot;&gt;Pinebook Pro&lt;/a&gt;. We’d been loosely following PINE64 and the progress of Pinebook Pro, but hadn’t gotten our hands on one—so we expressed our interest. PINE64 was gracious enough to send a few devices out to members of our team, and our work began.&lt;/p&gt;
+
+&lt;figure class=&quot;constrained&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/elementary-os-on-pinebook-pro/card.jpg&quot; alt=&quot;Pinebook Pro&quot; width=&quot;2048&quot; height=&quot;1364&quot; /&gt;&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;First, a bit of a disclaimer: Pinebook Pro support is still considered an experiment for elementary OS, and it’s not something we have committed to officially support indefinitely. That said, the experience so far has been a lot of fun, and we’re happy with the current state. Second, this post isn’t going to get into a lot of details about the hardware itself; for that, see &lt;a href=&quot;https://cassidyjames.com/blog/pinebook-pro/&quot;&gt;Cassidy’s recent personal blog post&lt;/a&gt;. Lastly, our work on bringing elementary OS to Pinebook Pro has been made possible by PINE64 generously providing the hardware as well as by funding from our &lt;a href=&quot;https://builds.elementary.io&quot;&gt;Early Access&lt;/a&gt; sponsors. If you’d like to see more projects like this, consider backing us on &lt;a href=&quot;https://github.com/sponsors/elementary&quot;&gt;GitHub Sponsors&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;bringing-elementary-os-to-pinebook-pro&quot;&gt;Bringing elementary OS to Pinebook Pro&lt;/h2&gt;
+
+&lt;p&gt;The process of producing both functional and high-quality builds of elementary OS for Pinebook Pro has been long, but was made substantially easier thanks to help from PINE64 and the work of other projects.&lt;/p&gt;
+
+&lt;h3 id=&quot;kernel--bootloader&quot;&gt;Kernel &amp;amp; Bootloader&lt;/h3&gt;
+
+&lt;p&gt;Thanks to the great work that the Manjaro ARM team have done in this field, getting a working kernel for the Pinebook Pro was relatively painless. We’ve simply taken a mainline kernel straight from &lt;a href=&quot;https://kernel.org&quot;&gt;kernel.org&lt;/a&gt;, applied a few patches copied from the Manjaro repository and used a configuration set similar to the Manjaro one. It needed tweaking slightly to be compatible with the way Ubuntu/elementary works. For example, we’ve had to disable kernel module compression in the kernel configuration as this isn’t compatible with the Ubuntu &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;update-initramfs&lt;/code&gt; scripts yet.&lt;/p&gt;
+
+&lt;p&gt;As of this post, Ubuntu hasn’t released any kernels that are new enough or contain the necessary tweaks, options, and patches to run on the Pinebook Pro. So this is one major area where the Pinebook Pro builds differ from the regular Intel/AMD builds. We were initially using kernel 5.7, but have since upgraded to 5.8, which allowed dropping some more patches that have been mainlined.&lt;/p&gt;
+
+&lt;p&gt;elementary normally relies heavily on the fantastic work done by Canonical in testing and maintaining kernel releases. So maintaining our own kernel configuration and patchset is a bit of a departure from that. Ubuntu already releases &lt;a href=&quot;https://packages.ubuntu.com/focal/linux-raspi&quot;&gt;specific kernels for the Raspberry Pi&lt;/a&gt;, perhaps we’ll see a ready made Pinebook Pro one in the future. In the short term however, we may consider packaging the Pinebook Pro kernel into a .deb and hosting it on a PPA, so we can push updates in future if necessary. For now, though, the kernel is just built into the image at build time and so &lt;strong&gt;does not currently receive updates&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;The bootloader is a similar story. We needed a version that was new enough to support the Pinebook Pro and a few patches, so this has come directly from mainline u-boot and not yet packaged as an upgradable .deb.&lt;/p&gt;
+
+&lt;h3 id=&quot;performance&quot;&gt;Performance&lt;/h3&gt;
+
+&lt;p&gt;Despite elementary OS being a relatively performant distribution, the experience still isn’t as good as you might hope given the capability of the hardware. This is down to GTK3 largely not using GPU acceleration, especially when running on Xorg. There are a number of tweaks we’ve applied to improve the experience somewhat, though there won’t be any big leaps in performance until we can move the stack to Wayland and to a greater extent GTK4.&lt;/p&gt;
+
+&lt;p&gt;One interesting point is that you can clearly notice the difference between the GPU accelerated animations (done by the Compositor) and those done largely on the CPU by GTK. For example, the &lt;kbd&gt;Alt&lt;/kbd&gt;&lt;kbd&gt;Tab&lt;/kbd&gt; animation feels pretty smooth compared to the animation used when opening the applications menu. So the potential of the hardware is there, the software stack just isn’t quite ready to take advantage of it yet.&lt;/p&gt;
+
+&lt;p&gt;The first performance tweak we applied was disabling the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ondemand&lt;/code&gt; CPU governor which is forced on by default as a systemd unit on Ubuntu. This allows the kernel to use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;schedutil&lt;/code&gt; governor which has been enabled and set as the default in our kernel configuration. The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;schedutil&lt;/code&gt; governor is a much newer governor with an awareness of the different performance/power utilization levels of the big.LITTLE cores in the ARM CPU. Switching to this gave an immediate noticeable gain in performance.&lt;/p&gt;
+
+&lt;p&gt;Both &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ondemand&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;schedutil&lt;/code&gt; scale the frequency of the processor cores in response to load. However, if they aren’t doing this efficiently or if the CPU has delays or slowdowns while it’s switching frequency, you notice a bit of latency while the frequency picks up, then things feel a bit more speedy for a few seconds and then they slow down again.&lt;/p&gt;
+
+&lt;p&gt;We’ve opted to increase the minimum frequencies of both the CPU and GPU to reduce some of this sluggishness. This has the downside of reducing the battery life slightly. But given the already excellent battery life, we felt it was a reasonable trade-off.&lt;/p&gt;
+
+&lt;p&gt;If you wish to disable these frequency tweaks and have longer battery life but worse performance instead, you can comment out the lines in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/etc/tmpfiles.d/cpufreq.conf&lt;/code&gt; and reboot.&lt;/p&gt;
+
+&lt;h3 id=&quot;keyboard-and-trackpad-tweaks&quot;&gt;Keyboard and Trackpad Tweaks&lt;/h3&gt;
+
+&lt;p&gt;We’ve applied three different configuration tweaks to get the keyboard and trackpad functioning better under elementary OS.&lt;/p&gt;
+
+&lt;p&gt;The first is some UDev configuration originated from Manjaro to correctly map the sleep (&lt;kbd&gt;Fn&lt;/kbd&gt;&lt;kbd&gt;Esc&lt;/kbd&gt;) and brightness (&lt;kbd&gt;Fn&lt;/kbd&gt;&lt;kbd&gt;F1&lt;/kbd&gt;/&lt;kbd&gt;F2&lt;/kbd&gt;) keys on the keyboard. Some similar configuration tweaks could be used to essentially invert the &lt;kbd&gt;Fn&lt;/kbd&gt; key (i.e. pressing the &lt;kbd&gt;F1&lt;/kbd&gt; key would turn the brightness down and &lt;kbd&gt;Fn&lt;/kbd&gt;&lt;kbd&gt;F1&lt;/kbd&gt; would function as F1), but we’re not sure if we will ship that by default.&lt;/p&gt;
+
+&lt;p&gt;The second tweak is some LibInput configuration at &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/etc/libinput/local-overrides.quirks&lt;/code&gt;. This file tells LibInput that the Pinebook keyboard is “internal”, as it automatically assumes USB keyboards (the Pinebook Pro keyboard is on the USB bus) are external unless it is told otherwise. This has the effect of allowing LibInput to “pair” the keyboard with the trackpad, meaning that when the “disable while typing” setting is enabled for the trackpad, it functions correctly. External keyboards do not disable the trackpad.&lt;/p&gt;
+
+&lt;p&gt;The final tweak at the bottom of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/etc/udev/hwdb.d/10-usb-kbd.hwdb&lt;/code&gt; disables a device that the keyboard firmware reports as a “keyboard mouse”. We assume that the keyboard firmware has some provision for a Trackpoint-style pointer that doesn’t physically exist on the keyboard, but the firmware still reports it. Having this device enabled resulted in the trackpad being disabled if you enabled the “disable when external mouse connected” option. The phantom “keyboard mouse” device was again assumed to be external, meaning LibInput assumed you had an additional external mouse connected and that you didn’t want the trackpad anymore.&lt;/p&gt;
+
+&lt;p&gt;It’s possible that some/all of these tweaks are not necessary/useful on distributions that use the Synaptics driver instead of LibInput for the trackpad, but elementary OS uses LibInput by default.&lt;/p&gt;
+
+&lt;h3 id=&quot;power-management&quot;&gt;Power Management&lt;/h3&gt;
+
+&lt;p&gt;The biggest and most time consuming issue we came across while porting elementary OS to the Pinebook Pro was a sporadic issue with shutdown not powering off the device. Sometimes the power light would go off, but the device was still secretly on, draining battery and you had to hard reset by holding the power button and then powering on again. Other times the power light would flash red (indicating a kernel panic), and on occasion, it would shut down properly/normally.&lt;/p&gt;
+
+&lt;p&gt;Using a UART cable for debugging resulted in some kernel warnings about the i2c code for handling the shutdown call to the PMIC (Power Management Integrated Circuit) not being “atomic”. This turned out to be an important hint, but it is a relatively normal message that you’ll also see on other distributions using a similar kernel.&lt;/p&gt;
+
+&lt;p&gt;After much digging, it turned out that something in our stack pulls in a package called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;irqbalance&lt;/code&gt; by default. This distributes the hardware interrupts among the CPU cores to try and get better performance. The fact that the i2c code in the Rockchip driver is not atomic means that it relies on interrupts to function.&lt;/p&gt;
+
+&lt;p&gt;During shutdown, the kernel disables interrupts on all but the first CPU core. The fact that &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;irqbalance&lt;/code&gt; has potentially told a different core to handle the interrupts for the PMIC is the problem here. It also explains the random/sporadic behavior. Removing the package was enough to fix the issue as the kernel has its own interrupt distribution code and is smart enough to ensure the interrupts are handled on the first core during shutdown.&lt;/p&gt;
+
+&lt;p&gt;A lot of ARM platforms handle power management functions like shutdown and suspend in a low level firmware interface called PSCI (Power State Coordination Interface). Instead of communicating directly with the PMIC chip like the current kernel in the Pinebook Pro image does, the kernel can communicate with the standardized PSCI API.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, these shutdown and suspend interfaces are not yet implemented in the open-source ARM TF-A (Trusted Firmware-A) meaning these functions have been implemented in the kernel in a non-standard way. This is understandable given the amount of work required to implement these functions in the low level firmware. Hopefully, when these features are implemented in the firmware, it should be possible to drop these non-standard patches and hopefully have improved suspend power draw levels.&lt;/p&gt;
+
+&lt;p&gt;A lot of manufacturers of ARM platforms offer a BSP (Board Support Package), which can include closed source firmware and a custom kernel (which is now a relatively out of date version). Rockchip offers a BSP firmware image and kernel where the suspend performance is improved, but we’ve opted for up to date and more easily auditable versions of these components.&lt;/p&gt;
+
+&lt;h2 id=&quot;looking-forward&quot;&gt;Looking Forward&lt;/h2&gt;
+
+&lt;p&gt;Now that we’ve enabled builds for Pinebook Pro and have a few contributors using it on a regular basis, we’ll likely continue using and treating it as a sort of common benchmark platform. For example, the lower-powered nature of the hardware lends itself well as a performance baseline that we can use to improve elementary OS. This work can help us tune and improve performance across all platforms—not just Pinebook Pro.&lt;/p&gt;
+
+&lt;p&gt;More generally, this experience has also been the first time we’ve had a coordinated hardware enablement effort with multiple contributors using identical machines. This sort of workflow has significant advantages, and may inform our hardware decisions going forward.&lt;/p&gt;
+
+&lt;h2 id=&quot;run-elementary-os-on-pinebook-pro&quot;&gt;Run elementary OS on Pinebook Pro&lt;/h2&gt;
+
+&lt;p&gt;In its current state, we would not consider elementary OS on Pinebook Pro as polished of an experience as running on well-supported Intel-based hardware.&lt;/p&gt;
+
+&lt;p&gt;That said, the audience for Pinebook Pro is substantially more technical and Linux-savvy than your average computer user; as such, we’ve decided to publish our experimental builds under our &lt;a href=&quot;https://builds.elementary.io&quot;&gt;Early Access builds&lt;/a&gt; program. This means dedicated &lt;a href=&quot;https://github.com/sponsors/elementary&quot;&gt;sponsors&lt;/a&gt; of elementary OS who wish to run elementary OS on Pinebook Pro can download it from the same place as Early Access builds of elementary OS. As a note, all of this work has been focused on bringing the &lt;strong&gt;pre-release of elementary OS 6&lt;/strong&gt; to Pinebook Pro, so all the usual disclaimers about pre-release builds apply here as well.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;p&gt;&lt;a href=&quot;https://github.com/elementary/os/wiki/Pinebook-Pro&quot; class=&quot;button&quot;&gt;Pinebook Pro on the elementary OS Wiki&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Once you have access to Early Access builds, head over to the &lt;a href=&quot;https://github.com/elementary/os/wiki/Pinebook-Pro&quot;&gt;elementary OS wiki&lt;/a&gt; to get it installed on your own hardware. If you find and file any issues, please remember to specify the build of the OS you downloaded as well as that you are running on Pinebook Pro—it will help us validate and triage issues much more quickly.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;aside&gt;
+  &lt;h2 id=&quot;sponsor-david-hewitt&quot;&gt;Sponsor David Hewitt&lt;/h2&gt;
+
+  &lt;p&gt;Cassidy from elementary here. David Hewitt has done the vast majority of this work on a volunteer basis, tackling the low-level issues and getting builds up and running for Pinebook Pro. To support him and his work directly, please consider &lt;a href=&quot;https://github.com/sponsors/davidmhewitt&quot;&gt;sponsoring him via GitHub Sponsors&lt;/a&gt;!&lt;/p&gt;
+&lt;/aside&gt;
+
+</description>
+          <pubDate>Fri, 28 Aug 2020 00:00:00 -0500</pubDate>
+          <link>https://blog.elementary.io/elementary-os-on-pinebook-pro/</link>
+          <guid isPermaLink="true">https://blog.elementary.io/elementary-os-on-pinebook-pro/</guid>
+          
+              
+              
+          <enclosure url="https://blog.elementary.io" />
+          
+          
+          <category>devices</category>
+          
+          <category>odin</category>
+          
+          
+        </item>
+      
+    
+      
+        <item>
+          <title>Let's Talk elementary OS 6</title>
+          <description>&lt;figure class=&quot;constrained&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/updates-for-july-2020/card.png&quot; alt=&quot;Teaser&quot; width=&quot;1600&quot; height=&quot;900&quot; /&gt;&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Unlike many operating systems—especially in the open source desktop space—elementary OS gets frequent feature updates &lt;em&gt;between&lt;/em&gt; major versions. This means throughout the elementary OS 5 lifecycle, we released &lt;a href=&quot;/tags/#updates&quot;&gt;updates every month&lt;/a&gt;, including both fixes and oftentimes major new features like a brand new first-run experience including a &lt;a href=&quot;/say-hello-to-the-new-greeter/&quot;&gt;new login/lock screen greeter&lt;/a&gt;, initial setup, and &lt;a href=&quot;/get-settled-into-elementary-os-with-onboarding/&quot;&gt;welcome&lt;/a&gt;; &lt;a href=&quot;/updates-for-october-2019/&quot;&gt;Flatpak support&lt;/a&gt; with Sideload and AppCenter; exposing keyboard shortcuts across the system; broad &lt;a href=&quot;/accessibility-features-are-just-features/&quot;&gt;accessible settings updates&lt;/a&gt;; and much more. At the same time, curated apps designed for elementary OS are constantly released and updated by their developers on AppCenter.&lt;/p&gt;
+
+&lt;p&gt;This semi- “rolling release” cycle means elementary OS users get the latest features, fixes, and updates to their favorite operating system and apps very rapidly, without having to wait around for a new major release. However, there comes a time in the release cycle when we need to shift our resources and priorities to major updates that will bring a newer Ubuntu core and repositories, plus major technological improvements under the hood. And as we &lt;a href=&quot;/updates-for-june-2020/&quot;&gt;mentioned last month&lt;/a&gt;, that shift has begun.&lt;/p&gt;
+
+&lt;h2 id=&quot;updates-to-elementary-os-51-hera&quot;&gt;Updates to elementary OS 5.1 Hera&lt;/h2&gt;
+
+&lt;p&gt;Hera will continue to receive security and stability updates to its underlying libraries from the Ubuntu LTS repositories until April of 2028, courtesy of Canonical. But our primary focus at elementary has now fully shifted to OS 6. That said, we still released a handful of updates to OS 5.1 throughout July and early August:&lt;/p&gt;
+
+&lt;p&gt;In Keyboard Settings, we’ve added a new Input Methods view. This helps users of &lt;a href=&quot;https://en.wikipedia.org/wiki/Intelligent_Input_Bus&quot;&gt;Ibus&lt;/a&gt; set up and manage their input methods—especially useful for those typing Chinese, Japanese, Korean, Vietnamese, and other characters and scripts.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/updates-for-july-2020/input-method.png&quot; alt=&quot;Input Method settings&quot; srcset=&quot;/images/updates-for-july-2020/input-method@2x.png 2x&quot; width=&quot;914&quot; height=&quot;679&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;New Input Method settings in &lt;em&gt;System Settings&lt;/em&gt; → &lt;em&gt;Keyboard&lt;/em&gt;&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We also released an update to the the Music Indicator in the top Panel that ensures your default music player (as set in &lt;em&gt;System Settings&lt;/em&gt; → &lt;em&gt;Applications&lt;/em&gt; → &lt;em&gt;Default&lt;/em&gt;) is shown when there is no music playing. This makes it even faster to get back into your tunes no matter your preferred music player.&lt;/p&gt;
+
+&lt;figure class=&quot;card&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/updates-for-july-2020/music-indicator.png&quot; alt=&quot;Music indicator&quot; srcset=&quot;/images/updates-for-july-2020/music-indicator@2x.png 2x&quot; width=&quot;419&quot; height=&quot;221&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;Music Indicator with an alternate default music player&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;A minor update to AppCenter ensures its window position is saved and restored correctly, plus lets you click on the little update number badge in the header bar to get to the updates page.&lt;/p&gt;
+
+&lt;p&gt;Thanks to the quick work of Ubuntu and Canonical, elementary OS 5.1 Hera has also been updated to mitigate the &lt;a href=&quot;https://eclypsium.com/2020/07/29/theres-a-hole-in-the-boot/&quot;&gt;“boothole” vulnerability&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can get these updates plus other bug fixes and updated translations by opening AppCenter and hitting “Update All.” New installs can also use the updated elementary OS 5.1.7 downloads, available soon at &lt;a href=&quot;https://elementary.io&quot;&gt;elementary.io&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;appcenter-for-everyone&quot;&gt;AppCenter for Everyone&lt;/h2&gt;
+
+&lt;p&gt;In February, we launched the &lt;a href=&quot;/appcenter-for-everyone/&quot;&gt;AppCenter for Everyone&lt;/a&gt; crowdfunding campaign to take the indie, open source app store to the next level. Little did we know that the global COVID-19 pandemic would hit right when we planned to have our in-person sprint. We &lt;a href=&quot;/appcenter-for-everyone-campaign-results/&quot;&gt;smashed our goal&lt;/a&gt;, but had to postpone the in-person sprint in favor of a smaller &lt;a href=&quot;/appcenter-for-everyone-remote-sprint/&quot;&gt;remote sprint&lt;/a&gt;. We accomplished some work remotely, but were not able to meet all of the AppCenter for Everyone goals—we have still set aside the funds for an in-person AppCenter for Everyone sprint once it is safe to gather again.&lt;/p&gt;
+
+&lt;p&gt;One of the major backer rewards was “early access to elementary OS 6,” which we’ve been hard at work to deliver. Which leads us to…&lt;/p&gt;
+
+&lt;h2 id=&quot;early-access-builds-of-elementary-os-6&quot;&gt;Early Access Builds of elementary OS 6&lt;/h2&gt;
+
+&lt;p&gt;Over the past week, we quietly launched &lt;a href=&quot;https://builds.elementary.io&quot;&gt;builds.elementary.io&lt;/a&gt;. This new website hosts Early Access Builds of elementary OS as a way to ensure OEMs, developers, testers, supporters, and excited fans can get their hands on up-to-date pre-release builds. Now that elementary OS 6 is in an installable and bootable state, we’ve &lt;a href=&quot;https://www.indiegogo.com/projects/appcenter-for-everyone/#/updates/21&quot;&gt;begun adding&lt;/a&gt; $25+ AppCenter for Everyone backers to the allowlist, and any $10/month and higher &lt;a href=&quot;https://github.com/sponsors/elementary&quot;&gt;GitHub Sponsors&lt;/a&gt; get access automatically. If you’re curious about or want to get your hands on Early Access Builds, check out the site:&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;
+  &lt;p&gt;&lt;a href=&quot;https://builds.elementary.io&quot; class=&quot;button&quot;&gt;Early Access Builds&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Early Access Builds are a great way to get exclusive access before anyone else, support the sustained development of elementary OS, &lt;em&gt;and&lt;/em&gt; provide feedback while things are still early and in flux. And to be perfectly clear, the pricing and distribution model of elementary OS has not changed—the latest stable version will continue to be available from &lt;a href=&quot;https://elementary.io&quot;&gt;elementary.io&lt;/a&gt; as a pay-what-you-want download, and all of our source code is openly-developed and available on &lt;a href=&quot;https://github.com/elementary&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;coming-in-elementary-os-6&quot;&gt;Coming in elementary OS 6&lt;/h3&gt;
+
+&lt;p&gt;While we now have Early Access Builds, there is still &lt;em&gt;a lot&lt;/em&gt; of work to do on elementary OS 6 before even a beta release. Without going into a ton of detail, here are a few planned features that are still undergoing work:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Refreshed look and feel&lt;/strong&gt; including typography and the system stylesheet—which affects everything from the panel and system apps to curated apps in AppCenter. Expect improved contrast and a more refined design system while retaining the signature depth and shadows of elementary OS. Plus, neat little things like rounded bottom corners in apps like Terminal and System Settings thanks to Libhandy’s HdyWindow.&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;strong&gt;Dark style for system components&lt;/strong&gt; like the Dock, Panel indicators, Keyboard Shortcuts overlay, system dialogs, etc. We are still working out all of the details here, but work is progressing well.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;strong&gt;User-chosen default accent color&lt;/strong&gt; across apps. Apps can still override this if they choose, but previous default Blueberry accent color can be swapped out for a range of playful palette colors including Strawberry, Orange, Banana, Lime, Mint, Grape, and Bubblegum.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Major updates to communication and organization apps&lt;/strong&gt; by leaning on the Evolution data server back-end. This is still early and currently requires setting up an account in Evolution until the Online Accounts component is completed, but is thanks in large part to work done upstream by Corentin Noël. These updates enable syncing of mail, calendar events, tasks, etc. in relevant apps with a wider variety of account providers.&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;strong&gt;A major rewrite of Mail&lt;/strong&gt;, leaning on Evolution data server instead of the custom Geary mail engine. The look and feel will be largely the same, but it has not reached feature parity yet.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;strong&gt;New Tasks app&lt;/strong&gt; that handles local tasks as well as any task lists synced with the Evolution data server.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;New installer and initial setup&lt;/strong&gt; to round out that first-run experience. Installing should be much faster and more streamlined, only asking for the essentials to get the OS onto your device. This is also great for OEMs, as they can use the new installer itself to image devices, or—like with some experimental Pinebook Pro images we’ve been playing with—just flash an image without a user to run through initial setup on first boot.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;More multi-touch support&lt;/strong&gt; for navigation in apps, utilizing the Libhandy library. These gestures work on touch screens, trackpads, and mouse scroll wheels. On touch devices, swipes track 1:1 with your fingers on the screen or trackpad. Epiphany will also support similar touch gestures for going back and forward.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;And more…&lt;/strong&gt; this is just what we’re comfortable sharing now. :)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We’ll share more updates on elementary OS 6 development along the way, but that’s a quick peek behind the curtain for now. If you want to learn more, you can find the &lt;a href=&quot;https://github.com/orgs/elementary/projects/55&quot;&gt;OS 6.0 release project&lt;/a&gt; on GitHub—plus you’re always welcome to &lt;a href=&quot;https://elementary.io/get-involved&quot;&gt;get involved&lt;/a&gt; and help shape the future.&lt;/p&gt;
+
+</description>
+          <pubDate>Fri, 07 Aug 2020 00:00:00 -0500</pubDate>
+          <link>https://blog.elementary.io/updates-for-july-2020/</link>
+          <guid isPermaLink="true">https://blog.elementary.io/updates-for-july-2020/</guid>
+          
+              
+              
+          <enclosure url="https://blog.elementary.io" />
+          
+          
+          <category>updates</category>
+          
+          <category>odin</category>
+          
+          
+        </item>
+      
+    
+      
+        <item>
+          <title>Leaving Google Analytics is Finally Plausible</title>
+          <description>&lt;p&gt;We’ve always believed that our user experience doesn’t just begin when people use elementary OS; it begins from the first moment that someone interacts with our organization in any way. And for a lot of people, that experience starts with our website. You may already know about &lt;a href=&quot;/privacy-and-elementary-os&quot;&gt;our stance on privacy&lt;/a&gt;, advertising, and tracking from our previous blog posts, and that a core part of our business model is that &lt;a href=&quot;/you-are-not-the-product&quot;&gt;you are our customer, not a product&lt;/a&gt;.&lt;/p&gt;
+
+&lt;aside&gt;
+
+
+
+&lt;a class=&quot;featured with-image 1&quot; href=&quot;/you-are-not-the-product/&quot;&gt;
+  
+    &lt;div class=&quot;featured-image&quot; alt=&quot;Featured image&quot; style=&quot;background-image: url(https://cdn-images-1.medium.com/max/1600/1*cLwxBJhf6MKETmbqR6ilnw.jpeg);&quot;&gt;&lt;/div&gt;
+  
+
+  &lt;header&gt;
+    &lt;h2&gt;
+
+
+
+   You Are Not the&amp;nbsp;Product
+
+&lt;/h2&gt;
+    
+      &lt;h3&gt;
+        
+
+
+
+   A reminder about our stance on advertising and&amp;nbsp;tracking
+
+
+        
+      &lt;/h3&gt;
+    
+
+    
+
+
+
+&lt;div class=&quot;byline&quot;&gt;
+  &lt;div class=&quot;avatar&quot;&gt;
+    &lt;img srcset=&quot;https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&amp;amp;d=blank 2x&quot; src=&quot;https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&amp;amp;d=blank&quot; alt=&quot;Avatar for Daniel Foré&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;author&quot;&gt;
+    
+    &lt;span class=&quot;name&quot;&gt;Daniel Foré&lt;/span&gt;
+    
+    
+      &lt;span class=&quot;description&quot;&gt;Founder &amp;amp; CEO&lt;/span&gt;
+    
+  &lt;/div&gt;
+  &lt;time class=&quot;post-date&quot; datetime=&quot;2017-04-24&quot;&gt;Mon, Apr 24, 2017&lt;/time&gt;
+  
+    &lt;span class=&quot;read-time&quot; title=&quot;Estimated read time&quot;&gt;
+  
+  3 min read
+&lt;/span&gt;
+
+
+  
+&lt;/div&gt;
+
+
+  &lt;/header&gt;
+
+  
+&lt;/a&gt;
+
+
+&lt;/aside&gt;
+
+&lt;p&gt;You might also know that our website has a comprehensive &lt;a href=&quot;https://elementary.io/privacy&quot;&gt;privacy page&lt;/a&gt; that details not only exactly how we use things like cookies on our website, but how to disable them. And with such a strong stance on privacy, you might be asking yourself why elementary uses analytics at all, let alone Google Analytics. To that I am happy to respond that we are leaving Google Analytics behind in favor of the Open Source and privacy-respecting &lt;a href=&quot;https://plausible.io/&quot;&gt;Plausible&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-are-analytics&quot;&gt;What Are Analytics?&lt;/h2&gt;
+
+&lt;p&gt;If you’re not familiar with the concept, you may be surprised to know that the majority of the websites you regularly visit are collecting statistical data about your usage of the website. Website developers then use this data to optimize infrastructure, pinpoint problems, or even drive design decisions—something we don’t particularly advise.&lt;/p&gt;
+
+&lt;aside&gt;
+
+
+
+&lt;a class=&quot;featured with-image 1&quot; href=&quot;/privacy-and-elementary-os/&quot;&gt;
+  
+    &lt;div class=&quot;featured-image&quot; alt=&quot;Featured image&quot; style=&quot;background-image: url(https://cdn-images-1.medium.com/max/1600/1*A6acK8YdY-_VS414hveMlw.jpeg);&quot;&gt;&lt;/div&gt;
+  
+
+  &lt;header&gt;
+    &lt;h2&gt;
+
+
+
+   Privacy and elementary&amp;nbsp;OS
+
+&lt;/h2&gt;
+    
+      &lt;h3&gt;
+        
+
+
+
+   How we protect your data from ourselves and&amp;nbsp;others
+
+
+        
+      &lt;/h3&gt;
+    
+
+    
+
+
+
+&lt;div class=&quot;byline&quot;&gt;
+  &lt;div class=&quot;avatar&quot;&gt;
+    &lt;img srcset=&quot;https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&amp;amp;d=blank 2x&quot; src=&quot;https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&amp;amp;d=blank&quot; alt=&quot;Avatar for Cassidy James Blaede&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;author&quot;&gt;
+    
+    &lt;span class=&quot;name&quot;&gt;Cassidy James Blaede&lt;/span&gt;
+    
+    
+      &lt;span class=&quot;description&quot;&gt;Co-founder &amp;amp; CXO&lt;/span&gt;
+    
+  &lt;/div&gt;
+  &lt;time class=&quot;post-date&quot; datetime=&quot;2019-01-09&quot;&gt;Wed, Jan  9, 2019&lt;/time&gt;
+  
+    &lt;span class=&quot;read-time&quot; title=&quot;Estimated read time&quot;&gt;
+  
+  6 min read
+&lt;/span&gt;
+
+
+  
+&lt;/div&gt;
+
+
+  &lt;/header&gt;
+
+  
+&lt;/a&gt;
+
+
+&lt;/aside&gt;
+
+&lt;p&gt;At elementary, we use anonymous data about things like physical region and download method to make sure we have properly localized HTTPS and Torrent downloads so that you can get a fast and stable connection. We also check which pages are most—and least—visited on our website so we know where to focus improvements. And we pay attention to which operating system downloaders are coming from to make sure that we’re on track with our mission of bringing an Open Source operating system to more people.&lt;/p&gt;
+
+&lt;h3 id=&quot;why-not-google-analytics&quot;&gt;Why Not Google Analytics?&lt;/h3&gt;
+
+&lt;p&gt;Google Analytics lets us keep tabs on that data, but Google tracks &lt;em&gt;a whole lot more&lt;/em&gt; than that, too. Frankly we don’t want access to that data—or to contribute towards it being collected. Remember, Google’s incentive is to collect as much information as possible from people visiting as many sites as possible—and using Google Analytics directly helps them do that.&lt;/p&gt;
+
+&lt;aside&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;Google’s incentive is to collect as much information as possible from people visiting as many sites as possible—and using Google Analytics directly helps them do that.&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;If you don’t know, Google happily tracks you across all the websites you visit if those sites use Google Analytics, or if you use Google search. Google then infers and remembers all sorts of information about you; for example: your age range, an inferred gender, if you’ve changed jobs or moved recently, and whether you like to spend time outdoors. Google then uses all of this data to target ads to you, in the hopes that more precise ads will get you to bite, thus earning them their commission.&lt;/p&gt;
+
+&lt;p&gt;They then offer those profiles up inside of Google Analytics, letting website owners drill down using “In-Market Segments.” The entire mechanism is invasive—and unnecessary for us. And even though we may choose to ignore these profiles and data, by using Google Analytics on our website, we’ve contributed to creating them. This data collection and surveillance does not align with our values, and we’ve been investigating how we can move away for quite some time now.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-challenge&quot;&gt;The Challenge&lt;/h2&gt;
+
+&lt;p&gt;Google Analytics is by far the most popular analytics solution available and there are few privacy-respecting alternatives. We considered a few self-hosted products like &lt;a href=&quot;https://matomo.org/&quot;&gt;Matomo&lt;/a&gt;, but we couldn’t find a good fit in terms of maintenance, pricing, and features. We also investigated using self-described privacy-focused &lt;a href=&quot;https://usefathom.com/&quot;&gt;Fathom&lt;/a&gt;, but were disappointed to learn that they had gone closed-source since we’d last looked at them. The situation changed once we stumbled upon Plausible.&lt;/p&gt;
+
+&lt;p&gt;Plausible is a small UK-based company that provides a hosted, privacy-conscious analytics solution with simple and fair pricing—plus support for custom events. The product itself fits what we’re looking for in an analytics solution, and it’s encouraging to see that they are actively growing and developing new features. But what really got our attention is their messaging around their business model. Read &lt;a href=&quot;https://plausible.io/blog/open-source-funding&quot;&gt;their blog post on monetizing&lt;/a&gt; and see if it sounds familiar.&lt;/p&gt;
+
+&lt;div class=&quot;twitter-card&quot;&gt;
+  &lt;header&gt;
+    &lt;a class=&quot;account&quot; href=&quot;https://twitter.com/PlausibleHQ&quot;&gt;
+      &lt;img class=&quot;avatar&quot; src=&quot;/images/leaving-google-analytics-is-finally-plausible/twitter-avatar.png&quot; /&gt;
+      &lt;strong&gt;Plausible Analytics&lt;/strong&gt;
+      &lt;p&gt;@PlausibleHQ&lt;/p&gt;
+    &lt;/a&gt;
+    &lt;a href=&quot;https://twitter.com/PlausibleHQ/status/1282678251148763137&quot;&gt;
+      &lt;img class=&quot;logo&quot; src=&quot;/images/twitter.svg&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/header&gt;
+
+  &lt;p&gt;A day in the life of a startup...&lt;br /&gt;&lt;br /&gt;
+    &quot;Wanted to quickly reach out and see if you'd be interested in raising
+    funds or taking investment&quot;&lt;br /&gt;&lt;br /&gt;
+    No.&lt;br /&gt;&lt;br /&gt;
+    &quot;Any interest in talking about an exit?&quot;&lt;br /&gt;&lt;br /&gt;
+    No.&lt;/p&gt;
+
+  &lt;footer&gt;
+    &lt;a href=&quot;https://twitter.com/PlausibleHQ/status/1282678251148763137&quot;&gt;
+      &lt;span&gt;View on Twitter →&lt;/span&gt;
+      &lt;time datetime=&quot;2020-07-13&quot;&gt;Jul 13, 2020&lt;/time&gt;
+    &lt;/a&gt;
+  &lt;/footer&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Unlike Google, Plausible isn’t in the advertising game and doesn’t have an incentive to collect and sell user data. And they’ve made it clear that they’re not interested in being scooped up by VCs or new ownership that might seek to change those values. They make money the same way elementary does: by directly charging customers for their product. We know firsthand how important it is to make sure that your business is built around your ethics, and we get the same feeling from the folks at Plausible. We’re excited to be supporting a company that shares our values and respects the people visiting our website.&lt;/p&gt;
+
+&lt;h2 id=&quot;our-review-of-plausible-analytics-so-far&quot;&gt;Our Review of Plausible Analytics (So Far)&lt;/h2&gt;
+
+&lt;p&gt;We used Plausible in parallel with Google Analytics for a month to see how they compared, and we were thrilled with the results. We were able to largely recreate the aggregate data we’re interested in using Plausible’s goals feature—namely: what version of the OS is being downloaded, what OSes downloads are coming from, and how many downloaders paid versus bypassed the payment. At the same time, much less data is even processed; for example, we completely stopped getting any sort of demographic data from the Google advertising network. The Plausible dashboard is also &lt;em&gt;far&lt;/em&gt; easier to use and understand at a glance; instead of a massive web app offering near-infinte sub-sections and complex filters, Plausible offers up a simple one-page dashboard with all the key data you need.&lt;/p&gt;
+
+&lt;p&gt;This may not be an expansive review, but over all we’re very happy with Plausible Analytics. They’ve enabled us to get rid of Google Analytics while still keeping tabs on important product-related data. And most importantly, we are able to do so in a way that is much more transparent and trustworthy.&lt;/p&gt;
+
+&lt;h2 id=&quot;improving-transparency&quot;&gt;Improving Transparency&lt;/h2&gt;
+
+&lt;p&gt;One of the most interesting and unique features of Plausible is their open invitation and celebration of data transparency. First, their entire product is open source; when it comes to privacy, the source code being open and auditable by anyone—experts and end users alike—is paramount. But they go above and beyond that: every user of Plausible is able and encouraged to make their analytics dashboard public so everyone can see the data for themselves and know that nothing fishy is going on.&lt;/p&gt;
+
+&lt;aside&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;Every user of Plausible is able and encouraged to make their analytics dashboard public so everyone can see the data for themselves.&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;We’ve embraced this new feature at elementary and opened up the dashboards for our various subdomains as well as our main website. Check them out yourself!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://plausible.io/elementary.io&quot;&gt;Main Website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://plausible.io/blog.elementary.io&quot;&gt;Blog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://plausible.io/developer.elementary.io&quot;&gt;Developer Portal&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://plausible.io/appcenter.elementary.io&quot;&gt;AppCenter on the Web&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://plausible.io/releases.elementary.io&quot;&gt;Release Tracking&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://plausible.io/builds.elementary.io&quot;&gt;Early Access Builds&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We hope that this move will provide a tangible improvement to your digital life and give you even more peace of mind when using elementary products. We’re always working towards the ideal and we’re confident we’ve made a big step by switching to Plausible. Let us know on social media what you think of the new public analytics dashboard, and feel free to ask questions about how we’re using this data!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Update (Sep 8, 2020):&lt;/strong&gt; We expanded on our review of using Plausible, and added a link to our new Early Access Builds dashboard.&lt;/p&gt;
+</description>
+          <pubDate>Thu, 16 Jul 2020 00:00:00 -0500</pubDate>
+          <link>https://blog.elementary.io/leaving-google-analytics-is-finally-plausible/</link>
+          <guid isPermaLink="true">https://blog.elementary.io/leaving-google-analytics-is-finally-plausible/</guid>
+          
+              
+              
+          <enclosure url="https://blog.elementary.io" />
+          
+          
+          <category>web</category>
+          
+          <category>privacy</category>
+          
+          
+        </item>
+      
+    
+      
+        <item>
+          <title>Hera Updates for June, 2020</title>
+          <description>&lt;p&gt;June was a busy month for elementary; we &lt;a href=&quot;/now-shipping-elementary-os/&quot;&gt;started shipping elementary OS&lt;/a&gt; on retailer devices, said &lt;a href=&quot;/goodbye-bountysource-hello-github-sponsors/&quot;&gt;goodbye to Bountysource&lt;/a&gt;, started using &lt;a href=&quot;https://plausible.io/blog.elementary.io&quot;&gt;Plausible&lt;/a&gt; on the web (More about that later!), and of course, pushed out several updates to elementary OS. &lt;!-- As usual, these updates are available in a new OS 5.1.6 ISO at [elementary.io](https://elementary.io) --&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;code&quot;&gt;Code&lt;/h2&gt;
+
+&lt;figure&gt;
+  &lt;picture&gt;
+    &lt;source srcset=&quot;/images/hera-updates-for-june-2020/code-dark@2x.png&quot; media=&quot;(prefers-color-scheme: dark)&quot; /&gt;
+    &lt;img alt=&quot;Code&quot; src=&quot;/images/hera-updates-for-june-2020/code@2x.png&quot; width=&quot;1037&quot; height=&quot;711&quot; /&gt;
+  &lt;/picture&gt;
+&lt;figcaption&gt;The Outline/Symbols plugin in Code now shows a placeholder when empty&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We now show a placeholder in the Outline/Symbols plugin when no symbols are found to prevent the sidebar jumping around when switching through different types of code files. We also addressed an issue where the folder sidebar layout could become squished and empty, ensuring that the “Open project folder…” button remains visible.&lt;/p&gt;
+
+&lt;p&gt;You can now scroll past the end of a file, making it easy to get a line of code exactly where you feel comfortable with it on screen. And we’ve optimized the way Code saves and loads its window size and position to reduce how often it accesses your disk.&lt;/p&gt;
+
+&lt;h2 id=&quot;appcenter&quot;&gt;AppCenter&lt;/h2&gt;
+
+&lt;p&gt;This month’s updates to AppCenter include a fix for Flatpak runtime updates that were hidden. This should resolve an issue where you whould receive an update notification only to find an empty updates view. We’ve also tracked down and resolved an issue that caused runaway CPU usage when a certain number of app screenshots were viewed. Both of these fixes come courtesy of David Hewitt, who you can &lt;a href=&quot;https://github.com/sponsors/davidmhewitt&quot;&gt;sponsor on GitHub here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;files&quot;&gt;Files&lt;/h2&gt;
+
+&lt;p&gt;A couple of regressions in Files’ pathbar behavior were resolved, namely when selecting breadcrumbs or activating their context menus. We’ve also resolved reported issues regarding files containing the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#&lt;/code&gt; character, and fixed an issue with windows resizing with long file names in the list view. Plus, the handy disk space indicator in the sidebar now changes to warning or error colors when the disk becomes too full.&lt;/p&gt;
+
+&lt;h2 id=&quot;videos&quot;&gt;Videos&lt;/h2&gt;
+
+&lt;p&gt;Videos should now start up much faster with a large video library, and we added more robust handling for missing or moved library folders. Plus, this release includes fixes for loading external subtitles.&lt;/p&gt;
+
+&lt;h2 id=&quot;and-more&quot;&gt;And More&lt;/h2&gt;
+
+&lt;p&gt;Thanks to new contributor &lt;a href=&quot;https://github.com/mcclurgm&quot;&gt;Michael McClurg&lt;/a&gt;, Calendar and the accompanying Date &amp;amp; Time indicator now report the correct time for events which were created in a different timezone. Now you won’t be confused about the start time of that meeting with colleagues in other countries!&lt;/p&gt;
+
+&lt;p&gt;Also, several system components received minor updates to ensure that sessions end quickly and safely when logging out and shutting down.&lt;/p&gt;
+
+&lt;h2 id=&quot;updates-for-developers&quot;&gt;Updates for Developers&lt;/h2&gt;
+
+&lt;p&gt;To smooth out the transition to elementary OS 6, we’ve released Granite 5.5.0 with a couple of a new things and a whole slew of deprecations! The new style constants &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Granite.STYLE_CLASS_COLOR_BUTTON&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Granite.STYLE_CLASS_ROUNDED&lt;/code&gt; will become more useful in 6.0’s fancy new stylesheet—there aren’t color button styles in 5.x’s stylesheet, but these style constants are now available if you’d like to make use of them. Additionally, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Granite.Widgets.SourceList&lt;/code&gt; now includes &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Gtk.STYLE_CLASS_SIDEBAR&lt;/code&gt; by default and we’ll likely deprecate &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Granite.STYLE_CLASS_SOURCE_LIST&lt;/code&gt; in a future release.&lt;/p&gt;
+
+&lt;p&gt;The more important change is the number of deprecations in this release. There are several utilities and widgets in Granite that are now much better handled by Gtk and GLib, and will likely be removed in Granite 6.0. Expect to see some new deprecation warnings in Terminal if you’re using any of the following:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Granite.Services.SimpleCommand&lt;/code&gt; is deprecated and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GLib.AppInfo.create_from_commandline&lt;/code&gt; should be used instead.&lt;/li&gt;
+  &lt;li&gt;Several theming utilites including &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Granite.Utils.set_theming&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Granite.Utils.get_css_provider&lt;/code&gt; are now deprecated and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Gtk.CssProvider&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Gtk.StyleContext&lt;/code&gt; should be used directly instead.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Granite.Services.Paths&lt;/code&gt; is deprecated and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GLib.Environment&lt;/code&gt; provides methods that should be used instead.&lt;/li&gt;
+  &lt;li&gt;Old, unused utilities like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Granite.Utils.get_button_layout_schema&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Granite.Utils.get_default_close_button_position&lt;/code&gt; are now deprecated with no recommended replacement. There should no longer be a need for these at all. This also applies to the widgets &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Granite.Widgets.CollapsiblePaned&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Granite.Widgets.CompositedWindow&lt;/code&gt; which are no longer necessary with modern Gtk3.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;get-it&quot;&gt;Get It&lt;/h2&gt;
+
+&lt;p&gt;As always, you can get these updates on elementary OS 5.1 Hera alongside updated translations, bug fixes, and performance improvements by opening AppCenter and hitting &lt;strong&gt;Update All&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you’re new to elementary OS or would just like a fresh install, these updates will be included in a new elementary OS 5.1.6 Hera download on &lt;a href=&quot;https://elementary.io&quot;&gt;our homepage&lt;/a&gt; soon.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-quick-note-about-the-future&quot;&gt;A Quick Note About The Future&lt;/h2&gt;
+
+&lt;p&gt;As we head into the second half of the year, more and more development focus is being put into elementary OS 6. While we intend to continue releasing updates to Hera for the foreseeable future, we expect those updates to become more mundane and less noticeable. Several apps and components will likely no longer receive updates on elementary OS 5, including Terminal, Onboarding, parts of System Settings and more. This is because they’re already making use of new features only available in elementary OS 6. We’re excited to be working on a refreshed visual design including a dark style preference and custom accent colors—and taking advantage of the latest development libraries like Libhandy. But don’t worry! elementary OS 5 will continue to receive security and stability updates to its underlying libraries until April of 2028, courtesy of Canonical. Also, we’re almost ready to share a feature preview of elementary OS 6 for developers and enthusiasts, so stay tuned to our blog to hear more about what’s coming and how you can get involved.&lt;/p&gt;
+
+&lt;h2 id=&quot;and-updates-about-sponsors&quot;&gt;And Updates About Sponsors&lt;/h2&gt;
+
+&lt;p&gt;We’re super grateful and excited that we’ve reached over 50% of our first goal and over 100 sponsors on &lt;a href=&quot;https://github.com/sponsors/elementary/&quot;&gt;Github Sponsors&lt;/a&gt;! In case you’re unfamiliar we’re currently raising money there with the hope to create a regular, monthly contract for one of our longest contributors: &lt;a href=&quot;https://github.com/tintou&quot;&gt;Corentin Noël&lt;/a&gt;. Every contribution brings us closer to putting more development time into the fixes and features that you care about.&lt;/p&gt;
+</description>
+          <pubDate>Wed, 01 Jul 2020 00:00:00 -0500</pubDate>
+          <link>https://blog.elementary.io/updates-for-june-2020/</link>
+          <guid isPermaLink="true">https://blog.elementary.io/updates-for-june-2020/</guid>
+          
+              
+              
+          <enclosure url="https://blog.elementary.io" />
+          
+          
+          <category>updates</category>
+          
+          <category>hera</category>
+          
+          <category>devs</category>
+          
+          
+        </item>
+      
+    
+      
+        <item>
+          <title>Goodbye, Bountysource</title>
+          <description>&lt;p&gt;&lt;img src=&quot;/images/goodbye-bountysource-hello-github-sponsors/feature.png&quot; alt=&quot;Bountysource → GitHub Sponsors&quot; width=&quot;800&quot; height=&quot;450&quot; srcset=&quot;/images/goodbye-bountysource-hello-github-sponsors/feature@2x.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you have used &lt;a href=&quot;https://bountysource.com&quot;&gt;Bountysource&lt;/a&gt; in the past, you may have received an email announcing new terms of service that included a clause that would forfeit unclaimed bounties. On June 16, Bountysource sent this message:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;You are receiving this email because we are updating the Bountysource Terms of Service, effective 1st July 2020.&lt;/p&gt;
+
+  &lt;h4 id=&quot;whats-changing&quot;&gt;What’s changing?&lt;/h4&gt;
+  &lt;p&gt;We have added a Time-Out clause to the Bounties section of the agreement:&lt;/p&gt;
+
+  &lt;blockquote&gt;
+    &lt;p&gt;&lt;em&gt;2.13 Bounty Time-Out.&lt;/em&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;em&gt;If no Solution is accepted within two years after a Bounty is posted, then the Bounty will be withdrawn and the amount posted for the Bounty will be retained by Bountysource. For Bounties posted before June 30, 2018, the Backer may redeploy their Bounty to a new Issue by contacting &lt;a href=&quot;mailto:support@bountysource.com&quot;&gt;support@&lt;wbr /&gt;bountysource.com&lt;/a&gt; before July 1, 2020. If the Backer does not redeploy their Bounty by the deadline, the Bounty will be withdrawn and the amount posted for the Bounty will be retained by Bountysource.&lt;/em&gt;&lt;/p&gt;
+  &lt;/blockquote&gt;
+
+  &lt;p&gt;…&lt;/p&gt;
+  &lt;h4 id=&quot;what-do-i-need-to-do&quot;&gt;What do I need to do?&lt;/h4&gt;
+  &lt;p&gt;If you agree to the new terms, you don’t have to do anything… Or, if you do not agree with the new terms, please discontinue using Bountysource.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This gave open source projects and their bounty hunters just two weeks to act; oftentimes it would take &lt;em&gt;longer than that&lt;/em&gt; to even get a response from the support team. The controversial terms have since been withdrawn—at least for now. On June 17, Bountysource sent the following message (emphasis theirs):&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;You’re receiving this because we updated our Terms of Service.&lt;/p&gt;
+
+  &lt;h4 id=&quot;withdrawal-of-new-terms-of-service&quot;&gt;Withdrawal of new Terms of Service&lt;/h4&gt;
+  &lt;p&gt;Yesterday, we communicated a change to the Bountysource Terms of Service (ToS) agreement. &lt;br /&gt;
+&lt;strong&gt;These changes have been withdrawn and the ToS reverted to its prior state.&lt;/strong&gt;&lt;br /&gt;
+The ToS will be revised and clarified in the future.&lt;/p&gt;
+
+  &lt;p&gt;Thankyou&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In December, 2017, &lt;a href=&quot;https://web.archive.org/web/20191008103840/https://blog.canya.com/2017/12/20/canya-acquires-majority-stake-in-bountysource-adds-over-46000-users/&quot;&gt;Bountysource was acquired&lt;/a&gt; by a cryptocurrency company called CanYa who redesigned the Bountysource site and service with a new cryptocoin focus. In addition to the general friction we’ve experienced with using the service since to get developers paid, we feel like this policy change–even withdrawn–is concerning. It calls into question the future of Bountysource as a platform and the stability of their business model. While we understand that operating a platform incurs costs, we want to make sure that funds are primarily going to developers, not being automatically scooped up by corporate stakeholders.&lt;/p&gt;
+
+&lt;p&gt;These events have led us to re-think our recommendation and use of Bountysource. As such, we’ve removed Bountysource from our website, removed any Bountysource integration with elementary repos on GitHub, withdrawn our funds, and closed our account. For backers and bounty hunters on Bountysource, your bounties on elementary projects will automatically be returned to you. You may also wish to withdraw any funds and close your account by emailing &lt;a href=&quot;mailto:support@bountysource.com&quot;&gt;support@&lt;wbr /&gt;bountysource.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-now-hello-github-sponsors&quot;&gt;What Now? Hello, GitHub Sponsors&lt;/h2&gt;
+
+&lt;p&gt;As an alternative, we recommend checking out &lt;a href=&quot;https://github.com/sponsors/elementary&quot;&gt;GitHub Sponsors&lt;/a&gt;. We recently launched a few tiers on Sponsors, and have been very pleased with it.&lt;/p&gt;
+
+&lt;p&gt;You can directly sponsor &lt;a href=&quot;https://github.com/sponsors/elementary&quot;&gt;organizations like elementary&lt;/a&gt;, as well as individual contributors. For elementary specifically, we have a new $50/month tier that offers the closest equivalent to a bug bounty program: each month, backers at this tier can comment on any elementary issue to get at least an hour of our investigation time. This is a great way to help steer development in the direction you see fit while also directly supporting us.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;p&gt;&lt;a href=&quot;https://github.com/sponsors/elementary&quot; class=&quot;button&quot;&gt;♡ Sponsor elementary&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;GitHub also covers payment processing and doesn’t charge any fees for GitHub Sponsors; this means &lt;strong&gt;100% of your sponsorship goes to elementary&lt;/strong&gt; to help fund our work.&lt;/p&gt;
+
+&lt;p&gt;If GitHub Sponsors isn’t your cup of tea, you can also check out the funding section on our &lt;a href=&quot;https://elementary.io/get-involved#funding&quot;&gt;Get Involved&lt;/a&gt; page to see other ways you can help support elementary OS.&lt;/p&gt;
+
+</description>
+          <pubDate>Wed, 24 Jun 2020 00:00:00 -0500</pubDate>
+          <link>https://blog.elementary.io/goodbye-bountysource-hello-github-sponsors/</link>
+          <guid isPermaLink="true">https://blog.elementary.io/goodbye-bountysource-hello-github-sponsors/</guid>
+          
+              
+              
+          <enclosure url="https://blog.elementary.io" />
+          
+          
+          <category>funding</category>
+          
+          
+        </item>
+      
+    
+      
+        <item>
+          <title>Linux++ Interviews Cassidy</title>
+          <description>&lt;p&gt;&lt;img src=&quot;/images/linux-plus-plus-interview-cassidy-james-blaede/feature.png&quot; alt=&quot;Linux++&quot; srcset=&quot;/images/linux-plus-plus-interview-cassidy-james-blaede/feature@2x.png 2x&quot; width=&quot;800&quot; height=&quot;266&quot; /&gt;&lt;/p&gt;
+
+&lt;aside&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;Below is an excerpt of Linux++ issue 20. Be sure to read &lt;a href=&quot;https://frontpagelinux.com/news/linux-plusplus-issue-20/&quot;&gt;the full article&lt;/a&gt;.&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;This week Linux++ is very excited to welcome Cassidy Blaede James, co-founder of elementary OS, tech blogger, active Linux community member, and open source UX architect. Cassidy is well-known for his writing and crafting of great blog posts as well as elementary OS update posts. His team at elementary OS have gone on to create one of the most popular distributions in the Linux world right now and continue to push the boundaries of what is possible.&lt;/p&gt;
+
+&lt;p&gt;…&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What got you hooked on the Linux operating system and why do you continue to use it?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Throughout my childhood, I got hand-me-down desktop computers from my siblings, who got them as hand-me-downs from my parents. So, I was always several generations behind modern computing. These computers ran DOS or Windows 3.1.1 or Windows 95 or whatever was a few releases behind at the time. I always loved tinkering within and learning those environments, but eventually my tinkering and tweaking would wreck the OS and necessitate a reinstall. Eventually, I found out about Linux live CDs—Knoppix at the time, and then Ubuntu—that would let me run an entire operating system without messing up the original OS at all. I was hooked. At some point, I ended up installing it full-time, and I’ve never looked back.&lt;/p&gt;
+
+  &lt;p&gt;After that, I was in love with customizing icons, wobbly Compiz window effects, and the works. But, eventually I found this small project called ‘elementary’ that was building out a a well-designed suite of icons and apps for Linux. I got involved and soon after, we released the first version of elementary OS.&lt;/p&gt;
+
+  &lt;p&gt;I use elementary OS because I believe dogfooding is critical to the experience of building a product—if you don’t use your product, how do you know what your users are experiencing every day? More fundamentally, I use elementary OS because I believe it’s the best user experience on a computer and because I value my privacy.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;…&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How did your adventure into developing for Linux come about?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Once I was using Linux, I pretty quickly wanted to start making things better. Luckily I found the elementary project, and started helping by writing blog posts, recording tutorial videos, etc. The core team invited me to join at a more official capacity, and I’ve been at it ever since. I actually didn’t really touch code for elementary OS until a few years ago, when we started writing our developer guide for third-party app developers. I walked through that to make sure it was a good intro to developing on elementary OS, and apparently it worked—I’ve since developed half a dozen of my own apps, prototyped major desktop features, and contributed to almost all of our hundred-plus code repositories.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;…&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Do you think that the Linux ecosystem is too fragmented? Is fragmentation a good or bad thing in your view?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;…The diversity of visions and technologies in the Linux world is healthy—and essential. As long as we’re working together as much as we can while understanding our differences, it’s good for the future of our projects individually and for Linux as a whole. The holy-war-esque fighting between technologies does need to stop, and all the negativity needs to go away.&lt;/p&gt;
+
+  &lt;p&gt;And, sometimes, a project might need to make the hard decision to redirect resources towards a more de-facto technology (see: upstart/systemd, Unity/GNOME Shell, etc.). But, the existence of those ‘competing’ projects in the beginning was absolutely a good thing, and the coopertition helped drive all of our technologies forward.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;…&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What is your absolute favorite part about working on elementary OS?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The self-employment is nice! Honestly, being able to bounce between so many diverse tasks and disciplines is a perfect fit for me, and is a huge part of what I love day-to-day. I also love working with so many talented people within the open source world, and knowing that we’re all working together to build better products.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;…&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;aside&gt;
+  &lt;p&gt;&lt;em&gt;Linux++&lt;/em&gt; is a weekly article that dives into the topics, events, and headlines throughout the GNU/Linux and open-source world as well as highlighting the passionate community that surrounds it.&lt;/p&gt;
+&lt;/aside&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;p&gt;&lt;a href=&quot;https://frontpagelinux.com/news/linux-plusplus-issue-20/&quot; class=&quot;button&quot;&gt;Read Full Article&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+          <pubDate>Sat, 20 Jun 2020 00:00:00 -0500</pubDate>
+          <link>https://blog.elementary.io/linux-plus-plus-interview-cassidy-james-blaede/</link>
+          <guid isPermaLink="true">https://blog.elementary.io/linux-plus-plus-interview-cassidy-james-blaede/</guid>
+          
+              
+              
+          <enclosure url="https://blog.elementary.io" />
+          
+          
+          <category>interview</category>
+          
+          
+        </item>
+      
+    
+      
+        <item>
+          <title>Now Shipping elementary OS</title>
+          <description>&lt;p&gt;Today, we’re pleased to announce that elementary OS 5.1 Hera is now available out of the box on over a dozen models from two retailers, with more in the works.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/now-shipping-elementary-os/card@2x.png&quot; alt=&quot;Star LabTop laptop computer running elementary OS&quot; srcset=&quot;/images/now-shipping-elementary-os/card@2x.png 2x&quot; width=&quot;800&quot; height=&quot;450&quot; /&gt;&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Since our first release of elementary OS in 2011, folks have asked us how they can buy a computer running elementary OS out of the box. While installing an operating system may be common knowledge within Linux user groups and IT departments, it’s a huge hurdle for everyday users who just want a computer that works. We’ve also long been in discussions with OEMs about shipping elementary OS and how that relationship between users, the OEM, and elementary would look.&lt;/p&gt;
+
+&lt;h2 id=&quot;making-elementary-os-more-gettable&quot;&gt;Making elementary OS more “gettable”&lt;/h2&gt;
+
+&lt;p&gt;We’ve written before about ensuring elementary OS is “gettable.” A phrase lovingly borrowed from Canonical designer &lt;a href=&quot;https://twitter.com/mpt&quot;&gt;Matthew Paul Thomas (mpt)&lt;/a&gt;, it’s one of four things he says an OS needs to be in order to succeed. For more background on this, see this previous post:&lt;/p&gt;
+
+&lt;aside&gt;
+
+
+
+&lt;a class=&quot;featured with-image 1&quot; href=&quot;/appcenter-the-future-of-the-universe/&quot;&gt;
+  
+    &lt;div class=&quot;featured-image&quot; alt=&quot;Featured image&quot; style=&quot;background-image: url(https://cdn-images-1.medium.com/max/1600/1*yICO56gjmJFC-WDCALeGIw.png);&quot;&gt;&lt;/div&gt;
+  
+
+  &lt;header&gt;
+    &lt;h2&gt;
+
+
+
+   AppCenter &amp;amp; the Future of the&amp;nbsp;Universe
+
+&lt;/h2&gt;
+    
+      &lt;h3&gt;
+        
+
+
+
+   How elementary OS can “cross the&amp;nbsp;chasm”
+
+
+        
+      &lt;/h3&gt;
+    
+
+    
+
+
+
+&lt;div class=&quot;byline&quot;&gt;
+  &lt;div class=&quot;avatar&quot;&gt;
+    &lt;img srcset=&quot;https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&amp;amp;d=blank 2x&quot; src=&quot;https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&amp;amp;d=blank&quot; alt=&quot;Avatar for Daniel Foré&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;author&quot;&gt;
+    
+    &lt;span class=&quot;name&quot;&gt;Daniel Foré&lt;/span&gt;
+    
+    
+      &lt;span class=&quot;description&quot;&gt;Founder &amp;amp; CEO&lt;/span&gt;
+    
+  &lt;/div&gt;
+  &lt;time class=&quot;post-date&quot; datetime=&quot;2017-08-26&quot;&gt;Sat, Aug 26, 2017&lt;/time&gt;
+  
+    &lt;span class=&quot;read-time&quot; title=&quot;Estimated read time&quot;&gt;
+  
+  5 min read
+&lt;/span&gt;
+
+
+  
+&lt;/div&gt;
+
+
+  &lt;/header&gt;
+
+  
+&lt;/a&gt;
+
+
+&lt;/aside&gt;
+
+&lt;p&gt;We’ve long been working toward making elementary OS more “gettable,” identifying barriers like the installer experience. A couple years ago, we started work on a new installer with System76, and wrote about that:&lt;/p&gt;
+
+&lt;aside&gt;
+
+
+
+&lt;a class=&quot;featured with-image 1&quot; href=&quot;/meet-the-upcoming-installer/&quot;&gt;
+  
+    &lt;div class=&quot;featured-image&quot; alt=&quot;Featured image&quot; style=&quot;background-image: url(https://cdn-images-1.medium.com/max/1600/1*-qVavEAS1iwLuKPmRyrJAA.png);&quot;&gt;&lt;/div&gt;
+  
+
+  &lt;header&gt;
+    &lt;h2&gt;
+
+
+
+   Meet the Upcoming&amp;nbsp;Installer
+
+&lt;/h2&gt;
+    
+      &lt;h3&gt;
+        
+
+
+
+   Making elementary OS more&amp;nbsp;“gettable”
+
+
+        
+      &lt;/h3&gt;
+    
+
+    
+
+
+
+&lt;div class=&quot;byline&quot;&gt;
+  &lt;div class=&quot;avatar&quot;&gt;
+    &lt;img srcset=&quot;https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&amp;amp;d=blank 2x&quot; src=&quot;https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&amp;amp;d=blank&quot; alt=&quot;Avatar for Daniel Foré&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;author&quot;&gt;
+    
+    &lt;span class=&quot;name&quot;&gt;Daniel Foré&lt;/span&gt;
+    
+    
+      &lt;span class=&quot;description&quot;&gt;Founder &amp;amp; CEO&lt;/span&gt;
+    
+  &lt;/div&gt;
+  &lt;time class=&quot;post-date&quot; datetime=&quot;2018-02-23&quot;&gt;Fri, Feb 23, 2018&lt;/time&gt;
+  
+    &lt;span class=&quot;read-time&quot; title=&quot;Estimated read time&quot;&gt;
+  
+  7 min read
+&lt;/span&gt;
+
+
+  
+&lt;/div&gt;
+
+
+  &lt;/header&gt;
+
+  
+&lt;/a&gt;
+
+
+&lt;/aside&gt;
+
+&lt;p&gt;Ultimately, however, most folks out there use the OS that comes on their device. And when existing users of elementary OS are looking to get a new computer, they want to be sure elementary OS will work well on it. So we need to do one of two things:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Build our own devices, or&lt;/li&gt;
+  &lt;li&gt;Work with existing OEMs&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;While we would &lt;em&gt;love&lt;/em&gt; to design and build our own devices for elementary OS, we’re a &lt;a href=&quot;https://elementary.io/team&quot;&gt;small team&lt;/a&gt;, comprised largely of volunteers. Hardware is hard, margins are thin, and it takes a &lt;em&gt;ton&lt;/em&gt; of capital to start up. At this point, it makes more sense for us to focus on our relationships with existing OEMs, ensuring people can get elementary OS out of the box from a company that is experienced with selling and shipping devices.&lt;/p&gt;
+
+&lt;h2 id=&quot;oem-program-retailers--partners&quot;&gt;OEM Program: Retailers &amp;amp; Partners&lt;/h2&gt;
+
+&lt;p&gt;In that vein, we’ve restructured our OEM program to make it both easier to ship elementary OS and for those purchases to support the work we do. We now have two tiers for OEMs: Retailers and Partners. While all OEMs must comply with &lt;a href=&quot;https://elementary.io/brand&quot;&gt;our branding and trademarks&lt;/a&gt;, the other requirements and perks for the tiers differ.&lt;/p&gt;
+
+&lt;h3 id=&quot;retailers&quot;&gt;Retailers&lt;/h3&gt;
+
+&lt;p&gt;Retailers are companies that ship devices with elementary OS while complying with our trademarks. In return, we list a link to the retailer’s site or landing page in &lt;a href=&quot;https://elementary.io/store/#devices&quot;&gt;our store&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;While we don’t certify individual retailer models, we do ensure we have a relationship with the company, and we work with the company to determine an appropriate royalty, referral, or other way the OEM can contribute to elementary OS. This ensures we’re promoting companies that have signed on to directly support elementary in some measurable way.&lt;/p&gt;
+
+&lt;h3 id=&quot;partners&quot;&gt;Partners&lt;/h3&gt;
+
+&lt;p&gt;Partners are a higher tier that requires more involvement from both sides; in addition to selling devices with elementary OS and complying with our trademarks, partners must follow stricter software guidelines and receive per-model approval by elementary. In return, we feature the specific models in &lt;a href=&quot;https://elementary.io/store/#devices&quot;&gt;our store&lt;/a&gt; with higher prominence.&lt;/p&gt;
+
+&lt;p&gt;Partner devices require a negotiable per-device royalty. Thus, purchasing a partner device guarantees a portion of your purchase goes to elementary and helps ensure the long-term sustainability of elementary OS.&lt;/p&gt;
+
+&lt;h2 id=&quot;get-a-device&quot;&gt;Get a Device&lt;/h2&gt;
+
+&lt;p&gt;Head over to the &lt;a href=&quot;https://elementary.io/store/#devices&quot;&gt;elementary Store&lt;/a&gt; for our current retailers—and keep an eye out for additional retailers and partners in the coming months. Our first two retailers are Laptop With Linux and Star Labs:&lt;/p&gt;
+
+&lt;h3 id=&quot;laptop-with-linux&quot;&gt;Laptop With Linux&lt;/h3&gt;
+
+&lt;p&gt;Based in the Netherlands, &lt;a href=&quot;https://laptopwithlinux.com/?ref=36&amp;amp;utm_source=referral&amp;amp;utm_medium=elementary&amp;amp;utm_campaign=elementary&quot;&gt;Laptop With Linux&lt;/a&gt; offers several laptops and mini desktops optimized for elementary OS. Laptops range from thin-and-light notebooks with 14″ displays to workstations with 17.3″ displays.&lt;/p&gt;
+
+&lt;figure class=&quot;constrained&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/now-shipping-elementary-os/laptop-with-linux.png&quot; alt=&quot;Laptop With Linux computer running elementary OS&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;17.3″ model running elementary OS&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;p&gt;&lt;a href=&quot;https://laptopwithlinux.com/?ref=36&amp;amp;utm_source=referral&amp;amp;utm_medium=elementary&amp;amp;utm_campaign=elementary&quot; class=&quot;button&quot;&gt;Visit Laptop With Linux&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The switch to Linux can often be a very big one. Fortunately, elementary OS is one of the most visually attractive and user friendly Linux-based operating systems, and our customers often choose it when making the switch.&lt;/p&gt;
+
+  &lt;p&gt;Without projects such as elementary OS, the proportion of Linux users would never grow. We are therefore very excited to offer elementary OS on our laptops and mini computers, and give something back to elementary with every sale.&lt;/p&gt;
+
+  &lt;p&gt;&lt;span class=&quot;attribution&quot;&gt;Peter Pont, &lt;a href=&quot;https://laptopwithlinux.com/?ref=36&amp;amp;utm_source=referral&amp;amp;utm_medium=elementary&amp;amp;utm_campaign=elementary&quot;&gt;Laptop With Linux&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;star-labs&quot;&gt;Star Labs&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://starlabs.systems/?rfsn=4227837.e8f025&quot;&gt;Star Labs&lt;/a&gt; is based in the United Kingdom and offers a very small number of thin and light laptop models, designed to run elementary OS. Their laptops are on the smaller end, with 11″ to 13.3″ displays.&lt;/p&gt;
+
+&lt;figure class=&quot;constrained&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/now-shipping-elementary-os/star-labs.png&quot; alt=&quot;Star LabTop laptop computer running elementary OS&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;Star LabTop Mk IV running elementary OS&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;p&gt;&lt;a href=&quot;https://starlabs.systems/?rfsn=4227837.e8f025&quot; class=&quot;button&quot;&gt;Visit Star Labs&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We are excited to team up with elementary with elementary OS now available on our laptops. With the OS being light, clean, and visually stunning, they break the boundaries for Linux going forward. The combination of elementary OS and the LabTop Mk IV creates the ultimate open source experience out of the box.&lt;/p&gt;
+
+  &lt;p&gt;&lt;span class=&quot;attribution&quot;&gt;Sean Rhodes, Technical Project Lead at &lt;a href=&quot;https://starlabs.systems/?rfsn=4227837.e8f025&quot;&gt;Star Labs&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;more-to-come&quot;&gt;More to Come&lt;/h3&gt;
+
+&lt;p&gt;We’re in talks with additional OEMs about potential retailer or partner relationships; stay tuned to the blog and &lt;a href=&quot;https://elementary.io/store/#devices&quot;&gt;our store&lt;/a&gt;. If you’re an OEM that would like to discuss becoming a retailer or partner, check out our &lt;a href=&quot;https://elementary.io/oem&quot;&gt;Information for OEMs&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+          <pubDate>Thu, 11 Jun 2020 00:00:00 -0500</pubDate>
+          <link>https://blog.elementary.io/now-shipping-elementary-os/</link>
+          <guid isPermaLink="true">https://blog.elementary.io/now-shipping-elementary-os/</guid>
+          
+              
+              
+          <enclosure url="https://blog.elementary.io" />
+          
+          
+          <category>devices</category>
+          
+          
+        </item>
+      
+    
+  </channel>
+</rss>
+

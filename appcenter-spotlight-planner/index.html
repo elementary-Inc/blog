@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>AppCenter Spotlight: Planner &sdot; elementary Blog</title>
+  <meta property="og:title" content="AppCenter Spotlight: Planner" />
+  <meta itemprop="name" content="AppCenter Spotlight: Planner" />
+  <meta name="twitter:title" content="AppCenter Spotlight: Planner" />
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="icon" sizes="256x256" href="https://www.gravatar.com/avatar/eaa3cc978770998ea2bd4382935bf0f4?s=256&d=blank" />
+  <meta itemprop="logo" content="https://www.gravatar.com/avatar/eaa3cc978770998ea2bd4382935bf0f4?s=256&d=blank" />
+  <link rel="shortcut icon" href="https://elementary.io/favicon.ico">
+  <link rel="apple-touch-icon" href="https://elementary.io/images/launcher-icons/apple-touch-icon.png">
+
+  <link rel="alternate" type="application/rss+xml" title="elementary Blog" href="https://blog.elementary.io/feed.xml" />
+
+  <meta name="author" content="" />
+  <meta name="theme-color" content="#64baff" />
+
+  
+    
+    
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:image" content="https://blog.elementary.io/images/appcenter-spotlight-planner/project_800.png" />
+  
+  <meta name="twitter:site" content="@elementary" />
+  <meta name="twitter:creator" content="@elementary" />
+
+  <meta name="description" content="Never worry about forgetting things again" />
+  <meta property="og:description" content="Never worry about forgetting things again" />
+  <meta itemprop="description" content="Never worry about forgetting things again" />
+  <meta name="twitter:description" content="Never worry about forgetting things again" />
+
+  <link rel="stylesheet" type="text/css" media="all" href="/css/main.css?v=2020-10-21 19:11:46 -0500" />
+  
+    <script async defer data-domain="blog.elementary.io" src="https://stats.elementary.io/js/index.js"></script>
+    <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+  
+</head>
+
+  <body class="">
+    <header>
+  <nav class="primary">
+    <ul>
+      <li><a href="https://elementary.io" class="logomark" target="_self">
+        <svg xmlns="http://www.w3.org/2000/svg" height="22" width="22"><path d="M11 0C4.926 0 0 4.926 0 11s4.926 11 11 11 11-4.926 11-11S17.074 0 11 0zm-.02 1.049h.002a.07.07 0 0 0 .018 0c4.548 0 8.384 3.052 9.57 7.217a17.315 17.315 0 0 1-4.213 5.496c-.847.733-1.773 1.383-2.79 1.842-1.018.458-2.136.719-3.247.656a5.6 5.6 0 0 1-2.271-.633 18.276 18.276 0 0 0 5.078-4.12c.956-1.116 1.791-2.39 2.115-3.833.165-.722.19-1.48.04-2.207a4.079 4.079 0 0 0-.999-1.965 4.013 4.013 0 0 0-1.855-1.098 4.85 4.85 0 0 0-2.153-.078c-1.423.261-2.693 1.086-3.705 2.108-1.787 1.8-2.89 4.34-2.687 6.875.102 1.267.524 2.511 1.252 3.554.143.205.302.398.467.584a16.228 16.228 0 0 1-3.086.739A9.946 9.946 0 0 1 10.98 1.049zm.07 2.02c.004-.001.016.002.012.001.692 0 1.387.211 1.936.627a3.2 3.2 0 0 1 1.068 1.49 4.12 4.12 0 0 1 .192 1.848c-.143 1.243-.77 2.388-1.533 3.393-1.354 1.778-3.156 3.203-5.159 4.2-.19.095-.386.187-.582.274a5.114 5.114 0 0 1-1.05-1.295c-.59-1.044-.784-2.284-.67-3.482.116-1.199.526-2.356 1.082-3.43.643-1.244 1.516-2.418 2.732-3.09a4.14 4.14 0 0 1 1.973-.537zm9.83 6.81c.042.367.071.739.071 1.117 0 5.497-4.452 9.953-9.95 9.953a9.917 9.917 0 0 1-7.59-3.53 18.138 18.138 0 0 0 3.17-1.06c.461.346.967.634 1.507.84 1.59.61 3.392.52 4.996-.035 1.603-.555 3.021-1.549 4.256-2.705a18.264 18.264 0 0 0 3.54-4.58z"/></svg>
+      </a></li>
+
+      <li><a href="https://elementary.io/support" target="_self">Support</a></li>
+      <li><a href="https://developer.elementary.io" target="_self">Developer</a><</li>
+      <li><a href="https://elementary.io/get-involved" target="_self">Get Involved</a></li>
+      <li><a href="https://elementary.io/store/" target="_self">Store</a></li>
+      <li><a href="/">Blog</a></li>
+    </ul>
+
+    <ul>
+      <li><a href="/feed.xml" title="RSS Feed">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M400 32H48C21.49 32 0 53.49 0 80v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V80c0-26.51-21.49-48-48-48zM112 416c-26.51 0-48-21.49-48-48s21.49-48 48-48 48 21.49 48 48-21.49 48-48 48zm157.533 0h-34.335c-6.011 0-11.051-4.636-11.442-10.634-5.214-80.05-69.243-143.92-149.123-149.123-5.997-.39-10.633-5.431-10.633-11.441v-34.335c0-6.535 5.468-11.777 11.994-11.425 110.546 5.974 198.997 94.536 204.964 204.964.352 6.526-4.89 11.994-11.425 11.994zm103.027 0h-34.334c-6.161 0-11.175-4.882-11.427-11.038-5.598-136.535-115.204-246.161-251.76-251.76C68.882 152.949 64 147.935 64 141.774V107.44c0-6.454 5.338-11.664 11.787-11.432 167.83 6.025 302.21 141.191 308.205 308.205.232 6.449-4.978 11.787-11.432 11.787z"/></svg>
+      </a></li>
+
+      <li><a href="https://www.facebook.com/elementaryos" target="_blank" rel="noopener" title="Facebook">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg>
+      </a></li>
+
+      <li><a href="https://mastodon.social/@elementary" target="_blank" rel="noopener" title="Mastodon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M433 179.11c0-97.2-63.71-125.7-63.71-125.7-62.52-28.7-228.56-28.4-290.48 0 0 0-63.72 28.5-63.72 125.7 0 115.7-6.6 259.4 105.63 289.1 40.51 10.7 75.32 13 103.33 11.4 50.81-2.8 79.32-18.1 79.32-18.1l-1.7-36.9s-36.31 11.4-77.12 10.1c-40.41-1.4-83-4.4-89.63-54a102.54 102.54 0 0 1-.9-13.9c85.63 20.9 158.65 9.1 178.75 6.7 56.12-6.7 105-41.3 111.23-72.9 9.8-49.8 9-121.5 9-121.5zm-75.12 125.2h-46.63v-114.2c0-49.7-64-51.6-64 6.9v62.5h-46.33V197c0-58.5-64-56.6-64-6.9v114.2H90.19c0-122.1-5.2-147.9 18.41-175 25.9-28.9 79.82-30.8 103.83 6.1l11.6 19.5 11.6-19.5c24.11-37.1 78.12-34.8 103.83-6.1 23.71 27.3 18.4 53 18.4 175z"/></svg>
+      </a></li>
+
+      <li><a href="https://www.reddit.com/r/elementaryos" target="_blank" rel="noopener" title="Reddit">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M201.5 305.5c-13.8 0-24.9-11.1-24.9-24.6 0-13.8 11.1-24.9 24.9-24.9 13.6 0 24.6 11.1 24.6 24.9 0 13.6-11.1 24.6-24.6 24.6zM504 256c0 137-111 248-248 248S8 393 8 256 119 8 256 8s248 111 248 248zm-132.3-41.2c-9.4 0-17.7 3.9-23.8 10-22.4-15.5-52.6-25.5-86.1-26.6l17.4-78.3 55.4 12.5c0 13.6 11.1 24.6 24.6 24.6 13.8 0 24.9-11.3 24.9-24.9s-11.1-24.9-24.9-24.9c-9.7 0-18 5.8-22.1 13.8l-61.2-13.6c-3-.8-6.1 1.4-6.9 4.4l-19.1 86.4c-33.2 1.4-63.1 11.3-85.5 26.8-6.1-6.4-14.7-10.2-24.1-10.2-34.9 0-46.3 46.9-14.4 62.8-1.1 5-1.7 10.2-1.7 15.5 0 52.6 59.2 95.2 132 95.2 73.1 0 132.3-42.6 132.3-95.2 0-5.3-.6-10.8-1.9-15.8 31.3-16 19.8-62.5-14.9-62.5zM302.8 331c-18.2 18.2-76.1 17.9-93.6 0-2.2-2.2-6.1-2.2-8.3 0-2.5 2.5-2.5 6.4 0 8.6 22.8 22.8 87.3 22.8 110.2 0 2.5-2.2 2.5-6.1 0-8.6-2.2-2.2-6.1-2.2-8.3 0zm7.7-75c-13.6 0-24.6 11.1-24.6 24.9 0 13.6 11.1 24.6 24.6 24.6 13.8 0 24.9-11.1 24.9-24.6 0-13.8-11-24.9-24.9-24.9z"/></svg>
+      </a></li>
+
+      <li><a href="https://elementaryos.stackexchange.com" target="_blank" rel="noopener" title="StackExchange">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M17.7 332.3h412.7v22c0 37.7-29.3 68-65.3 68h-19L259.3 512v-89.7H83c-36 0-65.3-30.3-65.3-68v-22zm0-23.6h412.7v-85H17.7v85zm0-109.4h412.7v-85H17.7v85zM365 0H83C47 0 17.7 30.3 17.7 67.7V90h412.7V67.7C430.3 30.3 401 0 365 0z"/></svg>
+      </a></li>
+
+      <li><a href="https://twitter.com/elementary" target="_blank" rel="noopener" title="Twitter">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+      </a></li>
+
+      <li><a href="https://join.slack.com/t/elementarycommunity/shared_invite/enQtMzU1NDU4OTE1MjY2LWUyOTBkZGNkZGM4MDgzZjE2ZjRiZDgwMDQ1ZTA0MzcxYjI0MDUyNGRlNDI5ZWViNDkwMzMwYzczMDY2ZjA0MTc" target="_blank" rel="noopener" title="Slack">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M94.12 315.1c0 25.9-21.16 47.06-47.06 47.06S0 341 0 315.1c0-25.9 21.16-47.06 47.06-47.06h47.06v47.06zm23.72 0c0-25.9 21.16-47.06 47.06-47.06s47.06 21.16 47.06 47.06v117.84c0 25.9-21.16 47.06-47.06 47.06s-47.06-21.16-47.06-47.06V315.1zm47.06-188.98c-25.9 0-47.06-21.16-47.06-47.06S139 32 164.9 32s47.06 21.16 47.06 47.06v47.06H164.9zm0 23.72c25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06H47.06C21.16 243.96 0 222.8 0 196.9s21.16-47.06 47.06-47.06H164.9zm188.98 47.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06h-47.06V196.9zm-23.72 0c0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06V79.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06V196.9zM283.1 385.88c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06v-47.06h47.06zm0-23.72c-25.9 0-47.06-21.16-47.06-47.06 0-25.9 21.16-47.06 47.06-47.06h117.84c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06H283.1z"/></svg>
+      </a></li>
+    </ul>
+  </nav>
+  <nav class="secondary">
+    <div>
+      <a href="/tags/#updates">OS Updates</a>
+      <a href="/tags/#appcenter">AppCenter</a>
+      <a href="/tags/#devs">Developers</a>
+      <a href="/tags/#design">Design</a>
+    </div>
+
+    <div id="search-container" class="hidden">
+      <svg height='16' width='16' xmlns='http://www.w3.org/2000/svg'>
+    <g color='#000' transform='translate(-613 11)'>
+        
+        <path d='M619.5-10c-3.026 0-5.5 2.474-5.5 5.5s2.474 5.5 5.5 5.5a5.46 5.46 0 0 0 3.112-.975l3.681 3.682a1 1 0 1 0 1.414-1.414l-3.681-3.682A5.46 5.46 0 0 0 625-4.5c0-3.026-2.474-5.5-5.5-5.5zm0 1.25a4.25 4.25 0 0 1 4.25 4.25 4.25 4.25 0 0 1-4.25 4.25 4.25 4.25 0 0 1-4.25-4.25 4.25 4.25 0 0 1 4.25-4.25z' fill='#666' font-family='sans-serif' font-weight='400' overflow='visible' style='line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;shape-padding:0;isolation:auto;mix-blend-mode:normal' white-space='normal'/>
+    </g>
+</svg>
+
+      <input type="text" id="search-input" placeholder="Search Posts…">
+      <ul id="results-container"></ul>
+    </div>
+
+    <script src="/scripts/search.js"></script>
+
+    <script>
+      document.getElementById('search-container').classList.remove("hidden")
+
+      SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        searchResultTemplate: `<li>
+          <a href="{url}">
+            <div class="featured-image" alt="Featured image" style="background-image: url({image});"></div>
+            <span id="title">{title}</span>
+            <span id="description">{description}</span>
+          </a>
+        </li>`,
+        resultsContainer: document.getElementById('results-container'),
+        noResultsText: ("No Result Found"),
+        json: '/search.json'
+      })
+    </script>
+  </nav>
+</header>
+
+    <section>
+      
+
+
+
+
+
+  
+  
+  
+
+
+
+<article>
+  
+  <header>
+    <h1>
+
+
+
+   AppCenter Spotlight:&nbsp;Planner
+
+</h1>
+    
+      <h2>
+
+
+
+   Never worry about forgetting things&nbsp;again
+
+</h2>
+    
+
+    
+
+
+
+<div class="byline">
+  <div class="avatar">
+    <img
+      
+        srcset="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&d=blank 2x"
+        src="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&d=blank"
+        alt="Avatar for Cassidy James Blaede"
+      
+    />
+  </div>
+  <div class="author">
+    <a href="/authors/#cassidyjames">
+    <span class="name">Cassidy James Blaede</span>
+    </a>
+    
+      <span class="description">Co-founder & CXO</span>
+    
+  </div>
+  <time class="post-date" datetime="2020-02-18">Tue, Feb 18, 2020</time>
+  
+    <span class="read-time" title="Estimated read time">
+  
+  6 min read
+</span>
+
+
+  
+</div>
+
+
+    <aside class="tags">
+  
+  
+    <a class="tag" href="/tags/#appcenter-spotlight">#appcenter-spotlight</a>
+  
+    <a class="tag" href="/tags/#interview">#interview</a>
+  
+</aside>
+
+
+  </header>
+
+  <section>
+    <p>If you’ve been looking for a great task management app, look no further: Planner by Alain is the one. It’s also by far one of the most polished apps I’ve seen in AppCenter—it does so much, but it does it all well.</p>
+
+<aside>
+  <p><a rel="nofollow noopener noreferrer" target="_blank" href="https://appcenter.elementary.io/com.github.alainm23.planner"><img src="https://appcenter.elementary.io/badge.svg" alt="Get it on AppCenter" /></a>﻿</p>
+</aside>
+
+<p>Planner is designed around to-do lists, but it’s much more than just a single list of checkboxes. It handles due-dates, projects, reminders, and even online sync with Todoist.</p>
+
+<h2 id="meet-alain">Meet Alain</h2>
+
+<p>Planner is developed by Alain, a 25-year-old systems engineer and app developer from Cusco, Peru.</p>
+
+<figure class="circle">
+  <p><img src="/images/appcenter-spotlight-planner/alain.jpg" alt="Alain" srcset="/images/appcenter-spotlight-planner/alain@2x.jpg 2x" width="320" height="320" /></p>
+</figure>
+
+<blockquote>
+  <p>My favorite hobby is listening to music, I feel that I concentrate much more when I put on my headphones and listen to a good hard rock at full volume. Otherwise, living in a tourist country, I like to travel and see new places. And from time to time I also like to cook (my girlfriend always tells me I’m a good cook).</p>
+</blockquote>
+
+<p>Alain has been following elementary since Luna, and has always appreciated our design. Like many apps, Planner came about out of necessity.</p>
+
+<blockquote>
+  <p>I basically developed Planner because it was a tool I needed, I started working as a software developer 3 years ago and using elementary OS as my main OS. I used several project and task managers (Things, Todoist, Trello, MeisterTask, etc) but there was always something that made me leave them (features, design). Then I started thinking and decided to develop my own task manager, a native one with a good design—and I think I succeeded.</p>
+</blockquote>
+
+<p>Planner has been on AppCenter for over a year now, but the major 2.0 update was released just about a month ago. In addition to a major visual overhaul, Planner 2 brought online sync.</p>
+
+<blockquote>
+  <p>I really like Planner 2 because not everything stays on the computer, now you can also synchronize your task with Todoist and work from anywhere.</p>
+</blockquote>
+
+<p>So far, Alain has been happy with both elementary OS and AppCenter.</p>
+
+<blockquote>
+  <p>I really like elementary OS and AppCenter (I consider myself a fanboy) distributing your application for everyone to use is very easy.</p>
+</blockquote>
+
+<p>The one critique is that our payment processor <a rel="nofollow noopener noreferrer" target="_blank" href="https://stripe.com/global">does not currently support Peru</a>, so Planner can’t be monetized yet (without incorporating a company in another country, i.e. using <a rel="nofollow noopener noreferrer" target="_blank" href="https://stripe.com/atlas">Stripe Atlas</a>). However, Alain has seen some success in using <a rel="nofollow noopener noreferrer" target="_blank" href="https://www.paypal.me/alainm23">PayPal</a> and <a rel="nofollow noopener noreferrer" target="_blank" href="https://www.patreon.com/alainm23">Patreon</a> to help sustain development.</p>
+
+<h2 id="how-planner-works">How Planner Works</h2>
+
+<p>There are three default views in Planner: Inbox, Today, and Upcoming. “Inbox” acts as a default staging area for tasks; if you want to just throw some tasks into Planner without worrying about which list to attach them to, this is where you do that. “Today” shows tasks that are due today across all projects and lists—handy for knowing your immediate priorities. “Upcoming” shows a calendar agenda-style list of future dates, along with any tasks assigned to those days—plus any calendar events you have on those days to make planning even easier. How thoughtful!</p>
+
+<figure>
+  <p><img src="/images/appcenter-spotlight-planner/today_800.png" alt="&quot;Today&quot; view in Planner" srcset="/images/appcenter-spotlight-planner/today.png 2x" width="1162" height="774" /></p>
+  <figcaption>
+    <p>Example “Today” view</p>
+  </figcaption>
+</figure>
+
+<p>You can add projects to the sidebar to keep things tidy. For example, you could have a project for your blog, a project for around-the-house, a project for work, etc. Each project can also have sections within it, making it easy to keep things organized there. Each project in Planner aggregates its tasks’ statuses to create an overall progress, shown next to the list in a donut-style chart.</p>
+
+<figure>
+  <p><img src="/images/appcenter-spotlight-planner/project_800.png" alt="A project in Planner" srcset="/images/appcenter-spotlight-planner/project.png 2x" width="1162" height="774" /></p>
+  <figcaption>
+    <p>Example project list</p>
+  </figcaption>
+</figure>
+
+<h3 id="design">Design</h3>
+
+<p>What strikes me most about Planner is its thoroughly thought out design, including tons of tiny, delightful animations and impressive details. For example, when you select the Inbox, Today, or Upcoming views, their icons have a cute little wiggle within the colored box. It’s tiny and easily missable, but it’s the kind of attention to detail that makes an app really stand out. Similarly, delete buttons spin out from the side on hover, the “Add list” options slide up in a card over the sidebar, and extra controls like buttons for expanding a list or editing a section smoothly fade in when needed.</p>
+
+<figure class="card">
+    <video width="448" height="384" autoplay="true" loop="true" playsinline="true" muted="true">
+        <source src="/videos/appcenter-spotlight-planner/animations.webm" type="video/webm" />
+        <source src="/videos/appcenter-spotlight-planner/animations.mp4" type="video/mp4" />
+    </video>
+    <figcaption>Look at these cute little animations!</figcaption>
+</figure>
+
+<p>All of the little animations feel like they do something to both add to delight and help communicate the spatial model (where things on the screen are coming from or going to when they appear or disappear). And they do so without affecting performance at all.</p>
+
+<h3 id="todoist-sync">Todoist Sync</h3>
+
+<p>Perhaps the most important feature to many will be Planner’s syncing with the online Todoist service. Todoist works much in the same way as Planner, with Inbox, Today, and Upcoming views, plus projects with subsections. That’s not a coincidence: Alain has designed Planner to be a perfect native Todoist app for elementary OS. Syncing with Todoist brings an essential feature to the to-do app: web and mobile device support. Download the Todoist app on your other platform of choice, sign into the same account, and all of your tasks and projects are kept in sync with Planner on elementary OS.</p>
+
+<figure>
+  <p><img src="/images/appcenter-spotlight-planner/todoist_800.png" alt="A project in Planner" srcset="/images/appcenter-spotlight-planner/todoist.png 2x" width="939" height="587" /></p>
+  <figcaption>
+    <p>Cross-device support with Todoist</p>
+  </figcaption>
+</figure>
+
+<p>To me, syncing with multiple devices is table stakes for a project management or to-do app. I don’t always have my main computer right in front of me, but that shouldn’t stop me from jotting down a to-do or checking something off as done. Planner delivers wonderfully with its Todoist support.</p>
+
+<h2 id="future">Future</h2>
+
+<p>What’s coming in the future from Alain? They provided some teases:</p>
+
+<blockquote>
+  <p>I have some ideas for Planner 3. I’ve been thinking about developing a mobile application and stop using Todoist as a synchronization server and develop one of my own. I’ve also been thinking about developing a native Apple Music client for Linux and a multisystem game emulator similar to OpenEmu.</p>
+</blockquote>
+
+<p>While these weren’t strict promises, I would definitely be interested in an online music app and game emulator! I look forward to seeing what they do next.</p>
+
+<h2 id="get-planner">Get Planner</h2>
+
+<p>Planner is <a rel="nofollow noopener noreferrer" target="_blank" href="https://appcenter.elementary.io/com.github.alainm23.planner">available on AppCenter</a> today for free. As with all apps on AppCenter, it’s open source and <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/alainm23/planner">available on Github</a>.</p>
+
+<aside>
+  <p><a rel="nofollow noopener noreferrer" target="_blank" href="https://appcenter.elementary.io/com.github.alainm23.planner"><img src="https://appcenter.elementary.io/badge.svg" alt="Get it on AppCenter" /></a>﻿</p>
+</aside>
+
+<p>While Alain has made Planner available for free, they do have a <a rel="nofollow noopener noreferrer" target="_blank" href="https://www.paypal.me/alainm23">PayPal</a> and <a rel="nofollow noopener noreferrer" target="_blank" href="https://www.patreon.com/alainm23">Patreon</a> to help sustain development. If you’re a fan of Planner or Alain’s other apps, consider contributing via PayPal or becoming a patron! You can follow Alain on Twitter at <a rel="nofollow noopener noreferrer" target="_blank" href="https://twitter.com/alainm23">@alainm23</a>, or Planner at <a rel="nofollow noopener noreferrer" target="_blank" href="https://twitter.com/planner_todo">@planner_todo</a>.</p>
+
+<h2 id="thanks">Thanks</h2>
+
+<p>Thanks to all of the app developers like Alain, everyone who has bought an app on AppCenter, and to all of our supporters, backers, and customers! Your contributions make elementary possible. If you’d like to help build and improve elementary OS, don’t hesitate to <a rel="nofollow noopener noreferrer" target="_blank" href="https://elementary.io/get-involved">Get Involved</a>.</p>
+
+<p>Alain would like to thank all the people who helped them develop Planner, and everyone who has contributed via PayPal and Patreon.</p>
+
+<aside class="spotlight">
+
+  <hr />
+
+  <h2 id="get-featured">Get Featured</h2>
+
+  <p>Are you a developer of an AppCenter app? Submit it for consideration in a future AppCenter Spotlight.</p>
+
+  <div style="text-align: center">
+    <p><a rel="nofollow noopener noreferrer" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdZ0Ze4o6xHzE7YJnDayysWnq8FkT02rE_Y7wG7eHywmYSGFA/viewform?usp=sf_link" class="button">Submit Your App</a></p>
+  </div>
+
+  <hr />
+
+</aside>
+
+
+  </section>
+
+  
+
+
+
+</article>
+
+<div class="license">
+  <a title=" This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License" rel="license" target="_blank" href="http://creativecommons.org/licenses/by-sa/4.0/">
+    Some rights reserved
+  </a>
+  <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="creative-commons" class="svg-inline--fa fa-creative-commons fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M245.83 214.87l-33.22 17.28c-9.43-19.58-25.24-19.93-27.46-19.93-22.13 0-33.22 14.61-33.22 43.84 0 23.57 9.21 43.84 33.22 43.84 14.47 0 24.65-7.09 30.57-21.26l30.55 15.5c-6.17 11.51-25.69 38.98-65.1 38.98-22.6 0-73.96-10.32-73.96-77.05 0-58.69 43-77.06 72.63-77.06 30.72-.01 52.7 11.95 65.99 35.86zm143.05 0l-32.78 17.28c-9.5-19.77-25.72-19.93-27.9-19.93-22.14 0-33.22 14.61-33.22 43.84 0 23.55 9.23 43.84 33.22 43.84 14.45 0 24.65-7.09 30.54-21.26l31 15.5c-2.1 3.75-21.39 38.98-65.09 38.98-22.69 0-73.96-9.87-73.96-77.05 0-58.67 42.97-77.06 72.63-77.06 30.71-.01 52.58 11.95 65.56 35.86zM247.56 8.05C104.74 8.05 0 123.11 0 256.05c0 138.49 113.6 248 247.56 248 129.93 0 248.44-100.87 248.44-248 0-137.87-106.62-248-248.44-248zm.87 450.81c-112.54 0-203.7-93.04-203.7-202.81 0-105.42 85.43-203.27 203.72-203.27 112.53 0 202.82 89.46 202.82 203.26-.01 121.69-99.68 202.82-202.84 202.82z"></path></svg>
+  <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="creative-commons-by" class="svg-inline--fa fa-creative-commons-by fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M314.9 194.4v101.4h-28.3v120.5h-77.1V295.9h-28.3V194.4c0-4.4 1.6-8.2 4.6-11.3 3.1-3.1 6.9-4.7 11.3-4.7H299c4.1 0 7.8 1.6 11.1 4.7 3.1 3.2 4.8 6.9 4.8 11.3zm-101.5-63.7c0-23.3 11.5-35 34.5-35s34.5 11.7 34.5 35c0 23-11.5 34.5-34.5 34.5s-34.5-11.5-34.5-34.5zM247.6 8C389.4 8 496 118.1 496 256c0 147.1-118.5 248-248.4 248C113.6 504 0 394.5 0 256 0 123.1 104.7 8 247.6 8zm.8 44.7C130.2 52.7 44.7 150.6 44.7 256c0 109.8 91.2 202.8 203.7 202.8 103.2 0 202.8-81.1 202.8-202.8.1-113.8-90.2-203.3-202.8-203.3z"></path></svg>
+  <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="creative-commons-sa" class="svg-inline--fa fa-creative-commons-sa fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M247.6 8C389.4 8 496 118.1 496 256c0 147.1-118.5 248-248.4 248C113.6 504 0 394.5 0 256 0 123.1 104.7 8 247.6 8zm.8 44.7C130.2 52.7 44.7 150.6 44.7 256c0 109.8 91.2 202.8 203.7 202.8 103.2 0 202.8-81.1 202.8-202.8.1-113.8-90.2-203.3-202.8-203.3zM137.7 221c13-83.9 80.5-95.7 108.9-95.7 99.8 0 127.5 82.5 127.5 134.2 0 63.6-41 132.9-128.9 132.9-38.9 0-99.1-20-109.4-97h62.5c1.5 30.1 19.6 45.2 54.5 45.2 23.3 0 58-18.2 58-82.8 0-82.5-49.1-80.6-56.7-80.6-33.1 0-51.7 14.6-55.8 43.8h18.2l-49.2 49.2-49-49.2h19.4z"></path></svg>
+</div>
+
+
+<div class="social">
+  <h2>Join the Discussion on Social Media</h2>
+
+  
+    <div class="official">
+      <h3>Official Posts</h3>
+
+      
+        <a
+          href="https://twitter.com/elementary/status/1229891020374134784"
+          rel="noreferrer nofollow noopener"
+          target="_blank"
+          title="Twitter"
+          onclick="plausible('Social: Twitter')"
+        >
+          <img src="/images/twitter.svg" alt="Twitter" />
+        </a>
+      
+
+      
+        <a
+          href="https://mastodon.social/@elementary/103682138652819524"
+          rel="noreferrer nofollow noopener"
+          target="_blank"
+          title="Mastodon"
+          onclick="plausible('Social: Mastodon')"
+        >
+          <img src="/images/mastodon.svg" alt="Mastodon" />
+        </a>
+      
+
+      
+        <a
+          href="https://www.reddit.com/r/elementaryos/comments/f60q15/appcenter_spotlight_planner/"
+          rel="noreferrer nofollow noopener"
+          target="_blank"
+          title="Reddit"
+          onclick="plausible('Social: Reddit')"
+        >
+          <img src="/images/reddit.svg" alt="Reddit" />
+        </a>
+      
+
+      
+        <a
+          href="https://www.facebook.com/elementaryos/posts/3052846374747171"
+          rel="noreferrer nofollow noopener"
+          target="_blank"
+          title="Facebook"
+          onclick="plausible('Social: Facebook')"
+        >
+          <img src="/images/facebook.svg" alt="Facebook" />
+        </a>
+      
+    </div>
+  
+
+  <div class="share">
+    <h3>Share</h3>
+    
+
+    <a
+      href="https://twitter.com/intent/tweet?text=AppCenter Spotlight: Planner&url=https://blog.elementary.io/appcenter-spotlight-planner/&via=elementary&original_referer=https://blog.elementary.io/appcenter-spotlight-planner/"
+      rel="noreferrer nofollow noopener"
+      target="_blank"
+      title="Twitter"
+      onclick="plausible('Share: Twitter')"
+    >
+      <img src="/images/twitter.svg" alt="Twitter" />
+    </a>
+
+    <a
+      href="http://www.reddit.com/submit?title=AppCenter Spotlight: Planner&url=https://blog.elementary.io/appcenter-spotlight-planner/"
+      rel="noreferrer nofollow noopener"
+      target="_blank"
+      title="Reddit"
+      onclick="plausible('Share: Reddit')"
+    >
+      <img src="/images/reddit.svg" alt="Reddit" />
+    </a>
+
+    <a
+      href="https://www.facebook.com/sharer/sharer.php?u=https://blog.elementary.io/appcenter-spotlight-planner/"
+      rel="noreferrer nofollow noopener"
+      target="_blank"
+      title="Facebook"
+      onclick="plausible('Share: Facebook')"
+    >
+      <img src="/images/facebook.svg" alt="Facebook" />
+    </a>
+
+    <a
+      href="https://blog.elementary.io/appcenter-spotlight-planner/"
+
+      title="Permalink"
+      onclick="plausible('Share: Permalink')"
+    >
+      <img src="/images/edit-copy-32.svg" alt="Permalink" />
+    </a>
+  </div>
+</div>
+
+
+
+<h2 class="up-next">Up Next</h2>
+
+
+  
+    
+
+<a class="featured with-image 1" href="/appcenter-for-everyone-stretch-goal-privacy-security-sprint/">
+  
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/appcenter-for-everyone/privacy-security-stretch.png);"></div>
+  
+
+  <header>
+    <h2>
+
+
+
+   Stretch Goal: Privacy & Security&nbsp;Sprint
+
+</h2>
+    
+      <h3>
+        
+
+
+
+   Tackling further improvements to privacy and security in AppCenter and elementary OS&nbsp;6
+
+
+         →
+      </h3>
+    
+
+    
+
+
+
+<div class="byline">
+  <div class="avatar">
+    <img
+      
+        srcset="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&d=blank 2x"
+        src="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&d=blank"
+        alt="Avatar for Cassidy James Blaede"
+      
+    />
+  </div>
+  <div class="author">
+    
+    <span class="name">Cassidy James Blaede</span>
+    
+    
+      <span class="description">Co-founder & CXO</span>
+    
+  </div>
+  <time class="post-date" datetime="2020-02-25">Tue, Feb 25, 2020</time>
+  
+    <span class="read-time" title="Estimated read time">
+  
+  1 min read
+</span>
+
+
+  
+</div>
+
+
+  </header>
+
+  
+</a>
+
+
+  
+
+
+
+  
+    
+
+<a class="featured with-image 1" href="/appcenter-for-everyone/">
+  
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/appcenter-for-everyone/header.jpg);"></div>
+  
+
+  <header>
+    <h2>
+
+
+
+   AppCenter for&nbsp;Everyone
+
+</h2>
+    
+      <h3>
+        
+
+
+
+   Taking the indie, open source app store to the next&nbsp;level
+
+
+         →
+      </h3>
+    
+
+    
+
+
+
+<div class="byline">
+  <div class="avatar">
+    <img
+      
+        srcset="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&d=blank 2x"
+        src="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&d=blank"
+        alt="Avatar for Daniel Foré"
+      
+    />
+  </div>
+  <div class="author">
+    
+    <span class="name">Daniel Foré</span>
+    
+    
+      <span class="description">Founder & CEO</span>
+    
+  </div>
+  <time class="post-date" datetime="2020-02-07">Fri, Feb  7, 2020</time>
+  
+    <span class="read-time" title="Estimated read time">
+  
+  1 min read
+</span>
+
+
+  
+</div>
+
+
+  </header>
+
+  
+</a>
+
+
+  
+
+
+
+
+      <div class="medium">
+  <hr />
+  <article>
+    <h2>Looking for More?</h2>
+    <p>While we're migrating posts to the elementary blog, some older stories are still only on the <a href="https://medium.com/elementaryos" target="_blank" onclick="plausible('Link: Medium')">official elementary Medium publication</a>. Head over there to read more.
+  </article>
+</div>
+
+
+    </section>
+    <footer>
+  <p>© 2020 elementary, Inc</p>
+  <ul>
+    <li><a href="https://elementary.io/press" target="_self">Press</a></li>
+    <li><a href="https://elementary.io/brand" target="_self">Brand</a></li>
+    <li><a href="https://elementary.io/oem" target="_self">OEMs</a></li>
+    <li><a href="https://elementary.io/privacy" target="_self">Privacy</a></li>
+    <li><a href="https://elementary.io/team" target="_self">Team</a></li>
+    <li><a href="https://elementary.io/open-source" target="_self">Open Source</a></li>
+  </ul>
+</footer>
+
+    <script>
+  // Makes figure images focusable for zooming
+  let figureImages = document.querySelectorAll ("figure img");
+  figureImages.forEach (function (figureImage) {
+    figureImage.setAttribute ("tabindex", -1);
+    document.addEventListener ('mousedown', event => {
+      if (document.activeElement === figureImage) {
+        // Prevent it from triggering on focusIn
+        setTimeout (function () {
+          document.activeElement.blur ();
+        }, 100);
+      }
+    });
+  });
+</script>
+
+
+  </body>
+</html>

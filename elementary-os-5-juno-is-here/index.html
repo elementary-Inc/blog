@@ -1,0 +1,1487 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>elementary OS 5 Juno is Here &sdot; elementary Blog</title>
+  <meta property="og:title" content="elementary OS 5 Juno is Here" />
+  <meta itemprop="name" content="elementary OS 5 Juno is Here" />
+  <meta name="twitter:title" content="elementary OS 5 Juno is Here" />
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="icon" sizes="256x256" href="https://www.gravatar.com/avatar/eaa3cc978770998ea2bd4382935bf0f4?s=256&d=blank" />
+  <meta itemprop="logo" content="https://www.gravatar.com/avatar/eaa3cc978770998ea2bd4382935bf0f4?s=256&d=blank" />
+  <link rel="shortcut icon" href="https://elementary.io/favicon.ico">
+  <link rel="apple-touch-icon" href="https://elementary.io/images/launcher-icons/apple-touch-icon.png">
+
+  <link rel="alternate" type="application/rss+xml" title="elementary Blog" href="https://blog.elementary.io/feed.xml" />
+
+  <meta name="author" content="" />
+  <meta name="theme-color" content="#64baff" />
+
+  
+    
+    
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:image" content="https://blog.elementary.io/images/elementary-os-5-juno-is-here/card.png" />
+  
+  <meta name="twitter:site" content="@elementary" />
+  <meta name="twitter:creator" content="@elementary" />
+
+  <meta name="description" content="Refinement, Productivity, & an Improved Developer Platform" />
+  <meta property="og:description" content="Refinement, Productivity, & an Improved Developer Platform" />
+  <meta itemprop="description" content="Refinement, Productivity, & an Improved Developer Platform" />
+  <meta name="twitter:description" content="Refinement, Productivity, & an Improved Developer Platform" />
+
+  <link rel="stylesheet" type="text/css" media="all" href="/css/main.css?v=2020-10-21 19:11:46 -0500" />
+  
+    <script async defer data-domain="blog.elementary.io" src="https://stats.elementary.io/js/index.js"></script>
+    <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+  
+</head>
+
+  <body class="">
+    <header>
+  <nav class="primary">
+    <ul>
+      <li><a href="https://elementary.io" class="logomark" target="_self">
+        <svg xmlns="http://www.w3.org/2000/svg" height="22" width="22"><path d="M11 0C4.926 0 0 4.926 0 11s4.926 11 11 11 11-4.926 11-11S17.074 0 11 0zm-.02 1.049h.002a.07.07 0 0 0 .018 0c4.548 0 8.384 3.052 9.57 7.217a17.315 17.315 0 0 1-4.213 5.496c-.847.733-1.773 1.383-2.79 1.842-1.018.458-2.136.719-3.247.656a5.6 5.6 0 0 1-2.271-.633 18.276 18.276 0 0 0 5.078-4.12c.956-1.116 1.791-2.39 2.115-3.833.165-.722.19-1.48.04-2.207a4.079 4.079 0 0 0-.999-1.965 4.013 4.013 0 0 0-1.855-1.098 4.85 4.85 0 0 0-2.153-.078c-1.423.261-2.693 1.086-3.705 2.108-1.787 1.8-2.89 4.34-2.687 6.875.102 1.267.524 2.511 1.252 3.554.143.205.302.398.467.584a16.228 16.228 0 0 1-3.086.739A9.946 9.946 0 0 1 10.98 1.049zm.07 2.02c.004-.001.016.002.012.001.692 0 1.387.211 1.936.627a3.2 3.2 0 0 1 1.068 1.49 4.12 4.12 0 0 1 .192 1.848c-.143 1.243-.77 2.388-1.533 3.393-1.354 1.778-3.156 3.203-5.159 4.2-.19.095-.386.187-.582.274a5.114 5.114 0 0 1-1.05-1.295c-.59-1.044-.784-2.284-.67-3.482.116-1.199.526-2.356 1.082-3.43.643-1.244 1.516-2.418 2.732-3.09a4.14 4.14 0 0 1 1.973-.537zm9.83 6.81c.042.367.071.739.071 1.117 0 5.497-4.452 9.953-9.95 9.953a9.917 9.917 0 0 1-7.59-3.53 18.138 18.138 0 0 0 3.17-1.06c.461.346.967.634 1.507.84 1.59.61 3.392.52 4.996-.035 1.603-.555 3.021-1.549 4.256-2.705a18.264 18.264 0 0 0 3.54-4.58z"/></svg>
+      </a></li>
+
+      <li><a href="https://elementary.io/support" target="_self">Support</a></li>
+      <li><a href="https://developer.elementary.io" target="_self">Developer</a><</li>
+      <li><a href="https://elementary.io/get-involved" target="_self">Get Involved</a></li>
+      <li><a href="https://elementary.io/store/" target="_self">Store</a></li>
+      <li><a href="/">Blog</a></li>
+    </ul>
+
+    <ul>
+      <li><a href="/feed.xml" title="RSS Feed">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M400 32H48C21.49 32 0 53.49 0 80v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V80c0-26.51-21.49-48-48-48zM112 416c-26.51 0-48-21.49-48-48s21.49-48 48-48 48 21.49 48 48-21.49 48-48 48zm157.533 0h-34.335c-6.011 0-11.051-4.636-11.442-10.634-5.214-80.05-69.243-143.92-149.123-149.123-5.997-.39-10.633-5.431-10.633-11.441v-34.335c0-6.535 5.468-11.777 11.994-11.425 110.546 5.974 198.997 94.536 204.964 204.964.352 6.526-4.89 11.994-11.425 11.994zm103.027 0h-34.334c-6.161 0-11.175-4.882-11.427-11.038-5.598-136.535-115.204-246.161-251.76-251.76C68.882 152.949 64 147.935 64 141.774V107.44c0-6.454 5.338-11.664 11.787-11.432 167.83 6.025 302.21 141.191 308.205 308.205.232 6.449-4.978 11.787-11.432 11.787z"/></svg>
+      </a></li>
+
+      <li><a href="https://www.facebook.com/elementaryos" target="_blank" rel="noopener" title="Facebook">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg>
+      </a></li>
+
+      <li><a href="https://mastodon.social/@elementary" target="_blank" rel="noopener" title="Mastodon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M433 179.11c0-97.2-63.71-125.7-63.71-125.7-62.52-28.7-228.56-28.4-290.48 0 0 0-63.72 28.5-63.72 125.7 0 115.7-6.6 259.4 105.63 289.1 40.51 10.7 75.32 13 103.33 11.4 50.81-2.8 79.32-18.1 79.32-18.1l-1.7-36.9s-36.31 11.4-77.12 10.1c-40.41-1.4-83-4.4-89.63-54a102.54 102.54 0 0 1-.9-13.9c85.63 20.9 158.65 9.1 178.75 6.7 56.12-6.7 105-41.3 111.23-72.9 9.8-49.8 9-121.5 9-121.5zm-75.12 125.2h-46.63v-114.2c0-49.7-64-51.6-64 6.9v62.5h-46.33V197c0-58.5-64-56.6-64-6.9v114.2H90.19c0-122.1-5.2-147.9 18.41-175 25.9-28.9 79.82-30.8 103.83 6.1l11.6 19.5 11.6-19.5c24.11-37.1 78.12-34.8 103.83-6.1 23.71 27.3 18.4 53 18.4 175z"/></svg>
+      </a></li>
+
+      <li><a href="https://www.reddit.com/r/elementaryos" target="_blank" rel="noopener" title="Reddit">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M201.5 305.5c-13.8 0-24.9-11.1-24.9-24.6 0-13.8 11.1-24.9 24.9-24.9 13.6 0 24.6 11.1 24.6 24.9 0 13.6-11.1 24.6-24.6 24.6zM504 256c0 137-111 248-248 248S8 393 8 256 119 8 256 8s248 111 248 248zm-132.3-41.2c-9.4 0-17.7 3.9-23.8 10-22.4-15.5-52.6-25.5-86.1-26.6l17.4-78.3 55.4 12.5c0 13.6 11.1 24.6 24.6 24.6 13.8 0 24.9-11.3 24.9-24.9s-11.1-24.9-24.9-24.9c-9.7 0-18 5.8-22.1 13.8l-61.2-13.6c-3-.8-6.1 1.4-6.9 4.4l-19.1 86.4c-33.2 1.4-63.1 11.3-85.5 26.8-6.1-6.4-14.7-10.2-24.1-10.2-34.9 0-46.3 46.9-14.4 62.8-1.1 5-1.7 10.2-1.7 15.5 0 52.6 59.2 95.2 132 95.2 73.1 0 132.3-42.6 132.3-95.2 0-5.3-.6-10.8-1.9-15.8 31.3-16 19.8-62.5-14.9-62.5zM302.8 331c-18.2 18.2-76.1 17.9-93.6 0-2.2-2.2-6.1-2.2-8.3 0-2.5 2.5-2.5 6.4 0 8.6 22.8 22.8 87.3 22.8 110.2 0 2.5-2.2 2.5-6.1 0-8.6-2.2-2.2-6.1-2.2-8.3 0zm7.7-75c-13.6 0-24.6 11.1-24.6 24.9 0 13.6 11.1 24.6 24.6 24.6 13.8 0 24.9-11.1 24.9-24.6 0-13.8-11-24.9-24.9-24.9z"/></svg>
+      </a></li>
+
+      <li><a href="https://elementaryos.stackexchange.com" target="_blank" rel="noopener" title="StackExchange">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M17.7 332.3h412.7v22c0 37.7-29.3 68-65.3 68h-19L259.3 512v-89.7H83c-36 0-65.3-30.3-65.3-68v-22zm0-23.6h412.7v-85H17.7v85zm0-109.4h412.7v-85H17.7v85zM365 0H83C47 0 17.7 30.3 17.7 67.7V90h412.7V67.7C430.3 30.3 401 0 365 0z"/></svg>
+      </a></li>
+
+      <li><a href="https://twitter.com/elementary" target="_blank" rel="noopener" title="Twitter">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+      </a></li>
+
+      <li><a href="https://join.slack.com/t/elementarycommunity/shared_invite/enQtMzU1NDU4OTE1MjY2LWUyOTBkZGNkZGM4MDgzZjE2ZjRiZDgwMDQ1ZTA0MzcxYjI0MDUyNGRlNDI5ZWViNDkwMzMwYzczMDY2ZjA0MTc" target="_blank" rel="noopener" title="Slack">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M94.12 315.1c0 25.9-21.16 47.06-47.06 47.06S0 341 0 315.1c0-25.9 21.16-47.06 47.06-47.06h47.06v47.06zm23.72 0c0-25.9 21.16-47.06 47.06-47.06s47.06 21.16 47.06 47.06v117.84c0 25.9-21.16 47.06-47.06 47.06s-47.06-21.16-47.06-47.06V315.1zm47.06-188.98c-25.9 0-47.06-21.16-47.06-47.06S139 32 164.9 32s47.06 21.16 47.06 47.06v47.06H164.9zm0 23.72c25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06H47.06C21.16 243.96 0 222.8 0 196.9s21.16-47.06 47.06-47.06H164.9zm188.98 47.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06h-47.06V196.9zm-23.72 0c0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06V79.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06V196.9zM283.1 385.88c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06v-47.06h47.06zm0-23.72c-25.9 0-47.06-21.16-47.06-47.06 0-25.9 21.16-47.06 47.06-47.06h117.84c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06H283.1z"/></svg>
+      </a></li>
+    </ul>
+  </nav>
+  <nav class="secondary">
+    <div>
+      <a href="/tags/#updates">OS Updates</a>
+      <a href="/tags/#appcenter">AppCenter</a>
+      <a href="/tags/#devs">Developers</a>
+      <a href="/tags/#design">Design</a>
+    </div>
+
+    <div id="search-container" class="hidden">
+      <svg height='16' width='16' xmlns='http://www.w3.org/2000/svg'>
+    <g color='#000' transform='translate(-613 11)'>
+        
+        <path d='M619.5-10c-3.026 0-5.5 2.474-5.5 5.5s2.474 5.5 5.5 5.5a5.46 5.46 0 0 0 3.112-.975l3.681 3.682a1 1 0 1 0 1.414-1.414l-3.681-3.682A5.46 5.46 0 0 0 625-4.5c0-3.026-2.474-5.5-5.5-5.5zm0 1.25a4.25 4.25 0 0 1 4.25 4.25 4.25 4.25 0 0 1-4.25 4.25 4.25 4.25 0 0 1-4.25-4.25 4.25 4.25 0 0 1 4.25-4.25z' fill='#666' font-family='sans-serif' font-weight='400' overflow='visible' style='line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;shape-padding:0;isolation:auto;mix-blend-mode:normal' white-space='normal'/>
+    </g>
+</svg>
+
+      <input type="text" id="search-input" placeholder="Search Posts…">
+      <ul id="results-container"></ul>
+    </div>
+
+    <script src="/scripts/search.js"></script>
+
+    <script>
+      document.getElementById('search-container').classList.remove("hidden")
+
+      SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        searchResultTemplate: `<li>
+          <a href="{url}">
+            <div class="featured-image" alt="Featured image" style="background-image: url({image});"></div>
+            <span id="title">{title}</span>
+            <span id="description">{description}</span>
+          </a>
+        </li>`,
+        resultsContainer: document.getElementById('results-container'),
+        noResultsText: ("No Result Found"),
+        json: '/search.json'
+      })
+    </script>
+  </nav>
+</header>
+
+    <section>
+      
+
+
+
+
+
+  
+  
+  
+    <aside class="outdated">
+      <strong>Note:</strong> this post was written over two years ago. The information below may be outdated.
+    </aside>
+  
+
+
+
+<article>
+  
+  <header>
+    <h1>
+
+
+
+   elementary OS 5 Juno is&nbsp;Here
+
+</h1>
+    
+      <h2>
+
+
+
+   Refinement, Productivity, & an Improved Developer&nbsp;Platform
+
+</h2>
+    
+
+    
+
+
+
+<div class="byline">
+  <div class="avatar">
+    <img
+      
+        srcset="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&d=blank 2x"
+        src="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&d=blank"
+        alt="Avatar for Cassidy James Blaede"
+      
+    />
+  </div>
+  <div class="author">
+    <a href="/authors/#cassidyjames">
+    <span class="name">Cassidy James Blaede</span>
+    </a>
+    
+      <span class="description">Co-founder & CXO</span>
+    
+  </div>
+  <time class="post-date" datetime="2018-10-16">Tue, Oct 16, 2018</time>
+  
+    <span class="read-time" title="Estimated read time">
+  
+  36 min read
+</span>
+
+
+  
+</div>
+
+
+    <aside class="tags">
+  
+  
+    <a class="tag" href="/tags/#juno">#juno</a>
+  
+    <a class="tag" href="/tags/#updates">#updates</a>
+  
+</aside>
+
+
+  </header>
+
+  <section>
+    <figure>
+  <p><img src="https://cdn-images-1.medium.com/max/1600/1*ijeWZhhxGB4gfI030ItS0g.png" alt="Juno on a laptop" width="1600" height="864" /></p>
+</figure>
+
+<p><a rel="nofollow noopener noreferrer" target="_blank" href="https://elementary.io">elementary OS</a> is the fast, open, and privacy-respecting alternative to Windows and macOS. Over the past year we’ve been hard at work putting together a new major version of elementary OS, codenamed Juno. It is the culmination of a <em>ton</em> of updates and improvements with three major goals:</p>
+
+<ol>
+  <li>Provide a more refined user experience</li>
+  <li>Improve productivity for new and seasoned users alike</li>
+  <li>Take our developer platform to the next level</li>
+</ol>
+
+<p>Today we’re proud to officially release elementary OS 5.</p>
+
+<aside>
+
+
+
+<a class="featured with-image 1" href="/lets-talk-about-elementary-os-5-juno/">
+  
+    <div class="featured-image" alt="Featured image" style="background-image: url(https://cdn-images-1.medium.com/max/1200/1*6Fjtm3yS70hXx7cWa_0lAg.png);"></div>
+  
+
+  <header>
+    <h2>
+
+
+
+   Let’s talk about elementary OS 5&nbsp;Juno
+
+</h2>
+    
+      <h3>
+        
+
+
+
+  
+
+
+        
+      </h3>
+    
+
+    
+
+
+
+<div class="byline">
+  <div class="avatar">
+    <img srcset="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&amp;d=blank 2x" src="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&amp;d=blank" alt="Avatar for Cassidy James Blaede" />
+  </div>
+  <div class="author">
+    
+    <span class="name">Cassidy James Blaede</span>
+    
+    
+      <span class="description">Co-founder &amp; CXO</span>
+    
+  </div>
+  <time class="post-date" datetime="2018-02-12">Mon, Feb 12, 2018</time>
+  
+    <span class="read-time" title="Estimated read time">
+  
+  6 min read
+</span>
+
+
+  
+</div>
+
+
+  </header>
+
+  
+</a>
+
+
+</aside>
+
+<h2 id="majorly-updatedapps">Majorly Updated Apps</h2>
+
+<p>elementary OS is made up of two main parts: the “desktop” which includes the core user experience, look and feel, and system pieces; and the apps that come with the OS out of the box. elementary OS 5 Juno includes major updates across several of these core apps.</p>
+
+<h3 id="appcenter-the-open-pay-what-you-want-appstore">AppCenter: the Open, Pay-What-You-Want App Store</h3>
+
+<p>AppCenter is our built-in app store where users can download free and paid apps that are purpose-built for elementary OS. With AppCenter we’re doing things a bit differently from our competitors. First, every single app in AppCenter is open source because we firmly believe in the world-changing power of freely-licensed code and open source software. Second, all paid apps are offered with a developer-provided suggested price, but are ultimately pay-what-you-want. Users choose what to pay—if anything at all—when they download paid apps.</p>
+
+<aside>
+
+
+
+<a class="featured with-image 1" href="/building-the-future-of-elementary-os/">
+  
+    <div class="featured-image" alt="Featured image" style="background-image: url(https://cdn-images-1.medium.com/max/1600/1*UuTEU4IAxuwvpIC0sLJxQg.png);"></div>
+  
+
+  <header>
+    <h2>
+
+
+
+   Building the Future of elementary&nbsp;OS
+
+</h2>
+    
+      <h3>
+        
+
+
+
+   Why AppCenter is the center of our&nbsp;platform
+
+
+        
+      </h3>
+    
+
+    
+
+
+
+<div class="byline">
+  <div class="avatar">
+    <img srcset="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&amp;d=blank 2x" src="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&amp;d=blank" alt="Avatar for Cassidy James Blaede" />
+  </div>
+  <div class="author">
+    
+    <span class="name">Cassidy James Blaede</span>
+    
+    
+      <span class="description">Co-founder &amp; CXO</span>
+    
+  </div>
+  <time class="post-date" datetime="2017-02-08">Wed, Feb  8, 2017</time>
+  
+    <span class="read-time" title="Estimated read time">
+  
+  4 min read
+</span>
+
+
+  
+</div>
+
+
+  </header>
+
+  
+</a>
+
+
+</aside>
+
+<p>We use a pay-what-you-want model because it makes it incredibly easy for those who want and are able to fund development to do so, while keeping things accessible for individuals or organizations where the costs might be prohibitive. Our goal is a sustainable open source ecosystem of quality apps that people love.</p>
+
+<aside>
+  <blockquote>
+    <p>Our goal is a sustainable open source ecosystem of quality apps that people love.</p>
+  </blockquote>
+</aside>
+
+<figure>
+  <p><img src="https://cdn-images-1.medium.com/max/1371/1*lmgITe-e_MlqXUZsPsJ4Hg.png" alt="AppCenter home page with new, trending, and recently updated apps" srcset="https://cdn-images-1.medium.com/max/2742/1*lmgITe-e_MlqXUZsPsJ4Hg.png 2x" width="1371" height="950" /></p>
+  <figcaption>AppCenter home page with new, trending, and recently updated apps</figcaption>
+</figure>
+
+<p>In the previous version of elementary OS, we saw AppCenter go from zero curated apps at launch to over a hundred. Our indie developer ecosystem took off, and those developers have been thrilled with the experience of delivering their pay-what-you-want apps directly to users. However, as we <a href="/about-appcenter-payments/">shared back in February</a>, we do still have some work to make the ecosystem truly sustainable for our developers.</p>
+
+<hr />
+
+<div>
+
+
+
+<a class="featured with-image 1" href="/about-appcenter-payments/">
+  
+    <div class="featured-image" alt="Featured image" style="background-image: url(https://cdn-images-1.medium.com/max/1600/1*9apwHiipblJZieVUZKi1mQ.png);"></div>
+  
+
+  <header>
+    <h2>
+
+
+
+   About AppCenter&nbsp;Payments
+
+</h2>
+    
+      <h3>
+        
+
+
+
+   Building a sustainable app&nbsp;ecosystem
+
+
+        
+      </h3>
+    
+
+    
+
+
+
+<div class="byline">
+  <div class="avatar">
+    <img srcset="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&amp;d=blank 2x" src="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&amp;d=blank" alt="Avatar for Daniel Foré" />
+  </div>
+  <div class="author">
+    
+    <span class="name">Daniel Foré</span>
+    
+    
+      <span class="description">Founder &amp; CEO</span>
+    
+  </div>
+  <time class="post-date" datetime="2018-02-05">Mon, Feb  5, 2018</time>
+  
+    <span class="read-time" title="Estimated read time">
+  
+  6 min read
+</span>
+
+
+  
+</div>
+
+
+  </header>
+
+  
+</a>
+
+
+</div>
+
+<hr />
+
+<p>So for Juno, we’ve focused in on making it even easier for users who choose to support developers to pay them for their apps.</p>
+
+<figure>
+  <p><img src="https://cdn-images-1.medium.com/max/1438/1*uatq1HWmsA6xNxtKsavuHA.png" alt="Payment support for updates on the Installed page" srcset="https://cdn-images-1.medium.com/max/2876/1*uatq1HWmsA6xNxtKsavuHA.png 2x" width="1438" height="863" /></p>
+  <figcaption>Payment support for updates on the Installed page</figcaption>
+</figure>
+
+<p>If a paid app has been downloaded for free in the past, it will now prompt again for a pay-what-you-want purchase when there is a non-security update. <strong>Security updates will still come through as usual, and users can always choose to pay $0.</strong> This gives users who initially downloaded a paid app for free another easy opportunity to fund development of that app. And for developers who provide increased value over the lifetime of an app, this helps increase the chances that their satisfied users will pitch in, even a little bit, at some point.</p>
+
+<figure>
+  <p><img src="https://cdn-images-1.medium.com/max/1365/1*0T-bliHBAR6Z19r7bKkFEw.png" alt="Users can directly fund apps at any time" srcset="https://cdn-images-1.medium.com/max/2730/1*0T-bliHBAR6Z19r7bKkFEw.png 2x" width="1365" height="863" /></p>
+  <figcaption>Users can directly fund apps at any time</figcaption>
+</figure>
+
+<p>We’ve added <strong>a new “Fund” option</strong> in the footer of all paid apps, making it easier yet again for users to help directly support the development of an app they’ve already purchased or haven’t even installed. For the whole rundown, be sure to read our <a href="/about-appcenter-payments">About AppCenter Payments</a> post from earlier this year.</p>
+
+<figure>
+  <p><img src="https://cdn-images-1.medium.com/max/491/1*3pDgwkAr7dErrHYlACEj0Q.png" alt="AppCenter payment dialog" srcset="https://cdn-images-1.medium.com/max/982/1*3pDgwkAr7dErrHYlACEj0Q.png 2x" width="491" height="323" /></p>
+  <figcaption>AppCenter payment dialog</figcaption>
+</figure>
+
+<p>We’ve also revisited the payment dialog for purchasing apps: we’ve implemented <strong>better payment card formatting and validation</strong> to cut down on errors, we now hide payment details when the fields aren’t focused to cut down on shoulder-surfer surveillance, and we’ve made it more consistent with other authentication dialogs, and consequently clearer that this is a trusted and secure dialog that is in fact coming from elementary OS.</p>
+
+<p>We’ve focused on small things, too: we show the download size of apps in their header so bandwidth-conscious users will know if they want to grab an app now, or when they’re on an unmetered connection; when a user goes to download an app that might contain explicit content, we give them <a href="/appcenter-and-content-ratings">a heads up</a>; category colors have been refined and adapted to our color palette; icons are higher-resolution and pixel-perfect on both LoDPI and HiDPI displays; and categories now contain both more apps and more relevant apps.</p>
+
+<aside>
+
+
+
+<a class="featured with-image 1" href="/appcenter-and-content-ratings/">
+  
+    <div class="featured-image" alt="Featured image" style="background-image: url(https://cdn-images-1.medium.com/max/958/1*9uynQO1QQeGr6tMtMzqEeA@2x.png);"></div>
+  
+
+  <header>
+    <h2>
+
+
+
+   AppCenter and Content&nbsp;Ratings
+
+</h2>
+    
+      <h3>
+        
+
+
+
+   Using open standards to empower users and&nbsp;parents
+
+
+        
+      </h3>
+    
+
+    
+
+
+
+<div class="byline">
+  <div class="avatar">
+    <img srcset="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&amp;d=blank 2x" src="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&amp;d=blank" alt="Avatar for Cassidy James Blaede" />
+  </div>
+  <div class="author">
+    
+    <span class="name">Cassidy James Blaede</span>
+    
+    
+      <span class="description">Co-founder &amp; CXO</span>
+    
+  </div>
+  <time class="post-date" datetime="2018-09-24">Mon, Sep 24, 2018</time>
+  
+    <span class="read-time" title="Estimated read time">
+  
+  4 min read
+</span>
+
+
+  
+</div>
+
+
+  </header>
+
+  
+</a>
+
+
+</aside>
+
+<p>In beta testing, we’ve received positive feedback about each of these improvements from both app developers and users. The next time you’re in AppCenter we hope you’ll purchase an app to help build this sustainable open source ecosystem with us.</p>
+
+<h3 id="elementary-code-purpose-built-for-developers">elementary Code: Purpose-built for Developers</h3>
+
+<p>We wrote about <a href="/scratch-is-now-elementary-code">Scratch becoming Code</a> at the beginning of the year, and that’s now fully realized in elementary OS 5 Juno. Code in Juno received the most attention, refinement, and improvement over its counterpart in Loki compared to any other app. Developers: this one’s for you.</p>
+
+<figure>
+  <p><img src="https://cdn-images-1.medium.com/max/1124/1*NwXZpg10C3z4woBGXeCouA@2x.png" alt="Code" srcset="https://cdn-images-1.medium.com/max/2248/1*NwXZpg10C3z4woBGXeCouA@2x.png 2x" width="1124" height="814" /></p>
+</figure>
+
+<p>The major focus for Code is being purpose-built for writing and editing code, which has lead us to setting smarter defaults. Baseline features like line numbering, project folder management, Vala symbol introspection, and line wrapping all come by default. This has also allowed us to simplify some of the preferences when it doesn’t make sense to toggle certain features on or off in a code editor. The result is a much more full-featured and tailored app for developers.</p>
+
+<p>One of the most visible new features is the status area in the header. This sports <strong>new quick controls</strong> for tab/space settings, language/syntax highlighting, and a quick go to line feature.</p>
+
+<p>We added a much-requested <strong>new dark mode</strong> which switches both the app and the code view over to a dark style that’s easier on the eyes at night or in dark rooms. This comes with a <strong>brand new style and font size switcher</strong> accessible with one click in the header bar, plus a <strong>high contrast option</strong> which is great when you’re out in the bright sun. Tabs are also now drawn in an inline style so they better match the content and adapt to the chosen style instead of always being chrome-colored.</p>
+
+<figure>
+  <p><img src="https://cdn-images-1.medium.com/max/1124/1*ePZMnuJYQScn-L5BSKuETw.png" alt="Dark mode! Plus the symbols sidebar and new style switcher." srcset="https://cdn-images-1.medium.com/max/2248/1*ePZMnuJYQScn-L5BSKuETw.png 2x" width="1124" height="814" /></p>
+  <figcaption>Dark mode! Plus the symbols sidebar and new style switcher.</figcaption>
+</figure>
+
+<p>A lot of work went into plugins. We’ve cleaned up several duplicate plugins and refactored code, leading to a better performing and more maintainable base to build future improvements upon. We wrote a new <strong>EditorConfig</strong> plugin and enabled it by default, which should help quell the tab/space debate in shared projects.</p>
+
+<p>While working on Juno, we encouraged people who typically used other editors like Atom, VS Code, or Sublime text to give elementary Code another try. With the refactoring and cleanup—and a lot of great work from the community—we were able to implement many of users’ favorite features. For example, there are new shortcuts and context menu items for <strong>toggling comments</strong> (Ctrl+/ or Ctrl+M), and <strong>sorting lines</strong> (F5). We drastically improved <strong>bracket completion</strong>, picking up a lot of the nuances from other editors. And we’re shipping tons of <strong>new language definitions</strong>, meaning even more languages will be recognized out of the box.</p>
+
+<p>The folder manager—previously an optional plugin—is now built in to the core, allowing tighter integration. We’ve completely revamped it, packing in more features while ensuring it’s still easy to use. Handling files and folders is easier than ever: we added a <strong>simpler “Open in” menu</strong> that shows in-app locations (like a new tab), your system file manager (Files by default), and other apps that can handle the selected file type. For folders, this means you can pop them open in a file manager or the Terminal straight from the context menu. We’ve also moved the Contractor-powered “Other actions” here, centralizing all file-related actions to one sane contextual spot. Lastly, the <strong>sidebar is now toggleable</strong> per-window from the menu or with F9, helping you use your display real estate more efficiently.</p>
+
+<figure>
+  <p><img src="https://cdn-images-1.medium.com/max/419/1*vHHGkr0iCkvAtYMEjg3mBg@2x.png" alt="New Git integration" srcset="https://cdn-images-1.medium.com/max/837/1*vHHGkr0iCkvAtYMEjg3mBg@2x.png 2x" width="418.5" height="800" /></p>
+  <figcaption>New Git integration</figcaption>
+</figure>
+
+<p>We’ve also baked <strong>all new Git integration</strong> into Code! If an open project folder is a Git repository, Code displays the branch name alongside it in the sidebar. Plus we add a status icon when there are new or changed files that haven’t been committed.</p>
+
+<p>With the adoption of the folder manager into the core, we were able to add a few <strong>new handy ways to open project folders</strong>: straight from Welcome Screen (when no files are open), straight from the Terminal by passing in a directory, or right from Files in the context menu.</p>
+
+<p>We also refined a lot of little things: the optional Mini Map is now using a purpose-built font, making it much more visible at a glance; we draw <strong>spaces for selected text and trailing whitespace</strong> by default; there’s a new animation for switching between project folders and symbols; and more options are visible without having to dive into a Preferences dialog.</p>
+
+<aside>
+
+
+
+<a class="featured with-image 1" href="/scratch-is-now-elementary-code/">
+  
+    <div class="featured-image" alt="Featured image" style="background-image: url(https://cdn-images-1.medium.com/max/600/1*JVvsDBXzN9Q7jhiGOD0B3A.png);"></div>
+  
+
+  <header>
+    <h2>
+
+
+
+   Scratch is now elementary&nbsp;Code
+
+</h2>
+    
+      <h3>
+        
+
+
+
+   More than a name&nbsp;change
+
+
+        
+      </h3>
+    
+
+    
+
+
+
+<div class="byline">
+  <div class="avatar">
+    <img srcset="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&amp;d=blank 2x" src="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&amp;d=blank" alt="Avatar for Cassidy James Blaede" />
+  </div>
+  <div class="author">
+    
+    <span class="name">Cassidy James Blaede</span>
+    
+    
+      <span class="description">Co-founder &amp; CXO</span>
+    
+  </div>
+  <time class="post-date" datetime="2018-01-02">Tue, Jan  2, 2018</time>
+  
+    <span class="read-time" title="Estimated read time">
+  
+  3 min read
+</span>
+
+
+  
+</div>
+
+
+  </header>
+
+  
+</a>
+
+
+</aside>
+
+<p>If you’ve previously used Scratch and left it for a different editor, we encourage you to give Code a try. We think you’ll be thrilled with the absolute overhaul! And if you’ve never written an app before, you’ll be able to get off the ground running with the help of Code.</p>
+
+<h3 id="files">Files</h3>
+
+<p>In elementary OS , we encourage a workflow where users access content from the related apps instead of worrying about the intricacies of moving files around their device’s storage. However, some workflows require direct management, which is why we build Files, our file manager. Our goal with Files is to create a modern file browser that is fast, beautiful, and easy to work with. We also built it to fit into the elementary experience where there are crazy fast dedicated apps for viewing content, and thus don’t focus on previewing content within Files itself—it’s faster to just open the right app.</p>
+
+<figure class="constrained">
+  <p><img src="https://cdn-images-1.medium.com/max/1158/1*DzHGy_A0Mn3aQVO8BD4sYA.png" alt="Files with the default Grid view" srcset="https://cdn-images-1.medium.com/max/2316/1*DzHGy_A0Mn3aQVO8BD4sYA.png 2x" width="1158" height="886" /></p>
+  <figcaption>Files with the default Grid view</figcaption>
+</figure>
+
+<p>The first immediately new thing for Files in elementary OS 5 Juno is the <strong>new manila-colored folders</strong>. We switched from the previous blue folders throughout the OS for folders to be more neutral, plus to open up the possibilities for more meaningful use of color in the future. It’s definitely a change at first, but we think you’ll not only get used to it, but start to prefer the warmer and more muted tones.</p>
+
+<figure class="half">
+  <p><img src="https://cdn-images-1.medium.com/max/1123/1*odbg4UGtzqtuLEtm4VFNbQ.png" alt="List view" srcset="https://cdn-images-1.medium.com/max/2246/1*odbg4UGtzqtuLEtm4VFNbQ.png 2x" width="1123" height="851" />
+<img src="https://cdn-images-1.medium.com/max/1123/1*djOVWoy1NKUusZ8o7OX1QA.png" alt="Column view" srcset="https://cdn-images-1.medium.com/max/2246/1*djOVWoy1NKUusZ8o7OX1QA.png 2x" width="1123" height="851" /></p>
+  <figcaption>List and Column views</figcaption>
+</figure>
+
+<p>Overall, we cleaned up a lot in Files under the hood. We’re now using more standard libraries instead of internal functions, we’ve worked to make thumbnail previews faster and more reliable to update, and we’ve brought full HiDPI support to all views. And for those who like to type to browse, the <strong>smart breadcrumbs/location entry now appends slashes to folder names</strong> to make getting around even faster. Plus thanks to changes in both Files and the system stylesheet, we’ve also made it more clear which files and folders are currently selected.</p>
+
+<h3 id="music">Music</h3>
+
+<p>We’ve updated Music in elementary OS 5 Juno with <strong>streamlined controls and a refined interface</strong> all around. Album details, including the track listing and rating, now shows in a cleanly-designed sidebar.</p>
+
+<figure>
+  <p><img src="https://cdn-images-1.medium.com/max/2246/1*J5gUUMHAp5RvC4wDvCcWYg@2x.png" alt="Music" srcset="https://cdn-images-1.medium.com/max/2246/1*J5gUUMHAp5RvC4wDvCcWYg@2x.png 2x" width="1123" height="702" /></p>
+</figure>
+
+<p>Under the hood, we’ve vastly improved stability and performance, meaning Music should let you jam out more smoothly than ever.</p>
+
+<h3 id="photos">Photos</h3>
+
+<p>We’ve worked hard on both the visual and code side to make Photos the best yet. It now sports a <strong>beautiful new dark style</strong>, making it easier to browse, focus on, and edit your photos.</p>
+
+<figure class="half">
+  <p><img src="https://cdn-images-1.medium.com/max/1600/0*WEaQGdyULn8DfZ5z.png" alt="Photos dark style" />
+<img src="https://cdn-images-1.medium.com/max/356/1*hhen9esPotrlkFuvbh85tQ@2x.png" alt="Adjustment dialog" srcset="https://cdn-images-1.medium.com/max/712/1*hhen9esPotrlkFuvbh85tQ@2x.png 2x" width="356" height="456" /></p>
+  <figcaption>The new dark style and adjustment dialog</figcaption>
+</figure>
+
+<p>Under the hood, we’ve fixed several bugs and made it both cleaner and more consistent with our other apps. And when editing your photos, you’ll notice a <strong>redesigned adjustment dialog</strong> with colored sliders that show you how the adjustments will affect the color.</p>
+
+<h3 id="terminal-simplysmart">Terminal: Simply Smart</h3>
+
+<p>Terminal is an app that most users should never have to open—but for those who use it, it’s an incredibly important tool on the system, and one that is all-too-often ignored by other platforms. Terminal in elementary OS sports a simple look, but hosts smart features like Find, Smart Copy/Paste, Paste Protection, browser-class tabs with Undo Close Tab, and Process Completion Notifications. And in Juno, we’ve refined Terminal to be even more adaptable to developers’ needs and workflows.</p>
+
+<figure>
+  <p><img src="https://cdn-images-1.medium.com/max/1105/1*ghLWMkJC-OmtgLQ_xSHE2w.png" alt="New style switcher and font size adjustment" srcset="https://cdn-images-1.medium.com/max/2210/1*ghLWMkJC-OmtgLQ_xSHE2w.png 2x" width="1105" height="760" /></p>
+  <figcaption>New style switcher and font size adjustment</figcaption>
+</figure>
+
+<p>In addition to the beloved dark style, we’ve added <strong>two all-new color schemes</strong> to Terminal: Solarized Light, and High Contrast. These use the same quick switcher as Code, which comes with a <strong>new font size adjustment</strong>. All of which means Terminal is better whether you’re in a dark room, a brightly-lit office, or in direct sunlight—plus more accessible to those who need larger type or just want to show their work to someone across the room.</p>
+
+<figure class="half">
+  <p><img src="https://cdn-images-1.medium.com/max/1105/1*5EkH7AkTmkdHn62qzLBmRA.png" alt="Solarized Light style" srcset="https://cdn-images-1.medium.com/max/2210/1*5EkH7AkTmkdHn62qzLBmRA.png 2x" width="1105" height="760" />
+<img src="https://cdn-images-1.medium.com/max/1105/1*SOc5oGcGWciwGvLQ9-I5cw.png" alt="High Contrast style" srcset="https://cdn-images-1.medium.com/max/2210/1*SOc5oGcGWciwGvLQ9-I5cw.png 2x" width="1105" height="760" /></p>
+  <figcaption>New Solarized Light and High Contrast styles</figcaption>
+</figure>
+
+<p>For users who know exactly what they’re doing, we’ve added a new checkbox in the Paste Protection dialog to toggle the protection off. We’ve also added a new <strong>Show in File Browser shortcut</strong> to the context menu to make it faster to jump into Files from the current working directory. And lastly, we’ve added a subtle <strong>colored success or error icon</strong> to the tabs of completed processes, better showing the state of your Terminal at a glance. All together, these changes make Terminal a more productive tool than ever before while still looking just as good.</p>
+
+<h3 id="camera">Camera</h3>
+
+<figure>
+  <p><img src="https://cdn-images-1.medium.com/max/1123/0*MYsjkDxBdtaL2Er2.png" alt="Camera" srcset="https://cdn-images-1.medium.com/max/2246/0*MYsjkDxBdtaL2Er2.png 2x" width="1123" height="863" /></p>
+</figure>
+
+<p>We’ve updated the controls in Camera to be even clearer and easier to use. We’ve changed from linked buttons to a new ModeSwitch to make it more obvious when the camera is in photo or video mode. We’ve also added <strong>a new timer</strong> with 3, 5, and 10 second options.</p>
+
+<h3 id="epiphany-browse-with-100-moresyncing">Epiphany: Browse with 100% More Syncing</h3>
+
+<p>Epiphany is the lightweight WebKit-based web browser that comes with elementary OS. It supports all the features you’d expect with HTML5, CSS3, and modern web standards baked in.</p>
+
+<figure>
+  <p><img src="https://cdn-images-1.medium.com/max/1393/1*P18rlnn5i9DPs2tGOjF2pQ.png" alt="Epiphany" srcset="https://cdn-images-1.medium.com/max/2786/1*P18rlnn5i9DPs2tGOjF2pQ.png 2x" width="1393" height="929" /></p>
+</figure>
+
+<p>In elementary OS 5 Juno, Epiphany now sports <strong>Firefox Sync built-in</strong> meaning you can sync your bookmarks, passwords, and even open tabs between elementary OS and your mobile device or any other device running Firefox.</p>
+
+<p>The user interface has also been refined with <strong>new bookmark management</strong>, new zoom and search controls in the menu, icons showing which tab is playing audio, and more.</p>
+
+<h3 id="everything-else">Everything Else</h3>
+
+<p>We’ve updated all apps in elementary OS 5 Juno with new and improved translations, performance improvements, and bug fixes.</p>
+
+<figure class="full-bleed">
+  <p><img src="https://cdn-images-1.medium.com/max/1280/1*9Use1S4OgFHQ6YU3oxEfSQ.jpeg" alt="divider" srcset="https://cdn-images-1.medium.com/max/2560/1*9Use1S4OgFHQ6YU3oxEfSQ.jpeg 2x" width="1280" height="340" /></p>
+</figure>
+
+<h2 id="desktop-features">Desktop Features</h2>
+
+<p>Beneath the apps, the desktop powers core productivity features of elementary OS including window management, workspaces, and the system UI like the Panel at the top of the screen and Dock at the bottom. And in elementary OS 5 Juno, we’ve focused on making it more productive than ever.</p>
+
+<h3 id="night-light">Night Light</h3>
+
+<p>We’re happy to debut a <strong>brand new Night Light feature</strong> with both a manual timer and an automatic Sunrise to Sunset option. Night Light reduces the blue light output of your display, which may help to reduce eye strain and sleeplessness after using your device.</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/580/1*sSNbJl8D-bDKVQ-oxXQgbw@2x.png" alt="Night Light indicator" srcset="https://cdn-images-1.medium.com/max/580/1*sSNbJl8D-bDKVQ-oxXQgbw@2x.png 2x" width="290" height="189" /></p>
+
+<p>When enabled and during the set time, a new Night Light indicator appears in the Panel which can be used to adjust the display temperature or snooze Night Light until the next day. And like all Indicators, it provides a quick way to jump straight into the relevant screen in System Settings.</p>
+
+<figure>
+  <p><img src="https://cdn-images-1.medium.com/max/1023/1*IReOPqH63vxjjVep4KFULA@2x.png" alt="Night Light settings" srcset="https://cdn-images-1.medium.com/max/2046/1*IReOPqH63vxjjVep4KFULA@2x.png 2x" width="1023" height="717" /></p>
+</figure>
+
+<h3 id="adjustable-windowtiling">Adjustable Window Tiling</h3>
+
+<p>Tiling windows is a popular way to manage app windows, especially on larger displays. While elementary OS has always supported tiling, we’ve made it even better in Juno. First, there’s now <strong>a blue “feed-forward” preview</strong> that shows up to show you how an app will tile when you move it to the edge of the screen.</p>
+
+<figure>
+  <p><img src="https://cdn-images-1.medium.com/max/600/1*vinLDLc_TjAKz_ooxXRErg.gif" alt="Adjustable window tiling" width="800" height="450" /></p>
+  <figcaption>
+    <p>AppCenter apps <a rel="nofollow noopener noreferrer" target="_blank" href="https://appcenter.elementary.io/com.github.philip-scott.spice-up/">Spice-Up</a> and <a rel="nofollow noopener noreferrer" target="_blank" href="https://appcenter.elementary.io/com.github.phase1geo.minder/">Minder</a> being tiled side-by-side to better use the available space</p>
+  </figcaption>
+</figure>
+
+<p>And now if you tile two windows side-by-side, you can <strong>drag their shared edge</strong> to adjust how much space each takes. This is great for splitting your workspace between two Epiphany windows, Code and Terminal, a presentation and your notes, etc. when you find yourself jumping between two windows for one task.</p>
+
+<h3 id="picture-in-picture">Picture-in-Picture</h3>
+
+<p>For Juno, we’re introducing an <strong>all new Picture-in-Picture mode</strong> that makes it easier to keep tabs on a video or other window while working on something else.</p>
+
+<figure>
+  <p><img src="https://cdn-images-1.medium.com/max/600/1*bj4bWUEIDWjhDExwZMgsbA.gif" alt="Picture-in-Picture mode" width="800" height="450" /></p>
+  <figcaption>All new Picture-in-Picture mode</figcaption>
+</figure>
+
+<p>Just hit <kbd>⌘</kbd><kbd>F</kbd>, select the window or area you want to focus on, and a Picture-in-Picture preview pops up in the corner of your display. This preview is movable, resizable, always-on-top, and can move with you across workspaces. To close it, just hit the “X” at the top-left.</p>
+
+<h3 id="panel-applications-menu--system-indicators">Panel, Applications Menu, &amp; System Indicators</h3>
+
+<p>The top Panel in elementary OS is where we show system-wide status and settings, like volume, networking, and notifications. Its Applications Menu is also the place to go to list or search all apps and actions.</p>
+
+<p>In Juno, the most immediately-obvious improvement is that we’ve <strong>added a new search icon to the Applications Menu</strong>. This helps inform users what they can expect behind that item, plus it helps balance the left side of the panel out a bit better with the right. We’ve also <strong>added a tooltip</strong> of “Open and search apps (⌘ + Space)” to provide more feedback if the user hovers over it for a moment. It also gives a bit of progressive disclosure of keyboard shortcuts, helping teach users faster ways to do things.</p>
+
+<figure class="card">
+  <p><img src="https://cdn-images-1.medium.com/max/401/1*bQYs-HNXSHejeL95sgRxrQ@2x.png" alt="Applications menu" srcset="https://cdn-images-1.medium.com/max/801/1*bQYs-HNXSHejeL95sgRxrQ@2x.png 2x" width="400.5" height="240.5" /></p>
+</figure>
+
+<p>We’ve also ensured the Applications menu now only scrolls one page per trackpad swipe, making for a better experience on laptops.</p>
+
+<p>Something you’ll notice with certain wallpapers is a <strong>new translucent light mode</strong>. Previously, the panel had four states: transparent dark, transparent light, translucent, and maximized. In elementary OS 5 Juno, we’re splitting translucent out into translucent dark and translucent light.</p>
+
+<figure class="half">
+  <p><img src="https://cdn-images-1.medium.com/max/800/1*LjHMtWfruGVCrZRd2-0w6w@2x.png" alt="Transparent Dark (on a dark wallpaper)" srcset="https://cdn-images-1.medium.com/max/1600/1*LjHMtWfruGVCrZRd2-0w6w@2x.png 2x" width="800" height="450" />
+<img src="https://cdn-images-1.medium.com/max/800/1*_MlM4Hh-0pKu-LhB1d0-2Q@2x.png" alt="Transparent Light (on a light wallpaper)" srcset="https://cdn-images-1.medium.com/max/1600/1*_MlM4Hh-0pKu-LhB1d0-2Q@2x.png 2x" width="800" height="450" /></p>
+  <figcaption>Transparent Dark (on a dark wallpaper) and Transparent Light (on a light wallpaper)</figcaption>
+</figure>
+
+<p>If the top of your wallpaper is busy (high variations in contrast), the panel draws a translucent background. Now in Juno, the panel will detect if it’s drawing on a mostly light or mostly dark area, and shade the panel and foreground appropriately. The result is a panel that more closely respects the user’s preference for a light or dark desktop.</p>
+
+<figure class="half">
+  <p><img src="https://cdn-images-1.medium.com/max/800/1*MCO2lXwO2RTHt6pX39752A@2x.png" alt="Translucent Dark (on a busy dark wallpaper)" srcset="https://cdn-images-1.medium.com/max/1600/1*MCO2lXwO2RTHt6pX39752A@2x.png 2x" width="800" height="450" />
+<img src="https://cdn-images-1.medium.com/max/800/1*a-g9Td8nJScQgkz5IKpFVA@2x.png" alt="The new Translucent Light (on a busy light wallpaper)" srcset="https://cdn-images-1.medium.com/max/1600/1*a-g9Td8nJScQgkz5IKpFVA@2x.png 2x" width="800" height="450" /></p>
+  <figcaption>Translucent Dark (on a busy dark wallpaper) and the new Translucent Light (on a busy light wallpaper)</figcaption>
+</figure>
+
+<p>When an app is maximized or tiled, the Panel will still go into the full-black maximized state to put the focus on the app and let itself blend into the bezel.
+<br /></p>
+
+<figure>
+  <p><img src="https://cdn-images-1.medium.com/max/800/1*zQE3P0fG1H5vCM9GfFxU0g@2x.png" alt="Maximized" srcset="https://cdn-images-1.medium.com/max/1600/1*zQE3P0fG1H5vCM9GfFxU0g@2x.png 2x" width="800" height="450" /></p>
+  <figcaption>Maximized</figcaption>
+</figure>
+
+<p>We’ve also added the ability to <strong>drag from a blank spot on the Panel to un-maximize</strong>/un-tile an app window. Combined with the tiling improvements mentioned above, it’s faster and easier than ever to use multiple windows side-by-side when getting work done.</p>
+
+<p>We’ve also refined many of the indicators in Juno. We’ve <strong>added several animations to icons</strong> when they change state: the notifications bell “rings” when a new notification comes in, plus Bluetooth, Night Light, and notifications icons get an animated slash when disabled.
+<br />
+<br /></p>
+
+<figure>
+  <p><img src="https://cdn-images-1.medium.com/max/245/1*UnVjdm6PKwdEuNiKrILRRw.gif" alt="Panel icon animations" srcset="https://cdn-images-1.medium.com/max/490/1*UnVjdm6PKwdEuNiKrILRRw.gif 2x" width="245" height="37.5" /></p>
+  <figcaption>Panel icons now come with animations</figcaption>
+</figure>
+
+<p>We’ve tweaked the power indicator to better display the total battery percentage when your device has multiple internal batteries, and middle-clicking the indicator’s icon in the Panel toggles showing the battery percentage. We’ve updated the Date &amp; Time indicator to emphasize today’s date, making it easier to tell the difference between today and any selected dates. We’ve added a quick link to User Accounts settings from the Session indicator to make it faster to change your name, set an avatar, or manage other users. Clicking on the large speaker or microphone icon in the Sound indicator now toggles its mute state. Lastly, we’ve improved performance across all indicators, especially for users with slower spinning disks.</p>
+
+<h3 id="shortcut-overlay">Shortcut Overlay</h3>
+
+<p>elementary OS has always supported a large set of well-thought-out keyboard shortcuts for managing windows, navigating workspaces, and performing system actions. However, there was never a simple, centralized place within the OS to view all of these shortcuts. In elementary OS 5 Juno, we’ve fixed that with the <strong>brand new Shortcut Overlay</strong>.</p>
+
+<figure>
+  <p><img src="https://cdn-images-1.medium.com/max/810/1*BvnFc7KbHh55SFRRrGL0Ig.png" alt="System-wide keyboard shortcuts" srcset="https://cdn-images-1.medium.com/max/1620/1*BvnFc7KbHh55SFRRrGL0Ig.png 2x" width="810" height="655" /></p>
+  <figcaption>System-wide keyboard shortcuts</figcaption>
+</figure>
+
+<p>By default, Shortcut Overlay comes up when you tap the <kbd>⌘</kbd> key on your keyboard. This gives you a one-key introduction to (or reminder of) the major system-wide keyboard shortcuts in elementary OS. For users coming from Windows, this also gives them <em>something</em> when they tap their Windows key, helping guide them to the rest of shortcuts for the OS, including ⌘+Space for the Applications Menu.</p>
+
+<aside>
+
+
+
+<a class="featured with-image 1" href="/why-the-looped-square-symbol/">
+  
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/why-the-looped-square-symbol/card.png);"></div>
+  
+
+  <header>
+    <h2>
+
+
+
+   Why the Looped Square (⌘)&nbsp;Symbol?
+
+</h2>
+    
+
+    
+
+
+
+<div class="byline">
+  <div class="avatar">
+    <img srcset="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&amp;d=blank 2x" src="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&amp;d=blank" alt="Avatar for Cassidy James Blaede" />
+  </div>
+  <div class="author">
+    
+    <span class="name">Cassidy James Blaede</span>
+    
+    
+      <span class="description">Co-founder &amp; CXO</span>
+    
+  </div>
+  <time class="post-date" datetime="2018-03-01">Thu, Mar  1, 2018</time>
+  
+    <span class="read-time" title="Estimated read time">
+  
+  2 min read
+</span>
+
+
+  
+</div>
+
+
+  </header>
+
+  
+</a>
+
+
+</aside>
+
+<p>One of the most handy parts, though, is the <strong>Keyboard Settings button</strong> at the top-right of the window. This lets you jump straight into the Shortcuts tab of the system keyboard settings where you can change all of the shortcuts for the entire system, and even create your own custom ones. And of course, whatever you change in System Settings is reflected in the Shortcut Overlay the next time you bring it up.</p>
+
+<h3 id="screenshot">Screenshot</h3>
+
+<p>elementary OS comes with a deceptively simple Screenshot tool built-in to make saving and sharing screenshots of your screen, windows, or specific areas super quick. It supports transparency, includes window borders and shadows exactly as they’re drawn on the screen, and can conceal sensitive text in native apps by switching to a redacted typeface while capturing the screenshot.</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/407/1*3MelJOS6bNJ2GA_GiiG6IQ@2x.png" alt="Screenshot" srcset="https://cdn-images-1.medium.com/max/814/1*3MelJOS6bNJ2GA_GiiG6IQ@2x.png 2x" width="407" height="399" /></p>
+
+<p>In elementary OS 5 Juno, we’ve <strong>refined the Screenshot tool</strong> even more to look better and be more productive.</p>
+
+<p>First, we’ve switched Screenshot from a dark style to a light one. In elementary OS, transient elements like menus, popovers, and dialogs are given a flatter, white, somewhat paper-like style by default. This switch for Screenshot reflects that transient and lightweight nature, and makes it better fit in with other similar elements in elementary OS. In Juno, Screenshot also remembers your previous settings, making it more transient and state-saving than before. Lastly, we’ve replaced a lot of verbose copy with clearer and cuter icons, making it easy to choose between a screenshot of your whole display, the current window, or a custom area. If you’re unsure what an icon represents, you can always hover over it to see a tooltip.</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/435/1*GTJRo9gN3wkVsZkvISqUkw@2x.png" alt="Screenshot preview" srcset="https://cdn-images-1.medium.com/max/870/1*GTJRo9gN3wkVsZkvISqUkw@2x.png 2x" width="435" height="533" /></p>
+
+<p>Once you’ve taken a screenshot, you get a preview where you can copy the screenshot to your clipboard or change the name, format, and location for the screenshot before saving. In Juno, we’ve added the <strong>display scaling factor</strong> to the filename by default so other tools can smartly scale it to the correct physical size.</p>
+
+<h3 id="emoji-">Emoji 🎉</h3>
+
+<p>With Juno, elementary OS now supports <strong>rich, full-color emoji</strong> throughout the OS. We use the excellent open source <a rel="nofollow noopener noreferrer" target="_blank" href="https://www.google.com/get/noto/help/emoji/">Noto Color Emoji</a> to support the entire Unicode emoji spec with one of the most widely-used and consistent emoji fonts.</p>
+
+<figure>
+  <p><img src="https://cdn-images-1.medium.com/max/386/1*lE2q9MWRft-6-9so25x7sQ@2x.png" alt="New emoji entry including recently-used, categories, and search" srcset="https://cdn-images-1.medium.com/max/772/1*lE2q9MWRft-6-9so25x7sQ@2x.png 2x" width="386" height="343" /></p>
+  <figcaption>New emoji entry including recently-used, categories, and search</figcaption>
+</figure>
+
+<p>In supported text entries, you can use the context menu with a right- or two-finger-click and choose the new “Insert Emoji” item to get the new input method. You can also tap the Ctrl+; keyboard shortcut with any native app text entry in focus.</p>
+
+<figure class="full-bleed">
+  <p><img src="https://cdn-images-1.medium.com/max/1280/1*9Use1S4OgFHQ6YU3oxEfSQ.jpeg" alt="divider" srcset="https://cdn-images-1.medium.com/max/2560/1*9Use1S4OgFHQ6YU3oxEfSQ.jpeg 2x" width="1280" height="340" /></p>
+</figure>
+
+<h2 id="look-feel">Look &amp; Feel</h2>
+
+<p>We’ve always prided ourselves on the design of elementary OS. The very origins of elementary OS come from iconography and a bit of pixel-perfect-obsessive design. We don’t believe in drastic redesigns for the sake of redesigns—after all, <a rel="nofollow noopener noreferrer" target="_blank" href="https://en.wikipedia.org/wiki/Dieter_Rams#%22Good_design%22_principles">good design is long-lasting</a>—but we are constantly evolving, adapting, and improving the design of elementary OS. In Juno, we’ve continued that trend and refined the smallest details for a more pleasant experience.</p>
+
+<h3 id="sound-design">Sound Design</h3>
+
+<p>For the first time, we’ve composed <strong>a unique set of sounds</strong> for various actions in elementary OS 5 Juno. Our goal was to use physical, real-world sounds that are audible and recognizable, but that wouldn’t be disruptive in most environments.</p>
+
+<p>The notification sound is probably the most frequent and important. In Loki, this was a “pop” noise. For Juno, we’ve updated it to a lightweight bell ding. Since all notifications in elementary OS make a sound by default, we wanted to make sure it was light and unobtrusive, while still getting your attention. It also sounds just how the icon looks when it rings for a new notification coming in.</p>
+
+<p>Next is what we call the “thud,” commonly known as a system bell. This is what you hear when elementary OS is telling you that you can’t do something, like backspace in an empty text entry or Alt+Tab with only one window open. In Loki this was an artificial “blip” or “drip” sort of noise. In Juno, this is now a physical, somewhat muted woodblock-sounding thud. It’s more gentle, while still clearly communicating that you’re hitting a limitation in some way.</p>
+
+<p>Lastly, we’ve updated the volume indicator “pop” sounds. These let you know how loud the volume is, which is important to prevent you from blowing out a speaker, your ears, or the room full of coworkers when giving a presentation. The difference from Loki is subtle, but the new sound in Juno is fuller and sounds much better on higher end audio devices.</p>
+
+<h3 id="iconography">Iconography</h3>
+
+<p>elementary OS may have started over ten years ago as a set of icons, but we’re never done improving and refining them. In elementary OS 5 Juno, we’ve <strong>touched</strong> <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/elementary/icons/compare/4.3.1...master"><strong>well over a thousand icons</strong></a> for more consistency in both form and color palette. This includes redesigns, new icons, updating icons to take advantage of the new palette and hinting icons to more sizes.</p>
+
+<figure>
+  <p><img src="https://cdn-images-1.medium.com/max/480/1*WJlsHEu1AltXpOuDsQdpKg.png" alt="Old vs. new icons" srcset="https://cdn-images-1.medium.com/max/960/1*WJlsHEu1AltXpOuDsQdpKg.png 2x" width="480" height="165" /></p>
+  <figcaption>The new palette really shines in green icons like the epub file icon</figcaption>
+</figure>
+
+<p>File type icons have especially seen some big changes in Juno. You can see that we’ve gone from a variety of styles with inconsistent colors to a more unified look with symbols that scale better to small sizes.
+<br />
+<br /></p>
+
+<figure>
+  <p><img src="https://cdn-images-1.medium.com/max/237/1*zslqGz3bZx6IbCOKfKpz3A.png" alt="New development-related file type icons" srcset="https://cdn-images-1.medium.com/max/474/1*zslqGz3bZx6IbCOKfKpz3A.png 2x" width="237" height="58" /></p>
+  <figcaption>New development-related file type icons</figcaption>
+</figure>
+
+<p>We’ve also introduced some new, development-related file type icons for things like translation files and programming languages.</p>
+
+<figure>
+  <p><img src="https://cdn-images-1.medium.com/max/557/1*4LB_WUDX9QfL4cBYG01Mwg@2x.png" alt="Many icons are now fully-hinted in 6 sizes" srcset="https://cdn-images-1.medium.com/max/1113/1*4LB_WUDX9QfL4cBYG01Mwg@2x.png 2x" width="556.5" height="140" /></p>
+  <figcaption>Many icons are now fully-hinted in 6 sizes</figcaption>
+</figure>
+
+<p>There’s been a lot of work on increasing the consistency between icons at their various sizes and many icons are now fully-hinted in the six sizes we use across elementary OS.</p>
+
+<p>Updating all of these icons has been a huge effort and we’d like to give special thanks to <a rel="nofollow noopener noreferrer" target="_blank" href="https://micahilbery.com/">Micah Ilbery</a>, <a rel="nofollow noopener noreferrer" target="_blank" href="https://samuelhewitt.com/">Sam Hewitt</a>, <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/ochosi">Simon Steinbeiß</a>, and <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/elementary/icons/graphs/contributors">many others</a> for all of their hard work.</p>
+
+<h3 id="color">Color</h3>
+
+<p>As of Juno, we also now have <strong>an</strong> <a rel="nofollow noopener noreferrer" target="_blank" href="https://elementary.io/docs/human-interface-guidelines#color"><strong>official color palette</strong></a> that includes five shades per color. These colors are based in part off of the existing icon set, but have been tweaked to follow a more physics-accurate approach to light and shadow than simply modifying the brightness. The result is a more cohesive and realistic palette that is as versatile as ever.</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/742/1*hoTB3GjrZSko6jyBKgOkwA@2x.png" alt="Color palette" srcset="https://cdn-images-1.medium.com/max/1484/1*hoTB3GjrZSko6jyBKgOkwA@2x.png 2x" width="742" height="725" /></p>
+
+<p>This new expanded palette means greater consistently between our iconography and our stylesheet, and gives our third-party app developers a much better framework for making their apps feel native to elementary OS. And as of Juno, <strong>the elementary palette will be pre-installed</strong> by default as a .gpl file and ready to use in Inkscape, GIMP, or other design tools.</p>
+
+<h3 id="system-stylesheet">System Stylesheet</h3>
+
+<p>The system stylesheet defines how all of the widgets like buttons, toolbars, and text entries are actually styled. If you’re familiar with web CSS, it’s a similar story for elementary OS: the code itself defines the widgets, while the stylesheet determines how they look. In elementary OS Juno we’ve <strong>refined the system stylesheet</strong> in several areas.</p>
+
+<figure class="half">
+  <p><img src="https://cdn-images-1.medium.com/max/440/1*zK1BLiBzqKeA-nMDiSb3jw.png" alt="Loki light" srcset="https://cdn-images-1.medium.com/max/880/1*zK1BLiBzqKeA-nMDiSb3jw.png 2x" width="440" height="330" />
+<img src="https://cdn-images-1.medium.com/max/440/1*w3TS3opNBMzZtlyjiduXiA.png" alt="Loki dark" srcset="https://cdn-images-1.medium.com/max/880/1*w3TS3opNBMzZtlyjiduXiA.png 2x" width="440" height="330" />
+<img src="https://cdn-images-1.medium.com/max/436/1*1yJme1cVkGH1YDnfsSS5Fg@2x.png" alt="Juno light" srcset="https://cdn-images-1.medium.com/max/872/1*1yJme1cVkGH1YDnfsSS5Fg@2x.png 2x" width="436" height="334" />
+<img src="https://cdn-images-1.medium.com/max/436/1*czhnd0HspVLcGUfs6KLN_w@2x.png" alt="Juno dark" srcset="https://cdn-images-1.medium.com/max/872/1*czhnd0HspVLcGUfs6KLN_w@2x.png 2x" width="436" height="334" /></p>
+  <figcaption>
+    <p><strong>Top:</strong> A selection of widgets as seen in Loki | <strong>Bottom:</strong> Redesigns in Juno for higher contrast and clarity</p>
+  </figcaption>
+</figure>
+
+<p>The most prominent is an <strong>improved dark style</strong>: there’s now much better contrast throughout apps that opt into dark mode, like Photos or the new modes in Code and Terminal.</p>
+
+<p>We’ve also subtly <strong>improved contrast across the board</strong>, expanded theme color support for app developers, added icons to infobars to help aid in recognition—especially for colorblind users, added new color support to scales (as seen in the new Photos adjustment dialog and Night Light sliders), and added several style classes for developers like Terminal, Accent, and ModeSwitch.</p>
+
+<p>For a full rundown of stylesheet changes, you can see the <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/elementary/stylesheet/compare/5696951d8ec9dde2d4cfd9f964d8daf3dd391967...master">commit history on GitHub</a>.</p>
+
+<h3 id="wallpapers">Wallpapers</h3>
+
+<p>The elementary wallpapers are one of those little touches that gets noticed by nearly everyone who uses elementary OS. So of course we’ve <strong>updated our selection of default wallpapers</strong> in elementary OS 5 Juno with a few new backgrounds we think you’re really going to enjoy.</p>
+
+<figure class="third">
+  <p><img src="https://cdn-images-1.medium.com/max/545/1*hVlAQApqH9zn6fB1LCxMKQ.jpeg" alt="wallpaper" srcset="https://cdn-images-1.medium.com/max/1090/1*hVlAQApqH9zn6fB1LCxMKQ.jpeg 2x" width="1090.25" height="726.35" />
+<img src="https://cdn-images-1.medium.com/max/545/1*mCgMNJcFwaVNKbaAW0gPvA.jpeg" alt="wallpaper" srcset="https://cdn-images-1.medium.com/max/1090/1*mCgMNJcFwaVNKbaAW0gPvA.jpeg 2x" width="1090.25" height="726.35" />
+<img src="https://cdn-images-1.medium.com/max/545/1*ATrYnQ19FOA1Lcc2FSSBjA.jpeg" alt="wallpaper" srcset="https://cdn-images-1.medium.com/max/1090/1*ATrYnQ19FOA1Lcc2FSSBjA.jpeg 2x" width="1090.25" height="726.35" />
+<img src="https://cdn-images-1.medium.com/max/545/0*cgnJXInGhUSeKgbd.jpg" alt="wallpaper" srcset="https://cdn-images-1.medium.com/max/1090/0*cgnJXInGhUSeKgbd.jpg 2x" width="1090.25" height="726.35" />
+<img src="https://cdn-images-1.medium.com/max/545/1*LjHTYMbr_p3fOsUNa38QqA.jpeg" alt="wallpaper" srcset="https://cdn-images-1.medium.com/max/1090/1*LjHTYMbr_p3fOsUNa38QqA.jpeg 2x" width="1090.25" height="726.35" />
+<img src="https://cdn-images-1.medium.com/max/1090/1*Ysv5Uqndvb5iovHUaM9Cwg.jpeg" alt="wallpaper" srcset="https://cdn-images-1.medium.com/max/1090/1*Ysv5Uqndvb5iovHUaM9Cwg.jpeg 2x" width="1090.25" height="726.35" /></p>
+  <figcaption>New wallpapers in Juno</figcaption>
+</figure>
+
+<p>Special thanks to <a rel="nofollow noopener noreferrer" target="_blank" href="https://unsplash.com/">Unsplash</a> and the photographers who upload their photos there!</p>
+
+<h3 id="motion-design">Motion Design</h3>
+
+<p>Design isn’t just about static pixels on a screen; more than ever, motion plays a key role in digital design. In Juno, we’re using motion and animation to communicate in several new ways.</p>
+
+<p>“Applet” style apps are a relatively new concept in elementary OS. With the introduction of AppCenter, several developers have released small apps that stick to the desktop and stay across all workspaces. While these apps use platform features that have existed for years, they do so more frequently and consistently than we’ve ever seen before. Since they’re always-on-bottom, it meant that opening them from AppCenter would look like nothing happened; they (properly, as requested) would open underneath AppCenter. It wasn’t until you’d close or move AppCenter that you’d see this new app you just installed. To alleviate this and give these applets a more first-class presentation on elementary OS, <strong>we now reveal applets when they open below other windows</strong> by briefly fading out other apps and raising the applet off the surface of the desktop. This little “tada!” moment shows the user where their new app is without being too disruptive to their current workflow.</p>
+
+<p>A more subtle but probably more-frequently-seen animation in Juno is the new <strong>accent-colored overscroll</strong> feedback. Overscrolling occurs when a user attempts to scroll past the edge of a view, whether with a mouse, touchpad, or touch screen. In Loki, the view simply stopped when it hit the edge, and that was that. In elementary OS 5 Juno, we’ve added a subtle glow of the window’s accent color to let users know what’s happening. By default in Juno, this will be the common elementary-blue color that you’re used to seeing across the OS. But apps are able to set their own accent color (i.e. for highlights, focus indication, etc.), and this new overscroll glow will reflect that.</p>
+
+<figure class="full-bleed">
+  <p><img src="https://cdn-images-1.medium.com/max/1280/1*9Use1S4OgFHQ6YU3oxEfSQ.jpeg" alt="divider" srcset="https://cdn-images-1.medium.com/max/2560/1*9Use1S4OgFHQ6YU3oxEfSQ.jpeg 2x" width="1280" height="340" /></p>
+</figure>
+
+<h2 id="system-settings">System Settings</h2>
+
+<p>Our approach to system settings in elementary OS is fairly reserved, but well-considered. We don’t like overloading users and our developers with near-infinite configuration toggles and fiddly knobs to change (and break) everything—that’s what the source code is for, after all. However, we do recognize when certain settings can aid in accessibility, internationalization, or hardware specifics.</p>
+
+<p>In these cases, we roll improvements into System Settings once we are confident they are well-supported by not only elementary OS, but the third-party app ecosystem as well. Consequently, in elementary OS 5 Juno we’ve <strong>improved and added a <em>lot</em> within System Settings</strong>.</p>
+
+<h3 id="desktop">Desktop</h3>
+
+<p>The Desktop settings pane includes tabs for Wallpaper, Dock, and Hot Corners. In elementary OS 5 Juno, we’ve kept everything under Dock and Hot Corners, but improved the Wallpaper settings.</p>
+
+<figure>
+  <p><img src="https://cdn-images-1.medium.com/max/1084/1*mW2kAyYPYmGucY5ZGhRZZg@2x.png" alt="New Wallpaper settings, with both stock and user-imported wallpapers" srcset="https://cdn-images-1.medium.com/max/2168/1*mW2kAyYPYmGucY5ZGhRZZg@2x.png 2x" width="1084" height="809" /></p>
+  <figcaption>New Wallpaper settings, with both stock and user-imported wallpapers</figcaption>
+</figure>
+
+<p>A subtle change that makes things more clear is a <strong>new “library” approach to wallpapers</strong>. Now setting a wallpaper (from System Settings or anywhere else in the OS) imports it into to your wallpapers library. This means it can be set, changed, and toggled back at any time super easily right from System Settings. Plus, it can be removed with right-click without affecting the original file that it was set from. This is a clearer approach to wallpapers that should keep the library clean and make it faster to set and change wallpapers.</p>
+
+<h3 id="printers">Printers</h3>
+
+<p>We’ve reworked a lot within Printers settings to make the layout more consistent with other settings, and to make getting around easier.</p>
+
+<figure>
+  <p><img src="https://cdn-images-1.medium.com/max/1033/1*N4FdB-U5T3PAlJqXl8SOxA@2x.png" alt="Printers settings" srcset="https://cdn-images-1.medium.com/max/2066/1*N4FdB-U5T3PAlJqXl8SOxA@2x.png 2x" width="1033" height="707" /></p>
+</figure>
+
+<h3 id="bluetooth">Bluetooth</h3>
+
+<p>In Juno, we’ve reworked the Bluetooth settings to be simpler and accomplish more right within the System Settings window without jumping out to other tools.</p>
+
+<figure>
+  <p><img src="https://cdn-images-1.medium.com/max/919/1*cNSm7ufRlxHzqzilcYfA1A@2x.png" alt="Bluetooth settings" srcset="https://cdn-images-1.medium.com/max/1838/1*cNSm7ufRlxHzqzilcYfA1A@2x.png 2x" width="919" height="648" /></p>
+</figure>
+
+<p>Now discovering, pairing, and managing devices can all be done right when you open the Bluetooth pane. Plus we smartly enable discovery of your device when the pane is open, and disable it as soon as you navigate away. The result is easier and faster pairing without leaving your device discoverable all the time—just when you need it.</p>
+
+<h3 id="about">About</h3>
+
+<p>It’s now much easier to find the right project to report an issue against on GitHub with the <strong>new Report a Problem dialog</strong>. This dialog splits components into useful categories and uses more human-readable names for system components.</p>
+
+<figure class="half">
+  <p><img src="https://cdn-images-1.medium.com/max/537/1*rJTpCZXsqZjLz6rEL4OTzw@2x.png" alt="List of categories" srcset="https://cdn-images-1.medium.com/max/1074/1*rJTpCZXsqZjLz6rEL4OTzw@2x.png 2x" width="537" height="400" />
+<img src="https://cdn-images-1.medium.com/max/537/1*l_HSnV-KpyrU_CX5tiMhhg@2x.png" alt="List of apps" srcset="https://cdn-images-1.medium.com/max/1074/1*l_HSnV-KpyrU_CX5tiMhhg@2x.png 2x" width="537" height="400" /></p>
+</figure>
+
+<h3 id="language-region">Language &amp; Region</h3>
+
+<p>We’ve improved the design within the Language &amp; Region settings. There’s also now an obvious link to keyboard settings (since the two are closely related) straight from here.</p>
+
+<figure>
+  <p><img src="https://cdn-images-1.medium.com/max/1006/1*L8AHf304Qa-Fc9q1PSG_-w@2x.png" alt="Language &amp; Region settings" srcset="https://cdn-images-1.medium.com/max/2012/1*L8AHf304Qa-Fc9q1PSG_-w@2x.png 2x" width="1006" height="684" /></p>
+</figure>
+
+<h3 id="displays">Displays</h3>
+
+<p>The Displays pane is where you can configure multiple displays, plus set things like resolution, rotation, and mirroring. In elementary OS 5 Juno we’ve added a handful of features and refined the settings.</p>
+
+<p>First, we’ve <strong>added a setting for scaling factor</strong>. elementary OS automatically detects the resolution and size of your display and sets the scaling factor accordingly, but in some contexts the user may want to override this scaling. That’s why in addition to the default automatic behavior, we’ve added new LoDPI (1× scaling) and Pixel Doubled (2× scaling) settings to Juno.</p>
+
+<p>We’ve also a <strong>rotation lock toggle</strong> for devices that have an accelerometer. This is great for tablet or 2-in-1 form factors where you might want to flip the screen around, but sometimes you want it locked.</p>
+
+<figure>
+  <p><img src="https://cdn-images-1.medium.com/max/1006/1*bVy0uG_BuJLmh39Ck6i0nA@2x.png" alt="Displays settings" srcset="https://cdn-images-1.medium.com/max/2012/1*bVy0uG_BuJLmh39Ck6i0nA@2x.png 2x" width="1006" height="684" /></p>
+</figure>
+
+<p>We’ve <strong>improved multi-display drag and drop layout</strong> in Juno, especially around display rotation. Things should be more consistent, more clear, and more accurate to the real world layout.</p>
+
+<p>Of course we’ve also added a <strong>new Night Light tab</strong> to configure the aforementioned Night Light feature, including the color temperature and schedule.</p>
+
+<h3 id="keyboard">Keyboard</h3>
+
+<p>Keyboards are very personal pieces of hardware; not only are there so many different languages, layouts, and key styles out there, but people tend to have strong opinions about how their input device should work. In elementary OS 5 Juno, we’ve worked hard on Keyboard settings to make the experience better for everyone.</p>
+
+<p>To start, users coming from other platforms may be used to using the ⌘ key to display something like the Applications Menu. We’re happy to say that in Juno, you can now <strong>configure the ⌘ key behavior</strong> to show the new Shortcut Overlay, launch the Applications Menu, or do nothing as in Loki.</p>
+
+<figure>
+  <p><img src="https://cdn-images-1.medium.com/max/1023/1*9Jqem1bIzFn2ULp7F_wPPA@2x.png" alt="Keyboard settings" srcset="https://cdn-images-1.medium.com/max/2046/1*9Jqem1bIzFn2ULp7F_wPPA@2x.png 2x" width="1023" height="717" /></p>
+</figure>
+
+<p>If you regularly type extended Latin or other special characters, you may be familiar with the  <a rel="nofollow noopener noreferrer" target="_blank" href="https://en.wikipedia.org/wiki/Compose_key">Compose key</a>. Now in Juno, you can choose from several different keys depending on your preference and what is convenient on your hardware, including Caps Lock, Menu, Right Alt, Right Ctrl, and Right ⌘.</p>
+
+<figure class="half">
+  <p><img src="https://cdn-images-1.medium.com/max/1005/1*4DcpT01R4Cx2ro-dHIzTyQ@2x.png" alt="Add keyboard layout" srcset="https://cdn-images-1.medium.com/max/2010/1*4DcpT01R4Cx2ro-dHIzTyQ@2x.png 2x" width="1005" height="703" />
+<img src="https://cdn-images-1.medium.com/max/1005/1*z7n2PidkUN4gxlGDQgU1Mw@2x.png" alt="Add keyboard layout detail" srcset="https://cdn-images-1.medium.com/max/2010/1*z7n2PidkUN4gxlGDQgU1Mw@2x.png 2x" width="1005" height="703" /></p>
+</figure>
+
+<p>Thanks to some of the installer work done in collaboration with System76, we’ve also redesigned the keyboard layout chooser with new features like search and layout previews and without oversized and clumsy dropdown menus.</p>
+
+<figure>
+  <p><img src="https://cdn-images-1.medium.com/max/1023/1*viq4cuKSYoh2BrxL0t20fQ@2x.png" alt="Keyboard shortcut settings" srcset="https://cdn-images-1.medium.com/max/2046/1*viq4cuKSYoh2BrxL0t20fQ@2x.png 2x" width="1023" height="717" /></p>
+</figure>
+
+<p>For Juno, we’ve also redesigned the Keyboard Shortcuts settings with new icons for categories, and we’ve removed confusing symbols like ⌥. We’ve also added <strong>new settings</strong> for shortcuts like cycling workspaces and zoom.</p>
+
+<h3 id="mouse-touchpad">Mouse &amp; Touchpad</h3>
+
+<p>Like keyboards, a mouse or touchpad is a very personal input device that can lead to different preferences or behaviors. In elementary OS Juno, we’ve added several more settings to help address this.</p>
+
+<figure>
+  <p><img src="https://cdn-images-1.medium.com/max/875/1*Y1n5IpRmMqXXD-GqhmHgMQ@2x.png" alt="Mouse &amp; Touchpad settings" srcset="https://cdn-images-1.medium.com/max/1750/1*Y1n5IpRmMqXXD-GqhmHgMQ@2x.png 2x" width="875" height="764" /></p>
+</figure>
+
+<p>First, we’ve added a new option to <strong>enable or disable middle click paste</strong>. For longtime Linux users, this is a common feature as a bit of an extra text editing shortcut. But for users coming from other platforms, this might just get in their way, so now it can be toggled on or off.</p>
+
+<p>On devices with a touchpad (like a laptop), we’ve also added a setting to <strong>enable or disable the touchpad while typing</strong>. This is a highly-requested feature from people who play games on the touchpad, as previously in some games there would be a delay between pressing keys (like <kbd>W</kbd>, <kbd>A</kbd>, <kbd>S</kbd>, and <kbd>D</kbd> for moving around) and being able to use the touchpad. While this cuts down significantly on accidental cursor movement and clicks while typing, it can be frustrating for those games. So we’ve added a setting!</p>
+
+<p>We’ve also added selectable <strong>mouse acceleration profiles</strong> in Juno, another common request from gamers and other users. Choose from the hardware default, no acceleration, or adaptive acceleration in a new dropdown.</p>
+
+<h3 id="power">Power</h3>
+
+<p>The power settings let you choose display, power button, suspend, and other power-related behaviors. In Juno, we’ve cleaned these settings up and improved the hardware detection to ensure we’re displaying the appropriate settings based on the exact hardware in your device.</p>
+
+<h3 id="sound">Sound</h3>
+
+<p>We’ve <strong>completely redesigned the sound input and output settings</strong> for elementary OS Juno. It’s now simpler to choose devices, adjust balance, check your mic balance, and more.</p>
+
+<figure>
+  <p><img src="https://cdn-images-1.medium.com/max/876/1*VY71Sb0qr83sk0AyMGeo9g@2x.png" alt="Sound settings" srcset="https://cdn-images-1.medium.com/max/1752/1*VY71Sb0qr83sk0AyMGeo9g@2x.png 2x" width="876" height="606" /></p>
+</figure>
+
+<p>We’ve also added a <strong>new “Event Sounds” toggle</strong>, which lets you enable or disable the “thud” noise when you hit the end of a text entry or try to Alt+Tab with no available windows.</p>
+
+<h3 id="user-accounts">User Accounts</h3>
+
+<p>We’ve touched up the User Accounts settings in Juno. It’s now more clear how to change a password, and Guest Session settings are more consistent with other settings panes.</p>
+
+<figure class="half">
+  <p><img src="https://cdn-images-1.medium.com/max/876/1*eyLQE_FCg6Ol7hHxkPPD6w@2x.png" alt="User Accounts settings" srcset="https://cdn-images-1.medium.com/max/1752/1*eyLQE_FCg6Ol7hHxkPPD6w@2x.png 2x" width="876" height="606" />
+<img src="https://cdn-images-1.medium.com/max/460/1*pbut2_BCInmrY6v0UwmYJg@2x.png" alt="New user creation" srcset="https://cdn-images-1.medium.com/max/920/1*pbut2_BCInmrY6v0UwmYJg@2x.png" width="460" height="557" /></p>
+  <figcaption>User Accounts settings and new user creation</figcaption>
+</figure>
+
+<p>We also refined the new user creation. We’ve moved it to its own dialog and improved the layout to make it more clear and straightforward, with much better validation feedback and suggestions for creating stronger passwords.</p>
+
+<h3 id="security-privacy">Security &amp; Privacy</h3>
+
+<p>Privacy and security are paramount to elementary OS. In Security &amp; Privacy settings, we provide control over OS-wide history (used for extra functionality, like offering recently-used files in apps). Users can toggle OS-wide history with a switch, or pick and choose which apps are affected. Security &amp; Privacy settings also give control over when the session locks, as well as an OS-wide firewall. With elementary OS 5 Juno, we’ve added even more features to help you safeguard your private data.</p>
+
+<figure>
+  <p><img src="https://cdn-images-1.medium.com/max/773/1*MF6GlwN6RRH7SWnfBPDw1w@2x.png" alt="Housekeeping settings" srcset="https://cdn-images-1.medium.com/max/1546/1*MF6GlwN6RRH7SWnfBPDw1w@2x.png 2x" width="773" height="541.5" /></p>
+</figure>
+
+<p><strong>Housekeeping</strong> is a brand new optional feature in Juno to help keep your temporary and trashed files tidied up. Not only does this keep your device’s storage free, it can help ensure your private data doesn’t come back to haunt you.</p>
+
+<p>Now in Juno, when apps attempt to use your location, elementary OS displays a <strong>Location Services approval dialog</strong> with the app’s name and icon, plus the precision level that was requested.</p>
+
+<figure>
+  <p><img src="https://cdn-images-1.medium.com/max/460/1*CGlytKO-lQIw2oGoZ9AcMA@2x.png" alt="Location Services dialog" srcset="https://cdn-images-1.medium.com/max/980/1*CGlytKO-lQIw2oGoZ9AcMA@2x.png 2x" width="460" height="209" /></p>
+</figure>
+
+<p>To manage these new permissions, we’ve added a <strong>brand new Location Services section</strong> to Security &amp; Privacy. Here you can toggle Location Services for the whole system, or approve or deny specific apps.</p>
+
+<figure>
+  <p><img src="https://cdn-images-1.medium.com/max/876/1*Awa5JFtFszp5RGlvSPBH5w@2x.png" alt="Location Services settings" srcset="https://cdn-images-1.medium.com/max/1752/1*Awa5JFtFszp5RGlvSPBH5w@2x.png 2x" width="876" /></p>
+</figure>
+
+<figure class="full-bleed">
+  <p><img src="https://cdn-images-1.medium.com/max/1280/1*9Use1S4OgFHQ6YU3oxEfSQ.jpeg" alt="divider" srcset="https://cdn-images-1.medium.com/max/2560/1*9Use1S4OgFHQ6YU3oxEfSQ.jpeg 2x" width="1280" height="340" /></p>
+</figure>
+
+<h2 id="platform-improvements-ie-for-developers">Platform Improvements (i.e. for developers)</h2>
+
+<p>Juno is the first major release of elementary OS since accepting apps into AppCenter. As such, we’ve spent a lot of time working to improve the platform itself for those developers while always ensuring users are in control.</p>
+
+<p>For elementary OS 5 Juno, we’ve slightly <strong>reworked notification behavior</strong>. In the Notifications indicator we’ve simplified the grouping, leaning on apps to properly use the API to communicate which app is sending the notification. Apps not properly using the API are grouped together under “Other” in the indicator, and may not send notifications unless the user has toggled the appropriate switch in System Settings → Notifications. Whereas before apps not using the API correctly would have free reign over notifications, this new default gives users more control over notifications and the apps that can send them. Plus, it incentivizes app developers to use the proper APIs so their notifications can come through and be grouped properly by default.</p>
+
+<p>As mentioned in the System Settings section above, Juno comes with a brand new Location Services agent and settings. <strong>Apps must use the GeoClue service</strong> for location requests, which will automatically throw the Location Services dialog to users. And if a user denies the request, your app should handle that gracefully.</p>
+
+<p>We’ve put a lot of work into <strong>Granite</strong>, our GTK-based widget and helper library. There are new widgets and style class constants, like the Mode Switch, Checkerboard style, Accent labels and icons, and more.</p>
+
+<p>For even more developer-facing changes, check out these posts:</p>
+
+<ul>
+  <li><a rel="nofollow noopener noreferrer" target="_blank" href="https://medium.com/elementaryos/cleaning-up-app-codenames-ef9fc637ddef">Cleaning Up App Codenames</a></li>
+  <li><a rel="nofollow noopener noreferrer" target="_blank" href="https://medium.com/elementaryos/all-aboard-the-meson-future-hype-train-2b6c478b6b9e">All Aboard The Meson Future Hype Train</a></li>
+  <li><a rel="nofollow noopener noreferrer" target="_blank" href="https://medium.com/elementaryos/introducing-houston-ci-3179ec34e726">Introducing Houston CI</a></li>
+  <li><a rel="nofollow noopener noreferrer" target="_blank" href="https://medium.com/elementaryos/developer-tips-updating-your-apps-for-juno-453c07a5b3a7">Updating Your Apps for Juno</a></li>
+</ul>
+
+<h2 id="and-more">…And More</h2>
+
+<p>With every release comes a smorgasbord of under-the-hood improvements, library updates, etc. and elementary OS 5 Juno is no exception. It comes with <strong>Linux 4.15</strong>, which brings <strong>improved hardware support and performance</strong> over previous versions. Mobile broadband device support has been added to the networking stack. Capnet Assist, our captive portal login helper, now uses configuration and detection from network manager; consequently, it’s more reliable and configurable.</p>
+
+<p>We’ve also worked across the board in Juno to <strong>further improve HiDPI support</strong>. Icons and graphics should be crisper and more properly scaled across the whole OS.</p>
+
+<p>We’ve made several <strong>improvements to the login and lock screen</strong> greeter: windows and menus now have shadows, we’re using an instance of the standard top Panel for better consistency, and scaling works better on HiDPI.</p>
+
+<p>Lastly, with the Juno development cycle we’ve adopted more cross-desktop standards improved the cross-distro support for several components. This came with a lot of help from Fedora maintainers and developers. The result is more reusable code for other desktops and users of other distros like Fedora, Arch, openSUSE, etc.</p>
+
+<figure class="full-bleed">
+  <p><img src="https://cdn-images-1.medium.com/max/1280/1*9Use1S4OgFHQ6YU3oxEfSQ.jpeg" alt="divider" srcset="https://cdn-images-1.medium.com/max/2560/1*9Use1S4OgFHQ6YU3oxEfSQ.jpeg 2x" width="1280" height="340" /></p>
+</figure>
+
+<h2 id="download-elementary-os-5juno">Download elementary OS 5 Juno</h2>
+
+<p>You’ve made it all the way here! <strong>elementary OS 5 Juno is available right now</strong> for a pay-what-you-want purchase and <a rel="nofollow noopener noreferrer" target="_blank" href="https://elementary.io">download at elementary.io</a>. For installation instructions, recommended system specifications, and more, see our <a rel="nofollow noopener noreferrer" target="_blank" href="https://elementary.io/docs/installation">Installation Guide</a>.</p>
+
+<h2 id="thank-you">Thank You</h2>
+
+<p>Last but absolutely not least, <strong>we’d like to thank every single person who has contributed to elementary OS</strong> in one way or another. Thank you to everyone who has bought an app on AppCenter. Thank you to all of the developers releasing their apps on AppCenter. Thank you to our supporters on Bountysource and <a rel="nofollow noopener noreferrer" target="_blank" href="https://www.patreon.com/elementary">Patreon</a>. Thank you to each and every one of you who has purchased a copy of <a rel="nofollow noopener noreferrer" target="_blank" href="https://elementary.io/">elementary OS</a>. Thanks to all of you who have supported us by buying merch from <a rel="nofollow noopener noreferrer" target="_blank" href="https://elementary.io/store/">our store</a>.</p>
+
+<p>Every single contribution—be it coding, translations, funding, design, app development, support, or hype—helps make all of this possible, and we wouldn’t be here without you. Juno is such an incredible release, and it’s here thanks to all of our supporters. ❤</p>
+
+  </section>
+
+  
+
+
+
+</article>
+
+<div class="license">
+  <a title=" This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License" rel="license" target="_blank" href="http://creativecommons.org/licenses/by-sa/4.0/">
+    Some rights reserved
+  </a>
+  <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="creative-commons" class="svg-inline--fa fa-creative-commons fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M245.83 214.87l-33.22 17.28c-9.43-19.58-25.24-19.93-27.46-19.93-22.13 0-33.22 14.61-33.22 43.84 0 23.57 9.21 43.84 33.22 43.84 14.47 0 24.65-7.09 30.57-21.26l30.55 15.5c-6.17 11.51-25.69 38.98-65.1 38.98-22.6 0-73.96-10.32-73.96-77.05 0-58.69 43-77.06 72.63-77.06 30.72-.01 52.7 11.95 65.99 35.86zm143.05 0l-32.78 17.28c-9.5-19.77-25.72-19.93-27.9-19.93-22.14 0-33.22 14.61-33.22 43.84 0 23.55 9.23 43.84 33.22 43.84 14.45 0 24.65-7.09 30.54-21.26l31 15.5c-2.1 3.75-21.39 38.98-65.09 38.98-22.69 0-73.96-9.87-73.96-77.05 0-58.67 42.97-77.06 72.63-77.06 30.71-.01 52.58 11.95 65.56 35.86zM247.56 8.05C104.74 8.05 0 123.11 0 256.05c0 138.49 113.6 248 247.56 248 129.93 0 248.44-100.87 248.44-248 0-137.87-106.62-248-248.44-248zm.87 450.81c-112.54 0-203.7-93.04-203.7-202.81 0-105.42 85.43-203.27 203.72-203.27 112.53 0 202.82 89.46 202.82 203.26-.01 121.69-99.68 202.82-202.84 202.82z"></path></svg>
+  <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="creative-commons-by" class="svg-inline--fa fa-creative-commons-by fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M314.9 194.4v101.4h-28.3v120.5h-77.1V295.9h-28.3V194.4c0-4.4 1.6-8.2 4.6-11.3 3.1-3.1 6.9-4.7 11.3-4.7H299c4.1 0 7.8 1.6 11.1 4.7 3.1 3.2 4.8 6.9 4.8 11.3zm-101.5-63.7c0-23.3 11.5-35 34.5-35s34.5 11.7 34.5 35c0 23-11.5 34.5-34.5 34.5s-34.5-11.5-34.5-34.5zM247.6 8C389.4 8 496 118.1 496 256c0 147.1-118.5 248-248.4 248C113.6 504 0 394.5 0 256 0 123.1 104.7 8 247.6 8zm.8 44.7C130.2 52.7 44.7 150.6 44.7 256c0 109.8 91.2 202.8 203.7 202.8 103.2 0 202.8-81.1 202.8-202.8.1-113.8-90.2-203.3-202.8-203.3z"></path></svg>
+  <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="creative-commons-sa" class="svg-inline--fa fa-creative-commons-sa fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M247.6 8C389.4 8 496 118.1 496 256c0 147.1-118.5 248-248.4 248C113.6 504 0 394.5 0 256 0 123.1 104.7 8 247.6 8zm.8 44.7C130.2 52.7 44.7 150.6 44.7 256c0 109.8 91.2 202.8 203.7 202.8 103.2 0 202.8-81.1 202.8-202.8.1-113.8-90.2-203.3-202.8-203.3zM137.7 221c13-83.9 80.5-95.7 108.9-95.7 99.8 0 127.5 82.5 127.5 134.2 0 63.6-41 132.9-128.9 132.9-38.9 0-99.1-20-109.4-97h62.5c1.5 30.1 19.6 45.2 54.5 45.2 23.3 0 58-18.2 58-82.8 0-82.5-49.1-80.6-56.7-80.6-33.1 0-51.7 14.6-55.8 43.8h18.2l-49.2 49.2-49-49.2h19.4z"></path></svg>
+</div>
+
+
+<div class="social">
+  <h2>Join the Discussion on Social Media</h2>
+
+  
+
+  <div class="share">
+    <h3>Share</h3>
+    
+
+    <a
+      href="https://twitter.com/intent/tweet?text=elementary OS 5 Juno is Here&url=https://blog.elementary.io/elementary-os-5-juno-is-here/&via=elementary&original_referer=https://blog.elementary.io/elementary-os-5-juno-is-here/"
+      rel="noreferrer nofollow noopener"
+      target="_blank"
+      title="Twitter"
+      onclick="plausible('Share: Twitter')"
+    >
+      <img src="/images/twitter.svg" alt="Twitter" />
+    </a>
+
+    <a
+      href="http://www.reddit.com/submit?title=elementary OS 5 Juno is Here&url=https://blog.elementary.io/elementary-os-5-juno-is-here/"
+      rel="noreferrer nofollow noopener"
+      target="_blank"
+      title="Reddit"
+      onclick="plausible('Share: Reddit')"
+    >
+      <img src="/images/reddit.svg" alt="Reddit" />
+    </a>
+
+    <a
+      href="https://www.facebook.com/sharer/sharer.php?u=https://blog.elementary.io/elementary-os-5-juno-is-here/"
+      rel="noreferrer nofollow noopener"
+      target="_blank"
+      title="Facebook"
+      onclick="plausible('Share: Facebook')"
+    >
+      <img src="/images/facebook.svg" alt="Facebook" />
+    </a>
+
+    <a
+      href="https://blog.elementary.io/elementary-os-5-juno-is-here/"
+
+      title="Permalink"
+      onclick="plausible('Share: Permalink')"
+    >
+      <img src="/images/edit-copy-32.svg" alt="Permalink" />
+    </a>
+  </div>
+</div>
+
+
+
+<h2 class="up-next">Up Next</h2>
+
+
+  
+    
+
+<a class="featured with-image 1" href="/juno-updates-for-november-2018/">
+  
+    <div class="featured-image" alt="Featured image" style="background-image: url(https://cdn-images-1.medium.com/max/1600/1*QNb3zRCXdcGaVK60C7acJA@2x.png);"></div>
+  
+
+  <header>
+    <h2>
+
+
+
+   Juno Updates for November,&nbsp;2018
+
+</h2>
+    
+      <h3>
+        
+
+
+
+   It’s not the end of the cycle, it’s just the&nbsp;beginning
+
+
+        
+      </h3>
+    
+
+    
+
+
+
+<div class="byline">
+  <div class="avatar">
+    <img
+      
+        srcset="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&d=blank 2x"
+        src="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&d=blank"
+        alt="Avatar for Daniel Foré"
+      
+    />
+  </div>
+  <div class="author">
+    
+    <span class="name">Daniel Foré</span>
+    
+    
+      <span class="description">Founder & CEO</span>
+    
+  </div>
+  <time class="post-date" datetime="2018-11-30">Fri, Nov 30, 2018</time>
+  
+    <span class="read-time" title="Estimated read time">
+  
+  3 min read
+</span>
+
+
+  
+</div>
+
+
+  </header>
+
+  
+</a>
+
+
+  
+
+
+
+  
+    
+
+<a class="featured with-image 1" href="/appcenter-and-content-ratings/">
+  
+    <div class="featured-image" alt="Featured image" style="background-image: url(https://cdn-images-1.medium.com/max/958/1*9uynQO1QQeGr6tMtMzqEeA@2x.png);"></div>
+  
+
+  <header>
+    <h2>
+
+
+
+   AppCenter and Content&nbsp;Ratings
+
+</h2>
+    
+      <h3>
+        
+
+
+
+   Using open standards to empower users and&nbsp;parents
+
+
+        
+      </h3>
+    
+
+    
+
+
+
+<div class="byline">
+  <div class="avatar">
+    <img
+      
+        srcset="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&d=blank 2x"
+        src="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&d=blank"
+        alt="Avatar for Cassidy James Blaede"
+      
+    />
+  </div>
+  <div class="author">
+    
+    <span class="name">Cassidy James Blaede</span>
+    
+    
+      <span class="description">Co-founder & CXO</span>
+    
+  </div>
+  <time class="post-date" datetime="2018-09-24">Mon, Sep 24, 2018</time>
+  
+    <span class="read-time" title="Estimated read time">
+  
+  4 min read
+</span>
+
+
+  
+</div>
+
+
+  </header>
+
+  
+</a>
+
+
+  
+
+
+
+
+      <div class="medium">
+  <hr />
+  <article>
+    <h2>Looking for More?</h2>
+    <p>While we're migrating posts to the elementary blog, some older stories are still only on the <a href="https://medium.com/elementaryos" target="_blank" onclick="plausible('Link: Medium')">official elementary Medium publication</a>. Head over there to read more.
+  </article>
+</div>
+
+
+    </section>
+    <footer>
+  <p>© 2020 elementary, Inc</p>
+  <ul>
+    <li><a href="https://elementary.io/press" target="_self">Press</a></li>
+    <li><a href="https://elementary.io/brand" target="_self">Brand</a></li>
+    <li><a href="https://elementary.io/oem" target="_self">OEMs</a></li>
+    <li><a href="https://elementary.io/privacy" target="_self">Privacy</a></li>
+    <li><a href="https://elementary.io/team" target="_self">Team</a></li>
+    <li><a href="https://elementary.io/open-source" target="_self">Open Source</a></li>
+  </ul>
+</footer>
+
+    <script>
+  // Makes figure images focusable for zooming
+  let figureImages = document.querySelectorAll ("figure img");
+  figureImages.forEach (function (figureImage) {
+    figureImage.setAttribute ("tabindex", -1);
+    document.addEventListener ('mousedown', event => {
+      if (document.activeElement === figureImage) {
+        // Prevent it from triggering on focusIn
+        setTimeout (function () {
+          document.activeElement.blur ();
+        }, 100);
+      }
+    });
+  });
+</script>
+
+
+  </body>
+</html>
