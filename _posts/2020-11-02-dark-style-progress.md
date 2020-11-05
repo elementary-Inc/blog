@@ -7,7 +7,7 @@ tags:
   - odin
 ---
 
-For this month's elementary OS 6 progress update, I want to talk about the work we've being doing on the dark style preference. As you may be aware, elementary OS 6 introduces two major new ways to make the desktop feel more personal: accent colors and dark style. The latter is something that's become especially ubiquitous recently on mobile operating systems and the web. Open Source desktops have also begun offering a system-wide dark mode, but typically with a major drawback that operates much differently from the mainstream platforms: it operates on an opt-out basis rather than opt-in. This is what sets the dark style preference in elementary OS 6 apart from the offerings in, for example, Ubuntu or Pop!_OS. You can read a lot more about motivations and research that went into that decision in Cassidy's previous blog post:
+elementary OS 6 introduces two major new ways to make the desktop feel more personal: accent colors and dark style. The latter is something that's become especially ubiquitous recently on mobile operating systems and the web. Open Source desktops have also begun offering a system-wide dark mode, but typically with a major drawback that operates much differently from the mainstream platforms: it operates on an opt-out basis rather than opt-in. This is what sets the dark style preference in elementary OS 6 apart from the offerings in, for example, Ubuntu or Pop!_OS. You can read a lot more about motivations and research that went into that decision in Cassidy's previous blog post:
 
 <div>
 {% assign post = site.posts | where:"slug", "the-need-for-a-freedesktop-dark-style-preference" | first %}
