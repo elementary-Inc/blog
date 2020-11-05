@@ -1,5 +1,5 @@
 ---
-title: "Dark style progress for elementary OS 6"
+title: "Dark Style Progress for elementary OS 6"
 description: "Lights out. Guerrilla Radio. Turn that shit up."
 author: danrabbit
 image: /images/dark-style-progress-november-2020/card.png
