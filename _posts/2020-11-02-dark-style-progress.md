@@ -69,7 +69,27 @@ This is a fairly common example of an app that had been developed against the li
 
 Also consider an app like Mail, which still does not support the dark style preference because of the nature of its content. It's unclear how Mail should handle displaying HTML emails which probably don't provide CSS that accounts for a dark style. There's still an open discussion about whether Mail should display HTML emails in a way that blindingly contrasts with its UI.
 
-There are still other places in the UI where we do support the dark style, but that support could be made better like in System Settings → Displays. The colors used for each display are quite bright and could be much dimmer when the dark style is activate. If you're curious about more examples of places where apps could not support the dark style without some modification, you can follow along with our [Prefer Dark Style project on GitHub](https://github.com/orgs/elementary/projects/43).
+<figure class="half" markdown="1">
+  <img alt="Terminal with user-determined style" src="/images/dark-style-progress-november-2020/terminal-dark@2x.png" width="932" height="672" />
+  <img alt="Terminal with system-determined style" src="/images/dark-style-progress-november-2020/terminal@2x.png" width="932" height="672" />
+  <figcaption markdown="1">
+  A Terminal prototype with a "Follow System Style" option
+  </figcaption>
+</figure>
+
+Another case yet to be resolved is for apps like Code and Terminal which offer multiple style schemes. In these apps, the color scheme also affects the content and there are multiple possible choices for light color schemes. This complexity becomes compounded as soon as these apps support custom color schemes as well. For now, we're considering a simple switch to alternate between two pre-determined default styles with Terminal defaulting to "off" and Code defaulting to "on". This keeps with Terminal always using the dark style by default, but Code matching the behavior of other light-by-default apps.
+
+<figure class="half" markdown="1">
+  <img alt="Files in light style" src="/images/dark-style-progress-november-2020/files@2x.png" width="932" height="672" />
+  <img alt="Files in dark style" src="/images/dark-style-progress-november-2020/files-dark@2x.png" width="932" height="672" />
+  <figcaption markdown="1">
+  Files in dark and light styles, with less-legible places icons in dark style
+  </figcaption>
+</figure>
+
+Changes to iconography also have to be considered when supporting a dark style. Several places sidebar icons in Files, for example, are far less legible in the dark style and will need to be redesigned for better contrast.
+
+There are still other places in the UI where we support the dark style, but that support could be made better like in System Settings → Displays. The colors used for each display are quite bright and could be much dimmer when the dark style is activate. If you're curious about more examples of places where apps could not support the dark style without some modification, you can follow along with our [Prefer Dark Style project on GitHub](https://github.com/orgs/elementary/projects/43).
 
 ## Cross-platform & Flatpak Support
 
