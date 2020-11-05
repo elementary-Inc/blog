@@ -100,7 +100,5 @@ Another area we're still working on is support across the FreeDesktop ecosystem 
 If you're excited by what you read here and want to get your hands on the developer preview of elementary OS 6, you can! GitHub sponsors at the $10/mo or above tier get access to our daily builds server where you can test the latest and greatest experimental builds, including builds for Pinebook Pro. Subscribing helps us fund the development of elementary OS and brings us that much closer to delivering the final product.
 
 <div style="text-align: center" markdown="1">
-[Get Early Access Builds][builds]{: .button}
+[Get Early Access Builds][https://builds.elementary.io]{: .button}
 </div>
-
-[builds]: https://builds.elementary.io
