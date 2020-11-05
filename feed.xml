@@ -5,9 +5,196 @@
     <description>We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS</description>
     <link>https://blog.elementary.io/</link>
     <atom:link href="https://blog.elementary.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 04 Nov 2020 18:09:33 -0600</pubDate>
-    <lastBuildDate>Wed, 04 Nov 2020 18:09:33 -0600</lastBuildDate>
+    <pubDate>Thu, 05 Nov 2020 15:49:11 -0600</pubDate>
+    <lastBuildDate>Thu, 05 Nov 2020 15:49:11 -0600</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      
+        <item>
+          <title>Dark Style Progress for elementary OS 6</title>
+          <description>&lt;figure class=&quot;full-bleed&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/dark-style-progress-november-2020/card.png&quot; alt=&quot;Teaser&quot; /&gt;&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;elementary OS 6 introduces two major new ways to make the desktop feel more personal: accent colors and dark style. The latter is something that’s become especially ubiquitous recently on mobile operating systems and the web. Open Source desktops have also begun offering a system-wide dark mode, but typically with a major drawback that operates much differently from the mainstream platforms: it operates on an opt-out basis rather than opt-in. This is what sets the dark style preference in elementary OS 6 apart from the offerings in, for example, Ubuntu or Pop!_OS. You can read a lot more about motivations and research that went into that decision in Cassidy’s previous blog post:&lt;/p&gt;
+
+&lt;div&gt;
+
+
+
+&lt;a class=&quot;featured with-image 1&quot; href=&quot;/the-need-for-a-freedesktop-dark-style-preference/&quot;&gt;
+  
+    &lt;div class=&quot;featured-image&quot; alt=&quot;Featured image&quot; style=&quot;background-image: url(https://cdn-images-1.medium.com/max/1952/1*NwP8sxbRTq7pzJLhDE2rnA@2x.png);&quot;&gt;&lt;/div&gt;
+  
+
+  &lt;header&gt;
+    &lt;h2&gt;
+
+
+
+   The Need for a FreeDesktop Dark Style&amp;nbsp;Preference
+
+&lt;/h2&gt;
+    
+      &lt;h3&gt;
+        
+
+
+
+   It’s time for the FreeDesktop to catch&amp;nbsp;up
+
+
+        
+      &lt;/h3&gt;
+    
+
+    
+
+
+
+&lt;div class=&quot;byline&quot;&gt;
+  &lt;div class=&quot;avatar&quot;&gt;
+    &lt;img srcset=&quot;https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&amp;amp;d=blank 2x&quot; src=&quot;https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&amp;amp;d=blank&quot; alt=&quot;Avatar for Cassidy James Blaede&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;author&quot;&gt;
+    
+    &lt;span class=&quot;name&quot;&gt;Cassidy James Blaede&lt;/span&gt;
+    
+    
+      &lt;span class=&quot;description&quot;&gt;Co-founder &amp;amp; CXO&lt;/span&gt;
+    
+  &lt;/div&gt;
+  &lt;time class=&quot;post-date&quot; datetime=&quot;2019-05-17&quot;&gt;Fri, May 17, 2019&lt;/time&gt;
+  
+    &lt;span class=&quot;read-time&quot; title=&quot;Estimated read time&quot;&gt;
+  
+  18 min read
+&lt;/span&gt;
+
+
+  
+&lt;/div&gt;
+
+
+  &lt;/header&gt;
+
+  
+&lt;/a&gt;
+
+
+&lt;/div&gt;
+
+&lt;h2 id=&quot;system-settings--onboarding&quot;&gt;System Settings &amp;amp; Onboarding&lt;/h2&gt;
+
+&lt;p&gt;The last time we blogged about the dark style preference, we had a very minimal prototype that offered a simple toggle and an explanation that this setting would only affect the panel and “system components”. Originally the plan was to only support the dark style in the desktop shell in elementary OS 6 and not to support changing it for apps at all. This would only include the panel, the dock, notifications, the authentication agent, and the keyboard shortcut overlay.&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+  &lt;p&gt;&lt;img alt=&quot;Prototype “Prefer dark style” toggle&quot; src=&quot;/images/the-need-for-a-freedesktop-dark-style-preference/switchboard@2x.png&quot; width=&quot;800&quot; height=&quot;595&quot; /&gt;
+  &lt;img alt=&quot;Prototype “Prefer dark style” toggle&quot; src=&quot;/images/the-need-for-a-freedesktop-dark-style-preference/switchboard-dark@2x.png&quot; width=&quot;800&quot; height=&quot;595&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;Prototype “Prefer dark style” toggle&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Eventually we extended “system components” to include apps like Screenshot and Sideload as well as System Settings. We also developed some illustrations that reflected the idea that apps wouldn’t be included. Between these two screenshots you can see how much the dark style has changed: the most noticeable being the use of a much more neutral base color and the improved contrast between buttons and the background. You’ll also notice that since the introduction of the elementary settings daemon you’re now able to schedule an automatic dark style change at sunset or by manually specifying a time. Keep in mind that this has grown quite a lot in a short amount of time and we’re still iterating on the exact design. Things could still change significantly before the final release.&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+  &lt;p&gt;&lt;img alt=&quot;Current prefer dark style UI&quot; src=&quot;/images/dark-style-progress-november-2020/switchboard@2x.png&quot; width=&quot;1024&quot; height=&quot;744&quot; /&gt;
+  &lt;img alt=&quot;Current prefer dark style UI&quot; src=&quot;/images/dark-style-progress-november-2020/switchboard-dark@2x.png&quot; width=&quot;1024&quot; height=&quot;744&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;Current “Prefer dark style” UI in &lt;em&gt;System Settings&lt;/em&gt; → &lt;em&gt;Desktop&lt;/em&gt; → &lt;em&gt;Appearance&lt;/em&gt;&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We also now present the dark style and accent color choice when you first log in via Onboarding, and of course this app was added to the list of apps which support the dark style.&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+  &lt;p&gt;&lt;img alt=&quot;The dark style and accent color preferences in Onboarding&quot; src=&quot;/images/dark-style-progress-november-2020/onboarding@2x.png&quot; width=&quot;560&quot; height=&quot;479&quot; /&gt;
+  &lt;img alt=&quot;The dark style and accent color preferences in Onboarding&quot; src=&quot;/images/dark-style-progress-november-2020/onboarding-dark@2x.png&quot; width=&quot;560&quot; height=&quot;479&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;The dark style and accent color preferences are now presented during Onboarding&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;challenges-with-apps&quot;&gt;Challenges with Apps&lt;/h2&gt;
+
+&lt;p&gt;As we began to implement dark style support across all of the system components in our desktop, we started to feel confident about the idea of supporting it in apps too. We started small with simple apps like Calculator, but I’m happy to say that as of this time nearly all of the default apps in elementary OS follow the dark style. This isn’t as easy as it sounds. As I alluded to earlier, the dark style preference in elementary OS 6 is “opt-in”, meaning that developers must explicitly choose to support it. This is important because of so many places where app styles break when developers aren’t testing against the dark style. Consider for example, Calendar:&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+  &lt;p&gt;&lt;img alt=&quot;Calendar in the dark style before fixes&quot; src=&quot;/images/dark-style-progress-november-2020/calendar-before@2x.png&quot; width=&quot;1024&quot; height=&quot;750&quot; /&gt;
+  &lt;img alt=&quot;Calendar in the dark style after fixes&quot; src=&quot;/images/dark-style-progress-november-2020/calendar-after@2x.png&quot; width=&quot;1024&quot; height=&quot;750&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;Calendar in the dark style before and after fixes&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;This is a fairly common example of an app that had been developed against the light style and when forced to use the dark style would become completely illegible and thus unusable. Under an “opt-out” system, users would be stuck having to switch the entire system style preference every time they wanted to use this app until the developer hopefully delivered a fix.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;p&gt;&lt;img alt=&quot;Mail with dark style&quot; src=&quot;/images/dark-style-progress-november-2020/mail@2x.png&quot; width=&quot;1024&quot; height=&quot;750&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;Mail, still does not support the dark style preference&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Also consider an app like Mail, which still does not support the dark style preference because of the nature of its content. It’s unclear how Mail should handle displaying HTML emails which probably don’t provide CSS that accounts for a dark style. There’s still an open discussion about whether Mail should display HTML emails in a way that may blindingly contrast with its UI.&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+  &lt;p&gt;&lt;img alt=&quot;Terminal with user-determined style&quot; src=&quot;/images/dark-style-progress-november-2020/terminal-dark@2x.png&quot; width=&quot;932&quot; height=&quot;672&quot; /&gt;
+  &lt;img alt=&quot;Terminal with system-determined style&quot; src=&quot;/images/dark-style-progress-november-2020/terminal@2x.png&quot; width=&quot;932&quot; height=&quot;672&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;A Terminal prototype with a “Follow System Style” option&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Another case yet to be resolved is for apps like Code and Terminal which offer multiple color schemes. In these apps, the color scheme also affects the content and there are multiple possible choices for light color schemes. This complexity becomes compounded as soon as these apps support custom color schemes as well. For now, we’re considering a simple switch to alternate between two pre-determined default styles with Terminal defaulting to “off” and Code defaulting to “on”. This keeps with Terminal always using the dark style by default, but Code matching the behavior of other light-by-default apps.&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+  &lt;p&gt;&lt;img alt=&quot;Files in light style&quot; src=&quot;/images/dark-style-progress-november-2020/files@2x.png&quot; width=&quot;932&quot; height=&quot;672&quot; /&gt;
+  &lt;img alt=&quot;Files in dark style&quot; src=&quot;/images/dark-style-progress-november-2020/files-dark@2x.png&quot; width=&quot;932&quot; height=&quot;672&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;Files in dark and light styles, with less-legible places icons in dark style&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Changes to iconography also have to be considered when supporting a dark style. Several places sidebar icons in Files, for example, are far less legible in the dark style and will need to be redesigned for better contrast.&lt;/p&gt;
+
+&lt;p&gt;There are still other places in the UI where we support the dark style, but that support could be made better like in System Settings → Displays. The colors used for each display are quite bright and could be much dimmer when the dark style is activate. If you’re curious about more examples of places where apps could not support the dark style without some modification, you can follow along with our &lt;a href=&quot;https://github.com/orgs/elementary/projects/43&quot;&gt;Prefer Dark Style project on GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;cross-platform--flatpak-support&quot;&gt;Cross-platform &amp;amp; Flatpak Support&lt;/h2&gt;
+
+&lt;p&gt;Another area we’re still working on is support across the FreeDesktop ecosystem and especially within Flatpak apps. At the moment, apps need to be able to access the system AccountsService to be able to read the elementary dark style preference. After discussion with app developers, this doesn’t seem to be something that works for them and especially for Flatpak’d apps is a bit frowned upon.&lt;/p&gt;
+
+&lt;p&gt;Two other approaches are either to expose the dark style preference via GSettings or via a DBus endpoint. GSettings is familiar and simple for developers writing apps for elementary OS or GNOME (among other desktops), but it seems the current consensus is that Flatpak’d apps should only be able to access their own GSettings schemas. This leads us to believe that exposing a DBus endpoint is probably the best option to encourage adoption by 3rd-party apps. So, in the near future, elementary settings daemon should handle that.&lt;/p&gt;
+
+&lt;p&gt;We’re looking forward to feedback from some GNOME app developers about the acceptability of the DBus solution. For app developers using Granite, we already provide a very simple &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Granite.Settings&lt;/code&gt; object that abstracts everything away and makes it as easy as connecting to a signal, the same way you would handle &lt;a href=&quot;https://valadoc.org/gtk+-3.0/Gtk.Settings.html&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Gtk.Settings&lt;/code&gt;&lt;/a&gt;. We’ll provide documentation for this, and more, when elementary OS 6 enters public beta.&lt;/p&gt;
+
+&lt;h2 id=&quot;get-early-access&quot;&gt;Get Early Access&lt;/h2&gt;
+
+&lt;p&gt;If you’re excited by what you read here and want to get your hands on the developer preview of elementary OS 6, you can! GitHub sponsors at the $10/mo or above tier get access to our daily builds server where you can test the latest and greatest experimental builds, including builds for Pinebook Pro. Subscribing helps us fund the development of elementary OS and brings us that much closer to delivering the final product.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;
+  &lt;p&gt;&lt;a href=&quot;https://builds.elementary.io&quot; class=&quot;button&quot;&gt;Get Early Access Builds&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+          <pubDate>Thu, 05 Nov 2020 00:00:00 -0600</pubDate>
+          <link>https://blog.elementary.io/dark-style-progress/</link>
+          <guid isPermaLink="true">https://blog.elementary.io/dark-style-progress/</guid>
+          
+              
+              
+          <enclosure url="https://blog.elementary.io" />
+          
+          
+          <category>dark-style</category>
+          
+          <category>odin</category>
+          
+          <category>ux</category>
+          
+          
+        </item>
+      
     
       
         <item>
@@ -1031,248 +1218,6 @@ The ToS will be revised and clarified in the future.&lt;/p&gt;
           
           
           <category>interview</category>
-          
-          
-        </item>
-      
-    
-      
-        <item>
-          <title>Now Shipping elementary OS</title>
-          <description>&lt;p&gt;Today, we’re pleased to announce that elementary OS 5.1 Hera is now available out of the box on over a dozen models from two retailers, with more in the works.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;p&gt;&lt;img src=&quot;/images/now-shipping-elementary-os/card@2x.png&quot; alt=&quot;Star LabTop laptop computer running elementary OS&quot; srcset=&quot;/images/now-shipping-elementary-os/card@2x.png 2x&quot; width=&quot;800&quot; height=&quot;450&quot; /&gt;&lt;/p&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Since our first release of elementary OS in 2011, folks have asked us how they can buy a computer running elementary OS out of the box. While installing an operating system may be common knowledge within Linux user groups and IT departments, it’s a huge hurdle for everyday users who just want a computer that works. We’ve also long been in discussions with OEMs about shipping elementary OS and how that relationship between users, the OEM, and elementary would look.&lt;/p&gt;
-
-&lt;h2 id=&quot;making-elementary-os-more-gettable&quot;&gt;Making elementary OS more “gettable”&lt;/h2&gt;
-
-&lt;p&gt;We’ve written before about ensuring elementary OS is “gettable.” A phrase lovingly borrowed from Canonical designer &lt;a href=&quot;https://twitter.com/mpt&quot;&gt;Matthew Paul Thomas (mpt)&lt;/a&gt;, it’s one of four things he says an OS needs to be in order to succeed. For more background on this, see this previous post:&lt;/p&gt;
-
-&lt;aside&gt;
-
-
-
-&lt;a class=&quot;featured with-image 1&quot; href=&quot;/appcenter-the-future-of-the-universe/&quot;&gt;
-  
-    &lt;div class=&quot;featured-image&quot; alt=&quot;Featured image&quot; style=&quot;background-image: url(https://cdn-images-1.medium.com/max/1600/1*yICO56gjmJFC-WDCALeGIw.png);&quot;&gt;&lt;/div&gt;
-  
-
-  &lt;header&gt;
-    &lt;h2&gt;
-
-
-
-   AppCenter &amp;amp; the Future of the&amp;nbsp;Universe
-
-&lt;/h2&gt;
-    
-      &lt;h3&gt;
-        
-
-
-
-   How elementary OS can “cross the&amp;nbsp;chasm”
-
-
-        
-      &lt;/h3&gt;
-    
-
-    
-
-
-
-&lt;div class=&quot;byline&quot;&gt;
-  &lt;div class=&quot;avatar&quot;&gt;
-    &lt;img srcset=&quot;https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&amp;amp;d=blank 2x&quot; src=&quot;https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&amp;amp;d=blank&quot; alt=&quot;Avatar for Daniel Foré&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;author&quot;&gt;
-    
-    &lt;span class=&quot;name&quot;&gt;Daniel Foré&lt;/span&gt;
-    
-    
-      &lt;span class=&quot;description&quot;&gt;Founder &amp;amp; CEO&lt;/span&gt;
-    
-  &lt;/div&gt;
-  &lt;time class=&quot;post-date&quot; datetime=&quot;2017-08-26&quot;&gt;Sat, Aug 26, 2017&lt;/time&gt;
-  
-    &lt;span class=&quot;read-time&quot; title=&quot;Estimated read time&quot;&gt;
-  
-  5 min read
-&lt;/span&gt;
-
-
-  
-&lt;/div&gt;
-
-
-  &lt;/header&gt;
-
-  
-&lt;/a&gt;
-
-
-&lt;/aside&gt;
-
-&lt;p&gt;We’ve long been working toward making elementary OS more “gettable,” identifying barriers like the installer experience. A couple years ago, we started work on a new installer with System76, and wrote about that:&lt;/p&gt;
-
-&lt;aside&gt;
-
-
-
-&lt;a class=&quot;featured with-image 1&quot; href=&quot;/meet-the-upcoming-installer/&quot;&gt;
-  
-    &lt;div class=&quot;featured-image&quot; alt=&quot;Featured image&quot; style=&quot;background-image: url(https://cdn-images-1.medium.com/max/1600/1*-qVavEAS1iwLuKPmRyrJAA.png);&quot;&gt;&lt;/div&gt;
-  
-
-  &lt;header&gt;
-    &lt;h2&gt;
-
-
-
-   Meet the Upcoming&amp;nbsp;Installer
-
-&lt;/h2&gt;
-    
-      &lt;h3&gt;
-        
-
-
-
-   Making elementary OS more&amp;nbsp;“gettable”
-
-
-        
-      &lt;/h3&gt;
-    
-
-    
-
-
-
-&lt;div class=&quot;byline&quot;&gt;
-  &lt;div class=&quot;avatar&quot;&gt;
-    &lt;img srcset=&quot;https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&amp;amp;d=blank 2x&quot; src=&quot;https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&amp;amp;d=blank&quot; alt=&quot;Avatar for Daniel Foré&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;author&quot;&gt;
-    
-    &lt;span class=&quot;name&quot;&gt;Daniel Foré&lt;/span&gt;
-    
-    
-      &lt;span class=&quot;description&quot;&gt;Founder &amp;amp; CEO&lt;/span&gt;
-    
-  &lt;/div&gt;
-  &lt;time class=&quot;post-date&quot; datetime=&quot;2018-02-23&quot;&gt;Fri, Feb 23, 2018&lt;/time&gt;
-  
-    &lt;span class=&quot;read-time&quot; title=&quot;Estimated read time&quot;&gt;
-  
-  7 min read
-&lt;/span&gt;
-
-
-  
-&lt;/div&gt;
-
-
-  &lt;/header&gt;
-
-  
-&lt;/a&gt;
-
-
-&lt;/aside&gt;
-
-&lt;p&gt;Ultimately, however, most folks out there use the OS that comes on their device. And when existing users of elementary OS are looking to get a new computer, they want to be sure elementary OS will work well on it. So we need to do one of two things:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Build our own devices, or&lt;/li&gt;
-  &lt;li&gt;Work with existing OEMs&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;While we would &lt;em&gt;love&lt;/em&gt; to design and build our own devices for elementary OS, we’re a &lt;a href=&quot;https://elementary.io/team&quot;&gt;small team&lt;/a&gt;, comprised largely of volunteers. Hardware is hard, margins are thin, and it takes a &lt;em&gt;ton&lt;/em&gt; of capital to start up. At this point, it makes more sense for us to focus on our relationships with existing OEMs, ensuring people can get elementary OS out of the box from a company that is experienced with selling and shipping devices.&lt;/p&gt;
-
-&lt;h2 id=&quot;oem-program-retailers--partners&quot;&gt;OEM Program: Retailers &amp;amp; Partners&lt;/h2&gt;
-
-&lt;p&gt;In that vein, we’ve restructured our OEM program to make it both easier to ship elementary OS and for those purchases to support the work we do. We now have two tiers for OEMs: Retailers and Partners. While all OEMs must comply with &lt;a href=&quot;https://elementary.io/brand&quot;&gt;our branding and trademarks&lt;/a&gt;, the other requirements and perks for the tiers differ.&lt;/p&gt;
-
-&lt;h3 id=&quot;retailers&quot;&gt;Retailers&lt;/h3&gt;
-
-&lt;p&gt;Retailers are companies that ship devices with elementary OS while complying with our trademarks. In return, we list a link to the retailer’s site or landing page in &lt;a href=&quot;https://elementary.io/store/#devices&quot;&gt;our store&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;While we don’t certify individual retailer models, we do ensure we have a relationship with the company, and we work with the company to determine an appropriate royalty, referral, or other way the OEM can contribute to elementary OS. This ensures we’re promoting companies that have signed on to directly support elementary in some measurable way.&lt;/p&gt;
-
-&lt;h3 id=&quot;partners&quot;&gt;Partners&lt;/h3&gt;
-
-&lt;p&gt;Partners are a higher tier that requires more involvement from both sides; in addition to selling devices with elementary OS and complying with our trademarks, partners must follow stricter software guidelines and receive per-model approval by elementary. In return, we feature the specific models in &lt;a href=&quot;https://elementary.io/store/#devices&quot;&gt;our store&lt;/a&gt; with higher prominence.&lt;/p&gt;
-
-&lt;p&gt;Partner devices require a negotiable per-device royalty. Thus, purchasing a partner device guarantees a portion of your purchase goes to elementary and helps ensure the long-term sustainability of elementary OS.&lt;/p&gt;
-
-&lt;h2 id=&quot;get-a-device&quot;&gt;Get a Device&lt;/h2&gt;
-
-&lt;p&gt;Head over to the &lt;a href=&quot;https://elementary.io/store/#devices&quot;&gt;elementary Store&lt;/a&gt; for our current retailers—and keep an eye out for additional retailers and partners in the coming months. Our first two retailers are Laptop With Linux and Star Labs:&lt;/p&gt;
-
-&lt;h3 id=&quot;laptop-with-linux&quot;&gt;Laptop With Linux&lt;/h3&gt;
-
-&lt;p&gt;Based in the Netherlands, &lt;a href=&quot;https://laptopwithlinux.com/?ref=36&amp;amp;utm_source=referral&amp;amp;utm_medium=elementary&amp;amp;utm_campaign=elementary&quot;&gt;Laptop With Linux&lt;/a&gt; offers several laptops and mini desktops optimized for elementary OS. Laptops range from thin-and-light notebooks with 14″ displays to workstations with 17.3″ displays.&lt;/p&gt;
-
-&lt;figure class=&quot;constrained&quot;&gt;
-  &lt;p&gt;&lt;img src=&quot;/images/now-shipping-elementary-os/laptop-with-linux.png&quot; alt=&quot;Laptop With Linux computer running elementary OS&quot; /&gt;&lt;/p&gt;
-  &lt;figcaption&gt;
-    &lt;p&gt;17.3″ model running elementary OS&lt;/p&gt;
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;div style=&quot;text-align: center;&quot;&gt;
-  &lt;p&gt;&lt;a href=&quot;https://laptopwithlinux.com/?ref=36&amp;amp;utm_source=referral&amp;amp;utm_medium=elementary&amp;amp;utm_campaign=elementary&quot; class=&quot;button&quot;&gt;Visit Laptop With Linux&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The switch to Linux can often be a very big one. Fortunately, elementary OS is one of the most visually attractive and user friendly Linux-based operating systems, and our customers often choose it when making the switch.&lt;/p&gt;
-
-  &lt;p&gt;Without projects such as elementary OS, the proportion of Linux users would never grow. We are therefore very excited to offer elementary OS on our laptops and mini computers, and give something back to elementary with every sale.&lt;/p&gt;
-
-  &lt;p&gt;&lt;span class=&quot;attribution&quot;&gt;Peter Pont, &lt;a href=&quot;https://laptopwithlinux.com/?ref=36&amp;amp;utm_source=referral&amp;amp;utm_medium=elementary&amp;amp;utm_campaign=elementary&quot;&gt;Laptop With Linux&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;star-labs&quot;&gt;Star Labs&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://starlabs.systems/?rfsn=4227837.e8f025&quot;&gt;Star Labs&lt;/a&gt; is based in the United Kingdom and offers a very small number of thin and light laptop models, designed to run elementary OS. Their laptops are on the smaller end, with 11″ to 13.3″ displays.&lt;/p&gt;
-
-&lt;figure class=&quot;constrained&quot;&gt;
-  &lt;p&gt;&lt;img src=&quot;/images/now-shipping-elementary-os/star-labs.png&quot; alt=&quot;Star LabTop laptop computer running elementary OS&quot; /&gt;&lt;/p&gt;
-  &lt;figcaption&gt;
-    &lt;p&gt;Star LabTop Mk IV running elementary OS&lt;/p&gt;
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;div style=&quot;text-align: center;&quot;&gt;
-  &lt;p&gt;&lt;a href=&quot;https://starlabs.systems/?rfsn=4227837.e8f025&quot; class=&quot;button&quot;&gt;Visit Star Labs&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;We are excited to team up with elementary with elementary OS now available on our laptops. With the OS being light, clean, and visually stunning, they break the boundaries for Linux going forward. The combination of elementary OS and the LabTop Mk IV creates the ultimate open source experience out of the box.&lt;/p&gt;
-
-  &lt;p&gt;&lt;span class=&quot;attribution&quot;&gt;Sean Rhodes, Technical Project Lead at &lt;a href=&quot;https://starlabs.systems/?rfsn=4227837.e8f025&quot;&gt;Star Labs&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;more-to-come&quot;&gt;More to Come&lt;/h3&gt;
-
-&lt;p&gt;We’re in talks with additional OEMs about potential retailer or partner relationships; stay tuned to the blog and &lt;a href=&quot;https://elementary.io/store/#devices&quot;&gt;our store&lt;/a&gt;. If you’re an OEM that would like to discuss becoming a retailer or partner, check out our &lt;a href=&quot;https://elementary.io/oem&quot;&gt;Information for OEMs&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-          <pubDate>Thu, 11 Jun 2020 00:00:00 -0500</pubDate>
-          <link>https://blog.elementary.io/now-shipping-elementary-os/</link>
-          <guid isPermaLink="true">https://blog.elementary.io/now-shipping-elementary-os/</guid>
-          
-              
-              
-          <enclosure url="https://blog.elementary.io" />
-          
-          
-          <category>devices</category>
           
           
         </item>
