@@ -1,6 +1,6 @@
 ---
 title: "Dark Style Progress for elementary OS 6"
-description: "Lights out. Guerrilla Radio. Turn that shit up."
+description: "The Dark Side of the Force is a pathway to many abilities some consider to be… unnatural"
 author: danrabbit
 image: /images/dark-style-progress-november-2020/card.png
 tags:
