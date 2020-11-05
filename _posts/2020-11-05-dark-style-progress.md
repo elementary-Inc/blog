@@ -22,7 +22,7 @@ elementary OS 6 introduces two major new ways to make the desktop feel more pers
 
 ## System Settings & Onboarding
 
-The last time we blogged about the dark style preference, we had a very minimal prototype that offered a simple toggle and an explanation that this setting would only affect the panel and "system components". Originally the plan was to only support the dark style the desktop shell in elementary OS 6 and not to support changing it for apps at all. This would only include the panel, the dock, notifications, the authentication agent, and the keyboard shortcut overlay.
+The last time we blogged about the dark style preference, we had a very minimal prototype that offered a simple toggle and an explanation that this setting would only affect the panel and "system components". Originally the plan was to only support the dark style in the desktop shell in elementary OS 6 and not to support changing it for apps at all. This would only include the panel, the dock, notifications, the authentication agent, and the keyboard shortcut overlay.
 
 <figure class="half" markdown="1">
   <img alt="Prototype “Prefer dark style” toggle" src="/images/the-need-for-a-freedesktop-dark-style-preference/switchboard@2x.png" width="800" height="595" />
@@ -54,7 +54,7 @@ We also now present the dark style and accent color choice when you first log in
 
 ## Challenges with Apps
 
-As we began to implement dark style support across all of the system components in our desktop, we started to feel confident about the idea of supporting it in apps too. We started small with simple apps like Calculator, but I'm happy to say that as of this time nearly all of the default apps in elementary OS follow the dark style. This isn't as easy as it sounds. As I pointed earlier, the dark style preference in elementary OS 6 is "opt-in", meaning that developers must explicitly choose to support it. This is important because of so many places where app styles break when developers aren't testing against the dark style. Consider for example, Calendar:
+As we began to implement dark style support across all of the system components in our desktop, we started to feel confident about the idea of supporting it in apps too. We started small with simple apps like Calculator, but I'm happy to say that as of this time nearly all of the default apps in elementary OS follow the dark style. This isn't as easy as it sounds. As I alluded to earlier, the dark style preference in elementary OS 6 is "opt-in", meaning that developers must explicitly choose to support it. This is important because of so many places where app styles break when developers aren't testing against the dark style. Consider for example, Calendar:
 
 <figure class="half" markdown="1">
   <img alt="Calendar in the dark style before fixes" src="/images/dark-style-progress-november-2020/calendar-before@2x.png" width="1024" height="750" />
@@ -73,7 +73,7 @@ This is a fairly common example of an app that had been developed against the li
   </figcaption>
 </figure>
 
-Also consider an app like Mail, which still does not support the dark style preference because of the nature of its content. It's unclear how Mail should handle displaying HTML emails which probably don't provide CSS that accounts for a dark style. There's still an open discussion about whether Mail should display HTML emails in a way that blindingly contrasts with its UI.
+Also consider an app like Mail, which still does not support the dark style preference because of the nature of its content. It's unclear how Mail should handle displaying HTML emails which probably don't provide CSS that accounts for a dark style. There's still an open discussion about whether Mail should display HTML emails in a way that may blindingly contrast with its UI.
 
 <figure class="half" markdown="1">
   <img alt="Terminal with user-determined style" src="/images/dark-style-progress-november-2020/terminal-dark@2x.png" width="932" height="672" />
@@ -83,7 +83,7 @@ Also consider an app like Mail, which still does not support the dark style pref
   </figcaption>
 </figure>
 
-Another case yet to be resolved is for apps like Code and Terminal which offer multiple style schemes. In these apps, the color scheme also affects the content and there are multiple possible choices for light color schemes. This complexity becomes compounded as soon as these apps support custom color schemes as well. For now, we're considering a simple switch to alternate between two pre-determined default styles with Terminal defaulting to "off" and Code defaulting to "on". This keeps with Terminal always using the dark style by default, but Code matching the behavior of other light-by-default apps.
+Another case yet to be resolved is for apps like Code and Terminal which offer multiple color schemes. In these apps, the color scheme also affects the content and there are multiple possible choices for light color schemes. This complexity becomes compounded as soon as these apps support custom color schemes as well. For now, we're considering a simple switch to alternate between two pre-determined default styles with Terminal defaulting to "off" and Code defaulting to "on". This keeps with Terminal always using the dark style by default, but Code matching the behavior of other light-by-default apps.
 
 <figure class="half" markdown="1">
   <img alt="Files in light style" src="/images/dark-style-progress-november-2020/files@2x.png" width="932" height="672" />
