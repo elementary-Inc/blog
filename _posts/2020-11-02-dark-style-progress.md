@@ -1,11 +1,17 @@
 ---
 title: "Dark style progress for elementary OS 6"
-description: ""
+description: "Lights out. Guerrilla Radio. Turn that shit up."
 author: danrabbit
 image: /images/dark-style-progress-november-2020/card.png
 tags:
+  - dark-style
   - odin
+  - ux
 ---
+
+<figure class="full-bleed" markdown="1">
+![Teaser](/images/dark-style-progress-november-2020/card.png)
+</figure>
 
 elementary OS 6 introduces two major new ways to make the desktop feel more personal: accent colors and dark style. The latter is something that's become especially ubiquitous recently on mobile operating systems and the web. Open Source desktops have also begun offering a system-wide dark mode, but typically with a major drawback that operates much differently from the mainstream platforms: it operates on an opt-out basis rather than opt-in. This is what sets the dark style preference in elementary OS 6 apart from the offerings in, for example, Ubuntu or Pop!_OS. You can read a lot more about motivations and research that went into that decision in Cassidy's previous blog post:
 
@@ -19,8 +25,8 @@ elementary OS 6 introduces two major new ways to make the desktop feel more pers
 The last time we blogged about the dark style preference, we had a very minimal prototype that offered a simple toggle and an explanation that this setting would only affect the panel and "system components". Originally the plan was to only support the dark style the desktop shell in elementary OS 6 and not to support changing it for apps at all. This would only include the panel, the dock, notifications, the authentication agent, and the keyboard shortcut overlay.
 
 <figure class="half" markdown="1">
-  ![](https://cdn-images-1.medium.com/max/1600/1*rHWJnz8Y2vucnXcsHx5ikQ@2x.png)
-  ![Prototype “Prefer dark style” toggle](https://cdn-images-1.medium.com/max/1600/1*NwP8sxbRTq7pzJLhDE2rnA@2x.png)
+  <img alt="Prototype “Prefer dark style” toggle" src="/images/the-need-for-a-freedesktop-dark-style-preference/switchboard@2x.png" width="800" height="595" />
+  <img alt="Prototype “Prefer dark style” toggle" src="/images/the-need-for-a-freedesktop-dark-style-preference/switchboard-dark@2x.png" width="800" height="595" />
   <figcaption markdown="1">
   Prototype “Prefer dark style” toggle
   </figcaption>
@@ -93,12 +99,16 @@ There are still other places in the UI where we support the dark style, but that
 
 ## Cross-platform & Flatpak Support
 
-Another area we're still working on is support across the FreeDesktop ecosystem and especially within Flatpak apps. At the moment, apps need to be able to access the system AccountsService to be able to read the elementary dark style preference. After discussion with app developers, this doesn't seem to be something that works for them and especially for Flatpak'd apps is a bit frowned upon. Two other approaches are either to expose the dark style preference via GSettings or via a DBus endpoint. GSettings is familiar and simple for developers writing apps for elementary OS or GNOME (among other desktops), but it seems the current consensus is that Flatpak'd apps should only be able to access their own GSettings schemas. This leads us to believe that exposing a DBus endpoint is probably the best option to encourage adoption by 3rd-party apps. So, in the near future, elementary settings daemon should handle that. We're looking forward to feedback from some GNOME app developers about the acceptability of the DBus solution. For app developers using Granite, we already provide a very simple `Granite.Settings` object that abstracts everything away and makes it as easy as connecting to a signal, the same way you would handle [`Gtk.Settings`](https://valadoc.org/gtk+-3.0/Gtk.Settings.html). We'll provide documentation for this, and more, when elementary OS 6 enters public beta.
+Another area we're still working on is support across the FreeDesktop ecosystem and especially within Flatpak apps. At the moment, apps need to be able to access the system AccountsService to be able to read the elementary dark style preference. After discussion with app developers, this doesn't seem to be something that works for them and especially for Flatpak'd apps is a bit frowned upon. 
+
+Two other approaches are either to expose the dark style preference via GSettings or via a DBus endpoint. GSettings is familiar and simple for developers writing apps for elementary OS or GNOME (among other desktops), but it seems the current consensus is that Flatpak'd apps should only be able to access their own GSettings schemas. This leads us to believe that exposing a DBus endpoint is probably the best option to encourage adoption by 3rd-party apps. So, in the near future, elementary settings daemon should handle that.
+
+We're looking forward to feedback from some GNOME app developers about the acceptability of the DBus solution. For app developers using Granite, we already provide a very simple `Granite.Settings` object that abstracts everything away and makes it as easy as connecting to a signal, the same way you would handle [`Gtk.Settings`](https://valadoc.org/gtk+-3.0/Gtk.Settings.html). We'll provide documentation for this, and more, when elementary OS 6 enters public beta.
 
 ## Get Early Access
 
 If you're excited by what you read here and want to get your hands on the developer preview of elementary OS 6, you can! GitHub sponsors at the $10/mo or above tier get access to our daily builds server where you can test the latest and greatest experimental builds, including builds for Pinebook Pro. Subscribing helps us fund the development of elementary OS and brings us that much closer to delivering the final product.
 
 <div style="text-align: center" markdown="1">
-[Get Early Access Builds][https://builds.elementary.io]{: .button}
+[Get Early Access Builds](https://builds.elementary.io){: .button}
 </div>
