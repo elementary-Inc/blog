@@ -1,5 +1,5 @@
 ---
-title: "Muli-touch Gestures in elementary OS 6"
+title: "Multi-touch Gestures in elementary OS 6"
 description: "Our swipiest operating system ever"
 author: danrabbit
 image: /images/multitouch-gestures-in-elementary-os-6/card.png
@@ -9,7 +9,7 @@ tags:
   - ux
 ---
 
-One of the most hotly requested features for years has been to have multi-touch gestures in elementary OS, and with 6.0 I'm excited to say that we will deliver. Like the dark style preference, delivering a great multi-touch experience is a little more complicated than it seems on the surface. There have been some 3rd party tools to detect touchpad gestures and then trigger actions after-the-fact, but it wasn't until recently that we've had the technical ability to provide smooth, responsive animations that track 1:1 with your finger movement across a touchpad or touch screen.
+One of the most hotly requested features for years has been to have multi-touch gestures in elementary OS, and with 6.0 I'm excited to say that we will deliver. Like the [dark style preference](/dark-style-progress/), delivering a great multi-touch experience is a little more complicated than it seems on the surface. There have been some 3rd party tools to detect touchpad gestures and then trigger actions after-the-fact, but it wasn't until recently that we've had the technical ability to provide smooth, responsive animations that track 1:1 with your finger movement across a touchpad or touch screen.
 
 ## Window Manager Gestures
 
