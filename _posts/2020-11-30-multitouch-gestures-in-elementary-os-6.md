@@ -13,7 +13,7 @@ One of the most hotly requested features for years has been to have multi-touch 
 
 ## Window Manager Gestures
 
-We've had the great pleasure of working with José Expósito, the author of Touchégg, on our window manager gestures. In elementary OS 6, we use Touchégg Daemon behind the scenes to capture input events and communicate them to Gala, our window manager. At the moment, we're reviewing two proposals: one for the multitasking view and another for switching workspaces directly. Both of these use 1:1 responsive, finger-tracking gestures that can peeked or canceled at any time. When special animations aren't available in the window manager, such as when tiling, we fall back to animations built in to Touchégg.
+We've had the great pleasure of working with José Expósito, the author of Touchégg, on our window manager gestures. In elementary OS 6, we use Touchégg Daemon behind the scenes to capture input events and communicate them to Gala, our window manager. At the moment, we're reviewing two proposals: one for the multitasking view and another for switching workspaces directly. Both of these use 1:1 responsive, finger-tracking gestures that can be peeked or canceled at any time. When special animations aren't available in the window manager, such as when tiling, we fall back to animations built in to Touchégg.
 
 We're still discussing exactly what the default configuration should be, but work is already underway on System Settings so that you can choose whichever gestures feel most comfortable for you—or choose none at all.
 
@@ -40,7 +40,7 @@ Some more complex navigation situations are in progress such as when navigating 
 
 We're also looking into other uses for gestures as popularized in mobile operating systems, such as swipe to dismiss. In elementary OS 6, you can now dismiss notification bubbles from the desktop with a swipe, and remove them from the notifications indicator by swiping in either direction as well. We haven't implemented swipe-to-dismiss in other types of lists yet, but we're open to suggestions! You can follow along with our progress and plans [On GitHub Here](https://github.com/orgs/elementary/projects/61), as well as file feature requests.
 
-A quick note about pinch-to-zoom and rotate, at the moment we don't yet have a way to implement these more complex gestures.
+A quick note about pinch-to-zoom and rotate, at the moment we don't yet have a way to implement these more complex gestures. We may have to wait until we can provide Gtk4 in a Flatpak or for elementary OS 7 before it becomes possible to provide gestures for transforms.
 
 Lastly, I just wanted to say thank you to [Alexander Mikhaylenko](https://twitter.com/alexm_gnome) for being available for questions and feature requests as we implement Handy in our apps. He's been an essential resource and very open to improving Handy for our use cases.
 
