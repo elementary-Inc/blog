@@ -43,6 +43,11 @@ In order to make gestures work globally, previous solutions have opted to emulat
 
 ### Paging
 
+<figure markdown="1">
+![AppCenter Screenshots](/images/{{ page.slug }}/appcenter.gif)
+<figcaption>Paging screenshots in AppCenter</figcaption>
+</figure>
+
 In elementary OS 5, we used Handy to add gestures for switching pages to the applications menu and during onboarding. So far, in elementary OS 6 this has been extended to the Date & Time indicator to switch months in the calendar view and to AppCenter to switch between screenshots. This makes use of the [Handy Carousel](https://valadoc.org/libhandy-1/Hdy.Carousel.html) widget which also provides a smooth transition between page indicator dots when needed. Our plan is to provide gestures any time pages are used and we're already tracking issues for Calendar and more.
 
 ### Navigation
