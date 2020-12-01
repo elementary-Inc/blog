@@ -49,6 +49,11 @@ In elementary OS 5, we used Handy to add gestures for switching pages to the app
 
 Another place we've implemented gestures is while navigating between panes or views. This is using the [Handy Deck](https://valadoc.org/libhandy-1/Hdy.Deck.html) widget which contains a concept of next and previous views and shows views in a neat stack. Swipe-to-go-back is now implemented in elementary OS 6 in Feedback, in the Installer and Initial Setup views for configuring locale variants, and in Systems Settings → Keyboard when adding new layouts. Gestures are also now available natively in WebkitGtk and therefore Epiphany also provides swipe navigation for both back and forward.
 
+<figure markdown="1">
+![Keyboard Layouts](/images/{{ page.slug }}/keyboard-layouts.gif)
+<figcaption>Navigating when adding keyboard layouts in System Settings → Keyboard</figcaption>
+</figure>
+
 Some more complex navigation situations are in progress such as when navigating between views in System Settings itself and in AppCenter. There are also open issues for navigating in Files and Photos, but development hasn't yet started there. Working with Handy Deck in these situations has exposed some inefficiencies in the way navigation was implemented previously so not only are we implementing a new feature, but the underlying code is being made more robust and optimized.
 
 ### Other
@@ -56,8 +61,8 @@ Some more complex navigation situations are in progress such as when navigating 
 We're also looking into other uses for gestures as popularized in mobile operating systems, such as swipe to dismiss. In elementary OS 6, you can now dismiss notification bubbles from the desktop with a swipe, and remove them from the notifications indicator by swiping in either direction as well. We haven't implemented swipe-to-dismiss in other types of lists yet, but we're open to suggestions! You can follow along with our [progress and plans on GitHub](https://github.com/orgs/elementary/projects/61), as well as file feature requests.
 
 <figure markdown="1">
-![Switching workspaces](/images/{{ page.slug }}/notification-center.gif)
-<figcaption>Notification bubbles being swiped away in the new Notification Center</figcaption>
+  <img alt="Notification Center" src="/images/{{ page.slug }}/notification-center.gif" width="399" height="672" />
+  <figcaption>Notification bubbles being swiped away in the new Notification Center</figcaption>
 </figure>
 
 A quick note about pinch-to-zoom and rotate, at the moment we don't yet have a way to implement these more complex gestures. We may have to wait until we can provide GTK4 in a Flatpak or for elementary OS 7 before it becomes possible to provide gestures for transforms.
