@@ -55,6 +55,11 @@ Some more complex navigation situations are in progress such as when navigating 
 
 We're also looking into other uses for gestures as popularized in mobile operating systems, such as swipe to dismiss. In elementary OS 6, you can now dismiss notification bubbles from the desktop with a swipe, and remove them from the notifications indicator by swiping in either direction as well. We haven't implemented swipe-to-dismiss in other types of lists yet, but we're open to suggestions! You can follow along with our [progress and plans on GitHub](https://github.com/orgs/elementary/projects/61), as well as file feature requests.
 
+<figure markdown="1">
+![Switching workspaces](/images/{{ page.slug }}/notification-center.gif)
+<figcaption>Notification bubbles being swiped away in the new Notification Center</figcaption>
+</figure>
+
 A quick note about pinch-to-zoom and rotate, at the moment we don't yet have a way to implement these more complex gestures. We may have to wait until we can provide GTK4 in a Flatpak or for elementary OS 7 before it becomes possible to provide gestures for transforms.
 
 Lastly, I just wanted to say thank you to [Alexander Mikhaylenko](https://twitter.com/alexm_gnome) for being available for questions and feature requests as we implement Handy in our apps. He's been an essential resource and very open to improving Handy for our use cases.
