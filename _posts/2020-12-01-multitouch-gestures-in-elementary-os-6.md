@@ -2,7 +2,7 @@
 title: "Multi-touch Gestures in elementary OS 6"
 description: "Our swipiest operating system ever"
 author: danrabbit
-image: /images/multitouch-gestures-in-elementary-os-6/card.png
+image: /images/multitouch-gestures-in-elementary-os-6/multitasking.png
 tags:
   - odin
   - touch
@@ -13,7 +13,19 @@ One of the most hotly requested features for years has been to have multi-touch 
 
 ## Window Manager Gestures
 
-We've had the great pleasure of working with [José Expósito][jose], the author of Touchégg, on our window manager gestures. In elementary OS 6, we use Touchégg Daemon behind the scenes to capture input events and communicate them to Gala, our window manager. At the moment, we're reviewing two proposals: one for the multitasking view and another for switching workspaces directly. Both of these use 1:1 responsive, finger-tracking gestures that can be peeked or canceled at any time. When special animations aren't available in the window manager, such as when tiling, we fall back to animations built in to Touchégg.
+We've had the great pleasure of working with [José Expósito][jose], the author of Touchégg, on our window manager gestures. In elementary OS 6, we use Touchégg Daemon behind the scenes to capture input events and communicate them to Gala, our window manager.
+
+<figure markdown="1">
+![Multitasking View](/images/{{ page.slug }}/multitasking.gif)
+<figcaption>1:1 multi-touch gestures used for Multitasking View</figcaption>
+</figure>
+
+At the moment, we're reviewing two proposals: one for the multitasking view and another for switching workspaces directly. Both of these use 1:1 responsive, finger-tracking gestures that can be peeked or canceled at any time. When special animations aren't available in the window manager, such as when tiling, we fall back to animations built in to Touchégg.
+
+<figure markdown="1">
+![Switching workspaces](/images/{{ page.slug }}/workspaces.gif)
+<figcaption>1:1 multi-touch gestures used for switching workspaces</figcaption>
+</figure>
 
 We're still discussing exactly what the default configuration should be, but work is already underway on System Settings so that you can choose whichever gestures feel most comfortable for you—or choose none at all.
 
