@@ -29,6 +29,11 @@ At the moment, we're reviewing two proposals: one for the multitasking view and 
 
 We're still discussing exactly what the default configuration should be, but work is already underway on System Settings so that you can choose whichever gestures feel most comfortable for you—or choose none at all.
 
+<figure markdown="1">
+  <img alt="Gesture Settings" src="/images/{{ page.slug }}/settings.png" width="990" height="686" />
+  <figcaption>Gesture configuration in System Settings → Mouse & Touchpad</figcaption>
+</figure>
+
 If you'd like to support José's work on multi-touch gestures for elementary OS 6—and other Linux-based operating systems—you can do so with as little as $2/mo on [GitHub Sponsors][jose].
 
 <div style="text-align: center" markdown="1">
