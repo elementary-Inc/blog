@@ -4,6 +4,7 @@ description: An experimental case of hardware enablement
 author: davidmhewitt
 image: /images/elementary-os-on-pinebook-pro/card.jpg
 tags:
+  - ARM
   - devices
   - odin
 ---
