@@ -1,13 +1,20 @@
 ---
 title: elementary OS on Raspberry Pi
 description: Continuing our experimental Early Access builds
+image: /images/elementary-os-on-raspberry-pi/desktop.jpg
 author: cassidyjames
 tags:
+  - ARM
   - devices
   - odin
 ---
 
 Following our [efforts to bring elementary OS to the ARM-based Pinebook Pro][pbp], we've added experimental builds for the ARM-based Raspberry Pi 4 series—including the recently-launched Raspberry Pi 400—to our [Early Access][builds] program. Like Pinebook Pro builds, Raspberry Pi support is considered an experiment and is not something we have committed to officially support indefinitely. However, if you're one of the many folks with a Raspberry Pi 4 sitting around and wanted to see how a full, modern desktop operating system runs, elementary OS is now an option!
+
+<figure markdown="1">
+![Raspberry Pi 4 running elementary OS]({{ page.image }})
+<figcaption>My current desktop, powered by a Raspberry Pi 4 running elementary OS</figcaption>
+</figure>
 
 Personally, I typically use Raspberry Pi 4 as a network device, e.g. a DNS server and for network-attached storage. However, I've been using elementary OS builds on it for the past week, and I'm impressed. While it won't compete experience-wise with a high end desktop, it is a real option for casual computing, development, and writing. In fact, this blog post was written entirely on my Raspberry Pi 4 running elementary OS. It would even be possible to run the same network services on the hardware from within elementary OS just so you get a nice modern GUI when doing any local management.
 
