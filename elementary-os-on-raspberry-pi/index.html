@@ -3,10 +3,10 @@
   <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Scratch is now elementary Code &sdot; elementary Blog</title>
-  <meta property="og:title" content="Scratch is now elementary Code" />
-  <meta itemprop="name" content="Scratch is now elementary Code" />
-  <meta name="twitter:title" content="Scratch is now elementary Code" />
+  <title>elementary OS on Raspberry Pi &sdot; elementary Blog</title>
+  <meta property="og:title" content="elementary OS on Raspberry Pi" />
+  <meta itemprop="name" content="elementary OS on Raspberry Pi" />
+  <meta name="twitter:title" content="elementary OS on Raspberry Pi" />
 
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -25,15 +25,15 @@
     
     
     <meta name="twitter:card" content="summary_large_image" />
-    <meta property="twitter:image" content="https://cdn-images-1.medium.com/max/600/1*JVvsDBXzN9Q7jhiGOD0B3A.png" />
+    <meta property="twitter:image" content="https://blog.elementary.io/images/elementary-os-on-raspberry-pi/desktop.jpg" />
   
   <meta name="twitter:site" content="@elementary" />
   <meta name="twitter:creator" content="@elementary" />
 
-  <meta name="description" content="More than a name change" />
-  <meta property="og:description" content="More than a name change" />
-  <meta itemprop="description" content="More than a name change" />
-  <meta name="twitter:description" content="More than a name change" />
+  <meta name="description" content="Continuing our experimental Early Access builds" />
+  <meta property="og:description" content="Continuing our experimental Early Access builds" />
+  <meta itemprop="description" content="Continuing our experimental Early Access builds" />
+  <meta name="twitter:description" content="Continuing our experimental Early Access builds" />
 
   <link rel="stylesheet" type="text/css" media="all" href="/css/main.css?v=2020-12-04 13:30:39 -0600" />
   
@@ -139,10 +139,6 @@
   
   
   
-    <aside class="outdated">
-      <strong>Note:</strong> this post was written over two years ago. The information below may be outdated.
-    </aside>
-  
 
 
 
@@ -153,7 +149,7 @@
 
 
 
-   Scratch is now elementary&nbsp;Code
+   elementary OS on Raspberry&nbsp;Pi
 
 </h1>
     
@@ -161,7 +157,7 @@
 
 
 
-   More than a name&nbsp;change
+   Continuing our experimental Early Access&nbsp;builds
 
 </h2>
     
@@ -188,11 +184,11 @@
       <span class="description">Co-founder & CXO</span>
     
   </div>
-  <time class="post-date" datetime="2018-01-02">Tue, Jan  2, 2018</time>
+  <time class="post-date" datetime="2020-12-04">Fri, Dec  4, 2020</time>
   
     <span class="read-time" title="Estimated read time">
   
-  3 min read
+  5 min read
 </span>
 
 
@@ -203,9 +199,11 @@
     <aside class="tags">
   
   
-    <a class="tag" href="/tags/#devs">#devs</a>
+    <a class="tag" href="/tags/#ARM">#ARM</a>
   
-    <a class="tag" href="/tags/#juno">#juno</a>
+    <a class="tag" href="/tags/#devices">#devices</a>
+  
+    <a class="tag" href="/tags/#odin">#odin</a>
   
 </aside>
 
@@ -213,38 +211,49 @@
   </header>
 
   <section>
-    <p>In 2011, elementary debuted our own “text editor.” We’ve shipped it in elementary OS ever since as Scratch, the default app for handling any plain text files, but it’s evolved into more than a simple notepad.</p>
+    <p>Following our <a href="/elementary-os-on-pinebook-pro">efforts to bring elementary OS to the ARM-based Pinebook Pro</a>, we’ve added experimental builds for the ARM-based Raspberry Pi 4 series—including the recently-launched Raspberry Pi 400—to our <a rel="nofollow noopener noreferrer" target="_blank" href="https://builds.elementary.io">Early Access</a> program. Like Pinebook Pro builds, Raspberry Pi support is considered an experiment and is not something we have committed to officially support indefinitely. However, if you’re one of the many folks with a Raspberry Pi 4 sitting around and wanted to see how a full, modern desktop operating system runs, elementary OS is now an option!</p>
 
-<h3 id="but-what-is-a-texteditor">…but what is a Text Editor?</h3>
-
-<p>We soon realized that the premise of a “text editor” is kind of silly; the fact that an app handles plain text files doesn’t inform <em>how</em> it’s used. Is it for note-taking? There are lots of features we could add for that (check lists, notebooks, highlighting, etc.). Is it a last-resort utility that nobody really means to open? We could strip it down to hardly anything if that’s the case.</p>
-
-<p>For Scratch, we always intended for it to be a <em>code</em> editor, not just a generic <em>text</em> editor. We’re not trying to build a note-taking app or stripped down utility. In fact, we use Scratch on elementary OS <em>to build elementary OS</em>.</p>
-
-<h3 id="focused-oncode">Focused on Code</h3>
-
-<p>By rebranding to Code, it lets us focus on what we intended from the start: building a great native code editor for developers on elementary OS. It also lets us reduce confusion between our app and the <a rel="nofollow noopener noreferrer" target="_blank" href="https://en.wikipedia.org/wiki/Scratch_%28programming_language%29">visual programming language</a> also known as Scratch. :)</p>
-
-<figure class="third">
-  <p><img src="https://cdn-images-1.medium.com/max/600/1*UYsmhLP8L6OHrLP55dBqNA.png" alt="" />
-<img src="https://cdn-images-1.medium.com/max/400/1*OA7Np5o_n3FymO9kd3doOw.png" alt="" />
-<img src="https://cdn-images-1.medium.com/max/600/1*JVvsDBXzN9Q7jhiGOD0B3A.png" alt="Old, generic, “text editor” Scratch icon versus the new, shiny, Code icon" /></p>
-  <figcaption>Old, generic, “text editor” Scratch icon versus the new, shiny, Code icon</figcaption>
+<figure>
+  <p><img src="/images/elementary-os-on-raspberry-pi/desktop.jpg" alt="Raspberry Pi 4 running elementary OS" /></p>
+  <figcaption>My current desktop, powered by a Raspberry Pi 4 running elementary OS</figcaption>
 </figure>
 
-<p>Code follows our <a rel="nofollow noopener noreferrer" target="_blank" href="https://medium.com/elementaryos/cleaning-up-app-codenames-ef9fc637ddef">revised naming scheme</a> of just naming apps what they are or what they get you to; Files, Music, Videos, Calendar, Mail, Photos, etc. Now with Code, there’s no question as to the app’s purpose or intent. If you need to disambiguate, you can call it “elementary Code.”</p>
+<p>Personally, I typically use Raspberry Pi 4 as a network device, e.g. a DNS server and for network-attached storage. However, I’ve been using elementary OS builds on it for the past week, and I’m impressed. While it won’t compete experience-wise with a high end desktop, it is a real option for casual computing, development, and writing. In fact, this blog post was written entirely on my Raspberry Pi 4 running elementary OS. It would even be possible to run the same network services on the hardware from within elementary OS just so you get a nice modern GUI when doing any local management.</p>
 
-<h4 id="updates">Updates</h4>
+<p>Like with <a href="/elementary-os-on-pinebook-pro">Pinebook Pro</a>, there are some things you should know if you plan to use elementary OS Early Access builds on Raspberry Pi:</p>
 
-<p>From here forward, we’ll be making more code-editing-centric decisions around project management, plugins enabled by default, etc. In fact, we’ve already started making a number of these decisions and cleaning up preferences that make little sense in the context of reading and writing code.</p>
+<h2 id="kernel">Kernel</h2>
 
-<p><img src="https://cdn-images-1.medium.com/max/1200/1*wF6RQzzo9iY5wwyafnsb_Q.png" alt="" /></p>
+<p>Since Ubuntu has released Raspberry Pi images, we are able to rely on that work to ship a supported and updated kernel. Thanks to all of the folks at Canonical and in the Ubuntu community who have worked to make that happen!</p>
 
-<p>We now enable the folder manager plugin (where you can load a project’s file tree into the sidebar) by default, there have been a number of improvements to the plugin like move to trash and rename, We also load the Symbols Outline plugin by default, we always display line numbers, the current line of code is highlighted by default, we have a new “draw spaces for highlighted text” option, tab width, highlighting, and cursor position information in shown in the HeaderBar, and more.</p>
+<h2 id="performance">Performance</h2>
 
-<h3 id="coming-tojuno">Coming to Juno</h3>
+<p>elementary OS on Raspberry Pi 4 is not going to match the polished experience of a full modern desktop computer, largely due to our current software stack. GTK3 does not offer GPU-accelerated animations, so animations within apps are less smooth than we would like. Still, for a computer coming in at under $100, it’s impressive and perfectly usable for several tasks.</p>
 
-<p>This is the first of many big changes coming to a new major release of elementary OS. Stay tuned for sneak previews and teasers as we work on the next big thing!</p>
+<p>There are also some things you can do to improve performance. We would definitely recommend using some sort of cooling with your Raspberry Pi, whether that’s a a heatsink and fan (like the recently-announced <a rel="nofollow noopener noreferrer" target="_blank" href="https://www.raspberrypi.org/blog/new-raspberry-pi-4-case-fan/">Raspberry Pi 4 Case Fan</a>), or a passive case like one from <a rel="nofollow noopener noreferrer" target="_blank" href="https://flirc.tv/">Flirc</a>—my favorite for its looks and silence. Since Raspberry Pi 4 tends to throttle due to heat under desktop loads, cooling will help it stay more responsive. We also recommend trying USB3 storage as your boot drive, as it should be faster than a microSD card. Using a 1080p (or lower) resolution also works a fair bit better than trying to push a 1440p or 4K display, but your mileage may vary based on your use case.</p>
+
+<h2 id="supported-raspberry-pi-models">Supported Raspberry Pi Models</h2>
+
+<p>We recommend Raspberry Pi 4 or Raspberry Pi 400 with 4 GB RAM at a minimum—but the more, the better. (We don’t even recommend less than 8 GB for computers with much faster CPUs, graphics, and storage.)</p>
+
+<p>Older models of Raspberry Pi (like the original, Raspberry Pi Zero, Raspberry Pi 2 series, and Raspberry Pi 3 series) are not supported; elementary OS requires the faster processor, additional RAM, and 64-bit architecture of the Raspberry Pi 4 series. For older models, we recommend sticking to Raspberry Pi OS or a “headless” OS like Ubuntu Server.</p>
+
+<h2 id="run-elementary-os-on-raspberry-pi">Run elementary OS on Raspberry Pi</h2>
+
+<p>In its current state, we would not consider elementary OS on Raspberry Pi as polished of an experience as running on well-supported AMD- or Intel-based hardware.</p>
+
+<p>That said, the audience for Raspberry Pi leans toward tinkerers and experimenters; as such, we’ve decided to publish our builds under our <a rel="nofollow noopener noreferrer" target="_blank" href="https://builds.elementary.io">Early Access builds</a> program. This means dedicated <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/sponsors/elementary">sponsors</a> of elementary OS who wish to run elementary OS on Raspberry Pi can download it from the same place as Early Access builds of elementary OS. As a note, all of this work has been focused on bringing the <strong>pre-release of elementary OS 6</strong> to Raspberry Pi, so all the usual disclaimers about pre-release builds apply here as well.</p>
+
+<div style="text-align: center;">
+  <p><a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/elementary/os/wiki/Raspberry-Pi" class="button">Raspberry Pi on the elementary OS Wiki</a></p>
+</div>
+
+<p>Once you have access to Early Access builds, head over to the <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/elementary/os/wiki/Raspberry-Pi">elementary OS wiki</a> to get it installed on your own hardware. If you find and file any issues, please remember to specify the build of the OS you downloaded as well as that you are running on Raspberry Pi—it will help us validate and triage issues much more quickly.</p>
+
+<h2 id="thanks-to-andrew-david-hewitt-and-marius-meisenzahl">Thanks to Andrew, David Hewitt, and Marius Meisenzahl</h2>
+
+<p>Bringing elementary OS to Raspberry Pi was a collaborative effort. <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/andrewc910">Andrew</a>, <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/davidmhewitt">David Hewitt</a>, and <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/meisenzahl">Marius Meisenzahl</a> specifically worked to prototype, improve, and ultimately ship these builds. And of course countless folks across the Raspberry Pi Foundation, Debian, Canonical, Ubuntu, and more have worked for years on making the underlying system work well for us to build on.</p>
+
 
   </section>
 
@@ -403,7 +412,7 @@
     
 
     <a
-      href="https://twitter.com/intent/tweet?text=Scratch is now elementary Code&url=https://blog.elementary.io/scratch-is-now-elementary-code/&via=elementary&original_referer=https://blog.elementary.io/scratch-is-now-elementary-code/"
+      href="https://twitter.com/intent/tweet?text=elementary OS on Raspberry Pi&url=https://blog.elementary.io/elementary-os-on-raspberry-pi/&via=elementary&original_referer=https://blog.elementary.io/elementary-os-on-raspberry-pi/"
       rel="noreferrer nofollow noopener"
       target="_blank"
       title="Twitter"
@@ -413,7 +422,7 @@
     </a>
 
     <a
-      href="http://www.reddit.com/submit?title=Scratch is now elementary Code&url=https://blog.elementary.io/scratch-is-now-elementary-code/"
+      href="http://www.reddit.com/submit?title=elementary OS on Raspberry Pi&url=https://blog.elementary.io/elementary-os-on-raspberry-pi/"
       rel="noreferrer nofollow noopener"
       target="_blank"
       title="Reddit"
@@ -423,7 +432,7 @@
     </a>
 
     <a
-      href="https://www.facebook.com/sharer/sharer.php?u=https://blog.elementary.io/scratch-is-now-elementary-code/"
+      href="https://www.facebook.com/sharer/sharer.php?u=https://blog.elementary.io/elementary-os-on-raspberry-pi/"
       rel="noreferrer nofollow noopener"
       target="_blank"
       title="Facebook"
@@ -433,7 +442,7 @@
     </a>
 
     <a
-      href="https://blog.elementary.io/scratch-is-now-elementary-code/"
+      href="https://blog.elementary.io/elementary-os-on-raspberry-pi/"
 
       title="Permalink"
       onclick="plausible('Share: Permalink')"
@@ -448,12 +457,14 @@
 <h2 class="up-next">Up Next</h2>
 
 
+
+
   
     
 
-<a class="featured with-image 1" href="/introducing-new-appcenter-categories/">
+<a class="featured with-image 1" href="/multitouch-gestures-in-elementary-os-6/">
   
-    <div class="featured-image" alt="Featured image" style="background-image: url(/images/introducing-new-appcenter-categories/1XU8e9StQRiWrwOw9S3UbCg@2x.png);"></div>
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/multitouch-gestures-in-elementary-os-6/multitasking.png);"></div>
   
 
   <header>
@@ -461,7 +472,7 @@
 
 
 
-   Introducing New AppCenter&nbsp;Categories
+   Multi-touch Gestures in elementary OS&nbsp;6
 
 </h2>
     
@@ -470,78 +481,7 @@
 
 
 
-   Better for both users and&nbsp;developers
-
-
-        
-      </h3>
-    
-
-    
-
-
-
-<div class="byline">
-  <div class="avatar">
-    <img
-      
-        srcset="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&d=blank 2x"
-        src="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&d=blank"
-        alt="Avatar for Cassidy James Blaede"
-      
-    />
-  </div>
-  <div class="author">
-    
-    <span class="name">Cassidy James Blaede</span>
-    
-    
-      <span class="description">Co-founder & CXO</span>
-    
-  </div>
-  <time class="post-date" datetime="2018-01-16">Tue, Jan 16, 2018</time>
-  
-    <span class="read-time" title="Estimated read time">
-  
-  4 min read
-</span>
-
-
-  
-</div>
-
-
-  </header>
-
-  
-</a>
-
-
-  
-
-
-
-  
-    
-
-<a class="featured 1" href="/our-2017-in-review/">
-  
-
-  <header>
-    <h2>
-
-
-
-   Our 2017 in&nbsp;Review
-
-</h2>
-    
-      <h3>
-        
-
-
-
-   Looking back on a year of active&nbsp;development
+   Our swipiest operating system&nbsp;ever
 
 
         
@@ -570,11 +510,11 @@
       <span class="description">Founder & CEO</span>
     
   </div>
-  <time class="post-date" datetime="2017-12-31">Sun, Dec 31, 2017</time>
+  <time class="post-date" datetime="2020-12-01">Tue, Dec  1, 2020</time>
   
     <span class="read-time" title="Estimated read time">
   
-  8 min read
+  5 min read
 </span>
 
 
@@ -584,11 +524,6 @@
 
   </header>
 
-  
-  <section class="excerpt">
-    <p>Every month this year, we’ve published a blog post outlining all of the updates that we’ve released during that month. We’ve made a strong effort to support Loki with regular bug fixes, new features, and other improvements. We’ve also made...</p>
-    <span>Read more…</span>
-  </section>
   
 </a>
 

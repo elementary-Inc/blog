@@ -5,9 +5,75 @@
     <description>We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS</description>
     <link>https://blog.elementary.io/</link>
     <atom:link href="https://blog.elementary.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 03 Dec 2020 18:21:21 -0600</pubDate>
-    <lastBuildDate>Thu, 03 Dec 2020 18:21:21 -0600</lastBuildDate>
+    <pubDate>Fri, 04 Dec 2020 13:30:39 -0600</pubDate>
+    <lastBuildDate>Fri, 04 Dec 2020 13:30:39 -0600</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      
+        <item>
+          <title>elementary OS on Raspberry Pi</title>
+          <description>&lt;p&gt;Following our &lt;a href=&quot;/elementary-os-on-pinebook-pro&quot;&gt;efforts to bring elementary OS to the ARM-based Pinebook Pro&lt;/a&gt;, we’ve added experimental builds for the ARM-based Raspberry Pi 4 series—including the recently-launched Raspberry Pi 400—to our &lt;a href=&quot;https://builds.elementary.io&quot;&gt;Early Access&lt;/a&gt; program. Like Pinebook Pro builds, Raspberry Pi support is considered an experiment and is not something we have committed to officially support indefinitely. However, if you’re one of the many folks with a Raspberry Pi 4 sitting around and wanted to see how a full, modern desktop operating system runs, elementary OS is now an option!&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/elementary-os-on-raspberry-pi/desktop.jpg&quot; alt=&quot;Raspberry Pi 4 running elementary OS&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;My current desktop, powered by a Raspberry Pi 4 running elementary OS&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Personally, I typically use Raspberry Pi 4 as a network device, e.g. a DNS server and for network-attached storage. However, I’ve been using elementary OS builds on it for the past week, and I’m impressed. While it won’t compete experience-wise with a high end desktop, it is a real option for casual computing, development, and writing. In fact, this blog post was written entirely on my Raspberry Pi 4 running elementary OS. It would even be possible to run the same network services on the hardware from within elementary OS just so you get a nice modern GUI when doing any local management.&lt;/p&gt;
+
+&lt;p&gt;Like with &lt;a href=&quot;/elementary-os-on-pinebook-pro&quot;&gt;Pinebook Pro&lt;/a&gt;, there are some things you should know if you plan to use elementary OS Early Access builds on Raspberry Pi:&lt;/p&gt;
+
+&lt;h2 id=&quot;kernel&quot;&gt;Kernel&lt;/h2&gt;
+
+&lt;p&gt;Since Ubuntu has released Raspberry Pi images, we are able to rely on that work to ship a supported and updated kernel. Thanks to all of the folks at Canonical and in the Ubuntu community who have worked to make that happen!&lt;/p&gt;
+
+&lt;h2 id=&quot;performance&quot;&gt;Performance&lt;/h2&gt;
+
+&lt;p&gt;elementary OS on Raspberry Pi 4 is not going to match the polished experience of a full modern desktop computer, largely due to our current software stack. GTK3 does not offer GPU-accelerated animations, so animations within apps are less smooth than we would like. Still, for a computer coming in at under $100, it’s impressive and perfectly usable for several tasks.&lt;/p&gt;
+
+&lt;p&gt;There are also some things you can do to improve performance. We would definitely recommend using some sort of cooling with your Raspberry Pi, whether that’s a a heatsink and fan (like the recently-announced &lt;a href=&quot;https://www.raspberrypi.org/blog/new-raspberry-pi-4-case-fan/&quot;&gt;Raspberry Pi 4 Case Fan&lt;/a&gt;), or a passive case like one from &lt;a href=&quot;https://flirc.tv/&quot;&gt;Flirc&lt;/a&gt;—my favorite for its looks and silence. Since Raspberry Pi 4 tends to throttle due to heat under desktop loads, cooling will help it stay more responsive. We also recommend trying USB3 storage as your boot drive, as it should be faster than a microSD card. Using a 1080p (or lower) resolution also works a fair bit better than trying to push a 1440p or 4K display, but your mileage may vary based on your use case.&lt;/p&gt;
+
+&lt;h2 id=&quot;supported-raspberry-pi-models&quot;&gt;Supported Raspberry Pi Models&lt;/h2&gt;
+
+&lt;p&gt;We recommend Raspberry Pi 4 or Raspberry Pi 400 with 4 GB RAM at a minimum—but the more, the better. (We don’t even recommend less than 8 GB for computers with much faster CPUs, graphics, and storage.)&lt;/p&gt;
+
+&lt;p&gt;Older models of Raspberry Pi (like the original, Raspberry Pi Zero, Raspberry Pi 2 series, and Raspberry Pi 3 series) are not supported; elementary OS requires the faster processor, additional RAM, and 64-bit architecture of the Raspberry Pi 4 series. For older models, we recommend sticking to Raspberry Pi OS or a “headless” OS like Ubuntu Server.&lt;/p&gt;
+
+&lt;h2 id=&quot;run-elementary-os-on-raspberry-pi&quot;&gt;Run elementary OS on Raspberry Pi&lt;/h2&gt;
+
+&lt;p&gt;In its current state, we would not consider elementary OS on Raspberry Pi as polished of an experience as running on well-supported AMD- or Intel-based hardware.&lt;/p&gt;
+
+&lt;p&gt;That said, the audience for Raspberry Pi leans toward tinkerers and experimenters; as such, we’ve decided to publish our builds under our &lt;a href=&quot;https://builds.elementary.io&quot;&gt;Early Access builds&lt;/a&gt; program. This means dedicated &lt;a href=&quot;https://github.com/sponsors/elementary&quot;&gt;sponsors&lt;/a&gt; of elementary OS who wish to run elementary OS on Raspberry Pi can download it from the same place as Early Access builds of elementary OS. As a note, all of this work has been focused on bringing the &lt;strong&gt;pre-release of elementary OS 6&lt;/strong&gt; to Raspberry Pi, so all the usual disclaimers about pre-release builds apply here as well.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;p&gt;&lt;a href=&quot;https://github.com/elementary/os/wiki/Raspberry-Pi&quot; class=&quot;button&quot;&gt;Raspberry Pi on the elementary OS Wiki&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Once you have access to Early Access builds, head over to the &lt;a href=&quot;https://github.com/elementary/os/wiki/Raspberry-Pi&quot;&gt;elementary OS wiki&lt;/a&gt; to get it installed on your own hardware. If you find and file any issues, please remember to specify the build of the OS you downloaded as well as that you are running on Raspberry Pi—it will help us validate and triage issues much more quickly.&lt;/p&gt;
+
+&lt;h2 id=&quot;thanks-to-andrew-david-hewitt-and-marius-meisenzahl&quot;&gt;Thanks to Andrew, David Hewitt, and Marius Meisenzahl&lt;/h2&gt;
+
+&lt;p&gt;Bringing elementary OS to Raspberry Pi was a collaborative effort. &lt;a href=&quot;https://github.com/andrewc910&quot;&gt;Andrew&lt;/a&gt;, &lt;a href=&quot;https://github.com/davidmhewitt&quot;&gt;David Hewitt&lt;/a&gt;, and &lt;a href=&quot;https://github.com/meisenzahl&quot;&gt;Marius Meisenzahl&lt;/a&gt; specifically worked to prototype, improve, and ultimately ship these builds. And of course countless folks across the Raspberry Pi Foundation, Debian, Canonical, Ubuntu, and more have worked for years on making the underlying system work well for us to build on.&lt;/p&gt;
+
+</description>
+          <pubDate>Fri, 04 Dec 2020 00:00:00 -0600</pubDate>
+          <link>https://blog.elementary.io/elementary-os-on-raspberry-pi/</link>
+          <guid isPermaLink="true">https://blog.elementary.io/elementary-os-on-raspberry-pi/</guid>
+          
+              
+              
+          <enclosure url="https://blog.elementary.io" />
+          
+          
+          <category>ARM</category>
+          
+          <category>devices</category>
+          
+          <category>odin</category>
+          
+          
+        </item>
+      
     
       
         <item>
@@ -724,6 +790,8 @@
           <enclosure url="https://blog.elementary.io" />
           
           
+          <category>ARM</category>
+          
           <category>devices</category>
           
           <category>odin</category>
@@ -1167,77 +1235,6 @@
           <category>hera</category>
           
           <category>devs</category>
-          
-          
-        </item>
-      
-    
-      
-        <item>
-          <title>Goodbye, Bountysource</title>
-          <description>&lt;p&gt;&lt;img src=&quot;/images/goodbye-bountysource-hello-github-sponsors/feature.png&quot; alt=&quot;Bountysource → GitHub Sponsors&quot; width=&quot;800&quot; height=&quot;450&quot; srcset=&quot;/images/goodbye-bountysource-hello-github-sponsors/feature@2x.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;If you have used &lt;a href=&quot;https://bountysource.com&quot;&gt;Bountysource&lt;/a&gt; in the past, you may have received an email announcing new terms of service that included a clause that would forfeit unclaimed bounties. On June 16, Bountysource sent this message:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;You are receiving this email because we are updating the Bountysource Terms of Service, effective 1st July 2020.&lt;/p&gt;
-
-  &lt;h4 id=&quot;whats-changing&quot;&gt;What’s changing?&lt;/h4&gt;
-  &lt;p&gt;We have added a Time-Out clause to the Bounties section of the agreement:&lt;/p&gt;
-
-  &lt;blockquote&gt;
-    &lt;p&gt;&lt;em&gt;2.13 Bounty Time-Out.&lt;/em&gt;&lt;/p&gt;
-
-    &lt;p&gt;&lt;em&gt;If no Solution is accepted within two years after a Bounty is posted, then the Bounty will be withdrawn and the amount posted for the Bounty will be retained by Bountysource. For Bounties posted before June 30, 2018, the Backer may redeploy their Bounty to a new Issue by contacting &lt;a href=&quot;mailto:support@bountysource.com&quot;&gt;support@&lt;wbr /&gt;bountysource.com&lt;/a&gt; before July 1, 2020. If the Backer does not redeploy their Bounty by the deadline, the Bounty will be withdrawn and the amount posted for the Bounty will be retained by Bountysource.&lt;/em&gt;&lt;/p&gt;
-  &lt;/blockquote&gt;
-
-  &lt;p&gt;…&lt;/p&gt;
-  &lt;h4 id=&quot;what-do-i-need-to-do&quot;&gt;What do I need to do?&lt;/h4&gt;
-  &lt;p&gt;If you agree to the new terms, you don’t have to do anything… Or, if you do not agree with the new terms, please discontinue using Bountysource.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;This gave open source projects and their bounty hunters just two weeks to act; oftentimes it would take &lt;em&gt;longer than that&lt;/em&gt; to even get a response from the support team. The controversial terms have since been withdrawn—at least for now. On June 17, Bountysource sent the following message (emphasis theirs):&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;You’re receiving this because we updated our Terms of Service.&lt;/p&gt;
-
-  &lt;h4 id=&quot;withdrawal-of-new-terms-of-service&quot;&gt;Withdrawal of new Terms of Service&lt;/h4&gt;
-  &lt;p&gt;Yesterday, we communicated a change to the Bountysource Terms of Service (ToS) agreement. &lt;br /&gt;
-&lt;strong&gt;These changes have been withdrawn and the ToS reverted to its prior state.&lt;/strong&gt;&lt;br /&gt;
-The ToS will be revised and clarified in the future.&lt;/p&gt;
-
-  &lt;p&gt;Thankyou&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;In December, 2017, &lt;a href=&quot;https://web.archive.org/web/20191008103840/https://blog.canya.com/2017/12/20/canya-acquires-majority-stake-in-bountysource-adds-over-46000-users/&quot;&gt;Bountysource was acquired&lt;/a&gt; by a cryptocurrency company called CanYa who redesigned the Bountysource site and service with a new cryptocoin focus. In addition to the general friction we’ve experienced with using the service since to get developers paid, we feel like this policy change–even withdrawn–is concerning. It calls into question the future of Bountysource as a platform and the stability of their business model. While we understand that operating a platform incurs costs, we want to make sure that funds are primarily going to developers, not being automatically scooped up by corporate stakeholders.&lt;/p&gt;
-
-&lt;p&gt;These events have led us to re-think our recommendation and use of Bountysource. As such, we’ve removed Bountysource from our website, removed any Bountysource integration with elementary repos on GitHub, withdrawn our funds, and closed our account. For backers and bounty hunters on Bountysource, your bounties on elementary projects will automatically be returned to you. You may also wish to withdraw any funds and close your account by emailing &lt;a href=&quot;mailto:support@bountysource.com&quot;&gt;support@&lt;wbr /&gt;bountysource.com&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-now-hello-github-sponsors&quot;&gt;What Now? Hello, GitHub Sponsors&lt;/h2&gt;
-
-&lt;p&gt;As an alternative, we recommend checking out &lt;a href=&quot;https://github.com/sponsors/elementary&quot;&gt;GitHub Sponsors&lt;/a&gt;. We recently launched a few tiers on Sponsors, and have been very pleased with it.&lt;/p&gt;
-
-&lt;p&gt;You can directly sponsor &lt;a href=&quot;https://github.com/sponsors/elementary&quot;&gt;organizations like elementary&lt;/a&gt;, as well as individual contributors. For elementary specifically, we have a new $50/month tier that offers the closest equivalent to a bug bounty program: each month, backers at this tier can comment on any elementary issue to get at least an hour of our investigation time. This is a great way to help steer development in the direction you see fit while also directly supporting us.&lt;/p&gt;
-
-&lt;div style=&quot;text-align: center;&quot;&gt;
-  &lt;p&gt;&lt;a href=&quot;https://github.com/sponsors/elementary&quot; class=&quot;button&quot;&gt;♡ Sponsor elementary&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;GitHub also covers payment processing and doesn’t charge any fees for GitHub Sponsors; this means &lt;strong&gt;100% of your sponsorship goes to elementary&lt;/strong&gt; to help fund our work.&lt;/p&gt;
-
-&lt;p&gt;If GitHub Sponsors isn’t your cup of tea, you can also check out the funding section on our &lt;a href=&quot;https://elementary.io/get-involved#funding&quot;&gt;Get Involved&lt;/a&gt; page to see other ways you can help support elementary OS.&lt;/p&gt;
-
-</description>
-          <pubDate>Wed, 24 Jun 2020 00:00:00 -0500</pubDate>
-          <link>https://blog.elementary.io/goodbye-bountysource-hello-github-sponsors/</link>
-          <guid isPermaLink="true">https://blog.elementary.io/goodbye-bountysource-hello-github-sponsors/</guid>
-          
-              
-              
-          <enclosure url="https://blog.elementary.io" />
-          
-          
-          <category>funding</category>
           
           
         </item>
