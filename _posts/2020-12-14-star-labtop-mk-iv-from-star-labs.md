@@ -12,7 +12,13 @@ This year we've been [working with retailers](/now-shipping-elementary-os) to en
 
 >Partners must follow stricter software guidelines and receive per-model approval by elementary. In return, we feature the specific models in our store with higher prominence… Purchasing a partner device guarantees a portion of your purchase goes to elementary and helps ensure the long-term sustainability of elementary OS.
 
-We're proud to announce our first partner device: **Star LabTop Mk IV** from Star Labs.
+We're proud to announce our first partner device: **Star LabTop Mk IV** from Star Labs, available today on the [elementary Store][store].
+
+<div style="text-align: center" markdown="1">
+[Shop the elementary Store][store]{: .button}
+</div>
+
+[store]: https://elementary.io/store
 
 <figure markdown="1">
 ![Star LabTop Mk IV]({{ page.image }})
@@ -20,7 +26,9 @@ We're proud to announce our first partner device: **Star LabTop Mk IV** from Sta
 
 Star LabTop Mk IV offers an incomparable laptop experience with elementary OS; every hardware decision has been reviewed by elementary to ensure the best possible experience. When purchased with elementary OS, you are getting the software straight from elementary, designed as intended.
 
-And the hardware is stunning. Carved from bead-blasted matte black anodized aluminum, Star LabTop Mk IV is the perfect combination of thin, light, and durable: just 0.58 inches (1.48 cm) thin, and only 2.4 pounds (1.1 kg). The 13.3-inch ARC display is a bright 1920×1080 IPS panel with hard, anti-reflective coating that offers the brightness and color vibrancy of a glossy display with the viewing angles and reduced glare of a matte display.
+## Hardware and Tech Specs
+
+The hardware is stunning. Carved from bead-blasted matte black anodized aluminum, Star LabTop Mk IV is the perfect combination of thin, light, and durable: just 0.58 inches (1.48 cm) thin, and only 2.4 pounds (1.1 kg). The 13.3-inch ARC display is a bright 1920×1080 IPS panel with hard, anti-reflective coating that offers the brightness and color vibrancy of a glossy display with the viewing angles and reduced glare of a matte display.
 
 The backlit keyboard is comfortably quiet and offers essential media keys across the top row, as well as often-used Home, End, Page Up, and Page Down keys along the right side. The specially-engineered multi-touch glass trackpad is silky smooth to the touch with unparalleled precision and accuracy in elementary OS for tracking, scrolling, and gesturing.
 
@@ -46,4 +54,4 @@ In the open source world we have a notion of "upstream" and "downstream"; it ref
 
 We're now seeing this upstream/downstream relationship with elementary OS and hardware manufacturers. Hardware companies shipping elementary OS are considered downstream from elementary; they take the OS we've made and ship it on their hardware, sometimes making small tweaks to the OS to best support that hardware. For example, Star Labs hardware supports firmware updates from the LVFS, so they ship both a Firmware update tool as well as a different boot screen that supports showing firmware update status. They also ship their installations with an OEM mode enabled to walk users through their initial setup.
 
-Rather than leaving those improvements downstream and only available to certain hardware, we've worked with Star Labs to begin upstreaming these improvements: in elementary OS 6 we'll be shipping a new boot screen that supports firmware updates, we'll make firmware updates available from within System Settings, and we've back-ported our Initial Setup experience to elementary OS 5 so Star Labs (and other OEMs) can take advantage of that directly.
+Rather than leaving those improvements downstream and only available to certain hardware, we've worked with Star Labs to begin upstreaming these improvements: in elementary OS 6 we'll be shipping a new boot screen that supports firmware updates, we'll make firmware updates available from within System Settings, and we've back-ported our Initial Setup experience to elementary OS 5 so Star Labs (and other OEMs) can take advantage of that today.
