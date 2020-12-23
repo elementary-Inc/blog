@@ -51,7 +51,7 @@ Under-the-hood, we ported more code from C to Vala to make it easier to read and
 ![onboarding-screenshot](/images/updates-for-july-2019/0qzyWf6x8Up4jaw1I.png){: width="560" height="506"}
 </figure>
 
-The [new Onboarding app]({{ site.baseurl }}{% post_url 2019-07-23-get-settled-into-elementary-os-with-onboarding %}) was released in July! It has not been included by default in the desktop session, so you probably haven't seen it if you're an existing user. Hold tight, it will be included by default in an upcoming update.
+The [new Onboarding app]({{ site.baseurl }}{% post_url 2019/2019-07-23-get-settled-into-elementary-os-with-onboarding %}) was released in July! It has not been included by default in the desktop session, so you probably haven't seen it if you're an existing user. Hold tight, it will be included by default in an upcoming update.
 
 ## Panel & Indicators
 

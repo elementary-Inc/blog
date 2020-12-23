@@ -51,7 +51,7 @@ We use a pay-what-you-want model because it makes it incredibly easy for those w
 <figcaption>AppCenter home page with new, trending, and recently updated apps</figcaption>
 </figure>
 
-In the previous version of elementary OS, we saw AppCenter go from zero curated apps at launch to over a hundred. Our indie developer ecosystem took off, and those developers have been thrilled with the experience of delivering their pay-what-you-want apps directly to users. However, as we [shared back in February]({{ site.baseurl }}{% post_url 2018-02-05-about-appcenter-payments %}), we do still have some work to make the ecosystem truly sustainable for our developers.
+In the previous version of elementary OS, we saw AppCenter go from zero curated apps at launch to over a hundred. Our indie developer ecosystem took off, and those developers have been thrilled with the experience of delivering their pay-what-you-want apps directly to users. However, as we [shared back in February]({{ site.baseurl }}{% post_url 2018/2018-02-05-about-appcenter-payments %}), we do still have some work to make the ecosystem truly sustainable for our developers.
 
 ---
 

@@ -11,7 +11,7 @@ tags:
   - evergreen
 ---
 
-> In the previous piece I wrote about elementary OS for [Creative Work]({{ site.baseurl }}{% post_url 2016-11-04-switching-from-macos-creative-work %}).
+> In the previous piece I wrote about elementary OS for [Creative Work]({{ site.baseurl }}{% post_url 2016/2016-11-04-switching-from-macos-creative-work %}).
 
 In the Apple world, you have one choice for hardware: whatever Apple makes. With elementary OS, your options are far more vast; you can get anything from a tiny thin low-power notebook to massive powerful workstation and use elementary OS.
 

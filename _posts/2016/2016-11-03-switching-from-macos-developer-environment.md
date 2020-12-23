@@ -9,7 +9,7 @@ tags:
   - evergreen
 ---
 
-> The previous piece covered [The Basics]({{ site.baseurl }}{% post_url 2016-11-02-switching-from-macos-the-basics %}).
+> The previous piece covered [The Basics]({{ site.baseurl }}{% post_url 2016/2016-11-02-switching-from-macos-the-basics %}).
 
 I am a professional web developer working on multiple continuously delivered node apps on GitHub, working alongside a professional back-end developer who manages servers and our Elixir API app (among several other projects), and a quickly growing marketing team with an amazing graphic designer/illustrator who designs everything you see on [System76.com](https://system76.com).
 
