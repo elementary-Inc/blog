@@ -1,9 +1,10 @@
-{% unless page.thanks %}
 <div class="thanks">
   <hr/>
 
-  <h2>Thank You</h2>
-  <p>Thanks to all of our supporters, backers, and customers! Your contributions make elementary possible. If you’d like to help build and improve elementary OS, don’t hesitate to <a href="https://elementary.io/get-involved" onclick="plausible('Link: Get Involved')">Get Involved</a>.</p>
+  {% unless page.thanks %}
+    <h2>Thank You</h2>
+    <p>Thanks to all of our supporters, backers, and customers! Your contributions make elementary possible. If you’d like to help build and improve elementary OS, don’t hesitate to <a href="https://elementary.io/get-involved" onclick="plausible('Link: Get Involved')">Get Involved</a>.</p>
+  {% endunless %}
 
   <div class="links">
     <a
@@ -67,7 +68,6 @@
     </a>
   </div>
 </div>
-{% endunless %}
 
 {% if page.sponsor.name %}
   <div class="sponsor">
