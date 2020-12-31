@@ -5,9 +5,11 @@
     <description>We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS</description>
     <link>https://blog.elementary.io/</link>
     <atom:link href="https://blog.elementary.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 30 Dec 2020 18:24:40 -0600</pubDate>
-    <lastBuildDate>Wed, 30 Dec 2020 18:24:40 -0600</lastBuildDate>
+    <pubDate>Thu, 31 Dec 2020 00:02:24 -0600</pubDate>
+    <lastBuildDate>Thu, 31 Dec 2020 00:02:24 -0600</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      
     
       
         <item>
@@ -802,7 +804,7 @@
     
       
         <item>
-          <title>Let's Talk elementary OS 6</title>
+          <title>Let’s Talk elementary OS 6</title>
           <description>&lt;figure class=&quot;constrained&quot;&gt;
   &lt;p&gt;&lt;img src=&quot;/images/updates-for-july-2020/card.png&quot; alt=&quot;Teaser&quot; width=&quot;1600&quot; height=&quot;900&quot; /&gt;&lt;/p&gt;
 &lt;/figure&gt;
@@ -1152,89 +1154,6 @@
           <category>web</category>
           
           <category>privacy</category>
-          
-          
-        </item>
-      
-    
-      
-        <item>
-          <title>Hera Updates for June, 2020</title>
-          <description>&lt;p&gt;June was a busy month for elementary; we &lt;a href=&quot;/now-shipping-elementary-os/&quot;&gt;started shipping elementary OS&lt;/a&gt; on retailer devices, said &lt;a href=&quot;/goodbye-bountysource-hello-github-sponsors/&quot;&gt;goodbye to Bountysource&lt;/a&gt;, started using &lt;a href=&quot;https://plausible.io/blog.elementary.io&quot;&gt;Plausible&lt;/a&gt; on the web (More about that later!), and of course, pushed out several updates to elementary OS. &lt;!-- As usual, these updates are available in a new OS 5.1.6 ISO at [elementary.io](https://elementary.io) --&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;code&quot;&gt;Code&lt;/h2&gt;
-
-&lt;figure&gt;
-  &lt;picture&gt;
-    &lt;source srcset=&quot;/images/hera-updates-for-june-2020/code-dark@2x.png&quot; media=&quot;(prefers-color-scheme: dark)&quot; /&gt;
-    &lt;img alt=&quot;Code&quot; src=&quot;/images/hera-updates-for-june-2020/code@2x.png&quot; width=&quot;1037&quot; height=&quot;711&quot; /&gt;
-  &lt;/picture&gt;
-&lt;figcaption&gt;The Outline/Symbols plugin in Code now shows a placeholder when empty&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;We now show a placeholder in the Outline/Symbols plugin when no symbols are found to prevent the sidebar jumping around when switching through different types of code files. We also addressed an issue where the folder sidebar layout could become squished and empty, ensuring that the “Open project folder…” button remains visible.&lt;/p&gt;
-
-&lt;p&gt;You can now scroll past the end of a file, making it easy to get a line of code exactly where you feel comfortable with it on screen. And we’ve optimized the way Code saves and loads its window size and position to reduce how often it accesses your disk.&lt;/p&gt;
-
-&lt;h2 id=&quot;appcenter&quot;&gt;AppCenter&lt;/h2&gt;
-
-&lt;p&gt;This month’s updates to AppCenter include a fix for Flatpak runtime updates that were hidden. This should resolve an issue where you whould receive an update notification only to find an empty updates view. We’ve also tracked down and resolved an issue that caused runaway CPU usage when a certain number of app screenshots were viewed. Both of these fixes come courtesy of David Hewitt, who you can &lt;a href=&quot;https://github.com/sponsors/davidmhewitt&quot;&gt;sponsor on GitHub here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;files&quot;&gt;Files&lt;/h2&gt;
-
-&lt;p&gt;A couple of regressions in Files’ pathbar behavior were resolved, namely when selecting breadcrumbs or activating their context menus. We’ve also resolved reported issues regarding files containing the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#&lt;/code&gt; character, and fixed an issue with windows resizing with long file names in the list view. Plus, the handy disk space indicator in the sidebar now changes to warning or error colors when the disk becomes too full.&lt;/p&gt;
-
-&lt;h2 id=&quot;videos&quot;&gt;Videos&lt;/h2&gt;
-
-&lt;p&gt;Videos should now start up much faster with a large video library, and we added more robust handling for missing or moved library folders. Plus, this release includes fixes for loading external subtitles.&lt;/p&gt;
-
-&lt;h2 id=&quot;and-more&quot;&gt;And More&lt;/h2&gt;
-
-&lt;p&gt;Thanks to new contributor &lt;a href=&quot;https://github.com/mcclurgm&quot;&gt;Michael McClurg&lt;/a&gt;, Calendar and the accompanying Date &amp;amp; Time indicator now report the correct time for events which were created in a different timezone. Now you won’t be confused about the start time of that meeting with colleagues in other countries!&lt;/p&gt;
-
-&lt;p&gt;Also, several system components received minor updates to ensure that sessions end quickly and safely when logging out and shutting down.&lt;/p&gt;
-
-&lt;h2 id=&quot;updates-for-developers&quot;&gt;Updates for Developers&lt;/h2&gt;
-
-&lt;p&gt;To smooth out the transition to elementary OS 6, we’ve released Granite 5.5.0 with a couple of a new things and a whole slew of deprecations! The new style constants &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Granite.STYLE_CLASS_COLOR_BUTTON&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Granite.STYLE_CLASS_ROUNDED&lt;/code&gt; will become more useful in 6.0’s fancy new stylesheet—there aren’t color button styles in 5.x’s stylesheet, but these style constants are now available if you’d like to make use of them. Additionally, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Granite.Widgets.SourceList&lt;/code&gt; now includes &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Gtk.STYLE_CLASS_SIDEBAR&lt;/code&gt; by default and we’ll likely deprecate &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Granite.STYLE_CLASS_SOURCE_LIST&lt;/code&gt; in a future release.&lt;/p&gt;
-
-&lt;p&gt;The more important change is the number of deprecations in this release. There are several utilities and widgets in Granite that are now much better handled by Gtk and GLib, and will likely be removed in Granite 6.0. Expect to see some new deprecation warnings in Terminal if you’re using any of the following:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Granite.Services.SimpleCommand&lt;/code&gt; is deprecated and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GLib.AppInfo.create_from_commandline&lt;/code&gt; should be used instead.&lt;/li&gt;
-  &lt;li&gt;Several theming utilites including &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Granite.Utils.set_theming&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Granite.Utils.get_css_provider&lt;/code&gt; are now deprecated and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Gtk.CssProvider&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Gtk.StyleContext&lt;/code&gt; should be used directly instead.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Granite.Services.Paths&lt;/code&gt; is deprecated and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GLib.Environment&lt;/code&gt; provides methods that should be used instead.&lt;/li&gt;
-  &lt;li&gt;Old, unused utilities like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Granite.Utils.get_button_layout_schema&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Granite.Utils.get_default_close_button_position&lt;/code&gt; are now deprecated with no recommended replacement. There should no longer be a need for these at all. This also applies to the widgets &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Granite.Widgets.CollapsiblePaned&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Granite.Widgets.CompositedWindow&lt;/code&gt; which are no longer necessary with modern Gtk3.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;get-it&quot;&gt;Get It&lt;/h2&gt;
-
-&lt;p&gt;As always, you can get these updates on elementary OS 5.1 Hera alongside updated translations, bug fixes, and performance improvements by opening AppCenter and hitting &lt;strong&gt;Update All&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;If you’re new to elementary OS or would just like a fresh install, these updates will be included in a new elementary OS 5.1.6 Hera download on &lt;a href=&quot;https://elementary.io&quot;&gt;our homepage&lt;/a&gt; soon.&lt;/p&gt;
-
-&lt;h2 id=&quot;a-quick-note-about-the-future&quot;&gt;A Quick Note About The Future&lt;/h2&gt;
-
-&lt;p&gt;As we head into the second half of the year, more and more development focus is being put into elementary OS 6. While we intend to continue releasing updates to Hera for the foreseeable future, we expect those updates to become more mundane and less noticeable. Several apps and components will likely no longer receive updates on elementary OS 5, including Terminal, Onboarding, parts of System Settings and more. This is because they’re already making use of new features only available in elementary OS 6. We’re excited to be working on a refreshed visual design including a dark style preference and custom accent colors—and taking advantage of the latest development libraries like Libhandy. But don’t worry! elementary OS 5 will continue to receive security and stability updates to its underlying libraries until April of 2028, courtesy of Canonical. Also, we’re almost ready to share a feature preview of elementary OS 6 for developers and enthusiasts, so stay tuned to our blog to hear more about what’s coming and how you can get involved.&lt;/p&gt;
-
-&lt;h2 id=&quot;and-updates-about-sponsors&quot;&gt;And Updates About Sponsors&lt;/h2&gt;
-
-&lt;p&gt;We’re super grateful and excited that we’ve reached over 50% of our first goal and over 100 sponsors on &lt;a href=&quot;https://github.com/sponsors/elementary/&quot;&gt;Github Sponsors&lt;/a&gt;! In case you’re unfamiliar we’re currently raising money there with the hope to create a regular, monthly contract for one of our longest contributors: &lt;a href=&quot;https://github.com/tintou&quot;&gt;Corentin Noël&lt;/a&gt;. Every contribution brings us closer to putting more development time into the fixes and features that you care about.&lt;/p&gt;
-</description>
-          <pubDate>Wed, 01 Jul 2020 00:00:00 -0500</pubDate>
-          <link>https://blog.elementary.io/updates-for-june-2020/</link>
-          <guid isPermaLink="true">https://blog.elementary.io/updates-for-june-2020/</guid>
-          
-              
-              
-          <enclosure url="https://blog.elementary.io" />
-          
-          
-          <category>updates</category>
-          
-          <category>hera</category>
-          
-          <category>devs</category>
           
           
         </item>
