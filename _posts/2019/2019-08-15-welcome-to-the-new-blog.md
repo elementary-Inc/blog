@@ -184,7 +184,7 @@ Over all, the design has been and will continue to be iterative. We may add or t
 
 ### Dark Style
 
-One exciting area we could experiment with was supporting a dark style preference on the blog from day one. As I've [written before]({ site.baseurl }{% post_url 2019-05-17-the-need-for-a-freedesktop-dark-style-preference %}), practically all major platforms and browsers are adopting a user-set dark style preference; we'd be remiss to not build a new site with that in mind.
+One exciting area we could experiment with was supporting a dark style preference on the blog from day one. As I've [written before]({ site.baseurl }{% post_url 2019/2019-05-17-the-need-for-a-freedesktop-dark-style-preference %}), practically all major platforms and browsers are adopting a user-set dark style preference; we'd be remiss to not build a new site with that in mind.
 
 <aside>
 {% assign post = site.posts | where:"slug", "the-need-for-a-freedesktop-dark-style-preference" | first %}

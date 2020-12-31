@@ -55,7 +55,7 @@ Lastly, don’t write “for elementary OS” in your app description! If you’
 
 ## Other FAQ
 
-We frequently get asked if developers can publish apps written in languages other than Vala or with a build system other than CMake. The answers is “yes”! All of our documentation is built around the “[one true development path]({{ site.baseurl }}{% post_url 2014-05-12-why-we-write-elementary-apps-in-vala %})” that elementary follows, but as long as your app is a native Gtk3 app with [Debian packaging](https://elementary.io/docs/code/getting-started#packaging), it should be publishable. Several apps published in AppCenter are already using the Meson build system, for example.
+We frequently get asked if developers can publish apps written in languages other than Vala or with a build system other than CMake. The answers is “yes”! All of our documentation is built around the “[one true development path]({{ site.baseurl }}{% post_url 2014/2014-05-12-why-we-write-elementary-apps-in-vala %})” that elementary follows, but as long as your app is a native Gtk3 app with [Debian packaging](https://elementary.io/docs/code/getting-started#packaging), it should be publishable. Several apps published in AppCenter are already using the Meson build system, for example.
 
 Another question we get asked is if developers can publish things that aren’t apps like extensions or libraries. In this case, the answer is “not yet”. We have plenty of new features planned for our automated testing system in the future that will allow for publishing different types of packages, but at the moment you can only publish apps in AppCenter Dashboard.
 

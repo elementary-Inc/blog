@@ -1,5 +1,5 @@
 ---
-title: "Let's Talk elementary OS 6"
+title: "Let’s Talk elementary OS 6"
 description: "Updates for July, plus early access to the next major version"
 author: cassidyjames
 image: /images/updates-for-july-2020/card.png

@@ -9,7 +9,7 @@ tags:
   - evergreen
 ---
 
-> In the previous piece I wrote about elementary OS as a [Developer Environment]({{ site.baseurl }}{% post_url 2016-11-03-switching-from-macos-developer-environment %}).
+> In the previous piece I wrote about elementary OS as a [Developer Environment]({{ site.baseurl }}{% post_url 2016/2016-11-03-switching-from-macos-developer-environment %}).
 
 Apple has historically targeted creatives with its “Pro” line, and many of you might be looking at elementary OS for your new daily setup. There are really two categories of people here: those who do new, original creative work, and those who are doing development but working alongside a designer.
 

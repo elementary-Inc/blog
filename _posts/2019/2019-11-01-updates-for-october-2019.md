@@ -131,7 +131,7 @@ As with each monthly update, you can also expect general bug fixes, performance 
 
 ## More Flatpak Details
 
-The response to Flatpak support in elementary OS has been overwhelmingly positive! We covered a lot of the details and frequently-asked questions back in April when we [first announced]({% post_url 2019-04-01-elementary-appcenter-flatpak %}) our Flatpak plans. Be sure to give that a read if you want to learn more or want to see our longer-term plans.
+The response to Flatpak support in elementary OS has been overwhelmingly positive! We covered a lot of the details and frequently-asked questions back in April when we [first announced]({% post_url 2019/2019-04-01-elementary-appcenter-flatpak %}) our Flatpak plans. Be sure to give that a read if you want to learn more or want to see our longer-term plans.
 
 <aside>
 {% assign post = site.posts | where:"slug", "elementary-appcenter-flatpak" | first %}

@@ -10,7 +10,7 @@ tags:
   - juno
 ---
 
-While we made a pretty [big announcement on April 1]({{ site.baseurl }}{% post_url 2019-04-01-elementary-appcenter-flatpak %}), March wasn’t without its own hard work. Cassidy attended the [Parental Controls & Metered Data hackfest]({{ site.baseurl }}{% post_url 2019-03-22-parental-controls-metered-data-hackfest %}), plus we pushed out several updates to elementary OS:
+While we made a pretty [big announcement on April 1]({{ site.baseurl }}{% post_url 2019/2019-04-01-elementary-appcenter-flatpak %}), March wasn’t without its own hard work. Cassidy attended the [Parental Controls & Metered Data hackfest]({{ site.baseurl }}{% post_url 2019/2019-03-22-parental-controls-metered-data-hackfest %}), plus we pushed out several updates to elementary OS:
 
 ## Code
 

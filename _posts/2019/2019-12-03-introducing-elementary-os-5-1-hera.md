@@ -117,7 +117,7 @@ Sideload explains the implications of installing an app including potential down
 
 #### AppCenter
 
-We've focused heavily on AppCenter for Hera—after all, it's [the center of our platform]({% post_url 2017-02-08-building-the-future-of-elementary-os %}). The headlining feature is Flatpak support: updates to sideloaded apps will appear in AppCenter alongside all other updates, and apps from any user-added Flatpak remotes will show up in AppCenter as uncurated apps. But we've also improved just about everything else.
+We've focused heavily on AppCenter for Hera—after all, it's [the center of our platform]({% post_url 2017/2017-02-08-building-the-future-of-elementary-os %}). The headlining feature is Flatpak support: updates to sideloaded apps will appear in AppCenter alongside all other updates, and apps from any user-added Flatpak remotes will show up in AppCenter as uncurated apps. But we've also improved just about everything else.
 
 First, AppCenter is up to 10× faster in Hera, loading the homepage and featured apps blazingly fast. We've also improved performance throughout the app and do more tasks in parallel, leading to lower memory usage and an all-around faster experience.
 
@@ -394,7 +394,7 @@ Contrast is further improved—especially for apps that utilize a dark style—a
 </figcaption>
 </figure>
 
-The system icons have also been refreshed throughout Hera. One noticable change is the wired network icon, which has been changed from an Ethernet-like symbol to a simpler symbol that has become convention across other platforms like Android, macOS, and Chrome OS. Read more about this change in the [July updates]({% post_url 2019-08-04-updates-for-july-2019 %}) post.
+The system icons have also been refreshed throughout Hera. One noticable change is the wired network icon, which has been changed from an Ethernet-like symbol to a simpler symbol that has become convention across other platforms like Android, macOS, and Chrome OS. Read more about this change in the [July updates]({% post_url 2019/2019-08-04-updates-for-july-2019 %}) post.
 
 We've also added icons for playlists, chat, caps lock, num lock, mail actions, SSDs, and headsets. We've refined and added several new sizes for icons for pixel-perfect hinting in more contexts—including the Onboarding experience. We also added symbolic versions of several icons including location services, laptops, and firmware. We've animated the microphone mute icon in the Panel, the mobile phone icons have been updated to better match modern phones, path and group icons (for drawing/design apps) have been redesigned, we've added a few mirrored icons for right-to-left languages, and we've made several icon families a bit more consistent.
 
@@ -427,13 +427,13 @@ The one exception is the LTS HWE stack; if you're on an existing Juno install an
 
 New users or those who prefer a fresh start can also [download elementary OS 5.1 Hera from elementary.io][elementary.io]. Even if you already have an older Juno ISO, we recommend downloading the latest Hera ISO if you're planning to perform a new install—you'll automatically get the latest hardware support from the start, the new onboarding experience, and reduce the number of updates necessary once it's installed.
 
-[accessibility]: {{ site.baseurl }}{% post_url 2019-02-16-accessibility-features-are-just-features %}
+[accessibility]: {{ site.baseurl }}{% post_url 2019/2019-02-16-accessibility-features-are-just-features %}
 [elementary.io]: https://elementary.io
-[feb]: {{ site.baseurl }}{% post_url 2019-03-02-juno-updates-for-february-2019 %}
-[june]: {{ site.baseurl }}{% post_url 2019-07-01-juno-updates-for-june-2019 %}
+[feb]: {{ site.baseurl }}{% post_url 2019/2019-03-02-juno-updates-for-february-2019 %}
+[june]: {{ site.baseurl }}{% post_url 2019/2019-07-01-juno-updates-for-june-2019 %}
 [juno]: https://medium.com/elementaryos/elementary-os-5-juno-is-here-471dfdedc7b3
 [oem-design]: https://github.com/elementary/installer/wiki#every-install-is-an-oem-install
-[onboarding]: {{ site.baseurl }}{% post_url 2019-07-23-get-settled-into-elementary-os-with-onboarding %}
+[onboarding]: {{ site.baseurl }}{% post_url 2019/2019-07-23-get-settled-into-elementary-os-with-onboarding %}
 [updates]: {{ site.baseurl }}/tags/#updates
-[greeter]: {{ site.baseurl }}{% post_url 2019-08-27-say-hello-to-the-new-greeter %}
-[flatpak]: {{ site.baseurl }}{% post_url 2019-04-01-elementary-appcenter-flatpak %}
+[greeter]: {{ site.baseurl }}{% post_url 2019/2019-08-27-say-hello-to-the-new-greeter %}
+[flatpak]: {{ site.baseurl }}{% post_url 2019/2019-04-01-elementary-appcenter-flatpak %}
