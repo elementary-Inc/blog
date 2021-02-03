@@ -2,6 +2,7 @@
 title: Hardware Enablement Brings New Features and Improvements to elementary OS
 description: Working with device makers is good for everyone, regardless of device
 author: cassidyjames
+image: /images/hardware-enablement-device-features/card.png
 tags:
   - devices
   - odin
@@ -32,7 +33,7 @@ We've been working on something even better out of the box: a minimalist, seamle
 </figcaption>
 </figure>
 
-The end result is that elementary OS 6 is an even more seamless experience from powering on your device through logging in, while also supporting features OEMs care about. For a fallback—e.g. on platforms that don't support boot logos, like Raspberry Pi or Pinebook Pro—we show the elementary "e" logomark, similar to today. This fallback feature was [contributed to Plymouth upstream](https://gitlab.freedesktop.org/plymouth/plymouth/-/merge_requests/125). This boot screen work was tackled largely by [Marius Meisenzahl][meisenzahl], so be sure to consider [sponsoring him][meisenzahl] for all his contributions.
+The end result is that elementary OS 6 is an even more seamless experience from powering on your device through logging in, while also supporting features OEMs care about. For a fallback—e.g. on platforms that don't support boot logos, like Raspberry Pi or Pinebook Pro—we show the elementary "e" logomark, similar to today. This fallback feature was [contributed to Plymouth upstream](https://gitlab.freedesktop.org/plymouth/plymouth/-/merge_requests/125). This boot screen work was tackled largely by [Marius Meisenzahl], so be sure to consider [sponsoring him on GitHub Sponsors][Marius Meisenzahl] for all his contributions.
 
 ## Installer & Initial Setup
 
@@ -106,5 +107,10 @@ Now all multi-touch-capable trackpads and touchscreens will benefit from this ge
 
 ## Performance
 
-[meisenzahl]: https://github.com/sponsors/meisenzahl
+Lastly, a significant amount of performance work has been going into elementary OS 6 thanks to our work on Pinebook Pro and Raspberry Pi builds; this class of hardware is lower-powered than our typical target hardware, so every little bit helps. We've largely been reducing and asynchronizing inter-process communication between desktop components, removing unused code, and reducing disk I/O—especially important on lower-clocked processors and slower storage mediums like SD cards.
+
+And of course, any performance improvements on the lower end also benefit higher-end devices as well. Most of this work has been handled by [David Hewitt]; you can [sponsor him on GitHub Sponsors][David Hewitt] to encourage him to keep it up!
+
+[Marius Meisenzahl]: https://github.com/sponsors/meisenzahl
 [installer]: /meet-the-upcoming-installer
+[David Hewitt]: https://github.com/sponsors/davidmhewitt
