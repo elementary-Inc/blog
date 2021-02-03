@@ -14,7 +14,7 @@ There's another angle, though, that we're starting to see come into play: when e
 
 ## Boot Experience
 
-We've been working on the first-run experience of elementary OS for a few years now, including a [new login and lock screen greeter](/say-hello-to-the-new-greeter), a [new "welcome" onboarding experience](/get-settled-into-elementary-os-with-onboarding), and the [new Installer][installer] coming with elementary OS 6. An area we've also been working on for elementary OS 6 is the boot screen itself; what you see while your device is turning on, but before the operating system is fully booted.
+We've been working on the first-run experience of elementary OS for a few years now, including a [new login and lock screen greeter](/say-hello-to-the-new-greeter), a [new "welcome" onboarding experience](/get-settled-into-elementary-os-with-onboarding), and the [new Installer][installer] coming with elementary OS 6. An area we've also been working on for elementary OS 6 is the boot screen itself: what you see while your device is turning on, but before the operating system is fully booted.
 
 Our approach to the new boot screen was informed heavily by our work with Star Labs; they ship elementary OS on their laptops, and several system components are updatable via the [Linux Vendor Firmware Service using fwupd](https://fwupd.org/). When installing a system firmware update via fwupd, part of the process requires a reboot so the update can happen "offline" (e.g. when the operating system itself is not fully running). This offline update can show feedback and progress on the boot screen, if the boot screen supports it. In elementary OS 5.1, that just gives you a slowly pulsing elementary "e" logomark, so Star Labs installs their own OEM boot screen—which works, and is the kind of work OEMs often do for better integration.
 
@@ -53,11 +53,11 @@ This last step is the key to the OEM-friendly approach; since the installer expl
 <figcaption>Initial Setup creates the first user account, regardless of how the OS was installed</figcaption>
 </figure>
 
-This Initial Setup flow means a system administrator or lower-volume OEM can manually step through the couple of steps to install the OS each time, and be confident that the user will unbox the device and be able to set it up as expected. It also means larger OEMs can create an installation image from this installed state and image it directly to their devices' storage without manual steps. It even means that builds for specific hardware—like the ARM-based Pinebook Pro and Raspberry Pi—have you flash an "installed" image onto the storage medium, and you get the exact same Initial Setup experience as any other installation.
+This Initial Setup flow means a system administrator or lower-volume OEM can manually step through the couple of steps to install the OS each time, and be confident that the user will unbox the device and be able to set it up as expected. It also means larger OEMs can create an installation image from this installed state and image it directly to their devices' storage without manual steps. It even means that builds for specific hardware—like the ARM-based Pinebook Pro and Raspberry Pi—have you flash an "installed" image onto the storage medium, and you get the exact same Initial Setup experience as any other installation. Regardless of how you get elementary OS, the Installation and Initial Setup process is always a tested, first-class experience.
 
 ## Firmware Updates & System Information
 
-As mentioned in the Boot Experience section, updatable firmware—specifically using LVFS and fwupd—is an emerging feature among our OEM retailers. In addition to the boot screen work here, we've been hard at work adding this capability right into System Settings. Much of this front-end work was again handled by [Marius Meisenzahl][meisenzahl], building on the excellent work of [Richard Hughes](https://blogs.gnome.org/hughsie/) and fwupd.
+As mentioned in the Boot Experience section, updatable firmware—specifically using LVFS and fwupd—is an emerging feature among our OEM retailers. In addition to the boot screen work here, we've been hard at work adding this capability right into System Settings. Much of this front-end work was again handled by [Marius Meisenzahl], building on the excellent work of [Richard Hughes](https://blogs.gnome.org/hughsie/) and fwupd.
 
 <figure class="half" markdown="1">
 ![Firmware updates](/images/{{ page.slug }}/system-firmware.png)
