@@ -2,7 +2,7 @@
 title: Hardware Improvements Coming to elementary OS
 description: Working with device makers shows how a rising tide lifts all boats
 author: cassidyjames
-image: /images/hardware-enablement-device-features/card.png
+image: /images/hardware-improvements-coming-to-elementary-os/card.png
 tags:
   - devices
   - odin
