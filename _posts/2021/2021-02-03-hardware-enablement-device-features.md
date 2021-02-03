@@ -1,6 +1,6 @@
 ---
-title: Hardware Enablement Brings New Features and Improvements to elementary OS
-description: Working with device makers is good for everyone, regardless of device
+title: Hardware Improvements Coming to elementary OS
+description: Working with device makers shows how a rising tide lifts all boats
 author: cassidyjames
 image: /images/hardware-enablement-device-features/card.png
 tags:
