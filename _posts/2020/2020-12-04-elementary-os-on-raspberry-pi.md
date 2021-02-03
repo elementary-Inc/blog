@@ -8,6 +8,8 @@ tags:
   - devices
   - odin
 
+mastodon: https://mastodon.social/@elementary/105323756503375482
+reddit: https://www.reddit.com/r/elementaryos/comments/k6s1sz/elementary_os_on_raspberry_pielementary_blog/
 twitter: https://twitter.com/elementary/status/1334954577909723136
 ---
 

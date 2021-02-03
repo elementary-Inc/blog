@@ -8,6 +8,8 @@ tags:
   - touch
   - ux
 
+mastodon: https://mastodon.social/@elementary/105307450969775384
+reddit: https://www.reddit.com/r/elementaryos/comments/k4whvv/multitouch_gestures_in_elementary_os_6elementary/
 twitter: https://twitter.com/elementary/status/1333911042808827909
 ---
 

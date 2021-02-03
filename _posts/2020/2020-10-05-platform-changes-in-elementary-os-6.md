@@ -6,6 +6,8 @@ image: /images/updates-for-july-2020/card.png
 tags:
   - odin
 
+mastodon: https://mastodon.social/@elementary/104984913842294972
+reddit: https://www.reddit.com/r/elementaryos/comments/j5uuej/platform_changes_in_elementary_os_6_elementary/
 twitter: https://twitter.com/elementary/status/1313264240648687618
 ---
 

@@ -6,6 +6,7 @@ image: /images/devices-slimbook/card.jpg
 tags:
   - devices
 
+mastodon: https://mastodon.social/@elementary/104920535657862083
 twitter: https://twitter.com/elementary/status/1309148299350470659
 ---
 

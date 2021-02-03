@@ -7,6 +7,8 @@ tags:
   - updates
   - odin
 
+mastodon: https://mastodon.social/@elementary/104650184883180100
+reddit: https://www.reddit.com/r/elementaryos/comments/i5mk54/lets_talk_elementary_os_6_elementary_blog/
 twitter: https://twitter.com/elementary/status/1291845759592271872
 ---
 
