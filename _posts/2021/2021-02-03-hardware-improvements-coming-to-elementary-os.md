@@ -67,7 +67,7 @@ Firmware updates in _System Settings_
 </figcaption>
 </figure>
 
-While we were working on enabling firmware updates, we redesigned the _System Settings_ → _System_ area with a new tabbed layout and refreshed typography. The Operating System tab shows off a dynamic OS logo using the user's accent color and the default release wallpaper, with a better layout for OS links and actions. The Hardware tab pulls information from the system hardware as well as `/etc/oem.conf`, enabling OEMs to provide a high-resolution logo or product image, model-specific branding, and a link for their own website. We also improved the detection and display of certain hardware, especially GPUs and ARM processors.
+While we were working on enabling firmware updates, we redesigned the _System Settings_ → _System_ area—formerly _System Settings_ → _About_—with a new tabbed layout and refreshed typography. The Operating System tab shows off a dynamic OS logo using the user's accent color and the default release wallpaper, with a better layout for OS links and actions. The Hardware tab pulls information from the system hardware as well as `/etc/oem.conf`, enabling OEMs to provide a high-resolution logo or product image, model-specific branding, and a link for their own website. We also improved the detection and display of certain hardware, especially GPUs and ARM processors.
 
 <figure class="half" markdown="1">
 ![OS info](/images/{{ page.slug }}/system-os.png){: width="856" height="556"}
