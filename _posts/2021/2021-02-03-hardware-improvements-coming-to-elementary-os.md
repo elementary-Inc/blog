@@ -39,6 +39,9 @@ The end result is that elementary OS 6 is an even more seamless experience from 
 
 The new installer for elementary OS 6 has been [in the works][installer] for quite some time. From the beginning, it was designed to handle very little: getting the OS onto your device. While designing and developing the installer, we realized how we could also cater to OEMs without needing an entirely separate OEM installation flow: _every_ install is treated like an OEM install.
 
+<aside markdown="1">
+>Every install is treated like an OEM install.
+</aside>
 We've worked with [System76](https://system76.com) to create this new installer, designing the front-end while building on their distinst back-end. Their perspective as an OEM helped inform some design decisions, as has working with our OEM retailers. The new installer essentially handles the following tasks:
 
 1. Select a language and keyboard layout to use in the installer
