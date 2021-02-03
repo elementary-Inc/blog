@@ -6,6 +6,8 @@ image: /images/revitalize-mac-windows-computer/feature_1600.jpg
 tags:
   - evergreen
   - meta
+
+twitter: https://twitter.com/elementary/status/1317197248997036034
 ---
 
 ![A computer running elementary OS]({{ page.image }}){: width="800" height="534"}

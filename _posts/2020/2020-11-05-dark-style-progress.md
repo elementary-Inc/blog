@@ -7,6 +7,8 @@ tags:
   - dark-style
   - odin
   - ux
+
+twitter: https://twitter.com/elementary/status/1324470374332063745
 ---
 
 <figure class="full-bleed" markdown="1">
@@ -99,7 +101,7 @@ There are still other places in the UI where we support the dark style, but that
 
 ## Cross-platform & Flatpak Support
 
-Another area we're still working on is support across the FreeDesktop ecosystem and especially within Flatpak apps. At the moment, apps need to be able to access the system AccountsService to be able to read the elementary dark style preference. After discussion with app developers, this doesn't seem to be something that works for them and especially for Flatpak'd apps is a bit frowned upon. 
+Another area we're still working on is support across the FreeDesktop ecosystem and especially within Flatpak apps. At the moment, apps need to be able to access the system AccountsService to be able to read the elementary dark style preference. After discussion with app developers, this doesn't seem to be something that works for them and especially for Flatpak'd apps is a bit frowned upon.
 
 Two other approaches are either to expose the dark style preference via GSettings or via a DBus endpoint. GSettings is familiar and simple for developers writing apps for elementary OS or GNOME (among other desktops), but it seems the current consensus is that Flatpak'd apps should only be able to access their own GSettings schemas. This leads us to believe that exposing a DBus endpoint is probably the best option to encourage adoption by 3rd-party apps. So, in the near future, elementary settings daemon should handle that.
 

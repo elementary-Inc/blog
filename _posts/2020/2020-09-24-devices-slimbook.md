@@ -5,6 +5,8 @@ author: cassidyjames
 image: /images/devices-slimbook/card.jpg
 tags:
   - devices
+
+twitter: https://twitter.com/elementary/status/1309148299350470659
 ---
 
 <figure markdown="1">

@@ -6,6 +6,8 @@ image: /images/updates-for-july-2020/card.png
 tags:
   - updates
   - odin
+
+twitter: https://twitter.com/elementary/status/1291845759592271872
 ---
 
 <figure class="constrained" markdown="1">

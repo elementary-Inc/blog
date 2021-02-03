@@ -7,6 +7,8 @@ tags:
   - ARM
   - devices
   - odin
+
+twitter: https://twitter.com/elementary/status/1299455887367712769?s=20
 ---
 
 In June, [PINE64](https://pine64.org) reached out to see if elementary would be interested in experimenting with elementary OS on [Pinebook Pro](https://www.pine64.org/pinebook-pro/). We'd been loosely following PINE64 and the progress of Pinebook Pro, but hadn't gotten our hands on one—so we expressed our interest. PINE64 was gracious enough to send a few devices out to members of our team, and our work began.
