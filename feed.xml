@@ -5,9 +5,140 @@
     <description>We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS</description>
     <link>https://blog.elementary.io/</link>
     <atom:link href="https://blog.elementary.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 03 Feb 2021 13:24:03 -0600</pubDate>
-    <lastBuildDate>Wed, 03 Feb 2021 13:24:03 -0600</lastBuildDate>
+    <pubDate>Wed, 03 Feb 2021 14:19:11 -0600</pubDate>
+    <lastBuildDate>Wed, 03 Feb 2021 14:19:11 -0600</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      
+        <item>
+          <title>Hardware Improvements Coming to elementary OS</title>
+          <description>&lt;p&gt;We’ve been on a bit of a device enablement kick lately: from &lt;a href=&quot;/elementary-os-on-pinebook-pro&quot;&gt;Pinebook Pro&lt;/a&gt; and &lt;a href=&quot;/elementary-os-on-raspberry-pi&quot;&gt;Raspberry Pi&lt;/a&gt; to &lt;a href=&quot;/devices-slimbook&quot;&gt;Slimbook&lt;/a&gt;, &lt;a href=&quot;/now-shipping-elementary-os#laptop-with-linux&quot;&gt;Laptop With Linux&lt;/a&gt;, and &lt;a href=&quot;/now-shipping-elementary-os#star-labs&quot;&gt;Star Labs&lt;/a&gt;, we’ve been working with specific devices and device makers more than ever. We covered these efforts—and why they’re so important—in &lt;a href=&quot;/our-2020-in-review#hardware&quot;&gt;our 2020 in review&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;There’s another angle, though, that we’re starting to see come into play: when elementary is more directly involved, the improvements made for these specific devices benefit &lt;em&gt;everyone&lt;/em&gt;—not just one specific device or OEM. Here are some areas in elementary OS that are seeing improvements directly due to recent hardware enablement efforts:&lt;/p&gt;
+
+&lt;h2 id=&quot;boot-experience&quot;&gt;Boot Experience&lt;/h2&gt;
+
+&lt;p&gt;We’ve been working on the first-run experience of elementary OS for a few years now, including a &lt;a href=&quot;/say-hello-to-the-new-greeter&quot;&gt;new login and lock screen greeter&lt;/a&gt;, a &lt;a href=&quot;/get-settled-into-elementary-os-with-onboarding&quot;&gt;new “welcome” onboarding experience&lt;/a&gt;, and the &lt;a href=&quot;/meet-the-upcoming-installer&quot;&gt;new Installer&lt;/a&gt; coming with elementary OS 6. An area we’ve also been working on for elementary OS 6 is the boot screen itself: what you see while your device is turning on, but before the operating system is fully booted.&lt;/p&gt;
+
+&lt;p&gt;Our approach to the new boot screen was informed heavily by our work with Star Labs; they ship elementary OS on their laptops, and several system components are updatable via the &lt;a href=&quot;https://fwupd.org/&quot;&gt;Linux Vendor Firmware Service using fwupd&lt;/a&gt;. When installing a system firmware update via fwupd, part of the process requires a reboot so the update can happen “offline” (e.g. when the operating system itself is not fully running). This offline update can show feedback and progress on the boot screen, if the boot screen supports it. In elementary OS 5.1, that just gives you a slowly pulsing elementary “e” logomark, so Star Labs installs their own OEM boot screen—which works, and is the kind of work OEMs often do for better integration.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/hardware-improvements-coming-to-elementary-os/boot-loading.jpg&quot; alt=&quot;Boot Screen: loading spinner&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;The elementary OS 6 boot screen on a Star LabTop Mk IV&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We’ve been working on something even better out of the box: a minimalist, seamless boot screen that also supports modern features like firmware updates and encrypted disk unlocking. This boot screen builds on the work of the &lt;a href=&quot;https://www.freedesktop.org/wiki/Software/Plymouth/&quot;&gt;FreeDesktop.org Plymouth project&lt;/a&gt;, delivering flicker-free boot on many systems. Our design approach was to let the OEM branding—if provided—shine while offering minimal supplemental information. If an OEM sets a boot logo in their system firmware, our boot screen will load that and display it. While the operating system is loading, we add a small, minimal spinner in the same style as loading spinners in elementary OS. If an encrypted disk needs to be unlocked, there’s a minimalist password entry provided. And finally, when installing firmware updates, we provide straightforward messaging using the same typography as in elementary OS 6.&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/hardware-improvements-coming-to-elementary-os/boot-password.jpg&quot; alt=&quot;Boot Screen: unlocking an encrypted drive&quot; /&gt;
+&lt;img src=&quot;/images/hardware-improvements-coming-to-elementary-os/boot-firmware.png&quot; alt=&quot;Boot Screen: installing firmware&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;&lt;strong&gt;Left:&lt;/strong&gt; Unlocking an encrypted drive | &lt;strong&gt;Right:&lt;/strong&gt; Installing a firmware update&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The end result is that elementary OS 6 is an even more seamless experience from powering on your device through logging in, while also supporting features OEMs care about. For a fallback—e.g. on platforms that don’t support boot logos, like Raspberry Pi or Pinebook Pro—we show the elementary “e” logomark, similar to today. This fallback feature was &lt;a href=&quot;https://gitlab.freedesktop.org/plymouth/plymouth/-/merge_requests/125&quot;&gt;contributed to Plymouth upstream&lt;/a&gt;. This boot screen work was tackled largely by &lt;a href=&quot;https://github.com/sponsors/meisenzahl&quot;&gt;Marius Meisenzahl&lt;/a&gt;, so be sure to consider &lt;a href=&quot;https://github.com/sponsors/meisenzahl&quot;&gt;sponsoring him on GitHub Sponsors&lt;/a&gt; for all his contributions.&lt;/p&gt;
+
+&lt;h2 id=&quot;installer--initial-setup&quot;&gt;Installer &amp;amp; Initial Setup&lt;/h2&gt;
+
+&lt;p&gt;The new installer for elementary OS 6 has been &lt;a href=&quot;/meet-the-upcoming-installer&quot;&gt;in the works&lt;/a&gt; for quite some time. From the beginning, it was designed to handle very little: getting the OS onto your device. While designing and developing the installer, we realized how we could also cater to OEMs without needing an entirely separate OEM installation flow: &lt;em&gt;every&lt;/em&gt; install is treated like an OEM install.&lt;/p&gt;
+
+&lt;aside&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;Every install is treated like an OEM install.&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/aside&gt;
+&lt;p&gt;We’ve worked with &lt;a href=&quot;https://system76.com&quot;&gt;System76&lt;/a&gt; to create this new installer, designing the front-end while building on their distinst back-end. Their perspective as an OEM helped inform some design decisions, as has working with our OEM retailers. The new installer essentially handles the following tasks:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Select a language and keyboard layout to use in the installer&lt;/li&gt;
+  &lt;li&gt;Choose to try a live “Demo Mode” or to install the OS&lt;/li&gt;
+  &lt;li&gt;Select a drive to install to&lt;/li&gt;
+  &lt;li&gt;Reboot to continue, or shut down to set up later&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This last step is the key to the OEM-friendly approach; since the installer explicitly does not handle creating or setting up a user account, the next step is identical whether you’re installing the OS for yourself, you’re installing the OS for a friend or family member, or an OEM has pre-installed the OS on a device: the end-user boots the device and is handed off to Initial Setup to create their account.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/hardware-improvements-coming-to-elementary-os/initial-setup.png&quot; alt=&quot;Initial Setup&quot; width=&quot;916&quot; height=&quot;666&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;Initial Setup creates the first user account, regardless of how the OS was installed&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;This Initial Setup flow means a system administrator or lower-volume OEM can manually step through the couple of steps to install the OS each time, and be confident that the user will unbox the device and be able to set it up as expected. It also means larger OEMs can create an installation image from this installed state and image it directly to their devices’ storage without manual steps. It even means that builds for specific hardware—like the ARM-based Pinebook Pro and Raspberry Pi—have you flash an “installed” image onto the storage medium, and you get the exact same Initial Setup experience as any other installation. Regardless of how you get elementary OS, the Installation and Initial Setup process is always a tested, first-class experience.&lt;/p&gt;
+
+&lt;h2 id=&quot;firmware-updates--system-information&quot;&gt;Firmware Updates &amp;amp; System Information&lt;/h2&gt;
+
+&lt;p&gt;As mentioned in the Boot Experience section, updatable firmware—specifically using LVFS and fwupd—is an emerging feature among our OEM retailers. In addition to the boot screen work here, we’ve been hard at work adding this capability right into System Settings. Much of this front-end work was again handled by &lt;a href=&quot;https://github.com/sponsors/meisenzahl&quot;&gt;Marius Meisenzahl&lt;/a&gt;, building on the excellent work of &lt;a href=&quot;https://blogs.gnome.org/hughsie/&quot;&gt;Richard Hughes&lt;/a&gt; and fwupd.&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/hardware-improvements-coming-to-elementary-os/system-firmware.png&quot; alt=&quot;Firmware updates&quot; /&gt;
+&lt;img src=&quot;/images/hardware-improvements-coming-to-elementary-os/system-firmware-details.png&quot; alt=&quot;Firmware update details&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;Firmware updates in &lt;em&gt;System Settings&lt;/em&gt;&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;While we were working on enabling firmware updates, we redesigned the &lt;em&gt;System Settings&lt;/em&gt; → &lt;em&gt;System&lt;/em&gt; area—formerly &lt;em&gt;System Settings&lt;/em&gt; → &lt;em&gt;About&lt;/em&gt;—with a new tabbed layout and refreshed typography. The Operating System tab shows off a dynamic OS logo using the user’s accent color and the default release wallpaper, with a better layout for OS links and actions. The Hardware tab pulls information from the system hardware as well as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/etc/oem.conf&lt;/code&gt;, enabling OEMs to provide a high-resolution logo or product image, model-specific branding, and a link for their own website. We also improved the detection and display of certain hardware, especially GPUs and ARM processors.&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/hardware-improvements-coming-to-elementary-os/system-os.png&quot; alt=&quot;OS info&quot; width=&quot;856&quot; height=&quot;556&quot; /&gt;
+&lt;img src=&quot;/images/hardware-improvements-coming-to-elementary-os/system-hardware.png&quot; alt=&quot;Hardware info&quot; width=&quot;856&quot; height=&quot;556&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;Newly-designed OS and hardware information in &lt;em&gt;System Settings&lt;/em&gt;&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;All of these improvements will be shipping to users of elementary OS 6. Firmware updates require the firmware be uploaded to the LVFS, but we’re seeing manufacturers large and small—from Star Labs and 8bitdo to Logitech, Dell, and Lenovo—adopt it, so there’s a good chance at least some of your hardware will be updatable in this way.&lt;/p&gt;
+
+&lt;h2 id=&quot;num-lock--caps-lock-indicators&quot;&gt;Num Lock &amp;amp; Caps Lock Indicators&lt;/h2&gt;
+
+&lt;p&gt;Some keyboards and devices don’t have built-in Num Lock or Caps Lock indicators—whether it’s a minimalist mechanical keyboard or a laptop. Star Labs laptops have this quirk, and so on GNOME-based OSes, they install an extension to add these indicators to the top panel. In parallel, we have received user requests to support such indicators in elementary OS for people who have this sort of hardware.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/hardware-improvements-coming-to-elementary-os/indicators.png&quot; alt=&quot;Keyboard indicator settings&quot; width=&quot;856&quot; height=&quot;556&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;Enable Num Lock and Caps Lock indicators in &lt;em&gt;System Settings&lt;/em&gt;&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We’ve now added this capability to the top panel in elementary OS 5.1 and newer, bringing it to OEMs like Star Labs as well as any end user who wants it; just head to &lt;em&gt;System Settings&lt;/em&gt; → &lt;em&gt;Keyboard&lt;/em&gt; → &lt;em&gt;Layout&lt;/em&gt; and turn on the “Show in Panel” switch for whichever indicator you’d like.&lt;/p&gt;
+
+&lt;h2 id=&quot;multi-touch-gestures&quot;&gt;Multi-touch Gestures&lt;/h2&gt;
+
+&lt;p&gt;We’ve written more extensively about &lt;a href=&quot;/multitouch-gestures-in-elementary-os-6&quot;&gt;our work with multi-touch gestures in elementary OS 6&lt;/a&gt;, but it is important to give some of the credit to our work with OEMs; some retailers like Slimbook currently include third-party software for trackpad gestures in their images of elementary OS 5.1, but it’s not as integrated as it could be. Our goal is for it to be built into the operating system and not require configuring anything out of the box—while also offering sensible preferences where users expect in &lt;em&gt;System Settings&lt;/em&gt; → &lt;em&gt;Mouse &amp;amp; Touchpad&lt;/em&gt; → &lt;em&gt;Gestures&lt;/em&gt;.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/hardware-improvements-coming-to-elementary-os/gestures.png&quot; alt=&quot;Gestures settings&quot; width=&quot;856&quot; height=&quot;556&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;Enable and configure multi-touch gestures in &lt;em&gt;System Settings&lt;/em&gt;&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Now all multi-touch-capable trackpads and touchscreens will benefit from this gesture work, instead of it being different depending on the OEM or requiring extra third-party tools.&lt;/p&gt;
+
+&lt;h2 id=&quot;performance&quot;&gt;Performance&lt;/h2&gt;
+
+&lt;p&gt;Lastly, a significant amount of performance work has been going into elementary OS 6 thanks to our work on Pinebook Pro and Raspberry Pi builds; this class of hardware is lower-powered than our typical target hardware, so every little bit helps. We’ve largely been reducing and asynchronizing inter-process communication between desktop components, removing unused code, and reducing disk I/O—especially important on lower-clocked processors and slower storage mediums like SD cards.&lt;/p&gt;
+
+&lt;p&gt;And of course, any performance improvements on the lower end also benefit higher-end devices as well. Most of this work has been handled by &lt;a href=&quot;https://github.com/sponsors/davidmhewitt&quot;&gt;David Hewitt&lt;/a&gt;; you can &lt;a href=&quot;https://github.com/sponsors/davidmhewitt&quot;&gt;sponsor him on GitHub Sponsors&lt;/a&gt; to encourage him to keep it up!&lt;/p&gt;
+
+</description>
+          <pubDate>Wed, 03 Feb 2021 00:00:00 -0600</pubDate>
+          <link>https://blog.elementary.io/hardware-improvements-coming-to-elementary-os/</link>
+          <guid isPermaLink="true">https://blog.elementary.io/hardware-improvements-coming-to-elementary-os/</guid>
+          
+              
+              
+          <enclosure url="https://blog.elementary.io" />
+          
+          
+          <category>devices</category>
+          
+          <category>odin</category>
+          
+          
+        </item>
+      
     
       
         <item>
@@ -1358,250 +1489,6 @@
           <category>updates</category>
           
           <category>odin</category>
-          
-          
-        </item>
-      
-    
-      
-        <item>
-          <title>Leaving Google Analytics is Finally Plausible</title>
-          <description>&lt;p&gt;We’ve always believed that our user experience doesn’t just begin when people use elementary OS; it begins from the first moment that someone interacts with our organization in any way. And for a lot of people, that experience starts with our website. You may already know about &lt;a href=&quot;/privacy-and-elementary-os&quot;&gt;our stance on privacy&lt;/a&gt;, advertising, and tracking from our previous blog posts, and that a core part of our business model is that &lt;a href=&quot;/you-are-not-the-product&quot;&gt;you are our customer, not a product&lt;/a&gt;.&lt;/p&gt;
-
-&lt;aside&gt;
-
-
-
-&lt;a class=&quot;featured with-image 1&quot; href=&quot;/you-are-not-the-product/&quot;&gt;
-  
-    &lt;div class=&quot;featured-image&quot; alt=&quot;Featured image&quot; style=&quot;background-image: url(https://cdn-images-1.medium.com/max/1600/1*cLwxBJhf6MKETmbqR6ilnw.jpeg);&quot;&gt;&lt;/div&gt;
-  
-
-  &lt;header&gt;
-    &lt;h2&gt;
-
-
-
-   You Are Not the&amp;nbsp;Product
-
-&lt;/h2&gt;
-    
-      &lt;h3&gt;
-        
-
-
-
-   A reminder about our stance on advertising and&amp;nbsp;tracking
-
-
-        
-      &lt;/h3&gt;
-    
-
-    
-
-
-
-&lt;div class=&quot;byline&quot;&gt;
-  &lt;div class=&quot;avatar&quot;&gt;
-    &lt;img srcset=&quot;https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&amp;amp;d=blank 2x&quot; src=&quot;https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&amp;amp;d=blank&quot; alt=&quot;Avatar for Daniel Foré&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;author&quot;&gt;
-    
-    &lt;span class=&quot;name&quot;&gt;Daniel Foré&lt;/span&gt;
-    
-    
-      &lt;span class=&quot;description&quot;&gt;Founder &amp;amp; CEO&lt;/span&gt;
-    
-  &lt;/div&gt;
-  &lt;time class=&quot;post-date&quot; datetime=&quot;2017-04-24&quot;&gt;Mon, Apr 24, 2017&lt;/time&gt;
-  
-    &lt;span class=&quot;read-time&quot; title=&quot;Estimated read time&quot;&gt;
-  
-  3 min read
-&lt;/span&gt;
-
-
-  
-&lt;/div&gt;
-
-
-  &lt;/header&gt;
-
-  
-&lt;/a&gt;
-
-
-&lt;/aside&gt;
-
-&lt;p&gt;You might also know that our website has a comprehensive &lt;a href=&quot;https://elementary.io/privacy&quot;&gt;privacy page&lt;/a&gt; that details not only exactly how we use things like cookies on our website, but how to disable them. And with such a strong stance on privacy, you might be asking yourself why elementary uses analytics at all, let alone Google Analytics. To that I am happy to respond that we are leaving Google Analytics behind in favor of the Open Source and privacy-respecting &lt;a href=&quot;https://plausible.io/&quot;&gt;Plausible&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-are-analytics&quot;&gt;What Are Analytics?&lt;/h2&gt;
-
-&lt;p&gt;If you’re not familiar with the concept, you may be surprised to know that the majority of the websites you regularly visit are collecting statistical data about your usage of the website. Website developers then use this data to optimize infrastructure, pinpoint problems, or even drive design decisions—something we don’t particularly advise.&lt;/p&gt;
-
-&lt;aside&gt;
-
-
-
-&lt;a class=&quot;featured with-image 1&quot; href=&quot;/privacy-and-elementary-os/&quot;&gt;
-  
-    &lt;div class=&quot;featured-image&quot; alt=&quot;Featured image&quot; style=&quot;background-image: url(https://cdn-images-1.medium.com/max/1600/1*A6acK8YdY-_VS414hveMlw.jpeg);&quot;&gt;&lt;/div&gt;
-  
-
-  &lt;header&gt;
-    &lt;h2&gt;
-
-
-
-   Privacy and elementary&amp;nbsp;OS
-
-&lt;/h2&gt;
-    
-      &lt;h3&gt;
-        
-
-
-
-   How we protect your data from ourselves and&amp;nbsp;others
-
-
-        
-      &lt;/h3&gt;
-    
-
-    
-
-
-
-&lt;div class=&quot;byline&quot;&gt;
-  &lt;div class=&quot;avatar&quot;&gt;
-    &lt;img srcset=&quot;https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&amp;amp;d=blank 2x&quot; src=&quot;https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&amp;amp;d=blank&quot; alt=&quot;Avatar for Cassidy James Blaede&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;author&quot;&gt;
-    
-    &lt;span class=&quot;name&quot;&gt;Cassidy James Blaede&lt;/span&gt;
-    
-    
-      &lt;span class=&quot;description&quot;&gt;Co-founder &amp;amp; CXO&lt;/span&gt;
-    
-  &lt;/div&gt;
-  &lt;time class=&quot;post-date&quot; datetime=&quot;2019-01-09&quot;&gt;Wed, Jan  9, 2019&lt;/time&gt;
-  
-    &lt;span class=&quot;read-time&quot; title=&quot;Estimated read time&quot;&gt;
-  
-  6 min read
-&lt;/span&gt;
-
-
-  
-&lt;/div&gt;
-
-
-  &lt;/header&gt;
-
-  
-&lt;/a&gt;
-
-
-&lt;/aside&gt;
-
-&lt;p&gt;At elementary, we use anonymous data about things like physical region and download method to make sure we have properly localized HTTPS and Torrent downloads so that you can get a fast and stable connection. We also check which pages are most—and least—visited on our website so we know where to focus improvements. And we pay attention to which operating system downloaders are coming from to make sure that we’re on track with our mission of bringing an Open Source operating system to more people.&lt;/p&gt;
-
-&lt;h3 id=&quot;why-not-google-analytics&quot;&gt;Why Not Google Analytics?&lt;/h3&gt;
-
-&lt;p&gt;Google Analytics lets us keep tabs on that data, but Google tracks &lt;em&gt;a whole lot more&lt;/em&gt; than that, too. Frankly we don’t want access to that data—or to contribute towards it being collected. Remember, Google’s incentive is to collect as much information as possible from people visiting as many sites as possible—and using Google Analytics directly helps them do that.&lt;/p&gt;
-
-&lt;aside&gt;
-  &lt;blockquote&gt;
-    &lt;p&gt;Google’s incentive is to collect as much information as possible from people visiting as many sites as possible—and using Google Analytics directly helps them do that.&lt;/p&gt;
-  &lt;/blockquote&gt;
-&lt;/aside&gt;
-
-&lt;p&gt;If you don’t know, Google happily tracks you across all the websites you visit if those sites use Google Analytics, or if you use Google search. Google then infers and remembers all sorts of information about you; for example: your age range, an inferred gender, if you’ve changed jobs or moved recently, and whether you like to spend time outdoors. Google then uses all of this data to target ads to you, in the hopes that more precise ads will get you to bite, thus earning them their commission.&lt;/p&gt;
-
-&lt;p&gt;They then offer those profiles up inside of Google Analytics, letting website owners drill down using “In-Market Segments.” The entire mechanism is invasive—and unnecessary for us. And even though we may choose to ignore these profiles and data, by using Google Analytics on our website, we’ve contributed to creating them. This data collection and surveillance does not align with our values, and we’ve been investigating how we can move away for quite some time now.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-challenge&quot;&gt;The Challenge&lt;/h2&gt;
-
-&lt;p&gt;Google Analytics is by far the most popular analytics solution available and there are few privacy-respecting alternatives. We considered a few self-hosted products like &lt;a href=&quot;https://matomo.org/&quot;&gt;Matomo&lt;/a&gt;, but we couldn’t find a good fit in terms of maintenance, pricing, and features. We also investigated using self-described privacy-focused &lt;a href=&quot;https://usefathom.com/&quot;&gt;Fathom&lt;/a&gt;, but were disappointed to learn that they had gone closed-source since we’d last looked at them. The situation changed once we stumbled upon Plausible.&lt;/p&gt;
-
-&lt;p&gt;Plausible is a small UK-based company that provides a hosted, privacy-conscious analytics solution with simple and fair pricing—plus support for custom events. The product itself fits what we’re looking for in an analytics solution, and it’s encouraging to see that they are actively growing and developing new features. But what really got our attention is their messaging around their business model. Read &lt;a href=&quot;https://plausible.io/blog/open-source-funding&quot;&gt;their blog post on monetizing&lt;/a&gt; and see if it sounds familiar.&lt;/p&gt;
-
-&lt;div class=&quot;twitter-card&quot;&gt;
-  &lt;header&gt;
-    &lt;a class=&quot;account&quot; href=&quot;https://twitter.com/PlausibleHQ&quot;&gt;
-      &lt;img class=&quot;avatar&quot; src=&quot;/images/leaving-google-analytics-is-finally-plausible/twitter-avatar.png&quot; /&gt;
-      &lt;strong&gt;Plausible Analytics&lt;/strong&gt;
-      &lt;p&gt;@PlausibleHQ&lt;/p&gt;
-    &lt;/a&gt;
-    &lt;a href=&quot;https://twitter.com/PlausibleHQ/status/1282678251148763137&quot;&gt;
-      &lt;img class=&quot;logo&quot; src=&quot;/images/twitter.svg&quot; /&gt;
-    &lt;/a&gt;
-  &lt;/header&gt;
-
-  &lt;p&gt;A day in the life of a startup...&lt;br /&gt;&lt;br /&gt;
-    &quot;Wanted to quickly reach out and see if you'd be interested in raising
-    funds or taking investment&quot;&lt;br /&gt;&lt;br /&gt;
-    No.&lt;br /&gt;&lt;br /&gt;
-    &quot;Any interest in talking about an exit?&quot;&lt;br /&gt;&lt;br /&gt;
-    No.&lt;/p&gt;
-
-  &lt;footer&gt;
-    &lt;a href=&quot;https://twitter.com/PlausibleHQ/status/1282678251148763137&quot;&gt;
-      &lt;span&gt;View on Twitter →&lt;/span&gt;
-      &lt;time datetime=&quot;2020-07-13&quot;&gt;Jul 13, 2020&lt;/time&gt;
-    &lt;/a&gt;
-  &lt;/footer&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Unlike Google, Plausible isn’t in the advertising game and doesn’t have an incentive to collect and sell user data. And they’ve made it clear that they’re not interested in being scooped up by VCs or new ownership that might seek to change those values. They make money the same way elementary does: by directly charging customers for their product. We know firsthand how important it is to make sure that your business is built around your ethics, and we get the same feeling from the folks at Plausible. We’re excited to be supporting a company that shares our values and respects the people visiting our website.&lt;/p&gt;
-
-&lt;h2 id=&quot;our-review-of-plausible-analytics-so-far&quot;&gt;Our Review of Plausible Analytics (So Far)&lt;/h2&gt;
-
-&lt;p&gt;We used Plausible in parallel with Google Analytics for a month to see how they compared, and we were thrilled with the results. We were able to largely recreate the aggregate data we’re interested in using Plausible’s goals feature—namely: what version of the OS is being downloaded, what OSes downloads are coming from, and how many downloaders paid versus bypassed the payment. At the same time, much less data is even processed; for example, we completely stopped getting any sort of demographic data from the Google advertising network. The Plausible dashboard is also &lt;em&gt;far&lt;/em&gt; easier to use and understand at a glance; instead of a massive web app offering near-infinte sub-sections and complex filters, Plausible offers up a simple one-page dashboard with all the key data you need.&lt;/p&gt;
-
-&lt;p&gt;This may not be an expansive review, but over all we’re very happy with Plausible Analytics. They’ve enabled us to get rid of Google Analytics while still keeping tabs on important product-related data. And most importantly, we are able to do so in a way that is much more transparent and trustworthy.&lt;/p&gt;
-
-&lt;h2 id=&quot;improving-transparency&quot;&gt;Improving Transparency&lt;/h2&gt;
-
-&lt;p&gt;One of the most interesting and unique features of Plausible is their open invitation and celebration of data transparency. First, their entire product is open source; when it comes to privacy, the source code being open and auditable by anyone—experts and end users alike—is paramount. But they go above and beyond that: every user of Plausible is able and encouraged to make their analytics dashboard public so everyone can see the data for themselves and know that nothing fishy is going on.&lt;/p&gt;
-
-&lt;aside&gt;
-  &lt;blockquote&gt;
-    &lt;p&gt;Every user of Plausible is able and encouraged to make their analytics dashboard public so everyone can see the data for themselves.&lt;/p&gt;
-  &lt;/blockquote&gt;
-&lt;/aside&gt;
-
-&lt;p&gt;We’ve embraced this new feature at elementary and opened up the dashboards for our various subdomains as well as our main website. Check them out yourself!&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://plausible.io/elementary.io&quot;&gt;Main Website&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://plausible.io/blog.elementary.io&quot;&gt;Blog&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://plausible.io/developer.elementary.io&quot;&gt;Developer Portal&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://plausible.io/appcenter.elementary.io&quot;&gt;AppCenter on the Web&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://plausible.io/releases.elementary.io&quot;&gt;Release Tracking&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://plausible.io/builds.elementary.io&quot;&gt;Early Access Builds&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;We hope that this move will provide a tangible improvement to your digital life and give you even more peace of mind when using elementary products. We’re always working towards the ideal and we’re confident we’ve made a big step by switching to Plausible. Let us know on social media what you think of the new public analytics dashboard, and feel free to ask questions about how we’re using this data!&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;Update (Sep 8, 2020):&lt;/strong&gt; We expanded on our review of using Plausible, and added a link to our new Early Access Builds dashboard.&lt;/p&gt;
-</description>
-          <pubDate>Thu, 16 Jul 2020 00:00:00 -0500</pubDate>
-          <link>https://blog.elementary.io/leaving-google-analytics-is-finally-plausible/</link>
-          <guid isPermaLink="true">https://blog.elementary.io/leaving-google-analytics-is-finally-plausible/</guid>
-          
-              
-              
-          <enclosure url="https://blog.elementary.io" />
-          
-          
-          <category>web</category>
-          
-          <category>privacy</category>
           
           
         </item>
