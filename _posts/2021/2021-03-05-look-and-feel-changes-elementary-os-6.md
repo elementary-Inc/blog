@@ -20,9 +20,15 @@ The other obvious change is more rounded bottom window corners. This seems like 
 
 ## Typography
 
-We've also changed up the default typeface in elementary OS. Instead of Open Sans, we're using Inter: a new, modern typeface specifically designed for use in user interfaces on computer screens. The designer, Rasmus Andersson, actively updates Inter and has been very responsive on GitHub. He's even weighed in on our use of Inter in elementary OS, and his feedback has led to changes in the weights we use for various headers. You'll find that in general, text is bolder and higher contrast in elementary OS 6.
+We've also changed up the default typeface in elementary OS. Instead of Open Sans, we're using [Inter](https://rsms.me/inter/): a new, modern typeface specifically designed for use in user interfaces on computer screens. The designer, Rasmus Andersson, actively updates Inter and has been very responsive on GitHub. He's even weighed in on our use of Inter in elementary OS, and his feedback has led to changes in the weights we use for various headers. You'll find that in general, text is bolder and higher contrast in elementary OS 6.
 
-https://rsms.me/inter/
+<figure>
+  <picture>
+    <source srcset="/images/look-and-feel-changes-coming-elementary-os-6/granite-welcome-dark.png" media="(prefers-color-scheme: dark)">
+    <img alt="Granite Welcome" src="/images/look-and-feel-changes-coming-elementary-os-6/granite-welcome.png" width="882" height="693" />
+  </picture>
+<figcaption>Inter being used on Granite Demo's welcome screen</figcaption>
+</figure>
 
 ## Iconography
 

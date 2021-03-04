@@ -31,7 +31,7 @@
      showborder="true"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:zoom="1"
+     inkscape:zoom="2.8284271"
      inkscape:cx="24"
      inkscape:cy="24"
      inkscape:window-x="0"
@@ -47,7 +47,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -883,7 +883,7 @@
      d="M 110.01588,78.499996 H 102 l 14,16 14,-16 h -8.00391" />
   <g
      id="g89"
-     transform="translate(46,54)">
+     transform="translate(46,56)">
     <path
        style="display:inline;overflow:visible;visibility:visible;opacity:0.162921;fill:url(#radialGradient4354-6);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.44554;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none"
        id="path4346-1"
@@ -903,7 +903,7 @@
   </g>
   <g
      id="g137"
-     transform="translate(0,54)">
+     transform="translate(0,56)">
     <path
        style="display:inline;overflow:visible;visibility:visible;opacity:0.162921;fill:url(#radialGradient4354-6-3);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.44554;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none"
        id="path4346-7"
@@ -1047,7 +1047,7 @@
      d="m 164.5,9.226067 c 0,0.431218 -0.33465,0.778372 -0.75033,0.778372 H 161 v 5.217189 C 161,15.652847 160.66535,16 160.24967,16 h -1.49934 C 158.33465,16 157.99959,15.652847 158,15.221628 v -5.217189 h -2.74967 c -0.41568,0 -0.75033,-0.347154 -0.75033,-0.778372 0,-0.23241 0.0974,-0.439875 0.25206,-0.58226 l 4.22379,-4.43097 C 159.11023,4.081227 159.29084,4 159.49023,4 c 0.1994,0 0.38001,0.08122 0.51439,0.212837 l 4.24332,4.43097 c 0.15471,0.142385 0.25206,0.34985 0.25206,0.58226 z" />
   <g
      id="g501"
-     transform="translate(182,54)">
+     transform="translate(182,56)">
     <path
        style="display:inline;overflow:visible;visibility:visible;opacity:0.162921;fill:url(#radialGradient4354-6-2);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.44554;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none"
        id="path4346-6"
