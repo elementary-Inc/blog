@@ -28,11 +28,39 @@ https://rsms.me/inter/
 
 The visual style for our icons has remained largely unchanged, with more focus put on internal consistency. You'll notice subtle improvements such as the more gender nuetral user accounts icon in System Settings.
 
+<figure>
+  <picture>
+    <img alt="User Accounts icon" src="/images/look-and-feel-changes-coming-elementary-os-6/system-users.svg" width="32" height="32" />
+  </picture>
+<figcaption>New user accounts icon</figcaption>
+</figure>
+
 A long outstanding issue has been wrangling all the different styles of arrows that we've used over the years. There are hundreds of arrow icons in the elementary icon set, used across many different contexts. We provide both full color and flat, symbolic icons and in a range of different sizes. There are even different kinds of arrows tails depending on context, or no tail at all. In elementary OS 6, we have one new shape to rule them all and we've given arrows more rounded corners.
+
+<figure>
+  <picture>
+    <img src="/images/look-and-feel-changes-coming-elementary-os-6/arrows.svg" />
+  </picture>
+  <figcaption>A small portion of the new arrow icons</figcaption>
+</figure>
 
 In arrows with curved tails, such as in Mail tool icons, the area under the curve is larger, making the shape more recognizeable at small sizes or for folks with less acute vision. We've also reduced busy overlap and improved separation in symbolic icons, which now match their full color counterparts much more closely.
 
+<figure>
+  <picture>
+    <img alt="Mail Reply Icon" src="/images/look-and-feel-changes-coming-elementary-os-6/mail-icons.svg"/>
+  </picture>
+  <figcaption>New Mail tool icons</figcaption>
+</figure>
+
 We're rounding out corners and using bolder shapes in other places as well. The new media controls icons for example feel much more weighty, and the lightning bolt symbol used on power icons is more distinct.
+
+<figure>
+  <picture>
+    <img src="/images/look-and-feel-changes-coming-elementary-os-6/power-media-icons.svg"/>
+  </picture>
+  <figcaption>New power and media controls icons</figcaption>
+</figure>
 
 ## Stylesheet
 
