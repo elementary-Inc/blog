@@ -19,13 +19,25 @@ App developers rely on pre-made widgets to do a lot of the heavy lifting and pro
 {% include featured.html post=post %}
 </div>
 
-We've long had plans to modernize the Granite Avatar widget. A continual problem we've faced is that many people just don't set an avatar for their user account. As a consequence, we need a more meaningful fallback design that allows avatars to be distinct and useful in apps like Mail or in System Settings. As it turns out, the folks behind Handy had the same thoughts and the work was largely already done. [Alexander Mikhaylenko](https://github.com/exalm) was very helpful and gracious in implementing changes in Handy to acheive the exact style we wanted, and I'm happy to say that we now have much more colorful interfaces in elementary OS 6 thanks to Hdy.Avatar, even if people don't set avatar images.
+We've long had plans to modernize the Granite Avatar widget. A continual problem we've faced is that many people just don't set an avatar for their user account. As a consequence, we need a more meaningful fallback design that allows avatars to be distinct and useful in apps like Mail or in System Settings. As it turns out, the folks behind Handy had the same thoughts and the work was largely already done. [Alexander Mikhaylenko](https://github.com/exalm) was very helpful and gracious in implementing changes in Handy to acheive the exact style we wanted, and I'm happy to say that we now have much more colorful interfaces in elementary OS 6 thanks to Handy Avatar, even if people don't set avatar images.
 
-[GRANITE AVATAR EXAMPLE]
+<figure>
+  <picture>
+    <source srcset="/images/look-and-feel-changes-coming-elementary-os-6/mail-dark.png" media="(prefers-color-scheme: dark)">
+    <img alt="Mail 2.0" src="/images/look-and-feel-changes-coming-elementary-os-6/mail-light.png" width="1280" height="831" />
+  </picture>
+<figcaption>The new Mail 2.0 using Handy Avatar</figcaption>
+</figure>
 
 The other obvious change is more rounded bottom window corners. This seems like something that would be simple, but is actually not possible in vanilla GTK3. In elementary OS 5, we used clever workarounds for specific cases to give dialogs and other flat windows rounded corners all the way around. But in elementary OS 6, we can now have rounded bottom corners even in complex cases like Camera, thanks to Hdy.Window. It's a small thing, but it definitely makes the whole UI feel just a bit more polished.
 
-[CAMERA APP?]
+<figure>
+  <picture>
+    <source srcset="/images/look-and-feel-changes-coming-elementary-os-6/camera-dark.png" media="(prefers-color-scheme: dark)">
+    <img alt="Camera" src="/images/look-and-feel-changes-coming-elementary-os-6/camera-light.png" width="683" height="575" />
+  </picture>
+<figcaption>Hey, it's me! But more importantly, the bottom corners are rounded here</figcaption>
+</figure>
 
 ## Typography
 
@@ -100,7 +112,13 @@ To ensure we acheive the desired contrast, we created a design system built on U
 
 Another place for more clear differentiation is in widget states. Interfaces are interactive: they can be selected, disabled, focused, or pressed. We started some work towards more clearly differntiated states in elementary OS 5 when we redesigned checkboxes, and in elementary OS 6 this work has extended to other interactive widgets like text entries and buttons. Disabled widgets, for example, are much more obviously darker than the default UI level, and are intentionality lower contrast than enabled widgets.
 
-[COMPARION BETWEEN WIDGET STATES]
+<figure>
+  <picture>
+    <source srcset="/images/look-and-feel-changes-coming-elementary-os-6/widget-factory-dark.png" media="(prefers-color-scheme: dark)">
+    <img alt="GTK Widget Factory" src="/images/look-and-feel-changes-coming-elementary-os-6/widget-factory-light.png" width="1283" height="778" />
+  </picture>
+<figcaption>The GTK Widget Factory demoing possible states of widgets</figcaption>
+</figure>
 
 Something we knew we needed to consider from very early on was a path towards making elementary OS feel more personal without breaking custom styles in apps. We know that many of our users are currently using custom CSS, but that it often leads to breakage and disappointment. In elementary OS 6, we provide 10 possible accent colors to choose from. Combined with the dark style, you can get a much more unique look for your operating system without having to worry about apps behaving incorrectly. The dark style follows all the same principles as outlined above including UI levels, using higher contrast, etc. And we're still exploring more ways to expose your chosen accent color in ways that feel fun and personal.
 
@@ -114,9 +132,35 @@ Something we knew we needed to consider from very early on was a path towards ma
 
 Focus styles are still a work in progress, but the goal here is to make much more bold use of color and to make the keyboard focus location much more obvious. We've also revisited selected states and suggested action button styles to make sure that we're clearly differentiating between someone's strawberry accent color and destructive action buttons. Instead of using white text on a colored background, we now use a much subtler style that is ultimately higher contrast as well. It also works much better for accent colors, custom brand colors in apps, or other places where we want to use color such as Calendar events.
 
-[SELECTION STYLES]
+<figure class="half" markdown="1">
+  <picture>
+    <source srcset="/images/look-and-feel-changes-coming-elementary-os-6/suggested-action-dark.png" media="(prefers-color-scheme: dark)">
+    <img alt="Suggested Action Dialog" src="/images/look-and-feel-changes-coming-elementary-os-6/suggested-acton-light.png" width="549" height="301" />
+  </picture>
+  <picture>
+    <source srcset="/images/look-and-feel-changes-coming-elementary-os-6/destructive-action-dark.png" media="(prefers-color-scheme: dark)">
+    <img alt="Destructive Action Dialog" src="/images/look-and-feel-changes-coming-elementary-os-6/destructive-action-light.png" width="549" height="301" />
+  </picture>
+<figcaption markdown="1">
+**Left:** A dialog with a suggested action | **Right:** A dialog with a destructive action
+</figcaption>
+</figure>
 
 We also hear regularly from users who have displays that sit in that uncomfortable zone between 1× and 2× UI scaling. While we're still not offering traditional fractional scaling in elementary OS, we have been working on an improved scalable UI solution. In elementary OS 5, people who opted to change the default text size were left with an awkwardly spaced UI with large text, but small controls. In elementary OS 6, we now scale default widgets spacing, corner radii, etc. with text size, eliminating a lot of that awkwardness. It's not quite perfect, but it will make elementary OS much more legible for more people without incurring the performance penalty associated with traditional fractional scaling. And we're happy to have a more first-class experience for those who need larger text.
+
+<figure class="half" markdown="1">
+  <picture>
+    <source srcset="/images/look-and-feel-changes-coming-elementary-os-6/scale-default-dark.png" media="(prefers-color-scheme: dark)">
+    <img alt="Default Scale" src="/images/look-and-feel-changes-coming-elementary-os-6/scale-default-light.png" width="376" height="285" />
+  </picture>
+  <picture>
+    <source srcset="/images/look-and-feel-changes-coming-elementary-os-6/scale-larger-dark.png" media="(prefers-color-scheme: dark)">
+    <img alt="Larger Scale" src="/images/look-and-feel-changes-coming-elementary-os-6/scale-larger-light.png" width="504" height="338" />
+  </picture>
+<figcaption markdown="1">
+**Left:** A dialog with the default scale | **Right:** A dialog with a larger scale
+</figcaption>
+</figure>
 
 ## Get Early Access
 
