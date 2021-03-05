@@ -70,14 +70,26 @@ We're rounding out corners and using bolder shapes in other places as well. The 
 
 ## Stylesheet
 
-Brand new from scratch using Sass instead of CSS.
+As mentioned in our previous post, the system stylesheet in elementary OS 6 has been rewritten from scratch using Sass instead of CSS.
 
-A recurring bit of feedback we received is that the style sheet is too low contrast. Important not just for visually impaired users, but also users with lower quality displays. Widgets can be mixed and matched. How to ensure contrast? Potentially very complicated and requires lots of testing. Make it simple by always using levels for background color. Sass superpowers to apply depth. End result is overall a bit flatter, but more shadows. Shadows also have levels.
+One recurring bit of feedback that we've received is that in general, the stylesheet in elementary OS 5 is too low contrast. Low contrast can make it hard to read text for visually impaired users, but it can also be a large problem on lower quality displays. Contrast between widgets and their backgrounds can also help clearly define different parts of an application, and especially which of those parts are interactive. To ensure we acheive the desired contrast, we create a design system built on UI levels.
 
-UIs are interactive. Must design for states. Active. Selected. Disabled. Focused. Started some work on these states with checkboxes in OS 5. In OS 6, all disabled widgets are darker than the default UI level. Very obvious. Disabled elements intentially lower contrast as per WCAG. Focus styles still a work in progress, but bold use of color. More obvious. Selection styles and suggested action styles, no longer white on color. Dark color on light color is higher contrast, better for custom brand colors. Less in your face. Works other places where we want to use color like Calendar events.
+[PICTURE OF THE LEVELS]
 
-Dark style follows all the same principles: contrast, levels, etc.
+With a little bit of Sass magic, we can style widgets by picking a background level—such as 0 for inputs or 4 for toolbars—and then overlaying a white gradient and adding a shadow—which also comes in various levels. The overall result is a style that is a bit flatter, but overall more consistent in its use of depth, and with much more consistent and expressive use of shadows.
 
-Accent colors. Make elementary OS feel more personal. Combined with dark style, can get a much more unique look without breaking app styles. Still exploring more ways to expose accent colors in the UI.
+[SOME UI WITH LOTS OF LEVELS]
+
+Another place for more clear differentiation is in widget states. Interfaces are interactive: they can be selected, disabled, focused, or pressed. We started some work towards more clearly differntiated states in elementary OS 5 when we redesigned checkboxes, and in elementary OS 6 this work has extended to other interactive widgets like text entries and buttons. Disabled widgets, for example, are much more obviously darker than the default UI level, and are intentionality lower contrast than enabled widgets.
+
+[COMPARION BETWEEN WIDGET STATES]
+
+Focus styles are still a work in progress, but the goal here is to make much more bold use of color and to make the keyboard focus location much more obvious. We've also revisited selected states and suggested action button styles. Instead of using white text on a colored background, we now use a much subtler style that is ultimately higher contrast as well. It also works much better for custom brand colors in apps or other places where we want to use color such as Calendar events.
+
+[SELECTION STYLES]
+
+Accent colors. Make elementary OS feel more personal. Combined with dark style, can get a much more unique look without breaking app styles. Dark style follows all the same principles: contrast, levels, etc. Still exploring more ways to expose accent colors in the UI.
+
+[TWO VERY DIFFERENT LOOKS SUCH AS LIGHT AND PINK VS DARK AND GREEN]
 
 Scalability. No fractional scaling, instead a much more native way to scale the UI. Make elementary OS more legible with more resolutions. Try to eliminate awkwardness with spacing when using larger or smaller text. People who need larger text, more first class experience.
