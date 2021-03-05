@@ -90,8 +90,13 @@ One recurring bit of feedback that we've received is that in general, the styles
 
 To ensure we acheive the desired contrast, we created a design system built on UI levels. With a little bit of Sass magic, we can style widgets by picking a background level—such as 0 for inputs or 4 for toolbars—and then overlaying a white gradient and adding a shadow—which also comes in various levels. The overall result is a style that is a bit flatter, but overall more consistent in its use of depth, and with much more consistent and expressive use of shadows.
 
-[PICTURE OF THE LEVELS]
-[SOME UI WITH LOTS OF LEVELS]
+<figure>
+  <picture>
+    <source srcset="/images/look-and-feel-changes-coming-elementary-os-6/files-dark.png" media="(prefers-color-scheme: dark)">
+    <img alt="Granite Welcome" src="/images/look-and-feel-changes-coming-elementary-os-6/files-light.png" width="916" height="655" />
+  </picture>
+<figcaption>Files with different levels as shown in inputs, sidebars, tabbars, actionbars, and headerbars</figcaption>
+</figure>
 
 Another place for more clear differentiation is in widget states. Interfaces are interactive: they can be selected, disabled, focused, or pressed. We started some work towards more clearly differntiated states in elementary OS 5 when we redesigned checkboxes, and in elementary OS 6 this work has extended to other interactive widgets like text entries and buttons. Disabled widgets, for example, are much more obviously darker than the default UI level, and are intentionality lower contrast than enabled widgets.
 
