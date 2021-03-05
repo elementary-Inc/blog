@@ -65,7 +65,7 @@ In arrows with curved tails, such as in Mail tool icons, the area under the curv
   <figcaption>New Mail tool icons</figcaption>
 </figure>
 
-We're rounding out corners and using bolder shapes in other places as well. The new media controls icons for example feel much more weighty, and the lightning bolt symbol used on power icons is more distinct.
+We're rounding out corners and using bolder shapes in other places as well. The new media controls icons for example feel much more weighty, and the lightning bolt symbol used on power icons is more distinct. Historically, going into more detail hasn't been as important on LoDPI displays, but the new shapes really shine on displays with more pixels available.
 
 <figure>
   <picture>
