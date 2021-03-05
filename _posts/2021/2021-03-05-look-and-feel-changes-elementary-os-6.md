@@ -14,6 +14,11 @@ When a new major version of some piece of software is released, there is often a
 
 App developers rely on pre-made widgets to do a lot of the heavy lifting and provide good default styles when making their apps. In addition to the widgets provided by GTK, we also ship our GTK companion library Granite that makes replicating common elementary design patterns a breeze. In elementary OS 6, we're also making heavy use of Handy—a library that was originally developed by Purism for mobile interfaces but has now become a core part of the GNOME app development platform on the desktop. Thanks to Handy, we have two major, obvious visual design improvements that developers can adopt.
 
+<div>
+{% assign post = site.posts | where:"slug", "platform-changes-in-elementary-os-6" | first %}
+{% include featured.html post=post %}
+</div>
+
 We've long had plans to modernize the Granite Avatar widget. A continual problem we've faced is that many people just don't set an avatar for their user account. As a consequence, we need a more meaningful fallback design that allows avatars to be distinct and useful in apps like Mail or in System Settings. As it turns out, the folks behind Handy had the same thoughts and the work was largely already done. [Alexander Mikhaylenko](https://github.com/exalm) was very helpful and gracious in implementing changes in Handy to acheive the exact style we wanted, and I'm happy to say that we now have much more colorful interfaces in elementary OS 6 thanks to Hdy.Avatar, even if people don't set avatar images.
 
 [GRANITE AVATAR EXAMPLE]
@@ -76,16 +81,16 @@ We're rounding out corners and using bolder shapes in other places as well. The 
 
 ## Stylesheet
 
-As mentioned in our previous post, the system stylesheet in elementary OS 6 has been rewritten from scratch using Sass instead of CSS.
+One recurring bit of feedback that we've received is that in general, the stylesheet in elementary OS 5 is somewhat low contrast. Low contrast can make it hard to read text for visually impaired users, but it can also be a large problem on lower quality displays. Contrast between widgets and their backgrounds can also help clearly define different parts of an application, and especially which of those parts are interactive. Addressing these concerns is part of our larger project to make elementary OS 6 more accessible by default, which we've written about previously.
 
-[LINK TO PLATFORM CHANGES POST]
+<div>
+{% assign post = site.posts | where:"slug", "accessibility-features-are-just-features" | first %}
+{% include featured.html post=post %}
+</div>
 
-One recurring bit of feedback that we've received is that in general, the stylesheet in elementary OS 5 is too low contrast. Low contrast can make it hard to read text for visually impaired users, but it can also be a large problem on lower quality displays. Contrast between widgets and their backgrounds can also help clearly define different parts of an application, and especially which of those parts are interactive. To ensure we acheive the desired contrast, we create a design system built on UI levels.
+To ensure we acheive the desired contrast, we created a design system built on UI levels. With a little bit of Sass magic, we can style widgets by picking a background level—such as 0 for inputs or 4 for toolbars—and then overlaying a white gradient and adding a shadow—which also comes in various levels. The overall result is a style that is a bit flatter, but overall more consistent in its use of depth, and with much more consistent and expressive use of shadows.
 
 [PICTURE OF THE LEVELS]
-
-With a little bit of Sass magic, we can style widgets by picking a background level—such as 0 for inputs or 4 for toolbars—and then overlaying a white gradient and adding a shadow—which also comes in various levels. The overall result is a style that is a bit flatter, but overall more consistent in its use of depth, and with much more consistent and expressive use of shadows.
-
 [SOME UI WITH LOTS OF LEVELS]
 
 Another place for more clear differentiation is in widget states. Interfaces are interactive: they can be selected, disabled, focused, or pressed. We started some work towards more clearly differntiated states in elementary OS 5 when we redesigned checkboxes, and in elementary OS 6 this work has extended to other interactive widgets like text entries and buttons. Disabled widgets, for example, are much more obviously darker than the default UI level, and are intentionality lower contrast than enabled widgets.
