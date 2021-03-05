@@ -24,7 +24,9 @@ The other obvious change is more rounded bottom window corners. This seems like 
 
 ## Typography
 
-We've also changed up the default typefaces in elementary OS. Instead of Open Sans with Raleway for headers, we've unified on [Inter](https://rsms.me/inter/): a new, modern typeface specifically designed for use in user interfaces on computer screens. The designer, Rasmus Andersson, actively updates Inter and has been very responsive on GitHub. He's even weighed in on our use of Inter in elementary OS, and his feedback has led to changes in the weights we use for various headers. You'll find that in general, text is bolder, higher contrast, and more legible in elementary OS 6.
+The default typefaces in elementary OS have also been changed for the first time since our initial brand work. Instead of Open Sans with Raleway for headers, we've unified on [Inter](https://rsms.me/inter/): a new, modern typeface specifically designed for use in user interfaces on computer screens. The designer, Rasmus Andersson, actively updates Inter and has been very responsive on GitHub. He's even weighed in on our use of Inter in elementary OS, and his feedback has led to changes in the weights we use for various headers.
+
+We've also revisited the default font rendering settings, opting for grayscale anti-aliasing over RGB; this addresses some issues we've seen with ghosting/leaking of colors around text, especially visible when using transparency. You'll find that in general, text is bolder, higher contrast, and more legible in elementary OS 6.
 
 <figure>
   <picture>
