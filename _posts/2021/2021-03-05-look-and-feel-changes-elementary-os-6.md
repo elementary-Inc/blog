@@ -99,7 +99,13 @@ Another place for more clear differentiation is in widget states. Interfaces are
 
 Something we knew we needed to consider from very early on was a path towards making elementary OS feel more personal without breaking custom styles in apps. We know that many of our users are currently using custom CSS, but that it often leads to breakage and disappointment. In elementary OS 6, we provide 10 possible accent colors to choose from. Combined with the dark style, you can get a much more unique look for your operating system without having to worry about apps behaving incorrectly. The dark style follows all the same principles as outlined above including UI levels, using higher contrast, etc. And we're still exploring more ways to expose your chosen accent color in ways that feel fun and personal.
 
-[TWO VERY DIFFERENT LOOKS SUCH AS LIGHT AND PINK VS DARK AND GREEN]
+<figure class="half" markdown="1">
+![Light & Pink](/images/look-and-feel-changes-coming-elementary-os-6/accent-pink.png)
+![Dark & Green](/images/look-and-feel-changes-coming-elementary-os-6/accent-green.png)
+<figcaption markdown="1">
+**Left:** A light desktop with the Bubblegum accent color | **Right:** A dark desktop with the Lime accent color
+</figcaption>
+</figure>
 
 Focus styles are still a work in progress, but the goal here is to make much more bold use of color and to make the keyboard focus location much more obvious. We've also revisited selected states and suggested action button styles to make sure that we're clearly differentiating between someone's strawberry accent color and destructive action buttons. Instead of using white text on a colored background, we now use a much subtler style that is ultimately higher contrast as well. It also works much better for accent colors, custom brand colors in apps, or other places where we want to use color such as Calendar events.
 
