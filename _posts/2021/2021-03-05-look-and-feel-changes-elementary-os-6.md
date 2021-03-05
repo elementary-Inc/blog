@@ -101,7 +101,7 @@ Something we knew we needed to consider from very early on was a path towards ma
 
 [TWO VERY DIFFERENT LOOKS SUCH AS LIGHT AND PINK VS DARK AND GREEN]
 
-Focus styles are still a work in progress, but the goal here is to make much more bold use of color and to make the keyboard focus location much more obvious. We've also revisited selected states and suggested action button styles. Instead of using white text on a colored background, we now use a much subtler style that is ultimately higher contrast as well. It also works much better for accent colors, custom brand colors in apps, or other places where we want to use color such as Calendar events.
+Focus styles are still a work in progress, but the goal here is to make much more bold use of color and to make the keyboard focus location much more obvious. We've also revisited selected states and suggested action button styles to make sure that we're clearly differentiating between someone's strawberry accent color and destructive action buttons. Instead of using white text on a colored background, we now use a much subtler style that is ultimately higher contrast as well. It also works much better for accent colors, custom brand colors in apps, or other places where we want to use color such as Calendar events.
 
 [SELECTION STYLES]
 
