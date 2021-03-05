@@ -16,7 +16,11 @@ App developers rely on pre-made widgets to do a lot of the heavy lifting and pro
 
 We've long had plans to modernize the Granite Avatar widget. A continual problem we've faced is that many people just don't set avatars. As a consequence, we need a more meaningful fallback design that allows avatars to be distinct and useful in apps like Mail or in System Settings. As it turns out, the folks behind Handy had the same thoughts and the work was largely already done. Alex was very helpful and gracious in implementing changes in Handy to acheive the exact style we wanted, and I'm happy to say that we now have much more colorful interfaces in elementary OS 6 thanks to Hdy.Avatar, even if people don't set avatar images.
 
+[GRANITE AVATAR EXAMPLE]
+
 The other obvious change is more rounded bottom window corners. This seems like something that would be simple, but is actually not possible in vanilla Gtk3. In elementary OS 5, we used clever workarounds for specific cases to give dialogs and other flat windows rounded corners all the way around. But in elementary OS 6, we can now have rounded bottom corners even in complex cases like Camera, thanks to Hdy.Window. It's a small thing, but it definitely makes the whole UI feel just a bit more polished.
+
+[CAMERA APP?]
 
 ## Typography
 
@@ -72,6 +76,8 @@ We're rounding out corners and using bolder shapes in other places as well. The 
 
 As mentioned in our previous post, the system stylesheet in elementary OS 6 has been rewritten from scratch using Sass instead of CSS.
 
+[LINK TO PLATFORM CHANGES POST]
+
 One recurring bit of feedback that we've received is that in general, the stylesheet in elementary OS 5 is too low contrast. Low contrast can make it hard to read text for visually impaired users, but it can also be a large problem on lower quality displays. Contrast between widgets and their backgrounds can also help clearly define different parts of an application, and especially which of those parts are interactive. To ensure we acheive the desired contrast, we create a design system built on UI levels.
 
 [PICTURE OF THE LEVELS]
@@ -84,12 +90,22 @@ Another place for more clear differentiation is in widget states. Interfaces are
 
 [COMPARION BETWEEN WIDGET STATES]
 
-Focus styles are still a work in progress, but the goal here is to make much more bold use of color and to make the keyboard focus location much more obvious. We've also revisited selected states and suggested action button styles. Instead of using white text on a colored background, we now use a much subtler style that is ultimately higher contrast as well. It also works much better for custom brand colors in apps or other places where we want to use color such as Calendar events.
-
-[SELECTION STYLES]
-
-Accent colors. Make elementary OS feel more personal. Combined with dark style, can get a much more unique look without breaking app styles. Dark style follows all the same principles: contrast, levels, etc. Still exploring more ways to expose accent colors in the UI.
+Something we knew we needed to consider from very early on was a path towards making elementary OS feel more personal without breaking custom styles in apps. We know that many of our users are currently using custom CSS, but that it often leads to breakage and disappointment. In elementary OS 6, we provide 10 possible accent colors to choose from. Combined with the dark style, you can get a much more unique look for your operating system without having to worry about apps behaving incorrectly. The dark style follows all the same principles as outlined above including UI levels, using higher contrast, etc. And we're still exploring more ways to expose your chosen accent color in ways that feel fun and personal.
 
 [TWO VERY DIFFERENT LOOKS SUCH AS LIGHT AND PINK VS DARK AND GREEN]
 
-Scalability. No fractional scaling, instead a much more native way to scale the UI. Make elementary OS more legible with more resolutions. Try to eliminate awkwardness with spacing when using larger or smaller text. People who need larger text, more first class experience.
+Focus styles are still a work in progress, but the goal here is to make much more bold use of color and to make the keyboard focus location much more obvious. We've also revisited selected states and suggested action button styles. Instead of using white text on a colored background, we now use a much subtler style that is ultimately higher contrast as well. It also works much better for accent colors, custom brand colors in apps, or other places where we want to use color such as Calendar events.
+
+[SELECTION STYLES]
+
+We also hear regularly from users who have displays that sit in that uncomfortable zone between 1x and 2x UI scaling. While we're still not offering traditional fractional scaling in elementary OS, we have been working on an improved scalable UI solution. In elementary OS 5, people who opted to change the default text size were left with an awkwardly spaced UI with large text, but small controls. In elementary OS 6, we now scale default widgets spacing, corner radii, etc with text size, eliminating a lot of that awkwardness. It's not quite perfect, but it will make elementary OS much more legible for more people without incurring the performance penalty associated with traditional fractional scaling. And we're happy to have a more first-class experience for those who need larger text.
+
+## Get Early Access
+
+If you're excited by what you read here and want to get your hands on the developer preview of elementary OS 6, you can! GitHub sponsors at the $10/mo or above tier get access to our [daily builds server][builds] where you can test the latest and greatest experimental builds, including builds for Pinebook Pro. Subscribing helps us fund the development of elementary OS and brings us that much closer to delivering the final product.
+
+<div style="text-align: center" markdown="1">
+[Get Early Access Builds][builds]{: .button}
+</div>
+
+[builds]: https://builds.elementary.io
