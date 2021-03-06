@@ -19,7 +19,7 @@ App developers rely on pre-made widgets to do a lot of the heavy lifting and pro
 {% include featured.html post=post %}
 </div>
 
-We've long had plans to modernize the Granite Avatar widget. A continual problem we've faced is that many people just don't set an avatar for their user account. As a consequence, we need a more meaningful fallback design that allows avatars to be distinct and useful in apps like Mail or in System Settings. As it turns out, the folks behind Handy had the same thoughts and the work was largely already done. [Alexander Mikhaylenko](https://github.com/exalm) was very helpful and gracious in implementing changes in Handy to acheive the exact style we wanted, and I'm happy to say that we now have much more colorful interfaces in elementary OS 6 thanks to Handy Avatar, even if people don't set avatar images.
+We've long had plans to modernize the Granite Avatar widget. A continual problem we've faced is that many people just don't set an avatar for their user account. As a consequence, we need a more meaningful fallback design that allows avatars to be distinct and useful in apps like Mail or in System Settings. As it turns out, the folks behind Handy had the same thoughts and the work was largely already done. [Alexander Mikhaylenko](https://github.com/exalm) was very helpful and gracious in implementing changes in Handy to achieve the exact style we wanted, and I'm happy to say that we now have much more colorful interfaces in elementary OS 6 thanks to Handy Avatar, even if people don't set avatar images.
 
 <figure>
   <picture>
@@ -100,7 +100,7 @@ One recurring bit of feedback that we've received is that in general, the styles
 {% include featured.html post=post %}
 </div>
 
-To ensure we acheive the desired contrast, we created a design system built on UI levels. With a little bit of Sass magic, we can style widgets by picking a background level—such as 0 for inputs or 4 for toolbars—and then overlaying a white gradient and adding a shadow—which also comes in various levels. The overall result is a style that is a bit flatter, but overall more consistent in its use of depth, and with much more consistent and expressive use of shadows.
+To ensure we achieve the desired contrast, we created a design system built on UI levels. With a little bit of Sass magic, we can style widgets by picking a background level—such as 0 for inputs or 4 for toolbars—and then overlaying a white gradient and adding a shadow—which also comes in various levels. The overall result is a style that is a bit flatter on the surface of each layer, but overall more consistent in its use of depth, and with much more consistent and expressive use of shadows between layers.
 
 <figure>
   <picture>
@@ -110,7 +110,7 @@ To ensure we acheive the desired contrast, we created a design system built on U
 <figcaption>Files with different levels as shown in inputs, sidebars, tabbars, actionbars, and headerbars</figcaption>
 </figure>
 
-Another place for more clear differentiation is in widget states. Interfaces are interactive: they can be selected, disabled, focused, or pressed. We started some work towards more clearly differntiated states in elementary OS 5 when we redesigned checkboxes, and in elementary OS 6 this work has extended to other interactive widgets like text entries and buttons. Disabled widgets, for example, are much more obviously darker than the default UI level, and are intentionality lower contrast than enabled widgets.
+Another place for more clear differentiation is in widget states. Interfaces are interactive: they can be selected, disabled, focused, or pressed. We started some work towards more clearly differentiated states in elementary OS 5 when we redesigned checkboxes, and in elementary OS 6 this work has extended to other interactive widgets like text entries and buttons. Disabled widgets, for example, are much more obviously darker than the default UI level, and are intentionally lower contrast than enabled widgets.
 
 <figure>
   <picture>
