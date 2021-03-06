@@ -36,7 +36,7 @@
   <meta itemprop="description" content="We’re leaving Bountysource. Here’s why." />
   <meta name="twitter:description" content="We’re leaving Bountysource. Here’s why." />
 
-  <link rel="stylesheet" type="text/css" media="all" href="/css/main.css?v=2021-03-05 18:49:00 -0600" />
+  <link rel="stylesheet" type="text/css" media="all" href="/css/main.css?v=2021-03-05 18:59:09 -0600" />
   
     <script async defer data-domain="blog.elementary.io" src="https://stats.elementary.io/js/index.js"></script>
     <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
@@ -267,13 +267,12 @@ The ToS will be revised and clarified in the future.</p>
 
   </section>
 
-  <div class="thanks">
+  
+<div class="thanks">
   <hr/>
 
-  
-    <h2>Thank You</h2>
-    <p>Thanks to all of our supporters, backers, and customers! Your contributions make elementary possible. If you’d like to help build and improve elementary OS, don’t hesitate to <a rel="nofollow noopener noreferrer" target="_blank" href="https://elementary.io/get-involved" onclick="plausible('Link: Get Involved')">Get Involved</a>.</p>
-  
+  <h2>Thank You</h2>
+  <p>Thanks to all of our supporters, backers, and customers! Your contributions make elementary possible. If you’d like to help build and improve elementary OS, don’t hesitate to <a rel="nofollow noopener noreferrer" target="_blank" href="https://elementary.io/get-involved" onclick="plausible('Link: Get Involved')">Get Involved</a>.</p>
 
   <div class="links">
     <a
@@ -399,6 +398,11 @@ The ToS will be revised and clarified in the future.</p>
 </div>
 
 
+<div class="sponsor">
+  
+    <p>We’re <a href="" rel="noreferrer nofollow noopener" target="_blank">accepting limited sponsors</a> for the elementary Blog. View our <a href="" rel="noreferrer nofollow noopener" target="_blank">public analytics</a> and <a href="" rel="noreferrer nofollow noopener" target="_blank">reach out</a> if you or your company are interested.</p>
+  
+</div>
 
 </article>
 
@@ -505,15 +509,33 @@ The ToS will be revised and clarified in the future.</p>
 
     <a
       href="https://blog.elementary.io/goodbye-bountysource-hello-github-sponsors/"
-
       title="Permalink"
-      onclick="plausible('Share: Permalink')"
+      onclick="return share()"
     >
       <img src="/images/edit-copy-32.svg" alt="Permalink" />
     </a>
   </div>
 </div>
 
+<script>
+function share() {
+  plausible('Share: Permalink');
+
+  if (navigator.share) {
+    navigator.share({
+      title: "Goodbye, Bountysource",
+      text: "We’re leaving Bountysource. Here’s why.",
+      url: "https://blog.elementary.io/goodbye-bountysource-hello-github-sponsors/",
+    })
+    .catch((error) => console.log("Error sharing", error));
+
+    return false;
+  } else {
+    console.log("Sharing not supported; falling back to link");
+    return true;
+  }
+}
+</script>
 
 
 <h2 class="up-next">Up Next</h2>
