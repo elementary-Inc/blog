@@ -122,3 +122,13 @@ And of course, any performance improvements on the lower end also benefit higher
 [Marius Meisenzahl]: https://github.com/sponsors/meisenzahl
 [installer]: /meet-the-upcoming-installer
 [David Hewitt]: https://github.com/sponsors/davidmhewitt
+
+## Get Early Access
+
+If you're excited by what you read here and want to get your hands on the developer preview of elementary OS 6, you can! GitHub sponsors at the $10/mo or above tier get access to our [daily builds server][builds] where you can test the latest and greatest experimental builds, including builds for Pinebook Pro. Subscribing helps us fund the development of elementary OS and brings us that much closer to delivering the final product.
+
+<div style="text-align: center" markdown="1">
+[Get Early Access Builds][builds]{: .button}
+</div>
+
+[builds]: https://builds.elementary.io
