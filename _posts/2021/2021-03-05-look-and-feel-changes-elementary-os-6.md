@@ -2,9 +2,9 @@
 title: Look & Feel Changes Coming to elementary OS 6
 description: Visual design updates that are more than skin deep
 author: danrabbit
-image:
+image: /images/look-and-feel-changes-coming-elementary-os-6/card.png
 tags:
-  - devices
+  - odin
   - ux
 ---
 
