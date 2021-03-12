@@ -2,10 +2,11 @@
 title: Meet the Star LabTop Mk IV
 description: An incredible elementary OS laptop from Star Labs
 author: cassidyjames
+image: /images/now-shipping-elementary-os/card@2x.png
 tags:
   - devices
 
-image: /images/now-shipping-elementary-os/card@2x.png
+hidden: 3000-01-01 00:00:00 UTC
 ---
 
 elementary is proud to announce our first partner device: **Star LabTop Mk IV** from Star Labs, available today on the [elementary Store][store].
