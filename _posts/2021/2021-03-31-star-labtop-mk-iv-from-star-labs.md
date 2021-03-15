@@ -45,7 +45,7 @@ Over the past year year we've been [working with retailers](/now-shipping-elemen
 
 As the first partner device, Star LabTop Mk IV marks the next step in this journey.
 
-As a part of our OEM strategy, we are shifting our approach to talking about elementary OS. First, **elementary OS is and always will be entirely open source**; it is core to what we do, and our open source nature has enabled elementary OS to run on a wide variety of commodity hardware from nearly any PC manufacturer. That's not changing—now or ever.
+As a part of our OEM strategy, we are shifting our approach when talking about elementary OS. First, **elementary OS is and always will be entirely open source**; it is core to what we do, and our open source nature has enabled elementary OS to run on a wide variety of commodity hardware from nearly any PC manufacturer. That's not changing—now or ever.
 
 However, moving forward we will place a stronger emphasis on partner devices running elementary OS. This helps better satisfy the “gettable” aspect of elementary OS, and ensures that elementary OS has well-supported hardware platforms that deliver the best possible experience. And it's much easier to recommend someone buy a computer made for elementary OS than to tell them to shop around, hope to get something that will work well, and then install elementary OS themselves.
 
