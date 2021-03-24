@@ -73,7 +73,7 @@ We're also making heavy use of LibHandy throughout the default apps, and we enco
 {% include featured.html post=post %}
 </div>
 
-And as we've been teasing quite a bit, elementary OS 6 introduces a dark style preference for the first time. Importantly, this is **opt-in** for app developers; by default, your app will behave the same as in previous versions of elementary OS, using the light or dark variant of the stylesheet—whichever it requests. But in elementary OS 6, your app can bind to [Granite.Settings.ColorScheme](https://valadoc.org/granite/Granite.Settings.ColorScheme.html) to respond to the user's preference, e.g. by requesting the dark stylesheet variant and providing alternate in-app styles.For most apps, we recommend just going along with the user's preference by default.
+And as we've been teasing quite a bit, elementary OS 6 introduces a dark style preference for the first time. Importantly, this is **opt-in** for app developers; by default, your app will behave the same as in previous versions of elementary OS, using the light or dark variant of the stylesheet—whichever it requests. But in elementary OS 6, your app can bind to [Granite.Settings.ColorScheme](https://valadoc.org/granite/Granite.Settings.ColorScheme.html) to respond to the user's preference, e.g. by requesting the dark stylesheet variant and providing alternate in-app styles. For most apps, we recommend just going along with the user's preference by default—but if your app has a specialized use or multiple color schemes, you should start considering how your app will respond to the user's preference.
 
 <div>
 {% assign post = site.posts | where:"slug", "dark-style-progress" | first %}
@@ -82,9 +82,31 @@ And as we've been teasing quite a bit, elementary OS 6 introduces a dark style p
 
 ### New & Updated Apps, Other User-facing Features
 
-Mail has been completely rewritten; instead of relying on the custom Geary mail back-end, it now uses the system's Evolution Data Server which brings much wider mail server compatibility. Tasks is a new app that also talks to Evolution Data Server, enabling seeing and synchronizing your to-dos to various services. Files has a new default navigation mode
+Mail has been completely rewritten; instead of relying on the custom Geary mail back-end, it now uses the system's Evolution Data Server which brings much wider mail server compatibility. Tasks is a new app that also talks to Evolution Data Server, enabling seeing and synchronizing your to-dos to various services. Files has a rewritten sidebar and—after a lot of testing and user feedback—a new navigation mode: single-click to navigate within the app with a double click to open files in their default app. Camera has new settings for brightness, contrast, and mirroring as well as support for multiple connected cameras.
+
+We've also redesigned a few System Settings views: Desktop has gotten a lot of attention to the Appearance tab with the new dark style preferences, accent colors, and dyslexia-friendly text setting. The Hot Corners tab has also been renamed to Multitasking with the addition of toggles for moving windows to a new workspace when entering fullscreen or maximizing. New gestures preferences have been added to Mouse & Touchpad settings. Date & Time settings have been redesigned with an easier to use time zone selection and new controls for what to show in the Date & Time indicator on the Panel.
 
 <div>
 {% assign post = site.posts | where:"slug", "hardware-improvements-coming-to-elementary-os" | first %}
 {% include featured.html post=post %}
 </div>
+
+Thanks to our work with hardware manufacturers, elementary OS 6 is also gaining some new hardware-related features. The "About" view in System Settings has been renamed "System" and completely redesigned with the important addition displaying and updating device firmware. We've also redesigned the boot screen in elementary OS 6 to be much more minimalist and seamless while beautifully supporting features like disk encryption and firmware updates. The new installer for elementary OS is finally here and brings much faster and more straightforward installs for both end users and OEMs—and paired with the new Initial Setup, the first run experience of elementary OS 6 is the same whether you installed it yourself or got it preinstalled.
+
+## Release Schedule
+
+At this stage of development, we don't have a release date set for elementary OS 6; that will come once we receive and address beta feedback from users and early testers. We do expect a second beta release and at least one Release Candidate before the stable release.
+
+## Get It
+
+If you're an app developer or eager tester, you can get elementary OS 6 Beta today from our Early Access site. While Early Access builds are typically limited to GitHub Sponsors, beta releases are being made available to the general public in the interest of wider testing and app development.
+
+<div style="text-align: center" markdown="1">
+[Download elementary OS 6 Beta](https://builds.elementary.io){: .button }
+</div>
+
+- We **do not recommend using beta builds on your primary device**, as irrecoverable crashes and data loss are possible.
+
+- **It will not be possible to upgrade to the stable release** from beta builds.
+
+- Several **user-facing features are unfinished** and in rapid development; beta releases are intended for developers.
