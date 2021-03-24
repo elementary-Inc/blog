@@ -4,6 +4,7 @@ description: "Our swipiest operating system ever"
 author: danrabbit
 image: /images/multitouch-gestures-in-elementary-os-6/multitasking.png
 tags:
+  - early-access
   - odin
   - touch
   - ux

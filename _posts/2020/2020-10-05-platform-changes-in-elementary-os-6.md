@@ -4,6 +4,7 @@ description: "New technology that improves your experience"
 author: danrabbit
 image: /images/updates-for-july-2020/card.png
 tags:
+  - early-access
   - odin
 
 mastodon: https://mastodon.social/@elementary/104984913842294972

@@ -4,6 +4,8 @@ description: Visual design updates that are more than skin deep
 author: danrabbit
 image: /images/look-and-feel-changes-coming-elementary-os-6/card.png
 tags:
+  - design
+  - early-access
   - odin
   - ux
 ---
