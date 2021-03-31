@@ -5,8 +5,8 @@
     <description>We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS</description>
     <link>https://blog.elementary.io/</link>
     <atom:link href="https://blog.elementary.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 31 Mar 2021 18:13:24 -0500</pubDate>
-    <lastBuildDate>Wed, 31 Mar 2021 18:13:24 -0500</lastBuildDate>
+    <pubDate>Wed, 31 Mar 2021 18:19:47 -0500</pubDate>
+    <lastBuildDate>Wed, 31 Mar 2021 18:19:47 -0500</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       
@@ -37,7 +37,7 @@
 
 &lt;p&gt;elementary OS 0.3 “Freya” brought features like Do Not Disturb, sudo paste protection in Terminal, a redesigned multitasking view, and more. But Freya didn’t just bring changes to the operating system itself, it marked the point where elementary started to present itself differently as a business. We had released Luna with an explicit link to download elementary OS for free alongside an optional payment, but for Freya &lt;a href=&quot;/payments&quot;&gt;we changed the design on our website&lt;/a&gt; to the one we have today, with more explicit payment options and requiring people to enter the number “0” to bypass the payment flow. This change has been a resounding success. Thanks to our pay-what-you-want model, elementary, Inc. now has several employees and regular contractors to work on the operating system, and we’ve sparked quite a lot of conversation around paying app developers in the wider open source ecosystem all while &lt;a href=&quot;/you-are-not-the-product&quot;&gt;avoiding advertisements or data mining&lt;/a&gt;.&lt;/p&gt;
 
-&lt;div&gt;
+&lt;div style=&quot;margin: 3em auto;&quot;&gt;
 
 
 
@@ -105,7 +105,7 @@
 
 &lt;p&gt;We debuted AppCenter and brought our pay-what-you-want model to app developers mid-way through the release cycle of our fourth release, codenamed “Loki”. This was huge in two ways: it set the precedent for rolling feature updates and established elementary OS as not just another distribution of Linux, but a real platform for app developers. These were markedly massive departures from mainstream Linux distributions which only updated their software repositories in lock step with major releases. On elementary OS, not only would you received bug fix and feature updates regularly for the operating system, app developers were making things specifically for you, and they could get paid to do it.&lt;/p&gt;
 
-&lt;div&gt;
+&lt;div style=&quot;margin: 3em auto;&quot;&gt;
 
 
 
@@ -175,7 +175,7 @@
 
 &lt;p&gt;We’ve also been working a lot more with hardware manufacturers, and you can now purchase desktops and laptops with elementary OS pre-installed. Our OEM program has led to improvements in elementary OS for all of our users and continues to make elementary OS better, more easily gettable, and our business more sustainable.&lt;/p&gt;
 
-&lt;div&gt;
+&lt;div style=&quot;margin: 3em auto;&quot;&gt;
 
 
 
@@ -250,6 +250,12 @@
 &lt;div style=&quot;text-align: center&quot;&gt;
   &lt;p&gt;&lt;a href=&quot;https://builds.elementary.io&quot; class=&quot;button&quot;&gt;Get Early Access Builds&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
+
+&lt;style&gt;
+figure {
+  margin-top: 3rem;
+}
+&lt;/style&gt;
 
 </description>
           <pubDate>Wed, 31 Mar 2021 00:00:00 -0500</pubDate>
