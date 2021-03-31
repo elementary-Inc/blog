@@ -5,26 +5,35 @@
     <description>We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS</description>
     <link>https://blog.elementary.io/</link>
     <atom:link href="https://blog.elementary.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 31 Mar 2021 18:08:15 -0500</pubDate>
-    <lastBuildDate>Wed, 31 Mar 2021 18:08:15 -0500</lastBuildDate>
+    <pubDate>Wed, 31 Mar 2021 18:13:24 -0500</pubDate>
+    <lastBuildDate>Wed, 31 Mar 2021 18:13:24 -0500</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       
         <item>
           <title>Cheers to 10 Years</title>
-          <description>&lt;p&gt;Today, March 31st 2021, marks 10 years since the release of the very first version of elementary OS. Our 0.1 release, codenamed “Jupiter”, came with the bold tagline, “It’s gonna be huge”. A decade later, elementary OS is made up of &lt;a href=&quot;https://github.com/elementary&quot;&gt;over 130 open source git repositories&lt;/a&gt;, has its own freedesktop.org-recognized desktop environment, comes with more than a dozen first party apps and &lt;a href=&quot;https://appcenter.elementary.io&quot;&gt;a unique app store&lt;/a&gt; with nearly 200 native third-party apps, has been translated to more than 20 languages, and most recently &lt;a href=&quot;/tags/#devices&quot;&gt;comes pre-installed on several desktops and laptops&lt;/a&gt;.&lt;/p&gt;
+          <description>&lt;p&gt;Today marks ten years since the release of the very first version of elementary OS. Our 0.1 release, codenamed “Jupiter”, came with the bold tagline, “It’s gonna be huge”. A decade later, elementary OS is made up of &lt;a href=&quot;https://github.com/elementary&quot;&gt;over 130 open source git repositories&lt;/a&gt;, has its own freedesktop.org-recognized desktop environment, comes with more than a dozen first party apps and &lt;a href=&quot;https://appcenter.elementary.io&quot;&gt;a unique app store&lt;/a&gt; with nearly 200 native third-party apps, has been translated to more than 20 languages, and most recently &lt;a href=&quot;/tags/#devices&quot;&gt;comes pre-installed on several desktops and laptops&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/10-years/jupiter.png&quot; alt=&quot;elementary OS 0.1 Jupiter screenshot&quot; /&gt;&lt;/p&gt;
+&lt;figure class=&quot;constrained&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/10-years/jupiter.jpg&quot; alt=&quot;elementary OS 0.1 Jupiter screenshot&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;elementary OS 0.1 Jupiter&lt;/figcaption&gt;
+&lt;/figure&gt;
 
 &lt;p&gt;Jupiter shipped with GNOME 2 as the desktop environment, early versions of our elementary icons, a theme for GTK 2, the dock app Docky, and a small handful of home-grown apps. Our headlining app at the time was a fork of the GNOME file manager with a more streamlined user interface. Besides these things, there wasn’t much that set apart our very first release from its Ubuntu 10.10 base. But one distinguishing factor has stuck with us from the very beginning: our dedication to providing only native GTK-based apps. Instead of popular, cross-platform apps like Thunderbird and OpenOffice, we opted for the lesser known Abiword and had been working on our own email client called Postler. Even from these very early stages there was an idea of consistent, simple, and native apps in elementary OS.&lt;/p&gt;
 
-&lt;p&gt;In the beginning, elementary OS didn’t even have a proper build system; we would extract an Ubuntu disk image, modify it, and then pack it back up. This process had to be repeated manually each time we wanted to modify or update the elementary OS disk image, which made development tedius and slow and a bit unpredictable since it meant we had to start from scratch reverse engineering the changes made by Ubuntu upstream. Today, elementary OS is built in &lt;a href=&quot;/rebuilding-elementary-os&quot;&gt;a much different way&lt;/a&gt;. We use Debian Live Build and a system of metapackage seeds to create disk images in the same way that other major distributions do. This has enabled us to provide automated daily builds through our Early Access program, and experimental daily builds for platforms like &lt;a href=&quot;elementary-os-on-pinebook-pro&quot;&gt;Pinebook Pro&lt;/a&gt; and &lt;a href=&quot;/elementary-os-on-raspberry-pi&quot;&gt;Raspberry Pi 4&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In the beginning, elementary OS didn’t even have a proper build system; we would extract an Ubuntu disk image, modify it, and then pack it back up. This process had to be repeated manually each time we wanted to modify or update the elementary OS disk image, which made development tedious and slow and a bit unpredictable since it meant we had to start from scratch reverse engineering the changes made by Ubuntu upstream. Today, elementary OS is built in &lt;a href=&quot;/rebuilding-elementary-os&quot;&gt;a much different way&lt;/a&gt;. We use Debian Live Build and a system of metapackage seeds to create disk images in the same way that other major distributions do. This has enabled us to provide automated daily builds through our Early Access program, and experimental daily builds for platforms like &lt;a href=&quot;elementary-os-on-pinebook-pro&quot;&gt;Pinebook Pro&lt;/a&gt; and &lt;a href=&quot;/elementary-os-on-raspberry-pi&quot;&gt;Raspberry Pi 4&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/10-years/luna.png&quot; alt=&quot;elementary OS 0.2 Luna screenshot&quot; /&gt;&lt;/p&gt;
+&lt;figure class=&quot;constrained&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/10-years/luna.png&quot; alt=&quot;elementary OS 0.2 Luna screenshot&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;elementary OS 0.2 Luna&lt;/figcaption&gt;
+&lt;/figure&gt;
 
 &lt;p&gt;&lt;a href=&quot;/hello-luna-beta-1&quot;&gt;We premiered&lt;/a&gt; the first version of our desktop environment called Pantheon in 2012 with our 0.2 release, codenamed “Luna”. It still included many components of GNOME, but we had written our own panel for the top of the screen with a brand new app launcher, our new window manager called Gala, the freshly written dock Plank, our brand new System Settings, and even more homegrown native apps. While Jupiter was technically the first release of elementary OS, Luna was the first release where elementary OS felt really different.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/10-years/freya.jpg&quot; alt=&quot;elementary OS 0.3 Freya screenshot&quot; /&gt;&lt;/p&gt;
+&lt;figure class=&quot;constrained&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/10-years/freya.jpg&quot; alt=&quot;elementary OS 0.3 Freya screenshot&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;elementary OS 0.3 Freya&lt;/figcaption&gt;
+&lt;/figure&gt;
 
 &lt;p&gt;elementary OS 0.3 “Freya” brought features like Do Not Disturb, sudo paste protection in Terminal, a redesigned multitasking view, and more. But Freya didn’t just bring changes to the operating system itself, it marked the point where elementary started to present itself differently as a business. We had released Luna with an explicit link to download elementary OS for free alongside an optional payment, but for Freya &lt;a href=&quot;/payments&quot;&gt;we changed the design on our website&lt;/a&gt; to the one we have today, with more explicit payment options and requiring people to enter the number “0” to bypass the payment flow. This change has been a resounding success. Thanks to our pay-what-you-want model, elementary, Inc. now has several employees and regular contractors to work on the operating system, and we’ve sparked quite a lot of conversation around paying app developers in the wider open source ecosystem all while &lt;a href=&quot;/you-are-not-the-product&quot;&gt;avoiding advertisements or data mining&lt;/a&gt;.&lt;/p&gt;
 
@@ -232,7 +241,7 @@
 
 &lt;/div&gt;
 
-&lt;p&gt;Now, we’re in the &lt;a href=&quot;/updates-for-july-2020&quot;&gt;early access&lt;/a&gt; phase of development on &lt;a href=&quot;https://blog.elementary.io/tags/#odin&quot;&gt;version 6.0&lt;/a&gt; with another huge feature drop planned and big improvements to our developer platform, a brand new look and feel, and more. It’s been a really wild 10 years building this incredibly complicated product and it still feels like we’re just getting started. We set out as a small ragtag group of volunteers to build a better desktop operating system and we’ve grown into a succesful software company with many releases under our belts and a firm place in the wider open source community. I’m extremely proud of everything we’ve accomplished and the influence that we’ve had on others. I think you’re really going to enjoy the sixth major version of elementary OS; we’ve been working on it for 10 years now after all.&lt;/p&gt;
+&lt;p&gt;Now, we’re in the &lt;a href=&quot;/updates-for-july-2020&quot;&gt;early access&lt;/a&gt; phase of development on &lt;a href=&quot;https://blog.elementary.io/tags/#odin&quot;&gt;version 6.0&lt;/a&gt; with another huge feature drop planned and big improvements to our developer platform, a brand new look and feel, and more. It’s been a really wild 10 years building this incredibly complicated product and it still feels like we’re just getting started. We set out as a small ragtag group of volunteers to build a better desktop operating system and we’ve grown into a successful software company with many releases under our belts and a firm place in the wider open source community. I’m extremely proud of everything we’ve accomplished and the influence that we’ve had on others. I think you’re really going to enjoy the sixth major version of elementary OS; we’ve been working on it for 10 years now after all.&lt;/p&gt;
 
 &lt;h2 id=&quot;get-early-access&quot;&gt;Get Early Access&lt;/h2&gt;
 
