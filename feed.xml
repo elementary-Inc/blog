@@ -5,8 +5,8 @@
     <description>We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS</description>
     <link>https://blog.elementary.io/</link>
     <atom:link href="https://blog.elementary.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 31 Mar 2021 18:22:14 -0500</pubDate>
-    <lastBuildDate>Wed, 31 Mar 2021 18:22:14 -0500</lastBuildDate>
+    <pubDate>Wed, 31 Mar 2021 18:25:05 -0500</pubDate>
+    <lastBuildDate>Wed, 31 Mar 2021 18:25:05 -0500</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       
@@ -171,9 +171,9 @@
 
 &lt;/div&gt;
 
-&lt;p&gt;For our fifth release, we decided to change our versioning scheme from 0.x to 5.0. By this time, Pantheon was its own complete desktop environment, recognized by FreeDesktop.org. We had a mature set of default apps, many modern and competitive features, and a bustling third-party app ecosystem. We continued to push out monthly updates thanks to a new automated release process, and even made &lt;a href=&quot;/introducing-elementary-os-5-1-hera&quot;&gt;a major 5.1 update&lt;/a&gt; with some big new features and design changes.&lt;/p&gt;
+&lt;p&gt;For our fifth release, we &lt;a href=&quot;/lets-talk-about-elementary-os-5-juno&quot;&gt;decided to change our versioning scheme&lt;/a&gt; from 0.x to 5. By this time, Pantheon was its own complete desktop environment, recognized by FreeDesktop.org. We had a mature set of default apps, many modern and competitive features, and a bustling third-party app ecosystem. We continued to push out monthly updates thanks to a new automated release process, and even made &lt;a href=&quot;/introducing-elementary-os-5-1-hera&quot;&gt;a major 5.1 update&lt;/a&gt; with some big new features and design changes.&lt;/p&gt;
 
-&lt;p&gt;We’ve also been working a lot more with hardware manufacturers, and you can now purchase desktops and laptops with elementary OS pre-installed. Our OEM program has led to improvements in elementary OS for all of our users and continues to make elementary OS better, more easily gettable, and our business more sustainable.&lt;/p&gt;
+&lt;p&gt;We’ve also been working a lot more with hardware manufacturers, and you can now purchase desktops and laptops with elementary OS pre-installed. Our OEM program has led to &lt;a href=&quot;/hardware-improvements-coming-to-elementary-os&quot;&gt;improvements in elementary OS&lt;/a&gt; for all of our users and continues to make elementary OS better, more easily gettable, and our business more sustainable.&lt;/p&gt;
 
 &lt;div style=&quot;margin: 3em auto;&quot;&gt;
 
@@ -241,7 +241,7 @@
 
 &lt;/div&gt;
 
-&lt;p&gt;Now, we’re in the &lt;a href=&quot;/updates-for-july-2020&quot;&gt;Early Access&lt;/a&gt; phase of development on &lt;a href=&quot;/tags/#odin&quot;&gt;version 6.0&lt;/a&gt; with another huge feature drop planned and big improvements to our developer platform, a brand new look and feel, and more. It’s been a really wild 10 years building this incredibly complicated product and it still feels like we’re just getting started. We set out as a small ragtag group of volunteers to build a better desktop operating system and we’ve grown into a successful software company with many releases under our belts and a firm place in the wider open source community. I’m extremely proud of everything we’ve accomplished and the influence that we’ve had on others. I think you’re really going to enjoy the sixth major version of elementary OS; we’ve been working on it for 10 years now after all.&lt;/p&gt;
+&lt;p&gt;Now, we’re in the &lt;a href=&quot;/updates-for-july-2020&quot;&gt;Early Access&lt;/a&gt; phase of development on &lt;a href=&quot;/tags/#odin&quot;&gt;version 6&lt;/a&gt; with another huge feature drop planned and big improvements to our developer platform, a brand new look and feel, and more. It’s been a really wild 10 years building this incredibly complicated product and it still feels like we’re just getting started. We set out as a small ragtag group of volunteers to build a better desktop operating system and we’ve grown into a successful software company with many releases under our belts and a firm place in the wider open source community. I’m extremely proud of everything we’ve accomplished and the influence that we’ve had on others. I think you’re really going to enjoy the sixth major version of elementary OS; we’ve been working on it for 10 years now after all.&lt;/p&gt;
 
 &lt;h2 id=&quot;get-early-access&quot;&gt;Get Early Access&lt;/h2&gt;
 
