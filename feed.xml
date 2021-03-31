@@ -5,9 +5,258 @@
     <description>We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS</description>
     <link>https://blog.elementary.io/</link>
     <atom:link href="https://blog.elementary.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 30 Mar 2021 19:04:58 -0500</pubDate>
-    <lastBuildDate>Tue, 30 Mar 2021 19:04:58 -0500</lastBuildDate>
+    <pubDate>Wed, 31 Mar 2021 17:56:04 -0500</pubDate>
+    <lastBuildDate>Wed, 31 Mar 2021 17:56:04 -0500</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      
+        <item>
+          <title>Cheers to 10 Years</title>
+          <description>&lt;p&gt;Today, March 31st 2021, marks 10 years since the release of the very first version of elementary OS. Our 0.1 release, codenamed “Jupiter”, came with the bold tagline, “It’s gonna be huge”. A decade later, elementary OS is made up of &lt;a href=&quot;https://github.com/elementary&quot;&gt;over 130 open source git repositories&lt;/a&gt;, has its own freedesktop.org-recognized desktop environment, comes with more than a dozen first party apps and &lt;a href=&quot;https://appcenter.elementary.io&quot;&gt;a unique app store&lt;/a&gt; with nearly 200 native third-party apps, has been translated to more than 20 languages, and most recently &lt;a href=&quot;/tags/#devices&quot;&gt;comes pre-installed on several desktops and laptops&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*twqqqQGCzuiBIxjA9woOog.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Jupiter shipped with GNOME 2 as the desktop environment, early versions of our elementary icons, a theme for GTK 2, the dock app Docky, and a small handful of home-grown apps. Our headlining app at the time was a fork of the GNOME file manager with a more streamlined user interface. Besides these things, there wasn’t much that set apart our very first release from its Ubuntu 10.10 base. But one distinguishing factor has stuck with us from the very beginning: our dedication to providing only native GTK-based apps. Instead of popular, cross-platform apps like Thunderbird and OpenOffice, we opted for the lesser known Abiword and had been working on our own email client called Postler. Even from these very early stages there was an idea of consistent, simple, and native apps in elementary OS.&lt;/p&gt;
+
+&lt;p&gt;In the beginning, elementary OS didn’t even have a proper build system; we would extract an Ubuntu disk image, modify it, and then pack it back up. This process had to be repeated manually each time we wanted to modify or update the elementary OS disk image, which made development tedius and slow and a bit unpredictable since it meant we had to start from scratch reverse engineering the changes made by Ubuntu upstream. Today, elementary OS is built in &lt;a href=&quot;/rebuilding-elementary-os&quot;&gt;a much different way&lt;/a&gt;. We use Debian Live Build and a system of metapackage seeds to create disk images in the same way that other major distributions do. This has enabled us to provide automated daily builds through our Early Access program, and experimental daily builds for platforms like &lt;a href=&quot;elementary-os-on-pinebook-pro&quot;&gt;Pinebook Pro&lt;/a&gt; and &lt;a href=&quot;/elementary-os-on-raspberry-pi&quot;&gt;Raspberry Pi 4&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*uchAuKu9YQDii34IhAzUeQ.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/hello-luna-beta-1&quot;&gt;We premiered&lt;/a&gt; the first version of our desktop environment called Pantheon in 2012 with our 0.2 release, codenamed “Luna”. It still included many components of GNOME, but we had written our own panel for the top of the screen with a brand new app launcher, our new window manager called Gala, the freshly written dock Plank, our brand new System Settings, and even more homegrown native apps. While Jupiter was technically the first release of elementary OS, Luna was the first release where elementary OS felt really different.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*nSNzA6mZbVIsITw7oImIQA.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;elementary OS 0.3 “Freya” brought features like Do Not Disturb, sudo paste protection in Terminal, a redesigned multitasking view, and more. But Freya didn’t just bring changes to the operating system itself, it marked the point where elementary started to present itself differently as a business. We had released Luna with an explicit link to download elementary OS for free alongside an optional payment, but for Freya &lt;a href=&quot;/payments&quot;&gt;we changed the design on our website&lt;/a&gt; to the one we have today, with more explicit payment options and requiring people to enter the number “0” to bypass the payment flow. This change has been a resounding success. Thanks to our pay-what-you-want model, elementary, Inc. now has several employees and regular contractors to work on the operating system, and we’ve sparked quite a lot of conversation around paying app developers in the wider open source ecosystem all while &lt;a href=&quot;/you-are-not-the-product&quot;&gt;avoiding advertisements or data mining&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div&gt;
+
+
+
+&lt;a class=&quot;featured with-image 1&quot; href=&quot;/appcenter-the-future-of-the-universe/&quot;&gt;
+  
+    &lt;div class=&quot;featured-image&quot; alt=&quot;Featured image&quot; style=&quot;background-image: url(https://cdn-images-1.medium.com/max/1600/1*yICO56gjmJFC-WDCALeGIw.png);&quot;&gt;&lt;/div&gt;
+  
+
+  &lt;header&gt;
+    &lt;h2&gt;
+
+
+
+   AppCenter &amp;amp; the Future of the&amp;nbsp;Universe
+
+&lt;/h2&gt;
+    
+      &lt;h3&gt;
+        
+
+
+
+   How elementary OS can “cross the&amp;nbsp;chasm”
+
+
+        
+      &lt;/h3&gt;
+    
+
+    
+
+
+
+&lt;div class=&quot;byline&quot;&gt;
+  &lt;div class=&quot;avatar&quot;&gt;
+    &lt;img srcset=&quot;https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&amp;amp;d=blank 2x&quot; src=&quot;https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&amp;amp;d=blank&quot; alt=&quot;Avatar for Daniel Foré&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;author&quot;&gt;
+    
+    &lt;span class=&quot;name&quot;&gt;Daniel Foré&lt;/span&gt;
+    
+    
+      &lt;span class=&quot;description&quot;&gt;Founder &amp;amp; CEO&lt;/span&gt;
+    
+  &lt;/div&gt;
+  &lt;time class=&quot;post-date&quot; datetime=&quot;2017-08-26&quot;&gt;Sat, Aug 26, 2017&lt;/time&gt;
+  
+    &lt;span class=&quot;read-time&quot; title=&quot;Estimated read time&quot;&gt;
+  
+  5 min read
+&lt;/span&gt;
+
+
+  
+&lt;/div&gt;
+
+
+  &lt;/header&gt;
+
+  
+&lt;/a&gt;
+
+
+&lt;/div&gt;
+
+&lt;p&gt;We debuted AppCenter and brought our pay-what-you-want model to app developers mid-way through the release cycle of our fourth release, codenamed “Loki”. This was huge in two ways: it set the precedent for rolling feature updates and established elementary OS as not just another distribution of Linux, but a real platform for app developers. These were markedly massive departures from mainstream Linux distributions which only updated their software repositories in lock step with major releases. On elementary OS, not only would you received bug fix and feature updates regularly for the operating system, app developers were making things specifically for you, and they could get paid to do it.&lt;/p&gt;
+
+&lt;div&gt;
+
+
+
+&lt;a class=&quot;featured with-image 1&quot; href=&quot;/elementary-os-5-juno-is-here/&quot;&gt;
+  
+    &lt;div class=&quot;featured-image&quot; alt=&quot;Featured image&quot; style=&quot;background-image: url(/images/elementary-os-5-juno-is-here/card.png);&quot;&gt;&lt;/div&gt;
+  
+
+  &lt;header&gt;
+    &lt;h2&gt;
+
+
+
+   elementary OS 5 Juno is&amp;nbsp;Here
+
+&lt;/h2&gt;
+    
+      &lt;h3&gt;
+        
+
+
+
+   Refinement, Productivity, &amp;amp; an Improved Developer&amp;nbsp;Platform
+
+
+        
+      &lt;/h3&gt;
+    
+
+    
+
+
+
+&lt;div class=&quot;byline&quot;&gt;
+  &lt;div class=&quot;avatar&quot;&gt;
+    &lt;img srcset=&quot;https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&amp;amp;d=blank 2x&quot; src=&quot;https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&amp;amp;d=blank&quot; alt=&quot;Avatar for Cassidy James Blaede&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;author&quot;&gt;
+    
+    &lt;span class=&quot;name&quot;&gt;Cassidy James Blaede&lt;/span&gt;
+    
+    
+      &lt;span class=&quot;description&quot;&gt;Co-founder &amp;amp; CXO&lt;/span&gt;
+    
+  &lt;/div&gt;
+  &lt;time class=&quot;post-date&quot; datetime=&quot;2018-10-16&quot;&gt;Tue, Oct 16, 2018&lt;/time&gt;
+  
+    &lt;span class=&quot;read-time&quot; title=&quot;Estimated read time&quot;&gt;
+  
+  36 min read
+&lt;/span&gt;
+
+
+  
+&lt;/div&gt;
+
+
+  &lt;/header&gt;
+
+  
+&lt;/a&gt;
+
+
+&lt;/div&gt;
+
+&lt;p&gt;For our fifth release, we decided to change our versioning scheme from 0.x to 5.0. By this time, Pantheon was its own complete desktop environment, recognized by Freedesktop.org. We had a mature set of default apps, many modern and competitive features, and a bustling third-party app ecosystem. We continued to push out monthly updates thanks to a new automated release process, and even made &lt;a href=&quot;introducing-elementary-os-5-1-hera/&quot;&gt;a major 5.1 update&lt;/a&gt; with some big new features and design changes.&lt;/p&gt;
+
+&lt;p&gt;We’ve also been working a lot more with hardware manufacturers, and you can now purchase desktops and laptops with elementary OS pre-installed. Our OEM program has led to improvements in elementary OS for all of our users and continues to make elementary OS better, more easily gettable, and our business more sustainable.&lt;/p&gt;
+
+&lt;div&gt;
+
+
+
+&lt;a class=&quot;featured with-image 1&quot; href=&quot;/now-shipping-elementary-os/&quot;&gt;
+  
+    &lt;div class=&quot;featured-image&quot; alt=&quot;Featured image&quot; style=&quot;background-image: url(/images/now-shipping-elementary-os/card@2x.png);&quot;&gt;&lt;/div&gt;
+  
+
+  &lt;header&gt;
+    &lt;h2&gt;
+
+
+
+   Now Shipping elementary&amp;nbsp;OS
+
+&lt;/h2&gt;
+    
+      &lt;h3&gt;
+        
+
+
+
+   Over a dozen models from two retailers, and&amp;nbsp;counting
+
+
+        
+      &lt;/h3&gt;
+    
+
+    
+
+
+
+&lt;div class=&quot;byline&quot;&gt;
+  &lt;div class=&quot;avatar&quot;&gt;
+    &lt;img srcset=&quot;https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&amp;amp;d=blank 2x&quot; src=&quot;https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&amp;amp;d=blank&quot; alt=&quot;Avatar for Cassidy James Blaede&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;author&quot;&gt;
+    
+    &lt;span class=&quot;name&quot;&gt;Cassidy James Blaede&lt;/span&gt;
+    
+    
+      &lt;span class=&quot;description&quot;&gt;Co-founder &amp;amp; CXO&lt;/span&gt;
+    
+  &lt;/div&gt;
+  &lt;time class=&quot;post-date&quot; datetime=&quot;2020-06-11&quot;&gt;Thu, Jun 11, 2020&lt;/time&gt;
+  
+    &lt;span class=&quot;read-time&quot; title=&quot;Estimated read time&quot;&gt;
+  
+  5 min read
+&lt;/span&gt;
+
+
+  
+&lt;/div&gt;
+
+
+  &lt;/header&gt;
+
+  
+&lt;/a&gt;
+
+
+&lt;/div&gt;
+
+&lt;p&gt;Now, we’re in the &lt;a href=&quot;/updates-for-july-2020&quot;&gt;early access&lt;/a&gt; phase of development on &lt;a href=&quot;https://blog.elementary.io/tags/#odin&quot;&gt;version 6.0&lt;/a&gt; with another huge feature drop planned and big improvements to our developer platform, a brand new look and feel, and more. It’s been a really wild 10 years building this incredibly complicated product and it still feels like we’re just getting started. We set out as a small ragtag group of volunteers to build a better desktop operating system and we’ve grown into a succesful software company with many releases under our belts and a firm place in the wider open source community. I’m extremely proud of everything we’ve accomplished and the influence that we’ve had on others. I think you’re really going to enjoy the sixth major version of elementary OS; we’ve been working on it for 10 years now after all.&lt;/p&gt;
+
+&lt;h2 id=&quot;get-early-access&quot;&gt;Get Early Access&lt;/h2&gt;
+
+&lt;p&gt;If you’re excited by what you read here and want to get your hands on the developer preview of elementary OS 6, you can! GitHub sponsors at the $10/mo or above tier get access to our &lt;a href=&quot;https://builds.elementary.io&quot;&gt;Early Access builds server&lt;/a&gt; where you can test the latest and greatest experimental builds, including images for Raspberry Pi 4 and Pinebook Pro. Subscribing helps us fund the development of elementary OS and brings us that much closer to delivering the final product.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;
+  &lt;p&gt;&lt;a href=&quot;https://builds.elementary.io&quot; class=&quot;button&quot;&gt;Get Early Access Builds&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+          <pubDate>Wed, 31 Mar 2021 00:00:00 -0500</pubDate>
+          <link>https://blog.elementary.io/ten-years/</link>
+          <guid isPermaLink="true">https://blog.elementary.io/ten-years/</guid>
+          
+              
+              
+          <enclosure url="https://blog.elementary.io" />
+          
+          
+          <category>meta</category>
+          
+          
+        </item>
+      
     
       
     
@@ -1434,150 +1683,6 @@
           
           
           <category>odin</category>
-          
-          
-        </item>
-      
-    
-      
-        <item>
-          <title>Slimbook Joins the elementary OS Retailer Program</title>
-          <description>&lt;figure&gt;
-  &lt;p&gt;&lt;img src=&quot;/images/devices-slimbook/slimbook-feature.jpg&quot; alt=&quot;Slimbook Pro X and Apollo&quot; /&gt;&lt;/p&gt;
-  &lt;figcaption&gt;
-    &lt;p&gt;&lt;strong&gt;Left:&lt;/strong&gt; Slimbook Pro X | &lt;strong&gt;Right:&lt;/strong&gt; Slimbook Apollo&lt;/p&gt;
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://slimbook.es?utm_source=referral&amp;amp;utm_medium=elementary&amp;amp;utm_campaign=elementary&quot;&gt;Slimbook&lt;/a&gt; &lt;small&gt;(&lt;a href=&quot;https://slimbook.es/en?utm_source=referral&amp;amp;utm_medium=elementary&amp;amp;utm_campaign=elementary&quot;&gt;English version&lt;/a&gt;)&lt;/small&gt; offers several laptops, desktops, mini desktops, and all-in-ones with elementary OS. Based in Spain, they specialize in hardware specifically designed to run Linux-based operating systems. Slimbook joins &lt;a href=&quot;/now-shipping-elementary-os&quot;&gt;existing retailers&lt;/a&gt; to offer customers an increasingly wide range of devices running elementary OS out of the box while directly supporting elementary with each purchase.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;p&gt;&lt;img src=&quot;/images/devices-slimbook/slimbook-essential-15.jpg&quot; alt=&quot;Slimbook Essential 15&quot; /&gt;&lt;/p&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;This coincides nicely with Slimbook’s recent launch of their new &lt;a href=&quot;https://slimbook.es/essential?utm_source=referral&amp;amp;utm_medium=elementary&amp;amp;utm_campaign=elementary&quot;&gt;Essential&lt;/a&gt; &lt;small&gt;(&lt;a href=&quot;https://slimbook.es/en/essential-en?utm_source=referral&amp;amp;utm_medium=elementary&amp;amp;utm_campaign=elementary&quot;&gt;English version&lt;/a&gt;)&lt;/small&gt; line. These 14- and 15-inch laptops are focused on being more affordable while still offering great hardware. They come with 10th-gen Intel Core processors, backlit keyboards, DDR4 memory, and fast NVMe storage—all starting at 499€ as of this post.&lt;/p&gt;
-
-&lt;div style=&quot;text-align: center&quot;&gt;
-  &lt;p&gt;&lt;a href=&quot;https://slimbook.es?utm_source=referral&amp;amp;utm_medium=elementary&amp;amp;utm_campaign=elementary&quot; class=&quot;button&quot;&gt;Visit Slimbook&lt;/a&gt;&lt;br /&gt;
-&lt;small&gt;&lt;a href=&quot;https://slimbook.es/en?utm_source=referral&amp;amp;utm_medium=elementary&amp;amp;utm_campaign=elementary&quot;&gt;English version&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Slimbook’s joining the program brings the total to over two dozen models from different retailers. For more background on our work with OEMs—including why it’s so important to the user experience—see our &lt;a href=&quot;/now-shipping-elementary-os&quot;&gt;Now Shipping elementary OS&lt;/a&gt; blog post.&lt;/p&gt;
-
-&lt;aside&gt;
-
-
-
-&lt;a class=&quot;featured with-image 1&quot; href=&quot;/now-shipping-elementary-os/&quot;&gt;
-  
-    &lt;div class=&quot;featured-image&quot; alt=&quot;Featured image&quot; style=&quot;background-image: url(/images/now-shipping-elementary-os/card@2x.png);&quot;&gt;&lt;/div&gt;
-  
-
-  &lt;header&gt;
-    &lt;h2&gt;
-
-
-
-   Now Shipping elementary&amp;nbsp;OS
-
-&lt;/h2&gt;
-    
-      &lt;h3&gt;
-        
-
-
-
-   Over a dozen models from two retailers, and&amp;nbsp;counting
-
-
-        
-      &lt;/h3&gt;
-    
-
-    
-
-
-
-&lt;div class=&quot;byline&quot;&gt;
-  &lt;div class=&quot;avatar&quot;&gt;
-    &lt;img srcset=&quot;https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&amp;amp;d=blank 2x&quot; src=&quot;https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&amp;amp;d=blank&quot; alt=&quot;Avatar for Cassidy James Blaede&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;author&quot;&gt;
-    
-    &lt;span class=&quot;name&quot;&gt;Cassidy James Blaede&lt;/span&gt;
-    
-    
-      &lt;span class=&quot;description&quot;&gt;Co-founder &amp;amp; CXO&lt;/span&gt;
-    
-  &lt;/div&gt;
-  &lt;time class=&quot;post-date&quot; datetime=&quot;2020-06-11&quot;&gt;Thu, Jun 11, 2020&lt;/time&gt;
-  
-    &lt;span class=&quot;read-time&quot; title=&quot;Estimated read time&quot;&gt;
-  
-  5 min read
-&lt;/span&gt;
-
-
-  
-&lt;/div&gt;
-
-
-  &lt;/header&gt;
-
-  
-&lt;/a&gt;
-
-
-&lt;/aside&gt;
-
-&lt;h2 id=&quot;updates-from-existing-retailers&quot;&gt;Updates from Existing Retailers&lt;/h2&gt;
-
-&lt;p&gt;Both &lt;a href=&quot;https://laptopwithlinux.com/?ref=36&amp;amp;utm_source=referral&amp;amp;utm_medium=elementary&amp;amp;utm_campaign=elementary&quot;&gt;Laptop with Linux&lt;/a&gt; and &lt;a href=&quot;https://starlabs.systems/?rfsn=4227837.e8f025&quot;&gt;Star Labs&lt;/a&gt; have launched additional models with elementary OS.&lt;/p&gt;
-
-&lt;h3 id=&quot;laptop-with-linux&quot;&gt;Laptop With Linux&lt;/h3&gt;
-
-&lt;p&gt;Laptop With Linux has launched new &lt;a href=&quot;https://laptopwithlinux.com/product/tongfang-pf4nu1f/?ref=36&amp;amp;utm_source=referral&amp;amp;utm_medium=elementary&amp;amp;utm_campaign=elementary&quot;&gt;14-inch&lt;/a&gt; and &lt;a href=&quot;https://laptopwithlinux.com/product/tongfang-pf5nu1g-amd-linux-laptop/?ref=36&amp;amp;utm_source=referral&amp;amp;utm_medium=elementary&amp;amp;utm_campaign=elementary&quot;&gt;15.6-inch&lt;/a&gt; Tongfang laptops with AMD Ryzen processors. These new models sport durable but lightweight magnesium-alloy chassis, IPS displays, and up to 8-core AMD Ryzen 7 4800H processors. As of this post, they start around $740 USD.&lt;/p&gt;
-
-&lt;figure class=&quot;half&quot;&gt;
-  &lt;p&gt;&lt;img src=&quot;/images/devices-slimbook/laptop-with-linux-tongfang-15.png&quot; alt=&quot;Tongfang 15&quot; /&gt;
-&lt;img src=&quot;/images/devices-slimbook/laptop-with-linux-super.jpg&quot; alt=&quot;Super key&quot; /&gt;&lt;/p&gt;
-  &lt;figcaption&gt;
-    &lt;p&gt;&lt;strong&gt;Left:&lt;/strong&gt; Tongfang Ryzen laptop | &lt;strong&gt;Right:&lt;/strong&gt; Close-up of Super key&lt;/p&gt;
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;These models are also the first from Laptop With Linux to feature their new “Super” key design, referred to in elementary OS with the &lt;a href=&quot;/why-the-looped-square-symbol&quot;&gt;Looped Square (⌘) symbol&lt;/a&gt;. Lastly, Laptop with Linux now ships worldwide with VAT-free checkout for countries outside the EU.&lt;/p&gt;
-
-&lt;h3 id=&quot;star-labs&quot;&gt;Star Labs&lt;/h3&gt;
-
-&lt;p&gt;The new &lt;a href=&quot;https://starlabs.systems/pages/lite-mk-iii?rfsn=4227837.e8f025&quot;&gt;Lite Mk III&lt;/a&gt; is available for pre-order from Star Labs now. It’s a tiny, fanless, but capable laptop with an 11-inch matte IPS display. It rocks a backlit keyboard, glass trackpad, and stereo speakers—and it charges over USB-C. As of this post, it starts at $432 USD.&lt;/p&gt;
-
-&lt;figure class=&quot;constrained&quot;&gt;
-  &lt;p&gt;&lt;img src=&quot;/images/devices-slimbook/star-labs-lite-mk-iii.png&quot; alt=&quot;Star Labs Lite Mk III&quot; /&gt;&lt;/p&gt;
-  &lt;figcaption&gt;Star Labs Lite Mk III&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Star Labs is also bringing Coreboot to the &lt;a href=&quot;https://starlabs.systems/pages/labtop-mk-iv?rfsn=4227837.e8f025&quot;&gt;LabTop Mk IV&lt;/a&gt; soon; this means faster boot times and a more open and verifiable boot process.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;As always, you can find our growing list of retailers on our &lt;a href=&quot;https://elementary.io/store/#devices&quot;&gt;store&lt;/a&gt;. If you’re an OEM that would like to discuss becoming a retailer or partner, please see our &lt;a href=&quot;https://elementary.io/oem&quot;&gt;Information for OEMs&lt;/a&gt;.&lt;/p&gt;
-
-&lt;div style=&quot;text-align: center&quot;&gt;
-  &lt;p&gt;&lt;a href=&quot;https://elementary.io/store/#devices&quot; class=&quot;button&quot;&gt;Visit the Store&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-
-</description>
-          <pubDate>Thu, 24 Sep 2020 00:00:00 -0500</pubDate>
-          <link>https://blog.elementary.io/devices-slimbook/</link>
-          <guid isPermaLink="true">https://blog.elementary.io/devices-slimbook/</guid>
-          
-              
-              
-          <enclosure url="https://blog.elementary.io" />
-          
-          
-          <category>devices</category>
           
           
         </item>
