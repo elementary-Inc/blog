@@ -99,6 +99,10 @@ The [new installer for elementary OS](/meet-the-upcoming-installer) is finally h
 {% include featured.html post=post %}
 </div>
 
+## Developer Experience
+
+With any release comes updates to the developer experience, documentation, and publishing workflow—and elementary OS 6 is no different! We've been working hard to update the [Human Interface Guidelines](https://docs.elementary.io/hig) to better answer developer questions and include newer design patterns
+
 ## Release Schedule
 
 At this stage of development, we don't have a release date set for elementary OS 6; that will come once we receive and address beta feedback from users and early testers. We do expect a second beta release and at least one Release Candidate before the stable release.
