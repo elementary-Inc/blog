@@ -33,7 +33,7 @@ Using Stripe Checkout also enables us to easily support nice features like Googl
 [Visit the Store][store]{: .button }
 </div>
 
-Some of the new products I'm excited about are our posters and laptop sleeves. The first poster we've designed is a minimalist typographic piece featuring the [elementary brand palette](https://elementary.io/brand#color) set in our new brand and system typeface, Inter. It comes in both light and dark variants with a choice of a black or white wood frame. The laptop sleeves feature the default wallpapers of the past several OS releases with a subtle overlay of our [new-style "e" logomark](https://elementary.io/brand) in the corner. I can personally confirm that he 13&Prime; sleeves perfectly fit most 13–14&Prime; laptops like Pinebook Pro, Slimbook Pro X (14&Prime;), and Star LabTop Mk IV.
+Some of the new products I'm excited about are our posters and laptop sleeves. The first poster we've designed is a minimalist typographic piece featuring the [elementary brand palette](https://elementary.io/brand#color) set in our new brand and system typeface, Inter. It comes in both light and dark variants with a choice of a black or white wood frame. The laptop sleeves feature the default wallpapers of the past several OS releases with a subtle overlay of our [new-style "e" logomark](https://elementary.io/brand) in the corner. I can personally confirm the 13&Prime; sleeves perfectly fit most 13–14&Prime; laptops like Pinebook Pro, Slimbook Pro X (14&Prime;), and Star LabTop Mk IV.
 
 <figure class="card half no-zoom" markdown="1">
   <picture>
