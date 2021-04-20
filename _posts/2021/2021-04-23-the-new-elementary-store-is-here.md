@@ -5,6 +5,8 @@ author: cassidyjames
 image: /images/the-new-elementary-store-is-here/card.jpg
 tags:
   - meta
+
+hidden: 2020-04-23 00:00:00 UTC
 ---
 
 For the past several months our web team has been working on a new merch store to replace the old manual front-end—and we're ready to debut that work for you all now. Say hello to the new [store.elementary.io][store]!
