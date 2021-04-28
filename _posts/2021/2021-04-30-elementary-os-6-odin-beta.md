@@ -53,7 +53,7 @@ There is _a lot_ new under the hood in elementary OS 6 that developers should be
 {% include featured.html post=post %}
 </div>
 
-We encourage app developers to look into [LibHandy](https://valadoc.org/libhandy-1/Hdy.html) and some of the first-party apps on elementary OS 6 to see how we're using it. In particular, replacing Gtk.Stack with Hdy.Deck will enable multi-touch swipe gestures for navigation, while Hdy.Carousel is great for pagination while also supporting multi-touch swipes. There are also new avatars with Hdy.Avatars, Hdy.Window enables rounded bottom corners and easy window dragging from any widget, and Handy includes a few layout helpers to make it easier to adapt your app's interface across small to large displays.
+We're including [LibHandy](https://valadoc.org/libhandy-1/Hdy.html) in elementary OS 6; we encourage app developers to check it out and look at the first-party apps on elementary OS 6 to see how we're using it. In particular, replacing Gtk.Stack with Hdy.Deck will enable multi-touch swipe gestures for navigation, while Hdy.Carousel is great for pagination while also supporting multi-touch swipes. There are also new avatars with Hdy.Avatars, Hdy.Window enables rounded bottom corners and easy window dragging from any widget, and Handy includes a few layout helpers to make it easier to adapt your app's interface across small to large displays.
 
 <div style="margin: 3em auto;">
 {% assign post = site.posts | where:"slug", "multitouch-gestures-in-elementary-os-6" | first %}
