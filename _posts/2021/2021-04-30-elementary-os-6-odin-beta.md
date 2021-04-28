@@ -96,7 +96,7 @@ At this point in the beta, more complex developer-facing apps like Code and Term
 
 While we'll save the full rundown of new features for the stable release blog post, we do have some new apps and features that we'd love beta tester feedback on.
 
-Mail has been completely rewritten; instead of relying on the custom Geary mail back-end, it now uses the system's Evolution Data Server which brings much wider mail server compatibility. Tasks is a new app that also talks to Evolution Data Server, enabling seeing and synchronizing your to-dos to various services. Currently, **setting an account up requires installing Evolution from AppCenter** and configuring it there; for the stable release this will be set up in Online Accounts settings, but that work is incomplete.
+Mail has been completely rewritten; instead of relying on the custom Geary mail back-end, it now uses the system's Evolution Data Server which brings much wider mail server compatibility. Tasks is a new app that also talks to Evolution Data Server, enabling seeing and synchronizing your to-dos to various services. Currently, **setting an account up requires installing Evolution from the Ubuntu repos** (e.g. with `sudo apt install evolution`) and configuring your account there; for the stable release this will be set up in Online Accounts settings, but that work is not yet complete.
 
 Files has a rewritten sidebar and—after a lot of testing and user feedback—a new navigation mode: single-click to navigate within the app with a double click to open files in their default app. Files has always been single-click to open, but this new hybrid approach strikes a balance between fast, consistent navigation while avoiding accidental opens of large files.
 
