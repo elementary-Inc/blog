@@ -46,21 +46,21 @@ But here's a recap for you all in one place, as well as links to more detailed i
 
 ### Platform Changes
 
-There is _a lot_ new under the hood in elementary OS 6. The new Settings Daemon improves reliability and enables new features like the automatic time-based dark style preference. The new screen shield improves reliability of suspend, locking, and unlocking while enabling new features like continued music playback even when your display has gone to sleep. A new screenshot interface simplifies the Screenshot app, improves consistency between the app and using keyboard shortcuts, and even enables new features like taking a screenshot of an app from its window context menu. An all-new notifications system brings native GTK features to notifications bubbles as well as a new multi-touch friendly design for the notifications indicator.
+There is _a lot_ new under the hood in elementary OS 6 that developers should be aware of. The new screen shield brings continued audio playback even when the display has gone to sleep, enabling new use cases for your apps. We've completely revamped the notifications system with a new notifications server and a refreshed design; make sure your apps' notifications are showing properly on elementary OS 6, and please send feedback if something isn't working as you'd expect.
 
 <div style="margin: 3em auto;">
 {% assign post = site.posts | where:"slug", "platform-changes-in-elementary-os-6" | first %}
 {% include featured.html post=post %}
 </div>
 
-Speaking of multi-touch, there are two major new platform inclusions: Touchégg and LibHandy. Touchégg enables multi-touch gestures in the window manager—e.g. for switching between workspaces, while the inclusion of LibHandy also enables easy multi-touch gestures throughout apps.
-
-For app developers, we encourage you to look into [LibHandy](https://valadoc.org/libhandy-1/Hdy.html) and some of the first-party apps on elementary OS 6 to see how we're using it. In particular, replacing Gtk.Stack with Hdy.Deck will enable multi-touch swipe gestures for navigation, while Hdy.Carousel is great for pagination while also supporting multi-touch swipes. There are also new avatars with Hdy.Avatars, Hdy.Window enables rounded bottom corners and easy window dragging from any widget, and Handy includes a few layout helpers to make it easier to adapt your app's interface across small to large displays.
+We encourage app developers to look into [LibHandy](https://valadoc.org/libhandy-1/Hdy.html) and some of the first-party apps on elementary OS 6 to see how we're using it. In particular, replacing Gtk.Stack with Hdy.Deck will enable multi-touch swipe gestures for navigation, while Hdy.Carousel is great for pagination while also supporting multi-touch swipes. There are also new avatars with Hdy.Avatars, Hdy.Window enables rounded bottom corners and easy window dragging from any widget, and Handy includes a few layout helpers to make it easier to adapt your app's interface across small to large displays.
 
 <div style="margin: 3em auto;">
 {% assign post = site.posts | where:"slug", "multitouch-gestures-in-elementary-os-6" | first %}
 {% include featured.html post=post %}
 </div>
+
+We've added several new widgets, utilities and constants to [Granite](https://valadoc.org/granite/Granite.html), our GTK companion library. `Granite.Dialog` is a big one that simplifies creating dialogs following the elementary HIG. `Granite.SwitchModelButton` simplifies adding switches to `Gtk.Popover` menus, as seen in Terminal and Camera. `Granite.ValidatedEntry` brings client-side validation to user inputs—we'd love feedback about how you're validating entries in forms so we can make that experience easier in future updates as well. `TOOLTIP_SECONDARY_TEXT_MARKUP` is a constant for adding a smaller second line to `Gtk.Tooltips`, as seen in the new Panel indicator tooltips. `STYLE_CLASS_SMALL_LABEL` enables smaller `Gtk.Labels` without having to use Pango markup. `STYLE_CLASS_WARMTH` and `STYLE_CLASS_TEMPERATURE` are new constants for scales, as seen in the editor in Photos. `STYLE_CLASS_DEFAULT_DECORATION` is a new constant for slim header bars. `TRANSITION_DURATION_OPEN` and `TRANSITION_DURATION_CLOSE` are new constants for use in GTK animations to ensure consistency throughout the system. There have also been a number of deprecations and removals, so be sure to build, test, and update your apps for Granite 6.0 and elementary OS 6.
 
 A major shift for elementary OS 6 is the inclusion of Flatpak apps out of the box, as well as an entirely Flatpak-based AppCenter ecosystem. We've created and are shipping a Flatpak platform and SDK that include all of the FreeDesktop, GNOME, and elementary libraries and technologies your apps will need to be built as a Flatpak—think of the platform as the elementary OS base in Flatpak form. We've updated the relevant [developer docs](https://docs.elementary.io/develop/) to include information about [packaging your app as a Flatpak](https://docs.elementary.io/develop/writing-apps/our-first-app/packaging).
 
@@ -75,6 +75,8 @@ We've also been hard at work refreshing the [Human Interface Guidelines](https:/
 ### Look & Feel
 
 elementary OS 6 is coming with an all-new system stylesheet that retains the essential feel of elementary OS while honing in on the use of elevation and shadow—all while enabling great new user-facing features like system-wide accent colors and a dark style preference. We've also refreshed typography, unifying on the Inter typeface in various weights. App developers, be sure to test your apps against the new stylesheet and typography to ensure your app looks and feels as good as possible—and consistent with our first-party apps.
+
+If you run into stylesheet issues as a developer, **please send feedback first** before trying to work around things with custom CSS; it's possible we missed some pattern you and other developers rely on. We also welcome feedback in general about anything you're using custom CSS for that we could upstream to make available to all apps.
 
 <div style="margin: 3em auto;">
 {% assign post = site.posts | where:"slug", "look-and-feel-changes-elementary-os-6" | first %}
@@ -98,7 +100,7 @@ Mail has been completely rewritten; instead of relying on the custom Geary mail 
 
 Files has a rewritten sidebar and—after a lot of testing and user feedback—a new navigation mode: single-click to navigate within the app with a double click to open files in their default app. Files has always been single-click to open, but this new hybrid approach strikes a balance between fast, consistent navigation while avoiding accidental opens of large files.
 
-We've also redesigned a few System Settings views, and welcome feedback about them: Desktop has gotten a lot of attention to the Appearance tab with the new dark style preferences, accent colors, and dyslexia-friendly text setting. The Hot Corners tab has also been renamed to Multitasking with the addition of toggles for moving windows to a new workspace when entering fullscreen or maximizing. New gestures preferences have been added to Mouse & Touchpad settings. Date & Time settings have been redesigned with an easier to use time zone selection and new controls for what to show in the Date & Time indicator on the Panel. The "About" view in System Settings has been renamed "System" and completely redesigned with the important addition displaying and updating device firmware with [fwupd and the Linux Vendor Firmware Service](https://fwupd.org/).
+We've also redesigned a few System Settings views, and welcome feedback about them: Desktop has gotten a lot of attention to the Appearance tab with the new dark style preferences, accent colors, and dyslexia-friendly text setting. The Hot Corners tab has also been renamed to Multitasking with the addition of toggles for moving windows to a new workspace when entering fullscreen or maximizing. New gestures preferences have been added to Mouse & Touchpad settings. And the "About" view in System Settings has been renamed "System" and completely redesigned with the important addition displaying and updating device firmware with [fwupd and the Linux Vendor Firmware Service](https://fwupd.org/).
 
 <div style="margin: 3em auto;">
 {% assign post = site.posts | where:"slug", "meet-the-upcoming-installer" | first %}
