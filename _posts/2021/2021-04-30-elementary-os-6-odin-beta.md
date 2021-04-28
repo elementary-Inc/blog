@@ -55,7 +55,7 @@ There is _a lot_ new under the hood in elementary OS 6. The new Settings Daemon 
 
 Speaking of multi-touch, there are two major new platform inclusions: Touchégg and LibHandy. Touchégg enables multi-touch gestures in the window manager—e.g. for switching between workspaces, while the inclusion of LibHandy also enables easy multi-touch gestures throughout apps.
 
-For app developers, we encourage you to look into LibHandy and some of the first-party apps on elementary OS 6 to see how we're using it for multi-touch. In particular, replacing Gtk.Stack with Hdy.Deck will enable swipe gestures for navigation, while Hdy.Carousel is great for pagination while supporting multi-touch swipes.
+For app developers, we encourage you to look into [LibHandy](https://valadoc.org/libhandy-1/Hdy.html) and some of the first-party apps on elementary OS 6 to see how we're using it. In particular, replacing Gtk.Stack with Hdy.Deck will enable multi-touch swipe gestures for navigation, while Hdy.Carousel is great for pagination while also supporting multi-touch swipes. There are also new avatars with Hdy.Avatars, Hdy.Window enables rounded bottom corners and easy window dragging from any widget, and Handy includes a few layout helpers to make it easier to adapt your app's interface across small to large displays.
 
 <div style="margin: 3em auto;">
 {% assign post = site.posts | where:"slug", "multitouch-gestures-in-elementary-os-6" | first %}
@@ -75,8 +75,6 @@ We've also been hard at work refreshing the [Human Interface Guidelines](https:/
 ### Look & Feel
 
 elementary OS 6 is coming with an all-new system stylesheet that retains the essential feel of elementary OS while honing in on the use of elevation and shadow—all while enabling great new user-facing features like system-wide accent colors and a dark style preference. We've also refreshed typography, unifying on the Inter typeface in various weights. App developers, be sure to test your apps against the new stylesheet and typography to ensure your app looks and feels as good as possible—and consistent with our first-party apps.
-
-We're also making heavy use of LibHandy throughout the default apps, and we encourage you to look into it as well; there are new Hdy.Avatars, Hdy.Window enables rounded bottom corners and easy dragging from any widget, and Handy includes a few layout helpers to make it easier to adapt your app's interface across small to large displays.
 
 <div style="margin: 3em auto;">
 {% assign post = site.posts | where:"slug", "look-and-feel-changes-elementary-os-6" | first %}
