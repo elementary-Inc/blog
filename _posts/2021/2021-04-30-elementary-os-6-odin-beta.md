@@ -37,7 +37,7 @@ Once we are comfortable with the state of the latest Release Candidate, we promo
 
 Lucky for developers, we've been detailing the changes in elementary OS 6 since August of last year. To start, you might want to check out the very first blog post about elementary OS 6, where we highlight what's to come:
 
-<div>
+<div style="margin: 3em auto;">
 {% assign post = site.posts | where:"slug", "updates-for-july-2020" | first %}
 {% include featured.html post=post %}
 </div>
@@ -48,19 +48,29 @@ But here's a recap for you all in one place, as well as links to more detailed i
 
 There is _a lot_ new under the hood in elementary OS 6. The new Settings Daemon improves reliability and enables new features like the automatic time-based dark style preference. The new screen shield improves reliability of suspend, locking, and unlocking while enabling new features like continued music playback even when your display has gone to sleep. A new screenshot interface simplifies the Screenshot app, improves consistency between the app and using keyboard shortcuts, and even enables new features like taking a screenshot of an app from its window context menu. An all-new notifications system brings native GTK features to notifications bubbles as well as a new multi-touch friendly design for the notifications indicator.
 
-<div>
+<div style="margin: 3em auto;">
 {% assign post = site.posts | where:"slug", "platform-changes-in-elementary-os-6" | first %}
 {% include featured.html post=post %}
 </div>
 
 Speaking of multi-touch, there are two major new platform inclusions: Touchégg and LibHandy. Touchégg enables multi-touch gestures in the window manager—e.g. for switching between workspaces, while the inclusion of LibHandy also enables easy multi-touch gestures throughout apps.
 
-<div>
+For app developers, we encourage you to look into LibHandy and some of the first-party apps on elementary OS 6 to see how we're using it for multi-touch. In particular, replacing Gtk.Stack with Hdy.Deck will enable swipe gestures for navigation, while Hdy.Carousel is great for pagination while supporting multi-touch swipes.
+
+<div style="margin: 3em auto;">
 {% assign post = site.posts | where:"slug", "multitouch-gestures-in-elementary-os-6" | first %}
 {% include featured.html post=post %}
 </div>
 
-For app developers, we encourage you to look into LibHandy and some of the first-party apps on elementary OS 6 to see how we're using it for multi-touch. In particular, replacing Gtk.Stack with Hdy.Deck will enable swipe gestures for navigation, while Hdy.Carousel is great for pagination while supporting multi-touch swipes.
+A major shift for elementary OS 6 is the inclusion of Flatpak apps out of the box, as well as an entirely Flatpak-based AppCenter ecosystem. We've created and are shipping a Flatpak platform and SDK that include all of the FreeDesktop, GNOME, and elementary libraries and technologies your apps will need to be built as a Flatpak—think of the platform as the elementary OS base in Flatpak form. We've updated the relevant [developer docs](https://docs.elementary.io/develop/) to include information about [packaging your app as a Flatpak](https://docs.elementary.io/develop/writing-apps/our-first-app/packaging).
+
+<aside markdown="1">
+>A major shift for elementary OS 6 is the inclusion of Flatpak apps out of the box, as well as an entirely Flatpak-based AppCenter ecosystem.
+</aside>
+
+If you already have an app on AppCenter or are developing one for elementary OS 6, we highly encourage you to familiarize yourself with writing a Flatpak manifest and testing your app as a Flatpak, as **all AppCenter apps in elementary OS 6 and beyond will be built as Flatpaks**. The publishing flow for Flatpak apps in AppCenter is not yet open, but will be when elementary OS 6 is released; hang tight, get familiarized with it locally, and we'll provide more information here on the blog when it's ready.
+
+We've also been hard at work refreshing the [Human Interface Guidelines](https://docs.elementary.io/hig/) for elementary OS 6; first, we've moved them to a new Gitbook-powered docs site alongside the developer documentation, creating a much more cohesive and better-organized one-stop-shop for all your docs. We've also been updating the HIG to better address questions, remove deprecated patterns, and add new widgets and patterns for elementary OS 6. Give it a fresh read-through, or search for the specific answers you're looking for! If there's something you feel is missing, please file an issue against [the new standalone HIG repo on GitHub](https://github.com/elementary/hig/), and we can discuss and address it there.
 
 ### Look & Feel
 
@@ -68,17 +78,19 @@ elementary OS 6 is coming with an all-new system stylesheet that retains the ess
 
 We're also making heavy use of LibHandy throughout the default apps, and we encourage you to look into it as well; there are new Hdy.Avatars, Hdy.Window enables rounded bottom corners and easy dragging from any widget, and Handy includes a few layout helpers to make it easier to adapt your app's interface across small to large displays.
 
-<div>
+<div style="margin: 3em auto;">
 {% assign post = site.posts | where:"slug", "look-and-feel-changes-elementary-os-6" | first %}
 {% include featured.html post=post %}
 </div>
 
 And as we've been teasing quite a bit, elementary OS 6 introduces a dark style preference for the first time. Importantly, this is **opt-in** for app developers; by default, your app will behave the same as in previous versions of elementary OS, using the light or dark variant of the stylesheet—whichever it requests. But in elementary OS 6, your app can bind to [Granite.Settings.ColorScheme](https://valadoc.org/granite/Granite.Settings.ColorScheme.html) to respond to the user's preference, e.g. by requesting the dark stylesheet variant and providing alternate in-app styles. For most apps, we recommend just going along with the user's preference by default—but if your app has a specialized use or multiple color schemes, you should start considering how your app will respond to the user's preference.
 
-<div>
+<div style="margin: 3em auto;">
 {% assign post = site.posts | where:"slug", "dark-style-progress" | first %}
 {% include featured.html post=post %}
 </div>
+
+At this point in the beta, more complex developer-facing apps like Code and Terminal do not yet interact with the dark style preference; they retain their in-app color scheme settings. This may change before the final release of elementary OS 6.
 
 ### New & Updated Apps, Other User-facing Features
 
@@ -90,22 +102,32 @@ Files has a rewritten sidebar and—after a lot of testing and user feedback—a
 
 We've also redesigned a few System Settings views, and welcome feedback about them: Desktop has gotten a lot of attention to the Appearance tab with the new dark style preferences, accent colors, and dyslexia-friendly text setting. The Hot Corners tab has also been renamed to Multitasking with the addition of toggles for moving windows to a new workspace when entering fullscreen or maximizing. New gestures preferences have been added to Mouse & Touchpad settings. Date & Time settings have been redesigned with an easier to use time zone selection and new controls for what to show in the Date & Time indicator on the Panel. The "About" view in System Settings has been renamed "System" and completely redesigned with the important addition displaying and updating device firmware.
 
-### Installer
-
-The [new installer for elementary OS](/meet-the-upcoming-installer) is finally here and brings much faster and more straightforward installs for both end users and OEMs. This is an area we would appreciate a lot of testing across different hardware and configurations, so if you are able to spare a non-primary machine for elementary OS testing, start by installing it!
-
-<div>
+<div style="margin: 3em auto;">
 {% assign post = site.posts | where:"slug", "meet-the-upcoming-installer" | first %}
 {% include featured.html post=post %}
 </div>
 
-## Developer Experience
+The [new installer for elementary OS](/meet-the-upcoming-installer) is finally here and brings much faster and more straightforward installs for both end users and OEMs. This is an area we would appreciate a lot of testing across different hardware and configurations, so if you are able to spare a non-primary machine for elementary OS testing, start by installing it!
 
-With any release comes updates to the developer experience, documentation, and publishing workflow—and elementary OS 6 is no different! We've been working hard to update the [Human Interface Guidelines](https://docs.elementary.io/hig) to better answer developer questions and include newer design patterns
+## Providing Feedback
+
+A major part of the beta process is having people test these changes and report back! If you have feedback regarding and of the user-facing changes or notice any regressions in functionality, stability, etc. please file an issue.
+
+<figure>
+  <picture>
+    <source srcset="/images/{{ page.slug }}/feedback-dark.png" media="(prefers-color-scheme: dark)">
+    <img alt="Feedback tool" src="/images/{{ page.slug }}/feedback-light.png" width="692" height="421" />
+  </picture>
+<figcaption>System Settings → System → Send Feedback</figcaption>
+</figure>
+
+The best way to do so is via the built-in Feedback tool in elementary OS 6: search "feedback" in the Applications Menu, or head to _System Settings_ → _System_ → _Send Feedback_. The Feedback tool will help you determine which component is affected, and open its GitHub issues page in your web browser where you can check for an existing issue and report it if it's indeed new.
+
+Otherwise, you can always head to the [elementary GitHub organization](https://github.com/elementary) and search for the proper component there. Double-check the README on the repository you choose before filing an issue to make sure it's the right component, and please **always use the provided issue templates**; it significantly cuts down on the time required for us to confirm, triage, and ultimately address reported issues.
 
 ## Release Schedule
 
-At this stage of development, we don't have a release date set for elementary OS 6; that will come once we receive and address beta feedback from users and early testers. We do expect a second beta release and at least one Release Candidate before the stable release.
+At this stage of development, we don't have a release date set for elementary OS 6; that will come once we receive and address beta feedback from users and early testers. We do expect a second beta release and at least one Release Candidate before the stable release. As has been the case throughout all of the development of elementary OS 6, you can follow along on the [public project board](https://github.com/orgs/elementary/projects/55) to get a sense of the outstanding tasks and our progress—or where you can pitch in!
 
 ## Get It
 
