@@ -76,7 +76,7 @@ We've also been hard at work refreshing the [Human Interface Guidelines](https:/
 
 elementary OS 6 is coming with an all-new system stylesheet that retains the essential feel of elementary OS while honing in on the use of elevation and shadow—all while enabling great new user-facing features like system-wide accent colors and a dark style preference. We've also refreshed typography, unifying on the Inter typeface in various weights. App developers, be sure to test your apps against the new stylesheet and typography to ensure your app looks and feels as good as possible—and consistent with our first-party apps.
 
-If you run into stylesheet issues as a developer, **please send feedback first** before trying to work around things with custom CSS; it's possible we missed some pattern you and other developers rely on. We also welcome feedback in general about anything you're using custom CSS for that we could upstream to make available to all apps.
+If you run into stylesheet issues as a developer, **please [file an issue on the stylesheet repo](https://github.com/elementary/stylesheet/) before trying to work around things** with custom CSS; it's possible we missed some pattern you and other developers rely on. We also welcome feedback in general about anything you're using custom CSS for that we could upstream to make available to all apps.
 
 <div style="margin: 3em auto;">
 {% assign post = site.posts | where:"slug", "look-and-feel-changes-elementary-os-6" | first %}
