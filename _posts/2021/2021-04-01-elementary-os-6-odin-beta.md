@@ -29,7 +29,7 @@ Beta releases are a snapshot of Early Access builds once the developer platform 
 >Beta releases are a snapshot of Early Access builds… we still caution against using beta releases as your daily driver
 </aside>
 
-Release Candidates are what they sound like: candidates for the stable release. These are built on the stable repositories, benefiting from the more vigorous human testing that goes into stable releases. At this point, we consider the release "complete," and any further work is finding and fixing remaining bugs before the stable release.
+Release Candidates are what they sound like: candidates for the stable release. These are built on the stable repositories, benefiting from the more rigorous human testing that goes into stable releases. At this point, we consider the release "complete," and any further work is finding and fixing remaining bugs before the stable release.
 
 Once we are comfortable with the state of the latest Release Candidate, we promote it to the stable release.
 
