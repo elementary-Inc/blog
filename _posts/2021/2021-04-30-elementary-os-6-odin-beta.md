@@ -127,7 +127,7 @@ Otherwise, you can always head to the [elementary GitHub organization](https://g
 
 ## Release Schedule
 
-At this stage of development, we don't have a release date set for elementary OS 6; that will come once we receive and address beta feedback from users and early testers. We do expect a second beta release and at least one Release Candidate before the stable release. As has been the case throughout all of the development of elementary OS 6, you can follow along on the [public project board](https://github.com/orgs/elementary/projects/55) to get a sense of the outstanding tasks and our progress—or where you can pitch in!
+At this stage of development, we don't have a release date set for elementary OS 6; that will come once we receive and address beta feedback from users and early testers. We do expect a second beta release and at least one Release Candidate before the stable release. As has been the case throughout all of the development of elementary OS 6, you can follow along on the [public project board] to get a sense of the outstanding tasks and our progress—or where you can pitch in!
 
 Also note that the experimental Early Access builds for ARM-based devices like Pinebook Pro and Raspberry Pi are currently paused; with the move to Flatpak for some core apps, we'll need to sort out an ARM-based Flatpak build infrastructure before they can resume.
 
@@ -139,8 +139,14 @@ If you're an app developer or eager tester, you can get elementary OS 6 Beta for
 [Download elementary OS 6 Beta](https://builds.elementary.io){: .button }
 </div>
 
+## Disclaimer & Known Issues
+
+As with any pre-release software, there are are some known issues in this first beta release. Check the [public project board] for known regressions, as well as the progress towards the stable release. And as always:
+
 - We **do not recommend using beta builds on your primary device**, as irrecoverable crashes and data loss are possible.
 
 - **It will not be possible to upgrade to the stable release** from beta builds.
 
 - Several **user-facing features are unfinished** and in rapid development; beta releases are intended for developers.
+
+[public project board]: https://github.com/orgs/elementary/projects/55
