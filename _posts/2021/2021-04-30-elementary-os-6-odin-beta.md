@@ -129,9 +129,11 @@ Otherwise, you can always head to the [elementary GitHub organization](https://g
 
 At this stage of development, we don't have a release date set for elementary OS 6; that will come once we receive and address beta feedback from users and early testers. We do expect a second beta release and at least one Release Candidate before the stable release. As has been the case throughout all of the development of elementary OS 6, you can follow along on the [public project board](https://github.com/orgs/elementary/projects/55) to get a sense of the outstanding tasks and our progress—or where you can pitch in!
 
+Also note that the experimental Early Access builds for ARM-based devices like Pinebook Pro and Raspberry Pi are currently paused; with the move to Flatpak for some core apps, we'll need to sort out an ARM-based build infrastructure before they can resume.
+
 ## Get It
 
-If you're an app developer or eager tester, you can get elementary OS 6 Beta today from our Early Access site. While Early Access builds are typically limited to GitHub Sponsors, beta releases are being made available to the general public in the interest of wider testing and app development.
+If you're an app developer or eager tester, you can get elementary OS 6 Beta for 64-bit AMD/Intel today from our builds site. While Early Access builds are limited to GitHub Sponsors, beta releases are being made available to the general public in the interest of wider testing and app development.
 
 <div style="text-align: center" markdown="1">
 [Download elementary OS 6 Beta](https://builds.elementary.io){: .button }
