@@ -5,6 +5,11 @@ author: cassidyjames
 image: /images/the-new-elementary-store-is-here/card.jpg
 tags:
   - meta
+
+facebook: https://www.facebook.com/elementaryos/posts/4286648391366957
+mastodon: https://mastodon.social/@elementary/106134202983908716
+reddit: https://www.reddit.com/r/elementaryos/comments/mzaw66/the_new_elementary_store_is_here_elementary_blog/
+twitter: https://twitter.com/elementary/status/1386822938993831936
 ---
 
 For the past several months our web team has been working on a new merch store to replace the old manual front-end—and we're ready to debut that work for you all now. Say hello to the new [store.elementary.io][store]!

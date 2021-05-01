@@ -7,6 +7,11 @@ tags:
   - early-access
   - odin
   - devs
+
+facebook: https://www.facebook.com/elementaryos/posts/4298503596848103
+mastodon: https://mastodon.social/@elementary/106157045038618305
+reddit: https://www.reddit.com/r/elementaryos/comments/n26x5e/elementary_os_6_beta_available_today/
+twitter: https://twitter.com/elementary/status/1388284865645367297
 ---
 
 Developers and testers, it's the day you've been waiting for: elementary OS 6 Beta is available now! We first started [talking publicly about elementary OS 6](/updates-for-july-2020) in August of last year. In the time since, we've been hard at work tackling the ambitious scope of work we laid out for ourselves while also dealing with the fallout of a global pandemic, travel restrictions, and loss in our own circles of family and friends.
