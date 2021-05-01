@@ -6,6 +6,7 @@ image: /images/elementary-os-on-pinebook-pro/card.jpg
 tags:
   - ARM
   - devices
+  - early-access
   - odin
 
 mastodon: https://mastodon.social/@elementary/104769088433768333
