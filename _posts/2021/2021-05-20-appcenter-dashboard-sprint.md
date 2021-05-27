@@ -2,12 +2,19 @@
 title: AppCenter Dashboard Sprint Spring 2021
 description: Big steps for the Flatpak-based AppCenter
 author: danrabbit
-image:
+image: /images/appcenter-dashboard-sprint/owen-lystrup-unsplash.jpg
 tags:
   - appcenter
   - odin
   - devs
 ---
+
+<figure class="full-bleed" markdown="1">
+![Denver's Union Station](/images/appcenter-dashboard-sprint/owen-lystrup-unsplash.jpg)
+  <figcaption markdown="1">
+  Denver's Union Station by Owen Lystrup on [Unsplash](https://unsplash.com/photos/chaqHXlOzYs)
+  </figcaption>
+</figure>
 
 Last year we ran a crowdfunding campaign for an ambitious project called "AppCenter for Everyone." The goal of this project was to move our pay-what-you-want app store from being Debian package based and largely locked in to elementary OS to being based on Flatpak and available for use on any modern Linux-based desktop. Though we successfully met and exceeded our funding goal, we had to postpone the in-person sprint due to the COVID-19 pandemic. Over a year later—and with the availability of the vaccine—we decided to split this work up into multiple sprints, starting with one focused on the publishing workflow. This month, I flew out to Denver, Colorado to work with Blake Kostner and Cassidy James, and I'm excited to share with you what we achieved.
 
@@ -30,4 +37,4 @@ As an aside, Cassidy and I also spent some time working on the new stylesheet an
 
 I want to give a special shout out and thank you to developers working on Flathub and the wider Flatpak ecosystem. They've been an immense help offering their time and knowledge.
 
-If you're looking for news about elementary OS 6 Beta 2, hang tight! We'll have more information soon about the improvements we've made on the road to the final stable release.
+If you're looking for news about elementary OS 6 Beta 2, hang tight! We'll have more information soon about the improvements we've made on the road to the final stable release. As always, you can watch the [project board on GitHub](https://github.com/orgs/elementary/projects/55) to see outstanding tasks.
