@@ -5,9 +5,122 @@
     <description>We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS</description>
     <link>https://blog.elementary.io/</link>
     <atom:link href="https://blog.elementary.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 26 May 2021 19:09:22 -0500</pubDate>
-    <lastBuildDate>Wed, 26 May 2021 19:09:22 -0500</lastBuildDate>
+    <pubDate>Thu, 27 May 2021 14:39:33 -0500</pubDate>
+    <lastBuildDate>Thu, 27 May 2021 14:39:33 -0500</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      
+        <item>
+          <title>AppCenter Dashboard Sprint Spring 2021</title>
+          <description>&lt;figure class=&quot;full-bleed&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/appcenter-dashboard-sprint/owen-lystrup-unsplash.jpg&quot; alt=&quot;Denver's Union Station&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;Denver’s Union Station by Owen Lystrup on &lt;a href=&quot;https://unsplash.com/photos/chaqHXlOzYs&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Last year we ran a crowdfunding campaign for an ambitious project called “AppCenter for Everyone.” The goal of this project was to move our pay-what-you-want app store from being Debian package based and largely locked in to elementary OS to being based on Flatpak and available for use on any modern Linux-based desktop. Though we successfully met and exceeded our funding goal, we had to postpone the in-person sprint due to the COVID-19 pandemic. Over a year later—and with the availability of the vaccine—we decided to split this work up into multiple sprints, starting with one focused on the publishing workflow. This month, I flew out to Denver, Colorado to work with Blake Kostner and Cassidy James, and I’m excited to share with you what we achieved.&lt;/p&gt;
+
+&lt;div style=&quot;margin: 3em auto;&quot;&gt;
+
+
+
+&lt;a class=&quot;featured with-image 1&quot; href=&quot;/appcenter-for-everyone/&quot;&gt;
+  
+    &lt;div class=&quot;featured-image&quot; alt=&quot;Featured image&quot; style=&quot;background-image: url(/images/appcenter-for-everyone/header.jpg);&quot;&gt;&lt;/div&gt;
+  
+
+  &lt;header&gt;
+    &lt;h2&gt;
+
+
+
+   AppCenter for&amp;nbsp;Everyone
+
+&lt;/h2&gt;
+    
+      &lt;h3&gt;
+        
+
+
+
+   Taking the indie, open source app store to the next&amp;nbsp;level
+
+
+         →
+      &lt;/h3&gt;
+    
+
+    
+
+
+
+&lt;div class=&quot;byline&quot;&gt;
+  &lt;div class=&quot;avatar&quot;&gt;
+    &lt;img srcset=&quot;https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&amp;amp;d=blank 2x&quot; src=&quot;https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&amp;amp;d=blank&quot; alt=&quot;Avatar for Daniel Foré&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;author&quot;&gt;
+    
+    &lt;span class=&quot;name&quot;&gt;Daniel Foré&lt;/span&gt;
+    
+    
+      &lt;span class=&quot;description&quot;&gt;Founder &amp;amp; CEO&lt;/span&gt;
+    
+  &lt;/div&gt;
+  &lt;time class=&quot;post-date&quot; datetime=&quot;2020-02-07&quot;&gt;Fri, Feb  7, 2020&lt;/time&gt;
+  
+    &lt;span class=&quot;read-time&quot; title=&quot;Estimated read time&quot;&gt;
+  
+  1 min read
+&lt;/span&gt;
+
+
+  
+&lt;/div&gt;
+
+
+  &lt;/header&gt;
+
+  
+&lt;/a&gt;
+
+
+&lt;/div&gt;
+
+&lt;p&gt;We kicked off the week by discussing where the current publishing experience could be improved. Transparency was a big theme, including issues with communicating review times, recording reviewer discussions and actions, and making it easier to contribute to as an open source project. We also wanted to make sure there was a way to actively notify reviewers of pending reviews and improve the performance of the dashboard for people who have access to a large number of repositories. After some time brainstorming, we decided that the dashboard should be split up into two projects: the &lt;a href=&quot;https://github.com/elementary/appcenter-dashboard&quot;&gt;AppCenter Dashboard&lt;/a&gt; itself where developers submit their apps, connect to Stripe, etc. and &lt;a href=&quot;https://github.com/elementary/appcenter-reviews&quot;&gt;a new repository for reviewers&lt;/a&gt; where app submissions are processed as GitHub pull requests and ultimately published using GitHub Actions.&lt;/p&gt;
+
+&lt;p&gt;The design and workflow of the AppCenter Dashboard will remain largely the same for app developers with just a couple of small differences. First, instead of trying to read and list all of the GitHub repositories you have access to, the new dashboard will only list apps for which you have explicitly submitted a repository URL. This should make the dashboard much faster and less cluttered, and reduces the scope of permissions needed for our GitHub integration. Second, there will be some minor changes to the way Stripe Connect API keys are generated and linked to your app. We’re still working out the exact design details, but it should make monetizing your app a little more explicit.&lt;/p&gt;
+
+&lt;p&gt;On the review and publishing side, things will be very different from the previous workflow. Instead of an internal reviewer dashboard, reviews will now be processed as GitHub pull requests. This means the review queue will be publicly visible, as will discussion by reviewers and who approved or requested changes on your app. This also means reviewers will be proactively notified on GitHub and on our company Slack when apps are submitted, which should help cut down on review times. Publishing is now built on GitHub Actions using the &lt;a href=&quot;https://github.com/bilelmoussaoui/flatpak-github-actions&quot;&gt;Flatpak Builder action&lt;/a&gt; maintained by Bilal Elmoussaoui. We’re especially happy to be working upstream there on a common codebase and have already submitted our first pull request to improve it for everyone. Automated tests run as part of the review process will now also be built using GitHub Actions, which should make them much easier to write and re-use in your own CI. And speaking of CI, as of the sprint we’re also building a &lt;a href=&quot;https://github.com/orgs/elementary/packages/container/package/flatpak-platform%2Fruntime&quot;&gt;publicly available container&lt;/a&gt; that includes the elementary platform to substantially reduce Flatpak build times.&lt;/p&gt;
+
+&lt;p&gt;There’s still some work to do before we’re ready for developers to submit their Flatpak apps through the new dashboard, but the submission process is already a working MVP. We’ll be reaching out shortly to developers on a case-by-case basis to start testing, and submissions should be open to everyone shortly after that. If you haven’t yet packaged your app as a Flatpak, now is a great time to do so; the &lt;a href=&quot;https://docs.elementary.io/develop/writing-apps/our-first-app/packaging&quot;&gt;developer documentation&lt;/a&gt; has already been updated.&lt;/p&gt;
+
+&lt;p&gt;During the week we spent some time packaging and deploying more of our own first party apps as Flatpaks; we’re now shipping Camera, Mail, and Tasks as Flatpaks in elementary OS 6. Eventually, our plan is to ship all of our first-party apps as Flatpaks published via AppCenter Dashboard. In this way, we’ll be dogfooding the AppCenter submission process and developer platform, and are strongly incentivized to make it a great experience. We’re also able to see firsthand how apps must interact with sandboxing and portals and make sure platform APIs are available for developers.&lt;/p&gt;
+
+&lt;p&gt;As an aside, Cassidy and I also spent some time working on the new stylesheet and closed many of its remaining issues. Especially of interest is the work put into backdrop, disabled, and focus states.&lt;/p&gt;
+
+&lt;p&gt;I want to give a special shout out and thank you to developers working on Flathub and the wider Flatpak ecosystem. They’ve been an immense help offering their time and knowledge.&lt;/p&gt;
+
+&lt;p&gt;If you’re looking for news about elementary OS 6 Beta 2, hang tight! We’ll have more information soon about the improvements we’ve made on the road to the final stable release. As always, you can watch the &lt;a href=&quot;https://github.com/orgs/elementary/projects/55&quot;&gt;project board on GitHub&lt;/a&gt; to see outstanding tasks.&lt;/p&gt;
+</description>
+          <pubDate>Thu, 20 May 2021 00:00:00 -0500</pubDate>
+          <link>https://blog.elementary.io/appcenter-dashboard-sprint/</link>
+          <guid isPermaLink="true">https://blog.elementary.io/appcenter-dashboard-sprint/</guid>
+          
+              
+              
+          <enclosure url="https://blog.elementary.io" />
+          
+          
+          <category>appcenter</category>
+          
+          <category>odin</category>
+          
+          <category>devs</category>
+          
+          
+        </item>
+      
     
       
         <item>
@@ -1943,195 +2056,6 @@ figure {
           <category>odin</category>
           
           <category>touch</category>
-          
-          <category>ux</category>
-          
-          
-        </item>
-      
-    
-      
-        <item>
-          <title>Dark Style Progress for elementary OS 6</title>
-          <description>&lt;figure class=&quot;full-bleed&quot;&gt;
-  &lt;p&gt;&lt;img src=&quot;/images/dark-style-progress-november-2020/card.png&quot; alt=&quot;Teaser&quot; /&gt;&lt;/p&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;elementary OS 6 introduces two major new ways to make the desktop feel more personal: accent colors and dark style. The latter is something that’s become especially ubiquitous recently on mobile operating systems and the web. Open Source desktops have also begun offering a system-wide dark mode, but typically with a major drawback that operates much differently from the mainstream platforms: it operates on an opt-out basis rather than opt-in. This is what sets the dark style preference in elementary OS 6 apart from the offerings in, for example, Ubuntu or Pop!_OS. You can read a lot more about motivations and research that went into that decision in Cassidy’s previous blog post:&lt;/p&gt;
-
-&lt;div&gt;
-
-
-
-&lt;a class=&quot;featured with-image 1&quot; href=&quot;/the-need-for-a-freedesktop-dark-style-preference/&quot;&gt;
-  
-    &lt;div class=&quot;featured-image&quot; alt=&quot;Featured image&quot; style=&quot;background-image: url(https://cdn-images-1.medium.com/max/1952/1*NwP8sxbRTq7pzJLhDE2rnA@2x.png);&quot;&gt;&lt;/div&gt;
-  
-
-  &lt;header&gt;
-    &lt;h2&gt;
-
-
-
-   The Need for a FreeDesktop Dark Style&amp;nbsp;Preference
-
-&lt;/h2&gt;
-    
-      &lt;h3&gt;
-        
-
-
-
-   It’s time for the FreeDesktop to catch&amp;nbsp;up
-
-
-        
-      &lt;/h3&gt;
-    
-
-    
-
-
-
-&lt;div class=&quot;byline&quot;&gt;
-  &lt;div class=&quot;avatar&quot;&gt;
-    &lt;img srcset=&quot;https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&amp;amp;d=blank 2x&quot; src=&quot;https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&amp;amp;d=blank&quot; alt=&quot;Avatar for Cassidy James Blaede&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;author&quot;&gt;
-    
-    &lt;span class=&quot;name&quot;&gt;Cassidy James Blaede&lt;/span&gt;
-    
-    
-      &lt;span class=&quot;description&quot;&gt;Co-founder &amp;amp; CXO&lt;/span&gt;
-    
-  &lt;/div&gt;
-  &lt;time class=&quot;post-date&quot; datetime=&quot;2019-05-17&quot;&gt;Fri, May 17, 2019&lt;/time&gt;
-  
-    &lt;span class=&quot;read-time&quot; title=&quot;Estimated read time&quot;&gt;
-  
-  18 min read
-&lt;/span&gt;
-
-
-  
-&lt;/div&gt;
-
-
-  &lt;/header&gt;
-
-  
-&lt;/a&gt;
-
-
-&lt;/div&gt;
-
-&lt;h2 id=&quot;system-settings--onboarding&quot;&gt;System Settings &amp;amp; Onboarding&lt;/h2&gt;
-
-&lt;p&gt;The last time we blogged about the dark style preference, we had a very minimal prototype that offered a simple toggle and an explanation that this setting would only affect the panel and “system components”. Originally the plan was to only support the dark style in the desktop shell in elementary OS 6 and not to support changing it for apps at all. This would only include the panel, the dock, notifications, the authentication agent, and the keyboard shortcut overlay.&lt;/p&gt;
-
-&lt;figure class=&quot;half&quot;&gt;
-  &lt;p&gt;&lt;img alt=&quot;Prototype “Prefer dark style” toggle&quot; src=&quot;/images/the-need-for-a-freedesktop-dark-style-preference/switchboard@2x.png&quot; width=&quot;800&quot; height=&quot;595&quot; /&gt;
-  &lt;img alt=&quot;Prototype “Prefer dark style” toggle&quot; src=&quot;/images/the-need-for-a-freedesktop-dark-style-preference/switchboard-dark@2x.png&quot; width=&quot;800&quot; height=&quot;595&quot; /&gt;&lt;/p&gt;
-  &lt;figcaption&gt;
-    &lt;p&gt;Prototype “Prefer dark style” toggle&lt;/p&gt;
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Eventually we extended “system components” to include apps like Screenshot and Sideload as well as System Settings. We also developed some illustrations that reflected the idea that apps wouldn’t be included. Between these two screenshots you can see how much the dark style has changed: the most noticeable being the use of a much more neutral base color and the improved contrast between buttons and the background. You’ll also notice that since the introduction of the elementary settings daemon you’re now able to schedule an automatic dark style change at sunset or by manually specifying a time. Keep in mind that this has grown quite a lot in a short amount of time and we’re still iterating on the exact design. Things could still change significantly before the final release.&lt;/p&gt;
-
-&lt;figure class=&quot;half&quot;&gt;
-  &lt;p&gt;&lt;img alt=&quot;Current prefer dark style UI&quot; src=&quot;/images/dark-style-progress-november-2020/switchboard@2x.png&quot; width=&quot;1024&quot; height=&quot;744&quot; /&gt;
-  &lt;img alt=&quot;Current prefer dark style UI&quot; src=&quot;/images/dark-style-progress-november-2020/switchboard-dark@2x.png&quot; width=&quot;1024&quot; height=&quot;744&quot; /&gt;&lt;/p&gt;
-  &lt;figcaption&gt;
-    &lt;p&gt;Current “Prefer dark style” UI in &lt;em&gt;System Settings&lt;/em&gt; → &lt;em&gt;Desktop&lt;/em&gt; → &lt;em&gt;Appearance&lt;/em&gt;&lt;/p&gt;
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;We also now present the dark style and accent color choice when you first log in via Onboarding, and of course this app was added to the list of apps which support the dark style.&lt;/p&gt;
-
-&lt;figure class=&quot;half&quot;&gt;
-  &lt;p&gt;&lt;img alt=&quot;The dark style and accent color preferences in Onboarding&quot; src=&quot;/images/dark-style-progress-november-2020/onboarding@2x.png&quot; width=&quot;560&quot; height=&quot;479&quot; /&gt;
-  &lt;img alt=&quot;The dark style and accent color preferences in Onboarding&quot; src=&quot;/images/dark-style-progress-november-2020/onboarding-dark@2x.png&quot; width=&quot;560&quot; height=&quot;479&quot; /&gt;&lt;/p&gt;
-  &lt;figcaption&gt;
-    &lt;p&gt;The dark style and accent color preferences are now presented during Onboarding&lt;/p&gt;
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h2 id=&quot;challenges-with-apps&quot;&gt;Challenges with Apps&lt;/h2&gt;
-
-&lt;p&gt;As we began to implement dark style support across all of the system components in our desktop, we started to feel confident about the idea of supporting it in apps too. We started small with simple apps like Calculator, but I’m happy to say that as of this time nearly all of the default apps in elementary OS follow the dark style. This isn’t as easy as it sounds. As I alluded to earlier, the dark style preference in elementary OS 6 is “opt-in”, meaning that developers must explicitly choose to support it. This is important because of so many places where app styles break when developers aren’t testing against the dark style. Consider for example, Calendar:&lt;/p&gt;
-
-&lt;figure class=&quot;half&quot;&gt;
-  &lt;p&gt;&lt;img alt=&quot;Calendar in the dark style before fixes&quot; src=&quot;/images/dark-style-progress-november-2020/calendar-before@2x.png&quot; width=&quot;1024&quot; height=&quot;750&quot; /&gt;
-  &lt;img alt=&quot;Calendar in the dark style after fixes&quot; src=&quot;/images/dark-style-progress-november-2020/calendar-after@2x.png&quot; width=&quot;1024&quot; height=&quot;750&quot; /&gt;&lt;/p&gt;
-  &lt;figcaption&gt;
-    &lt;p&gt;Calendar in the dark style before and after fixes&lt;/p&gt;
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;This is a fairly common example of an app that had been developed against the light style and when forced to use the dark style would become completely illegible and thus unusable. Under an “opt-out” system, users would be stuck having to switch the entire system style preference every time they wanted to use this app until the developer hopefully delivered a fix.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;p&gt;&lt;img alt=&quot;Mail with dark style&quot; src=&quot;/images/dark-style-progress-november-2020/mail@2x.png&quot; width=&quot;1024&quot; height=&quot;750&quot; /&gt;&lt;/p&gt;
-  &lt;figcaption&gt;
-    &lt;p&gt;Mail, still does not support the dark style preference&lt;/p&gt;
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Also consider an app like Mail, which still does not support the dark style preference because of the nature of its content. It’s unclear how Mail should handle displaying HTML emails which probably don’t provide CSS that accounts for a dark style. There’s still an open discussion about whether Mail should display HTML emails in a way that may blindingly contrast with its UI.&lt;/p&gt;
-
-&lt;figure class=&quot;half&quot;&gt;
-  &lt;p&gt;&lt;img alt=&quot;Terminal with user-determined style&quot; src=&quot;/images/dark-style-progress-november-2020/terminal-dark@2x.png&quot; width=&quot;932&quot; height=&quot;672&quot; /&gt;
-  &lt;img alt=&quot;Terminal with system-determined style&quot; src=&quot;/images/dark-style-progress-november-2020/terminal@2x.png&quot; width=&quot;932&quot; height=&quot;672&quot; /&gt;&lt;/p&gt;
-  &lt;figcaption&gt;
-    &lt;p&gt;A Terminal prototype with a “Follow System Style” option&lt;/p&gt;
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Another case yet to be resolved is for apps like Code and Terminal which offer multiple color schemes. In these apps, the color scheme also affects the content and there are multiple possible choices for light color schemes. This complexity becomes compounded as soon as these apps support custom color schemes as well. For now, we’re considering a simple switch to alternate between two pre-determined default styles with Terminal defaulting to “off” and Code defaulting to “on”. This keeps with Terminal always using the dark style by default, but Code matching the behavior of other light-by-default apps.&lt;/p&gt;
-
-&lt;figure class=&quot;half&quot;&gt;
-  &lt;p&gt;&lt;img alt=&quot;Files in light style&quot; src=&quot;/images/dark-style-progress-november-2020/files@2x.png&quot; width=&quot;932&quot; height=&quot;672&quot; /&gt;
-  &lt;img alt=&quot;Files in dark style&quot; src=&quot;/images/dark-style-progress-november-2020/files-dark@2x.png&quot; width=&quot;932&quot; height=&quot;672&quot; /&gt;&lt;/p&gt;
-  &lt;figcaption&gt;
-    &lt;p&gt;Files in dark and light styles, with less-legible places icons in dark style&lt;/p&gt;
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Changes to iconography also have to be considered when supporting a dark style. Several places sidebar icons in Files, for example, are far less legible in the dark style and will need to be redesigned for better contrast.&lt;/p&gt;
-
-&lt;p&gt;There are still other places in the UI where we support the dark style, but that support could be made better like in System Settings → Displays. The colors used for each display are quite bright and could be much dimmer when the dark style is activate. If you’re curious about more examples of places where apps could not support the dark style without some modification, you can follow along with our &lt;a href=&quot;https://github.com/orgs/elementary/projects/43&quot;&gt;Prefer Dark Style project on GitHub&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;cross-platform--flatpak-support&quot;&gt;Cross-platform &amp;amp; Flatpak Support&lt;/h2&gt;
-
-&lt;p&gt;Another area we’re still working on is support across the FreeDesktop ecosystem and especially within Flatpak apps. At the moment, apps need to be able to access the system AccountsService to be able to read the elementary dark style preference. After discussion with app developers, this doesn’t seem to be something that works for them and especially for Flatpak’d apps is a bit frowned upon.&lt;/p&gt;
-
-&lt;p&gt;Two other approaches are either to expose the dark style preference via GSettings or via a DBus endpoint. GSettings is familiar and simple for developers writing apps for elementary OS or GNOME (among other desktops), but it seems the current consensus is that Flatpak’d apps should only be able to access their own GSettings schemas. This leads us to believe that exposing a DBus endpoint is probably the best option to encourage adoption by 3rd-party apps. So, in the near future, elementary settings daemon should handle that.&lt;/p&gt;
-
-&lt;p&gt;We’re looking forward to feedback from some GNOME app developers about the acceptability of the DBus solution. For app developers using Granite, we already provide a very simple &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Granite.Settings&lt;/code&gt; object that abstracts everything away and makes it as easy as connecting to a signal, the same way you would handle &lt;a href=&quot;https://valadoc.org/gtk+-3.0/Gtk.Settings.html&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Gtk.Settings&lt;/code&gt;&lt;/a&gt;. We’ll provide documentation for this, and more, when elementary OS 6 enters public beta.&lt;/p&gt;
-
-&lt;h2 id=&quot;get-early-access&quot;&gt;Get Early Access&lt;/h2&gt;
-
-&lt;p&gt;If you’re excited by what you read here and want to get your hands on the developer preview of elementary OS 6, you can! GitHub sponsors at the $10/mo or above tier get access to our daily builds server where you can test the latest and greatest experimental builds, including builds for Pinebook Pro. Subscribing helps us fund the development of elementary OS and brings us that much closer to delivering the final product.&lt;/p&gt;
-
-&lt;div style=&quot;text-align: center&quot;&gt;
-  &lt;p&gt;&lt;a href=&quot;https://builds.elementary.io&quot; class=&quot;button&quot;&gt;Get Early Access Builds&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-</description>
-          <pubDate>Thu, 05 Nov 2020 00:00:00 -0600</pubDate>
-          <link>https://blog.elementary.io/dark-style-progress/</link>
-          <guid isPermaLink="true">https://blog.elementary.io/dark-style-progress/</guid>
-          
-              
-              
-          <enclosure url="https://blog.elementary.io" />
-          
-          
-          <category>dark-style</category>
-          
-          <category>early-access</category>
-          
-          <category>odin</category>
           
           <category>ux</category>
           

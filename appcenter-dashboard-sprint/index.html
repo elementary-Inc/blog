@@ -3,10 +3,10 @@
   <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Multi-touch Gestures in elementary OS 6 &sdot; elementary Blog</title>
-  <meta property="og:title" content="Multi-touch Gestures in elementary OS 6" />
-  <meta itemprop="name" content="Multi-touch Gestures in elementary OS 6" />
-  <meta name="twitter:title" content="Multi-touch Gestures in elementary OS 6" />
+  <title>AppCenter Dashboard Sprint Spring 2021 &sdot; elementary Blog</title>
+  <meta property="og:title" content="AppCenter Dashboard Sprint Spring 2021" />
+  <meta itemprop="name" content="AppCenter Dashboard Sprint Spring 2021" />
+  <meta name="twitter:title" content="AppCenter Dashboard Sprint Spring 2021" />
 
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -26,15 +26,15 @@
     
     
     <meta name="twitter:card" content="summary_large_image" />
-    <meta property="twitter:image" content="https://blog.elementary.io/images/multitouch-gestures-in-elementary-os-6/multitasking.png" />
+    <meta property="twitter:image" content="https://blog.elementary.io/images/appcenter-dashboard-sprint/owen-lystrup-unsplash.jpg" />
   
   <meta name="twitter:site" content="@elementary" />
   <meta name="twitter:creator" content="@elementary" />
 
-  <meta name="description" content="Our swipiest operating system ever" />
-  <meta property="og:description" content="Our swipiest operating system ever" />
-  <meta itemprop="description" content="Our swipiest operating system ever" />
-  <meta name="twitter:description" content="Our swipiest operating system ever" />
+  <meta name="description" content="Big steps for the Flatpak-based AppCenter" />
+  <meta property="og:description" content="Big steps for the Flatpak-based AppCenter" />
+  <meta itemprop="description" content="Big steps for the Flatpak-based AppCenter" />
+  <meta name="twitter:description" content="Big steps for the Flatpak-based AppCenter" />
 
   <link rel="stylesheet" type="text/css" media="all" href="/css/main.css?v=2021-05-27 14:39:33 -0500" />
   
@@ -150,7 +150,7 @@
 
 
 
-   Multi-touch Gestures in elementary OS&nbsp;6
+   AppCenter Dashboard Sprint Spring&nbsp;2021
 
 </h1>
     
@@ -158,7 +158,7 @@
 
 
 
-   Our swipiest operating system&nbsp;ever
+   Big steps for the Flatpak-based&nbsp;AppCenter
 
 </h2>
     
@@ -185,7 +185,7 @@
       <span class="description">Founder & CEO</span>
     
   </div>
-  <time class="post-date" datetime="2020-12-01">Tue, Dec  1, 2020</time>
+  <time class="post-date" datetime="2021-05-20">Thu, May 20, 2021</time>
   
     <span class="read-time" title="Estimated read time">
   
@@ -200,13 +200,11 @@
     <aside class="tags">
   
   
-    <a class="tag" href="/tags/#early-access">#early-access</a>
+    <a class="tag" href="/tags/#appcenter">#appcenter</a>
+  
+    <a class="tag" href="/tags/#devs">#devs</a>
   
     <a class="tag" href="/tags/#odin">#odin</a>
-  
-    <a class="tag" href="/tags/#touch">#touch</a>
-  
-    <a class="tag" href="/tags/#ux">#ux</a>
   
 </aside>
 
@@ -214,82 +212,96 @@
   </header>
 
   <section>
-    <p>One of the most hotly requested features for years has been to have multi-touch gestures in elementary OS, and with 6.0 I’m excited to say that we will deliver. Like the <a href="/dark-style-progress/">dark style preference</a>, delivering a great multi-touch experience is a little more complicated than it seems on the surface. There have been some 3rd party tools to detect touchpad gestures and then trigger actions after-the-fact, but it wasn’t until recently that we’ve had the technical ability to provide smooth, responsive animations that track 1:1 with your finger movement across a touchpad or touch screen.</p>
-
-<h2 id="window-manager-gestures">Window Manager Gestures</h2>
-
-<p>We’ve had the great pleasure of working with <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/sponsors/JoseExposito">José Expósito</a>, the author of Touchégg, on our window manager gestures. In elementary OS 6, we use Touchégg Daemon behind the scenes to capture input events and communicate them to Gala, our window manager.</p>
-
-<figure>
-  <p><img src="/images/multitouch-gestures-in-elementary-os-6/multitasking.gif" alt="Multitasking View" /></p>
-  <figcaption>1:1 multi-touch gestures used for Multitasking View</figcaption>
+    <figure class="full-bleed">
+  <p><img src="/images/appcenter-dashboard-sprint/owen-lystrup-unsplash.jpg" alt="Denver's Union Station" /></p>
+  <figcaption>
+    <p>Denver’s Union Station by Owen Lystrup on <a rel="nofollow noopener noreferrer" target="_blank" href="https://unsplash.com/photos/chaqHXlOzYs">Unsplash</a></p>
+  </figcaption>
 </figure>
 
-<p>At the moment, we’re reviewing two proposals: one for the multitasking view and another for switching workspaces directly. Both of these use 1:1 responsive, finger-tracking gestures that can be peeked or canceled at any time. When special animations aren’t available in the window manager, such as when tiling, we fall back to animations built in to Touchégg.</p>
+<p>Last year we ran a crowdfunding campaign for an ambitious project called “AppCenter for Everyone.” The goal of this project was to move our pay-what-you-want app store from being Debian package based and largely locked in to elementary OS to being based on Flatpak and available for use on any modern Linux-based desktop. Though we successfully met and exceeded our funding goal, we had to postpone the in-person sprint due to the COVID-19 pandemic. Over a year later—and with the availability of the vaccine—we decided to split this work up into multiple sprints, starting with one focused on the publishing workflow. This month, I flew out to Denver, Colorado to work with Blake Kostner and Cassidy James, and I’m excited to share with you what we achieved.</p>
 
-<figure>
-  <p><img src="/images/multitouch-gestures-in-elementary-os-6/workspaces.gif" alt="Switching workspaces" /></p>
-  <figcaption>1:1 multi-touch gestures used for switching workspaces</figcaption>
-</figure>
+<div style="margin: 3em auto;">
 
-<p>We’re still discussing exactly what the default configuration should be, but work is already underway on System Settings so that you can choose whichever gestures feel most comfortable for you—or choose none at all.</p>
 
-<figure>
-  <p><img alt="Gesture Settings" src="/images/multitouch-gestures-in-elementary-os-6/settings.png" width="990" height="686" /></p>
-  <figcaption>Gesture configuration in System Settings → Mouse &amp; Touchpad</figcaption>
-</figure>
 
-<p>If you’d like to support José’s work on multi-touch gestures for elementary OS 6—and other Linux-based operating systems—you can do so with as little as $2/mo on <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/sponsors/JoseExposito">GitHub Sponsors</a>.</p>
+<a class="featured with-image 1" href="/appcenter-for-everyone/">
+  
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/appcenter-for-everyone/header.jpg);"></div>
+  
 
-<div style="text-align: center">
-  <p><a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/sponsors/JoseExposito" class="button">Sponsor José on GitHub</a></p>
+  <header>
+    <h2>
+
+
+
+   AppCenter for&nbsp;Everyone
+
+</h2>
+    
+      <h3>
+        
+
+
+
+   Taking the indie, open source app store to the next&nbsp;level
+
+
+         →
+      </h3>
+    
+
+    
+
+
+
+<div class="byline">
+  <div class="avatar">
+    <img srcset="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&amp;d=blank 2x" src="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&amp;d=blank" alt="Avatar for Daniel Foré" />
+  </div>
+  <div class="author">
+    
+    <span class="name">Daniel Foré</span>
+    
+    
+      <span class="description">Founder &amp; CEO</span>
+    
+  </div>
+  <time class="post-date" datetime="2020-02-07">Fri, Feb  7, 2020</time>
+  
+    <span class="read-time" title="Estimated read time">
+  
+  1 min read
+</span>
+
+
+  
 </div>
 
-<h2 id="app-gestures">App Gestures</h2>
 
-<p>In order to make gestures work globally, previous solutions have opted to emulate keyboard shortcuts after a gesture was completed. This is effective, but animations—if they’re provided at all—don’t feel connected to users’ input. Instead, in elementary OS 6 we’re making use of Handy, a library originally developed for <a rel="nofollow noopener noreferrer" target="_blank" href="https://puri.sm/">Purism</a> and their Open Source phone platform. This means that each app and desktop component must be updated to support gestures individually, which is ultimately a lot more work but a vastly superior experience.</p>
+  </header>
 
-<h3 id="paging">Paging</h3>
+  
+</a>
 
-<figure>
-  <p><img src="/images/multitouch-gestures-in-elementary-os-6/appcenter.gif" alt="AppCenter Screenshots" /></p>
-  <figcaption>Paging screenshots in AppCenter</figcaption>
-</figure>
 
-<p>In elementary OS 5, we used Handy to add gestures for switching pages to the applications menu and during onboarding. So far, in elementary OS 6 this has been extended to the Date &amp; Time indicator to switch months in the calendar view and to AppCenter to switch between screenshots. This makes use of the <a rel="nofollow noopener noreferrer" target="_blank" href="https://valadoc.org/libhandy-1/Hdy.Carousel.html">Handy Carousel</a> widget which also provides a smooth transition between page indicator dots when needed. Our plan is to provide gestures any time pages are used and we’re already tracking issues for Calendar and more.</p>
-
-<h3 id="navigation">Navigation</h3>
-
-<p>Another place we’ve implemented gestures is while navigating between panes or views. This is using the <a rel="nofollow noopener noreferrer" target="_blank" href="https://valadoc.org/libhandy-1/Hdy.Deck.html">Handy Deck</a> widget which contains a concept of next and previous views and shows views in a neat stack. Swipe-to-go-back is now implemented in elementary OS 6 in Feedback, in the Installer and Initial Setup views for configuring locale variants, and in Systems Settings → Keyboard when adding new layouts. Gestures are also now available natively in WebkitGtk and therefore Epiphany also provides swipe navigation for both back and forward.</p>
-
-<figure>
-  <p><img src="/images/multitouch-gestures-in-elementary-os-6/keyboard-layouts.gif" alt="Keyboard Layouts" /></p>
-  <figcaption>Navigating when adding keyboard layouts in System Settings → Keyboard</figcaption>
-</figure>
-
-<p>Some more complex navigation situations are in progress such as when navigating between views in System Settings itself and in AppCenter. There are also open issues for navigating in Files and Photos, but development hasn’t yet started there. Working with Handy Deck in these situations has exposed some inefficiencies in the way navigation was implemented previously so not only are we implementing a new feature, but the underlying code is being made more robust and optimized.</p>
-
-<h3 id="other">Other</h3>
-
-<p>We’re also looking into other uses for gestures as popularized in mobile operating systems, such as swipe to dismiss. In elementary OS 6, you can now dismiss notification bubbles from the desktop with a swipe, and remove them from the notifications indicator by swiping in either direction as well. We haven’t implemented swipe-to-dismiss in other types of lists yet, but we’re open to suggestions! You can follow along with our <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/orgs/elementary/projects/61">progress and plans on GitHub</a>, as well as file feature requests.</p>
-
-<figure>
-  <p><img alt="Notification Center" src="/images/multitouch-gestures-in-elementary-os-6/notification-center.gif" width="399" height="672" /></p>
-  <figcaption>Notification bubbles being swiped away in the new Notification Center</figcaption>
-</figure>
-
-<p>A quick note about pinch-to-zoom and rotate, at the moment we don’t yet have a way to implement these more complex gestures. We may have to wait until we can provide GTK4 in a Flatpak or for elementary OS 7 before it becomes possible to provide gestures for transforms.</p>
-
-<p>Lastly, I just wanted to say thank you to <a rel="nofollow noopener noreferrer" target="_blank" href="https://twitter.com/alexm_gnome">Alexander Mikhaylenko</a> for being available for questions and feature requests as we implement Handy in our apps. He’s been an essential resource and very open to improving Handy for our use cases.</p>
-
-<h2 id="get-early-access">Get Early Access</h2>
-
-<p>If you’re excited by what you read here and want to get your hands on the developer preview of elementary OS 6, you can! GitHub sponsors at the $10/mo or above tier get access to our <a rel="nofollow noopener noreferrer" target="_blank" href="https://builds.elementary.io">daily builds server</a> where you can test the latest and greatest experimental builds, including builds for Pinebook Pro. Subscribing helps us fund the development of elementary OS and brings us that much closer to delivering the final product.</p>
-
-<div style="text-align: center">
-  <p><a rel="nofollow noopener noreferrer" target="_blank" href="https://builds.elementary.io" class="button">Get Early Access Builds</a></p>
 </div>
 
+<p>We kicked off the week by discussing where the current publishing experience could be improved. Transparency was a big theme, including issues with communicating review times, recording reviewer discussions and actions, and making it easier to contribute to as an open source project. We also wanted to make sure there was a way to actively notify reviewers of pending reviews and improve the performance of the dashboard for people who have access to a large number of repositories. After some time brainstorming, we decided that the dashboard should be split up into two projects: the <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/elementary/appcenter-dashboard">AppCenter Dashboard</a> itself where developers submit their apps, connect to Stripe, etc. and <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/elementary/appcenter-reviews">a new repository for reviewers</a> where app submissions are processed as GitHub pull requests and ultimately published using GitHub Actions.</p>
+
+<p>The design and workflow of the AppCenter Dashboard will remain largely the same for app developers with just a couple of small differences. First, instead of trying to read and list all of the GitHub repositories you have access to, the new dashboard will only list apps for which you have explicitly submitted a repository URL. This should make the dashboard much faster and less cluttered, and reduces the scope of permissions needed for our GitHub integration. Second, there will be some minor changes to the way Stripe Connect API keys are generated and linked to your app. We’re still working out the exact design details, but it should make monetizing your app a little more explicit.</p>
+
+<p>On the review and publishing side, things will be very different from the previous workflow. Instead of an internal reviewer dashboard, reviews will now be processed as GitHub pull requests. This means the review queue will be publicly visible, as will discussion by reviewers and who approved or requested changes on your app. This also means reviewers will be proactively notified on GitHub and on our company Slack when apps are submitted, which should help cut down on review times. Publishing is now built on GitHub Actions using the <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/bilelmoussaoui/flatpak-github-actions">Flatpak Builder action</a> maintained by Bilal Elmoussaoui. We’re especially happy to be working upstream there on a common codebase and have already submitted our first pull request to improve it for everyone. Automated tests run as part of the review process will now also be built using GitHub Actions, which should make them much easier to write and re-use in your own CI. And speaking of CI, as of the sprint we’re also building a <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/orgs/elementary/packages/container/package/flatpak-platform%2Fruntime">publicly available container</a> that includes the elementary platform to substantially reduce Flatpak build times.</p>
+
+<p>There’s still some work to do before we’re ready for developers to submit their Flatpak apps through the new dashboard, but the submission process is already a working MVP. We’ll be reaching out shortly to developers on a case-by-case basis to start testing, and submissions should be open to everyone shortly after that. If you haven’t yet packaged your app as a Flatpak, now is a great time to do so; the <a rel="nofollow noopener noreferrer" target="_blank" href="https://docs.elementary.io/develop/writing-apps/our-first-app/packaging">developer documentation</a> has already been updated.</p>
+
+<p>During the week we spent some time packaging and deploying more of our own first party apps as Flatpaks; we’re now shipping Camera, Mail, and Tasks as Flatpaks in elementary OS 6. Eventually, our plan is to ship all of our first-party apps as Flatpaks published via AppCenter Dashboard. In this way, we’ll be dogfooding the AppCenter submission process and developer platform, and are strongly incentivized to make it a great experience. We’re also able to see firsthand how apps must interact with sandboxing and portals and make sure platform APIs are available for developers.</p>
+
+<p>As an aside, Cassidy and I also spent some time working on the new stylesheet and closed many of its remaining issues. Especially of interest is the work put into backdrop, disabled, and focus states.</p>
+
+<p>I want to give a special shout out and thank you to developers working on Flathub and the wider Flatpak ecosystem. They’ve been an immense help offering their time and knowledge.</p>
+
+<p>If you’re looking for news about elementary OS 6 Beta 2, hang tight! We’ll have more information soon about the improvements we’ve made on the road to the final stable release. As always, you can watch the <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/orgs/elementary/projects/55">project board on GitHub</a> to see outstanding tasks.</p>
 
   </section>
 
@@ -446,55 +458,13 @@
   <h2>Join the Discussion on Social Media</h2>
 
   
-    <div class="official">
-      <h3>Official Posts</h3>
-
-      
-        <a
-          href="https://twitter.com/elementary/status/1333911042808827909"
-          rel="noreferrer nofollow noopener"
-          target="_blank"
-          title="Twitter"
-          onclick="plausible('Social: Twitter')"
-        >
-          <img src="/images/twitter.svg" alt="Twitter" />
-        </a>
-      
-
-      
-        <a
-          href="https://mastodon.social/@elementary/105307450969775384"
-          rel="noreferrer nofollow noopener"
-          target="_blank"
-          title="Mastodon"
-          onclick="plausible('Social: Mastodon')"
-        >
-          <img src="/images/mastodon.svg" alt="Mastodon" />
-        </a>
-      
-
-      
-        <a
-          href="https://www.reddit.com/r/elementaryos/comments/k4whvv/multitouch_gestures_in_elementary_os_6elementary/"
-          rel="noreferrer nofollow noopener"
-          target="_blank"
-          title="Reddit"
-          onclick="plausible('Social: Reddit')"
-        >
-          <img src="/images/reddit.svg" alt="Reddit" />
-        </a>
-      
-
-      
-    </div>
-  
 
   <div class="share">
     <h3>Share</h3>
     
 
     <a
-      href="https://twitter.com/intent/tweet?text=Multi-touch Gestures in elementary OS 6&url=https://blog.elementary.io/multitouch-gestures-in-elementary-os-6/&via=elementary&original_referer=https://blog.elementary.io/multitouch-gestures-in-elementary-os-6/"
+      href="https://twitter.com/intent/tweet?text=AppCenter Dashboard Sprint Spring 2021&url=https://blog.elementary.io/appcenter-dashboard-sprint/&via=elementary&original_referer=https://blog.elementary.io/appcenter-dashboard-sprint/"
       rel="noreferrer nofollow noopener"
       target="_blank"
       title="Twitter"
@@ -504,7 +474,7 @@
     </a>
 
     <a
-      href="http://www.reddit.com/submit?title=Multi-touch Gestures in elementary OS 6&url=https://blog.elementary.io/multitouch-gestures-in-elementary-os-6/"
+      href="http://www.reddit.com/submit?title=AppCenter Dashboard Sprint Spring 2021&url=https://blog.elementary.io/appcenter-dashboard-sprint/"
       rel="noreferrer nofollow noopener"
       target="_blank"
       title="Reddit"
@@ -514,7 +484,7 @@
     </a>
 
     <a
-      href="https://www.facebook.com/sharer/sharer.php?u=https://blog.elementary.io/multitouch-gestures-in-elementary-os-6/"
+      href="https://www.facebook.com/sharer/sharer.php?u=https://blog.elementary.io/appcenter-dashboard-sprint/"
       rel="noreferrer nofollow noopener"
       target="_blank"
       title="Facebook"
@@ -524,7 +494,7 @@
     </a>
 
     <a
-      href="https://blog.elementary.io/multitouch-gestures-in-elementary-os-6/"
+      href="https://blog.elementary.io/appcenter-dashboard-sprint/"
       title="Permalink"
       onclick="return share()"
     >
@@ -539,9 +509,9 @@ function share() {
 
   if (navigator.share) {
     navigator.share({
-      title: "Multi-touch Gestures in elementary OS 6",
-      text: "Our swipiest operating system ever",
-      url: "https://blog.elementary.io/multitouch-gestures-in-elementary-os-6/",
+      title: "AppCenter Dashboard Sprint Spring 2021",
+      text: "Big steps for the Flatpak-based AppCenter",
+      url: "https://blog.elementary.io/appcenter-dashboard-sprint/",
     })
     .catch((error) => console.log("Error sharing", error));
 
@@ -557,12 +527,14 @@ function share() {
 <h2 class="up-next">Up Next</h2>
 
 
+
+
   
     
 
-<a class="featured with-image 1" href="/elementary-os-on-raspberry-pi/">
+<a class="featured with-image 1" href="/elementary-os-6-odin-beta/">
   
-    <div class="featured-image" alt="Featured image" style="background-image: url(/images/elementary-os-on-raspberry-pi/desktop.jpg);"></div>
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/updates-for-july-2020/card.png);"></div>
   
 
   <header>
@@ -570,7 +542,7 @@ function share() {
 
 
 
-   elementary OS on Raspberry&nbsp;Pi
+   elementary OS 6 Beta Available&nbsp;Today
 
 </h2>
     
@@ -579,7 +551,7 @@ function share() {
 
 
 
-   Continuing our experimental Early Access&nbsp;builds
+   What’s a beta, and what’s new for&nbsp;developers?
 
 
         
@@ -608,84 +580,11 @@ function share() {
       <span class="description">Co-founder & CXO</span>
     
   </div>
-  <time class="post-date" datetime="2020-12-04">Fri, Dec  4, 2020</time>
+  <time class="post-date" datetime="2021-04-30">Fri, Apr 30, 2021</time>
   
     <span class="read-time" title="Estimated read time">
   
-  5 min read
-</span>
-
-
-  
-</div>
-
-
-  </header>
-
-  
-</a>
-
-
-  
-
-
-
-  
-    
-
-<a class="featured with-image 1" href="/dark-style-progress/">
-  
-    <div class="featured-image" alt="Featured image" style="background-image: url(/images/dark-style-progress-november-2020/card.png);"></div>
-  
-
-  <header>
-    <h2>
-
-
-
-   Dark Style Progress for elementary OS&nbsp;6
-
-</h2>
-    
-      <h3>
-        
-
-
-
-   The Dark Side of the Force is a pathway to many abilities some consider to be…&nbsp;unnatural
-
-
-        
-      </h3>
-    
-
-    
-
-
-
-<div class="byline">
-  <div class="avatar">
-    <img
-      
-        srcset="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&d=blank 2x"
-        src="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&d=blank"
-        alt="Avatar for Daniel Foré"
-      
-    />
-  </div>
-  <div class="author">
-    
-    <span class="name">Daniel Foré</span>
-    
-    
-      <span class="description">Founder & CEO</span>
-    
-  </div>
-  <time class="post-date" datetime="2020-11-05">Thu, Nov  5, 2020</time>
-  
-    <span class="read-time" title="Estimated read time">
-  
-  7 min read
+  13 min read
 </span>
 
 
