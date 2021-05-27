@@ -9,7 +9,7 @@ tags:
   - devs
 ---
 
-Last year we ran a crowdfunding campaign for an ambitious project called "AppCenter for Everyone." The goal of this project was to move our pay-what-you-want app store from being Debian package based and largely locked in to elementary OS to being based on Flatpak and available for use on any modern Linux-based desktop. Though we successfully met and exceeded our funding goal, we had to postpone the in-person sprint due to the COVID-19 pandemic. Over a year later—and with the availability of the vaccine—we decided to split this work up into multiple sprints, starting with one focused on the publishing workflow. Last week I flew out to Denver, Colorado to work with Blake Kostner and Cassidy James, and I'm excited to share with you what we achieved.
+Last year we ran a crowdfunding campaign for an ambitious project called "AppCenter for Everyone." The goal of this project was to move our pay-what-you-want app store from being Debian package based and largely locked in to elementary OS to being based on Flatpak and available for use on any modern Linux-based desktop. Though we successfully met and exceeded our funding goal, we had to postpone the in-person sprint due to the COVID-19 pandemic. Over a year later—and with the availability of the vaccine—we decided to split this work up into multiple sprints, starting with one focused on the publishing workflow. This month, I flew out to Denver, Colorado to work with Blake Kostner and Cassidy James, and I'm excited to share with you what we achieved.
 
 <div style="margin: 3em auto;">
 {% assign post = site.posts | where:"slug", "appcenter-for-everyone" | first %}
