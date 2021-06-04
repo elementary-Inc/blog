@@ -14,7 +14,7 @@ Newest, next, and previous non-hidden posts:
 
 {% if page.next %}
   {% unless page.next.hidden %}
-    {% unless page.next == paginator.posts.first %}
+    {% unless page.next == site.posts.first %}
       {% include featured.html post=page.next %}
     {% endunless %}
   {% endunless %}
