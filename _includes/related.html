@@ -1,0 +1,64 @@
+{% comment %}
+-----------------------------------
+Next and previous non-hidden posts:
+-----------------------------------
+{% endcomment %}
+
+<h2 class="up-next">Up Next</h2>
+
+{% if page.next %}
+  {% unless page.next.hidden %}
+    {% include featured.html post=page.next %}
+  {% endunless %}
+{% endif %}
+
+{% if page.previous %}
+  {% unless page.previous.hidden %}
+    {% include featured.html post=page.previous %}
+  {% endunless %}
+{% endif %}
+
+
+{% comment %}
+---------------------------
+Posts with the same tag(s):
+---------------------------
+{% endcomment %}
+
+{% assign maxRelated = 6 %}
+{% assign maxRelatedCounter = 0 %}
+
+<div class="related">
+  {% assign minCommonTags =  1 %}
+
+  {% for post in site.posts %}
+
+    {% assign sameTagCount = 0 %}
+    {% assign commonTags = '' %}
+
+    {% for tag in post.tags %}
+      {% unless post.url == page.url %}
+        {% unless post.hidden %}
+          {% unless post == page.next %}
+            {% unless post == page.previous %}
+              {% if page.tags contains tag %}
+                {% assign sameTagCount = sameTagCount | plus: 1 %}
+                {% capture tagmarkup %} <span class="label label-default">{{ tag }}</span> {% endcapture %}
+                {% assign commonTags = commonTags | append: tagmarkup %}
+              {% endif %}
+            {% endunless %}
+          {% endunless %}
+        {% endunless %}
+      {% endunless %}
+    {% endfor %}
+
+    {% if sameTagCount >= minCommonTags %}
+      {% include featured.html size="small" %}
+      {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+      {% if maxRelatedCounter >= maxRelated %}
+        {% break %}
+      {% endif %}
+    {% endif %}
+
+  {% endfor %}
+</div>
