@@ -1,6 +1,6 @@
 ---
 title: elementary OS 6 Beta 2 Now Available
-description: Here's what’s new since Beta 1
+description: Installer, Flatpak, Online Accounts, Notifications, and more since Beta 1
 author: cassidyjames
 image: /images/updates-for-july-2020/card.png
 tags:
@@ -41,11 +41,28 @@ A major fix since Beta 1 is the inclusion of FreeDesktop Flatpak extensions in B
 
 ### Online Accounts
 
-The major feature to land in Beta 2 is support for adding Online Accounts from System Settings. We now support adding both mail and calendar accounts that support the IMAP and CalDav standards. Once added, data from these accounts will show up across the system in apps like Mail, Calendar, and Tasks as well as in the Date & Time panel indicator.
+A major feature to land in Beta 2 is support for adding Online Accounts from System Settings. We now support adding both mail and calendar accounts that support the IMAP and CalDav standards. Once added, data from these accounts will show up across the system in apps like Mail, Calendar, and Tasks as well as in the Date & Time panel indicator.
 
 This feature is still undergoing rapid development, but it is working and we highly encourage you to give it a try. Keep in mind some account providers require you to explicitly enable IMAP and CalDav support in your account, and some may require you to use an app password; refer to your online account provider's documentation for the exact details. But since we're leaning on widely-supported open standards, most email and calendar providers should now be compatible.
 
 The rewritten Mail app is also nearing feature parity with the previous version while being faster and less error-prone. It's easier to test than ever before in Beta 2, so add your account and take it for a spin!
+
+### Notifications
+
+elementary OS 6 comes with an improved Notifications system, and we've expanded on its capabilities for app developers in Beta 2.
+
+<figure class="half" markdown="1">
+![Notification with an icon badge](/images/{{ page.slug }}/notification-badge.png){: width="362" height="90"}
+![Notification with action buttons](/images/{{ page.slug }}/notification-button.png){: width="362" height="129"}
+</figure>
+
+Notifications now support icon badges and action buttons; developers, be sure to check [the documentation for these new APIs](https://docs.elementary.io/develop/apis/notifications) to ensure your apps can take advantage of these new features.
+
+### …and More!
+
+Beta 2 comes with greatly improved focus styles in the system stylesheet, and we've fixed several small issues including border radii of linked buttons, nested header bars, and missing styles for the `monospace` style class. Developers, make sure to test against Beta 2 to ensure your apps look right—and as always, please [file issues](https://github.com/elementary/stylesheet/issues) if you have any problems.
+
+We've also continued to update and improve the [elementary Documentation](https://docs.elementary.io/) in general as we approach the release of OS 6. Check it out when building your apps, and please file issues or pull requests if you notice anything is off or could be improved; both the [Developer Docs](https://github.com/elementary/docs) and [Human Interface Guidelines](https://github.com/elementary/hig) live on GitHub as Markdown files, so it's possible for anyone to contribute.
 
 ## Get It
 
