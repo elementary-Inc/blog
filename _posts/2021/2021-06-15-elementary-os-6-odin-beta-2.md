@@ -22,7 +22,7 @@ So, what have we been up to for the past several weeks? The biggest changes in B
 
 ### Installer
 
-We've been putting lot of polish and cleanup into the installer UI. We've insured the various views no longer resize the window, we reworked the layout in a few of the views to be more consistent with one another, and we added a pleasant animation to the installation progress view instead of just a static icon. We've also improved disk detection and error handling when failing to install on certain setups.
+We've been putting lot of polish and cleanup into the installer UI. We've ensured the various views no longer resize the window, we reworked the layout in a few of the views to be more consistent with one another, and we added a pleasant animation to the installation progress view instead of just a static icon. We've also improved disk detection and error handling when failing to install on certain setups.
 
 <figure class="card" markdown="1">
 ![Installer animation](/images/{{ page.slug }}/installer.gif){: width="800" height="567"}
