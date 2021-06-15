@@ -28,7 +28,7 @@ Since the installer is such a critical part of the OS, we highly encourage you t
 
 ### Flatpak
 
-We've continued our efforts to ship first-party apps as Flatpak in Beta 2. elementary OS 6 now comes with Calculator, Camera, Document Viewer, Screenshot, Tasks, and Web as Flatpak apps from the AppCenter Flatpak repository. As a user, it's entirely transparent: apps launch and behave just as before—they just happens to be packaged in a different way under the hood. As the beta process progresses and we solve snadboxing issues in our apps, we plan to transition even more apps over from Debian packages to Flatpaks provided by the AppCenter Flatpak repository.
+We've continued our efforts to ship first-party apps as Flatpak in Beta 2. elementary OS 6 now comes with Calculator, Camera, Document Viewer, Screenshot, Tasks, and Web as Flatpak apps from the AppCenter Flatpak repository. As a user, it's entirely transparent: apps launch and behave just as before—they just happen to be packaged in a different way under the hood. As the beta process progresses and we solve snadboxing issues in our apps, we plan to transition even more apps over from Debian packages to Flatpaks provided by the AppCenter Flatpak repository.
 
 We have also begun testing the third-party process for building Flatpak apps into AppCenter, as teased in the [AppCenter Dashboard sprint blog post](/appcenter-dashboard-sprint). The dashboard itself is not quite ready for testing, but we're getting ever closer and we now know the back-end works for reviewing and deploying apps to the repo.
 
