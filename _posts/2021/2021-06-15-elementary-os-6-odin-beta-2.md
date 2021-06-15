@@ -18,7 +18,7 @@ Developers and testers, elementary OS 6 Beta 2 is available now! For a refresher
 
 ## What's New Since Beta 1
 
-So, what have we been up to for the past several weeks? The biggest changes in beta 2 are related to the OS installer, Flatpak, and Online Accounts.
+So, what have we been up to for the past several weeks? The biggest changes in Beta 2 are related to the OS installer, Flatpak, and Online Accounts.
 
 ### Installer
 
