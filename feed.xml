@@ -5,9 +5,241 @@
     <description>We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS</description>
     <link>https://blog.elementary.io/</link>
     <atom:link href="https://blog.elementary.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 15 Jun 2021 19:03:01 -0500</pubDate>
-    <lastBuildDate>Tue, 15 Jun 2021 19:03:01 -0500</lastBuildDate>
+    <pubDate>Wed, 16 Jun 2021 14:14:20 -0500</pubDate>
+    <lastBuildDate>Wed, 16 Jun 2021 14:14:20 -0500</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      
+        <item>
+          <title>elementary OS 6 Beta 2 Now Available</title>
+          <description>&lt;p&gt;Developers and testers, elementary OS 6 Beta 2 is available now! For a refresher on what a beta is, the release schedule, and how to provide feedback, see the &lt;a href=&quot;/elementary-os-6-odin-beta&quot;&gt;Beta 1 announcement&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div style=&quot;margin: 3em auto;&quot;&gt;
+
+
+
+&lt;a class=&quot;featured with-image 1&quot; href=&quot;/elementary-os-6-odin-beta/&quot;&gt;
+  
+    &lt;div class=&quot;featured-image&quot; alt=&quot;Featured image&quot; style=&quot;background-image: url(/images/updates-for-july-2020/card.png);&quot;&gt;&lt;/div&gt;
+  
+
+  &lt;header&gt;
+    &lt;h2&gt;
+
+
+
+   elementary OS 6 Beta Available&amp;nbsp;Today
+
+&lt;/h2&gt;
+    
+      &lt;h3&gt;
+        
+
+
+
+   What’s a beta, and what’s new for&amp;nbsp;developers?
+
+
+        
+      &lt;/h3&gt;
+    
+
+    
+
+
+
+&lt;div class=&quot;byline&quot;&gt;
+  &lt;div class=&quot;avatar&quot;&gt;
+    &lt;img srcset=&quot;https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&amp;amp;d=blank 2x&quot; src=&quot;https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&amp;amp;d=blank&quot; alt=&quot;Avatar for Cassidy James Blaede&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;author&quot;&gt;
+    
+    &lt;span class=&quot;name&quot;&gt;Cassidy James Blaede&lt;/span&gt;
+    
+    
+      &lt;span class=&quot;description&quot;&gt;Co-founder &amp;amp; CXO&lt;/span&gt;
+    
+  &lt;/div&gt;
+  &lt;time class=&quot;post-date&quot; datetime=&quot;2021-04-30&quot;&gt;Fri, Apr 30, 2021&lt;/time&gt;
+  
+    &lt;span class=&quot;read-time&quot; title=&quot;Estimated read time&quot;&gt;
+  
+  13 min read
+&lt;/span&gt;
+
+
+  
+&lt;/div&gt;
+
+
+  &lt;/header&gt;
+
+  
+&lt;/a&gt;
+
+
+&lt;/div&gt;
+
+&lt;h2 id=&quot;whats-new-since-beta-1&quot;&gt;What’s New Since Beta 1&lt;/h2&gt;
+
+&lt;p&gt;So, what have we been up to for the past several weeks? The biggest changes in Beta 2 are related to the OS installer, Flatpak, and Online Accounts.&lt;/p&gt;
+
+&lt;h3 id=&quot;installer&quot;&gt;Installer&lt;/h3&gt;
+
+&lt;p&gt;We’ve been putting lot of polish and cleanup into the installer UI. We’ve ensured the various views no longer resize the window, we reworked the layout in a few of the views to be more consistent with one another, and we added a pleasant animation to the installation progress view instead of just a static icon. We’ve also improved disk detection and error handling when failing to install on certain setups.&lt;/p&gt;
+
+&lt;figure class=&quot;card&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/elementary-os-6-odin-beta-2/installer.gif&quot; alt=&quot;Installer animation&quot; width=&quot;800&quot; height=&quot;567&quot; /&gt;&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Since the installer is such a critical part of the OS, we highly encourage you to reinstall from Beta 2 if you have been developing on and testing elementary OS 6. It’s important we ensure it works well across a wide variety of hardware so people can enjoy the latest elementary OS on their devices.&lt;/p&gt;
+
+&lt;h3 id=&quot;flatpak&quot;&gt;Flatpak&lt;/h3&gt;
+
+&lt;p&gt;We’ve continued our efforts to ship first-party apps packaged as Flatpaks in Beta 2. elementary OS 6 now comes with Calculator, Camera, Document Viewer, Screenshot, Tasks, and Web from the AppCenter Flatpak repository. As a user, it’s entirely transparent: apps launch and behave just as before—they just happen to be packaged in a different way under the hood. As the beta process progresses and we solve sandboxing issues in our apps, we plan to transition even more apps over from Debian packages to Flatpaks provided by the AppCenter Flatpak repository.&lt;/p&gt;
+
+&lt;p&gt;We have also begun testing the third-party process for building Flatpak apps into AppCenter, as teased in the &lt;a href=&quot;/appcenter-dashboard-sprint&quot;&gt;AppCenter Dashboard sprint blog post&lt;/a&gt;. The dashboard itself is not quite ready for testing, but we’re getting ever closer and we now know the back-end works for reviewing and deploying apps to the repo.&lt;/p&gt;
+
+&lt;div style=&quot;margin: 3em auto;&quot;&gt;
+
+
+
+&lt;a class=&quot;featured with-image 1&quot; href=&quot;/appcenter-dashboard-sprint/&quot;&gt;
+  
+    &lt;div class=&quot;featured-image&quot; alt=&quot;Featured image&quot; style=&quot;background-image: url(/images/appcenter-dashboard-sprint/owen-lystrup-unsplash.jpg);&quot;&gt;&lt;/div&gt;
+  
+
+  &lt;header&gt;
+    &lt;h2&gt;
+
+
+
+   AppCenter Dashboard Sprint Spring&amp;nbsp;2021
+
+&lt;/h2&gt;
+    
+      &lt;h3&gt;
+        
+
+
+
+   Big steps for the Flatpak-based&amp;nbsp;AppCenter
+
+
+        
+      &lt;/h3&gt;
+    
+
+    
+
+
+
+&lt;div class=&quot;byline&quot;&gt;
+  &lt;div class=&quot;avatar&quot;&gt;
+    &lt;img srcset=&quot;https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&amp;amp;d=blank 2x&quot; src=&quot;https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&amp;amp;d=blank&quot; alt=&quot;Avatar for Daniel Foré&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;author&quot;&gt;
+    
+    &lt;span class=&quot;name&quot;&gt;Daniel Foré&lt;/span&gt;
+    
+    
+      &lt;span class=&quot;description&quot;&gt;Founder &amp;amp; CEO&lt;/span&gt;
+    
+  &lt;/div&gt;
+  &lt;time class=&quot;post-date&quot; datetime=&quot;2021-05-27&quot;&gt;Thu, May 27, 2021&lt;/time&gt;
+  
+    &lt;span class=&quot;read-time&quot; title=&quot;Estimated read time&quot;&gt;
+  
+  5 min read
+&lt;/span&gt;
+
+
+  
+&lt;/div&gt;
+
+
+  &lt;/header&gt;
+
+  
+&lt;/a&gt;
+
+
+&lt;/div&gt;
+
+&lt;p&gt;A major fix since Beta 1 is the inclusion of FreeDesktop Flatpak extensions in Beta 2; this ensures things like rendering in Web works correctly on more web pages—if you had tab crashes in Beta 1, you’ll want to get Beta 2 for the fix.&lt;/p&gt;
+
+&lt;h3 id=&quot;online-accounts&quot;&gt;Online Accounts&lt;/h3&gt;
+
+&lt;p&gt;A major feature to land in Beta 2 is support for adding Online Accounts from System Settings. We now support adding both mail and calendar accounts that support the IMAP and CalDav standards. Once added, data from these accounts will show up across the system in apps like Mail, Calendar, and Tasks as well as in the Date &amp;amp; Time panel indicator.&lt;/p&gt;
+
+&lt;p&gt;This feature is still undergoing rapid development, but it is working and we highly encourage you to give it a try. Keep in mind some account providers require you to explicitly enable IMAP and CalDav support in your account, and some may require you to use an app password; refer to your online account provider’s documentation for the exact details. But since we’re leaning on widely-supported open standards, most email and calendar providers should now be compatible.&lt;/p&gt;
+
+&lt;p&gt;The rewritten Mail app is also nearing feature parity with the previous version while being faster and less error-prone. It’s easier to test than ever before in Beta 2, so add your account and take it for a spin!&lt;/p&gt;
+
+&lt;h3 id=&quot;notifications&quot;&gt;Notifications&lt;/h3&gt;
+
+&lt;p&gt;elementary OS 6 comes with an improved Notifications system, and we’ve expanded on its capabilities for app developers in Beta 2.&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/elementary-os-6-odin-beta-2/notification-badge.png&quot; alt=&quot;Notification with an icon badge&quot; width=&quot;362&quot; height=&quot;90&quot; /&gt;
+&lt;img src=&quot;/images/elementary-os-6-odin-beta-2/notification-button.png&quot; alt=&quot;Notification with action buttons&quot; width=&quot;362&quot; height=&quot;129&quot; /&gt;&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Notifications now support icon badges and action buttons; developers, be sure to check &lt;a href=&quot;https://docs.elementary.io/develop/apis/notifications&quot;&gt;the documentation for these new APIs&lt;/a&gt; to ensure your apps can take advantage of these new features.&lt;/p&gt;
+
+&lt;h3 id=&quot;and-more&quot;&gt;…and More!&lt;/h3&gt;
+
+&lt;p&gt;Beta 2 comes with greatly improved focus styles in the system stylesheet, and we’ve fixed several small issues including border radii of linked buttons, nested header bars, and missing styles for the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;monospace&lt;/code&gt; style class. Developers, make sure to test against Beta 2 to ensure your apps look right—and as always, please &lt;a href=&quot;https://github.com/elementary/stylesheet/issues&quot;&gt;file issues&lt;/a&gt; if you have any problems.&lt;/p&gt;
+
+&lt;p&gt;We’ve also continued to update and improve the &lt;a href=&quot;https://docs.elementary.io/&quot;&gt;elementary Documentation&lt;/a&gt; in general as we approach the release of OS 6. Check it out when building your apps, and please file issues or pull requests if you notice anything is off or could be improved; both the &lt;a href=&quot;https://github.com/elementary/docs&quot;&gt;Developer Docs&lt;/a&gt; and &lt;a href=&quot;https://github.com/elementary/hig&quot;&gt;Human Interface Guidelines&lt;/a&gt; live on GitHub as Markdown files, so it’s possible for anyone to contribute.&lt;/p&gt;
+
+&lt;p&gt;Lastly, Web now follows the dark style preference, bringing it in line with the other default apps like Mail, Tasks, Calendar, Music, System Settings, AppCenter, and more. Not only does the user interface go dark, but websites that support the &lt;a href=&quot;https://drafts.csswg.org/mediaqueries-5/#prefers-color-scheme&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;prefers-color-scheme&lt;/code&gt; CSS media query&lt;/a&gt; will work as they do on other platforms and browsers that support a dark style. If you’re a web developer publishing a site that users of elementary OS may visit, be sure to support the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;prefers-color-scheme&lt;/code&gt; media query and provide users with a dark variant when requested.&lt;/p&gt;
+
+&lt;h2 id=&quot;get-it&quot;&gt;Get It&lt;/h2&gt;
+
+&lt;p&gt;If you’re an app developer or eager tester, you can get elementary OS 6 Beta 2 for 64-bit AMD/Intel today from our &lt;a href=&quot;https://builds.elementary.io&quot;&gt;builds site&lt;/a&gt;. While Early Access builds are limited to GitHub Sponsors, OS 6 beta releases are being made available to the general public in the interest of wider testing and app development.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;
+  &lt;p&gt;&lt;a href=&quot;https://builds.elementary.io&quot; class=&quot;button&quot;&gt;Download elementary OS 6 Beta 2&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;We encourage all testers of Beta 1 to perform a fresh install&lt;/strong&gt;; some configuration changes and Flatpak fixes will not be automatically applied on Beta 1 since they are implemented when the OS image is built.&lt;/p&gt;
+
+&lt;h2 id=&quot;disclaimer--known-issues&quot;&gt;Disclaimer &amp;amp; Known Issues&lt;/h2&gt;
+
+&lt;p&gt;As with any pre-release software, there are are some known issues in this beta release. Check the &lt;a href=&quot;https://github.com/orgs/elementary/projects/55&quot;&gt;public project board&lt;/a&gt; for known regressions, as well as the progress towards the stable release. And as always:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;We &lt;strong&gt;do not recommend using beta builds on your primary device&lt;/strong&gt;, as irrecoverable crashes and data loss are possible.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;It will not be possible to upgrade to the stable release&lt;/strong&gt; from beta builds.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Some &lt;strong&gt;user-facing features are unfinished&lt;/strong&gt; and in rapid development; beta releases are intended for developers.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+          <pubDate>Wed, 16 Jun 2021 00:00:00 -0500</pubDate>
+          <link>https://blog.elementary.io/elementary-os-6-odin-beta-2/</link>
+          <guid isPermaLink="true">https://blog.elementary.io/elementary-os-6-odin-beta-2/</guid>
+          
+              
+              
+          <enclosure url="https://blog.elementary.io" />
+          
+          
+          <category>early-access</category>
+          
+          <category>odin</category>
+          
+          <category>devs</category>
+          
+          
+        </item>
+      
     
       
         <item>
@@ -1957,107 +2189,6 @@ figure {
           <category>early-access</category>
           
           <category>odin</category>
-          
-          
-        </item>
-      
-    
-      
-        <item>
-          <title>Multi-touch Gestures in elementary OS 6</title>
-          <description>&lt;p&gt;One of the most hotly requested features for years has been to have multi-touch gestures in elementary OS, and with 6.0 I’m excited to say that we will deliver. Like the &lt;a href=&quot;/dark-style-progress/&quot;&gt;dark style preference&lt;/a&gt;, delivering a great multi-touch experience is a little more complicated than it seems on the surface. There have been some 3rd party tools to detect touchpad gestures and then trigger actions after-the-fact, but it wasn’t until recently that we’ve had the technical ability to provide smooth, responsive animations that track 1:1 with your finger movement across a touchpad or touch screen.&lt;/p&gt;
-
-&lt;h2 id=&quot;window-manager-gestures&quot;&gt;Window Manager Gestures&lt;/h2&gt;
-
-&lt;p&gt;We’ve had the great pleasure of working with &lt;a href=&quot;https://github.com/sponsors/JoseExposito&quot;&gt;José Expósito&lt;/a&gt;, the author of Touchégg, on our window manager gestures. In elementary OS 6, we use Touchégg Daemon behind the scenes to capture input events and communicate them to Gala, our window manager.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;p&gt;&lt;img src=&quot;/images/multitouch-gestures-in-elementary-os-6/multitasking.gif&quot; alt=&quot;Multitasking View&quot; /&gt;&lt;/p&gt;
-  &lt;figcaption&gt;1:1 multi-touch gestures used for Multitasking View&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;At the moment, we’re reviewing two proposals: one for the multitasking view and another for switching workspaces directly. Both of these use 1:1 responsive, finger-tracking gestures that can be peeked or canceled at any time. When special animations aren’t available in the window manager, such as when tiling, we fall back to animations built in to Touchégg.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;p&gt;&lt;img src=&quot;/images/multitouch-gestures-in-elementary-os-6/workspaces.gif&quot; alt=&quot;Switching workspaces&quot; /&gt;&lt;/p&gt;
-  &lt;figcaption&gt;1:1 multi-touch gestures used for switching workspaces&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;We’re still discussing exactly what the default configuration should be, but work is already underway on System Settings so that you can choose whichever gestures feel most comfortable for you—or choose none at all.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;p&gt;&lt;img alt=&quot;Gesture Settings&quot; src=&quot;/images/multitouch-gestures-in-elementary-os-6/settings.png&quot; width=&quot;990&quot; height=&quot;686&quot; /&gt;&lt;/p&gt;
-  &lt;figcaption&gt;Gesture configuration in System Settings → Mouse &amp;amp; Touchpad&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;If you’d like to support José’s work on multi-touch gestures for elementary OS 6—and other Linux-based operating systems—you can do so with as little as $2/mo on &lt;a href=&quot;https://github.com/sponsors/JoseExposito&quot;&gt;GitHub Sponsors&lt;/a&gt;.&lt;/p&gt;
-
-&lt;div style=&quot;text-align: center&quot;&gt;
-  &lt;p&gt;&lt;a href=&quot;https://github.com/sponsors/JoseExposito&quot; class=&quot;button&quot;&gt;Sponsor José on GitHub&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;app-gestures&quot;&gt;App Gestures&lt;/h2&gt;
-
-&lt;p&gt;In order to make gestures work globally, previous solutions have opted to emulate keyboard shortcuts after a gesture was completed. This is effective, but animations—if they’re provided at all—don’t feel connected to users’ input. Instead, in elementary OS 6 we’re making use of Handy, a library originally developed for &lt;a href=&quot;https://puri.sm/&quot;&gt;Purism&lt;/a&gt; and their Open Source phone platform. This means that each app and desktop component must be updated to support gestures individually, which is ultimately a lot more work but a vastly superior experience.&lt;/p&gt;
-
-&lt;h3 id=&quot;paging&quot;&gt;Paging&lt;/h3&gt;
-
-&lt;figure&gt;
-  &lt;p&gt;&lt;img src=&quot;/images/multitouch-gestures-in-elementary-os-6/appcenter.gif&quot; alt=&quot;AppCenter Screenshots&quot; /&gt;&lt;/p&gt;
-  &lt;figcaption&gt;Paging screenshots in AppCenter&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;In elementary OS 5, we used Handy to add gestures for switching pages to the applications menu and during onboarding. So far, in elementary OS 6 this has been extended to the Date &amp;amp; Time indicator to switch months in the calendar view and to AppCenter to switch between screenshots. This makes use of the &lt;a href=&quot;https://valadoc.org/libhandy-1/Hdy.Carousel.html&quot;&gt;Handy Carousel&lt;/a&gt; widget which also provides a smooth transition between page indicator dots when needed. Our plan is to provide gestures any time pages are used and we’re already tracking issues for Calendar and more.&lt;/p&gt;
-
-&lt;h3 id=&quot;navigation&quot;&gt;Navigation&lt;/h3&gt;
-
-&lt;p&gt;Another place we’ve implemented gestures is while navigating between panes or views. This is using the &lt;a href=&quot;https://valadoc.org/libhandy-1/Hdy.Deck.html&quot;&gt;Handy Deck&lt;/a&gt; widget which contains a concept of next and previous views and shows views in a neat stack. Swipe-to-go-back is now implemented in elementary OS 6 in Feedback, in the Installer and Initial Setup views for configuring locale variants, and in Systems Settings → Keyboard when adding new layouts. Gestures are also now available natively in WebkitGtk and therefore Epiphany also provides swipe navigation for both back and forward.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;p&gt;&lt;img src=&quot;/images/multitouch-gestures-in-elementary-os-6/keyboard-layouts.gif&quot; alt=&quot;Keyboard Layouts&quot; /&gt;&lt;/p&gt;
-  &lt;figcaption&gt;Navigating when adding keyboard layouts in System Settings → Keyboard&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Some more complex navigation situations are in progress such as when navigating between views in System Settings itself and in AppCenter. There are also open issues for navigating in Files and Photos, but development hasn’t yet started there. Working with Handy Deck in these situations has exposed some inefficiencies in the way navigation was implemented previously so not only are we implementing a new feature, but the underlying code is being made more robust and optimized.&lt;/p&gt;
-
-&lt;h3 id=&quot;other&quot;&gt;Other&lt;/h3&gt;
-
-&lt;p&gt;We’re also looking into other uses for gestures as popularized in mobile operating systems, such as swipe to dismiss. In elementary OS 6, you can now dismiss notification bubbles from the desktop with a swipe, and remove them from the notifications indicator by swiping in either direction as well. We haven’t implemented swipe-to-dismiss in other types of lists yet, but we’re open to suggestions! You can follow along with our &lt;a href=&quot;https://github.com/orgs/elementary/projects/61&quot;&gt;progress and plans on GitHub&lt;/a&gt;, as well as file feature requests.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;p&gt;&lt;img alt=&quot;Notification Center&quot; src=&quot;/images/multitouch-gestures-in-elementary-os-6/notification-center.gif&quot; width=&quot;399&quot; height=&quot;672&quot; /&gt;&lt;/p&gt;
-  &lt;figcaption&gt;Notification bubbles being swiped away in the new Notification Center&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;A quick note about pinch-to-zoom and rotate, at the moment we don’t yet have a way to implement these more complex gestures. We may have to wait until we can provide GTK4 in a Flatpak or for elementary OS 7 before it becomes possible to provide gestures for transforms.&lt;/p&gt;
-
-&lt;p&gt;Lastly, I just wanted to say thank you to &lt;a href=&quot;https://twitter.com/alexm_gnome&quot;&gt;Alexander Mikhaylenko&lt;/a&gt; for being available for questions and feature requests as we implement Handy in our apps. He’s been an essential resource and very open to improving Handy for our use cases.&lt;/p&gt;
-
-&lt;h2 id=&quot;get-early-access&quot;&gt;Get Early Access&lt;/h2&gt;
-
-&lt;p&gt;If you’re excited by what you read here and want to get your hands on the developer preview of elementary OS 6, you can! GitHub sponsors at the $10/mo or above tier get access to our &lt;a href=&quot;https://builds.elementary.io&quot;&gt;daily builds server&lt;/a&gt; where you can test the latest and greatest experimental builds, including builds for Pinebook Pro. Subscribing helps us fund the development of elementary OS and brings us that much closer to delivering the final product.&lt;/p&gt;
-
-&lt;div style=&quot;text-align: center&quot;&gt;
-  &lt;p&gt;&lt;a href=&quot;https://builds.elementary.io&quot; class=&quot;button&quot;&gt;Get Early Access Builds&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-
-</description>
-          <pubDate>Tue, 01 Dec 2020 00:00:00 -0600</pubDate>
-          <link>https://blog.elementary.io/multitouch-gestures-in-elementary-os-6/</link>
-          <guid isPermaLink="true">https://blog.elementary.io/multitouch-gestures-in-elementary-os-6/</guid>
-          
-              
-              
-          <enclosure url="https://blog.elementary.io" />
-          
-          
-          <category>early-access</category>
-          
-          <category>odin</category>
-          
-          <category>touch</category>
-          
-          <category>ux</category>
           
           
         </item>
