@@ -6,6 +6,65 @@ tags:
   - odin
 ---
 
+It's been a long road to elementary OS 6—what with a whole global pandemic dropped on us in the middle of development—but it's finally here. elementary OS 6 Odin is available to download now. And it's the biggest update to the platform yet! With OS 6, we've focused in on:
+
+- Empowering you to **be in control** and **express yourself**,
+- Making elementary OS **easier to get** and **more inclusive**, and
+- Continuing to innovate with **new features**
+
+To get elementary OS 6 now, head to [elementary.io]—or read on for all the details of what's new.
+
+---
+
+## Be in Control & Express Yourself
+
+elementary OS is designed to be easy to use, get out of your way, and not leave the hard decisions to you. At the same time, it exists to empower you to take control of your own devices and data. That's why we've always had an unmatched [commitment to privacy](https://elementary.io/privacy):
+
+<aside markdown="1">
+>Your data always belongs to you, and only you. We don’t make advertising deals or collect sensitive personal data. We’re funded directly by our users paying what they want for elementary OS and apps on AppCenter. And that’s how it should be.
+</aside>
+
+With OS 6, we're empowering you further with new ways to stay in control of your experience—plus new ways to express your own unique style and preferences.
+
+### Sandboxing & Portals
+
+elementary OS 6 leverages cutting-edge sandboxing technology to enforce privacy and security protections at a technical level. In OS 6, all AppCenter apps are now packaged and distributed as Flatpaks, a modern container format that keeps apps siloed away from each other—and your sensitive data. Several default elementary OS apps are now being distributed as Flatpaks as well.
+
+In addition, elementary OS 6 utilizes Portals to keep you in control of how apps interact with each other and your data. Apps must explicitly request permission in a well-defined way to get access to files, screenshots, or even launching other apps. A new Permissions view in System Settings → Applications exposes all the permissions apps have requested and gives you control to override or revoke them.
+
+These protections are in place for apps installed from AppCenter, but importantly, they apply to all apps installed via the built-in Sideload utility; all third-party Flatpak apps from external sources like Flathub or a developer's own website. With these protections built in and elementary OS 6 being Flatpak-first, it's easier and safer than ever to get and use the apps you need.
+
+### Dark Style & Accent Color
+
+Get ready to turn down the lights, because Dark Style is here for elementary OS 6. The new visual style is available right from the Welcome screen or at any time from _System Settings_ → _Desktop_ → _Appearance_. Choose the classic Default style or a new Dark style, and the system and default apps will follow suit. Third-party apps are encouraged to follow this new preference, though we avoid breakage by not _forcing_ it; if your favorite app doesn't follow along, be sure to report that to its developer.
+
+We've also added 10 new accent colors to elementary OS, affecting everything from suggested action buttons and switches to text selection focus styles—and the new _automatic_ accent color preference picks an accent color from your current wallpaper. elementary OS 6 is the most customizable version to date, enabling you to completely change the look of the OS by playing with different wallpapers, visual styles, and accent colors.
+
+<aside markdown="1">
+>elementary OS 6 is the most customizable version to date
+</aside>
+
+Both of these new features are made possible by a complete redesign and rewrite of the elementary OS system stylesheet. We revisited every detail from contextual shading and contrast to shadows, strokes, and border radii. The end result ensures _much_ better contrast throughout the whole OS while enabling unprecedented customization.
+
+- Contrast
+
+## Easier to Get & More Inclusive
+
+- Continued work with hardware OEMs
+- Simpler installer and initial setup
+- A11y features by default
+
+## New Features
+
+- Multi-touch for smooth, 1:1 interactions across the whole OS
+- Redesigned rich notifications & Notification Center
+- New Tasks app that integrates with Online Accounts
+- Firmware updates built-in
+
+## …and tons more
+
+---
+
 ## Apps
 
 ### mail 6.0.0 Released
@@ -614,4 +673,7 @@ Other Changes:
 
 ---
 
-For more detailed release notes (nerds): https://releases.elementary.io/
+For more detailed release notes (nerds): [Releases]
+
+[elementary.io]: https://elementary.io
+[releases]: https://releases.elementary.io
