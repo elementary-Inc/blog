@@ -38,6 +38,13 @@ These protections are in place for apps installed from AppCenter, but importantl
 
 Get ready to turn down the lights, because Dark Style is here for elementary OS 6. The new visual style is available right from the Welcome screen or at any time from _System Settings_ → _Desktop_ → _Appearance_. Choose the classic Default style or a new Dark style, and the system and default apps will follow suit. Third-party apps are encouraged to follow this new preference, though we avoid breakage by not _forcing_ it; if your favorite app doesn't follow along, be sure to report that to its developer.
 
+<figure markdown="1">
+![Desktop Appearance settings](https://github.com/elementary/switchboard-plug-pantheon-shell/raw/master/data/screenshot-appearance.png?raw=true){: width="856" height="659"}
+<figcaption markdown="1">
+Dark style and accent colors available in _System Settings_ → _Desktop_ → _Appearance_
+</figcaption>
+</figure>
+
 We've also added 10 new accent colors to elementary OS, affecting everything from suggested action buttons and switches to text selection focus styles—and the new _automatic_ accent color preference picks an accent color from your current wallpaper. elementary OS 6 is the most customizable version to date, enabling you to completely change the look of the OS by playing with different wallpapers, visual styles, and accent colors.
 
 <aside markdown="1">
@@ -54,7 +61,27 @@ We've added even more capabilities to System Settings, enabling you to tune your
 
 Alongside the new Dark Style preference and accent colors in Desktop settings, we've expanded on the text size options, making it easier to fine-tune how your desktop looks. In addition, the new system stylesheet now uses the text size to smartly scale the rest of the UI, making it a real option for handling display resolutions that don't fit nicely into the integer scaling buckets—all while keeping the UI pixel-perfect and crisp.
 
+<figure class="third" markdown="1">
+![Desktop Appearance settings](https://github.com/elementary/switchboard-plug-pantheon-shell/raw/master/data/screenshot-appearance.png?raw=true){: width="856" height="659"}
+![Desktop Dock & Panel settings](https://github.com/elementary/switchboard-plug-pantheon-shell/raw/master/data/screenshot-dock-panel.png?raw=true){: width="856" height="659"}
+![Desktop Multitasking settings](https://github.com/elementary/switchboard-plug-pantheon-shell/raw/master/data/screenshot-multitasking.png?raw=true){: width="856" height="659"}
+<figcaption markdown="1">
+Appearance, Dock & Panel, and Multitasking settings
+</figcaption>
+</figure>
+
 Desktop settings in OS 6 also bring new controls for when to move windows to a new workspace with options for toggling the behavior on fullscreen and maximize.
+
+#### Screen Time & Limits
+
+elementary OS 5.1 introduced Screen Time & Limits in place of the traditional parental controls, and in OS 6 we've expanded on its design and capabilities to keep you in control.
+
+<figure markdown="1">
+![Screen Time & Limits settings](https://github.com/elementary/switchboard-plug-parental-controls/raw/master/data/screenshot.png?raw=true){: width="892" height="659"}
+<figcaption markdown="1">
+Screen Time & Limits settings
+</figcaption>
+</figure>
 
 ## Easier to Get & More Inclusive
 
@@ -590,7 +617,8 @@ Other Changes:
 
 ---
 
-For more detailed release notes (nerds): [Releases]
+## Release Notes
+
+For detailed release notes organized by version number of each individual component, you can always view our [public Releases site](https://releases.elementary.io).
 
 [elementary.io]: https://elementary.io
-[releases]: https://releases.elementary.io
