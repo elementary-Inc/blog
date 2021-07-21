@@ -15,13 +15,44 @@ tags:
 
 It's been a long road to elementary OS 6—what with a whole global pandemic dropped on us in the middle of development—but it's finally here. elementary OS 6 Odin is available to download now. And it's the biggest update to the platform yet! With OS 6, we've focused in on:
 
-- Empowering you to **be in control** and **express yourself**,
-- Making elementary OS **easier to get** and **more inclusive**, and
-- Continuing to innovate with **new features**
+- Continuing to innovate with **new features**,
+- Empowering you to **be in control** and **express yourself**, and
+- Making elementary OS **easier to get** and **more inclusive**
 
 To get elementary OS 6 now, head to [elementary.io]—or read on for all the details of what's new.
 
 ---
+
+## New Features
+
+It wouldn't be a new OS release without exciting new features to improve your experience, and OS 6 delivers on that front.
+
+### Multi-touch
+
+One of the most pervasive new features for touchscreen and trackpad users is the new multi-touch support throughout elementary OS 6. A three-finger swipe up smoothly opens the Multitasking View, exposing open apps and workspaces. A three-finger swipe left or right smoothly switches between the dynamic workspaces, making it even faster to jump between tasks.
+
+<figure class="half" markdown="1">
+![Multitasking View](/images/multitouch-gestures-in-elementary-os-6/multitasking.gif)
+![Switching workspaces](/images/multitouch-gestures-in-elementary-os-6/workspaces.gif)
+<figcaption markdown="1">
+1:1 multi-touch gestures used for Multitasking View and switching workspaces
+</figcaption>
+</figure>
+
+But it's not just the desktop that has multi-touch support; we've worked to bring smooth and intuitive multi-touch gestures into apps as well. Use two fingers to swipe through paged layouts like screenshots in AppCenter or steps in the Initial Setup and Welcome screens. Swipe with two fingers to go back in Web, System Settings, and several other apps. And smoothly swipe between users on the greeter.
+
+<figure class="half" markdown="1">
+![AppCenter Screenshots](/images/multitouch-gestures-in-elementary-os-6/appcenter.gif)
+![Keyboard Layouts](/images/multitouch-gestures-in-elementary-os-6/keyboard-layouts.gif)
+<figcaption markdown="1">
+**Left:** Swipe to switch pages | **Right:** Swipe to go back
+</figcaption>
+</figure>
+
+- Multi-touch for smooth, 1:1 interactions across the whole OS
+- Redesigned rich notifications & Notification Center
+- New Tasks app that integrates with Online Accounts
+- Firmware updates built-in
 
 ## Be in Control & Express Yourself
 
@@ -38,6 +69,13 @@ With OS 6, we're empowering you further with new ways to stay in control of your
 elementary OS 6 leverages cutting-edge sandboxing technology to enforce privacy and security protections at a technical level. In OS 6, all AppCenter apps are now packaged and distributed as Flatpaks, a modern container format that keeps apps siloed away from each other—and your sensitive data. Several default elementary OS apps are now being distributed as Flatpaks as well.
 
 In addition, elementary OS 6 utilizes Portals to keep you in control of how apps interact with each other and your data. Apps must explicitly request permission in a well-defined way to get access to files, screenshots, or even launching other apps. A new Permissions view in System Settings → Applications exposes all the permissions apps have requested and gives you control to override or revoke them.
+
+<figure markdown="1">
+![Applications Permissions settings](https://github.com/elementary/switchboard-plug-applications/raw/master/data/screenshot-permissions.png?raw=true){: width="892" height="659"}
+<figcaption markdown="1">
+_System Settings_ → _Applications_ → _Permissions_
+</figcaption>
+</figure>
 
 These protections are in place for apps installed from AppCenter, but importantly, they apply to all apps installed via the built-in Sideload utility; all third-party Flatpak apps from external sources like Flathub or a developer's own website. With these protections built in and elementary OS 6 being Flatpak-first, it's easier and safer than ever to get and use the apps you need.
 
@@ -68,40 +106,34 @@ We've added even more capabilities to System Settings, enabling you to tune your
 
 Alongside the new Dark Style preference and accent colors in Desktop settings, we've expanded on the text size options, making it easier to fine-tune how your desktop looks. In addition, the new system stylesheet now uses the text size to smartly scale the rest of the UI, making it a real option for handling display resolutions that don't fit nicely into the integer scaling buckets—all while keeping the UI pixel-perfect and crisp.
 
-<figure class="third" markdown="1">
-![Desktop Appearance settings](https://github.com/elementary/switchboard-plug-pantheon-shell/raw/master/data/screenshot-appearance.png?raw=true){: width="856" height="659"}
+<figure class="half" markdown="1">
 ![Desktop Dock & Panel settings](https://github.com/elementary/switchboard-plug-pantheon-shell/raw/master/data/screenshot-dock-panel.png?raw=true){: width="856" height="659"}
 ![Desktop Multitasking settings](https://github.com/elementary/switchboard-plug-pantheon-shell/raw/master/data/screenshot-multitasking.png?raw=true){: width="856" height="659"}
 <figcaption markdown="1">
-Appearance, Dock & Panel, and Multitasking settings
+Dock & Panel and Multitasking settings
 </figcaption>
 </figure>
 
 Desktop settings in OS 6 also bring new controls for when to move windows to a new workspace with options for toggling the behavior on fullscreen and maximize.
 
-#### Screen Time & Limits
+### Date & Time
 
-elementary OS 5.1 introduced Screen Time & Limits in place of the traditional parental controls, and in OS 6 we've expanded on its design and capabilities to keep you in control.
+We've redesigned the Date & Time settings in OS 6 with a more straightforward layout and new options.
 
 <figure markdown="1">
-![Screen Time & Limits settings](https://github.com/elementary/switchboard-plug-parental-controls/raw/master/data/screenshot.png?raw=true){: width="892" height="659"}
+![Date & Time settings](https://github.com/elementary/switchboard-plug-datetime/raw/master/data/screenshot.png?raw=true){: width="892" height="659"}
 <figcaption markdown="1">
-Screen Time & Limits settings
+New Date & Time settings layout and options
 </figcaption>
 </figure>
+
+Timezone configuration has been redesigned and moved from being hidden into the popover to being right in the main view. We've also added new options to show or hide the date, weekday, and seconds in the clock on the Panel.
 
 ## Easier to Get & More Inclusive
 
 - Continued work with hardware OEMs
 - Simpler installer and initial setup
 - A11y features by default
-
-## New Features
-
-- Multi-touch for smooth, 1:1 interactions across the whole OS
-- Redesigned rich notifications & Notification Center
-- New Tasks app that integrates with Online Accounts
-- Firmware updates built-in
 
 ## …and tons more
 
@@ -257,6 +289,13 @@ Other updates:
 
 ## Settings
 
+### switchboard 6.0.0 Released
+
+- Add multi-touch navigation gestures
+- Better support smaller displays
+- Remove old GNOME Control Center compatibility layer
+- Stability and performance improvements
+
 ### switchboard-plug-pantheon-shell 6.0.0 Released
 
 - Dyslexia-friendly text preference to use the OpenDyslexia font system-wide
@@ -275,19 +314,9 @@ More information:
 - Provide information for ARM CPUs
 - Provide information for more types of Graphics
 
-### switchboard-plug-datetime 2.2.0 Released
-
-- Move timezone popover contents to the main view
-- Add options to show or hide the date, weekday, and seconds in the clock
-
 ### switchboard-plug-onlineaccounts 6.0.0 Released
 
 Complete redesign based on Evolution Data Server
-
-### switchboard-plug-applications 6.0.0 Released
-
-- Manage permissions for Flatpak apps
-- Show custom launcher files
 
 ### switchboard-plug-mouse-touchpad 6.0.0 Released
 
@@ -329,13 +358,6 @@ Minor updates:
 - Add Layout popover is now a dialog
 - Guarantee we always have at least one layout
 - Improvements to ibus and xkb layouts
-
-### switchboard 6.0.0 Released
-
-- Add multi-touch navigation gestures
-- Better support smaller displays
-- Remove old GNOME Control Center compatibility layer
-- Stability and performance improvements
 
 ### switchboard-plug-power 2.5.0 Released
 
