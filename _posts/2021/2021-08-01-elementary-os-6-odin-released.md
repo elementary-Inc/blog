@@ -56,9 +56,24 @@ These new multi-touch gestures make elementary OS 6 faster and smoother to navig
 
 elementary OS has always provided desktop notifications, but OS 6 brings a redesign with richer, more capable notifications than ever.
 
-- Redesigned rich notifications & Notification Center
-- New Tasks app that integrates with Online Accounts
-- Firmware updates built-in
+### Tasks
+
+elementary OS 6 comes with the brand new Tasks app, helping you tackle your to-do list whether it's stored on your device or synchronized with an online account.
+
+<figure markdown="1">
+![Tasks app](https://raw.githubusercontent.com/elementary/tasks/master/data/screenshot.png){: width="1015" height="769"}
+</figure>
+
+Tasks is designed around the open CalDav format, ensuring it's compatible with most online account providers. It supports synchronizing with multiple accounts and lists, time-based reminders, location-based reminders, and more.
+
+### Firmware Updates
+
+<figure markdown="1">
+![Firmware settings](https://github.com/elementary/switchboard-plug-about/raw/master/data/screenshot-firmware.png?raw=true){: width="892" height="659"}
+<figcaption markdown="1">
+Firmware updates built into System Settings
+</figcaption>
+</figure>
 
 ## Be in Control & Express Yourself
 
