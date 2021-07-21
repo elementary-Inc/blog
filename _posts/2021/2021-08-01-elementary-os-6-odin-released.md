@@ -1,10 +1,15 @@
 ---
 title: elementary OS 6 Odin
-description:
+description: It’s finally here, and it’s the biggest update to the platform yet
 author: cassidyjames
+image: /images/elementary-os-6-odin-released/odin.png
 tags:
   - odin
 ---
+
+<figure class="card" markdown="1">
+![Screenshot of elementary OS 6 Odin]({{ page.image }})
+</figure>
 
 It's been a long road to elementary OS 6—what with a whole global pandemic dropped on us in the middle of development—but it's finally here. elementary OS 6 Odin is available to download now. And it's the biggest update to the platform yet! With OS 6, we've focused in on:
 
