@@ -41,12 +41,20 @@ Get ready to turn down the lights, because Dark Style is here for elementary OS 
 We've also added 10 new accent colors to elementary OS, affecting everything from suggested action buttons and switches to text selection focus styles—and the new _automatic_ accent color preference picks an accent color from your current wallpaper. elementary OS 6 is the most customizable version to date, enabling you to completely change the look of the OS by playing with different wallpapers, visual styles, and accent colors.
 
 <aside markdown="1">
->elementary OS 6 is the most customizable version to date
+>elementary OS 6 is the most customizable version to date.
 </aside>
 
 Both of these new features are made possible by a complete redesign and rewrite of the elementary OS system stylesheet. We revisited every detail from contextual shading and contrast to shadows, strokes, and border radii. The end result ensures _much_ better contrast throughout the whole OS while enabling unprecedented customization.
 
-- Contrast
+### System Settings
+
+We've added even more capabilities to System Settings, enabling you to tune your system just how you want.
+
+#### Desktop
+
+Alongside the new Dark Style preference and accent colors in Desktop settings, we've expanded on the text size options, making it easier to fine-tune how your desktop looks. In addition, the new system stylesheet now uses the text size to smartly scale the rest of the UI, making it a real option for handling display resolutions that don't fit nicely into the integer scaling buckets—all while keeping the UI pixel-perfect and crisp.
+
+Desktop settings in OS 6 also bring new controls for when to move windows to a new workspace with options for toggling the behavior on fullscreen and maximize.
 
 ## Easier to Get & More Inclusive
 
@@ -71,6 +79,27 @@ Both of these new features are made possible by a complete redesign and rewrite 
 
 Complete rewrite from scratch
 
+### calendar 6.0.0 Released
+
+New Features:
+
+- Import ICS files from the gear menu
+- Support the dark style
+
+Fixes:
+
+- Properly show events on the last day of the month
+- Fix end times for all-day events
+- Notify for all alarms on an event
+
+Minor Updates:
+
+- Improved offline support
+- New colorful avatar fallbacks
+- Include "film" as an event icon keyword
+- Add Mint and Bubblegum to calendar color chooser
+- Link to Online Accounts settings in the gear menu
+
 ### appcenter 3.6.0 Released
 
 New features:
@@ -84,7 +113,6 @@ Improvements:
 - Ask the user to manually restart if we can't ask the session to prompt
 - Improve styling and contrast of buttons
 - More concise and consistent language
-- Updated translations
 
 Fixes:
 
@@ -114,13 +142,11 @@ Improvements:
 - AFC protocol support
 - Add a smaller minimum icon size in list view
 - Show emblems inline in list views
-- Performance improvements
 - Stability improvements
 
 Other updates:
 
 - Rename "Devices" to "Storage"
-- Updated translations
 
 ### music 5.1.0 Released
 
@@ -161,7 +187,6 @@ Minor updates:
 - Allow launching with pkexec and disallow launching with sudo
 - Remove split view
 - Remove browser preview
-- Updated translations
 
 ### terminal 6.0.0 Released
 
@@ -182,13 +207,11 @@ Other updates:
 - Fix an issue with keyboard shortcuts not activating the first time they're pressed
 - Avoid losing focus when closing background tabs
 - Validate custom palette
-- Translation updates
 
 ### photos 2.7.1 Released
 
 - Fix keyboard activation in tool windows
 - Show saved state correctly in the context-menu
-- Translation updates
 
 ### videos 2.7.3 Released
 
@@ -197,25 +220,12 @@ Other updates:
 - Fix an issue with accessing library view
 - Fix an issue with returning to the welcome page while playing multiple videos
 - Prevent sleep while playing a video
-- Translation updates
 
 ## Settings
 
 ### switchboard-plug-pantheon-shell 6.0.0 Released
 
-New features:
-
-- Accent color and dark style options
 - Dyslexia-friendly text preference to use the OpenDyslexia font system-wide
-- Maximize and fullscreen workspace management options
-
-Other updates:
-
-- Fix a freeze after opening Power settings
-- Improved filter for image file types when importing
-- Visual updates
-- Some options now appear in different tabs
-- Updated translations
 
 ### switchboard-plug-about 6.0.0 Released
 
@@ -231,24 +241,10 @@ More information:
 - Provide information for ARM CPUs
 - Provide information for more types of Graphics
 
-Fixes:
-
-- Fix an issue where the view was destroyed early when navigating away
-- Fix system memory calculation
-
-Minor updates:
-
-- Ellipsize long hardware names
-- Performance improvements
-- Updated translations
-
 ### switchboard-plug-datetime 2.2.0 Released
-
-Minor updates
 
 - Move timezone popover contents to the main view
 - Add options to show or hide the date, weekday, and seconds in the clock
-- Updated translations
 
 ### switchboard-plug-onlineaccounts 6.0.0 Released
 
@@ -256,27 +252,14 @@ Complete redesign based on Evolution Data Server
 
 ### switchboard-plug-applications 6.0.0 Released
 
-New features:
-
 - Manage permissions for Flatpak apps
-
-Minor updates:
-
 - Show custom launcher files
-- Updated translations
 
 ### switchboard-plug-mouse-touchpad 6.0.0 Released
 
-New features:
-
-- Multitouch gesture options
-
-Minor updates:
-
+- Multi-touch gesture options
 - Add more snap points to pointer speed sliders
-- Multitouch gesture options
 - Redesigned touchpad settings
-- Updated translations
 
 ### switchboard-plug-parental-controls 6.0.0 Released
 
@@ -290,24 +273,20 @@ Minor updates:
 
 - Clarify how Screen Time limits work and when they take effect
 - New colorful avatar fallback
-- Updated translations
 
 ### switchboard-plug-useraccounts 2.4.0 Released
 
 Minor updates:
 
 - New colorful avatar fallback
-- Performance improvements
 - Improved tooltips and labels
 - Fix possible crash when deleting an account
-- Updated translations
 
 ### switchboard-plug-notifications 2.2.0 Released
 
 Minor updates:
 
 - New illustrations
-- Updated translations
 
 ### switchboard-plug-keyboard 2.5.0 Released
 
@@ -316,7 +295,6 @@ Minor updates:
 - Add Layout popover is now a dialog
 - Guarantee we always have at least one layout
 - Improvements to ibus and xkb layouts
-- Updated translations
 
 ### switchboard 6.0.0 Released
 
@@ -324,49 +302,26 @@ Minor updates:
 - Better support smaller displays
 - Remove old GNOME Control Center compatibility layer
 - Stability and performance improvements
-- Updated translations
 
 ### switchboard-plug-power 2.5.0 Released
 
-Minor updates:
-
 - Change lid settings without restarting
 - Show in search results for "sleep" and "timeout"
-- Updated translations
 
 ### switchboard-plug-network 2.4.0 Released
 
-Minor updates
-
 - Show message when Ethernet is unplugged
 - Show DNS info
-- Updated translations
 
 ### switchboard-plug-display 2.3.0 Released
 
-New features:
-
 - Support 3× scaling
-
-Fixes:
-
 - Reliably detect accelerometers
-
-Minor updates:
-
-- Updated translations
 
 ### switchboard-plug-a11y 2.3.0 Released
 
-Fixes:
-
-- Ensure screen reader shortcut keys are shown
-
-Minor updates:
-
 - Add a switch to show the indicator in the Panel
 - Point out how to find other accessibility features in System Settings
-- Updated translations
 
 ## Desktop/first-run?
 
@@ -389,8 +344,6 @@ Improvements:
 - Always play shutter sound when taking screenshots
 - Minor visual improvements
 - HiDPI fixes
-- Performance improvements
-- Updated translations
 
 ### notifications 6.0.0 Released
 
@@ -408,7 +361,6 @@ Complete rewrite:
 - Add keyboard layout support
 - New colorful avatar fallbacks
 - Fix clock when resuming from sleep
-- Updated translations
 
 ### initial-setup 6.0.0 Released
 
@@ -418,7 +370,6 @@ Minor updates:
 - Add multi-touch gestures
 - Set correct locales
 - New colorful avatar fallback
-- Translation updates
 
 ### onboarding 6.0.0 Released
 
@@ -426,13 +377,11 @@ Minor updates:
 - Add Online Accounts view
 - Remove location services view
 - Mention Sideload and Flathub
-- Updated translations
 
 ### shortcut-overlay 1.2.0 Released
 
 - Add screenshot shortcuts
 - Fix issues with multiple windows
-- Updated translations
 
 ### sideload 6.0.0 Released
 
@@ -441,7 +390,6 @@ Minor updates:
 - Support dark style
 - Support Flatpak bundle files
 - Fix crashes on installation failure
-- Updated translations
 - Link to System Settings → Applications → Permissions
 
 ### feedback 6.0.0 Released
@@ -452,10 +400,12 @@ Improvements:
 - Support dark style
 - Add multi-touch navigation gestures
 
-Minor updates:
+### screenshot 6.0.0 Released
 
-- Ensure links are up-to-date
-- Updated translations
+- Support the dark style
+- Drag and Drop the preview image from the save dialog
+- Drag to move the window from anywhere
+- Show details for errors if they occur
 
 ## Panel
 
@@ -471,7 +421,6 @@ Improvements:
 - Adjust special icon colors for dark and light panels to improve contrast
 - Fix getting monitor dimensions under Wayland
 - Hide tooltips when indicators are open
-- Updated translations
 
 Deprecations:
 
@@ -493,8 +442,6 @@ Minor updates
 - Remove document viewer from block list
 - Support fractions without leading number in calculator
 - Show overlay key in tooltip when set
-- Performance improvements
-- Updated translations
 
 ### wingpanel-indicator-notifications 6.0.0 Released
 
@@ -507,43 +454,25 @@ Complete redesign:
 Minor updates:
 
 - Show tooltip on hover
-- Performance improvements
-- Updated translations
 
 ### wingpanel-indicator-sound 6.0.0 Released
 
-New features
-
 - select specific input and output devices
-
-Minor updates
-
 - Hide temporary audio players when they stop
 - Add a tooltip on hover
 - Minor visual improvements
-- Updated translations
 
 ### wingpanel-indicator-network 2.3.0 Released
 
-Fixes:
-
 - Fix VPN spinning after connecting
 - Improve detecting network encryption type
-
-Minor updates:
-
 - Ellipsize long network names
 - Show tooltip on hover
-- Updated translations
 
 ### wingpanel-indicator-session 2.3.0 Released
 
-Minor updates:
-
 - New colorful avatar fallback
 - Tooltip on hover
-- Performance improvements
-- Updated translations
 
 ### wingpanel-indicator-power 6.0.0 Released
 
@@ -558,14 +487,11 @@ Minor updates:
 - Improvements for desktops with peripherals
 - Filter out internal devices
 - Show tooltip on hover
-- Performance improvements
-- Updated translations
 
 ### wingpanel-indicator-datetime 2.3.0 Released
 
 - Add multi-touch gestures
 - Improve time zone handling
-- Updated translations
 
 ### wingpanel-indicator-keyboard 2.4.0 Released
 
@@ -573,19 +499,15 @@ Minor updates:
 
 - Show IBus input methods
 - Show tooltip on hover
-- Updated translations
 
 ### wingpanel-indicator-bluetooth 2.1.7 Released
 
 - Add tooltip on hover
 - Add a fallback device name for headphones
-- Updated translations
 
 ### wingpanel-indicator-nightlight 2.1.0 Released
 
 - Show tooltip on hover
-- Performance improvements
-- Updated translations
 
 ## Little Stuff
 
@@ -595,13 +517,10 @@ Minor updates:
 
 - Fixed an issue with multiple windows
 - More informative copy in history dialog
-- Updated translations
 
 ### capnet-assist 2.3.0 Released
 
 - Dark style support
-- Updated translations
-
 
 ## Look & Feel
 
@@ -657,7 +576,6 @@ Removals:
 
 - Add dialog-warning
 
-
 ## Developers
 
 ### granite 6.1.0 Released
@@ -669,7 +587,6 @@ Additions:
 Other Changes:
 
 - `accel_to_string` handles accel markup without modifiers or that are only modifiers
-- Updated translations
 
 ---
 
