@@ -39,17 +39,23 @@ One of the most pervasive new features for touchscreen and trackpad users is the
 </figcaption>
 </figure>
 
-But it's not just the desktop that has multi-touch support; we've worked to bring smooth and intuitive multi-touch gestures into apps as well. Use two fingers to swipe through paged layouts like screenshots in AppCenter or steps in the Initial Setup and Welcome screens. Swipe with two fingers to go back in Web, System Settings, and several other apps. And smoothly swipe between users on the greeter.
+But it's not just the desktop that has multi-touch support; we've worked to bring smooth and intuitive two-finger multi-touch gestures into apps as well. Swipe through paged layouts like screenshots in AppCenter or steps in the Initial Setup and Welcome screens. Swipe to dismiss notification bubbles on screen or in the Notification Center. Swipe to go back in Web, System Settings, and several other apps. And smoothly swipe between users on the login/lockscreen greeter.
 
-<figure class="half" markdown="1">
+<figure class="third" markdown="1">
 ![AppCenter Screenshots](/images/multitouch-gestures-in-elementary-os-6/appcenter.gif)
+![Notification Center](/images/multitouch-gestures-in-elementary-os-6/notification-center.gif){: width="399" height="672" }
 ![Keyboard Layouts](/images/multitouch-gestures-in-elementary-os-6/keyboard-layouts.gif)
 <figcaption markdown="1">
-**Left:** Swipe to switch pages | **Right:** Swipe to go back
+**Left:** Swipe to switch pages | **Center:** Swipe to dismiss | **Right:** Swipe to go back
 </figcaption>
 </figure>
 
-- Multi-touch for smooth, 1:1 interactions across the whole OS
+These new multi-touch gestures make elementary OS 6 faster and smoother to navigate on a touch screen or trackpad—all while ensuring each interaction is just as easy with a traditional mouse and keyboard as before.
+
+### Notifications
+
+elementary OS has always provided desktop notifications, but OS 6 brings a redesign with richer, more capable notifications than ever.
+
 - Redesigned rich notifications & Notification Center
 - New Tasks app that integrates with Online Accounts
 - Firmware updates built-in
