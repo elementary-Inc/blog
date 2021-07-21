@@ -5,6 +5,8 @@ author: cassidyjames
 image: /images/elementary-os-6-odin-released/odin.png
 tags:
   - odin
+  - release
+  - flatpak
 ---
 
 <figure class="card" markdown="1">
