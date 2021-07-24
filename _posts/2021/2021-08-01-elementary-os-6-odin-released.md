@@ -31,7 +31,7 @@ It wouldn't be a new OS release without exciting new features to improve your ex
 
 One of the most pervasive new features for touchscreen and trackpad users is the new multi-touch support throughout elementary OS 6. A three-finger swipe up smoothly opens the Multitasking View, exposing open apps and workspaces. A three-finger swipe left or right smoothly switches between the dynamic workspaces, making it even faster to jump between tasks.
 
-<figure class="half" markdown="1">
+<figure class="half card" markdown="1">
 ![Multitasking View](/images/multitouch-gestures-in-elementary-os-6/multitasking.gif)
 ![Switching workspaces](/images/multitouch-gestures-in-elementary-os-6/workspaces.gif)
 <figcaption markdown="1">
@@ -76,7 +76,7 @@ Notification bubbles now feature badge capability, enabling apps to send richer 
 
 Since notifications are now using native GTK widgets just like native apps, they follow the dark style preference and emoji are displayed in full color. Urgent notifications sport a new look and a distinct sound to make them easier to identify. Lastly, notification bubbles also now support multi-touch swipe-to-dismiss on both touchscreens and trackpads.
 
-<figure markdown="1">
+<figure class="card" markdown="1">
 ![Notification Center](https://github.com/elementary/wingpanel-indicator-notifications/raw/master/data/screenshot.png?raw=true){: width="750" height="497"}
 <figcaption markdown="1">
 Redesigned Notification Center
