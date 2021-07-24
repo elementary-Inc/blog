@@ -19,7 +19,7 @@ It's been a long road to elementary OS 6—what with a whole global pandemic dro
 - Empowering you to **be in control** and **express yourself**, and
 - Making elementary OS **easier to get** and **more inclusive**
 
-To get elementary OS 6 now, head to [elementary.io]—or read on for all the details of what's new.
+To get elementary OS 6 now, head to [elementary.io] for the download—or read on for an overview of what's new.
 
 ---
 
@@ -54,7 +54,26 @@ These new multi-touch gestures make elementary OS 6 faster and smoother to navig
 
 ### Notifications
 
-elementary OS has always provided desktop notifications, but OS 6 brings a redesign with richer, more capable notifications than ever.
+elementary OS has always provided desktop notifications, but OS 6 brings a redesign and under-the-hood rewrite with richer, more capable notifications than ever.
+
+<figure class="half" markdown="1">
+![Notification with an icon badge](/images/elementary-os-6-odin-beta-2/notification-badge.png){: width="362" height="90"}
+![Notification with action buttons](/images/elementary-os-6-odin-beta-2/notification-button.png){: width="362" height="129"}
+<figcaption markdown="1">
+New notification bubbles
+</figcaption>
+</figure>
+
+Notification bubbles now feature badge capability, enabling apps to send richer information like a visual status indicator while ensuring you always know the app a notification is coming from. Apps can also now send actions along with notifications, which are displayed as actionable buttons right within the notification bubble—it's easier than ever to not only be informed by apps, but to take quick actions without ever needing to open the app. Notification bubbles also support swipe-to-dismiss on both touchscreens and trackpads. 
+
+<figure markdown="1">
+![Notification Center](https://github.com/elementary/wingpanel-indicator-notifications/raw/master/data/screenshot.png?raw=true){: width="750" height="497"}
+<figcaption markdown="1">
+Redesigned Notification Center
+</figcaption>
+</figure>
+
+Notification Center has also been redesigned; notifications here now match the look of notification bubbles, are more clearly grouped by app, and support swipe-to-dismiss.
 
 ### Tasks
 
@@ -67,6 +86,8 @@ elementary OS 6 comes with the brand new Tasks app, helping you tackle your to-d
 Tasks is designed around the open CalDav format, ensuring it's compatible with most online account providers. It supports synchronizing with multiple accounts and lists, time-based reminders, location-based reminders, and more.
 
 ### Firmware Updates
+
+elementary OS 6 comes with firmware updates built in, powered by the [Linux Vendor Firmware Service](https://fwupd.org). Firmware updates are provided for supported devices by hardware manufacturers like Star Labs, Dell, Lenovo, HP, Intel, Logitech, Wacom, 8bitdo, and many more—now supported devices can get the latest updates for security and stability straight from _System Settings_ → _System_ → _Firmware_ or by searching the Applications Menu for “Firmware.”
 
 <figure markdown="1">
 ![Firmware settings](https://github.com/elementary/switchboard-plug-about/raw/master/data/screenshot-firmware.png?raw=true){: width="892" height="659"}
