@@ -64,7 +64,9 @@ New notification bubbles
 </figcaption>
 </figure>
 
-Notification bubbles now feature badge capability, enabling apps to send richer information like a visual status indicator while ensuring you always know the app a notification is coming from. Apps can also now send actions along with notifications, which are displayed as actionable buttons right within the notification bubble—it's easier than ever to not only be informed by apps, but to take quick actions without ever needing to open the app. Notification bubbles also support swipe-to-dismiss on both touchscreens and trackpads. 
+Notification bubbles now feature badge capability, enabling apps to send richer information like a visual status indicator while ensuring you always know which app a notification is coming from. Apps can also now send actions along with notifications, which are displayed as actionable buttons right within the notification bubble—it's easier than ever to not only be informed by apps, but to take quick actions without ever needing to open the app. 
+
+Since notifications are now using native GTK widgets just like native apps, they follow the dark style preference and emoji are displayed in full color. Lastly, notification bubbles also now support multi-touch swipe-to-dismiss on both touchscreens and trackpads. 
 
 <figure markdown="1">
 ![Notification Center](https://github.com/elementary/wingpanel-indicator-notifications/raw/master/data/screenshot.png?raw=true){: width="750" height="497"}
@@ -73,11 +75,11 @@ Redesigned Notification Center
 </figcaption>
 </figure>
 
-Notification Center has also been redesigned; notifications here now match the look of notification bubbles, are more clearly grouped by app, and support swipe-to-dismiss.
+Notification Center has also been redesigned; notifications here now match the look of notification bubbles including full-color emoji and badges. They're also more clearly grouped by app and support multi-touch swipe-to-dismiss.
 
 ### Tasks
 
-elementary OS 6 comes with the brand new Tasks app, helping you tackle your to-do list whether it's stored on your device or synchronized with an online account.
+The brand new Tasks app debuts in elementary OS 6, helping you tackle your to-do list whether it's stored on your device or synchronized with an online account.
 
 <figure markdown="1">
 ![Tasks app](https://raw.githubusercontent.com/elementary/tasks/master/data/screenshot.png){: width="1015" height="769"}
@@ -95,6 +97,20 @@ elementary OS 6 comes with firmware updates built in, powered by the [Linux Vend
 Firmware updates built into System Settings
 </figcaption>
 </figure>
+
+### App Updates
+
+Several apps in elementary OS 6 sport brand new features, making OS 6 more capable than ever before.
+
+<figure class="half" markdown="1">
+![Web in a light style](/images/{{ page.slug }}/web.png)
+![Web in a dark style](/images/{{ page.slug }}/web-dark.png)
+<figcaption markdown="1">
+Web in both light and dark styles
+</figcaption>
+</figure>
+
+The web browser in elementary OS 6 has been updated and renamed. Formerly known as Epiphany, Web is now distributed as a Flatpak to enable even faster updates to support the latest web technologies. Web also features Intelligent Tracking Protection and ad blocking built-in and enabled by default for even greater privacy protections out of the box. The new reader mode brings a stripped down and easier to read view for content-heavy pages. Web follows the new dark style preference both with its own interface and for websites that support the standardized CSS color scheme preference. And as previously mentioned, Web now supports multi-touch swipes for navigating back and forth between pages for touch and trackpad users.
 
 ## Be in Control & Express Yourself
 
@@ -442,16 +458,6 @@ Improvements:
 - Always play shutter sound when taking screenshots
 - Minor visual improvements
 - HiDPI fixes
-
-### notifications 6.0.0 Released
-
-Complete rewrite:
-
-- Support the dark style
-- Action buttons
-- Optional badge icons
-- Automatically badge images with app icons
-- Swipe away to dismiss
 
 ### greeter 6.0.0 Released
 
