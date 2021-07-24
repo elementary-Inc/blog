@@ -66,7 +66,15 @@ New notification bubbles
 
 Notification bubbles now feature badge capability, enabling apps to send richer information like a visual status indicator while ensuring you always know which app a notification is coming from. Apps can also now send actions along with notifications, which are displayed as actionable buttons right within the notification bubble—it's easier than ever to not only be informed by apps, but to take quick actions without ever needing to open the app. 
 
-Since notifications are now using native GTK widgets just like native apps, they follow the dark style preference and emoji are displayed in full color. Lastly, notification bubbles also now support multi-touch swipe-to-dismiss on both touchscreens and trackpads. 
+<figure>
+  <picture>
+    <source srcset="/images/{{ page.slug }}/notification-dark.png" media="(prefers-color-scheme: dark)">
+    <img alt="Urgent notification bubble" src="/images/{{ page.slug }}/notification-light.png" width="362" height="90" />
+  </picture>
+<figcaption>Urgent notification bubble</figcaption>
+</figure>
+
+Since notifications are now using native GTK widgets just like native apps, they follow the dark style preference and emoji are displayed in full color. Urgent notifications sport a new look and a distinct sound to make them easier to identify. Lastly, notification bubbles also now support multi-touch swipe-to-dismiss on both touchscreens and trackpads.
 
 <figure markdown="1">
 ![Notification Center](https://github.com/elementary/wingpanel-indicator-notifications/raw/master/data/screenshot.png?raw=true){: width="750" height="497"}
@@ -116,7 +124,6 @@ The web browser in elementary OS 6 has been updated and renamed. Formerly known 
 ![Mail](https://raw.githubusercontent.com/elementary/mail/master/data/screenshot.png){: width="1352" height="777"}
 <figcaption>Mail</figcaption>
 </figure>
-
 
 Mail has been completely rewritten in OS 6. With the rewrite comes tighter Online Accounts integration powered by the open source Evolution Data Server. To start, the new system-wide Online Accounts settings supports the IMAP standard for mail accounts, but we now have the foundation to add more types of accounts over time. The rewrite also brings web process sandboxing so each email is displayed in its own sandbox—improving safety and security. The new Mail is using native widgets instead of custom drawing in places like the message list and conversation view, greatly improving support for right-to-left languages and platform-wide accessibility features.
 
