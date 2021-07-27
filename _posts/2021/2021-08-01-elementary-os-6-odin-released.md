@@ -150,7 +150,7 @@ _System Settings_ → _Applications_ → _Permissions_
 </figcaption>
 </figure>
 
-These protections are in place for apps installed from AppCenter, but importantly, they apply to all apps installed via the built-in Sideload utility; all third-party Flatpak apps from external sources like Flathub or a developer's own website. With these protections built in and elementary OS 6 being Flatpak-first, it's easier and safer than ever to get and use the apps you need.
+These protections are in place for apps installed from AppCenter, but importantly, they also apply to all apps installed via the built-in Sideload utility, including all third-party Flatpak apps from external sources like Flathub or a developer's own website. With these protections built in and elementary OS 6 being Flatpak-first, it's easier and safer than ever to get and use the apps you need.
 
 ### Dark Style & Accent Color
 
