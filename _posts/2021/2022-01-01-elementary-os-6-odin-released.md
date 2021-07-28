@@ -1,5 +1,5 @@
 ---
-title: elementary OS 6 Odin
+title: elementary OS 6 Odin Available Now
 description: It’s finally here, and it’s the biggest update to the platform yet
 author: cassidyjames
 image: /images/elementary-os-6-odin-released/odin.png
@@ -206,7 +206,15 @@ With elementary OS 6 being all-in on Flatpaks, AppCenter has been updated to mat
 
 After a lot of user feedback, testing, and iterating, we're shipping a subtle but important behavioral change to Files in elementary OS 6: as always, a single click navigates between folders, but opening a file in its default app now uses a double click. This change balances the efficiency of single-click navigation (matching the rest of the OS and the web) while addressing the real issue of potentially accidentally opening multiple copies of a file or slower-loading apps. Files also has an all-new sidebar in OS 6 that makes it easier to drag to bookmark folders while sporting slick animations. We've also improved the list view with a smaller minimum size and added file emblems for communicating statuses like permissions or new files in a Git project, added Mint and Bubblegum colors for files tags, improved click targets for files, and improved support for devices using AFP, AFC, and MTP protocols. And Files now provides the File Chooser interface for Flatpak apps for more consistency.
 
-Code
+<figure>
+  <picture>
+    <source srcset="/images/{{ page.slug }}/code-dark.png" media="(prefers-color-scheme: dark)">
+    <img alt="Screenshot of Code" src="/images/{{ page.slug }}/code.png" width="1174" height="703" />
+  </picture>
+<figcaption>Code</figcaption>
+</figure>
+
+For developers, Code has continued to improve in OS 6. You'll notice a new project button in the header bar which shows the active Git project and enables quickly switching between open projects. Closing a project also now closes any of its open files. We've continued to iterate on Git integration by introducing the ability to switch and create branches, and by adding new line-by-line Git status in the gutter. Markdown support has been improved with new WYSIWYG-like editor shortcuts and spell check support. We've implemented an all-new full text search within folders or entire projects with togglable case sensitivity and regular expression support. For Vim-mode users, you'll notice improved both new and improved Vim commands as well as Code defaulting to command mode when enabled. We've also improved how Code saves and restores its state in OS 6, now including cursor position and the state of the sidebar when closing and re-opening the app.
 
 Terminal
 
@@ -272,39 +280,6 @@ Timezone configuration has been redesigned and moved from being hidden into the 
 ---
 
 ## Apps
-
-### code 6.0.0 Released
-
-New features:
-
-- New Markdown plugin for WYSIWYG-like editing.
-- Switch Git branches or create new ones in project folder context menus
-- Show Git diff status in source view gutters
-- Full text search within project folder.
-- Save and restore cursor position between sessions
-- Close files from a project when that project is closed
-- Show full file path in tab tooltips
-- Clear lines with Ctrl + K
-
-Minor updates:
-
-- Allow Spell Checker extension in Markdown files
-- Improve multi-line duplication
-- Remember whether the sidebar is open
-- Set window title to the focused file
-- Add keyboard shortcuts for next and previous documents
-- Show full document path in tab tooltip
-- Update Pastebin plugin
-- Correctly indent last line when using the preserve whitespace plugin
-- Keep syntax highlighting when duplicating a file
-- Expand a collapsed folder if you attempt to open it twice
-- Fix an issue where searches are lost when Code loses focus
-- Start Vim plugin in command mode
-- Fix and add new Vim commands
-- Show project folders with a hidden root folder
-- Allow launching with pkexec and disallow launching with sudo
-- Remove split view
-- Remove browser preview
 
 ### terminal 6.0.0 Released
 
