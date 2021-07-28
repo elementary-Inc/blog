@@ -33,11 +33,37 @@ elementary OS is designed to be easy to use, get out of your way, and not leave 
 
 With OS 6, we're empowering you further with new ways to stay in control of your experience—plus new ways to express your own unique style and preferences.
 
+### Dark Style & Accent Color
+
+Get ready to turn down the lights, because Dark Style is here for elementary OS 6. The new visual style is available right from the Welcome screen or at any time from _System Settings_ → _Desktop_ → _Appearance_. Choose the classic Default style or a new Dark style, and the system and default apps will follow suit. Third-party apps are encouraged to follow this new preference, though we avoid breakage by not _forcing_ it; if your favorite app doesn't follow along, be sure to report that to its developer. Dark style can also be scheduled to follow sunset and sunrise for your location, or based on your own schedule.
+
+<figure class="half">
+  <picture>
+    <source srcset="/images/{{ page.slug }}/onboarding-dark.png" media="(prefers-color-scheme: dark)">
+    <img alt="Onboarding" src="/images/{{ page.slug }}/onboarding.png" width="532" height="450" />
+  </picture>
+  <picture>
+    <source srcset="/images/{{ page.slug }}/appearance-dark.png" media="(prefers-color-scheme: dark)">
+    <img alt="Desktop Appearance settings" src="/images/{{ page.slug }}/appearance.png" width="862" height="664" />
+  </picture>
+<figcaption markdown="1">
+**Left:** Dark style and accent colors in the Welcome screen | **Right:** _System Settings_ → _Desktop_ → _Appearance_
+</figcaption>
+</figure>
+
+We've also added 10 new accent colors to elementary OS, affecting everything from suggested action buttons and switches to text selection focus styles—and the new automatic accent color preference picks an accent color from your current wallpaper. elementary OS 6 is the most customizable version to date, enabling you to completely change the look by playing with different wallpapers, visual styles, and accent colors.
+
+<aside markdown="1">
+>elementary OS 6 is the most customizable version to date, enabling you to completely change the look.
+</aside>
+
+Both of these new features are made possible by a complete redesign and rewrite of the elementary OS system stylesheet. We revisited every detail from contextual shading and contrast to shadows, strokes, and border radii. The end result ensures _much_ better contrast throughout the whole OS while enabling unprecedented customization.
+
 ### Sandboxing & Portals
 
 elementary OS 6 leverages cutting-edge sandboxing technology to enforce privacy and security protections at a technical level. In OS 6, all AppCenter apps are now packaged and distributed as Flatpaks, a modern container format that keeps apps siloed away from each other—and your sensitive data. Several default elementary OS apps are now being distributed as Flatpaks as well.
 
-In addition, elementary OS 6 utilizes Portals to keep you in control of how apps interact with each other and your data. Apps must explicitly request permission in a well-defined way to get access to files, screenshots, or even launching other apps. A new Permissions view in System Settings → Applications exposes all the permissions apps have requested and gives you control to override or revoke them.
+In addition, elementary OS 6 utilizes Portals to keep you in control of how apps interact with each other and your data. Apps must explicitly request permission in a well-defined way to get access to files, screenshots, or even launching other apps. A new Permissions view in _System Settings_ → _Applications_ exposes all the permissions apps have requested and gives you control to override or revoke them.
 
 <figure markdown="1">
 ![Applications Permissions settings](https://github.com/elementary/switchboard-plug-applications/raw/master/data/screenshot-permissions.png?raw=true){: width="892" height="659"}
@@ -46,26 +72,7 @@ _System Settings_ → _Applications_ → _Permissions_
 </figcaption>
 </figure>
 
-These protections are in place for apps installed from AppCenter, but importantly, they also apply to all apps installed via the built-in Sideload utility, including all third-party Flatpak apps from external sources like Flathub or a developer's own website. With these protections built in and elementary OS 6 being Flatpak-first, it's easier and safer than ever to get and use the apps you need.
-
-### Dark Style & Accent Color
-
-Get ready to turn down the lights, because Dark Style is here for elementary OS 6. The new visual style is available right from the Welcome screen or at any time from _System Settings_ → _Desktop_ → _Appearance_. Choose the classic Default style or a new Dark style, and the system and default apps will follow suit. Third-party apps are encouraged to follow this new preference, though we avoid breakage by not _forcing_ it; if your favorite app doesn't follow along, be sure to report that to its developer.
-
-<figure markdown="1">
-![Desktop Appearance settings](https://github.com/elementary/switchboard-plug-pantheon-shell/raw/master/data/screenshot-appearance.png?raw=true){: width="856" height="659"}
-<figcaption markdown="1">
-Dark style and accent colors available in _System Settings_ → _Desktop_ → _Appearance_
-</figcaption>
-</figure>
-
-We've also added 10 new accent colors to elementary OS, affecting everything from suggested action buttons and switches to text selection focus styles—and the new _automatic_ accent color preference picks an accent color from your current wallpaper. elementary OS 6 is the most customizable version to date, enabling you to completely change the look of the OS by playing with different wallpapers, visual styles, and accent colors.
-
-<aside markdown="1">
->elementary OS 6 is the most customizable version to date.
-</aside>
-
-Both of these new features are made possible by a complete redesign and rewrite of the elementary OS system stylesheet. We revisited every detail from contextual shading and contrast to shadows, strokes, and border radii. The end result ensures _much_ better contrast throughout the whole OS while enabling unprecedented customization.
+These protections are in place for apps installed from AppCenter, but importantly also apply to all apps installed via the built-in Sideload utility—including all third-party Flatpak apps from external sources like Flathub or a developer's own website. With these protections built in and elementary OS 6 being Flatpak-first, it's easier and safer than ever to get and use the apps you need.
 
 ## New Features
 
