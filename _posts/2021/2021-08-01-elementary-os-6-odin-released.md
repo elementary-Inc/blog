@@ -162,8 +162,8 @@ Firmware updates built into System Settings
 Several apps in elementary OS 6 sport brand new features, making OS 6 more capable than ever before.
 
 <figure class="half" markdown="1">
-![Web in a light style](/images/{{ page.slug }}/web.png)
-![Web in a dark style](/images/{{ page.slug }}/web-dark.png)
+![Screenshot of Web in a light style](/images/{{ page.slug }}/web.png)
+![Screenshot of Web in a dark style](/images/{{ page.slug }}/web-dark.png)
 <figcaption markdown="1">
 Web in both light and dark styles
 </figcaption>
@@ -172,11 +172,45 @@ Web in both light and dark styles
 The web browser in elementary OS 6 has been updated and renamed. Formerly known as Epiphany, Web is now distributed as a Flatpak to enable even faster updates to support the latest web technologies. Web also features Intelligent Tracking Protection and ad blocking built-in and enabled by default for even greater privacy protections out of the box. The new reader mode brings a stripped down and easier to read view for content-heavy pages. Web follows the new dark style preference both with its own interface and for websites that support the standardized CSS color scheme preference. And as previously mentioned, Web now supports multi-touch swipes for navigating back and forth between pages for touch and trackpad users.
 
 <figure markdown="1">
-![Mail](https://raw.githubusercontent.com/elementary/mail/master/data/screenshot.png){: width="1352" height="777"}
+![Screenshot of Mail](https://raw.githubusercontent.com/elementary/mail/master/data/screenshot.png){: width="1352" height="777"}
 <figcaption>Mail</figcaption>
 </figure>
 
 Mail has been completely rewritten in OS 6. With the rewrite comes tighter Online Accounts integration powered by the open source Evolution Data Server. To start, the new system-wide Online Accounts settings supports the IMAP standard for mail accounts, but we now have the foundation to add more types of accounts over time. The rewrite also brings web process sandboxing so each email is displayed in its own sandbox—improving safety and security. The new Mail is using native widgets instead of custom drawing in places like the message list and conversation view, greatly improving support for right-to-left languages and platform-wide accessibility features.
+
+<figure markdown="1">
+![Screenshot of Calendar](/images/{{ page.slug }}/calendar.png){: width="1039" height="765"}
+<figcaption>Calendar</figcaption>
+</figure>
+
+Calendar also supports the Online Accounts integration via the CalDav standard; add any CalDav-compliant account in System Settings, and its events and tasks will show up in the Calendar and Tasks apps. We've also added ICS import, improved offline support, and fixed a number of issues around all-day events and timezones.
+
+<figure markdown="1">
+![Screenshot of Camera](/images/{{ page.slug }}/camera.png){: width="704" height="544"}
+<figcaption>Camera</figcaption>
+</figure>
+
+We've revamped Camera in OS 6 with a fresh UI and several new features. Camera now supports multiple cameras, mirroring, and brightness and contrast adjustment. When a recording is finished, Camera now sends an in-app notification with a button to open the video—perfect for making sure it looks how you want.
+
+<figure markdown="1">
+![Screenshot of AppCenter](/images/{{ page.slug }}/appcenter.png){: width="1081" height="669"}
+<figcaption>AppCenter</figcaption>
+</figure>
+
+With elementary OS 6 being all-in on Flatpaks, AppCenter has been updated to match. While we've always reviewed, approved, and curated third-party AppCenter apps, they're now also distributed as sandboxed Flatpaks for even stronger privacy and security. When an app is installed from a list, AppCenter now shows an in-app notification when it's complete so it's even faster to open. We've improved the design of app headers, including the contrast of buttons. And on the nice-to-have front, AppCenter notifications now provide richer context with improved language and contextual badges for installed apps and updates.
+
+<figure markdown="1">
+![Screenshot of Files](/images/{{ page.slug }}/files.png){: width="924" height="608"}
+<figcaption>Files</figcaption>
+</figure>
+
+After a lot of user feedback, testing, and iterating, we're shipping a subtle but important behavioral change to Files in elementary OS 6: as always, a single click navigates between folders, but opening a file in its default app now uses a double click. This change balances the efficiency of single-click navigation (matching the rest of the OS and the web) while addressing the real issue of potentially accidentally opening multiple copies of a file or slower-loading apps. Files also has an all-new sidebar in OS 6 that makes it easier to drag to bookmark folders while sporting slick animations. We've also improved the list view with a smaller minimum size and added file emblems for communicating statuses like permissions or new files in a Git project, added Mint and Bubblegum colors for files tags, improved click targets for files, and improved support for devices using AFP, AFC, and MTP protocols. And Files now provides the File Chooser interface for Flatpak apps for more consistency.
+
+Code
+
+Terminal
+
+We've improved all of these apps and more like Music, Videos, Photos, Calculator in OS 6 with bug fixes, improved performance, and updated localization.
 
 ### Panel
 
@@ -239,86 +273,6 @@ Timezone configuration has been redesigned and moved from being hidden into the 
 
 ## Apps
 
-### mail 6.0.0 Released
-
-Complete rewrite from scratch
-
-### calendar 6.0.0 Released
-
-New Features:
-
-- Import ICS files from the gear menu
-- Support the dark style
-
-Fixes:
-
-- Properly show events on the last day of the month
-- Fix end times for all-day events
-- Notify for all alarms on an event
-
-Minor Updates:
-
-- Improved offline support
-- New colorful avatar fallbacks
-- Include "film" as an event icon keyword
-- Add Mint and Bubblegum to calendar color chooser
-- Link to Online Accounts settings in the gear menu
-
-### appcenter 3.6.0 Released
-
-New features:
-
-- Show in-app notification when an app is installed
-- Add contextual badges to notifications
-
-Improvements:
-
-- Ensure Home button is usable during search
-- Ask the user to manually restart if we can't ask the session to prompt
-- Improve styling and contrast of buttons
-- More concise and consistent language
-
-Fixes:
-
-- Fully uninstall Flatpaks, including locales
-- Still fetch screenshots from remotes that don't include proper headers
-- Fix truncated footer buttons
-- Only show Mail button when a usable mail app is installed
-- Fix some apps incorrectly showing as not installed during search
-- Show an error dialog when opening an app fails
-
-### files 6.0.0 Released
-
-Fixes:
-
-- Fix connecting to AFP servers so that passwords are remembered
-- Fix MTP mounts
-
-Improvements:
-
-- Launch files with double click instead of single click
-- Provide a File Chooser portal for Flatpak apps
-- Brand new animated Sidebar
-- Dark style support
-- Mint and Bubblegum color tags
-- Do not restore locations that have become inaccessible
-- Clicking between thumbnail and text now activates/selects in Icon view
-- AFC protocol support
-- Add a smaller minimum icon size in list view
-- Show emblems inline in list views
-- Stability improvements
-
-Other updates:
-
-- Rename "Devices" to "Storage"
-
-### music 5.1.0 Released
-
-- Fix an issue with saving smart playlists
-- Drop support for CD-ROM and Last.fm
-- Dark style support
-- Minor visual improvements
-
 ### code 6.0.0 Released
 
 New features:
@@ -371,19 +325,6 @@ Other updates:
 - Fix an issue with keyboard shortcuts not activating the first time they're pressed
 - Avoid losing focus when closing background tabs
 - Validate custom palette
-
-### photos 2.7.1 Released
-
-- Fix keyboard activation in tool windows
-- Show saved state correctly in the context-menu
-
-### videos 2.7.3 Released
-
-Other updates:
-
-- Fix an issue with accessing library view
-- Fix an issue with returning to the welcome page while playing multiple videos
-- Prevent sleep while playing a video
 
 ## Settings
 
