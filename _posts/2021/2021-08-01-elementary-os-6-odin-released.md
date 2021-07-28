@@ -127,6 +127,22 @@ The web browser in elementary OS 6 has been updated and renamed. Formerly known 
 
 Mail has been completely rewritten in OS 6. With the rewrite comes tighter Online Accounts integration powered by the open source Evolution Data Server. To start, the new system-wide Online Accounts settings supports the IMAP standard for mail accounts, but we now have the foundation to add more types of accounts over time. The rewrite also brings web process sandboxing so each email is displayed in its own sandbox—improving safety and security. The new Mail is using native widgets instead of custom drawing in places like the message list and conversation view, greatly improving support for right-to-left languages and platform-wide accessibility features.
 
+### Panel
+
+In elementary OS 5.1 we added a tooltip to the Applications Menu to provide more information including keyboard shortcuts—making a core OS feature of launching apps more discoverable. In talking to several users, we learned that many didn't realize most indicators had a middle-click shortcut to quickly toggle its main control. So with OS 6, we've expanded this convention to the majority of indicators on the Panel on hover.
+
+<figure class="card">
+  <picture>
+    <source srcset="/images/{{ page.slug }}/panel-tooltip-dark.png" media="(prefers-color-scheme: dark)">
+    <img alt="Tooltip for the Sound indicator" src="/images/{{ page.slug }}/panel-tooltip.png" width="400" height="225" />
+  </picture>
+<figcaption>Tooltip for the Sound indicator</figcaption>
+</figure>
+
+Now, when hovering: the Sound indicator shows the precise volume and middle-click to mute shortcut; the Network indicator shows the current wireless network name; the Bluetooth indicator shows the on/off state and middle-click to toggle shortcut; the Power indicator exposes the precise battery percent and time until charged or empty, plus the middle-click to toggle shortcut; the Notifications indicator shows exactly how many notifications there are as well as the middle-click for Do Not Disturb shortcut; and the Session indicator details the current user's name and the middle-click to prompt to shut down shortcut.
+
+All together, these changes mean the system indicators in elementary OS provide even more information without clicking and make handy, time-saving shortcuts far more discoverable than before.
+
 ## Be in Control & Express Yourself
 
 elementary OS is designed to be easy to use, get out of your way, and not leave the hard decisions to you. At the same time, it exists to empower you to take control of your own devices and data. That's why we've always had an unmatched [commitment to privacy](https://elementary.io/privacy):
