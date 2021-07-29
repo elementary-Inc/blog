@@ -190,7 +190,7 @@ Calendar also supports the Online Accounts integration via the CalDav standard; 
 <figcaption>Camera</figcaption>
 </figure>
 
-We've revamped Camera in OS 6 with a fresh UI and several new features. Camera now supports multiple cameras, mirroring, and brightness and contrast adjustment. When a recording is finished, Camera now sends an in-app notification with a button to open the video—perfect for making sure it looks how you want.
+We've revamped Camera in OS 6 with a fresh UI and several new features. Camera now supports switching between multiple cameras, toggling mirroring of the image, and brightness and contrast adjustment. When a recording is finished, Camera now sends an in-app notification with a button to open the video—perfect for making sure it looks how you want.
 
 <figure markdown="1">
 ![Screenshot of AppCenter](/images/{{ page.slug }}/appcenter.png){: width="1081" height="669"}
