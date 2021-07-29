@@ -214,11 +214,23 @@ After a lot of user feedback, testing, and iterating, we're shipping a subtle bu
 <figcaption>Code</figcaption>
 </figure>
 
-For developers, Code has continued to improve in OS 6. You'll notice a new project button in the header bar which shows the active Git project and enables quickly switching between open projects. Closing a project also now closes any of its open files. We've continued to iterate on Git integration by introducing the ability to switch and create branches, and by adding new line-by-line Git status in the gutter. Markdown support has been improved with new WYSIWYG-like editor shortcuts and spell check support. We've implemented an all-new full text search within folders or entire projects with togglable case sensitivity and regular expression support. For Vim-mode users, you'll notice improved both new and improved Vim commands as well as Code defaulting to command mode when enabled. We've also improved how Code saves and restores its state in OS 6, now including cursor position and the state of the sidebar when closing and re-opening the app.
+For developers, we've continued to improve Code in OS 6. You'll notice a new project button in the header bar which shows the active Git project and enables quickly switching between open projects. Closing a project also now closes any of its open files. We've continued to iterate on Git integration by introducing the ability to switch and create branches, and by adding new line-by-line Git status in the gutter. Markdown support has been improved with new WYSIWYG-like editor shortcuts and spell check support. We've implemented an all-new full text search within folders and entire projects with togglable case sensitivity and regular expression support. For Vim-mode users, you'll notice both new and improved Vim commands as well as Code defaulting to command mode when enabled. We've also improved how Code saves and restores its state in OS 6, now including cursor position and the state of the sidebar when closing and re-opening the app.
 
-Terminal
+<figure class="half">
+  <picture>
+    <source srcset="/images/{{ page.slug }}/terminal.png" media="(prefers-color-scheme: dark)">
+    <img alt="Screenshot of Terminal" src="/images/{{ page.slug }}/terminal-light.png" width="788" height="555" />
+  </picture>
+  <picture>
+    <source srcset="/images/{{ page.slug }}/terminal-paste-protection.png" media="(prefers-color-scheme: dark)">
+    <img alt="Screenshot of paste protection dialog" src="/images/{{ page.slug }}/terminal-paste-protection-light.png" width="545" height="329" />
+  </picture>
+<figcaption>Terminal</figcaption>
+</figure>
 
-We've improved all of these apps and more like Music, Videos, Photos, Calculator in OS 6 with bug fixes, improved performance, and updated localization.
+While users of elementary OS never _need_ Terminal to complete basic tasks, it's a fan favorite of developers and seasoned Linux users—and it's better than ever in OS 6. A flagship feature of the elementary Terminal is smart paste protection; in OS 6 this has been expanded to include multi-line pastes in addition to `sudo` pastes. We've also revised the paste protection copy for clarity and added expandable details including the command that would be executed. Zoom levels are now handled and remembered per-tab. You can now reload a tab from its context menu or with <kbd>Shift</kbd><kbd>Ctrl</kbd><kbd>R</kbd>. We've also added keyboard shortcuts for moving tabs (<kbd>Ctrl</kbd><kbd>Alt</kbd><kbd>←</kbd>/<kbd>→</kbd>) and switching between tabs (<kbd>Ctrl</kbd><kbd>Tab</kbd>). And now in OS 6, all Terminal actions that have keyboard shortcuts show their shortcuts right in the context menu so they're easier to learn and remember. Lastly, process completion notifications now include a badge and copy to indicate whether the process exited with errors or not.
+
+We've improved each of these apps and more in OS 6 like Music, Videos, Photos, Calculator with bug fixes, improved performance, and updated localization.
 
 ### Panel
 
@@ -278,28 +290,6 @@ New Date & Time settings layout and options
 Timezone configuration has been redesigned and moved from being hidden into the popover to being right in the main view. We've also added new options to show or hide the date, weekday, and seconds in the clock on the Panel.
 
 ---
-
-## Apps
-
-### terminal 6.0.0 Released
-
-New features:
-
-- Move tabs with the shortcut Ctrl + Alt + ←/→
-- Switch tabs with the shortcuts Ctrl + Tab and Ctrl + Shift + Tab
-- Zoom levels are now remembered per-tab
-- Also warn about multi-line pastes
-- Show text details in unsafe paste dialogs
-- Open Link option when secondary clicking
-- Reload tabs in the context menu or with the shortcut Ctrl + Shift + R
-- Notifications indicate if a process exited with errors or not
-- Show keyboard shortcuts in tab context menus
-
-Other updates:
-
-- Fix an issue with keyboard shortcuts not activating the first time they're pressed
-- Avoid losing focus when closing background tabs
-- Validate custom palette
 
 ## Settings
 
