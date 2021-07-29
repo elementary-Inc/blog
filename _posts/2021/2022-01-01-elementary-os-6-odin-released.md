@@ -250,9 +250,41 @@ All together, these changes mean the system indicators in elementary OS provide 
 
 ## Easier to Get & More Inclusive
 
-- Simpler installer and initial setup
+We're always expanding the elementary OS platform and ecosystem making it more useful, desirable, get-able, and keep-able—an approach coined by former Canonical designer [Matthew Paul Thomas](https://twitter.com/mpt) all the way [back in 2010](https://www.youtube.com/watch?v=GT5fUcMUfYg) and covered in our [AppCenter & the Future of the Universe](/appcenter-the-future-of-the-universe) post.
+
+elementary OS 6 makes great strides on the "get-able" front; first [teased in 2018](/meet-the-upcoming-installer), the new installer front-end designed and developed by elementary debuts in OS 6. The new installer has been designed to be simpler, more straightforward, and much faster than the previous Ubiquity installer developed by Canonical for Ubuntu.
+
+<figure class="third" markdown="1">
+![Screenshot of Initial Setup's Language page](/images/{{ page.slug }}/initial-setup-language.png)
+![Screenshot of Initial Setup's Keyboard page](/images/{{ page.slug }}/initial-setup-keyboard.png)
+![Screenshot of Installer's Try or Install page](/images/{{ page.slug }}/installer-try-install.png)
+![Screenshot of Installer's Drives page](/images/{{ page.slug }}/installer-drives.png)
+![Screenshot of Installer's Encryption page](/images/{{ page.slug }}/installer-encrypt.png)
+![Screenshot of Installer's Progress page](/images/{{ page.slug }}/installer-progress.png)
+![Screenshot of Installer's Success page](/images/{{ page.slug }}/installer-success.png)
+<figcaption>Installer</figcaption>
+</figure>
+
+A key consideration of the new installer is that "every install is an OEM install." The installer's job is solely to get the OS onto a device and little more; after installing, you're prompted to either shut down (e.g. to hand the device off to another person) or restart into the new OS. Either way, user account creation is handled in the installed OS by our new Initial Setup utility, then you log straight in to start using your account.
+
+<figure markdown="1">
+![Screenshot of Initial Setup's User page](/images/{{ page.slug }}/initial-setup-user.png)
+<figcaption>Initial Setup</figcaption>
+</figure>
+
+This means we don't handle network connectivity, user accounts, or updates in the installer itself, greatly streamlining and speeding up the process. It also means small OEMs or organizations that hand-install the OS on devices (rather than using an imaging server, for example) can do so quickly and easily, shutting the device down once it's installed and shipping it off straight to a user. It also means OEMs or organizations that _do_ use an image-based approach can configure a custom install of elementary OS (e.g. by installing any additional hardware drivers), delete the OEM account, and make an image of that; once booted on hardware, Initial Setup will run for a new user just like on a standard fresh install.
+
+With elementary OS shipping on several hardware devices from multiple retailers, we've also continued investing in [hardware improvements](/hardware-improvements-coming-to-elementary-os). OS 6 features a new streamlined startup prominently displaying the device manufacturer's logo along with minimal elements like a loading spinner or password entry for encrypted drives. Startup is intentionally unbranded, as it feels much more seamless—and we don't need to constantly advertise your operating system to you.
+
+<figure class="half card" markdown="1">
+![Boot Screen: loading spinner](/images/hardware-improvements-coming-to-elementary-os/boot-loading.jpg)
+![Boot Screen: unlocking an encrypted drive](/images/hardware-improvements-coming-to-elementary-os/boot-password.jpg)
+<figcaption>elementary OS 6 startup on a [Star Labs](https://starlabs.systems) laptop</figcaption>
+</figure>
+
+Another element of our approach to elementary OS is to ensure its designed to be as inclusive as possible—meaning it's able to be used comfortably by anyone. This includes those with temporary or permanent accessibility needs. As such, we've focused in our _Accessibility Features are Just Features_ efforts.
+
 - A11y features by default
-- Continued work with hardware OEMs
 
 ## …and tons more
 
