@@ -197,14 +197,14 @@ We've revamped Camera in OS 6 with a fresh UI and several new features. Camera n
 <figcaption>AppCenter</figcaption>
 </figure>
 
-With elementary OS 6 being all-in on Flatpaks, AppCenter has been updated to match. While we've always reviewed, approved, and curated third-party AppCenter apps, they're now also distributed as sandboxed Flatpaks for even stronger privacy and security. When an app is installed from a list, AppCenter now shows an in-app notification when it's complete so it's even faster to open. We've improved the design of app headers, including the contrast of buttons. And on the nice-to-have front, AppCenter notifications now provide richer context with improved language and contextual badges for installed apps and updates.
+With elementary OS 6 being all-in on Flatpaks, AppCenter has been updated to match. While we've always reviewed, approved, and curated third-party AppCenter apps, they're now also distributed as sandboxed Flatpaks for even stronger privacy and security. When an app is installed from a list, AppCenter now shows an in-app notification when it's complete so it's even faster to open. We've improved the design of app headers, including the contrast of buttons. And AppCenter notifications now provide richer context with improved language and contextual badges for installed apps and updates.
 
 <figure markdown="1">
 ![Screenshot of Files](/images/{{ page.slug }}/files.png){: width="924" height="608"}
 <figcaption>Files</figcaption>
 </figure>
 
-After a lot of user feedback, testing, and iterating, we're shipping a subtle but important behavioral change to Files in elementary OS 6: as always, a single click navigates between folders, but opening a file in its default app now uses a double click. This change balances the efficiency of single-click navigation (matching the rest of the OS and the web) while addressing the real issue of potentially accidentally opening multiple copies of a file or slower-loading apps. Files also has an all-new sidebar in OS 6 that makes it easier to drag to bookmark folders while sporting slick animations. We've also improved the list view with a smaller minimum size and added file emblems for communicating statuses like permissions or new files in a Git project, added Mint and Bubblegum colors for files tags, improved click targets for files, and improved support for devices using AFP, AFC, and MTP protocols. And Files now provides the File Chooser interface for Flatpak apps for more consistency.
+After a lot of user feedback, testing, and iterating, we're shipping a subtle but important behavioral change to Files in elementary OS 6: as always, a single click navigates between folders, but opening a file in its default app now uses a double click. This change balances the efficiency of single-click navigation (matching the rest of the OS and the web) while addressing the real issue of accidentally opening multiple copies of a file or opening a large file in a slower-loading app. Files also has an all-new sidebar in OS 6 that makes it easier to drag to bookmark folders while sporting slick animations. We've also improved the list view with a smaller minimum size and added file emblems for communicating statuses like permissions or new files in a Git project, added Mint and Bubblegum colors for files tags, improved click targets for files, and improved support for devices using AFP, AFC, and MTP protocols. And Files now provides the File Chooser interface for Flatpak apps for more consistency.
 
 <figure>
   <picture>
@@ -230,7 +230,7 @@ For developers, we've continued to improve Code in OS 6. You'll notice a new pro
 
 While users of elementary OS never _need_ Terminal to complete basic tasks, it's a fan favorite of developers and seasoned Linux users—and it's better than ever in OS 6. A flagship feature of the elementary Terminal is smart paste protection; in OS 6 this has been expanded to include multi-line pastes in addition to `sudo` pastes. We've also revised the paste protection copy for clarity and added expandable details including the command that would be executed. Zoom levels are now handled and remembered per-tab. You can now reload a tab from its context menu or with <kbd>Shift</kbd><kbd>Ctrl</kbd><kbd>R</kbd>. We've also added keyboard shortcuts for moving tabs (<kbd>Ctrl</kbd><kbd>Alt</kbd><kbd>←</kbd>/<kbd>→</kbd>) and switching between tabs (<kbd>Ctrl</kbd><kbd>Tab</kbd>). And now in OS 6, all Terminal actions that have keyboard shortcuts show their shortcuts right in the context menu so they're easier to learn and remember. Lastly, process completion notifications now include a badge and copy to indicate whether the process exited with errors or not.
 
-We've improved each of these apps and more in OS 6 like Music, Videos, Photos, Calculator with bug fixes, improved performance, and updated localization.
+We've improved each of these apps and more in OS 6 like Music, Videos, Photos, and Calculator with bug fixes, improved performance, and updated localization.
 
 ### Panel
 
@@ -442,14 +442,6 @@ Minor updates:
 - Fix crashes on installation failure
 - Link to System Settings → Applications → Permissions
 
-### feedback 6.0.0 Released
-
-Improvements:
-
-- Show Flatpak Apps
-- Support dark style
-- Add multi-touch navigation gestures
-
 ### screenshot 6.0.0 Released
 
 - Support the dark style
@@ -560,17 +552,6 @@ Minor updates:
 - Show tooltip on hover
 
 ## Little Stuff
-
-### calculator 1.6.1 Released
-
-Minor updates:
-
-- Fixed an issue with multiple windows
-- More informative copy in history dialog
-
-### capnet-assist 2.3.0 Released
-
-- Dark style support
 
 ## Look & Feel
 
