@@ -274,17 +274,28 @@ A key consideration of the new installer is that "every install is an OEM instal
 
 This means we don't handle network connectivity, user accounts, or updates in the installer itself, greatly streamlining and speeding up the process. It also means small OEMs or organizations that hand-install the OS on devices (rather than using an imaging server, for example) can do so quickly and easily, shutting the device down once it's installed and shipping it off straight to a user. It also means OEMs or organizations that _do_ use an image-based approach can configure a custom install of elementary OS (e.g. by installing any additional hardware drivers), delete the OEM account, and make an image of that; once booted on hardware, Initial Setup will run for a new user just like on a standard fresh install.
 
-With elementary OS shipping on several hardware devices from multiple retailers, we've also continued investing in [hardware improvements](/hardware-improvements-coming-to-elementary-os). OS 6 features a new streamlined startup prominently displaying the device manufacturer's logo along with minimal elements like a loading spinner or password entry for encrypted drives. Startup is intentionally unbranded, as it feels much more seamless—and we don't need to constantly advertise your operating system to you.
+The way to make elementary OS most "get-able": pre-installed on devices.
+
+With elementary OS shipping on several hardware devices from multiple retailers, we've also continued investing in [hardware improvements](/hardware-improvements-coming-to-elementary-os). OS 6 features a new streamlined startup prominently displaying the device manufacturer's logo along with minimal elements like a loading spinner or password entry for encrypted drives. Startup is intentionally unbranded when it comes to elementary, as it feels much more seamless—and we don't need to constantly advertise your operating system to you.
 
 <figure class="half card" markdown="1">
 ![Boot Screen: loading spinner](/images/hardware-improvements-coming-to-elementary-os/boot-loading.jpg)
 ![Boot Screen: unlocking an encrypted drive](/images/hardware-improvements-coming-to-elementary-os/boot-password.jpg)
-<figcaption>elementary OS 6 startup on a [Star Labs](https://starlabs.systems) laptop</figcaption>
+<figcaption markdown="1">
+elementary OS 6 startup on a [Star Labs](https://starlabs.systems) device
+</figcaption>
 </figure>
 
-Another element of our approach to elementary OS is to ensure its designed to be as inclusive as possible—meaning it's able to be used comfortably by anyone. This includes those with temporary or permanent accessibility needs. As such, we've focused in our _Accessibility Features are Just Features_ efforts.
+Another element of our approach to elementary OS is to ensure it's as inclusive as possible—meaning it's able to be used comfortably by anyone, including those with temporary or permanent accessibility needs. As such, we've focused in our _Accessibility Features are Just Features_ efforts in OS 6.
 
-- A11y features by default
+<figure class="card" markdown="1">
+![Screenshot of the Universal Access indicator](/images/{{ page.slug }}/a11y-indicator.png){: width="750" height="343"}
+<figcaption>Universal Access indicator</figcaption>
+</figure>
+
+elementary OS 6 includes a new Universal Access indicator to expose toggles for features like the screen reader, on-screen keyboard, dwell click, etc. so they're easy to turn on or off as needed.
+
+We've also improved accessibility throughout elementary OS with new features and better defaults.
 
 ## …and tons more
 
