@@ -678,12 +678,14 @@ For detailed release notes organized by version number of each individual compon
 
 elementary OS is made in large part by volunteer contributors from around the world. For OS 6 specifically, we'd like to thank the following individuals for their substantial contributions.
 
-- [David Hewitt](https://github.com/davidmhewitt) – OS build system, AppCenter, Installer, and more
+- [Corentin Noël](https://github.com/tintou) – OS patches, Files, Flatpak, Camera, and more
+- [David Hewitt](https://github.com/sponsors/davidmhewitt) – OS build system, AppCenter, Installer, and more
+- [Igor Montagner](https://github.com/igordsm) – Camera and more
 - [Jeremy Wootten](https://github.com/jeremypw) – Files, Code, Calculator, and more
-- [José Expósito](https://github.com/joseexposito) – Multi-touch, window management, Screenshot, and more
-- [Marco Betschart](https://github.com/sponsors/marbetschar) – Online Accounts, Mail, and Tasks
+- [José Expósito](https://github.com/sponsors/joseexposito) – Multi-touch, window management, Screenshot, and more
+- [Marco Betschart](https://github.com/sponsors/marbetschar) – Online Accounts, Mail, Tasks, and more
 - [Marius Meisenzahl](https://github.com/sponsors/meisenzahl) – Flatpak permissions, scheduled dark style, firmware updates, accent color, and more
-- [Sean Davis](https://github.com/bluesabre) – Notifications, Sound indicator
+- [Sean Davis](https://github.com/sponsors/bluesabre) – Notifications, Sound indicator
 
 Many of these contributors are on GitHub Sponsors, meaning you can show your appreciation and fund their ongoing work by sponsoring them directly.
 
