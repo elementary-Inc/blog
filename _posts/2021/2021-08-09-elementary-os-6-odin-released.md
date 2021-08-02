@@ -3,11 +3,16 @@ title: elementary OS 6 Odin Available Now
 description: It’s finally here, and it’s the biggest update to the platform yet
 author: cassidyjames
 image: /images/elementary-os-6-odin-released/odin.png
-thanks: true
 tags:
   - odin
   - release
   - flatpak
+
+thanks: true
+sponsor:
+  name: Bruno Díaz
+  link: https://github.com/brunodiazu
+  hook: They’re an Informatic Civil Engineering Data Analyst in Chile who sponsored us via our new one-time GitHub Sponsors tier.
 
 hidden: 2021-08-09 15:00:00 UTC # 9 AM MDT
 ---
@@ -388,7 +393,7 @@ elementary OS 6 debuts a brand new pair of wallpapers designed in partnership wi
 ![Odin Wallpaper (dark)](/images/{{ page.slug }}/wallpaper-dark.jpg){: width="1920" height="1080"}
 </figure>
 
-We've also refreshed our default wallpapers with four new ones that add variety and expertly show off the new automatic accent color feature.
+We've also refreshed our default wallpapers with four new ones that are higher-resolution, add variety, and expertly show off the new accent colors.
 
 <figure class="card quarter" markdown="1">
 ![Tj Holowaychuk wallpaper](/images/{{ page.slug }}/Tj Holowaychuk.jpg){: width="1920" height="1080"}
@@ -399,6 +404,22 @@ We've also refreshed our default wallpapers with four new ones that add variety 
 </figure>
 
 OS 6 comes with additional features, support for newer hardware, updated programming libraries, updated translations, improved System Settings panes, and more. For detailed release notes organized by version number of each individual component, you can always view our [public Releases site](https://releases.elementary.io).
+
+---
+
+## Download elementary OS 6
+
+{% if page.hidden %}
+elementary OS 6 Odin will be available as a pay-what-you-can download at [elementary.io] on {{ page.hidden | date: "%A, %B %e, %Y at %H:%M UTC" }}.
+{% else %}
+elementary OS 6 Odin is available as a pay-what-you-can download at [elementary.io] today.
+{% endif %}
+
+<div style="margin: 3em auto; text-align: center" markdown="1">
+[Download elementary OS 6][elementary.io]{: .button}
+</div>
+
+---
 
 ## Thank You
 
