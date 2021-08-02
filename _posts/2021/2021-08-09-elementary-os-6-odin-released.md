@@ -539,6 +539,9 @@ elementary OS is made in large part by volunteer contributors from around the wo
 - [José Expósito](https://github.com/sponsors/joseexposito) – Multi-touch, window management, Screenshot, and more
 - [Marco Betschart](https://github.com/sponsors/marbetschar) – Online Accounts, Mail, Tasks
 - [Marius Meisenzahl](https://github.com/sponsors/meisenzahl) – Flatpak permissions, scheduled dark style, firmware updates, accent color, and more
+- [Michael McClurg](https://github.com/mcclurgm) – Calendar, especially with regards to time zones and unit tests
+- [Micah Ilbery](https://github.com/micahilbery) – Icons
+- [Ryo Nakano](https://github.com/ryonakano) – Localization, Code Review
 - [Sean Davis](https://github.com/sponsors/bluesabre) – Notifications, Sound indicator
 
 Many of these contributors are on GitHub Sponsors, meaning you can show your appreciation and fund their ongoing work by sponsoring them directly.
