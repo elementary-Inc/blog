@@ -14,7 +14,7 @@ sponsor:
   link: https://github.com/brunodiazu
   hook: They’re an Informatic Civil Engineering Data Analyst in Chile who sponsored us via our new one-time GitHub Sponsors tier.
 
-hidden: 2021-08-09 15:00:00 UTC # 9 AM MDT
+hidden: 2021-08-09 16:00:00 UTC # 10 AM MDT
 ---
 
 <figure class="card" markdown="1">
@@ -410,9 +410,9 @@ OS 6 comes with additional features, support for newer hardware, updated program
 ## Download elementary OS 6
 
 {% if page.hidden %}
-elementary OS 6 Odin will be available as a pay-what-you-can download at [elementary.io] on {{ page.hidden | date: "%A, %B %e, %Y at %H:%M UTC" }}.
+elementary OS 6 Odin will be available as a pay-what-you-can purchase at [elementary.io] on {{ page.hidden | date: "%A, %B %e, %Y"}}. Localized direct downloads and a torrent magnet link will be provided.
 {% else %}
-elementary OS 6 Odin is available as a pay-what-you-can download at [elementary.io] today.
+elementary OS 6 Odin is available as a pay-what-you-can purchase at [elementary.io] today. Localized direct downloads and a torrent magnet link are provided.
 {% endif %}
 
 <div style="margin: 3em auto; text-align: center" markdown="1">
