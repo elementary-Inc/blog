@@ -8,6 +8,8 @@ tags:
   - odin
   - release
   - flatpak
+
+hidden: 2021-08-09 15:00:00 UTC # 9 AM MDT
 ---
 
 <figure class="card" markdown="1">
@@ -54,11 +56,21 @@ Get ready to turn down the lights, because Dark Style is here for elementary OS 
 
 We've also added 10 new accent colors to elementary OS, affecting everything from suggested action buttons and switches to text selection focus styles—and the new automatic accent color preference picks an accent color from your current wallpaper. elementary OS 6 is the most customizable version to date, enabling you to completely change the look by playing with different wallpapers, visual styles, and accent colors.
 
+<figure class="half" markdown="1">
+![Desktop Dock & Panel settings](https://github.com/elementary/switchboard-plug-pantheon-shell/raw/master/data/screenshot-dock-panel.png?raw=true){: width="856" height="659"}
+![Desktop Multitasking settings](https://github.com/elementary/switchboard-plug-pantheon-shell/raw/master/data/screenshot-multitasking.png?raw=true){: width="856" height="659"}
+<figcaption markdown="1">
+Dock & Panel and Multitasking settings
+</figcaption>
+</figure>
+
+Desktop settings in OS 6 also bring new controls for when to move windows to a new workspace with options for toggling the behavior on fullscreen and maximize.
+
 <aside markdown="1">
 >elementary OS 6 is the most customizable version to date, enabling you to completely change the look.
 </aside>
 
-Both of these new features are made possible by a complete redesign and rewrite of the elementary OS system stylesheet. We revisited every detail from contextual shading and contrast to shadows, strokes, and border radii. The end result ensures _much_ better contrast throughout the whole OS while enabling unprecedented customization.
+These new features are made possible by a complete redesign and rewrite of the elementary OS system stylesheet. We revisited every detail from contextual shading and contrast to shadows, strokes, and border radii. The end result ensures _much_ better contrast throughout the whole OS while enabling unprecedented customization.
 
 <div style="margin: 3em auto;">
 {% assign post = site.posts | where:"slug", "look-and-feel-changes-elementary-os-6" | first %}
@@ -71,7 +83,7 @@ elementary OS 6 leverages cutting-edge sandboxing technology to enforce privacy 
 
 In addition, elementary OS 6 utilizes Portals to keep you in control of how apps interact with each other and your data. Apps must explicitly request permission in a well-defined way to get access to files, screenshots, or even launching other apps. A new Permissions view in _System Settings_ → _Applications_ exposes all the permissions apps have requested and gives you control to override or revoke them.
 
-<figure markdown="1">
+<figure class="constrained" markdown="1">
 ![Applications Permissions settings](https://github.com/elementary/switchboard-plug-applications/raw/master/data/screenshot-permissions.png?raw=true){: width="892" height="659"}
 <figcaption markdown="1">
 _System Settings_ → _Applications_ → _Permissions_
@@ -86,7 +98,7 @@ It wouldn't be a new OS release without exciting new features to improve your ex
 
 ### Multi-touch
 
-One of the most pervasive new features for touchscreen and trackpad users is the new multi-touch support throughout elementary OS 6. A three-finger swipe up smoothly opens the Multitasking View, exposing open apps and workspaces. A three-finger swipe left or right smoothly switches between the dynamic workspaces, making it even faster to jump between tasks.
+One of the most pervasive new features for touch screen and touchpad users is the new multi-touch support throughout elementary OS 6. A three-finger swipe up smoothly opens the Multitasking View, exposing open apps and workspaces. A three-finger swipe left or right smoothly switches between the dynamic workspaces, making it even faster to jump between tasks.
 
 <figure class="half card" markdown="1">
 ![Multitasking View](/images/multitouch-gestures-in-elementary-os-6/multitasking.gif)
@@ -96,7 +108,7 @@ One of the most pervasive new features for touchscreen and trackpad users is the
 </figcaption>
 </figure>
 
-But it's not just the desktop that has multi-touch support; we've worked to bring smooth and intuitive two-finger multi-touch gestures into apps as well. Swipe through paged layouts like screenshots in AppCenter or steps in the Initial Setup and Welcome screens. Swipe to dismiss notification bubbles on screen or in the Notification Center. Swipe to go back in Web, System Settings, and several other apps. And smoothly swipe between users on the login/lockscreen greeter.
+But it's not just the desktop that has multi-touch support; we've worked to bring smooth and intuitive two-finger multi-touch gestures into apps as well. Swipe through paged layouts like screenshots in AppCenter, months in the Date & Time indicator, or steps in the Initial Setup and Welcome screens. Swipe to dismiss notification bubbles on screen or in the Notification Center. Swipe to go back in Web, System Settings, and several other apps. And smoothly swipe between users on the login/lockscreen greeter.
 
 <figure class="third" markdown="1">
 ![AppCenter Screenshots](/images/multitouch-gestures-in-elementary-os-6/appcenter.gif)
@@ -107,7 +119,7 @@ But it's not just the desktop that has multi-touch support; we've worked to brin
 </figcaption>
 </figure>
 
-These new multi-touch gestures make elementary OS 6 faster and smoother to navigate on a touch screen or trackpad—all while ensuring each interaction is just as easy with a traditional mouse and keyboard as before.
+These new multi-touch gestures make elementary OS 6 faster and smoother to navigate on a touch screen or touchpad—all while ensuring each interaction is just as easy with a traditional mouse and keyboard as before. Multi-touch gestures can be customized from _System Settings_ → _Mouse & Touchpad_ → _Gestures_.
 
 ### Notifications
 
@@ -121,7 +133,7 @@ New notification bubbles
 </figcaption>
 </figure>
 
-Notification bubbles now feature badge capability, enabling apps to send richer information like a visual status indicator while ensuring you always know which app a notification is coming from. Apps can also now send actions along with notifications, which are displayed as buttons right within the notification bubble—it's easier than ever to not only be informed by apps, but to take quick actions without ever needing to open the app. 
+Notification bubbles now feature badge capability, enabling apps to send richer information like a visual status indicator while ensuring you always know which app a notification is coming from. Apps can also now send actions along with notifications, which are displayed as buttons right within the notification bubble—it's easier than ever to not only be informed by apps, but to take quick actions without ever needing to open the app.
 
 <figure>
   <picture>
@@ -131,7 +143,7 @@ Notification bubbles now feature badge capability, enabling apps to send richer 
 <figcaption>Urgent notification bubble</figcaption>
 </figure>
 
-Since notifications are now using native GTK widgets just like native apps, they follow the dark style preference and emoji are displayed in full color. Urgent notifications sport a new look and a distinct sound to make them easier to identify. Lastly, notification bubbles also now support multi-touch swipe-to-dismiss on both touchscreens and trackpads.
+Since notifications are now using native GTK widgets just like native apps, they follow the dark style preference and emoji are displayed in full color. Urgent notifications sport a new look and a distinct sound to make them easier to identify. Lastly, notification bubbles also now support multi-touch swipe-to-dismiss on both touch screens and touchpads.
 
 <figure class="card" markdown="1">
 ![Notification Center](https://github.com/elementary/wingpanel-indicator-notifications/raw/master/data/screenshot.png?raw=true){: width="750" height="497"}
@@ -156,7 +168,7 @@ Tasks is designed around the open CalDav format, ensuring it's compatible with m
 
 elementary OS 6 comes with firmware updates built in, powered by the [Linux Vendor Firmware Service](https://fwupd.org). Firmware updates are provided for supported devices by hardware manufacturers like Star Labs, Dell, Lenovo, HP, Intel, Logitech, Wacom, 8bitdo, and many more—now supported devices can get the latest updates for security and stability straight from _System Settings_ → _System_ → _Firmware_ or by searching the Applications Menu for “Firmware.”
 
-<figure markdown="1">
+<figure class="constrained" markdown="1">
 ![Firmware settings](https://github.com/elementary/switchboard-plug-about/raw/master/data/screenshot-firmware.png?raw=true){: width="892" height="659"}
 <figcaption markdown="1">
 Firmware updates built into System Settings
@@ -175,7 +187,7 @@ Web in both light and dark styles
 </figcaption>
 </figure>
 
-The web browser in elementary OS 6 has been updated and renamed. Formerly known as Epiphany, Web is now distributed as a Flatpak to enable even faster updates to support the latest web technologies. Web also features Intelligent Tracking Protection and ad blocking built-in and enabled by default for even greater privacy protections out of the box. The new reader mode brings a stripped down and easier to read view for content-heavy pages. Web follows the new dark style preference both with its own interface and for websites that support the standardized CSS color scheme preference. And as previously mentioned, Web now supports multi-touch swipes for navigating back and forth between pages for touch and trackpad users.
+The web browser in elementary OS 6 has been updated and renamed. Formerly known as Epiphany, Web is now distributed as a Flatpak to enable even faster updates to support the latest web technologies. Web also features Intelligent Tracking Protection and ad blocking built-in and enabled by default for even greater privacy protections out of the box. The new reader mode brings a stripped down and easier to read view for content-heavy pages. Web follows the new dark style preference both with its own interface and for websites that support the standardized CSS color scheme preference. And as previously mentioned, Web now supports multi-touch swipes for navigating back and forth between pages for touch and touchpad users.
 
 <figure markdown="1">
 ![Screenshot of Mail](https://raw.githubusercontent.com/elementary/mail/master/data/screenshot.png){: width="1352" height="777"}
@@ -248,11 +260,29 @@ In elementary OS 5.1 we added a tooltip to the Applications Menu to provide more
     <img alt="Tooltip for the Sound indicator" src="/images/{{ page.slug }}/panel-tooltip.png" width="400" height="225" />
   </picture>
 <figcaption>Tooltip for the Sound indicator</figcaption>
-</figure>
+</figure> 
 
 Now, when hovering: the Night Light indicator shows the status and middle-click to snooze shortcut; the Sound indicator shows the precise volume and middle-click to mute shortcut; the Network indicator shows the current wireless network name; the Bluetooth indicator shows the on/off state and middle-click to toggle shortcut; the Power indicator exposes the precise battery percent and time until charged or empty, plus the middle-click to toggle shortcut; the Notifications indicator shows exactly how many notifications there are as well as the middle-click for Do Not Disturb shortcut; and the Session indicator details the current user's name and the middle-click to prompt to shut down shortcut.
 
-All together, these changes mean the system indicators in elementary OS provide even more information without clicking and make handy, time-saving shortcuts far more discoverable than before.
+<figure class="card" markdown="1">
+![Screenshot of Sound indicator](/images/{{ page.slug }}/sound-indicator.png){: width="750" height="473"}
+<figcaption>Sound indicator</figcaption>
+</figure>
+
+We've expanded the functionality of the Sound indicator in OS 6, as well: the indicator now shows both input and output devices right in the popover, making changing between headphones and speakers or different mics easier on the go, without having to open the full sound settings.
+
+<figure class="card" markdown="1">
+![Screenshot of Power indicator](/images/{{ page.slug }}/power-indicator.png){: width="750" height="300"}
+<figcaption>Power indicator</figcaption>
+</figure>
+
+We've improved the Power indicator in OS 6 with better support for desktop devices plus a handy new feature: selecting a device in the popover now opens a Power Statistics interface with more information like the design energy and total capacity of the device's battery.
+
+All together, these changes mean the system indicators in elementary OS 6 are more powerful and make handy, time-saving shortcuts far more discoverable than before.
+
+### System Settings
+
+We've improved several areas in System Settings for OS 6 in addition to what has been mentioned elsewhere. We've improved the
 
 ## Easier to Get & More Inclusive
 
@@ -274,7 +304,7 @@ elementary OS 6 makes great strides on the "get-able" front; first [teased in 20
 A key consideration of the new installer is that "every install is an OEM install." The installer's job is solely to get the OS onto a device and little more; after installing, you're prompted to either shut down (e.g. to hand the device off to another person) or restart into the new OS. Either way, user account creation is handled in the installed OS by our new Initial Setup utility, then you log straight in to start using your account.
 
 <figure markdown="1">
-![Screenshot of Initial Setup's User page](/images/{{ page.slug }}/initial-setup-user.png)
+![Screenshot of Initial Setup's User page](/images/{{ page.slug }}/initial-setup-user.png){: width="916" height="666"}
 <figcaption>Initial Setup</figcaption>
 </figure>
 
@@ -290,53 +320,32 @@ elementary OS 6 startup on a [Star Labs](https://starlabs.systems) device
 </figcaption>
 </figure>
 
+elementary OS 6 also includes improved performance across the desktop and apps thanks in part to our work on experimental Pinebook Pro and Raspberry Pi builds. With OS 6, we've improved process communication between desktop components and reduced disk reads and writes, which is especially evident on lower-clocked processors and slower storage mediums like spinning hard drives and SD cards. These performance improvements benefit the entire range of devices on which elementary OS runs.
+
 ### Accessibility
 
-Another element of our approach to elementary OS is to ensure it's as inclusive as possible—meaning it's able to be used comfortably by anyone, including those with temporary, chronic, or permanent accessibility needs. As such, we've focused in our _Accessibility Features are Just Features_ efforts in OS 6.
+Another element of our approach to elementary OS is to ensure it's as inclusive as possible—meaning it's able to be used comfortably by anyone, including those with temporary, chronic, or permanent accessibility needs. As such, we've focused in on our _Accessibility Features are Just Features_ efforts in OS 6.
 
 <figure class="card" markdown="1">
 ![Screenshot of the Universal Access indicator](/images/{{ page.slug }}/a11y-indicator.png){: width="750" height="343"}
 <figcaption>Universal Access indicator</figcaption>
 </figure>
 
-elementary OS 6 includes a new Universal Access indicator to expose toggles for features like the screen reader, on-screen keyboard, dwell click, etc. so they're easy to turn on or off as needed.
+elementary OS 6 includes a new Universal Access indicator to expose toggles for features like the screen reader, on-screen keyboard, dwell click, etc. so they're easy to turn on or off as needed. We've also improved usability throughout elementary OS with new features and better defaults.
 
-We've also improved usability throughout elementary OS with new features and better defaults. The redesigned and rewritten system stylesheet ensures much higher contrast by default throughout the desktop and native apps—including those from developers on AppCenter; this can help people with vision needs, those with unconventional hardware setups like projectors or older, low-contrast displays, and even just anyone using their device in a bright environment like direct sunlight. Expanded text size scaling and a new dyslexia-friendly text option can help those with specific vision or reading needs, as well as those with certain hardware setups where 1× or 2× scaling isn't perfect on its own. The new Slate accent color can reduce the effect of distracting colors for those with specific learning or attention needs. And by exposing keyboard shortcuts more consistently in context menus and tooltips throughout the entire desktop in OS 6, we're helping newer users, keyboard warriors, and those with limited mobility learn how to accomplish their tasks without reaching for the mouse or trackpad.
+The redesigned and rewritten system stylesheet ensures much higher contrast by default across the desktop and native apps—including those from developers on AppCenter; this can help people with vision needs, those with unconventional hardware setups like projectors or older, low-contrast displays, and even just anyone using their device in a bright environment like direct sunlight. 
+
+Expanded text size scaling and a new dyslexia-friendly text option can help those with specific vision or reading needs. In addition, the new system stylesheet now uses the text size to smartly scale the rest of the UI, making it a real option for handling display resolutions that don't fit nicely into the integer scaling buckets—all while keeping the UI pixel-perfect and crisp.
+
+The new dark style preference is a visual treat for those who prefer it, but it can also help those with light sensitivity and migraines be able to more comfortably use elementary OS. The new Slate accent color can reduce the effect of distracting colors for those with specific learning or attention needs. And by exposing keyboard shortcuts more consistently in context menus and tooltips throughout the entire desktop in OS 6, we're helping newer users, keyboard warriors, and those with limited mobility learn how to accomplish their tasks without reaching for the mouse or touchpad.
+
+Multi-touch gestures are a new slick way you can navigate the OS on a touchpad or touch screen, but also improve accessibility: previously keyboard-only features like desktop zoom are now able to be used solely on a touchpad or touch screen with a three- or four-finger pinch to zoom.
+
+We've also improved our iconography in elementary OS to improve accessibility and inclusivity. Consistently rounded shapes across arrows, media controls, and more are more friendly and inviting. Depictions of people in icons are now more generic and gender-neutral. And several color icons have been improved for contrast and visibility across a variety of backgrounds, especially when used with the new dark style.
 
 ## …and tons more
 
 We've kept with the above themes throughout all the updates to elementary OS. Here's just a bit more of what's new in OS 6:
-
-### System Settings
-
-We've added even more capabilities to System Settings, enabling you to tune your system just how you want.
-
-#### Desktop
-
-Alongside the new Dark Style preference and accent colors in Desktop settings, we've expanded on the text size options, making it easier to fine-tune how your desktop looks. In addition, the new system stylesheet now uses the text size to smartly scale the rest of the UI, making it a real option for handling display resolutions that don't fit nicely into the integer scaling buckets—all while keeping the UI pixel-perfect and crisp.
-
-<figure class="half" markdown="1">
-![Desktop Dock & Panel settings](https://github.com/elementary/switchboard-plug-pantheon-shell/raw/master/data/screenshot-dock-panel.png?raw=true){: width="856" height="659"}
-![Desktop Multitasking settings](https://github.com/elementary/switchboard-plug-pantheon-shell/raw/master/data/screenshot-multitasking.png?raw=true){: width="856" height="659"}
-<figcaption markdown="1">
-Dock & Panel and Multitasking settings
-</figcaption>
-</figure>
-
-Desktop settings in OS 6 also bring new controls for when to move windows to a new workspace with options for toggling the behavior on fullscreen and maximize.
-
-### Date & Time
-
-We've redesigned the Date & Time settings in OS 6 with a more straightforward layout and new options.
-
-<figure markdown="1">
-![Date & Time settings](https://github.com/elementary/switchboard-plug-datetime/raw/master/data/screenshot.png?raw=true){: width="892" height="659"}
-<figcaption markdown="1">
-New Date & Time settings layout and options
-</figcaption>
-</figure>
-
-Timezone configuration has been redesigned and moved from being hidden into the popover to being right in the main view. We've also added new options to show or hide the date, weekday, and seconds in the clock on the Panel.
 
 ---
 
@@ -366,12 +375,6 @@ More information:
 ### switchboard-plug-onlineaccounts 6.0.0 Released
 
 Complete redesign based on Evolution Data Server
-
-### switchboard-plug-mouse-touchpad 6.0.0 Released
-
-- Multi-touch gesture options
-- Add more snap points to pointer speed sliders
-- Redesigned touchpad settings
 
 ### switchboard-plug-parental-controls 6.0.0 Released
 
@@ -408,21 +411,6 @@ Minor updates:
 - Guarantee we always have at least one layout
 - Improvements to ibus and xkb layouts
 
-### switchboard-plug-power 2.5.0 Released
-
-- Change lid settings without restarting
-- Show in search results for "sleep" and "timeout"
-
-### switchboard-plug-network 2.4.0 Released
-
-- Show message when Ethernet is unplugged
-- Show DNS info
-
-### switchboard-plug-display 2.3.0 Released
-
-- Support 3× scaling
-- Reliably detect accelerometers
-
 ### switchboard-plug-a11y 2.3.0 Released
 
 - Add a switch to show the indicator in the Panel
@@ -434,7 +422,6 @@ Minor updates:
 
 Improvements:
 
-- Add multi-touch gestures
 - Show window titles in multitasking view
 - Close the Alt + Tab switcher by pressing Esc without releasing Alt
 - Increase maximum zoom level and provide feedback when unable to zoom
@@ -444,34 +431,6 @@ Improvements:
 - Always play shutter sound when taking screenshots
 - Minor visual improvements
 - HiDPI fixes
-
-### greeter 6.0.0 Released
-
-- Add multi-touch finger tracking
-- Add keyboard layout support
-- New colorful avatar fallbacks
-- Fix clock when resuming from sleep
-
-### initial-setup 6.0.0 Released
-
-Minor updates:
-
-- Set keyboard layout in accountsservice
-- Add multi-touch gestures
-- Set correct locales
-- New colorful avatar fallback
-
-### onboarding 6.0.0 Released
-
-- Add style view
-- Add Online Accounts view
-- Remove location services view
-- Mention Sideload and Flathub
-
-### shortcut-overlay 1.2.0 Released
-
-- Add screenshot shortcuts
-- Fix issues with multiple windows
 
 ### sideload 6.0.0 Released
 
@@ -491,30 +450,6 @@ Minor updates:
 
 ## Panel
 
-### New
-
-- wingpanel-indicator-a11y
-
-### wingpanel 3.0.0 Released
-
-Improvements:
-
-- Fix some issues with indicator sort order
-- Adjust special icon colors for dark and light panels to improve contrast
-- Fix getting monitor dimensions under Wayland
-- Hide tooltips when indicators are open
-
-Deprecations:
-
-- Wingpanel.Widgets.Container: Use Gtk.ModelButton instead
-- Wingpanel.Widgets.Separator: Use Gtk.Separator instead
-- Wingpanel.Widgets.Switch: Use Granite.SwitchModelButton instead
-
-Removals:
-
-- Wingpanel.Widgets.AutomaticScrollBox: use Gtk.ScrolledWindow.max_content_height instead
-- Wingpanel.Widgets.Button: Use Gtk.ModelButton instead
-
 ### applications-menu 2.8.0 Released
 
 Minor updates
@@ -525,25 +460,6 @@ Minor updates
 - Support fractions without leading number in calculator
 - Show overlay key in tooltip when set
 
-### wingpanel-indicator-notifications 6.0.0 Released
-
-Complete redesign:
-
-- Multi-touch gestures to dismiss notifications
-- Close button on each notification
-- Show images and badged icons
-
-Minor updates:
-
-- Show tooltip on hover
-
-### wingpanel-indicator-sound 6.0.0 Released
-
-- select specific input and output devices
-- Hide temporary audio players when they stop
-- Add a tooltip on hover
-- Minor visual improvements
-
 ### wingpanel-indicator-network 2.3.0 Released
 
 - Fix VPN spinning after connecting
@@ -551,51 +467,11 @@ Minor updates:
 - Ellipsize long network names
 - Show tooltip on hover
 
-### wingpanel-indicator-session 2.3.0 Released
-
-- New colorful avatar fallback
-- Tooltip on hover
-
-### wingpanel-indicator-power 6.0.0 Released
-
-New features:
-
-- Show battery statistics when selected
-- Launch apps using power when selected
-- Control display brightness by scrolling the indicator
-
-Minor updates:
-
-- Improvements for desktops with peripherals
-- Filter out internal devices
-- Show tooltip on hover
-
-### wingpanel-indicator-datetime 2.3.0 Released
-
-- Add multi-touch gestures
-- Improve time zone handling
-
-### wingpanel-indicator-keyboard 2.4.0 Released
-
-Minor updates:
-
-- Show IBus input methods
-- Show tooltip on hover
-
 ## Little Stuff
 
 ## Look & Feel
 
 ### icons 6.0.0 Released
-
-Updated families:
-
-- Improved consistency between arrow shapes
-- Improved appearance of color icons against dark backgrounds
-- More gender-neutral people icons
-- Rounded media controls
-- Rounded lightening bolt shape
-- More colorful battery icons
 
 Additions:
 
@@ -633,10 +509,6 @@ Removals:
 - Add day and night custom Odin wallpapers by Freehive
 - Add Snow-capped Mountain, Martin Adams, Tj Holowaychuk, and Vikor Forgacs
 - Remove Carmine de Fazio, Luca Bravo, Pablo Garcia Saldana, Rob Bye, and Ryan Schroeder
-
-### sound-theme 1.1.0 Released
-
-- Add dialog-warning
 
 ## Developers
 
