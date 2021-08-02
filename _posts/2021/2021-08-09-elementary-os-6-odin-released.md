@@ -280,35 +280,40 @@ We've improved the Power indicator in OS 6 with better support for desktop devic
 
 All together, these changes mean the system indicators in elementary OS 6 are more powerful and make handy, time-saving shortcuts far more discoverable than before.
 
-### System Settings
+### Desktop Features
 
-We've improved several areas in System Settings for OS 6 in addition to what has been mentioned elsewhere.
+We've added new features to the desktop and window management of elementary OS 6 to speed up your workflow.
 
-### The Desktop
+<figure class="card third">
+  <picture>
+    <img alt="Screenshot of window titles" src="/images/{{ page.slug }}/window-titles.png" width="1128" height="752" />
+  </picture>
 
-<figure class="card third" markdown="1">
-![Screenshot of window titles](/images/{{ page.slug }}/window-titles.png){: width="1128" height="752"}
-![Screenshot of window context menu](/images/{{ page.slug }}/window-context.png){: width="404" height="422"}
-![Screenshot of desktop menu](/images/{{ page.slug }}/desktop-menu.png){: width="250" height="150"}
+  <picture>
+    <source srcset="/images/{{ page.slug }}/window-context-dark.png" media="(prefers-color-scheme: dark)">
+    <img alt="Screenshot of window context menu" src="/images/{{ page.slug }}/window-context.png" width="404" height="422" />
+  </picture>
+
+  <picture>
+    <source srcset="/images/{{ page.slug }}/desktop-menu-dark.png" media="(prefers-color-scheme: dark)">
+    <img alt="[Screenshot of desktop menu" src="/images/{{ page.slug }}/desktop-menu.png" width="250" height="150" />
+  </picture>
+
 <figcaption markdown="1">
 **Left:** Window title | **Center:** Window menu | **Right:** Desktop menu
 </figcaption>
 </figure>
 
-We've added new features to the desktop and window management of elementary OS 6 to speed up your workflow.  We've added window titles to apps when hovering in the Multitasking View so you can more easily find the right window from several visually-similar ones. We've improved the window context menu when secondary-clicking a window's header bar with a new layout, improved copy, and a new feature: Take Screenshot. This makes it easier to take screenshots of specific windows, plus helps expose the keyboard shortcut to make it even faster in the future. And lastly, we've added a new context menu to the desktop itself: secondary-clicking your desktop wallpaper now exposes quick shortcuts to change the wallpaper, configure display settings, or jump into System Settings.
+elementary OS 6 features window titles when hovering windows in the Multitasking View so you can more easily find the right window from several visually-similar ones. We've improved the window context menu when secondary-clicking a window's header bar with a new layout, improved copy, and a new feature: Take Screenshot. This makes it easier to take screenshots of specific windows, plus helps expose the keyboard shortcut to make it even faster in the future. And lastly, we've added a new context menu to the desktop itself: secondary-clicking your desktop wallpaper now exposes quick shortcuts to change the wallpaper, configure display settings, or jump into System Settings.
 
-Gala
+<figure class="third" markdown="1">
+![Screenshot of Sideload](/images/{{ page.slug }}/sideload.png){: width="541" height="296"}
+![Screenshot of Sideload progress](/images/{{ page.slug }}/sideload-progress.png){: width="541" height="205"}
+![Screenshot of Sideload success](/images/{{ page.slug }}/sideload-success.png){: width="541" height="243"}
+<figcaption>Sideload</figcaption>
+</figure>
 
-- Increase maximum zoom level and provide feedback when unable to zoom
-- New Dwell Click and Locate Pointer animations
-
-sideload
-
-- Control notifications in System Settings
-- Offer to trash Flatpak files after installing
-- Support Flatpak bundle files
-- Fix crashes on installation failure
-- Link to System Settings → Applications → Permissions
+Installing third-party apps from outside of AppCenter in elementary OS is as easy as downloading a Flatpak and clicking it; the Sideload utility takes over to present relevant information and get the app installed. In OS 6, Sideload now supports Flatpak bundles, expanding the types of apps that can be installed. Sideload also now links to the new _System Settings_ → _Applications_ → _Permissions_ page so you can tweak anything if you'd like after installation. And lastly, Sideload helpfully offers to trash the downloaded installer file once the app is installed to help keep your Downloads folder tidy.
 
 screenshot
 
@@ -374,74 +379,11 @@ Multi-touch gestures are a new slick way you can navigate the OS on a touchpad o
 
 We've also improved our iconography in elementary OS to improve accessibility and inclusivity. Consistently rounded shapes across arrows, media controls, and more are more friendly and inviting. Depictions of people in icons are now more generic and gender-neutral. And several color icons have been improved for contrast and visibility across a variety of backgrounds, especially when used with the new dark style.
 
+## …and more
+
+elementary OS 6 comes with additional features, support for newer hardware, updated programming libraries, updated translations, improved System Settings panes, and more. For detailed release notes organized by version number of each individual component, you can always view our [public Releases site](https://releases.elementary.io).
+
 ---
-
-## Settings
-
-### switchboard 6.0.0 Released
-
-- Add multi-touch navigation gestures
-- Better support smaller displays
-- Remove old GNOME Control Center compatibility layer
-- Stability and performance improvements
-
-### switchboard-plug-about 6.0.0 Released
-
-Redesign and new features:
-
-- Rename from About to System
-- Split Hardware and Operating System info into their own tabs
-- Redesign the Operating System tab with clearer links and buttons
-- Add a Firmware view to manage device firmware updates
-
-More information:
-
-- Provide information for ARM CPUs
-- Provide information for more types of Graphics
-
-### switchboard-plug-onlineaccounts 6.0.0 Released
-
-Complete redesign based on Evolution Data Server
-
-### switchboard-plug-parental-controls 6.0.0 Released
-
-Fixes:
-
-- Set default Screen Time from midnight to midnight to prevent accidental lockouts
-- Improve reliability of app blocking
-- Support blocking Flatpak apps
-
-Minor updates:
-
-- Clarify how Screen Time limits work and when they take effect
-- New colorful avatar fallback
-
-### switchboard-plug-useraccounts 2.4.0 Released
-
-Minor updates:
-
-- New colorful avatar fallback
-- Improved tooltips and labels
-- Fix possible crash when deleting an account
-
-### switchboard-plug-notifications 2.2.0 Released
-
-Minor updates:
-
-- New illustrations
-
-### switchboard-plug-keyboard 2.5.0 Released
-
-Minor updates:
-
-- Add Layout popover is now a dialog
-- Guarantee we always have at least one layout
-- Improvements to ibus and xkb layouts
-
-### switchboard-plug-a11y 2.3.0 Released
-
-- Add a switch to show the indicator in the Panel
-- Point out how to find other accessibility features in System Settings
 
 ## Panel
 
@@ -469,10 +411,6 @@ Minor updates
 - Remove Carmine de Fazio, Luca Bravo, Pablo Garcia Saldana, Rob Bye, and Ryan Schroeder
 
 ---
-
-## Release Notes
-
-For detailed release notes organized by version number of each individual component, you can always view our [public Releases site](https://releases.elementary.io).
 
 ## Thank You
 
