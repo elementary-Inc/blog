@@ -282,7 +282,38 @@ All together, these changes mean the system indicators in elementary OS 6 are mo
 
 ### System Settings
 
-We've improved several areas in System Settings for OS 6 in addition to what has been mentioned elsewhere. We've improved the
+We've improved several areas in System Settings for OS 6 in addition to what has been mentioned elsewhere.
+
+### The Desktop
+
+<figure class="card third" markdown="1">
+![Screenshot of window titles](/images/{{ page.slug }}/window-titles.png){: width="1128" height="752"}
+![Screenshot of window context menu](/images/{{ page.slug }}/window-context.png){: width="404" height="422"}
+![Screenshot of desktop menu](/images/{{ page.slug }}/desktop-menu.png){: width="250" height="150"}
+<figcaption markdown="1">
+**Left:** Window title | **Center:** Window menu | **Right:** Desktop menu
+</figcaption>
+</figure>
+
+We've added new features to the desktop and window management of elementary OS 6 to speed up your workflow.  We've added window titles to apps when hovering in the Multitasking View so you can more easily find the right window from several visually-similar ones. We've improved the window context menu when secondary-clicking a window's header bar with a new layout, improved copy, and a new feature: Take Screenshot. This makes it easier to take screenshots of specific windows, plus helps expose the keyboard shortcut to make it even faster in the future. And lastly, we've added a new context menu to the desktop itself: secondary-clicking your desktop wallpaper now exposes quick shortcuts to change the wallpaper, configure display settings, or jump into System Settings.
+
+Gala
+
+- Increase maximum zoom level and provide feedback when unable to zoom
+- New Dwell Click and Locate Pointer animations
+
+sideload
+
+- Control notifications in System Settings
+- Offer to trash Flatpak files after installing
+- Support Flatpak bundle files
+- Fix crashes on installation failure
+- Link to System Settings → Applications → Permissions
+
+screenshot
+
+- Drag and Drop the preview image from the save dialog
+- Show details for errors if they occur
 
 ## Easier to Get & More Inclusive
 
@@ -322,7 +353,7 @@ elementary OS 6 startup on a [Star Labs](https://starlabs.systems) device
 
 elementary OS 6 also includes improved performance across the desktop and apps thanks in part to our work on experimental Pinebook Pro and Raspberry Pi builds. With OS 6, we've improved process communication between desktop components and reduced disk reads and writes, which is especially evident on lower-clocked processors and slower storage mediums like spinning hard drives and SD cards. These performance improvements benefit the entire range of devices on which elementary OS runs.
 
-### Accessibility
+### Accessibility & Inclusivity
 
 Another element of our approach to elementary OS is to ensure it's as inclusive as possible—meaning it's able to be used comfortably by anyone, including those with temporary, chronic, or permanent accessibility needs. As such, we've focused in on our _Accessibility Features are Just Features_ efforts in OS 6.
 
@@ -331,21 +362,17 @@ Another element of our approach to elementary OS is to ensure it's as inclusive 
 <figcaption>Universal Access indicator</figcaption>
 </figure>
 
-elementary OS 6 includes a new Universal Access indicator to expose toggles for features like the screen reader, on-screen keyboard, dwell click, etc. so they're easy to turn on or off as needed. We've also improved usability throughout elementary OS with new features and better defaults.
+elementary OS 6 includes a new Universal Access indicator to expose toggles for features like the Screen Reader, Onscreen Keyboard, Dwell Click, etc. so they're easy to turn on or off as needed. Dwell Click and Locate Pointer sport new accent-colored animations in OS 6 to make them more visible. We've also improved usability throughout the OS with new features and better defaults.
 
-The redesigned and rewritten system stylesheet ensures much higher contrast by default across the desktop and native apps—including those from developers on AppCenter; this can help people with vision needs, those with unconventional hardware setups like projectors or older, low-contrast displays, and even just anyone using their device in a bright environment like direct sunlight. 
+The redesigned and rewritten system stylesheet ensures much higher contrast by default across the desktop and native apps—including those from developers on AppCenter; this can help people with vision needs, those with unconventional hardware setups like projectors or older, low-contrast displays, and even just anyone using their device in a bright environment like direct sunlight.
 
 Expanded text size scaling and a new dyslexia-friendly text option can help those with specific vision or reading needs. In addition, the new system stylesheet now uses the text size to smartly scale the rest of the UI, making it a real option for handling display resolutions that don't fit nicely into the integer scaling buckets—all while keeping the UI pixel-perfect and crisp.
 
 The new dark style preference is a visual treat for those who prefer it, but it can also help those with light sensitivity and migraines be able to more comfortably use elementary OS. The new Slate accent color can reduce the effect of distracting colors for those with specific learning or attention needs. And by exposing keyboard shortcuts more consistently in context menus and tooltips throughout the entire desktop in OS 6, we're helping newer users, keyboard warriors, and those with limited mobility learn how to accomplish their tasks without reaching for the mouse or touchpad.
 
-Multi-touch gestures are a new slick way you can navigate the OS on a touchpad or touch screen, but also improve accessibility: previously keyboard-only features like desktop zoom are now able to be used solely on a touchpad or touch screen with a three- or four-finger pinch to zoom.
+Multi-touch gestures are a new slick way you can navigate the OS on a touchpad or touch screen, but also improve accessibility: previously keyboard-only features like desktop zoom are now able to be used solely on a touchpad or touch screen with a three- or four-finger pinch to zoom. For zoom specifically, we've also increased the maximum zoom level and added feedback when unable to zoom further in either direction.
 
 We've also improved our iconography in elementary OS to improve accessibility and inclusivity. Consistently rounded shapes across arrows, media controls, and more are more friendly and inviting. Depictions of people in icons are now more generic and gender-neutral. And several color icons have been improved for contrast and visibility across a variety of backgrounds, especially when used with the new dark style.
-
-## …and tons more
-
-We've kept with the above themes throughout all the updates to elementary OS. Here's just a bit more of what's new in OS 6:
 
 ---
 
@@ -416,38 +443,6 @@ Minor updates:
 - Add a switch to show the indicator in the Panel
 - Point out how to find other accessibility features in System Settings
 
-## Desktop/first-run?
-
-### Gala 6.0.0 Released
-
-Improvements:
-
-- Show window titles in multitasking view
-- Close the Alt + Tab switcher by pressing Esc without releasing Alt
-- Increase maximum zoom level and provide feedback when unable to zoom
-- Show a context menu when secondary clicking the background
-- New Dwell Click and Locate Pointer animations
-- Add Take Screenshot to window context menu
-- Always play shutter sound when taking screenshots
-- Minor visual improvements
-- HiDPI fixes
-
-### sideload 6.0.0 Released
-
-- Control notifications in System Settings
-- Offer to trash Flatpak files after installing
-- Support dark style
-- Support Flatpak bundle files
-- Fix crashes on installation failure
-- Link to System Settings → Applications → Permissions
-
-### screenshot 6.0.0 Released
-
-- Support the dark style
-- Drag and Drop the preview image from the save dialog
-- Drag to move the window from anywhere
-- Show details for errors if they occur
-
 ## Panel
 
 ### applications-menu 2.8.0 Released
@@ -467,60 +462,11 @@ Minor updates
 - Ellipsize long network names
 - Show tooltip on hover
 
-## Little Stuff
-
-## Look & Feel
-
-### icons 6.0.0 Released
-
-Additions:
-
-- align-*
-- color-picker
-- distribute-*
-- draw-calligraphic
-- office-database-new
-- tools-spray
-- application-content-*
-- thunderbolt devices
-- video-display-tv
-- symbolic headphones
-- application-certificate
-- application-json
-- office-task-symbolic
-- status emblems
-- emblem-git-*
-
-Removals:
-
-- accessories-camera
-- accessories-screenshot
-- audio-speaker-testing
-- edit-undo-archive
-- internet-mail
-- internet-news-reader
-- multimedia-audio-player
-- notification bell animations
-- nm-*
-- ubiquity
-
 ### wallpapers 6.0.0 Released
 
 - Add day and night custom Odin wallpapers by Freehive
 - Add Snow-capped Mountain, Martin Adams, Tj Holowaychuk, and Vikor Forgacs
 - Remove Carmine de Fazio, Luca Bravo, Pablo Garcia Saldana, Rob Bye, and Ryan Schroeder
-
-## Developers
-
-### granite 6.1.0 Released
-
-Additions:
-
-- `TRANSITION_DURATION_IN_PLACE` for consistent in-place widget transformations
-
-Other Changes:
-
-- `accel_to_string` handles accel markup without modifiers or that are only modifiers
 
 ---
 
