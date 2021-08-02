@@ -250,7 +250,7 @@ In elementary OS 5.1 we added a tooltip to the Applications Menu to provide more
 <figcaption>Tooltip for the Sound indicator</figcaption>
 </figure>
 
-Now, when hovering: the Sound indicator shows the precise volume and middle-click to mute shortcut; the Network indicator shows the current wireless network name; the Bluetooth indicator shows the on/off state and middle-click to toggle shortcut; the Power indicator exposes the precise battery percent and time until charged or empty, plus the middle-click to toggle shortcut; the Notifications indicator shows exactly how many notifications there are as well as the middle-click for Do Not Disturb shortcut; and the Session indicator details the current user's name and the middle-click to prompt to shut down shortcut.
+Now, when hovering: the Night Light indicator shows the status and middle-click to snooze shortcut; the Sound indicator shows the precise volume and middle-click to mute shortcut; the Network indicator shows the current wireless network name; the Bluetooth indicator shows the on/off state and middle-click to toggle shortcut; the Power indicator exposes the precise battery percent and time until charged or empty, plus the middle-click to toggle shortcut; the Notifications indicator shows exactly how many notifications there are as well as the middle-click for Do Not Disturb shortcut; and the Session indicator details the current user's name and the middle-click to prompt to shut down shortcut.
 
 All together, these changes mean the system indicators in elementary OS provide even more information without clicking and make handy, time-saving shortcuts far more discoverable than before.
 
@@ -280,9 +280,7 @@ A key consideration of the new installer is that "every install is an OEM instal
 
 This means we don't handle network connectivity, user accounts, or updates in the installer itself, greatly streamlining and speeding up the process. It also means small OEMs or organizations that hand-install the OS on devices (rather than using an imaging server, for example) can do so quickly and easily, shutting the device down once it's installed and shipping it off straight to a user. It also means OEMs or organizations that _do_ use an image-based approach can configure a custom install of elementary OS (e.g. by installing any additional hardware drivers), delete the OEM account, and make an image of that; once booted on hardware, Initial Setup will run for a new user just like on a standard fresh install.
 
-The way to make elementary OS most "get-able": pre-installed on devices.
-
-With elementary OS shipping on several hardware devices from multiple retailers, we've also continued investing in [hardware improvements](/hardware-improvements-coming-to-elementary-os). OS 6 features a new streamlined startup prominently displaying the device manufacturer's logo along with minimal elements like a loading spinner or password entry for encrypted drives. Startup is intentionally unbranded when it comes to elementary, as it feels much more seamless—and we don't need to constantly advertise your operating system to you.
+With elementary OS shipping on [several hardware devices from multiple retailers](https://store.elementary.io), we've also continued investing in [hardware improvements](/hardware-improvements-coming-to-elementary-os). OS 6 features a new streamlined startup prominently displaying the device manufacturer's logo along with minimal elements like a loading spinner or password entry for encrypted drives. Startup is intentionally non-elementary-branded as it feels much more seamless—and we don't need to constantly advertise your operating system to you.
 
 <figure class="half card" markdown="1">
 ![Boot Screen: loading spinner](/images/hardware-improvements-coming-to-elementary-os/boot-loading.jpg)
@@ -292,7 +290,9 @@ elementary OS 6 startup on a [Star Labs](https://starlabs.systems) device
 </figcaption>
 </figure>
 
-Another element of our approach to elementary OS is to ensure it's as inclusive as possible—meaning it's able to be used comfortably by anyone, including those with temporary or permanent accessibility needs. As such, we've focused in our _Accessibility Features are Just Features_ efforts in OS 6.
+### Accessibility
+
+Another element of our approach to elementary OS is to ensure it's as inclusive as possible—meaning it's able to be used comfortably by anyone, including those with temporary, chronic, or permanent accessibility needs. As such, we've focused in our _Accessibility Features are Just Features_ efforts in OS 6.
 
 <figure class="card" markdown="1">
 ![Screenshot of the Universal Access indicator](/images/{{ page.slug }}/a11y-indicator.png){: width="750" height="343"}
@@ -301,7 +301,7 @@ Another element of our approach to elementary OS is to ensure it's as inclusive 
 
 elementary OS 6 includes a new Universal Access indicator to expose toggles for features like the screen reader, on-screen keyboard, dwell click, etc. so they're easy to turn on or off as needed.
 
-We've also improved accessibility throughout elementary OS with new features and better defaults.
+We've also improved usability throughout elementary OS with new features and better defaults. The redesigned and rewritten system stylesheet ensures much higher contrast by default throughout the desktop and native apps—including those from developers on AppCenter; this can help people with vision needs, those with unconventional hardware setups like projectors or older, low-contrast displays, and even just anyone using their device in a bright environment like direct sunlight. Expanded text size scaling and a new dyslexia-friendly text option can help those with specific vision or reading needs, as well as those with certain hardware setups where 1× or 2× scaling isn't perfect on its own. The new Slate accent color can reduce the effect of distracting colors for those with specific learning or attention needs. And by exposing keyboard shortcuts more consistently in context menus and tooltips throughout the entire desktop in OS 6, we're helping newer users, keyboard warriors, and those with limited mobility learn how to accomplish their tasks without reaching for the mouse or trackpad.
 
 ## …and tons more
 
@@ -348,10 +348,6 @@ Timezone configuration has been redesigned and moved from being hidden into the 
 - Better support smaller displays
 - Remove old GNOME Control Center compatibility layer
 - Stability and performance improvements
-
-### switchboard-plug-pantheon-shell 6.0.0 Released
-
-- Dyslexia-friendly text preference to use the OpenDyslexia font system-wide
 
 ### switchboard-plug-about 6.0.0 Released
 
@@ -433,11 +429,6 @@ Minor updates:
 - Point out how to find other accessibility features in System Settings
 
 ## Desktop/first-run?
-
-### New:
-
-- Settings Daemon
-- Installer
 
 ### Gala 6.0.0 Released
 
@@ -591,15 +582,6 @@ Minor updates:
 - Show IBus input methods
 - Show tooltip on hover
 
-### wingpanel-indicator-bluetooth 2.1.7 Released
-
-- Add tooltip on hover
-- Add a fallback device name for headphones
-
-### wingpanel-indicator-nightlight 2.1.0 Released
-
-- Show tooltip on hover
-
 ## Little Stuff
 
 ## Look & Feel
@@ -679,11 +661,11 @@ For detailed release notes organized by version number of each individual compon
 elementary OS is made in large part by volunteer contributors from around the world. For OS 6 specifically, we'd like to thank the following individuals for their substantial contributions.
 
 - [Corentin Noël](https://github.com/tintou) – OS patches, Files, Flatpak, Camera, and more
-- [David Hewitt](https://github.com/sponsors/davidmhewitt) – OS build system, AppCenter, Installer, and more
+- [David Hewitt](https://github.com/sponsors/davidmhewitt) – OS build system, Settings Daemon, AppCenter, Installer, and more
 - [Igor Montagner](https://github.com/igordsm) – Camera and more
 - [Jeremy Wootten](https://github.com/jeremypw) – Files, Code, Calculator, and more
 - [José Expósito](https://github.com/sponsors/joseexposito) – Multi-touch, window management, Screenshot, and more
-- [Marco Betschart](https://github.com/sponsors/marbetschar) – Online Accounts, Mail, Tasks, and more
+- [Marco Betschart](https://github.com/sponsors/marbetschar) – Online Accounts, Mail, Tasks
 - [Marius Meisenzahl](https://github.com/sponsors/meisenzahl) – Flatpak permissions, scheduled dark style, firmware updates, accent color, and more
 - [Sean Davis](https://github.com/sponsors/bluesabre) – Notifications, Sound indicator
 
