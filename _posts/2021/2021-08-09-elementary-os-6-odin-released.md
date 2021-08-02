@@ -381,36 +381,24 @@ We've also improved our iconography in elementary OS to improve accessibility an
 
 ## …and more
 
-elementary OS 6 comes with additional features, support for newer hardware, updated programming libraries, updated translations, improved System Settings panes, and more. For detailed release notes organized by version number of each individual component, you can always view our [public Releases site](https://releases.elementary.io).
+elementary OS 6 debuts a brand new pair of wallpapers designed in partnership with the creative agency [Freehive](https://freehive.com/) and photographer [Brendon Porter](https://brendonporter.com/), released under the [Creative Commons BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/) license.
 
----
+<figure class="card half" markdown="1">
+![Odin Wallpaper](/images/{{ page.slug }}/wallpaper.jpg){: width="1920" height="1080"}
+![Odin Wallpaper (dark)](/images/{{ page.slug }}/wallpaper-dark.jpg){: width="1920" height="1080"}
+</figure>
 
-## Panel
+We've also refreshed our default wallpapers with four new ones that add variety and expertly show off the new automatic accent color feature.
 
-### applications-menu 2.8.0 Released
+<figure class="card quarter" markdown="1">
+![Tj Holowaychuk wallpaper](/images/{{ page.slug }}/Tj Holowaychuk.jpg){: width="1920" height="1080"}
+![Viktor Forgacs wallpaper](/images/{{ page.slug }}/Viktor Forgacs.jpg){: width="1920" height="1080"}
+![Snow-Capped Mountain wallpaper](/images/{{ page.slug }}/Snow-Capped Mountain.jpg){: width="1920" height="1080"}
+![Martin Adams wallpaper](/images/{{ page.slug }}/Martin Adams.jpg){: width="1920" height="1080"}
+<figcaption>New Wallpapers in elementary OS 6</figcaption>
+</figure>
 
-Minor updates
-
-- Sort app actions above AppCenter search
-- Always hide Terminal-based programs
-- Remove document viewer from block list
-- Support fractions without leading number in calculator
-- Show overlay key in tooltip when set
-
-### wingpanel-indicator-network 2.3.0 Released
-
-- Fix VPN spinning after connecting
-- Improve detecting network encryption type
-- Ellipsize long network names
-- Show tooltip on hover
-
-### wallpapers 6.0.0 Released
-
-- Add day and night custom Odin wallpapers by Freehive
-- Add Snow-capped Mountain, Martin Adams, Tj Holowaychuk, and Vikor Forgacs
-- Remove Carmine de Fazio, Luca Bravo, Pablo Garcia Saldana, Rob Bye, and Ryan Schroeder
-
----
+OS 6 comes with additional features, support for newer hardware, updated programming libraries, updated translations, improved System Settings panes, and more. For detailed release notes organized by version number of each individual component, you can always view our [public Releases site](https://releases.elementary.io).
 
 ## Thank You
 
@@ -424,7 +412,7 @@ elementary OS is made in large part by volunteer contributors from around the wo
 - [Marco Betschart](https://github.com/sponsors/marbetschar) – Online Accounts, Mail, Tasks
 - [Marius Meisenzahl](https://github.com/sponsors/meisenzahl) – Flatpak permissions, scheduled dark style, firmware updates, accent color, and more
 - [Michael McClurg](https://github.com/mcclurgm) – Calendar, especially with regards to time zones and unit tests
-- [Micah Ilbery](https://github.com/micahilbery) – Icons
+- [Micah Ilbery](https://github.com/micahilbery) – Icons and color palette
 - [Ryo Nakano](https://github.com/ryonakano) – Localization, Code Review
 - [Sean Davis](https://github.com/sponsors/bluesabre) – Notifications, Sound indicator
 

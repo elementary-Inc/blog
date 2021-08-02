@@ -58,6 +58,43 @@ figure {
     text-align: center;
   }
 
+  &.quarter {
+    img,
+    video {
+      margin: 1%;
+      max-width: 23%;
+    }
+
+    &:not(.no-zoom) img,
+    &:not(.no-zoom) video {
+      cursor: zoom-in;
+
+      &:focus {
+        cursor: zoom-out;
+      }
+
+      &:nth-child(4n+1):active,
+      &:nth-child(4n+1):focus {
+        transform: translateX(100%) scale(4);
+      }
+
+      &:nth-child(4n+2):active,
+      &:nth-child(4n+2):focus {
+        transform: translateX(50%) scale(4);
+      }
+
+      &:nth-child(4n+3):active,
+      &:nth-child(4n+3):focus {
+        transform: translateX(-50%) scale(4);
+      }
+
+      &:nth-child(4n+4):active,
+      &:nth-child(4n+4):focus {
+        transform: translateX(-100%) scale(4);
+      }
+    }
+  }
+
   &.third {
     img,
     video {
