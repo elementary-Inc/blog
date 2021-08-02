@@ -3,6 +3,7 @@ title: elementary OS 6 Odin Available Now
 description: It’s finally here, and it’s the biggest update to the platform yet
 author: cassidyjames
 image: /images/elementary-os-6-odin-released/odin.png
+thanks: true
 tags:
   - odin
   - release
@@ -58,6 +59,11 @@ We've also added 10 new accent colors to elementary OS, affecting everything fro
 </aside>
 
 Both of these new features are made possible by a complete redesign and rewrite of the elementary OS system stylesheet. We revisited every detail from contextual shading and contrast to shadows, strokes, and border radii. The end result ensures _much_ better contrast throughout the whole OS while enabling unprecedented customization.
+
+<div style="margin: 3em auto;">
+{% assign post = site.posts | where:"slug", "look-and-feel-changes-elementary-os-6" | first %}
+{% include featured.html post=post %}
+</div>
 
 ### Sandboxing & Portals
 
@@ -667,5 +673,19 @@ Other Changes:
 ## Release Notes
 
 For detailed release notes organized by version number of each individual component, you can always view our [public Releases site](https://releases.elementary.io).
+
+## Thank You
+
+elementary OS is made in large part by volunteer contributors from around the world. For OS 6 specifically, we'd like to thank the following individuals for their substantial contributions.
+
+- [David Hewitt](https://github.com/davidmhewitt) – OS build system, AppCenter, Installer, and more
+- [Jeremy Wootten](https://github.com/jeremypw) – Files, Code, Calculator, and more
+- [José Expósito](https://github.com/joseexposito) – Multi-touch, window management, Screenshot, and more
+- [Marco Betschart](https://github.com/sponsors/marbetschar) – Online Accounts, Mail, and Tasks
+- [Marius Meisenzahl](https://github.com/sponsors/meisenzahl) – Flatpak permissions, scheduled dark style, firmware updates, accent color, and more
+
+Many of these contributors are on GitHub Sponsors, meaning you can show your appreciation and fund their ongoing work by sponsoring them directly.
+
+To all of our sponsors and customers: thank you! Your contributions fund our ongoing work and make it all possible. If you’d like to help build and improve elementary OS, don’t hesitate to <a href="https://elementary.io/get-involved" onclick="plausible('Link: Get Involved')">Get Involved</a>.
 
 [elementary.io]: https://elementary.io
