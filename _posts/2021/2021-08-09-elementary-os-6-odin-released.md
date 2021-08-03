@@ -79,7 +79,7 @@ elementary OS 6 leverages cutting-edge sandboxing technology to enforce privacy 
 In addition, elementary OS 6 utilizes Portals to keep you in control of how apps interact with each other and your data. Apps must explicitly request permission in a well-defined way e.g. to get access to files or launch other apps. A new Permissions view in _System Settings_ → _Applications_ exposes all the permissions apps have requested and gives you control to override or revoke them.
 
 <figure class="constrained" markdown="1">
-![Applications Permissions settings](https://github.com/elementary/switchboard-plug-applications/raw/master/data/screenshot-permissions.png?raw=true){: width="892" height="659"}
+![Applications Permissions settings](/images/{{ page.slug }}/permissions.png){: width="892" height="659"}
 <figcaption markdown="1">
 _System Settings_ → _Applications_ → _Permissions_
 </figcaption>
@@ -146,7 +146,7 @@ Notification bubbles now feature badge capability, enabling apps to send richer 
 Since notifications are now using native GTK widgets just like native apps, they follow the dark style preference and emoji are displayed in full color. Urgent notifications sport a new look and a distinct sound to make them easier to identify. Lastly, notification bubbles also now support multi-touch swipe-to-dismiss on both touch screens and touchpads.
 
 <figure class="card" markdown="1">
-![Notification Center](https://github.com/elementary/wingpanel-indicator-notifications/raw/master/data/screenshot.png?raw=true){: width="750" height="497"}
+![Notification Center](/images/{{ page.slug }}/notification-center.png){: width="750" height="497"}
 <figcaption markdown="1">
 Redesigned Notification Center
 </figcaption>
@@ -159,7 +159,7 @@ Notification Center has also been redesigned; notifications here now match the l
 The brand new Tasks app debuts in elementary OS 6, helping you tackle your to-do list whether it's stored on your device or synchronized with an online account.
 
 <figure markdown="1">
-![Tasks](https://raw.githubusercontent.com/elementary/tasks/master/data/screenshot.png){: width="1015" height="769"}
+![Tasks](/images/{{ page.slug }}/tasks.png){: width="1015" height="769"}
 </figure>
 
 Tasks is designed around the open CalDav format, ensuring it's compatible with most online account providers. It supports synchronizing with multiple accounts and lists, time-based reminders, location-based reminders, and more.
@@ -169,7 +169,7 @@ Tasks is designed around the open CalDav format, ensuring it's compatible with m
 elementary OS 6 comes with firmware updates built in, powered by the [Linux Vendor Firmware Service](https://fwupd.org). Firmware updates are provided for supported devices by hardware manufacturers like Star Labs, Dell, Lenovo, HP, Intel, Logitech, Wacom, 8bitdo, and many more—now supported devices can get the latest updates for security and stability straight from _System Settings_ → _System_ → _Firmware_ or by searching the Applications Menu for “Firmware.”
 
 <figure class="constrained" markdown="1">
-![Firmware settings](https://github.com/elementary/switchboard-plug-about/raw/master/data/screenshot-firmware.png?raw=true){: width="892" height="659"}
+![Firmware settings](/images/{{ page.slug }}/firmware.png){: width="892" height="659"}
 <figcaption markdown="1">
 Firmware updates built into System Settings
 </figcaption>
@@ -190,7 +190,7 @@ Web in both light and dark styles
 The web browser in elementary OS 6 has been updated and renamed. Formerly known as Epiphany, Web is now distributed as a Flatpak to enable even faster updates to support the latest web technologies. Web also features Intelligent Tracking Protection and ad blocking built-in and enabled by default for even greater privacy protections out of the box. The new reader mode brings a stripped down and easier to read view for content-heavy pages. Web follows the new dark style preference both with its own interface and for websites that support the standardized CSS color scheme preference. And as previously mentioned, Web now supports multi-touch swipes for navigating back and forth between pages for touch and touchpad users.
 
 <figure markdown="1">
-![Mail](https://raw.githubusercontent.com/elementary/mail/master/data/screenshot.png){: width="1352" height="777"}
+![Mail](/images/{{ page.slug }}/mail.png){: width="1352" height="777"}
 <figcaption>Mail</figcaption>
 </figure>
 
@@ -307,7 +307,7 @@ We've added new features to the desktop and window management of elementary OS 6
 elementary OS 6 features window titles when hovering windows in the Multitasking View so you can more easily find the right window from several visually-similar ones. We've improved the window context menu when secondary-clicking a window's header bar with a new layout, improved copy, and a new feature: Take Screenshot. This makes it easier to take screenshots of specific windows, plus helps expose the keyboard shortcut to make it even faster in the future. And lastly, we've added a new context menu to the desktop itself: secondary-clicking your desktop wallpaper now exposes quick shortcuts to change the wallpaper, configure display settings, or jump into System Settings.
 
 <figure class="constrained" markdown="1">
-![Desktop Multitasking settings](https://github.com/elementary/switchboard-plug-pantheon-shell/raw/master/data/screenshot-multitasking.png?raw=true){: width="856" height="659"}
+![Desktop Multitasking settings](/images/{{ page.slug }}/multitasking.png){: width="856" height="659"}
 <figcaption markdown="1">
 Multitasking settings
 </figcaption>
@@ -406,7 +406,7 @@ elementary OS 6 debuts a brand new pair of wallpapers designed in partnership wi
 ![Odin Wallpaper (dark)](/images/{{ page.slug }}/wallpaper-dark.jpg){: width="1920" height="1080"}
 </figure>
 
-We've also refreshed our default wallpapers with four new ones that are higher-resolution, add variety, and expertly show off the new accent colors. The images inline here are downsized and compressed; you can grab the full-resolution images from elementary OS 6 or on [GitHub](https://github.com/elementary/wallpapers).
+We've also refreshed our set with four new wallpapers that are higher-resolution, add variety, and expertly show off the new accent colors. The images inline here are downsized and compressed; you can grab the full-resolution images from elementary OS 6 or on [GitHub](https://github.com/elementary/wallpapers).
 
 <figure class="card quarter" markdown="1">
 ![Tj Holowaychuk wallpaper](/images/{{ page.slug }}/Tj Holowaychuk.jpg){: width="1920" height="1080"}
@@ -414,6 +414,12 @@ We've also refreshed our default wallpapers with four new ones that are higher-r
 ![Snow-Capped Mountain wallpaper](/images/{{ page.slug }}/Snow-Capped Mountain.jpg){: width="1920" height="1080"}
 ![Martin Adams wallpaper](/images/{{ page.slug }}/Martin Adams.jpg){: width="1920" height="1080"}
 <figcaption>New Wallpapers in elementary OS 6</figcaption>
+</figure>
+
+You may have also noticed a brand new system typeface for elementary OS 6: [Inter](https://rsms.me/inter/) by [Rasmus Andersson](https://rsms.me/about/). Inter is a new completely open source typeface carefully crafted & designed for computer screens; we've brought it to OS 6 and worked with Rasmus on refreshed typography in the form of adjusted sizes, weights, color, and rendering settings for improved legibility and contrast.
+
+<figure class="card" markdown="1">
+![Inter](/images/{{ page.slug }}/inter.png){: width="444" height="380"}
 </figure>
 
 OS 6 comes with additional features, support for newer hardware, updated programming libraries, updated translations, improved System Settings panes, and more. For detailed release notes organized by version number of each individual component, you can always view our [public Releases site](https://releases.elementary.io).
@@ -439,7 +445,7 @@ elementary OS 6 Odin is available as a pay-what-you-can purchase at [elementary.
 elementary OS is made in large part by volunteer contributors from around the world. For OS 6 specifically, we'd like to thank the following individuals for their substantial contributions.
 
 - [Corentin Noël](https://github.com/tintou) – OS patches, Files, Flatpak, Camera, and more
-- [David Hewitt](https://github.com/sponsors/davidmhewitt) – OS build system, Settings Daemon, AppCenter, Installer, and more
+- [David Hewitt](https://github.com/sponsors/davidmhewitt) – OS build system, performance, Settings Daemon, AppCenter, Installer, and more
 - [Igor Montagner](https://github.com/igordsm) – Camera and more
 - [Jeremy Wootten](https://github.com/jeremypw) – Files, Code, Calculator, and more
 - [José Expósito](https://github.com/sponsors/joseexposito) – Multi-touch, window management, Screenshot, and more
