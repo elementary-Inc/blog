@@ -18,7 +18,7 @@ hidden: 2021-08-09 16:00:00 UTC # 10 AM MDT
 ---
 
 <figure class="card" markdown="1">
-![Screenshot of elementary OS 6 Odin]({{ page.image }})
+![elementary OS 6 Odin]({{ page.image }})
 </figure>
 
 It's been a long road to elementary OS 6—what with a whole global pandemic dropped on us in the middle of development—but it's finally here. elementary OS 6 Odin is available to download now. And it's the biggest update to the platform yet! With OS 6, we've focused in on:
@@ -61,16 +61,6 @@ Get ready to turn down the lights, because Dark Style is here for elementary OS 
 
 We've also added 10 new accent colors to elementary OS, affecting everything from suggested action buttons and switches to text selection focus styles—and the new automatic accent color preference picks an accent color from your current wallpaper. elementary OS 6 is the most customizable version to date, enabling you to completely change the look by playing with different wallpapers, visual styles, and accent colors.
 
-<figure class="half" markdown="1">
-![Desktop Dock & Panel settings](https://github.com/elementary/switchboard-plug-pantheon-shell/raw/master/data/screenshot-dock-panel.png?raw=true){: width="856" height="659"}
-![Desktop Multitasking settings](https://github.com/elementary/switchboard-plug-pantheon-shell/raw/master/data/screenshot-multitasking.png?raw=true){: width="856" height="659"}
-<figcaption markdown="1">
-Dock & Panel and Multitasking settings
-</figcaption>
-</figure>
-
-Desktop settings in OS 6 also bring new controls for when to move windows to a new workspace with options for toggling the behavior on fullscreen and maximize.
-
 <aside markdown="1">
 >elementary OS 6 is the most customizable version to date, enabling you to completely change the look.
 </aside>
@@ -86,7 +76,7 @@ These new features are made possible by a complete redesign and rewrite of the e
 
 elementary OS 6 leverages cutting-edge sandboxing technology to enforce privacy and security protections at a technical level. In OS 6, all AppCenter apps are now packaged and distributed as Flatpaks, a modern container format that keeps apps siloed away from each other—and your sensitive data. Several default elementary OS apps are now being distributed as Flatpaks as well.
 
-In addition, elementary OS 6 utilizes Portals to keep you in control of how apps interact with each other and your data. Apps must explicitly request permission in a well-defined way to get access to files, screenshots, or even launching other apps. A new Permissions view in _System Settings_ → _Applications_ exposes all the permissions apps have requested and gives you control to override or revoke them.
+In addition, elementary OS 6 utilizes Portals to keep you in control of how apps interact with each other and your data. Apps must explicitly request permission in a well-defined way e.g. to get access to files or launch other apps. A new Permissions view in _System Settings_ → _Applications_ exposes all the permissions apps have requested and gives you control to override or revoke them.
 
 <figure class="constrained" markdown="1">
 ![Applications Permissions settings](https://github.com/elementary/switchboard-plug-applications/raw/master/data/screenshot-permissions.png?raw=true){: width="892" height="659"}
@@ -96,6 +86,11 @@ _System Settings_ → _Applications_ → _Permissions_
 </figure>
 
 These protections are in place for apps installed from AppCenter, but importantly also apply to all apps installed via the built-in Sideload utility—including all third-party Flatpak apps from external sources like Flathub or a developer's own website. With these protections built in and elementary OS 6 being Flatpak-first, it's easier and safer than ever to get and use the apps you need.
+
+<div style="margin: 3em auto;">
+{% assign post = site.posts | where:"slug", "elementary-appcenter-flatpak" | first %}
+{% include featured.html post=post %}
+</div>
 
 ## New Features
 
@@ -164,7 +159,7 @@ Notification Center has also been redesigned; notifications here now match the l
 The brand new Tasks app debuts in elementary OS 6, helping you tackle your to-do list whether it's stored on your device or synchronized with an online account.
 
 <figure markdown="1">
-![Tasks app](https://raw.githubusercontent.com/elementary/tasks/master/data/screenshot.png){: width="1015" height="769"}
+![Tasks](https://raw.githubusercontent.com/elementary/tasks/master/data/screenshot.png){: width="1015" height="769"}
 </figure>
 
 Tasks is designed around the open CalDav format, ensuring it's compatible with most online account providers. It supports synchronizing with multiple accounts and lists, time-based reminders, location-based reminders, and more.
@@ -185,8 +180,8 @@ Firmware updates built into System Settings
 Several apps in elementary OS 6 sport brand new features, making OS 6 more capable than ever before.
 
 <figure class="half" markdown="1">
-![Screenshot of Web in a light style](/images/{{ page.slug }}/web.png)
-![Screenshot of Web in a dark style](/images/{{ page.slug }}/web-dark.png)
+![Web in a light style](/images/{{ page.slug }}/web.png)
+![Web in a dark style](/images/{{ page.slug }}/web-dark.png)
 <figcaption markdown="1">
 Web in both light and dark styles
 </figcaption>
@@ -195,35 +190,35 @@ Web in both light and dark styles
 The web browser in elementary OS 6 has been updated and renamed. Formerly known as Epiphany, Web is now distributed as a Flatpak to enable even faster updates to support the latest web technologies. Web also features Intelligent Tracking Protection and ad blocking built-in and enabled by default for even greater privacy protections out of the box. The new reader mode brings a stripped down and easier to read view for content-heavy pages. Web follows the new dark style preference both with its own interface and for websites that support the standardized CSS color scheme preference. And as previously mentioned, Web now supports multi-touch swipes for navigating back and forth between pages for touch and touchpad users.
 
 <figure markdown="1">
-![Screenshot of Mail](https://raw.githubusercontent.com/elementary/mail/master/data/screenshot.png){: width="1352" height="777"}
+![Mail](https://raw.githubusercontent.com/elementary/mail/master/data/screenshot.png){: width="1352" height="777"}
 <figcaption>Mail</figcaption>
 </figure>
 
 Mail has been completely rewritten in OS 6. With the rewrite comes tighter Online Accounts integration powered by the open source Evolution Data Server. To start, the new system-wide Online Accounts settings supports the IMAP standard for mail accounts, but we now have the foundation to add more types of accounts over time. The rewrite also brings web process sandboxing so each email is displayed in its own sandbox—improving safety and security. The new Mail is using native widgets instead of custom drawing in places like the message list and conversation view, greatly improving support for right-to-left languages and platform-wide accessibility features.
 
 <figure markdown="1">
-![Screenshot of Calendar](/images/{{ page.slug }}/calendar.png){: width="1039" height="765"}
+![Calendar](/images/{{ page.slug }}/calendar.png){: width="1039" height="765"}
 <figcaption>Calendar</figcaption>
 </figure>
 
 Calendar also supports the Online Accounts integration via the CalDav standard; add any CalDav-compliant account in System Settings, and its events and tasks will show up in the Calendar and Tasks apps. We've also added ICS import, improved offline support, and fixed a number of issues around all-day events and timezones.
 
 <figure markdown="1">
-![Screenshot of Camera](/images/{{ page.slug }}/camera.png){: width="704" height="544"}
+![Camera](/images/{{ page.slug }}/camera.png){: width="704" height="544"}
 <figcaption>Camera</figcaption>
 </figure>
 
 We've revamped Camera in OS 6 with a fresh UI and several new features. Camera now supports switching between multiple cameras, toggling mirroring of the image, and brightness and contrast adjustment. When a recording is finished, Camera now sends an in-app notification with a button to open the video—perfect for making sure it looks how you want.
 
 <figure markdown="1">
-![Screenshot of AppCenter](/images/{{ page.slug }}/appcenter.png){: width="1081" height="669"}
+![AppCenter](/images/{{ page.slug }}/appcenter.png){: width="1081" height="669"}
 <figcaption>AppCenter</figcaption>
 </figure>
 
 With elementary OS 6 being all-in on Flatpaks, AppCenter has been updated to match. While we've always reviewed, approved, and curated third-party AppCenter apps, they're now also distributed as sandboxed Flatpaks for even stronger privacy and security. When an app is installed from a list, AppCenter now shows an in-app notification when it's complete so it's even faster to open. We've improved the design of app headers, including the contrast of buttons. And AppCenter notifications now provide richer context with improved language and contextual badges for installed apps and updates.
 
 <figure markdown="1">
-![Screenshot of Files](/images/{{ page.slug }}/files.png){: width="924" height="608"}
+![Files](/images/{{ page.slug }}/files.png){: width="924" height="608"}
 <figcaption>Files</figcaption>
 </figure>
 
@@ -232,7 +227,7 @@ After a lot of user feedback, testing, and iterating, we're shipping a subtle bu
 <figure>
   <picture>
     <source srcset="/images/{{ page.slug }}/code-dark.png" media="(prefers-color-scheme: dark)">
-    <img alt="Screenshot of Code" src="/images/{{ page.slug }}/code.png" width="1174" height="703" />
+    <img alt="Code" src="/images/{{ page.slug }}/code.png" width="1174" height="703" />
   </picture>
 <figcaption>Code</figcaption>
 </figure>
@@ -242,11 +237,11 @@ For developers, we've continued to improve Code in OS 6. You'll notice a new pro
 <figure class="half">
   <picture>
     <source srcset="/images/{{ page.slug }}/terminal.png" media="(prefers-color-scheme: dark)">
-    <img alt="Screenshot of Terminal" src="/images/{{ page.slug }}/terminal-light.png" width="788" height="555" />
+    <img alt="Terminal" src="/images/{{ page.slug }}/terminal-light.png" width="788" height="555" />
   </picture>
   <picture>
     <source srcset="/images/{{ page.slug }}/terminal-paste-protection.png" media="(prefers-color-scheme: dark)">
-    <img alt="Screenshot of paste protection dialog" src="/images/{{ page.slug }}/terminal-paste-protection-light.png" width="545" height="329" />
+    <img alt="paste protection dialog" src="/images/{{ page.slug }}/terminal-paste-protection-light.png" width="545" height="329" />
   </picture>
 <figcaption>Terminal</figcaption>
 </figure>
@@ -270,14 +265,14 @@ In elementary OS 5.1 we added a tooltip to the Applications Menu to provide more
 Now, when hovering: the Night Light indicator shows the status and middle-click to snooze shortcut; the Sound indicator shows the precise volume and middle-click to mute shortcut; the Network indicator shows the current wireless network name; the Bluetooth indicator shows the on/off state and middle-click to toggle shortcut; the Power indicator exposes the precise battery percent and time until charged or empty, plus the middle-click to toggle shortcut; the Notifications indicator shows exactly how many notifications there are as well as the middle-click for Do Not Disturb shortcut; and the Session indicator details the current user's name and the middle-click to prompt to shut down shortcut.
 
 <figure class="card" markdown="1">
-![Screenshot of Sound indicator](/images/{{ page.slug }}/sound-indicator.png){: width="750" height="473"}
+![Sound indicator](/images/{{ page.slug }}/sound-indicator.png){: width="750" height="473"}
 <figcaption>Sound indicator</figcaption>
 </figure>
 
 We've expanded the functionality of the Sound indicator in OS 6, as well: the indicator now shows both input and output devices right in the popover, making changing between headphones and speakers or different mics easier on the go, without having to open the full sound settings.
 
 <figure class="card" markdown="1">
-![Screenshot of Power indicator](/images/{{ page.slug }}/power-indicator.png){: width="750" height="300"}
+![Power indicator](/images/{{ page.slug }}/power-indicator.png){: width="750" height="300"}
 <figcaption>Power indicator</figcaption>
 </figure>
 
@@ -291,17 +286,17 @@ We've added new features to the desktop and window management of elementary OS 6
 
 <figure class="card third">
   <picture>
-    <img alt="Screenshot of window titles" src="/images/{{ page.slug }}/window-titles.png" width="1128" height="752" />
+    <img alt="window titles" src="/images/{{ page.slug }}/window-titles.png" width="1128" height="752" />
   </picture>
 
   <picture>
     <source srcset="/images/{{ page.slug }}/window-context-dark.png" media="(prefers-color-scheme: dark)">
-    <img alt="Screenshot of window context menu" src="/images/{{ page.slug }}/window-context.png" width="404" height="422" />
+    <img alt="window context menu" src="/images/{{ page.slug }}/window-context.png" width="404" height="422" />
   </picture>
 
   <picture>
     <source srcset="/images/{{ page.slug }}/desktop-menu-dark.png" media="(prefers-color-scheme: dark)">
-    <img alt="[Screenshot of desktop menu" src="/images/{{ page.slug }}/desktop-menu.png" width="250" height="150" />
+    <img alt="[desktop menu" src="/images/{{ page.slug }}/desktop-menu.png" width="250" height="150" />
   </picture>
 
 <figcaption markdown="1">
@@ -311,19 +306,31 @@ We've added new features to the desktop and window management of elementary OS 6
 
 elementary OS 6 features window titles when hovering windows in the Multitasking View so you can more easily find the right window from several visually-similar ones. We've improved the window context menu when secondary-clicking a window's header bar with a new layout, improved copy, and a new feature: Take Screenshot. This makes it easier to take screenshots of specific windows, plus helps expose the keyboard shortcut to make it even faster in the future. And lastly, we've added a new context menu to the desktop itself: secondary-clicking your desktop wallpaper now exposes quick shortcuts to change the wallpaper, configure display settings, or jump into System Settings.
 
+<figure class="constrained" markdown="1">
+![Desktop Multitasking settings](https://github.com/elementary/switchboard-plug-pantheon-shell/raw/master/data/screenshot-multitasking.png?raw=true){: width="856" height="659"}
+<figcaption markdown="1">
+Multitasking settings
+</figcaption>
+</figure>
+
+elementary OS 6 has expanded multitasking settings in _System Settings_ → _Desktop_ → _Multitasking_. We've combined the previous hot corners view with new new controls for when to move windows to a new workspace, including options for toggling the behavior for both fullscreen and maximize.
+
+<figure class="half" markdown="1">
+![Screenshot utility](/images/{{ page.slug }}/screenshot.png){: width="330" height="346"}
+![Screenshot utility save dialog](/images/{{ page.slug }}/screenshot-save.png){: width="367" height="460"}
+<figcaption>Screenshot utility</figcaption>
+</figure>
+
+The Screenshot utility is easier to move around with the ability to drag from anywhere in the window. You can also drag the preview image from the Save dialog straight into another app, like an image editor, to skip hitting the Copy to Clipboard or Save buttons.
+
 <figure class="third" markdown="1">
-![Screenshot of Sideload](/images/{{ page.slug }}/sideload.png){: width="541" height="296"}
-![Screenshot of Sideload progress](/images/{{ page.slug }}/sideload-progress.png){: width="541" height="205"}
-![Screenshot of Sideload success](/images/{{ page.slug }}/sideload-success.png){: width="541" height="243"}
+![Sideload](/images/{{ page.slug }}/sideload.png){: width="541" height="296"}
+![Sideload progress](/images/{{ page.slug }}/sideload-progress.png){: width="541" height="205"}
+![Sideload success](/images/{{ page.slug }}/sideload-success.png){: width="541" height="243"}
 <figcaption>Sideload</figcaption>
 </figure>
 
 Installing third-party apps from outside of AppCenter in elementary OS is as easy as downloading a Flatpak and clicking it; the Sideload utility takes over to present relevant information and get the app installed. In OS 6, Sideload now supports Flatpak bundles, expanding the types of apps that can be installed. Sideload also now links to the new _System Settings_ → _Applications_ → _Permissions_ page so you can tweak anything if you'd like after installation. And lastly, Sideload helpfully offers to trash the downloaded installer file once the app is installed to help keep your Downloads folder tidy.
-
-screenshot
-
-- Drag and Drop the preview image from the save dialog
-- Show details for errors if they occur
 
 ## Easier to Get & More Inclusive
 
@@ -332,20 +339,20 @@ We're always expanding the elementary OS platform and ecosystem making it more u
 elementary OS 6 makes great strides on the "get-able" front; first [teased in 2018](/meet-the-upcoming-installer), the new installer front-end designed and developed by elementary debuts in OS 6. The new installer has been designed to be simpler, more straightforward, and much faster than the previous Ubiquity installer developed by Canonical for Ubuntu.
 
 <figure class="third" markdown="1">
-![Screenshot of Initial Setup's Language page](/images/{{ page.slug }}/initial-setup-language.png)
-![Screenshot of Initial Setup's Keyboard page](/images/{{ page.slug }}/initial-setup-keyboard.png)
-![Screenshot of Installer's Try or Install page](/images/{{ page.slug }}/installer-try-install.png)
-![Screenshot of Installer's Drives page](/images/{{ page.slug }}/installer-drives.png)
-![Screenshot of Installer's Encryption page](/images/{{ page.slug }}/installer-encrypt.png)
-![Screenshot of Installer's Progress page](/images/{{ page.slug }}/installer-progress.png)
-![Screenshot of Installer's Success page](/images/{{ page.slug }}/installer-success.png)
+![Initial Setup Language page](/images/{{ page.slug }}/initial-setup-language.png)
+![Initial Setup Keyboard page](/images/{{ page.slug }}/initial-setup-keyboard.png)
+![Installer Try or Install page](/images/{{ page.slug }}/installer-try-install.png)
+![Installer Drives page](/images/{{ page.slug }}/installer-drives.png)
+![Installer Encryption page](/images/{{ page.slug }}/installer-encrypt.png)
+![Installer Progress page](/images/{{ page.slug }}/installer-progress.png)
+![Installer Success page](/images/{{ page.slug }}/installer-success.png)
 <figcaption>Installer</figcaption>
 </figure>
 
 A key consideration of the new installer is that "every install is an OEM install." The installer's job is solely to get the OS onto a device and little more; after installing, you're prompted to either shut down (e.g. to hand the device off to another person) or restart into the new OS. Either way, user account creation is handled in the installed OS by our new Initial Setup utility, then you log straight in to start using your account.
 
 <figure markdown="1">
-![Screenshot of Initial Setup's User page](/images/{{ page.slug }}/initial-setup-user.png){: width="916" height="666"}
+![Initial Setup User page](/images/{{ page.slug }}/initial-setup-user.png){: width="916" height="666"}
 <figcaption>Initial Setup</figcaption>
 </figure>
 
@@ -365,14 +372,20 @@ elementary OS 6 also includes improved performance across the desktop and apps t
 
 ### Accessibility & Inclusivity
 
-Another element of our approach to elementary OS is to ensure it's as inclusive as possible—meaning it's able to be used comfortably by anyone, including those with temporary, chronic, or permanent accessibility needs. As such, we've focused in on our _Accessibility Features are Just Features_ efforts in OS 6.
+Another element of our approach to elementary OS is to ensure it's as inclusive as possible—meaning it's able to be used comfortably by anyone, including those with temporary, chronic, or permanent accessibility needs. As such, we've focused in on our [Accessibility Features are Just Features](https://github.com/orgs/elementary/projects/35) efforts in OS 6.
 
 <figure class="card" markdown="1">
-![Screenshot of the Universal Access indicator](/images/{{ page.slug }}/a11y-indicator.png){: width="750" height="343"}
+![Universal Access indicator](/images/{{ page.slug }}/a11y-indicator.png){: width="750" height="343"}
 <figcaption>Universal Access indicator</figcaption>
 </figure>
 
-elementary OS 6 includes a new Universal Access indicator to expose toggles for features like the Screen Reader, Onscreen Keyboard, Dwell Click, etc. so they're easy to turn on or off as needed. Dwell Click and Locate Pointer sport new accent-colored animations in OS 6 to make them more visible. We've also improved usability throughout the OS with new features and better defaults.
+
+elementary OS 6 includes a new Universal Access indicator to expose toggles for features like the Screen Reader, Onscreen Keyboard, Dwell Click, etc. so they're easy to turn on or off as needed. This new indicator can be manually turned on in System Settings, but also automatically shows on the login and lock screen greeter and in the installer to make elementary OS more accessible out of the box. Dwell Click and Locate Pointer both sport new accent-colored animations in OS 6 to make them more visible when in use. We've also improved usability throughout the OS with new features and better defaults—curb cuts, if you recall my blog post from a couple of years back:
+
+<div style="margin: 3em auto;">
+{% assign post = site.posts | where:"slug", "accessibility-features-are-just-features" | first %}
+{% include featured.html post=post %}
+</div>
 
 The redesigned and rewritten system stylesheet ensures much higher contrast by default across the desktop and native apps—including those from developers on AppCenter; this can help people with vision needs, those with unconventional hardware setups like projectors or older, low-contrast displays, and even just anyone using their device in a bright environment like direct sunlight.
 
