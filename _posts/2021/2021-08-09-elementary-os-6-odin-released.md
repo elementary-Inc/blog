@@ -364,7 +364,7 @@ With elementary OS shipping on [several hardware devices from multiple retailers
 ![Boot Screen: loading spinner](/images/hardware-improvements-coming-to-elementary-os/boot-loading.jpg)
 ![Boot Screen: unlocking an encrypted drive](/images/hardware-improvements-coming-to-elementary-os/boot-password.jpg)
 <figcaption markdown="1">
-elementary OS 6 startup on a [Star Labs](https://starlabs.systems) device
+elementary OS 6 startup on a [Star Labs](https://starlabs.systems/?rfsn=4227837.e8f025) device
 </figcaption>
 </figure>
 
