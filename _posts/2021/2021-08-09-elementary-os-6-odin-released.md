@@ -108,7 +108,7 @@ One of the most pervasive new features for touch screen and touchpad users is th
 </figcaption>
 </figure>
 
-But it's not just the desktop that has multi-touch support; we've worked to bring smooth and intuitive two-finger multi-touch gestures into apps as well. Swipe through paged layouts like screenshots in AppCenter, months in the Date & Time indicator, or steps in the Initial Setup and Welcome screens. Swipe to dismiss notification bubbles on screen or in the Notification Center. Swipe to go back in Web, System Settings, and several other apps. And smoothly swipe between users on the login/lockscreen greeter.
+But it's not just the desktop that has multi-touch support; we've worked to bring smooth and intuitive two-finger multi-touch gestures into apps as well. Swipe through paged layouts like screenshots in AppCenter, months in the Date & Time indicator, or steps in the Initial Setup and Welcome screens. Swipe to dismiss notification bubbles on screen or in the Notification Center. Swipe to go back in Web, System Settings, and several other apps. And smoothly swipe between users on the login/lock screen greeter.
 
 <figure class="third" markdown="1">
 ![AppCenter Screenshots](/images/multitouch-gestures-in-elementary-os-6/appcenter.gif)
@@ -406,7 +406,7 @@ elementary OS 6 debuts a brand new pair of wallpapers designed in partnership wi
 ![Odin Wallpaper (dark)](/images/{{ page.slug }}/wallpaper-dark.jpg){: width="1920" height="1080"}
 </figure>
 
-We've also refreshed our default wallpapers with four new ones that are higher-resolution, add variety, and expertly show off the new accent colors.
+We've also refreshed our default wallpapers with four new ones that are higher-resolution, add variety, and expertly show off the new accent colors. The images inline here are downsized and compressed; you can grab the full-resolution images from elementary OS 6 or on [GitHub](https://github.com/elementary/wallpapers).
 
 <figure class="card quarter" markdown="1">
 ![Tj Holowaychuk wallpaper](/images/{{ page.slug }}/Tj Holowaychuk.jpg){: width="1920" height="1080"}
