@@ -14,7 +14,7 @@ sponsor:
   link: https://github.com/brunodiazu
   hook: They’re an Informatic Civil Engineering Data Analyst in Chile who sponsored us via our new one-time GitHub Sponsors tier.
 
-hidden: 2021-08-09 16:00:00 UTC # 10 AM MDT
+hidden: 2021-08-10 16:00:00 UTC # 10 AM MDT
 ---
 
 <figure class="card" markdown="1">
