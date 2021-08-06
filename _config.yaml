@@ -5,7 +5,7 @@ baseurl: ""
 permalink: /:title/
 theme-color: "#64baff"
 gravatar: eaa3cc978770998ea2bd4382935bf0f4
-sponsor_inquiry: https://docs.google.com/forms/d/e/1FAIpQLSe1rNuHnph8TBhIVYYH2hGrAdMwjW9a_xpo1czjITucF7GQXA/viewform
+sponsor_inquiry: https://github.com/sponsors/elementary?frequency=one-time
 analytics: https://plausible.io/blog.elementary.io
 
 facebook: elementaryos
