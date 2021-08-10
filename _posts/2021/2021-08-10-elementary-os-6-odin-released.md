@@ -426,7 +426,7 @@ OS 6 comes with additional features, support for newer hardware, updated program
 
 ---
 
-## Download elementary OS 6
+## Get elementary OS 6
 
 {% if page.hidden %}
 elementary OS 6 Odin will be available as a pay-what-you-can purchase at [elementary.io] on {{ page.hidden | date: "%A, %B %e, %Y"}}. Localized direct downloads and a torrent magnet link will be provided.
@@ -437,6 +437,10 @@ elementary OS 6 Odin is available as a pay-what-you-can purchase at [elementary.
 <div style="margin: 3em auto; text-align: center" markdown="1">
 [Download elementary OS 6][elementary.io]{: .button}
 </div>
+
+### Devices
+
+We've been working with our [hardware retailers](https://store.elementary.io/) to ensure they're able to offer elementary OS 6 out of the box as soon as possible. Visit their individual websites to inquire when OS 6 will be available.
 
 ---
 
@@ -461,3 +465,4 @@ Many of these contributors are on GitHub Sponsors, meaning you can show your app
 To all of our sponsors and customers: thank you! Your contributions fund our ongoing work and make it all possible. If you’d like to help build and improve elementary OS, don’t hesitate to <a href="https://elementary.io/get-involved" onclick="plausible('Link: Get Involved')">Get Involved</a>.
 
 [elementary.io]: https://elementary.io
+[hardware retailers]: https://store.elementary.io/
