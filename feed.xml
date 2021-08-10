@@ -5,10 +5,664 @@
     <description>We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS</description>
     <link>https://blog.elementary.io/</link>
     <atom:link href="https://blog.elementary.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 10 Aug 2021 02:39:09 -0500</pubDate>
-    <lastBuildDate>Tue, 10 Aug 2021 02:39:09 -0500</lastBuildDate>
+    <pubDate>Tue, 10 Aug 2021 11:33:14 -0500</pubDate>
+    <lastBuildDate>Tue, 10 Aug 2021 11:33:14 -0500</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
+      
+        <item>
+          <title>elementary OS 6 Odin Available Now</title>
+          <description>&lt;figure class=&quot;card&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/elementary-os-6-odin-released/odin.png&quot; alt=&quot;elementary OS 6 Odin&quot; /&gt;&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;It’s been a long road to elementary OS 6—what with a whole global pandemic dropped on us in the middle of development—but it’s finally here. elementary OS 6 Odin is available to download now. And it’s the biggest update to the platform yet! With OS 6, we’ve focused in on:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Empowering you to &lt;strong&gt;be in control&lt;/strong&gt; and &lt;strong&gt;express yourself&lt;/strong&gt;,&lt;/li&gt;
+  &lt;li&gt;Continuing to innovate with &lt;strong&gt;new features&lt;/strong&gt;, and&lt;/li&gt;
+  &lt;li&gt;Making elementary OS &lt;strong&gt;easier to get&lt;/strong&gt; and &lt;strong&gt;more inclusive&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To get elementary OS 6 now, head to &lt;a href=&quot;https://elementary.io&quot;&gt;elementary.io&lt;/a&gt; for the download—or read on for an overview of what’s new.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;be-in-control--express-yourself&quot;&gt;Be in Control &amp;amp; Express Yourself&lt;/h2&gt;
+
+&lt;p&gt;elementary OS is designed to be easy to use, get out of your way, and not leave the hard decisions to you. At the same time, it exists to empower you to take control of your own devices and data. That’s why we’ve always had an unmatched &lt;a href=&quot;https://elementary.io/privacy&quot;&gt;commitment to privacy&lt;/a&gt;:&lt;/p&gt;
+
+&lt;aside&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;Your data always belongs to you, and only you. We don’t make advertising deals or collect sensitive personal data. We’re funded directly by our users paying what they want for elementary OS and apps on AppCenter. And that’s how it should be.&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;With OS 6, we’re empowering you further with new ways to stay in control of your experience—plus new ways to express your own unique style and preferences.&lt;/p&gt;
+
+&lt;h3 id=&quot;dark-style--accent-color&quot;&gt;Dark Style &amp;amp; Accent Color&lt;/h3&gt;
+
+&lt;p&gt;Get ready to turn down the lights, because Dark Style is here for elementary OS 6. The new visual style is available right from the Welcome screen or at any time from &lt;em&gt;System Settings&lt;/em&gt; → &lt;em&gt;Desktop&lt;/em&gt; → &lt;em&gt;Appearance&lt;/em&gt;. Choose the classic Default style or a new Dark style, and the system and default apps will follow suit. Third-party apps are encouraged to follow this new preference, though we avoid breakage by not &lt;em&gt;forcing&lt;/em&gt; it; if your favorite app doesn’t follow along, be sure to report that to its developer. Dark style can also be scheduled to follow sunset and sunrise for your location, or based on your own schedule.&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+  &lt;picture&gt;
+    &lt;source srcset=&quot;/images/elementary-os-6-odin-released/onboarding-dark.png&quot; media=&quot;(prefers-color-scheme: dark)&quot; /&gt;
+    &lt;img alt=&quot;Onboarding&quot; src=&quot;/images/elementary-os-6-odin-released/onboarding.png&quot; width=&quot;532&quot; height=&quot;450&quot; /&gt;
+  &lt;/picture&gt;
+  &lt;picture&gt;
+    &lt;source srcset=&quot;/images/elementary-os-6-odin-released/appearance-dark.png&quot; media=&quot;(prefers-color-scheme: dark)&quot; /&gt;
+    &lt;img alt=&quot;Desktop Appearance settings&quot; src=&quot;/images/elementary-os-6-odin-released/appearance.png&quot; width=&quot;862&quot; height=&quot;664&quot; /&gt;
+  &lt;/picture&gt;
+&lt;figcaption&gt;
+    &lt;p&gt;&lt;strong&gt;Left:&lt;/strong&gt; Dark style and accent colors in the Welcome screen | &lt;strong&gt;Right:&lt;/strong&gt; &lt;em&gt;System Settings&lt;/em&gt; → &lt;em&gt;Desktop&lt;/em&gt; → &lt;em&gt;Appearance&lt;/em&gt;&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We’ve also added 10 new accent colors to elementary OS, affecting everything from suggested action buttons and switches to text selection focus styles—and the new automatic accent color preference picks an accent color from your current wallpaper. elementary OS 6 is the most customizable version to date, enabling you to completely change the look by playing with different wallpapers, visual styles, and accent colors.&lt;/p&gt;
+
+&lt;aside&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;elementary OS 6 is the most customizable version to date, enabling you to completely change the look.&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;These new features are made possible by a complete redesign and rewrite of the elementary OS system stylesheet. We revisited every detail from contextual shading and contrast to shadows, strokes, and border radii. The end result ensures &lt;em&gt;much&lt;/em&gt; better contrast throughout the whole OS while enabling unprecedented customization.&lt;/p&gt;
+
+&lt;div style=&quot;margin: 3em auto;&quot;&gt;
+
+
+
+&lt;a class=&quot;featured with-image 1&quot; href=&quot;/look-and-feel-changes-elementary-os-6/&quot;&gt;
+  
+    &lt;div class=&quot;featured-image&quot; alt=&quot;Featured image&quot; style=&quot;background-image: url(/images/look-and-feel-changes-coming-elementary-os-6/card.png);&quot;&gt;&lt;/div&gt;
+  
+
+  &lt;header&gt;
+    &lt;h2&gt;
+
+
+
+   Look &amp;amp; Feel Changes Coming to elementary OS&amp;nbsp;6
+
+&lt;/h2&gt;
+    
+      &lt;h3&gt;
+        
+
+
+
+   Visual design updates that are more than skin&amp;nbsp;deep
+
+
+        
+      &lt;/h3&gt;
+    
+
+    
+
+
+
+&lt;div class=&quot;byline&quot;&gt;
+  &lt;div class=&quot;avatar&quot;&gt;
+    &lt;img srcset=&quot;https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&amp;amp;d=blank 2x&quot; src=&quot;https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&amp;amp;d=blank&quot; alt=&quot;Avatar for Daniel Foré&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;author&quot;&gt;
+    
+    &lt;span class=&quot;name&quot;&gt;Daniel Foré&lt;/span&gt;
+    
+    
+      &lt;span class=&quot;description&quot;&gt;Founder &amp;amp; CEO&lt;/span&gt;
+    
+  &lt;/div&gt;
+  &lt;time class=&quot;post-date&quot; datetime=&quot;2021-03-05&quot;&gt;Fri, Mar  5, 2021&lt;/time&gt;
+  
+    &lt;span class=&quot;read-time&quot; title=&quot;Estimated read time&quot;&gt;
+  
+  9 min read
+&lt;/span&gt;
+
+
+  
+&lt;/div&gt;
+
+
+  &lt;/header&gt;
+
+  
+&lt;/a&gt;
+
+
+&lt;/div&gt;
+
+&lt;h3 id=&quot;sandboxing--portals&quot;&gt;Sandboxing &amp;amp; Portals&lt;/h3&gt;
+
+&lt;p&gt;elementary OS 6 leverages cutting-edge sandboxing technology to enforce privacy and security protections at a technical level. In OS 6, all AppCenter apps are now packaged and distributed as Flatpaks, a modern container format that keeps apps siloed away from each other—and your sensitive data. Several default elementary OS apps are now being distributed as Flatpaks as well.&lt;/p&gt;
+
+&lt;p&gt;In addition, elementary OS 6 utilizes Portals to keep you in control of how apps interact with each other and your data. Apps must explicitly request permission in a well-defined way e.g. to get access to files or launch other apps. A new Permissions view in &lt;em&gt;System Settings&lt;/em&gt; → &lt;em&gt;Applications&lt;/em&gt; exposes all the permissions apps have requested and gives you control to override or revoke them.&lt;/p&gt;
+
+&lt;figure class=&quot;constrained&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/elementary-os-6-odin-released/permissions.png&quot; alt=&quot;Applications Permissions settings&quot; width=&quot;892&quot; height=&quot;659&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;&lt;em&gt;System Settings&lt;/em&gt; → &lt;em&gt;Applications&lt;/em&gt; → &lt;em&gt;Permissions&lt;/em&gt;&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;These protections are in place for apps installed from AppCenter, but importantly also apply to all apps installed via the built-in Sideload utility—including all third-party Flatpak apps from external sources like Flathub or a developer’s own website. With these protections built in and elementary OS 6 being Flatpak-first, it’s easier and safer than ever to get and use the apps you need.&lt;/p&gt;
+
+&lt;div style=&quot;margin: 3em auto;&quot;&gt;
+
+
+
+&lt;a class=&quot;featured with-image 1&quot; href=&quot;/elementary-appcenter-flatpak/&quot;&gt;
+  
+    &lt;div class=&quot;featured-image&quot; alt=&quot;Featured image&quot; style=&quot;background-image: url(/images/elementary-appcenter-flatpak/flatpak.png);&quot;&gt;&lt;/div&gt;
+  
+
+  &lt;header&gt;
+    &lt;h2&gt;
+
+
+
+   elementary AppCenter +&amp;nbsp;Flatpak
+
+&lt;/h2&gt;
+    
+      &lt;h3&gt;
+        
+
+
+
+   Preparing for the&amp;nbsp;future
+
+
+        
+      &lt;/h3&gt;
+    
+
+    
+
+
+
+&lt;div class=&quot;byline&quot;&gt;
+  &lt;div class=&quot;avatar&quot;&gt;
+    &lt;img srcset=&quot;https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&amp;amp;d=blank 2x&quot; src=&quot;https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&amp;amp;d=blank&quot; alt=&quot;Avatar for Cassidy James Blaede&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;author&quot;&gt;
+    
+    &lt;span class=&quot;name&quot;&gt;Cassidy James Blaede&lt;/span&gt;
+    
+    
+      &lt;span class=&quot;description&quot;&gt;Co-founder &amp;amp; CXO&lt;/span&gt;
+    
+  &lt;/div&gt;
+  &lt;time class=&quot;post-date&quot; datetime=&quot;2019-04-01&quot;&gt;Mon, Apr  1, 2019&lt;/time&gt;
+  
+    &lt;span class=&quot;read-time&quot; title=&quot;Estimated read time&quot;&gt;
+  
+  9 min read
+&lt;/span&gt;
+
+
+  
+&lt;/div&gt;
+
+
+  &lt;/header&gt;
+
+  
+&lt;/a&gt;
+
+
+&lt;/div&gt;
+
+&lt;h2 id=&quot;new-features&quot;&gt;New Features&lt;/h2&gt;
+
+&lt;p&gt;It wouldn’t be a new OS release without exciting new features to improve your experience, and OS 6 delivers on that front.&lt;/p&gt;
+
+&lt;h3 id=&quot;multi-touch&quot;&gt;Multi-touch&lt;/h3&gt;
+
+&lt;p&gt;One of the most pervasive new features for touch screen and touchpad users is the new multi-touch support throughout elementary OS 6. A three-finger swipe up smoothly opens the Multitasking View, exposing open apps and workspaces. A three-finger swipe left or right smoothly switches between the dynamic workspaces, making it even faster to jump between tasks.&lt;/p&gt;
+
+&lt;figure class=&quot;half card&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/multitouch-gestures-in-elementary-os-6/multitasking.gif&quot; alt=&quot;Multitasking View&quot; /&gt;
+&lt;img src=&quot;/images/multitouch-gestures-in-elementary-os-6/workspaces.gif&quot; alt=&quot;Switching workspaces&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;1:1 multi-touch gestures used for Multitasking View and switching workspaces&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;But it’s not just the desktop that has multi-touch support; we’ve worked to bring smooth and intuitive two-finger multi-touch gestures into apps as well. Swipe through paged layouts like screenshots in AppCenter, months in the Date &amp;amp; Time indicator, or steps in the Initial Setup and Welcome screens. Swipe to dismiss notification bubbles on screen or in the Notification Center. Swipe to go back in Web, System Settings, and several other apps. And smoothly swipe between users on the login/lock screen greeter.&lt;/p&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/multitouch-gestures-in-elementary-os-6/appcenter.gif&quot; alt=&quot;AppCenter Screenshots&quot; /&gt;
+&lt;img src=&quot;/images/multitouch-gestures-in-elementary-os-6/notification-center.gif&quot; alt=&quot;Notification Center&quot; width=&quot;399&quot; height=&quot;672&quot; /&gt;
+&lt;img src=&quot;/images/multitouch-gestures-in-elementary-os-6/keyboard-layouts.gif&quot; alt=&quot;Keyboard Layouts&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;&lt;strong&gt;Left:&lt;/strong&gt; Swipe to switch pages | &lt;strong&gt;Center:&lt;/strong&gt; Swipe to dismiss | &lt;strong&gt;Right:&lt;/strong&gt; Swipe to go back&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;These new multi-touch gestures make elementary OS 6 faster and smoother to navigate on a touch screen or touchpad—all while ensuring each interaction is just as easy with a traditional mouse and keyboard as before. Multi-touch gestures can be customized from &lt;em&gt;System Settings&lt;/em&gt; → &lt;em&gt;Mouse &amp;amp; Touchpad&lt;/em&gt; → &lt;em&gt;Gestures&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;notifications&quot;&gt;Notifications&lt;/h3&gt;
+
+&lt;p&gt;elementary OS has always provided desktop notifications, but OS 6 brings a redesign and under-the-hood rewrite with richer, more capable notifications than ever.&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/elementary-os-6-odin-beta-2/notification-badge.png&quot; alt=&quot;Notification with an icon badge&quot; width=&quot;362&quot; height=&quot;90&quot; /&gt;
+&lt;img src=&quot;/images/elementary-os-6-odin-beta-2/notification-button.png&quot; alt=&quot;Notification with action buttons&quot; width=&quot;362&quot; height=&quot;129&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;New notification bubbles&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Notification bubbles now feature badge capability, enabling apps to send richer information like a visual status indicator while ensuring you always know which app a notification is coming from. Apps can also now send actions along with notifications, which are displayed as buttons right within the notification bubble—it’s easier than ever to not only be informed by apps, but to take quick actions without ever needing to open the app.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;picture&gt;
+    &lt;source srcset=&quot;/images/elementary-os-6-odin-released/notification-dark.png&quot; media=&quot;(prefers-color-scheme: dark)&quot; /&gt;
+    &lt;img alt=&quot;Urgent notification bubble&quot; src=&quot;/images/elementary-os-6-odin-released/notification-light.png&quot; width=&quot;362&quot; height=&quot;90&quot; /&gt;
+  &lt;/picture&gt;
+&lt;figcaption&gt;Urgent notification bubble&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Since notifications are now using native GTK widgets just like native apps, they follow the dark style preference and emoji are displayed in full color. Urgent notifications sport a new look and a distinct sound to make them easier to identify. Lastly, notification bubbles also now support multi-touch swipe-to-dismiss on both touch screens and touchpads.&lt;/p&gt;
+
+&lt;figure class=&quot;card&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/elementary-os-6-odin-released/notification-center.png&quot; alt=&quot;Notification Center&quot; width=&quot;750&quot; height=&quot;497&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;Redesigned Notification Center&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Notification Center has also been redesigned; notifications here now match the look of notification bubbles including full-color emoji and badges. They’re also more clearly grouped by app and support multi-touch swipe-to-dismiss.&lt;/p&gt;
+
+&lt;h3 id=&quot;tasks&quot;&gt;Tasks&lt;/h3&gt;
+
+&lt;p&gt;The brand new Tasks app debuts in elementary OS 6, helping you tackle your to-do list whether it’s stored on your device or synchronized with an online account.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/elementary-os-6-odin-released/tasks.png&quot; alt=&quot;Tasks&quot; width=&quot;1015&quot; height=&quot;769&quot; /&gt;&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Tasks is designed around the open CalDav format, ensuring it’s compatible with most online account providers. It supports synchronizing with multiple accounts and lists, time-based reminders, location-based reminders, and more.&lt;/p&gt;
+
+&lt;h3 id=&quot;firmware-updates&quot;&gt;Firmware Updates&lt;/h3&gt;
+
+&lt;p&gt;elementary OS 6 comes with firmware updates built in, powered by the &lt;a href=&quot;https://fwupd.org&quot;&gt;Linux Vendor Firmware Service&lt;/a&gt;. Firmware updates are provided for supported devices by hardware manufacturers like Star Labs, Dell, Lenovo, HP, Intel, Logitech, Wacom, 8bitdo, and many more—now supported devices can get the latest updates for security and stability straight from &lt;em&gt;System Settings&lt;/em&gt; → &lt;em&gt;System&lt;/em&gt; → &lt;em&gt;Firmware&lt;/em&gt; or by searching the Applications Menu for “Firmware.”&lt;/p&gt;
+
+&lt;figure class=&quot;constrained&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/elementary-os-6-odin-released/firmware.png&quot; alt=&quot;Firmware settings&quot; width=&quot;892&quot; height=&quot;659&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;Firmware updates built into System Settings&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;app-updates&quot;&gt;App Updates&lt;/h3&gt;
+
+&lt;p&gt;Several apps in elementary OS 6 sport brand new features, making OS 6 more capable than ever before.&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/elementary-os-6-odin-released/web.png&quot; alt=&quot;Web in a light style&quot; /&gt;
+&lt;img src=&quot;/images/elementary-os-6-odin-released/web-dark.png&quot; alt=&quot;Web in a dark style&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;Web in both light and dark styles&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The web browser in elementary OS 6 has been updated and renamed. Formerly known as Epiphany, Web is now distributed as a Flatpak to enable even faster updates to support the latest web technologies. Web also features Intelligent Tracking Protection and ad blocking built-in and enabled by default for even greater privacy protections out of the box. The new reader mode brings a stripped down and easier to read view for content-heavy pages. Web follows the new dark style preference both with its own interface and for websites that support the standardized CSS color scheme preference. And as previously mentioned, Web now supports multi-touch swipes for navigating back and forth between pages for touch and touchpad users.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/elementary-os-6-odin-released/mail.png&quot; alt=&quot;Mail&quot; width=&quot;1352&quot; height=&quot;777&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;Mail&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Mail has been completely rewritten in OS 6. With the rewrite comes tighter Online Accounts integration powered by the open source Evolution Data Server. To start, the new system-wide Online Accounts settings supports the IMAP standard for mail accounts, but we now have the foundation to add more types of accounts over time. The rewrite also brings web process sandboxing so each email is displayed in its own sandbox—improving safety and security. The new Mail is using native widgets instead of custom drawing in places like the message list and conversation view, greatly improving support for right-to-left languages and platform-wide accessibility features.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/elementary-os-6-odin-released/calendar.png&quot; alt=&quot;Calendar&quot; width=&quot;1039&quot; height=&quot;765&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;Calendar&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Calendar also supports the Online Accounts integration via the CalDav standard; add any CalDav-compliant account in System Settings, and its events and tasks will show up in the Calendar and Tasks apps. We’ve also added ICS import, improved offline support, and fixed a number of issues around all-day events and timezones.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/elementary-os-6-odin-released/camera.png&quot; alt=&quot;Camera&quot; width=&quot;704&quot; height=&quot;544&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;Camera&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We’ve revamped Camera in OS 6 with a fresh UI and several new features. Camera now supports switching between multiple cameras, toggling mirroring of the image, and brightness and contrast adjustment. When a recording is finished, Camera now sends an in-app notification with a button to open the video—perfect for making sure it looks how you want.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/elementary-os-6-odin-released/appcenter.png&quot; alt=&quot;AppCenter&quot; width=&quot;1081&quot; height=&quot;669&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;AppCenter&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;With elementary OS 6 being all-in on Flatpaks, AppCenter has been updated to match. While we’ve always reviewed, approved, and curated third-party AppCenter apps, they’re now also distributed as sandboxed Flatpaks for even stronger privacy and security. When an app is installed from a list, AppCenter now shows an in-app notification when it’s complete so it’s even faster to open. We’ve improved the design of app headers, including the contrast of buttons. And AppCenter notifications now provide richer context with improved language and contextual badges for installed apps and updates.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/elementary-os-6-odin-released/files.png&quot; alt=&quot;Files&quot; width=&quot;924&quot; height=&quot;608&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;Files&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;After a lot of user feedback, testing, and iterating, we’re shipping a subtle but important behavioral change to Files in elementary OS 6: as always, a single click navigates between folders, but opening a file in its default app now uses a double click. This change balances the efficiency of single-click navigation (matching the rest of the OS and the web) while addressing the real issue of accidentally opening multiple copies of a file or opening a large file in a slower-loading app. Files also has an all-new sidebar in OS 6 that makes it easier to drag to bookmark folders while sporting slick animations. We’ve also improved the list view with a smaller minimum size and added file emblems for communicating statuses like permissions or new files in a Git project, added Mint and Bubblegum colors for files tags, improved click targets for files, and improved support for devices using AFP, AFC, and MTP protocols. And Files now provides the File Chooser interface for Flatpak apps for more consistency.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;picture&gt;
+    &lt;source srcset=&quot;/images/elementary-os-6-odin-released/code-dark.png&quot; media=&quot;(prefers-color-scheme: dark)&quot; /&gt;
+    &lt;img alt=&quot;Code&quot; src=&quot;/images/elementary-os-6-odin-released/code.png&quot; width=&quot;1174&quot; height=&quot;703&quot; /&gt;
+  &lt;/picture&gt;
+&lt;figcaption&gt;Code&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;For developers, we’ve continued to improve Code in OS 6. You’ll notice a new project button in the header bar which shows the active Git project and enables quickly switching between open projects. Closing a project also now closes any of its open files. We’ve continued to iterate on Git integration by introducing the ability to switch and create branches, and by adding new line-by-line Git status in the gutter. Markdown support has been improved with new WYSIWYG-like editor shortcuts and spell check support. We’ve implemented an all-new full text search within folders and entire projects with togglable case sensitivity and regular expression support. For Vim-mode users, you’ll notice both new and improved Vim commands as well as Code defaulting to command mode when enabled. We’ve also improved how Code saves and restores its state in OS 6, now including cursor position and the state of the sidebar when closing and re-opening the app.&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+  &lt;picture&gt;
+    &lt;source srcset=&quot;/images/elementary-os-6-odin-released/terminal.png&quot; media=&quot;(prefers-color-scheme: dark)&quot; /&gt;
+    &lt;img alt=&quot;Terminal&quot; src=&quot;/images/elementary-os-6-odin-released/terminal-light.png&quot; width=&quot;788&quot; height=&quot;555&quot; /&gt;
+  &lt;/picture&gt;
+  &lt;picture&gt;
+    &lt;source srcset=&quot;/images/elementary-os-6-odin-released/terminal-paste-protection.png&quot; media=&quot;(prefers-color-scheme: dark)&quot; /&gt;
+    &lt;img alt=&quot;paste protection dialog&quot; src=&quot;/images/elementary-os-6-odin-released/terminal-paste-protection-light.png&quot; width=&quot;545&quot; height=&quot;329&quot; /&gt;
+  &lt;/picture&gt;
+&lt;figcaption&gt;Terminal&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;While users of elementary OS never &lt;em&gt;need&lt;/em&gt; Terminal to complete basic tasks, it’s a fan favorite of developers and seasoned Linux users—and it’s better than ever in OS 6. A flagship feature of the elementary Terminal is smart paste protection; in OS 6 this has been expanded to include multi-line pastes in addition to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo&lt;/code&gt; pastes. We’ve also revised the paste protection copy for clarity and added expandable details including the command that would be executed. Zoom levels are now handled and remembered per-tab. You can now reload a tab from its context menu or with &lt;kbd&gt;Shift&lt;/kbd&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt;&lt;kbd&gt;R&lt;/kbd&gt;. We’ve also added keyboard shortcuts for moving tabs (&lt;kbd&gt;Ctrl&lt;/kbd&gt;&lt;kbd&gt;Alt&lt;/kbd&gt;&lt;kbd&gt;←&lt;/kbd&gt;/&lt;kbd&gt;→&lt;/kbd&gt;) and switching between tabs (&lt;kbd&gt;Ctrl&lt;/kbd&gt;&lt;kbd&gt;Tab&lt;/kbd&gt;). And now in OS 6, all Terminal actions that have keyboard shortcuts show their shortcuts right in the context menu so they’re easier to learn and remember. Lastly, process completion notifications now include a badge and copy to indicate whether the process exited with errors or not.&lt;/p&gt;
+
+&lt;p&gt;We’ve improved each of these apps and more in OS 6 like Music, Videos, Photos, and Calculator with bug fixes, improved performance, and updated localization.&lt;/p&gt;
+
+&lt;h3 id=&quot;panel&quot;&gt;Panel&lt;/h3&gt;
+
+&lt;p&gt;In elementary OS 5.1 we added a tooltip to the Applications Menu to provide more information including keyboard shortcuts—making a core OS feature of launching apps more discoverable. In talking to several users, we learned that many didn’t realize most indicators had a middle-click shortcut to quickly toggle its main control. So with OS 6, we’ve expanded this convention to the majority of indicators on the Panel on hover.&lt;/p&gt;
+
+&lt;figure class=&quot;card&quot;&gt;
+  &lt;picture&gt;
+    &lt;source srcset=&quot;/images/elementary-os-6-odin-released/panel-tooltip-dark.png&quot; media=&quot;(prefers-color-scheme: dark)&quot; /&gt;
+    &lt;img alt=&quot;Tooltip for the Sound indicator&quot; src=&quot;/images/elementary-os-6-odin-released/panel-tooltip.png&quot; width=&quot;400&quot; height=&quot;225&quot; /&gt;
+  &lt;/picture&gt;
+&lt;figcaption&gt;Tooltip for the Sound indicator&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Now, when hovering: the Night Light indicator shows the status and middle-click to snooze shortcut; the Sound indicator shows the precise volume and middle-click to mute shortcut; the Network indicator shows the current wireless network name; the Bluetooth indicator shows the on/off state and middle-click to toggle shortcut; the Power indicator exposes the precise battery percent and time until charged or empty, plus the middle-click to toggle shortcut; the Notifications indicator shows exactly how many notifications there are as well as the middle-click for Do Not Disturb shortcut; and the Session indicator details the current user’s name and the middle-click to prompt to shut down shortcut.&lt;/p&gt;
+
+&lt;figure class=&quot;card&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/elementary-os-6-odin-released/sound-indicator.png&quot; alt=&quot;Sound indicator&quot; width=&quot;750&quot; height=&quot;473&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;Sound indicator&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We’ve expanded the functionality of the Sound indicator in OS 6, as well: the indicator now shows both input and output devices right in the popover, making changing between headphones and speakers or different mics easier on the go, without having to open the full sound settings.&lt;/p&gt;
+
+&lt;figure class=&quot;card&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/elementary-os-6-odin-released/power-indicator.png&quot; alt=&quot;Power indicator&quot; width=&quot;750&quot; height=&quot;300&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;Power indicator&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We’ve improved the Power indicator in OS 6 with better support for desktop devices plus a handy new feature: selecting a device in the popover now opens a Power Statistics interface with more information like the design energy and total capacity of the device’s battery.&lt;/p&gt;
+
+&lt;p&gt;All together, these changes mean the system indicators in elementary OS 6 are more powerful and make handy, time-saving shortcuts far more discoverable than before.&lt;/p&gt;
+
+&lt;h3 id=&quot;desktop-features&quot;&gt;Desktop Features&lt;/h3&gt;
+
+&lt;p&gt;We’ve added new features to the desktop and window management of elementary OS 6 to speed up your workflow.&lt;/p&gt;
+
+&lt;figure class=&quot;card third&quot;&gt;
+  &lt;picture&gt;
+    &lt;img alt=&quot;window titles&quot; src=&quot;/images/elementary-os-6-odin-released/window-titles.png&quot; width=&quot;1128&quot; height=&quot;752&quot; /&gt;
+  &lt;/picture&gt;
+
+  &lt;picture&gt;
+    &lt;source srcset=&quot;/images/elementary-os-6-odin-released/window-context-dark.png&quot; media=&quot;(prefers-color-scheme: dark)&quot; /&gt;
+    &lt;img alt=&quot;window context menu&quot; src=&quot;/images/elementary-os-6-odin-released/window-context.png&quot; width=&quot;404&quot; height=&quot;422&quot; /&gt;
+  &lt;/picture&gt;
+
+  &lt;picture&gt;
+    &lt;source srcset=&quot;/images/elementary-os-6-odin-released/desktop-menu-dark.png&quot; media=&quot;(prefers-color-scheme: dark)&quot; /&gt;
+    &lt;img alt=&quot;[desktop menu&quot; src=&quot;/images/elementary-os-6-odin-released/desktop-menu.png&quot; width=&quot;250&quot; height=&quot;150&quot; /&gt;
+  &lt;/picture&gt;
+
+&lt;figcaption&gt;
+    &lt;p&gt;&lt;strong&gt;Left:&lt;/strong&gt; Window title | &lt;strong&gt;Center:&lt;/strong&gt; Window menu | &lt;strong&gt;Right:&lt;/strong&gt; Desktop menu&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;elementary OS 6 features window titles when hovering windows in the Multitasking View so you can more easily find the right window from several visually-similar ones. We’ve improved the window context menu when secondary-clicking a window’s header bar with a new layout, improved copy, and a new feature: Take Screenshot. This makes it easier to take screenshots of specific windows, plus helps expose the keyboard shortcut to make it even faster in the future. And lastly, we’ve added a new context menu to the desktop itself: secondary-clicking your desktop wallpaper now exposes quick shortcuts to change the wallpaper, configure display settings, or jump into System Settings.&lt;/p&gt;
+
+&lt;figure class=&quot;constrained&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/elementary-os-6-odin-released/multitasking.png&quot; alt=&quot;Desktop Multitasking settings&quot; width=&quot;856&quot; height=&quot;659&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;Multitasking settings&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;elementary OS 6 has expanded multitasking settings in &lt;em&gt;System Settings&lt;/em&gt; → &lt;em&gt;Desktop&lt;/em&gt; → &lt;em&gt;Multitasking&lt;/em&gt;. We’ve combined the previous hot corners view with new new controls for when to move windows to a new workspace, including options for toggling the behavior for both fullscreen and maximize.&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/elementary-os-6-odin-released/screenshot.png&quot; alt=&quot;Screenshot utility&quot; width=&quot;330&quot; height=&quot;346&quot; /&gt;
+&lt;img src=&quot;/images/elementary-os-6-odin-released/screenshot-save.png&quot; alt=&quot;Screenshot utility save dialog&quot; width=&quot;367&quot; height=&quot;460&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;Screenshot utility&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The Screenshot utility is easier to move around with the ability to drag from anywhere in the window. You can also drag the preview image from the Save dialog straight into another app, like an image editor, to skip hitting the Copy to Clipboard or Save buttons.&lt;/p&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/elementary-os-6-odin-released/sideload.png&quot; alt=&quot;Sideload&quot; width=&quot;541&quot; height=&quot;296&quot; /&gt;
+&lt;img src=&quot;/images/elementary-os-6-odin-released/sideload-progress.png&quot; alt=&quot;Sideload progress&quot; width=&quot;541&quot; height=&quot;205&quot; /&gt;
+&lt;img src=&quot;/images/elementary-os-6-odin-released/sideload-success.png&quot; alt=&quot;Sideload success&quot; width=&quot;541&quot; height=&quot;243&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;Sideload&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Installing third-party apps from outside of AppCenter in elementary OS is as easy as downloading a Flatpak and clicking it; the Sideload utility takes over to present relevant information and get the app installed. In OS 6, Sideload now supports Flatpak bundles, expanding the types of apps that can be installed. Sideload also now links to the new &lt;em&gt;System Settings&lt;/em&gt; → &lt;em&gt;Applications&lt;/em&gt; → &lt;em&gt;Permissions&lt;/em&gt; page so you can tweak anything if you’d like after installation. And lastly, Sideload helpfully offers to trash the downloaded installer file once the app is installed to help keep your Downloads folder tidy.&lt;/p&gt;
+
+&lt;h2 id=&quot;easier-to-get--more-inclusive&quot;&gt;Easier to Get &amp;amp; More Inclusive&lt;/h2&gt;
+
+&lt;p&gt;We’re always expanding the elementary OS platform and ecosystem making it more useful, desirable, get-able, and keep-able—an approach coined by former Canonical designer &lt;a href=&quot;https://twitter.com/mpt&quot;&gt;Matthew Paul Thomas&lt;/a&gt; all the way &lt;a href=&quot;https://www.youtube.com/watch?v=GT5fUcMUfYg&quot;&gt;back in 2010&lt;/a&gt; and covered in our &lt;a href=&quot;/appcenter-the-future-of-the-universe&quot;&gt;AppCenter &amp;amp; the Future of the Universe&lt;/a&gt; post.&lt;/p&gt;
+
+&lt;p&gt;elementary OS 6 makes great strides on the “get-able” front; first &lt;a href=&quot;/meet-the-upcoming-installer&quot;&gt;teased in 2018&lt;/a&gt;, the new installer front-end designed and developed by elementary debuts in OS 6. The new installer has been designed to be simpler, more straightforward, and much faster than the previous Ubiquity installer developed by Canonical for Ubuntu.&lt;/p&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/elementary-os-6-odin-released/initial-setup-language.png&quot; alt=&quot;Initial Setup Language page&quot; /&gt;
+&lt;img src=&quot;/images/elementary-os-6-odin-released/initial-setup-keyboard.png&quot; alt=&quot;Initial Setup Keyboard page&quot; /&gt;
+&lt;img src=&quot;/images/elementary-os-6-odin-released/installer-try-install.png&quot; alt=&quot;Installer Try or Install page&quot; /&gt;
+&lt;img src=&quot;/images/elementary-os-6-odin-released/installer-drives.png&quot; alt=&quot;Installer Drives page&quot; /&gt;
+&lt;img src=&quot;/images/elementary-os-6-odin-released/installer-encrypt.png&quot; alt=&quot;Installer Encryption page&quot; /&gt;
+&lt;img src=&quot;/images/elementary-os-6-odin-released/installer-progress.png&quot; alt=&quot;Installer Progress page&quot; /&gt;
+&lt;img src=&quot;/images/elementary-os-6-odin-released/installer-success.png&quot; alt=&quot;Installer Success page&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;Installer&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;A key consideration of the new installer is that “every install is an OEM install.” The installer’s job is solely to get the OS onto a device and little more; after installing, you’re prompted to either shut down (e.g. to hand the device off to another person) or restart into the new OS. Either way, user account creation is handled in the installed OS by our new Initial Setup utility, then you log straight in to start using your account.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/elementary-os-6-odin-released/initial-setup-user.png&quot; alt=&quot;Initial Setup User page&quot; width=&quot;916&quot; height=&quot;666&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;Initial Setup&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;This means we don’t handle network connectivity, user accounts, or updates in the installer itself, greatly streamlining and speeding up the process. It also means small OEMs or organizations that hand-install the OS on devices (rather than using an imaging server, for example) can do so quickly and easily, shutting the device down once it’s installed and shipping it off straight to a user. It also means OEMs or organizations that &lt;em&gt;do&lt;/em&gt; use an image-based approach can configure a custom install of elementary OS (e.g. by installing any additional hardware drivers), delete the OEM account, and make an image of that; once booted on hardware, Initial Setup will run for a new user just like on a standard fresh install.&lt;/p&gt;
+
+&lt;p&gt;With elementary OS shipping on &lt;a href=&quot;https://store.elementary.io&quot;&gt;several hardware devices from multiple retailers&lt;/a&gt;, we’ve also continued investing in &lt;a href=&quot;/hardware-improvements-coming-to-elementary-os&quot;&gt;hardware improvements&lt;/a&gt;. OS 6 features a new streamlined startup prominently displaying the device manufacturer’s logo along with minimal elements like a loading spinner or password entry for encrypted drives. Startup is intentionally non-elementary-branded as it feels much more seamless—and we don’t need to constantly advertise your operating system to you.&lt;/p&gt;
+
+&lt;figure class=&quot;half card&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/hardware-improvements-coming-to-elementary-os/boot-loading.jpg&quot; alt=&quot;Boot Screen: loading spinner&quot; /&gt;
+&lt;img src=&quot;/images/hardware-improvements-coming-to-elementary-os/boot-password.jpg&quot; alt=&quot;Boot Screen: unlocking an encrypted drive&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;elementary OS 6 startup on a &lt;a href=&quot;https://starlabs.systems/?rfsn=4227837.e8f025&quot;&gt;Star Labs&lt;/a&gt; device&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;elementary OS 6 also includes improved performance across the desktop and apps thanks in part to our work on experimental Pinebook Pro and Raspberry Pi builds. With OS 6, we’ve improved process communication between desktop components and reduced disk reads and writes, which is especially evident on lower-clocked processors and slower storage mediums like spinning hard drives and SD cards. These performance improvements benefit the entire range of devices on which elementary OS runs.&lt;/p&gt;
+
+&lt;h3 id=&quot;accessibility--inclusivity&quot;&gt;Accessibility &amp;amp; Inclusivity&lt;/h3&gt;
+
+&lt;p&gt;Another element of our approach to elementary OS is to ensure it’s as inclusive as possible—meaning it’s able to be used comfortably by anyone, including those with temporary, chronic, or permanent accessibility needs. As such, we’ve focused in on our &lt;a href=&quot;https://github.com/orgs/elementary/projects/35&quot;&gt;Accessibility Features are Just Features&lt;/a&gt; efforts in OS 6.&lt;/p&gt;
+
+&lt;figure class=&quot;card&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/elementary-os-6-odin-released/a11y-indicator.png&quot; alt=&quot;Universal Access indicator&quot; width=&quot;750&quot; height=&quot;343&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;Universal Access indicator&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;elementary OS 6 includes a new Universal Access indicator to expose toggles for features like the Screen Reader, Onscreen Keyboard, Dwell Click, etc. so they’re easy to turn on or off as needed. This new indicator can be manually turned on in System Settings, but also automatically shows on the login and lock screen greeter and in the installer to make elementary OS more accessible out of the box. Dwell Click and Locate Pointer both sport new accent-colored animations in OS 6 to make them more visible when in use. We’ve also improved usability throughout the OS with new features and better defaults—curb cuts, if you recall my blog post from a couple of years back:&lt;/p&gt;
+
+&lt;div style=&quot;margin: 3em auto;&quot;&gt;
+
+
+
+&lt;a class=&quot;featured with-image 1&quot; href=&quot;/accessibility-features-are-just-features/&quot;&gt;
+  
+    &lt;div class=&quot;featured-image&quot; alt=&quot;Featured image&quot; style=&quot;background-image: url(https://cdn-images-1.medium.com/max/1600/0*3Q6Snc6Qga_HsPK7);&quot;&gt;&lt;/div&gt;
+  
+
+  &lt;header&gt;
+    &lt;h2&gt;
+
+
+
+   Accessibility Features Are Just&amp;nbsp;Features
+
+&lt;/h2&gt;
+    
+      &lt;h3&gt;
+        
+
+
+
+   An OS-wide curb-cutting&amp;nbsp;effort
+
+
+        
+      &lt;/h3&gt;
+    
+
+    
+
+
+
+&lt;div class=&quot;byline&quot;&gt;
+  &lt;div class=&quot;avatar&quot;&gt;
+    &lt;img srcset=&quot;https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&amp;amp;d=blank 2x&quot; src=&quot;https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&amp;amp;d=blank&quot; alt=&quot;Avatar for Cassidy James Blaede&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;author&quot;&gt;
+    
+    &lt;span class=&quot;name&quot;&gt;Cassidy James Blaede&lt;/span&gt;
+    
+    
+      &lt;span class=&quot;description&quot;&gt;Co-founder &amp;amp; CXO&lt;/span&gt;
+    
+  &lt;/div&gt;
+  &lt;time class=&quot;post-date&quot; datetime=&quot;2019-02-16&quot;&gt;Sat, Feb 16, 2019&lt;/time&gt;
+  
+    &lt;span class=&quot;read-time&quot; title=&quot;Estimated read time&quot;&gt;
+  
+  4 min read
+&lt;/span&gt;
+
+
+  
+&lt;/div&gt;
+
+
+  &lt;/header&gt;
+
+  
+&lt;/a&gt;
+
+
+&lt;/div&gt;
+
+&lt;p&gt;The redesigned and rewritten system stylesheet ensures much higher contrast by default across the desktop and native apps—including those from developers on AppCenter; this can help people with vision needs, those with unconventional hardware setups like projectors or older, low-contrast displays, and even just anyone using their device in a bright environment like direct sunlight.&lt;/p&gt;
+
+&lt;p&gt;Expanded text size scaling and a new dyslexia-friendly text option can help those with specific vision or reading needs. In addition, the new system stylesheet now uses the text size to smartly scale the rest of the UI, making it a real option for handling display resolutions that don’t fit nicely into the integer scaling buckets—all while keeping the UI pixel-perfect and crisp.&lt;/p&gt;
+
+&lt;p&gt;The new dark style preference is a visual treat for those who prefer it, but it can also help those with light sensitivity and migraines be able to more comfortably use elementary OS. The new Slate accent color can reduce the effect of distracting colors for those with specific learning or attention needs. And by exposing keyboard shortcuts more consistently in context menus and tooltips throughout the entire desktop in OS 6, we’re helping newer users, keyboard warriors, and those with limited mobility learn how to accomplish their tasks without reaching for the mouse or touchpad.&lt;/p&gt;
+
+&lt;p&gt;Multi-touch gestures are a new slick way you can navigate the OS on a touchpad or touch screen, but also improve accessibility: previously keyboard-only features like desktop zoom are now able to be used solely on a touchpad or touch screen with a three- or four-finger pinch to zoom. For zoom specifically, we’ve also increased the maximum zoom level and added feedback when unable to zoom further in either direction.&lt;/p&gt;
+
+&lt;p&gt;We’ve also improved our iconography in elementary OS to improve accessibility and inclusivity. Consistently rounded shapes across arrows, media controls, and more are more friendly and inviting. Depictions of people in icons are now more generic and gender-neutral. And several color icons have been improved for contrast and visibility across a variety of backgrounds, especially when used with the new dark style.&lt;/p&gt;
+
+&lt;h2 id=&quot;and-more&quot;&gt;…and more&lt;/h2&gt;
+
+&lt;p&gt;elementary OS 6 debuts a brand new pair of wallpapers designed in partnership with the creative agency &lt;a href=&quot;https://freehive.com/&quot;&gt;Freehive&lt;/a&gt; and photographer &lt;a href=&quot;https://brendonporter.com/&quot;&gt;Brendon Porter&lt;/a&gt;, released under the &lt;a href=&quot;http://creativecommons.org/licenses/by-sa/4.0/&quot;&gt;Creative Commons BY-SA 4.0&lt;/a&gt; license.&lt;/p&gt;
+
+&lt;figure class=&quot;card half&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/elementary-os-6-odin-released/wallpaper.jpg&quot; alt=&quot;Odin Wallpaper&quot; width=&quot;1920&quot; height=&quot;1080&quot; /&gt;
+&lt;img src=&quot;/images/elementary-os-6-odin-released/wallpaper-dark.jpg&quot; alt=&quot;Odin Wallpaper (dark)&quot; width=&quot;1920&quot; height=&quot;1080&quot; /&gt;&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We’ve also refreshed our set with four new wallpapers that are higher-resolution, add variety, and expertly show off the new accent colors. The images inline here are downsized and compressed; you can grab the full-resolution images from elementary OS 6 or on &lt;a href=&quot;https://github.com/elementary/wallpapers&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;figure class=&quot;card quarter&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/elementary-os-6-odin-released/Tj Holowaychuk.jpg&quot; alt=&quot;Tj Holowaychuk wallpaper&quot; width=&quot;1920&quot; height=&quot;1080&quot; /&gt;
+&lt;img src=&quot;/images/elementary-os-6-odin-released/Viktor Forgacs.jpg&quot; alt=&quot;Viktor Forgacs wallpaper&quot; width=&quot;1920&quot; height=&quot;1080&quot; /&gt;
+&lt;img src=&quot;/images/elementary-os-6-odin-released/Snow-Capped Mountain.jpg&quot; alt=&quot;Snow-Capped Mountain wallpaper&quot; width=&quot;1920&quot; height=&quot;1080&quot; /&gt;
+&lt;img src=&quot;/images/elementary-os-6-odin-released/Martin Adams.jpg&quot; alt=&quot;Martin Adams wallpaper&quot; width=&quot;1920&quot; height=&quot;1080&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;New Wallpapers in elementary OS 6&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;You may have also noticed a brand new system typeface for elementary OS 6: &lt;a href=&quot;https://rsms.me/inter/&quot;&gt;Inter&lt;/a&gt; by &lt;a href=&quot;https://rsms.me/about/&quot;&gt;Rasmus Andersson&lt;/a&gt;. Inter is a new completely open source typeface carefully crafted &amp;amp; designed for computer screens; we’ve brought it to OS 6 and worked with Rasmus on refreshed typography in the form of adjusted sizes, weights, color, and rendering settings for improved legibility and contrast.&lt;/p&gt;
+
+&lt;figure class=&quot;card&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/elementary-os-6-odin-released/inter.png&quot; alt=&quot;Inter&quot; width=&quot;444&quot; height=&quot;380&quot; /&gt;&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;OS 6 comes with additional features, support for newer hardware, updated programming libraries, updated translations, improved System Settings panes, and more. For detailed release notes organized by version number of each individual component, you can always view our &lt;a href=&quot;https://releases.elementary.io&quot;&gt;public Releases site&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;get-elementary-os-6&quot;&gt;Get elementary OS 6&lt;/h2&gt;
+
+&lt;p&gt;elementary OS 6 Odin is available as a pay-what-you-can purchase at &lt;a href=&quot;https://elementary.io&quot;&gt;elementary.io&lt;/a&gt; today. Localized direct downloads and a torrent magnet link are provided.&lt;/p&gt;
+
+&lt;div style=&quot;margin: 3em auto; text-align: center&quot;&gt;
+  &lt;p&gt;&lt;a href=&quot;https://elementary.io&quot; class=&quot;button&quot;&gt;Download elementary OS 6&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;devices&quot;&gt;Devices&lt;/h3&gt;
+
+&lt;p&gt;We’ve been working with our &lt;a href=&quot;https://store.elementary.io/&quot;&gt;hardware retailers&lt;/a&gt; to ensure they’re able to offer elementary OS 6 out of the box as soon as possible. &lt;strong&gt;Devices from both &lt;a href=&quot;https://starlabs.systems/?rfsn=4227837.e8f025&quot;&gt;Star Labs&lt;/a&gt; and &lt;a href=&quot;https://laptopwithlinux.com/?ref=36&amp;amp;utm_source=referral&amp;amp;utm_medium=elementary&amp;amp;utm_campaign=elementary&quot;&gt;Laptop With Linux&lt;/a&gt; are shipping with OS 6 now&lt;/strong&gt;; visit retailers’ individual sites for more information.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;thank-you&quot;&gt;Thank You&lt;/h2&gt;
+
+&lt;p&gt;elementary OS is made in large part by volunteer contributors from around the world. For OS 6 specifically, we’d like to thank the following individuals for their substantial contributions.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/tintou&quot;&gt;Corentin Noël&lt;/a&gt; – OS patches, Files, Flatpak, Camera, and more&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/sponsors/davidmhewitt&quot;&gt;David Hewitt&lt;/a&gt; – OS build system, performance, Settings Daemon, AppCenter, Installer, and more&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/igordsm&quot;&gt;Igor Montagner&lt;/a&gt; – Camera and more&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/jeremypw&quot;&gt;Jeremy Wootten&lt;/a&gt; – Files, Code, Calculator, and more&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/sponsors/joseexposito&quot;&gt;José Expósito&lt;/a&gt; – Multi-touch, window management, Screenshot, and more&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/sponsors/marbetschar&quot;&gt;Marco Betschart&lt;/a&gt; – Online Accounts, Mail, Tasks&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/sponsors/meisenzahl&quot;&gt;Marius Meisenzahl&lt;/a&gt; – Flatpak permissions, scheduled dark style, firmware updates, accent color, and more&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/mcclurgm&quot;&gt;Michael McClurg&lt;/a&gt; – Calendar, especially with regards to time zones and unit tests&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/micahilbery&quot;&gt;Micah Ilbery&lt;/a&gt; – Icons and color palette&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ryonakano&quot;&gt;Ryo Nakano&lt;/a&gt; – Localization, Code Review&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/sponsors/bluesabre&quot;&gt;Sean Davis&lt;/a&gt; – Notifications, Sound indicator&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Many of these contributors are on GitHub Sponsors, meaning you can show your appreciation and fund their ongoing work by sponsoring them directly.&lt;/p&gt;
+
+&lt;p&gt;To all of our sponsors and customers: thank you! Your contributions fund our ongoing work and make it all possible. If you’d like to help build and improve elementary OS, don’t hesitate to &lt;a href=&quot;https://elementary.io/get-involved&quot; onclick=&quot;plausible('Link: Get Involved')&quot;&gt;Get Involved&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+          <pubDate>Tue, 10 Aug 2021 00:00:00 -0500</pubDate>
+          <link>https://blog.elementary.io/elementary-os-6-odin-released/</link>
+          <guid isPermaLink="true">https://blog.elementary.io/elementary-os-6-odin-released/</guid>
+          
+              
+              
+          <enclosure url="https://blog.elementary.io" />
+          
+          
+          <category>odin</category>
+          
+          <category>release</category>
+          
+          <category>flatpak</category>
+          
+          
+        </item>
       
     
       
