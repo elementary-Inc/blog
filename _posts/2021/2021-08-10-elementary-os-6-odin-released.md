@@ -440,7 +440,7 @@ elementary OS 6 Odin is available as a pay-what-you-can purchase at [elementary.
 
 ### Devices
 
-We've been working with our [hardware retailers](https://store.elementary.io/) to ensure they're able to offer elementary OS 6 out of the box as soon as possible. Visit their individual websites to inquire when OS 6 will be available.
+We've been working with our [hardware retailers](https://store.elementary.io/) to ensure they're able to offer elementary OS 6 out of the box as soon as possible. **Devices from both [Star Labs](https://starlabs.systems/?rfsn=4227837.e8f025) and [Laptop With Linux](https://laptopwithlinux.com/?ref=36&utm_source=referral&utm_medium=elementary&utm_campaign=elementary) are shipping with OS 6 now**; visit retailers' individual sites for more information.
 
 ---
 
