@@ -160,7 +160,7 @@ The brand new Tasks app debuts in elementary OS 6, helping you tackle your to-do
 ![Tasks](/images/{{ page.slug }}/tasks.png){: width="1015" height="769"}
 </figure>
 
-Tasks is designed around the open CalDav format, ensuring it's compatible with most online account providers. It supports synchronizing with multiple accounts and lists, time-based reminders, location-based reminders, and more.
+Tasks is designed around the open CalDAV format, ensuring it's compatible with most online account providers. It supports synchronizing with multiple accounts and lists, time-based reminders, location-based reminders, and more.
 
 ### Firmware Updates
 
