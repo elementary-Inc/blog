@@ -5,8 +5,8 @@
     <description>We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS</description>
     <link>https://blog.elementary.io/</link>
     <atom:link href="https://blog.elementary.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 10 Aug 2021 19:10:23 -0500</pubDate>
-    <lastBuildDate>Tue, 10 Aug 2021 19:10:23 -0500</lastBuildDate>
+    <pubDate>Wed, 11 Aug 2021 18:04:29 -0500</pubDate>
+    <lastBuildDate>Wed, 11 Aug 2021 18:04:29 -0500</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       
@@ -285,7 +285,7 @@
   &lt;p&gt;&lt;img src=&quot;/images/elementary-os-6-odin-released/tasks.png&quot; alt=&quot;Tasks&quot; width=&quot;1015&quot; height=&quot;769&quot; /&gt;&lt;/p&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;Tasks is designed around the open CalDav format, ensuring it’s compatible with most online account providers. It supports synchronizing with multiple accounts and lists, time-based reminders, location-based reminders, and more.&lt;/p&gt;
+&lt;p&gt;Tasks is designed around the open CalDAV format, ensuring it’s compatible with most online account providers. It supports synchronizing with multiple accounts and lists, time-based reminders, location-based reminders, and more.&lt;/p&gt;
 
 &lt;h3 id=&quot;firmware-updates&quot;&gt;Firmware Updates&lt;/h3&gt;
 
