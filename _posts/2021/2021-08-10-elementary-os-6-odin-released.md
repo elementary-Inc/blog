@@ -199,7 +199,7 @@ Mail has been completely rewritten in OS 6. With the rewrite comes tighter Onlin
 <figcaption>Calendar</figcaption>
 </figure>
 
-Calendar also supports the Online Accounts integration via the CalDav standard; add any CalDav-compliant account in System Settings, and its events and tasks will show up in the Calendar and Tasks apps. We've also added ICS import, improved offline support, and fixed a number of issues around all-day events and timezones.
+Calendar also supports the Online Accounts integration via the CalDAV standard; add any CalDAV-compliant account in System Settings, and its events and tasks will show up in the Calendar and Tasks apps. We've also added ICS import, improved offline support, and fixed a number of issues around all-day events and timezones.
 
 <figure markdown="1">
 ![Camera](/images/{{ page.slug }}/camera.png){: width="704" height="544"}
