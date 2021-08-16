@@ -5,8 +5,8 @@
     <description>We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS</description>
     <link>https://blog.elementary.io/</link>
     <atom:link href="https://blog.elementary.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 16 Aug 2021 18:30:00 -0500</pubDate>
-    <lastBuildDate>Mon, 16 Aug 2021 18:30:00 -0500</lastBuildDate>
+    <pubDate>Mon, 16 Aug 2021 18:31:06 -0500</pubDate>
+    <lastBuildDate>Mon, 16 Aug 2021 18:31:06 -0500</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       
@@ -614,7 +614,7 @@
 &lt;p&gt;elementary OS 6 Odin is available as a pay-what-you-can purchase at &lt;a href=&quot;https://elementary.io&quot;&gt;elementary.io&lt;/a&gt; today. Localized direct downloads and a torrent magnet link are provided.&lt;/p&gt;
 
 &lt;div style=&quot;margin: 3em auto; text-align: center&quot;&gt;
-  &lt;p&gt;&lt;a href=&quot;https://github.com/elementary/os/wiki/elementary-OS-6-Odin-FAQ&quot; class=&quot;button&quot;&gt;FAQ&lt;/a&gt;
+  &lt;p&gt;&lt;a href=&quot;https://github.com/elementary/os/wiki/elementary-OS-6-Odin-FAQ&quot; class=&quot;button flat&quot;&gt;FAQ&lt;/a&gt;
 &lt;a href=&quot;https://elementary.io&quot; class=&quot;button suggested&quot;&gt;Download elementary OS 6&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 
