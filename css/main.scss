@@ -121,6 +121,10 @@ nav.pagination {
       0 3px 3px rgba(0, 0, 0, 0.22);
     color: var(--bg-color);
   }
+
+  &.flat {
+    border: none;
+  }
 }
 
 pre {

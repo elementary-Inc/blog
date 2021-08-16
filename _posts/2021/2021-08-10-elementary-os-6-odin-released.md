@@ -433,8 +433,8 @@ elementary OS 6 Odin is available as a pay-what-you-can purchase at [elementary.
 {% endif %}
 
 <div style="margin: 3em auto; text-align: center" markdown="1">
-[FAQ]{: .button}
-[Download elementary OS 6][elementary.io]{: .button.suggested}
+[FAQ]{: .button.flat }
+[Download elementary OS 6][elementary.io]{: .button.suggested }
 </div>
 
 We're also keeping a [list of frequently-asked questions][faq] updated as we hear from customers and fans; if you have a question or issue, check there first!
