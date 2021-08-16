@@ -258,7 +258,7 @@ In elementary OS 5.1 we added a tooltip to the Applications Menu to provide more
     <img alt="Tooltip for the Sound indicator" src="/images/{{ page.slug }}/panel-tooltip.png" width="400" height="225" />
   </picture>
 <figcaption>Tooltip for the Sound indicator</figcaption>
-</figure> 
+</figure>
 
 Now, when hovering: the Night Light indicator shows the status and middle-click to snooze shortcut; the Sound indicator shows the precise volume and middle-click to mute shortcut; the Network indicator shows the current wireless network name; the Bluetooth indicator shows the on/off state and middle-click to toggle shortcut; the Power indicator exposes the precise battery percent and time until charged or empty, plus the middle-click to toggle shortcut; the Notifications indicator shows exactly how many notifications there are as well as the middle-click for Do Not Disturb shortcut; and the Session indicator details the current user's name and the middle-click to prompt to shut down shortcut.
 
@@ -433,8 +433,11 @@ elementary OS 6 Odin is available as a pay-what-you-can purchase at [elementary.
 {% endif %}
 
 <div style="margin: 3em auto; text-align: center" markdown="1">
-[Download elementary OS 6][elementary.io]{: .button}
+[FAQ]{: .button}
+[Download elementary OS 6][elementary.io]{: .button.suggested}
 </div>
+
+We're also keeping a [list of frequently-asked questions][faq] updated as we hear from customers and fans; if you have a question or issue, check there first!
 
 ### Devices
 
@@ -463,4 +466,5 @@ Many of these contributors are on GitHub Sponsors, meaning you can show your app
 To all of our sponsors and customers: thank you! Your contributions fund our ongoing work and make it all possible. If you’d like to help build and improve elementary OS, don’t hesitate to <a href="https://elementary.io/get-involved" onclick="plausible('Link: Get Involved')">Get Involved</a>.
 
 [elementary.io]: https://elementary.io
+[faq]: https://github.com/elementary/os/wiki/elementary-OS-6-Odin-FAQ
 [hardware retailers]: https://store.elementary.io/
