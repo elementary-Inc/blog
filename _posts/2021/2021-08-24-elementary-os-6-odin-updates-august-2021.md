@@ -8,7 +8,12 @@ tags:
   - updates
 ---
 
-- AppCenter Flatpak status update
+- AppCenter Flatpak status update https://appcenter.elementary.io/
 - Shim/Dell EFI fix
+- No more visible grub on regular boot
+- grub is updated correctly when needed
 - Installer hostname fix
-
+- AppCenter
+  - Ensure user installation is selected by default when navigating from the homepage
+  - Fix opening apps from app installed toasts
+- Gala Include window decorations in screenshots for server-side decorated windows
