@@ -19,3 +19,6 @@ tags:
 - Gala Include window decorations in screenshots for server-side decorated windows
 - Display settings: fixed "Use this display" switch
 - Latest 20.04.3 repos
+- Power indicator
+  - Match touchpad scroll direction with Sound indicator
+  - Show volume on scroll
