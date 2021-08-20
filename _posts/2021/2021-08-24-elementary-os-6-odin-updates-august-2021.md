@@ -17,3 +17,5 @@ tags:
   - Ensure user installation is selected by default when navigating from the homepage
   - Fix opening apps from app installed toasts
 - Gala Include window decorations in screenshots for server-side decorated windows
+- Display settings: fixed "Use this display" switch
+- Latest 20.04.3 repos
