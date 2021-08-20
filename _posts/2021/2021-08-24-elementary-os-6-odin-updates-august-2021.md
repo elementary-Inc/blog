@@ -22,3 +22,4 @@ tags:
 - Power indicator
   - Match touchpad scroll direction with Sound indicator
   - Show volume on scroll
+- Power settings: added toggle to show percent in Panel
