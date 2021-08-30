@@ -18,11 +18,13 @@ If you're not running elementary OS but still want to get these AppCenter apps, 
 
 We've also been putting a lot of work into the first run experience, especially with regards to sideloaded apps from third-party stores like Flathub. Apps from freshly sideloaded remotes should now show in AppCenter without needing to restart your computer first. We've added a reminder about Sideload when searching returns no results with the same language that is used in the Welcome app. We now ensure that apps predictably default to installing per-user when selected from the home page. Also, both AppCenter and Sideload can now use system-wide installed app runtimes for per-user app installs, which means the first time you install a new app should be a faster, smaller download.
 
-We've also addressed an issue with apps not opening from in-app notifications, there is a less abrupt transition when choosing which source to download an app from, and AppCenter will now pull in Linux kernel headers when installing device drivers that use DKMS. Plus, we've reworked the way the applications menu watches for changes in installed apps, so it should be more responsive about showing freshly installed apps.
+We've also addressed an issue with apps not opening from in-app notifications, there is a less abrupt transition when choosing which source to download an app from, and we've reworked the way the applications menu watches for changes in installed apps, so it should be more responsive about showing freshly installed apps.
 
 # Online Accounts, Tasks, Mail, and Calendar
 
 Our brand new Online Accounts system has seen a little love around IMAP accounts: we now do a better job of detecting the correct authentication method for accounts and you can edit existing accounts by selecting the pencil icon in its row.
+
+[Online Accounts Screenshot]
 
 The latest release of Calendar includes a fix for an issue with some all-day events displaying incorrectly, and we do a better job of getting calendar colors from online accounts.
 
@@ -63,7 +65,15 @@ Ensure a usable hostname
 Confirm and change device name
 Two-finger swipe to navigate back
 
-# Other Fixes
+# Hardware Compatibility
+
+Thanks to upstream developers working on Ubuntu, we're now shipping a fix for an issue that prevented some computers from being able to boot, including Dell devices with UEFI and some other models. If you weren't able to boot the initial release of OS 6, give it another shot! If you were able to get OS 6 installed, you're not affected by this issue and you don't need to re-install. This latest build inherits all the other great hardware compatibility improvements included in Ubuntu 20.04.3 release as well. Thanks Ubuntu!
+
+If you've had trouble with device drivers that rely on DKMS, AppCenter will now automatically pull in the required Linux kernel headers when installing them. We've also fixed an issue that was preventing our bootloader GRUB from correctly updating to use newer kernels, and you should see less of GRUB in general when starting your computer normally.
+
+If you're here looking for an update on builds for Pinebook Pro and Raspberry Pi, hang tight! We've recently had some code merged upstream to the Flatpak Builder Github action that will enabled us to start building Flatpak apps for ARM. We're hoping to start using this in production soon and produce new ARM images in early access. Watch this blog for more information.
+
+# Other Fixes & Updates
 
 Ensure accel_to_string works with multiple modifiers
 Fix locale issues in Flatpaks
@@ -76,14 +86,7 @@ Show battery percentage automatically at 20% or lower
 Match scroll direction with Sound indicator
 Show "Fully Charged" at 100% when plugged in
 
-- grub is updated correctly when needed
-- No more visible grub on regular boot
-- Shim/Dell EFI fix
-- Latest 20.04.3 repos
-
 If you're experiencing an issue that wasn't fixed in this round of updates or you have an idea for a new feature, we'd love to hear from you! You can send your feedback to the team using the Feedback app by searching for "Feedback" in the applications menu or by navigating to System Settings → System and selecting "Send Feedback" at the bottom of the window. Alternatively, you can file issue reports or start discussions [on GitHub](https://github.com/elementary). The team prioritizes our work based directly off of the feedback we receive through GitHub, so it's the best way to make sure your voice is heard.
-
-Also, mention ARM without being too committal
 
 # Get These Updates
 
