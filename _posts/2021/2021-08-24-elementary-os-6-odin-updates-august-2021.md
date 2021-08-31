@@ -44,7 +44,7 @@ If you're here looking for an update on builds for Pinebook Pro and Raspberry Pi
 
 A couple of nice fixes landed in the Installer and Initial Setup that make it easier to set the name of your device. We now double check at install time that the default generated hostname is valid and you can change it to something you like more during initial setup. A formatted name like "Cassidy's StarBook" will be shown when possible—like in System Settings—and will automatically fall back to something more machine friendly like "cassidys-starbook" in places like Terminal.
 
-We've also fixed a styling issue with "Unused" disk partitions in the custom install mode, added two-finger swipe to go back during Initial Setup, and we've changed the source of locale names to avoid some politically-charged naming of certain locales.
+We've also fixed a styling issue with "Unused" disk partitions in the custom install mode, added two-finger swipe to go back during Initial Setup, and changed the source of locale names to avoid some politically-charged naming of certain locales.
 
 # System Settings
 
