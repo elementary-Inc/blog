@@ -38,17 +38,17 @@ Thanks to upstream developers working on Ubuntu, we're now shipping a fix for an
 
 If you've had trouble with device drivers that rely on DKMS, AppCenter will now automatically pull in the required Linux kernel headers when installing them. We've also fixed an issue that was preventing our bootloader GRUB from correctly updating to use newer kernels, and you should see less of GRUB in general when starting your computer normally.
 
-If you're here looking for an update on builds for Pinebook Pro and Raspberry Pi, hang tight! We've recently had some code merged upstream to the Flatpak Builder Github action that will enabled us to start building Flatpak apps for ARM. We're hoping to start using this in production soon and produce new ARM images in early access. Watch this blog for more information.
+If you're here looking for an update on builds for Pinebook Pro and Raspberry Pi, hang tight! We've recently had some code merged upstream to the Flatpak Builder GitHub action that will enable us to start building Flatpak apps for ARM. We're hoping to start using this in production soon and produce new ARM images in Early Access. Watch this blog for more information.
 
 # Installer & Initial Setup
 
-A couple of nice fixes landed in the Installer and Initial Setup that make it easier to set the name of your device. We now double check at install time that the default generated hostname is valid and you can change it to something you like more during initial setup. A formatted name like "Cassidy's StarBook" will be shown when possible—like in System Settings—and will automatically fall back to something more machine friendly like "cassidys-starbook" in places like Terminal.
+A couple of nice fixes landed in the Installer and Initial Setup that make it easier to set the name of your device. We now double check at install time that the default generated hostname is valid and you can change it to something you like more during initial setup. A formatted name like "Cassidy's StarBook" will be shown when possible—like in System Settings—and will automatically fall back to something more machine friendly like "Cassidys-StarBook" in places like Terminal.
 
 We've also fixed a styling issue with "Unused" disk partitions in the custom install mode, added two-finger swipe to go back during Initial Setup, and changed the source of locale names to avoid some politically-charged naming of certain locales.
 
 # System Settings
 
-We've fixed an issue in Power settings that can sometimes cause problems with resuming from sleep and added a switch to show or hide the battery percentage in the panel. In Display settings, we've fixed an issue that caused the "Use this display" switch to fail in certain multi-display setups. We also improved the way we remember Bluetooth state on restart and when resuming from suspend. And in the System page, we now display more information for certain graphics processors, including Intel® Xe Graphics
+We've fixed an issue in Power settings that could sometimes cause problems with resuming from sleep and added a switch to show or hide the battery percentage in the Panel. In Display settings, we've fixed an issue that caused the "Use this display" switch to fail in certain multi-display setups. We also improved the way we remember Bluetooth state on restart and when resuming from suspend. And in the System page, we now display more information for certain graphics chipsets, including Intel® Xe Graphics.
 
 # Other Fixes & Updates
 
