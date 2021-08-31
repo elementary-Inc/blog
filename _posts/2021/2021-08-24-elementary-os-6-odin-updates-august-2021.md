@@ -16,7 +16,7 @@ If you found AppCenter a little sparse on release day, you might want to take an
 
 If you're not running elementary OS but still want to get these AppCenter apps, we've made it much easier with a recent update to our [AppCenter website](https://appcenter.elementary.io/): Free apps now include a "Download as Flatpak" button that will give you a Flatpak reference file which you can sideload on your operating system of choice. Enjoy!
 
-We've also been putting a lot of work into the first run experience, especially with regards to sideloaded apps from third-party stores like Flathub. Apps from freshly sideloaded remotes should now show in AppCenter without needing to restart your computer first. We've added a reminder about Sideload when searching returns no results with the same language that is used in the Welcome app. We now ensure that apps predictably default to installing per-user when selected from the home page. Also, both AppCenter and Sideload can now use system-wide installed app runtimes for per-user app installs, which means the first time you install a new app should be a faster, smaller download.
+We've been putting a lot of work into the first run experience, especially with regards to sideloaded apps from third-party stores like Flathub. Apps from freshly sideloaded remotes should now show in AppCenter without needing to restart your computer first. We've added a reminder about Sideload when searching returns no results with the same language that is used in the Welcome app. We now ensure that apps predictably default to installing per-user when selected from the home page. Also, both AppCenter and Sideload can now use system-wide installed app runtimes for per-user app installs, which means the first time you install a new app should be a faster, smaller download.
 
 We've also addressed an issue with apps not opening from in-app notifications, there is a less abrupt transition when choosing which source to download an app from, and we've reworked the way the applications menu watches for changes in installed apps, so it should be more responsive about showing freshly installed apps.
 
@@ -25,6 +25,8 @@ We've also addressed an issue with apps not opening from in-app notifications, t
 Our brand new Online Accounts system has seen a little love around IMAP accounts: we now do a better job of detecting the correct authentication method for accounts and you can edit existing accounts by selecting the pencil icon in its row.
 
 [Online Accounts Screenshot]
+
+Mail includes a fix for a crash that some people have been experiencing on startup as well as a fix for some messaging failing to render completely. It also now sets the correct "From" address on replies when multiple accounts are set up. Mail will no longer ask you to save empty drafts. We've also moved the in-app notification for "Undo" to be less intrusive.
 
 The latest release of Calendar includes a fix for an issue with some all-day events displaying incorrectly, and we do a better job of getting calendar colors from online accounts.
 
@@ -44,29 +46,15 @@ A couple of nice fixes landed in the Installer and Initial Setup that make it ea
 
 We've also fixed a styling issue with "Unused" disk partitions in the custom install mode, added two-finger swipe to go back during Initial Setup, and we've changed the source of locale names to avoid some politically-charged naming of certain locales.
 
-# Files
-
-Fix small context menus on breadcrumbs
-Fix bookmarking a single selected item with Ctrl + D
-Fix renaming bookmarks in the sidebar
-FIx an issue with showing color tags when thumbnails are hidden
-
 # System Settings
 
 We've fixed an issue in Power settings that can sometimes cause problems with resuming from sleep and added a switch to show or hide the battery percentage in the panel. In Display settings, we've fixed an issue that caused the "Use this display" switch to fail in certain multi-display setups. We also improved the way we remember Bluetooth state on restart and when resuming from suspend. And in the System page, we now display more information for certain graphics processors, including Intel® Xe Graphics
 
 # Other Fixes & Updates
 
-Ensure accel_to_string works with multiple modifiers
-Fix locale issues in Flatpaks
+Files includes a fix for issues regarding renaming bookmarks in the sidebar as well as with the bookmark shortcut Ctrl + D. We've also resolved an issue where secondary-click context menus on the pathbar were sometimes too small for their contents, and an issue where color tags were missing when thumbnails are hidden.
 
-For apps that use legacy server-side window decorations, we've fixed an issue that prevented the window border and shadow from being included in screenshots.
-
-Power Indicator
-Show brightness level when scrolled
-Show battery percentage automatically at 20% or lower
-Match scroll direction with Sound indicator
-Show "Fully Charged" at 100% when plugged in
+For apps that use legacy server-side window decorations, we've fixed an issue that prevented the window border and shadow from being included in screenshots. The Power indicator includes a number of improvements such as showing the screen brightness level when scrolled, better matching the scroll behavior of other indicators, automatically showing the battery percentage when it's low, and showing "Fully Charged" when at 100% and plugged in. And of course there a number of translation updates, code cleanups, and other under-the-hood improvements included with these updates!
 
 If you're experiencing an issue that wasn't fixed in this round of updates or you have an idea for a new feature, we'd love to hear from you! You can send your feedback to the team using the Feedback app by searching for "Feedback" in the applications menu or by navigating to System Settings → System and selecting "Send Feedback" at the bottom of the window. Alternatively, you can file issue reports or start discussions [on GitHub](https://github.com/elementary). The team prioritizes our work based directly off of the feedback we receive through GitHub, so it's the best way to make sure your voice is heard.
 
