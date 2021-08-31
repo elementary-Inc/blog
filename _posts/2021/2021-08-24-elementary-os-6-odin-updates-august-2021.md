@@ -8,13 +8,21 @@ tags:
   - updates
 ---
 
-Earlier this month we released elementary OS 6 Odin and we've been absolutely overwhelmed with the amount of feedback we've received. So far OS 6 has been downloaded from our website [nearly 75,000 times](https://plausible.io/elementary.io?period=month&goal=Download)! Over the last three weeks we've been gathering up all of your feedback and jumping right into delivering the first batch of free fix and feature updates for OS 6.
+Earlier this month [we released elementary OS 6 Odin](/elementary-os-6-odin-released) and we've been absolutely overwhelmed with the amount of feedback we've received. So far OS 6 has been downloaded from our website [over 75,000 times](https://plausible.io/elementary.io?period=custom&goal=Download&from=2021-08-10&to=2021-08-31)! Over the last three weeks we've been gathering up all of your feedback and jumping right into delivering the first batch of free fix and feature updates for OS 6.
 
 # AppCenter & Sideload
 
 If you found AppCenter a little sparse on release day, you might want to take another look! App developers have begun releasing compatible versions of their apps and we're currently up to [51 apps now available](https://appcenter.elementary.io/) in OS 6. We've been in touch with developers and there's quite a few more in the queue, so hang tight if a favorite hasn't made its way in yet.
 
 If you're not running elementary OS but still want to get these AppCenter apps, we've made it much easier with a recent update to our [AppCenter website](https://appcenter.elementary.io/): Free apps now include a "Download as Flatpak" button that will give you a Flatpak reference file which you can sideload on your operating system of choice. Enjoy!
+
+<figure>
+  <picture>
+    <source srcset="/images/os-6-updates-for-august-2021/badger-dark.png" media="(prefers-color-scheme: dark)">
+    <img alt="Badger on AppCenter" src="/images/os-6-updates-for-august-2021/badger-light.png"/>
+  </picture>
+<figcaption>Free apps like Badger now show a button "Download as Flatpak"</figcaption>
+</figure>
 
 We've been putting a lot of work into the first run experience, especially with regards to sideloaded apps from third-party stores like Flathub. Apps from freshly sideloaded remotes should now show in AppCenter without needing to restart your computer first. We've added a reminder about Sideload when searching returns no results with the same language that is used in the Welcome app. We now ensure that apps predictably default to installing per-user when selected from the home page. Also, both AppCenter and Sideload can now use system-wide installed app runtimes for per-user app installs, which means the first time you install a new app should be a faster, smaller download.
 
@@ -24,7 +32,13 @@ We've also addressed an issue with apps not opening from in-app notifications, t
 
 Our brand new Online Accounts system has seen a little love around IMAP accounts: we now do a better job of detecting the correct authentication method for accounts and you can edit existing accounts by selecting the pencil icon in its row.
 
-[Online Accounts Screenshot]
+<figure>
+  <picture>
+    <source srcset="/images/os-6-updates-for-august-2021/onlineaccounts-dark.png" media="(prefers-color-scheme: dark)">
+    <img alt="System Settings → Online Accounts" src="/images/os-6-updates-for-august-2021/onlineaccounts-light.png" width="1044" height="740" />
+  </picture>
+<figcaption>IMAP accounts can now be edited in System Settings → Online Accounts</figcaption>
+</figure>
 
 Mail includes a fix for a crash that some people have been experiencing on startup as well as a fix for some messages failing to render completely. It also now sets the correct "From" address on replies when multiple accounts are set up. Mail will no longer ask you to save empty drafts. We've also moved the in-app notification for "Undo" to be less intrusive.
 
@@ -43,6 +57,13 @@ If you're here looking for an update on builds for Pinebook Pro and Raspberry Pi
 # Installer & Initial Setup
 
 A couple of nice fixes landed in the Installer and Initial Setup that make it easier to set the name of your device. We now double check at install time that the default generated hostname is valid and you can change it to something you like more during initial setup. A formatted name like "Cassidy's StarBook" will be shown when possible—like in System Settings—and will automatically fall back to something more machine friendly like "Cassidys-StarBook" in places like Terminal.
+
+<figure>
+  <picture>
+    <img alt="Initial Setup" src="/images/os-6-updates-for-august-2021/initial-setup.png" width="916" height="666" />
+  </picture>
+<figcaption>Initial Setup now helps you name your device</figcaption>
+</figure>
 
 We've also fixed a styling issue with "Unused" disk partitions in the custom install mode, added two-finger swipe to go back during Initial Setup, and changed the source of locale names to avoid some politically-charged naming of certain locales.
 
