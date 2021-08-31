@@ -88,6 +88,8 @@ For apps that use legacy server-side window decorations, we've fixed an issue th
 
 If you're experiencing an issue that wasn't fixed in this round of updates or you have an idea for a new feature, we'd love to hear from you! You can send your feedback to the team using the Feedback app by searching for "Feedback" in the applications menu or by navigating to System Settings → System and selecting "Send Feedback" at the bottom of the window. Alternatively, you can file issue reports or start discussions [on GitHub](https://github.com/elementary). The team prioritizes our work based directly off of the feedback we receive through GitHub, so it's the best way to make sure your voice is heard.
 
+If you'd like to follow along with development and see what new features and fixes we're prioritizing over the coming months, check out the [OS 6.1 project board on GitHub](https://github.com/orgs/elementary/projects/90).
+
 ## Get These Updates
 
 As always, if you're running elementary OS 6 you can get all of these updates directly from AppCenter by opening up the "Installed" tab and selecting "Update All". If you're not yet running OS 6, we've published a shiny new download for a pay-what-you-can price that includes all of these updates [on our homepage](https://elementary.io).
