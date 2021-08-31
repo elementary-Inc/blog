@@ -76,6 +76,8 @@ As always, if you're running elementary OS 6 you can get all of these updates di
 
 # Special Thanks
 
-Shoutouts to Marco. More info on his blog about fixes and features he's working on: https://www.marco.betschart.name/blog/2021-08-30-elementary-os-6-post-release-bugfixing
+I'd like to give special thanks this month to Marco for his work on online accounts and associated apps. You can read more [on his blog](https://www.marco.betschart.name/blog/2021-08-30-elementary-os-6-post-release-bugfixing) about the specific fixes and features that he worked on as well as a link to his [Github Sponsors page](https://github.com/sponsors/marbetschar). He's currently looking to expand his Open Source software work and could really use your help with funding!
 
-Also shoutouts to David for Flatpak and Applications menu fixes
+David also deserves a shoutout for diving into the big under-the-hood issues and delivering this month's big AppCenter and Flatpak-related fixes as well tracking down the source of issues related to suspend and resume. You can also [sponsor his work on GitHub](https://github.com/sponsors/davidmhewitt).
+
+You can thank Marius for his work on hostnames, fixing the "Open" button in AppCenter, and many other bug fixes! Check out his [GitHub sponsors page](https://github.com/sponsors/meisenzahl) too.
