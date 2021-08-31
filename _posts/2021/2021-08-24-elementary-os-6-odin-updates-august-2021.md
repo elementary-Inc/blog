@@ -8,7 +8,7 @@ tags:
   - updates
 ---
 
-Earlier this month [we released elementary OS 6 Odin](/elementary-os-6-odin-released) and we've been absolutely overwhelmed with the amount of feedback we've received. So far OS 6 has been downloaded from our website [over 75,000 times](https://plausible.io/elementary.io?period=custom&goal=Download&from=2021-08-10&to=2021-08-31)! Over the last three weeks we've been gathering up all of your feedback and jumping right into delivering the first batch of free fix and feature updates for OS 6.
+Earlier this month [we released elementary OS 6 Odin](/elementary-os-6-odin-released) and we've been absolutely overwhelmed with the amount of feedback we've received. So far OS 6 has been downloaded from our website [over 75,000 times](https://plausible.io/elementary.io?period=custom&goal=Download&from=2021-08-10&to=2021-08-31&props=%7B%22Version%22%3A%226%22%7D)! Over the last three weeks we've been gathering up all of your feedback and jumping right into delivering the first batch of free fix and feature updates for OS 6.
 
 # AppCenter & Sideload
 
