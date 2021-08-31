@@ -52,7 +52,7 @@ We've fixed an issue in Power settings that could sometimes cause problems with 
 
 # Other Fixes & Updates
 
-Files includes a fix for issues regarding renaming bookmarks in the sidebar as well as with the bookmark shortcut Ctrl + D. We've also resolved an issue where secondary-click context menus on the pathbar were sometimes too small for their contents, and an issue where color tags were missing when thumbnails are hidden.
+Files includes a fix for issues regarding renaming bookmarks in the sidebar as well as with the bookmark shortcut <kbd>Ctrl</kbd><kbd>D</kbd>. We've also resolved an issue where secondary-click context menus on the pathbar were sometimes too small for their contents, and an issue where color tags were missing when thumbnails are hidden.
 
 For apps that use legacy server-side window decorations, we've fixed an issue that prevented the window border and shadow from being included in screenshots. The Power indicator includes a number of improvements such as showing the screen brightness level when scrolled, better matching the scroll behavior of other indicators, automatically showing the battery percentage when it's low, and showing "Fully Charged" when at 100% and plugged in. And of course there a number of translation updates, code cleanups, and other under-the-hood improvements included with these updates!
 
