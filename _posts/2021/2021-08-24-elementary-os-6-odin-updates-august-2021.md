@@ -26,7 +26,7 @@ Our brand new Online Accounts system has seen a little love around IMAP accounts
 
 [Online Accounts Screenshot]
 
-Mail includes a fix for a crash that some people have been experiencing on startup as well as a fix for some messaging failing to render completely. It also now sets the correct "From" address on replies when multiple accounts are set up. Mail will no longer ask you to save empty drafts. We've also moved the in-app notification for "Undo" to be less intrusive.
+Mail includes a fix for a crash that some people have been experiencing on startup as well as a fix for some messages failing to render completely. It also now sets the correct "From" address on replies when multiple accounts are set up. Mail will no longer ask you to save empty drafts. We've also moved the in-app notification for "Undo" to be less intrusive.
 
 The latest release of Calendar includes a fix for an issue with some all-day events displaying incorrectly, and we do a better job of getting calendar colors from online accounts.
 
