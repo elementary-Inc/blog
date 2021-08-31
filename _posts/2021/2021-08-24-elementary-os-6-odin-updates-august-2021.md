@@ -44,7 +44,7 @@ Mail includes a fix for a crash that some people have been experiencing on start
 
 The latest release of Calendar includes a fix for an issue with some all-day events displaying incorrectly, and we do a better job of getting calendar colors from online accounts.
 
-We've heard reports of some folks having issues with online accounts and Tasks and have narrowed it down to restrictions with app sandboxing. For now we've decided to ship Tasks as a traditional deb package by default to work around this issues while we work toward a more long-term solution. When updating be aware that Tasks will be removed from the dock and will need to be manually re-added. Apologies for the inconvenience!
+We've heard reports of some folks having issues with online accounts and Tasks and have narrowed it down to restrictions with app sandboxing. For now we've decided to ship Tasks as a traditional deb package by default to work around this issues while we work toward a more long-term solution. When updating be aware that if you previously had Tasks in your Dock, this change will remove it. You can re-add it like any other app from the Applications Menu. Apologies for the inconvenience!
 
 # Hardware Compatibility
 
