@@ -18,7 +18,7 @@ If you're not running elementary OS but still want to get these AppCenter apps, 
 
 We've been putting a lot of work into the first run experience, especially with regards to sideloaded apps from third-party stores like Flathub. Apps from freshly sideloaded remotes should now show in AppCenter without needing to restart your computer first. We've added a reminder about Sideload when searching returns no results with the same language that is used in the Welcome app. We now ensure that apps predictably default to installing per-user when selected from the home page. Also, both AppCenter and Sideload can now use system-wide installed app runtimes for per-user app installs, which means the first time you install a new app should be a faster, smaller download.
 
-We've also addressed an issue with apps not opening from in-app notifications, there is a less abrupt transition when choosing which source to download an app from, and we've reworked the way the applications menu watches for changes in installed apps, so it should be more responsive about showing freshly installed apps.
+We've also addressed an issue with apps not opening from in-app notifications, there is a less abrupt transition when choosing which source to download an app from, and we've reworked the way the Applications Menu watches for changes in installed apps, so it should be more responsive about showing freshly installed apps.
 
 # Online Accounts, Tasks, Mail, and Calendar
 
