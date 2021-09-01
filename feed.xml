@@ -5,8 +5,8 @@
     <description>We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS</description>
     <link>https://blog.elementary.io/</link>
     <atom:link href="https://blog.elementary.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 31 Aug 2021 19:03:25 -0500</pubDate>
-    <lastBuildDate>Tue, 31 Aug 2021 19:03:25 -0500</lastBuildDate>
+    <pubDate>Wed, 01 Sep 2021 12:27:46 -0500</pubDate>
+    <lastBuildDate>Wed, 01 Sep 2021 12:27:46 -0500</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       
@@ -107,7 +107,7 @@
 
 &lt;h2 id=&quot;special-thanks&quot;&gt;Special Thanks&lt;/h2&gt;
 
-&lt;p&gt;I’d like to give special thanks this month to Marco for his work on Online Accounts and associated apps. You can read more &lt;a href=&quot;https://www.marco.betschart.name/blog/2021-08-30-elementary-os-6-post-release-bugfixing&quot;&gt;on his blog&lt;/a&gt; about the specific fixes and features that he worked on as well as a link to his &lt;a href=&quot;https://github.com/sponsors/marbetschar&quot;&gt;Github Sponsors page&lt;/a&gt;. He’s currently looking to expand his Open Source software work and could really use your help with funding!&lt;/p&gt;
+&lt;p&gt;I’d like to give special thanks this month to Marco for his work on Online Accounts and associated apps. You can read more &lt;a href=&quot;https://www.marco.betschart.name/blog/2021-08-30-elementary-os-6-post-release-bugfixing&quot;&gt;on his blog&lt;/a&gt; about the specific fixes and features that he worked on as well as a link to his &lt;a href=&quot;https://github.com/sponsors/marbetschar&quot;&gt;GitHub Sponsors page&lt;/a&gt;. He’s currently looking to expand his Open Source software work and could really use your help with funding!&lt;/p&gt;
 
 &lt;p&gt;David also deserves a shoutout for diving into the big under-the-hood issues and delivering this month’s big AppCenter and Flatpak-related fixes as well tracking down the source of issues related to suspend and resume. You can also &lt;a href=&quot;https://github.com/sponsors/davidmhewitt&quot;&gt;sponsor his work on GitHub&lt;/a&gt;.&lt;/p&gt;
 
