@@ -6,6 +6,9 @@ image: /images/os-6-updates-for-august-2021/card.png
 tags:
   - odin
   - updates
+
+reddit: https://old.reddit.com/r/elementaryos/comments/pfk2ec/elementary_os_6_updates_for_august_2021/
+twitter: https://twitter.com/elementary/status/1432843655648366593
 ---
 
 Earlier this month [we released elementary OS 6 Odin](/elementary-os-6-odin-released) and we've been thrilled with the overwhelming amount of feedback we've received. So far OS 6 has been downloaded from our website [over 75,000 times](https://plausible.io/elementary.io?period=custom&goal=Download&from=2021-08-10&to=2021-08-31&props=%7B%22Version%22%3A%226%22%7D)! Over the last three weeks we've been gathering up all of your feedback and jumping right into delivering the first batch of free fix and feature updates for OS 6.
@@ -102,7 +105,7 @@ If you're not yet running OS 6, we'll be publishing a new 6.0.1 download for a p
 
 ## Special Thanks
 
-I'd like to give special thanks this month to Marco for his work on Online Accounts and associated apps. You can read more [on his blog](https://www.marco.betschart.name/blog/2021-08-30-elementary-os-6-post-release-bugfixing) about the specific fixes and features that he worked on as well as a link to his [Github Sponsors page](https://github.com/sponsors/marbetschar). He's currently looking to expand his Open Source software work and could really use your help with funding!
+I'd like to give special thanks this month to Marco for his work on Online Accounts and associated apps. You can read more [on his blog](https://www.marco.betschart.name/blog/2021-08-30-elementary-os-6-post-release-bugfixing) about the specific fixes and features that he worked on as well as a link to his [GitHub Sponsors page](https://github.com/sponsors/marbetschar). He's currently looking to expand his Open Source software work and could really use your help with funding!
 
 David also deserves a shoutout for diving into the big under-the-hood issues and delivering this month's big AppCenter and Flatpak-related fixes as well tracking down the source of issues related to suspend and resume. You can also [sponsor his work on GitHub](https://github.com/sponsors/davidmhewitt).
 
