@@ -13,6 +13,10 @@ sponsor:
   name: Bruno Díaz
   link: https://github.com/brunodiazu
   hook: They’re an Informatic Civil Engineering Data Analyst in Chile who sponsored us via our new one-time GitHub Sponsors tier.
+
+facebook: https://www.facebook.com/elementaryos/posts/4606634229368370
+reddit: https://reddit.com/r/elementaryos/comments/p1s0iy/elementary_os_6_odin_available_now/
+twitter: https://twitter.com/elementary/status/1425124987841781760
 ---
 
 <figure class="card" markdown="1">
