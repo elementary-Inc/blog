@@ -102,7 +102,7 @@ If you'd like to follow along with development and see what new features and fix
 
 As always, if you're running elementary OS 6 you can get all of these updates directly from AppCenter by opening up the "Installed" tab and selecting "Update All", and previous purchase links from your email receipt will be upgraded to the newest version.
 
-If you're not yet running OS 6, we'll be publishing a new 6.0.1 download for a pay-what-you-can price that includes all of these updates [on our homepage](https://elementary.io) soon.
+If you're not yet running OS 6, we've published a new 6.0.1 download for a pay-what-you-can price that includes all of these updates [on our homepage](https://elementary.io).
 
 ## Special Thanks
 
