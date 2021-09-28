@@ -27,7 +27,9 @@ Developers of third-party apps have continued releasing their apps on [AppCenter
 
 ## Mail
 
-Marco
+Now that we have a fresh new codebase with Mail on OS 6, improvements are starting to flood in. The big one this month is notifications: Mail will once again automatically notify when new messages arrive, even when the window is closed. We've also improved the list of messages with a new inline toolbar with a "refresh" button to manually fetch new messages and togglable filters for unread or starred conversations. And when you delete a message, the next one in the list will now be selected automatically.
+
+We've also shipped a few performance improvements and fixes: you'll notice much better search performance, we fixed an issue with double drafts for Outlook.com accounts, and we fixed a potential crash when changing folders.
 
 ## Calendar
 
@@ -58,14 +60,10 @@ If you'd like to follow along with development and see what we're working on and
 
 ## Get These Updates
 
-As always, if you're running elementary OS 6 you can get all of these updates directly from AppCenter by opening up the "Installed" tab and selecting "Update All", and previous purchase links from your email receipt will be upgraded to the newest version.
+As always, if you're running elementary OS 6 you can get all of these updates directly from AppCenter by opening up the "Installed" tab and selecting "Update All", and previous OS 6 purchase links from email receipts will be upgraded to the newest version.
 
-If you're not yet running OS 6, we've published a new 6.0.1 download for a pay-what-you-can price that includes all of these updates [on our homepage](https://elementary.io).
+If you're not yet running OS 6, we'll be publishing a new 6.0.2 download for a pay-what-you-can price that includes all of these updates [on our homepage](https://elementary.io) soon.
 
 ## Special Thanks
 
-We'd like to give a special thanks yet again this month to Marco for his work on apps using Online Accounts like Mail and Calendar. You can read more [on his blog](https://www.marco.betschart.name/blog/2021-08-30-elementary-os-6-post-release-bugfixing) about the specific fixes and features that he worked on as well as a link to his [GitHub Sponsors page](https://github.com/sponsors/marbetschar). He's currently looking to expand his Open Source software work and could really use your help with funding!
-
-David also deserves a shoutout for diving into the big under-the-hood issues and delivering this month's big AppCenter and Flatpak-related fixes as well tracking down the source of issues related to suspend and resume. You can also [sponsor his work on GitHub](https://github.com/sponsors/davidmhewitt).
-
-You can thank Marius for his work on hostnames, fixing the "Open" button in AppCenter, and many other bug fixes! Check out his [GitHub sponsors page](https://github.com/sponsors/meisenzahl) too.
+We'd like to give a special thanks yet again this month to Marco for his work on apps using Online Accounts like Mail and Calendar. Check out his [GitHub Sponsors page](https://github.com/sponsors/marbetschar) to help him expand his Open Source software work.
