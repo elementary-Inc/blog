@@ -33,10 +33,7 @@ We've also shipped a few performance improvements and fixes: you'll notice much 
 
 ## Calendar
 
-Fixes:
-- Fix notification icons in the notification indicator
-- Fix an issue where event timezones were overwritten
-- Ensure Calendar is launched when notifications are clicked
+We've also shipped a number of fixes for Calendar: we now ensure correct notification icons in Notification Center, we better ensure Calendar is opened when selecting a notification, and we fixed an issue where event timezones could be overwritten.
 
 ## Other Fixes & Updates
 
