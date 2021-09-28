@@ -82,9 +82,9 @@ ARM builds have been enabled for Flatpak. This means we can start building first
 
 In the login/lockscreen greeter, we now hide the clock during Initial Setup since it often was covered. We also use the user's selected accent color for the logged-in checkmark for an additional splash of accent color.
 
-You can now stash the picture-in-picture window by pushing it off screen—and we fixed a potential crash while changing wallpapers.
+You can now stash the picture-in-picture window by pushing it off screen—and we fixed a potential crash while changing wallpapers. Notification Center will now use an app's name as fallback title.
 
-We added a new toggle for “Double-tap and move to drag” in the Mouse & Touchpad settings. We fixed a crash in the Network settings for some hardware. We fixed an issue in Applications settings with setting the incorrect app for certain files types, and don't overwrite custom permissions overrides when unnecessary.
+We added a new toggle for “Double-tap and move to drag” in the Mouse & Touchpad settings. We fixed a crash in the Network settings for some hardware. We fixed an issue in Applications settings with setting the incorrect app for certain files types, and don't overwrite custom permissions overrides when unnecessary. We ensure IBus automatically starts on login when needed.
 
 We fixed "rubberband" selection styling and titles when previewing images in Photos, and we fixed a blurry Sideload icon in the Multitasking View.
 
@@ -108,4 +108,4 @@ If you're not yet running OS 6, we'll be publishing a new 6.0.2 download for a p
 
 ## Special Thanks
 
-We'd like to give a special thanks yet again this month to Marco for his work on apps using Online Accounts like Mail and Calendar. Check out his [dedicated blog post about his work](https://www.marco.betschart.name/blog/2021-09-28-elementary-os-office-productivity-improvements), and be sure to hit up his [GitHub Sponsors page](https://github.com/sponsors/marbetschar) to help him expand his Open Source software work.
+We'd like to give a special thanks yet again this month to Marco for his work on apps using Online Accounts like Mail and Calendar. Check out his [dedicated blog post about his work](https://www.marco.betschart.name/blog/2021-09-28-elementary-os-office-productivity-improvements), and be sure to hit up his [GitHub Sponsors page](https://github.com/sponsors/marbetschar) to help him expand his open source software work.
