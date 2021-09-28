@@ -67,4 +67,4 @@ If you're not yet running OS 6, we'll be publishing a new 6.0.2 download for a p
 
 ## Special Thanks
 
-We'd like to give a special thanks yet again this month to Marco for his work on apps using Online Accounts like Mail and Calendar. Check out his [GitHub Sponsors page](https://github.com/sponsors/marbetschar) to help him expand his Open Source software work.
+We'd like to give a special thanks yet again this month to Marco for his work on apps using Online Accounts like Mail and Calendar. Check out his [dedicated blog post about his work](https://www.marco.betschart.name/blog/2021-09-28-elementary-os-office-productivity-improvements), and be sure to hit up his [GitHub Sponsors page](https://github.com/sponsors/marbetschar) to help him expand his Open Source software work.
