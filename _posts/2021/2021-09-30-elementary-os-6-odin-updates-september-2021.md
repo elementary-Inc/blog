@@ -15,15 +15,32 @@ We're back with your monthly report on updates to elementary OS 6! It was anothe
 
 Over the past month, we've been improving AppCenter from the inside out. Our shift from Debian packages to Flatpak for both curated and non-curated apps means we're able to lean more on Flatpak features; in addition to continued code cleaning and improvements, we've been using this as an opportunity to make AppCenter much more engaging and informative right from the start.
 
+<figure markdown="1">
+![AppCenter Home Page](/images/{{ page.slug }}/appcenter-home.png){: width="1408" height="895"}
+<figcaption>The refreshed home page</figcaption>
+</figure>
+
 For example, we've largely reworked the home page with banners featuring the most recently released and updated curated apps in a multi-touch swipable carousel. We've also added up to twelve more of the most recently-updated apps directly below. Rather than just showing the app's icon and name, we now also show each app's summary and an install button—including the developer's recommended price if it's a monetized app. Since we enforce accurate update information for curated apps, this data is populated locally from the apps' AppStream data rather than from a remote API as before. The result of this work is a faster home page with over three times the apps displayed, as well as the ability to purchase or install several apps with far fewer clicks. The categories remain below if you prefer that route for browsing.
 
+<figure class="half" markdown="1">
+![AppCenter Non-curated App Info Page](/images/{{ page.slug }}/appcenter-report-card.png){: width="1408" height="895"}
+![AppCenter Related Apps](/images/{{ page.slug }}/appcenter-related.png){: width="1033" height="607"}
+<figcaption markdown="1">
+**Left:** A non-curated app info page and its "report card" | **Right:** Other Flatpak apps from the same developer as the selected app
+</figcaption>
+</figure>
+
 We've also spent significant time improving individual apps' info pages. Rather than displaying a generic "explicit" warning dialog when installing an app with certain content warnings, we show this information ahead of time at the top of the page. We differentiate between and inform about several content warnings including things like violence, language, and nudity as well as privacy-related topics like online interactions and data collection. And since we validate this information for curated apps but can't make any guarantees about non-curated apps, we also more clearly inform ahead of time when an app is not curated with an additional badge. This new section works like a content and privacy "report card" you can use to learn more about apps and make informed choices while also reducing the road blocks to installing the apps you want. We also now show apps from the same developer at the bottom of app info pages regardless of packaging technology used, meaning it works equally well for first-party, curated, and non-curated apps.
+
+<aside markdown="1">
+>This new section works like a content and privacy “report card”
+</aside>
 
 Several more improvements permeate throughout AppCenter: fallback colors for apps that don't provide their own brand colors—including non-curated apps—now get a pleasant and more subtle look based on your selected system-wide accent color including better support for the dark style. As we continue to work on AppCenter for Everyone, we've reworked the Install button to ease into the future flow that will use a Flatpak authenticator to handle purchases; rather than having a dropdown arrow with a popover to change the price, we're now more clear about how "Pay What You Can" works and include changing the amount to pay in the payment dialog itself. And since we use this same widget on the home page, on app info pages, and in lists of apps, it's consistent everywhere.
 
 We've also worked with downstreams like Fedora and Pop!_OS to test these updates using the same build flags they use, including adding automated testing to ensure things continue to build using the non-default options when we change the code for elementary OS. And since the redesigned home page relies on local data rather than a remote API, we no longer disable it on builds targeting Fedora or other non-elementary platforms; as a result, AppCenter is much more engaging and useful for any downstream.
 
-Developers of third-party apps have continued releasing their apps on [AppCenter for elementary OS 6](https://appcenter.elementary.io)—and several more are in the queue being reviewed. We're also happy to report that many developers have been pushing out rapid and frequent updates to existing apps with new features and bug fixes, as they're in control of their own update schedule. Third-party apps on elementary OS continue to get better with time—and as a reminder, these apps will now carry forward to future versions of elementary OS and be made available on any modern Linux-based OS thanks to our continued AppCenter for Everyone work.
+Developers of third-party apps have also continued releasing their apps on [AppCenter for elementary OS 6](https://appcenter.elementary.io)—and several more are in the queue being reviewed. We're also happy to report that many developers have been pushing out rapid and frequent updates to existing apps with new features and bug fixes, as they're in control of their own update schedule. Third-party apps on elementary OS continue to get better with time—and as a reminder, these apps will now carry forward to future versions of elementary OS and be made available on any modern Linux-based OS thanks to our continued AppCenter for Everyone work.
 
 ## Online Accounts
 
@@ -37,7 +54,9 @@ We've also shipped a few performance improvements and fixes: you'll notice much 
 
 ### Tasks
 
-We shipped a number of improvements to Tasks: to prevent accidental task deletion, we've replaced the Delete shortcut key with <kbd>Ctrl</kbd><kbd>Backspace</kbd> and added a confirmation dialog when deleting a task list; we've improved performance in lists with lots of completed tasks. We also prevent account name headers from being displayed multiple times in the sidebar, truncate long descriptions at the end instead of the beginning, correctly save tasks when the description is removed, and improved cursor placement in descriptions.
+We shipped a number of improvements to Tasks: to prevent accidental task deletion, we've replaced the Delete shortcut key with <kbd>Ctrl</kbd><kbd>Backspace</kbd> and added a confirmation dialog when deleting a task list; we've improved performance in lists with lots of completed tasks; we prevent account name headers from being displayed multiple times in the sidebar; we now truncate long descriptions at the end instead of the beginning; we ensure tasks are saved when the description is removed; and finally, we improved cursor placement in descriptions when editing.
+
+As a note, if you were having issues adding, editing, or removing lists, try removing and re-adding your CalDAV account in _System Settings_ → _Online Accounts_ to take advantage of the improvements made there.
 
 ### Calendar
 
