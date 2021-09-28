@@ -72,20 +72,24 @@ We released a small update to Code this month with an improvement for those who 
 
 ## Other Fixes & Updates
 
-- ARM builds enabled for Flatpak
-- Hide clock during initial setup, and use the user's selected accent color for the logged-in checkmark
-- Stash the picture-in-picture window by pushing it off screen, and fixed a potential crash while changing wallpapers
-- New toggle for “Double-tap and move to drag” in Mouse & Touchpad settings
-- Fixed "rubberband" selection styling and titles when previewing images in Photos
-- Fixed a crash in the Network settings for some hardware
-- Fix blurry Sideload icon in the Multitasking View
-- Support launching apps on dedicated graphics on hybrid graphics systems (e.g. NVIDIA Optimus)
-- Fixed an issue in Applications settings with setting the incorrect app for certain files types, and don't overwrite custom permissions overrides when unnecessary
+We've released many smaller fixes and improvements throughout elementary OS 6 and its apps. In no particular order:
+
+ARM builds have been enabled for Flatpak. This means we can start building first-party and AppCenter apps for 64-bit ARM platforms like Pinebook Pro and Raspberry Pi 4 again. Stay tuned for more info on this as we continue the work.
+
+In the login/lockscreen greeter, we now hide the clock during Initial Setup since it often was covered. We also use the user's selected accent color for the logged-in checkmark for an additional splash of accent color.
+
+You can now stash the picture-in-picture window by pushing it off screen—and we fixed a potential crash while changing wallpapers.
+
+We added a new toggle for “Double-tap and move to drag” in the Mouse & Touchpad settings. We fixed a crash in the Network settings for some hardware. We fixed an issue in Applications settings with setting the incorrect app for certain files types, and don't overwrite custom permissions overrides when unnecessary.
+
+We fixed "rubberband" selection styling and titles when previewing images in Photos, and we fixed a blurry Sideload icon in the Multitasking View.
+
+Finally, we added support for launching apps on dedicated graphics on hybrid graphics systems (e.g. NVIDIA Optimus) from the Applications Menu.
 
 And as always, there are translation updates, code cleanups, and other under-the-hood improvements included with these updates across the OS and apps.
 
 <aside markdown="1">
->You can send your feedback to the team using the Feedback utility on elementary OS 6
+>We prioritize our work based directly off of the feedback we receive through the Feedback utility and GitHub
 </aside>
 
 If you're experiencing an issue that wasn't fixed in this month's updates—or if you have an idea for a new feature—we'd love to hear from you. You can send your feedback on elementary OS 6 by searching for "Feedback" in the Applications Menu or by navigating to _System Settings_ → _System_ and selecting "Send Feedback" at the bottom of the window. Alternatively, you can file an issue report or start a discussion on the appropriate repository on [our GitHub organization](https://github.com/elementary). We prioritize our work based directly off of the feedback we receive through the Feedback utility and GitHub, so those are the best ways to make sure your voice is heard.
