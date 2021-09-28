@@ -35,6 +35,10 @@ We've also shipped a few performance improvements and fixes: you'll notice much 
 
 We've also shipped a number of fixes for Calendar: we now ensure correct notification icons in Notification Center, we better ensure Calendar is opened when selecting a notification, and we fixed an issue where event timezones could be overwritten.
 
+## Code
+
+We released a small update to Code this month with an improvement for those who tile windows, especially on smaller displays: we now hide the project chooser button when hiding the sidebar, allowing a smaller minimum window width. We also better ensure files created from the sidebar are automatically opened, and fixed a potential crash when creating new window by dragging and dropping a tab.
+
 ## Other Fixes & Updates
 
 - ARM builds enabled for Flatpak
