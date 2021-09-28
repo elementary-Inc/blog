@@ -2,14 +2,14 @@
 title: elementary OS 6 Updates for September, 2021
 description: Big updates to AppCenter
 author: cassidyjames
-image: /images/os-6-updates-for-august-2021/card.png
+image: /images/elementary-os-6-odin-updates-september-2021/card.png
 tags:
   - odin
   - updates
 
 ---
 
-We're back with your report on the monthly updates to elementary OS 6! It was another incredibly eventful month as we continued fixing reported issues and focused in especially on AppCenter and Mail. But before we get to all the goodies, we're proud to report that OS 6 has been downloaded from our website [over 122,000 times](https://plausible.io/elementary.io?period=custom&goal=Download&from=2021-08-10&to=2021-09-24&props=%7B%22Version%22%3A%226%22%7D)—and as always, that's not including downloads from third parties or direct downloads via torrent that bypass our download page.
+We're back with your monthly report on updates to elementary OS 6! It was another incredibly eventful month as we continued fixing reported issues and focused in especially on improvements to AppCenter, Mail, and Calendar. But before we get to all the goodies, we're proud to report that OS 6 has been downloaded from our website [over 122,000 times](https://plausible.io/elementary.io?period=custom&goal=Download&from=2021-08-10&to=2021-09-24&props=%7B%22Version%22%3A%226%22%7D)—and as always, that's not including downloads from third parties or direct downloads via torrent that bypass our download page.
 
 ## AppCenter
 
@@ -29,9 +29,22 @@ Developers of third-party apps have continued releasing their apps on [AppCenter
 
 Marco
 
+## Calendar
+
+Fixes:
+- Fix notification icons in the notification indicator
+- Fix an issue where event timezones were overwritten
+- Ensure Calendar is launched when notifications are clicked
+
 ## Other Fixes & Updates
 
+- ARM builds enabled for Flatpak
+- Hide clock during initial setup, and use the user's selected accent color for the logged-in checkmark
+- Stash the picture-in-picture window by pushing it off screen, and fixed a potential crash while changing wallpapers
+- New toggle for “Double-tap and move to drag” in Mouse & Touchpad settings
+- Fixed "rubberband" selection styling and titles when previewing images in Photos
 - Fixed a crash in the Network settings for some hardware
+- Fix blurry Sideload icon in the Multitasking View
 
 And as always, there are translation updates, code cleanups, and other under-the-hood improvements included with these updates across the OS and apps.
 
@@ -51,7 +64,7 @@ If you're not yet running OS 6, we've published a new 6.0.1 download for a pay-w
 
 ## Special Thanks
 
-I'd like to give special thanks this month to Marco for his work on Online Accounts and associated apps. You can read more [on his blog](https://www.marco.betschart.name/blog/2021-08-30-elementary-os-6-post-release-bugfixing) about the specific fixes and features that he worked on as well as a link to his [GitHub Sponsors page](https://github.com/sponsors/marbetschar). He's currently looking to expand his Open Source software work and could really use your help with funding!
+We'd like to give a special thanks yet again this month to Marco for his work on apps using Online Accounts like Mail and Calendar. You can read more [on his blog](https://www.marco.betschart.name/blog/2021-08-30-elementary-os-6-post-release-bugfixing) about the specific fixes and features that he worked on as well as a link to his [GitHub Sponsors page](https://github.com/sponsors/marbetschar). He's currently looking to expand his Open Source software work and could really use your help with funding!
 
 David also deserves a shoutout for diving into the big under-the-hood issues and delivering this month's big AppCenter and Flatpak-related fixes as well tracking down the source of issues related to suspend and resume. You can also [sponsor his work on GitHub](https://github.com/sponsors/davidmhewitt).
 
