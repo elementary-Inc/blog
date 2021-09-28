@@ -9,7 +9,7 @@ tags:
 
 ---
 
-We're back with your monthly report on updates to elementary OS 6! It was another incredibly eventful month as we continued fixing reported issues and focused in especially on improvements to AppCenter, Mail, and Calendar. But before we get to all the goodies, we're proud to report that OS 6 has been downloaded from our website [over 122,000 times](https://plausible.io/elementary.io?period=custom&goal=Download&from=2021-08-10&to=2021-09-24&props=%7B%22Version%22%3A%226%22%7D)—and as always, that's not including downloads from third parties or direct downloads via torrent that bypass our download page.
+We're back with your monthly report on updates to elementary OS 6! It was another incredibly eventful month as we continued fixing reported issues and focused in especially on improvements to AppCenter and Online Accounts apps like Mail. But before we get to all the goodies, we're proud to report that OS 6 has been downloaded from our website [over 128,000 times](https://plausible.io/elementary.io?period=custom&goal=Download&from=2021-08-10&to=2021-09-28&props=%7B%22Version%22%3A%226%22%7D)—and as always, that's not including downloads from third parties or direct downloads via torrent that bypass our download page.
 
 ## AppCenter
 
@@ -27,7 +27,7 @@ Developers of third-party apps have continued releasing their apps on [AppCenter
 
 ## Online Accounts
 
-Our improvements to Online Accounts and related apps continued this month. In System Settings,
+Our improvements to Online Accounts and related apps continued this month. In System Settings, we make sure you can always navigate next when adding an account by pressing <kbd>Enter</kbd> and that you can close dialogs as expected with <kbd>Esc</kbd>. We also ensure the refresh interval for an IMAP account is set (which will let apps like Mail change this in the future), we fixed adding, editing, and removing lists in CalDAV apps like Tasks, and we use a more complete list of authentication methods for IMAP to improve compatibility with online accounts providers.
 
 ### Mail
 
@@ -43,6 +43,10 @@ We shipped a number of improvements to Tasks: to prevent accidental task deletio
 
 We've also shipped a number of fixes for Calendar: we now ensure correct notification icons in Notification Center, we better ensure Calendar is opened when selecting a notification, and we fixed an issue where event timezones could be overwritten.
 
+## Files
+
+We've released a handful of fixes to Files this month. You can now open bookmarks in a new tab with <kbd>Ctrl</kbd> Click, we fixed dropping paths onto storage devices and network locations in the sidebar, we fixed restoring tabs after a system restart, we ensure Files doesn't deselect a file or folder when secondary clicking the blank space around it, an we now show the folder context menu when secondary clicking outside of a selection.
+
 ## Code
 
 We released a small update to Code this month with an improvement for those who tile windows, especially on smaller displays: we now hide the project chooser button when hiding the sidebar, allowing a smaller minimum window width. We also better ensure files created from the sidebar are automatically opened, and fixed a potential crash when creating new window by dragging and dropping a tab.
@@ -56,6 +60,8 @@ We released a small update to Code this month with an improvement for those who 
 - Fixed "rubberband" selection styling and titles when previewing images in Photos
 - Fixed a crash in the Network settings for some hardware
 - Fix blurry Sideload icon in the Multitasking View
+- Support launching apps on dedicated graphics on hybrid graphics systems (e.g. NVIDIA Optimus)
+- Fixed an issue in Applications settings with setting the incorrect app for certain files types, and don't overwrite custom permissions overrides when unnecessary
 
 And as always, there are translation updates, code cleanups, and other under-the-hood improvements included with these updates across the OS and apps.
 
