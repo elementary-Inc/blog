@@ -25,13 +25,21 @@ We've also worked with downstreams like Fedora and Pop!_OS to test these updates
 
 Developers of third-party apps have continued releasing their apps on [AppCenter for elementary OS 6](https://appcenter.elementary.io)—and several more are in the queue being reviewed. We're also happy to report that many developers have been pushing out rapid and frequent updates to existing apps with new features and bug fixes, as they're in control of their own update schedule. Third-party apps on elementary OS continue to get better with time—and as a reminder, these apps will now carry forward to future versions of elementary OS and be made available on any modern Linux-based OS thanks to our continued AppCenter for Everyone work.
 
-## Mail
+## Online Accounts
+
+Our improvements to Online Accounts and related apps continued this month. In System Settings,
+
+### Mail
 
 Now that we have a fresh new codebase with Mail on OS 6, improvements are starting to flood in. The big one this month is notifications: Mail will once again automatically notify when new messages arrive, even when the window is closed. We've also improved the list of messages with a new inline toolbar with a "refresh" button to manually fetch new messages and togglable filters for unread or starred conversations. And when you delete a message, the next one in the list will now be selected automatically.
 
 We've also shipped a few performance improvements and fixes: you'll notice much better search performance, we fixed an issue with double drafts for Outlook.com accounts, and we fixed a potential crash when changing folders.
 
-## Calendar
+### Tasks
+
+We shipped a number of improvements to Tasks: to prevent accidental task deletion, we've replaced the Delete shortcut key with <kbd>Ctrl</kbd><kbd>Backspace</kbd> and added a confirmation dialog when deleting a task list; we've improved performance in lists with lots of completed tasks. We also prevent account name headers from being displayed multiple times in the sidebar, truncate long descriptions at the end instead of the beginning, correctly save tasks when the description is removed, and improved cursor placement in descriptions.
+
+### Calendar
 
 We've also shipped a number of fixes for Calendar: we now ensure correct notification icons in Notification Center, we better ensure Calendar is opened when selecting a notification, and we fixed an issue where event timezones could be overwritten.
 
