@@ -76,6 +76,10 @@ We've released many smaller fixes and improvements throughout elementary OS 6 an
 
 ARM builds have been enabled for Flatpak. This means we can start building first-party and AppCenter apps for 64-bit ARM platforms like Pinebook Pro and Raspberry Pi 4 again. Stay tuned for more info on this as we continue the work.
 
+<aside markdown="1">
+>We can start building apps for platforms like Pinebook Pro and Raspberry Pi 4
+</aside>
+
 In the login/lockscreen greeter, we now hide the clock during Initial Setup since it often was covered. We also use the user's selected accent color for the logged-in checkmark for an additional splash of accent color.
 
 You can now stash the picture-in-picture window by pushing it off screen—and we fixed a potential crash while changing wallpapers.
