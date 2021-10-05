@@ -81,7 +81,7 @@ ARM builds have been enabled for Flatpak. This means we can start building first
 
 In the login/lockscreen greeter, we now hide the clock during Initial Setup since it often was covered. We also use the user's selected accent color for the logged-in checkmark for an additional splash of accent color.
 
-You can now stash the picture-in-picture window by pushing it off screen—and we fixed a potential crash while changing wallpapers. Notification Center will now use an app's name as fallback title.
+You can now stash the picture-in-picture window by pushing it off screen—and we fixed a potential crash while changing wallpapers. Notification Center will now use an app's name when a notification title isn't provided, bringing it in line with notification bubbles.
 
 We added a new toggle for “Double-tap and move to drag” in the Mouse & Touchpad settings. We fixed a crash in the Network settings for some hardware. We fixed an issue in Applications settings with setting the incorrect app for certain files types, and don't overwrite custom permissions overrides when unnecessary. We ensure IBus automatically starts on login when needed.
 
