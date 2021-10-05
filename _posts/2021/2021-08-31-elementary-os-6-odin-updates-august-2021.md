@@ -2,7 +2,7 @@
 title: elementary OS 6 Updates for August, 2021
 description: Just three weeks since the release, and we already have more goodies
 author: danrabbit
-image: /images/os-6-updates-for-august-2021/card.png
+image: /images/elementary-os-6-odin-updates-august-2021/card.png
 tags:
   - odin
   - updates
@@ -22,8 +22,8 @@ If you're not running elementary OS but still want to get these AppCenter apps, 
 
 <figure>
   <picture>
-    <source srcset="/images/os-6-updates-for-august-2021/badger-dark.png" media="(prefers-color-scheme: dark)">
-    <img alt="Badger on AppCenter" src="/images/os-6-updates-for-august-2021/badger-light.png"/>
+    <source srcset="/images/{{ page.slug }}/badger-dark.png" media="(prefers-color-scheme: dark)">
+    <img alt="Badger on AppCenter" src="/images/{{ page.slug }}/badger-light.png"/>
   </picture>
 <figcaption>Free apps like Badger now show a button "Download as Flatpak"</figcaption>
 </figure>
@@ -32,8 +32,8 @@ We've been putting a lot of work into the first run experience, especially with 
 
 <figure>
   <picture>
-    <source srcset="/images/os-6-updates-for-august-2021/appcenter-dark.png" media="(prefers-color-scheme: dark)">
-    <img alt="AppCenter showing no results found" src="/images/os-6-updates-for-august-2021/appcenter-light.png" width="1169" height="729" />
+    <source srcset="/images/{{ page.slug }}/appcenter-dark.png" media="(prefers-color-scheme: dark)">
+    <img alt="AppCenter showing no results found" src="/images/{{ page.slug }}/appcenter-light.png" width="1169" height="729" />
   </picture>
 <figcaption>AppCenter now reminds of Sideload when a search has no results</figcaption>
 </figure>
@@ -47,8 +47,8 @@ Our brand new Online Accounts system has seen a little love around IMAP accounts
 
 <figure>
   <picture>
-    <source srcset="/images/os-6-updates-for-august-2021/onlineaccounts-dark.png" media="(prefers-color-scheme: dark)">
-    <img alt="System Settings → Online Accounts" src="/images/os-6-updates-for-august-2021/onlineaccounts-light.png" width="1044" height="740" />
+    <source srcset="/images/{{ page.slug }}/onlineaccounts-dark.png" media="(prefers-color-scheme: dark)">
+    <img alt="System Settings → Online Accounts" src="/images/{{ page.slug }}/onlineaccounts-light.png" width="1044" height="740" />
   </picture>
 <figcaption>IMAP accounts can now be edited in System Settings → Online Accounts</figcaption>
 </figure>
@@ -73,7 +73,7 @@ A couple of nice fixes landed in the Installer and Initial Setup that make it ea
 
 <figure>
   <picture>
-    <img alt="Initial Setup" src="/images/os-6-updates-for-august-2021/initial-setup.png" width="916" height="666" />
+    <img alt="Initial Setup" src="/images/{{ page.slug }}/initial-setup.png" width="916" height="666" />
   </picture>
 <figcaption>Initial Setup now helps you name your device</figcaption>
 </figure>
