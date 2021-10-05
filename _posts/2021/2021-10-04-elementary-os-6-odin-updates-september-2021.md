@@ -54,7 +54,7 @@ Our improvements to Online Accounts and related apps continued this month. In Sy
 
 Now that we have a fresh new codebase with Mail on OS 6, improvements are starting to flood in. The big one this month is notifications: Mail will once again automatically notify when new messages arrive, even when the window is closed. We've also improved the list of messages with a new inline toolbar with a "refresh" button to manually fetch new messages and togglable filters for unread or starred conversations. And when you delete a message, the next one in the list will now be selected automatically.
 
-We've also shipped a few performance improvements and fixes: you'll notice much better search performance, we fixed an issue with double drafts for Outlook.com accounts, and we fixed a potential crash when changing folders.
+Mail also now provides the email portal for apps that support it (replacing the previous Contractor contract on elementary OS), making it easier for sandboxed apps to prompt you to start composing a message. We've also shipped a few performance improvements and fixes: you'll notice much better search performance, we fixed an issue with double drafts for Outlook.com accounts, and we fixed a potential crash when changing folders.
 
 ### Tasks
 
