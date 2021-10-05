@@ -84,17 +84,11 @@ ARM builds have been enabled for Flatpak. This means we can start building first
 >We can start building apps for platforms like Pinebook Pro and Raspberry Pi 4
 </aside>
 
-In the login/lockscreen greeter, we now hide the clock during Initial Setup since it often was covered. We also use the user's selected accent color for the logged-in checkmark for an additional splash of accent color.
+In the login/lockscreen greeter, we now hide the clock during Initial Setup since it often was covered. We also use the user's selected accent color for the logged-in checkmark for an additional splash of accent color. You can now stash the picture-in-picture window by pushing it off screen—and we fixed a potential crash while changing wallpapers. Notification Center will now use an app's name when a notification title isn't provided, bringing it in line with notification bubbles. We fixed "rubberband" selection styling and titles when previewing images in Photos. And we fixed a blurry Sideload icon in the Multitasking View.
 
-You can now stash the picture-in-picture window by pushing it off screen—and we fixed a potential crash while changing wallpapers. Notification Center will now use an app's name when a notification title isn't provided, bringing it in line with notification bubbles.
+There was a decent amount of work in System Settings as well: we added a new toggle for “Double-tap and move to drag” in the Mouse & Touchpad settings; we fixed a crash in the Network settings for some hardware; we fixed an issue in Applications settings with setting the incorrect app for certain files types, and don't overwrite custom permissions overrides when unnecessary; and for those of you using advanced keyboard input methods, we now ensure IBus automatically starts on login.
 
-We added a new toggle for “Double-tap and move to drag” in the Mouse & Touchpad settings. We fixed a crash in the Network settings for some hardware. We fixed an issue in Applications settings with setting the incorrect app for certain files types, and don't overwrite custom permissions overrides when unnecessary. For those of you using advanced keyboard input methods, we now ensure IBus automatically starts on login.
-
-We fixed "rubberband" selection styling and titles when previewing images in Photos, and we fixed a blurry Sideload icon in the Multitasking View.
-
-Finally, we added support for launching apps on dedicated graphics on hybrid graphics systems (e.g. NVIDIA Optimus) from the Applications Menu.
-
-And as always, there are translation updates, code cleanups, and other under-the-hood improvements included with these updates across the OS and apps.
+Finally, we added support for launching apps on dedicated graphics on hybrid graphics systems (e.g. NVIDIA Optimus) from the Applications Menu. And as always, there are translation updates, code cleanups, and other under-the-hood improvements included with these updates across the OS and apps.
 
 <aside markdown="1">
 >We prioritize our work based directly off of the feedback we receive through the Feedback utility and GitHub
