@@ -37,6 +37,11 @@ We've also spent significant time improving individual apps' info pages. Rather 
 
 Several more improvements permeate throughout AppCenter: fallback colors for apps that don't provide their own brand colors—including non-curated apps—now get a pleasant and more subtle look based on your selected system-wide accent color including better support for the dark style. As we continue to work on AppCenter for Everyone, we've reworked the Install button to ease into the future flow that will use a Flatpak authenticator to handle purchases; rather than having a dropdown arrow with a popover to change the price, we're now more clear about how "Pay What You Can" works and include changing the amount to pay in the payment dialog itself. And since we use this same widget on the home page, on app info pages, and in lists of apps, it's consistent everywhere.
 
+<figure markdown="1">
+![AppCenter payment dialog](/images/{{ page.slug }}/stripe-dialog.png){: width="568" height="379"}
+<figcaption>Redesigned payment dialog</figcaption>
+</figure>
+
 We've also worked with downstreams like Fedora and Pop!_OS to test these updates using the same build flags they use, including adding automated testing to ensure things continue to build using the non-default options when we change the code for elementary OS. And since the redesigned home page relies on local data rather than a remote API, we no longer disable it on builds targeting Fedora or other non-elementary platforms; as a result, AppCenter is much more engaging and useful for any downstream.
 
 Developers of third-party apps have also continued releasing their apps on [AppCenter for elementary OS 6](https://appcenter.elementary.io)—and several more are in the queue being reviewed. We're also happy to report that many developers have been pushing out rapid and frequent updates to existing apps with new features and bug fixes, as they're in control of their own update schedule. Third-party apps on elementary OS continue to get better with time—and as a reminder, these apps will now carry forward to future versions of elementary OS and be made available on any modern Linux-based OS thanks to our continued AppCenter for Everyone work.
