@@ -91,10 +91,10 @@ There was a decent amount of work in System Settings as well: we added a new tog
 Finally, we added support for launching apps on dedicated graphics on hybrid graphics systems (e.g. NVIDIA Optimus) from the Applications Menu. And as always, there are translation updates, code cleanups, and other under-the-hood improvements included with these updates across the OS and apps.
 
 <aside markdown="1">
->We prioritize our work based directly off of the feedback we receive through the Feedback utility and GitHub
+>We prioritize our work based directly off of the feedback we receive
 </aside>
 
-If you're experiencing an issue that wasn't fixed in this month's updates—or if you have an idea for a new feature—we'd love to hear from you. You can send your feedback on elementary OS 6 by searching for "Feedback" in the Applications Menu or by navigating to _System Settings_ → _System_ and selecting "Send Feedback" at the bottom of the window. Alternatively, you can file an issue report or start a discussion on the appropriate repository on [our GitHub organization](https://github.com/elementary). We prioritize our work based directly off of the feedback we receive through the Feedback utility and GitHub, so those are the best ways to make sure your voice is heard.
+If you're experiencing an issue that wasn't fixed in this month's updates—or if you have an idea for a new feature—we'd love to hear from you. You can send your feedback on elementary OS 6 by searching for "Feedback" in the Applications Menu or by navigating to _System Settings_ → _System_ and selecting "Send Feedback". We prioritize our work based directly off of the feedback we receive. Also be sure to check out our [improved issue reporting guide](https://docs.elementary.io/contributor-guide/feedback/reporting-issues) for tips and more info.
 
 If you'd like to follow along with development and see what we're working on and prioritizing for the next monthly updates, check out the [OS 6.1 project board on GitHub](https://github.com/orgs/elementary/projects/90).
 
