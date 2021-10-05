@@ -5,9 +5,135 @@
     <description>We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS</description>
     <link>https://blog.elementary.io/</link>
     <atom:link href="https://blog.elementary.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 04 Oct 2021 19:04:19 -0500</pubDate>
-    <lastBuildDate>Mon, 04 Oct 2021 19:04:19 -0500</lastBuildDate>
+    <pubDate>Mon, 04 Oct 2021 23:33:19 -0500</pubDate>
+    <lastBuildDate>Mon, 04 Oct 2021 23:33:19 -0500</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      
+        <item>
+          <title>elementary OS 6 Updates for September, 2021</title>
+          <description>&lt;p&gt;We’re back with your monthly report on updates to elementary OS 6! It was another incredibly eventful month as we continued fixing reported issues and focused in especially on improvements to AppCenter and Online Accounts apps like Mail. But before we get to all the goodies, we’re proud to report that OS 6 has been downloaded from our website &lt;a href=&quot;https://plausible.io/elementary.io?period=custom&amp;amp;goal=Download&amp;amp;from=2021-08-10&amp;amp;to=2021-10-04&amp;amp;props=%7B%22Version%22%3A%226%22%7D&quot;&gt;over 137,000 times&lt;/a&gt;—and as always, that’s not including downloads from third parties or direct downloads via torrent that bypass our download page.&lt;/p&gt;
+
+&lt;h2 id=&quot;appcenter&quot;&gt;AppCenter&lt;/h2&gt;
+
+&lt;p&gt;Over the past month, we’ve been improving AppCenter from the inside out. Our shift from Debian packages to Flatpak for both curated and non-curated apps means we’re able to lean more on Flatpak features; in addition to continued code cleaning and improvements, we’ve been using this as an opportunity to make AppCenter much more engaging and informative right from the start.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/elementary-os-6-odin-updates-september-2021/appcenter-home.png&quot; alt=&quot;AppCenter Home Page&quot; width=&quot;1408&quot; height=&quot;895&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;The refreshed home page&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;For example, we’ve largely reworked the home page with banners featuring the most recently released and updated curated apps in a multi-touch swipable carousel. We’ve also added up to twelve more of the most recently-updated apps directly below. Rather than just showing the app’s icon and name, we now also show each app’s summary and an install button—including the developer’s recommended price if it’s a monetized app. Since we enforce accurate update information for curated apps, this data is populated locally from the apps’ AppStream data rather than from a remote API as before. The result of this work is a faster home page with over three times the apps displayed, as well as the ability to purchase or install several apps with far fewer clicks. The categories remain below if you prefer that route for browsing.&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/elementary-os-6-odin-updates-september-2021/appcenter-report-card.png&quot; alt=&quot;AppCenter Non-curated App Info Page&quot; width=&quot;1408&quot; height=&quot;895&quot; /&gt;
+&lt;img src=&quot;/images/elementary-os-6-odin-updates-september-2021/appcenter-related.png&quot; alt=&quot;AppCenter Related Apps&quot; width=&quot;1033&quot; height=&quot;607&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;&lt;strong&gt;Left:&lt;/strong&gt; A non-curated app info page and its “report card” | &lt;strong&gt;Right:&lt;/strong&gt; Other Flatpak apps from the same developer as the selected app&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We’ve also spent significant time improving individual apps’ info pages. Rather than displaying a generic “explicit” warning dialog when installing an app with certain content warnings, we show this information ahead of time at the top of the page. We differentiate between and inform about several content warnings including things like violence, language, and nudity as well as privacy-related topics like online interactions and data collection. And since we validate this information for curated apps but can’t make any guarantees about non-curated apps, we also more clearly inform ahead of time when an app is not curated with an additional badge. This new section works like a content and privacy “report card” you can use to learn more about apps and make informed choices while also reducing the road blocks to installing the apps you want. We also now show apps from the same developer at the bottom of app info pages regardless of packaging technology used, meaning it works equally well for first-party, curated, and non-curated apps.&lt;/p&gt;
+
+&lt;aside&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;This new section works like a content and privacy “report card”&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;Several more improvements permeate throughout AppCenter: fallback colors for apps that don’t provide their own brand colors—including non-curated apps—now get a pleasant and more subtle look based on your selected system-wide accent color including better support for the dark style. As we continue to work on AppCenter for Everyone, we’ve reworked the Install button to ease into the future flow that will use a Flatpak authenticator to handle purchases; rather than having a dropdown arrow with a popover to change the price, we’re now more clear about how “Pay What You Can” works and include changing the amount to pay in the payment dialog itself—and validated entries now show a green check and invalid ones show a red error so it’s much clearer when card info has been entered incorrectly. And since we use this same widget on the home page, on app info pages, and in lists of apps, it’s consistent everywhere.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/elementary-os-6-odin-updates-september-2021/stripe-dialog.png&quot; alt=&quot;AppCenter payment dialog&quot; width=&quot;568&quot; height=&quot;379&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;Redesigned payment dialog&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We’ve also worked with downstreams like Fedora and Pop!_OS to test these updates using the same build flags they use, including adding automated testing to ensure things continue to build using the non-default options when we change the code for elementary OS. And since the redesigned home page relies on local data rather than a remote API, we no longer disable it on builds targeting Fedora or other non-elementary platforms; as a result, AppCenter is much more engaging and useful for any downstream.&lt;/p&gt;
+
+&lt;p&gt;Developers of third-party apps have also continued releasing their apps on &lt;a href=&quot;https://appcenter.elementary.io&quot;&gt;AppCenter for elementary OS 6&lt;/a&gt;, with 68 curated apps now available on OS 6—and several more are in the queue being reviewed. We’re also happy to report that many developers have been pushing out rapid and frequent updates to existing apps with new features and bug fixes, as they’re in control of their own update schedule. Third-party apps on elementary OS continue to get better with time—and as a reminder, these apps will now carry forward to future versions of elementary OS and be made available on any modern Linux-based OS thanks to our continued AppCenter for Everyone work.&lt;/p&gt;
+
+&lt;h2 id=&quot;online-accounts&quot;&gt;Online Accounts&lt;/h2&gt;
+
+&lt;p&gt;Our improvements to Online Accounts and related apps continued this month. In System Settings, we make sure you can always navigate next when adding an account by pressing &lt;kbd&gt;Enter&lt;/kbd&gt; and that you can close dialogs as expected with &lt;kbd&gt;Esc&lt;/kbd&gt;. We also ensure the refresh interval for an IMAP account is set (which will let apps like Mail change this in the future), we fixed adding, editing, and removing lists in CalDAV apps like Tasks, and we use a more complete list of authentication methods for IMAP to improve compatibility with online accounts providers.&lt;/p&gt;
+
+&lt;h3 id=&quot;mail&quot;&gt;Mail&lt;/h3&gt;
+
+&lt;p&gt;Now that we have a fresh new codebase with Mail on OS 6, improvements are starting to flood in. The big one this month is notifications: Mail will once again automatically notify when new messages arrive, even when the window is closed. We’ve also improved the list of messages with a new inline toolbar with a “refresh” button to manually fetch new messages and togglable filters for unread or starred conversations. And when you delete a message, the next one in the list will now be selected automatically.&lt;/p&gt;
+
+&lt;p&gt;Mail also now provides the email portal for apps that support it (replacing the previous Contractor contract on elementary OS), making it easier for sandboxed apps to prompt you to start composing a message. We’ve also shipped a few performance improvements and fixes: you’ll notice much better search performance, we fixed an issue with double drafts for Outlook.com accounts, and we fixed a potential crash when changing folders.&lt;/p&gt;
+
+&lt;h3 id=&quot;tasks&quot;&gt;Tasks&lt;/h3&gt;
+
+&lt;p&gt;We shipped a number of improvements to Tasks: to prevent accidental task deletion, we’ve replaced the Delete shortcut key with &lt;kbd&gt;Ctrl&lt;/kbd&gt;&lt;kbd&gt;Backspace&lt;/kbd&gt; and added a confirmation dialog when deleting a task list; we’ve improved performance in lists with lots of completed tasks; we prevent account name headers from being displayed multiple times in the sidebar; we now truncate long descriptions at the end instead of the beginning; we ensure tasks are saved when the description is removed; and finally, we improved cursor placement in descriptions when editing.&lt;/p&gt;
+
+&lt;p&gt;As a note, if you were having issues adding, editing, or removing lists, try removing and re-adding your CalDAV account in &lt;em&gt;System Settings&lt;/em&gt; → &lt;em&gt;Online Accounts&lt;/em&gt; to take advantage of the improvements made there.&lt;/p&gt;
+
+&lt;h3 id=&quot;calendar&quot;&gt;Calendar&lt;/h3&gt;
+
+&lt;p&gt;We’ve also shipped a number of fixes for Calendar: we now ensure correct notification icons in Notification Center, we better ensure Calendar is opened when selecting a notification, and we fixed an issue where event timezones could be overwritten.&lt;/p&gt;
+
+&lt;h2 id=&quot;files&quot;&gt;Files&lt;/h2&gt;
+
+&lt;p&gt;We’ve released a handful of fixes to Files this month. You can now open bookmarks in a new tab with &lt;kbd&gt;Ctrl&lt;/kbd&gt; Click, we fixed dropping paths onto storage devices and network locations in the sidebar, we fixed restoring tabs after a system restart, we ensure Files doesn’t deselect a file or folder when secondary clicking the blank space around it, an we now show the folder context menu when secondary clicking outside of a selection.&lt;/p&gt;
+
+&lt;h2 id=&quot;code&quot;&gt;Code&lt;/h2&gt;
+
+&lt;p&gt;We released a small update to Code this month with an improvement for those who tile windows, especially on smaller displays: we now hide the project chooser button when hiding the sidebar, allowing a smaller minimum window width. We also better ensure files created from the sidebar are automatically opened, and fixed a potential crash when creating new window by dragging and dropping a tab.&lt;/p&gt;
+
+&lt;h2 id=&quot;other-fixes--updates&quot;&gt;Other Fixes &amp;amp; Updates&lt;/h2&gt;
+
+&lt;p&gt;We’ve released many smaller fixes and improvements throughout elementary OS 6 and its apps. In no particular order:&lt;/p&gt;
+
+&lt;p&gt;ARM builds have been enabled for Flatpak. This means we can start building first-party and AppCenter apps for 64-bit ARM platforms like Pinebook Pro and Raspberry Pi 4 again. Stay tuned for more info on this as we continue the work.&lt;/p&gt;
+
+&lt;aside&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;We can start building apps for platforms like Pinebook Pro and Raspberry Pi 4&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;In the login/lockscreen greeter, we now hide the clock during Initial Setup since it often was covered. We also use the user’s selected accent color for the logged-in checkmark for an additional splash of accent color. You can now stash the picture-in-picture window by pushing it off screen—and we fixed a potential crash while changing wallpapers. Notification Center will now use an app’s name when a notification title isn’t provided, bringing it in line with notification bubbles. We fixed “rubberband” selection styling and titles when previewing images in Photos. And we fixed a blurry Sideload icon in the Multitasking View.&lt;/p&gt;
+
+&lt;p&gt;There was a decent amount of work in System Settings as well: we added a new toggle for “Double-tap and move to drag” in the Mouse &amp;amp; Touchpad settings; we fixed a crash in the Network settings for some hardware; we fixed an issue in Applications settings with setting the incorrect app for certain files types, and don’t overwrite custom permissions overrides when unnecessary; and for those of you using advanced keyboard input methods, we now ensure IBus automatically starts on login.&lt;/p&gt;
+
+&lt;p&gt;Finally, we added support for launching apps on dedicated graphics on hybrid graphics systems (e.g. NVIDIA Optimus) from the Applications Menu. And as always, there are translation updates, code cleanups, and other under-the-hood improvements included with these updates across the OS and apps.&lt;/p&gt;
+
+&lt;aside&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;We prioritize our work based directly off of the feedback we receive&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;If you’re experiencing an issue that wasn’t fixed in this month’s updates—or if you have an idea for a new feature—we’d love to hear from you. You can send your feedback on elementary OS 6 by searching for “Feedback” in the Applications Menu or by navigating to &lt;em&gt;System Settings&lt;/em&gt; → &lt;em&gt;System&lt;/em&gt; and selecting “Send Feedback”. We prioritize our work based directly off of the feedback we receive. Also be sure to check out our &lt;a href=&quot;https://docs.elementary.io/contributor-guide/feedback/reporting-issues&quot;&gt;improved issue reporting guide&lt;/a&gt; for tips and more info.&lt;/p&gt;
+
+&lt;p&gt;If you’d like to follow along with development and see what we’re working on and prioritizing for the next monthly updates, check out the &lt;a href=&quot;https://github.com/orgs/elementary/projects/90&quot;&gt;OS 6.1 project board on GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;get-these-updates&quot;&gt;Get These Updates&lt;/h2&gt;
+
+&lt;p&gt;As always, if you’re running elementary OS 6 you can get all of these updates directly from AppCenter by opening up the “Installed” tab and selecting “Update All”, and previous OS 6 purchase links from email receipts will be upgraded to the newest version.&lt;/p&gt;
+
+&lt;p&gt;If you’re not yet running OS 6, we’ll be publishing a new 6.0.2 download for a pay-what-you-can price that includes all of these updates &lt;a href=&quot;https://elementary.io&quot;&gt;on our homepage&lt;/a&gt; soon.&lt;/p&gt;
+
+&lt;h2 id=&quot;special-thanks&quot;&gt;Special Thanks&lt;/h2&gt;
+
+&lt;p&gt;We’d like to give a special thanks yet again this month to Marco for his work on apps using Online Accounts like Mail and Calendar. Check out his &lt;a href=&quot;https://www.marco.betschart.name/blog/2021-09-28-elementary-os-office-productivity-improvements&quot;&gt;dedicated blog post about his work&lt;/a&gt;, and be sure to hit up his &lt;a href=&quot;https://github.com/sponsors/marbetschar&quot;&gt;GitHub Sponsors page&lt;/a&gt; to help him expand his open source software work.&lt;/p&gt;
+</description>
+          <pubDate>Mon, 04 Oct 2021 00:00:00 -0500</pubDate>
+          <link>https://blog.elementary.io/elementary-os-6-odin-updates-september-2021/</link>
+          <guid isPermaLink="true">https://blog.elementary.io/elementary-os-6-odin-updates-september-2021/</guid>
+          
+              
+              
+          <enclosure url="https://blog.elementary.io" />
+          
+          
+          <category>odin</category>
+          
+          <category>updates</category>
+          
+          
+        </item>
+      
     
       
         <item>
@@ -22,8 +148,8 @@
 
 &lt;figure&gt;
   &lt;picture&gt;
-    &lt;source srcset=&quot;/images/os-6-updates-for-august-2021/badger-dark.png&quot; media=&quot;(prefers-color-scheme: dark)&quot; /&gt;
-    &lt;img alt=&quot;Badger on AppCenter&quot; src=&quot;/images/os-6-updates-for-august-2021/badger-light.png&quot; /&gt;
+    &lt;source srcset=&quot;/images/elementary-os-6-odin-updates-august-2021/badger-dark.png&quot; media=&quot;(prefers-color-scheme: dark)&quot; /&gt;
+    &lt;img alt=&quot;Badger on AppCenter&quot; src=&quot;/images/elementary-os-6-odin-updates-august-2021/badger-light.png&quot; /&gt;
   &lt;/picture&gt;
 &lt;figcaption&gt;Free apps like Badger now show a button &quot;Download as Flatpak&quot;&lt;/figcaption&gt;
 &lt;/figure&gt;
@@ -32,8 +158,8 @@
 
 &lt;figure&gt;
   &lt;picture&gt;
-    &lt;source srcset=&quot;/images/os-6-updates-for-august-2021/appcenter-dark.png&quot; media=&quot;(prefers-color-scheme: dark)&quot; /&gt;
-    &lt;img alt=&quot;AppCenter showing no results found&quot; src=&quot;/images/os-6-updates-for-august-2021/appcenter-light.png&quot; width=&quot;1169&quot; height=&quot;729&quot; /&gt;
+    &lt;source srcset=&quot;/images/elementary-os-6-odin-updates-august-2021/appcenter-dark.png&quot; media=&quot;(prefers-color-scheme: dark)&quot; /&gt;
+    &lt;img alt=&quot;AppCenter showing no results found&quot; src=&quot;/images/elementary-os-6-odin-updates-august-2021/appcenter-light.png&quot; width=&quot;1169&quot; height=&quot;729&quot; /&gt;
   &lt;/picture&gt;
 &lt;figcaption&gt;AppCenter now reminds of Sideload when a search has no results&lt;/figcaption&gt;
 &lt;/figure&gt;
@@ -46,8 +172,8 @@
 
 &lt;figure&gt;
   &lt;picture&gt;
-    &lt;source srcset=&quot;/images/os-6-updates-for-august-2021/onlineaccounts-dark.png&quot; media=&quot;(prefers-color-scheme: dark)&quot; /&gt;
-    &lt;img alt=&quot;System Settings → Online Accounts&quot; src=&quot;/images/os-6-updates-for-august-2021/onlineaccounts-light.png&quot; width=&quot;1044&quot; height=&quot;740&quot; /&gt;
+    &lt;source srcset=&quot;/images/elementary-os-6-odin-updates-august-2021/onlineaccounts-dark.png&quot; media=&quot;(prefers-color-scheme: dark)&quot; /&gt;
+    &lt;img alt=&quot;System Settings → Online Accounts&quot; src=&quot;/images/elementary-os-6-odin-updates-august-2021/onlineaccounts-light.png&quot; width=&quot;1044&quot; height=&quot;740&quot; /&gt;
   &lt;/picture&gt;
 &lt;figcaption&gt;IMAP accounts can now be edited in System Settings → Online Accounts&lt;/figcaption&gt;
 &lt;/figure&gt;
@@ -72,7 +198,7 @@
 
 &lt;figure&gt;
   &lt;picture&gt;
-    &lt;img alt=&quot;Initial Setup&quot; src=&quot;/images/os-6-updates-for-august-2021/initial-setup.png&quot; width=&quot;916&quot; height=&quot;666&quot; /&gt;
+    &lt;img alt=&quot;Initial Setup&quot; src=&quot;/images/elementary-os-6-odin-updates-august-2021/initial-setup.png&quot; width=&quot;916&quot; height=&quot;666&quot; /&gt;
   &lt;/picture&gt;
 &lt;figcaption&gt;Initial Setup now helps you name your device&lt;/figcaption&gt;
 &lt;/figure&gt;
@@ -2024,315 +2150,6 @@ figure {
         </item>
       
     
-      
-    
-      
-        <item>
-          <title>Look &amp; Feel Changes Coming to elementary OS 6</title>
-          <description>&lt;p&gt;When a new major version of some piece of software is released, there is often an immediate focus put on visual changes. If there aren’t a ton of new and shinies, social media will inevitably be filled with words like “stale,” “old,” and “outdated.” This has become especially true for elementary OS, whose visual design hasn’t really changed all that much over the years. At elementary, we tend to avoid making changes for the sake of change. We’re very skeptical about design trends, and do our best to create things that feel a bit more “evergreen.” After all, “Good design is long lasting” and this allows us to focus more on refining than constantly reinventing. We also have a third-party developer community to think about, and making sweeping visual changes means that the nearly 200 apps in AppCenter will have to be updated and tested to make sure they still look as intended. So, when we decided to work on the look and feel for elementary OS 6, we wanted to approach things with a lot of intentionality, avoiding trends and focusing on setting the stage for the next several years.&lt;/p&gt;
-
-&lt;h2 id=&quot;toolkit--libraries&quot;&gt;Toolkit &amp;amp; Libraries&lt;/h2&gt;
-
-&lt;p&gt;App developers rely on pre-made widgets to do a lot of the heavy lifting and provide good default styles when making their apps. In addition to the widgets provided by GTK, we also ship our GTK companion library Granite that makes replicating common elementary design patterns a breeze. In elementary OS 6, we’re also making heavy use of Handy—a library that was originally developed by Purism for mobile interfaces but has now become a core part of the GNOME app development platform on the desktop. Thanks to Handy, we have two major, obvious visual design improvements that developers can adopt.&lt;/p&gt;
-
-&lt;div&gt;
-
-
-
-&lt;a class=&quot;featured with-image 1&quot; href=&quot;/platform-changes-in-elementary-os-6/&quot;&gt;
-  
-    &lt;div class=&quot;featured-image&quot; alt=&quot;Featured image&quot; style=&quot;background-image: url(/images/updates-for-july-2020/card.png);&quot;&gt;&lt;/div&gt;
-  
-
-  &lt;header&gt;
-    &lt;h2&gt;
-
-
-
-   Platform Changes in elementary OS&amp;nbsp;6
-
-&lt;/h2&gt;
-    
-      &lt;h3&gt;
-        
-
-
-
-   New technology that improves your&amp;nbsp;experience
-
-
-        
-      &lt;/h3&gt;
-    
-
-    
-
-
-
-&lt;div class=&quot;byline&quot;&gt;
-  &lt;div class=&quot;avatar&quot;&gt;
-    &lt;img srcset=&quot;https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&amp;amp;d=blank 2x&quot; src=&quot;https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&amp;amp;d=blank&quot; alt=&quot;Avatar for Danielle Foré&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;author&quot;&gt;
-    
-    &lt;span class=&quot;name&quot;&gt;Danielle Foré&lt;/span&gt;
-    
-    
-      &lt;span class=&quot;description&quot;&gt;Founder &amp;amp; CEO&lt;/span&gt;
-    
-  &lt;/div&gt;
-  &lt;time class=&quot;post-date&quot; datetime=&quot;2020-10-05&quot;&gt;Mon, Oct  5, 2020&lt;/time&gt;
-  
-    &lt;span class=&quot;read-time&quot; title=&quot;Estimated read time&quot;&gt;
-  
-  9 min read
-&lt;/span&gt;
-
-
-  
-&lt;/div&gt;
-
-
-  &lt;/header&gt;
-
-  
-&lt;/a&gt;
-
-
-&lt;/div&gt;
-
-&lt;p&gt;We’ve long had plans to modernize the Granite Avatar widget. A continual problem we’ve faced is that many people just don’t set an avatar for their user account. As a consequence, we need a more meaningful fallback design that allows avatars to be distinct and useful in apps like Mail or in System Settings. As it turns out, the folks behind Handy had the same thoughts and the work was largely already done. &lt;a href=&quot;https://github.com/exalm&quot;&gt;Alexander Mikhaylenko&lt;/a&gt; was very helpful and gracious in implementing changes in Handy to achieve the exact style we wanted, and I’m happy to say that we now have much more colorful interfaces in elementary OS 6 thanks to Handy Avatar, even if people don’t set avatar images.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;picture&gt;
-    &lt;source srcset=&quot;/images/look-and-feel-changes-coming-elementary-os-6/mail-dark.png&quot; media=&quot;(prefers-color-scheme: dark)&quot; /&gt;
-    &lt;img alt=&quot;Mail 2.0&quot; src=&quot;/images/look-and-feel-changes-coming-elementary-os-6/mail-light.png&quot; width=&quot;1280&quot; height=&quot;831&quot; /&gt;
-  &lt;/picture&gt;
-&lt;figcaption&gt;The new Mail 2.0 using Handy Avatar&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;The other obvious change is more rounded bottom window corners. This seems like something that would be simple, but is actually not possible in vanilla GTK3. In elementary OS 5, we used clever workarounds for specific cases to give dialogs and other flat windows rounded corners all the way around. But in elementary OS 6, we can now have rounded bottom corners even in complex cases like Camera, thanks to Hdy.Window. It’s a small thing, but it definitely makes the whole UI feel just a bit more polished.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;picture&gt;
-    &lt;source srcset=&quot;/images/look-and-feel-changes-coming-elementary-os-6/camera-dark.png&quot; media=&quot;(prefers-color-scheme: dark)&quot; /&gt;
-    &lt;img alt=&quot;Camera&quot; src=&quot;/images/look-and-feel-changes-coming-elementary-os-6/camera-light.png&quot; width=&quot;683&quot; height=&quot;575&quot; /&gt;
-  &lt;/picture&gt;
-&lt;figcaption&gt;Hey, it's me! But more importantly, the bottom corners are rounded here&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h2 id=&quot;typography&quot;&gt;Typography&lt;/h2&gt;
-
-&lt;p&gt;The default typefaces in elementary OS have also been changed for the first time since our initial brand work. Instead of Open Sans with Raleway for headers, we’ve unified on &lt;a href=&quot;https://rsms.me/inter/&quot;&gt;Inter&lt;/a&gt;: a new, modern typeface specifically designed for use in user interfaces on computer screens. The designer, Rasmus Andersson, actively updates Inter and has been very responsive on GitHub. He’s even weighed in on our use of Inter in elementary OS, and his feedback has led to changes in the weights we use for various headers.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;picture&gt;
-    &lt;source srcset=&quot;/images/look-and-feel-changes-coming-elementary-os-6/granite-welcome-dark.png&quot; media=&quot;(prefers-color-scheme: dark)&quot; /&gt;
-    &lt;img alt=&quot;Granite Welcome&quot; src=&quot;/images/look-and-feel-changes-coming-elementary-os-6/granite-welcome.png&quot; width=&quot;882&quot; height=&quot;693&quot; /&gt;
-  &lt;/picture&gt;
-&lt;figcaption&gt;Inter being used on Granite Demo's welcome screen&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;We’ve also revisited the default font rendering settings, opting for grayscale anti-aliasing over RGB; this addresses some issues we’ve seen with ghosting/leaking of colors around text, especially visible when using transparency. You’ll find that in general, text is bolder, higher contrast, and more legible in elementary OS 6.&lt;/p&gt;
-
-&lt;h2 id=&quot;iconography&quot;&gt;Iconography&lt;/h2&gt;
-
-&lt;p&gt;The visual style for our icons has remained largely unchanged, with more focus put on internal consistency. You’ll notice subtle improvements such as a more consistent use of our color palette, plus more gender-neutral depictions of a “user” in places like System Settings.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;picture&gt;
-    &lt;img alt=&quot;User Accounts icon&quot; src=&quot;/images/look-and-feel-changes-coming-elementary-os-6/system-users.svg&quot; width=&quot;32&quot; height=&quot;32&quot; /&gt;
-  &lt;/picture&gt;
-&lt;figcaption&gt;New user accounts icon&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;A long outstanding issue has been wrangling all the different styles of arrows that we’ve used over the years. There are hundreds of arrow icons in the elementary icon set, used across many different contexts. We provide both full color and flat, symbolic icons and in a range of different sizes. There are even different kinds of arrow tails depending on context, or no tail at all. In elementary OS 6, we have one new shape to rule them all and we’ve given arrows more rounded corners.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;picture&gt;
-    &lt;img src=&quot;/images/look-and-feel-changes-coming-elementary-os-6/arrows.svg&quot; /&gt;
-  &lt;/picture&gt;
-  &lt;figcaption&gt;A small portion of the new arrow icons&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;In arrows with curved tails, such as in Mail tool icons, the area under the curve is larger, making the shape more recognizeable at small sizes or for folks with less acute vision. We’ve also reduced busy overlap and improved separation in symbolic icons, which now match their full color counterparts much more closely.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;picture&gt;
-    &lt;img alt=&quot;Mail Reply Icon&quot; src=&quot;/images/look-and-feel-changes-coming-elementary-os-6/mail-icons.svg&quot; /&gt;
-  &lt;/picture&gt;
-  &lt;figcaption&gt;New Mail tool icons&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;We’re rounding out corners and using bolder shapes in other places as well. The new media controls icons for example feel much more weighty, and the lightning bolt symbol used on power icons is more distinct. Historically, going into more detail hasn’t been as important on LoDPI displays, but the new shapes really shine on displays with more pixels available.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;picture&gt;
-    &lt;img src=&quot;/images/look-and-feel-changes-coming-elementary-os-6/power-media-icons.svg&quot; /&gt;
-  &lt;/picture&gt;
-  &lt;figcaption&gt;New power and media controls icons&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h2 id=&quot;stylesheet&quot;&gt;Stylesheet&lt;/h2&gt;
-
-&lt;p&gt;One recurring bit of feedback that we’ve received is that in general, the stylesheet in elementary OS 5 is somewhat low contrast. Low contrast can make it hard to read text for visually impaired users, but it can also be a large problem on lower quality displays. Contrast between widgets and their backgrounds can also help clearly define different parts of an application, and especially which of those parts are interactive. Addressing these concerns is part of our larger project to make elementary OS 6 more accessible by default, which we’ve written about previously.&lt;/p&gt;
-
-&lt;div&gt;
-
-
-
-&lt;a class=&quot;featured with-image 1&quot; href=&quot;/accessibility-features-are-just-features/&quot;&gt;
-  
-    &lt;div class=&quot;featured-image&quot; alt=&quot;Featured image&quot; style=&quot;background-image: url(https://cdn-images-1.medium.com/max/1600/0*3Q6Snc6Qga_HsPK7);&quot;&gt;&lt;/div&gt;
-  
-
-  &lt;header&gt;
-    &lt;h2&gt;
-
-
-
-   Accessibility Features Are Just&amp;nbsp;Features
-
-&lt;/h2&gt;
-    
-      &lt;h3&gt;
-        
-
-
-
-   An OS-wide curb-cutting&amp;nbsp;effort
-
-
-        
-      &lt;/h3&gt;
-    
-
-    
-
-
-
-&lt;div class=&quot;byline&quot;&gt;
-  &lt;div class=&quot;avatar&quot;&gt;
-    &lt;img srcset=&quot;https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&amp;amp;d=blank 2x&quot; src=&quot;https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&amp;amp;d=blank&quot; alt=&quot;Avatar for Cassidy James Blaede&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;author&quot;&gt;
-    
-    &lt;span class=&quot;name&quot;&gt;Cassidy James Blaede&lt;/span&gt;
-    
-    
-      &lt;span class=&quot;description&quot;&gt;Co-founder &amp;amp; CXO&lt;/span&gt;
-    
-  &lt;/div&gt;
-  &lt;time class=&quot;post-date&quot; datetime=&quot;2019-02-16&quot;&gt;Sat, Feb 16, 2019&lt;/time&gt;
-  
-    &lt;span class=&quot;read-time&quot; title=&quot;Estimated read time&quot;&gt;
-  
-  4 min read
-&lt;/span&gt;
-
-
-  
-&lt;/div&gt;
-
-
-  &lt;/header&gt;
-
-  
-&lt;/a&gt;
-
-
-&lt;/div&gt;
-
-&lt;p&gt;To ensure we achieve the desired contrast, we created a design system built on UI levels. With a little bit of Sass magic, we can style widgets by picking a background level—such as 0 for inputs or 4 for toolbars—and then overlaying a white gradient and adding a shadow—which also comes in various levels. The overall result is a style that is a bit flatter on the surface of each layer, but overall more consistent in its use of depth, and with much more consistent and expressive use of shadows between layers.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;picture&gt;
-    &lt;source srcset=&quot;/images/look-and-feel-changes-coming-elementary-os-6/files-dark.png&quot; media=&quot;(prefers-color-scheme: dark)&quot; /&gt;
-    &lt;img alt=&quot;Granite Welcome&quot; src=&quot;/images/look-and-feel-changes-coming-elementary-os-6/files-light.png&quot; width=&quot;916&quot; height=&quot;655&quot; /&gt;
-  &lt;/picture&gt;
-&lt;figcaption&gt;Files with different levels as shown in inputs, sidebars, tabbars, actionbars, and headerbars&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Another place for more clear differentiation is in widget states. Interfaces are interactive: they can be selected, disabled, focused, or pressed. We started some work towards more clearly differentiated states in elementary OS 5 when we redesigned checkboxes, and in elementary OS 6 this work has extended to other interactive widgets like text entries and buttons. Disabled widgets, for example, are much more obviously darker than the default UI level, and are intentionally lower contrast than enabled widgets.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;picture&gt;
-    &lt;source srcset=&quot;/images/look-and-feel-changes-coming-elementary-os-6/widget-factory-dark.png&quot; media=&quot;(prefers-color-scheme: dark)&quot; /&gt;
-    &lt;img alt=&quot;GTK Widget Factory&quot; src=&quot;/images/look-and-feel-changes-coming-elementary-os-6/widget-factory-light.png&quot; width=&quot;1283&quot; height=&quot;778&quot; /&gt;
-  &lt;/picture&gt;
-&lt;figcaption&gt;The GTK Widget Factory demoing possible states of widgets&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Something we knew we needed to consider from very early on was a path towards making elementary OS feel more personal without breaking custom styles in apps. We know that many of our users are currently using custom CSS, but that it often leads to breakage and disappointment. In elementary OS 6, we provide 10 possible accent colors to choose from. Combined with the dark style, you can get a much more unique look for your operating system without having to worry about apps behaving incorrectly. The dark style follows all the same principles as outlined above including UI levels, using higher contrast, etc. And we’re still exploring more ways to expose your chosen accent color in ways that feel fun and personal.&lt;/p&gt;
-
-&lt;figure class=&quot;half&quot;&gt;
-  &lt;p&gt;&lt;img src=&quot;/images/look-and-feel-changes-coming-elementary-os-6/accent-pink.png&quot; alt=&quot;Light &amp;amp; Pink&quot; /&gt;
-&lt;img src=&quot;/images/look-and-feel-changes-coming-elementary-os-6/accent-green.png&quot; alt=&quot;Dark &amp;amp; Green&quot; /&gt;&lt;/p&gt;
-  &lt;figcaption&gt;
-    &lt;p&gt;&lt;strong&gt;Left:&lt;/strong&gt; A light desktop with the Bubblegum accent color | &lt;strong&gt;Right:&lt;/strong&gt; A dark desktop with the Lime accent color&lt;/p&gt;
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Focus styles are still a work in progress, but the goal here is to make much more bold use of color and to make the keyboard focus location much more obvious. We’ve also revisited selected states and suggested action button styles to make sure that we’re clearly differentiating between someone’s strawberry accent color and destructive action buttons. Instead of using white text on a colored background, we now use a much subtler style that is ultimately higher contrast as well. It also works much better for accent colors, custom brand colors in apps, or other places where we want to use color such as Calendar events.&lt;/p&gt;
-
-&lt;figure class=&quot;half&quot;&gt;
-  &lt;picture&gt;
-    &lt;source srcset=&quot;/images/look-and-feel-changes-coming-elementary-os-6/suggested-action-dark.png&quot; media=&quot;(prefers-color-scheme: dark)&quot; /&gt;
-    &lt;img alt=&quot;Suggested Action Dialog&quot; src=&quot;/images/look-and-feel-changes-coming-elementary-os-6/suggested-acton-light.png&quot; width=&quot;549&quot; height=&quot;301&quot; /&gt;
-  &lt;/picture&gt;
-  &lt;picture&gt;
-    &lt;source srcset=&quot;/images/look-and-feel-changes-coming-elementary-os-6/destructive-action-dark.png&quot; media=&quot;(prefers-color-scheme: dark)&quot; /&gt;
-    &lt;img alt=&quot;Destructive Action Dialog&quot; src=&quot;/images/look-and-feel-changes-coming-elementary-os-6/destructive-action-light.png&quot; width=&quot;549&quot; height=&quot;301&quot; /&gt;
-  &lt;/picture&gt;
-  &lt;figcaption&gt;
-    &lt;p&gt;&lt;strong&gt;Left:&lt;/strong&gt; A dialog with a suggested action | &lt;strong&gt;Right:&lt;/strong&gt; A dialog with a destructive action&lt;/p&gt;
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;We also hear regularly from users who have displays that sit in that uncomfortable zone between 1× and 2× UI scaling. While we’re still not offering traditional fractional scaling in elementary OS, we have been working on an improved scalable UI solution. In elementary OS 5, people who opted to change the default text size were left with an awkwardly spaced UI with large text, but small controls. In elementary OS 6, we now scale default widgets spacing, corner radii, etc. with text size, eliminating a lot of that awkwardness. It’s not quite perfect, but it will make elementary OS much more legible for more people without incurring the performance penalty associated with traditional fractional scaling. And we’re happy to have a more first-class experience for those who need larger text.&lt;/p&gt;
-
-&lt;figure class=&quot;half&quot;&gt;
-  &lt;picture&gt;
-    &lt;source srcset=&quot;/images/look-and-feel-changes-coming-elementary-os-6/scale-default-dark.png&quot; media=&quot;(prefers-color-scheme: dark)&quot; /&gt;
-    &lt;img alt=&quot;Default Scale&quot; src=&quot;/images/look-and-feel-changes-coming-elementary-os-6/scale-default-light.png&quot; width=&quot;376&quot; height=&quot;285&quot; /&gt;
-  &lt;/picture&gt;
-  &lt;picture&gt;
-    &lt;source srcset=&quot;/images/look-and-feel-changes-coming-elementary-os-6/scale-larger-dark.png&quot; media=&quot;(prefers-color-scheme: dark)&quot; /&gt;
-    &lt;img alt=&quot;Larger Scale&quot; src=&quot;/images/look-and-feel-changes-coming-elementary-os-6/scale-larger-light.png&quot; width=&quot;504&quot; height=&quot;338&quot; /&gt;
-  &lt;/picture&gt;
-  &lt;figcaption&gt;
-    &lt;p&gt;&lt;strong&gt;Left:&lt;/strong&gt; A dialog with the default scale | &lt;strong&gt;Right:&lt;/strong&gt; A dialog with a larger scale&lt;/p&gt;
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h2 id=&quot;get-early-access&quot;&gt;Get Early Access&lt;/h2&gt;
-
-&lt;p&gt;If you’re excited by what you read here and want to get your hands on the developer preview of elementary OS 6, you can! GitHub sponsors at the $10/mo or above tier get access to our &lt;a href=&quot;https://builds.elementary.io&quot;&gt;daily builds server&lt;/a&gt; where you can test the latest and greatest experimental builds, including builds for Pinebook Pro. Subscribing helps us fund the development of elementary OS and brings us that much closer to delivering the final product.&lt;/p&gt;
-
-&lt;div style=&quot;text-align: center&quot;&gt;
-  &lt;p&gt;&lt;a href=&quot;https://builds.elementary.io&quot; class=&quot;button&quot;&gt;Get Early Access Builds&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-
-</description>
-          <pubDate>Fri, 05 Mar 2021 00:00:00 -0600</pubDate>
-          <link>https://blog.elementary.io/look-and-feel-changes-elementary-os-6/</link>
-          <guid isPermaLink="true">https://blog.elementary.io/look-and-feel-changes-elementary-os-6/</guid>
-          
-              
-              
-          <enclosure url="https://blog.elementary.io" />
-          
-          
-          <category>design</category>
-          
-          <category>early-access</category>
-          
-          <category>odin</category>
-          
-          <category>ux</category>
-          
-          
-        </item>
       
     
   </channel>
