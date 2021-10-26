@@ -24,9 +24,17 @@ This month we've made the leap from GNOME Web 3.38 to 40.3 which brings quite a 
 
 https://blogs.gnome.org/alexm/2021/03/13/reinventing-tabs/
 
+## File Roller
+
+Replaced Ubuntu version with Flatpak built from 3.40. Supports dark style preference
+
 ## Calendar
 
 The seemingly never ending battle against timezones continues this month with fixes for Windows-style timezones in synced events. We also plugged a memory leak when fetching timezone information, and we fixed a regression that prevented Calendar from running in the background and notifying of upcoming events.
+
+## Camera
+
+Previously, Camera's resolution had been reduced for performance reasons, but in this latest version camera will use a more performant resolution in the view port, but save full-resolution pictures. We also fixed saving and restoring window size.
 
 ## Photos
 
