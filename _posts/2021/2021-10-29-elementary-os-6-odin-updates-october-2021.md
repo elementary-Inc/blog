@@ -12,25 +12,29 @@ It's time for another round of updates to elementary OS 6! This month's updates 
 
 ## AppCenter
 
-Show installation progress in a more compact way
+The most noticeable change this month in AppCenter is the new progress indicator when installing, removing, or updating apps. Instead of a separate progress bar, progress is now indicated in a compact way. This greatly improves AppCenter with smaller window sizes and fixes layout issues in views that show a lot of apps like the home page and when showing other apps by an author on the app info page.
 
-Don't store $0 app installs as paid
-Fix missing illicit substances icon
-Don't show plugins on the homepage
-Only show "Multiplayer" badge for games
+[SCREENSHOT]
+
+We also fixed a couple of small regressions introduced recently: apps which contain illicit substances now display the correct icon for this content warning, we no longer show a "Multiplayer" badge for apps with online functionality that aren't games, and we make sure not to show plugins on the home page. We also fixed an issue where $0 app installs were being recorded as paid, ensuring that AppCenter can properly suggest payment the next time you get an update from an app developer you haven't supported yet.
+
+## GNOME Web 40
+
+This month we've made the leap from GNOME Web 3.38 to 40.3 which brings quite a number of improvements including a redesigned tab bar, several performance and stability fixes, and of course rounded window corners! Fans of Firefox sync should note that this feature has moved from the preferences dialog to the "Import and Export" menu.
+
+https://blogs.gnome.org/alexm/2021/03/13/reinventing-tabs/
 
 ## Calendar
 
-Ensure Calendar runs in the background on startup
-Fix memory leak when getting timezone information
-Reliably read Windows-style timezones
+The seemingly never ending battle against timezones continues this month with fixes for Windows-style timezones in synced events. We also plugged a memory leak when fetching timezone information, and we fixed a regression that prevented Calendar from running in the background and notifying of upcoming events.
 
 ## Photos
 
-Focus photos on startup when previewing to fix navigating with left and right arrow keys
-Fix a possible crash with invalid date and time info
+Now when you open a photo in the previewer, we focus the photo itself right away instead of the save button; This enables navigating with the left and right arrow keys right away.
 
-Move Toggle Sidebar and Toggle Photo Info actions to the main menubutton
+The actions for "Toggle Sidebar" and "Toggle Photo Info" have been moved from the secondary-click menu of certain views to the main menubutton, hopefully making these customization options more discoverable.
+
+Also, we fixed a potential crash when importing photos with invalid date and time info
 
 ## Calculator
 Showing advanced controls only affects the focused window
@@ -89,3 +93,5 @@ As always, if you're running elementary OS 6 you can get all of these updates di
 If you're not yet running OS 6, we'll be publishing a new 6.0.2 download for a pay-what-you-can price that includes all of these updates [on our homepage](https://elementary.io) soon.
 
 ## Special Thanks
+
+Major shoutouts this month to David Hewitt for his work on fixing cross-platform issues. 
