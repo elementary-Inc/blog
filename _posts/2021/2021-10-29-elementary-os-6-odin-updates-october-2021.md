@@ -50,6 +50,14 @@ Focus the main text entry on startup
 Show the correct window title in Multitasking View
 Added 'New Window' Desktop Action
 
+## Mail
+
+Yet another release of Mail landed this month thanks to [David](https://github.com/dbhowell), [Justin](https://github.com/sponsors/jhaygood86), and [Marco](https://github.com/sponsors/marbetschar). Be sure to sponsor them on GitHub if you appreciate their work!
+
+Conversations in the list now have a handy secondary-click menu, the next conversation in the list is autoselected after archiving, messages use your local time in their headers, and unread messages now use your accent color for their titles to stand out a bit more.
+
+A handful of issues were also addressed including fixing the sender selection when opening mailto links, sent messages will not be marked as "unread", and mail will no longer hang when deleting the last message in a mailbox. Plus, we resolved an issue where Mail would sometimes fail to delete messages from your mail server, and we make sure that conversations get resorted by time and date when new messages are received.
+
 ## System Settings
 
 ### Locale
@@ -64,6 +72,11 @@ Support locales with 3-letter codes
 Performance improvements
 Better support for non-Ubuntu based distributions
 
+### Displays
+Move resolutions with a different aspect ratio to a submenu
+Improve brightness in the dark style
+Show display name on all workspaces<
+
 ## Indicators
 
 Applications Menu show secondary click menu for search results
@@ -71,6 +84,14 @@ Fix an issue with network indicator where it would try to launch capnet for all 
 Notifications indicator works on Fedora
 
 ## Portals
+
+<figure class="half card" markdown="1">
+![Apps in light style](/images/{{ page.slug }}/fdo-color-light.png)
+![Apps in dark style](/images/{{ page.slug }}/fdo-color-dark.png)
+<figcaption markdown="1">
+The dark style preference is now respected across desktops for GNOME and elementary OS apps
+</figcaption>
+</figure>
 
 Settings portal including freedesktop dark style preference
 First release of elementary portals which includes the OpenURI/AppChooser portal
@@ -102,4 +123,4 @@ If you're not yet running OS 6, we'll be publishing a new 6.0.2 download for a p
 
 ## Special Thanks
 
-Major shoutouts this month to David Hewitt for his work on fixing cross-platform issues. 
+Major shoutouts this month to David Hewitt for his work on fixing cross-platform issues and the entire GNOME community for their assistance in implementing the color scheme preference
