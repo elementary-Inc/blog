@@ -18,7 +18,7 @@ The most noticeable change this month in AppCenter is the new progress indicator
 
 We also fixed a couple of small regressions introduced recently: apps which contain illicit substances now display the correct icon for this content warning, we no longer show a "Multiplayer" badge for apps with online functionality that aren't games, and we make sure not to show plugins on the home page. We also fixed an issue where $0 app installs were being recorded as paid, ensuring that AppCenter can properly suggest payment the next time you get an update from an app developer you haven't supported yet.
 
-## GNOME Web 40
+## GNOME Web
 
 This month we've made the leap from GNOME Web 3.38 to 40.3 which brings quite a number of improvements including a redesigned tab bar, a new "reader" mode, several performance and stability fixes, and of course rounded window corners!
 
