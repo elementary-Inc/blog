@@ -20,9 +20,11 @@ We also fixed a couple of small regressions introduced recently: apps which cont
 
 ## GNOME Web 40
 
-This month we've made the leap from GNOME Web 3.38 to 40.3 which brings quite a number of improvements including a redesigned tab bar, several performance and stability fixes, and of course rounded window corners! Fans of Firefox sync should note that this feature has moved from the preferences dialog to the "Import and Export" menu.
+This month we've made the leap from GNOME Web 3.38 to 40.3 which brings quite a number of improvements including a redesigned tab bar, a new "reader" mode, several performance and stability fixes, and of course rounded window corners!
 
-For a deep dive into the new tab bar, check out [Alex's blog post](https://blogs.gnome.org/alexm/2021/03/13/reinventing-tabs/)
+The preferences dialog itself has been redesigned and now includes search. Managing search engines and passwords have been completely redesigned. Intelligent Tracking Prevention from Webkit is now included, along with a setting to disallow local storage. Google search suggestions are off by default, but you can opt-in on the Privacy tab to get this new feature. Appearance settings now include the ability to add custom JavaScript. Fans of Firefox sync should note that this feature has moved from the preferences dialog to the "Import and Export" menu.
+
+The new tab bar includes slick animations when opening, closing, and reordering tabs. Drag and Drop is much improved. When there are many open tabs, they can now be scrolled through quickly instead of individually paged with arrows. Closing tabs waits to resize like elementary apps. And the new tab bar fully supports touch screens. For a deep dive into the new tab bar, check out [Alex's blog post](https://blogs.gnome.org/alexm/2021/03/13/reinventing-tabs/)
 
 ## Mail
 
