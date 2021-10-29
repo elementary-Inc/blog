@@ -90,7 +90,7 @@ The new version of Granite also automatically using the Settings portal for a co
 
 Along with all of the headlining features and fixes above, there are a few more minor updates. Previously, Camera's resolution had been reduced for performance reasons; in the latest version Camera will use a more performant resolution in the view port, but save full-resolution pictures. We also fixed saving and restoring window size. Shortcut Overlay will no longer crash if a keyboard shortcut has been set to blank. The archive manager File Roller has been updated to version 3.40, supports the dark style preference, and is now shipped as a Flatpak.
 
-The Applications Menu now shows a secondary-click menu on search result items. We fixed an issue with the network indicator that caused unwanted launches of the captive network assistant. The Notifications indicator should now work on Fedora. The Date & Time indicator now correctly updates the current day upon opening, and we fixed an issue with numbers disappearing when switching between the dark and light styles.
+The Applications Menu now shows a secondary-click menu on search result items. We fixed an issue with the network indicator that caused unwanted launches of the captive network assistant. The assistant also gained a new icon and is now shipped as a Flatpak for greater security. The Notifications indicator should now work on Fedora. The Date & Time indicator now correctly updates the current day upon opening, and we fixed an issue with numbers disappearing when switching between the dark and light styles.
 
 And as always, there are translation updates, code cleanups, and other under-the-hood improvements included with these updates across the OS and apps.
 
