@@ -46,6 +46,10 @@ The seemingly never ending battle against time zones continues this month with f
 
 When Calculator starts up, we now focus the main text entry so that entering numbers with the keyboard works right away. We've also improved the experience with multiple windows: there's now a "New Window" action when secondary-clicking Calculator in the Applications Menu or Dock, and we fixed an issue with showing advanced controls so that it only affects the currently focused window. Lastly, we now show the correct window title in the Multitasking View.
 
+## Files
+
+We fixed an issue where some audio files would have a thumbnail placeholder forever instead of falling back to the audio file type icon when they have no album art. We also made sure the overlay bar in the bottom right doesn't briefly appear when switching between bookmarks. The names of bookmarked folders will now properly update if your language was changed. And we removed the message about reporting issues when running Files from Terminal.
+
 ## System Settings
 
 This month [David Hewitt](https://github.com/sponsors/davidmhewitt) spent some time resolving cross-platform issues in System Settings, which should make our desktop environment more easily portable to distros like Fedora and Nix OS. This also resulted in better support for locales that use 3-letter language codes and more reliable sidebar updates in User Accounts settings as well as some minor performance improvements.
@@ -68,6 +72,8 @@ The dark style preference is now respected across desktops for GNOME and element
 
 As before, this dark style preference is still opt-in for developers, which means it won't break apps that weren't tested against it. However, we're now using an agreed upon desktop-agnostic namespace in the Settings portal which works across application toolkits and desktop environments. What that means for you is that very soon GNOME apps will begin respecting the dark style preference on OS 6 and we hope to see this compatibility spread to KDE apps and more in the future. It also means that those running AppCenter apps on GNOME 42 will have their dark style preference automatically respected on day one.
 
+[ APP CHOOSER SCREENSHOT ]
+
 In other exciting portal news, we're shipping the first version of our elementary desktop portals which includes a new AppChooser. You'll notice Flatpak apps which launch files in another app using the new design.
 
 ## Developer Platform
@@ -82,7 +88,11 @@ The new version of Granite also automatically using the Settings portal for a co
 
 ## Other Fixes & Updates
 
-Along with all of the headlining features and fixes above, there are a few more minor updates. Previously, Camera's resolution had been reduced for performance reasons; in the latest version Camera will use a more performant resolution in the view port, but save full-resolution pictures. We also fixed saving and restoring window size. The archive manager File Roller has been updated to version 3.40, supports the dark style preference, and is now shipped as a Flatpak. The Applications Menu now shows a secondary-click menu on search result items, we fixed an issue with the network indicator that caused unwanted launches of the captive network assistant, and the Notifications indicator should now work on Fedora. And as always, there are translation updates, code cleanups, and other under-the-hood improvements included with these updates across the OS and apps.
+Along with all of the headlining features and fixes above, there are a few more minor updates. Previously, Camera's resolution had been reduced for performance reasons; in the latest version Camera will use a more performant resolution in the view port, but save full-resolution pictures. We also fixed saving and restoring window size. Shortcut Overlay will no longer crash if a keyboard shortcut has been set to blank. The archive manager File Roller has been updated to version 3.40, supports the dark style preference, and is now shipped as a Flatpak.
+
+The Applications Menu now shows a secondary-click menu on search result items. We fixed an issue with the network indicator that caused unwanted launches of the captive network assistant. The Notifications indicator should now work on Fedora. The Date & Time indicator now correctly updates the current day upon opening, and we fixed an issue with numbers disappearing when switching between the dark and light styles.
+
+And as always, there are translation updates, code cleanups, and other under-the-hood improvements included with these updates across the OS and apps.
 
 <aside markdown="1">
 >We prioritize our work based directly off of the feedback we receive
