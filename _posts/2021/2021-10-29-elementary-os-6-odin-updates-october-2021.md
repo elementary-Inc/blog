@@ -36,7 +36,7 @@ The new tab bar includes slick animations when opening, closing, and reordering 
 
 Yet another release of Mail landed this month thanks to [David Howell](https://github.com/dbhowell), [Justin](https://github.com/sponsors/jhaygood86), and [Marco](https://github.com/sponsors/marbetschar). Be sure to sponsor them on GitHub if you appreciate their work!
 
-Conversations in the list now have a handy secondary-click menu, the next conversation in the list is autoselected after archiving, messages use your local time in their headers, and unread messages now use your accent color for their titles to stand out a bit more.
+Conversations in the list now have a handy secondary-click menu, the next conversation in the list is automatically selected after archiving, messages use your local time in their headers, and unread messages now use your accent color for their titles to stand out a bit more.
 
 A handful of issues were also addressed including fixing the sender selection when opening mailto links, sent messages will not be marked as "unread", and mail will no longer hang when deleting the last message in a mailbox. Plus, we resolved an issue where Mail would sometimes fail to delete messages from your mail server, and we make sure that conversations get resorted by time and date when new messages are received.
 
