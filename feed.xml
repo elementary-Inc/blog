@@ -5,8 +5,8 @@
     <description>We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS</description>
     <link>https://blog.elementary.io/</link>
     <atom:link href="https://blog.elementary.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 30 Oct 2021 15:55:43 -0500</pubDate>
-    <lastBuildDate>Sat, 30 Oct 2021 15:55:43 -0500</lastBuildDate>
+    <pubDate>Sat, 30 Oct 2021 16:39:08 -0500</pubDate>
+    <lastBuildDate>Sat, 30 Oct 2021 16:39:08 -0500</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       
@@ -78,7 +78,7 @@
 &lt;figcaption&gt;Resolutions with a different aspect ratio are now shown in a sub-menu&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;Changing display resolution should be quite a bit more convenient now since we now show resolutions with a different aspect ratio in a separate sub-menu. We’ve also tweaked the style of Displays settings to be a bit more contrast in the dark style, and we fixed an issue that prevented display name tags from appearing on all workspaces.&lt;/p&gt;
+&lt;p&gt;Changing display resolution should be quite a bit more convenient now since we now show resolutions with a different aspect ratio in a separate sub-menu. We’ve also tweaked the style of Displays settings to be slightly lower contrast in the dark style, and we fixed an issue that prevented display name tags from appearing on all workspaces.&lt;/p&gt;
 
 &lt;h2 id=&quot;portals&quot;&gt;Portals&lt;/h2&gt;
 
@@ -92,7 +92,7 @@
   &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;As before, this dark style preference is still opt-in for developers, which means it won’t break apps that weren’t tested against it. However, we’re now using an agreed upon desktop-agnostic namespace in the Settings portal which works across application rootkits and desktop environments. What that means for you is that very soon GNOME apps will begin respecting the dark style preference on OS 6 and we hope to see this compatibility spread to KDE apps and more in the future. It also means that those running AppCenter apps on GNOME 42 will have their dark style preference automatically respected on day one.&lt;/p&gt;
+&lt;p&gt;As before, this dark style preference is still opt-in for developers, which means it won’t break apps that weren’t tested against it. However, we’re now using an agreed upon desktop-agnostic namespace in the Settings portal which works across application toolkits and desktop environments. What that means for you is that very soon GNOME apps will begin respecting the dark style preference on OS 6 and we hope to see this compatibility spread to KDE apps and more in the future. It also means that those running AppCenter apps on GNOME 42 will have their dark style preference automatically respected on day one.&lt;/p&gt;
 
 &lt;figure&gt;
   &lt;picture&gt;
