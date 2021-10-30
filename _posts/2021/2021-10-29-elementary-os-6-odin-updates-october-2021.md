@@ -42,7 +42,7 @@ A handful of issues were also addressed including fixing the sender selection wh
 
 ## Photos
 
-One of our oldest code bases got some nice updates this month as well. Now when you open a photo in the previewer, we focus the photo itself instead of the save button; This enables navigating with the left and right arrow keys right away. The actions for "Toggle Sidebar" and "Toggle Photo Info" have been moved from the secondary-click menu of certain views to the main menubutton, hopefully making these customization options more discoverable. Also, we fixed a potential crash when importing photos with invalid date and time info.
+One of our oldest code bases got some nice updates this month as well. Now when you open a photo in the previewer, we focus the photo itself instead of the save button; this enables navigating with the left and right arrow keys right away. The actions for "Toggle Sidebar" and "Toggle Photo Info" have been moved from the secondary-click menu of certain views to the main menu button, hopefully making these customization options more discoverable. We also fixed a potential crash when importing photos with invalid date and time info.
 
 ## Calendar
 
