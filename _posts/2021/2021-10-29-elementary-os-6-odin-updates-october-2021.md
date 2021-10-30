@@ -58,7 +58,7 @@ We fixed an issue where some audio files would have a thumbnail placeholder fore
 
 ## Videos
 
-Videos now supports the two-finger-swipe to go back gesture and navigation code has been cleaned up a ton. Window titles should be more accurate when navigating. Also, we're now shipping Videos as a Flatpak which should resolve some reported issues with certain video codecs.
+Videos now supports the two-finger-swipe to go back gesture and navigation code has been cleaned up a ton. Window titles should be more accurate when navigating. Also, we're now shipping Videos as a Flatpak which should resolve some reported issues with certain video codecs. This also means an update to the launcher file which will require you to put Videos back in your dock after update if you'd like to have it there. Sorry for the inconvenience!
 
 ## System Settings
 
@@ -73,7 +73,7 @@ This month [David Hewitt](https://github.com/sponsors/davidmhewitt) spent some t
 </figure>
 
 
-Changing display resolution should be quite a bit more convenient now since we now show resolutions with a different aspect ratio in a separate submenu. We've also tweaked the style of Displays settings to be a bit more contrasty in the dark style, and we fixed an issue that prevented display name tags from appearing on all workspaces.
+Changing display resolution should be quite a bit more convenient now since we now show resolutions with a different aspect ratio in a separate submenu. We've also tweaked the style of Displays settings to be a bit less contrasty in the dark style, and we fixed an issue that prevented display name tags from appearing on all workspaces.
 
 ## Portals
 
