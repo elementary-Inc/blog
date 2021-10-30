@@ -73,7 +73,7 @@ This month [David Hewitt](https://github.com/sponsors/davidmhewitt) spent some t
 </figure>
 
 
-Changing display resolution should be quite a bit more convenient now since we now show resolutions with a different aspect ratio in a separate submenu. We've also tweaked the style of Displays settings to be a bit more contrasty in the dark style, and we fixed an issue that prevented display name tags from appearing on all workspaces.
+Changing display resolution should be quite a bit more convenient now since we now show resolutions with a different aspect ratio in a separate sub-menu. We've also tweaked the style of Displays settings to be a bit more contrasty in the dark style, and we fixed an issue that prevented display name tags from appearing on all workspaces.
 
 ## Portals
 
