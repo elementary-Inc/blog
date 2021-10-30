@@ -75,7 +75,7 @@ This month [David Hewitt](https://github.com/sponsors/davidmhewitt) spent some t
 </figure>
 
 
-Changing display resolution should be quite a bit more convenient now since we now show resolutions with a different aspect ratio in a separate sub-menu. We've also tweaked the style of Displays settings to be a bit more contrast in the dark style, and we fixed an issue that prevented display name tags from appearing on all workspaces.
+Changing display resolution should be quite a bit more convenient now since we now show resolutions with a different aspect ratio in a separate sub-menu. We've also tweaked the style of Displays settings to be slightly lower contrast in the dark style, and we fixed an issue that prevented display name tags from appearing on all workspaces.
 
 ## Portals
 
@@ -89,7 +89,7 @@ The dark style preference is now respected across desktops for GNOME and element
 </figcaption>
 </figure>
 
-As before, this dark style preference is still opt-in for developers, which means it won't break apps that weren't tested against it. However, we're now using an agreed upon desktop-agnostic namespace in the Settings portal which works across application rootkits and desktop environments. What that means for you is that very soon GNOME apps will begin respecting the dark style preference on OS 6 and we hope to see this compatibility spread to KDE apps and more in the future. It also means that those running AppCenter apps on GNOME 42 will have their dark style preference automatically respected on day one.
+As before, this dark style preference is still opt-in for developers, which means it won't break apps that weren't tested against it. However, we're now using an agreed upon desktop-agnostic namespace in the Settings portal which works across application toolkits and desktop environments. What that means for you is that very soon GNOME apps will begin respecting the dark style preference on OS 6 and we hope to see this compatibility spread to KDE apps and more in the future. It also means that those running AppCenter apps on GNOME 42 will have their dark style preference automatically respected on day one.
 
 <figure>
   <picture>
