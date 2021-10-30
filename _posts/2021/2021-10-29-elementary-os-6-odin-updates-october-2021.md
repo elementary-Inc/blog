@@ -14,7 +14,13 @@ New OS 6 updates just dropped! This month features a heavy round of creature com
 
 The most noticeable change this month in AppCenter is the new progress indicator when installing, removing, or updating apps. Instead of a separate progress bar, progress is now indicated in a compact way over the cancel button. This greatly improves AppCenter with smaller window sizes and fixes layout issues in views that show a lot of apps like the home page and when showing other apps by an author on the app info page.
 
-[SCREENSHOT]
+<figure>
+  <picture>
+    <source srcset="/images/{{ page.slug }}/appcenter-dark.png" media="(prefers-color-scheme: dark)">
+    <img alt="AppCenter" src="/images/{{ page.slug }}/appcenter-light.png" width="1020" height="667" />
+  </picture>
+<figcaption>Progress is now shown in a small progressbar seen top right</figcaption>
+</figure>
 
 We also fixed a couple of small regressions introduced recently: apps which contain illicit substances now display the correct icon for this content warning, we no longer show a "Multiplayer" badge for apps with online functionality that aren't games, and we make sure not to show plugins on the home page. We also fixed an issue where $0 app installs were being recorded as paid, ensuring that AppCenter can properly suggest payment the next time you get an update from an app developer you haven't supported yet. And finally, we addressed an issue where unstable versions of already installed apps were appearing in the homepage banner.
 
@@ -50,11 +56,22 @@ When Calculator starts up, we now focus the main text entry so that entering num
 
 We fixed an issue where some audio files would have a thumbnail placeholder forever instead of falling back to the audio file type icon when they have no album art. We also made sure the overlay bar in the bottom right doesn't briefly appear when switching between bookmarks. The names of bookmarked folders will now properly update if your language was changed. And we removed the message about reporting issues when running Files from Terminal.
 
+## Videos
+
+Videos now supports the two-finger-swipe to go back gesture and navigation code has been cleaned up a ton. Window titles should be more accurate when navigating. Also, we're now shipping Videos as a Flatpak which should resolve some reported issues with certain video codecs.
+
 ## System Settings
 
 This month [David Hewitt](https://github.com/sponsors/davidmhewitt) spent some time resolving cross-platform issues in System Settings, which should make our desktop environment more easily portable to distros like Fedora and Nix OS. This also resulted in better support for locales that use 3-letter language codes and more reliable sidebar updates in User Accounts settings as well as some minor performance improvements.
 
-[ DISPLAYS SCREENSHOT ]
+<figure>
+  <picture>
+    <source srcset="/images/{{ page.slug }}/displays-dark.png" media="(prefers-color-scheme: dark)">
+    <img alt="Displays Settings" src="/images/{{ page.slug }}/displays-light.png" width="995" height="691" />
+  </picture>
+<figcaption>Resolutions with a different aspect ratio are now shown in a submenu</figcaption>
+</figure>
+
 
 Changing display resolution should be quite a bit more convenient now since we now show resolutions with a different aspect ratio in a separate submenu. We've also tweaked the style of Displays settings to be a bit more contrasty in the dark style, and we fixed an issue that prevented display name tags from appearing on all workspaces.
 
@@ -72,7 +89,13 @@ The dark style preference is now respected across desktops for GNOME and element
 
 As before, this dark style preference is still opt-in for developers, which means it won't break apps that weren't tested against it. However, we're now using an agreed upon desktop-agnostic namespace in the Settings portal which works across application toolkits and desktop environments. What that means for you is that very soon GNOME apps will begin respecting the dark style preference on OS 6 and we hope to see this compatibility spread to KDE apps and more in the future. It also means that those running AppCenter apps on GNOME 42 will have their dark style preference automatically respected on day one.
 
-[ APP CHOOSER SCREENSHOT ]
+<figure>
+  <picture>
+    <source srcset="/images/{{ page.slug }}/appchooser-dark.png" media="(prefers-color-scheme: dark)">
+    <img alt="AppChooser Portal" src="/images/{{ page.slug }}/appchooser-light.png" width="468" height="518" />
+  </picture>
+<figcaption>The new AppChooser portal</figcaption>
+</figure>
 
 In other exciting portal news, we're shipping the first version of our elementary desktop portals which includes a new AppChooser. You'll notice Flatpak apps which launch files in another app using the new design.
 
