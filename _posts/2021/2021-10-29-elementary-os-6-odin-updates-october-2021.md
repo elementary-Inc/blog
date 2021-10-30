@@ -24,11 +24,11 @@ The most noticeable change this month in AppCenter is the new progress indicator
 
 We also fixed a couple of small regressions introduced recently: apps which contain illicit substances now display the correct icon for this content warning, we no longer show a "Multiplayer" badge for apps with online functionality that aren't games, and we make sure not to show plugins on the home page. We also fixed an issue where $0 app installs were being recorded as paid, ensuring that AppCenter can properly suggest payment the next time you get an update from an app developer you haven't supported yet. And finally, we addressed an issue where unstable versions of already installed apps were appearing in the homepage banner.
 
-## GNOME Web
+## Web
 
-This month we've made the leap from GNOME Web 3.38 to 40.3 which brings quite a number of improvements including a redesigned tab bar, a new "reader" mode, several performance and stability fixes, and of course rounded window corners!
+This month we've made the leap from Web 3.38 to 40.3 which brings quite a number of improvements including a redesigned tab bar, several performance and stability fixes, and of course rounded window corners!
 
-The preferences dialog itself has been redesigned and now includes search. Managing search engines and passwords have been completely redesigned. Intelligent Tracking Prevention from Webkit is now included, along with a setting to disallow local storage. Google search suggestions are off by default, but you can opt-in on the Privacy tab to get this new feature. Appearance settings now include the ability to add custom JavaScript. Fans of Firefox sync should note that this feature has moved from the preferences dialog to the "Import and Export" menu.
+The preferences dialog itself has been redesigned and now includes search. Managing search engines and passwords have been completely redesigned. A setting to disallow local storage is now included, and there's a new optional Google search suggestions feature that is off by default. Appearance settings now include the ability to add custom JavaScript. Fans of Firefox sync should note that this feature has moved from the preferences dialog to the "Import and Export" menu.
 
 The new tab bar includes slick animations when opening, closing, and reordering tabs. Drag and Drop is much improved. When there are many open tabs, they can now be scrolled through quickly instead of individually paged with arrows. Closing tabs waits to resize like elementary apps. And the new tab bar fully supports touch screens. For a deep dive into the new tab bar, check out [Alex's blog post](https://blogs.gnome.org/alexm/2021/03/13/reinventing-tabs/)
 
