@@ -5,8 +5,8 @@
     <description>We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS</description>
     <link>https://blog.elementary.io/</link>
     <atom:link href="https://blog.elementary.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 30 Oct 2021 19:03:48 -0500</pubDate>
-    <lastBuildDate>Sat, 30 Oct 2021 19:03:48 -0500</lastBuildDate>
+    <pubDate>Sat, 30 Oct 2021 19:19:07 -0500</pubDate>
+    <lastBuildDate>Sat, 30 Oct 2021 19:19:07 -0500</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       
@@ -114,7 +114,7 @@
   &lt;/blockquote&gt;
 &lt;/aside&gt;
 
-&lt;p&gt;The new version of Granite also automatically uses the Settings portal for a couple other things like date and time settings. This fixes an issue with time picker widgets not respecting AM/PM vs 24-hour time format preferences, for example. Finally, we also released a small update to the system stylesheet to support the Hdy.Tabbar widget and with a fix that makes sure Gtk.Titlebars with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.flat&lt;/code&gt; style class automatically inherit the background color of their containers.&lt;/p&gt;
+&lt;p&gt;The new version of Granite also automatically uses the Settings portal for a couple other things like date and time settings. This fixes an issue with time picker widgets not respecting AM/PM vs 24-hour time format preferences, for example. Finally, we also released a small update to the system stylesheet to support the Hdy.Tabbar widget and with a fix that makes sure &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.titlebar&lt;/code&gt; with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.flat&lt;/code&gt; style class automatically inherit the background color of their containers.&lt;/p&gt;
 
 &lt;h2 id=&quot;other-fixes--updates&quot;&gt;Other Fixes &amp;amp; Updates&lt;/h2&gt;
 
