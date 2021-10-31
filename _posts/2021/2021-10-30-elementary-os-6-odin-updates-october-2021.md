@@ -109,7 +109,7 @@ In tandem with our work on portals is a new version of our Flatpak platform. Thi
 >Developers don't need to do any additional work to support the new FreeDesktop dark style preference
 </aside>
 
-The new version of Granite also automatically uses the Settings portal for a couple other things like date and time settings. This fixes an issue with time picker widgets not respecting AM/PM vs 24-hour time format preferences, for example. Finally, we also released a small update to the system stylesheet to support the Hdy.Tabbar widget and with a fix that makes sure Gtk.Titlebars with the `.flat` style class automatically inherit the background color of their containers.
+The new version of Granite also automatically uses the Settings portal for a couple other things like date and time settings. This fixes an issue with time picker widgets not respecting AM/PM vs 24-hour time format preferences, for example. Finally, we also released a small update to the system stylesheet to support the Hdy.Tabbar widget and with a fix that makes sure `.titlebar` with the `.flat` style class automatically inherit the background color of their containers.
 
 ## Other Fixes & Updates
 
