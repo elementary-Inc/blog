@@ -45,6 +45,10 @@ authors:
     name: Peter Uithoven
     description: "Front-end Developer"
     gravatar: f39b1485b28be1dc2b98f269235218bc
+  the-linux-experiment:
+    name: Nick
+    description: "The Linux Experiment"
+    gravatar: 264a76e5b40f4bb39787f617b5164b34
   anonymous:
     name: "Unknown Author"
 
