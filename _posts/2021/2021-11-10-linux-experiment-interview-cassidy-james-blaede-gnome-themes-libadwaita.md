@@ -2,6 +2,7 @@
 title: Cassidy on GNOME, Themes, and More
 description: The Linux Experiment interviews Cassidy for a video
 author: the-linux-experiment
+image: /images/linux-experiment-interview-cassidy-james-blaede-gnome-themes-libadwaita/card.png
 tags:
   - gnome
   - interview
