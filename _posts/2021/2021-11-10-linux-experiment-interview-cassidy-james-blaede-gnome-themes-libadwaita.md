@@ -3,6 +3,7 @@ title: Cassidy on GNOME, Themes, and More
 description: The Linux Experiment interviews Cassidy for a video
 author: the-linux-experiment
 tags:
+  - gnome
   - interview
 ---
 
@@ -39,7 +40,7 @@ Group photo from the [GNOME User and Developer Conference 2019](/elementary-at-g
 >
 >Then you have desktops or distros using GNOME downstream more as building blocks to make their own experiences; this probably includes Ubuntu, Pop!_OS, and many others. These projects have their own goals and don’t always work directly within the GNOME community to help _steer_ GNOME, but may still contribute bits upstream like bug fixes and performance improvements. In my mind, the distinguishing characteristic of this group is that they use GNOME to build _their own_ experience, but are also leaning heavily on the _GNOME ecosystem_ rather than building their own, separate ecosystem.
 >
->Then you have desktops like Pantheon on elementary OS where we are using some GNOME technologies or components under the hood, but building our own desktop environment, experience, and ecosystem in parallel. We often work within upstream projects, but aren’t directly steering GNOME (other than occasionally via design influence 😉). We ensure compatibility between our ecosystems by heavily leaning on FreeDesktop standards and being in constant communication and collaboration with GNOME and shared upstream projects.
+>Then separately, you have desktops like Pantheon on elementary OS where we are using some GNOME technologies or components under the hood, but building our own desktop environment, experience, and ecosystem in parallel. We often work within upstream projects, but aren’t shipping GNOME, nor are we directly steering GNOME (other than occasionally via design influence 😉). We ensure compatibility between our desktops and ecosystems by heavily leaning on FreeDesktop standards and being in constant communication and collaboration with projects like GNOME, KDE, and any shared upstream projects.
 >
 >Last but not least, you have the actual users of the software whose opinions and wants are as diverse as the people within the GNOME community itself.
 >
