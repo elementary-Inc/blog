@@ -128,7 +128,7 @@ Group photo from the [GNOME User and Developer Conference 2019](/elementary-at-g
 </figcaption>
 </figure>
 
->**Cassidy:** As an example, dialogs in all three platforms look very different from one another, including where the suggested button is placed. Should apps adapt for every possible platform, or should they just use the conventions of the platform they were actually built for? And none of that is solved with, theming but requires code changes from the developer themselves.
+>**Cassidy:** As an example, dialogs in all three platforms look very different from one another, including where the suggested button is placed. Should apps adapt for every possible platform, or should they just use the conventions of the platform they were actually built for? And none of that is solved with theming, but requires code changes from the developer themselves.
 >
 >However, it's a pretty cool result of our collaboration and standards that you can _use_ those apps on elementary OS, and _that_ is worthwhile.
 
