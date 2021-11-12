@@ -5,9 +5,287 @@
     <description>We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS</description>
     <link>https://blog.elementary.io/</link>
     <atom:link href="https://blog.elementary.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 11 Nov 2021 18:03:49 -0600</pubDate>
-    <lastBuildDate>Thu, 11 Nov 2021 18:03:49 -0600</lastBuildDate>
+    <pubDate>Fri, 12 Nov 2021 17:36:49 -0600</pubDate>
+    <lastBuildDate>Fri, 12 Nov 2021 17:36:49 -0600</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      
+        <item>
+          <title>Cassidy on GNOME, Themes, and More</title>
+          <description>&lt;aside&gt;
+  &lt;p&gt;Recently there’s been a lot of discussion within the open source desktop space about GNOME, LibAdwaita, and the future of “theming” on GTK-based platforms like GNOME and elementary OS. To help distill this information, Nick from &lt;em&gt;&lt;a href=&quot;https://www.youtube.com/c/TheLinuxExperiment&quot;&gt;The Linux Experiment&lt;/a&gt;&lt;/em&gt; interviewed elementary co-founder and CXO Cassidy James Blaede for his recent &lt;a href=&quot;https://www.youtube.com/watch?v=Pdx_MwcMtnM&quot;&gt;The FACTS about GNOME’s plans for THEMES&lt;/a&gt; video.&lt;/p&gt;
+
+  &lt;p&gt;Below are the questions provided by Nick and Cassidy’s answers, lightly edited for spelling, grammar, and formatting. We hope they help share a bit of perspective on this topic!&lt;/p&gt;
+&lt;/aside&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Nick:&lt;/strong&gt; GNOME, much like elementary OS, seems to want to put more effort into becoming a more stable and reliable platform for application developers. This has led to the creation of LibAdwaita, which regroups all GNOME-HIG related elements into a single lib that developers can target. elementary OS uses GTK, how does that move impact elementary?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Cassidy:&lt;/strong&gt; This is a great move from our perspective, and is actually a solution we’ve been asking for for some time; we use GTK, but we don’t always use the same UI patterns or styling as GNOME. So in the past GTK may have forced GNOME-style dialogs or layouts that we had to work around, which we should see less of. By adding these GNOME-specific widgets and utilities to LibAdwaita rather than GTK, it keeps GTK itself more neutral and more flexible for desktops like elementary OS.&lt;/p&gt;
+
+  &lt;p&gt;At the same time, there are some intriguing bits of LibAdwaita—especially around multi-touch gestures and animation—coming from its history as LibHandy, which we’re using heavily in elementary OS today. So I could see us using LibAdwaita in future elementary software, and because we’re in constant collaboration with GNOME contributors, that won’t be an issue for us; we will be able to use the bits that make sense while basically ignoring GNOME specific design bits.&lt;/p&gt;
+
+  &lt;p&gt;All together, LibAdwaita is making it easier to make high quality GTK and GNOME apps without having to reinvent common patterns which is a boon to GNOME, elementary OS, and any desktop using GNOME or GTK.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Nick:&lt;/strong&gt; Is theming the desktop important for a distribution? Is it just an aesthetic or a branding issue? Are there other advantages?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Cassidy:&lt;/strong&gt; So before I really answer this, I think we need to clearly distinguish the parties involved in these discussions and decisions.&lt;/p&gt;
+
+  &lt;p&gt;First, you have the people making the GNOME desktop. GNOME is less like a traditional top-down software company and really more like &lt;a href=&quot;https://foundation.gnome.org/membership/&quot;&gt;a collective of people&lt;/a&gt; with overlapping ideals but often very different opinions! This is great for a diversity of thought but sometimes can be frustrating because there is not a singular person or vision you can point to for the ultimate direction of GNOME; you have to look at the direction as a whole, and understand that there are many, many people who are generally steering GNOME in the direction it is going.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;figure style=&quot;margin: 3rem auto;&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/linux-experiment-interview-cassidy-james-blaede-gnome-themes-libadwaita/GUADEC2019.jpg&quot; alt=&quot;GUADEC Group Photo&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;Group photo from the &lt;a href=&quot;/elementary-at-guadec-2019/&quot;&gt;GNOME User and Developer Conference 2019&lt;/a&gt;. Contributors pictured include individuals from CodeThink, Collabora, elementary, Endless, Igalia, Purism, Red Hat, System76, Ubuntu, and more.&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Cassidy:&lt;/strong&gt; Within that collective of people, you have who I tend to call the “progressive app developers” who are longing for a better experience that has more modern patterns, easier ways to build apps, and modern features that many have gotten used to e.g. on popular mobile OSes. These folks are generally the ones behind the &lt;a href=&quot;https://stopthemingmy.app/&quot;&gt;“Please Don’t Theme Our Apps” initiative&lt;/a&gt;, and include folks working on pushing GNOME tech and design forward by working within the design team and on tools like LibHandy and LibAdwaita.&lt;/p&gt;
+
+  &lt;p&gt;Then you have desktops or distros using GNOME downstream more as building blocks to make their own experiences; this probably includes Ubuntu, Pop!&lt;em&gt;OS, and many others. These projects have their own goals and don’t always work directly within the GNOME community to help _steer&lt;/em&gt; GNOME, but may still contribute bits upstream like bug fixes and performance improvements. In my mind, the distinguishing characteristic of this group is that they use GNOME to build &lt;em&gt;their own&lt;/em&gt; experience, but are also leaning heavily on the &lt;em&gt;GNOME ecosystem&lt;/em&gt; rather than building their own, separate ecosystem.&lt;/p&gt;
+
+  &lt;p&gt;Then separately, you have desktops like Pantheon on elementary OS where we are using some GNOME technologies or components under the hood, but building our own desktop environment, experience, and ecosystem in parallel. We often work within upstream projects, but aren’t shipping GNOME, nor are we directly steering GNOME (other than occasionally via design influence 😉). We ensure compatibility between our desktops and ecosystems by heavily leaning on FreeDesktop standards and being in constant communication and collaboration with projects like GNOME, KDE, and any shared upstream projects.&lt;/p&gt;
+
+  &lt;p&gt;Last but not least, you have the actual users of the software whose opinions and wants are as diverse as the people within the GNOME community itself.&lt;/p&gt;
+
+  &lt;p&gt;Each of these groups probably has a different outlook on “theming,” but I can answer from the perspective of the progressive GNOME folks and elementary-like ecosystems, plus users (based on years of research and user studies).&lt;/p&gt;
+
+  &lt;p&gt;For both the progressive GNOME folks and elementary, we largely see traditional theming as we know it on Linux desktops as a legacy implementation that is unique to “desktop Linux” for the worse. It is unlike any mainstream platform and makes it difficult for app developers to design and develop innovative, modern experiences. This is why elementary OS and GNOME 3 have never officially supported arbitrary theming via switching out the system stylesheet. There is absolutely an aesthetic and branding aspect (it’s nice for screenshots of elementary OS to be recognizable &lt;em&gt;as elementary OS&lt;/em&gt;, for example), but more important is avoiding breakage for both app developers and end users. With elementary OS, for example, we often see people who switch out their system stylesheet get upset when there is poor contrast, broken widgets, or features (like the dark style or accent color preferences) that no longer work for them. We also see third-party apps that are doing interesting custom widgets—some of the most innovative and unique apps!—completely break because a third-party stylesheet doesn’t support the variables or style classes they depend on to make it easier to make their app.&lt;/p&gt;
+
+  &lt;p&gt;However, for users, there are three main aspects to “theming,” and this is backed up by my years-long research and studies like the recent &lt;a href=&quot;/user-interface-study-findings/&quot;&gt;Custom Styles, Dark Modes, and Night Light user interface study&lt;/a&gt;: first, aesthetics—or as I like to call it, “making it your own.” This is the same reason we have wallpapers on every modern OS (and look at early versions of iOS to see the opposite end of this line of thinking). People want to make their computer feel like theirs, just like they might want to decorate their physical desk with their own style to make it more pleasing for them. The second major aspect is accessibility which encompasses contrast and light/dark style preferences; some people have an easier time using their computer if it temporarily or permanently looks different than the defaults. Lastly, there’s the “familiarity” aspect which often overlaps with the previous two, but can also include things like a theme to make the OS look more like Windows or macOS.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div style=&quot;margin: 3em auto;&quot;&gt;
+
+
+
+&lt;a class=&quot;featured 1&quot; href=&quot;/user-interface-study-findings/&quot;&gt;
+  
+
+  &lt;header&gt;
+    &lt;h2&gt;
+
+
+
+   User Interface Study&amp;nbsp;Findings
+
+&lt;/h2&gt;
+    
+      &lt;h3&gt;
+        
+
+
+
+   Regarding Custom Styles, Dark Modes, and Night&amp;nbsp;Light
+
+
+        
+      &lt;/h3&gt;
+    
+
+    
+
+
+
+&lt;div class=&quot;byline&quot;&gt;
+  &lt;div class=&quot;avatar&quot;&gt;
+    &lt;img srcset=&quot;https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&amp;amp;d=blank 2x&quot; src=&quot;https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&amp;amp;d=blank&quot; alt=&quot;Avatar for Cassidy James Blaede&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;author&quot;&gt;
+    
+    &lt;span class=&quot;name&quot;&gt;Cassidy James Blaede&lt;/span&gt;
+    
+    
+      &lt;span class=&quot;description&quot;&gt;Co-founder &amp;amp; CXO&lt;/span&gt;
+    
+  &lt;/div&gt;
+  &lt;time class=&quot;post-date&quot; datetime=&quot;2019-05-16&quot;&gt;Thu, May 16, 2019&lt;/time&gt;
+  
+    &lt;span class=&quot;read-time&quot; title=&quot;Estimated read time&quot;&gt;
+  
+  8 min read
+&lt;/span&gt;
+
+
+  
+&lt;/div&gt;
+
+
+  &lt;/header&gt;
+
+  
+  &lt;section class=&quot;excerpt&quot;&gt;
+    &lt;p&gt;In my time contributing to elementary and GNOME, I’ve become familiar with pleas from users to implement official support for arbitrary themes — while that itself is a large and controversial topic, I have been working over the past few years to...&lt;/p&gt;
+    &lt;span&gt;Read more…&lt;/span&gt;
+  &lt;/section&gt;
+  
+&lt;/a&gt;
+
+
+&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Cassidy:&lt;/strong&gt; From the elementary perspective—and seemingly the progressive GNOME perspective with recent developments, we’re tackling the first two aspects differently than just arbitrary themes; we’ve added a dark style preference and app API to address the aesthetic and accessibility needs for a dark interface while ensuring it’s well supported by apps. We’ve even had &lt;a href=&quot;/elementary-os-6-odin-updates-october-2021#portals&quot;&gt;success moving this under the FreeDesktop banner via a Portal API&lt;/a&gt; and now future GNOME versions will be shipping a compatible API as well (which gives me hope for third-party apps like Firefox and Chrome supporting it on Linux, too).&lt;/p&gt;
+
+  &lt;p&gt;We’ve also added ten new accent colors to elementary OS and a refreshed stylesheet that uses them throughout the OS in places like highlighted text, selected options, suggested actions, focus glows, and even accented text like in the Date &amp;amp; Time indicator. As a result, you can keep the default stylesheet and still make elementary OS feel very personalized—while also ensuring it passes accessibility standards for contrast, and without breaking third-party apps. In fact, these new features are made possible &lt;em&gt;because of&lt;/em&gt; the default stylesheet. So for us, we’re happy to talk to users to discover how and why they are leaning on theming, and address those directly in the system stylesheet. Of course with open source software people will always be able to go and change how it looks and works, but we’re focused on making the default experience address the majority of those cases while also avoiding breakage.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+  &lt;picture&gt;
+    &lt;source srcset=&quot;/images/elementary-os-6-odin-released/onboarding-dark.png&quot; media=&quot;(prefers-color-scheme: dark)&quot; /&gt;
+    &lt;img alt=&quot;Onboarding&quot; src=&quot;/images/elementary-os-6-odin-released/onboarding.png&quot; width=&quot;532&quot; height=&quot;450&quot; /&gt;
+  &lt;/picture&gt;
+  &lt;picture&gt;
+    &lt;source srcset=&quot;/images/elementary-os-6-odin-released/appearance-dark.png&quot; media=&quot;(prefers-color-scheme: dark)&quot; /&gt;
+    &lt;img alt=&quot;Desktop Appearance settings&quot; src=&quot;/images/elementary-os-6-odin-released/appearance.png&quot; width=&quot;862&quot; height=&quot;664&quot; /&gt;
+  &lt;/picture&gt;
+&lt;figcaption&gt;
+    &lt;p&gt;&lt;strong&gt;Left:&lt;/strong&gt; Dark style and accent colors in the Welcome screen | &lt;strong&gt;Right:&lt;/strong&gt; &lt;em&gt;System Settings&lt;/em&gt; → &lt;em&gt;Desktop&lt;/em&gt; → &lt;em&gt;Appearance&lt;/em&gt;&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Cassidy:&lt;/strong&gt; The last perspective I can touch on is the downstream GNOME-based distro perspective, but is one I’m less qualified to answer (because I don’t share the opinions). However, I can share my understanding from interacting with those folks and having previously worked at System76 on Pop!_OS. From my understanding, the biggest reason they want GNOME and GTK to officially support arbitrary theming is for their own vendor differentiation; Pop!_OS should look different from Zorin OS, should look different from Ubuntu, etc. They see the aesthetic of the software as part of their brand identity and one potential reason a user or customer might choose them over something else.&lt;/p&gt;
+
+  &lt;p&gt;I always draw parallels with the Android ecosystem here, though, because I think we’re seeing the same thing play out. Early versions of Android were heavily skinned inside and out by OEMs differentiating their offerings. In some cases, it was because stock Android was subjectively ugly or incomplete, as well. But as Android as an ecosystem grew, OEMs (often via their agreements with Google) stopped modifying the toolkit and core styling of Android itself so it interfered less with third-party apps, but still differentiated their offerings with their first-party apps (often forks of the AOSP apps) and their “System UI” changes (much like changes to GNOME Shell on a GNOME-based OS). As a result, they now have a diverse ecosystem of devices with different experiences, and some people greatly prefer one brand over another for their unique approach to the experience. But for users, an app that works on one phone will work the same way as an app on a phone from a competing company. These OEMs are using Android to create a device and experience, but are all participating in the Google Play/Android ecosystem. But then you also have companies like Amazon who are using the Android platform to build their own separate Kindle/Fire ecosystem, and not participating in the larger ecosystem. Both approaches are valid and have benefits, but you kind of have to pick one or the other. And then on top of either ecosystem, you end up with users who root and install custom modules to customize how the OS looks and works themselves.&lt;/p&gt;
+
+  &lt;p&gt;Wow, that’s quite an answer. To summarize my thoughts on this original question, I personally think theming at a user level will always have a place for the tinkerers and experimenters; I even got my start in OS design by hacking on Windows 98 and Windows XP to swap out custom styles! But I think a successful modern ecosystem needs to make some guarantees to users and app developers about how the platform looks and works, and the current state of swapping out entire stylesheets from under apps is not sustainable. This is why platforms like GNOME and elementary OS are adding well-defined features like dark style APIs and accent colors, and why there is interest within the GNOME community in developing a well-defined theming API. I think that’s the best way forward for all parties.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;aside&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;“Theming at a user level will always have a place for the tinkerers and experimenters, but a successful modern ecosystem needs to make guarantees to users and app developers about how the platform looks and works.”&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;&lt;strong&gt;Nick:&lt;/strong&gt; elementary OS already has a similar “platform library”, with &lt;a href=&quot;https://github.com/elementary/granite&quot;&gt;Granite&lt;/a&gt;. Will Granite be inter-operable with LibAdwaita, will both libraries be able to benefit from each other’s work, or will they just be separate?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Cassidy:&lt;/strong&gt; I don’t expect to see much change in how we approach Granite; it exists primarily as a way to abstract common patterns in real world use in elementary apps into reusable widgets and utilities. If LibAdwaita implements something similar to an existing pattern but it’s better in some way, we could switch to that and deprecate our own Granite implementation, as we’ve done in the past when things have been added to GTK or LibHandy. Granite and LibHandy are currently perfectly inter-operable, and we expect the same to be true with LibAdwaita, again, because we’re in constant collaboration with the folks working on it.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Nick:&lt;/strong&gt; Have you had talks about this with GNOME developers, to see if development efforts can be combined?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Cassidy:&lt;/strong&gt; Yes, we’re in constant communication with folks working on GNOME and are always finding ways we can work together. And GNOME contributors are &lt;em&gt;excellent&lt;/em&gt; about reaching out and getting our opinions on things when they’re being worked on as well, like with the new LibAdwaita tabs or the new dark style Portal API. Even though elementary OS is downstream of many GNOME components, I do feel like we’re often a proving ground of new widgets, designs, or APIs that then make their way back up into GNOME while also handling more use cases—and when that happens, we’re happy to deprecate our implementation. I think this approach is more productive overall than if we were to solely work within GNOME to implement our ideas, as we often update apps and widgets faster than would be possible in GNOME, or ship a certain pattern that GNOME designers aren’t convinced of just yet as a way to prove it in action.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Nick:&lt;/strong&gt; Developers will have to decide between the GNOME platform, the elementary platform, or the KDE platform. Could that make the Linux app development situation more complicated than it already is?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Cassidy:&lt;/strong&gt; We already see this today, and LibAdwaita doesn’t change that. A GNOME app doesn’t look at home on elementary OS because we have different Human Interface Guidelines and conventions, and that has always been the case. Just like a KDE app doesn’t look at home on GNOME, and it’s not realistic to expect it to.&lt;/p&gt;
+
+  &lt;p&gt;But this is also not unexpected from the status quo; we have popular apps like Spotify, Discord, Chrome, Steam, etc. that don’t really feel native in any desktop environment, but it’s important to users that they can use these apps regardless of their preferred platform. With cross-desktop standards that GNOME, elementary, KDE, and others are working on together, it means we can have our own implementations while ensuring compatibility. It’s the whole reason you can even install a KDE app on GNOME or elementary OS and it correctly gets a launcher icon, is managed by the window manager, and can integrate with the desktop in places like the sound menu; we have FreeDesktop.org standards and efforts like Flatpak where we are all working together.&lt;/p&gt;
+
+  &lt;p&gt;Of course from the elementary perspective we hope our platform is an attractive target for indie developers, and we work hard on our &lt;a href=&quot;https://docs.elementary.io/&quot;&gt;documentation&lt;/a&gt;, &lt;a href=&quot;https://docs.elementary.io/hig/&quot;&gt;Human Interface Guidelines&lt;/a&gt;, platform features, and &lt;a href=&quot;https://docs.elementary.io/develop/appcenter/monetizing-your-app&quot;&gt;app monetization model&lt;/a&gt; to ensure that. At the same time, an app built for elementary OS and distributed on AppCenter is also trivially installable on any modern Linux-based OS thanks to our AppCenter for Everyone efforts, ultimately increasing the size and diversity of the “desktop Linux ecosystem” if you want to look at it that way. So I don’t see it as in conflict with GNOME; we have differing visions for our platforms, but work together when it benefits us all.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;aside&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;We have differing visions for our platforms, but work together when it benefits us all.&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;&lt;strong&gt;Nick:&lt;/strong&gt; If app developers decide to force the use of Adwaita in their applications, could this lead to less consistency overall? With desktops made of apps themed by the distribution, apps built for elementary OS, apps built for GNOME, all with their own HIG, theme, and look and feel?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Cassidy:&lt;/strong&gt; I think my answer here is partially covered in the above answer as well. But more specifically, I don’t believe surface-level consistency is a worthwhile ultimate goal; if I was shipping an Android app, I would design and write it using native Android patterns and tech. If I were shipping an iOS app, I would do so with native iOS tooling and patterns. I wouldn’t expect my Android app to look “consistent” on iOS, and vice versa. In the same way, I don’t expect a KDE or GNOME app to be “consistent” on elementary OS; even if it were using the same colors on the surface, the way those platforms look and work are just different.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;aside&gt;
+  &lt;p&gt;&lt;strong&gt;Note from Cassidy:&lt;/strong&gt; To add to this, apps can already choose to force a specific stylesheet today, and many—especially those designed for elementary OS but distributed on Flathub—already do. LibAdwaita may do the same with Adwaita stylesheet by default, but ultimately an app developer is always in control of how their app behaves and is styled.&lt;/p&gt;
+&lt;/aside&gt;
+
+&lt;figure class=&quot;half card&quot;&gt;
+  &lt;picture&gt;
+    &lt;img alt=&quot;GNOME Message Dialog&quot; src=&quot;/images/linux-experiment-interview-cassidy-james-blaede-gnome-themes-libadwaita/gnome-message-dialog.png&quot; width=&quot;800&quot; height=&quot;276&quot; /&gt;
+  &lt;/picture&gt;
+  &lt;picture&gt;
+    &lt;img alt=&quot;GNOME Action Dialog&quot; src=&quot;/images/linux-experiment-interview-cassidy-james-blaede-gnome-themes-libadwaita/gnome-action-dialog.png&quot; width=&quot;484&quot; height=&quot;283&quot; /&gt;
+  &lt;/picture&gt;
+  &lt;picture&gt;
+    &lt;source srcset=&quot;/images/linux-experiment-interview-cassidy-james-blaede-gnome-themes-libadwaita/message-dialog-dark.png&quot; media=&quot;(prefers-color-scheme: dark)&quot; /&gt;
+    &lt;img alt=&quot;elementary Message Dialog&quot; src=&quot;/images/linux-experiment-interview-cassidy-james-blaede-gnome-themes-libadwaita/message-dialog.png&quot; width=&quot;549&quot; height=&quot;301&quot; /&gt;
+  &lt;/picture&gt;
+&lt;figcaption&gt;
+    &lt;p&gt;&lt;strong&gt;Left:&lt;/strong&gt; GNOME Message Dialog | &lt;strong&gt;Right:&lt;/strong&gt; GNOME Action Dialog | &lt;strong&gt;Below:&lt;/strong&gt; elementary Dialog&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Cassidy:&lt;/strong&gt; As an example, dialogs in all three platforms look very different from one another, including where the suggested button is placed. Should apps adapt for every possible platform, or should they just use the conventions of the platform they were actually built for? And none of that is solved with theming, but requires code changes from the developer themselves.&lt;/p&gt;
+
+  &lt;p&gt;However, it’s a pretty cool result of our collaboration and standards that you can &lt;em&gt;use&lt;/em&gt; those apps on elementary OS, and &lt;em&gt;that&lt;/em&gt; is worthwhile.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Nick:&lt;/strong&gt; elementary OS has always been focused on the user experience. Could that move in favor of app developers result in a less coherent experience for users, with desktops made of apps themed by the distribution, apps built for elementary OS, apps built for GNOME, all with their own HIG, theme, and look and feel?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Cassidy:&lt;/strong&gt; I think this is also pretty well covered earlier, but yes, it can and has resulted in a less consistent experience on a surface level. But that’s not new, and not solved by anything to do with theming; it’s a result of having different inter-operable platforms. The only way to solve this is to make “desktop Linux” a singular platform with a single set of Human Interface Guidelines and a single toolkit and a single stylesheet and a single desktop and… yeah, I don’t think we want that, either!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;aside&gt;
+  &lt;p&gt;&lt;strong&gt;Note from Cassidy:&lt;/strong&gt; To clarify this last point, I don’t think it’s realistic to expect the various platforms involved (like GNOME, KDE, elementary, etc.) to just drop everything and align on a single technology stack—we’ll always coexist, and our diversity of implementations and perspectives helps create a better over-all ecosystem through &lt;em&gt;coopertition&lt;/em&gt;. I also don’t think the folks you see as traditional Linux users (largely the target for Nick’s video) would want this either, as these users have workflows and preferences that are more in line with one desktop or another. Instead, I think we should focus on making the best platforms we can each make, and cooperate on places of overlap, like FreeDesktop standards, Flatpak packaging, etc. to ensure we’re inter-operable.&lt;/p&gt;
+&lt;/aside&gt;
+
+&lt;hr /&gt;
+
+&lt;aside&gt;
+  &lt;p&gt;&lt;em&gt;&lt;a href=&quot;https://www.youtube.com/c/TheLinuxExperiment&quot;&gt;The Linux Experiment&lt;/a&gt;&lt;/em&gt; makes the Linux desktop accessible: no techno lingo, no command line voodoo, no super technical content. Just Linux desktop news, simple tutorials, application spotlights, and opinion pieces trying to stay as positive as possible, and without gatekeeping.&lt;/p&gt;
+
+  &lt;div style=&quot;text-align: center;&quot;&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/c/TheLinuxExperiment&quot; class=&quot;button&quot;&gt;Visit Channel&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+
+  &lt;h2 id=&quot;watch-the-video&quot;&gt;Watch the video:&lt;/h2&gt;
+
+  &lt;div class=&quot;embed&quot;&gt;
+  &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/Pdx_MwcMtnM&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;
+    &lt;a href=&quot;https://www.youtube.com/watch?v=Pdx_MwcMtnM&quot;&gt;View on YouTube&lt;/a&gt;
+  &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;/aside&gt;
+
+&lt;style&gt;
+  article aside &gt; p {
+    opacity: 0.9;
+    font-size: smaller;
+    font-family: var(--ui-font);
+  }
+
+  article blockquote {
+    font-style: normal;
+  }
+
+  article aside blockquote {
+    font-style: italic;
+  }
+&lt;/style&gt;
+
+</description>
+          <pubDate>Fri, 12 Nov 2021 00:00:00 -0600</pubDate>
+          <link>https://blog.elementary.io/linux-experiment-interview-cassidy-james-blaede-gnome-themes-libadwaita/</link>
+          <guid isPermaLink="true">https://blog.elementary.io/linux-experiment-interview-cassidy-james-blaede-gnome-themes-libadwaita/</guid>
+          
+              
+              
+          <enclosure url="https://blog.elementary.io" />
+          
+          
+          <category>gnome</category>
+          
+          <category>interview</category>
+          
+          
+        </item>
+      
     
       
         <item>
@@ -2026,270 +2304,6 @@
           <pubDate>Mon, 26 Apr 2021 00:00:00 -0500</pubDate>
           <link>https://blog.elementary.io/the-new-elementary-store-is-here/</link>
           <guid isPermaLink="true">https://blog.elementary.io/the-new-elementary-store-is-here/</guid>
-          
-              
-              
-          <enclosure url="https://blog.elementary.io" />
-          
-          
-          <category>meta</category>
-          
-          
-        </item>
-      
-    
-      
-        <item>
-          <title>Cheers to 10 Years</title>
-          <description>&lt;p&gt;Today marks ten years since the release of the very first version of elementary OS. Our 0.1 release, codenamed “Jupiter”, came with the bold tagline, “It’s gonna be huge”. A decade later, elementary OS is made up of &lt;a href=&quot;https://github.com/elementary&quot;&gt;over 130 open source git repositories&lt;/a&gt;, has its own FreeDesktop.org-recognized desktop environment, comes with more than a dozen first party apps and &lt;a href=&quot;https://appcenter.elementary.io&quot;&gt;a unique app store&lt;/a&gt; with nearly 200 native third-party apps, has been translated to more than 20 languages, and most recently &lt;a href=&quot;/tags/#devices&quot;&gt;comes pre-installed on several desktops and laptops&lt;/a&gt;.&lt;/p&gt;
-
-&lt;figure class=&quot;constrained&quot;&gt;
-  &lt;p&gt;&lt;img src=&quot;/images/10-years/jupiter.jpg&quot; alt=&quot;elementary OS 0.1 Jupiter screenshot&quot; /&gt;&lt;/p&gt;
-  &lt;figcaption&gt;elementary OS 0.1 Jupiter&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Jupiter shipped with GNOME 2 as the desktop environment, early versions of our elementary icons, a theme for GTK 2, the dock app Docky, and a small handful of home-grown apps. Our headlining app at the time was a fork of the GNOME file manager with a more streamlined user interface. Besides these things, there wasn’t much that set apart our very first release from its Ubuntu 10.10 base. But one distinguishing factor has stuck with us from the very beginning: our dedication to providing only native GTK-based apps. Instead of popular, cross-platform apps like Thunderbird and OpenOffice, we opted for the lesser known Abiword and had been working on our own email client called Postler. Even from these very early stages there was an idea of consistent, simple, and native apps in elementary OS.&lt;/p&gt;
-
-&lt;p&gt;In the beginning, elementary OS didn’t even have a proper build system; we would extract an Ubuntu disk image, modify it, and then pack it back up. This process had to be repeated manually each time we wanted to modify or update the elementary OS disk image, which made development tedious and slow and a bit unpredictable since it meant we had to start from scratch reverse engineering the changes made by Ubuntu upstream. Today, elementary OS is built in &lt;a href=&quot;/rebuilding-elementary-os&quot;&gt;a much different way&lt;/a&gt;. We use Debian Live Build and a system of metapackage seeds to create disk images in the same way that other major distributions do. This has enabled us to provide automated daily builds through our Early Access program, and experimental daily builds for platforms like &lt;a href=&quot;elementary-os-on-pinebook-pro&quot;&gt;Pinebook Pro&lt;/a&gt; and &lt;a href=&quot;/elementary-os-on-raspberry-pi&quot;&gt;Raspberry Pi 4&lt;/a&gt;.&lt;/p&gt;
-
-&lt;figure class=&quot;constrained&quot;&gt;
-  &lt;p&gt;&lt;img src=&quot;/images/10-years/luna.png&quot; alt=&quot;elementary OS 0.2 Luna screenshot&quot; /&gt;&lt;/p&gt;
-  &lt;figcaption&gt;elementary OS 0.2 Luna&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;&lt;a href=&quot;/hello-luna-beta-1&quot;&gt;We premiered&lt;/a&gt; the first version of our desktop environment called Pantheon in 2012 with our 0.2 release, codenamed “Luna”. It still included many components of GNOME, but we had written our own panel for the top of the screen with a brand new app launcher, our new window manager called Gala, the freshly written dock Plank, our brand new System Settings, and even more homegrown native apps. While Jupiter was technically the first release of elementary OS, Luna was the first release where elementary OS felt really different.&lt;/p&gt;
-
-&lt;figure class=&quot;constrained&quot;&gt;
-  &lt;p&gt;&lt;img src=&quot;/images/10-years/freya.jpg&quot; alt=&quot;elementary OS 0.3 Freya screenshot&quot; /&gt;&lt;/p&gt;
-  &lt;figcaption&gt;elementary OS 0.3 Freya&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;elementary OS 0.3 “Freya” brought features like Do Not Disturb, sudo paste protection in Terminal, a redesigned multitasking view, and more. But Freya didn’t just bring changes to the operating system itself, it marked the point where elementary started to present itself differently as a business. We had released Luna with an explicit link to download elementary OS for free alongside an optional payment, but for Freya &lt;a href=&quot;/payments&quot;&gt;we changed the design on our website&lt;/a&gt; to the one we have today, with more explicit payment options and requiring people to enter the number “0” to bypass the payment flow. This change has been a resounding success. Thanks to our pay-what-you-want model, elementary, Inc. now has several employees and regular contractors to work on the operating system, and we’ve sparked quite a lot of conversation around paying app developers in the wider open source ecosystem all while &lt;a href=&quot;/you-are-not-the-product&quot;&gt;avoiding advertisements or data mining&lt;/a&gt;.&lt;/p&gt;
-
-&lt;div style=&quot;margin: 3em auto;&quot;&gt;
-
-
-
-&lt;a class=&quot;featured with-image 1&quot; href=&quot;/appcenter-the-future-of-the-universe/&quot;&gt;
-  
-    &lt;div class=&quot;featured-image&quot; alt=&quot;Featured image&quot; style=&quot;background-image: url(https://cdn-images-1.medium.com/max/1600/1*yICO56gjmJFC-WDCALeGIw.png);&quot;&gt;&lt;/div&gt;
-  
-
-  &lt;header&gt;
-    &lt;h2&gt;
-
-
-
-   AppCenter &amp;amp; the Future of the&amp;nbsp;Universe
-
-&lt;/h2&gt;
-    
-      &lt;h3&gt;
-        
-
-
-
-   How elementary OS can “cross the&amp;nbsp;chasm”
-
-
-        
-      &lt;/h3&gt;
-    
-
-    
-
-
-
-&lt;div class=&quot;byline&quot;&gt;
-  &lt;div class=&quot;avatar&quot;&gt;
-    &lt;img srcset=&quot;https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&amp;amp;d=blank 2x&quot; src=&quot;https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&amp;amp;d=blank&quot; alt=&quot;Avatar for Danielle Foré&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;author&quot;&gt;
-    
-    &lt;span class=&quot;name&quot;&gt;Danielle Foré&lt;/span&gt;
-    
-    
-      &lt;span class=&quot;description&quot;&gt;Founder &amp;amp; CEO&lt;/span&gt;
-    
-  &lt;/div&gt;
-  &lt;time class=&quot;post-date&quot; datetime=&quot;2017-08-26&quot;&gt;Sat, Aug 26, 2017&lt;/time&gt;
-  
-    &lt;span class=&quot;read-time&quot; title=&quot;Estimated read time&quot;&gt;
-  
-  5 min read
-&lt;/span&gt;
-
-
-  
-&lt;/div&gt;
-
-
-  &lt;/header&gt;
-
-  
-&lt;/a&gt;
-
-
-&lt;/div&gt;
-
-&lt;p&gt;We debuted AppCenter and brought our pay-what-you-want model to app developers mid-way through the release cycle of our fourth release, codenamed “Loki”. This was huge in two ways: it set the precedent for rolling feature updates and established elementary OS as not just another distribution of Linux, but a real platform for app developers. These were markedly massive departures from mainstream Linux distributions which only updated their software repositories in lock step with major releases. On elementary OS, not only would you received bug fix and feature updates regularly for the operating system, app developers were making things specifically for you, and they could get paid to do it.&lt;/p&gt;
-
-&lt;div style=&quot;margin: 3em auto;&quot;&gt;
-
-
-
-&lt;a class=&quot;featured with-image 1&quot; href=&quot;/elementary-os-5-juno-is-here/&quot;&gt;
-  
-    &lt;div class=&quot;featured-image&quot; alt=&quot;Featured image&quot; style=&quot;background-image: url(/images/elementary-os-5-juno-is-here/card.png);&quot;&gt;&lt;/div&gt;
-  
-
-  &lt;header&gt;
-    &lt;h2&gt;
-
-
-
-   elementary OS 5 Juno is&amp;nbsp;Here
-
-&lt;/h2&gt;
-    
-      &lt;h3&gt;
-        
-
-
-
-   Refinement, Productivity, &amp;amp; an Improved Developer&amp;nbsp;Platform
-
-
-        
-      &lt;/h3&gt;
-    
-
-    
-
-
-
-&lt;div class=&quot;byline&quot;&gt;
-  &lt;div class=&quot;avatar&quot;&gt;
-    &lt;img srcset=&quot;https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&amp;amp;d=blank 2x&quot; src=&quot;https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&amp;amp;d=blank&quot; alt=&quot;Avatar for Cassidy James Blaede&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;author&quot;&gt;
-    
-    &lt;span class=&quot;name&quot;&gt;Cassidy James Blaede&lt;/span&gt;
-    
-    
-      &lt;span class=&quot;description&quot;&gt;Co-founder &amp;amp; CXO&lt;/span&gt;
-    
-  &lt;/div&gt;
-  &lt;time class=&quot;post-date&quot; datetime=&quot;2018-10-16&quot;&gt;Tue, Oct 16, 2018&lt;/time&gt;
-  
-    &lt;span class=&quot;read-time&quot; title=&quot;Estimated read time&quot;&gt;
-  
-  36 min read
-&lt;/span&gt;
-
-
-  
-&lt;/div&gt;
-
-
-  &lt;/header&gt;
-
-  
-&lt;/a&gt;
-
-
-&lt;/div&gt;
-
-&lt;p&gt;For our fifth release, we &lt;a href=&quot;/lets-talk-about-elementary-os-5-juno&quot;&gt;decided to change our versioning scheme&lt;/a&gt; from 0.x to 5. By this time, Pantheon was its own complete desktop environment, recognized by FreeDesktop.org. We had a mature set of default apps, many modern and competitive features, and a bustling third-party app ecosystem. We continued to push out monthly updates thanks to a new automated release process, and even made &lt;a href=&quot;/introducing-elementary-os-5-1-hera&quot;&gt;a major 5.1 update&lt;/a&gt; with some big new features and design changes.&lt;/p&gt;
-
-&lt;p&gt;We’ve also been working a lot more with hardware manufacturers, and you can now purchase desktops and laptops with elementary OS pre-installed. Our OEM program has led to &lt;a href=&quot;/hardware-improvements-coming-to-elementary-os&quot;&gt;improvements in elementary OS&lt;/a&gt; for all of our users and continues to make elementary OS better, more easily gettable, and our business more sustainable.&lt;/p&gt;
-
-&lt;div style=&quot;margin: 3em auto;&quot;&gt;
-
-
-
-&lt;a class=&quot;featured with-image 1&quot; href=&quot;/now-shipping-elementary-os/&quot;&gt;
-  
-    &lt;div class=&quot;featured-image&quot; alt=&quot;Featured image&quot; style=&quot;background-image: url(/images/now-shipping-elementary-os/card@2x.png);&quot;&gt;&lt;/div&gt;
-  
-
-  &lt;header&gt;
-    &lt;h2&gt;
-
-
-
-   Now Shipping elementary&amp;nbsp;OS
-
-&lt;/h2&gt;
-    
-      &lt;h3&gt;
-        
-
-
-
-   Over a dozen models from two retailers, and&amp;nbsp;counting
-
-
-        
-      &lt;/h3&gt;
-    
-
-    
-
-
-
-&lt;div class=&quot;byline&quot;&gt;
-  &lt;div class=&quot;avatar&quot;&gt;
-    &lt;img srcset=&quot;https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&amp;amp;d=blank 2x&quot; src=&quot;https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&amp;amp;d=blank&quot; alt=&quot;Avatar for Cassidy James Blaede&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;author&quot;&gt;
-    
-    &lt;span class=&quot;name&quot;&gt;Cassidy James Blaede&lt;/span&gt;
-    
-    
-      &lt;span class=&quot;description&quot;&gt;Co-founder &amp;amp; CXO&lt;/span&gt;
-    
-  &lt;/div&gt;
-  &lt;time class=&quot;post-date&quot; datetime=&quot;2020-06-11&quot;&gt;Thu, Jun 11, 2020&lt;/time&gt;
-  
-    &lt;span class=&quot;read-time&quot; title=&quot;Estimated read time&quot;&gt;
-  
-  5 min read
-&lt;/span&gt;
-
-
-  
-&lt;/div&gt;
-
-
-  &lt;/header&gt;
-
-  
-&lt;/a&gt;
-
-
-&lt;/div&gt;
-
-&lt;p&gt;Now, we’re in the &lt;a href=&quot;/updates-for-july-2020&quot;&gt;Early Access&lt;/a&gt; phase of development on &lt;a href=&quot;/tags/#odin&quot;&gt;version 6&lt;/a&gt; with another huge feature drop planned and big improvements to our developer platform, a brand new look and feel, and more. It’s been a really wild 10 years building this incredibly complicated product and it still feels like we’re just getting started. We set out as a small ragtag group of volunteers to build a better desktop operating system and we’ve grown into a successful software company with many releases under our belts and a firm place in the wider open source community. I’m extremely proud of everything we’ve accomplished and the influence that we’ve had on others. I think you’re really going to enjoy the sixth major version of elementary OS; we’ve been working on it for 10 years now after all.&lt;/p&gt;
-
-&lt;h2 id=&quot;get-early-access&quot;&gt;Get Early Access&lt;/h2&gt;
-
-&lt;p&gt;If you’re excited by what you read here and want to get your hands on the developer preview of elementary OS 6, you can! GitHub Sponsors at the $10/mo or above tier get access to our &lt;a href=&quot;https://builds.elementary.io&quot;&gt;Early Access builds server&lt;/a&gt; where you can test the latest and greatest experimental builds, including images for Raspberry Pi 4 and Pinebook Pro. Subscribing helps us fund the development of elementary OS and brings us that much closer to delivering the final product.&lt;/p&gt;
-
-&lt;div style=&quot;text-align: center&quot;&gt;
-  &lt;p&gt;&lt;a href=&quot;https://builds.elementary.io&quot; class=&quot;button&quot;&gt;Get Early Access Builds&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;style&gt;
-figure {
-  margin-top: 4rem;
-}
-&lt;/style&gt;
-
-</description>
-          <pubDate>Wed, 31 Mar 2021 00:00:00 -0500</pubDate>
-          <link>https://blog.elementary.io/ten-years/</link>
-          <guid isPermaLink="true">https://blog.elementary.io/ten-years/</guid>
           
               
               
