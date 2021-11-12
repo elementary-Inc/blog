@@ -165,6 +165,10 @@ _[The Linux Experiment]_ makes the Linux desktop accessible: no techno lingo, no
     font-style: normal;
   }
 
+  article blockquote em {
+    font-style: italic;
+  }
+
   article aside blockquote {
     font-style: italic;
   }
