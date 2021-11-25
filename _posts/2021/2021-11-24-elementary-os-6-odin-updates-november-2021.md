@@ -45,12 +45,11 @@ Not content to stop with the <kbd>Alt</kbd><kbd>Tab</kbd> quick window switcher,
 
 These two changes make for a subtle but ever-present interaction change that is more clear and feels more modern.
 
-We also fixed a handful of small visual issues across the desktop: legacy/server-side decorated windows should no longer have a clipped shadow, we isolated the workspace "nudge" animation (when trying to navigate past the last workspace) to only show on the primary display. and we improved that nudge animation to work with the mouse wheel in addition to touchpads and touchscreens.
+We also fixed a handful of small visual issues across the desktop: legacy/server-side decorated windows should no longer have clipped shadows, we isolated the workspace "nudge" animation (when trying to navigate past the last workspace) to only show on the primary display, and we improved that nudge animation to work with the mouse wheel in addition to touchpads, touchscreens, and the keyboard.
 
 ### Applications Menu
 
-Search Bookmarks
-Prevent potential crash when starting
+We landed a major new feature to the Applications Menu to speed up your workflow: Files bookmark search! Now you can search right from the Applications Menu for bookmarked locations like Downloads, Pictures, or even network shares. And following cross-desktop standards, this feature will work with whatever your default file manager is—whether or not it's the default elementary Files app.
 
 ### Indicators
 
@@ -63,11 +62,18 @@ Redesign Housekeeping and add Downloads option, Security & Privacy settings: Add
 
 ## Apps
 
+We also dropped a handful of updates to the default apps this month.
+
 ### AppCenter
 
-- Amusements appear in the Games category
-- Categories show as a grid instead of a list
-- Allow window to shrink to much narrower sizes
+We've continued our work on the design of AppCenter with a few small but impactful changes.
+
+<figure class="constrained" markdown="1">
+![Category view](https://user-images.githubusercontent.com/7277719/141206268-5505f96e-39e4-436e-970c-e72b6369d6cc.png)
+<figcaption>Newly redesigned category view in AppCenter</figcaption>
+</figure>
+
+First, Category views (like Audio or System) are now shown with a more space-efficient grid view. We also separate paid, free, and non-curated apps (if you've added a third-party remote like Flathub) into their own sections within categories. Apps categorized as "Amusements" will now appear in the Games category to better surface these types of apps. And lastly, we've improved the responsiveness of the UI throughout to allow the window to be resized to much narrower sizes.
 
 ### Code
 
