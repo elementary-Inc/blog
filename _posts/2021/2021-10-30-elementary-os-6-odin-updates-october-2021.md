@@ -2,7 +2,7 @@
 title: elementary OS 6 Updates for October, 2021
 description: All the small things
 author: danrabbit
-image: /images/elementary-os-6-odin-updates-october-2021/card.png
+image: /images/elementary-os-6-odin-updates-october-2021/card.jpg
 tags:
   - odin
   - updates

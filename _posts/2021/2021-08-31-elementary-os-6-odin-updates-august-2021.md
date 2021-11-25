@@ -2,7 +2,7 @@
 title: elementary OS 6 Updates for August, 2021
 description: Just three weeks since the release, and we already have more goodies
 author: danrabbit
-image: /images/elementary-os-6-odin-updates-august-2021/card.png
+image: /images/elementary-os-6-odin-updates-august-2021/card.jpg
 tags:
   - odin
   - updates

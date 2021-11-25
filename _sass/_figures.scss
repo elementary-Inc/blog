@@ -196,4 +196,26 @@ figure {
       }
     }
   }
+
+  &.on-screen {
+    background-image: url('/images/notebook.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    height: 0;
+    margin: 0 auto;
+    padding-bottom: 40%; // Keep aspect ratio
+    position: relative;
+    width: 100%;
+
+    > * {
+      border-radius: 3px;
+      left: 22.25%;
+      overflow: hidden;
+      position: absolute;
+      top: 2.2%;
+      width: 55.5%;
+    }
+  }
 }

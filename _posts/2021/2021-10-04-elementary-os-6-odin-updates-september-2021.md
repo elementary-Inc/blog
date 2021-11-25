@@ -2,7 +2,7 @@
 title: elementary OS 6 Updates for September, 2021
 description: Big updates to AppCenter
 author: cassidyjames
-image: /images/elementary-os-6-odin-updates-september-2021/card.png
+image: /images/elementary-os-6-odin-updates-september-2021/card.jpg
 tags:
   - odin
   - updates
