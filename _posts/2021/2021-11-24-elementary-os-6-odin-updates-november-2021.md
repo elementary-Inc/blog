@@ -22,7 +22,7 @@ We spent a lot of time working on improvements and new features across the deskt
 
 Let's start with possibly the most obvious update to elementary OS this month: the redesigned <kbd>Alt</kbd><kbd>Tab</kbd> quick window switcher.
 
-Previously, quick window switching re-used the dock to show which app windows you'd switch between, and used the desktop to highlight just the newly-focused window. However, over time and based on a lot of real world feedback, we found that looking down at the dock—or even across physical space to the primary display in the case of multi-display users—was less intuitive and overloaded the dock's purpose. Visually focusing windows also meant a lot of flashing if you switched quickly, which was inelegant at best, and could be a real issue for people with certain types of photo-sensitivity. Thanks to Aral Balkan, we kicked off a project to rework quick window switching—and the initial work has been released this month!
+Previously, quick window switching re-used the dock to show which app windows you'd switch between, and used the desktop to highlight just the newly-focused window. However, over time and based on a lot of real world feedback, we found that looking down at the dock—or even across physical space to the primary display in the case of multi-display users—was less intuitive and overloaded the dock's purpose. Visually focusing windows also meant a lot of flashing if you switched quickly, which was inelegant at best, and could be a real issue for people with certain types of photo-sensitivity. Thanks to [Aral Balkan](https://ar.al/2021/11/08/my-three-month-long-elementary-os-6-upgrade-adventure-in-three-parts-part-1-catts/), we kicked off a project to rework quick window switching—and the initial work has been released this month!
 
 <figure class="half" markdown="1">
 ![Old](/images/{{ page.slug }}/gala-old.gif)
@@ -36,11 +36,16 @@ The new window switcher always shows centered on current display, making it much
 
 ### Dialogs
 
-Design refresh with dialogs: Dialogs fall down on parents instead of shooting out. We also dim the parents of modal dialogs to make it more clear that the dialog is modal, and which window it belongs to.
+Not content to stop with the <kbd>Alt</kbd><kbd>Tab</kbd> quick window switcher, we also refreshed the interaction design of dialogs in elementary OS. First, you'll notice dialogs animate in from above on top of their parent window instead of shooting out from within their parent window. This helps reinforce that dialogs are a more transient interaction. We also dim the parent windows behind blocking modal dialogs to make it more clear which window it belongs to, and that the dialog has to be dealt with before proceeding.
 
-- Fix shadow clipping on server-side decorated windows
-- Fixed the "nudge" animation to show on primary display
-- Add the "nudge" animation to changing workspaces with mouse wheel
+<figure  markdown="1">
+![Dialogs](/images/{{ page.slug }}/dialogs.gif)
+<figcaption>New dialog animation</figcaption>
+</figure>
+
+These two changes make for a subtle but ever-present interaction change that is more clear and feels more modern.
+
+We also fixed a handful of small visual issues across the desktop: legacy/server-side decorated windows should no longer have a clipped shadow, we isolated the workspace "nudge" animation (when trying to navigate past the last workspace) to only show on the primary display. and we improved that nudge animation to work with the mouse wheel in addition to touchpads and touchscreens.
 
 ### Applications Menu
 
