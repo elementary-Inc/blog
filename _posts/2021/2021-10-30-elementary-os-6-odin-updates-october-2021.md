@@ -8,6 +8,10 @@ tags:
   - updates
 ---
 
+<figure class="on-screen" markdown="1">
+![Screenshot]({{ page.image }})
+</figure>
+
 New OS 6 updates just dropped! This month features a heavy round of creature comforts, healed paper cuts, and paid off technical debt. Plus, a big win for cross-desktop compatibility.
 
 ## AppCenter

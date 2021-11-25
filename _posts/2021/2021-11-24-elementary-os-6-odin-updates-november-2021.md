@@ -24,6 +24,14 @@ Let's start with possibly the most obvious update to elementary OS this month: t
 
 Previously, quick window switching re-used the dock to show which app windows you'd switch between, and used the desktop to highlight just the newly-focused window. However, over time and based on a lot of real world feedback, we found that looking down at the dock—or even across physical space to the primary display in the case of multi-display users—was less intuitive and overloaded the dock's purpose. Visually focusing windows also meant a lot of flashing if you switched quickly, which was inelegant at best, and could be a real issue for people with certain types of photo-sensitivity. Thanks to Aral Balkan, we kicked off a project to rework quick window switching—and the initial work has been released this month!
 
+<figure class="half" markdown="1">
+![Old](/images/{{ page.slug }}/gala-old.gif)
+![New](/images/{{ page.slug }}/gala-new.gif)
+<figcaption markdown="1">
+**Left:** Old window switcher | **Right:** New window switcher
+</figcaption>
+</figure>
+
 The new window switcher always shows centered on current display, making it much more likely to be near your gaze. It also features bigger icons, helping you more quickly identify apps. It includes window titles, helping to differentiate between multiple windows from the same app. We also ensured the new design helps you keep your context—and no longer flashes the screen. As a bonus, it follows both the dark style preference and your selected accent color, making your elementary OS installation feel even more personal.
 
 ### Dialogs
