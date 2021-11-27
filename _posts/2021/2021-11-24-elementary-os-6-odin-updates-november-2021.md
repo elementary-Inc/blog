@@ -72,20 +72,23 @@ elementary OS has a Housekeeping feature where old temporary and trashed files c
 
 This month we improved Housekeeping with the addition of Downloads to the options, and a more clear and consistent design between both the Welcome app and System Settings.
 
-### Indicators
+### Sound
 
-Lastly, we focused on improving the sound and network system indicators. In the sound indicator, you'll notice new device icons to make it easier to find the right output.
+Lastly, we focused on improving the sound indicator and settings. In the indicator, you'll notice new device icons to make it easier to find the right output. We also improved the scroll interaction on the volume slider to work with horizontal scrolling, and cleaned up invalid "analog" output devices that could appear in certain situations.
 
-<figure class="card" markdown="1">
-![Sound indicator](https://user-images.githubusercontent.com/7277719/140836056-d5cd00ad-8be4-4f43-a7e4-32a27d0f01bc.png){: width="750" height="473"}
-<figcaption>Sound indicator with device icons</figcaption>
+<figure class="half" markdown="1">
+![Sound indicator](https://user-images.githubusercontent.com/7277719/140836056-d5cd00ad-8be4-4f43-a7e4-32a27d0f01bc.png){: .card width="750" height="473"}
+![Sound settings](https://raw.githubusercontent.com/elementary/switchboard-plug-sound/5bc331aa0c099c40d5940d1211403e1397e39395/data/screenshot.png){: width="929" height="689"}
+<figcaption markdown="1">
+**Left:** Sound indicator with device icons | **Right:** Sound settings with similar icons
+</figcaption>
 </figure>
 
-Sound: get device icons, allow horizontal scroll, clean up invalid "analog" output devices
+In System Settings, you'll see similar but larger, full-color device icons to distinguish devices, as well as an easier-to-scan multi-line layout.
 
 ## Apps
 
-We also dropped a handful of updates to the default apps this month.
+We also released a handful of updates to the default apps this month.
 
 ### AppCenter
 
@@ -100,17 +103,21 @@ Apps categorized as "Amusements" will now appear in the Games category to better
 
 ### Code
 
-- Projects with the same name now include their parent folder name as well
-- When scrolling to search results, overshoot slightly for better visibility
-- Use the FileChooser portal instead of the one from GTK
-- Center the global search dialog over the main Code window
-- made the "Visible whitespace" simpler and more clear with a switch instead of a drop-down
+In Code, we new distinguish between projects with the same name in the sidebar by including their parent folder. The project/folder search dialog now shows centered over then window, and when scrolling to search results, we overshoot the result slightly for better visibility. We also made the "visible whitespace" setting simpler and more clear with a switch instead of a drop-down. We're also now using the FileChooser portal provided by Files instead of the one from GTK; as a result, opening files and folders from within Code will now be more consistent with Flatpak apps.
 
-- Fix visibility of Terminal button on Welcome page
-- Fix some keyboard shortcuts affecting unfocused Document instead of focused Terminal
-- Close Terminal if shell exited and create new Terminal if re-opened with no shell
+If you use the Terminal extension, we fixed the visibility of Terminal button on Welcome page, fixed some keyboard shortcuts affecting unfocused document instead of focused Terminal, ensure the Terminal is closed if shell exited, and create a new Terminal if it's re-opened with no shell.
 
 ### Files
+
+<!-- TODO: Double-check this was released. -->
+
+We released a significant update to Files this month with a handful of fixes and improvements. Importantly, we rewrote the FileChooser portal
+
+- Fix pasting of selected pathbar text into another window using middle-click
+- Allow blank passwords for remote connections, e.g. for SSH via a private key
+- Use "Send Mail" portal instead of contract
+- Allow dropping bookmark directly below the Recent bookmark
+- Do not show unusable drop target below the Trash bookmark
 
 ### Camera
 
