@@ -1,6 +1,6 @@
 ---
 title: elementary OS 6 Updates for November, 2021
-description: Getting ready for the holidays
+description: New features and improved design to get ready for the holidays
 author: cassidyjames
 image: /images/elementary-os-6-odin-updates-november-2021/card.jpg
 tags:
@@ -16,13 +16,13 @@ This past week was Thanksgiving in the US, which for my family means decorating 
 
 ## The Desktop
 
-We spent a lot of time working on improvements and new features across the desktop—from quick window switching and animations to new search functionality and improved indicator designs.
+We spent a lot of time working on improvements and new features across the desktop, from quick window switching and animations to new search functionality and improved indicator designs.
 
 ### Quick Window Switching
 
 Let's start with possibly the most obvious update to elementary OS this month: the redesigned <kbd>Alt</kbd><kbd>Tab</kbd> quick window switcher.
 
-Previously, quick window switching re-used the dock to show which app windows you'd switch between, and dimmed out the rest of the desktop to highlight just the newly-focused window. However, over time and based on a lot of real world feedback, we found that looking down at the dock—or even across physical space to the primary display in the case of multi-display users—was less intuitive and overloaded the dock's purpose. Dimming the desktop and visually focusing windows also meant a lot of flashing if you switched quickly, which was inelegant at best, and could be an accessibility issue for people with certain types of photo-sensitivity. Thanks to [Aral Balkan](https://ar.al/2021/11/08/my-three-month-long-elementary-os-6-upgrade-adventure-in-three-parts-part-1-catts/), we kicked off a project to rework quick window switching—and the initial work has been released this month!
+Previously, quick window switching re-used the dock to show which app windows you'd switch between, and dimmed out the rest of the desktop to highlight just the newly-focused window. However, over time and based on a lot of real world feedback, we found that looking down at the dock—or even across physical space to the primary display in the case of multi-display users—was less intuitive and overloaded the dock's purpose. Dimming the desktop and visually focusing windows also meant a lot of flashing if you switched quickly which was inelegant at best, and could be an accessibility issue for people with certain types of photo-sensitivity. Thanks to [Aral Balkan](https://ar.al/2021/11/08/my-three-month-long-elementary-os-6-upgrade-adventure-in-three-parts-part-1-catts/), we kicked off a project to rework quick window switching—and the initial work has been released this month!
 
 <figure class="half" markdown="1">
 ![Old](/images/{{ page.slug }}/gala-old.gif)
@@ -36,7 +36,7 @@ The new window switcher always shows centered on current display, making it much
 
 ### Dialogs
 
-Not content to stop with the <kbd>Alt</kbd><kbd>Tab</kbd> quick window switcher, we also refreshed the interaction design of dialogs in elementary OS. First, you'll notice dialogs animate in from above on top of their parent window instead of shooting out from within their parent window. This helps reinforce that dialogs are a more transient interaction. We also dim the parent windows behind blocking modal dialogs to make it more clear which window it belongs to, and that the dialog has to be dealt with before proceeding.
+Not content to stop with the <kbd>Alt</kbd><kbd>Tab</kbd> quick window switcher, we also refreshed the interaction design of dialogs in elementary OS. First, you'll notice dialogs animate in from above on top of their parent window instead of shooting out from within their parent window. This helps reinforce that dialogs are a more transient interaction. We also dim the parent windows behind blocking modal dialogs to make it more clear which window it belongs to, and that the dialog needs to be addressed before proceeding.
 
 <figure class="card" markdown="1">
 ![Dialogs](/images/{{ page.slug }}/dialogs.gif)
@@ -110,11 +110,11 @@ We released a significant update to Files this month with a handful of fixes and
 <figcaption>Improved file chooser, as used in Code</figcaption>
 </figure>
 
-We've also released a handful of improvements to Files itsef. Files now uses the Send Mail portal for emailing files, which should open compatibility up to more third-party email clients and work better across other desktops. The "Connect to Server" dialog now allows blank passwords for remote connections, e.g. for connecting to an SSH server via a private key instead of a password. We restored the multi-select capability of rubber-band style file selection, meaning you can drag-to-select a group of files, hold <kbd>Ctrl</kbd>, and drag to select an additional group of files. And lastly, we improved the drag-and-drop to the sidebar for bookmarks, ensuring drop targets show up in the correct places.
+We've also released a handful of improvements to Files itself. Files now uses the Send Mail portal for emailing files, which should open compatibility up to more third-party email clients and work better across other desktops. The "Connect to Server" dialog now allows blank passwords for remote connections, e.g. for connecting to an SSH server via a private key instead of a password. We restored the multi-select capability of rubber-band style file selection, meaning you can drag-to-select a group of files, hold <kbd>Ctrl</kbd>, and drag to select an additional group of files. And lastly, we improved the drag-and-drop to the sidebar for bookmarks, ensuring drop targets show up in the correct places.
 
 ### Code
 
-In Code, we now distinguish between projects with the same name in the sidebar by including their parent folder. The project/folder search dialog now shows centered over then window, and when scrolling to search results, we overshoot the result slightly for better visibility. We also made the "visible whitespace" setting simpler and more clear with a switch instead of a drop-down. We're also now using the File Chooser portal provided by Files instead of the default dialog from GTK; as a result, opening files and folders from within Code will benefit from the recent improvements in the portal, and will be more consistent with Flatpak apps.
+In Code, we now distinguish between projects with the same name in the sidebar by including their parent folder. The project/folder search dialog now shows centered over the window, and when scrolling to search results, we overshoot the result slightly for better visibility. We also made the "visible whitespace" setting simpler and more clear with a switch instead of a drop-down. We're also now using the File Chooser portal provided by Files instead of the default dialog from GTK; as a result, opening files and folders from within Code will benefit from the recent improvements in the portal, and will be more consistent with Flatpak apps.
 
 If you use the Terminal extension, we fixed the visibility of Terminal button on Welcome page, fixed some keyboard shortcuts affecting unfocused document instead of focused Terminal, ensure the Terminal is closed if shell exited, and create a new Terminal if it's re-opened with no shell.
 
@@ -138,12 +138,12 @@ In User Accounts settings, we fixed an issue with updating permissions when enab
 
 ## Other Fixes & Updates
 
-We fixed a couple of issues discovered in the system stylesheet; namely, the accent color in IBus candidate window and the font style for labels in header bars (visible in Japanese). We updated the Network indicator to prevent blank lines in the list of VPNs. And as always, there are translation updates, code cleanups, and other under-the-hood improvements included with these updates across the OS and apps.
+We fixed a couple of issues discovered in the system stylesheet; namely, the accent color in IBus candidate window and the font style for labels in header bars for Japanese characters. We updated the Network indicator to prevent blank lines in the list of VPNs. And as always, there are translation updates, code cleanups, and other under-the-hood improvements included with these updates across the OS and apps.
 
 For developers, we added a `min_length` property for `Granite.ValidatedEntry` and released a new `Granite.HyperTextView` for navigable URLs in text views. On the icons front, we released new `preferences-desktop-font*` icons, additional sizes for `playlist-queue` and `emblem-downloads`, redesigned the PDF file type, and removed arrows from Copy and Paste actions. Lastly, we released version 6.0.4 of the Flatpak platform with the latest Granite, icons, and stylesheet updates.
 
 <aside markdown="1">
->We prioritize our work based directly off of the feedback we receive
+>We prioritize our work based directly off of the feedback we receive.
 </aside>
 
 If you're experiencing an issue that wasn't fixed in this month's updates—or if you have an idea for a new feature—we'd love to hear from you. We prioritize our work based directly off of the feedback we receive. Be sure to check out our [issue reporting guide](https://docs.elementary.io/contributor-guide/feedback/reporting-issues) for tips and more info.
