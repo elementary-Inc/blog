@@ -94,7 +94,7 @@ In addition to the aforementioned Housekeeping and Sound improvements, we releas
 ![New text scaling design](/images/{{ page.slug }}/text-scaling.png){: width="856" height="553"}
 ![Custom keyboard shortcuts design](/images/{{ page.slug }}/custom-shortcuts.png){: width="909" height="601"}
 <figcaption markdown="1">
-**Left:** Improved text scaling options | **Right:** Improved custom keyboard settings design
+**Left:** Improved text scaling options | **Right:** Improved custom keyboard shortcuts design
 </figcaption>
 </figure>
 
