@@ -109,15 +109,14 @@ If you use the Terminal extension, we fixed the visibility of Terminal button on
 
 ### Files
 
-<!-- TODO: Double-check this was released. -->
+We released a significant update to Files this month with a handful of fixes and improvements. Importantly, we greatly improved the File Chooser Portal that is used when apps request to open a file. This update brings new functionality like a New Folder action, a drop-down to filter the types of files shown, and an option to restrict the requesting app's access to a read-only version of the opened file. The update also improves how the dialog is displayed in apps, fixing issues with focus and more reliably opening on top of the requesting app window.
 
-We released a significant update to Files this month with a handful of fixes and improvements. Importantly, we rewrote the FileChooser portal
+<figure class="half" markdown="1">
+![FileChooser dialog](/images/{{ page.slug }}/filechooser.png)
+<figcaption>Improved file chooser in Code</figcaption>
+</figure>
 
-- Fix pasting of selected pathbar text into another window using middle-click
-- Allow blank passwords for remote connections, e.g. for SSH via a private key
-- Use "Send Mail" portal instead of contract
-- Allow dropping bookmark directly below the Recent bookmark
-- Do not show unusable drop target below the Trash bookmark
+We've also released a handful of improvements to Files itsef. Files now uses the Send Mail Portal for emailing files, which should open compatibility up to more third-party email clients and work better across other desktops. The "Connect to Server" dialog now allows blank passwords for remote connections, e.g. for connecting to an SSH server via a private key instead of a password. We restored the multi-select capability of rubber-band style file selection, meaning you can drag-to-select a group of files, hold <kbd>Ctrl</kbd>, and drag to select an additional group of files. And lastly, we improved the drag-and-drop to the sidebar for bookmarks, ensuring drop targets show up in the correct places.
 
 ### Camera
 
