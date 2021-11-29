@@ -84,7 +84,21 @@ Lastly, we focused on improving the sound indicator and settings. In the indicat
 </figcaption>
 </figure>
 
-In System Settings, you'll see similar but larger, full-color device icons to distinguish devices, as well as an easier-to-scan multi-line layout.
+In Sound settings, you'll see similar but larger, full-color device icons to distinguish devices, as well as an easier-to-scan multi-line layout.
+
+### System Settings
+
+In addition to the aforementioned Housekeeping and Sound improvements, we released updates to a handful of System Settings panes this month. To better support a wide variety of display sizes and resolutions, we added more granular text scaling in the Desktop settings—and moved the text settings to their own page for clarity. As a reminder, text scaling in elementary OS affects both text and much of the UI while keeping pixel-perfect icons and strokes, so this update is a great alternative to fractional scaling for anyone with a display whose resolution sits in between the ideal loDPI and HiDPI ranges. In Keyboard settings, we improved the custom shortcuts view with a more straightforward design and menu for changing or deleting shortcuts, and added an on-screen keyboard switch to the Layouts tab.
+
+<figure class="half" markdown="1">
+![New text scaling design](/images/{{ page.slug }}/text-scaling.png){: width="856" height="553"}
+![Custom keyboard shortcuts design](/images/{{ page.slug }}/custom-shortcuts.png){: width="909" height="601"}
+<figcaption markdown="1">
+**Left:** Improved text scaling options | **Right:** Improved custom keyboard settings design
+</figcaption>
+</figure>
+
+In User Accounts settings, we fixed an issue with updating permissions when enabling and disabling accounts. And over in Online Accounts, we updated the IMAP account window to dim the System Settings app behind it while being used.
 
 ## Apps
 
@@ -99,7 +113,7 @@ We've continued our work on the design of AppCenter with a few small but impactf
 <figcaption>Newly redesigned category view in AppCenter</figcaption>
 </figure>
 
-Apps categorized as "Amusements" will now appear in the Games category to better surface these types of apps. And lastly, we've improved the responsiveness of the UI throughout to allow the window to be resized to much narrower sizes.
+In an effort to better surface the interesting apps being submitted, we've added a new Privacy & Security category and apps categorized as "Amusements" will now appear in the Games category. This month we also continued working directly with our third-party app developers to improve the categories listed in their app's metadata to make sure they're accurate and more discoverable for users. And lastly, we've improved the responsiveness of the UI throughout to allow the window to be resized to much narrower sizes.
 
 ### Files
 
@@ -121,20 +135,6 @@ If you use the Terminal extension, we fixed the visibility of Terminal button on
 ### Camera
 
 We pushed out a smaller update to Camera this month focused on multiple camera support. We resolved issues with some cameras being unavailable when multiple cameras are connected, and we now default to a working camera if multiple cameras are connected but one is unavailable.
-
-## System Settings
-
-In addition to the aforementioned Housekeeping and Sound improvements, we released updates to a handful of System Settings panes this month. We added more granular text scaling in the Desktop settings and moved the text settings to their own page for clarity. In Keyboard settings, we improved the custom shortcuts view with a more straightforward design and menu for changing or deleting shortcuts, and added an on-screen keyboard switch to the Layouts tab.
-
-<figure class="half" markdown="1">
-![New text scaling design](/images/{{ page.slug }}/text-scaling.png){: width="856" height="553"}
-![Custom keyboard shortcuts design](/images/{{ page.slug }}/custom-shortcuts.png){: width="909" height="601"}
-<figcaption markdown="1">
-**Left:** Improved text scaling options | **Right:** Improved custom keyboard settings design
-</figcaption>
-</figure>
-
-In User Accounts settings, we fixed an issue with updating permissions when enabling and disabling accounts. And over in Online Accounts, we updated the IMAP account window to dim the System Settings app behind it while being used.
 
 ## Other Fixes & Updates
 
