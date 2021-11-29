@@ -101,45 +101,46 @@ We've continued our work on the design of AppCenter with a few small but impactf
 
 Apps categorized as "Amusements" will now appear in the Games category to better surface these types of apps. And lastly, we've improved the responsiveness of the UI throughout to allow the window to be resized to much narrower sizes.
 
+### Files
+
+We released a significant update to Files this month with a handful of fixes and improvements. Importantly, we greatly improved the File Chooser portal that is used when apps request to open a file. This update brings new functionality like a New Folder action, a drop-down to filter the types of files shown, and an option to restrict the requesting app's access to a read-only version of the opened file. The update also improves how the dialog is displayed in apps, fixing issues with focus and more reliably opening on top of the requesting app window.
+
+<figure class="card" markdown="1">
+![FileChooser dialog](/images/{{ page.slug }}/filechooser.png)
+<figcaption>Improved file chooser, as used in Code</figcaption>
+</figure>
+
+We've also released a handful of improvements to Files itsef. Files now uses the Send Mail portal for emailing files, which should open compatibility up to more third-party email clients and work better across other desktops. The "Connect to Server" dialog now allows blank passwords for remote connections, e.g. for connecting to an SSH server via a private key instead of a password. We restored the multi-select capability of rubber-band style file selection, meaning you can drag-to-select a group of files, hold <kbd>Ctrl</kbd>, and drag to select an additional group of files. And lastly, we improved the drag-and-drop to the sidebar for bookmarks, ensuring drop targets show up in the correct places.
+
 ### Code
 
-In Code, we new distinguish between projects with the same name in the sidebar by including their parent folder. The project/folder search dialog now shows centered over then window, and when scrolling to search results, we overshoot the result slightly for better visibility. We also made the "visible whitespace" setting simpler and more clear with a switch instead of a drop-down. We're also now using the FileChooser portal provided by Files instead of the one from GTK; as a result, opening files and folders from within Code will now be more consistent with Flatpak apps.
+In Code, we now distinguish between projects with the same name in the sidebar by including their parent folder. The project/folder search dialog now shows centered over then window, and when scrolling to search results, we overshoot the result slightly for better visibility. We also made the "visible whitespace" setting simpler and more clear with a switch instead of a drop-down. We're also now using the File Chooser portal provided by Files instead of the default dialog from GTK; as a result, opening files and folders from within Code will benefit from the recent improvements in the portal, and will be more consistent with Flatpak apps.
 
 If you use the Terminal extension, we fixed the visibility of Terminal button on Welcome page, fixed some keyboard shortcuts affecting unfocused document instead of focused Terminal, ensure the Terminal is closed if shell exited, and create a new Terminal if it's re-opened with no shell.
 
-### Files
-
-We released a significant update to Files this month with a handful of fixes and improvements. Importantly, we greatly improved the File Chooser Portal that is used when apps request to open a file. This update brings new functionality like a New Folder action, a drop-down to filter the types of files shown, and an option to restrict the requesting app's access to a read-only version of the opened file. The update also improves how the dialog is displayed in apps, fixing issues with focus and more reliably opening on top of the requesting app window.
-
-<figure class="half" markdown="1">
-![FileChooser dialog](/images/{{ page.slug }}/filechooser.png)
-<figcaption>Improved file chooser in Code</figcaption>
-</figure>
-
-We've also released a handful of improvements to Files itsef. Files now uses the Send Mail Portal for emailing files, which should open compatibility up to more third-party email clients and work better across other desktops. The "Connect to Server" dialog now allows blank passwords for remote connections, e.g. for connecting to an SSH server via a private key instead of a password. We restored the multi-select capability of rubber-band style file selection, meaning you can drag-to-select a group of files, hold <kbd>Ctrl</kbd>, and drag to select an additional group of files. And lastly, we improved the drag-and-drop to the sidebar for bookmarks, ensuring drop targets show up in the correct places.
-
 ### Camera
 
-- Resolve issues with cameras being unavailable when multiple cameras are connected
-- Default to a working camera if multiple cameras are connected and one is unavailable
+We pushed out a smaller update to Camera this month focused on multiple camera support. We resolved issues with some cameras being unavailable when multiple cameras are connected, and we now default to a working camera if multiple cameras are connected but one is unavailable.
 
 ## System Settings
 
-Desktop: Move Text settings to their own page, More granular settings for text scale
+In addition to the aforementioned Housekeeping and Sound improvements, we released updates to a handful of System Settings panes this month. We added more granular text scaling in the Desktop settings and moved the text settings to their own page for clarity. In Keyboard settings, we improved the custom shortcuts view with a more straightforward design and menu for changing or deleting shortcuts, and added an on-screen keyboard switch to the Layouts tab.
 
-Keyboard: Redesigned custom shortcuts view, On-screen keyboard switch in Layouts tab
+<figure class="half" markdown="1">
+![New text scaling design](/images/{{ page.slug }}/text-scaling.png){: width="856" height="553"}
+![Custom keyboard shortcuts design](/images/{{ page.slug }}/custom-shortcuts.png){: width="909" height="601"}
+<figcaption markdown="1">
+**Left:** Improved text scaling options | **Right:** Improved custom keyboard settings design
+</figcaption>
+</figure>
 
-Sound: Show device icons, Switch to enable the screen reader
-
-User accounts: Update permissions when enabling and disabling accounts
+In User Accounts settings, we fixed an issue with updating permissions when enabling and disabling accounts. And over in Online Accounts, we updated the IMAP account window to dim the System Settings app behind it while being used.
 
 ## Other Fixes & Updates
 
-Fixed a couple of issues discovered in the system stylesheet; namely, the accent color in IBus candidate window and the font style for labels in header bars (visible in Japanese).
+We fixed a couple of issues discovered in the system stylesheet; namely, the accent color in IBus candidate window and the font style for labels in header bars (visible in Japanese). We updated the Network indicator to prevent blank lines in the list of VPNs. And as always, there are translation updates, code cleanups, and other under-the-hood improvements included with these updates across the OS and apps.
 
-And as always, there are translation updates, code cleanups, and other under-the-hood improvements included with these updates across the OS and apps.
-
-For developers, min_length property for Granite.ValidatedEntry, Granite.HyperTextView for navigatable URLs in text views. New preferences-desktop-font* icons, additional sizes for playlist-queue, redesigned PDF file type, additional sizes for emblem-downloads, and removed arrows from Copy and Paste actions. 6.0.4 platform release with the latest Granite, icons, and stylesheet updates.
+For developers, we added a `min_length` property for `Granite.ValidatedEntry` and released a new `Granite.HyperTextView` for navigable URLs in text views. On the icons front, we released new `preferences-desktop-font*` icons, additional sizes for `playlist-queue` and `emblem-downloads`, redesigned the PDF file type, and removed arrows from Copy and Paste actions. Lastly, we released version 6.0.4 of the Flatpak platform with the latest Granite, icons, and stylesheet updates.
 
 <aside markdown="1">
 >We prioritize our work based directly off of the feedback we receive
