@@ -113,7 +113,7 @@ We've continued our work on the design of AppCenter with a few small but impactf
 <figcaption>Newly redesigned category view in AppCenter</figcaption>
 </figure>
 
-In an effort to better surface the interesting apps being submitted, we've added a new Privacy & Security category and apps categorized as "Amusements" will now appear in the Games category. This month we also continued working directly with our third-party app developers to improve the categories listed in their app's metadata to make sure they're accurate and more discoverable for users. And lastly, we've improved the responsiveness of the UI throughout to allow the window to be resized to much narrower sizes.
+In an effort to better surface the interesting apps being submitted, we've added a new Privacy & Security category, and apps categorized as "Amusements" will now appear in the Games category. This month we also continued working directly with our third-party app developers to improve the categories listed in their app's metadata to make sure they're accurate and more discoverable for users. And lastly, we've improved the responsiveness of the UI throughout to allow the window to be resized to much narrower sizes.
 
 ### Files
 
