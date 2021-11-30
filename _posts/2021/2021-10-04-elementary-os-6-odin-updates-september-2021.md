@@ -2,11 +2,15 @@
 title: elementary OS 6 Updates for September, 2021
 description: Big updates to AppCenter
 author: cassidyjames
-image: /images/elementary-os-6-odin-updates-september-2021/card.png
+image: /images/elementary-os-6-odin-updates-september-2021/card.jpg
 tags:
   - odin
   - updates
 ---
+
+<figure class="on-screen" markdown="1">
+![Screenshot]({{ page.image }})
+</figure>
 
 We're back with your monthly report on updates to elementary OS 6! It was another incredibly eventful month as we continued fixing reported issues and focused in especially on improvements to AppCenter and Online Accounts apps like Mail. But before we get to all the goodies, we're proud to report that OS 6 has been downloaded from our website [over 137,000 times](https://plausible.io/elementary.io?period=custom&goal=Download&from=2021-08-10&to=2021-10-04&props=%7B%22Version%22%3A%226%22%7D)—and as always, that's not including downloads from third parties or direct downloads via torrent that bypass our download page.
 

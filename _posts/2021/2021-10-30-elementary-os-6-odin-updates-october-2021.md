@@ -2,11 +2,15 @@
 title: elementary OS 6 Updates for October, 2021
 description: All the small things
 author: danrabbit
-image: /images/elementary-os-6-odin-updates-october-2021/card.png
+image: /images/elementary-os-6-odin-updates-october-2021/card.jpg
 tags:
   - odin
   - updates
 ---
+
+<figure class="on-screen" markdown="1">
+![Screenshot]({{ page.image }})
+</figure>
 
 New OS 6 updates just dropped! This month features a heavy round of creature comforts, healed paper cuts, and paid off technical debt. Plus, a big win for cross-desktop compatibility.
 
