@@ -5,9 +5,177 @@
     <description>We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS</description>
     <link>https://blog.elementary.io/</link>
     <atom:link href="https://blog.elementary.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 29 Nov 2021 18:04:19 -0600</pubDate>
-    <lastBuildDate>Mon, 29 Nov 2021 18:04:19 -0600</lastBuildDate>
+    <pubDate>Mon, 29 Nov 2021 18:09:59 -0600</pubDate>
+    <lastBuildDate>Mon, 29 Nov 2021 18:09:59 -0600</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      
+        <item>
+          <title>elementary OS 6 Updates for November, 2021</title>
+          <description>&lt;figure class=&quot;on-screen&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/elementary-os-6-odin-updates-november-2021/card.jpg&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;This past week was Thanksgiving in the US, which for my family means decorating for the holidays is in full swing. In a similar vein, we’ve spent some extra time over the past month focusing on both visual and functional polish to make sure elementary OS 6 looks as good and works as well as it can—read on for the details!&lt;/p&gt;
+
+&lt;h2 id=&quot;the-desktop&quot;&gt;The Desktop&lt;/h2&gt;
+
+&lt;p&gt;We spent a lot of time working on improvements and new features across the desktop, from quick window switching and animations to new search functionality and improved indicator designs.&lt;/p&gt;
+
+&lt;h3 id=&quot;quick-window-switching&quot;&gt;Quick Window Switching&lt;/h3&gt;
+
+&lt;p&gt;Let’s start with possibly the most obvious update to elementary OS this month: the redesigned &lt;kbd&gt;Alt&lt;/kbd&gt;&lt;kbd&gt;Tab&lt;/kbd&gt; quick window switcher.&lt;/p&gt;
+
+&lt;p&gt;Previously, quick window switching re-used the dock to show which app windows you’d switch between, and dimmed out the rest of the desktop to highlight just the newly-focused window. However, over time and based on a lot of real world feedback, we found that looking down at the dock—or even across physical space to the primary display in the case of multi-display users—was less intuitive and overloaded the dock’s purpose. Dimming the desktop and visually focusing windows also meant a lot of flashing if you switched quickly which was inelegant at best, and could be an accessibility issue for people with certain types of photo-sensitivity. Thanks to &lt;a href=&quot;https://ar.al/2021/11/08/my-three-month-long-elementary-os-6-upgrade-adventure-in-three-parts-part-1-catts/&quot;&gt;Aral Balkan&lt;/a&gt;, we kicked off a project to rework quick window switching—and the initial work has been released this month!&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/elementary-os-6-odin-updates-november-2021/gala-old.gif&quot; alt=&quot;Old&quot; /&gt;
+&lt;img src=&quot;/images/elementary-os-6-odin-updates-november-2021/gala-new.gif&quot; alt=&quot;New&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;&lt;strong&gt;Left:&lt;/strong&gt; Old window switcher | &lt;strong&gt;Right:&lt;/strong&gt; New window switcher&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The new window switcher always shows centered on current display, making it much more likely to be near your gaze. It also features bigger icons, helping you more quickly identify apps. It includes window titles, helping to differentiate between multiple windows from the same app. We also ensured the new design helps you keep your context—and no longer flashes the screen. As a bonus, it follows both the dark style preference and your selected accent color, making your elementary OS installation feel even more personal.&lt;/p&gt;
+
+&lt;h3 id=&quot;dialogs&quot;&gt;Dialogs&lt;/h3&gt;
+
+&lt;p&gt;Not content to stop with the &lt;kbd&gt;Alt&lt;/kbd&gt;&lt;kbd&gt;Tab&lt;/kbd&gt; quick window switcher, we also refreshed the interaction design of dialogs in elementary OS. First, you’ll notice dialogs animate in from above on top of their parent window instead of shooting out from within their parent window. This helps reinforce that dialogs are a more transient interaction. We also dim the parent windows behind blocking modal dialogs to make it more clear which window it belongs to, and that the dialog needs to be addressed before proceeding.&lt;/p&gt;
+
+&lt;figure class=&quot;card&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/elementary-os-6-odin-updates-november-2021/dialogs.gif&quot; alt=&quot;Dialogs&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;New dialog animation&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;These two changes make for a subtle but ever-present interaction change that is more clear and feels more modern.&lt;/p&gt;
+
+&lt;p&gt;We also fixed a handful of small visual issues across the desktop: legacy/server-side decorated windows should no longer have clipped shadows, we isolated the workspace “nudge” animation (when trying to navigate past the last workspace) to only show on the primary display, and we improved that nudge animation to work with the mouse wheel in addition to touchpads, touchscreens, and the keyboard.&lt;/p&gt;
+
+&lt;h3 id=&quot;applications-menu&quot;&gt;Applications Menu&lt;/h3&gt;
+
+&lt;p&gt;We landed a major new feature to the Applications Menu to speed up your workflow: file bookmark search! Now you can search right from the Applications Menu for bookmarked folders and locations like Downloads, Pictures, or even network shares.&lt;/p&gt;
+
+&lt;figure class=&quot;card&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/elementary-os-6-odin-updates-november-2021/bookmark-search.png&quot; alt=&quot;Bookmark search in Applications Menu&quot; width=&quot;888&quot; height=&quot;689&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;Bookmark search in the Applications Menu&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;And following cross-desktop standards, this feature will work with whatever your default file manager is—whether or not it’s the default elementary Files app.&lt;/p&gt;
+
+&lt;h3 id=&quot;housekeeping&quot;&gt;Housekeeping&lt;/h3&gt;
+
+&lt;p&gt;elementary OS has a Housekeeping feature where old temporary and trashed files can be automatically cleaned up to save space and help protect your privacy.&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/elementary-os-6-odin-updates-november-2021/housekeeping-onboarding.png&quot; alt=&quot;Onboarding&quot; /&gt;
+&lt;img src=&quot;/images/elementary-os-6-odin-updates-november-2021/housekeeping-settings.png&quot; alt=&quot;Settings&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;&lt;strong&gt;Left:&lt;/strong&gt; Housekeeping in the Welcome app | &lt;strong&gt;Right:&lt;/strong&gt; Housekeeping in System Settings&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;This month we improved Housekeeping with the addition of Downloads to the options, and a more clear and consistent design between both the Welcome app and System Settings.&lt;/p&gt;
+
+&lt;h3 id=&quot;sound&quot;&gt;Sound&lt;/h3&gt;
+
+&lt;p&gt;Lastly, we focused on improving the sound indicator and settings. In the indicator, you’ll notice new device icons to make it easier to find the right output. We also improved the scroll interaction on the volume slider to work with horizontal scrolling, and cleaned up invalid “analog” output devices that could appear in certain situations.&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/7277719/140836056-d5cd00ad-8be4-4f43-a7e4-32a27d0f01bc.png&quot; alt=&quot;Sound indicator&quot; class=&quot;card&quot; width=&quot;750&quot; height=&quot;473&quot; /&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/elementary/switchboard-plug-sound/5bc331aa0c099c40d5940d1211403e1397e39395/data/screenshot.png&quot; alt=&quot;Sound settings&quot; width=&quot;929&quot; height=&quot;689&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;&lt;strong&gt;Left:&lt;/strong&gt; Sound indicator with device icons | &lt;strong&gt;Right:&lt;/strong&gt; Sound settings with similar icons&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;In Sound settings, you’ll see similar but larger, full-color device icons to distinguish devices, as well as an easier-to-scan multi-line layout.&lt;/p&gt;
+
+&lt;h3 id=&quot;system-settings&quot;&gt;System Settings&lt;/h3&gt;
+
+&lt;p&gt;In addition to the aforementioned Housekeeping and Sound improvements, we released updates to a handful of System Settings panes this month. To better support a wide variety of display sizes and resolutions, we added more granular text scaling in the Desktop settings—and moved the text settings to their own page for clarity. As a reminder, text scaling in elementary OS affects both text and much of the UI while keeping pixel-perfect icons and strokes, so this update is a great alternative to fractional scaling for anyone with a display whose resolution sits in between the ideal loDPI and HiDPI ranges. In Keyboard settings, we improved the custom shortcuts view with a more straightforward design and menu for changing or deleting shortcuts, and added an on-screen keyboard switch to the Layouts tab.&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/elementary-os-6-odin-updates-november-2021/text-scaling.png&quot; alt=&quot;New text scaling design&quot; width=&quot;856&quot; height=&quot;553&quot; /&gt;
+&lt;img src=&quot;/images/elementary-os-6-odin-updates-november-2021/custom-shortcuts.png&quot; alt=&quot;Custom keyboard shortcuts design&quot; width=&quot;909&quot; height=&quot;601&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;&lt;strong&gt;Left:&lt;/strong&gt; Improved text scaling options | &lt;strong&gt;Right:&lt;/strong&gt; Improved custom keyboard shortcuts design&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;In User Accounts settings, we fixed an issue with updating permissions when enabling and disabling accounts. And over in Online Accounts, we updated the IMAP account window to dim the System Settings app behind it while being used.&lt;/p&gt;
+
+&lt;h2 id=&quot;apps&quot;&gt;Apps&lt;/h2&gt;
+
+&lt;p&gt;We also released a handful of updates to the default apps this month.&lt;/p&gt;
+
+&lt;h3 id=&quot;appcenter&quot;&gt;AppCenter&lt;/h3&gt;
+
+&lt;p&gt;We’ve continued our work on the design of AppCenter with a few small but impactful changes. First, Category views (like Audio or System) are now shown with a more space-efficient grid view. We also separate paid, free, and non-curated apps (if you’ve added a third-party remote like Flathub) into their own sections within categories.&lt;/p&gt;
+
+&lt;figure class=&quot;constrained&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/7277719/141206268-5505f96e-39e4-436e-970c-e72b6369d6cc.png&quot; alt=&quot;Category view&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;Newly redesigned category view in AppCenter&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;In an effort to better surface the interesting apps being submitted, we’ve added a new Privacy &amp;amp; Security category, and apps categorized as “Amusements” will now appear in the Games category. This month we also continued working directly with our third-party app developers to improve the categories listed in their app’s metadata to make sure they’re accurate and more discoverable for users. And lastly, we’ve improved the responsiveness of the UI throughout to allow the window to be resized to much narrower sizes.&lt;/p&gt;
+
+&lt;h3 id=&quot;files&quot;&gt;Files&lt;/h3&gt;
+
+&lt;p&gt;We released a significant update to Files this month with a handful of fixes and improvements. Importantly, we greatly improved the File Chooser portal that is used when apps request to open a file. This update brings new functionality like a New Folder action, a drop-down to filter the types of files shown, and an option to restrict the requesting app’s access to a read-only version of the opened file. The update also improves how the dialog is displayed in apps, fixing issues with focus and more reliably opening on top of the requesting app window.&lt;/p&gt;
+
+&lt;figure class=&quot;card&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/elementary-os-6-odin-updates-november-2021/filechooser.png&quot; alt=&quot;FileChooser dialog&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;Improved file chooser, as used in Code&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We’ve also released a handful of improvements to Files itself. Files now uses the Send Mail portal for emailing files, which should open compatibility up to more third-party email clients and work better across other desktops. The “Connect to Server” dialog now allows blank passwords for remote connections, e.g. for connecting to an SSH server via a private key instead of a password. We restored the multi-select capability of rubber-band style file selection, meaning you can drag-to-select a group of files, hold &lt;kbd&gt;Ctrl&lt;/kbd&gt;, and drag to select an additional group of files. And lastly, we improved the drag-and-drop to the sidebar for bookmarks, ensuring drop targets show up in the correct places.&lt;/p&gt;
+
+&lt;h3 id=&quot;code&quot;&gt;Code&lt;/h3&gt;
+
+&lt;p&gt;In Code, we now distinguish between projects with the same name in the sidebar by including their parent folder. The project/folder search dialog now shows centered over the window, and when scrolling to search results, we overshoot the result slightly for better visibility. We also made the “visible whitespace” setting simpler and more clear with a switch instead of a drop-down. We’re also now using the File Chooser portal provided by Files instead of the default dialog from GTK; as a result, opening files and folders from within Code will benefit from the recent improvements in the portal, and will be more consistent with Flatpak apps.&lt;/p&gt;
+
+&lt;p&gt;If you use the Terminal extension, we fixed the visibility of Terminal button on Welcome page, fixed some keyboard shortcuts affecting unfocused document instead of focused Terminal, ensure the Terminal is closed if shell exited, and create a new Terminal if it’s re-opened with no shell.&lt;/p&gt;
+
+&lt;h3 id=&quot;camera&quot;&gt;Camera&lt;/h3&gt;
+
+&lt;p&gt;We pushed out a smaller update to Camera this month focused on multiple camera support. We resolved issues with some cameras being unavailable when multiple cameras are connected, and we now default to a working camera if multiple cameras are connected but one is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&quot;other-fixes--updates&quot;&gt;Other Fixes &amp;amp; Updates&lt;/h2&gt;
+
+&lt;p&gt;We fixed a couple of issues discovered in the system stylesheet; namely, the accent color in IBus candidate window and the font style for labels in header bars for Japanese characters. We updated the Network indicator to prevent blank lines in the list of VPNs. And as always, there are translation updates, code cleanups, and other under-the-hood improvements included with these updates across the OS and apps.&lt;/p&gt;
+
+&lt;p&gt;For developers, we added a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;min_length&lt;/code&gt; property for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Granite.ValidatedEntry&lt;/code&gt; and released a new &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Granite.HyperTextView&lt;/code&gt; for navigable URLs in text views. On the icons front, we released new &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;preferences-desktop-font*&lt;/code&gt; icons, additional sizes for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;playlist-queue&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;emblem-downloads&lt;/code&gt;, redesigned the PDF file type, and removed arrows from Copy and Paste actions. Lastly, we released version 6.0.4 of the Flatpak platform with the latest Granite, icons, and stylesheet updates.&lt;/p&gt;
+
+&lt;aside&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;We prioritize our work based directly off of the feedback we receive.&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;If you’re experiencing an issue that wasn’t fixed in this month’s updates—or if you have an idea for a new feature—we’d love to hear from you. We prioritize our work based directly off of the feedback we receive. Be sure to check out our &lt;a href=&quot;https://docs.elementary.io/contributor-guide/feedback/reporting-issues&quot;&gt;issue reporting guide&lt;/a&gt; for tips and more info.&lt;/p&gt;
+
+&lt;h2 id=&quot;get-these-updates&quot;&gt;Get These Updates&lt;/h2&gt;
+
+&lt;p&gt;As always, if you’re already running elementary OS 6 you can get updates directly from AppCenter by opening up the “Installed” tab and selecting “Update All.” Previous OS 6 purchase links from email receipts will be upgraded to the newest OS 6 release as usual.&lt;/p&gt;
+
+&lt;p&gt;If you’re not yet running elementary OS 6, we’ll be publishing a new 6.0.4 download for a pay-what-you-can price that includes all of these updates &lt;a href=&quot;https://elementary.io&quot;&gt;on our homepage&lt;/a&gt; soon.&lt;/p&gt;
+</description>
+          <pubDate>Mon, 29 Nov 2021 00:00:00 -0600</pubDate>
+          <link>https://blog.elementary.io/elementary-os-6-odin-updates-november-2021/</link>
+          <guid isPermaLink="true">https://blog.elementary.io/elementary-os-6-odin-updates-november-2021/</guid>
+          
+              
+              
+          <enclosure url="https://blog.elementary.io" />
+          
+          
+          <category>odin</category>
+          
+          <category>updates</category>
+          
+          
+        </item>
+      
     
       
         <item>
@@ -294,7 +462,11 @@
       
         <item>
           <title>elementary OS 6 Updates for October, 2021</title>
-          <description>&lt;p&gt;New OS 6 updates just dropped! This month features a heavy round of creature comforts, healed paper cuts, and paid off technical debt. Plus, a big win for cross-desktop compatibility.&lt;/p&gt;
+          <description>&lt;figure class=&quot;on-screen&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/elementary-os-6-odin-updates-october-2021/card.jpg&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;New OS 6 updates just dropped! This month features a heavy round of creature comforts, healed paper cuts, and paid off technical debt. Plus, a big win for cross-desktop compatibility.&lt;/p&gt;
 
 &lt;h2 id=&quot;appcenter&quot;&gt;AppCenter&lt;/h2&gt;
 
@@ -446,7 +618,11 @@
       
         <item>
           <title>elementary OS 6 Updates for September, 2021</title>
-          <description>&lt;p&gt;We’re back with your monthly report on updates to elementary OS 6! It was another incredibly eventful month as we continued fixing reported issues and focused in especially on improvements to AppCenter and Online Accounts apps like Mail. But before we get to all the goodies, we’re proud to report that OS 6 has been downloaded from our website &lt;a href=&quot;https://plausible.io/elementary.io?period=custom&amp;amp;goal=Download&amp;amp;from=2021-08-10&amp;amp;to=2021-10-04&amp;amp;props=%7B%22Version%22%3A%226%22%7D&quot;&gt;over 137,000 times&lt;/a&gt;—and as always, that’s not including downloads from third parties or direct downloads via torrent that bypass our download page.&lt;/p&gt;
+          <description>&lt;figure class=&quot;on-screen&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/elementary-os-6-odin-updates-september-2021/card.jpg&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We’re back with your monthly report on updates to elementary OS 6! It was another incredibly eventful month as we continued fixing reported issues and focused in especially on improvements to AppCenter and Online Accounts apps like Mail. But before we get to all the goodies, we’re proud to report that OS 6 has been downloaded from our website &lt;a href=&quot;https://plausible.io/elementary.io?period=custom&amp;amp;goal=Download&amp;amp;from=2021-08-10&amp;amp;to=2021-10-04&amp;amp;props=%7B%22Version%22%3A%226%22%7D&quot;&gt;over 137,000 times&lt;/a&gt;—and as always, that’s not including downloads from third parties or direct downloads via torrent that bypass our download page.&lt;/p&gt;
 
 &lt;h2 id=&quot;appcenter&quot;&gt;AppCenter&lt;/h2&gt;
 
@@ -572,7 +748,11 @@
       
         <item>
           <title>elementary OS 6 Updates for August, 2021</title>
-          <description>&lt;p&gt;Earlier this month &lt;a href=&quot;/elementary-os-6-odin-released&quot;&gt;we released elementary OS 6 Odin&lt;/a&gt; and we’ve been thrilled with the overwhelming amount of feedback we’ve received. So far OS 6 has been downloaded from our website &lt;a href=&quot;https://plausible.io/elementary.io?period=custom&amp;amp;goal=Download&amp;amp;from=2021-08-10&amp;amp;to=2021-08-31&amp;amp;props=%7B%22Version%22%3A%226%22%7D&quot;&gt;over 75,000 times&lt;/a&gt;! Over the last three weeks we’ve been gathering up all of your feedback and jumping right into delivering the first batch of free fix and feature updates for OS 6.&lt;/p&gt;
+          <description>&lt;figure class=&quot;on-screen&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/elementary-os-6-odin-updates-august-2021/card.jpg&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Earlier this month &lt;a href=&quot;/elementary-os-6-odin-released&quot;&gt;we released elementary OS 6 Odin&lt;/a&gt; and we’ve been thrilled with the overwhelming amount of feedback we’ve received. So far OS 6 has been downloaded from our website &lt;a href=&quot;https://plausible.io/elementary.io?period=custom&amp;amp;goal=Download&amp;amp;from=2021-08-10&amp;amp;to=2021-08-31&amp;amp;props=%7B%22Version%22%3A%226%22%7D&quot;&gt;over 75,000 times&lt;/a&gt;! Over the last three weeks we’ve been gathering up all of your feedback and jumping right into delivering the first batch of free fix and feature updates for OS 6.&lt;/p&gt;
 
 &lt;h2 id=&quot;appcenter--sideload&quot;&gt;AppCenter &amp;amp; Sideload&lt;/h2&gt;
 
@@ -2252,69 +2432,6 @@
           <category>odin</category>
           
           <category>devs</category>
-          
-          
-        </item>
-      
-    
-      
-        <item>
-          <title>The New elementary Store is Here</title>
-          <description>&lt;p&gt;For the past several months our web team has been working on a new merch store to replace the old manual front-end—and we’re ready to debut that work for you all now. Say hello to the new &lt;a href=&quot;https://store.elementary.io&quot;&gt;store.elementary.io&lt;/a&gt;!&lt;/p&gt;
-
-&lt;div style=&quot;text-align: center&quot;&gt;
-  &lt;p&gt;&lt;a href=&quot;https://store.elementary.io&quot; class=&quot;button&quot;&gt;Visit the Store&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;We’ve long offered a simple store as a way to get official branded merch while directly supporting development of elementary OS. We’ve partnered with &lt;a href=&quot;https://printful.com&quot;&gt;Printful&lt;/a&gt; for years thanks to their excellent quality products, but our previous store page was a very finicky PHP app that required manual uploading of print files and fiddling with product JSON—basically, unfriendly to both developers and designers. As a result, we only ever offered a small selection of products and were largely unable to spend the time to design and upload new ones.&lt;/p&gt;
-
-&lt;p&gt;Printful does offer a number of integrations with popular selling platforms like Shopify and Etsy, but they weren’t a good price fit for the relatively low volume plus global reach of our store, nor were they able to be as integrated into our existing website and design style as we’d like.&lt;/p&gt;
-
-&lt;figure class=&quot;card constrained&quot;&gt;
-  &lt;picture&gt;
-    &lt;source srcset=&quot;/images/the-new-elementary-store-is-here/card-dark.jpg&quot; media=&quot;(prefers-color-scheme: dark)&quot; /&gt;
-    &lt;img alt=&quot;Store screenshot&quot; src=&quot;/images/the-new-elementary-store-is-here/card.jpg&quot; width=&quot;1265&quot; height=&quot;711&quot; /&gt;
-  &lt;/picture&gt;
-  &lt;figcaption&gt;Some of the tees on offer&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Instead, we’ve built an open source front-end for Printful stores, leaning on their &lt;a href=&quot;https://www.printful.com/docs&quot;&gt;store API&lt;/a&gt; and &lt;a href=&quot;https://stripe.com/payments/checkout&quot;&gt;Stripe Checkout&lt;/a&gt;. We use the Printful dashboard to create and manage products, then the front-end automatically pulls in the changes from the API. Customers can browse and add products (including different sizes, colors, and other variants) to their cart, then check out using the straightforward and secure Stripe Checkout. The result is a simple and modern feeling store front-end that doesn’t require any duplication of work or manual syncing of products—all while enabling us to rapidly try out new products and variants with very low overhead.&lt;/p&gt;
-
-&lt;p&gt;Using Stripe Checkout also enables us to easily support nice features like Google Pay, saving and reusing payment info securely stored with Stripe, and coupon codes—in fact, as a thanks for reading the blog, we’re offering the first 100 people a coupon for 10% off their first purchase: just enter &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;BLOG10&lt;/code&gt; at checkout!&lt;/p&gt;
-
-&lt;div style=&quot;text-align: center&quot;&gt;
-  &lt;p&gt;&lt;a href=&quot;https://store.elementary.io&quot; class=&quot;button&quot;&gt;Visit the Store&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Some of the new products I’m excited about are our posters and laptop sleeves. The first poster we’ve designed is a minimalist typographic piece featuring the &lt;a href=&quot;https://elementary.io/brand#color&quot;&gt;elementary brand palette&lt;/a&gt; set in our new brand and system typeface, Inter. It comes in both light and dark variants with a choice of a black or white wood frame. The laptop sleeves feature the default wallpapers of the past several OS releases with a subtle overlay of our &lt;a href=&quot;https://elementary.io/brand&quot;&gt;new-style “e” logomark&lt;/a&gt; in the corner. I can personally confirm the 13″ sleeves perfectly fit most 13–14″ laptops like Pinebook Pro, Slimbook Pro X (14″), and Star LabTop Mk IV.&lt;/p&gt;
-
-&lt;figure class=&quot;card half no-zoom&quot;&gt;
-  &lt;picture&gt;
-    &lt;source srcset=&quot;/images/the-new-elementary-store-is-here/posters-dark.jpg&quot; media=&quot;(prefers-color-scheme: dark)&quot; /&gt;
-    &lt;img alt=&quot;Posters&quot; src=&quot;/images/the-new-elementary-store-is-here/posters.jpg&quot; width=&quot;731&quot; height=&quot;411&quot; /&gt;
-  &lt;/picture&gt;
-  &lt;picture&gt;
-    &lt;source srcset=&quot;/images/the-new-elementary-store-is-here/laptop-sleeves-dark.jpg&quot; media=&quot;(prefers-color-scheme: dark)&quot; /&gt;
-    &lt;img alt=&quot;Laptop Sleeves&quot; src=&quot;/images/the-new-elementary-store-is-here/laptop-sleeves.jpg&quot; width=&quot;724&quot; height=&quot;407&quot; /&gt;
-  &lt;/picture&gt;
-  &lt;figcaption&gt;Some posters and laptop sleeves on offer&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Like everything we do at elementary, we’ve released this Printful store front-end as &lt;a href=&quot;https://github.com/elementary/store&quot;&gt;an open source project on GitHub&lt;/a&gt;. We encourage people to file issues and pull requests for improvements, and we hope it can serve as a useful base for others to build their own low maintenance, on-demand merch store. This work was largely lead and developed by &lt;a href=&quot;https://github.com/btkostner&quot;&gt;Blake Kostner&lt;/a&gt;, with design and front-end support from me, and product/logistics support from &lt;a href=&quot;https://github.com/ekecso&quot;&gt;Liz Kecso&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;If there’s a specific type of product or design you don’t see that you’d like us to offer, be sure to &lt;a href=&quot;https://github.com/elementary/store&quot;&gt;file an issue&lt;/a&gt; or mention us on social media, and we’ll see what we can do.&lt;/p&gt;
-
-</description>
-          <pubDate>Mon, 26 Apr 2021 00:00:00 -0500</pubDate>
-          <link>https://blog.elementary.io/the-new-elementary-store-is-here/</link>
-          <guid isPermaLink="true">https://blog.elementary.io/the-new-elementary-store-is-here/</guid>
-          
-              
-              
-          <enclosure url="https://blog.elementary.io" />
-          
-          
-          <category>meta</category>
           
           
         </item>
