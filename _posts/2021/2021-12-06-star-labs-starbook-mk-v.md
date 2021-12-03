@@ -24,6 +24,10 @@ StarBook Mk V offers an incomparable laptop experience with elementary OS; every
 
 "Our mission is quite simple," says Sean Rhodes, Technical Project Lead at Star Labs. "To make laptops for Linux that provide a seamless experience—matching everything you would expect from a Mac or Windows equivalent." And with elementary OS, StarBook Mk V delivers that and more. "Everything combines to create a flawless overall experience. It's polished and straightforward, yet very capable," Sean says of elementary OS.
 
+<aside markdown="1">
+>“Everything combines to create a flawless overall experience.”
+</aside>
+
 ## Hardware and Tech Specs
 
 The hardware is stunning. Carved from bead-blasted matte black anodized aluminum, StarBook Mk V is the perfect combination of powerful, portable, and durable: just 0.7 inches (1.8 cm) thin, and only 3.08 pounds (1.4 kg). The 14-inch ARC display is a bright 1920×1080 IPS panel with a hard, anti-reflective coating that offers the brightness and color vibrancy of a glossy display with the viewing angles and reduced glare of a matte display, while the thin bezels pack the large display into a small footprint.
@@ -51,11 +55,21 @@ And to top it all off, Star Labs provides regular firmware updates via the Linux
 [Full Tech Specs]{: .button}
 </div>
 
-The number one focus when designing the StarBook Mk V? "Balance," Sean says. "Between power, size, materials, and cost. The vast majority of the improvements came from asking our previous customers what they wanted to see in the next version. The most noticeable improvements being the matte display, improved speakers, and option for US keyboard layout." And that perfect balance was found: StarBook Mk V flies out of the box with fast processors, memory, and storage while remaining light and portable—all starting at $929 USD at the time of writing.
+## The Road to StarBook Mk V
+
+Star Labs first discussed the possibility of a partnership years ago, and we'd been in discussions until mid-2020 when we launched our [device retailer program featuring Star Labs][now shipping]. We started the process of validating the Mk IV as a partner device, but during that process its successor, StarBook Mk V, began development. Between that and the upcoming launch of elementary OS 6, we decided to move our partnership efforts to StarBook Mk V. The open dialog between Star Labs and elementary has been beneficial to both of us, though, as we've informed software decisions in OS 6 and beyond—and Star Labs has been listening to our feedback in addition to their customers' on the hardware.
+
+The number one focus when designing Mk IV? "Balance," Sean says. "Between power, size, materials, and cost. The vast majority of the improvements came from asking our Mk III customers what they wanted to see in the next version. The most noticeable improvements being the matte display, improved speakers, and option for US keyboard layout."
+
+With the StarBook Mk V, Star Labs—like many manufacturers—faced component shortages that had to inform their engineering. They built on the success of Mk IV, but with some changes. "The main necessary change was onboard memory to [user-upgradable] SODIMMs, which made it bigger," Sean says. "With that space, we made the most of it and upgraded everything we'd ever been asked for: battery, speakers, keyboard, TDP [Thermal Design Power], and trackpad." As a result, StarBook Mk V strikes a perfect balance: it flies out of the box with faster processors, even better battery life, and a bigger, brighter screen while remaining light and portable—all starting at $929 USD at the time of writing.
+
+<aside markdown="1">
+>“We made the most of it and upgraded everything we'd ever been asked for.”
+</aside>
 
 ## Continuing to make elementary OS more “gettable”
 
-Over the past year and a half we've been [working with retailers](/now-shipping-elementary-os) to ensure you can get elementary OS out of the box on dozens of device models. When we announced this effort, we teased "partner" devices:
+Over the past year and a half we've been [working with retailers][now shipping] to ensure you can get elementary OS out of the box on dozens of device models. When we announced this effort, we teased "partner" devices:
 
 >Partners must follow stricter software guidelines and receive per-model approval by elementary. In return, we feature the specific models in our store with higher prominence… Purchasing a partner device guarantees a portion of your purchase goes to elementary and helps ensure the long-term sustainability of elementary OS.
 
@@ -93,6 +107,7 @@ StarBook Mk V is available today on the [elementary Store][store]. Each purchase
 [Buy Now]{: .button.suggested }
 </div>
 
+[now shipping]: /now-shipping-elementary-os
 [store]: https://elementary.io/store
 [learn more]: https://us.starlabs.systems/pages/starbook
 [buy now]: https://us.starlabs.systems/products/starbook?variant=39599067136164
