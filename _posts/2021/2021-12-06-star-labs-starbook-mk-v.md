@@ -5,8 +5,6 @@ author: cassidyjames
 image: /images/star-labs-starbook-mk-v/card.png
 tags:
   - devices
-
-hidden: 3000-01-01 00:00:00 UTC
 ---
 
 elementary is proud to announce our first ever partner device: **StarBook Mk V** from Star Labs, available today on the [elementary Store][store].
