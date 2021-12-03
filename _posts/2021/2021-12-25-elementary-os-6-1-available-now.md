@@ -17,13 +17,13 @@ Just four months after the initial release of elementary OS 6, we're proud to an
 If you checked out AppCenter on release day and found it a little sparse, it's time to check again! App developers have been hard at work and you can currently find [90 curated apps](https://appcenter.elementary.io/) in AppCenter. We're also happy to report that many developers have been pushing out rapid and frequent updates to existing apps with new features and bug fixes, as they're in control of their own update schedule. Our shift from Debian packages to Flatpak for both curated and non-curated apps means we're able to lean more on Flatpak features and we've been using this as an opportunity to make AppCenter much more engaging and informative right from the start.
 
 <figure markdown="1">
-![AppCenter Home Page](/images/{{ page.slug }}/appcenter-home.png){: width="1408" height="895"}
+![AppCenter Home Page](/images/elementary-os-6-odin-updates-september-2021/appcenter-home.png){: width="1408" height="895"}
 <figcaption>The refreshed home page</figcaption>
 </figure>
 
 For example, we've largely reworked the home page with banners featuring the most recently released and updated curated apps in a multi-touch swipable carousel. We've also added up to twelve more of the most recently-updated apps directly below. Rather than just showing the app's icon and name, we now also show each app's summary and an install button—including the developer's recommended price if it's a monetized app. Since we enforce accurate update information for curated apps, this data is populated locally from the apps' AppStream data rather than from a remote API as before. The result of this work is a faster home page with over three times the apps displayed, as well as the ability to purchase or install several apps with far fewer clicks.
 
-<figure class="constrained" markdown="1">
+<figure markdown="1">
 ![Category view](https://user-images.githubusercontent.com/7277719/141206268-5505f96e-39e4-436e-970c-e72b6369d6cc.png)
 <figcaption>Newly redesigned category view in AppCenter</figcaption>
 </figure>
@@ -31,8 +31,8 @@ For example, we've largely reworked the home page with banners featuring the mos
 Category views (like Audio or System) are now shown with a more space-efficient grid view. We also separate paid, free, and non-curated apps (if you've added a third-party remote like Flathub) into their own sections within categories. In an effort to better surface the interesting apps being submitted, we've added a new Privacy & Security category, and apps categorized as "Amusements" will now appear in the Games category. We've also been working closely with third-party developers to ensure that their apps list a more complete set of categories in their metadata so that they appear in the correct category pages.
 
 <figure class="half" markdown="1">
-![AppCenter Non-curated App Info Page](/images/{{ page.slug }}/appcenter-report-card.png){: width="1408" height="895"}
-![AppCenter Related Apps](/images/{{ page.slug }}/appcenter-related.png){: width="1033" height="607"}
+![AppCenter Non-curated App Info Page](/images/elementary-os-6-odin-updates-september-2021/appcenter-report-card.png){: width="1408" height="895"}
+![AppCenter Related Apps](/images/elementary-os-6-odin-updates-september-2021/appcenter-related.png){: width="1033" height="607"}
 <figcaption markdown="1">
 **Left:** A non-curated app info page and its "report card" | **Right:** Other Flatpak apps from the same developer as the selected app
 </figcaption>
@@ -48,8 +48,8 @@ As part of our effort to make AppCenter a better experience on small displays, t
 
 <figure>
   <picture>
-    <source srcset="/images/{{ page.slug }}/appcenter-dark.png" media="(prefers-color-scheme: dark)">
-    <img alt="AppCenter" src="/images/{{ page.slug }}/appcenter-light.png" width="1020" height="667" />
+    <source srcset="/images/elementary-os-6-odin-updates-october-2021/appcenter-dark.png" media="(prefers-color-scheme: dark)">
+    <img alt="AppCenter" src="/images/elementary-os-6-odin-updates-october-2021/appcenter-light.png" width="1020" height="667" />
   </picture>
 <figcaption>Progress is now shown in a small progressbar seen top right</figcaption>
 </figure>
@@ -57,7 +57,7 @@ As part of our effort to make AppCenter a better experience on small displays, t
 As we continue to work on AppCenter for Everyone, we've reworked the Install button to ease into the future flow that will use a Flatpak authenticator to handle purchases; rather than having a dropdown arrow with a popover to change the price, we're now more clear about how "Pay What You Can" works and include changing the amount to pay in the payment dialog itself—and validated entries now show a green check and invalid ones show a red error so it's much clearer when card info has been entered incorrectly. And since we use this same widget on the home page, on app info pages, and in lists of apps, it's consistent everywhere.
 
 <figure markdown="1">
-![AppCenter payment dialog](/images/{{ page.slug }}/stripe-dialog.png){: width="568" height="379"}
+![AppCenter payment dialog](/images/elementary-os-6-odin-updates-september-2021/stripe-dialog.png){: width="568" height="379"}
 <figcaption>Redesigned payment dialog</figcaption>
 </figure>
 
@@ -67,8 +67,8 @@ Finally, we've been putting a lot of work into the first run experience, especia
 
 <figure>
   <picture>
-    <source srcset="/images/{{ page.slug }}/appcenter-dark.png" media="(prefers-color-scheme: dark)">
-    <img alt="AppCenter showing no results found" src="/images/{{ page.slug }}/appcenter-light.png" width="1169" height="729" />
+    <source srcset="/images/elementary-os-6-odin-updates-august-2021/appcenter-dark.png" media="(prefers-color-scheme: dark)">
+    <img alt="AppCenter showing no results found" src="/images/elementary-os-6-odin-updates-august-2021/appcenter-light.png" width="1169" height="729" />
   </picture>
 <figcaption>AppCenter now reminds of Sideload when a search has no results</figcaption>
 </figure>
@@ -77,8 +77,8 @@ If you're not running elementary OS but still want to get AppCenter apps, we've 
 
 <figure>
   <picture>
-    <source srcset="/images/{{ page.slug }}/badger-dark.png" media="(prefers-color-scheme: dark)">
-    <img alt="Badger on AppCenter" src="/images/{{ page.slug }}/badger-light.png"/>
+    <source srcset="/images/elementary-os-6-odin-updates-august-2021/badger-dark.png" media="(prefers-color-scheme: dark)">
+    <img alt="Badger on AppCenter" src="/images/elementary-os-6-odin-updates-august-2021/badger-light.png"/>
   </picture>
 <figcaption>Free apps like Badger now show a button "Download as Flatpak"</figcaption>
 </figure>
@@ -94,8 +94,8 @@ Possibly the most obvious update to our window manager is the redesigned <kbd>Al
 Previously, quick window switching re-used the dock to show which app windows you'd switch between, and dimmed out the rest of the desktop to highlight just the newly-focused window. However, over time and based on a lot of real world feedback, we found that looking down at the dock—or even across physical space to the primary display in the case of multi-display users—was less intuitive and overloaded the dock's purpose. Dimming the desktop and visually focusing windows also meant a lot of flashing if you switched quickly which was inelegant at best, and could be an accessibility issue for people with certain types of photo-sensitivity. Thanks to [Aral Balkan](https://ar.al/2021/11/08/my-three-month-long-elementary-os-6-upgrade-adventure-in-three-parts-part-1-catts/), we kicked off a project to rework quick window switching—and the initial work has been released this month!
 
 <figure class="half" markdown="1">
-![Old](/images/{{ page.slug }}/gala-old.gif)
-![New](/images/{{ page.slug }}/gala-new.gif)
+![Old](/images/elementary-os-6-odin-updates-november-2021/gala-old.gif)
+![New](/images/elementary-os-6-odin-updates-november-2021/gala-new.gif)
 <figcaption markdown="1">
 **Left:** Old window switcher | **Right:** New window switcher
 </figcaption>
@@ -108,7 +108,7 @@ The new window switcher always shows centered on current display, making it much
 We also refreshed the interaction design of dialogs in elementary OS. First, you'll notice dialogs animate in from above on top of their parent window instead of shooting out from within their parent window. This helps reinforce that dialogs are a more transient interaction. We also dim the parent windows behind blocking modal dialogs to make it more clear which window it belongs to, and that the dialog needs to be addressed before proceeding.
 
 <figure class="card" markdown="1">
-![Dialogs](/images/{{ page.slug }}/dialogs.gif)
+![Dialogs](/images/elementary-os-6-odin-updates-november-2021/dialogs.gif)
 <figcaption>New dialog animation</figcaption>
 </figure>
 
@@ -117,7 +117,7 @@ We also refreshed the interaction design of dialogs in elementary OS. First, you
 We greatly improved the File Chooser portal that is used when apps request to open a file. We introduced new functionality like a New Folder action, a drop-down to filter the types of files shown, and an option to restrict the requesting app's access to a read-only version of the opened file. We also improved how the dialog is displayed in apps, fixing issues with focus and more reliably opening on top of the requesting app window.
 
 <figure class="card" markdown="1">
-![FileChooser dialog](/images/{{ page.slug }}/filechooser.png)
+![FileChooser dialog](/images/elementary-os-6-odin-updates-november-2021/filechooser.png)
 <figcaption>Improved file chooser, as used in Code</figcaption>
 </figure>
 
@@ -125,8 +125,8 @@ In other exciting portal news, we also shipped a new AppChooser. You'll notice F
 
 <figure>
   <picture>
-    <source srcset="/images/{{ page.slug }}/appchooser-dark.png" media="(prefers-color-scheme: dark)">
-    <img alt="AppChooser Portal" src="/images/{{ page.slug }}/appchooser-light.png" width="468" height="518" />
+    <source srcset="/images/elementary-os-6-odin-updates-october-2021/appchooser-dark.png" media="(prefers-color-scheme: dark)">
+    <img alt="AppChooser Portal" src="/images/elementary-os-6-odin-updates-october-2021/appchooser-light.png" width="468" height="518" />
   </picture>
 <figcaption>The new AppChooser portal</figcaption>
 </figure>
@@ -136,8 +136,8 @@ In other exciting portal news, we also shipped a new AppChooser. You'll notice F
 You may recall that Cassidy [started the discussion](https://blog.elementary.io/the-need-for-a-freedesktop-dark-style-preference/) around the need for a FreeDesktop standard for the dark style a little over two years ago. We shipped the first iteration of an opt-in dark style preference in OS 6, and in 6.1 the dark style preference is now more widely respected across desktops.
 
 <figure class="half card" markdown="1">
-![Apps in light style](/images/{{ page.slug }}/fdo-color-light.png)
-![Apps in dark style](/images/{{ page.slug }}/fdo-color-dark.png)
+![Apps in light style](/images/elementary-os-6-odin-updates-october-2021/fdo-color-light.png)
+![Apps in dark style](/images/elementary-os-6-odin-updates-october-2021/fdo-color-dark.png)
 <figcaption markdown="1">
 The dark style preference is now respected across desktops for GNOME and elementary OS apps
 </figcaption>
@@ -156,7 +156,7 @@ The Notifications indicator will now use an app's name when a notification title
 Now you can search right from the Applications Menu for bookmarked folders and locations like Downloads, Pictures, or even network shares. And following cross-desktop standards, this feature will work with whatever your default file manager is—whether or not it's the default elementary Files app.
 
 <figure class="card" markdown="1">
-![Bookmark search in Applications Menu](/images/{{ page.slug }}/bookmark-search.png){: width="888" height="689"}
+![Bookmark search in Applications Menu](/images/elementary-os-6-odin-updates-november-2021/bookmark-search.png){: width="888" height="689"}
 <figcaption>Bookmark search in the Applications Menu</figcaption>
 </figure>
 
@@ -168,7 +168,7 @@ A couple of nice fixes landed in the Installer and Initial Setup that make it ea
 
 <figure>
   <picture>
-    <img alt="Initial Setup" src="/images/{{ page.slug }}/initial-setup.png" width="916" height="666" />
+    <img alt="Initial Setup" src="/images/elementary-os-6-odin-updates-august-2021/initial-setup.png" width="916" height="666" />
   </picture>
 <figcaption>Initial Setup now helps you name your device</figcaption>
 </figure>
@@ -187,8 +187,8 @@ Thanks to some helpful feedback from our community, we've made the process of de
 
 <figure>
   <picture>
-    <source srcset="/images/{{ page.slug }}/onlineaccounts-dark.png" media="(prefers-color-scheme: dark)">
-    <img alt="System Settings → Online Accounts" src="/images/{{ page.slug }}/onlineaccounts-light.png" width="1044" height="740" />
+    <source srcset="/images/elementary-os-6-odin-updates-august-2021/onlineaccounts-dark.png" media="(prefers-color-scheme: dark)">
+    <img alt="System Settings → Online Accounts" src="/images/elementary-os-6-odin-updates-august-2021/onlineaccounts-light.png" width="1044" height="740" />
   </picture>
 <figcaption>IMAP accounts can now be edited in System Settings → Online Accounts</figcaption>
 </figure>
@@ -199,18 +199,18 @@ In Display settings, we've fixed an issue that caused the "Use this display" swi
  
  <figure>
   <picture>
-    <source srcset="/images/{{ page.slug }}/displays-dark.png" media="(prefers-color-scheme: dark)">
-    <img alt="Displays Settings" src="/images/{{ page.slug }}/displays-light.png" width="995" height="691" />
+    <source srcset="/images/elementary-os-6-odin-updates-october-2021/displays-dark.png" media="(prefers-color-scheme: dark)">
+    <img alt="Displays Settings" src="/images/elementary-os-6-odin-updates-october-2021/displays-light.png" width="995" height="691" />
   </picture>
 <figcaption>Resolutions with a different aspect ratio are now shown in a sub-menu</figcaption>
 </figure>
 
 To better support a wide variety of display sizes and resolutions, we also added more granular text scaling in the Desktop settings—and moved the text settings to their own page for clarity. As a reminder, text scaling in elementary OS affects both text and much of the UI while keeping pixel-perfect icons and strokes, so this update is a great alternative to fractional scaling for anyone with a display whose resolution sits in between the ideal loDPI and HiDPI ranges.
 
-<figure class="half" markdown="1">
-![New text scaling design](/images/{{ page.slug }}/text-scaling.png){: width="856" height="553"}
+<figure markdown="1">
+![New text scaling design](/images/elementary-os-6-odin-updates-november-2021/text-scaling.png){: width="856" height="553"}
 <figcaption markdown="1">
-**Left:** Improved text scaling options
+Improved text scaling options
 </figcaption>
 </figure>
 
@@ -219,8 +219,8 @@ To better support a wide variety of display sizes and resolutions, we also added
 elementary OS has a Housekeeping feature where old temporary and trashed files can be automatically cleaned up to save space and help protect your privacy.
 
 <figure class="half" markdown="1">
-![Onboarding](/images/{{ page.slug }}/housekeeping-onboarding.png)
-![Settings](/images/{{ page.slug }}/housekeeping-settings.png)
+![Onboarding](/images/elementary-os-6-odin-updates-november-2021/housekeeping-onboarding.png)
+![Settings](/images/elementary-os-6-odin-updates-november-2021/housekeeping-settings.png)
 <figcaption markdown="1">
 **Left:** Housekeeping in the Welcome app | **Right:** Housekeeping in System Settings
 </figcaption>
@@ -246,8 +246,8 @@ In Sound settings, you'll see similar but larger, full-color device icons to dis
 
 In Keyboard settings, we improved the custom shortcuts view with a more straightforward design and menu for changing or deleting shortcuts, and added an on-screen keyboard switch to the Layouts tab.
 
-<figure class="half" markdown="1">
-![Custom keyboard shortcuts design](/images/{{ page.slug }}/custom-shortcuts.png){: width="909" height="601"}
+<figure markdown="1">
+![Custom keyboard shortcuts design](/images/elementary-os-6-odin-updates-november-2021/custom-shortcuts.png){: width="909" height="601"}
 <figcaption markdown="1">
 Improved custom keyboard shortcuts design
 </figcaption>
@@ -295,7 +295,7 @@ Previously, Camera's resolution had been reduced for performance reasons; in the
 
 Now when you open a photo in the previewer, we focus the photo itself instead of the save button; this enables navigating with the left and right arrow keys right away. The actions for "Toggle Sidebar" and "Toggle Photo Info" have been moved from the secondary-click menu of certain views to the main menu button, hopefully making these customization options more discoverable. We also fixed a potential crash when importing photos with invalid date and time info and we fixed "rubberband" selection styling.
 
-# Calculator
+## Calculator
 
 When Calculator starts up, we now focus the main text entry so that entering numbers with the keyboard works right away. We've also improved the experience with multiple windows: there's now a "New Window" action when secondary-clicking Calculator in the Applications Menu or Dock, and we fixed an issue with showing advanced controls so that it only affects the currently focused window. Lastly, we now show the correct window title in the Multitasking View.
 
@@ -318,7 +318,7 @@ Videos now supports the two-finger-swipe to go back gesture and navigation code 
 
 
 
-### Files
+## Files
 
 We released a significant update to Files this month with a handful of fixes and improvements.
 
@@ -332,7 +332,7 @@ Files includes a fix for issues regarding renaming bookmarks in the sidebar as w
 
 
 
-### Code
+## Code
 
 In Code, we now distinguish between projects with the same name in the sidebar by including their parent folder. The project/folder search dialog now shows centered over the window, and when scrolling to search results, we overshoot the result slightly for better visibility. We also made the "visible whitespace" setting simpler and more clear with a switch instead of a drop-down. We're also now using the File Chooser portal provided by Files instead of the default dialog from GTK; as a result, opening files and folders from within Code will benefit from the recent improvements in the portal, and will be more consistent with Flatpak apps.
 
