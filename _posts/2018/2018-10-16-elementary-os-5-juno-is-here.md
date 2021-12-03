@@ -7,6 +7,7 @@ image: /images/elementary-os-5-juno-is-here/card.png
 thanks: true # includes a thank-you, so disable the automatic one
 tags:
   - juno
+  - release
   - updates
 ---
 

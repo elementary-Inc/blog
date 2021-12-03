@@ -4,6 +4,7 @@ description: "Our swipiest operating system ever"
 author: danrabbit
 image: /images/multitouch-gestures-in-elementary-os-6/multitasking.png
 tags:
+  - early-access
   - odin
   - touch
   - ux
@@ -75,8 +76,8 @@ Some more complex navigation situations are in progress such as when navigating 
 We're also looking into other uses for gestures as popularized in mobile operating systems, such as swipe to dismiss. In elementary OS 6, you can now dismiss notification bubbles from the desktop with a swipe, and remove them from the notifications indicator by swiping in either direction as well. We haven't implemented swipe-to-dismiss in other types of lists yet, but we're open to suggestions! You can follow along with our [progress and plans on GitHub](https://github.com/orgs/elementary/projects/61), as well as file feature requests.
 
 <figure markdown="1">
-  <img alt="Notification Center" src="/images/{{ page.slug }}/notification-center.gif" width="399" height="672" />
-  <figcaption>Notification bubbles being swiped away in the new Notification Center</figcaption>
+![Notification Center](/images/{{ page.slug }}/notification-center.gif){: width="399" height="672" }
+<figcaption>Notification bubbles being swiped away in the new Notification Center</figcaption>
 </figure>
 
 A quick note about pinch-to-zoom and rotate, at the moment we don't yet have a way to implement these more complex gestures. We may have to wait until we can provide GTK4 in a Flatpak or for elementary OS 7 before it becomes possible to provide gestures for transforms.

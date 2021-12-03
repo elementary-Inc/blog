@@ -4,8 +4,10 @@ description: "Updates for July, plus early access to the next major version"
 author: cassidyjames
 image: /images/updates-for-july-2020/card.png
 tags:
-  - updates
+  - early-access
+  - hera
   - odin
+  - updates
 
 mastodon: https://mastodon.social/@elementary/104650184883180100
 reddit: https://www.reddit.com/r/elementaryos/comments/i5mk54/lets_talk_elementary_os_6_elementary_blog/

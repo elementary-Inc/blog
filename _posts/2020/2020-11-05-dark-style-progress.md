@@ -5,6 +5,7 @@ author: danrabbit
 image: /images/dark-style-progress-november-2020/card.png
 tags:
   - dark-style
+  - early-access
   - odin
   - ux
 

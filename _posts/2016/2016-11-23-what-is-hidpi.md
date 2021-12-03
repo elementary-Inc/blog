@@ -67,7 +67,7 @@ In the desktop Linux world (and it would seem in Windows land as well), the term
 
 ## Some Manufacturers Make Poor Decisions
 
-Higher resolution is not always better. In an effort to upsell from their lower-resolution displays, some manufacturers are jumping on the 4K bandwaggon without considering the phyiscal size and how pixel doubling works.
+Higher resolution is not always better. In an effort to upsell from their lower-resolution displays, some manufacturers are jumping on the 4K bandwaggon without considering the physical size and how pixel doubling works.
 
 On a 15" display, 1080p (1920×1080) at 1× scaling produces a great usable amount of real estate without the fonts and icons being too small. 1080p pixel doubled is 4K (3840×2160), so that makes sense on that physical size; everything will be the same size, but twice as crisp.
 

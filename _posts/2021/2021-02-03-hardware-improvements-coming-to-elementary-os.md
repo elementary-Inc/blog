@@ -5,6 +5,7 @@ author: cassidyjames
 image: /images/hardware-improvements-coming-to-elementary-os/card.png
 tags:
   - devices
+  - early-access
   - odin
 
 facebook: https://www.facebook.com/elementaryos/posts/4044601975571601

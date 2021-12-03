@@ -6,6 +6,7 @@ author: cassidyjames
 tags:
   - ARM
   - devices
+  - early-access
   - odin
 
 mastodon: https://mastodon.social/@elementary/105323756503375482
