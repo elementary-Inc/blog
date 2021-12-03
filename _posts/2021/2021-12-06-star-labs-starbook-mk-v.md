@@ -45,7 +45,7 @@ The USB-C port supports Thunderbolt 4 with power delivery, display output, and 4
 
 StarBook Mk V is engineered around 11th-generation Intel Core processors, fast DDR4 memory, and the over-provisioned StarDrive SSD storage. Configure up to a 2.8 GHz quad-core i7 processor with 4.7 GHz turbo boost, dual-channel 64 GB memory, and 1 TB of Gen4 PCIe storage with 7,000 MB/s read and 5,500 MB/s write speeds.
 
-And to top it all off, Star Labs provides regular firmware updates via the Linux Firmware Vendor Service for the StarDrive, system firmware, fan curves, and even bootloader—meaning your StarBook Mk V gets even better over time.
+And to top it all off, Star Labs provides regular firmware updates via the Linux Vendor Firmware Service for the StarDrive, system firmware, fan curves, and even bootloader—meaning your StarBook Mk V gets even better over time.
 
 <div style="margin: 4em auto; text-align: center" markdown="1">
 [Full Tech Specs]{: .button}
