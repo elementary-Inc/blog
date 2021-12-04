@@ -12,7 +12,7 @@ hidden: 3000-01-01 00:00:00 UTC
 elementary is proud to announce our first ever partner device: **StarBook Mk V** from Star Labs, available today on the [elementary Store][store].
 
 <figure markdown="1">
-![StarBook Mk V](/images/{{ page.slug }}/hero.png){: width="3840" height="2160" }
+![StarBook Mk V](/images/{{ page.slug }}/hero.png){: width="3565" height="2119" }
 </figure>
 
 <div style="text-align: center; margin: 4em auto;" markdown="1">
@@ -38,7 +38,7 @@ The hardware is stunning. Carved from bead-blasted matte black anodized aluminum
 <figcaption>US and UK keyboard layouts</figcaption>
 </figure>
 
-The backlit keyboard comes in US- or UK-English layouts, is comfortably quiet, and offers essential elementary OS media keys across the top row as well as often-used Home, End, Page Up, and Page Down keys along the right side. The large, specially-engineered multi-touch glass trackpad is silky smooth to the touch with unparalleled precision and accuracy in elementary OS for tracking, scrolling, and multi-touch gesturing.
+The backlit keyboard comes in US English, UK English, French, German, Nordic and Spanish layouts. It's comfortably quiet with snappy scissor mechanisms, and offers essential elementary OS media keys across the top row as well as often-used Home, End, Page Up, and Page Down keys along the right side. The large, specially-engineered multi-touch glass trackpad is silky smooth to the touch with unparalleled precision and accuracy in elementary OS for tracking, scrolling, and multi-touch gesturing.
 
 <figure class="no-zoom" markdown="1">
 ![StarBook Mk V, ports](/images/{{ page.slug }}/side.png){: width="3689" height="1793" }
