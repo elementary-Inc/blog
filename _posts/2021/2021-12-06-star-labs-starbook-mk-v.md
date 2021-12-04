@@ -12,7 +12,7 @@ hidden: 3000-01-01 00:00:00 UTC
 elementary is proud to announce our first ever partner device: **StarBook Mk V** from Star Labs, available today on the [elementary Store][store].
 
 <figure markdown="1">
-![StarBook Mk V](/images/{{ page.slug }}/hero.png){: width="1000" height="529" }
+![StarBook Mk V](/images/{{ page.slug }}/hero.png){: width="3840" height="2160" }
 </figure>
 
 <div style="text-align: center; margin: 4em auto;" markdown="1">
@@ -40,9 +40,8 @@ The hardware is stunning. Carved from bead-blasted matte black anodized aluminum
 
 The backlit keyboard comes in US- or UK-English layouts, is comfortably quiet, and offers essential elementary OS media keys across the top row as well as often-used Home, End, Page Up, and Page Down keys along the right side. The large, specially-engineered multi-touch glass trackpad is silky smooth to the touch with unparalleled precision and accuracy in elementary OS for tracking, scrolling, and multi-touch gesturing.
 
-<figure class="no-zoom half" markdown="1">
-![StarBook Mk V, right ports](/images/{{ page.slug }}/right.png){: width="2000" height="1982" }
-![StarBook Mk V, left ports](/images/{{ page.slug }}/left.png){: width="2000" height="1981" }
+<figure class="no-zoom" markdown="1">
+![StarBook Mk V, ports](/images/{{ page.slug }}/side.png){: width="3689" height="1793" }
 </figure>
 
 The USB-C port supports Thunderbolt 4 with power delivery, display output, and 40 Gbps bandwidth to ensure charging and expanding is easier than ever, while an HDMI port, microSD slot, 3.5 mm headphone jack, dual USB 3.0 Type-A ports and a USB 2.0 Type-A port offer even more connectivity. The quad speakers, dual microphone array, and top-mounted HD webcam are great for today's world of voice and video calls—plus Bluetooth 5.1 enables connecting to wireless peripherals like a mouse, keyboard, headset, and more, while Wi-Fi 6 offers fast wireless speeds up to 2.4 Gbps.
@@ -99,7 +98,7 @@ Rather than leaving those improvements downstream and only available to certain 
 StarBook Mk V is available today on the [elementary Store][store]. Each purchase directly supports elementary OS, helping to ensure its long-term sustainability.
 
 <figure markdown="1">
-![StarBook Mk V](/images/{{ page.slug }}/hero.png){: width="1000" height="529" }
+![StarBook Mk V](/images/{{ page.slug }}/stealth.png){: width="3274" height="1469" }
 </figure>
 
 <div style="text-align: center; margin: 4em auto;" markdown="1">
