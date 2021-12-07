@@ -61,7 +61,7 @@ As we continue to work on AppCenter for Everyone, we've reworked the Install but
 <figcaption>Redesigned payment dialog</figcaption>
 </figure>
 
-Several more improvements permeate throughout AppCenter: fallback colors for apps that don't provide their own brand colors—including non-curated apps—now get a pleasant and more subtle look based on your selected system-wide accent color including better support for the dark style. We've also worked with downstreams like Fedora and Pop!_OS to test these updates using the same build flags they use, including adding automated testing to ensure things continue to build using the non-default options when we change the code for elementary OS. And since the redesigned home page relies on local data rather than a remote API, we no longer disable it on builds targeting Fedora or other non-elementary platforms; as a result, AppCenter is much more engaging and useful for any downstream. 
+Several more improvements permeate throughout AppCenter: fallback colors for apps that don't provide their own brand colors—including non-curated apps—now get a pleasant and more subtle look based on your selected system-wide accent color including better support for the dark style. We've also worked with downstreams like Fedora and Pop!_OS to test these updates using the same build flags they use, including adding automated testing to ensure things continue to build using the non-default options when we change the code for elementary OS. And since the redesigned home page relies on local data rather than a remote API, we no longer disable it on builds targeting Fedora or other non-elementary platforms; as a result, AppCenter is much more engaging and useful for any downstream. Plus, if you've had trouble with device drivers that rely on DKMS, AppCenter will now automatically pull in the required Linux kernel headers when installing them.
 
 Finally, we've been putting a lot of work into the first run experience, especially with regards to apps from third-party stores like Flathub since we know many of you are sideloading. For example, apps from freshly-added remotes now show in AppCenter without needing to restart your device. We've also added a reminder about Sideload when searching returns no results with the same language that is used in the Welcome app. We now ensure that apps predictably default to installing per-user when selected from the home page, and both AppCenter and Sideload can now use system-wide installed app runtimes for per-user app installs; as a result, the first time you install a new app should now be an even faster, smaller download.
 
@@ -73,7 +73,7 @@ Finally, we've been putting a lot of work into the first run experience, especia
 <figcaption>AppCenter now reminds of Sideload when a search has no results</figcaption>
 </figure>
 
-If you're not running elementary OS but still want to get AppCenter apps, we've made it much easier with a recent update to our [AppCenter website](https://appcenter.elementary.io/): Free apps now include a "Download as Flatpak" button that will give you a Flatpak reference file which you can sideload on your operating system of choice. Enjoy!
+If you're not running elementary OS but still want to get AppCenter apps, we've made it much easier with a recent update to our [AppCenter website](https://appcenter.elementary.io/): Free apps now include a "Download as Flatpak" button that will give you a Flatpak reference file which you can sideload on your operating system of choice. We also build all AppCenter apps for 64-but ARM platforms, so you can use them on platforms like Pinebook Pro and Raspberry Pi 4. Enjoy!
 
 <figure>
   <picture>
@@ -147,9 +147,9 @@ As before, this dark style preference is still opt-in for developers, which mean
 
 ### And More
 
-Along with all of the headlining features and fixes above, there are a few more minor updates. Shortcut Overlay will no longer crash if a keyboard shortcut has been set to blank. And on the Login & Lock screen, we now use the user's selected accent color for the logged-in checkmark for an additional splash of accent color.
+Along with all of the headlining features and fixes above, there are a few more minor updates. Shortcut Overlay will no longer crash if a keyboard shortcut has been set to blank. And on the Login & Lock screen, we now use the user's selected accent color for the logged-in checkmark for an additional splash of accent color. We redesigned the app icon for the Document Viewer, and PDF file type icons to match. Plus, we tracked down and fixed an issue with the font style of Japanese characters in headerbars.
 
-The Notifications indicator will now use an app's name when a notification title isn't provided, bringing it in line with notification bubbles. The Power indicator includes a number of improvements such as showing the screen brightness level when scrolled, better matching the scroll behavior of other indicators, automatically showing the battery percentage when it's low, and showing "Fully Charged" when at 100% and plugged in. We fixed an issue with the network indicator that caused unwanted launches of the captive network assistant. The assistant also gained a new icon and is now shipped as a Flatpak for greater security. The Date & Time indicator now correctly updates the current day upon opening, and we fixed an issue with numbers becoming illegible when switching between the dark and light styles.
+The Notifications indicator will now use an app's name when a notification title isn't provided, bringing it in line with notification bubbles. The Power indicator includes a number of improvements such as showing the screen brightness level when scrolled, better matching the scroll behavior of other indicators, automatically showing the battery percentage when it's low, and showing "Fully Charged" when at 100% and plugged in. We fixed an issue with the network indicator that caused unwanted launches of the captive network assistant, and released a fix to prevent blank lines in the list of VPNs. The assistant also gained a new icon and is now shipped as a Flatpak for greater security. The Date & Time indicator now correctly updates the current day upon opening, and we fixed an issue with numbers becoming illegible when switching between the dark and light styles.
 
 ## Applications Menu
 
@@ -253,7 +253,7 @@ Improved custom keyboard shortcuts design
 </figcaption>
 </figure>
 
-For those of you using advanced keyboard input methods, we now ensure IBus automatically starts on login.
+For those of you using advanced keyboard input methods, we now ensure IBus automatically starts on login and we fixed issues with illegible text selection in IBus candidate window.
 
 ### And More
 
@@ -303,75 +303,51 @@ When Calculator starts up, we now focus the main text entry so that entering num
 
 Videos now supports the two-finger-swipe to go back gesture and navigation code has been cleaned up a ton. Window titles should be more accurate when navigating. Also, we're now shipping Videos as a Flatpak which should resolve some reported issues with certain video codecs.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Files
 
-We released a significant update to Files this month with a handful of fixes and improvements.
+Files received quite a lot of attention around bookmarks, selecting files and folders, networking, and more.
 
-We've also released a handful of improvements to Files itself. Files now uses the Send Mail portal for emailing files, which should open compatibility up to more third-party email clients and work better across other desktops. The "Connect to Server" dialog now allows blank passwords for remote connections, e.g. for connecting to an SSH server via a private key instead of a password. We restored the multi-select capability of rubber-band style file selection, meaning you can drag-to-select a group of files, hold <kbd>Ctrl</kbd>, and drag to select an additional group of files. And lastly, we improved the drag-and-drop to the sidebar for bookmarks, ensuring drop targets show up in the correct places.
+we improved drag-and-drop to the sidebar for bookmarks, ensuring drop targets show up in the correct places, and fixed dropping paths onto storage devices and network locations. Files also includes fixes for issues regarding renaming bookmarks in the sidebar as well as bookmarking with the shortcut <kbd>Ctrl</kbd><kbd>D</kbd>. You can now open bookmarks in a new tab with <kbd>Ctrl</kbd> Click, the names of bookmarked folders will now properly update if your language was changed, and we also made sure the overlay bar in the bottom right doesn't briefly appear when switching between bookmarks.
 
-We fixed an issue where some audio files would have a thumbnail placeholder forever instead of falling back to the audio file type icon when they have no album art. We also made sure the overlay bar in the bottom right doesn't briefly appear when switching between bookmarks. The names of bookmarked folders will now properly update if your language was changed. And we removed the message about reporting issues when running Files from Terminal.
+You can now drag-to-select a group of files, hold <kbd>Ctrl</kbd>, and drag to select an additional group of files. We ensure Files doesn't deselect a file or folder when secondary clicking the blank space around it, and we now show the folder context menu when secondary clicking outside of a selection.
 
-We've released a handful of fixes to Files this month. You can now open bookmarks in a new tab with <kbd>Ctrl</kbd> Click, we fixed dropping paths onto storage devices and network locations in the sidebar, we fixed restoring tabs after a system restart, we ensure Files doesn't deselect a file or folder when secondary clicking the blank space around it, an we now show the folder context menu when secondary clicking outside of a selection.
-
-Files includes a fix for issues regarding renaming bookmarks in the sidebar as well as with the bookmark shortcut <kbd>Ctrl</kbd><kbd>D</kbd>. We've also resolved an issue where secondary-click context menus on the pathbar were sometimes too small for their contents, and an issue where color tags were missing when thumbnails are hidden.
-
-
+Audio files now correctly fall back to a placeholder icon when album art can't be loaded, and color tags no longer disappear when thumbnails are hidden. Files will more reliably restore tabs after a system restart. The "Connect to Server" dialog now allows blank passwords for remote connections, e.g. for connecting to an SSH server via a private key instead of a password. And, Files now uses the Send Mail portal for emailing files, which should open compatibility up to more third-party email clients and work better across other desktops.
 
 ## Code
 
-In Code, we now distinguish between projects with the same name in the sidebar by including their parent folder. The project/folder search dialog now shows centered over the window, and when scrolling to search results, we overshoot the result slightly for better visibility. We also made the "visible whitespace" setting simpler and more clear with a switch instead of a drop-down. We're also now using the File Chooser portal provided by Files instead of the default dialog from GTK; as a result, opening files and folders from within Code will benefit from the recent improvements in the portal, and will be more consistent with Flatpak apps.
+We now distinguish between projects with the same name in the sidebar by including their parent folder. We now hide the project chooser button when hiding the sidebar, allowing a smaller minimum window width. We also better ensure files created from the sidebar are automatically opened, and fixed a potential crash when creating new window by dragging and dropping a tab. When searching an entire project or a folder, the search dialog now appears centered over the main window. And when scrolling to search results, we overshoot the result slightly for better visibility.
 
-If you use the Terminal extension, we fixed the visibility of Terminal button on Welcome page, fixed some keyboard shortcuts affecting unfocused document instead of focused Terminal, ensure the Terminal is closed if shell exited, and create a new Terminal if it's re-opened with no shell.
-
-We released a small update to Code this month with an improvement for those who tile windows, especially on smaller displays: we now hide the project chooser button when hiding the sidebar, allowing a smaller minimum window width. We also better ensure files created from the sidebar are automatically opened, and fixed a potential crash when creating new window by dragging and dropping a tab.
-
-
-
-
-
-
-
+If you use the Terminal extension, we fixed the visibility of Terminal button on Welcome page, fixed some keyboard shortcuts affecting unfocused document instead of focused Terminal, ensure the Terminal is closed if shell exited, and create a new Terminal if it's re-opened with no shell. We also made the "visible whitespace" setting simpler and more clear with a switch instead of a drop-down. And we're now using the File Chooser portal in Code; as a result, opening files and folders from within Code will benefit from the recent improvements in the portal, and will be more consistent with Flatpak apps
 
 ## Developer Platform
 
-In tandem with our work on portals is a new version of our Flatpak platform. This update includes a new version of Granite which automatically supports the FreeDesktop dark style preference; there's no additional work needed from developers to support the new standard. We do advise developers who added a sandbox hole for AccountsService to their Flatpak manifest to remove this line as it is no longer needed.
+In tandem with our work on portals, we've released several updates to our Flatpak platform and development libraries.
 
-<aside markdown="1">
->Developers don't need to do any additional work to support the new FreeDesktop dark style preference
-</aside>
+Granite was updated to use the Settings portal for retrieving the FreeDesktop dark style preference, and now contains several fallback methods to try to determine if a dark style is being requested when apps are running on a platform where the Settings portal isn't available. Since there was no API break, there's no additional work needed from developers to support the new standard. However, now that the portal is available, we're adivising developers to drop the sandbox hole for AccountsService in their Flatpak manifest for improved security. The new version of Granite also automatically uses the Settings portal for a couple other things like date and time settings. This fixes an issue with time picker widgets not respecting AM/PM vs 24-hour time format preferences, for example. We also added a new Granite widget `HyperTextView` to support navigable URLs in text views, and `Granite.ValidatedEntry` now has a `min_length` property.
 
-The new version of Granite also automatically uses the Settings portal for a couple other things like date and time settings. This fixes an issue with time picker widgets not respecting AM/PM vs 24-hour time format preferences, for example. Finally, we also released a small update to the system stylesheet to support the Hdy.Tabbar widget and with a fix that makes sure `.titlebar` with the `.flat` style class automatically inherit the background color of their containers.
+Our system stylesheet was updated with support for the Tabbar widget in LibHandy, which we previously mentioned is now used in Web but is available for other developers to use as well. We also made sure that HeaderBars with the `flat` style class inherit the background color of their containers, which makes it easier to implement split headerbar designs in apps like Tasks. and Our system icon set now includes more sizes for icons like `emblem-downloads` and `playlist-queue`.
 
-ARM builds have been enabled for Flatpak. This means we can start building first-party and AppCenter apps for 64-bit ARM platforms like Pinebook Pro and Raspberry Pi 4 again. Stay tuned for more info on this as we continue the work.
+The latest release of the `6` series Flatpak platform contains all of these fixes, plus newer versions of other libraries like WebKit to keep apps secure, stable, and performant. We now include the FreeDesktop sound theme and elementary's sound theme in the platform for apps that want to use audio feedback for actions. And as alluded to before, we publish 64-bit ARM versions of our platform to support those builds for AppCenter.
 
-<aside markdown="1">
->We can start building apps for platforms like Pinebook Pro and Raspberry Pi 4
-</aside>
+---
 
-We fixed a couple of issues discovered in the system stylesheet; namely, the accent color in IBus candidate window and the font style for labels in header bars for Japanese characters. We updated the Network indicator to prevent blank lines in the list of VPNs. And as always, there are translation updates, code cleanups, and other under-the-hood improvements included with these updates across the OS and apps.
+## Get elementary OS 6.1
 
-For developers, we added a `min_length` property for `Granite.ValidatedEntry` and released a new `Granite.HyperTextView` for navigable URLs in text views. On the icons front, we released new `preferences-desktop-font*` icons, additional sizes for `playlist-queue` and `emblem-downloads`, redesigned the PDF file type, and removed arrows from Copy and Paste actions. Lastly, we released version 6.0.4 of the Flatpak platform with the latest Granite, icons, and stylesheet updates.
+{% if page.hidden %}
+elementary OS 6.1 Odin will be available as a pay-what-you-can purchase at [elementary.io] on {{ page.hidden | date: "%A, %B %e, %Y"}}. Localized direct downloads and a torrent magnet link will be provided.
+{% else %}
+elementary OS 6.1 Odin is available as a pay-what-you-can purchase at [elementary.io] today. Localized direct downloads and a torrent magnet link are provided.
+{% endif %}
 
+<div style="margin: 3em auto; text-align: center" markdown="1">
+[FAQ]{: .button.flat }
+[Download elementary OS 6.1][elementary.io]{: .button.suggested }
+</div>
 
+### Devices
 
-
-## Hardware Compatibility
+We've been working with our [hardware retailers](https://store.elementary.io/) to ensure they're able to offer elementary OS 6.1 out of the box as soon as possible. **Devices from both [Star Labs](https://starlabs.systems/?rfsn=4227837.e8f025) and [Laptop With Linux](https://laptopwithlinux.com/?ref=36&utm_source=referral&utm_medium=elementary&utm_campaign=elementary) are shipping with OS 6.1 now**; visit retailers' individual sites for more information.
 
 Thanks to upstream developers working on Ubuntu, we're now shipping a fix for an issue that prevented some computers from being able to boot, including Dell devices with UEFI and some other models. If you weren't able to boot the initial release of OS 6, give it another shot! If you were able to get OS 6 installed, you're not affected by this issue and you don't need to re-install. This latest build inherits all the other great hardware compatibility improvements included in Ubuntu 20.04.3 release as well. Thanks Ubuntu!
 
-If you've had trouble with device drivers that rely on DKMS, AppCenter will now automatically pull in the required Linux kernel headers when installing them. We've also fixed an issue that was preventing our bootloader GRUB from correctly updating to use newer kernels, and you should see less of GRUB in general when starting your computer normally.
+---
