@@ -1,16 +1,47 @@
 ---
 title: elementary OS 6.1 Available Now
-description: Our biggest Christmas release yet
+description: We come bearing gifts and Yule tidings!
 author: danrabbit
 image: /images/elementary-os-6-1-available-now/card.png
 tags:
   - odin
+  - jolnir
   - release
 
 ---
 
-Just four months after the initial release of elementary OS 6, we're proud to announce OS 6.1 jam packed with new features, bug fixes, performance improvements, and more, all based on your feedback! If you're already an OS 6 user, most of this wrapup will be familiar to you as it includes an overview of all of the updates released since 6.0, but there are few new treats in your stocking too! Before we get to all the goodies, we'd like to quickly report that OS 6 has been downloaded from our website [over 226,000 times](https://plausible.io/elementary.io?period=custom&goal=Download&from=2021-08-10&to=2021-12-02&props=%7B%22Version%22%3A%226%22%7D)—and as always, that's not including downloads from third parties or direct downloads via torrent that bypass our download page.
+Just four months ago we [announced elementary OS 6 Odin](/elementary-os-6-odin-released) with new ways to be in control and express yourself, a slew of innovative new features, and a focus on gettability and inclusivity. So far, OS 6 has been downloaded from our website [over 226,000 times](https://plausible.io/elementary.io?period=custom&goal=Download&from=2021-08-10&to=2021-12-02&props=%7B%22Version%22%3A%226%22%7D)—and as always, that's not including downloads from third parties or direct downloads via torrent that bypass our download page!
 
+<figure class="on-screen" markdown="1">
+![elementary OS 6.1 Jólnir]({{ page.image }})
+</figure>
+
+Today we're proud to announce that OS 6.1 Jólnir is available to download now for new users, as an easy upgrade for existing users, and shipping on several high-quality computers. With OS 6.1, we've focused in on:
+
+- Addressing **your feedback** with new features and fixes
+- Making elementary OS more useful with **office productivity** features
+- Improving the experience with **hardware enablement**
+
+
+To get elementary OS 6.1 now, head to [elementary.io] for the download—or read on for an overview of what's new.
+
+---
+
+## What's in a Name and Number?
+
+elementary OS 6.1 Jólnir takes the same foundation as Odin and elevates it to a new level of polish. Thanks to some great new tooling and release management process at elementary, we've been able to make larger strides in less time than ever before. This release represents the sum of our work over the last several months as a single major update, but not an entirely new version—those usually come out every two years. We believe there's enough great new stuff here, however, that this release deserves its own name and identity.
+
+<aside markdown="1">
+>Jólnir is the result of much improved processes at elementary, making larger strides in less time than ever before
+</aside>
+
+We always name our releases after mythological beings and deities, and Jólnir is no different. Jólnir is the name for Odin as he relates to the Yuletide and is one of the original inspirations for Father Christmas—or Santa Claus.
+
+## Updates from the Odin Release
+
+Since Jólnir builds on Odin, it includes [all of the monthly OS updates][updates] we've detailed since Odin's release. You can check those monthly stories for the nitty-gritty—and if you've diligently followed along, much of this will be a review—but here's a higher-level overview of what gifts Jólnir brings this season:
+
+---
 
 ## AppCenter
 
@@ -334,13 +365,12 @@ The latest release of the `6` series Flatpak platform contains all of these fixe
 ## Get elementary OS 6.1
 
 {% if page.hidden %}
-elementary OS 6.1 Odin will be available as a pay-what-you-can purchase at [elementary.io] on {{ page.hidden | date: "%A, %B %e, %Y"}}. Localized direct downloads and a torrent magnet link will be provided.
+elementary OS 6.1 Jólnir will be available as a pay-what-you-can purchase at [elementary.io] on {{ page.hidden | date: "%A, %B %e, %Y"}}. Localized direct downloads and a torrent magnet link will be provided.
 {% else %}
-elementary OS 6.1 Odin is available as a pay-what-you-can purchase at [elementary.io] today. Localized direct downloads and a torrent magnet link are provided.
+elementary OS 6.1 Jólnir is available as a pay-what-you-can purchase at [elementary.io] today. Localized direct downloads and a torrent magnet link are provided.
 {% endif %}
 
 <div style="margin: 3em auto; text-align: center" markdown="1">
-[FAQ]{: .button.flat }
 [Download elementary OS 6.1][elementary.io]{: .button.suggested }
 </div>
 
@@ -351,3 +381,6 @@ We've been working with our [hardware retailers](https://store.elementary.io/) t
 Thanks to upstream developers working on Ubuntu, we're now shipping a fix for an issue that prevented some computers from being able to boot, including Dell devices with UEFI and some other models. If you weren't able to boot the initial release of OS 6, give it another shot! If you were able to get OS 6 installed, you're not affected by this issue and you don't need to re-install. This latest build inherits all the other great hardware compatibility improvements included in Ubuntu 20.04.3 release as well. Thanks Ubuntu!
 
 ---
+
+[elementary.io]: https://elementary.io
+[updates]: {{ site.baseurl }}/tags/#updates
