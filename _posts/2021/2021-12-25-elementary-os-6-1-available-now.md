@@ -184,7 +184,7 @@ The Notifications indicator will now use an app's name when a notification title
 
 ## Applications Menu
 
-Now you can search right from the Applications Menu for bookmarked folders and locations like Downloads, Pictures, or even network shares. And following cross-desktop standards, this feature will work with whatever your default file manager is—whether or not it's the default elementary Files app.
+Now you can search right from the Applications Menu for bookmarked folders and locations like Downloads, Pictures, or even network shares. And following cross-desktop standards, this feature will work with whatever your default file manager is—whether or not it's the default elementary Files app. We've also improved search results for Settings so that terms like "mouse speed" return "Mouse & Touchpad → Mouse → Pointer Speed", making it easier to find settings without knowing their exact names.
 
 <figure class="card" markdown="1">
 ![Bookmark search in Applications Menu](/images/elementary-os-6-odin-updates-november-2021/bookmark-search.png){: width="888" height="689"}
