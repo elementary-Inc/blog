@@ -308,7 +308,7 @@ As a note, if you were having issues adding, editing, or removing lists, try rem
 
 ## Calendar
 
-We've greatly improved Calendar's reliability with regards to sending notifications, including fixes for the Notifications indicator, opening Calendar when clicking notifications, and sending notifications for upcoming events while Calendar is closed. Time zones have been a major focus as well with improvements around getting and saving time zone information, including Windows-style time zones in synced events, and plugging memory leaks related to fetching time zone data. Plus, we've improved handling of all-day events and we do a better job of getting calendar colors from online accounts.
+We've greatly improved Calendar's reliability with regards to sending notifications, including fixes for the Notifications indicator, opening Calendar when clicking notifications, and sending notifications for upcoming events while Calendar is closed. Time zones have been a major focus as well with improvements around getting and saving time zone information, including Windows-style time zones in synced events, and plugging memory leaks related to fetching time zone data. We've improved handling of all-day events and we do a better job of getting calendar colors from online accounts. Plus, you can now quickly open Calendar by middle clicking on the Date & Time indicator.
 
 ## Web
 
