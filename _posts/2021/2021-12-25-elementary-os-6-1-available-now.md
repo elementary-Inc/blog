@@ -360,6 +360,8 @@ Our system stylesheet was updated with support for the Tabbar widget in LibHandy
 
 The latest release of the `6` series Flatpak platform contains all of these fixes, plus newer versions of other libraries like WebKit to keep apps secure, stable, and performant. We now include the FreeDesktop sound theme and elementary's sound theme in the platform for apps that want to use audio feedback for actions. And as alluded to before, we publish 64-bit ARM versions of our platform to support those builds for AppCenter.
 
+We also [published the first](https://github.com/elementary/flatpak-platform/releases/tag/6.1.0) version of the `6.1` series Flatpak platform, built on top of the GNOME 41 platform. This platform contains even new libraries than are available from the Ubuntu repos as well as a fix that makes sure apps built with the 6.1 runtime will use the Blueberry stylesheet from OS 6 when running on OS 5. Developers will have to manually opt-in to this update since it is API-breaking in some cases.
+
 ---
 
 ## Get elementary OS 6.1
