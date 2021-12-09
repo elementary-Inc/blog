@@ -204,7 +204,7 @@ A couple of nice fixes landed in the Installer and Initial Setup that make it ea
 <figcaption>Initial Setup now helps you name your device</figcaption>
 </figure>
 
-We've also fixed a styling issue with "Unused" disk partitions in the custom install mode, added two-finger swipe to go back during Initial Setup, and changed the source of locale names to avoid some politically-charged naming of certain locales. Plus, we now hide the clock during Initial Setup since it often was covered
+We've also fixed a styling issue with "Unused" disk partitions in the custom install mode, and during the pre-installation checklist we now warn about what to expect when installing in a virtual machine. We added two-finger swipe to go back during Initial Setup, and changed the source of locale names to avoid some politically-charged naming of certain locales. Plus, we now hide the clock during Initial Setup since it often was covered.
 
 ## System Settings
 
