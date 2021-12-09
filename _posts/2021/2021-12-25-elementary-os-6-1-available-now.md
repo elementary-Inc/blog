@@ -214,7 +214,7 @@ In addition to quite a few new features and improvements listed below, we spent 
 
 In 6.0 we debuted a new Online Accounts system built around Evolution Data Server (EDS) and over the past several months we've rolled out quite a few improvements to our included productivity software. Firstly, we've make sure you can always navigate next when adding an account by pressing <kbd>Enter</kbd> and that you can close dialogs as expected with <kbd>Esc</kbd>. We fixed adding, editing, and removing lists in CalDAV apps like Tasks
 
-Thanks to some helpful feedback from our community, we've made the process of detecting IMAP authentication methods much more robust. We also ensure the refresh interval for an IMAP account is set (which will let apps like Mail change this in the future). You can also edit existing IMAP accounts by selecting the pencil icon in its row.
+Thanks to some helpful feedback from our community, we've made the process of detecting IMAP authentication methods much more robust. We also ensure the refresh interval for an IMAP account is set (which will let apps like Mail change this in the future). You can also edit existing CalDAV and IMAP accounts by selecting the pencil icon in its row.
 
 <figure>
   <picture>
