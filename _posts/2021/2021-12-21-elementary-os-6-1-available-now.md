@@ -93,7 +93,7 @@ As part of our effort to make AppCenter a better experience on small displays, t
 <figcaption>Progress is now shown in a small progressbar seen top right</figcaption>
 </figure>
 
-As we continue to work on AppCenter for Everyone, we've reworked the Install button to ease into the future flow that will use a Flatpak authenticator to handle purchases; rather than having a dropdown arrow with a popover to change the price, we're now more clear about how "Pay What You Can" works and include changing the amount to pay in the payment dialog itself—and validated entries now show a green check and invalid ones show a red error so it's much clearer when card info has been entered incorrectly. And since we use this same widget on the home page, on app info pages, and in lists of apps, it's consistent everywhere.
+As we continue to work on our [“AppCenter for Everyone”](/appcenter-for-everyone) campaign, we've reworked the Install button to ease into the future flow that will use a Flatpak authenticator to handle purchases; rather than having a dropdown arrow with a popover to change the price, we're now more clear about how "Pay What You Can" works and include changing the amount to pay in the payment dialog itself—and validated entries now show a green check and invalid ones show a red error so it's much clearer when card info has been entered incorrectly. And since we use this same widget on the home page, on app info pages, and in lists of apps, it's consistent everywhere.
 
 <figure markdown="1">
 ![AppCenter payment dialog](/images/elementary-os-6-odin-updates-september-2021/stripe-dialog.png){: width="568" height="379"}
