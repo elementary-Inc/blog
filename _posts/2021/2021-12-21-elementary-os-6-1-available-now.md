@@ -182,11 +182,7 @@ The dark style preference is now respected across desktops for GNOME and element
 
 As before, this dark style preference is still opt-in for developers, which means it won't break apps that weren't tested against it. However, we're now using an agreed upon desktop-agnostic namespace in the Settings portal which works across application toolkits and desktop environments. What that means for you is that GNOME apps will begin respecting the dark style preference and we hope to see this compatibility spread to KDE apps and more in the future. It also means that those running AppCenter apps on GNOME 42 will have their dark style preference automatically respected on day one.
 
-### More Updates and Fixes
-
-Along with all of the features above, there are several more minor updates across the desktop in OS 6.1. You can now stash the picture-in-picture window by pushing it off an edge of the screen, making it easier to get at whatever was under the window. We isolated the workspace "nudge" animation (when trying to navigate past the last workspace) to only show on the primary display, and we improved that nudge animation to work with the mouse wheel in addition to touchpads, touchscreens, and the keyboard. We redesigned the app icon for the Document Viewer, and PDF file type icons to match. On the Login & Lock screen, we now use the user's selected accent color for the logged-in checkmark for an additional splash of accent color. The Power indicator includes a number of improvements such as showing the screen brightness level when scrolled, better matching the scroll behavior of other indicators, automatically showing the battery percentage when it's low, and showing "Fully Charged" when at 100% and plugged in. The Captive Network Assistant also gained a new icon and is now shipped as a Flatpak for greater security.Plus we fixed a number of other smaller issues that were reported.
-
-## Applications Menu
+### Applications Menu
 
 Now you can search right from the Applications Menu for bookmarked folders and locations like Downloads, Pictures, or even network shares. And following cross-desktop standards, this feature will work with whatever your default file manager is—whether or not it's the default elementary Files app. We've also improved search results for Settings so that terms like "mouse speed" return "Mouse & Touchpad → Mouse → Pointer Speed", making it easier to find settings without knowing their exact names.
 
@@ -197,7 +193,7 @@ Now you can search right from the Applications Menu for bookmarked folders and l
 
 The Applications Menu now shows a secondary-click menu on search result items, and we added support for launching apps on dedicated graphics on hybrid graphics systems (e.g. NVIDIA Optimus). Lastly, we've reworked the way the Applications Menu watches for changes in installed apps, so it should be more responsive about showing freshly installed-apps without a restart.
 
-## Installer & Initial Setup
+### Installer & Initial Setup
 
 A couple of nice fixes landed in the Installer and Initial Setup that make it easier to set the name of your device. We now double check at install time that the default generated hostname is valid and you can change it to something you like more during initial setup. A formatted name like "Cassidy's StarBook" will be shown when possible—like in System Settings—and will automatically fall back to something more machine friendly like "Cassidys-StarBook" in places like Terminal.
 
@@ -210,23 +206,27 @@ A couple of nice fixes landed in the Installer and Initial Setup that make it ea
 
 We've also fixed a styling issue with "Unused" disk partitions in the custom install mode, and during the pre-installation checklist we now warn about what to expect when installing in a virtual machine. We added two-finger swipe to go back during Initial Setup, and changed the source of locale names to avoid some politically-charged naming of certain locales. Plus, we now hide the clock during Initial Setup since it often was covered.
 
+### Housekeeping
+
+elementary OS has a Housekeeping feature where old temporary and trashed files can be automatically cleaned up to save space and help protect your privacy.
+
+<figure class="half" markdown="1">
+![Onboarding](/images/elementary-os-6-odin-updates-november-2021/housekeeping-onboarding.png)
+![Settings](/images/elementary-os-6-odin-updates-november-2021/housekeeping-settings.png)
+<figcaption markdown="1">
+**Left:** Housekeeping in the Welcome app | **Right:** Housekeeping in System Settings
+</figcaption>
+</figure>
+
+We improved Housekeeping with the addition of Downloads to the options, and a more clear and consistent design between both the Welcome app and System Settings.
+
+### More Updates and Fixes
+
+Along with all of the features above, there are several more minor updates across the desktop in OS 6.1. You can now stash the picture-in-picture window by pushing it off an edge of the screen, making it easier to get at whatever was under the window. We isolated the workspace "nudge" animation (when trying to navigate past the last workspace) to only show on the primary display, and we improved that nudge animation to work with the mouse wheel in addition to touchpads, touchscreens, and the keyboard. We redesigned the app icon for the Document Viewer, and PDF file type icons to match. On the Login & Lock screen, we now use the user's selected accent color for the logged-in checkmark for an additional splash of accent color. The Power indicator includes a number of improvements such as showing the screen brightness level when scrolled, better matching the scroll behavior of other indicators, automatically showing the battery percentage when it's low, and showing "Fully Charged" when at 100% and plugged in. The Captive Network Assistant also gained a new icon and is now shipped as a Flatpak for greater security.Plus we fixed a number of other smaller issues that were reported.
+
 ## System Settings
 
 In addition to quite a few new features and improvements listed below, we spent some time resolving cross-platform issues in System Settings, which should make our desktop environment more easily portable to distros like Fedora and Nix OS. This also resulted in better support for locales that use 3-letter language codes and more reliable sidebar updates in User Accounts settings as well as some minor performance improvements.
-
-### Online Accounts
-
-In 6.0 we debuted a new Online Accounts system built around Evolution Data Server (EDS) and over the past several months we've rolled out quite a few improvements to our included productivity software. Firstly, we've make sure you can always navigate next when adding an account by pressing <kbd>Enter</kbd> and that you can close dialogs as expected with <kbd>Esc</kbd>. We fixed adding, editing, and removing lists in CalDAV apps like Tasks
-
-Thanks to some helpful feedback from our community, we've made the process of detecting IMAP authentication methods much more robust. We also ensure the refresh interval for an IMAP account is set (which will let apps like Mail change this in the future). You can also edit existing CalDAV and IMAP accounts by selecting the pencil icon in its row.
-
-<figure>
-  <picture>
-    <source srcset="/images/elementary-os-6-odin-updates-august-2021/onlineaccounts-dark.png" media="(prefers-color-scheme: dark)">
-    <img alt="System Settings → Online Accounts" src="/images/elementary-os-6-odin-updates-august-2021/onlineaccounts-light.png" width="1044" height="740" />
-  </picture>
-<figcaption>IMAP accounts can now be edited in System Settings → Online Accounts</figcaption>
-</figure>
 
 ### Displays & Scaling
 
@@ -248,20 +248,6 @@ To better support a wide variety of display sizes and resolutions, we also added
 Improved text scaling options
 </figcaption>
 </figure>
-
-### Housekeeping
-
-elementary OS has a Housekeeping feature where old temporary and trashed files can be automatically cleaned up to save space and help protect your privacy.
-
-<figure class="half" markdown="1">
-![Onboarding](/images/elementary-os-6-odin-updates-november-2021/housekeeping-onboarding.png)
-![Settings](/images/elementary-os-6-odin-updates-november-2021/housekeeping-settings.png)
-<figcaption markdown="1">
-**Left:** Housekeeping in the Welcome app | **Right:** Housekeeping in System Settings
-</figcaption>
-</figure>
-
-We improved Housekeeping with the addition of Downloads to the options, and a more clear and consistent design between both the Welcome app and System Settings.
 
 ### Sound
 
@@ -294,7 +280,25 @@ For those of you using advanced keyboard input methods, we now ensure IBus autom
 
 In addition to the major improvements above, we fixed an issue in Applications settings with setting the incorrect app for certain files types, and don't overwrite custom permissions overrides when unnecessary. We fixed a crash in the Network settings for some hardware. We've fixed an issue in Power settings that could sometimes cause problems with resuming from sleep, and added a switch to show or hide the battery percentage in the Panel. We added a new toggle for “Double-tap and move to drag” in Mouse & Touchpad settings. In User Accounts settings, we fixed an issue with updating permissions when enabling and disabling accounts. In the System page, we now display more information for certain graphics chipsets, including Intel® Xe Graphics. And we also improved the way we remember Bluetooth state on restart and when resuming from suspend.
 
-## Mail
+## Office Productivity
+
+OS 6.1 also brings a number of refinements and new features for staying productive at work and keeping things synced between all your devices.
+
+### Online Accounts
+
+In OS 6 we debuted a new Online Accounts system built around Evolution Data Server (EDS) and over the past several months we've rolled out quite a few improvements. Firstly, we've make sure you can always navigate next when adding an account by pressing <kbd>Enter</kbd> and that you can close dialogs as expected with <kbd>Esc</kbd>.
+
+Thanks to some helpful feedback from our community, we've made the process of detecting IMAP authentication methods much more robust. We also ensure the refresh interval for an IMAP account is set (which will let apps like Mail change this in the future). And you can now edit existing CalDAV and IMAP accounts by selecting the pencil icon in its row.
+
+<figure>
+  <picture>
+    <source srcset="/images/elementary-os-6-odin-updates-august-2021/onlineaccounts-dark.png" media="(prefers-color-scheme: dark)">
+    <img alt="System Settings → Online Accounts" src="/images/elementary-os-6-odin-updates-august-2021/onlineaccounts-light.png" width="1044" height="740" />
+  </picture>
+<figcaption>IMAP accounts can now be edited in System Settings → Online Accounts</figcaption>
+</figure>
+
+### Mail
 
 elementary OS 6 featured a brand new version of Mail built around EDS instead of the Geary mail engine. Since its release we've continued to implement the remaining important features from the old version, and we've made quite a lot of progress!
 
@@ -304,13 +308,13 @@ Conversations in the list view have a handy secondary-click menu again, and the 
 
 We've fixed a number of reported crashes and rendering errors, improved search performance and startup times, and improved issues around saving drafts and deleting messages with various mail servers including Outlook.com. We've improved handling of `mailto:` links, better ensure the correct "From" address on replies when multiple accounts are set up, sent messages will no longer be marked as "unread", and messages will use your local time in their headers. Mail also now provides the email portal for apps that support it (replacing the previous Contractor contract on elementary OS), making it easier for sandboxed apps to prompt you to start composing a message.
 
-## Tasks
+### Tasks
 
 We shipped a number of improvements to Tasks: to prevent accidental task deletion, we've replaced the Delete shortcut key with <kbd>Ctrl</kbd><kbd>Backspace</kbd> and added a confirmation dialog when deleting a task list; we've improved performance in lists with lots of completed tasks; we prevent account name headers from being displayed multiple times in the sidebar; we now truncate long descriptions at the end instead of the beginning; we ensure tasks are saved when the description is removed; and, we improved cursor placement in descriptions when editing. Task item with due dates now also appear alongside daily events in the Date & Time indicator and selecting task items there will launch Tasks. And, you can now drag and drop task items between lists in the sidebar. Plus we've resolved some issues regarding saving task items with the proper time zones, so if you have outstanding tasks with due dates, it's worth double checking those after the update.
 
 As a note, if you were having issues adding, editing, or removing lists, try removing and re-adding your CalDAV account in _System Settings_ → _Online Accounts_ to take advantage of the improvements made there.
 
-## Calendar
+### Calendar
 
 We've greatly improved Calendar's reliability with regards to sending notifications, including fixes for the Notifications indicator, opening Calendar when clicking notifications, and sending notifications for upcoming events while Calendar is closed. Time zones have been a major focus as well with improvements around getting and saving time zone information, including Windows-style time zones in synced events, and plugging memory leaks related to fetching time zone data. We've improved handling of all-day events and we do a better job of getting calendar colors from online accounts. Plus, you can now quickly open Calendar by middle clicking on the Date & Time indicator.
 
