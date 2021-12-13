@@ -20,7 +20,7 @@ Today we're proud to announce that OS 6.1 Jólnir is available to download now f
 
 - Addressing **your feedback** with new features and fixes
 - Making elementary OS more useful with **office productivity** features
-- Improving the experience with **hardware enablement**
+- **Improving compatibility** with a wide range of hardware
 
 
 To get elementary OS 6.1 now, head to [elementary.io] for the download—or read on for an overview of what's new.
