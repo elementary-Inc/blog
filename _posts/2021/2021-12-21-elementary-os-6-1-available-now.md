@@ -8,6 +8,8 @@ tags:
   - jolnir
   - release
 
+hidden: 2021-12-21 16:00:00 UTC # 10 AM MDT
+
 ---
 
 Just four months ago we [announced elementary OS 6 Odin](/elementary-os-6-odin-released) with new ways to be in control and express yourself, a slew of innovative new features, and a focus on gettability and inclusivity. So far, OS 6 has been downloaded from our website [over 226,000 times](https://plausible.io/elementary.io?period=custom&goal=Download&from=2021-08-10&to=2021-12-02&props=%7B%22Version%22%3A%226%22%7D)—and as always, that's not including downloads from third parties or direct downloads via torrent that bypass our download page!
@@ -19,7 +21,7 @@ Just four months ago we [announced elementary OS 6 Odin](/elementary-os-6-odin-r
 Today we're proud to announce that OS 6.1 Jólnir is available to download now for new users, as an easy upgrade for existing users, and shipping on several high-quality computers. With OS 6.1, we've focused in on:
 
 - Addressing **your feedback** with new features and fixes
-- Making elementary OS more useful with **office productivity** features
+- Making elementary OS more useful with **office productivity**
 - Improving the experience with **hardware enablement**
 
 
