@@ -29,7 +29,7 @@ To get elementary OS 6.1 now, head to [elementary.io] for the download—or read
 
 ## What's in a Name and Number?
 
-elementary OS 6.1 Jólnir takes the same foundation as Odin and elevates it to a new level of polish. Thanks to some great new tooling and release management process at elementary, we've been able to make larger strides in less time than ever before. This release represents the sum of our work over the last several months as a single major update, but not an entirely new version—those usually come out every two years. We believe there's enough great new stuff here, however, that this release deserves its own name and identity.
+elementary OS 6.1 Jólnir takes the same foundation as Odin and elevates it to a new level of polish. Thanks to some great new tooling and release management processes at elementary, we've been able to make larger strides in less time than ever before. This release represents the sum of our work over the last several months as a single major update, but not an entirely new version—those usually come out every two years. We believe there's enough great new stuff here, however, that this release deserves its own name and identity.
 
 <figure class="constrained" markdown="1">
 ![elementary OS 6.1 Jólnir]( {{ page.image }})
