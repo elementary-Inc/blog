@@ -43,15 +43,15 @@ elementary OS 6.1 Jólnir takes the same foundation as Odin and elevates it to a
 
 We always name our releases after mythological beings and deities, and Jólnir is no different. Jólnir is the name for Odin as he relates to the Yuletide and is one of the original inspirations for Father Christmas—or Santa Claus.
 
-## Updates from the Odin Release
+## Updates from the OS 6 Release
 
-Since Jólnir builds on Odin, it includes [all of the monthly OS updates][updates] we've detailed since Odin's release. You can check those monthly stories for the nitty-gritty—and if you've diligently followed along, much of this will be a review—but here's a higher-level overview of what gifts Jólnir brings this season:
+Since elementary OS 6.1 Jólnir builds on OS 6 Odin, it includes [all of the monthly OS updates][updates] we've detailed since the OS 6 release. You can check those monthly stories for the nitty-gritty—and if you've diligently followed along, much of this will be a review—but here's a higher-level overview of what gifts OS 6.1 Jólnir brings this season:
 
 ---
 
 ## AppCenter
 
-If you checked out AppCenter on release day and found it a little sparse, it's time to check again! App developers have been hard at work and you can currently find [90 curated apps](https://appcenter.elementary.io/) in AppCenter. We're also happy to report that many developers have been pushing out rapid and frequent updates to existing apps with new features and bug fixes, as they're in control of their own update schedule. Our shift from Debian packages to Flatpak for both curated and non-curated apps means we're able to lean more on Flatpak features and we've been using this as an opportunity to make AppCenter much more engaging and informative right from the start.
+AppCenter continues to fill out with apps from developers—and since the move to Flatpak, all apps that have been released for OS 6 will continue to be available on OS 6.1 and beyond! You can currently find [90 curated apps](https://appcenter.elementary.io/) in AppCenter, and developers have continued to push out rapid and frequent updates to their apps with new features and bug fixes, as they're in control of their own update schedule. Our shift from Debian packages to Flatpak for both curated and non-curated apps also means we're able to lean more on Flatpak features, and we've been using this as an opportunity to make AppCenter much more engaging and informative right from the start.
 
 <figure markdown="1">
 ![AppCenter Home Page](/images/elementary-os-6-odin-updates-september-2021/appcenter-home.png){: width="1408" height="895"}
@@ -75,7 +75,9 @@ Category views (like Audio or System) are now shown with a more space-efficient 
 </figcaption>
 </figure>
 
-We've also spent significant time improving individual apps' info pages. Rather than displaying a generic "explicit" warning dialog when installing an app with certain content warnings, we show this information ahead of time at the top of the page. We differentiate between and inform about several content warnings including things like violence, language, and nudity as well as privacy-related topics like online interactions and data collection. And since we validate this information for curated apps but can't make any guarantees about non-curated apps, we also more clearly inform ahead of time when an app is not curated with an additional badge. This new section works like a content and privacy "report card" you can use to learn more about apps and make informed choices while also reducing the road blocks to installing the apps you want. We also now show apps from the same developer at the bottom of app info pages regardless of packaging technology used, meaning it works equally well for first-party, curated, and non-curated apps.
+We've also spent significant time improving individual apps' info pages. Rather than displaying a generic "explicit" warning dialog when installing an app with certain content warnings, we show this information ahead of time at the top of the page. We differentiate between and inform about several content warnings including things like violence, language, and nudity as well as privacy-related topics like online interactions and data collection. And since we validate this information for curated apps but can't make any guarantees about non-curated apps, we also more clearly inform ahead of time when an app is not curated with an additional badge. This new section works like a content and privacy "report card" you can use to learn more about apps and make informed choices while also reducing the road blocks to installing the apps you want.
+
+We've also improved the banner colors for apps that don't provide their own brand colors—including non-curated apps—to use a more subtle look based on your selected system-wide accent color. And now we show apps from the same developer at the bottom of app info pages regardless of packaging technology used, meaning it works equally well for first-party, curated, and non-curated apps.
 
 <aside markdown="1">
 >This new section works like a content and privacy “report card”
@@ -98,9 +100,7 @@ As we continue to work on AppCenter for Everyone, we've reworked the Install but
 <figcaption>Redesigned payment dialog</figcaption>
 </figure>
 
-Several more improvements permeate throughout AppCenter: fallback colors for apps that don't provide their own brand colors—including non-curated apps—now get a pleasant and more subtle look based on your selected system-wide accent color including better support for the dark style. We've also worked with downstreams like Fedora and Pop!_OS to test these updates using the same build flags they use, including adding automated testing to ensure things continue to build using the non-default options when we change the code for elementary OS. And since the redesigned home page relies on local data rather than a remote API, we no longer disable it on builds targeting Fedora or other non-elementary platforms; as a result, AppCenter is much more engaging and useful for any downstream. Plus, if you've had trouble with device drivers that rely on DKMS, AppCenter will now automatically pull in the required Linux kernel headers when installing them.
-
-Finally, we've been putting a lot of work into the first run experience, especially with regards to apps from third-party stores like Flathub since we know many of you are sideloading. For example, apps from freshly-added remotes now show in AppCenter without needing to restart your device. We've also added a reminder about Sideload when searching returns no results with the same language that is used in the Welcome app and a link that will open Flathub.org with your search terms. We now ensure that apps predictably default to installing per-user when selected from the home page, and both AppCenter and Sideload can now use system-wide installed app runtimes for per-user app installs; as a result, the first time you install a new app should now be an even faster, smaller download.
+Finally, we've been putting a lot of work into the first run experience, especially with regards to apps from third-party stores like Flathub since we know many of you are sideloading. For example, apps from freshly-added remotes now show in AppCenter without needing to restart your device. We've also added a reminder about Sideload when searching returns no results with the same language that is used in the Welcome app and a link that will open Flathub.org with your search terms. We now ensure that apps predictably default to installing per-user when selected from the home page, and both AppCenter and Sideload can now use system-wide installed app runtimes for per-user app installs; as a result, the first time you install a new app should now be an even faster, smaller download. And if you've had trouble with device drivers that rely on DKMS, AppCenter will now automatically pull in the required Linux kernel headers when installing them.
 
 <figure>
   <picture>
@@ -110,7 +110,7 @@ Finally, we've been putting a lot of work into the first run experience, especia
 <figcaption>AppCenter now reminds of Sideload when a search has no results</figcaption>
 </figure>
 
-If you're not running elementary OS but still want to get AppCenter apps, we've made it much easier with a recent update to our [AppCenter website](https://appcenter.elementary.io/): Free apps now include a "Download as Flatpak" button that will give you a Flatpak reference file which you can sideload on your operating system of choice. We also build all AppCenter apps for 64-but ARM platforms, so you can use them on platforms like Pinebook Pro and Raspberry Pi 4. Enjoy!
+If you're not running elementary OS but still want to get AppCenter apps, we've made it much easier with a recent update to our [AppCenter website](https://appcenter.elementary.io/): Free apps now include a "Download as Flatpak" button that will give you a Flatpak reference file which you can sideload on your operating system of choice. We also build all AppCenter apps for 64-bit ARM platforms, so you can use them on platforms like Pinebook Pro and Raspberry Pi 4. Enjoy!
 
 <figure>
   <picture>
@@ -122,7 +122,7 @@ If you're not running elementary OS but still want to get AppCenter apps, we've 
 
 ## The Desktop
 
-You can now stash the picture-in-picture window by pushing it off screen—and we fixed a potential crash while changing wallpapers. We also fixed a handful of small visual issues across the desktop: legacy/server-side decorated windows should no longer have clipped shadows and we've fixed an issue that prevented the window border and shadow from being included in screenshots. We isolated the workspace "nudge" animation (when trying to navigate past the last workspace) to only show on the primary display, and we improved that nudge animation to work with the mouse wheel in addition to touchpads, touchscreens, and the keyboard.
+For OS 6.1, we focused on improving and polishing the experience across the entire desktop, from quick window switching and picture-in-picture to animations and the dark style.
 
 ### Quick Window Switching
 
@@ -182,11 +182,11 @@ The dark style preference is now respected across desktops for GNOME and element
 
 As before, this dark style preference is still opt-in for developers, which means it won't break apps that weren't tested against it. However, we're now using an agreed upon desktop-agnostic namespace in the Settings portal which works across application toolkits and desktop environments. What that means for you is that GNOME apps will begin respecting the dark style preference and we hope to see this compatibility spread to KDE apps and more in the future. It also means that those running AppCenter apps on GNOME 42 will have their dark style preference automatically respected on day one.
 
-### And More
+### More Updates and Fixes
 
-Along with all of the headlining features and fixes above, there are a few more minor updates. Shortcut Overlay will no longer crash if a keyboard shortcut has been set to blank. And on the Login & Lock screen, we now use the user's selected accent color for the logged-in checkmark for an additional splash of accent color. We redesigned the app icon for the Document Viewer, and PDF file type icons to match. Plus, we tracked down and fixed an issue with the font style of Japanese characters in headerbars.
+Along with all of the features above, there are several more minor updates across the desktop in OS 6.1. You can now stash the picture-in-picture window by pushing it off an edge of the screen, making it easier to get at whatever was under the window. We isolated the workspace "nudge" animation (when trying to navigate past the last workspace) to only show on the primary display, and we improved that nudge animation to work with the mouse wheel in addition to touchpads, touchscreens, and the keyboard. We redesigned the app icon for the Document Viewer, and PDF file type icons to match. On the Login & Lock screen, we now use the user's selected accent color for the logged-in checkmark for an additional splash of accent color. The Notifications indicator will now use an app's name when a notification title isn't provided, bringing it in line with notification bubbles. The Power indicator includes a number of improvements such as showing the screen brightness level when scrolled, better matching the scroll behavior of other indicators, automatically showing the battery percentage when it's low, and showing "Fully Charged" when at 100% and plugged in. The Captive Network Assistant also gained a new icon and is now shipped as a Flatpak for greater security.
 
-The Notifications indicator will now use an app's name when a notification title isn't provided, bringing it in line with notification bubbles. The Power indicator includes a number of improvements such as showing the screen brightness level when scrolled, better matching the scroll behavior of other indicators, automatically showing the battery percentage when it's low, and showing "Fully Charged" when at 100% and plugged in. We fixed an issue with the network indicator that caused unwanted launches of the captive network assistant, and released a fix to prevent blank lines in the list of VPNs. The assistant also gained a new icon and is now shipped as a Flatpak for greater security. The Date & Time indicator now correctly updates the current day upon opening, and we fixed an issue with numbers becoming illegible when switching between the dark and light styles.
+We also fixed a number of smaller issues that were reported. Shortcut Overlay will no longer crash if a keyboard shortcut has been set to blank. We tracked down and fixed an issue with the font style of Japanese characters in headerbars. Legacy/server-side decorated windows should no longer have clipped shadows, and we've fixed an issue that prevented the window border and shadow from being included in screenshots. We fixed an issue with the network indicator that caused unwanted launches of the captive network assistant, and released a fix to prevent blank lines in the list of VPNs. The Date & Time indicator now correctly updates the current day upon opening, and we fixed an issue with numbers becoming illegible when switching between the dark and light styles.
 
 ## Applications Menu
 
@@ -298,7 +298,7 @@ In addition to the major improvements above, we fixed an issue in Applications s
 
 ## Mail
 
-6.0 also featured a brand new version of Mail built around EDS instead of the Geary mail engine. We've been working hard to play catch up on the most important features from the old Mail and we've made quite a lot of progress!
+elementary OS 6 featured a brand new version of Mail built around EDS instead of the Geary mail engine. Since its release we've continued to implement the remaining important features from the old version, and we've made quite a lot of progress!
 
 Mail will once again automatically notify you when new messages arrive, even when the window is closed. There's also clever grouping of notifications so that if several messages come in at once, we'll only send one notification per account.
 
