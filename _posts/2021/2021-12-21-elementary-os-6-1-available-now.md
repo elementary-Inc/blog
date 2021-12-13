@@ -21,8 +21,8 @@ Just four months ago we [announced elementary OS 6 Odin](/elementary-os-6-odin-r
 Today we're proud to announce that OS 6.1 Jólnir is available to download now for new users, as an easy upgrade for existing users, and shipping on several high-quality computers. With OS 6.1, we've focused in on:
 
 - Addressing **your feedback** with new features and fixes
-- Making elementary OS more useful with **office productivity**
-- Improving the experience with **hardware enablement**
+- Making elementary OS more useful with **office productivity** features
+- **Improving compatibility** with a wide range of hardware
 
 
 To get elementary OS 6.1 now, head to [elementary.io] for the download—or read on for an overview of what's new.
@@ -31,7 +31,7 @@ To get elementary OS 6.1 now, head to [elementary.io] for the download—or read
 
 ## What's in a Name and Number?
 
-elementary OS 6.1 Jólnir takes the same foundation as Odin and elevates it to a new level of polish. Thanks to some great new tooling and release management process at elementary, we've been able to make larger strides in less time than ever before. This release represents the sum of our work over the last several months as a single major update, but not an entirely new version—those usually come out every two years. We believe there's enough great new stuff here, however, that this release deserves its own name and identity.
+elementary OS 6.1 Jólnir takes the same foundation as Odin and elevates it to a new level of polish. Thanks to some great new tooling and release management processes at elementary, we've been able to make larger strides in less time than ever before. This release represents the sum of our work over the last several months as a single major update, but not an entirely new version—those usually come out every two years. We believe there's enough great new stuff here, however, that this release deserves its own name and identity.
 
 <figure class="constrained" markdown="1">
 ![elementary OS 6.1 Jólnir]( {{ page.image }})
