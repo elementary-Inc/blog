@@ -12,7 +12,7 @@ hidden: 2021-12-20 16:00:00 UTC # 10 AM MDT
 
 ---
 
-Just four months ago we [announced elementary OS 6 Odin](/elementary-os-6-odin-released) with new ways to be in control and express yourself, a slew of innovative new features, and a focus on gettability and inclusivity. So far, OS 6 has been downloaded from our website [over 226,000 times](https://plausible.io/elementary.io?period=custom&goal=Download&from=2021-08-10&to=2021-12-02&props=%7B%22Version%22%3A%226%22%7D)—and as always, that's not including downloads from third parties or direct downloads via torrent that bypass our download page!
+Just four months ago we [announced elementary OS 6 Odin](/elementary-os-6-odin-released) with new ways to be in control and express yourself, a slew of innovative new features, and a focus on gettability and inclusivity. So far, OS 6 has been downloaded from our website [over 226,000 times](https://plausible.io/elementary.io?period=custom&goal=Download&from=2021-08-10&to=2021-12-20&props=%7B%22Version%22%3A%226%22%7D)—and as always, that's not including downloads from third parties or direct downloads via torrent that bypass our download page!
 
 <figure class="constrained" markdown="1">
 ![elementary OS 6.1 Jólnir](/images/{{ page.slug }}/starbook.png)
@@ -51,7 +51,7 @@ Since elementary OS 6.1 Jólnir builds on OS 6 Odin, it includes [all of the mon
 
 ## AppCenter
 
-AppCenter continues to fill out with apps from developers—and since the move to Flatpak, all apps that have been released for OS 6 will continue to be available on OS 6.1 and beyond! You can currently find [90 curated apps](https://appcenter.elementary.io/) in AppCenter, and developers have continued to push out rapid and frequent updates to their apps with new features and bug fixes, as they're in control of their own update schedule. Our shift from Debian packages to Flatpak for both curated and non-curated apps also means we're able to lean more on Flatpak features, and we've been using this as an opportunity to make AppCenter much more engaging and informative right from the start—directly addressing feedback about the discoverability of the wide variety of apps in AppCenter.
+AppCenter continues to fill out with apps from developers—and since the move to Flatpak, all apps that have been released for OS 6 will continue to be available on OS 6.1 and beyond! You can currently find [over 90 curated apps](https://appcenter.elementary.io/) in AppCenter, and developers have continued to push out rapid and frequent updates to their apps with new features and bug fixes, as they're in control of their own update schedule. Our shift from Debian packages to Flatpak for both curated and non-curated apps also means we're able to lean more on Flatpak features, and we've been using this as an opportunity to make AppCenter much more engaging and informative right from the start—directly addressing feedback about the discoverability of the wide variety of apps in AppCenter.
 
 <figure markdown="1">
 ![AppCenter Home Page](/images/elementary-os-6-odin-updates-september-2021/appcenter-home.png){: width="1408" height="895"}
