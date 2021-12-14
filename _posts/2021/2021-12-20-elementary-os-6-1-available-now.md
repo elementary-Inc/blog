@@ -340,7 +340,7 @@ Audio files now correctly fall back to a placeholder icon when album art can't b
 
 Previously, Camera's resolution had been reduced for performance reasons; in the latest version Camera will continue to use a more performant resolution in the preview, but will save full-resolution pictures. We resolved issues with some cameras being unavailable when multiple cameras are connected, and we now default to a working camera if multiple cameras are connected but one is unavailable.
 
-Now when you open a photo in the previewer, we focus the photo itself instead of the save button; this enables navigating with the left and right arrow keys right away. The actions for "Toggle Sidebar" and "Toggle Photo Info" have been moved from the secondary-click menu of certain views to the main menu button, hopefully making these customization options more discoverable.
+Now when you open an image in the Photos previewer, we focus the image itself instead of the save button; this enables navigating with the left and right arrow keys right away. The actions for "Toggle Sidebar" and "Toggle Photo Info" have been moved from the secondary-click menu of certain views to the main menu button, hopefully making these customization options more discoverable.
 
 When Calculator starts up, we now focus the main text entry so that entering numbers with the keyboard works right away. We've also improved the experience with multiple windows: there's now a "New Window" action when secondary-clicking Calculator in the Applications Menu or Dock, and we fixed an issue with showing advanced controls so that it only affects the currently focused window.
 
@@ -376,7 +376,7 @@ elementary OS 6.1 Jólnir is available as a pay-what-you-can purchase at [elemen
 
 ### Devices
 
-We've been working with our [hardware retailers](https://store.elementary.io/) to ensure they're able to offer elementary OS 6.1 out of the box as soon as possible. **Devices from both [Star Labs](https://starlabs.systems/?rfsn=4227837.e8f025) and [Laptop With Linux](https://laptopwithlinux.com/?ref=36&utm_source=referral&utm_medium=elementary&utm_campaign=elementary) are shipping with OS 6.1 now**; visit retailers' individual sites for more information.
+We've been working with our [hardware retailers](https://store.elementary.io/) to ensure they're able to offer elementary OS 6.1 out of the box as soon as possible; visit retailers' individual sites for more information.
 
 Thanks to upstream developers working on Ubuntu, we're now shipping a fix for an issue that prevented some computers from being able to boot, including Dell devices with UEFI and some other models. If you weren't able to boot the initial release of OS 6, give it another shot! If you were able to get OS 6 installed, you're not affected by this issue and you don't need to re-install. This latest build inherits all the other great hardware compatibility improvements included in Ubuntu 20.04.3 release as well. Thanks Ubuntu!
 
