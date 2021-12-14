@@ -226,7 +226,7 @@ Along with all of the features above, there are several more minor updates acros
 
 ## System Settings
 
-In addition to quite a few new features and improvements listed below, we spent some time resolving cross-platform issues in System Settings, which should make our desktop environment more easily portable to distros like Fedora and Nix OS. This also resulted in better support for locales that use 3-letter language codes and more reliable sidebar updates in User Accounts settings as well as some minor performance improvements.
+One of the most obvious places your feedback has shaped new OS features is in System Settings, where we've added a number of new settings and redesigned some old ones.
 
 ### Displays & Scaling
 
@@ -278,7 +278,7 @@ For those of you using advanced keyboard input methods, we now ensure IBus autom
 
 ### And More
 
-In addition to the major improvements above, we fixed a number of reported issues and crashers, an issue in Power settings that could sometimes cause problems with resuming from sleep. Plus we added a switch to show or hide the battery percentage in the Panel, and a new toggle for “Double-tap and move to drag” in Mouse & Touchpad settings. In the System page, we now display more information for certain graphics chipsets, including Intel® Xe Graphics. And we also improved the way we remember Bluetooth state on restart and when resuming from suspend.
+In addition to the major improvements above, we fixed a number of reported issues and crashers, an issue in Power settings that could sometimes cause problems with resuming from sleep. Plus we added a switch to show or hide the battery percentage in the Panel, and a new toggle for “Double-tap and move to drag” in Mouse & Touchpad settings. In the System page, we now display more information for certain graphics chipsets, including Intel® Xe Graphics. And we also improved the way we remember Bluetooth state on restart and when resuming from suspend. We also spent some time resolving cross-platform issues, which should make our desktop environment more easily portable to distros like Fedora and Nix OS.
 
 ## Office Productivity
 
