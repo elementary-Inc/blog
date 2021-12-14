@@ -22,7 +22,7 @@ Today we're proud to announce that OS 6.1 Jólnir is available to download now f
 
 - Addressing **your feedback** with new features and fixes
 - Making elementary OS more useful with **office productivity** features
-- **Improving compatibility** with a wide range of hardware
+- **Expanding compatibility** with a wide range of hardware
 
 
 To get elementary OS 6.1 now, head to [elementary.io] for the download—or read on for an overview of what's new.
@@ -31,14 +31,14 @@ To get elementary OS 6.1 now, head to [elementary.io] for the download—or read
 
 ## What's in a Name and Number?
 
-elementary OS 6.1 Jólnir takes the same foundation as Odin and elevates it to a new level of polish. Thanks to some great new tooling and release management processes at elementary, we've been able to make larger strides in less time than ever before. This release represents the sum of our work over the last several months as a single major update, but not an entirely new version—those usually come out every two years. We believe there's enough great new stuff here, however, that this release deserves its own name and identity.
+elementary OS 6.1 Jólnir takes the same foundation as OS 6 Odin and elevates it to a new level of polish. Thanks to some great new tooling and release management processes at elementary, we've been able to make larger strides in less time than ever before. This release represents the sum of our work over the last several months as a single major update to the OS 6 series—and we believe there's enough great new stuff here that this release deserves its own name and identity.
 
 <figure class="constrained" markdown="1">
 ![elementary OS 6.1 Jólnir]( {{ page.image }})
 </figure>
 
 <aside markdown="1">
->Jólnir is the result of much improved processes at elementary, making larger strides in less time than ever before
+>OS 6.1 Jólnir is the result of much improved processes at elementary, making larger strides in less time than ever before
 </aside>
 
 We always name our releases after mythological beings and deities, and Jólnir is no different. Jólnir is the name for Odin as he relates to the Yuletide and is one of the original inspirations for Father Christmas—or Santa Claus.
@@ -51,7 +51,7 @@ Since elementary OS 6.1 Jólnir builds on OS 6 Odin, it includes [all of the mon
 
 ## AppCenter
 
-AppCenter continues to fill out with apps from developers—and since the move to Flatpak, all apps that have been released for OS 6 will continue to be available on OS 6.1 and beyond! You can currently find [90 curated apps](https://appcenter.elementary.io/) in AppCenter, and developers have continued to push out rapid and frequent updates to their apps with new features and bug fixes, as they're in control of their own update schedule. Our shift from Debian packages to Flatpak for both curated and non-curated apps also means we're able to lean more on Flatpak features, and we've been using this as an opportunity to make AppCenter much more engaging and informative right from the start.
+AppCenter continues to fill out with apps from developers—and since the move to Flatpak, all apps that have been released for OS 6 will continue to be available on OS 6.1 and beyond! You can currently find [90 curated apps](https://appcenter.elementary.io/) in AppCenter, and developers have continued to push out rapid and frequent updates to their apps with new features and bug fixes, as they're in control of their own update schedule. Our shift from Debian packages to Flatpak for both curated and non-curated apps also means we're able to lean more on Flatpak features, and we've been using this as an opportunity to make AppCenter much more engaging and informative right from the start—directly addressing feedback about the discoverability of the wide variety of apps in AppCenter.
 
 <figure markdown="1">
 ![AppCenter Home Page](/images/elementary-os-6-odin-updates-september-2021/appcenter-home.png){: width="1408" height="895"}
@@ -75,7 +75,7 @@ Category views (like Audio or System) are now shown with a more space-efficient 
 </figcaption>
 </figure>
 
-We've also spent significant time improving individual apps' info pages. Rather than displaying a generic "explicit" warning dialog when installing an app with certain content warnings, we show this information ahead of time at the top of the page. We differentiate between and inform about several content warnings including things like violence, language, and nudity as well as privacy-related topics like online interactions and data collection. And since we validate this information for curated apps but can't make any guarantees about non-curated apps, we also more clearly inform ahead of time when an app is not curated with an additional badge. This new section works like a content and privacy "report card" you can use to learn more about apps and make informed choices while also reducing the road blocks to installing the apps you want.
+We've also spent significant time improving individual apps' info pages based on your feedback. Rather than displaying a generic "explicit" warning dialog when installing an app with certain content warnings, we show this information ahead of time at the top of the page. We differentiate between and inform about several content warnings including things like violence, language, and nudity as well as privacy-related topics like online interactions and data collection. And since we validate this information for curated apps but can't make any guarantees about non-curated apps, we also more clearly inform ahead of time when an app is not curated with an additional badge. This new section works like a content and privacy "report card" you can use to learn more about apps and make informed choices while also reducing the road blocks to installing the apps you want.
 
 We've also improved the banner colors for apps that don't provide their own brand colors—including non-curated apps—to use a more subtle look based on your selected system-wide accent color. And now we show apps from the same developer at the bottom of app info pages regardless of packaging technology used, meaning it works equally well for first-party, curated, and non-curated apps.
 
@@ -83,7 +83,7 @@ We've also improved the banner colors for apps that don't provide their own bran
 >This new section works like a content and privacy “report card”
 </aside>
 
-As part of our effort to make AppCenter a better experience on small displays, there is the new progress indicator when installing, removing, or updating apps. Instead of a separate progress bar, progress is now indicated in a compact way over the cancel button. This greatly improves AppCenter with smaller window sizes and fixes layout issues in views that show a lot of apps like the home page and when showing other apps by an author on the app info page.
+As part of our effort to make AppCenter a better experience on small displays and when tiled to half of the display, there is the new progress indicator when installing, removing, or updating apps. Instead of a separate progress bar, progress is now indicated in a compact way over the cancel button. This greatly improves AppCenter with smaller window sizes and fixes layout issues in views that show a lot of apps like the home page and when showing other apps by an author on the app info page.
 
 <figure>
   <picture>
@@ -100,7 +100,7 @@ As we continue to work on our [“AppCenter for Everyone”](/appcenter-for-ever
 <figcaption>Redesigned payment dialog</figcaption>
 </figure>
 
-Finally, we've been putting a lot of work into the first run experience, especially with regards to apps from third-party stores like Flathub since we know many of you are sideloading. For example, apps from freshly-added remotes now show in AppCenter without needing to restart your device. We've also added a reminder about Sideload when searching returns no results with the same language that is used in the Welcome app and a link that will open Flathub.org with your search terms. We now ensure that apps predictably default to installing per-user when selected from the home page, and both AppCenter and Sideload can now use system-wide installed app runtimes for per-user app installs; as a result, the first time you install a new app should now be an even faster, smaller download. And if you've had trouble with device drivers that rely on DKMS, AppCenter will now automatically pull in the required Linux kernel headers when installing them.
+Finally, we've been putting a lot of work into the first run experience, especially with regards to apps from third-party stores like Flathub since we know many of you are sideloading. For example, apps from freshly-added remotes now show in AppCenter without needing to restart your device. We've also added a reminder about Sideload when searching returns no results with the same language that is used in the Welcome app and a link that will open Flathub.org with your search terms—helping address the feedback around discoverability of non-curated apps while keeping clearer expectations. We also now ensure that apps default to install per-user instead of system-wide when selected from the home page, and both AppCenter and Sideload can now use system-wide installed app runtimes for per-user app installs; as a result, the first time you install a new app should now be an even faster, smaller download. And if you've had trouble with device drivers that rely on DKMS, AppCenter will now automatically pull in the required Linux kernel headers when installing them.
 
 <figure>
   <picture>
@@ -126,9 +126,9 @@ For OS 6.1, we focused on improving and polishing the experience across the enti
 
 ### Quick Window Switching
 
-Possibly the most obvious update to our window manager is the redesigned <kbd>Alt</kbd><kbd>Tab</kbd> quick window switcher.
+Possibly the most obvious update to our window manager is the redesigned <kbd>Alt</kbd><kbd>Tab</kbd> quick window switcher—a direct result of lots of user feedback and testing.
 
-Previously, quick window switching re-used the dock to show which app windows you'd switch between, and dimmed out the rest of the desktop to highlight just the newly-focused window. However, over time and based on a lot of real world feedback, we found that looking down at the dock—or even across physical space to the primary display in the case of multi-display users—was less intuitive and overloaded the dock's purpose. Dimming the desktop and visually focusing windows also meant a lot of flashing if you switched quickly which was inelegant at best, and could be an accessibility issue for people with certain types of photo-sensitivity. Thanks to [Aral Balkan](https://ar.al/2021/11/08/my-three-month-long-elementary-os-6-upgrade-adventure-in-three-parts-part-1-catts/), we kicked off a project to rework quick window switching—and the initial work has been released this month!
+Previously, quick window switching re-used the dock to show which app windows you'd switch between, and dimmed out the rest of the desktop to highlight just the newly-focused window. However, we heard from several users that looking down at the dock (sometimes physically far away on large displays or multi-display setups) was less intuitive and overloaded the dock's purpose—and we agreed. Dimming the desktop and visually focusing windows also meant a lot of flashing if you switched quickly which was inelegant at best, and could be an accessibility issue for people with certain types of photo-sensitivity. So in OS 6.1, we're shipping a new, simpler window switcher that's less intrusive to your workflow.
 
 <figure class="half" markdown="1">
 ![Old](/images/elementary-os-6-odin-updates-november-2021/gala-old.gif)
@@ -138,7 +138,7 @@ Previously, quick window switching re-used the dock to show which app windows yo
 </figcaption>
 </figure>
 
-The new window switcher always shows centered on current display, making it much more likely to be near your gaze. It also features bigger icons, helping you more quickly identify apps. It includes window titles, helping to differentiate between multiple windows from the same app. We also ensured the new design helps you keep your context—and no longer flashes the screen. As a bonus, it follows both the dark style preference and your selected accent color, making your elementary OS installation feel even more personal.
+The new window switcher always shows centered on current display, making it much more likely to be near your gaze. It also features bigger icons, helping you more quickly identify apps. It introduces window titles, helping to quickly differentiate between multiple windows from the same app without the visual overload and screen flashing. As a bonus, it follows both the dark style preference and your selected accent color, making your elementary OS installation feel even more personal.
 
 ### Dialogs
 
@@ -184,18 +184,18 @@ As before, this dark style preference is still opt-in for developers, which mean
 
 ### Applications Menu
 
-Now you can search right from the Applications Menu for bookmarked folders and locations like Downloads, Pictures, or even network shares. And following cross-desktop standards, this feature will work with whatever your default file manager is—whether or not it's the default elementary Files app. We've also improved search results for Settings so that terms like "mouse speed" return "Mouse & Touchpad → Mouse → Pointer Speed", making it easier to find settings without knowing their exact names.
+We've heard that you want to search more than just your apps, so now you can search for bookmarked folders and locations like Downloads, Pictures, or even network shares right from the Applications Menu. And following cross-desktop standards, this feature will work with whatever your default file manager is—whether or not it's the default elementary Files app. We've also improved search results for Settings so that terms like "mouse speed" return "Mouse & Touchpad → Mouse → Pointer Speed", making it easier to find settings without knowing their exact names.
 
 <figure class="card" markdown="1">
 ![Bookmark search in Applications Menu](/images/elementary-os-6-odin-updates-november-2021/bookmark-search.png){: width="888" height="689"}
 <figcaption>Bookmark search in the Applications Menu</figcaption>
 </figure>
 
-The Applications Menu now shows a secondary-click menu on search result items, and we added support for launching apps on dedicated graphics on hybrid graphics systems (e.g. NVIDIA Optimus). Lastly, we've reworked the way the Applications Menu watches for changes in installed apps, so it should be more responsive about showing freshly installed-apps without a restart.
+The Applications Menu now shows a secondary-click menu on search result items, and we've expanded hardware integration with support for launching apps on dedicated graphics on hybrid graphics systems (e.g. NVIDIA Optimus). Lastly, we've reworked the way the Applications Menu watches for changes in installed apps, so it should be more responsive about showing freshly installed-apps without a restart.
 
 ### Installer & Initial Setup
 
-A couple of nice fixes landed in the Installer and Initial Setup that make it easier to set the name of your device. We now double check at install time that the default generated hostname is valid and you can change it to something you like more during initial setup. A formatted name like "Cassidy's StarBook" will be shown when possible—like in System Settings—and will automatically fall back to something more machine friendly like "Cassidys-StarBook" in places like Terminal.
+A couple of nice fixes landed in the Installer and Initial Setup that make it easier to set the name of your device—helpful both for end users and OEMs. We now double check at install time that the default generated hostname is valid and you can change it to something you like more during initial setup. A formatted name like "Cassidy's StarBook" will be shown when possible—like in System Settings—and will automatically fall back to something more machine friendly like "Cassidys-StarBook" in places like Terminal.
 
 <figure>
   <picture>
@@ -222,7 +222,7 @@ We improved Housekeeping with the addition of Downloads to the options, and a mo
 
 ### More Updates and Fixes
 
-Along with all of the features above, there are several more minor updates across the desktop in OS 6.1. You can now stash the picture-in-picture window by pushing it off an edge of the screen, making it easier to get at whatever was under the window. We isolated the workspace "nudge" animation (when trying to navigate past the last workspace) to only show on the primary display, and we improved that nudge animation to work with the mouse wheel in addition to touchpads, touchscreens, and the keyboard. We redesigned the app icon for the Document Viewer, and PDF file type icons to match. On the Login & Lock screen, we now use the user's selected accent color for the logged-in checkmark for an additional splash of accent color. The Power indicator includes a number of improvements such as showing the screen brightness level when scrolled, better matching the scroll behavior of other indicators, automatically showing the battery percentage when it's low, and showing "Fully Charged" when at 100% and plugged in. The Captive Network Assistant also gained a new icon and is now shipped as a Flatpak for greater security.Plus we fixed a number of other smaller issues that were reported.
+Along with all of the features above, there are several more minor updates across the desktop in OS 6.1, fueled in large part by the feedback of OS 6 users. You can now stash the picture-in-picture window by pushing it off an edge of the screen, making it easier to get at whatever was under the window. We isolated the workspace "nudge" animation (when trying to navigate past the last workspace) to only show on the primary display, and we improved that nudge animation to work with the mouse wheel in addition to touchpads, touchscreens, and the keyboard. We redesigned the app icon for the Document Viewer, and PDF file type icons to match. On the Login & Lock screen, we now use the user's selected accent color for the logged-in checkmark for an additional splash of accent color. The Power indicator includes a number of improvements such as showing the screen brightness level when scrolled, better matching the scroll behavior of other indicators, automatically showing the battery percentage when it's low, and showing "Fully Charged" when at 100% and plugged in. The Captive Network Assistant also gained a new icon and is now shipped as a Flatpak for greater security.Plus we fixed a number of other smaller issues that were reported.
 
 ## System Settings
 
