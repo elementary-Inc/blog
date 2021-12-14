@@ -326,22 +326,6 @@ The preferences dialog itself has been redesigned and now includes search. Manag
 
 The new tab bar includes slick animations when opening, closing, and reordering tabs. Drag and Drop is much improved. When there are many open tabs, they can now be scrolled through quickly instead of individually paged with arrows. Closing tabs waits to resize like elementary apps. And the new tab bar fully supports touch screens. For a deep dive into the new tab bar, check out [Alex's blog post](https://blogs.gnome.org/alexm/2021/03/13/reinventing-tabs/)
 
-## Camera
-
-Previously, Camera's resolution had been reduced for performance reasons; in the latest version Camera will continue to use a more performant resolution in the preview, but will save full-resolution pictures. We fixed saving and restoring the window size. We resolved issues with some cameras being unavailable when multiple cameras are connected, and we now default to a working camera if multiple cameras are connected but one is unavailable.
-
-## Photos
-
-Now when you open a photo in the previewer, we focus the photo itself instead of the save button; this enables navigating with the left and right arrow keys right away. The actions for "Toggle Sidebar" and "Toggle Photo Info" have been moved from the secondary-click menu of certain views to the main menu button, hopefully making these customization options more discoverable. We also fixed a potential crash when importing photos with invalid date and time info and we fixed "rubberband" selection styling.
-
-## Calculator
-
-When Calculator starts up, we now focus the main text entry so that entering numbers with the keyboard works right away. We've also improved the experience with multiple windows: there's now a "New Window" action when secondary-clicking Calculator in the Applications Menu or Dock, and we fixed an issue with showing advanced controls so that it only affects the currently focused window. Lastly, we now show the correct window title in the Multitasking View.
-
-## Videos
-
-Videos now supports the two-finger-swipe to go back gesture and navigation code has been cleaned up a ton. Window titles should be more accurate when navigating. Also, we're now shipping Videos as a Flatpak which should resolve some reported issues with certain video codecs.
-
 ## Files
 
 Files received quite a lot of attention around bookmarks, selecting files and folders, networking, and more.
@@ -352,11 +336,17 @@ You can now drag-to-select a group of files, hold <kbd>Ctrl</kbd>, and drag to s
 
 Audio files now correctly fall back to a placeholder icon when album art can't be loaded, and color tags no longer disappear when thumbnails are hidden. Files will more reliably restore tabs after a system restart. The "Connect to Server" dialog now allows blank passwords for remote connections, e.g. for connecting to an SSH server via a private key instead of a password. We better handle displaying permissions for files and folders on network shares. Files and folders managed with Git have improved emblems. And, Files now uses the Send Mail portal for emailing files, which should open compatibility up to more third-party email clients and work better across other desktops.
 
-## Code
+## And Other Apps
 
-We now distinguish between projects with the same name in the sidebar by including their parent folder. We now hide the project chooser button when hiding the sidebar, allowing a smaller minimum window width. We also better ensure files created from the sidebar are automatically opened, and fixed a potential crash when creating new window by dragging and dropping a tab. When searching an entire project or a folder, the search dialog now appears centered over the main window. And when scrolling to search results, we overshoot the result slightly for better visibility.
+Previously, Camera's resolution had been reduced for performance reasons; in the latest version Camera will continue to use a more performant resolution in the preview, but will save full-resolution pictures. We resolved issues with some cameras being unavailable when multiple cameras are connected, and we now default to a working camera if multiple cameras are connected but one is unavailable.
 
-If you use the Terminal extension, we fixed the visibility of Terminal button on Welcome page, fixed some keyboard shortcuts affecting unfocused document instead of focused Terminal, ensure the Terminal is closed if shell exited, and create a new Terminal if it's re-opened with no shell. We also made the "visible whitespace" setting simpler and more clear with a switch instead of a drop-down. And we're now using the File Chooser portal in Code; as a result, opening files and folders from within Code will benefit from the recent improvements in the portal, and will be more consistent with Flatpak apps
+Now when you open a photo in the previewer, we focus the photo itself instead of the save button; this enables navigating with the left and right arrow keys right away. The actions for "Toggle Sidebar" and "Toggle Photo Info" have been moved from the secondary-click menu of certain views to the main menu button, hopefully making these customization options more discoverable.
+
+When Calculator starts up, we now focus the main text entry so that entering numbers with the keyboard works right away. We've also improved the experience with multiple windows: there's now a "New Window" action when secondary-clicking Calculator in the Applications Menu or Dock, and we fixed an issue with showing advanced controls so that it only affects the currently focused window.
+
+Videos now supports the two-finger-swipe to go back gesture and navigation code has been cleaned up a ton. Also, we're now shipping Videos as a Flatpak which should resolve some reported issues with certain video codecs.
+
+In Code, we now distinguish between projects with the same name in the sidebar by including their parent folder. We now hide the project chooser button when hiding the sidebar, allowing a smaller minimum window width. We also better ensure files created from the sidebar are automatically opened. And when scrolling to search results, we overshoot the result slightly for better visibility. If you use the Terminal extension, we fixed the visibility of Terminal button on Welcome page, fixed some keyboard shortcuts affecting unfocused document instead of focused Terminal, ensure the Terminal is closed if shell exited, and create a new Terminal if it's re-opened with no shell.
 
 ## Developer Platform
 
