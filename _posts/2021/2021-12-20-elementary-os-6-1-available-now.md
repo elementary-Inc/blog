@@ -8,7 +8,7 @@ tags:
   - jolnir
   - release
 
-hidden: 2021-12-20 16:00:00 UTC # 10 AM MDT
+hidden: 2021-12-20 17:00:00 UTC # 10 AM MST
 
 ---
 
