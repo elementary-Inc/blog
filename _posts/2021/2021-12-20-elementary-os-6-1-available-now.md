@@ -8,6 +8,12 @@ tags:
   - jolnir
   - release
 
+sponsor:
+  name: Laptop with Linux
+  link: https://laptopwithlinux.com/
+  image: /images/sponsors/laptop-with-linux.svg
+  hook: "Laptop with Linux offers laptops and desktops that are perfectly tuned and optimized for use with various Linux® based operating systems, and aims to make it accessible for every computer user to switch to Linux by increasing freedom of choice."
+
 hidden: 2021-12-20 17:00:00 UTC # 10 AM MST
 
 ---
@@ -231,7 +237,7 @@ One of the most obvious places your feedback has shaped new OS features is in Sy
 ### Displays & Scaling
 
 In Display settings, we've fixed an issue that caused the "Use this display" switch to fail in certain multi-display setups. Changing display resolution should be quite a bit more convenient now since we now show resolutions with a different aspect ratio in a separate sub-menu. We've also tweaked the style of Displays settings to be slightly lower contrast in the dark style, and we fixed an issue that prevented display name tags from appearing on all workspaces.
- 
+
  <figure>
   <picture>
     <source srcset="/images/elementary-os-6-odin-updates-october-2021/displays-dark.png" media="(prefers-color-scheme: dark)">
@@ -378,9 +384,7 @@ elementary OS 6.1 Jólnir is available as a pay-what-you-can purchase at [elemen
 
 We've been working with our [hardware retailers](https://store.elementary.io/) to ensure they're able to offer elementary OS 6.1 out of the box as soon as possible; visit retailers' individual sites for more information.
 
-Thanks to upstream developers working on Ubuntu, we're now shipping a fix for an issue that prevented some computers from being able to boot, including Dell devices with UEFI and some other models. If you weren't able to boot the initial release of OS 6, give it another shot! If you were able to get OS 6 installed, you're not affected by this issue and you don't need to re-install. This latest build inherits all the other great hardware compatibility improvements included in Ubuntu 20.04.3 release as well. Thanks Ubuntu!
-
----
+Thanks to upstream developers working on Ubuntu, we're now shipping a fix for an issue that prevented some computers from being able to boot, including Dell devices with UEFI and some other models. If you weren't able to boot the initial release of OS 6, give it another shot! If you were able to get OS 6 installed, you're not affected by this issue and you don't need to re-install. This latest build inherits all the other great hardware compatibility improvements included in Ubuntu 20.04.3 release as well. Thanks, Ubuntu!
 
 [elementary.io]: https://elementary.io
 [updates]: {{ site.baseurl }}/tags/#updates
