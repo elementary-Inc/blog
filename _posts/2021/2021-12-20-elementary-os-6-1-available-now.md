@@ -8,6 +8,14 @@ tags:
   - jolnir
   - release
 
+sponsor:
+  name: Laptop with Linux
+  link: https://laptopwithlinux.com/
+  image: 
+  image-2x: 
+  hook: "Laptop with Linux offers laptops and desktops that are perfectly tuned and optimized for use with various Linux® based operating systems and aims to make it accessible for every computer user to switch to Linux by increasing freedom of choice."
+
+
 hidden: 2021-12-20 17:00:00 UTC # 10 AM MST
 
 ---
