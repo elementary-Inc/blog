@@ -232,7 +232,7 @@ Along with all of the features above, there are several more minor updates acros
 <figcaption>The new OS 6.1 Jólnir wallpaper</figcaption>
 </figure>
 
-We also switched the default wallpaper over to the dark variant of the OS 6 wallpaper designed in partnership with the creative agency [Freehive](https://freehive.com/) and photographer [Brendon Porter](https://brendonporter.com/), released under the [Creative Commons BY-SA 4.0 license](http://creativecommons.org/licenses/by-sa/4.0/). If you're coming from OS 6 and have not changed the default wallpaper, you'll automatically be switched ove—but both light and dark versions remain available in _System Settings_ → _Desktop_ → _Wallpaper_.
+We also switched the default wallpaper over to the dark variant of the OS 6 wallpaper designed in partnership with the creative agency [Freehive](https://freehive.com/) and photographer [Brendon Porter](https://brendonporter.com/), released under the [Creative Commons BY-SA 4.0 license](http://creativecommons.org/licenses/by-sa/4.0/). If you're coming from OS 6 and have not changed the default wallpaper, you'll automatically be switched over—but both light and dark versions remain available in _System Settings_ → _Desktop_ → _Wallpaper_.
 
 ## System Settings
 
