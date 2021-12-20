@@ -21,7 +21,7 @@ hidden: 2021-12-20 17:00:00 UTC # 10 AM MST
 Just over four months ago we [announced elementary OS 6 Odin](/elementary-os-6-odin-released) with new ways to be in control and express yourself, a slew of innovative new features, and a focus on gettability and inclusivity. So far, OS 6 has been downloaded from our website [over 250,000 times](https://plausible.io/elementary.io?period=custom&goal=Download&from=2021-08-10&to=2021-12-20&props=%7B%22Version%22%3A%226%22%7D)—and as always, that's not including downloads from third parties or direct downloads via torrent that bypass our download page!
 
 <figure class="constrained" markdown="1">
-![elementary OS 6.1 Jólnir](/images/{{ page.slug }}/starbook.png)
+![elementary OS 6.1 Jólnir on a StarBook laptop](/images/{{ page.slug }}/starbook.png)
 </figure>
 
 Today we're proud to announce that OS 6.1 Jólnir is available to download now for new users, as an easy upgrade for existing users, and shipping on several high-quality computers. With OS 6.1, we've focused in on:
@@ -228,7 +228,14 @@ We improved Housekeeping with the addition of Downloads to the options, and a mo
 
 ### More Updates and Fixes
 
-Along with all of the features above, there are several more minor updates across the desktop in OS 6.1, fueled in large part by the feedback of OS 6 users. You can now stash the picture-in-picture window by pushing it off an edge of the screen, making it easier to get at whatever was under the window. We isolated the workspace "nudge" animation (when trying to navigate past the last workspace) to only show on the primary display, and we improved that nudge animation to work with the mouse wheel in addition to touchpads, touchscreens, and the keyboard. We redesigned the app icon for the Document Viewer, and PDF file type icons to match. On the Login & Lock screen, we now use the user's selected accent color for the logged-in checkmark for an additional splash of accent color. The Power indicator includes a number of improvements such as showing the screen brightness level when scrolled, better matching the scroll behavior of other indicators, automatically showing the battery percentage when it's low, and showing "Fully Charged" when at 100% and plugged in. The Captive Network Assistant also gained a new icon and is now shipped as a Flatpak for greater security.Plus we fixed a number of other smaller issues that were reported.
+Along with all of the features above, there are several more minor updates across the desktop in OS 6.1, fueled in large part by the feedback of OS 6 users. You can now stash the picture-in-picture window by pushing it off an edge of the screen, making it easier to get at whatever was under the window. We isolated the workspace "nudge" animation (when trying to navigate past the last workspace) to only show on the primary display, and we improved that nudge animation to work with the mouse wheel in addition to touchpads, touchscreens, and the keyboard. We redesigned the app icon for the Document Viewer, and PDF file type icons to match. On the Login & Lock screen, we now use the user's selected accent color for the logged-in checkmark for an additional splash of accent color. The Power indicator includes a number of improvements such as showing the screen brightness level when scrolled, better matching the scroll behavior of other indicators, automatically showing the battery percentage when it's low, and showing "Fully Charged" when at 100% and plugged in. The Captive Network Assistant also gained a new icon and is now shipped as a Flatpak for greater security. Plus, we fixed a number of other smaller issues that were reported.
+
+<figure class="constrained" markdown="1">
+![elementary OS 6.1 Jólnir on a StarBook laptop](/images/{{ page.slug }}/starbook.png)
+<figcaption>The new OS 6.1 Jólnir wallpaper</figcaption>
+</figure>
+
+We also switched the default wallpaper over to the dark variant of the OS 6 wallpaper designed in partnership with the creative agency [Freehive](https://freehive.com/) and photographer [Brendon Porter](https://brendonporter.com/), released under the [Creative Commons BY-SA 4.0 license](http://creativecommons.org/licenses/by-sa/4.0/). If you're coming from OS 6 and have not changed the default wallpaper, you'll automatically be switched ove—but both light and dark versions remain available in _System Settings_ → _Desktop_ → _Wallpaper_.
 
 ## System Settings
 
