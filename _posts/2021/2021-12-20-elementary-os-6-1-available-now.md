@@ -13,8 +13,6 @@ sponsor:
   link: https://laptopwithlinux.com/
   image: /images/sponsors/laptop-with-linux.svg
   hook: "Laptop with Linux offers laptops and desktops that are perfectly tuned and optimized for use with various Linux® based operating systems, and aims to make it accessible for every computer user to switch to Linux by increasing freedom of choice."
-
-soon: true # remove this line when the site is deployed
 ---
 
 Just over four months ago we [announced elementary OS 6 Odin](/elementary-os-6-odin-released) with new ways to be in control and express yourself, a slew of innovative new features, and a focus on gettability and inclusivity. So far, OS 6 has been downloaded from our website [over 250,000 times](https://plausible.io/elementary.io?period=custom&goal=Download&from=2021-08-10&to=2021-12-20&props=%7B%22Version%22%3A%226%22%7D)—and as always, that's not including downloads from third parties or direct downloads via torrent that bypass our download page!
@@ -376,11 +374,7 @@ We also [published the first](https://github.com/elementary/flatpak-platform/rel
 
 ## Get elementary OS 6.1
 
-{% if page.soon %}
-elementary OS 6.1 Jólnir will be available as a pay-what-you-can purchase at [elementary.io] soon. Localized direct downloads and a torrent magnet link will be provided.
-{% else %}
 elementary OS 6.1 Jólnir is available as a pay-what-you-can purchase at [elementary.io] today. Localized direct downloads and a torrent magnet link are provided.
-{% endif %}
 
 <div style="margin: 3em auto; text-align: center" markdown="1">
 [Download elementary OS 6.1][elementary.io]{: .button.suggested }
