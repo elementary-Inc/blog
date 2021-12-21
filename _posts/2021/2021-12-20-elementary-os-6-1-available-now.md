@@ -93,10 +93,10 @@ As part of our effort to make AppCenter a better experience on small displays an
     <source srcset="/images/elementary-os-6-odin-updates-october-2021/appcenter-dark.png" media="(prefers-color-scheme: dark)">
     <img alt="AppCenter" src="/images/elementary-os-6-odin-updates-october-2021/appcenter-light.png" width="1020" height="667" />
   </picture>
-<figcaption>Progress is now shown in a small progressbar seen top right</figcaption>
+<figcaption>Progress is now shown in a small progress bar seen top right</figcaption>
 </figure>
 
-As we continue to work on our [“AppCenter for Everyone”](/appcenter-for-everyone) campaign, we've reworked the Install button to ease into the future flow that will use a Flatpak authenticator to handle purchases; rather than having a dropdown arrow with a popover to change the price, we're now more clear about how "Pay What You Can" works and include changing the amount to pay in the payment dialog itself—and validated entries now show a green check and invalid ones show a red error so it's much clearer when card info has been entered incorrectly. And since we use this same widget on the home page, on app info pages, and in lists of apps, it's consistent everywhere.
+As we continue to work on our [“AppCenter for Everyone”](/appcenter-for-everyone) campaign, we've reworked the Install button to ease into the future flow that will use a Flatpak authenticator to handle purchases; rather than having a drop-down arrow with a popover to change the price, we're now more clear about how "Pay What You Can" works and include changing the amount to pay in the payment dialog itself—and validated entries now show a green check and invalid ones show a red error so it's much clearer when card info has been entered incorrectly. And since we use this same widget on the home page, on app info pages, and in lists of apps, it's consistent everywhere.
 
 <figure markdown="1">
 ![AppCenter payment dialog](/images/elementary-os-6-odin-updates-september-2021/stripe-dialog.png){: width="568" height="379"}
@@ -225,7 +225,7 @@ We improved Housekeeping with the addition of Downloads to the options, and a mo
 
 ### More Updates and Fixes
 
-Along with all of the features above, there are several more minor updates across the desktop in OS 6.1, fueled in large part by the feedback of OS 6 users. You can now stash the picture-in-picture window by pushing it off an edge of the screen, making it easier to get at whatever was under the window. We isolated the workspace "nudge" animation (when trying to navigate past the last workspace) to only show on the primary display, and we improved that nudge animation to work with the mouse wheel in addition to touchpads, touchscreens, and the keyboard. We redesigned the app icon for the Document Viewer, and PDF file type icons to match. On the Login & Lock screen, we now use the user's selected accent color for the logged-in checkmark for an additional splash of accent color. The Power indicator includes a number of improvements such as showing the screen brightness level when scrolled, better matching the scroll behavior of other indicators, automatically showing the battery percentage when it's low, and showing "Fully Charged" when at 100% and plugged in. The Captive Network Assistant also gained a new icon and is now shipped as a Flatpak for greater security. Plus, we fixed a number of other smaller issues that were reported.
+Along with all of the features above, there are several more minor updates across the desktop in OS 6.1, fueled in large part by the feedback of OS 6 users. You can now stash the picture-in-picture window by pushing it off an edge of the screen, making it easier to get at whatever was under the window. We isolated the workspace "nudge" animation (when trying to navigate past the last workspace) to only show on the primary display, and we improved that nudge animation to work with the mouse wheel in addition to touchpads, touchscreens, and the keyboard. We redesigned the app icon for the Document Viewer, and PDF file type icons to match. On the Login & Lock screen, we now use the user's selected accent color for the logged-in check mark for an additional splash of accent color. The Power indicator includes a number of improvements such as showing the screen brightness level when scrolled, better matching the scroll behavior of other indicators, automatically showing the battery percentage when it's low, and showing "Fully Charged" when at 100% and plugged in. The Captive Network Assistant also gained a new icon and is now shipped as a Flatpak for greater security. Plus, we fixed a number of other smaller issues that were reported.
 
 <figure class="constrained" markdown="1">
 ![elementary OS 6.1 Jólnir on a StarBook laptop](/images/{{ page.slug }}/starbook.png)
@@ -332,7 +332,7 @@ We've greatly improved Calendar's reliability with regards to sending notificati
 
 We made the leap from Web 3.38 to 41 which brings quite a number of improvements including a redesigned tab bar, several performance and stability fixes, and of course rounded window corners!
 
-The preferences dialog itself has been redesigned and now includes search. Managing search engines and passwords have been completely redesigned. A setting to disallow local storage is now included, and there's a new optional Google search suggestions feature that is off by default. Appearance settings now include the ability to add custom JavaScript. Fans of Firefox sync should note that this feature has moved from the preferences dialog to a toplevel item in the main menu.
+The preferences dialog itself has been redesigned and now includes search. Managing search engines and passwords have been completely redesigned. A setting to disallow local storage is now included, and there's a new optional Google search suggestions feature that is off by default. Appearance settings now include the ability to add custom JavaScript. Fans of Firefox sync should note that this feature has moved from the preferences dialog to a top-level item in the main menu.
 
 The new tab bar includes slick animations when opening, closing, and reordering tabs. Drag and Drop is much improved. When there are many open tabs, they can now be scrolled through quickly instead of individually paged with arrows. Closing tabs waits to resize like elementary apps. And the new tab bar fully supports touch screens. For a deep dive into the new tab bar, check out [Alex's blog post](https://blogs.gnome.org/alexm/2021/03/13/reinventing-tabs/)
 
@@ -362,11 +362,11 @@ In Code, we now distinguish between projects with the same name in the sidebar b
 
 In tandem with our work on portals, we've released several updates to our Flatpak platform and development libraries.
 
-Granite was updated to use the Settings portal for retrieving the FreeDesktop dark style preference, and now contains several fallback methods to try to determine if a dark style is being requested when apps are running on a platform where the Settings portal isn't available. Since there was no API break, there's no additional work needed from developers to support the new standard. However, now that the portal is available, we're adivising developers to drop the sandbox hole for AccountsService in their Flatpak manifest for improved security. The new version of Granite also automatically uses the Settings portal for a couple other things like date and time settings. This fixes an issue with time picker widgets not respecting AM/PM vs 24-hour time format preferences, for example. We also added a new Granite widget `HyperTextView` to support navigable URLs in text views, and `Granite.ValidatedEntry` now has a `min_length` property.
+Granite was updated to use the Settings portal for retrieving the FreeDesktop dark style preference, and now contains several fallback methods to try to determine if a dark style is being requested when apps are running on a platform where the Settings portal isn't available. Since there was no API break, there's no additional work needed from developers to support the new standard. However, now that the portal is available, we're advising developers to drop the sandbox hole for AccountsService in their Flatpak manifest for improved security. The new version of Granite also automatically uses the Settings portal for a couple other things like date and time settings. This fixes an issue with time picker widgets not respecting AM/PM vs 24-hour time format preferences, for example. We also added a new Granite widget `HyperTextView` to support navigable URLs in text views, and `Granite.ValidatedEntry` now has a `min_length` property.
 
-Our system stylesheet was updated with support for the Tabbar widget in LibHandy, which we previously mentioned is now used in Web but is available for other developers to use as well. We also made sure that HeaderBars with the `flat` style class inherit the background color of their containers, which makes it easier to implement split headerbar designs in apps like Tasks. and Our system icon set now includes more sizes for icons like `emblem-downloads` and `playlist-queue`.
+Our system stylesheet was updated with support for the tab bar widget in LibHandy, which we previously mentioned is now used in Web but is available for other developers to use as well. We also made sure that header bars with the `flat` style class inherit the background color of their containers, which makes it easier to implement split header bar designs in apps like Tasks. and Our system icon set now includes more sizes for icons like `emblem-downloads` and `playlist-queue`.
 
-The latest release of the `6` series Flatpak platform contains all of these fixes, plus newer versions of other libraries like WebKit to keep apps secure, stable, and performant. We now include the FreeDesktop sound theme and elementary's sound theme in the platform for apps that want to use audio feedback for actions. And as alluded to before, we publish 64-bit ARM versions of our platform to support those builds for AppCenter.
+The latest release of the `6` series Flatpak platform contains all of these fixes, plus newer versions of other libraries like WebKit to keep apps secure, stable, and performant. We now include the FreeDesktop sound theme and the elementary sound theme in the platform for apps that want to use audio feedback for actions. And as alluded to before, we publish 64-bit ARM versions of our platform to support those builds for AppCenter.
 
 We also [published the first](https://github.com/elementary/flatpak-platform/releases/tag/6.1.0) version of the `6.1` series Flatpak platform, built on top of the GNOME 41 platform. This platform contains even new libraries than are available from the Ubuntu repos as well as a fix that makes sure apps built with the 6.1 runtime will use the Blueberry stylesheet from OS 6 when running on OS 5. Developers will have to manually opt-in to this update since it is API-breaking in some cases.
 
@@ -377,14 +377,25 @@ We also [published the first](https://github.com/elementary/flatpak-platform/rel
 elementary OS 6.1 Jólnir is available as a pay-what-you-can purchase at [elementary.io] today. Localized direct downloads and a torrent magnet link are provided.
 
 <div style="margin: 3em auto; text-align: center" markdown="1">
+[OS 6.1 FAQ](https://github.com/elementary/os/wiki/elementary-OS-6.1-Jólnir-FAQ){: .button.flat }
 [Download elementary OS 6.1][elementary.io]{: .button.suggested }
 </div>
 
+If you’re already on elementary OS 6 Odin, you’ll get the update to OS 6.1 Jólnir alongside regular operating system updates. If you haven't already, open AppCenter and select _Update All_ to be upgraded.
+
 ### Devices
 
-We've been working with our [hardware retailers](https://store.elementary.io/) to ensure they're able to offer elementary OS 6.1 out of the box as soon as possible; visit retailers' individual sites for more information.
+Our hardware retailers [Laptop with Linux], [Slimbook], and [Star Labs] are all offering elementary OS 6.1 Jólnir out of the box starting today. Visit retailers' individual sites for more information.
+
+<div style="margin: 3em auto; text-align: center" markdown="1">
+[Shop Devices][store]{: .button }
+</div>
 
 Thanks to upstream developers working on Ubuntu, we're now shipping a fix for an issue that prevented some computers from being able to boot, including Dell devices with UEFI and some other models. If you weren't able to boot the initial release of OS 6, give it another shot! If you were able to get OS 6 installed, you're not affected by this issue and you don't need to re-install. This latest build inherits all the other great hardware compatibility improvements included in Ubuntu 20.04.3 release as well. Thanks, Ubuntu!
 
 [elementary.io]: https://elementary.io
 [updates]: {{ site.baseurl }}/tags/#updates
+[Laptop with Linux]: https://laptopwithlinux.com/?ref=36&utm_source=referral&utm_medium=elementary&utm_campaign=elementary
+[Slimbook]: https://slimbook.es/?utm_source=referral&utm_medium=elementary&utm_campaign=elementary
+[Star Labs]: https://starlabs.systems/?rfsn=4227837.e8f025
+[store]: https://store.elementary.io/
