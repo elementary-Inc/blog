@@ -376,7 +376,7 @@ We also [published the first](https://github.com/elementary/flatpak-platform/rel
 
 elementary OS 6.1 Jólnir is available as a pay-what-you-can purchase at [elementary.io] today. Localized direct downloads and a torrent magnet link are provided.
 
-<div style="margin: 3em auto; text-align: center" markdown="1">
+<div style="text-align: center" markdown="1">
 [OS 6.1 FAQ](https://github.com/elementary/os/wiki/elementary-OS-6.1-Jólnir-FAQ){: .button.flat }
 [Download elementary OS 6.1][elementary.io]{: .button.suggested }
 </div>
@@ -387,7 +387,7 @@ If you’re already on elementary OS 6 Odin, you’ll get the update to OS 6.1 J
 
 Our hardware retailers [Laptop with Linux], [Slimbook], and [Star Labs] are all offering elementary OS 6.1 Jólnir out of the box starting today. Visit retailers' individual sites for more information.
 
-<div style="margin: 3em auto; text-align: center" markdown="1">
+<div style="text-align: center" markdown="1">
 [Shop Devices][store]{: .button }
 </div>
 
