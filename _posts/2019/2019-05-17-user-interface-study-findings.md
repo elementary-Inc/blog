@@ -1,9 +1,10 @@
 ---
-title: User Interface Study Findings
+title: 2019 UI Study Findings
 description: 'Regarding Custom Styles, Dark Modes, and Night Light'
 date: '2019-05-17T03:17:09.181Z'
 author: cassidyjames
 tags:
+  - ui-study
   - ux
   - dark-style
   - evergreen
