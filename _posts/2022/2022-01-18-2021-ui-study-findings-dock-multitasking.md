@@ -177,6 +177,69 @@ We wanted to be sure to cover how the dock is used for closing apps, but didn't 
 
 85% responded _a button in the app/on its titlebar_, 23% responded _context menu on the dock/taskbar_, 62% responded _keyboard shortcuts_, 29% responded _multitasking view_. 1% responded _other_ without expanding on the answer.
 
+### App actions
+
+>To jump to a specific section or function of an app \*without opening the app first.\* For example, "New Incognito Window" for a web browser or "Compose Message" for an email client.
+
+As above, we wanted to be sure to cover how the dock specifically is used for app actions, but didn't want to ask leading questions. This first question was used as a filter for the following questions; people who responded "yes" received the follow-up actions-related questions, while anyone who responded "no" or "not sure" skipped the rest of the section.
+
+>**Do you use app actions or shortcuts?**
+>
+>e.g. searching by name or function in the Applications Menu on elementary OS, Spotlight on macOS, search on Windows, etc.
+>
+>- Yes
+>- No
+>- Not sure
+
+54% responded _yes_, 34% responded _no_, and 13% responded _not sure_. As a result, the following questions in this section received 1,595 responses.
+
+<aside markdown="1">
+**Note**: when the study first launched, the logic for skipping the next questions was not working correctly; as such, we received a lot of "N/A" type responses for the next question. The issue was corrected after 136 responses and I don't believe it largely affected the results, but wanted to share for transparency.
+</aside>
+
+>**How do you usually use app actions?**
+>
+>- Search (e.g. searching for actions by name in an app launcher)
+>- Context menu in app launcher (e.g. right-clicking or long-pressing an app icon in the Applications Menu, Start menu, etc.)
+>- Context menu on dock (e.g. right-clicking or long-pressing an app icon on the dock or taskbar)
+>- _Other…_ (free-form response)
+
+41% responded _search_, 53% responded _context menu in app launcher_, 66% responded _context menu on dock_.
+
+We also asked, "Anything else to share about how you use app actions?", and we've been digging through these free-form responses. Some highlights were about them being more used on mobile OSes, that they wish more apps supported them, that they forget this is a feature, and how they work on other OSes.
+
+### Glanceable information
+
+These questions were again to look at how the dock is used, but were written to be non-leading and to include the dock as one of multiple options. Unlike previous questions, these were also select any that apply _without_ a free-form "other" option.
+
+>**Where do you look to check the status of long running tasks?**
+>
+>e.g. the progress of a download
+>
+>- Notifications
+>- Progress bar on the app's dock/taskbar icon
+>- In the app window itself
+
+45% responded _notifications_, 60% responded _progress bar_, and 74% responded _in the app window_. Less than 1% skipped the question.
+
+<!-- TODO: really want to separate out mobile vs desktop users here -->
+
+>**Where do you look to see items that need action in an app?**
+>
+>e.g. outstanding tasks, or new messages
+>
+>- Notifications
+>- Badge on the app's dock/taskbar icon
+>- In the app window itself
+
+67% responded _notifications_, 59% responded _badge_, and 60% responded _in the app window_. Less than 1% skipped the question.
+
+<!-- TODO: really want to separate out mobile vs desktop users here -->
+
+### Anything else?
+
+Lastly, we asked "Anything else to share about the topics of this study?" and asked if we may send follow-up questions or future UI studies to the email address provided.
+
 ## What's Next
 
 We've started using this data to plan for our new Wayland-compatible dock; more on that effort soon!
