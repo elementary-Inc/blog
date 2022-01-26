@@ -189,9 +189,14 @@ This section gets into how respondents multi-task, e.g. switch between apps and 
 >
 >- Other…: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-69% responded _dock or taskbar_, 41% responded _alt+tab or window switching_, 59% responded _multitasking view_. 2% answered _other_ without expanding on the answer. Less than 1% responded with some mention of a task manager or system monitor, while around 2% responded with a mention of system tray icons or app indicators.
+**69%** responded _dock or taskbar_, **41%** responded _alt+tab or window switching_, **59%** responded _multitasking view_. **2%** answered _other_ without expanding on the answer. Less than **1%** responded with some mention of a task manager or system monitor, while around **2%** responded with a mention of system tray icons or app indicators.
 
-<!-- TODO: collate "other", look at elementary-specific responses -->
+<figure>
+  <iframe width="577" height="406" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQnnvwEs6sKvkpHDXQpFK4H1jxzPtdeK8xgq7khTZ_Wdzv5CRCKOC87aDbaMq2ooPwdo-5LwyWVTlYu/pubchart?oid=48982825&amp;format=interactive"></iframe>
+</figure>
+
+The results for frequent or daily users of elementary OS are similar: **75%** responded _dock or taskbar_, **60%** responded _multitasking view_, and **43%** responded _alt+tab_.
+
 
 >#### How do you usually switch between open apps?
 >
