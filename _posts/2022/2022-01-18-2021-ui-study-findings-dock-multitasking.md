@@ -18,7 +18,11 @@ At this point in the study, we have our raw data and have started digging into i
 
 ## Questions & Raw Stats
 
-The study was conducted as a web survey posted to social media and open source forums from December, 2021 through January, 2022. The following questions were presented in these sections and this order:
+The study was conducted as a web survey posted to social media and open source forums from December, 2021 through January, 2022. We asked participants to first identify which desktop and tablet platforms they used (including Android on a tablet, Chrome OS, elementary OS, GNOME, iPadOS, KDE, macOS, Ubuntu, Windows, and other Linux-based desktops), and how often (ranging from never to daily); an initial look at grouping by this data did not reveal substantial differences in the answers (around +/- 5% difference for each option), but we will continue to look into the data to see if any significant patterns emerge. If so, we'll publish an update to these findings.
+
+The following questions were presented in these sections and this order:
+
+---
 
 ### App launching & search
 
@@ -26,7 +30,7 @@ The study was conducted as a web survey posted to social media and open source f
 
 This section had 2,843 responses.
 
->**How often do you click/tap on an app in an app launcher to open your frequently-used apps?**
+>#### How often do you click/tap on an app in an app launcher to open your frequently-used apps?
 >
 >Excluding using search, e.g. clicking an app icon in the Applications Menu on elementary OS, Launchpad on macOS, Start menu on Windows, etc.
 >
@@ -35,15 +39,19 @@ This section had 2,843 responses.
 >- Frequently (approximately weekly)
 >- Daily (multiple times per week)
 
-Of the respondents, 10% responded that they _never_ click or tap on an app in an app launcher to open frequently-used apps. 25% responded _infrequently_, 22% responded _frequently_, and the largest group at 43% responded _daily_. With some simple grouping, we can look at the results in another way:
+Of the respondents, **10%** responded that they _never_ click or tap on an app in an app launcher to open frequently-used apps. **25%** responded _infrequently_, **22%** responded _frequently_, and the largest group at **43%** responded _daily_. With some simple grouping, we can look at the results in another way:
 
-- Over 90% of respondents click/tap on an app in an app launcher to open their frequently-used apps _at least sometimes_.
+- Over **90%** of respondents click/tap on an app in an app launcher to open their frequently-used apps _at least sometimes_.
 
-- Around 65% of respondents frequently or daily click/tap on an app in an app launcher to open their frequently-used apps, while around 35% do so infrequently or not at all.
+- Around **65%** of respondents frequently or daily click/tap on an app in an app launcher to open their frequently-used apps, while around **35%** do so infrequently or not at all.
 
-<!-- TODO: split by traditionally mobile vs. desktop OSes -->
+<figure>
+  <iframe width="554" height="470" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQnnvwEs6sKvkpHDXQpFK4H1jxzPtdeK8xgq7khTZ_Wdzv5CRCKOC87aDbaMq2ooPwdo-5LwyWVTlYu/pubchart?oid=1029877605&amp;format=interactive"></iframe>
+</figure>
 
->**How often do you use search to open your frequently-used apps?**
+When looking at frequent or daily users of elementary OS specifically, the breakdown was very similar: **8%** never, **24%** infrequently, **23%** frequently, and **45%** daily.
+
+>#### How often do you use search to open your frequently-used apps?
 >
 >e.g. searching by name or function in the Applications Menu on elementary OS, Spotlight on macOS, search on Windows, etc.
 >
@@ -52,15 +60,21 @@ Of the respondents, 10% responded that they _never_ click or tap on an app in an
 >- Frequently (approximately weekly)
 >- Daily (multiple times per week)
 
-5% responded _never_, 13% responded _infrequently_, 18% responded _frequently_, and a clear majority at 64% responded _daily_. Similar to above, we can reframe this a bit:
+**5%** responded _never_, **13%** responded _infrequently_, **18%** responded _frequently_, and a clear majority at **64%** responded _daily_. Similar to above, we can reframe this a bit:
 
-- Around 95% of respondents use search to open their frequently-used apps _at least sometimes_.
+- Around **95%** of respondents use search to open their frequently-used apps _at least sometimes_.
 
-- Around 82% of respondents frequently or daily use search to open their frequently-used apps, while around 18% do so infrequently or not at all.
+- Around **82%** of respondents frequently or daily use search to open their frequently-used apps, while around **18%** do so infrequently or not at all.
 
-<!-- TODO: split by traditionally mobile vs. desktop OSes -->
+<figure>
+  <iframe width="554" height="470" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQnnvwEs6sKvkpHDXQpFK4H1jxzPtdeK8xgq7khTZ_Wdzv5CRCKOC87aDbaMq2ooPwdo-5LwyWVTlYu/pubchart?oid=1592818548&amp;format=interactive"></iframe>
+</figure>
+
+When looking at frequent or daily users of elementary OS specifically, the breakdown was similar: **7%** never, **16%** infrequently, **22%** frequently, and **55%** daily.
 
 We also asked, "Anything else to share about how you launch apps and search?", and we've been digging through these free-form responses.
+
+---
 
 ### Dock or taskbar
 
@@ -68,7 +82,7 @@ We also asked, "Anything else to share about how you launch apps and search?", a
 
 This first question was used as a filter for the following questions; people who responded "yes" received the follow-up dock-related questions, while anyone who responded "no" or "not sure" skipped the rest of the section.
 
->**Do you use a dock or taskbar?**
+>#### Do you use a dock or taskbar?
 >
 >e.g. searching by name or function in the Applications Menu on elementary OS, Spotlight on macOS, search on Windows, etc.
 >
@@ -76,85 +90,127 @@ This first question was used as a filter for the following questions; people who
 >- No
 >- Not sure
 
-86% responded _yes_, 13% responded _no_, and 2% responded _not sure_. As a result, the following questions in this section received 2,431 responses.
+**86%** responded _yes_, **13%** responded _no_, and **2%** responded _not sure_. As a result, the following questions in this section received 2,431 responses.
 
->**How often do you use a dock or taskbar to open your frequently-used apps?**
+>#### How often do you use a dock or taskbar to open your frequently-used apps?
 >
 >- Never
 >- Infrequently (less than weekly)
 >- Frequently (approximately weekly)
 >- Daily (multiple times per week)
 
-Of those who use a dock or taskbar, 3% responded they _never_ use it to open their frequently-used apps, 5% responded _infrequently_, 14% responded _frequently_, while the largest group at 79% responded _daily_.
+Of those who use a dock or taskbar, **3%** responded they _never_ use it to open their frequently-used apps, **5%** responded _infrequently_, **14%** responded _frequently_, while the largest group at **79%** responded _daily_. Grouping the responses:
 
->**Do you remove or replace the default items on the dock or taskbar?**
+- **97%** of respondents who use a dock or taskbar use it at least sometimes to open their frequently-used apps
+
+- Around **93%** do so frequently or daily
+
+<figure>
+  <iframe width="554" height="470" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQnnvwEs6sKvkpHDXQpFK4H1jxzPtdeK8xgq7khTZ_Wdzv5CRCKOC87aDbaMq2ooPwdo-5LwyWVTlYu/pubchart?oid=412743824&amp;format=interactive"></iframe>
+</figure>
+
+When looking at frequent or daily users of elementary OS specifically, the breakdown was similar, with a larger skew towards daily users: **1%** never, **3%** infrequently, **11%** frequently, and **85%** daily.
+
+>#### Do you remove or replace the default items on the dock or taskbar?
 >
 >- None
 >- A few (less than half)
 >- Most (half or more)
 >- All
 
-2% responded they remove or replace none of default items on the dock or taskbar. 21% responded they remove or replace _a few_ (less than half), 58% responded they remove or replace _most_ (half or more), and 19% responded they remove or replace _all_ the default items.
+Of those who use a dock or taskbar, **2%** responded they remove or replace _none_ of default items on the dock or taskbar. **21%** responded they remove or replace _a few_ (less than half), **58%** responded they remove or replace _most_ (half or more), and **19%** responded they remove or replace _all_ the default items. Grouping the responses differently:
 
->**Do you add or pin apps you use frequently to the dock or taskbar?**
+- A whopping **98%** of respondents remove or replace at least some items on the dock or taskbar
+
+- Around **76%** of respondents remove or replace half or more of the items
+
+<figure>
+  <iframe width="554" height="470" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQnnvwEs6sKvkpHDXQpFK4H1jxzPtdeK8xgq7khTZ_Wdzv5CRCKOC87aDbaMq2ooPwdo-5LwyWVTlYu/pubchart?oid=481633375&amp;format=interactive"></iframe>
+</figure>
+
+When looking at frequent or daily users of elementary OS specifically, the breakdown was very similar: **2%** none, **23%** a few, **60%** half, **15%** all.
+
+>#### Do you add or pin apps you use frequently to the dock or taskbar?
 >
 >- Yes
 >- No
 
-93% responded _yes_, while 7% responded _no_.
+Of those who use a dock or taskbar, **93%** responded _yes_, they do add or pin apps they use frequently to the dock or taskbar, while **7%** responded _no_, they do not.
 
-These questions lead me to initially believe customization of the dock is important and heavily-used by users, and the vast majority of dock or taskbar users do use it to launch their most common apps—which makes a lot of sense! It _could_ also mean that the default apps on the dock aren't as useful to users, though it's important to remember that the default items also serve as a way to advertise/expose what apps are available on the system—and clearly based on these responses, users aren't hitting substantial issues in replacing them if they want.
+<figure>
+  <iframe width="554" height="470" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQnnvwEs6sKvkpHDXQpFK4H1jxzPtdeK8xgq7khTZ_Wdzv5CRCKOC87aDbaMq2ooPwdo-5LwyWVTlYu/pubchart?oid=1168278515&amp;format=interactive"></iframe>
+</figure>
 
-<!-- TODO: look at elementary OS stats specifically -->
+When looking at frequent or daily users of elementary OS specifically, the breakdown was even more in favor of pinning: **96%** yes, **4%** no.
+
+The responses for this section lead me to initially believe customization of the dock is important and heavily-used by users, and the vast majority of dock or taskbar users do use it to launch their most common apps—which makes a lot of sense! It _could_ also mean that the default apps on the dock aren't as useful to users, though it's important to remember that the default items also serve as a way to advertise/expose what apps are available on the system—and clearly based on these responses, users aren't hitting substantial issues in replacing them if they want.
+
+---
 
 ### Files and folders
 
-Next, we dug into files and folders—especially as they relate to the dock. This section was a select-all-that-apply and had 2,843 responses.
+Next, we dug into files and folders—especially as they relate to the dock. This section was select-all-that-apply and had 2,843 responses.
 
->**How do you typically open files and folders?**
+>#### How do you typically open files and folders?
 >
 >- OS-wide search
+>
 >- File manager app (e.g. Files on elementary OS, Finder on macOS, Explorer on Windows, etc.)
+>
 >- Taskbar or dock (e.g. pinned files or shortcuts)
+>
 >- From inside apps (e.g. opening a document from inside a word processor app)
+>
 >- Files and folders are kept on the desktop'
+>
 >- Other…: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-96% responded _file manager app_, 43% responded _OS-wide search_, 15% responded _taskbar or dock_, 13% responded _desktop_. Of the _other_ responses, many were clarifications about the choices, but we have been able to collate the most popular being 7% of responses mentioning some form of terminal or CLI. 4% answered _other_ without expanding on the answer.
+**96%** responded they typically open files and folders using a _file manager app_, **43%** responded _OS-wide search_, **15%** responded _taskbar or dock_, **13%** responded that their files and folders are kept on the _desktop_. Of the _other_ responses, many were clarifications about the choices, but we have been able to collate the most popular being **7%** of responses mentioning some form of terminal or CLI. **4%** answered _other_ without expanding on the answer.
 
 <!-- TODO: look at elementary OS stats specifically -->
+
+---
 
 ### Multitasking
 
 This section gets into how respondents multi-task, e.g. switch between apps and windows. Our interest here is specifically to understand how the dock fits into multitasking and window management, but we didn't want to lead responses in one direction or another. This section was select-all-that-apply and had 2,843 responses.
 
->**How do you usually tell which apps are currently open in the background?**
+>#### How do you usually tell which apps are currently open in the background?
 >
 >- Dock or taskbar
+>
 >- Alt+tab or window switching
+>
 >- Multitasking view (e.g. Multitasking View on elementary OS, Mission Control on macOS, Task View on Windows, Activities view on GNOME, etc.)
+>
 >- Other…: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 69% responded _dock or taskbar_, 41% responded _alt+tab or window switching_, 59% responded _multitasking view_. 2% answered _other_ without expanding on the answer. Less than 1% responded with some mention of a task manager or system monitor, while around 2% responded with a mention of system tray icons or app indicators.
 
 <!-- TODO: collate "other", look at elementary-specific responses -->
 
->**How do you usually switch between open apps?**
+>#### How do you usually switch between open apps?
 >
 >- Dock or taskbar
+>
 >- Alt+tab or window switching
+>
 >- Multitasking view (e.g. Multitasking View on elementary OS, Mission Control on macOS, Task View on Windows, Activities view on GNOME, etc.)
+>
 >- Other…: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 53% responded _dock or taskbar_, 73% responded _alt+tab or window switching_, 52% responded _multitasking view_.
 
 <!-- TODO: collate "other" responses -->
 
->**How do you usually switch between open windows of the same app?**
+>#### How do you usually switch between open windows of the same app?
 >
 >- Dock or taskbar
+>
 >- Alt+tab or window switching
+>
 >- Multitasking view (e.g. Multitasking View on elementary OS, Mission Control on macOS, Task View on Windows, Activities view on GNOME, etc.)
+>
 >- Other…: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 43% responded _dock or taskbar_, 62% responded _alt+tab or window switching_, 45% responded _multitasking view_. 4% answered _other_ without expanding on the answer.
@@ -163,19 +219,27 @@ This section gets into how respondents multi-task, e.g. switch between apps and 
 
 We also asked, "Anything else to share about how you use multitasking?", and we've been digging through these free-form responses. Some of the highlights for me have been mentions of multiple displays, tiling, and multi-touch gestures.
 
+---
+
 ### Closing apps
 
 We wanted to be sure to cover how the dock is used for closing apps, but didn't want to ask leading questions; as such, we asked how people typically close apps and included the dock as one of many options. This section was select-all-that-apply and had 2,843 responses.
 
->**How do you usually close apps that are open?**
+>#### How do you usually close apps that are open?
 >
 >- Closing with a button in the app/on its titlebar
+>
 >- Using a context menu on the dock/taskbar
+>
 >- Keyboard shortcuts (e.g. Ctrl+Q or Alt+F4)
+>
 >- From a multitasking view (e.g. Multitasking View on elementary OS, Mission Control on macOS, Task View on Windows, Activities view on GNOME, etc.)
+>
 >- Other…: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 85% responded _a button in the app/on its titlebar_, 23% responded _context menu on the dock/taskbar_, 62% responded _keyboard shortcuts_, 29% responded _multitasking view_. 1% responded _other_ without expanding on the answer.
+
+---
 
 ### App actions
 
@@ -183,7 +247,7 @@ We wanted to be sure to cover how the dock is used for closing apps, but didn't 
 
 As above, we wanted to be sure to cover how the dock specifically is used for app actions, but didn't want to ask leading questions. This first question was used as a filter for the following questions; people who responded "yes" received the follow-up actions-related questions, while anyone who responded "no" or "not sure" skipped the rest of the section.
 
->**Do you use app actions or shortcuts?**
+>#### Do you use app actions or shortcuts?
 >
 >e.g. searching by name or function in the Applications Menu on elementary OS, Spotlight on macOS, search on Windows, etc.
 >
@@ -197,22 +261,27 @@ As above, we wanted to be sure to cover how the dock specifically is used for ap
 **Note**: when the study first launched, the logic for skipping the next questions was not working correctly; as such, we received a lot of "N/A" type responses for the next question. The issue was corrected after 136 responses and I don't believe it largely affected the results, but wanted to share for transparency.
 </aside>
 
->**How do you usually use app actions?**
+>#### How do you usually use app actions?
 >
 >- Search (e.g. searching for actions by name in an app launcher)
+>
 >- Context menu in app launcher (e.g. right-clicking or long-pressing an app icon in the Applications Menu, Start menu, etc.)
+>
 >- Context menu on dock (e.g. right-clicking or long-pressing an app icon on the dock or taskbar)
+>
 >- Other…: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 41% responded _search_, 53% responded _context menu in app launcher_, 66% responded _context menu on dock_.
 
 We also asked, "Anything else to share about how you use app actions?", and we've been digging through these free-form responses. Some highlights were about them being more used on mobile OSes, that they wish more apps supported them, that they forget this is a feature, and how they work on other OSes.
 
+---
+
 ### Glanceable information
 
 These questions were again to look at how the dock is used, but were written to be non-leading and to include the dock as one of multiple options. Unlike previous questions, these were also select any that apply _without_ a free-form "other" option.
 
->**Where do you look to check the status of long running tasks?**
+>#### Where do you look to check the status of long running tasks?
 >
 >e.g. the progress of a download
 >
@@ -224,7 +293,7 @@ These questions were again to look at how the dock is used, but were written to 
 
 <!-- TODO: really want to separate out mobile vs desktop users here -->
 
->**Where do you look to see items that need action in an app?**
+>#### Where do you look to see items that need action in an app?
 >
 >e.g. outstanding tasks, or new messages
 >
@@ -236,13 +305,22 @@ These questions were again to look at how the dock is used, but were written to 
 
 <!-- TODO: really want to separate out mobile vs desktop users here -->
 
+---
+
 ### Anything else?
 
 Lastly, we asked "Anything else to share about the topics of this study?" and asked if we may send follow-up questions or future UI studies to the email address provided.
 
+---
+
 ## What's Next
 
-We've started using this data to plan for our new Wayland-compatible dock; more on that effort soon!
+We've started analyzing and using this data to plan for our new Wayland-compatible dock; more on that effort soon! In the meantime, follow along on our [public project board](https://github.com/orgs/elementary/projects/99).
 
 _Wording and self-reporting from the user interface study might affect results, and I don’t pretend that this sample speaks for the entirety of FreeDesktop users. However, it’s a useful dataset of 2,843 responses that can help identify larger patterns. Percentages from the study are rounded to the nearest percent, so you may see things adding up to 101% or similar if there are half-percents involved._
 
+<style>
+blockquote * {
+  font-style: initial;
+}
+</style>
