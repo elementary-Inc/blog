@@ -118,7 +118,7 @@ Next, we dug into files and folders—especially as they relate to the dock. Thi
 >- Taskbar or dock (e.g. pinned files or shortcuts)
 >- From inside apps (e.g. opening a document from inside a word processor app)
 >- Files and folders are kept on the desktop'
->- _Other…_ (free-form response)
+>- Other…: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 96% responded _file manager app_, 43% responded _OS-wide search_, 15% responded _taskbar or dock_, 13% responded _desktop_. Of the _other_ responses, many were clarifications about the choices, but we have been able to collate the most popular being 7% of responses mentioning some form of terminal or CLI. 4% answered _other_ without expanding on the answer.
 
@@ -133,9 +133,9 @@ This section gets into how respondents multi-task, e.g. switch between apps and 
 >- Dock or taskbar
 >- Alt+tab or window switching
 >- Multitasking view (e.g. Multitasking View on elementary OS, Mission Control on macOS, Task View on Windows, Activities view on GNOME, etc.)
->- _Other…_ (free-form response)
+>- Other…: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-69% responded _dock or taskbar_, 41% responded _alt+tab or window switching_, 59% responded _multitasking view_. 2% answered _other_ without expanding on the answer.
+69% responded _dock or taskbar_, 41% responded _alt+tab or window switching_, 59% responded _multitasking view_. 2% answered _other_ without expanding on the answer. Less than 1% responded with some mention of a task manager or system monitor, while around 2% responded with a mention of system tray icons or app indicators.
 
 <!-- TODO: collate "other", look at elementary-specific responses -->
 
@@ -144,7 +144,7 @@ This section gets into how respondents multi-task, e.g. switch between apps and 
 >- Dock or taskbar
 >- Alt+tab or window switching
 >- Multitasking view (e.g. Multitasking View on elementary OS, Mission Control on macOS, Task View on Windows, Activities view on GNOME, etc.)
->- _Other…_ (free-form response)
+>- Other…: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 53% responded _dock or taskbar_, 73% responded _alt+tab or window switching_, 52% responded _multitasking view_.
 
@@ -155,7 +155,7 @@ This section gets into how respondents multi-task, e.g. switch between apps and 
 >- Dock or taskbar
 >- Alt+tab or window switching
 >- Multitasking view (e.g. Multitasking View on elementary OS, Mission Control on macOS, Task View on Windows, Activities view on GNOME, etc.)
->- _Other…_ (free-form response)
+>- Other…: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 43% responded _dock or taskbar_, 62% responded _alt+tab or window switching_, 45% responded _multitasking view_. 4% answered _other_ without expanding on the answer.
 
@@ -173,7 +173,7 @@ We wanted to be sure to cover how the dock is used for closing apps, but didn't 
 >- Using a context menu on the dock/taskbar
 >- Keyboard shortcuts (e.g. Ctrl+Q or Alt+F4)
 >- From a multitasking view (e.g. Multitasking View on elementary OS, Mission Control on macOS, Task View on Windows, Activities view on GNOME, etc.)
->- _Other…_ (free-form response)
+>- Other…: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 85% responded _a button in the app/on its titlebar_, 23% responded _context menu on the dock/taskbar_, 62% responded _keyboard shortcuts_, 29% responded _multitasking view_. 1% responded _other_ without expanding on the answer.
 
@@ -202,7 +202,7 @@ As above, we wanted to be sure to cover how the dock specifically is used for ap
 >- Search (e.g. searching for actions by name in an app launcher)
 >- Context menu in app launcher (e.g. right-clicking or long-pressing an app icon in the Applications Menu, Start menu, etc.)
 >- Context menu on dock (e.g. right-clicking or long-pressing an app icon on the dock or taskbar)
->- _Other…_ (free-form response)
+>- Other…: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 41% responded _search_, 53% responded _context menu in app launcher_, 66% responded _context menu on dock_.
 
