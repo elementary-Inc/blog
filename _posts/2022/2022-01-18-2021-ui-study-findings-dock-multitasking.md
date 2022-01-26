@@ -165,9 +165,13 @@ Next, we dug into files and folders—especially as they relate to the dock. Thi
 >
 >- Other…: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-**96%** responded they typically open files and folders using a _file manager app_, **43%** responded _OS-wide search_, **15%** responded _taskbar or dock_, **13%** responded that their files and folders are kept on the _desktop_. Of the _other_ responses, many were clarifications about the choices, but we have been able to collate the most popular being **7%** of responses mentioning some form of terminal or CLI. **4%** answered _other_ without expanding on the answer.
+**30%** responded they typically open files and folders using _OS-wide search_, **96%** responded a _file manager app_, **15%** responded _taskbar or dock_, **43%** responded _from inside apps_, and **13%** responded that their files and folders are kept _on the desktop_. Of the _other_ responses, many were clarifications about the choices, but we have been able to collate the most popular being **7%** of responses mentioning some form of terminal or CLI. **4%** answered _other_ without expanding on the answer.
 
-<!-- TODO: look at elementary OS stats specifically -->
+<figure>
+  <iframe width="577" height="406" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQnnvwEs6sKvkpHDXQpFK4H1jxzPtdeK8xgq7khTZ_Wdzv5CRCKOC87aDbaMq2ooPwdo-5LwyWVTlYu/pubchart?oid=2121393759&amp;format=interactive"></iframe>
+</figure>
+
+The results for frequent or daily users of elementary OS are similar: **27%** responded _OS-wide search_, **96%** responded _file manager_, **17%** responded _taskbar or dock_, **45%** responded _from inside apps_, and **13%** responded _on the desktop_.
 
 ---
 
