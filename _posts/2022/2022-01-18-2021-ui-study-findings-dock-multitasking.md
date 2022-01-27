@@ -306,7 +306,7 @@ As above, we wanted to be sure to cover how the dock specifically is used for ap
   <iframe width="514" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQnnvwEs6sKvkpHDXQpFK4H1jxzPtdeK8xgq7khTZ_Wdzv5CRCKOC87aDbaMq2ooPwdo-5LwyWVTlYu/pubchart?oid=269257884&amp;format=interactive"></iframe>
 </figure>
 
-<!-- TODO: elementary OS -->
+Frequent or daily users of elementary OS answered similarly, but with an interesting skew towards the dock over other methods: **36%** answered _search_, **46%** answered _app launcher_, and **68%** answered _dock_.
 
 We also asked, "Anything else to share about how you use app actions?", and we've been digging through these free-form responses. Some highlights were about them being more used on mobile OSes, that they wish more apps supported them, that they forget this is a feature, and how they work on other OSes.
 
@@ -326,7 +326,11 @@ These questions were again to look at how the dock is used, but were written to 
 
 **45%** responded _notifications_, **60%** responded _progress bar_, and **74%** responded _in the app window_. Less than **1%** skipped the question.
 
-<!-- TODO: elementary OS -->
+<figure>
+  <iframe width="514" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQnnvwEs6sKvkpHDXQpFK4H1jxzPtdeK8xgq7khTZ_Wdzv5CRCKOC87aDbaMq2ooPwdo-5LwyWVTlYu/pubchart?oid=1476048741&amp;format=interactive"></iframe>
+</figure>
+
+Responses from frequent or daily users of elementary OS were similar: 
 
 >#### Where do you look to see items that need action in an app?
 >
