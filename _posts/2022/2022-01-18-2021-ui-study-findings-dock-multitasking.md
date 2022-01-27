@@ -78,13 +78,11 @@ We also asked, "Anything else to share about how you launch apps and search?", a
 
 ### Dock or taskbar
 
->e.g. the dock on elementary OS or macOS, the taskbar on Windows, a panel, etc.
-
 This first question was used as a filter for the following questions; people who responded "yes" received the follow-up dock-related questions, while anyone who responded "no" or "not sure" skipped the rest of the section.
 
 >#### Do you use a dock or taskbar?
 >
->e.g. searching by name or function in the Applications Menu on elementary OS, Spotlight on macOS, search on Windows, etc.
+>e.g. the dock on elementary OS or macOS, the taskbar on Windows, a panel, etc.
 >
 >- Yes
 >- No
@@ -93,6 +91,8 @@ This first question was used as a filter for the following questions; people who
 **86%** responded _yes_, **13%** responded _no_, and **2%** responded _not sure_. As a result, the following questions in this section received 2,431 responses.
 
 >#### How often do you use a dock or taskbar to open your frequently-used apps?
+>
+>e.g. the dock on elementary OS or macOS, the taskbar on Windows, a panel, etc.
 >
 >- Never
 >- Infrequently (less than weekly)
@@ -113,6 +113,8 @@ When looking at frequent or daily users of elementary OS specifically, the break
 
 >#### Do you remove or replace the default items on the dock or taskbar?
 >
+>e.g. the dock on elementary OS or macOS, the taskbar on Windows, a panel, etc.
+>
 >- None
 >- A few (less than half)
 >- Most (half or more)
@@ -131,6 +133,8 @@ Of those who use a dock or taskbar, **2%** responded they remove or replace _non
 When looking at frequent or daily users of elementary OS specifically, the breakdown was very similar: **2%** none, **23%** a few, **60%** half, **15%** all.
 
 >#### Do you add or pin apps you use frequently to the dock or taskbar?
+>
+>e.g. the dock on elementary OS or macOS, the taskbar on Windows, a panel, etc.
 >
 >- Yes
 >- No
@@ -152,6 +156,8 @@ The responses for this section lead me to initially believe customization of the
 Next, we dug into files and folders—especially as they relate to the dock. This section was select-all-that-apply and had 2,843 responses.
 
 >#### How do you typically open files and folders?
+>
+>Select all that apply
 >
 >- OS-wide search
 >
@@ -270,13 +276,11 @@ The results for frequent or daily users of elementary OS are similar: **87%** re
 
 ### App actions
 
->To jump to a specific section or function of an app \*without opening the app first.\* For example, "New Incognito Window" for a web browser or "Compose Message" for an email client.
-
 As above, we wanted to be sure to cover how the dock specifically is used for app actions, but didn't want to ask leading questions. This first question was used as a filter for the following questions; people who responded "yes" received the follow-up actions-related questions, while anyone who responded "no" or "not sure" skipped the rest of the section.
 
 >#### Do you use app actions or shortcuts?
 >
->e.g. searching by name or function in the Applications Menu on elementary OS, Spotlight on macOS, search on Windows, etc.
+>To jump to a specific section or function of an app \*without opening the app first.\* For example, "New Incognito Window" for a web browser or "Compose Message" for an email client.
 >
 >- Yes
 >- No
@@ -291,6 +295,8 @@ As above, we wanted to be sure to cover how the dock specifically is used for ap
 </aside>
 
 >#### How do you usually use app actions?
+>
+>To jump to a specific section or function of an app \*without opening the app first.\* For example, "New Incognito Window" for a web browser or "Compose Message" for an email client.
 >
 >- Search (e.g. searching for actions by name in an app launcher)
 >
