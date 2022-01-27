@@ -195,7 +195,7 @@ This section gets into how respondents multi-task, e.g. switch between apps and 
   <iframe width="577" height="406" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQnnvwEs6sKvkpHDXQpFK4H1jxzPtdeK8xgq7khTZ_Wdzv5CRCKOC87aDbaMq2ooPwdo-5LwyWVTlYu/pubchart?oid=48982825&amp;format=interactive"></iframe>
 </figure>
 
-The results for frequent or daily users of elementary OS are similar: **75%** responded _dock or taskbar_, **60%** responded _multitasking view_, and **43%** responded _alt+tab_.
+The results for frequent or daily users of elementary OS are similar, with a notably higher skew for the dock: **75%** responded _dock or taskbar_, **43%** responded _alt+tab_, and **60%** responded _multitasking view_.
 
 
 >#### How do you usually switch between open apps?
@@ -208,9 +208,15 @@ The results for frequent or daily users of elementary OS are similar: **75%** re
 >
 >- Other…: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-53% responded _dock or taskbar_, 73% responded _alt+tab or window switching_, 52% responded _multitasking view_.
+**53%** responded _dock or taskbar_, **73%** responded _alt+tab or window switching_, **52%** responded _multitasking view_.
 
 <!-- TODO: collate "other" responses -->
+
+<figure>
+  <iframe width="452" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQnnvwEs6sKvkpHDXQpFK4H1jxzPtdeK8xgq7khTZ_Wdzv5CRCKOC87aDbaMq2ooPwdo-5LwyWVTlYu/pubchart?oid=905929489&amp;format=interactive"></iframe>
+</figure>
+
+The results for frequent or daily users of elementary OS are similar, with a higher skew for the dock: **58%** responded _dock or taskbar_, **73%** responded _alt+tab_, and **51%** responded _multitasking view_.
 
 >#### How do you usually switch between open windows of the same app?
 >
@@ -222,9 +228,15 @@ The results for frequent or daily users of elementary OS are similar: **75%** re
 >
 >- Other…: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-43% responded _dock or taskbar_, 62% responded _alt+tab or window switching_, 45% responded _multitasking view_. 4% answered _other_ without expanding on the answer.
+**43%** responded _dock or taskbar_, **62%** responded _alt+tab or window switching_, **45%** responded _multitasking view_.
 
 <!-- TODO: collate "other" responses -->
+
+<figure>
+  <iframe width="452" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQnnvwEs6sKvkpHDXQpFK4H1jxzPtdeK8xgq7khTZ_Wdzv5CRCKOC87aDbaMq2ooPwdo-5LwyWVTlYu/pubchart?oid=1983560674&amp;format=interactive"></iframe>
+</figure>
+
+The results for frequent or daily users of elementary OS are identical: **43%** responded _dock or taskbar_, **62%** responded _alt+tab_, **45%** responded _multitasking view_.
 
 We also asked, "Anything else to share about how you use multitasking?", and we've been digging through these free-form responses. Some of the highlights for me have been mentions of multiple displays, tiling, and multi-touch gestures.
 
@@ -246,7 +258,9 @@ We wanted to be sure to cover how the dock is used for closing apps, but didn't 
 >
 >- Other…: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-85% responded _a button in the app/on its titlebar_, 23% responded _context menu on the dock/taskbar_, 62% responded _keyboard shortcuts_, 29% responded _multitasking view_. 1% responded _other_ without expanding on the answer.
+**85%** responded _a button in the app/on its titlebar_, **23%** responded _context menu on the dock/taskbar_, **62%** responded _keyboard shortcuts_, **29%** responded _multitasking view_. **1%** responded _other_ without expanding on the answer.
+
+<!-- TODO: elementary OS -->
 
 ---
 
@@ -264,7 +278,9 @@ As above, we wanted to be sure to cover how the dock specifically is used for ap
 >- No
 >- Not sure
 
-54% responded _yes_, 34% responded _no_, and 13% responded _not sure_. As a result, the following questions in this section received 1,595 responses.
+**54%** responded _yes_, **34%** responded _no_, and **13%** responded _not sure_. As a result, the following questions in this section received 1,595 responses.
+
+<!-- TODO: elementary OS -->
 
 <aside markdown="1">
 **Note**: when the study first launched, the logic for skipping the next questions was not working correctly; as such, we received a lot of "N/A" type responses for the next question. The issue was corrected after 136 responses and I don't believe it largely affected the results, but wanted to share for transparency.
@@ -280,7 +296,9 @@ As above, we wanted to be sure to cover how the dock specifically is used for ap
 >
 >- Other…: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-41% responded _search_, 53% responded _context menu in app launcher_, 66% responded _context menu on dock_.
+**41%** responded _search_, **53%** responded _context menu in app launcher_, **66%** responded _context menu on dock_.
+
+<!-- TODO: elementary OS -->
 
 We also asked, "Anything else to share about how you use app actions?", and we've been digging through these free-form responses. Some highlights were about them being more used on mobile OSes, that they wish more apps supported them, that they forget this is a feature, and how they work on other OSes.
 
@@ -298,9 +316,9 @@ These questions were again to look at how the dock is used, but were written to 
 >- Progress bar on the app's dock/taskbar icon
 >- In the app window itself
 
-45% responded _notifications_, 60% responded _progress bar_, and 74% responded _in the app window_. Less than 1% skipped the question.
+**45%** responded _notifications_, **60%** responded _progress bar_, and **74%** responded _in the app window_. Less than **1%** skipped the question.
 
-<!-- TODO: really want to separate out mobile vs desktop users here -->
+<!-- TODO: elementary OS -->
 
 >#### Where do you look to see items that need action in an app?
 >
@@ -310,9 +328,9 @@ These questions were again to look at how the dock is used, but were written to 
 >- Badge on the app's dock/taskbar icon
 >- In the app window itself
 
-67% responded _notifications_, 59% responded _badge_, and 60% responded _in the app window_. Less than 1% skipped the question.
+**67%** responded _notifications_, **59%** responded _badge_, and **60%** responded _in the app window_. Less than **1%** skipped the question.
 
-<!-- TODO: really want to separate out mobile vs desktop users here -->
+<!-- TODO: elementary OS -->
 
 ---
 
