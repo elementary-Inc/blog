@@ -260,7 +260,11 @@ We wanted to be sure to cover how the dock is used for closing apps, but didn't 
 
 **85%** responded _a button in the app/on its titlebar_, **23%** responded _context menu on the dock/taskbar_, **62%** responded _keyboard shortcuts_, **29%** responded _multitasking view_. **1%** responded _other_ without expanding on the answer.
 
-<!-- TODO: elementary OS -->
+<figure>
+  <iframe width="452" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQnnvwEs6sKvkpHDXQpFK4H1jxzPtdeK8xgq7khTZ_Wdzv5CRCKOC87aDbaMq2ooPwdo-5LwyWVTlYu/pubchart?oid=1954544244&amp;format=interactive"></iframe>
+</figure>
+
+The results for frequent or daily users of elementary OS are similar: **87%** responded _a button in the app/on its titlebar_, **24%** responded _context menu on the dock/taskbar_, **58%** responded _keyboard shortcuts_, **26%** responded _multitasking view_.
 
 ---
 
