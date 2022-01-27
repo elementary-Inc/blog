@@ -302,6 +302,10 @@ As above, we wanted to be sure to cover how the dock specifically is used for ap
 
 **41%** responded _search_, **53%** responded _context menu in app launcher_, **66%** responded _context menu on dock_.
 
+<figure>
+  <iframe width="514" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQnnvwEs6sKvkpHDXQpFK4H1jxzPtdeK8xgq7khTZ_Wdzv5CRCKOC87aDbaMq2ooPwdo-5LwyWVTlYu/pubchart?oid=269257884&amp;format=interactive"></iframe>
+</figure>
+
 <!-- TODO: elementary OS -->
 
 We also asked, "Anything else to share about how you use app actions?", and we've been digging through these free-form responses. Some highlights were about them being more used on mobile OSes, that they wish more apps supported them, that they forget this is a feature, and how they work on other OSes.
