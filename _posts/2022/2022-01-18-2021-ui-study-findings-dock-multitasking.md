@@ -330,7 +330,7 @@ These questions were again to look at how the dock is used, but were written to 
   <iframe width="514" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQnnvwEs6sKvkpHDXQpFK4H1jxzPtdeK8xgq7khTZ_Wdzv5CRCKOC87aDbaMq2ooPwdo-5LwyWVTlYu/pubchart?oid=1476048741&amp;format=interactive"></iframe>
 </figure>
 
-Responses from frequent or daily users of elementary OS were similar: 
+Responses from frequent or daily users of elementary OS were similar, but with notably fewer relying on notifications and a slightly higher skew towards the dock progress bar (possibly because elementary OS has this feature, whereas some other platforms do not): **34%** responded _notifications_, **63%** responded _progress bar in dock_, and **72%** responded _in app window_.
 
 >#### Where do you look to see items that need action in an app?
 >
@@ -342,7 +342,11 @@ Responses from frequent or daily users of elementary OS were similar:
 
 **67%** responded _notifications_, **59%** responded _badge_, and **60%** responded _in the app window_. Less than **1%** skipped the question.
 
-<!-- TODO: elementary OS -->
+<figure>
+  <iframe width="514" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQnnvwEs6sKvkpHDXQpFK4H1jxzPtdeK8xgq7khTZ_Wdzv5CRCKOC87aDbaMq2ooPwdo-5LwyWVTlYu/pubchart?oid=691208399&amp;format=interactive"></iframe>
+</figure>
+
+The results for frequent or daily users of elementary OS are similar, but with a much higher skew towards dock badges—possibly because elementary OS has this feature by default but other platforms do not: **66%** responded _notifications_, **67%** responded _badge_, and **57%** responded _in the app_.
 
 ---
 
