@@ -352,7 +352,7 @@ The results for frequent or daily users of elementary OS are similar, but with a
 
 ### Anything else?
 
-Lastly, we asked "Anything else to share about the topics of this study?" and asked if we may send follow-up questions or future UI studies to the email address provided.
+Lastly, we asked "Anything else to share about the topics of this study?", and we'll be reading through those responses to better understand some of the more qualitative aspects of the study compared to the raw data. 
 
 ---
 
