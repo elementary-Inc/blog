@@ -1,7 +1,8 @@
 ---
-title: 2021 UI Study Findings
+title: 2021 UI Study Results
 description: Digging into the dock, multitasking, and more
 author: cassidyjames
+image: /images/2021-ui-study-results-dock-multitasking/card.jpg
 tags:
   - ui-study
   - ux
