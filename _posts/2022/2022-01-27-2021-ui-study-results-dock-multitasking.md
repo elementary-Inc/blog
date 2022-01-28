@@ -153,8 +153,6 @@ Of those who use a dock or taskbar, **93%** responded _yes_, they do add or pin 
 
 When looking at frequent or daily users of elementary OS specifically, the breakdown was even more in favor of pinning: **96%** yes, **4%** no.
 
-The responses for this section lead me to initially believe customization of the dock is important and heavily-used by users, and the vast majority of dock or taskbar users do use it to launch their most common apps—which makes a lot of sense! It _could_ also mean that the default apps on the dock aren't as useful to users, though it's important to remember that the default items also serve as a way to advertise/expose what apps are available on the system—and clearly based on these responses, users aren't hitting substantial issues in replacing them if they want.
-
 ---
 
 ### Files and folders
