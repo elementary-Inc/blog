@@ -380,4 +380,12 @@ _Wording and self-reporting from the user interface study might affect results, 
 blockquote * {
   font-style: initial;
 }
+
+figure {
+  overflow-x: auto;
+}
+
+figure iframe {
+  max-width: initial;
+}
 </style>
