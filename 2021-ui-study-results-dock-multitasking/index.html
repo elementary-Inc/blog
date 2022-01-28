@@ -3,10 +3,10 @@
   <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Accessibility Features Are Just Features &sdot; elementary Blog</title>
-  <meta property="og:title" content="Accessibility Features Are Just Features" />
-  <meta itemprop="name" content="Accessibility Features Are Just Features" />
-  <meta name="twitter:title" content="Accessibility Features Are Just Features" />
+  <title>2021 UI Study Results &sdot; elementary Blog</title>
+  <meta property="og:title" content="2021 UI Study Results" />
+  <meta itemprop="name" content="2021 UI Study Results" />
+  <meta name="twitter:title" content="2021 UI Study Results" />
 
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -28,15 +28,15 @@
     
     
     <meta name="twitter:card" content="summary_large_image" />
-    <meta property="twitter:image" content="https://cdn-images-1.medium.com/max/1600/0*3Q6Snc6Qga_HsPK7" />
+    <meta property="twitter:image" content="https://blog.elementary.io/images/2021-ui-study-results-dock-multitasking/card.jpg" />
   
   <meta name="twitter:site" content="@elementary" />
   <meta name="twitter:creator" content="@elementary" />
 
-  <meta name="description" content="An OS-wide curb-cutting effort" />
-  <meta property="og:description" content="An OS-wide curb-cutting effort" />
-  <meta itemprop="description" content="An OS-wide curb-cutting effort" />
-  <meta name="twitter:description" content="An OS-wide curb-cutting effort" />
+  <meta name="description" content="Digging into the dock, multitasking, and more" />
+  <meta property="og:description" content="Digging into the dock, multitasking, and more" />
+  <meta itemprop="description" content="Digging into the dock, multitasking, and more" />
+  <meta name="twitter:description" content="Digging into the dock, multitasking, and more" />
 
   <link rel="stylesheet" type="text/css" media="all" href="/css/main.css?v=2022-01-27 21:12:55 -0600" />
   
@@ -143,14 +143,6 @@
 
 
 
-  
-  
-  
-    <aside class="outdated">
-      <strong>Note:</strong> this post was written over two years ago. The information below may be outdated.
-    </aside>
-  
-
 
 
 <article>
@@ -160,7 +152,7 @@
 
 
 
-   Accessibility Features Are Just&nbsp;Features
+   2021 UI Study&nbsp;Results
 
 </h1>
     
@@ -168,7 +160,7 @@
 
 
 
-   An OS-wide curb-cutting&nbsp;effort
+   Digging into the dock, multitasking, and&nbsp;more
 
 </h2>
     
@@ -195,11 +187,11 @@
       <span class="description">Co-founder & CXO</span>
     
   </div>
-  <time class="post-date" datetime="2019-02-16">Sat, Feb 16, 2019</time>
+  <time class="post-date" datetime="2022-01-27">Thu, Jan 27, 2022</time>
   
     <span class="read-time" title="Estimated read time">
   
-  4 min read
+  15 min read
 </span>
 
 
@@ -210,7 +202,9 @@
     <aside class="tags">
   
   
-    <a class="tag" href="/tags/#accessibility">#accessibility</a>
+    <a class="tag" href="/tags/#evergreen">#evergreen</a>
+  
+    <a class="tag" href="/tags/#ui-study">#ui-study</a>
   
     <a class="tag" href="/tags/#ux">#ux</a>
   
@@ -220,56 +214,549 @@
   </header>
 
   <section>
-    <figure>
-  <p><img src="https://cdn-images-1.medium.com/max/1600/0*3Q6Snc6Qga_HsPK7" alt="Photo of an accessible curb cut" /></p>
-  <figcaption>
-    <p>Photo of an accessible curb cut by <a rel="nofollow noopener noreferrer" target="_blank" href="https://unsplash.com/@danedeaner">Dane Deaner</a> on <a rel="nofollow noopener noreferrer" target="_blank" href="https://unsplash.com">Unsplash</a></p>
-  </figcaption>
+    <p>Over the past couple of months we’ve conducted a user interface study to dig into how people multi-task on elementary OS as well as other desktop and tablet operating systems. In particular, we were interested in better learning how people use the dock, app launchers, and window management.</p>
+
+<p>As we continue to iterate on the core experience of elementary OS, we are also aware of newer technologies like Wayland that we’re actively adopting to improve privacy, security, and performance—but doing so requires reworking some components like the dock and window manager to use new protocols and APIs. As long as we’re reworking some of these technical bits, it could be advantageous to rethink and improve upon the experience itself—plus, we can ensure we’re not writing new code to support legacy designs just because that’s how things worked in the past.</p>
+
+<p>If that all sounds a bit ambitious… it kind of is! However, we’ve preciously worked on a <a href="/user-interface-study-findings">similar study</a> around theming, dark styles, and night light modes that directly resulted in our implementation of a system-wide dark style as well as accent colors in elementary OS—and <a href="/the-need-for-a-freedesktop-dark-style-preference">our advocacy in that realm</a> helped influence <a rel="nofollow noopener noreferrer" target="_blank" href="https://blogs.gnome.org/alexm/2021/10/04/dark-style-preference/">GNOME’s adoption of a cross-desktop dark style</a> that will work on both GNOME and elementary OS. That work has been years in the making, but the pay-off is well worth it.</p>
+
+<div style="margin: 3em auto;">
+
+
+
+<a class="featured with-image 1" href="/the-need-for-a-freedesktop-dark-style-preference/">
+  
+    <div class="featured-image" alt="Featured image" style="background-image: url(https://cdn-images-1.medium.com/max/1952/1*NwP8sxbRTq7pzJLhDE2rnA@2x.png);"></div>
+  
+
+  <header>
+    <h2>
+
+
+
+   The Need for a FreeDesktop Dark Style&nbsp;Preference
+
+</h2>
+    
+      <h3>
+        
+
+
+
+   It’s time for the FreeDesktop to catch&nbsp;up
+
+
+        
+      </h3>
+    
+
+    
+
+
+
+<div class="byline">
+  <div class="avatar">
+    <img srcset="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&amp;d=blank 2x" src="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&amp;d=blank" alt="Avatar for Cassidy James Blaede" />
+  </div>
+  <div class="author">
+    
+    <span class="name">Cassidy James Blaede</span>
+    
+    
+      <span class="description">Co-founder &amp; CXO</span>
+    
+  </div>
+  <time class="post-date" datetime="2019-05-17">Fri, May 17, 2019</time>
+  
+    <span class="read-time" title="Estimated read time">
+  
+  18 min read
+</span>
+
+
+  
+</div>
+
+
+  </header>
+
+  
+</a>
+
+
+</div>
+
+<p>At this point in the study, we have our raw data and have started digging into it to identify patterns and set priorities. Much like with the dark style study, the effects of this study may take some time to pan out, but I wanted to share our initial findings to kick the work off. We intend to follow up in the future to further share what we’ve inferred from the data, and how we expect it to influence our design going forward. We also hope these more raw results will be of use to other projects and desktops if they wish to draw their own conclusions; we’re happy to participate in larger cross-desktop discussions and share this openly for all.</p>
+
+<h2 id="questions--rawstats">Questions &amp; Raw Stats</h2>
+
+<p>The study was conducted as a web survey posted to social media and open source forums from December, 2021 through January, 2022. We asked participants to first identify which desktop and tablet platforms they used (including Android on a tablet, Chrome OS, elementary OS, GNOME, iPadOS, KDE, macOS, Ubuntu, Windows, and other Linux-based desktops), and how often they used each platform (ranging from never to daily); an initial look at grouping by this data did not reveal substantial differences in the answers (around +/- 5% difference for each option), but we will continue to look into the data to see if any significant patterns emerge. If so, we’ll publish an update to these findings.</p>
+
+<p>The following questions were presented in these sections and this order:</p>
+
+<hr />
+
+<h3 id="app-launching--search">App launching &amp; search</h3>
+
+<blockquote>
+  <p>e.g. the Applications Menu on elementary OS, Launchpad on macOS, Start menu on Windows, etc.</p>
+</blockquote>
+
+<p>This section had 2,843 responses.</p>
+
+<blockquote>
+  <h4 id="how-often-do-you-clicktap-on-an-app-in-an-app-launcher-to-open-your-frequently-used-apps">How often do you click/tap on an app in an app launcher to open your frequently-used apps?</h4>
+
+  <p>Excluding using search, e.g. clicking an app icon in the Applications Menu on elementary OS, Launchpad on macOS, Start menu on Windows, etc.</p>
+
+  <ul>
+    <li>Never</li>
+    <li>Infrequently (less than weekly)</li>
+    <li>Frequently (approximately weekly)</li>
+    <li>Daily (multiple times per week)</li>
+  </ul>
+</blockquote>
+
+<p>Of the respondents, <strong>10%</strong> responded that they <em>never</em> click or tap on an app in an app launcher to open frequently-used apps. <strong>25%</strong> responded <em>infrequently</em>, <strong>22%</strong> responded <em>frequently</em>, and the largest group at <strong>43%</strong> responded <em>daily</em>. With some simple grouping, we can look at the results in another way:</p>
+
+<ul>
+  <li>
+    <p>Over <strong>90%</strong> of respondents click/tap on an app in an app launcher to open their frequently-used apps <em>at least sometimes</em>.</p>
+  </li>
+  <li>
+    <p>Around <strong>65%</strong> of respondents frequently or daily click/tap on an app in an app launcher to open their frequently-used apps, while around <strong>35%</strong> do so infrequently or not at all.</p>
+  </li>
+</ul>
+
+<figure>
+  <iframe width="554" height="470" seamless="" frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQnnvwEs6sKvkpHDXQpFK4H1jxzPtdeK8xgq7khTZ_Wdzv5CRCKOC87aDbaMq2ooPwdo-5LwyWVTlYu/pubchart?oid=1029877605&amp;format=interactive"></iframe>
 </figure>
 
-<p>For some time now, Daniel and I have been talking about how accessibility features really ought to just be standard features of the desktop. Much like <a rel="nofollow noopener noreferrer" target="_blank" href="https://99percentinvisible.org/episode/curb-cuts/">curb cuts</a>—the slopes on sidewalks designed to make traversal with a wheelchair possible—many “accessibility” features can be used to improve the experiences of everyone, regardless of any specific ability or impairment. In addition, the ubiquitous nature of these features can greatly destigmatize their use.</p>
+<p>When looking at frequent or daily users of elementary OS specifically, the breakdown was very similar: <strong>8%</strong> never, <strong>24%</strong> infrequently, <strong>23%</strong> frequently, and <strong>45%</strong> daily.</p>
 
-<h2 id="visual-style">Visual Style</h2>
+<blockquote>
+  <h4 id="how-often-do-you-use-search-to-open-your-frequently-used-apps">How often do you use search to open your frequently-used apps?</h4>
 
-<p>One way this has manifested is the massively-improved contrast in the system stylesheet; we always strive to be WCAG AA or AAA contrast compliant in the UI, reducing the need for special high contrast modes. If the entire desktop is high contrast <em>and</em> looks great, it’s a win for everyone. Not only is it more accessible to those with difficulty seeing things that have low contrast, but it also greatly helps when using elementary OS on a projector, older display, or in sunlight.</p>
+  <p>e.g. searching by name or function in the Applications Menu on elementary OS, Spotlight on macOS, search on Windows, etc.</p>
 
-<h2 id="system-settings">System Settings</h2>
+  <ul>
+    <li>Never</li>
+    <li>Infrequently (less than weekly)</li>
+    <li>Frequently (approximately weekly)</li>
+    <li>Daily (multiple times per week)</li>
+  </ul>
+</blockquote>
 
-<p>Another way we are tackling this is through <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/orgs/elementary/projects/35">a new organization-wide effort</a> to reorganize other Universal Access (or accessibility) settings into standard features of the desktop. If they’re exposed in Universal Access settings, it means we must support them in order for the desktop to be usable to those users, so why not make them more discoverable for all users?</p>
+<p><strong>5%</strong> responded <em>never</em>, <strong>13%</strong> responded <em>infrequently</em>, <strong>18%</strong> responded <em>frequently</em>, and a clear majority at <strong>64%</strong> responded <em>daily</em>. Similar to above, we can reframe this a bit:</p>
 
-<p>Something we’ve also heard is that users don’t go looking in Universal Access for these types of settings, because they don’t feel that they have a disability (even though Universal Access is explicitly <em>not</em> titled “features for disabilities”). By reorganizing these settings into the standard, natural System Settings locations, we hope that everyone can benefit with more features and options to help them better use their computer. Consequently, settings and preferences that can be useful to a wide range of users will be both easier to find and better supported. We’ve already begun in a few small areas:</p>
+<ul>
+  <li>
+    <p>Around <strong>95%</strong> of respondents use search to open their frequently-used apps <em>at least sometimes</em>.</p>
+  </li>
+  <li>
+    <p>Around <strong>82%</strong> of respondents frequently or daily use search to open their frequently-used apps, while around <strong>18%</strong> do so infrequently or not at all.</p>
+  </li>
+</ul>
 
-<h3 id="appearance">Appearance</h3>
+<figure>
+  <iframe width="554" height="470" seamless="" frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQnnvwEs6sKvkpHDXQpFK4H1jxzPtdeK8xgq7khTZ_Wdzv5CRCKOC87aDbaMq2ooPwdo-5LwyWVTlYu/pubchart?oid=1592818548&amp;format=interactive"></iframe>
+</figure>
 
-<p>We’ve added a new Appearance tab in the Desktop settings to expose window animations, panel translucency, and text size.</p>
+<p>When looking at frequent or daily users of elementary OS specifically, the breakdown was similar: <strong>7%</strong> never, <strong>16%</strong> infrequently, <strong>22%</strong> frequently, and <strong>55%</strong> daily.</p>
 
-<p><img src="https://cdn-images-1.medium.com/max/1600/1*EyErGVV6till1aap3FMPYA@2x.png" alt="Desktop Appearance settings" /></p>
+<p>We also asked, “Anything else to share about how you launch apps and search?”, and we’ve been digging through these free-form responses. Many clarify when and how people prefer using search versus an app launcher.</p>
 
-<p>These were all supported Universal Access features before, but now they’re much more obvious. Plus, we’ve improved text size by offering a wider range than the Universal Access options. Whether you have a vision impairment, a display resolution that’s a bit high or low for its physical size, or just like your text smaller or larger, you now have more control.</p>
+<hr />
 
-<h3 id="sound">Sound</h3>
+<h3 id="dock-or-taskbar">Dock or taskbar</h3>
 
-<p>We also expanded on the “Event sounds” toggle in Sound settings.</p>
+<p>This first question was used as a filter for the following questions; people who responded “yes” received the follow-up dock-related questions, while anyone who responded “no” or “not sure” skipped the rest of the section.</p>
 
-<p><img src="https://cdn-images-1.medium.com/max/1600/1*3gQ7yzFaH5xGNjz8QpvgLQ.png" alt="Sound output settings" /></p>
+<blockquote>
+  <h4 id="do-you-use-a-dock-or-taskbar">Do you use a dock or taskbar?</h4>
 
-<p>We’ve added a new “Flash screen” checkbox alongside, plus we added descriptive text to make it more clear what these settings do. Now if you are hard of hearing, don’t have speakers, or are using your computer in an environment where sounds are not appropriate, you have more accessible control over what happens with event alerts.</p>
+  <p>e.g. the dock on elementary OS or macOS, the taskbar on Windows, a panel, etc.</p>
 
-<h3 id="mouse-touchpad">Mouse &amp; Touchpad</h3>
+  <ul>
+    <li>Yes</li>
+    <li>No</li>
+    <li>Not sure</li>
+  </ul>
+</blockquote>
 
-<p>In order to move several supported accessibility settings here, we’ve actually completely redesigned the Mouse &amp; Touchpad settings. Instead of one long scrolling list, it’s now separated into tabs for General settings as well as hardware-specific settings for Mouse and Touchpad individually.</p>
+<p><strong>86%</strong> responded <em>yes</em>, <strong>13%</strong> responded <em>no</em>, and <strong>2%</strong> responded <em>not sure</em>. As a result, the following questions in this section received 2,431 responses.</p>
 
-<p><img src="https://cdn-images-1.medium.com/max/1600/1*cr4atYu07uDm3JjakBtBhQ@2x.png" alt="Mouse settings" /></p>
+<blockquote>
+  <h4 id="how-often-do-you-use-a-dock-or-taskbar-to-open-your-frequently-used-apps">How often do you use a dock or taskbar to open your frequently-used apps?</h4>
 
-<p>We’ve pulled the long-press and keypad control settings into the General settings. We also revised the left/right click setting to be more visual and to make more sense in right-to-left languages. And with the redesign, we’ve pulled the help text out of less-discoverable tooltips and put them right into the natural flow, requiring less finicky mousing around to learn about the different features.</p>
+  <p>e.g. the dock on elementary OS or macOS, the taskbar on Windows, a panel, etc.</p>
 
-<h3 id="universal-access">Universal Access</h3>
+  <ul>
+    <li>Never</li>
+    <li>Infrequently (less than weekly)</li>
+    <li>Frequently (approximately weekly)</li>
+    <li>Daily (multiple times per week)</li>
+  </ul>
+</blockquote>
 
-<p>For now, we will keep the existing settings available all in one spot in Universal Access as well as their new homes in the relevant panes. We’ll listen to feedback and if over time users are visiting Universal Access less for those types of settings, we will consider revisiting the design of Universal Access to focus on assistive technologies that don’t have a more natural home.</p>
+<p>Of those who use a dock or taskbar, <strong>3%</strong> responded they <em>never</em> use it to open their frequently-used apps, <strong>5%</strong> responded <em>infrequently</em>, <strong>14%</strong> responded <em>frequently</em>, while the largest group at <strong>79%</strong> responded <em>daily</em>. Grouping the responses:</p>
 
-<h2 id="just-the-beginning">Just the Beginning</h2>
+<ul>
+  <li>
+    <p><strong>97%</strong> of respondents who use a dock or taskbar use it at least sometimes to open their frequently-used apps</p>
+  </li>
+  <li>
+    <p>Around <strong>93%</strong> do so frequently or daily</p>
+  </li>
+</ul>
 
-<p>While some of these updates have already been pushed out to Juno (and the others are coming very soon), it’s just the beginning of our efforts in this area. We will continue to reorganize and refine settings and preferences, consider accessibility in our standard experience, and do our best to design a computing experience that is usable by all.</p>
+<figure>
+  <iframe width="554" height="470" seamless="" frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQnnvwEs6sKvkpHDXQpFK4H1jxzPtdeK8xgq7khTZ_Wdzv5CRCKOC87aDbaMq2ooPwdo-5LwyWVTlYu/pubchart?oid=412743824&amp;format=interactive"></iframe>
+</figure>
+
+<p>When looking at frequent or daily users of elementary OS specifically, the breakdown was similar, with a larger skew towards daily users: <strong>1%</strong> never, <strong>3%</strong> infrequently, <strong>11%</strong> frequently, and <strong>85%</strong> daily.</p>
+
+<blockquote>
+  <h4 id="do-you-remove-or-replace-the-default-items-on-the-dock-or-taskbar">Do you remove or replace the default items on the dock or taskbar?</h4>
+
+  <p>e.g. the dock on elementary OS or macOS, the taskbar on Windows, a panel, etc.</p>
+
+  <ul>
+    <li>None</li>
+    <li>A few (less than half)</li>
+    <li>Most (half or more)</li>
+    <li>All</li>
+  </ul>
+</blockquote>
+
+<p>Of those who use a dock or taskbar, <strong>2%</strong> responded they remove or replace <em>none</em> of default items on the dock or taskbar. <strong>21%</strong> responded they remove or replace <em>a few</em> (less than half), <strong>58%</strong> responded they remove or replace <em>most</em> (half or more), and <strong>19%</strong> responded they remove or replace <em>all</em> the default items. Grouping the responses differently:</p>
+
+<ul>
+  <li>
+    <p>A whopping <strong>98%</strong> of respondents remove or replace at least some items on the dock or taskbar</p>
+  </li>
+  <li>
+    <p>Around <strong>76%</strong> of respondents remove or replace half or more of the items</p>
+  </li>
+</ul>
+
+<figure>
+  <iframe width="554" height="470" seamless="" frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQnnvwEs6sKvkpHDXQpFK4H1jxzPtdeK8xgq7khTZ_Wdzv5CRCKOC87aDbaMq2ooPwdo-5LwyWVTlYu/pubchart?oid=481633375&amp;format=interactive"></iframe>
+</figure>
+
+<p>When looking at frequent or daily users of elementary OS specifically, the breakdown was very similar: <strong>2%</strong> none, <strong>23%</strong> a few, <strong>60%</strong> half, <strong>15%</strong> all.</p>
+
+<blockquote>
+  <h4 id="do-you-add-or-pin-apps-you-use-frequently-to-the-dock-or-taskbar">Do you add or pin apps you use frequently to the dock or taskbar?</h4>
+
+  <p>e.g. the dock on elementary OS or macOS, the taskbar on Windows, a panel, etc.</p>
+
+  <ul>
+    <li>Yes</li>
+    <li>No</li>
+  </ul>
+</blockquote>
+
+<p>Of those who use a dock or taskbar, <strong>93%</strong> responded <em>yes</em>, they do add or pin apps they use frequently to the dock or taskbar, while <strong>7%</strong> responded <em>no</em>, they do not.</p>
+
+<figure>
+  <iframe width="554" height="470" seamless="" frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQnnvwEs6sKvkpHDXQpFK4H1jxzPtdeK8xgq7khTZ_Wdzv5CRCKOC87aDbaMq2ooPwdo-5LwyWVTlYu/pubchart?oid=1168278515&amp;format=interactive"></iframe>
+</figure>
+
+<p>When looking at frequent or daily users of elementary OS specifically, the breakdown was even more in favor of pinning: <strong>96%</strong> yes, <strong>4%</strong> no.</p>
+
+<hr />
+
+<h3 id="files-and-folders">Files and folders</h3>
+
+<p>Next, we dug into files and folders—especially as they relate to the dock. This section was select-all-that-apply and had 2,843 responses.</p>
+
+<blockquote>
+  <h4 id="how-do-you-typically-open-files-and-folders">How do you typically open files and folders?</h4>
+
+  <p>Select all that apply</p>
+
+  <ul>
+    <li>
+      <p>OS-wide search</p>
+    </li>
+    <li>
+      <p>File manager app (e.g. Files on elementary OS, Finder on macOS, Explorer on Windows, etc.)</p>
+    </li>
+    <li>
+      <p>Taskbar or dock (e.g. pinned files or shortcuts)</p>
+    </li>
+    <li>
+      <p>From inside apps (e.g. opening a document from inside a word processor app)</p>
+    </li>
+    <li>
+      <p>Files and folders are kept on the desktop’</p>
+    </li>
+    <li>
+      <p>Other…: _______________</p>
+    </li>
+  </ul>
+</blockquote>
+
+<p><strong>30%</strong> responded they typically open files and folders using <em>OS-wide search</em>, <strong>96%</strong> responded a <em>file manager app</em>, <strong>15%</strong> responded <em>taskbar or dock</em>, <strong>43%</strong> responded <em>from inside apps</em>, and <strong>13%</strong> responded that their files and folders are kept <em>on the desktop</em>. Of the <em>other</em> responses, many were clarifications about the choices, but we have been able to collate the most popular being <strong>7%</strong> of responses mentioning some form of terminal or CLI. <strong>4%</strong> answered <em>other</em> without expanding on the answer.</p>
+
+<figure>
+  <iframe width="577" height="406" seamless="" frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQnnvwEs6sKvkpHDXQpFK4H1jxzPtdeK8xgq7khTZ_Wdzv5CRCKOC87aDbaMq2ooPwdo-5LwyWVTlYu/pubchart?oid=2121393759&amp;format=interactive"></iframe>
+</figure>
+
+<p>The results for frequent or daily users of elementary OS are similar: <strong>27%</strong> responded <em>OS-wide search</em>, <strong>96%</strong> responded <em>file manager</em>, <strong>17%</strong> responded <em>taskbar or dock</em>, <strong>45%</strong> responded <em>from inside apps</em>, and <strong>13%</strong> responded <em>on the desktop</em>.</p>
+
+<hr />
+
+<h3 id="multitasking">Multitasking</h3>
+
+<p>This section gets into how respondents multi-task, e.g. switch between apps and windows. Our interest here is specifically to understand how the dock fits into multitasking and window management, but we didn’t want to lead responses in one direction or another. This section was select-all-that-apply and had 2,843 responses.</p>
+
+<blockquote>
+  <h4 id="how-do-you-usually-tell-which-apps-are-currently-open-in-the-background">How do you usually tell which apps are currently open in the background?</h4>
+
+  <ul>
+    <li>
+      <p>Dock or taskbar</p>
+    </li>
+    <li>
+      <p>Alt+tab or window switching</p>
+    </li>
+    <li>
+      <p>Multitasking view (e.g. Multitasking View on elementary OS, Mission Control on macOS, Task View on Windows, Activities view on GNOME, etc.)</p>
+    </li>
+    <li>
+      <p>Other…: _______________</p>
+    </li>
+  </ul>
+</blockquote>
+
+<p><strong>69%</strong> responded <em>dock or taskbar</em>, <strong>41%</strong> responded <em>alt+tab or window switching</em>, <strong>59%</strong> responded <em>multitasking view</em>. <strong>2%</strong> answered <em>other</em> without expanding on the answer. Less than <strong>1%</strong> responded with some mention of a task manager or system monitor, while around <strong>2%</strong> responded with a mention of system tray icons or app indicators.</p>
+
+<figure>
+  <iframe width="577" height="406" seamless="" frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQnnvwEs6sKvkpHDXQpFK4H1jxzPtdeK8xgq7khTZ_Wdzv5CRCKOC87aDbaMq2ooPwdo-5LwyWVTlYu/pubchart?oid=48982825&amp;format=interactive"></iframe>
+</figure>
+
+<p>The results for frequent or daily users of elementary OS are similar, with a notably higher skew for the dock: <strong>75%</strong> responded <em>dock or taskbar</em>, <strong>43%</strong> responded <em>alt+tab</em>, and <strong>60%</strong> responded <em>multitasking view</em>.</p>
+
+<blockquote>
+  <h4 id="how-do-you-usually-switch-between-open-apps">How do you usually switch between open apps?</h4>
+
+  <ul>
+    <li>
+      <p>Dock or taskbar</p>
+    </li>
+    <li>
+      <p>Alt+tab or window switching</p>
+    </li>
+    <li>
+      <p>Multitasking view (e.g. Multitasking View on elementary OS, Mission Control on macOS, Task View on Windows, Activities view on GNOME, etc.)</p>
+    </li>
+    <li>
+      <p>Other…: _______________</p>
+    </li>
+  </ul>
+</blockquote>
+
+<p><strong>53%</strong> responded <em>dock or taskbar</em>, <strong>73%</strong> responded <em>alt+tab or window switching</em>, <strong>52%</strong> responded <em>multitasking view</em>.</p>
+
+<!-- TODO: collate "other" responses -->
+
+<figure>
+  <iframe width="452" height="371" seamless="" frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQnnvwEs6sKvkpHDXQpFK4H1jxzPtdeK8xgq7khTZ_Wdzv5CRCKOC87aDbaMq2ooPwdo-5LwyWVTlYu/pubchart?oid=905929489&amp;format=interactive"></iframe>
+</figure>
+
+<p>The results for frequent or daily users of elementary OS are similar, with a higher skew for the dock: <strong>58%</strong> responded <em>dock or taskbar</em>, <strong>73%</strong> responded <em>alt+tab</em>, and <strong>51%</strong> responded <em>multitasking view</em>.</p>
+
+<blockquote>
+  <h4 id="how-do-you-usually-switch-between-open-windows-of-the-same-app">How do you usually switch between open windows of the same app?</h4>
+
+  <ul>
+    <li>
+      <p>Dock or taskbar</p>
+    </li>
+    <li>
+      <p>Alt+tab or window switching</p>
+    </li>
+    <li>
+      <p>Multitasking view (e.g. Multitasking View on elementary OS, Mission Control on macOS, Task View on Windows, Activities view on GNOME, etc.)</p>
+    </li>
+    <li>
+      <p>Other…: _______________</p>
+    </li>
+  </ul>
+</blockquote>
+
+<p><strong>43%</strong> responded <em>dock or taskbar</em>, <strong>62%</strong> responded <em>alt+tab or window switching</em>, <strong>45%</strong> responded <em>multitasking view</em>.</p>
+
+<!-- TODO: collate "other" responses -->
+
+<figure>
+  <iframe width="452" height="371" seamless="" frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQnnvwEs6sKvkpHDXQpFK4H1jxzPtdeK8xgq7khTZ_Wdzv5CRCKOC87aDbaMq2ooPwdo-5LwyWVTlYu/pubchart?oid=1983560674&amp;format=interactive"></iframe>
+</figure>
+
+<p>The results for frequent or daily users of elementary OS are identical: <strong>43%</strong> responded <em>dock or taskbar</em>, <strong>62%</strong> responded <em>alt+tab</em>, <strong>45%</strong> responded <em>multitasking view</em>.</p>
+
+<p>We also asked, “Anything else to share about how you use multitasking?”, and we’ve been digging through these free-form responses. Some of the highlights for me have been mentions of multiple displays, tiling, and multi-touch gestures.</p>
+
+<hr />
+
+<h3 id="closing-apps">Closing apps</h3>
+
+<p>We wanted to be sure to cover how the dock is used for closing apps, but didn’t want to ask leading questions; as such, we asked how people typically close apps and included the dock as one of many options. This section was select-all-that-apply and had 2,843 responses.</p>
+
+<blockquote>
+  <h4 id="how-do-you-usually-close-apps-that-are-open">How do you usually close apps that are open?</h4>
+
+  <ul>
+    <li>
+      <p>Closing with a button in the app/on its titlebar</p>
+    </li>
+    <li>
+      <p>Using a context menu on the dock/taskbar</p>
+    </li>
+    <li>
+      <p>Keyboard shortcuts (e.g. Ctrl+Q or Alt+F4)</p>
+    </li>
+    <li>
+      <p>From a multitasking view (e.g. Multitasking View on elementary OS, Mission Control on macOS, Task View on Windows, Activities view on GNOME, etc.)</p>
+    </li>
+    <li>
+      <p>Other…: _______________</p>
+    </li>
+  </ul>
+</blockquote>
+
+<p><strong>85%</strong> responded <em>a button in the app/on its titlebar</em>, <strong>23%</strong> responded <em>context menu on the dock/taskbar</em>, <strong>62%</strong> responded <em>keyboard shortcuts</em>, <strong>29%</strong> responded <em>multitasking view</em>. <strong>1%</strong> responded <em>other</em> without expanding on the answer.</p>
+
+<figure>
+  <iframe width="452" height="371" seamless="" frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQnnvwEs6sKvkpHDXQpFK4H1jxzPtdeK8xgq7khTZ_Wdzv5CRCKOC87aDbaMq2ooPwdo-5LwyWVTlYu/pubchart?oid=1954544244&amp;format=interactive"></iframe>
+</figure>
+
+<p>The results for frequent or daily users of elementary OS are similar: <strong>87%</strong> responded <em>a button in the app/on its titlebar</em>, <strong>24%</strong> responded <em>context menu on the dock/taskbar</em>, <strong>58%</strong> responded <em>keyboard shortcuts</em>, <strong>26%</strong> responded <em>multitasking view</em>.</p>
+
+<hr />
+
+<h3 id="app-actions">App actions</h3>
+
+<p>As above, we wanted to be sure to cover how the dock specifically is used for app actions, but didn’t want to ask leading questions. This first question was used as a filter for the following questions; people who responded “yes” received the follow-up actions-related questions, while anyone who responded “no” or “not sure” skipped the rest of the section.</p>
+
+<blockquote>
+  <h4 id="do-you-use-app-actions-or-shortcuts">Do you use app actions or shortcuts?</h4>
+
+  <p>To jump to a specific section or function of an app *without opening the app first.* For example, “New Incognito Window” for a web browser or “Compose Message” for an email client.</p>
+
+  <ul>
+    <li>Yes</li>
+    <li>No</li>
+    <li>Not sure</li>
+  </ul>
+</blockquote>
+
+<p><strong>54%</strong> responded <em>yes</em>, <strong>34%</strong> responded <em>no</em>, and <strong>13%</strong> responded <em>not sure</em>. As a result, the following questions in this section received 1,595 responses.</p>
+
+<!-- TODO: elementary OS -->
+
+<aside>
+  <p><strong>Note</strong>: when the study first launched, the logic for skipping the next questions was not working correctly; as such, we received a lot of “N/A” type responses for the next question. The issue was corrected after 136 responses and I don’t believe it largely affected the results, but wanted to share for transparency.</p>
+</aside>
+
+<blockquote>
+  <h4 id="how-do-you-usually-use-app-actions">How do you usually use app actions?</h4>
+
+  <p>To jump to a specific section or function of an app *without opening the app first.* For example, “New Incognito Window” for a web browser or “Compose Message” for an email client.</p>
+
+  <ul>
+    <li>
+      <p>Search (e.g. searching for actions by name in an app launcher)</p>
+    </li>
+    <li>
+      <p>Context menu in app launcher (e.g. right-clicking or long-pressing an app icon in the Applications Menu, Start menu, etc.)</p>
+    </li>
+    <li>
+      <p>Context menu on dock (e.g. right-clicking or long-pressing an app icon on the dock or taskbar)</p>
+    </li>
+    <li>
+      <p>Other…: _______________</p>
+    </li>
+  </ul>
+</blockquote>
+
+<p><strong>41%</strong> responded <em>search</em>, <strong>53%</strong> responded <em>context menu in app launcher</em>, <strong>66%</strong> responded <em>context menu on dock</em>.</p>
+
+<figure>
+  <iframe width="514" height="371" seamless="" frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQnnvwEs6sKvkpHDXQpFK4H1jxzPtdeK8xgq7khTZ_Wdzv5CRCKOC87aDbaMq2ooPwdo-5LwyWVTlYu/pubchart?oid=269257884&amp;format=interactive"></iframe>
+</figure>
+
+<p>Frequent or daily users of elementary OS answered similarly, but with an interesting skew towards the dock over other methods: <strong>36%</strong> answered <em>search</em>, <strong>46%</strong> answered <em>app launcher</em>, and <strong>68%</strong> answered <em>dock</em>.</p>
+
+<p>We also asked, “Anything else to share about how you use app actions?”, and we’ve been digging through these free-form responses. Some highlights were about them being more used on mobile OSes, that they wish more apps supported them, that they forget this is a feature, and how they work on other OSes.</p>
+
+<hr />
+
+<h3 id="glanceable-information">Glanceable information</h3>
+
+<p>These questions were again to look at how the dock is used, but were written to be non-leading and to include the dock as one of multiple options. Unlike previous questions, these were also select any that apply <em>without</em> a free-form “other” option.</p>
+
+<blockquote>
+  <h4 id="where-do-you-look-to-check-the-status-of-long-running-tasks">Where do you look to check the status of long running tasks?</h4>
+
+  <p>e.g. the progress of a download</p>
+
+  <ul>
+    <li>Notifications</li>
+    <li>Progress bar on the app’s dock/taskbar icon</li>
+    <li>In the app window itself</li>
+  </ul>
+</blockquote>
+
+<p><strong>45%</strong> responded <em>notifications</em>, <strong>60%</strong> responded <em>progress bar</em>, and <strong>74%</strong> responded <em>in the app window</em>. Less than <strong>1%</strong> skipped the question.</p>
+
+<figure>
+  <iframe width="514" height="371" seamless="" frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQnnvwEs6sKvkpHDXQpFK4H1jxzPtdeK8xgq7khTZ_Wdzv5CRCKOC87aDbaMq2ooPwdo-5LwyWVTlYu/pubchart?oid=1476048741&amp;format=interactive"></iframe>
+</figure>
+
+<p>Responses from frequent or daily users of elementary OS were similar, but with notably fewer relying on notifications and a slightly higher skew towards the dock progress bar (possibly because elementary OS has this feature, whereas some other platforms do not): <strong>34%</strong> responded <em>notifications</em>, <strong>63%</strong> responded <em>progress bar in dock</em>, and <strong>72%</strong> responded <em>in app window</em>.</p>
+
+<blockquote>
+  <h4 id="where-do-you-look-to-see-items-that-need-action-in-an-app">Where do you look to see items that need action in an app?</h4>
+
+  <p>e.g. outstanding tasks, or new messages</p>
+
+  <ul>
+    <li>Notifications</li>
+    <li>Badge on the app’s dock/taskbar icon</li>
+    <li>In the app window itself</li>
+  </ul>
+</blockquote>
+
+<p><strong>67%</strong> responded <em>notifications</em>, <strong>59%</strong> responded <em>badge</em>, and <strong>60%</strong> responded <em>in the app window</em>. Less than <strong>1%</strong> skipped the question.</p>
+
+<figure>
+  <iframe width="514" height="371" seamless="" frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQnnvwEs6sKvkpHDXQpFK4H1jxzPtdeK8xgq7khTZ_Wdzv5CRCKOC87aDbaMq2ooPwdo-5LwyWVTlYu/pubchart?oid=691208399&amp;format=interactive"></iframe>
+</figure>
+
+<p>The results for frequent or daily users of elementary OS are similar, but with a much higher skew towards dock badges—possibly because elementary OS has this feature by default but other platforms do not: <strong>66%</strong> responded <em>notifications</em>, <strong>67%</strong> responded <em>badge</em>, and <strong>57%</strong> responded <em>in the app</em>.</p>
+
+<hr />
+
+<h3 id="anything-else">Anything else?</h3>
+
+<p>Lastly, we asked “Anything else to share about the topics of this study?”, and we’ll be reading through those responses to better understand some of the more qualitative aspects of the study compared to the raw data.</p>
+
+<hr />
+
+<h2 id="whats-next">What’s Next</h2>
+
+<p>We’ve started analyzing and using this data to plan for our new Wayland-compatible dock; more on that effort soon! In the meantime, follow along on our <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/orgs/elementary/projects/99">public project board</a>.</p>
+
+<p><em>Wording and self-reporting from the user interface study might affect results, and I don’t pretend that this sample speaks for the entirety of FreeDesktop users. However, it’s a useful dataset of 2,843 responses that can help identify larger patterns. Percentages from the study are rounded to the nearest percent, so you may see things adding up to 101% or similar if there are half-percents involved.</em></p>
+
+<style>
+blockquote * {
+  font-style: initial;
+}
+</style>
 
 
   </section>
@@ -433,7 +920,7 @@
     
 
     <a
-      href="https://twitter.com/intent/tweet?text=Accessibility Features Are Just Features&url=https://blog.elementary.io/accessibility-features-are-just-features/&via=elementary&original_referer=https://blog.elementary.io/accessibility-features-are-just-features/"
+      href="https://twitter.com/intent/tweet?text=2021 UI Study Results&url=https://blog.elementary.io/2021-ui-study-results-dock-multitasking/&via=elementary&original_referer=https://blog.elementary.io/2021-ui-study-results-dock-multitasking/"
       rel="noreferrer nofollow noopener"
       target="_blank"
       title="Twitter"
@@ -443,7 +930,7 @@
     </a>
 
     <a
-      href="http://www.reddit.com/submit?title=Accessibility Features Are Just Features&url=https://blog.elementary.io/accessibility-features-are-just-features/"
+      href="http://www.reddit.com/submit?title=2021 UI Study Results&url=https://blog.elementary.io/2021-ui-study-results-dock-multitasking/"
       rel="noreferrer nofollow noopener"
       target="_blank"
       title="Reddit"
@@ -453,7 +940,7 @@
     </a>
 
     <a
-      href="https://www.facebook.com/sharer/sharer.php?u=https://blog.elementary.io/accessibility-features-are-just-features/"
+      href="https://www.facebook.com/sharer/sharer.php?u=https://blog.elementary.io/2021-ui-study-results-dock-multitasking/"
       rel="noreferrer nofollow noopener"
       target="_blank"
       title="Facebook"
@@ -463,7 +950,7 @@
     </a>
 
     <a
-      href="https://blog.elementary.io/accessibility-features-are-just-features/"
+      href="https://blog.elementary.io/2021-ui-study-results-dock-multitasking/"
       title="Permalink"
       onclick="return share()"
     >
@@ -478,9 +965,9 @@ function share() {
 
   if (navigator.share) {
     navigator.share({
-      title: "Accessibility Features Are Just Features",
-      text: "An OS-wide curb-cutting effort",
-      url: "https://blog.elementary.io/accessibility-features-are-just-features/",
+      title: "2021 UI Study Results",
+      text: "Digging into the dock, multitasking, and more",
+      url: "https://blog.elementary.io/2021-ui-study-results-dock-multitasking/",
     })
     .catch((error) => console.log("Error sharing", error));
 
@@ -497,12 +984,16 @@ function share() {
 <h2 class="up-next">Up Next</h2>
 
 
+
+
+
+
   
     
 
-<a class="featured with-image 1" href="/2021-ui-study-results-dock-multitasking/">
+<a class="featured with-image 1" href="/elementary-os-6-1-available-now/">
   
-    <div class="featured-image" alt="Featured image" style="background-image: url(/images/2021-ui-study-results-dock-multitasking/card.jpg);"></div>
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/elementary-os-6-1-available-now/card.png);"></div>
   
 
   <header>
@@ -510,7 +1001,7 @@ function share() {
 
 
 
-   2021 UI Study&nbsp;Results
+   elementary OS 6.1 Available&nbsp;Now
 
 </h2>
     
@@ -519,81 +1010,7 @@ function share() {
 
 
 
-   Digging into the dock, multitasking, and&nbsp;more
-
-
-        
-      </h3>
-    
-
-    
-
-
-
-<div class="byline">
-  <div class="avatar">
-    <img
-      
-        srcset="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&d=blank 2x"
-        src="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&d=blank"
-        alt="Avatar for Cassidy James Blaede"
-      
-    />
-  </div>
-  <div class="author">
-    
-    <span class="name">Cassidy James Blaede</span>
-    
-    
-      <span class="description">Co-founder & CXO</span>
-    
-  </div>
-  <time class="post-date" datetime="2022-01-27">Thu, Jan 27, 2022</time>
-  
-    <span class="read-time" title="Estimated read time">
-  
-  15 min read
-</span>
-
-
-  
-</div>
-
-
-  </header>
-
-  
-</a>
-
-
-  
-
-
-
-  
-    
-      
-
-<a class="featured with-image 1" href="/juno-updates-for-february-2019/">
-  
-    <div class="featured-image" alt="Featured image" style="background-image: url(https://cdn-images-1.medium.com/max/1600/1*h2xQZXwatwpPoUcaNbLcQg@2x.png);"></div>
-  
-
-  <header>
-    <h2>
-
-
-
-   Juno Updates for February,&nbsp;2019
-
-</h2>
-    
-      <h3>
-        
-
-
-
-   Bug fixes and performance&nbsp;improvements
+   We come bearing gifts and Yule&nbsp;tidings!
 
 
         
@@ -622,85 +1039,11 @@ function share() {
       <span class="description">Founder & CEO</span>
     
   </div>
-  <time class="post-date" datetime="2019-03-02">Sat, Mar  2, 2019</time>
+  <time class="post-date" datetime="2021-12-20">Mon, Dec 20, 2021</time>
   
     <span class="read-time" title="Estimated read time">
   
-  5 min read
-</span>
-
-
-  
-</div>
-
-
-  </header>
-
-  
-</a>
-
-
-    
-  
-
-
-
-  
-    
-
-<a class="featured with-image 1" href="/juno-updates-for-january-2019/">
-  
-    <div class="featured-image" alt="Featured image" style="background-image: url(https://cdn-images-1.medium.com/max/1600/1*X3SqeGe8u1fA7CMFijVkcA@2x.png);"></div>
-  
-
-  <header>
-    <h2>
-
-
-
-   Juno Updates for January,&nbsp;2019
-
-</h2>
-    
-      <h3>
-        
-
-
-
-   We’re back from the holidays with plenty of&nbsp;updates
-
-
-        
-      </h3>
-    
-
-    
-
-
-
-<div class="byline">
-  <div class="avatar">
-    <img
-      
-        srcset="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&d=blank 2x"
-        src="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&d=blank"
-        alt="Avatar for Danielle Foré"
-      
-    />
-  </div>
-  <div class="author">
-    
-    <span class="name">Danielle Foré</span>
-    
-    
-      <span class="description">Founder & CEO</span>
-    
-  </div>
-  <time class="post-date" datetime="2019-02-01">Fri, Feb  1, 2019</time>
-  
-    <span class="read-time" title="Estimated read time">
-  
-  4 min read
+  27 min read
 </span>
 
 
@@ -1137,209 +1480,11 @@ function share() {
     
 
     
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
       
 
-<a class="featured with-image small" href="/introducing-elementary-os-5-1-hera/">
+<a class="featured with-image small" href="/revitalize-mac-windows-computer/">
   
-    <div class="featured-image" alt="Featured image" style="background-image: url(/images/introducing-elementary-os-5-1-hera/wallpaper.jpg);"></div>
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/revitalize-mac-windows-computer/feature_1600.jpg);"></div>
   
 
   <header>
@@ -1347,7 +1492,7 @@ function share() {
 
 
 
-   Introducing elementary OS&nbsp;5.1 Hera
+   How to Revitalize Your Mac or Windows&nbsp;PC
 
 </h2>
     
@@ -1356,7 +1501,7 @@ function share() {
 
 
 
-   A major update on a solid&nbsp;foundation
+   Bring back a struggling computer with elementary&nbsp;OS
 
 
         
@@ -1385,11 +1530,11 @@ function share() {
       <span class="description">Co-founder & CXO</span>
     
   </div>
-  <time class="post-date" datetime="2019-12-03">Tue, Dec  3, 2019</time>
+  <time class="post-date" datetime="2020-10-16">Fri, Oct 16, 2020</time>
   
     <span class="read-time" title="Estimated read time">
   
-  20 min read
+  7 min read
 </span>
 
 
@@ -1541,11 +1686,137 @@ function share() {
     
 
     
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
       
 
-<a class="featured with-image small" href="/the-need-for-a-freedesktop-dark-style-preference/">
+<a class="featured with-image small" href="/welcome-to-the-new-blog/">
   
-    <div class="featured-image" alt="Featured image" style="background-image: url(https://cdn-images-1.medium.com/max/1952/1*NwP8sxbRTq7pzJLhDE2rnA@2x.png);"></div>
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/elementary-blog-code-1600.jpg);"></div>
   
 
   <header>
@@ -1553,7 +1824,7 @@ function share() {
 
 
 
-   The Need for a FreeDesktop Dark Style&nbsp;Preference
+   Welcome to the New&nbsp;Blog
 
 </h2>
     
@@ -1562,7 +1833,7 @@ function share() {
 
 
 
-   It’s time for the FreeDesktop to catch&nbsp;up
+   Why we left Medium, and&nbsp;how!
 
 
         
@@ -1591,11 +1862,11 @@ function share() {
       <span class="description">Co-founder & CXO</span>
     
   </div>
-  <time class="post-date" datetime="2019-05-17">Fri, May 17, 2019</time>
+  <time class="post-date" datetime="2019-08-15">Thu, Aug 15, 2019</time>
   
     <span class="read-time" title="Estimated read time">
   
-  19 min read
+  16 min read
 </span>
 
 
@@ -1621,9 +1892,20 @@ function share() {
     
 
     
+
+  
+
+    
+    
+
+    
+
+    
       
 
-<a class="featured small" href="/user-interface-study-findings/">
+<a class="featured with-image small" href="/licensing-written-content-cc-by-sa/">
+  
+    <div class="featured-image" alt="Featured image" style="background-image: url(https://i.snap.as/RduFRru.png);"></div>
   
 
   <header>
@@ -1631,7 +1913,7 @@ function share() {
 
 
 
-   2019 UI Study&nbsp;Results
+   Licensing for our&nbsp;Written Content
 
 </h2>
     
@@ -1640,7 +1922,7 @@ function share() {
 
 
 
-   Regarding Custom Styles, Dark Modes, and Night&nbsp;Light
+   Using Creative Commons Attribution&nbsp;Share-Alike
 
 
         
@@ -1669,11 +1951,11 @@ function share() {
       <span class="description">Co-founder & CXO</span>
     
   </div>
-  <time class="post-date" datetime="2019-05-16">Thu, May 16, 2019</time>
+  <time class="post-date" datetime="2019-08-01">Thu, Aug  1, 2019</time>
   
     <span class="read-time" title="Estimated read time">
   
-  8 min read
+  1 min read
 </span>
 
 
@@ -1683,11 +1965,6 @@ function share() {
 
   </header>
 
-  
-  <section class="excerpt">
-    <p>In my time contributing to elementary and GNOME, I’ve become familiar with pleas from users to implement official support for arbitrary themes — while that itself is a large and controversial topic, I have been working over the past few years to...</p>
-    <span>Read more…</span>
-  </section>
   
 </a>
 
