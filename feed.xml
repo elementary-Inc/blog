@@ -5,8 +5,8 @@
     <description>We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS</description>
     <link>https://blog.elementary.io/</link>
     <atom:link href="https://blog.elementary.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 27 Jan 2022 21:20:25 -0600</pubDate>
-    <lastBuildDate>Thu, 27 Jan 2022 21:20:25 -0600</lastBuildDate>
+    <pubDate>Thu, 27 Jan 2022 21:44:43 -0600</pubDate>
+    <lastBuildDate>Thu, 27 Jan 2022 21:44:43 -0600</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       
@@ -16,7 +16,7 @@
 
 &lt;p&gt;As we continue to iterate on the core experience of elementary OS, we are also aware of newer technologies like Wayland that we’re actively adopting to improve privacy, security, and performance—but doing so requires reworking some components like the dock and window manager to use new protocols and APIs. As long as we’re reworking some of these technical bits, it could be advantageous to rethink and improve upon the experience itself—plus, we can ensure we’re not writing new code to support legacy designs just because that’s how things worked in the past.&lt;/p&gt;
 
-&lt;p&gt;If that all sounds a bit ambitious… it kind of is! However, we’ve preciously worked on a &lt;a href=&quot;/user-interface-study-findings&quot;&gt;similar study&lt;/a&gt; around theming, dark styles, and night light modes that directly resulted in our implementation of a system-wide dark style as well as accent colors in elementary OS—and &lt;a href=&quot;/the-need-for-a-freedesktop-dark-style-preference&quot;&gt;our advocacy in that realm&lt;/a&gt; helped influence &lt;a href=&quot;https://blogs.gnome.org/alexm/2021/10/04/dark-style-preference/&quot;&gt;GNOME’s adoption of a cross-desktop dark style&lt;/a&gt; that will work on both GNOME and elementary OS. That work has been years in the making, but the pay-off is well worth it.&lt;/p&gt;
+&lt;p&gt;If that all sounds a bit ambitious… it kind of is! However, we’ve previously worked on a &lt;a href=&quot;/user-interface-study-findings&quot;&gt;similar study&lt;/a&gt; around theming, dark styles, and night light modes that directly resulted in our implementation of a system-wide dark style as well as accent colors in elementary OS—and &lt;a href=&quot;/the-need-for-a-freedesktop-dark-style-preference&quot;&gt;our advocacy in that realm&lt;/a&gt; helped influence &lt;a href=&quot;https://blogs.gnome.org/alexm/2021/10/04/dark-style-preference/&quot;&gt;GNOME’s adoption of a cross-desktop dark style&lt;/a&gt; that will work on both GNOME and elementary OS. That work has been years in the making, but the pay-off is well worth it.&lt;/p&gt;
 
 &lt;div style=&quot;margin: 3em auto;&quot;&gt;
 
