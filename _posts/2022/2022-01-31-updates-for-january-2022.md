@@ -29,6 +29,10 @@ And rounding out the office productivity apps, we pushed an update to Tasks addi
 
 There were also a handful of smaller updates throughout the month: we pushed an update to Files to show keyboard shortcuts for New Tab and New Window actions in the context menu—and we fixed a couple of crashes and interaction issues along the way. An update to Network settings fixes an issue with wired connections repeatedly reconnecting. We fixed a potential crash in Videos with certain media codecs. And lastly, we updated our Portals component to fix a number of issues with focus, positioning, animations, and crashes.
 
+### Get These Updates
+
+As always, pop open AppCenter on elementary OS 6.1 and hit "Update All" to get all these updates plus your regular security, bug fix, and translation updates.
+
 ## Shifting Development to OS 7
 
 At this point in the development cycle, we've started to shift our focus to developing elementary OS 7, the next major release. OS 6.1 will continue to receive updates and security fixes to underlying components from the Ubuntu repositories, and we'll continue releasing updates to the core apps and components as we're able—but in some cases, we're focusing on new OS features that rely on underlying technologies that are not available in the OS 6 base.
