@@ -7,6 +7,10 @@ tags:
   - ui-study
   - ux
   - evergreen
+
+sponsor:
+  name: Heather Ellsworth
+  link: https://github.com/hellsworth
 ---
 
 Over the past couple of months we've conducted a user interface study to dig into how people multi-task on elementary OS as well as other desktop and tablet operating systems. In particular, we were interested in better learning how people use the dock, app launchers, and window management.
