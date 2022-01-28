@@ -15,6 +15,11 @@ As we continue to iterate on the core experience of elementary OS, we are also a
 
 If that all sounds a bit ambitious… it kind of is! However, we've preciously worked on a [similar study](/user-interface-study-findings) around theming, dark styles, and night light modes that directly resulted in our implementation of a system-wide dark style as well as accent colors in elementary OS—and [our advocacy in that realm](/the-need-for-a-freedesktop-dark-style-preference) helped influence [GNOME's adoption of a cross-desktop dark style](https://blogs.gnome.org/alexm/2021/10/04/dark-style-preference/) that will work on both GNOME and elementary OS. That work has been years in the making, but the pay-off is well worth it.
 
+<div style="margin: 3em auto;">
+{% assign post = site.posts | where:"slug", "the-need-for-a-freedesktop-dark-style-preference" | first %}
+{% include featured.html post=post %}
+</div>
+
 At this point in the study, we have our raw data and have started digging into it to identify patterns and set priorities. Much like with the dark style study, the effects of this study may take some time to pan out, but I wanted to share our initial findings to kick the work off. We intend to follow up in the future to further share what we've inferred from the data, and how we expect it to influence our design going forward. We also hope these more raw results will be of use to other projects and desktops if they wish to draw their own conclusions; we're happy to participate in larger cross-desktop discussions and share this openly for all.
 
 ## Questions & Raw Stats
@@ -73,7 +78,7 @@ When looking at frequent or daily users of elementary OS specifically, the break
 
 When looking at frequent or daily users of elementary OS specifically, the breakdown was similar: **7%** never, **16%** infrequently, **22%** frequently, and **55%** daily.
 
-We also asked, "Anything else to share about how you launch apps and search?", and we've been digging through these free-form responses.
+We also asked, "Anything else to share about how you launch apps and search?", and we've been digging through these free-form responses. Many clarify when and how people prefer using search versus an app launcher.
 
 ---
 
