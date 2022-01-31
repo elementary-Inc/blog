@@ -82,7 +82,7 @@ Initial work towards power management in _System Settings_ → _Power_
 </figcaption>
 </figure>
 
-This work [has been merged](https://github.com/elementary/switchboard-plug-power/pull/192) into OS 7 daily builds and is accessible from _System Settings_ → _Power_, and we hope to also add a quicker way to change modes to the Panel indicator as well. We're also excited to hear feedback from [Early Access] users here, as this has been a highly-requested feature and we want to make sure to get the experience right.
+This work is possible thanks to the [upstream FreeDesktop Power Profiles Daemon](https://gitlab.freedesktop.org/hadess/power-profiles-daemon/), and settings to control its behavior [have been merged](https://github.com/elementary/switchboard-plug-power/pull/192) into OS 7 daily builds—we hope to add a quick way to change modes to the Panel indicator before release as well. We're excited to hear feedback from [Early Access] users here, as this has been a highly-requested feature and we want to make sure to get the experience right.
 
 <figure markdown="1" class="constrained">
 ![Screenshot of battery health](https://user-images.githubusercontent.com/611168/129139879-b1c00b6f-9bdd-4d91-980d-2b4edd096d3c.png){: width="890" height="565"}
@@ -117,6 +117,8 @@ So far we're investigating using PackageKit offline updates, but there's not cur
 
 But again, I want to stress that this is a fairly large undertaking and we're in the early phases. We hope it's ready and well-tested in time for the OS 7 release, but we're not currently committing to that.
 
+---
+
 ## Around the Web
 
 If you want to check out elementary OS 7, Danielle recently [hosted a livestream](https://www.youtube.com/watch?v=Ryu9-F6B2Gs) to show off a super early look. Check out her stream for a sneak peek:
@@ -137,6 +139,8 @@ Cassidy was also invited to the [latest monthly Ubuntu Indaba](https://www.youtu
 <div class="constrained" style="margin: 3em auto;">
 {% include youtube.html id="KDrUFzYDefE" %}
 </div>
+
+---
 
 ## Sponsors & Early Access
 

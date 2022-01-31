@@ -1,6 +1,6 @@
 ---
-title: Warble is a ‘Wordle’ Clone for elementary OS
-description: And It’s Just as Addictive
+title: Warble is a ‘Wordle’ Clone for elementary OS (And It’s Just as Addictive)
+description: Five letters, six guesses, and one VERY compelling game
 author: joeysneddon
 image: /images/updates-for-january-2022/warble.jpg
 
