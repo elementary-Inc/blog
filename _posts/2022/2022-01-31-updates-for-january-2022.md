@@ -117,6 +117,27 @@ So far we're investigating using PackageKit offline updates, but there's not cur
 
 But again, I want to stress that this is a fairly large undertaking and we're in the early phases. We hope it's ready and well-tested in time for the OS 7 release, but we're not currently committing to that.
 
+## Around the Web
+
+If you want to check out elementary OS 7, Danielle recently [hosted a livestream](https://www.youtube.com/watch?v=Ryu9-F6B2Gs) to show off a super early look. Check out her stream for a sneak peek:
+
+<div class="constrained" style="margin: 3em auto;">
+{% include youtube.html id="Ryu9-F6B2Gs" %}
+</div>
+
+OMG! Ubuntu! [wrote about the new Warble app](/warble-wordle-game-clone-for-elementary-os) for elementary OS, read it here:
+
+<div style="margin: 3em auto;">
+{% assign post = site.posts | where:"slug", "warble-wordle-game-clone-for-elementary-os" | first %}
+{% include featured.html post=post %}
+</div>
+
+Cassidy was also invited to the [latest monthly Ubuntu Indaba](https://www.youtube.com/watch?v=KDrUFzYDefE&t=23s) to chat about GTK4, Granite, Adwaita, and our relationships with both upstream and downstream open source projects. Give it a watch:
+
+<div class="constrained" style="margin: 3em auto;">
+{% include youtube.html id="KDrUFzYDefE" %}
+</div>
+
 ## Sponsors & Early Access
 
 If you want to get your hands on super early builds of elementary OS 7, you're in luck! [Early Access] is up and running with experimental daily builds built from an Ubuntu 22.04 LTS alpha base and the elementary daily repositories, meaning you're getting multiple layers of bleeding-edge software. But if you're wanting to follow along with the development cycle, it's the best way to do so—just keep it off your production machines for now, as major issues are to be expected at this point.
