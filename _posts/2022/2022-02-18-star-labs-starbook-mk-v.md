@@ -66,7 +66,7 @@ With the StarBook Mk V, Star Labs—like many manufacturers—faced component sh
 
 ## Continuing to make elementary OS more “gettable”
 
-Over the past year and a half we've been [working with retailers][now shipping] to ensure you can get elementary OS out of the box on dozens of device models. When we announced this effort, we teased "partner" devices:
+Over the past two years we've been [working with retailers][now shipping] to ensure you can get elementary OS out of the box on dozens of device models. When we announced this effort, we teased "partner" devices:
 
 >Partners must follow stricter software guidelines and receive per-model approval by elementary. In return, we feature the specific models in our store with higher prominence… Purchasing a partner device guarantees a portion of your purchase goes to elementary and helps ensure the long-term sustainability of elementary OS.
 
@@ -81,6 +81,10 @@ We're committed to ensuring elementary OS shines on bespoke hardware like StarBo
 ## Swimming Upstream
 
 In the open source world we have a notion of "upstream" and "downstream"; it refers to how open source software flows from the original author (the "upstream") down to other open source projects that make use of and often build upon it (the "downstreams"). For example, the Linux kernel, Ubuntu, and GTK are all considered upstream from elementary OS. Oftentimes when we solve an issue with an upstream project in elementary OS, we work directly with the upstream developers to get it resolved so all downstreams can benefit; while not strictly required by open source licenses, this relationship is core to a healthy open source ecosystem.
+
+<aside markdown="1">
+>We work directly with the upstream developers; this relationship is core to a healthy open source ecosystem.
+</aside>
 
 More than ever, we see this upstream/downstream relationship with elementary OS and hardware manufacturers. Hardware companies shipping elementary OS are considered downstream from elementary; they take the OS we've made and ship it on their hardware, sometimes making small tweaks to the OS to best support that hardware. For example, Star Labs hardware supports firmware updates from the LVFS, so they previously shipped both a firmware updater tool as well as a different boot screen that supported showing firmware update status. They also shipped their installations with a special OEM mode enabled to walk users through their initial setup.
 
