@@ -14,7 +14,7 @@ elementary is proud to announce our first ever partner device: **StarBook Mk V**
 </figure>
 
 <div style="text-align: center; margin: 4em auto;" markdown="1">
-[Learn More]{: .button.flat }
+[Learn More][store]{: .button.flat }
 [Buy Now]{: .button.suggested }
 </div>
 
@@ -49,7 +49,7 @@ StarBook Mk V is engineered around 11th-generation Intel Core processors, fast D
 And to top it all off, Star Labs provides regular firmware updates via the Linux Vendor Firmware Service for the StarDrive, system firmware, fan curves, and even bootloader—meaning your StarBook Mk V gets even better over time.
 
 <div style="margin: 4em auto; text-align: center" markdown="1">
-[Full Tech Specs]{: .button}
+[See Tech Specs][store]{: .button}
 </div>
 
 ## The Road to StarBook Mk V
@@ -104,12 +104,10 @@ StarBook Mk V is available today on the [elementary Store][store]. Each purchase
 </figure>
 
 <div style="text-align: center; margin: 4em auto;" markdown="1">
-[Learn More]{: .button.flat }
+[Learn More][store]{: .button.flat }
 [Buy Now]{: .button.suggested }
 </div>
 
 [now shipping]: /now-shipping-elementary-os
-[store]: https://elementary.io/store
-[learn more]: https://us.starlabs.systems/pages/starbook
-[buy now]: https://us.starlabs.systems/products/starbook?variant=39599067136164
-[full tech specs]: https://us.starlabs.systems/pages/starbook-specification
+[store]: https://store.elementary.io/devices/starbook
+[buy now]: https://us.starlabs.systems/products/starbook?partner=elementary&rfsn=4227837.e8f025
