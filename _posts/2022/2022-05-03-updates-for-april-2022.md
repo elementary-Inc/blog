@@ -9,9 +9,13 @@ tags:
   - updates
 ---
 
-it's been a little bit since an updates post, but we are back and operating as normal. While our primary focus has been getting everything ready to release elementary OS 7, we've also released a handful of fixes and creature comforts for OS 6.
+it's been a little while since an updates post, but we are back and operating as normal. While our primary focus has been getting everything ready to release elementary OS 7, we've also released a handful of fixes and creature comforts for OS 6.
 
-## Updates for OS 6
+## Updates for OS 6.1
+
+<figure class="constrained" markdown="1">
+![elementary OS 6.1 Jólnir](/images/elementary-os-6-1-available-now/card.png)
+</figure>
 
 System Settings received quite a bit of attention last month. Thanks to a first-time contributor, you can now choose to use the super key to open Multitasking View in Keyboard settings. You can now also set the refresh rate for IMAP in Online Accounts settings. Offline firmware updates are now supported on the System page. In Sound settings, we now have more helpful placeholder text when no input devices are found. And the Language & Region page now has better support for locales with 3-letter language codes.
 
@@ -23,6 +27,10 @@ A new version of Code was also released with some handy improvements. You can no
 
 ## Getting OS 7 Ready for Launch
 
+<figure class="constrained card" markdown="1">
+![elementary OS 7 Horus]( {{ page.image }})
+</figure>
+
 Now that Ubuntu 22.04 has been released, we're clear to wrap up development on elementary OS 7 and get it out the door! There's just a handful of things left to wrap up which you can follow along with on our [OS 7 Project board on GitHub](https://github.com/orgs/elementary/projects/94/views/1). At this time **there is no hard release date**; As per usual we'll be able to release when the outstanding tasks on the release board have been completed. In other words, if you'd like the release to come sooner, you can [get involved](https://elementary.io/get-involved) and make that happen!
 
 As a short summary, the primary blockers right now are cleaning up some regressions in our window manager and hunting down and fixing any other regressions we can find. We've also recently released new versions of our platform components including Granite 7, our Stylesheet, Icons, and our Flatpak runtime. We'll soon be releasing new versions of all of our packages built on the latest platform.
@@ -33,7 +41,13 @@ Firstly, I know some folks really care about the release code name, so I'm happy
 
 Some things to look forward to at release time are nice creature comforts like automatic app updates and power profiles options. We're also debuting a brand new more minimal Music. Some components have already migrated to Gtk4, so you can expect improved performance and smoother animations. Plus a few redesigned app icons.
 
-We won't be making the jump to Wayland this cycle in the interest of prioritizing a swift and stable release. Many of the gears are turning to make Wayland a priority, but it's not quite ready for showtime yet. We have a working prototype for offline release upgrades! Once OS 7 is released, we'll be able to more thoroughly test this and hopefully release the feature for OS 6 quickly. Speaking of OS 6, some components may continue to receive a slow trickle of updates, but development focus has completely shifted to OS 7. OS 6 should be considered in maintanence mode, so don't expect major new features or fixes besides the previously mentioned upgrade to OS 7. One small consolation is that Flatpak apps in AppCenter will continue to be updated and available for OS 6 users until you're ready to make the jump.
+We won't be making the jump to Wayland this cycle in the interest of prioritizing a swift and stable release. Many of the gears are turning to make Wayland a priority, but it's not quite ready for showtime yet. We have a working prototype for offline release upgrades! Once OS 7 is released, we'll be able to more thoroughly test this and hopefully release the feature for OS 6 quickly.
+
+Speaking of OS 6, some components may continue to receive a slow trickle of updates, but development focus has completely shifted to OS 7. OS 6 should be considered in maintanence mode, so don't expect major new features or fixes besides the previously mentioned upgrade to OS 7. One small consolation is that Flatpak apps in AppCenter will continue to be updated and available for OS 6 users until you're ready to make the jump.
+
+<aside markdown="1">
+>The time to update your apps to version 7 of our Flatpak platform is now
+</aside>
 
 Developers, the time to update your apps to version 7 of our Flatpak platform is now! At release time, be aware that AppCenter will call out apps using outdated runtimes. Platform 7 also includes Gtk4. You're not required to port to Gtk4 right away, but it's a good time to start thinking about it.
 
