@@ -41,7 +41,7 @@ Firstly, I know some folks really care about the release code name, so I'm happy
 
 Some things to look forward to at release time are nice creature comforts like automatic app updates and power profiles options. We're also debuting a brand new more minimal Music. Some components have already migrated to Gtk4, so you can expect improved performance and smoother animations. Plus a few redesigned app icons.
 
-We won't be making the jump to Wayland this cycle in the interest of prioritizing a swift and stable release. Many of the gears are turning to make Wayland a priority, but it's not quite ready for showtime yet. We have a working prototype for offline release upgrades! Once OS 7 is released, we'll be able to more thoroughly test this and hopefully release the feature for OS 6 quickly.
+We won't be making the jump to Wayland this cycle in the interest of prioritizing a swift and stable release. Many of the gears are turning to make Wayland a priority, but it's not quite ready for showtime yet. However, we do have a working prototype for offline release upgrades! Once OS 7 is released, we'll be able to more thoroughly test this and hopefully release the feature for OS 6 quickly.
 
 Speaking of OS 6, some components may continue to receive a slow trickle of updates, but development focus has completely shifted to OS 7. OS 6 should be considered in maintanence mode, so don't expect major new features or fixes besides the previously mentioned upgrade to OS 7. One small consolation is that Flatpak apps in AppCenter will continue to be updated and available for OS 6 users until you're ready to make the jump.
 
@@ -49,6 +49,6 @@ Speaking of OS 6, some components may continue to receive a slow trickle of upda
 >The time to update your apps to version 7 of our Flatpak platform is now
 </aside>
 
-Developers, the time to update your apps to version 7 of our Flatpak platform is now! At release time, be aware that AppCenter will call out apps using outdated runtimes. Platform 7 also includes Gtk4. You're not required to port to Gtk4 right away, but it's a good time to start thinking about it.
+Developers, the time to update your apps to version 7 of our Flatpak platform is now! Platform 7 is released and available from the AppCenter Flatpak remote for OS 6 users, so you can publish apps with it starting today. At release time, be aware that AppCenter will call out apps using the outdated 6.x runtimes. Platform 7 also includes Gtk4; You're not required to port to Gtk4 right away, but it's a good time to start thinking about it.
 
 Expect lots more details in the OS 7 release post highlighting everything new. In the meantime, if you'd like to get Early Access to see what's coming and give your feedback before release, [you can do so with a $10/mo sponsorship](https://builds.elementary.io/)!
