@@ -39,7 +39,7 @@ As a short summary, the primary blockers right now are cleaning up some regressi
 
 Firstly, I know some folks really care about the release code name, so I'm happy to announce that the code name for elementary OS 7 will be Horus! This cycle we're really prioritizing a swift release over packing in tons of features at the initial launch time, so you should expect that generally the feature set difference between 6.1 and 7 will be modest. However, because we release updates throughout the life cycle of the OS, you can expect that more features will land in OS 7 as the year goes on.
 
-Some things to look forward to at release time are nice creature comforts like automatic app updates and power profiles options. We're also debuting a brand new more minimal Music. Some components have already migrated to Gtk4, so you can expect improved performance and smoother animations. Plus a few redesigned app icons.
+Some things to look forward to at release time are nice creature comforts like automatic app updates and power profiles options. We're also debuting a brand new more minimal Music. Some components have already migrated to Gtk4, so you can expect improved performance and smoother animations. Plus a few redesigned app icons and other minor visual touch-ups.
 
 We won't be making the jump to Wayland this cycle in the interest of prioritizing a swift and stable release. Many of the gears are turning to make Wayland a priority, but it's not quite ready for showtime yet. However, we do have a working prototype for offline release upgrades! Once OS 7 is released, we'll be able to more thoroughly test this and hopefully release the feature for OS 6 quickly.
 
