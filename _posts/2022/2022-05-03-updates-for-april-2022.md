@@ -43,7 +43,7 @@ Some things to look forward to at release time are nice creature comforts like a
 
 We won't be making the jump to Wayland this cycle in the interest of prioritizing a swift and stable release. Many of the gears are turning to make Wayland a priority, but it's not quite ready for showtime yet. However, we do have a working prototype for offline release upgrades! Once OS 7 is released, we'll be able to more thoroughly test this and hopefully release the feature for OS 6 quickly.
 
-Speaking of OS 6, some components may continue to receive a slow trickle of updates, but development focus has completely shifted to OS 7. OS 6 should be considered in maintanence mode, so don't expect major new features or fixes besides the previously mentioned upgrade to OS 7. One small consolation is that Flatpak apps in AppCenter will continue to be updated and available for OS 6 users until you're ready to make the jump.
+Speaking of OS 6, some components may continue to receive a slow trickle of updates, but development focus has completely shifted to OS 7. OS 6 should be considered in maintenance mode, so don't expect major new features or fixes besides the previously mentioned upgrade to OS 7. One small consolation is that Flatpak apps in AppCenter will continue to be updated and available for OS 6 users until you're ready to make the jump.
 
 <aside markdown="1">
 >The time to update your apps to version 7 of our Flatpak platform is now
