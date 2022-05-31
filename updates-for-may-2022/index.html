@@ -3,10 +3,10 @@
   <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Scratch is now elementary Code &sdot; elementary Blog</title>
-  <meta property="og:title" content="Scratch is now elementary Code" />
-  <meta itemprop="name" content="Scratch is now elementary Code" />
-  <meta name="twitter:title" content="Scratch is now elementary Code" />
+  <title>Updates for May, 2022 &sdot; elementary Blog</title>
+  <meta property="og:title" content="Updates for May, 2022" />
+  <meta itemprop="name" content="Updates for May, 2022" />
+  <meta name="twitter:title" content="Updates for May, 2022" />
 
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -28,15 +28,15 @@
     
     
     <meta name="twitter:card" content="summary_large_image" />
-    <meta property="twitter:image" content="https://cdn-images-1.medium.com/max/600/1*JVvsDBXzN9Q7jhiGOD0B3A.png" />
+    <meta property="twitter:image" content="https://blog.elementary.io/images/elementary-os-6-odin-updates-september-2021/card.jpg" />
   
   <meta name="twitter:site" content="@elementary" />
   <meta name="twitter:creator" content="@elementary" />
 
-  <meta name="description" content="More than a name change" />
-  <meta property="og:description" content="More than a name change" />
-  <meta itemprop="description" content="More than a name change" />
-  <meta name="twitter:description" content="More than a name change" />
+  <meta name="description" content="OS 6 still gets the latest goodies" />
+  <meta property="og:description" content="OS 6 still gets the latest goodies" />
+  <meta itemprop="description" content="OS 6 still gets the latest goodies" />
+  <meta name="twitter:description" content="OS 6 still gets the latest goodies" />
 
   <link rel="stylesheet" type="text/css" media="all" href="/css/main.css?v=2022-05-31 18:50:58 -0500" />
   
@@ -142,10 +142,6 @@
   
   
   
-    <aside class="outdated">
-      <strong>Note:</strong> this post was written over two years ago. The information below may be outdated.
-    </aside>
-  
 
 
 
@@ -156,7 +152,7 @@
 
 
 
-   Scratch is now elementary&nbsp;Code
+   Updates for May,&nbsp;2022
 
 </h1>
     
@@ -164,7 +160,7 @@
 
 
 
-   More than a name&nbsp;change
+   OS 6 still gets the latest&nbsp;goodies
 
 </h2>
     
@@ -177,25 +173,25 @@
   <div class="avatar">
     <img
       
-        srcset="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&d=blank 2x"
-        src="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&d=blank"
-        alt="Avatar for Cassidy James Blaede"
+        srcset="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&d=blank 2x"
+        src="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&d=blank"
+        alt="Avatar for Danielle Foré"
       
     />
   </div>
   <div class="author">
-    <a href="/authors/#cassidyjames">
-    <span class="name">Cassidy James Blaede</span>
+    <a href="/authors/#danrabbit">
+    <span class="name">Danielle Foré</span>
     </a>
     
-      <span class="description">Co-founder & CXO</span>
+      <span class="description">Founder & CEO</span>
     
   </div>
-  <time class="post-date" datetime="2018-01-02">Tue, Jan  2, 2018</time>
+  <time class="post-date" datetime="2022-05-31">Tue, May 31, 2022</time>
   
     <span class="read-time" title="Estimated read time">
   
-  3 min read
+  5 min read
 </span>
 
 
@@ -206,9 +202,11 @@
     <aside class="tags">
   
   
-    <a class="tag" href="/tags/#devs">#devs</a>
+    <a class="tag" href="/tags/#horus">#horus</a>
   
-    <a class="tag" href="/tags/#juno">#juno</a>
+    <a class="tag" href="/tags/#jolnir">#jolnir</a>
+  
+    <a class="tag" href="/tags/#updates">#updates</a>
   
 </aside>
 
@@ -216,38 +214,69 @@
   </header>
 
   <section>
-    <p>In 2011, elementary debuted our own “text editor.” We’ve shipped it in elementary OS ever since as Scratch, the default app for handling any plain text files, but it’s evolved into more than a simple notepad.</p>
+    <p>We’re now in the final stretch with just a handful of issues left to resolve before we can release elementary OS 7. This month there was a large focus on making new stable releases of packages so that we can prepare for building stable images of OS 7. As we’ve mentioned before, the primary development focus has shifted from OS 6 and some components can no longer be released there. But, for those things which can still be built on both versions, a trickle of updates has landed in OS 6.1 this month.</p>
 
-<h3 id="but-what-is-a-texteditor">…but what is a Text Editor?</h3>
+<h2 id="updates-for-os-61">Updates for OS 6.1</h2>
 
-<p>We soon realized that the premise of a “text editor” is kind of silly; the fact that an app handles plain text files doesn’t inform <em>how</em> it’s used. Is it for note-taking? There are lots of features we could add for that (check lists, notebooks, highlighting, etc.). Is it a last-resort utility that nobody really means to open? We could strip it down to hardly anything if that’s the case.</p>
-
-<p>For Scratch, we always intended for it to be a <em>code</em> editor, not just a generic <em>text</em> editor. We’re not trying to build a note-taking app or stripped down utility. In fact, we use Scratch on elementary OS <em>to build elementary OS</em>.</p>
-
-<h3 id="focused-oncode">Focused on Code</h3>
-
-<p>By rebranding to Code, it lets us focus on what we intended from the start: building a great native code editor for developers on elementary OS. It also lets us reduce confusion between our app and the <a rel="nofollow noopener noreferrer" target="_blank" href="https://en.wikipedia.org/wiki/Scratch_%28programming_language%29">visual programming language</a> also known as Scratch. :)</p>
-
-<figure class="third">
-  <p><img src="https://cdn-images-1.medium.com/max/600/1*UYsmhLP8L6OHrLP55dBqNA.png" alt="" />
-<img src="https://cdn-images-1.medium.com/max/400/1*OA7Np5o_n3FymO9kd3doOw.png" alt="" />
-<img src="https://cdn-images-1.medium.com/max/600/1*JVvsDBXzN9Q7jhiGOD0B3A.png" alt="Old, generic, “text editor” Scratch icon versus the new, shiny, Code icon" /></p>
-  <figcaption>Old, generic, “text editor” Scratch icon versus the new, shiny, Code icon</figcaption>
+<figure class="constrained">
+  <p><img src="/images/elementary-os-6-1-available-now/card.png" alt="elementary OS 6.1 Jólnir" /></p>
 </figure>
 
-<p>Code follows our <a rel="nofollow noopener noreferrer" target="_blank" href="https://medium.com/elementaryos/cleaning-up-app-codenames-ef9fc637ddef">revised naming scheme</a> of just naming apps what they are or what they get you to; Files, Music, Videos, Calendar, Mail, Photos, etc. Now with Code, there’s no question as to the app’s purpose or intent. If you need to disambiguate, you can call it “elementary Code.”</p>
+<p>Thanks to the shift to Flatpak, some apps will be able to receive updates almost indefinitely. This month, folks running OS 6.1 received the latest version of GNOME Web, including all the security, compatibility, and performance improvements in the latest Webkit. Similarly, the Captive Network Assistant also received an update with the latest Webkit. The latest versions of GNOME Archive Manager and GNOME Document Viewer were also made available thanks to Flatpak. It’s worth noting that some of the latest open source operating systems released this last month are still shipping older versions of these apps than are available in OS 6.1. We’re very proud and excited to ship the latest apps from the GNOME 42 release on a stable, long-term support operating system.</p>
 
-<h4 id="updates">Updates</h4>
+<aside>
+  <blockquote>
+    <p>OS 6.1 is shipping newer versions of some apps than the latest Open Source operating systems released last month</p>
+  </blockquote>
+</aside>
 
-<p>From here forward, we’ll be making more code-editing-centric decisions around project management, plugins enabled by default, etc. In fact, we’ve already started making a number of these decisions and cleaning up preferences that make little sense in the context of reading and writing code.</p>
+<p>Also of note is the availability of Gtk4 apps. This month’s update to Calculator includes a huge code cleanup, but it also includes the jump to Gtk4. If you’ve already run your updates, you may have been using a Gtk4 app without even knowing it!</p>
 
-<p><img src="https://cdn-images-1.medium.com/max/1200/1*wF6RQzzo9iY5wwyafnsb_Q.png" alt="" /></p>
+<p>Terminal also received a small feature update this month including new keyboard shortcuts for switching tabs (<kbd>Alt</kbd> + <kbd>1</kbd>–<kbd>9</kbd>), and <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Q</kbd> to quit.</p>
 
-<p>We now enable the folder manager plugin (where you can load a project’s file tree into the sidebar) by default, there have been a number of improvements to the plugin like move to trash and rename, We also load the Symbols Outline plugin by default, we always display line numbers, the current line of code is highlighted by default, we have a new “draw spaces for highlighted text” option, tab width, highlighting, and cursor position information in shown in the HeaderBar, and more.</p>
+<p>In System Settings there’s now offline support for newly added CalDAV accounts, and we fixed an issue that prevented the description text in some authentication dialogs from being localized.</p>
 
-<h3 id="coming-tojuno">Coming to Juno</h3>
+<p>Initial Setup now also intelligently offers to switch the primary mouse button for left-handed folks, and suggests connecting to a network.</p>
 
-<p>This is the first of many big changes coming to a new major release of elementary OS. Stay tuned for sneak previews and teasers as we work on the next big thing!</p>
+<p>And lastly, the Settings Daemon has been updated to provide the first day of the week over the Settings Portal and avoids trying to Housekeep the Downloads folder if you’ve set downloads to go directly to your Home folder.</p>
+
+<h3 id="get-these-updates">Get These Updates</h3>
+
+<p>As always, pop open AppCenter on elementary OS 6.1 and hit “Update All” to get all these updates plus your regular security, bug fix, and translation updates.</p>
+
+<h2 id="os-7-is-nearly-here">OS 7 is Nearly Here!</h2>
+
+<figure class="constrained card">
+  <p><img src="/images/updates-for-april-2022/card.jpg" alt="elementary OS 7 Horus" /></p>
+</figure>
+
+<p>In case you missed it, <a rel="nofollow noopener noreferrer" target="_blank" href="https://www.youtube.com/watch?v=UKp4xs1_AuU">I streamed a few days ago</a> walking through the remaining tasks before releasing OS 7 as well as showing off some of the changes that have landed and answering your questions. To briefly recap:</p>
+
+<ul>
+  <li>You can always get the latest information, including an estimated release schedule, by following along with our <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/orgs/elementary/projects/94/views/1">OS 7 Project board on GitHub</a></li>
+  <li>The remaining work is largely centered around resolving Mutter-related regressions in Gala. If you’re an expert with Mutter or Clutter, <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/elementary/gala/issues">your help</a> is always appreciated!</li>
+  <li>This month, a lot of focus was on filling out the elementary Stable PPA on Launchpad which is required to build stable OS releases. Some of the more notable releases below:</li>
+</ul>
+
+<h3 id="appcenter">AppCenter</h3>
+
+<p>The headlining feature for AppCenter in OS 7 is the introduction of automatic app updates. You can now choose to have all installed Flatpak apps receive their updates automatically. There’s also now a menu with an option to manually check for new updates. And on app info pages, we’ll show a warning when apps are built against outdated or abandoned runtimes so you can be well-informed about whether an app you’re interested in is receiving regular updates.</p>
+
+<p>We’ve also removed the warning dialog for apps coming from alternative stores like Flathub and have reduced or removed other instances where AppCenter apps were being favored without legitimate reason. We’re always listening to your feedback and we want to do a better job ensuring that AppCenter helps you make informed choices without being overbearing and while avoiding any feelings of vendor lock-in.</p>
+
+<p>Lastly a lot of work has gone into improving performance and making navigation more reliable. A future update will soon improve this even further, so look forward to a quicker and smoother experience discovering new apps and managing your installed ones.</p>
+
+<h3 id="music">Music</h3>
+
+<p>The first stable release of the brand new Music was published and is even available for folks running OS 6 in AppCenter. This rewrite is about rethinking the role of the Music app in the current landscape. We’re excited for you to try this more minimal take on the Music app and we’re looking forward to improving it with your feedback.</p>
+
+<h3 id="design-updates">Design Updates</h3>
+
+<p>Several apps have received updated or redesigned app icons including Photos, Calendar, Mail, and Multitasking. We’re tracking a more complete refresh of app icons <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/orgs/elementary/projects/110">here in GitHub</a>, most of which will come as updates throughout the OS 7 lifecycle. Mail also received a visual refresh with a flatter, pane-focused design that you can look forward to. Overall, the design changes between OS 6 and the first release of OS 7 will be small and subtle, with larger changes coming later.</p>
+
+<hr />
+
+<p>Expect lots more details in the OS 7 release post highlighting everything new. In the meantime, if you’d like to get Early Access to see what’s coming and give your feedback before release, <a rel="nofollow noopener noreferrer" target="_blank" href="https://builds.elementary.io/">you can do so with a $10/mo sponsorship</a>!</p>
 
   </section>
 
@@ -410,7 +439,7 @@
     
 
     <a
-      href="https://twitter.com/intent/tweet?text=Scratch is now elementary Code&url=https://blog.elementary.io/scratch-is-now-elementary-code/&via=elementary&original_referer=https://blog.elementary.io/scratch-is-now-elementary-code/"
+      href="https://twitter.com/intent/tweet?text=Updates for May, 2022&url=https://blog.elementary.io/updates-for-may-2022/&via=elementary&original_referer=https://blog.elementary.io/updates-for-may-2022/"
       rel="noreferrer nofollow noopener"
       target="_blank"
       title="Twitter"
@@ -420,7 +449,7 @@
     </a>
 
     <a
-      href="http://www.reddit.com/submit?title=Scratch is now elementary Code&url=https://blog.elementary.io/scratch-is-now-elementary-code/"
+      href="http://www.reddit.com/submit?title=Updates for May, 2022&url=https://blog.elementary.io/updates-for-may-2022/"
       rel="noreferrer nofollow noopener"
       target="_blank"
       title="Reddit"
@@ -430,7 +459,7 @@
     </a>
 
     <a
-      href="https://www.facebook.com/sharer/sharer.php?u=https://blog.elementary.io/scratch-is-now-elementary-code/"
+      href="https://www.facebook.com/sharer/sharer.php?u=https://blog.elementary.io/updates-for-may-2022/"
       rel="noreferrer nofollow noopener"
       target="_blank"
       title="Facebook"
@@ -440,7 +469,7 @@
     </a>
 
     <a
-      href="https://blog.elementary.io/scratch-is-now-elementary-code/"
+      href="https://blog.elementary.io/updates-for-may-2022/"
       title="Permalink"
       onclick="return share()"
     >
@@ -455,9 +484,9 @@ function share() {
 
   if (navigator.share) {
     navigator.share({
-      title: "Scratch is now elementary Code",
-      text: "More than a name change",
-      url: "https://blog.elementary.io/scratch-is-now-elementary-code/",
+      title: "Updates for May, 2022",
+      text: "OS 6 still gets the latest goodies",
+      url: "https://blog.elementary.io/updates-for-may-2022/",
     })
     .catch((error) => console.log("Error sharing", error));
 
@@ -474,12 +503,16 @@ function share() {
 <h2 class="up-next">Up Next</h2>
 
 
+
+
+
+
   
     
 
-<a class="featured with-image 1" href="/updates-for-may-2022/">
+<a class="featured with-image 1" href="/updates-for-april-2022/">
   
-    <div class="featured-image" alt="Featured image" style="background-image: url(/images/elementary-os-6-odin-updates-september-2021/card.jpg);"></div>
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/updates-for-april-2022/card.jpg);"></div>
   
 
   <header>
@@ -487,7 +520,7 @@ function share() {
 
 
 
-   Updates for May,&nbsp;2022
+   Updates for April,&nbsp;2022
 
 </h2>
     
@@ -496,7 +529,7 @@ function share() {
 
 
 
-   OS 6 still gets the latest&nbsp;goodies
+   Counting down to OS&nbsp;7
 
 
         
@@ -525,7 +558,7 @@ function share() {
       <span class="description">Founder & CEO</span>
     
   </div>
-  <time class="post-date" datetime="2022-05-31">Tue, May 31, 2022</time>
+  <time class="post-date" datetime="2022-05-03">Tue, May  3, 2022</time>
   
     <span class="read-time" title="Estimated read time">
   
@@ -539,157 +572,6 @@ function share() {
 
   </header>
 
-  
-</a>
-
-
-  
-
-
-
-  
-    
-      
-
-<a class="featured with-image 1" href="/introducing-new-appcenter-categories/">
-  
-    <div class="featured-image" alt="Featured image" style="background-image: url(/images/introducing-new-appcenter-categories/1XU8e9StQRiWrwOw9S3UbCg@2x.png);"></div>
-  
-
-  <header>
-    <h2>
-
-
-
-   Introducing New AppCenter&nbsp;Categories
-
-</h2>
-    
-      <h3>
-        
-
-
-
-   Better for both users and&nbsp;developers
-
-
-        
-      </h3>
-    
-
-    
-
-
-
-<div class="byline">
-  <div class="avatar">
-    <img
-      
-        srcset="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&d=blank 2x"
-        src="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&d=blank"
-        alt="Avatar for Cassidy James Blaede"
-      
-    />
-  </div>
-  <div class="author">
-    
-    <span class="name">Cassidy James Blaede</span>
-    
-    
-      <span class="description">Co-founder & CXO</span>
-    
-  </div>
-  <time class="post-date" datetime="2018-01-16">Tue, Jan 16, 2018</time>
-  
-    <span class="read-time" title="Estimated read time">
-  
-  4 min read
-</span>
-
-
-  
-</div>
-
-
-  </header>
-
-  
-</a>
-
-
-    
-  
-
-
-
-  
-    
-
-<a class="featured 1" href="/our-2017-in-review/">
-  
-
-  <header>
-    <h2>
-
-
-
-   Our 2017 in&nbsp;Review
-
-</h2>
-    
-      <h3>
-        
-
-
-
-   Looking back on a year of active&nbsp;development
-
-
-        
-      </h3>
-    
-
-    
-
-
-
-<div class="byline">
-  <div class="avatar">
-    <img
-      
-        srcset="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&d=blank 2x"
-        src="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&d=blank"
-        alt="Avatar for Danielle Foré"
-      
-    />
-  </div>
-  <div class="author">
-    
-    <span class="name">Danielle Foré</span>
-    
-    
-      <span class="description">Founder & CEO</span>
-    
-  </div>
-  <time class="post-date" datetime="2017-12-31">Sun, Dec 31, 2017</time>
-  
-    <span class="read-time" title="Estimated read time">
-  
-  8 min read
-</span>
-
-
-  
-</div>
-
-
-  </header>
-
-  
-  <section class="excerpt">
-    <p>Every month this year, we’ve published a blog post outlining all of the updates that we’ve released during that month. We’ve made a strong effort to support Loki with regular bug fixes, new features, and other improvements. We’ve also made...</p>
-    <span>Read more…</span>
-  </section>
   
 </a>
 
@@ -733,110 +615,11 @@ function share() {
     
 
     
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
       
 
-<a class="featured with-image small" href="/edw-2021/">
+<a class="featured with-image small" href="/updates-for-january-2022/">
   
-    <div class="featured-image" alt="Featured image" style="background-image: url(/images/edw-2021/card.png);"></div>
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/elementary-os-6-odin-updates-september-2021/card.jpg);"></div>
   
 
   <header>
@@ -844,7 +627,7 @@ function share() {
 
 
 
-   elementary Developer Week&nbsp;2021
+   Updates for January,&nbsp;2022
 
 </h2>
     
@@ -853,7 +636,7 @@ function share() {
 
 
 
-   Online · June 26–27,&nbsp;2021
+   What’s new in OS 6.1, plus shifting development to OS&nbsp;7
 
 
         
@@ -882,11 +665,11 @@ function share() {
       <span class="description">Co-founder & CXO</span>
     
   </div>
-  <time class="post-date" datetime="2021-06-26">Sat, Jun 26, 2021</time>
+  <time class="post-date" datetime="2022-01-31">Mon, Jan 31, 2022</time>
   
     <span class="read-time" title="Estimated read time">
   
-  1 min read
+  10 min read
 </span>
 
 
@@ -912,11 +695,29 @@ function share() {
     
 
     
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
       
 
-<a class="featured with-image small" href="/elementary-os-6-odin-beta-2/">
+<a class="featured with-image small" href="/elementary-os-6-1-available-now/">
   
-    <div class="featured-image" alt="Featured image" style="background-image: url(/images/updates-for-july-2020/card.png);"></div>
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/elementary-os-6-1-available-now/card.png);"></div>
   
 
   <header>
@@ -924,7 +725,7 @@ function share() {
 
 
 
-   elementary OS 6 Beta 2 Now&nbsp;Available
+   elementary OS 6.1 Available&nbsp;Now
 
 </h2>
     
@@ -933,87 +734,7 @@ function share() {
 
 
 
-   Installer, Flatpak, Online Accounts, Notifications, and more since Beta&nbsp;1
-
-
-        
-      </h3>
-    
-
-    
-
-
-
-<div class="byline">
-  <div class="avatar">
-    <img
-      
-        srcset="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&d=blank 2x"
-        src="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&d=blank"
-        alt="Avatar for Cassidy James Blaede"
-      
-    />
-  </div>
-  <div class="author">
-    
-    <span class="name">Cassidy James Blaede</span>
-    
-    
-      <span class="description">Co-founder & CXO</span>
-    
-  </div>
-  <time class="post-date" datetime="2021-06-16">Wed, Jun 16, 2021</time>
-  
-    <span class="read-time" title="Estimated read time">
-  
-  6 min read
-</span>
-
-
-  
-</div>
-
-
-  </header>
-
-  
-</a>
-
-
-      
-      
-    
-
-  
-
-    
-    
-
-    
-
-    
-      
-
-<a class="featured with-image small" href="/appcenter-dashboard-sprint/">
-  
-    <div class="featured-image" alt="Featured image" style="background-image: url(/images/appcenter-dashboard-sprint/owen-lystrup-unsplash.jpg);"></div>
-  
-
-  <header>
-    <h2>
-
-
-
-   AppCenter Dashboard Sprint Spring&nbsp;2021
-
-</h2>
-    
-      <h3>
-        
-
-
-
-   Big steps for the Flatpak-based&nbsp;AppCenter
+   We come bearing gifts and Yule&nbsp;tidings!
 
 
         
@@ -1042,11 +763,11 @@ function share() {
       <span class="description">Founder & CEO</span>
     
   </div>
-  <time class="post-date" datetime="2021-05-27">Thu, May 27, 2021</time>
+  <time class="post-date" datetime="2021-12-20">Mon, Dec 20, 2021</time>
   
     <span class="read-time" title="Estimated read time">
   
-  5 min read
+  27 min read
 </span>
 
 
@@ -1072,11 +793,20 @@ function share() {
     
 
     
+
+  
+
+    
+    
+
+    
+
+    
       
 
-<a class="featured with-image small" href="/elementary-os-6-odin-beta/">
+<a class="featured with-image small" href="/elementary-os-6-odin-updates-november-2021/">
   
-    <div class="featured-image" alt="Featured image" style="background-image: url(/images/updates-for-july-2020/card.png);"></div>
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/elementary-os-6-odin-updates-november-2021/card.jpg);"></div>
   
 
   <header>
@@ -1084,7 +814,7 @@ function share() {
 
 
 
-   elementary OS 6 Beta Available&nbsp;Today
+   elementary OS 6 Updates for November,&nbsp;2021
 
 </h2>
     
@@ -1093,7 +823,7 @@ function share() {
 
 
 
-   What’s a beta, and what’s new for&nbsp;developers?
+   New features and improved design to get ready for the&nbsp;holidays
 
 
         
@@ -1122,11 +852,11 @@ function share() {
       <span class="description">Co-founder & CXO</span>
     
   </div>
-  <time class="post-date" datetime="2021-04-30">Fri, Apr 30, 2021</time>
+  <time class="post-date" datetime="2021-11-29">Mon, Nov 29, 2021</time>
   
     <span class="read-time" title="Estimated read time">
   
-  12 min read
+  9 min read
 </span>
 
 
@@ -1161,128 +891,11 @@ function share() {
     
 
     
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
       
 
-<a class="featured with-image small" href="/updates-for-june-2020/">
+<a class="featured with-image small" href="/elementary-os-6-odin-updates-october-2021/">
   
-    <div class="featured-image" alt="Featured image" style="background-image: url(/images/hera-updates-for-june-2020/card.png);"></div>
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/elementary-os-6-odin-updates-october-2021/card.jpg);"></div>
   
 
   <header>
@@ -1290,7 +903,7 @@ function share() {
 
 
 
-   Hera Updates for June,&nbsp;2020
+   elementary OS 6 Updates for October,&nbsp;2021
 
 </h2>
     
@@ -1299,7 +912,7 @@ function share() {
 
 
 
-   Fixes and improvements with OS 5.1.6, plus a note about the&nbsp;future
+   All the small&nbsp;things
 
 
         
@@ -1328,11 +941,11 @@ function share() {
       <span class="description">Founder & CEO</span>
     
   </div>
-  <time class="post-date" datetime="2020-07-01">Wed, Jul  1, 2020</time>
+  <time class="post-date" datetime="2021-10-30">Sat, Oct 30, 2021</time>
   
     <span class="read-time" title="Estimated read time">
   
-  5 min read
+  10 min read
 </span>
 
 
@@ -1358,146 +971,11 @@ function share() {
     
 
     
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
       
 
-<a class="featured with-image small" href="/introducing-elementary-os-5-1-hera/">
+<a class="featured with-image small" href="/elementary-os-6-odin-updates-september-2021/">
   
-    <div class="featured-image" alt="Featured image" style="background-image: url(/images/introducing-elementary-os-5-1-hera/wallpaper.jpg);"></div>
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/elementary-os-6-odin-updates-september-2021/card.jpg);"></div>
   
 
   <header>
@@ -1505,7 +983,7 @@ function share() {
 
 
 
-   Introducing elementary OS&nbsp;5.1 Hera
+   elementary OS 6 Updates for September,&nbsp;2021
 
 </h2>
     
@@ -1514,7 +992,7 @@ function share() {
 
 
 
-   A major update on a solid&nbsp;foundation
+   Big updates to&nbsp;AppCenter
 
 
         
@@ -1543,11 +1021,91 @@ function share() {
       <span class="description">Co-founder & CXO</span>
     
   </div>
-  <time class="post-date" datetime="2019-12-03">Tue, Dec  3, 2019</time>
+  <time class="post-date" datetime="2021-10-04">Mon, Oct  4, 2021</time>
   
     <span class="read-time" title="Estimated read time">
   
-  20 min read
+  10 min read
+</span>
+
+
+  
+</div>
+
+
+  </header>
+
+  
+</a>
+
+
+      
+      
+    
+
+  
+
+    
+    
+
+    
+
+    
+      
+
+<a class="featured with-image small" href="/elementary-os-6-odin-updates-august-2021/">
+  
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/elementary-os-6-odin-updates-august-2021/card.jpg);"></div>
+  
+
+  <header>
+    <h2>
+
+
+
+   elementary OS 6 Updates for August,&nbsp;2021
+
+</h2>
+    
+      <h3>
+        
+
+
+
+   Just three weeks since the release, and we already have more&nbsp;goodies
+
+
+        
+      </h3>
+    
+
+    
+
+
+
+<div class="byline">
+  <div class="avatar">
+    <img
+      
+        srcset="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&d=blank 2x"
+        src="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&d=blank"
+        alt="Avatar for Danielle Foré"
+      
+    />
+  </div>
+  <div class="author">
+    
+    <span class="name">Danielle Foré</span>
+    
+    
+      <span class="description">Founder & CEO</span>
+    
+  </div>
+  <time class="post-date" datetime="2021-08-31">Tue, Aug 31, 2021</time>
+  
+    <span class="read-time" title="Estimated read time">
+  
+  8 min read
 </span>
 
 
