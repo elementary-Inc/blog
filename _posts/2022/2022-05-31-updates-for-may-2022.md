@@ -2,7 +2,7 @@
 title: Updates for May, 2022
 description: OS 6 still gets the latest goodies
 author: danrabbit
-image: /images/updates-for-may-2022/card.jpg
+image: /images/elementary-os-6-odin-updates-september-2021/card.jpg
 
 tags:
   - horus
@@ -26,7 +26,7 @@ Thanks to the shift to Flatpak, some apps will be able to receive updates almost
 
 Also of note is the availability of Gtk4 apps. This month's update to Calculator includes a huge code cleanup, but it also includes the jump to Gtk4. If you've already run your updates, you may have been using a Gtk4 app without even knowing it!
 
-Terminal also received a small feature update this month including new keyboard shortcuts for switching tabs (<key>Alt</key> + <key>1</key>—<key>9</key>), and <key>Ctrl</key> + <key>Shift</key> + <key>Q</key> to quit.
+Terminal also received a small feature update this month including new keyboard shortcuts for switching tabs (<kbd>Alt</kbd> + <kbd>1</kbd>–<kbd>9</kbd>), and <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Q</kbd> to quit.
 
 In System Settings there's now offline support for newly added CalDAV accounts, and we fixed an issue that prevented the description text in some authentication dialogs from being localized.
 
@@ -41,63 +41,31 @@ As always, pop open AppCenter on elementary OS 6.1 and hit "Update All" to get a
 ## OS 7 is Nearly Here!
 
 <figure class="constrained card" markdown="1">
-![elementary OS 7 Horus]( {{ page.image }})
+![elementary OS 7 Horus](/images/updates-for-april-2022/card.jpg)
 </figure>
 
+In case you missed it, [I streamed a few days ago](https://www.youtube.com/watch?v=UKp4xs1_AuU) walking through the remaining tasks before releasing OS 7 as well as showing off some of the changes that have landed and answering your questions. To briefly recap:
 
+* You can always get the latest information, including an estimated release schedule, by following along with our [OS 7 Project board on GitHub](https://github.com/orgs/elementary/projects/94/views/1)
+* The remaining work is largely centered around resolving Mutter-related regressions in Gala. If you're an expert with Mutter or Clutter, [your help](https://github.com/elementary/gala/issues) is always appreciated!
+* This month, a lot of focus was on filling out the elementary Stable PPA on Launchpad which is required to build stable OS releases. Some of the more notable releases below:
 
+### AppCenter
 
-Photos and Calendar icon redesign
+The headlining feature for AppCenter in OS 7 is the introduction of automatic app updates. You can now choose to have all installed Flatpak apps receive their updates automatically. There's also now a menu with an option to manually check for new updates. And on app info pages, we'll show a warning when apps are built against outdated or abandoned runtimes so you can be well-informed about whether an app you're interested in is receiving regular updates.
 
-### Feedback:
-Avoid focus stealing prevention when opening a web browser
-Show more entries under Desktop Components
+We've also removed the warning dialog for apps coming from alternative stores like Flathub and have reduced or removed other instances where AppCenter apps were being favored without legitimate reason. We're always listening to your feedback and we want to do a better job ensuring that AppCenter helps you make informed choices without being overbearing and while avoiding any feelings of vendor lock-in.
 
-### AppCenter:
-Added an option to automatically update apps
-Manually check for new updates
-Warn when apps are built against older runtimes
-Fixes:
+Lastly a lot of work has gone into improving performance and making navigation more reliable. A future update will soon improve this even further, so look forward to a quicker and smoother experience discovering new apps and managing your installed ones.
 
-Prevent back button from disappearing or requiring multiple clicks
-Improvements:
+### Music
 
-Don't show a warning dialog about apps from alt stores
-Show screenshot captions in a tooltip
-Show "Try for Free" when setting an app's price to 0
-Performance improvements
-Updated translations
+The first stable release of the brand new Music was published and is even available for folks running OS 6 in AppCenter. This rewrite is about rethinking the role of the Music app in the current landscape. We're excited for you to try this more minimal take on the Music app and we're looking forward to improving it with your feedback.
 
-### Mail
-Fixes:
+### Design Updates
 
-Fixed an error which caused mail accounts to be loaded multiple times
-Fixed a bug which caused Mail to crash occasionally
-Display recipient in Sent folder instead of sender
-Improvements:
+Several apps have received updated or redesigned app icons including Photos, Calendar, Mail, and Multitasking. We're tracking a more complete refresh of app icons [here in GitHub](https://github.com/orgs/elementary/projects/110), most of which will come as updates throughout the OS 7 lifecycle. Mail also received a visual refresh with a flatter, pane-focused design that you can look forward to. Overall, the design changes between OS 6 and the first release of OS 7 will be small and subtle, with larger changes coming later.
 
-Updated app icon
-New design
-Updated translations
-
-### Onboarding
-Add Automatic Updates view
-Add Sunset to Sunrise to Style View
-Update for OS 7 and Gtk 4
-Updated translations
-
-### System Settings
-Add power profile management
-Forbid new USB devices while locked
-
-### Shortcut Overlay
-ported to Gtk4
-
-### Music 7
-
-Complete rewrite. Available for OS 6 users in AppCenter
-
-
-As always, you can follow along with detailed progress, including an estimated release schedule, [on GitHub](https://github.com/orgs/elementary/projects/94/views/10).
+---
 
 Expect lots more details in the OS 7 release post highlighting everything new. In the meantime, if you'd like to get Early Access to see what's coming and give your feedback before release, [you can do so with a $10/mo sponsorship](https://builds.elementary.io/)!
