@@ -16,8 +16,26 @@ This month saw quite a number of updates for OS 6.1 including some nice feature 
 ![elementary OS 6.1 Jólnir](/images/elementary-os-6-1-available-now/card.png)
 </figure>
 
-## Network Indicator 
-* better support for VPNS, and correctly reports WPA3 networks
+## Files
+
+A slew of bug fixes landed in Files this month. Selecting multiple items by holding <kbd>Shift</kbd> and using arrow keys now works more reliably. Pressing <kbd>Ctrl</kbd><kbd>V</kbd> now reliably pastes into the currently viewed folder, while <kbd>Shift</kbd><kbd>Ctrl</kbd><kbd>V</kbd> pasts into the selected folder, if there is one. Pressing <kbd>Ctrl</kbd><kbd>A</kbd> while renaming now properly selects all text in the entry, and canceling without renaming no longer shows an error message. 
+
+<figure markdown="1">
+![File Chooser Confirmation Dialog](/images/updates-for-june-2022/files-confirm.png)
+<figcaption markdown="1">
+The File Chooser now double checks that you really want to overwrite that file
+</figcaption>
+</figure>
+
+Network sidebar plugins such as NextCloud are now added correctly, the Trash item can no longer be removed from the sidebar, and bookmarks are now highlighted when dragging a file into them. The appearance of the pointer more accurately reflects the action it will take—especially handy in list and column view—and we now show a confirmation dialog in the file chooser before overwriting an existing file. Plus, a couple of intermittent issues were resolved with duplicate subfolders in list view and previous sessions not being restored accurately.
+
+## Camera
+
+The latest release of Camera now supports more types of cameras including MJPEG cameras, and it shows an error message in case no camera is available. It also does a better job of properly saving photos with different types of cameras, and we ensure brightness, contrast, and mirror settings persist after taking a photo. Plus, we improved performance and stability.
+
+## Tasks
+
+Tasks now does a better job keeping your task list in sync by automatically syncing a task list when you select it as well as when your network becomes available after having been disconnected. Plus we now have offline support for newly created task lists when it is configured for the account.
 
 ## Printer Settings
 
@@ -29,44 +47,11 @@ This month saw quite a number of updates for OS 6.1 including some nice feature 
 </figcaption>
 </figure>
 
-Major shoutouts to Jeremy who took ownership on printer settings this month. We landed several design improvements including making it clearer to add and remove printers, improvements to the way ink levels are shown, a redesign print queue, and much more information descriptions when selecting a print driver. You can now also clear the print queue per printer, and the sidebar and print queue are much more reliable.
+Major shoutouts to Jeremy who took ownership on printer settings this month. We landed several design improvements including making it clearer to add and remove printers, improvements to the way ink levels are shown, a redesign print queue, and much more informative descriptions when selecting a print driver. You can now also clear the print queue per printer—a convenient privacy feature for shared computers—and the sidebar and print queue are much more reliable.
 
-## Files
-Fixes:
+## And More
 
-Renaming with the same name no longer shows an error dialog
-Ctrl + A when renaming now selects all the text in the entry
-Selecting multiple items with Shift + Arrow keys now works properly
-The appearance of the cursor now matches the action
-The Trash sidebar item can no longer be removed
-Network sidebar plugins such as NextCloud are now added correctly
-Duplication of subfolders in ListView under some circumstances is fixed
-Bookmarks are now highlighted when a file they can accept is dragged onto them
-Folders not being restored properly under some circumstances is fixed
-Show confirmation dialog in file chooser before overwriting an existing file
-Ctrl + V now always pastes into background folder
-Shift + Ctrl + V now pastes into selected folder if there is one
-
-## Tasks
-Add offline support for newly created task lists in case its configured for the account
-Automatically synchronize a task list whenever it is selected or the network becomes available again
-
-## Notifications
-Fix missing icons in some cases
-
-## Camera
-
-Support MJPEG cameras
-Take a photo or video on secondary-click
-
-Show error in case no camera device is available
-Ensure brightness, contrast, and mirror continue working after taking a photo
-Wider hardware compatibility (e.g. StarBook Mk V)
-Ensure photos saved properly
-Minor updates:
-
-Improved performance and reliability
-Updated translations
+Notifications was updated to fix some cases where notification bubbles weren't showing the correct icon. The network indicator now correctly reports info for WPA3 networks and does a better job handling VPNs.
 
 ## Get These Updates
 
