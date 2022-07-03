@@ -27,7 +27,7 @@ The File Chooser now double checks that you really want to overwrite that file
 </figcaption>
 </figure>
 
-Network sidebar plugins such as NextCloud are now added correctly, the Trash item can no longer be removed from the sidebar, and bookmarks are now highlighted when dragging a file into them. The appearance of the pointer more accurately reflects the action it will take—especially handy in list and column view—and we now show a confirmation dialog in the file chooser before overwriting an existing file. Plus, a couple of intermittent issues were resolved with duplicate subfolders in list view and previous sessions not being restored accurately.
+Network sidebar plugins such as NextCloud are now added correctly, the Trash item can no longer be removed from the sidebar, and bookmarks are now highlighted when dragging a file into them. The appearance of the pointer more accurately reflects the action it will take—especially handy in list and column view—and we now show a confirmation dialog in the file chooser before overwriting an existing file. Also, image thumbnails now always display centered on a card of the same background size, making small images or images with extreme aspect ratios much easier to interact with. Plus, a couple of intermittent issues were resolved with duplicate subfolders in list view and previous sessions not being restored accurately.
 
 ## Camera
 
@@ -49,13 +49,28 @@ Tasks now does a better job keeping your task list in sync by automatically sync
 
 Major shoutouts to Jeremy who took ownership on printer settings this month. We landed several design improvements including making it clearer to add and remove printers, improvements to the way ink levels are shown, a redesign print queue, and much more informative descriptions when selecting a print driver. You can now also clear the print queue per printer—a convenient privacy feature for shared computers—and the sidebar and print queue are much more reliable.
 
+
+## Desktop Settings
+
+<figure class="half" markdown="1">
+![Redesigned Appearance Settings](/images/updates-for-june-2022/desktop-appearance.png){: width="989" height="688"}
+![Redesigned Multitasking Settings](/images/updates-for-june-2022/desktop-multitasking.png){: width="1073" height="769"}
+<figcaption markdown="1">
+**Left:** A redesigned appearance settings | **Right:** Redesigned Multitasking settings with custom commands for each hotcorner
+</figcaption>
+</figure>
+
+The Appearance settings page has been slightly redesigned to better separate each section and make schedule settings more clear and less overwhelming. Multitasking settings received a larger redesign with explicit labels for each hot corner and the ability to create custom terminal commands for each corner as well. This design is hopefully a bit more accessible for those using screen readers and offers more flexibility for folks with specific automation needs.
+
 ## And More
 
-Notifications was updated to fix some cases where notification bubbles weren't showing the correct icon. The network indicator now correctly reports info for WPA3 networks and does a better job handling VPNs.
+Notifications was updated to fix some cases where notification bubbles weren't showing the correct icon. Network Settings and the Network Indicator now correctly report info for WPA3 networks and the indicator does a better job handling VPNs.
 
 ## Get These Updates
 
 As always, pop open AppCenter on elementary OS 6.1 and hit "Update All" to get all these updates plus your regular security, bug fix, and translation updates.
+
+---
 
 ## OS 7 will be a little longer
 
@@ -64,7 +79,5 @@ As always, pop open AppCenter on elementary OS 6.1 and hit "Update All" to get a
 </figure>
 
 If you've been watching the OS 7 project board, you may have noticed that we've gotten a little stuck. The major release blocking issues right now are the same ones that we had last month and are proving difficult to resolve. We're so close and we want to deliver OS 7 as soon as possible, but these are real show stoppers that we can't release without fixing. Hang tight!
-
----
 
 Expect lots more details in the OS 7 release post highlighting everything new. In the meantime, if you'd like to get Early Access to see what's coming and give your feedback before release, [you can do so with a $10/mo sponsorship](https://builds.elementary.io/)!
