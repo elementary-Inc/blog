@@ -3,10 +3,10 @@
   <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Attack of the Settings &sdot; elementary Blog</title>
-  <meta property="og:title" content="Attack of the Settings" />
-  <meta itemprop="name" content="Attack of the Settings" />
-  <meta name="twitter:title" content="Attack of the Settings" />
+  <title>Updates for July, 2022 &sdot; elementary Blog</title>
+  <meta property="og:title" content="Updates for July, 2022" />
+  <meta itemprop="name" content="Updates for July, 2022" />
+  <meta name="twitter:title" content="Updates for July, 2022" />
 
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -28,15 +28,15 @@
     
     
     <meta name="twitter:card" content="summary_large_image" />
-    <meta property="twitter:image" content="https://i.imgur.com/var14.png" />
+    <meta property="twitter:image" content="https://blog.elementary.io/images/elementary-os-6-odin-updates-september-2021/card.jpg" />
   
   <meta name="twitter:site" content="@elementary" />
   <meta name="twitter:creator" content="@elementary" />
 
-  <meta name="description" content="We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS" />
-  <meta property="og:description" content="We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS" />
-  <meta itemprop="description" content="We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS" />
-  <meta name="twitter:description" content="We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS" />
+  <meta name="description" content="A big themes update for Terminal and OS 7 progress" />
+  <meta property="og:description" content="A big themes update for Terminal and OS 7 progress" />
+  <meta itemprop="description" content="A big themes update for Terminal and OS 7 progress" />
+  <meta name="twitter:description" content="A big themes update for Terminal and OS 7 progress" />
 
   <link rel="stylesheet" type="text/css" media="all" href="/css/main.css?v=2022-08-12 16:43:23 -0500" />
   
@@ -142,10 +142,6 @@
   
   
   
-    <aside class="outdated">
-      <strong>Note:</strong> this post was written over two years ago. The information below may be outdated.
-    </aside>
-  
 
 
 
@@ -156,9 +152,17 @@
 
 
 
-   Attack of the&nbsp;Settings
+   Updates for July,&nbsp;2022
 
 </h1>
+    
+      <h2>
+
+
+
+   A big themes update for Terminal and OS 7&nbsp;progress
+
+</h2>
     
 
     
@@ -169,25 +173,25 @@
   <div class="avatar">
     <img
       
-        srcset="https://www.gravatar.com/avatar/eaa3cc978770998ea2bd4382935bf0f4?s=96&d=blank 2x"
-        src="https://www.gravatar.com/avatar/eaa3cc978770998ea2bd4382935bf0f4?s=48&d=blank"
-        alt="elementary Avatar"
+        srcset="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&d=blank 2x"
+        src="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&d=blank"
+        alt="Avatar for Danielle Foré"
       
     />
   </div>
   <div class="author">
-    <a href="/authors/#aroman">
-    <span class="name">Avi Romanoff</span>
+    <a href="/authors/#danrabbit">
+    <span class="name">Danielle Foré</span>
     </a>
     
-      <span class="description">Enthusiasm Evangelist</span>
+      <span class="description">Founder & CEO</span>
     
   </div>
-  <time class="post-date" datetime="2011-08-18">Thu, Aug 18, 2011</time>
+  <time class="post-date" datetime="2022-08-12">Fri, Aug 12, 2022</time>
   
     <span class="read-time" title="Estimated read time">
   
-  4 min read
+  3 min read
 </span>
 
 
@@ -198,7 +202,11 @@
     <aside class="tags">
   
   
-    <a class="tag" href="/tags/#switchboard">#switchboard</a>
+    <a class="tag" href="/tags/#horus">#horus</a>
+  
+    <a class="tag" href="/tags/#jolnir">#jolnir</a>
+  
+    <a class="tag" href="/tags/#updates">#updates</a>
   
 </aside>
 
@@ -206,46 +214,49 @@
   </header>
 
   <section>
-    <p>Computers are complicated. There’s literally an infinite number of things one can do with a modern PC, and an equally large number of ways to configure it and its software. Most people, however, have no need or desire to change and tweak every single nook and cranny of their computer. Most people prefer their computer to be elementary in nature—and software configuration is no exception.</p>
+    <p>Firstly, thank you so much for your patience this month! I’ve been out sick with COVID for about 3 weeks, so I haven’t been able to contribute much or organize releases this month. I want to give a special thanks to our volunteer community who has continued to make improvements and move forward on projects in my absence. I’m excited to catch up and get back to work to make the most of the rest of this month. Having said that, this is going to be a very brief updates post.</p>
 
-<p>Settings and configuration for the different components of our computers is typically scattered amongst many disjointed, disparate, stand-alone applications with different user interfaces and behavior. Unfortunately elementary OS and many other popular operating systems have been lacking in this critical department when it comes to simplicity and ease-of-use.</p>
+<figure class="constrained">
+  <p><img src="/images/elementary-os-6-1-available-now/card.png" alt="elementary OS 6.1 Jólnir" /></p>
+</figure>
 
-<p>Today I am announcing the initial public release of Switchboard, an application and developer toolkit designed to tackle this very issue. In a nutshell, Switchboard solves this problem by enforcing coherency with regard to interface and behavior, and by automatically organizing the different configuration options into one unified and central location.</p>
+<h2 id="terminal">Terminal</h2>
 
-<h2 id="how-does-it-work">How does it work?</h2>
+<p>The latest release of Terminal can be summed up as a big styles update! Under the hood, we’ve completely reworked the way styles are loaded and saved to improve performance and make the code much more robust and flexible. There is now an option to follow the system style which will automatically toggle between Solarized Light and Terminal’s Dark style depending on the system’s dark style preference. We’ve also updated the default styles to use the latest values from Solarized upstream and by default Terminal is fully opaque to improve contrast and legibility.</p>
 
-<p>Good question. For starters, “Switchboard” is really two discrete components: the user-facing app and developer-facing library. Let’s start with the former. The Switchboard app is just that—it’s a graphical, elementary-style app just like any other on the elementary desktop. In fact, here’s a picture of it:</p>
+<figure class="half">
+  <p><img src="/images/updates-for-july-2022/screenshot-light.png" alt="New quick settings options" width="784" height="552" />
+<img src="/images/updates-for-july-2022/screenshot-custom-style.png" alt="Custom style dialog" width="374" height="554" /></p>
+  <figcaption>
+    <p><strong>Left:</strong> New quick settings options in Terminal | <strong>Right:</strong> Create your own custom palettes</p>
+  </figcaption>
+</figure>
 
-<p><img src="https://i.imgur.com/var14.png" alt="Screenshot" /></p>
+<p>A new circle button is available in the quick settings menu for a custom style where you can create your own color palette, choose a dark or light style for Terminal’s window, and of course set background opacity to whatever value you feel is comfortable. We’re excited to add some long-awaited personalization here and can’t wait to here your feedback.</p>
 
-<p>As you can see, Switchboard arranges the different settings available to you by group, and then organizes those into categories. This layout is designed to make it as easy and quick as possible to find exactly what you’re looking for, and get at it quickly. In Switchboard terminology, those different groups (such as User Accounts or Power settings) are called plugs.</p>
+<h2 id="get-these-updates">Get These Updates</h2>
 
-<h2 id="plugs">Plugs</h2>
+<p>As always, pop open AppCenter on elementary OS 6.1 and hit “Update All” to get all these updates plus your regular security, bug fix, and translation updates.</p>
 
-<p>If the app above is the brains of Switchboard, then plugs are its brawn. Plugs are small mini-applications written using LibPantheon—a Vala library that provides APIs for interacting with and extending the Pantheon desktop. LibPantheon provides APIs and tools for creating plugs for Switchboard, and it is mainly because of this consistent set of APIs that Switchboard is able to provide a clean and coherent experience. On the technical level, Switchboard plugs are executable binaries (like normal desktop apps) with small textfiles that describe the plug to Switchboard. When a plug is selected from the Switchboard app, the plug embeds itself into the window of Switchboard, giving the illusion that Switchboard contains all of the code for it’s plugs.</p>
+<hr />
 
-<h2 id="switchboard-is-not">Switchboard is not…</h2>
+<figure class="constrained card">
+  <p><img src="/images/updates-for-april-2022/card.jpg" alt="elementary OS 7 Horus" /></p>
+</figure>
 
-<p>To alleviate and minimize any confusion, Switchboard is not a place for your application to store its settings or provide configuration options. It is not a replacement for things like GSettings, dconf, gconf, and configuration files. Rather, it is a graphical abstraction of such technologies for system components and hardware. A general rule of thumb is that if your app is stand-alone and not hardware related, it doesn’t need a plug. Things like your favorite dictionary app or game should use technologies like the app menu and configuration screens to modify their behavior. Switchboard is meant to provide a place for global configuration settings, such as power options, device syncing, or third-party hardware.</p>
+<h2 id="gtk-4-porting">Gtk 4 Porting</h2>
 
-<h2 id="byop-bring-your-own-plugs">BYOP (Bring Your Own Plugs)</h2>
+<p>A ton of energy in the community has gone into <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/orgs/elementary/projects/95">Gtk 4 porting</a> for OS 7 and beyond. The team is making steady progress on porting System Settings and we landed the Gtk 4 port for Sideload. We’ve also uncovered some style issues and gaps in style constants, so if you’re working on porting your app to our Flatpak Platform 7, know that we’ll be releasing some fixes soon.</p>
 
-<p>Switchboard does not in fact come with any plugs. Rather, plugs are packaged and installed separately to make Switchboard as modular and easy-to-extend as possible. Additionally, this paradigm makes it very easy for third-party developers to use Switchboard. Suppose you’re a hardware company that just produced a brand new gadget that needs to sync with or be configured via a computer. Instead of needing to create a separate app and worry about how it will look and where it will be located, they need only to create a Plug for Switchboard and offer a software package that installs it. But don’t worry—future releases of elementary OS will of course come out-of-the-box with all of the plugs you need.</p>
+<p>I want to give some special acknowledgment to Owen Malicsi who has taken a lot of ownership over Gtk4 porting. Owen started contributing to elementary to improve his development skillset in preparation for college, and he’s done an amazing job both in successfully porting components to Gtk 4 as well as identifying blockers and creating discussions around refactoring for Gtk 4 paradigms. I’m super proud of his growth and contribution and we wish him well in his studies! Thanks Owen!</p>
 
-<h2 id="calling-all-developers">Calling All Developers!</h2>
+<h2 id="responsive-design">Responsive Design</h2>
 
-<p>With Switchboard just being released, there is an abundant need for plugs. In order to ensure that Switchboard is a success for it’s debut in elementary OS (Luna!), plugs must be created. We have worked hard to make the experience of developing plugs as easy and accessible as possible. If you would like to try your hand at developing Switchboard plugs (it’s fun—I promise!), or even just to learn more about the Switchboard architecture, you have a myriad of resources at your disposal:</p>
+<p>I’d like to touch on this subject in depth in a future post, but for now I want to mention that something we’ve been working on lately is moving towards more <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/orgs/elementary/projects/109/views/1">responsive interfaces in our apps</a>. This means both for small displays—potentially down to phone size—and large displays. In particular, AppCenter has had quite a lot of work put into reducing its minimum window width as well as improving the way screen space is used when maximized on large desktop displays. System Settings is another area that we’ve been chipping away at as part of Gtk4 porting. I’m really excited to show off more of the way our design language is adapting in this space, so look forward to more detail here in the future!</p>
 
-<ul>
-  <li><a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/elementary/switchboard">Source code on GitHub</a></li>
-  <li><a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/elementary?q=switchboard-plug#org-repositories">Plugs on GitHub</a></li>
-  <li><a rel="nofollow noopener noreferrer" target="_blank" href="http://www.youtube.com/watch?v=JF37THZoNsA">YouTube screencast explaining much of this article and giving a demo</a></li>
-  <li><a rel="nofollow noopener noreferrer" target="_blank" href="https://elementary.io/docs/human-interface-guidelines">The standard elementary Human Interface Guidelines</a></li>
-  <li><a rel="nofollow noopener noreferrer" target="_blank" href="https://valadoc.org/switchboard-2.0/Switchboard.html">Vala documentation</a></li>
-  <li><a rel="nofollow noopener noreferrer" target="_blank" href="https://blueprints.launchpad.net/switchboard/+spec/default-plugs">Launchpad Blueprint outlining some of the plugs needed for Pantheon and Luna</a></li>
-</ul>
+<hr />
 
-<p>Thanks for reading, and here’s to Luna and beyond!</p>
+<p>That’s all for now, folks. Thanks again for your understanding this month and we’ll see you in the next one!</p>
 
   </section>
 
@@ -408,7 +419,7 @@
     
 
     <a
-      href="https://twitter.com/intent/tweet?text=Attack of the Settings&url=https://blog.elementary.io/attack-of-the-settings/&via=elementary&original_referer=https://blog.elementary.io/attack-of-the-settings/"
+      href="https://twitter.com/intent/tweet?text=Updates for July, 2022&url=https://blog.elementary.io/updates-for-july-2022/&via=elementary&original_referer=https://blog.elementary.io/updates-for-july-2022/"
       rel="noreferrer nofollow noopener"
       target="_blank"
       title="Twitter"
@@ -418,7 +429,7 @@
     </a>
 
     <a
-      href="http://www.reddit.com/submit?title=Attack of the Settings&url=https://blog.elementary.io/attack-of-the-settings/"
+      href="http://www.reddit.com/submit?title=Updates for July, 2022&url=https://blog.elementary.io/updates-for-july-2022/"
       rel="noreferrer nofollow noopener"
       target="_blank"
       title="Reddit"
@@ -428,7 +439,7 @@
     </a>
 
     <a
-      href="https://www.facebook.com/sharer/sharer.php?u=https://blog.elementary.io/attack-of-the-settings/"
+      href="https://www.facebook.com/sharer/sharer.php?u=https://blog.elementary.io/updates-for-july-2022/"
       rel="noreferrer nofollow noopener"
       target="_blank"
       title="Facebook"
@@ -438,7 +449,7 @@
     </a>
 
     <a
-      href="https://blog.elementary.io/attack-of-the-settings/"
+      href="https://blog.elementary.io/updates-for-july-2022/"
       title="Permalink"
       onclick="return share()"
     >
@@ -453,9 +464,9 @@ function share() {
 
   if (navigator.share) {
     navigator.share({
-      title: "Attack of the Settings",
-      text: "",
-      url: "https://blog.elementary.io/attack-of-the-settings/",
+      title: "Updates for July, 2022",
+      text: "A big themes update for Terminal and OS 7 progress",
+      url: "https://blog.elementary.io/updates-for-july-2022/",
     })
     .catch((error) => console.log("Error sharing", error));
 
@@ -472,10 +483,14 @@ function share() {
 <h2 class="up-next">Up Next</h2>
 
 
+
+
+
+
   
     
 
-<a class="featured with-image 1" href="/updates-for-july-2022/">
+<a class="featured with-image 1" href="/updates-for-june-2022/">
   
     <div class="featured-image" alt="Featured image" style="background-image: url(/images/elementary-os-6-odin-updates-september-2021/card.jpg);"></div>
   
@@ -485,7 +500,7 @@ function share() {
 
 
 
-   Updates for July,&nbsp;2022
+   Updates for June,&nbsp;2022
 
 </h2>
     
@@ -494,7 +509,7 @@ function share() {
 
 
 
-   A big themes update for Terminal and OS 7&nbsp;progress
+   The focus turns back to OS 6 while we're stuck on OS&nbsp;7
 
 
         
@@ -523,7 +538,7 @@ function share() {
       <span class="description">Founder & CEO</span>
     
   </div>
-  <time class="post-date" datetime="2022-08-12">Fri, Aug 12, 2022</time>
+  <time class="post-date" datetime="2022-07-02">Sat, Jul  2, 2022</time>
   
     <span class="read-time" title="Estimated read time">
   
@@ -537,138 +552,6 @@ function share() {
 
   </header>
 
-  
-</a>
-
-
-  
-
-
-
-  
-    
-      
-
-<a class="featured 1" href="/managing-criticism-on-both-ends/">
-  
-
-  <header>
-    <h2>
-
-
-
-   Managing Criticism on Both&nbsp;Ends
-
-</h2>
-    
-
-    
-
-
-
-<div class="byline">
-  <div class="avatar">
-    <img
-      
-        srcset="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&d=blank 2x"
-        src="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&d=blank"
-        alt="Avatar for Cassidy James Blaede"
-      
-    />
-  </div>
-  <div class="author">
-    
-    <span class="name">Cassidy James Blaede</span>
-    
-    
-      <span class="description">Co-founder & CXO</span>
-    
-  </div>
-  <time class="post-date" datetime="2011-08-19">Fri, Aug 19, 2011</time>
-  
-    <span class="read-time" title="Estimated read time">
-  
-  4 min read
-</span>
-
-
-  
-</div>
-
-
-  </header>
-
-  
-  <section class="excerpt">
-    <p>I’ve been working with elementary and the community for quite some time now, and I’ve gotten a pretty good feel for the individuals that make up the awesome team. Not only that, but I know the direction of the project...</p>
-    <span>Read more…</span>
-  </section>
-  
-</a>
-
-
-    
-  
-
-
-
-  
-    
-
-<a class="featured 1" href="/distros-platforms-and-where-we-fit-in/">
-  
-
-  <header>
-    <h2>
-
-
-
-   Distros, Platforms, and Where We Fit&nbsp;In
-
-</h2>
-    
-
-    
-
-
-
-<div class="byline">
-  <div class="avatar">
-    <img
-      
-        srcset="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&d=blank 2x"
-        src="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&d=blank"
-        alt="Avatar for Danielle Foré"
-      
-    />
-  </div>
-  <div class="author">
-    
-    <span class="name">Danielle Foré</span>
-    
-    
-      <span class="description">Founder & CEO</span>
-    
-  </div>
-  <time class="post-date" datetime="2011-08-04">Thu, Aug  4, 2011</time>
-  
-    <span class="read-time" title="Estimated read time">
-  
-  3 min read
-</span>
-
-
-  
-</div>
-
-
-  </header>
-
-  
-  <section class="excerpt">
-    <p>We often get asked to distribute software like LibreOffice, Firefox, Google Chrome, WINE, applications that use Qt, etc. And for the traditional Linux distribution this is a perfectly reasonable request. The typical distro make up for home users consists of...</p>
-    <span>Read more…</span>
-  </section>
   
 </a>
 
@@ -712,743 +595,76 @@ function share() {
     
 
     
+      
 
+<a class="featured with-image small" href="/updates-for-may-2022/">
   
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/elementary-os-6-odin-updates-september-2021/card.jpg);"></div>
   
-
-    
-    
 
-    
-
-    
+  <header>
+    <h2>
 
-  
 
-    
-    
 
-    
+   Updates for May,&nbsp;2022
 
+</h2>
     
-
-  
+      <h3>
+        
 
-    
-    
 
-    
 
-    
+   OS 6 still gets the latest&nbsp;goodies
 
-  
 
+        
+      </h3>
     
-    
 
     
 
-    
 
-  
 
+<div class="byline">
+  <div class="avatar">
+    <img
+      
+        srcset="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&d=blank 2x"
+        src="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&d=blank"
+        alt="Avatar for Danielle Foré"
+      
+    />
+  </div>
+  <div class="author">
     
+    <span class="name">Danielle Foré</span>
     
-
     
-
+      <span class="description">Founder & CEO</span>
     
-
+  </div>
+  <time class="post-date" datetime="2022-05-31">Tue, May 31, 2022</time>
   
-
-    
-    
-
-    
-
-    
-
+    <span class="read-time" title="Estimated read time">
   
+  5 min read
+</span>
 
-    
-    
-
-    
 
-    
-
   
-
-    
-    
+</div>
 
-    
 
-    
+  </header>
 
   
-
-    
-    
+</a>
 
-    
 
+      
+      
     
 
   
@@ -1459,95 +675,76 @@ function share() {
     
 
     
+      
 
+<a class="featured with-image small" href="/updates-for-april-2022/">
   
-
-    
-    
-
-    
-
-    
-
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/updates-for-april-2022/card.jpg);"></div>
   
-
-    
-    
-
-    
 
-    
+  <header>
+    <h2>
 
-  
 
-    
-    
 
-    
+   Updates for April,&nbsp;2022
 
+</h2>
     
-
-  
+      <h3>
+        
 
-    
-    
 
-    
 
-    
+   Counting down to OS&nbsp;7
 
-  
 
+        
+      </h3>
     
-    
 
     
 
-    
 
-  
 
+<div class="byline">
+  <div class="avatar">
+    <img
+      
+        srcset="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&d=blank 2x"
+        src="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&d=blank"
+        alt="Avatar for Danielle Foré"
+      
+    />
+  </div>
+  <div class="author">
     
+    <span class="name">Danielle Foré</span>
     
-
     
-
+      <span class="description">Founder & CEO</span>
     
-
+  </div>
+  <time class="post-date" datetime="2022-05-03">Tue, May  3, 2022</time>
   
-
-    
-    
-
-    
-
-    
-
+    <span class="read-time" title="Estimated read time">
   
-
-    
-    
-
-    
+  5 min read
+</span>
 
-    
 
   
+</div>
 
-    
-    
-
-    
 
-    
+  </header>
 
   
-
-    
-    
+</a>
 
-    
 
+      
+      
     
 
   
@@ -1558,95 +755,76 @@ function share() {
     
 
     
+      
 
+<a class="featured with-image small" href="/updates-for-january-2022/">
   
-
-    
-    
-
-    
-
-    
-
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/elementary-os-6-odin-updates-september-2021/card.jpg);"></div>
   
-
-    
-    
 
-    
-
-    
+  <header>
+    <h2>
 
-  
 
-    
-    
 
-    
+   Updates for January,&nbsp;2022
 
+</h2>
     
-
-  
+      <h3>
+        
 
-    
-    
 
-    
 
-    
+   What’s new in OS 6.1, plus shifting development to OS&nbsp;7
 
-  
 
+        
+      </h3>
     
-    
 
     
 
-    
 
-  
 
+<div class="byline">
+  <div class="avatar">
+    <img
+      
+        srcset="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&d=blank 2x"
+        src="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&d=blank"
+        alt="Avatar for Cassidy James Blaede"
+      
+    />
+  </div>
+  <div class="author">
     
+    <span class="name">Cassidy James Blaede</span>
     
-
     
-
+      <span class="description">Co-founder & CXO</span>
     
-
+  </div>
+  <time class="post-date" datetime="2022-01-31">Mon, Jan 31, 2022</time>
   
-
-    
-    
-
-    
-
-    
-
+    <span class="read-time" title="Estimated read time">
   
-
-    
-    
-
-    
+  10 min read
+</span>
 
-    
 
   
-
-    
-    
+</div>
 
-    
 
-    
+  </header>
 
   
-
-    
-    
+</a>
 
-    
 
+      
+      
     
 
   
@@ -1675,68 +853,76 @@ function share() {
     
 
     
+      
 
+<a class="featured with-image small" href="/elementary-os-6-1-available-now/">
+  
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/elementary-os-6-1-available-now/card.png);"></div>
   
 
-    
-    
+  <header>
+    <h2>
 
-    
 
-    
 
-  
+   elementary OS 6.1 Available&nbsp;Now
 
-    
+</h2>
     
+      <h3>
+        
 
-    
 
-    
 
-  
+   We come bearing gifts and Yule&nbsp;tidings!
 
-    
-    
 
+        
+      </h3>
     
 
     
-
-  
 
-    
-    
 
-    
 
+<div class="byline">
+  <div class="avatar">
+    <img
+      
+        srcset="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&d=blank 2x"
+        src="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&d=blank"
+        alt="Avatar for Danielle Foré"
+      
+    />
+  </div>
+  <div class="author">
     
-
-  
-
+    <span class="name">Danielle Foré</span>
     
     
-
+      <span class="description">Founder & CEO</span>
     
+  </div>
+  <time class="post-date" datetime="2021-12-20">Mon, Dec 20, 2021</time>
+  
+    <span class="read-time" title="Estimated read time">
+  
+  27 min read
+</span>
 
-    
 
   
-
-    
-    
+</div>
 
-    
 
-    
+  </header>
 
   
+</a>
 
-    
-    
-
-    
 
+      
+      
     
 
   
@@ -1756,68 +942,76 @@ function share() {
     
 
     
+      
 
+<a class="featured with-image small" href="/elementary-os-6-odin-updates-november-2021/">
   
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/elementary-os-6-odin-updates-november-2021/card.jpg);"></div>
+  
 
-    
-    
+  <header>
+    <h2>
 
-    
 
-    
 
-  
+   elementary OS 6 Updates for November,&nbsp;2021
 
+</h2>
     
-    
+      <h3>
+        
 
-    
 
-    
 
-  
+   New features and improved design to get ready for the&nbsp;holidays
 
-    
-    
 
+        
+      </h3>
     
 
     
 
-  
-
-    
-    
 
-    
 
+<div class="byline">
+  <div class="avatar">
+    <img
+      
+        srcset="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&d=blank 2x"
+        src="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&d=blank"
+        alt="Avatar for Cassidy James Blaede"
+      
+    />
+  </div>
+  <div class="author">
     
-
-  
-
+    <span class="name">Cassidy James Blaede</span>
     
     
-
+      <span class="description">Co-founder & CXO</span>
     
+  </div>
+  <time class="post-date" datetime="2021-11-29">Mon, Nov 29, 2021</time>
+  
+    <span class="read-time" title="Estimated read time">
+  
+  9 min read
+</span>
 
-    
 
   
+</div>
 
-    
-    
-
-    
 
-    
+  </header>
 
   
-
-    
-    
+</a>
 
-    
 
+      
+      
     
 
   
@@ -1837,71 +1031,77 @@ function share() {
     
 
     
+      
 
+<a class="featured with-image small" href="/elementary-os-6-odin-updates-october-2021/">
+  
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/elementary-os-6-odin-updates-october-2021/card.jpg);"></div>
   
 
-    
-    
+  <header>
+    <h2>
 
-    
 
-    
 
-  
+   elementary OS 6 Updates for October,&nbsp;2021
 
-    
+</h2>
     
+      <h3>
+        
 
-    
 
-    
 
-  
+   All the small&nbsp;things
 
-    
-    
 
+        
+      </h3>
     
 
     
-
-  
 
-    
-    
 
-    
 
+<div class="byline">
+  <div class="avatar">
+    <img
+      
+        srcset="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&d=blank 2x"
+        src="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&d=blank"
+        alt="Avatar for Danielle Foré"
+      
+    />
+  </div>
+  <div class="author">
     
-
-  
-
+    <span class="name">Danielle Foré</span>
     
     
-
+      <span class="description">Founder & CEO</span>
     
+  </div>
+  <time class="post-date" datetime="2021-10-30">Sat, Oct 30, 2021</time>
+  
+    <span class="read-time" title="Estimated read time">
+  
+  10 min read
+</span>
 
-    
 
   
-
-    
-    
+</div>
 
-    
 
-    
+  </header>
 
   
-
-    
-    
-
-    
+</a>
 
-    
 
-  
+      
+      
+        
 </div>
 
 
