@@ -5,12 +5,13 @@
     <div class="official">
       <h3>Official Posts</h3>
 
-      {% if page.mastodon %}
+      {% if page.twitter %}
         <a
           href="{{ page.twitter }}"
           rel="noreferrer nofollow noopener"
           target="_blank"
           title="Twitter"
+          onclick="plausible('Social: Twitter')"
         >
           <img src="{{ '/images/twitter.svg' | prepend: site.baseurl }}" alt="Twitter" />
         </a>
@@ -22,6 +23,7 @@
           rel="noreferrer nofollow noopener"
           target="_blank"
           title="Mastodon"
+          onclick="plausible('Social: Mastodon')"
         >
           <img src="{{ '/images/mastodon.svg' | prepend: site.baseurl }}" alt="Mastodon" />
         </a>
@@ -33,6 +35,7 @@
           rel="noreferrer nofollow noopener"
           target="_blank"
           title="Reddit"
+          onclick="plausible('Social: Reddit')"
         >
           <img src="{{ '/images/reddit.svg' | prepend: site.baseurl }}" alt="Reddit" />
         </a>
@@ -44,6 +47,7 @@
           rel="noreferrer nofollow noopener"
           target="_blank"
           title="Facebook"
+          onclick="plausible('Social: Facebook')"
         >
           <img src="{{ '/images/facebook.svg' | prepend: site.baseurl }}" alt="Facebook" />
         </a>
@@ -60,6 +64,7 @@
       rel="noreferrer nofollow noopener"
       target="_blank"
       title="Twitter"
+      onclick="plausible('Share: Twitter')"
     >
       <img src="{{ '/images/twitter.svg' | prepend: site.baseurl }}" alt="Twitter" />
     </a>
@@ -69,6 +74,7 @@
       rel="noreferrer nofollow noopener"
       target="_blank"
       title="Reddit"
+      onclick="plausible('Share: Reddit')"
     >
       <img src="{{ '/images/reddit.svg' | prepend: site.baseurl }}" alt="Reddit" />
     </a>
@@ -78,17 +84,37 @@
       rel="noreferrer nofollow noopener"
       target="_blank"
       title="Facebook"
+      onclick="plausible('Share: Facebook')"
     >
       <img src="{{ '/images/facebook.svg' | prepend: site.baseurl }}" alt="Facebook" />
     </a>
 
     <a
       href="{{ page.url | prepend: site.baseurl | prepend: site.url }}"
-
       title="Permalink"
+      onclick="return share()"
     >
       <img src="{{ '/images/edit-copy-32.svg' | prepend: site.baseurl }}" alt="Permalink" />
     </a>
   </div>
 </div>
 
+<script>
+function share() {
+  plausible('Share: Permalink');
+
+  if (navigator.share) {
+    navigator.share({
+      title: "{{ page.title }}",
+      text: "{{ page.description }}",
+      url: "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
+    })
+    .catch((error) => console.log("Error sharing", error));
+
+    return false;
+  } else {
+    console.log("Sharing not supported; falling back to link");
+    return true;
+  }
+}
+</script>
