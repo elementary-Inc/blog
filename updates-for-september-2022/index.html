@@ -3,10 +3,10 @@
   <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Leaving Google Analytics is Finally Plausible &sdot; elementary Blog</title>
-  <meta property="og:title" content="Leaving Google Analytics is Finally Plausible" />
-  <meta itemprop="name" content="Leaving Google Analytics is Finally Plausible" />
-  <meta name="twitter:title" content="Leaving Google Analytics is Finally Plausible" />
+  <title>Updates for September, 2022 &sdot; elementary Blog</title>
+  <meta property="og:title" content="Updates for September, 2022" />
+  <meta itemprop="name" content="Updates for September, 2022" />
+  <meta name="twitter:title" content="Updates for September, 2022" />
 
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -28,15 +28,15 @@
     
     
     <meta name="twitter:card" content="summary_large_image" />
-    <meta property="twitter:image" content="https://blog.elementary.io/images/leaving-google-analytics-is-finally-plausible/blog-card.png" />
+    <meta property="twitter:image" content="https://blog.elementary.io/images/updates-for-september-2022/iconbrowser.png" />
   
   <meta name="twitter:site" content="@elementary" />
   <meta name="twitter:creator" content="@elementary" />
 
-  <meta name="description" content="Reviewing another big step towards privacy and transparency" />
-  <meta property="og:description" content="Reviewing another big step towards privacy and transparency" />
-  <meta itemprop="description" content="Reviewing another big step towards privacy and transparency" />
-  <meta name="twitter:description" content="Reviewing another big step towards privacy and transparency" />
+  <meta name="description" content="A new developer tool and steady OS 7 progress" />
+  <meta property="og:description" content="A new developer tool and steady OS 7 progress" />
+  <meta itemprop="description" content="A new developer tool and steady OS 7 progress" />
+  <meta name="twitter:description" content="A new developer tool and steady OS 7 progress" />
 
   <link rel="stylesheet" type="text/css" media="all" href="/css/main.css?v=2022-10-05 18:51:42 -0500" />
   
@@ -138,10 +138,6 @@
   
   
   
-    <aside class="outdated">
-      <strong>Note:</strong> this post was written over two years ago. The information below may be outdated.
-    </aside>
-  
 
 
 
@@ -152,7 +148,7 @@
 
 
 
-   Leaving Google Analytics is Finally&nbsp;Plausible
+   Updates for September,&nbsp;2022
 
 </h1>
     
@@ -160,7 +156,7 @@
 
 
 
-   Reviewing another big step towards privacy and&nbsp;transparency
+   A new developer tool and steady OS 7&nbsp;progress
 
 </h2>
     
@@ -187,11 +183,11 @@
       <span class="description">Founder & CEO</span>
     
   </div>
-  <time class="post-date" datetime="2020-07-16">Thu, Jul 16, 2020</time>
+  <time class="post-date" datetime="2022-10-05">Wed, Oct  5, 2022</time>
   
     <span class="read-time" title="Estimated read time">
   
-  7 min read
+  4 min read
 </span>
 
 
@@ -202,9 +198,7 @@
     <aside class="tags">
   
   
-    <a class="tag" href="/tags/#privacy">#privacy</a>
-  
-    <a class="tag" href="/tags/#web">#web</a>
+    <a class="tag" href="/tags/#horus">#horus</a>
   
 </aside>
 
@@ -212,233 +206,60 @@
   </header>
 
   <section>
-    <p>We’ve always believed that our user experience doesn’t just begin when people use elementary OS; it begins from the first moment that someone interacts with our organization in any way. And for a lot of people, that experience starts with our website. You may already know about <a href="/privacy-and-elementary-os">our stance on privacy</a>, advertising, and tracking from our previous blog posts, and that a core part of our business model is that <a href="/you-are-not-the-product">you are our customer, not a product</a>.</p>
-
-<aside>
-
-
-
-<a class="featured with-image 1" href="/you-are-not-the-product/">
-  
-    <div class="featured-image" alt="Featured image" style="background-image: url(https://cdn-images-1.medium.com/max/1600/1*cLwxBJhf6MKETmbqR6ilnw.jpeg);"></div>
-  
-
-  <header>
-    <h2>
-
-
-
-   You Are Not the&nbsp;Product
-
-</h2>
-    
-      <h3>
-        
-
-
-
-   A reminder about our stance on advertising and&nbsp;tracking
-
-
-        
-      </h3>
-    
-
-    
-
-
-
-<div class="byline">
-  <div class="avatar">
-    <img srcset="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&amp;d=blank 2x" src="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&amp;d=blank" alt="Avatar for Danielle Foré" />
-  </div>
-  <div class="author">
-    
-    <span class="name">Danielle Foré</span>
-    
-    
-      <span class="description">Founder &amp; CEO</span>
-    
-  </div>
-  <time class="post-date" datetime="2017-04-24">Mon, Apr 24, 2017</time>
-  
-    <span class="read-time" title="Estimated read time">
-  
-  3 min read
-</span>
-
-
-  
-</div>
-
-
-  </header>
-
-  
-</a>
-
-
-</aside>
-
-<p>You might also know that our website has a comprehensive <a rel="nofollow noopener noreferrer" target="_blank" href="https://elementary.io/privacy">privacy page</a> that details not only exactly how we use things like cookies on our website, but how to disable them. And with such a strong stance on privacy, you might be asking yourself why elementary uses analytics at all, let alone Google Analytics. To that I am happy to respond that we are leaving Google Analytics behind in favor of the Open Source and privacy-respecting <a rel="nofollow noopener noreferrer" target="_blank" href="https://plausible.io/">Plausible</a>.</p>
-
-<h2 id="what-are-analytics">What Are Analytics?</h2>
-
-<p>If you’re not familiar with the concept, you may be surprised to know that the majority of the websites you regularly visit are collecting statistical data about your usage of the website. Website developers then use this data to optimize infrastructure, pinpoint problems, or even drive design decisions—something we don’t particularly advise.</p>
-
-<aside>
-
-
-
-<a class="featured with-image 1" href="/privacy-and-elementary-os/">
-  
-    <div class="featured-image" alt="Featured image" style="background-image: url(https://cdn-images-1.medium.com/max/1600/1*A6acK8YdY-_VS414hveMlw.jpeg);"></div>
-  
-
-  <header>
-    <h2>
-
-
-
-   Privacy and elementary&nbsp;OS
-
-</h2>
-    
-      <h3>
-        
-
-
-
-   How we protect your data from ourselves and&nbsp;others
-
-
-        
-      </h3>
-    
-
-    
-
-
-
-<div class="byline">
-  <div class="avatar">
-    <img srcset="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&amp;d=blank 2x" src="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&amp;d=blank" alt="Avatar for Cassidy James Blaede" />
-  </div>
-  <div class="author">
-    
-    <span class="name">Cassidy James Blaede</span>
-    
-    
-      <span class="description">Co-founder &amp; CXO</span>
-    
-  </div>
-  <time class="post-date" datetime="2019-01-09">Wed, Jan  9, 2019</time>
-  
-    <span class="read-time" title="Estimated read time">
-  
-  6 min read
-</span>
-
-
-  
-</div>
-
-
-  </header>
-
-  
-</a>
-
-
-</aside>
-
-<p>At elementary, we use anonymous data about things like physical region and download method to make sure we have properly localized HTTPS and Torrent downloads so that you can get a fast and stable connection. We also check which pages are most—and least—visited on our website so we know where to focus improvements. And we pay attention to which operating system downloaders are coming from to make sure that we’re on track with our mission of bringing an Open Source operating system to more people.</p>
-
-<h3 id="why-not-google-analytics">Why Not Google Analytics?</h3>
-
-<p>Google Analytics lets us keep tabs on that data, but Google tracks <em>a whole lot more</em> than that, too. Frankly we don’t want access to that data—or to contribute towards it being collected. Remember, Google’s incentive is to collect as much information as possible from people visiting as many sites as possible—and using Google Analytics directly helps them do that.</p>
-
-<aside>
-  <blockquote>
-    <p>Google’s incentive is to collect as much information as possible from people visiting as many sites as possible—and using Google Analytics directly helps them do that.</p>
-  </blockquote>
-</aside>
-
-<p>If you don’t know, Google happily tracks you across all the websites you visit if those sites use Google Analytics, or if you use Google search. Google then infers and remembers all sorts of information about you; for example: your age range, an inferred gender, if you’ve changed jobs or moved recently, and whether you like to spend time outdoors. Google then uses all of this data to target ads to you, in the hopes that more precise ads will get you to bite, thus earning them their commission.</p>
-
-<p>They then offer those profiles up inside of Google Analytics, letting website owners drill down using “In-Market Segments.” The entire mechanism is invasive—and unnecessary for us. And even though we may choose to ignore these profiles and data, by using Google Analytics on our website, we’ve contributed to creating them. This data collection and surveillance does not align with our values, and we’ve been investigating how we can move away for quite some time now.</p>
-
-<h2 id="the-challenge">The Challenge</h2>
-
-<p>Google Analytics is by far the most popular analytics solution available and there are few privacy-respecting alternatives. We considered a few self-hosted products like <a rel="nofollow noopener noreferrer" target="_blank" href="https://matomo.org/">Matomo</a>, but we couldn’t find a good fit in terms of maintenance, pricing, and features. We also investigated using self-described privacy-focused <a rel="nofollow noopener noreferrer" target="_blank" href="https://usefathom.com/">Fathom</a>, but were disappointed to learn that they had gone closed-source since we’d last looked at them. The situation changed once we stumbled upon Plausible.</p>
-
-<p>Plausible is a small UK-based company that provides a hosted, privacy-conscious analytics solution with simple and fair pricing—plus support for custom events. The product itself fits what we’re looking for in an analytics solution, and it’s encouraging to see that they are actively growing and developing new features. But what really got our attention is their messaging around their business model. Read <a rel="nofollow noopener noreferrer" target="_blank" href="https://plausible.io/blog/open-source-funding">their blog post on monetizing</a> and see if it sounds familiar.</p>
-
-<div class="twitter-card">
-  <header>
-    <a class="account" href="https://twitter.com/PlausibleHQ">
-      
-      
-      <img class="avatar" src="/images/leaving-google-analytics-is-finally-plausible/twitter-avatar.png" />
-      <strong>Plausible Analytics</strong>
-      <p>@PlausibleHQ</p>
-    </a>
-    <a rel="nofollow noopener noreferrer" target="_blank" href="https://twitter.com/PlausibleHQ/status/1282678251148763137">
-      <img class="logo" src="/images/twitter.svg" />
-    </a>
-  </header>
-
-  <p>A day in the life of a startup...<br /><br />
-    "Wanted to quickly reach out and see if you'd be interested in raising
-    funds or taking investment"<br /><br />
-    No.<br /><br />
-    "Any interest in talking about an exit?"<br /><br />
-    No.</p>
-
-  
-
-  <footer>
-    <a rel="nofollow noopener noreferrer" target="_blank" href="https://twitter.com/PlausibleHQ/status/1282678251148763137">
-      <span>View on Twitter →</span>
-      <time datetime="2020-07-13">Jul 13, 2020</time>
-    </a>
-  </footer>
-</div>
-
-<p>Unlike Google, Plausible isn’t in the advertising game and doesn’t have an incentive to collect and sell user data. And they’ve made it clear that they’re not interested in being scooped up by VCs or new ownership that might seek to change those values. They make money the same way elementary does: by directly charging customers for their product. We know firsthand how important it is to make sure that your business is built around your ethics, and we get the same feeling from the folks at Plausible. We’re excited to be supporting a company that shares our values and respects the people visiting our website.</p>
-
-<h2 id="our-review-of-plausible-analytics-so-far">Our Review of Plausible Analytics (So Far)</h2>
-
-<p>We used Plausible in parallel with Google Analytics for a month to see how they compared, and we were thrilled with the results. We were able to largely recreate the aggregate data we’re interested in using Plausible’s goals feature—namely: what version of the OS is being downloaded, what OSes downloads are coming from, and how many downloaders paid versus bypassed the payment. At the same time, much less data is even processed; for example, we completely stopped getting any sort of demographic data from the Google advertising network. The Plausible dashboard is also <em>far</em> easier to use and understand at a glance; instead of a massive web app offering near-infinte sub-sections and complex filters, Plausible offers up a simple one-page dashboard with all the key data you need.</p>
-
-<p>This may not be an expansive review, but over all we’re very happy with Plausible Analytics. They’ve enabled us to get rid of Google Analytics while still keeping tabs on important product-related data. And most importantly, we are able to do so in a way that is much more transparent and trustworthy.</p>
-
-<h2 id="improving-transparency">Improving Transparency</h2>
-
-<p>One of the most interesting and unique features of Plausible is their open invitation and celebration of data transparency. First, their entire product is open source; when it comes to privacy, the source code being open and auditable by anyone—experts and end users alike—is paramount. But they go above and beyond that: every user of Plausible is able and encouraged to make their analytics dashboard public so everyone can see the data for themselves and know that nothing fishy is going on.</p>
-
-<aside>
-  <blockquote>
-    <p>Every user of Plausible is able and encouraged to make their analytics dashboard public so everyone can see the data for themselves.</p>
-  </blockquote>
-</aside>
-
-<p>We’ve embraced this new feature at elementary and opened up the dashboards for our various subdomains as well as our main website. Check them out yourself!</p>
-
-<ul>
-  <li><a rel="nofollow noopener noreferrer" target="_blank" href="https://plausible.io/elementary.io">Main Website</a></li>
-  <li><a rel="nofollow noopener noreferrer" target="_blank" href="https://plausible.io/blog.elementary.io">Blog</a></li>
-  <li><a rel="nofollow noopener noreferrer" target="_blank" href="https://plausible.io/developer.elementary.io">Developer Portal</a></li>
-  <li><a rel="nofollow noopener noreferrer" target="_blank" href="https://plausible.io/appcenter.elementary.io">AppCenter on the Web</a></li>
-  <li><a rel="nofollow noopener noreferrer" target="_blank" href="https://plausible.io/releases.elementary.io">Release Tracking</a></li>
-  <li><a rel="nofollow noopener noreferrer" target="_blank" href="https://plausible.io/builds.elementary.io">Early Access Builds</a></li>
-</ul>
-
-<p>We hope that this move will provide a tangible improvement to your digital life and give you even more peace of mind when using elementary products. We’re always working towards the ideal and we’re confident we’ve made a big step by switching to Plausible. Let us know on social media what you think of the new public analytics dashboard, and feel free to ask questions about how we’re using this data!</p>
+    <p>Sorry 6.1 fans, this month was all about OS 7 with the exception of a new Icon Browser app being released in AppCenter.</p>
+
+<figure>
+  <p><img src="/images/updates-for-september-2022/iconbrowser.png" alt="elementary Icon Browser" width="1034" height="710" /></p>
+  <figcaption>
+    <p>The new elementary Icon Browser available in AppCenter</p>
+  </figcaption>
+</figure>
+
+<p>If you’re familiar with my LookBook app which was previously offered for $10, you may be excited to know that the new elementary Icon Browser is available for free. This developer tool shows you all of the system icons available to use in your apps and you can even search them by description. The new app has been updated to use Gtk 4 and has much better system dark style support as well as doing a better job showing relevant icon sizes and more. If you’re writing apps for elementary OS, be sure to check it out!</p>
 
 <hr />
 
-<p><strong>Update (Sep 8, 2020):</strong> We expanded on our review of using Plausible, and added a link to our new Early Access Builds dashboard.</p>
+<figure class="constrained card">
+  <p><img src="/images/updates-for-april-2022/card.jpg" alt="elementary OS 7 Horus" /></p>
+</figure>
+
+<h2 id="multitasking--window-management">Multitasking &amp; Window Management</h2>
+
+<p>If you’re following the release closely, you may be aware the the primary release blockers for the last several months have been some serious regressions in Gala, our window manager. I’m happy to report that several of these regressions have now been solved and there is only one known release blocking issue for Gala left. Major shoutouts to Corentin and David for their work here. This brings us much much closer to the stable release of OS 7. As always, you can follow along with remaining release targeted issues on the <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/orgs/elementary/projects/94/views/1">OS 7 Project Board</a>.</p>
+
+<h2 id="appcenter">AppCenter</h2>
+
+<p>AppCenter continues to get new features and plenty of fixes in preparation for quite a large new release!</p>
+
+<p>You can now see the release notes of up to 5 past releases on app info pages to get a clearer idea of how often an app is updated. Plus, we now support the <code class="language-plaintext highlighter-rouge">&lt;issues&gt;</code> tag so that developers can provide links back to solved issues that you’ve reported. We’re hoping this encourages folks to get involved as part of the open source community for their favorite apps.</p>
+
+<figure>
+  <p><img src="/images/updates-for-september-2022/release-notes.png" alt="Improved AppCenter Release Notes" /></p>
+  <figcaption>
+    <p>Improved release notes in AppCenter with linked issue reports</p>
+  </figcaption>
+</figure>
+
+<p>There’s now an overlay status bar showing a description of currently in progress tasks. This replaces the mysterious spinner that previously appeared in the header bar. And in the updates view, the “Update All” header is now sticky to the view, making its action always easily accessible.</p>
+
+<figure>
+  <p><img src="/images/updates-for-september-2022/updates.png" alt="AppCenter Updates View" /></p>
+  <figcaption>
+    <p>AppCenter with a overlay status bar and a sticky updates header</p>
+  </figcaption>
+</figure>
+
+<p>Also, shoutouts to <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/mmstick">Michael Murphy</a> from System76 for upstreaming a fix for a crash that would occur when showing error messages. In addition to several other under the hood improvements, the next release of AppCenter will certainly be much more stable. One final thing, though it hasn’t been approved yet, the Gtk 4 port of AppCenter is ready for review! So we can hopefully look forward to a big performance boost once that lands as well.</p>
+
+<h2 id="github--ci">GitHub &amp; CI</h2>
+
+<p>Still important, but probably less interesting for you, Corentin also spent some time resolving some issues we were having with GitHub Actions and our continuous integration testing process. We’re now building some new Docker containers specifically for OS 7 and have a resolved an issue that caused build failures for any projects making use of GResource—which is quite a few. Our Gettext action has also been updated so that translation templates are always kept up to date and translators are able to quickly and automatically do their work via Weblate. These handy automations help us to do our work quickly while ensuring large breaking changes don’t get into our code.</p>
+
+<h2 id="early-access-preview">Early Access Preview</h2>
+
+<p>If you’re in early access, you now have the ability to install and test the very early Gtk 4 port of System Settings. To get the new System Settings, pop open Terminal and enter <code class="language-plaintext highlighter-rouge">sudo apt install io.elementary.settings*</code>. This will install the new System Settings app itself as well as the 7 panes currently available to test. Note that you may not experience too much different here just yet and there will be plenty of issues to sort through.</p>
+
+<p>If you’re not already in early access, you can be among the first to try it and give your feedback by joining <a rel="nofollow noopener noreferrer" target="_blank" href="https://builds.elementary.io/">Early Access for a $10/mo sponsorship</a>. Can’t wait to see you in the next one!</p>
 
   </section>
 
@@ -595,65 +416,13 @@
   <h2>Join the Discussion on Social Media</h2>
 
   
-    <div class="official">
-      <h3>Official Posts</h3>
-
-      
-        <a
-          href="https://twitter.com/elementary/status/1283851023568850947"
-          rel="noreferrer nofollow noopener"
-          target="_blank"
-          title="Twitter"
-          onclick="plausible('Social: Twitter')"
-        >
-          <img src="/images/twitter.svg" alt="Twitter" />
-        </a>
-      
-
-      
-        <a
-          href="https://mastodon.social/@elementary/104525268598122717"
-          rel="noreferrer nofollow noopener"
-          target="_blank"
-          title="Mastodon"
-          onclick="plausible('Social: Mastodon')"
-        >
-          <img src="/images/mastodon.svg" alt="Mastodon" />
-        </a>
-      
-
-      
-        <a
-          href="https://www.reddit.com/r/elementaryos/comments/hsgynl/leaving_google_analytics_is_finally_plausible/"
-          rel="noreferrer nofollow noopener"
-          target="_blank"
-          title="Reddit"
-          onclick="plausible('Social: Reddit')"
-        >
-          <img src="/images/reddit.svg" alt="Reddit" />
-        </a>
-      
-
-      
-        <a
-          href="https://www.facebook.com/elementaryos/posts/3439881266043678"
-          rel="noreferrer nofollow noopener"
-          target="_blank"
-          title="Facebook"
-          onclick="plausible('Social: Facebook')"
-        >
-          <img src="/images/facebook.svg" alt="Facebook" />
-        </a>
-      
-    </div>
-  
 
   <div class="share">
     <h3>Share</h3>
     
 
     <a
-      href="https://twitter.com/intent/tweet?text=Leaving Google Analytics is Finally Plausible&url=https://blog.elementary.io/leaving-google-analytics-is-finally-plausible/&via=elementary&original_referer=https://blog.elementary.io/leaving-google-analytics-is-finally-plausible/"
+      href="https://twitter.com/intent/tweet?text=Updates for September, 2022&url=https://blog.elementary.io/updates-for-september-2022/&via=elementary&original_referer=https://blog.elementary.io/updates-for-september-2022/"
       rel="noreferrer nofollow noopener"
       target="_blank"
       title="Twitter"
@@ -663,7 +432,7 @@
     </a>
 
     <a
-      href="http://www.reddit.com/submit?title=Leaving Google Analytics is Finally Plausible&url=https://blog.elementary.io/leaving-google-analytics-is-finally-plausible/"
+      href="http://www.reddit.com/submit?title=Updates for September, 2022&url=https://blog.elementary.io/updates-for-september-2022/"
       rel="noreferrer nofollow noopener"
       target="_blank"
       title="Reddit"
@@ -673,7 +442,7 @@
     </a>
 
     <a
-      href="https://www.facebook.com/sharer/sharer.php?u=https://blog.elementary.io/leaving-google-analytics-is-finally-plausible/"
+      href="https://www.facebook.com/sharer/sharer.php?u=https://blog.elementary.io/updates-for-september-2022/"
       rel="noreferrer nofollow noopener"
       target="_blank"
       title="Facebook"
@@ -683,7 +452,7 @@
     </a>
 
     <a
-      href="https://blog.elementary.io/leaving-google-analytics-is-finally-plausible/"
+      href="https://blog.elementary.io/updates-for-september-2022/"
       title="Permalink"
       onclick="return share()"
     >
@@ -698,9 +467,9 @@ function share() {
 
   if (navigator.share) {
     navigator.share({
-      title: "Leaving Google Analytics is Finally Plausible",
-      text: "Reviewing another big step towards privacy and transparency",
-      url: "https://blog.elementary.io/leaving-google-analytics-is-finally-plausible/",
+      title: "Updates for September, 2022",
+      text: "A new developer tool and steady OS 7 progress",
+      url: "https://blog.elementary.io/updates-for-september-2022/",
     })
     .catch((error) => console.log("Error sharing", error));
 
@@ -717,12 +486,16 @@ function share() {
 <h2 class="up-next">Up Next</h2>
 
 
+
+
+
+
   
     
 
-<a class="featured with-image 1" href="/updates-for-september-2022/">
+<a class="featured with-image 1" href="/updates-for-august-2022/">
   
-    <div class="featured-image" alt="Featured image" style="background-image: url(/images/updates-for-september-2022/iconbrowser.png);"></div>
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/updates-for-august-2022/appcenter-home.png);"></div>
   
 
   <header>
@@ -730,7 +503,7 @@ function share() {
 
 
 
-   Updates for September,&nbsp;2022
+   Updates for August,&nbsp;2022
 
 </h2>
     
@@ -739,7 +512,7 @@ function share() {
 
 
 
-   A new developer tool and steady OS 7&nbsp;progress
+   Plus, our plan for responsive&nbsp;apps
 
 
         
@@ -768,155 +541,7 @@ function share() {
       <span class="description">Founder & CEO</span>
     
   </div>
-  <time class="post-date" datetime="2022-10-05">Wed, Oct  5, 2022</time>
-  
-    <span class="read-time" title="Estimated read time">
-  
-  4 min read
-</span>
-
-
-  
-</div>
-
-
-  </header>
-
-  
-</a>
-
-
-  
-
-
-
-  
-    
-      
-
-<a class="featured with-image 1" href="/updates-for-july-2020/">
-  
-    <div class="featured-image" alt="Featured image" style="background-image: url(/images/updates-for-july-2020/card.png);"></div>
-  
-
-  <header>
-    <h2>
-
-
-
-   Let’s Talk elementary OS&nbsp;6
-
-</h2>
-    
-      <h3>
-        
-
-
-
-   Updates for July, plus early access to the next major&nbsp;version
-
-
-        
-      </h3>
-    
-
-    
-
-
-
-<div class="byline">
-  <div class="avatar">
-    <img
-      
-        srcset="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&d=blank 2x"
-        src="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&d=blank"
-        alt="Avatar for Cassidy James Blaede"
-      
-    />
-  </div>
-  <div class="author">
-    
-    <span class="name">Cassidy James Blaede</span>
-    
-    
-      <span class="description">Co-founder & CXO</span>
-    
-  </div>
-  <time class="post-date" datetime="2020-08-07">Fri, Aug  7, 2020</time>
-  
-    <span class="read-time" title="Estimated read time">
-  
-  7 min read
-</span>
-
-
-  
-</div>
-
-
-  </header>
-
-  
-</a>
-
-
-    
-  
-
-
-
-  
-    
-
-<a class="featured with-image 1" href="/updates-for-june-2020/">
-  
-    <div class="featured-image" alt="Featured image" style="background-image: url(/images/hera-updates-for-june-2020/card.png);"></div>
-  
-
-  <header>
-    <h2>
-
-
-
-   Hera Updates for June,&nbsp;2020
-
-</h2>
-    
-      <h3>
-        
-
-
-
-   Fixes and improvements with OS 5.1.6, plus a note about the&nbsp;future
-
-
-        
-      </h3>
-    
-
-    
-
-
-
-<div class="byline">
-  <div class="avatar">
-    <img
-      
-        srcset="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&d=blank 2x"
-        src="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&d=blank"
-        alt="Avatar for Danielle Foré"
-      
-    />
-  </div>
-  <div class="author">
-    
-    <span class="name">Danielle Foré</span>
-    
-    
-      <span class="description">Founder & CEO</span>
-    
-  </div>
-  <time class="post-date" datetime="2020-07-01">Wed, Jul  1, 2020</time>
+  <time class="post-date" datetime="2022-09-06">Tue, Sep  6, 2022</time>
   
     <span class="read-time" title="Estimated read time">
   
@@ -973,686 +598,11 @@ function share() {
     
 
     
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
       
 
-<a class="featured with-image small" href="/appcenter-website-updates/">
+<a class="featured with-image small" href="/updates-for-july-2022/">
   
-    <div class="featured-image" alt="Featured image" style="background-image: url(/images/appcenter-website-updates/1kIeio0vBb2IEPF8lGkFM-A.png);"></div>
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/elementary-os-6-odin-updates-september-2021/card.jpg);"></div>
   
 
   <header>
@@ -1660,7 +610,7 @@ function share() {
 
 
 
-   AppCenter Website&nbsp;Updates
+   Updates for July,&nbsp;2022
 
 </h2>
     
@@ -1669,499 +619,7 @@ function share() {
 
 
 
-   Release notes, prices, and&nbsp;more
-
-
-        
-      </h3>
-    
-
-    
-
-
-
-<div class="byline">
-  <div class="avatar">
-    <img
-      
-        srcset="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&d=blank 2x"
-        src="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&d=blank"
-        alt="Avatar for Cassidy James Blaede"
-      
-    />
-  </div>
-  <div class="author">
-    
-    <span class="name">Cassidy James Blaede</span>
-    
-    
-      <span class="description">Co-founder & CXO</span>
-    
-  </div>
-  <time class="post-date" datetime="2019-01-28">Mon, Jan 28, 2019</time>
-  
-    <span class="read-time" title="Estimated read time">
-  
-  4 min read
-</span>
-
-
-  
-</div>
-
-
-  </header>
-
-  
-</a>
-
-
-      
-      
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-      
-
-<a class="featured with-image small" href="/privacy-and-elementary-os/">
-  
-    <div class="featured-image" alt="Featured image" style="background-image: url(https://cdn-images-1.medium.com/max/1600/1*A6acK8YdY-_VS414hveMlw.jpeg);"></div>
-  
-
-  <header>
-    <h2>
-
-
-
-   Privacy and elementary&nbsp;OS
-
-</h2>
-    
-      <h3>
-        
-
-
-
-   How we protect your data from ourselves and&nbsp;others
-
-
-        
-      </h3>
-    
-
-    
-
-
-
-<div class="byline">
-  <div class="avatar">
-    <img
-      
-        srcset="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&d=blank 2x"
-        src="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&d=blank"
-        alt="Avatar for Cassidy James Blaede"
-      
-    />
-  </div>
-  <div class="author">
-    
-    <span class="name">Cassidy James Blaede</span>
-    
-    
-      <span class="description">Co-founder & CXO</span>
-    
-  </div>
-  <time class="post-date" datetime="2019-01-09">Wed, Jan  9, 2019</time>
-  
-    <span class="read-time" title="Estimated read time">
-  
-  6 min read
-</span>
-
-
-  
-</div>
-
-
-  </header>
-
-  
-</a>
-
-
-      
-      
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-      
-
-<a class="featured with-image small" href="/introducing-new-appcenter-sharing-urls/">
-  
-    <div class="featured-image" alt="Featured image" style="background-image: url(/images/introducing-new-appcenter-sharing-urls/1_mzxdebxqeMgyDfAAHn5ug.png);"></div>
-  
-
-  <header>
-    <h2>
-
-
-
-   Introducing New AppCenter Sharing&nbsp;URLs
-
-</h2>
-    
-      <h3>
-        
-
-
-
-   Easily share apps to users whether or not they’re on elementary&nbsp;OS
-
-
-        
-      </h3>
-    
-
-    
-
-
-
-<div class="byline">
-  <div class="avatar">
-    <img
-      
-        srcset="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&d=blank 2x"
-        src="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&d=blank"
-        alt="Avatar for Cassidy James Blaede"
-      
-    />
-  </div>
-  <div class="author">
-    
-    <span class="name">Cassidy James Blaede</span>
-    
-    
-      <span class="description">Co-founder & CXO</span>
-    
-  </div>
-  <time class="post-date" datetime="2018-07-20">Fri, Jul 20, 2018</time>
-  
-    <span class="read-time" title="Estimated read time">
-  
-  6 min read
-</span>
-
-
-  
-</div>
-
-
-  </header>
-
-  
-</a>
-
-
-      
-      
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-      
-
-<a class="featured with-image small" href="/you-are-not-the-product/">
-  
-    <div class="featured-image" alt="Featured image" style="background-image: url(https://cdn-images-1.medium.com/max/1600/1*cLwxBJhf6MKETmbqR6ilnw.jpeg);"></div>
-  
-
-  <header>
-    <h2>
-
-
-
-   You Are Not the&nbsp;Product
-
-</h2>
-    
-      <h3>
-        
-
-
-
-   A reminder about our stance on advertising and&nbsp;tracking
+   A big themes update for Terminal and OS 7&nbsp;progress
 
 
         
@@ -2190,7 +648,7 @@ function share() {
       <span class="description">Founder & CEO</span>
     
   </div>
-  <time class="post-date" datetime="2017-04-24">Mon, Apr 24, 2017</time>
+  <time class="post-date" datetime="2022-08-12">Fri, Aug 12, 2022</time>
   
     <span class="read-time" title="Estimated read time">
   
@@ -2220,153 +678,11 @@ function share() {
     
 
     
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
       
 
-<a class="featured small" href="/payments/">
+<a class="featured with-image small" href="/updates-for-june-2022/">
+  
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/elementary-os-6-odin-updates-september-2021/card.jpg);"></div>
   
 
   <header>
@@ -2374,9 +690,7 @@ function share() {
 
 
 
-  
-    Payments
-  
+   Updates for June,&nbsp;2022
 
 </h2>
     
@@ -2385,7 +699,7 @@ function share() {
 
 
 
-   Or, “Why we make you type&nbsp;$0”
+   The focus turns back to OS 6 while we're stuck on OS&nbsp;7
 
 
         
@@ -2400,25 +714,25 @@ function share() {
   <div class="avatar">
     <img
       
-        srcset="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&d=blank 2x"
-        src="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&d=blank"
-        alt="Avatar for Cassidy James Blaede"
+        srcset="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&d=blank 2x"
+        src="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&d=blank"
+        alt="Avatar for Danielle Foré"
       
     />
   </div>
   <div class="author">
     
-    <span class="name">Cassidy James Blaede</span>
+    <span class="name">Danielle Foré</span>
     
     
-      <span class="description">Co-founder & CXO</span>
+      <span class="description">Founder & CEO</span>
     
   </div>
-  <time class="post-date" datetime="2015-02-15">Sun, Feb 15, 2015</time>
+  <time class="post-date" datetime="2022-07-02">Sat, Jul  2, 2022</time>
   
     <span class="read-time" title="Estimated read time">
   
-  6 min read
+  4 min read
 </span>
 
 
@@ -2429,18 +743,1251 @@ function share() {
   </header>
 
   
-  <section class="excerpt">
-    <p>While our desktop developers are hard at work making Freya happen (we just released beta 2!), our web developers and many new contributors are collaborating over at GitHub to bring our new website to life.
+</a>
 
-</p>
-    <span>Read more…</span>
-  </section>
+
+      
+      
+    
+
+  
+
+    
+    
+
+    
+
+    
+      
+
+<a class="featured with-image small" href="/updates-for-may-2022/">
+  
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/elementary-os-6-odin-updates-september-2021/card.jpg);"></div>
+  
+
+  <header>
+    <h2>
+
+
+
+   Updates for May,&nbsp;2022
+
+</h2>
+    
+      <h3>
+        
+
+
+
+   OS 6 still gets the latest&nbsp;goodies
+
+
+        
+      </h3>
+    
+
+    
+
+
+
+<div class="byline">
+  <div class="avatar">
+    <img
+      
+        srcset="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&d=blank 2x"
+        src="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&d=blank"
+        alt="Avatar for Danielle Foré"
+      
+    />
+  </div>
+  <div class="author">
+    
+    <span class="name">Danielle Foré</span>
+    
+    
+      <span class="description">Founder & CEO</span>
+    
+  </div>
+  <time class="post-date" datetime="2022-05-31">Tue, May 31, 2022</time>
+  
+    <span class="read-time" title="Estimated read time">
+  
+  5 min read
+</span>
+
+
+  
+</div>
+
+
+  </header>
+
   
 </a>
 
 
       
       
+    
+
+  
+
+    
+    
+
+    
+
+    
+      
+
+<a class="featured with-image small" href="/updates-for-april-2022/">
+  
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/updates-for-april-2022/card.jpg);"></div>
+  
+
+  <header>
+    <h2>
+
+
+
+   Updates for April,&nbsp;2022
+
+</h2>
+    
+      <h3>
+        
+
+
+
+   Counting down to OS&nbsp;7
+
+
+        
+      </h3>
+    
+
+    
+
+
+
+<div class="byline">
+  <div class="avatar">
+    <img
+      
+        srcset="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&d=blank 2x"
+        src="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&d=blank"
+        alt="Avatar for Danielle Foré"
+      
+    />
+  </div>
+  <div class="author">
+    
+    <span class="name">Danielle Foré</span>
+    
+    
+      <span class="description">Founder & CEO</span>
+    
+  </div>
+  <time class="post-date" datetime="2022-05-03">Tue, May  3, 2022</time>
+  
+    <span class="read-time" title="Estimated read time">
+  
+  5 min read
+</span>
+
+
+  
+</div>
+
+
+  </header>
+
+  
+</a>
+
+
+      
+      
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
     
 
   

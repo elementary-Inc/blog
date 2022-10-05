@@ -5,9 +5,82 @@
     <description>We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS</description>
     <link>https://blog.elementary.io/</link>
     <atom:link href="https://blog.elementary.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 04 Oct 2022 19:08:32 -0500</pubDate>
-    <lastBuildDate>Tue, 04 Oct 2022 19:08:32 -0500</lastBuildDate>
+    <pubDate>Wed, 05 Oct 2022 18:51:42 -0500</pubDate>
+    <lastBuildDate>Wed, 05 Oct 2022 18:51:42 -0500</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      
+        <item>
+          <title>Updates for September, 2022</title>
+          <description>&lt;p&gt;Sorry 6.1 fans, this month was all about OS 7 with the exception of a new Icon Browser app being released in AppCenter.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/updates-for-september-2022/iconbrowser.png&quot; alt=&quot;elementary Icon Browser&quot; width=&quot;1034&quot; height=&quot;710&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;The new elementary Icon Browser available in AppCenter&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;If you’re familiar with my LookBook app which was previously offered for $10, you may be excited to know that the new elementary Icon Browser is available for free. This developer tool shows you all of the system icons available to use in your apps and you can even search them by description. The new app has been updated to use Gtk 4 and has much better system dark style support as well as doing a better job showing relevant icon sizes and more. If you’re writing apps for elementary OS, be sure to check it out!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;figure class=&quot;constrained card&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/updates-for-april-2022/card.jpg&quot; alt=&quot;elementary OS 7 Horus&quot; /&gt;&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;multitasking--window-management&quot;&gt;Multitasking &amp;amp; Window Management&lt;/h2&gt;
+
+&lt;p&gt;If you’re following the release closely, you may be aware the the primary release blockers for the last several months have been some serious regressions in Gala, our window manager. I’m happy to report that several of these regressions have now been solved and there is only one known release blocking issue for Gala left. Major shoutouts to Corentin and David for their work here. This brings us much much closer to the stable release of OS 7. As always, you can follow along with remaining release targeted issues on the &lt;a href=&quot;https://github.com/orgs/elementary/projects/94/views/1&quot;&gt;OS 7 Project Board&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;appcenter&quot;&gt;AppCenter&lt;/h2&gt;
+
+&lt;p&gt;AppCenter continues to get new features and plenty of fixes in preparation for quite a large new release!&lt;/p&gt;
+
+&lt;p&gt;You can now see the release notes of up to 5 past releases on app info pages to get a clearer idea of how often an app is updated. Plus, we now support the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;issues&amp;gt;&lt;/code&gt; tag so that developers can provide links back to solved issues that you’ve reported. We’re hoping this encourages folks to get involved as part of the open source community for their favorite apps.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/updates-for-september-2022/release-notes.png&quot; alt=&quot;Improved AppCenter Release Notes&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;Improved release notes in AppCenter with linked issue reports&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;There’s now an overlay status bar showing a description of currently in progress tasks. This replaces the mysterious spinner that previously appeared in the header bar. And in the updates view, the “Update All” header is now sticky to the view, making its action always easily accessible.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/updates-for-september-2022/updates.png&quot; alt=&quot;AppCenter Updates View&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;AppCenter with a overlay status bar and a sticky updates header&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Also, shoutouts to &lt;a href=&quot;https://github.com/mmstick&quot;&gt;Michael Murphy&lt;/a&gt; from System76 for upstreaming a fix for a crash that would occur when showing error messages. In addition to several other under the hood improvements, the next release of AppCenter will certainly be much more stable. One final thing, though it hasn’t been approved yet, the Gtk 4 port of AppCenter is ready for review! So we can hopefully look forward to a big performance boost once that lands as well.&lt;/p&gt;
+
+&lt;h2 id=&quot;github--ci&quot;&gt;GitHub &amp;amp; CI&lt;/h2&gt;
+
+&lt;p&gt;Still important, but probably less interesting for you, Corentin also spent some time resolving some issues we were having with GitHub Actions and our continuous integration testing process. We’re now building some new Docker containers specifically for OS 7 and have a resolved an issue that caused build failures for any projects making use of GResource—which is quite a few. Our Gettext action has also been updated so that translation templates are always kept up to date and translators are able to quickly and automatically do their work via Weblate. These handy automations help us to do our work quickly while ensuring large breaking changes don’t get into our code.&lt;/p&gt;
+
+&lt;h2 id=&quot;early-access-preview&quot;&gt;Early Access Preview&lt;/h2&gt;
+
+&lt;p&gt;If you’re in early access, you now have the ability to install and test the very early Gtk 4 port of System Settings. To get the new System Settings, pop open Terminal and enter &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo apt install io.elementary.settings*&lt;/code&gt;. This will install the new System Settings app itself as well as the 7 panes currently available to test. Note that you may not experience too much different here just yet and there will be plenty of issues to sort through.&lt;/p&gt;
+
+&lt;p&gt;If you’re not already in early access, you can be among the first to try it and give your feedback by joining &lt;a href=&quot;https://builds.elementary.io/&quot;&gt;Early Access for a $10/mo sponsorship&lt;/a&gt;. Can’t wait to see you in the next one!&lt;/p&gt;
+</description>
+          <pubDate>Wed, 05 Oct 2022 00:00:00 -0500</pubDate>
+          <link>https://blog.elementary.io/updates-for-september-2022/</link>
+          <guid isPermaLink="true">https://blog.elementary.io/updates-for-september-2022/</guid>
+          
+              
+              
+          <enclosure url="https://blog.elementary.io" />
+          
+          
+          <category>horus</category>
+          
+          
+        </item>
+      
     
       
         <item>
@@ -1674,8 +1747,6 @@ figure iframe {
           
           
         </item>
-      
-    
       
     
   </channel>
