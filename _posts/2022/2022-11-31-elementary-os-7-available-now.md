@@ -27,13 +27,52 @@ To get elementary OS 7 now, head to [elementary.io] for the download—or read o
 
 ---
 
-## Apps
+## AppCenter
 
-appcenter
- 4.0.0
+As always, AppCenter is the centerpiece of elementary OS. The primary purpose of any operating system is to support the apps that you use to work, play, and express yourself creatively.
 
-sideload
+Responsive design work:
+- Wrap links at the bottom pages instead of ellipsize
+
+Rewritten navigation with multitouch gestures to go back
+Recently updated apps are shown at the top of category views
+A status overlay bar is now shown when tasks are in progress
+Redesigned "Fun & Games" category card
+
+Performance & Stability improvements
+
+Show "Try for Free" when setting an app's price to 0
+
+### App Descriptions
+
+Screenshot carousels fill the width of the window, showing more screenshots at once
+An app's accent color is now shown behind screenshots
+
+Better dark style support
+Warn when apps are built against older runtimes
+Show screenshot captions in a tooltip
+Up to 5 releases shown
+Support for Issues tag
+
+### Getting Updates
+
+Added an option to automatically update apps
+Manually check for new updates
+
+Release notes are shown in a dialog
+Better fallback icons for components
+The "Update All" header now sticks to the top of the window when scrolling
+
+### Sideloading & Alt Stores
+
+Don't show a warning dialog about apps from alt stores
+Get brand colors from the AppStream standard so more apps are supported
+
+Sideload
  6.1.0
+
+
+## Other Apps
 
 code
  6.2.0
@@ -67,9 +106,6 @@ files
 
 camera
  6.2.0
-
-switchboard-plug-wacom
- 1.0.1
 
 terminal
  6.1.1
@@ -152,6 +188,9 @@ switchboard-plug-network
 
 switchboard-plug-keyboard
  3.1.0
+
+switchboard-plug-wacom
+ 1.0.1
 
 switchboard-plug-security-privacy
  2.4.1
