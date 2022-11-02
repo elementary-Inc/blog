@@ -30,6 +30,9 @@ To get elementary OS 7 now, head to [elementary.io] for the download—or read o
 ## AppCenter
 
 As always, AppCenter is the centerpiece of elementary OS. The primary purpose of any operating system is to support the apps that you use to work, play, and express yourself creatively.
+- More engaging app descriptions with more information
+- Easier to update to the latest versions
+- Better support for sideloading and alt stores
 
 Responsive design work:
 - Wrap links at the bottom pages instead of ellipsize
