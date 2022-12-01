@@ -16,7 +16,7 @@ sponsor:
 
 Folks running OS 6.1 rejoice, because a new version of Files is here with a long-asked-for new feature! You can now choose to have a single-click select folders instead of open them, Windows style. Secondary-click anywhere in a folder view and select "Select Folders with Single Click" to switch to the new file selection mode. We now also only show the overlay bar with more info when a selection is made, so no more fiddly hover behavior. There are also fixes for several reported possible crashes, so make sure to grab this update!
 
-<figure class="card" markdown="1">
+<figure markdown="1">
 ![Files context menu](/images/updates-for-november-2022/files.png)
 <figcaption markdown="1">
 You can now optionally select with a single-click in Files
