@@ -5,9 +5,52 @@
     <description>We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS</description>
     <link>https://blog.elementary.io/</link>
     <atom:link href="https://blog.elementary.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 30 Nov 2022 18:06:19 -0600</pubDate>
-    <lastBuildDate>Wed, 30 Nov 2022 18:06:19 -0600</lastBuildDate>
+    <pubDate>Thu, 01 Dec 2022 12:10:03 -0600</pubDate>
+    <lastBuildDate>Thu, 01 Dec 2022 12:10:03 -0600</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      
+        <item>
+          <title>Updates for November, 2022</title>
+          <description>&lt;p&gt;Folks running OS 6.1 rejoice, because a new version of Files is here with a long-asked-for new feature! You can now choose to have a single-click select folders instead of open them, Windows style. Secondary-click anywhere in a folder view and select “Select Folders with Single Click” to switch to the new file selection mode. We now also only show the overlay bar with more info when a selection is made, so no more fiddly hover behavior. There are also fixes for several reported possible crashes, so make sure to grab this update!&lt;/p&gt;
+
+&lt;figure class=&quot;card&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/updates-for-november-2022/files.png&quot; alt=&quot;Files context menu&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;You can now optionally select with a single-click in Files&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;In other 6.1 news, we recently fixed an issue on our Flatpak remote that was preventing delta updates from being generated, so expect your future Flatpak updates to be much smaller file sizes. For developers wanting to try the new Icon Browser we also fixed a reported crash on startup.&lt;/p&gt;
+
+&lt;figure class=&quot;constrained card&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/updates-for-april-2022/card.jpg&quot; alt=&quot;elementary OS 7 Horus&quot; /&gt;&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Those of you following along with the &lt;a href=&quot;https://github.com/orgs/elementary/projects/94/views/1&quot;&gt;OS 7 Project Board&lt;/a&gt; may have noticed a few new items on the board. Thanks to the folks in Early Access reporting issues we’ve found a few more things that need fixing to make a great release. Recently there have been several improvements merged into the Installer and Initial Setup for a much smoother first run experience including a fix that made the installer window too large for virtual machines booting in legacy mode. We’re continuing to dial things in based on your feedback to make OS 7 something we can be really proud of. Hang tight friends, the bow is going on this one very soon!&lt;/p&gt;
+
+&lt;h2 id=&quot;early-access-preview&quot;&gt;Early Access Preview&lt;/h2&gt;
+
+&lt;p&gt;If you’re not already in early access, you can be among the first to try it and give your feedback by joining &lt;a href=&quot;https://builds.elementary.io/&quot;&gt;Early Access for a $10/mo sponsorship&lt;/a&gt;.&lt;/p&gt;
+</description>
+          <pubDate>Thu, 01 Dec 2022 00:00:00 -0600</pubDate>
+          <link>https://blog.elementary.io/updates-for-november-2022/</link>
+          <guid isPermaLink="true">https://blog.elementary.io/updates-for-november-2022/</guid>
+          
+              
+              
+          <enclosure url="https://blog.elementary.io" />
+          
+          
+          <category>horus</category>
+          
+          <category>jolnir</category>
+          
+          <category>updates</category>
+          
+          
+        </item>
+      
     
       
         <item>
@@ -1382,8 +1425,6 @@ figure iframe {
           
           
         </item>
-      
-    
       
     
   </channel>
