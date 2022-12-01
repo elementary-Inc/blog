@@ -6,6 +6,8 @@ image: /images/updates-for-november-2022/files.png
 
 tags:
   - horus
+  - jolnir
+  - updates
 
 sponsor:
   name: Serge Carpentier
