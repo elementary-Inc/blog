@@ -10,7 +10,7 @@ tags:
 
 12/20/21 was release date of OS 6.1
 
-It's been just under a year since we released elementary OS 6.1 Jólnir which brought new features and fixes based on your feedback, introduced new office productivity features, and expanded compatibility with a wide range of hardware. So far, OS 6.1 has been downloaded from our website [over 360,000 times](https://plausible.io/elementary.io?period=custom&goal=Download&from=2021-12-20&to=2022-11-02&props=%7B%22Version%22:%226.1%22%7D), over 100,000 times more than 6.0—and as always, that's not including downloads from third parties or direct downloads via torrent that bypass our download page!
+It's been just under a year since we released elementary OS 6.1 Jólnir which brought new features and fixes based on your feedback, introduced new office productivity features, and expanded compatibility with a wide range of hardware. So far, OS 6.1 has been downloaded from our website [over 390,000 times](https://plausible.io/elementary.io?period=custom&goal=Download&from=2021-12-20&to=2022-12-05&props=%7B%22Version%22:%226.1%22%7D), over 100,000 times more than 6.0—and as always, that's not including downloads from third parties or direct downloads via torrent that bypass our download page!
 
 <figure class="constrained" markdown="1">
 ![elementary OS 7 Horus](/images/{{ page.slug }}/hero.png)
@@ -29,13 +29,8 @@ To get elementary OS 7 now, head to [elementary.io] for the download—or read o
 
 ## AppCenter
 
-As always, AppCenter is the centerpiece of elementary OS. The primary purpose of any operating system is to support the apps that you use to work, play, and express yourself creatively.
-- More engaging app descriptions with more information
-- Easier to update to the latest versions
-- Better support for sideloading and alt stores
+As always, AppCenter is the centerpiece of elementary OS. The primary purpose of any operating system is to support the apps that you use to work, play, and express yourself creatively. In the latest version of AppCenter we've worked on making app descriptions more engaging with more information, making it easier to update to the latest versions of apps, and improving support for sideloading and alt stores. We've also worked on improving AppCenter's responsiveness—making sure you can comfortable use it when tiling and on small displays as well as better using space on large displays.
 
-Responsive design work:
-- Wrap links at the bottom pages instead of ellipsize
 
 Rewritten navigation with multitouch gestures to go back
 Recently updated apps are shown at the top of category views
@@ -51,16 +46,23 @@ Show "Try for Free" when setting an app's price to 0
 Screenshot carousels fill the width of the window, showing more screenshots at once
 An app's accent color is now shown behind screenshots
 
+[Screenshot of app info page]
+
 Better dark style support
-Warn when apps are built against older runtimes
-Show screenshot captions in a tooltip
-Up to 5 releases shown
-Support for Issues tag
+
+When apps use older runtimes or are no longer supported, we show an icon to make sure that you know what to expect before installing them.
+
+Screenshots can now also be accompanied by their own captions, which can help describe individual features as well as making pages more accessible to folks with vision-related disabilities.
+
+Changelogs are a great way to find out how active a developer is and how much they engage with their community. We now show up to 5 recent releases and we support linking resolved tickets from an app's issue tracker.
 
 ### Getting Updates
 
-Added an option to automatically update apps
-Manually check for new updates
+Staying up to date with the latest versions of apps is something we hear often is very important to folks using elementary OS. Flatpak makes it simple for developers to publish updates quickly and now you can get those updates automatically.
+
+[Screenshot of onboarding page for auto updates]
+
+If you'd still like to check for updates on your own time or want to force a manual refresh, there's now a handy menu option that you can use.
 
 Release notes are shown in a dialog
 Better fallback icons for components
@@ -68,8 +70,11 @@ The "Update All" header now sticks to the top of the window when scrolling
 
 ### Sideloading & Alt Stores
 
-Don't show a warning dialog about apps from alt stores
-Get brand colors from the AppStream standard so more apps are supported
+Sideloading apps and using Alt Stores like Flathub is a major feature of elementary OS and a competitive edge over closed platforms that only let you install apps from a locked down store. In this release we've made several improvements to smooth out the experience of using Alt Stores based on your feedback and the latest cross-platform standards.
+
+There's no longer a warning dialog every time you install an app that's supplied by an Alt Store, instead we show an unobtrusive icon alongside the app's other content warnings letting you know that elementary hasn't reviewed this particular app.
+
+Apps from AppCenter could always use their own brand colors to make their app info pages feel unique and now apps sideloaded from Alt Stores can show brand colors too, thanks to the latest additions in the AppStream standard.
 
 Sideload
 
@@ -219,6 +224,12 @@ New features:
 
 Switch tabs with Alt + 1-9
 Quit with Ctrl + Shift + Q
+
+### Web
+
+Web apps
+
+### File Roller & Evince
 
 ## The Desktop
 
@@ -486,7 +497,7 @@ TextStyle: use style class constants instead
 Several functions in System were replaced by GLib.AppInfo
 
 ### flatpak-platform
-7.1.0 ?
+7.1.0
 
 ---
 
