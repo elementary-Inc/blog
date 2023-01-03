@@ -114,9 +114,6 @@ Redesigned Icon
 
 Ask for confirmation before deleting events
 Follow email and web links in the event description with Control + Click
-
-Disabled checkbox "Mark as default calendar" in calendar settings, if the calendar is read-only
-Removed no longer needed sandbox permission for accounts service
 Fixed potential memory leak
 
 ### Mail
@@ -125,12 +122,10 @@ Fixed an error which caused mail accounts to be loaded multiple times
 Fixed a bug which caused Mail to crash occasionally
 Display recipient in Sent folder instead of sender
 
-Updated app icon
 New design
 
 Use message subject for composer window title
 Added support for Unified Inbox for Microsoft 365 accounts
-
 
 Fixed an error which caused the inbox monitoring in the background to crash
 Removed duplicate sender addresses when composing a message
@@ -138,10 +133,8 @@ Fix a freeze when archiving the last message in a folder
 
 Renamed Office 365 to Microsoft 365 to follow suite on Microsoft's rebranding
 
-
 ### Feedback
 
-Avoid focus stealing prevention when opening a web browser
 Show more entries under Desktop Components
 
 ### Videos
@@ -150,19 +143,14 @@ Fix a crash with certain video codecs
 
 ### Tasks
 
-New app icon
 Add offline support for newly created task lists in case its configured for the account
 Automatically synchronize a task list whenever it is selected or the network becomes available again
 Send a notification when a task is due
 
 ### Files
 
-Improvements:
-
 Provide option to select folders with single click and activate with double click
 Only show the properties overlay when files are selected, not when hovered
-Fixes:
-
 Fix unexpected file activation after navigation with double-click
 Fix dimmed window after use of filechooser portal
 Fix possible crash when rapidly changing view modes
@@ -190,26 +178,14 @@ Prevent a crash when dragging to re-arrange bookmarks
 
 ### Camera
 
-Support MJPEG cameras
-Fixes:
-
-Show error in case no camera device is available
-New features:
-
-Take a photo or video on secondary-click
-Fixes:
-
-Ensure brightness, contrast, and mirror continue working after taking a photo
 Wider hardware compatibility (e.g. StarBook Mk V)
-Ensure photos saved properly
+Support MJPEG cameras
+Ensure brightness, contrast, and mirror continue working after taking a photo
 
 ### Terminal
 
-New features:
-
 Option to follow system dark style preference
 Create a custom color palette
-Fixes:
 
 Default styles are fully opaque and updated to the latest upstream values from Solarized for improved legibility
 New features:
@@ -237,26 +213,13 @@ Improvements:
 Use access portal for display settings confirmation and force quit
 Allow closing multitasking view with Super
 
-### settings-daemon
-Add left handed setting (#44)
-Check downloads folder isn't home folder (#50)
-
-
 ### shortcut-overlay
 Show in the applications menu
 Replace keyboard settings button with a labeled link button
 Show on-screen keyboard shortcut
 Close with the shortcut Ctrl + Q
-Updated translations
-Gtk 4
-
-### notifications
-Fix missing icon when set from icon name
 
 ### Portals
-Add a destructive action option for access portals
-Fixes:
-
 Fix a crash when opening apps in the AppChooser portal
 Fix window focus and position for Access portals with no parent window
 Set AppChooser portal as a modal dialog for proper animations
@@ -270,11 +233,8 @@ Check for network access
 ### onboarding
 Add Automatic Updates view
 Add Sunset to Sunrise to Style View
-Update for OS 7 and Gtk 4
-Updated translations
 
 ### System Settings
-
 
 ### switchboard-plug-about
 Added support for dark style manufacturer logos
@@ -285,13 +245,13 @@ Added support for offline firmware updates
 Central Kurdish is now available as an installable language
 Support installation and removal of languages with 3-letter codes
 
-### switchboard-plug-power
- Add power profile management
- 
+### Power
+
+Power profile management is now available, including Performance mode for hardware that supports it. Expect much improved battery life for mobile devices with Power Saver mode.
+
 ### switchboard-plug-pantheon-shell
 There is now an undo option after removing a wallpaper
 Wallpapers are now sorted with custom wallpapers first
-Fixes:
 
 Wallpaper accent color follows system setting
 Set-wallpaper contract fails gracefully when run as sudo
@@ -314,7 +274,6 @@ Show the supported language for each driver
 Show color names below ink levels
 Avoid expanding the window for printers with many ink levels
 Use newer add/remove list pattern
-Fixes:
 
 Update sidebar after adding or removing printer
 Update sidebar after enabling or disabling printer
@@ -322,13 +281,11 @@ Update job list after job state change
 
 ### switchboard-plug-network
 Show correct info for WPA3 networks
-Fix an issue with wired connections repeatedly reconnecting
 
 ### switchboard-plug-keyboard
 Revert shortcuts to default
 Easily disable a shortcut
 Support Rime input method for Chinese
-Minor updates:
 
 Remove custom shortcuts from their menu
 Open Multitasking View with Super
@@ -367,6 +324,10 @@ Provide a fallback device icon when none is available
 Fix missing switch animations
 Use the volume step value from GNOME Settings Daemon
 Updated translations
+
+## Look & Feel
+
+New app icons
 
 ## Developer Platform
 
@@ -494,6 +455,9 @@ Several functions in System were replaced by GLib.AppInfo
 ### Gtk 4
 
 Sideload
+Shortcuts
+Music
+Onboarding
 
 ---
 
