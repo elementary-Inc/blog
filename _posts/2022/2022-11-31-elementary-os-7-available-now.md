@@ -76,12 +76,6 @@ There's no longer a warning dialog every time you install an app that's supplied
 
 Apps from AppCenter could always use their own brand colors to make their app info pages feel unique and now apps sideloaded from Alt Stores can show brand colors too, thanks to the latest additions in the AppStream standard.
 
-Sideload
-
-Use updated Flatpak branding
-Badge notifications with the sideloaded app's icon
-Gtk4
-
 ## Other Apps
 
 ### Code
@@ -98,15 +92,15 @@ The correct document is now focused after opening Code from an external program
 Line duplication is now actioned correctly if there is no selection present
 Code no longer crashes when asked to open an unknown URI format
 
-
-### Calculator
-
-Gtk 4
-
 ### Music
 
-Complete rewrite
-Gtk4
+As music streaming services have emerged, there's been a shift away from the old paradigm of importing music from CDs, carefully curating playlists, and syncing music from your computer to mobile devices. We've received lots of feedback that Music wasn't meeting folks needs and the old code base was becoming prone to issues.
+
+[Screenshot of Music 7]
+
+This cycle we've completely rewritten Music from scratch with a much more focused design built around quickly queuing up and playing individual audio files or your local music collection. We've heard that the new design is better for folks who just need a fast way to preview audio files that they're using in their other projects, as well as for folks that still carefully curate their own local music collection and don't want to compete with an app for fine grained control of their library's organization scheme.
+
+The new Music 7 already has better support for reading track metadata such as album art, works as you'd expect with system-wide media controls, and can be tiled and resized to fit small and large displays. We're excited to shape future versions of this app with your feedback, so make sure you let us know what kind of features you'd like to see!
 
 ### Photos
 
@@ -117,8 +111,6 @@ Avoid a crash when importing videos
 Redesigned Icon
 
 ### Calendar
-
-Updated app icon
 
 Ask for confirmation before deleting events
 Follow email and web links in the event description with Control + Click
@@ -498,6 +490,10 @@ Several functions in System were replaced by GLib.AppInfo
 
 ### flatpak-platform
 7.1.0
+
+### Gtk 4
+
+Sideload
 
 ---
 
