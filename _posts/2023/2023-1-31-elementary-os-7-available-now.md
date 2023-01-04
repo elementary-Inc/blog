@@ -224,6 +224,10 @@ Close with the shortcut Ctrl + Q
 
 During Initial setup, we now detect if you use the right mouse button for clicking and offer to switch to a left-handed mouse button order. There's also a new view that will appear if your device doesn't have network access instructing you how to get connected.
 
+Use larger icons in views
+Make window resizable
+Allow hyphens in device names
+
 [Screenshot of left-handed mouse dialog and network view]
 
 Onboarding includes a new view for configuring automatic updates, as well as the addition of a "Sunset to Sunrise" option for the dark style.
