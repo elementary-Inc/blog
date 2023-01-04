@@ -10,7 +10,7 @@ tags:
 
 12/20/21 was release date of OS 6.1
 
-It's been just under a year since we released elementary OS 6.1 Jólnir which brought new features and fixes based on your feedback, introduced new office productivity features, and expanded compatibility with a wide range of hardware. So far, OS 6.1 has been downloaded from our website [over 390,000 times](https://plausible.io/elementary.io?period=custom&goal=Download&from=2021-12-20&to=2022-12-05&props=%7B%22Version%22:%226.1%22%7D), over 100,000 times more than 6.0—and as always, that's not including downloads from third parties or direct downloads via torrent that bypass our download page!
+It's been just over a year since we released elementary OS 6.1 Jólnir which brought new features and fixes based on your feedback, introduced new office productivity features, and expanded compatibility with a wide range of hardware. So far, OS 6.1 has been downloaded from our website [over 390,000 times](https://plausible.io/elementary.io?period=custom&goal=Download&from=2021-12-20&to=2022-12-05&props=%7B%22Version%22:%226.1%22%7D), over 100,000 times more than 6.0—and as always, that's not including downloads from third parties or direct downloads via torrent that bypass our download page!
 
 <figure class="constrained" markdown="1">
 ![elementary OS 7 Horus](/images/{{ page.slug }}/hero.png)
@@ -153,11 +153,9 @@ Provide option to select folders with single click and activate with double clic
 Only show the properties overlay when files are selected, not when hovered
 Fix unexpected file activation after navigation with double-click
 Fix dimmed window after use of filechooser portal
-Fix possible crash when rapidly changing view modes
 Fix startup when restored remote location is no longer connected
 Ensure infobar shows in connection server dialog when connection attempt fails
 Ensure correct icon for bookmark to a file that is not a folder
-Fix possible crash when removing a bookmark
 Renaming with the same name no longer shows an error dialog
 Ctrl + A when renaming now selects all the text in the entry
 Selecting multiple items with Shift + Arrow keys now works properly
@@ -174,7 +172,8 @@ Show New Tab and New Window shortcuts in context menus
 
 Double click selects instead of exiting while renaming in list view
 Show public share icon in breadcrumbs
-Prevent a crash when dragging to re-arrange bookmarks
+
+Crash fixes
 
 ### Camera
 
@@ -208,31 +207,28 @@ Fix selecting windows underneath the window switcher
 Prevent potential crashes
 Resize workspaces when displays change
 Handle windows with no title
-Improvements:
 
 Use access portal for display settings confirmation and force quit
 Allow closing multitasking view with Super
 
-### shortcut-overlay
-Show in the applications menu
-Replace keyboard settings button with a labeled link button
+### Shortcuts
+
+The shortcuts app can now be launched from the applications menu.
+
 Show on-screen keyboard shortcut
 Close with the shortcut Ctrl + Q
 
-### Portals
-Fix a crash when opening apps in the AppChooser portal
-Fix window focus and position for Access portals with no parent window
-Set AppChooser portal as a modal dialog for proper animations
+### Installation
 
-### Installation & Onboarding
+### Initial Setup & Onboarding
 
-### initial-setup
-Offer to switch to left-handed setup if right clicking
-Check for network access
+During Initial setup, we now detect if you use the right mouse button for clicking and offer to switch to a left-handed mouse button order. There's also a new view that will appear if your device doesn't have network access instructing you how to get connected.
 
-### onboarding
-Add Automatic Updates view
-Add Sunset to Sunrise to Style View
+[Screenshot of left-handed mouse dialog and network view]
+
+Onboarding includes a new view for configuring automatic updates, as well as the addition of a "Sunset to Sunrise" option for the dark style.
+
+[Screenshot of Automatic Updates view and Style view]
 
 ### System Settings
 
