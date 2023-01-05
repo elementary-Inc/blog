@@ -76,39 +76,7 @@ There's no longer a warning dialog every time you install an app that's supplied
 
 Apps from AppCenter could always use their own brand colors to make their app info pages feel unique and now apps sideloaded from Alt Stores can show brand colors too, thanks to the latest additions in the AppStream standard.
 
-## Other Apps
-
-### Code
-
-The current document filename is now shown as the window title in multitasking view
-Hidden folders are now shown in the project sidebar
-The currently selected result and the number of results is displayed while searching
-The search bar now has a regular expression mode
-Fixes:
-
-It is now possible to change Git branch with untracked files present in a project
-Crashes are prevented while searching in large projects
-The correct document is now focused after opening Code from an external program
-Line duplication is now actioned correctly if there is no selection present
-Code no longer crashes when asked to open an unknown URI format
-
-### Music
-
-As music streaming services have emerged, there's been a shift away from the old paradigm of importing music from CDs, carefully curating playlists, and syncing music from your computer to mobile devices. We've received lots of feedback that Music wasn't meeting folks needs and the old code base was becoming prone to issues.
-
-[Screenshot of Music 7]
-
-This cycle we've completely rewritten Music from scratch with a much more focused design built around quickly queuing up and playing individual audio files or your local music collection. We've heard that the new design is better for folks who just need a fast way to preview audio files that they're using in their other projects, as well as for folks that still carefully curate their own local music collection and don't want to compete with an app for fine grained control of their library's organization scheme.
-
-The new Music 7 already has better support for reading track metadata such as album art, works as you'd expect with system-wide media controls, and can be tiled and resized to fit small and large displays. We're excited to shape future versions of this app with your feedback, so make sure you let us know what kind of features you'd like to see!
-
-### Photos
-
-New actions to copy image or metadata to clipboard
-Photos taken on the same day show under the same event
-Replace all instances of "Shotwell" with "Photos"
-Avoid a crash when importing videos
-Redesigned Icon
+## Office Productivity
 
 ### Calendar
 
@@ -133,22 +101,46 @@ Fix a freeze when archiving the last message in a folder
 
 Renamed Office 365 to Microsoft 365 to follow suite on Microsoft's rebranding
 
-### Feedback
+### Tasks
 
-[Feedback app screenshot]
+Add offline support for newly created task lists in case its configured for the account
+Automatically synchronize a task list whenever it is selected or the network becomes available again
+Send a notification when a task is due
 
-The ability to send feedback directly to developers, see development happen transparently, and receive fixes and new features as updates quickly is one of our greatest strengths over both proprietary platforms and traditional Linux distributions. The Feedback app is a critical component in beginning this loop, so this cycle we've brought some major improvements to it including instant launch times, much better coverage of installed apps, settings, and desktop components, and you can now access the Feedback app directly from the applications menu. We've also improved keyboard navigation and responsiveness for small displays, and added the ability to quickly double click a list item to launch.
+### File Roller & Evince
+
+## Multimedia
+
+### Music
+
+As music streaming services have emerged, there's been a shift away from the old paradigm of importing music from CDs, carefully curating playlists, and syncing music from your computer to mobile devices. We've received lots of feedback that Music wasn't meeting folks needs and the old code base was becoming prone to issues.
+
+[Screenshot of Music 7]
+
+This cycle we've completely rewritten Music from scratch with a much more focused design built around quickly queuing up and playing individual audio files or your local music collection. We've heard that the new design is better for folks who just need a fast way to preview audio files that they're using in their other projects, as well as for folks that still carefully curate their own local music collection and don't want to compete with an app for fine grained control of their library's organization scheme.
+
+The new Music 7 already has better support for reading track metadata such as album art, works as you'd expect with system-wide media controls, and can be tiled and resized to fit small and large displays. We're excited to shape future versions of this app with your feedback, so make sure you let us know what kind of features you'd like to see!
+
+### Photos
+
+New actions to copy image or metadata to clipboard
+Photos taken on the same day show under the same event
+Replace all instances of "Shotwell" with "Photos"
+Avoid a crash when importing videos
+Redesigned Icon
 
 ### Videos
 
 Fix a crash with certain video codecs
 Control playback from the sound indicator
 
-### Tasks
+## Other Apps
 
-Add offline support for newly created task lists in case its configured for the account
-Automatically synchronize a task list whenever it is selected or the network becomes available again
-Send a notification when a task is due
+### Feedback
+
+[Feedback app screenshot]
+
+The ability to send feedback directly to developers, see development happen transparently, and receive fixes and new features as updates quickly is one of our greatest strengths over both proprietary platforms and traditional Linux distributions. The Feedback app is a critical component in beginning this loop, so this cycle we've brought some major improvements to it including instant launch times, much better coverage of installed apps, settings, and desktop components, and you can now access the Feedback app directly from the applications menu. We've also improved keyboard navigation and responsiveness for small displays, and added the ability to quickly double click a list item to launch.
 
 ### Files
 
@@ -184,22 +176,30 @@ Wider hardware compatibility (e.g. StarBook Mk V)
 Support MJPEG cameras
 Ensure brightness, contrast, and mirror continue working after taking a photo
 
-### Terminal
-
-Option to follow system dark style preference
-Create a custom color palette
-
-Default styles are fully opaque and updated to the latest upstream values from Solarized for improved legibility
-New features:
-
-Switch tabs with Alt + 1-9
-Quit with Ctrl + Shift + Q
-
 ### Web
 
 Web apps
 
-### File Roller & Evince
+## Installation
+
+Show an infobar on battery instead of switching to a different page
+Show all system requirements warnings on a single page
+Warn about installing developer builds
+Updated translations
+
+### Initial Setup & Onboarding
+
+During Initial setup, we now detect if you use the right mouse button for clicking and offer to switch to a left-handed mouse button order. There's also a new view that will appear if your device doesn't have network access instructing you how to get connected.
+
+Use larger icons in views
+Make window resizable
+Allow hyphens in device names
+
+[Screenshot of left-handed mouse dialog and network view]
+
+Onboarding includes a new view for configuring automatic updates, as well as the addition of a "Sunset to Sunrise" option for the dark style.
+
+[Screenshot of Automatic Updates view and Style view]
 
 ## The Desktop
 
@@ -220,27 +220,6 @@ The shortcuts app can now be launched from the applications menu.
 
 Show on-screen keyboard shortcut
 Close with the shortcut Ctrl + Q
-
-### Installation
-
-Show an infobar on battery instead of switching to a different page
-Show all system requirements warnings on a single page
-Warn about installing developer builds
-Updated translations
-
-### Initial Setup & Onboarding
-
-During Initial setup, we now detect if you use the right mouse button for clicking and offer to switch to a left-handed mouse button order. There's also a new view that will appear if your device doesn't have network access instructing you how to get connected.
-
-Use larger icons in views
-Make window resizable
-Allow hyphens in device names
-
-[Screenshot of left-handed mouse dialog and network view]
-
-Onboarding includes a new view for configuring automatic updates, as well as the addition of a "Sunset to Sunrise" option for the dark style.
-
-[Screenshot of Automatic Updates view and Style view]
 
 ### System Settings
 
@@ -347,6 +326,32 @@ Fancy new icon
 Drag the window from anywhere
 Follow the system dark style preference
 Updated for Gtk 4
+
+### Code
+
+The current document filename is now shown as the window title in multitasking view
+Hidden folders are now shown in the project sidebar
+The currently selected result and the number of results is displayed while searching
+The search bar now has a regular expression mode
+Fixes:
+
+It is now possible to change Git branch with untracked files present in a project
+Crashes are prevented while searching in large projects
+The correct document is now focused after opening Code from an external program
+Line duplication is now actioned correctly if there is no selection present
+Code no longer crashes when asked to open an unknown URI format
+
+### Terminal
+
+Option to follow system dark style preference
+Create a custom color palette
+
+Default styles are fully opaque and updated to the latest upstream values from Solarized for improved legibility
+New features:
+
+Switch tabs with Alt + 1-9
+Quit with Ctrl + Shift + Q
+
 
 ### icons
 Additions:
