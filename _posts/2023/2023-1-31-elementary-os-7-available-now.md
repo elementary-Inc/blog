@@ -136,10 +136,12 @@ Renamed Office 365 to Microsoft 365 to follow suite on Microsoft's rebranding
 ### Feedback
 
 Show more entries under Desktop Components
+Make sure we fetch all addons for System Settings and the Panel
 
 ### Videos
 
 Fix a crash with certain video codecs
+Control playback from the sound indicator
 
 ### Tasks
 
@@ -219,6 +221,11 @@ Show on-screen keyboard shortcut
 Close with the shortcut Ctrl + Q
 
 ### Installation
+
+Show an infobar on battery instead of switching to a different page
+Show all system requirements warnings on a single page
+Warn about installing developer builds
+Updated translations
 
 ### Initial Setup & Onboarding
 
@@ -327,6 +334,7 @@ Updated translations
 
 ## Look & Feel
 
+New default wallpaper
 New app icons
 
 ## Developer Platform
