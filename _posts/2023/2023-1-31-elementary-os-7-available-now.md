@@ -135,8 +135,9 @@ Renamed Office 365 to Microsoft 365 to follow suite on Microsoft's rebranding
 
 ### Feedback
 
-Show more entries under Desktop Components
-Make sure we fetch all addons for System Settings and the Panel
+[Feedback app screenshot]
+
+The ability to send feedback directly to developers, see development happen transparently, and receive fixes and new features as updates quickly is one of our greatest strengths over both proprietary platforms and traditional Linux distributions. The Feedback app is a critical component in beginning this loop, so this cycle we've brought some major improvements to it including instant launch times, much better coverage of installed apps, settings, and desktop components, and you can now access the Feedback app directly from the applications menu. We've also improved keyboard navigation and responsiveness for small displays, and added the ability to quickly double click a list item to launch.
 
 ### Videos
 
