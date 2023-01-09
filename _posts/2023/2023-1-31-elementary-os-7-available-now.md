@@ -61,34 +61,15 @@ Apps from AppCenter could always use their own brand colors to make their app in
 
 ## Office Productivity
 
-### Calendar
+Mail now sports a more-modern flatter design as a first-step towards work on making it more responsive. The unified inbox now supports Microsoft 365 accounts. And multiple potential crashes and freezes have been resolved.
+
+[Mail Screenshot]
 
 Ask for confirmation before deleting events
 Follow email and web links in the event description with Control + Click
 Fixed potential memory leak
 
-### Mail
-
-Fixed an error which caused mail accounts to be loaded multiple times
-Fixed a bug which caused Mail to crash occasionally
-Display recipient in Sent folder instead of sender
-
-New design
-
-Use message subject for composer window title
-Added support for Unified Inbox for Microsoft 365 accounts
-
-Fixed an error which caused the inbox monitoring in the background to crash
-Removed duplicate sender addresses when composing a message
-Fix a freeze when archiving the last message in a folder
-
-Renamed Office 365 to Microsoft 365 to follow suite on Microsoft's rebranding
-
-### Tasks
-
-Add offline support for newly created task lists in case its configured for the account
-Automatically synchronize a task list whenever it is selected or the network becomes available again
-Send a notification when a task is due
+Tasks now has offline support for newly created task lists and it makes sure to synchronize your remote lists when the network becomes available again. Plus it now sends notifications when a task is due.
 
 ### File Roller & Evince
 
@@ -302,7 +283,7 @@ New app icons
 
 ## Developer Platform
 
-### iconbrowser
+### Icon Browser
 A modern redesign!
 
 Fancy new icon
