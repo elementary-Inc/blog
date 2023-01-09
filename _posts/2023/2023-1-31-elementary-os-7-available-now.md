@@ -31,42 +31,25 @@ To get elementary OS 7 now, head to [elementary.io] for the download—or read o
 
 As always, AppCenter is the centerpiece of elementary OS. The primary purpose of any operating system is to support the apps that you use to work, play, and express yourself creatively. In the latest version of AppCenter we've worked on making app descriptions more engaging with more information, making it easier to update to the latest versions of apps, and improving support for sideloading and alt stores. We've also worked on improving AppCenter's responsiveness—making sure you can comfortable use it when tiling and on small displays as well as better using space on large displays.
 
+[Screenshots]
 
-Rewritten navigation with multitouch gestures to go back
+We've completely rewritten the way navigation works in AppCenter and now support two-finger swipe gestures to navigate back. The entire app loads much faster and provides more feedback when running background tasks via an overlay bar in the bottom right or left corner.
+
 Recently updated apps are shown at the top of category views
-A status overlay bar is now shown when tasks are in progress
-Redesigned "Fun & Games" category card
-
-Performance & Stability improvements
-
-Show "Try for Free" when setting an app's price to 0
 
 ### App Descriptions
 
-Screenshot carousels fill the width of the window, showing more screenshots at once
-An app's accent color is now shown behind screenshots
+The biggest change you'll notice when viewing app info pages is the improved emphasis on screenshots. Screenshot carousels now fill the width of the window, showing more screenshots at once. They can now also be accompanied by their own captions, which can help describe individual features as well as making pages more accessible to folks with vision-related disabilities. And finally each screenshot now sits on a card that uses the app's accent color, showing off more of the developer's personality.
 
 [Screenshot of app info page]
 
-Better dark style support
-
-When apps use older runtimes or are no longer supported, we show an icon to make sure that you know what to expect before installing them.
-
-Screenshots can now also be accompanied by their own captions, which can help describe individual features as well as making pages more accessible to folks with vision-related disabilities.
-
-Changelogs are a great way to find out how active a developer is and how much they engage with their community. We now show up to 5 recent releases and we support linking resolved tickets from an app's issue tracker.
+Knowing how actively developed an app is and how engaged the developer is with their community is an important factor in decided which apps to install. We now help you know what to expect by showing an icon when an app uses an older, unsupported platform as well as showing up to 5 recent releases and their release notes instead of just the latest release. We also now show links to resolved tickets in an app's issue tracker per release, so you verify that app developers will take your feedback into consideration.
 
 ### Getting Updates
 
-Staying up to date with the latest versions of apps is something we hear often is very important to folks using elementary OS. Flatpak makes it simple for developers to publish updates quickly and now you can get those updates automatically.
+Staying up to date with the latest versions of apps is something we hear often is very important to folks using elementary OS. Flatpak makes it simple for developers to publish updates quickly and now you can get those updates automatically. If you'd still like to check for updates on your own time or want to force a manual refresh, there's now a handy menu option that you can use.
 
-[Screenshot of onboarding page for auto updates]
-
-If you'd still like to check for updates on your own time or want to force a manual refresh, there's now a handy menu option that you can use.
-
-Release notes are shown in a dialog
-Better fallback icons for components
-The "Update All" header now sticks to the top of the window when scrolling
+[Screenshot of updates page]
 
 ### Sideloading & Alt Stores
 
