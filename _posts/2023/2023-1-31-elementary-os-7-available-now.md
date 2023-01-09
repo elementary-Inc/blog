@@ -71,7 +71,7 @@ Fixed potential memory leak
 
 Tasks now has offline support for newly created task lists and it makes sure to synchronize your remote lists when the network becomes available again. Plus it now sends notifications when a task is due.
 
-### File Roller & Evince
+We're also shipping the latest Archive Manager and Document Viewer from GNOME 43. These releases improve support for dark mode, Flatpak portals like the native file chooser, as well as fix bugs and improve reliability.
 
 ## Multimedia
 
@@ -149,15 +149,14 @@ Web apps
 Show an infobar on battery instead of switching to a different page
 Show all system requirements warnings on a single page
 Warn about installing developer builds
-Updated translations
+
+We've resolved issues which made the installer window too large to be interacted with on some virtual machines.
 
 ### Initial Setup & Onboarding
 
 During Initial setup, we now detect if you use the right mouse button for clicking and offer to switch to a left-handed mouse button order. There's also a new view that will appear if your device doesn't have network access instructing you how to get connected.
 
 Use larger icons in views
-Make window resizable
-Allow hyphens in device names
 
 [Screenshot of left-handed mouse dialog and network view]
 
@@ -436,6 +435,10 @@ Sideload
 Shortcuts
 Music
 Onboarding
+
+## Special Thanks
+
+There are tons of other small improvements, bug fixes, and more that didn't make it into this release blog post. I'd like to give a special thanks to our volunteer community for their continual commitment to making a great open source operating system. I'd also like to particularly call out our localization team that works hard to make every release available in dozens of languages, including right-to-left languages, Asian character languages, and more. This release also wouldn't have been possible without the work of developers running Pantheon on other distros like Fedora and NixOS and their participation upstream. And speaking of upstreams, I'm always grateful for the work that goes into the Ubuntu releases that we build upon. I'm very proud of what a diverse community can build together and this release is definitely something to be proud of. Thank you all so much for being a part of it!
 
 ---
 
