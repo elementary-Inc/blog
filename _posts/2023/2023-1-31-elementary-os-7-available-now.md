@@ -18,8 +18,8 @@ It's been just over a year since we released elementary OS 6.1 Jólnir which bro
 
 Today we're proud to announce that OS 7, codenamed Horus, is available to download now and shipping on several high-quality computers. With OS 7, we've focused in on:
 
--
--
+- Helping you get the apps you need
+- Empowering you with new features and settings
 -
 
 
@@ -27,7 +27,7 @@ To get elementary OS 7 now, head to [elementary.io] for the download—or read o
 
 ---
 
-## AppCenter
+## Helping you get the apps you need
 
 As always, AppCenter is the centerpiece of elementary OS. The primary purpose of any operating system is to support the apps that you use to work, play, and express yourself creatively. In the latest version of AppCenter we've worked on making app descriptions more engaging with more information, making it easier to update to the latest versions of apps, and improving support for sideloading and alt stores. We've also worked on improving AppCenter's responsiveness—making sure you can comfortable use it when tiling and on small displays as well as better using space on large displays.
 
@@ -59,23 +59,45 @@ There's no longer a warning dialog every time you install an app that's supplied
 
 Apps from AppCenter could always use their own brand colors to make their app info pages feel unique and now apps sideloaded from Alt Stores can show brand colors too, thanks to the latest additions in the AppStream standard.
 
-## Office Productivity
+### Web Apps
+
+In the theme of accessing the apps you need, we're shipping the very latest GNOME Web 43 which includes support for creating web apps which show in the applications menu. They can have their own settings including privacy controls and can even run in the background. Installed web apps can be managed from inside GNOME Web.
+
+## Empowering you with new features and settings
+
+### Feedback
+
+[Feedback app screenshot]
+
+The ability to send feedback directly to developers, see development happen transparently, and receive fixes and new features as updates quickly is one of our greatest strengths over both proprietary platforms and traditional Linux distributions. The Feedback app is a critical component in beginning this loop, so this cycle we've brought some major improvements to it including instant launch times, much better coverage of installed apps, settings, and desktop components, and you can now access the Feedback app directly from the applications menu. We've also improved keyboard navigation and responsiveness for small displays, and added the ability to quickly double click a list item to launch.
+
+### Installation, Initial Setup & Onboarding
+
+We've done a decent amount of work this cycle on reducing the number of screens in the Installer and providing more information to help you make informed decisions. For example, we now warn about connecting to power when on battery using an infobar instead of a separate page and we've introduced a combined "Before You Install" page that includes warnings about things like virtual machines, developer builds, and system requirements all in one step. And speaking of virtual machines, we've resolved issues that made the installer window too large to be interacted with on some virtual machines.
+
+[Before You Install screenshot]
+
+During Initial setup, we now detect if you use the right mouse button for clicking and offer to switch to a left-handed mouse button order. There's also a new view that will appear if your device doesn't have network access instructing you how to get connected.
+
+[Screenshot of left-handed mouse dialog and network view]
+
+Onboarding includes a new view for configuring automatic updates, as well as the addition of a "Sunset to Sunrise" option for the dark style.
+
+[Screenshot of Automatic Updates view and Style view]
+
+### Office Productivity
 
 Mail now sports a more-modern flatter design as a first-step towards work on making it more responsive. The unified inbox now supports Microsoft 365 accounts. And multiple potential crashes and freezes have been resolved.
 
 [Mail Screenshot]
 
-Ask for confirmation before deleting events
-Follow email and web links in the event description with Control + Click
-Fixed potential memory leak
-
 Tasks now has offline support for newly created task lists and it makes sure to synchronize your remote lists when the network becomes available again. Plus it now sends notifications when a task is due.
+
+A long asked-for feature, you can now choose to select folders with a single click instead of activating them in Files, Windows style. Quite a bit of work has gone into making sure multiple click modes are supported and working as expected. We've also spent extra attention dialing in the behavior of keyboard shortcuts, especially regarding copy/paste and selection shortcuts across different view modes and with different types of file selections.
 
 We're also shipping the latest Archive Manager and Document Viewer from GNOME 43. These releases improve support for dark mode, Flatpak portals like the native file chooser, as well as fix bugs and improve reliability.
 
 ## Multimedia
-
-### Music
 
 As music streaming services have emerged, there's been a shift away from the old paradigm of importing music from CDs, carefully curating playlists, and syncing music from your computer to mobile devices. We've received lots of feedback that Music wasn't meeting folks needs and the old code base was becoming prone to issues.
 
@@ -85,200 +107,53 @@ This cycle we've completely rewritten Music from scratch with a much more focuse
 
 The new Music 7 already has better support for reading track metadata such as album art, works as you'd expect with system-wide media controls, and can be tiled and resized to fit small and large displays. We're excited to shape future versions of this app with your feedback, so make sure you let us know what kind of features you'd like to see!
 
-### Photos
-
-New actions to copy image or metadata to clipboard
-Photos taken on the same day show under the same event
-Replace all instances of "Shotwell" with "Photos"
-Avoid a crash when importing videos
-Redesigned Icon
-
-### Videos
-
-Fix a crash with certain video codecs
-Control playback from the sound indicator
-
-## Other Apps
-
-### Feedback
-
-[Feedback app screenshot]
-
-The ability to send feedback directly to developers, see development happen transparently, and receive fixes and new features as updates quickly is one of our greatest strengths over both proprietary platforms and traditional Linux distributions. The Feedback app is a critical component in beginning this loop, so this cycle we've brought some major improvements to it including instant launch times, much better coverage of installed apps, settings, and desktop components, and you can now access the Feedback app directly from the applications menu. We've also improved keyboard navigation and responsiveness for small displays, and added the ability to quickly double click a list item to launch.
-
-### Files
-
-Provide option to select folders with single click and activate with double click
-Only show the properties overlay when files are selected, not when hovered
-Fix unexpected file activation after navigation with double-click
-Fix dimmed window after use of filechooser portal
-Fix startup when restored remote location is no longer connected
-Ensure infobar shows in connection server dialog when connection attempt fails
-Ensure correct icon for bookmark to a file that is not a folder
-Renaming with the same name no longer shows an error dialog
-Ctrl + A when renaming now selects all the text in the entry
-Selecting multiple items with Shift + Arrow keys now works properly
-The appearance of the cursor now matches the action
-The Trash sidebar item can no longer be removed
-Network sidebar plugins such as NextCloud are now added correctly
-Duplication of subfolders in ListView under some circumstances is fixed
-Bookmarks are now highlighted when a file they can accept is dragged onto them
-Folders not being restored properly under some circumstances is fixed
-Show confirmation dialog in file chooser before overwriting an existing file
-Ctrl + V now always pastes into background folder
-Shift + Ctrl + V now pastes into selected folder if there is one
-Show New Tab and New Window shortcuts in context menus
-
-Double click selects instead of exiting while renaming in list view
-Show public share icon in breadcrumbs
-
-Crash fixes
-
-### Camera
-
-Wider hardware compatibility (e.g. StarBook Mk V)
-Support MJPEG cameras
-Ensure brightness, contrast, and mirror continue working after taking a photo
-
-### Web
-
-Web apps
-
-## Installation
-
-Show an infobar on battery instead of switching to a different page
-Show all system requirements warnings on a single page
-Warn about installing developer builds
-
-We've resolved issues which made the installer window too large to be interacted with on some virtual machines.
-
-### Initial Setup & Onboarding
-
-During Initial setup, we now detect if you use the right mouse button for clicking and offer to switch to a left-handed mouse button order. There's also a new view that will appear if your device doesn't have network access instructing you how to get connected.
-
-Use larger icons in views
-
-[Screenshot of left-handed mouse dialog and network view]
-
-Onboarding includes a new view for configuring automatic updates, as well as the addition of a "Sunset to Sunrise" option for the dark style.
-
-[Screenshot of Automatic Updates view and Style view]
-
-## The Desktop
-
-### Gala
-Use access portal for force quit
-Properly update accent color in the window switcher
-Fix selecting windows underneath the window switcher
-Prevent potential crashes
-Resize workspaces when displays change
-Handle windows with no title
-
-Use access portal for display settings confirmation and force quit
-Allow closing multitasking view with Super
-
-### Shortcuts
-
-The shortcuts app can now be launched from the applications menu.
-
-Show on-screen keyboard shortcut
-Close with the shortcut Ctrl + Q
+Likewise, Videos now appears in the sound indicator alongside other media players.
 
 ### System Settings
 
-### switchboard-plug-about
-Added support for dark style manufacturer logos
-Added support for offline firmware updates
+We've now added support for offline firmware updates.
 
-### switchboard-plug-locale
+Central Kurdish is now available as an installable language and we now support installation and removal of languages with 3-letter codes.
 
-Central Kurdish is now available as an installable language
-Support installation and removal of languages with 3-letter codes
+Power profile management is now available in System Settings, including Performance mode for hardware that supports it. Expect much improved battery life for mobile devices with Power Saver mode. And you can now scroll both horizontally and vertically on the power indicator to change display brightness.
 
-### Power
+The redesign Multitasking settings includes the ability to set custom Terminal commands for each hotcorner.
 
-Power profile management is now available, including Performance mode for hardware that supports it. Expect much improved battery life for mobile devices with Power Saver mode.
+Online accounts includes offline support for CalDAV accounts and the ability to choose a refresh rate for IMAP accounts.
 
-### switchboard-plug-pantheon-shell
-There is now an undo option after removing a wallpaper
-Wallpapers are now sorted with custom wallpapers first
+Printer settings received special attention with several redesigns as well as new features like being able to clear the print queue per printer and a much clearer ink levels view.
 
-Wallpaper accent color follows system setting
-Set-wallpaper contract fails gracefully when run as sudo
-Wallpapers with the same name are distinguished
-Switching styles with the keyboard cancels dark style scheduling
-Style dyslexia-friendly switch properly
-Set custom Terminal commands for each hotcorner
-Redesigned Appearance and Multitasking views
+Keyboard shortcut settings can now be easily disabled or reverted to their defaults and it's much easier to create and manage custom shortcuts. You can now also launch the Shortcuts app from the applications menu.
 
-### switchboard-plug-onlineaccounts
-Added offline support for CalDAV accounts
-Choose refresh rate for IMAP
+We've added the option to open and close the Multitasking view using the Super key.
 
-### switchboard-plug-printers
-Allow clearing the queue for each printer
-Improvements:
+A new security option allows you to forbid new USB devices from connecting while your device is locked.
 
-Improved job row layout
-Show the supported language for each driver
-Show color names below ink levels
-Avoid expanding the window for printers with many ink levels
-Use newer add/remove list pattern
+We now show the correct information for WPA3 networks.
 
-Update sidebar after adding or removing printer
-Update sidebar after enabling or disabling printer
-Update job list after job state change
-
-### switchboard-plug-network
-Show correct info for WPA3 networks
-
-### switchboard-plug-keyboard
-Revert shortcuts to default
-Easily disable a shortcut
 Support Rime input method for Chinese
 
-Remove custom shortcuts from their menu
-Open Multitasking View with Super
+In both System Settings and the Panel, we now use more information to assign accurate icons to audio devices.
 
-### switchboard-plug-security-privacy
-Option to forbid new USB devices while locked
+### Performance
 
-### switchboard-plug-sound
-Use device form factor when available to assign more accurate icons
-Provide a fallback device icon in case none is available
-More helpful placeholder text when no input devices are found
+I want to make a special note here about performance. In just about every section I could have individually written about performance over and over again. The team has spent quite a bit of time tracking down slowdowns, reworking old code, and optimizing to make everything happen as quickly and responsively as possible and in the most extreme scenarios. I can't emphasize enough how big a part reducing latency plays in our vision for empowering you to do your best.
 
-### The Panel
 
-### wingpanel-indicator-notifications
-Clear All button no longer leaves undeletable notifications
-Reduce delay in initially showing wingpanel when there is a large number of notifications
-Reduce delay in clearing all notifications when there is a large number of notifications
 
-### wingpanel-indicator-network
-Ensure correct tooltip on system start
-Prevent connecting to invalid VPNs
-Show correct info for WPA3 networks
 
-### wingpanel-indicator-power
-Scroll horizontally on the panel icon to change display brightness
-Minor updates:
 
-Do a better job hiding the brightness slider on unsupported displays
-Updated translations
-Clicking the "Apps Using Lots of Power" header label causes a crash Don't show the power eater section if failed to get app info
 
-### wingpanel-indicator-sound
-Use device form factor when available to assign more accurate icons
-Provide a fallback device icon when none is available
-Fix missing switch animations
-Use the volume step value from GNOME Settings Daemon
-Updated translations
 
 ## Look & Feel
 
 New default wallpaper
 New app icons
+
+
+
+
+
 
 ## Developer Platform
 
