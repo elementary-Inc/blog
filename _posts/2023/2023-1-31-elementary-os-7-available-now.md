@@ -20,8 +20,7 @@ Today we're proud to announce that OS 7, codenamed Horus, is available to downlo
 
 - Helping you get the apps you need
 - Empowering you with new features and settings
--
-
+- Evolving our developer platform and design guidelines
 
 To get elementary OS 7 now, head to [elementary.io] for the download—or read on for an overview of what's new.
 
@@ -139,31 +138,7 @@ In both System Settings and the Panel, we now use more information to assign acc
 
 I want to make a special note here about performance. In just about every section I could have individually written about performance over and over again. The team has spent quite a bit of time tracking down slowdowns, reworking old code, and optimizing to make everything happen as quickly and responsively as possible and in the most extreme scenarios. I can't emphasize enough how big a part reducing latency plays in our vision for empowering you to do your best.
 
-
-
-
-
-
-
-## Look & Feel
-
-New default wallpaper
-New app icons
-
-
-
-
-
-
-## Developer Platform
-
-### Icon Browser
-A modern redesign!
-
-Fancy new icon
-Drag the window from anywhere
-Follow the system dark style preference
-Updated for Gtk 4
+## Evolving our developer platform and design guidelines
 
 ### Code
 
@@ -171,37 +146,37 @@ The current document filename is now shown as the window title in multitasking v
 Hidden folders are now shown in the project sidebar
 The currently selected result and the number of results is displayed while searching
 The search bar now has a regular expression mode
-Fixes:
 
 It is now possible to change Git branch with untracked files present in a project
-Crashes are prevented while searching in large projects
-The correct document is now focused after opening Code from an external program
 Line duplication is now actioned correctly if there is no selection present
-Code no longer crashes when asked to open an unknown URI format
 
 ### Terminal
 
-Option to follow system dark style preference
-Create a custom color palette
+Terminal gains the ability to both follow the system dark style preference as well as create custom color palettes. The new default light and dark styles are now fully opaque and have been updated to match the latest upstream values from the Solarized themes for improved legibility. We've also added the keyboard shortcut <kbd>Alt</kbd> + <kbd>1—9</kbd> for switching tabs and you can quit Terminal with <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Q</kbd>
 
-Default styles are fully opaque and updated to the latest upstream values from Solarized for improved legibility
-New features:
+### Iconography
 
-Switch tabs with Alt + 1-9
-Quit with Ctrl + Shift + Q
+New app icons
 
-
-### icons
 Additions:
 
 "computer-fail"
 "preferences-desktop-theme"
 "application-x-sharedlib"
 "process-paused"
+caps-lock-symbolic
+eye-not-looking-symbolic
+eye-open-negative-filled-symbolic
+num-lock-symbolic
+
 Removals:
 
 "office-address-book"
 Flash file types
+notification-*
+Non-FDO network-*
+Non-FDO app icons
+
 Updated families:
 
 Clean up "preferences-desktop-workspaces"
@@ -218,20 +193,6 @@ Use a rounded star for symbolic bookmark icons
 Redesign Night Light
 Use latest Flatpak branding
 Symbolic volume icons use a rounded shape and a slash when muted
-Other Changes:
-
-Fix broken link for SVG file types
-Fix missing links for PGP file types
-Scale some icons to more sizes
-
-Additions:
-
-caps-lock-symbolic
-eye-not-looking-symbolic
-eye-open-negative-filled-symbolic
-num-lock-symbolic
-Updated families:
-
 Redesign media-playlist-repeat
 Update media-playlist-shuffle and media-playlist-consecutive
 Rounder square icons
@@ -239,70 +200,10 @@ Rounded arrow corners on Downloads folder
 Deb and Flatpak Bundle files use a package metaphor
 Updates arrow points up
 Redesigned package with new colors
-Removals:
 
-notification-*
-Non-FDO network-*
-Non-FDO app icons
+There's now also an Icon Browser app available in AppCenter where you can see all of the icons shipped with the elementary platform. You can search or view icons by category as well as see what sizes and styles an icon comes in and even get a quick code snippet to use in your app.
 
-### stylesheet
-Improvements:
-
-Checkerboard styles are more subtle
-Set `large-icons` size on headerbars to 24px
-Adjust header layout and typography in Granite.SimpleSettingsPage
-Infobars: set correct button margins
-Add padding to Gtk.Entry's completion popover
-Fix labels for scale marks
-Fixes:
-
-Correct .title-4 padding in Lists
-Buttons: don't set font weight for children like popovers
-New Features:
-
-Support for Gtk4
-Fixes:
-
-Fix titlebar in GNOME Web 42
-Fix font style for bold labels in some languages
-ModelButtons: add margin between checks, radios, and labels
-
-### granite
-New Features:
-
-Granite.STYLE_CLASS_RICH_LIST for standard Gtk.ListBox row padding
-Granite.STYLE_CLASS_FRAME for adding a border to Gtk.LisBox, Gtk.InfoBar, and others
-Granite.STYLE_CLASS_SIDEBAR for styling application sidebars
-Granite.STYLE_CLASS_BACKGROUND to use the default background color for a widget
-Add optional secondary text to Granite.HeaderLabel
-Improvements:
-
-Allow text in Granite.Toast to wrap
-SimpleSettingsPage: Wrap titles and allow description text to go under switches
-Updated translations
-New Features:
-
-Ported to GTK4! tada
-Granite.Placeholder: replaces AlertView and Welcome
-SimpleSettingsPage: Allow markup in description
-Removals:
-
-Application: use Gtk.Application instead
-Drawing: Use Gtk.CSS
-DynamicNotebook: use Adw.TabBar instead
-Logger: use GLib.log instead
-ModeButton: Use Gtk.ToggleButton with the "group" property and "linked" style class instead
-Paths: use GLib.Environment instead
-Seekbar
-Services.Settings: use GLib.Settings instead
-SimpleCommand: use GLib.AppInfo.create_from_commandline instead
-SourceList: use Gtk.ListBox with the "sidebar" style class instead
-StorageBar
-TextStyle: use style class constants instead
-Several functions in System were replaced by GLib.AppInfo
-
-### flatpak-platform
-7.1.0
+[Icon Browser screenshot]
 
 ### Gtk 4
 
@@ -310,6 +211,23 @@ Sideload
 Shortcuts
 Music
 Onboarding
+
+### Granite
+
+The latest version of our app framework Granite as well as our system stylesheet have been updated to support Gtk 4 and come with a host of new features and API changes to make building apps quick and straightforward.
+
+In Gtk 4, style class constants have moved from Gtk itself into the platform frameworks. This means that all of the supported style class constants in the elementary stylesheet are now provided by Granite. This includes classes you're familiar with like the ones for setting text colors as well as the ones for setting background colors on sidebars or in views, plus some new ones like `RICH_LIST` for setting up padding and margins on listboxes.
+
+A new Granite.Placeholder widget was introduced to replace AlertView and Welcome with a single more flexible widget. It supports all the usual cases like welcome screens with buttons, embedded alerts, and placeholders for lists. It supports markup in descriptions and you can even uses style classes like `ACCENT`, `WARNING`, or `ERROR` to automatically color title text.
+
+Plus, widgets have been reworked to set all of their margins and padding from Gtk.CSS—meaning they scale appropriately with the system text size—and several widgets have been made more responsive for large and small displays.
+
+Every release comes with removals and this migration to Gtk 4 comes with quite a few of them. We're excited to remove several utilities that are better supported in Gtk and GLib upstream, including the Settings class, Logging, Command Launching, several drawing functions now covered by Gtk.CSS, DynamicNotebook since you can now get a great tab bar widget from Adwaita, and others. In each case we looked at existing apps and made sure they could migrate to Gtk 4 without losing functionality and in many cases their code was made more robust and more simple by using functions provided by upstream libraries.
+
+As always, the full API reference for Granite is available [on Valadoc.org](https://valadoc.org/granite-7/Granite.html).
+
+### Flatpak Platform
+7.1.0
 
 ## Special Thanks
 
