@@ -10,7 +10,7 @@ tags:
 
 12/20/21 was release date of OS 6.1
 
-It's been just over a year since we released elementary OS 6.1 Jólnir which brought new features and fixes based on your feedback, introduced new office productivity features, and expanded compatibility with a wide range of hardware. So far, OS 6.1 has been downloaded from our website [over 390,000 times](https://plausible.io/elementary.io?period=custom&goal=Download&from=2021-12-20&to=2022-12-05&props=%7B%22Version%22:%226.1%22%7D), over 100,000 times more than 6.0—and as always, that's not including downloads from third parties or direct downloads via torrent that bypass our download page!
+It's been just over a year since we released elementary OS 6.1 Jólnir which brought new features and fixes based on your feedback, introduced new office productivity features, and expanded compatibility with a wide range of hardware. So far, OS 6.1 has been downloaded from our website [over 400,000 times](https://plausible.io/elementary.io?period=custom&goal=Download&from=2021-12-20&to=2022-12-18&props=%7B%22Version%22:%226.1%22%7D)—150,000 times more than 6.0—and as always, that's not including downloads from third parties or direct downloads via torrent that bypass our download page!
 
 <figure class="constrained" markdown="1">
 ![elementary OS 7 Horus](/images/{{ page.slug }}/hero.png)
@@ -30,7 +30,12 @@ To get elementary OS 7 now, head to [elementary.io] for the download—or read o
 
 As always, AppCenter is the centerpiece of elementary OS. The primary purpose of any operating system is to support the apps that you use to work, play, and express yourself creatively. In the latest version of AppCenter we've worked on making app descriptions more engaging with more information, making it easier to update to the latest versions of apps, and improving support for sideloading and alt stores. We've also worked on improving AppCenter's responsiveness—making sure you can comfortable use it when tiling and on small displays as well as better using space on large displays.
 
-[Screenshots]
+<figure markdown="1">
+![AppCenter at large and small sizes](/images/elementary-os-7-available-now/appcenter-responsive.png)
+<figcaption markdown="1">
+AppCenter can be used comfortably while tiled or on small displays
+</figcaption>
+</figure>
 
 We've completely rewritten the way navigation works in AppCenter and now support two-finger swipe gestures to navigate back. The entire app loads much faster and provides more feedback when running background tasks via an overlay bar in the bottom right or left corner.
 
@@ -40,7 +45,12 @@ Recently updated apps are shown at the top of category views
 
 The biggest change you'll notice when viewing app info pages is the improved emphasis on screenshots. Screenshot carousels now fill the width of the window, showing more screenshots at once. They can now also be accompanied by their own captions, which can help describe individual features as well as making pages more accessible to folks with vision-related disabilities. And finally each screenshot now sits on a card that uses the app's accent color, showing off more of the developer's personality.
 
-[Screenshot of app info page]
+<figure markdown="1">
+![AppCenter's app info view](/images/elementary-os-7-available-now/appcenter-appinfo.png)
+<figcaption markdown="1">
+App Info views show more screenshots with captions and brand colors
+</figcaption>
+</figure>
 
 Knowing how actively developed an app is and how engaged the developer is with their community is an important factor in decided which apps to install. We now help you know what to expect by showing an icon when an app uses an older, unsupported platform as well as showing up to 5 recent releases and their release notes instead of just the latest release. We also now show links to resolved tickets in an app's issue tracker per release, so you verify that app developers will take your feedback into consideration.
 
@@ -48,13 +58,25 @@ Knowing how actively developed an app is and how engaged the developer is with t
 
 Staying up to date with the latest versions of apps is something we hear often is very important to folks using elementary OS. Flatpak makes it simple for developers to publish updates quickly and now you can get those updates automatically. If you'd still like to check for updates on your own time or want to force a manual refresh, there's now a handy menu option that you can use.
 
-[Screenshot of updates page]
+<figure markdown="1">
+![AppCenter's  updates view](/images/elementary-os-7-available-now/appcenter-updates.png)
+<figcaption markdown="1">
+App Info views show more screenshots with captions and brand colors
+</figcaption>
+</figure>
 
 ### Sideloading & Alt Stores
 
 Sideloading apps and using Alt Stores like Flathub is a major feature of elementary OS and a competitive edge over closed platforms that only let you install apps from a locked down store. In this release we've made several improvements to smooth out the experience of using Alt Stores based on your feedback and the latest cross-platform standards.
 
 There's no longer a warning dialog every time you install an app that's supplied by an Alt Store, instead we show an unobtrusive icon alongside the app's other content warnings letting you know that elementary hasn't reviewed this particular app.
+
+<figure markdown="1">
+![AppCenter's app info view](/images/elementary-os-7-available-now/appcenter-sideload.png)
+<figcaption markdown="1">
+Even apps sideloaded from alt stores like Flathub can show brand colors
+</figcaption>
+</figure>
 
 Apps from AppCenter could always use their own brand colors to make their app info pages feel unique and now apps sideloaded from Alt Stores can show brand colors too, thanks to the latest additions in the AppStream standard.
 
@@ -140,19 +162,6 @@ I want to make a special note here about performance. In just about every sectio
 
 ## Evolving our developer platform and design guidelines
 
-### Code
-
-The current document filename is now shown as the window title in multitasking view
-Hidden folders are now shown in the project sidebar
-The currently selected result and the number of results is displayed while searching
-The search bar now has a regular expression mode
-
-It is now possible to change Git branch with untracked files present in a project
-Line duplication is now actioned correctly if there is no selection present
-
-### Terminal
-
-Terminal gains the ability to both follow the system dark style preference as well as create custom color palettes. The new default light and dark styles are now fully opaque and have been updated to match the latest upstream values from the Solarized themes for improved legibility. We've also added the keyboard shortcut <kbd>Alt</kbd> + <kbd>1—9</kbd> for switching tabs and you can quit Terminal with <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Q</kbd>
 
 ### Iconography
 
@@ -228,6 +237,20 @@ As always, the full API reference for Granite is available [on Valadoc.org](http
 
 ### Flatpak Platform
 7.1.0
+
+### Tools
+
+Code
+
+Hidden folders are now shown in the project sidebar
+The currently selected result and the number of results is displayed while searching
+The search bar now has a regular expression mode
+
+It is now possible to change Git branch with untracked files present in a project
+Line duplication is now actioned correctly if there is no selection present
+
+
+Terminal gains the ability to both follow the system dark style preference as well as create custom color palettes. The new default light and dark styles are now fully opaque and have been updated to match the latest upstream values from the Solarized themes for improved legibility. We've also added the keyboard shortcut <kbd>Alt</kbd> + <kbd>1—9</kbd> for switching tabs and you can quit Terminal with <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Q</kbd>
 
 ## Special Thanks
 
