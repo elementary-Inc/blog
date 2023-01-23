@@ -12,7 +12,7 @@ hidden: 2023-01-31 17:00:00 UTC # 9 AM PST
 
 It's been just over a year since we released elementary OS 6.1 Jólnir which brought new features and fixes based on your feedback, introduced new office productivity features, and expanded compatibility with a wide range of hardware. So far, OS 6.1 has been downloaded from our website [over 400,000 times](https://plausible.io/elementary.io?period=custom&goal=Download&from=2021-12-20&to=2023-01-31&props=%7B%22Version%22:%226.1%22%7D)—150,000 times more than 6.0—and as always, that's not including downloads from third parties or direct downloads via torrent that bypass our download page!
 
-<figure class="constrained" markdown="1">
+<figure class="constrained card" markdown="1">
 ![elementary OS 7 Horus](/images/{{ page.slug }}/hero.png)
 </figure>
 
@@ -130,45 +130,54 @@ Tasks now has offline support for newly created task lists and it makes sure to 
 
 A long asked-for feature, you can now choose to select folders with a single click instead of activating them in Files, Windows style. Quite a bit of work has gone into making sure multiple click modes are supported and working as expected. We've also spent extra attention dialing in the behavior of keyboard shortcuts, especially regarding copy/paste and selection shortcuts across different view modes and with different types of file selections.
 
+Printer settings received special attention with several redesigns as well as new features like being able to clear the print queue per printer and a much clearer ink levels view. Online accounts includes offline support for CalDAV accounts and the ability to choose a refresh rate for IMAP accounts.
+
 We're also shipping the latest Archive Manager and Document Viewer from GNOME 43. These releases improve support for dark mode, Flatpak portals like the native file chooser, as well as fix bugs and improve reliability.
 
 ## Multimedia
 
 As music streaming services have emerged, there's been a shift away from the old paradigm of importing music from CDs, carefully curating playlists, and syncing music from your computer to mobile devices. We've received lots of feedback that Music wasn't meeting folks needs and the old code base was becoming prone to issues.
 
-[Screenshot of Music 7]
+<figure class="card" markdown="1">
+![Music 7](/images/{{ page.slug }}/music.png)
+<figcaption markdown="1">
+The new Music with a much more focused design
+</figcaption>
+</figure>
 
 This cycle we've completely rewritten Music from scratch with a much more focused design built around quickly queuing up and playing individual audio files or your local music collection. We've heard that the new design is better for folks who just need a fast way to preview audio files that they're using in their other projects, as well as for folks that still carefully curate their own local music collection and don't want to compete with an app for fine grained control of their library's organization scheme.
 
 The new Music 7 already has better support for reading track metadata such as album art, works as you'd expect with system-wide media controls, and can be tiled and resized to fit small and large displays. We're excited to shape future versions of this app with your feedback, so make sure you let us know what kind of features you'd like to see!
 
-Likewise, Videos now appears in the sound indicator alongside other media players.
+<figure class="constrained card" markdown="1">
+![The sound indicator](/images/{{ page.slug }}/panel-sound.png){: width="430" height="323"}
+<figcaption markdown="1">
+Videos can now be controlled from the sound indicator
+</figcaption>
+</figure>
+
+Likewise, Videos now appears in the sound indicator alongside other media players. And in both System Settings and the Panel, we now use more information to assign accurate icons to audio devices.
 
 ### System Settings
 
-We've now added support for offline firmware updates.
+In elementary OS, settings are meant to make the operating system more accessible to a wider range of people with various needs and ways of working.
 
-Central Kurdish is now available as an installable language and we now support installation and removal of languages with 3-letter codes.
+<figure markdown="1">
+![Multitasking Settings]/images/{{ page.slug }}/settings-multitasking.png){: width="1024" height="720"}
+![Printer Settings]/images/{{ page.slug }}/settings-printer.png){: width="1024" height="720"}
+![Shortcut Settings]/images/{{ page.slug }}/settings-shortcuts.png){: width="1024" height="720"}
+<figcaption markdown="1">
+OS 7 comes with new, expanded, and redesigned System Settings
+</figcaption>
+</figure>
 
-Power profile management is now available in System Settings, including Performance mode for hardware that supports it. Expect much improved battery life for mobile devices with Power Saver mode. And you can now scroll both horizontally and vertically on the power indicator to change display brightness.
+This release provides power profiles management, including a performance mode for devices that support it. Expect much improved battery life for mobile devices with Power Saver mode. And you can now scroll both horizontally and vertically on the power indicator to change display brightness.
 
-The redesign Multitasking settings includes the ability to set custom Terminal commands for each hotcorner.
+We've added powerful features like the ability to set custom Terminal commands for each hotcorner and a redesign keyboard shortcuts settings makes it easier to disabled shortcuts or revert them to defaults, as well as much better custom shortcut management. You can now also launch the Shortcuts app from the applications menu and we've added the option to open and close the Multitasking view using the Super key.
 
-Online accounts includes offline support for CalDAV accounts and the ability to choose a refresh rate for IMAP accounts.
+Keeping your device secure is paramount, which is why we've added a new option to forbid new USB devices from connecting while your device is locked, we've updated network settings and the network indicator to support WPA3 networks, and we've added support for offline firmware updates.
 
-Printer settings received special attention with several redesigns as well as new features like being able to clear the print queue per printer and a much clearer ink levels view.
-
-Keyboard shortcut settings can now be easily disabled or reverted to their defaults and it's much easier to create and manage custom shortcuts. You can now also launch the Shortcuts app from the applications menu.
-
-We've added the option to open and close the Multitasking view using the Super key.
-
-A new security option allows you to forbid new USB devices from connecting while your device is locked.
-
-We now show the correct information for WPA3 networks.
-
-Support Rime input method for Chinese
-
-In both System Settings and the Panel, we now use more information to assign accurate icons to audio devices.
+Our localization team has also been hard at work and Central Kurdish is now available as an installable language, we now support installation and removal of languages with 3-letter codes, and we support the Rime input method for Chinese
 
 ### Performance
 
