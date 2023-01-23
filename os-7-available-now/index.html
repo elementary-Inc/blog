@@ -40,7 +40,7 @@
   <meta itemprop="description" content="We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS" />
   <meta name="twitter:description" content="We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS" />
 
-  <link rel="stylesheet" type="text/css" media="all" href="/css/main.css?v=2023-01-23 13:13:12 -0600" />
+  <link rel="stylesheet" type="text/css" media="all" href="/css/main.css?v=2023-01-23 15:26:13 -0600" />
   
     <script async defer data-domain="blog.elementary.io" src="https://stats.elementary.io/js/index.js"></script>
     <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
@@ -189,7 +189,7 @@
   
     <span class="read-time" title="Estimated read time">
   
-  14 min read
+  15 min read
 </span>
 
 
@@ -212,7 +212,7 @@
   <section>
     <p>It’s been just over a year since we released elementary OS 6.1 Jólnir which brought new features and fixes based on your feedback, introduced new office productivity features, and expanded compatibility with a wide range of hardware. So far, OS 6.1 has been downloaded from our website <a rel="nofollow noopener noreferrer" target="_blank" href="https://plausible.io/elementary.io?period=custom&amp;goal=Download&amp;from=2021-12-20&amp;to=2023-01-31&amp;props=%7B%22Version%22:%226.1%22%7D">over 400,000 times</a>—150,000 times more than 6.0—and as always, that’s not including downloads from third parties or direct downloads via torrent that bypass our download page!</p>
 
-<figure class="constrained">
+<figure class="constrained card">
   <p><img src="/images/os-7-available-now/hero.png" alt="elementary OS 7 Horus" /></p>
 </figure>
 
@@ -233,7 +233,7 @@
 <p>As always, AppCenter is the centerpiece of elementary OS. The primary purpose of any operating system is to support the apps that you use to work, play, and express yourself creatively. In the latest version of AppCenter we’ve worked on making app descriptions more engaging with more information, making it easier to update to the latest versions of apps, and improving support for sideloading and alt stores. We’ve also worked on improving AppCenter’s responsiveness—making sure you can comfortable use it when tiling and on small displays as well as better using space on large displays.</p>
 
 <figure>
-  <p><img src="/images/os-7-available-now/appcenter-responsive.png" alt="AppCenter at large and small sizes" /></p>
+  <p><img src="/images/os-7-available-now/appcenter-responsive.png" alt="AppCenter at large and small sizes" width="1628" height="913" /></p>
   <figcaption>
     <p>AppCenter can be used comfortably while tiled or on small displays</p>
   </figcaption>
@@ -248,7 +248,7 @@
 <p>The biggest change you’ll notice when viewing app info pages is the improved emphasis on screenshots. Screenshot carousels now fill the width of the window, showing more screenshots at once. They can now also be accompanied by their own captions, which can help describe individual features as well as making pages more accessible to folks with vision-related disabilities. And finally each screenshot now sits on a card that uses the app’s accent color, showing off more of the developer’s personality.</p>
 
 <figure>
-  <p><img src="/images/os-7-available-now/appcenter-appinfo.png" alt="AppCenter's app info view" /></p>
+  <p><img src="/images/os-7-available-now/appcenter-appinfo.png" alt="AppCenter's app info view" width="1708" height="1086" /></p>
   <figcaption>
     <p>App Info views show more screenshots with captions and brand colors</p>
   </figcaption>
@@ -269,28 +269,46 @@
 
 <h3 id="sideloading--alt-stores">Sideloading &amp; Alt Stores</h3>
 
-<p>Sideloading apps and using Alt Stores like Flathub is a major feature of elementary OS and a competitive edge over closed platforms that only let you install apps from a locked down store. In this release we’ve made several improvements to smooth out the experience of using Alt Stores based on your feedback and the latest cross-platform standards.</p>
-
-<p>There’s no longer a warning dialog every time you install an app that’s supplied by an Alt Store, instead we show an unobtrusive icon alongside the app’s other content warnings letting you know that elementary hasn’t reviewed this particular app.</p>
+<p>Sideloading apps and using alt stores like Flathub is a major feature of elementary OS and a competitive edge over closed platforms that only let you install apps from a locked down store. In this release we’ve made several improvements to smooth out the experience of using alt stores based on your feedback and the latest cross-platform standards.</p>
 
 <figure>
-  <p><img src="/images/os-7-available-now/appcenter-sideload.png" alt="AppCenter's app info view" /></p>
+  <p><img src="/images/os-7-available-now/sideload.png" alt="Sideload" width="562" height="350" /></p>
+  <figcaption>
+    <p>The Sideload app makes installing Flatpak apps and configuring alt stores simple</p>
+  </figcaption>
+</figure>
+
+<p>There’s no longer a warning dialog every time you install an app that’s supplied by an alt store, instead we show an unobtrusive icon alongside the app’s other content warnings letting you know that elementary hasn’t reviewed this particular app.</p>
+
+<figure>
+  <p><img src="/images/os-7-available-now/appcenter-sideload.png" alt="AppCenter's app info view" width="1164" height="912" /></p>
   <figcaption>
     <p>Even apps sideloaded from alt stores like Flathub can show brand colors</p>
   </figcaption>
 </figure>
 
-<p>Apps from AppCenter could always use their own brand colors to make their app info pages feel unique and now apps sideloaded from Alt Stores can show brand colors too, thanks to the latest additions in the AppStream standard.</p>
+<p>Apps from AppCenter could always use their own brand colors to make their app info pages feel unique and now apps sideloaded from alt stores can show brand colors too, thanks to the latest additions in the AppStream standard.</p>
 
 <h3 id="web-apps">Web Apps</h3>
+
+<figure>
+  <p><img src="/images/os-7-available-now/web-apps.png" alt="Sideload" width="1122" height="866" /></p>
+  <figcaption>
+    <p>iCloud Numbers running as a saved web app</p>
+  </figcaption>
+</figure>
 
 <p>In the theme of accessing the apps you need, we’re shipping the very latest GNOME Web 43 which includes support for creating web apps which show in the applications menu. They can have their own settings including privacy controls and can even run in the background. Installed web apps can be managed from inside GNOME Web.</p>
 
 <h2 id="empowering-you-with-new-features-and-settings">Empowering you with new features and settings</h2>
 
-<h3 id="feedback">Feedback</h3>
-
-<p>[Feedback app screenshot]</p>
+<figure class="half">
+  <p><img src="/images/os-7-available-now/feedback-categories.png" alt="Categories view in Feedback" width="640" height="500" />
+<img src="/images/os-7-available-now/feedback-apps.png" alt="Apps view in Feedback" width="640" height="500" /></p>
+  <figcaption>
+    <p>Feedback helps you report issues and request new features directly to the developers</p>
+  </figcaption>
+</figure>
 
 <p>The ability to send feedback directly to developers, see development happen transparently, and receive fixes and new features as updates quickly is one of our greatest strengths over both proprietary platforms and traditional Linux distributions. The Feedback app is a critical component in beginning this loop, so this cycle we’ve brought some major improvements to it including instant launch times, much better coverage of installed apps, settings, and desktop components, and you can now access the Feedback app directly from the applications menu. We’ve also improved keyboard navigation and responsiveness for small displays, and added the ability to quickly double click a list item to launch.</p>
 
@@ -302,15 +320,21 @@
 
 <p>During Initial setup, we now detect if you use the right mouse button for clicking and offer to switch to a left-handed mouse button order. There’s also a new view that will appear if your device doesn’t have network access instructing you how to get connected.</p>
 
-<p>[Screenshot of left-handed mouse dialog and network view]</p>
+<figure class="half">
+  <p><img src="/images/os-7-available-now/initialsetup-lefthand.png" alt="Left-handed Clicking in Initial Setup" width="914" height="664" />
+<img src="/images/os-7-available-now/initialsetup-network.png" alt="Network page in Initial Setup" width="914" height="664" /></p>
+  <figcaption>
+    <p><strong>Left:</strong> Left-handed primary click is now detected | <strong>Right:</strong> Initial setup guides you to connect to the Internet</p>
+  </figcaption>
+</figure>
 
 <p>Onboarding includes a new view for configuring automatic updates, as well as the addition of a “Sunset to Sunrise” option for the dark style.</p>
 
-<figure class="half">
-  <p>![Choose Your Look view of Onboarding]/images/os-7-available-now/onboarding-styles.png){: width=”497” height=”406.5”}
-![Night Light view of Onboarding]/images/os-7-available-now/onboarding-nightlight.png){: width=”497” height=”406.5”}
-![Housekeeping view of Onboarding]/images/os-7-available-now/onboarding-housekeeping.png){: width=”497” height=”406.5”}
-![Updates view of Onboarding]/images/os-7-available-now/onboarding-updates.png){: width=”497” height=”406.5”}</p>
+<figure>
+  <p>![Choose Your Look view of Onboarding]/images/os-7-available-now/onboarding-styles.png){: width=”497” height=”664”}
+![Night Light view of Onboarding]/images/os-7-available-now/onboarding-nightlight.png){: width=”497” height=”407”}
+![Housekeeping view of Onboarding]/images/os-7-available-now/onboarding-housekeeping.png){: width=”497” height=”407”}
+![Updates view of Onboarding]/images/os-7-available-now/onboarding-updates.png){: width=”497” height=”407”}</p>
   <figcaption>
     <p>New features and settings are offered during onboarding like scheduled dark mode and automatic updates</p>
   </figcaption>
@@ -320,11 +344,32 @@
 
 <p>Mail now sports a more-modern flatter design as a first-step towards work on making it more responsive. The unified inbox now supports Microsoft 365 accounts. And multiple potential crashes and freezes have been resolved.</p>
 
-<p>[Mail Screenshot]</p>
+<figure>
+  <p><img src="/images/os-7-available-now/mail.png" alt="Mail" width="1161" height="750" /></p>
+  <figcaption>
+    <p>Mail now has a flatter design</p>
+  </figcaption>
+</figure>
 
 <p>Tasks now has offline support for newly created task lists and it makes sure to synchronize your remote lists when the network becomes available again. Plus it now sends notifications when a task is due.</p>
 
 <p>A long asked-for feature, you can now choose to select folders with a single click instead of activating them in Files, Windows style. Quite a bit of work has gone into making sure multiple click modes are supported and working as expected. We’ve also spent extra attention dialing in the behavior of keyboard shortcuts, especially regarding copy/paste and selection shortcuts across different view modes and with different types of file selections.</p>
+
+<figure class="full-bleed">
+  <p><img src="/images/os-7-available-now/files.png" alt="Files" /></p>
+  <figcaption>
+    <p>Files now has a double-click option</p>
+  </figcaption>
+</figure>
+
+<p>Printer settings received special attention with several redesigns as well as new features like being able to clear the print queue per printer and a much clearer ink levels view. Online accounts includes offline support for CalDAV accounts and the ability to choose a refresh rate for IMAP accounts.</p>
+
+<figure>
+  <p>![Printer Settings]/images/os-7-available-now/settings-printer.png){: width=”1024” height=”720”}</p>
+  <figcaption>
+    <p>Redesigned printer settings with more control over the print queue</p>
+  </figcaption>
+</figure>
 
 <p>We’re also shipping the latest Archive Manager and Document Viewer from GNOME 43. These releases improve support for dark mode, Flatpak portals like the native file chooser, as well as fix bugs and improve reliability.</p>
 
@@ -332,39 +377,52 @@
 
 <p>As music streaming services have emerged, there’s been a shift away from the old paradigm of importing music from CDs, carefully curating playlists, and syncing music from your computer to mobile devices. We’ve received lots of feedback that Music wasn’t meeting folks needs and the old code base was becoming prone to issues.</p>
 
-<p>[Screenshot of Music 7]</p>
+<figure class="card">
+  <p><img src="/images/os-7-available-now/music.png" alt="Music 7" /></p>
+  <figcaption>
+    <p>The new Music with a much more focused design</p>
+  </figcaption>
+</figure>
 
 <p>This cycle we’ve completely rewritten Music from scratch with a much more focused design built around quickly queuing up and playing individual audio files or your local music collection. We’ve heard that the new design is better for folks who just need a fast way to preview audio files that they’re using in their other projects, as well as for folks that still carefully curate their own local music collection and don’t want to compete with an app for fine grained control of their library’s organization scheme.</p>
 
 <p>The new Music 7 already has better support for reading track metadata such as album art, works as you’d expect with system-wide media controls, and can be tiled and resized to fit small and large displays. We’re excited to shape future versions of this app with your feedback, so make sure you let us know what kind of features you’d like to see!</p>
 
-<p>Likewise, Videos now appears in the sound indicator alongside other media players.</p>
+<figure class="constrained card">
+  <p><img src="/images/os-7-available-now/panel-sound.png" alt="The sound indicator" width="430" height="323" /></p>
+  <figcaption>
+    <p>Videos can now be controlled from the sound indicator</p>
+  </figcaption>
+</figure>
+
+<p>Likewise, Videos now appears in the sound indicator alongside other media players. And in both System Settings and the Panel, we now use more information to assign accurate icons to audio devices.</p>
 
 <h3 id="system-settings">System Settings</h3>
 
-<p>We’ve now added support for offline firmware updates.</p>
+<p>In elementary OS, settings are meant to make the operating system more accessible to a wider range of people with various needs and ways of working.</p>
 
-<p>Central Kurdish is now available as an installable language and we now support installation and removal of languages with 3-letter codes.</p>
+<figure class="half">
+  <p>![Power Settings]/images/os-7-available-now/settings-power.png){: width=”1024” height=”720”}
+![Shortcut Settings]/images/os-7-available-now/settings-shortcuts.png){: width=”1024” height=”720”}</p>
+  <figcaption>
+    <p><strong>Left:</strong> New power profile management | <strong>Right:</strong> Redesigned shortcut settings</p>
+  </figcaption>
+</figure>
 
-<p>Power profile management is now available in System Settings, including Performance mode for hardware that supports it. Expect much improved battery life for mobile devices with Power Saver mode. And you can now scroll both horizontally and vertically on the power indicator to change display brightness.</p>
+<p>This release provides power profiles management, including a performance mode for devices that support it. Expect much improved battery life for mobile devices with Power Saver mode. And you can now scroll both horizontally and vertically on the power indicator to change display brightness.</p>
 
-<p>The redesign Multitasking settings includes the ability to set custom Terminal commands for each hotcorner.</p>
+<p>We’ve added powerful features like the ability to set custom Terminal commands for each hotcorner and a redesign keyboard shortcuts settings makes it easier to disabled shortcuts or revert them to defaults, as well as much better custom shortcut management. You can now also launch the Shortcuts app from the applications menu and we’ve added the option to open and close the Multitasking view using the Super key.</p>
 
-<p>Online accounts includes offline support for CalDAV accounts and the ability to choose a refresh rate for IMAP accounts.</p>
+<figure>
+  <p>![Multitasking Settings]/images/os-7-available-now/settings-multitasking.png){: width=”1024” height=”720”}</p>
+  <figcaption>
+    <p>Multitasking settings with per-corner Terminal commands</p>
+  </figcaption>
+</figure>
 
-<p>Printer settings received special attention with several redesigns as well as new features like being able to clear the print queue per printer and a much clearer ink levels view.</p>
+<p>Keeping your device secure is paramount, which is why we’ve added a new option to forbid new USB devices from connecting while your device is locked, we’ve updated network settings and the network indicator to support WPA3 networks, and we’ve added support for offline firmware updates.</p>
 
-<p>Keyboard shortcut settings can now be easily disabled or reverted to their defaults and it’s much easier to create and manage custom shortcuts. You can now also launch the Shortcuts app from the applications menu.</p>
-
-<p>We’ve added the option to open and close the Multitasking view using the Super key.</p>
-
-<p>A new security option allows you to forbid new USB devices from connecting while your device is locked.</p>
-
-<p>We now show the correct information for WPA3 networks.</p>
-
-<p>Support Rime input method for Chinese</p>
-
-<p>In both System Settings and the Panel, we now use more information to assign accurate icons to audio devices.</p>
+<p>Our localization team has also been hard at work and Central Kurdish is now available as an installable language, we now support installation and removal of languages with 3-letter codes, and we support the Rime input method for Chinese</p>
 
 <h3 id="performance">Performance</h3>
 
