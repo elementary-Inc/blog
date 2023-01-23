@@ -100,15 +100,21 @@ We've done a decent amount of work this cycle on reducing the number of screens 
 
 During Initial setup, we now detect if you use the right mouse button for clicking and offer to switch to a left-handed mouse button order. There's also a new view that will appear if your device doesn't have network access instructing you how to get connected.
 
-[Screenshot of left-handed mouse dialog and network view]
+<figure class="half" markdown="1">
+![Left-handed Clicking in Initial Setup](/images/{{ page.slug }}/initialsetup-lefthand.png){: width="914" height="664"}
+![Network page in Initial Setup](/images/{{ page.slug }}/initialsetup-network.png){: width="914" height="664"}
+<figcaption markdown="1">
+**Left:** Left-handed primary click is now detected | **Right:** Initial setup guides you to connect to the Internet
+</figcaption>
+</figure>
 
 Onboarding includes a new view for configuring automatic updates, as well as the addition of a "Sunset to Sunrise" option for the dark style.
 
-<figure class="half" markdown="1">
-![Choose Your Look view of Onboarding]/images/{{ page.slug }}/onboarding-styles.png){: width="497" height="406.5"}
-![Night Light view of Onboarding]/images/{{ page.slug }}/onboarding-nightlight.png){: width="497" height="406.5"}
-![Housekeeping view of Onboarding]/images/{{ page.slug }}/onboarding-housekeeping.png){: width="497" height="406.5"}
-![Updates view of Onboarding]/images/{{ page.slug }}/onboarding-updates.png){: width="497" height="406.5"}
+<figure markdown="1">
+![Choose Your Look view of Onboarding]/images/{{ page.slug }}/onboarding-styles.png){: width="497" height="664"}
+![Night Light view of Onboarding]/images/{{ page.slug }}/onboarding-nightlight.png){: width="497" height="407"}
+![Housekeeping view of Onboarding]/images/{{ page.slug }}/onboarding-housekeeping.png){: width="497" height="407"}
+![Updates view of Onboarding]/images/{{ page.slug }}/onboarding-updates.png){: width="497" height="407"}
 <figcaption markdown="1">
 New features and settings are offered during onboarding like scheduled dark mode and automatic updates
 </figcaption>
