@@ -28,7 +28,7 @@ To get elementary OS 7 now, head to [elementary.io] for the download—or read o
 
 ## Helping you get the apps you need
 
-As always, AppCenter is the centerpiece of elementary OS. The primary purpose of any operating system is to support the apps that you use to work, play, and express yourself creatively. In the latest version of AppCenter we've worked on making app descriptions more engaging with more information, making it easier to update to the latest versions of apps, and improving support for sideloading and alt stores. We've also worked on improving AppCenter's responsiveness—making sure you can comfortable use it when tiling and on small displays as well as better using space on large displays.
+As always, AppCenter is the centerpiece of elementary OS. The primary purpose of any operating system is to support the apps that you use to work, play, and express yourself creatively. In the latest version of AppCenter we've worked on making app descriptions more engaging with more information, making it easier to update to the latest versions of apps, and improving support for sideloading and alt stores. We've also worked on improving AppCenter's responsiveness—making sure you can comfortably use it when tiling and on small displays as well as better using space on large displays.
 
 <figure markdown="1">
 ![AppCenter at large and small sizes](/images/{{ page.slug }}/appcenter-responsive.png){: width="1628" height="913"}
@@ -52,7 +52,7 @@ App Info views show more screenshots with captions and brand colors
 </figcaption>
 </figure>
 
-Knowing how actively developed an app is and how engaged the developer is with their community is an important factor in decided which apps to install. We now help you know what to expect by showing an icon when an app uses an older, unsupported platform as well as showing up to 5 recent releases and their release notes instead of just the latest release. We also now show links to resolved tickets in an app's issue tracker per release, so you verify that app developers will take your feedback into consideration.
+Knowing how actively developed an app is and how engaged the developer is with their community is an important factor in deciding which apps to install. We now help you know what to expect by showing an icon when an app uses an older, unsupported platform as well as showing up to 5 recent releases and their release notes instead of just the latest release. We also now show links to resolved tickets in an app's issue tracker per release, so you verify that app developers will take your feedback into consideration.
 
 ### Getting Updates
 
@@ -209,7 +209,7 @@ In elementary OS, settings are meant to make the operating system more accessibl
 
 This release provides power profiles management, including a performance mode for devices that support it. Expect much improved battery life for mobile devices with Power Saver mode. And you can now scroll both horizontally and vertically on the power indicator to change display brightness.
 
-We've added powerful features like the ability to set custom Terminal commands for each hotcorner and a redesign keyboard shortcuts settings makes it easier to disabled shortcuts or revert them to defaults, as well as much better custom shortcut management. You can now also launch the Shortcuts app from the applications menu and we've added the option to open and close the Multitasking view using the Super key.
+We've added powerful features like the ability to set custom Terminal commands for each hotcorner and a redesign keyboard shortcuts settings makes it easier to disable shortcuts or revert them to defaults, as well as much better custom shortcut management. You can now also launch the Shortcuts app from the applications menu and we've added the option to open and close the Multitasking view using the Super key.
 
 <figure markdown="1">
 ![Multitasking Settings](/images/{{ page.slug }}/settings-multitasking.png){: width="1024" height="720"}
