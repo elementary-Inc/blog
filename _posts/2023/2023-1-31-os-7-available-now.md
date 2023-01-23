@@ -155,6 +155,13 @@ Files now has a double-click option
 
 Printer settings received special attention with several redesigns as well as new features like being able to clear the print queue per printer and a much clearer ink levels view. Online accounts includes offline support for CalDAV accounts and the ability to choose a refresh rate for IMAP accounts.
 
+<figure markdown="1">
+![Printer Settings]/images/{{ page.slug }}/settings-printer.png){: width="1024" height="720"}
+<figcaption markdown="1">
+Redesigned printer settings with more control over the print queue
+</figcaption>
+</figure>
+
 We're also shipping the latest Archive Manager and Document Viewer from GNOME 43. These releases improve support for dark mode, Flatpak portals like the native file chooser, as well as fix bugs and improve reliability.
 
 ## Multimedia
@@ -185,19 +192,24 @@ Likewise, Videos now appears in the sound indicator alongside other media player
 
 In elementary OS, settings are meant to make the operating system more accessible to a wider range of people with various needs and ways of working.
 
-<figure markdown="1">
-![Multitasking Settings]/images/{{ page.slug }}/settings-multitasking.png){: width="1024" height="720"}
-![Printer Settings]/images/{{ page.slug }}/settings-printer.png){: width="1024" height="720"}
+<figure class="half" markdown="1">
 ![Power Settings]/images/{{ page.slug }}/settings-power.png){: width="1024" height="720"}
 ![Shortcut Settings]/images/{{ page.slug }}/settings-shortcuts.png){: width="1024" height="720"}
 <figcaption markdown="1">
-OS 7 comes with new, expanded, and redesigned System Settings
+**Left:** New power profile management | **Right:** Redesigned shortcut settings
 </figcaption>
 </figure>
 
 This release provides power profiles management, including a performance mode for devices that support it. Expect much improved battery life for mobile devices with Power Saver mode. And you can now scroll both horizontally and vertically on the power indicator to change display brightness.
 
 We've added powerful features like the ability to set custom Terminal commands for each hotcorner and a redesign keyboard shortcuts settings makes it easier to disabled shortcuts or revert them to defaults, as well as much better custom shortcut management. You can now also launch the Shortcuts app from the applications menu and we've added the option to open and close the Multitasking view using the Super key.
+
+<figure markdown="1">
+![Multitasking Settings]/images/{{ page.slug }}/settings-multitasking.png){: width="1024" height="720"}
+<figcaption markdown="1">
+Multitasking settings with per-corner Terminal commands
+</figcaption>
+</figure>
 
 Keeping your device secure is paramount, which is why we've added a new option to forbid new USB devices from connecting while your device is locked, we've updated network settings and the network indicator to support WPA3 networks, and we've added support for offline firmware updates.
 
