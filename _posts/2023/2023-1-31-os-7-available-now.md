@@ -86,9 +86,13 @@ In the theme of accessing the apps you need, we're shipping the very latest GNOM
 
 ## Empowering you with new features and settings
 
-### Feedback
-
-[Feedback app screenshot]
+<figure class="half" markdown="1">
+![Categories view in Feedback](/images/{{ page.slug }}/feedback-categories.png){: width="640" height="500"}
+![Apps view in Feedback](/images/{{ page.slug }}/feedback-apps.png){: width="640" height="500"}
+<figcaption markdown="1">
+Feedback helps you report issues and request new features directly to the developers
+</figcaption>
+</figure>
 
 The ability to send feedback directly to developers, see development happen transparently, and receive fixes and new features as updates quickly is one of our greatest strengths over both proprietary platforms and traditional Linux distributions. The Feedback app is a critical component in beginning this loop, so this cycle we've brought some major improvements to it including instant launch times, much better coverage of installed apps, settings, and desktop components, and you can now access the Feedback app directly from the applications menu. We've also improved keyboard navigation and responsiveness for small displays, and added the ability to quickly double click a list item to launch.
 
