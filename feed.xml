@@ -5,16 +5,14 @@
     <description>We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS</description>
     <link>https://blog.elementary.io/</link>
     <atom:link href="https://blog.elementary.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 23 Jan 2023 12:23:35 -0600</pubDate>
-    <lastBuildDate>Mon, 23 Jan 2023 12:23:35 -0600</lastBuildDate>
+    <pubDate>Mon, 23 Jan 2023 12:35:55 -0600</pubDate>
+    <lastBuildDate>Mon, 23 Jan 2023 12:35:55 -0600</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       
         <item>
           <title>elementary OS 7 Available Now</title>
-          <description>&lt;p&gt;12/20/21 was release date of OS 6.1&lt;/p&gt;
-
-&lt;p&gt;It’s been just over a year since we released elementary OS 6.1 Jólnir which brought new features and fixes based on your feedback, introduced new office productivity features, and expanded compatibility with a wide range of hardware. So far, OS 6.1 has been downloaded from our website &lt;a href=&quot;https://plausible.io/elementary.io?period=custom&amp;amp;goal=Download&amp;amp;from=2021-12-20&amp;amp;to=2022-12-18&amp;amp;props=%7B%22Version%22:%226.1%22%7D&quot;&gt;over 400,000 times&lt;/a&gt;—150,000 times more than 6.0—and as always, that’s not including downloads from third parties or direct downloads via torrent that bypass our download page!&lt;/p&gt;
+          <description>&lt;p&gt;It’s been just over a year since we released elementary OS 6.1 Jólnir which brought new features and fixes based on your feedback, introduced new office productivity features, and expanded compatibility with a wide range of hardware. So far, OS 6.1 has been downloaded from our website &lt;a href=&quot;https://plausible.io/elementary.io?period=custom&amp;amp;goal=Download&amp;amp;from=2021-12-20&amp;amp;to=2023-01-31&amp;amp;props=%7B%22Version%22:%226.1%22%7D&quot;&gt;over 400,000 times&lt;/a&gt;—150,000 times more than 6.0—and as always, that’s not including downloads from third parties or direct downloads via torrent that bypass our download page!&lt;/p&gt;
 
 &lt;figure class=&quot;constrained&quot;&gt;
   &lt;p&gt;&lt;img src=&quot;/images/elementary-os-7-available-now/hero.png&quot; alt=&quot;elementary OS 7 Horus&quot; /&gt;&lt;/p&gt;
@@ -110,7 +108,15 @@
 
 &lt;p&gt;Onboarding includes a new view for configuring automatic updates, as well as the addition of a “Sunset to Sunrise” option for the dark style.&lt;/p&gt;
 
-&lt;p&gt;[Screenshot of Automatic Updates view and Style view]&lt;/p&gt;
+&lt;figure class=&quot;half&quot;&gt;
+  &lt;p&gt;![Choose Your Look view of Onboarding]/images/elementary-os-7-available-now/onboarding-styles.png){: width=”497” height=”406.5”}
+![Night Light view of Onboarding]/images/elementary-os-7-available-now/onboarding-nightlight.png){: width=”497” height=”406.5”}
+![Housekeeping view of Onboarding]/images/elementary-os-7-available-now/onboarding-housekeeping.png){: width=”497” height=”406.5”}
+![Updates view of Onboarding]/images/elementary-os-7-available-now/onboarding-updates.png){: width=”497” height=”406.5”}&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;New features and settings are offered during onboarding like scheduled dark mode and automatic updates&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
 
 &lt;h3 id=&quot;office-productivity&quot;&gt;Office Productivity&lt;/h3&gt;
 
