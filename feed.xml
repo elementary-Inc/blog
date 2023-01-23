@@ -5,303 +5,9 @@
     <description>We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS</description>
     <link>https://blog.elementary.io/</link>
     <atom:link href="https://blog.elementary.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 23 Jan 2023 12:35:55 -0600</pubDate>
-    <lastBuildDate>Mon, 23 Jan 2023 12:35:55 -0600</lastBuildDate>
+    <pubDate>Mon, 23 Jan 2023 12:54:47 -0600</pubDate>
+    <lastBuildDate>Mon, 23 Jan 2023 12:54:47 -0600</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
-    
-      
-        <item>
-          <title>elementary OS 7 Available Now</title>
-          <description>&lt;p&gt;It’s been just over a year since we released elementary OS 6.1 Jólnir which brought new features and fixes based on your feedback, introduced new office productivity features, and expanded compatibility with a wide range of hardware. So far, OS 6.1 has been downloaded from our website &lt;a href=&quot;https://plausible.io/elementary.io?period=custom&amp;amp;goal=Download&amp;amp;from=2021-12-20&amp;amp;to=2023-01-31&amp;amp;props=%7B%22Version%22:%226.1%22%7D&quot;&gt;over 400,000 times&lt;/a&gt;—150,000 times more than 6.0—and as always, that’s not including downloads from third parties or direct downloads via torrent that bypass our download page!&lt;/p&gt;
-
-&lt;figure class=&quot;constrained&quot;&gt;
-  &lt;p&gt;&lt;img src=&quot;/images/elementary-os-7-available-now/hero.png&quot; alt=&quot;elementary OS 7 Horus&quot; /&gt;&lt;/p&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Today we’re proud to announce that OS 7, codenamed Horus, is available to download now and shipping on several high-quality computers. With OS 7, we’ve focused in on:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Helping you get the apps you need&lt;/li&gt;
-  &lt;li&gt;Empowering you with new features and settings&lt;/li&gt;
-  &lt;li&gt;Evolving our developer platform and design guidelines&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;To get elementary OS 7 now, head to &lt;a href=&quot;https://elementary.io&quot;&gt;elementary.io&lt;/a&gt; for the download—or read on for an overview of what’s new.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;helping-you-get-the-apps-you-need&quot;&gt;Helping you get the apps you need&lt;/h2&gt;
-
-&lt;p&gt;As always, AppCenter is the centerpiece of elementary OS. The primary purpose of any operating system is to support the apps that you use to work, play, and express yourself creatively. In the latest version of AppCenter we’ve worked on making app descriptions more engaging with more information, making it easier to update to the latest versions of apps, and improving support for sideloading and alt stores. We’ve also worked on improving AppCenter’s responsiveness—making sure you can comfortable use it when tiling and on small displays as well as better using space on large displays.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;p&gt;&lt;img src=&quot;/images/elementary-os-7-available-now/appcenter-responsive.png&quot; alt=&quot;AppCenter at large and small sizes&quot; /&gt;&lt;/p&gt;
-  &lt;figcaption&gt;
-    &lt;p&gt;AppCenter can be used comfortably while tiled or on small displays&lt;/p&gt;
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;We’ve completely rewritten the way navigation works in AppCenter and now support two-finger swipe gestures to navigate back. The entire app loads much faster and provides more feedback when running background tasks via an overlay bar in the bottom right or left corner.&lt;/p&gt;
-
-&lt;p&gt;Recently updated apps are shown at the top of category views&lt;/p&gt;
-
-&lt;h3 id=&quot;app-descriptions&quot;&gt;App Descriptions&lt;/h3&gt;
-
-&lt;p&gt;The biggest change you’ll notice when viewing app info pages is the improved emphasis on screenshots. Screenshot carousels now fill the width of the window, showing more screenshots at once. They can now also be accompanied by their own captions, which can help describe individual features as well as making pages more accessible to folks with vision-related disabilities. And finally each screenshot now sits on a card that uses the app’s accent color, showing off more of the developer’s personality.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;p&gt;&lt;img src=&quot;/images/elementary-os-7-available-now/appcenter-appinfo.png&quot; alt=&quot;AppCenter's app info view&quot; /&gt;&lt;/p&gt;
-  &lt;figcaption&gt;
-    &lt;p&gt;App Info views show more screenshots with captions and brand colors&lt;/p&gt;
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Knowing how actively developed an app is and how engaged the developer is with their community is an important factor in decided which apps to install. We now help you know what to expect by showing an icon when an app uses an older, unsupported platform as well as showing up to 5 recent releases and their release notes instead of just the latest release. We also now show links to resolved tickets in an app’s issue tracker per release, so you verify that app developers will take your feedback into consideration.&lt;/p&gt;
-
-&lt;h3 id=&quot;getting-updates&quot;&gt;Getting Updates&lt;/h3&gt;
-
-&lt;p&gt;Staying up to date with the latest versions of apps is something we hear often is very important to folks using elementary OS. Flatpak makes it simple for developers to publish updates quickly and now you can get those updates automatically. If you’d still like to check for updates on your own time or want to force a manual refresh, there’s now a handy menu option that you can use.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;p&gt;&lt;img src=&quot;/images/elementary-os-7-available-now/appcenter-updates.png&quot; alt=&quot;AppCenter's  updates view&quot; /&gt;&lt;/p&gt;
-  &lt;figcaption&gt;
-    &lt;p&gt;App Info views show more screenshots with captions and brand colors&lt;/p&gt;
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h3 id=&quot;sideloading--alt-stores&quot;&gt;Sideloading &amp;amp; Alt Stores&lt;/h3&gt;
-
-&lt;p&gt;Sideloading apps and using Alt Stores like Flathub is a major feature of elementary OS and a competitive edge over closed platforms that only let you install apps from a locked down store. In this release we’ve made several improvements to smooth out the experience of using Alt Stores based on your feedback and the latest cross-platform standards.&lt;/p&gt;
-
-&lt;p&gt;There’s no longer a warning dialog every time you install an app that’s supplied by an Alt Store, instead we show an unobtrusive icon alongside the app’s other content warnings letting you know that elementary hasn’t reviewed this particular app.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;p&gt;&lt;img src=&quot;/images/elementary-os-7-available-now/appcenter-sideload.png&quot; alt=&quot;AppCenter's app info view&quot; /&gt;&lt;/p&gt;
-  &lt;figcaption&gt;
-    &lt;p&gt;Even apps sideloaded from alt stores like Flathub can show brand colors&lt;/p&gt;
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Apps from AppCenter could always use their own brand colors to make their app info pages feel unique and now apps sideloaded from Alt Stores can show brand colors too, thanks to the latest additions in the AppStream standard.&lt;/p&gt;
-
-&lt;h3 id=&quot;web-apps&quot;&gt;Web Apps&lt;/h3&gt;
-
-&lt;p&gt;In the theme of accessing the apps you need, we’re shipping the very latest GNOME Web 43 which includes support for creating web apps which show in the applications menu. They can have their own settings including privacy controls and can even run in the background. Installed web apps can be managed from inside GNOME Web.&lt;/p&gt;
-
-&lt;h2 id=&quot;empowering-you-with-new-features-and-settings&quot;&gt;Empowering you with new features and settings&lt;/h2&gt;
-
-&lt;h3 id=&quot;feedback&quot;&gt;Feedback&lt;/h3&gt;
-
-&lt;p&gt;[Feedback app screenshot]&lt;/p&gt;
-
-&lt;p&gt;The ability to send feedback directly to developers, see development happen transparently, and receive fixes and new features as updates quickly is one of our greatest strengths over both proprietary platforms and traditional Linux distributions. The Feedback app is a critical component in beginning this loop, so this cycle we’ve brought some major improvements to it including instant launch times, much better coverage of installed apps, settings, and desktop components, and you can now access the Feedback app directly from the applications menu. We’ve also improved keyboard navigation and responsiveness for small displays, and added the ability to quickly double click a list item to launch.&lt;/p&gt;
-
-&lt;h3 id=&quot;installation-initial-setup--onboarding&quot;&gt;Installation, Initial Setup &amp;amp; Onboarding&lt;/h3&gt;
-
-&lt;p&gt;We’ve done a decent amount of work this cycle on reducing the number of screens in the Installer and providing more information to help you make informed decisions. For example, we now warn about connecting to power when on battery using an infobar instead of a separate page and we’ve introduced a combined “Before You Install” page that includes warnings about things like virtual machines, developer builds, and system requirements all in one step. And speaking of virtual machines, we’ve resolved issues that made the installer window too large to be interacted with on some virtual machines.&lt;/p&gt;
-
-&lt;p&gt;[Before You Install screenshot]&lt;/p&gt;
-
-&lt;p&gt;During Initial setup, we now detect if you use the right mouse button for clicking and offer to switch to a left-handed mouse button order. There’s also a new view that will appear if your device doesn’t have network access instructing you how to get connected.&lt;/p&gt;
-
-&lt;p&gt;[Screenshot of left-handed mouse dialog and network view]&lt;/p&gt;
-
-&lt;p&gt;Onboarding includes a new view for configuring automatic updates, as well as the addition of a “Sunset to Sunrise” option for the dark style.&lt;/p&gt;
-
-&lt;figure class=&quot;half&quot;&gt;
-  &lt;p&gt;![Choose Your Look view of Onboarding]/images/elementary-os-7-available-now/onboarding-styles.png){: width=”497” height=”406.5”}
-![Night Light view of Onboarding]/images/elementary-os-7-available-now/onboarding-nightlight.png){: width=”497” height=”406.5”}
-![Housekeeping view of Onboarding]/images/elementary-os-7-available-now/onboarding-housekeeping.png){: width=”497” height=”406.5”}
-![Updates view of Onboarding]/images/elementary-os-7-available-now/onboarding-updates.png){: width=”497” height=”406.5”}&lt;/p&gt;
-  &lt;figcaption&gt;
-    &lt;p&gt;New features and settings are offered during onboarding like scheduled dark mode and automatic updates&lt;/p&gt;
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h3 id=&quot;office-productivity&quot;&gt;Office Productivity&lt;/h3&gt;
-
-&lt;p&gt;Mail now sports a more-modern flatter design as a first-step towards work on making it more responsive. The unified inbox now supports Microsoft 365 accounts. And multiple potential crashes and freezes have been resolved.&lt;/p&gt;
-
-&lt;p&gt;[Mail Screenshot]&lt;/p&gt;
-
-&lt;p&gt;Tasks now has offline support for newly created task lists and it makes sure to synchronize your remote lists when the network becomes available again. Plus it now sends notifications when a task is due.&lt;/p&gt;
-
-&lt;p&gt;A long asked-for feature, you can now choose to select folders with a single click instead of activating them in Files, Windows style. Quite a bit of work has gone into making sure multiple click modes are supported and working as expected. We’ve also spent extra attention dialing in the behavior of keyboard shortcuts, especially regarding copy/paste and selection shortcuts across different view modes and with different types of file selections.&lt;/p&gt;
-
-&lt;p&gt;We’re also shipping the latest Archive Manager and Document Viewer from GNOME 43. These releases improve support for dark mode, Flatpak portals like the native file chooser, as well as fix bugs and improve reliability.&lt;/p&gt;
-
-&lt;h2 id=&quot;multimedia&quot;&gt;Multimedia&lt;/h2&gt;
-
-&lt;p&gt;As music streaming services have emerged, there’s been a shift away from the old paradigm of importing music from CDs, carefully curating playlists, and syncing music from your computer to mobile devices. We’ve received lots of feedback that Music wasn’t meeting folks needs and the old code base was becoming prone to issues.&lt;/p&gt;
-
-&lt;p&gt;[Screenshot of Music 7]&lt;/p&gt;
-
-&lt;p&gt;This cycle we’ve completely rewritten Music from scratch with a much more focused design built around quickly queuing up and playing individual audio files or your local music collection. We’ve heard that the new design is better for folks who just need a fast way to preview audio files that they’re using in their other projects, as well as for folks that still carefully curate their own local music collection and don’t want to compete with an app for fine grained control of their library’s organization scheme.&lt;/p&gt;
-
-&lt;p&gt;The new Music 7 already has better support for reading track metadata such as album art, works as you’d expect with system-wide media controls, and can be tiled and resized to fit small and large displays. We’re excited to shape future versions of this app with your feedback, so make sure you let us know what kind of features you’d like to see!&lt;/p&gt;
-
-&lt;p&gt;Likewise, Videos now appears in the sound indicator alongside other media players.&lt;/p&gt;
-
-&lt;h3 id=&quot;system-settings&quot;&gt;System Settings&lt;/h3&gt;
-
-&lt;p&gt;We’ve now added support for offline firmware updates.&lt;/p&gt;
-
-&lt;p&gt;Central Kurdish is now available as an installable language and we now support installation and removal of languages with 3-letter codes.&lt;/p&gt;
-
-&lt;p&gt;Power profile management is now available in System Settings, including Performance mode for hardware that supports it. Expect much improved battery life for mobile devices with Power Saver mode. And you can now scroll both horizontally and vertically on the power indicator to change display brightness.&lt;/p&gt;
-
-&lt;p&gt;The redesign Multitasking settings includes the ability to set custom Terminal commands for each hotcorner.&lt;/p&gt;
-
-&lt;p&gt;Online accounts includes offline support for CalDAV accounts and the ability to choose a refresh rate for IMAP accounts.&lt;/p&gt;
-
-&lt;p&gt;Printer settings received special attention with several redesigns as well as new features like being able to clear the print queue per printer and a much clearer ink levels view.&lt;/p&gt;
-
-&lt;p&gt;Keyboard shortcut settings can now be easily disabled or reverted to their defaults and it’s much easier to create and manage custom shortcuts. You can now also launch the Shortcuts app from the applications menu.&lt;/p&gt;
-
-&lt;p&gt;We’ve added the option to open and close the Multitasking view using the Super key.&lt;/p&gt;
-
-&lt;p&gt;A new security option allows you to forbid new USB devices from connecting while your device is locked.&lt;/p&gt;
-
-&lt;p&gt;We now show the correct information for WPA3 networks.&lt;/p&gt;
-
-&lt;p&gt;Support Rime input method for Chinese&lt;/p&gt;
-
-&lt;p&gt;In both System Settings and the Panel, we now use more information to assign accurate icons to audio devices.&lt;/p&gt;
-
-&lt;h3 id=&quot;performance&quot;&gt;Performance&lt;/h3&gt;
-
-&lt;p&gt;I want to make a special note here about performance. In just about every section I could have individually written about performance over and over again. The team has spent quite a bit of time tracking down slowdowns, reworking old code, and optimizing to make everything happen as quickly and responsively as possible and in the most extreme scenarios. I can’t emphasize enough how big a part reducing latency plays in our vision for empowering you to do your best.&lt;/p&gt;
-
-&lt;h2 id=&quot;evolving-our-developer-platform-and-design-guidelines&quot;&gt;Evolving our developer platform and design guidelines&lt;/h2&gt;
-
-&lt;h3 id=&quot;iconography&quot;&gt;Iconography&lt;/h3&gt;
-
-&lt;p&gt;New app icons&lt;/p&gt;
-
-&lt;p&gt;Additions:&lt;/p&gt;
-
-&lt;p&gt;“computer-fail”
-“preferences-desktop-theme”
-“application-x-sharedlib”
-“process-paused”
-caps-lock-symbolic
-eye-not-looking-symbolic
-eye-open-negative-filled-symbolic
-num-lock-symbolic&lt;/p&gt;
-
-&lt;p&gt;Removals:&lt;/p&gt;
-
-&lt;p&gt;“office-address-book”
-Flash file types
-notification-*
-Non-FDO network-*
-Non-FDO app icons&lt;/p&gt;
-
-&lt;p&gt;Updated families:&lt;/p&gt;
-
-&lt;p&gt;Clean up “preferences-desktop-workspaces”
-Update “preferences-desktop” to new tile shape
-Update “image-missing” to new tile shape
-Update “preferences-desktop-keyboard” to new tile shape
-Update “document-import” and “document-export” to new tile shape
-Update many file types with new arrow shape
-“application-default-icon” is now brightly colored
-“media-stop” is now a square
-Round symbolic location status icons
-Use an outlined shape for symbolic tag icons
-Use a rounded star for symbolic bookmark icons
-Redesign Night Light
-Use latest Flatpak branding
-Symbolic volume icons use a rounded shape and a slash when muted
-Redesign media-playlist-repeat
-Update media-playlist-shuffle and media-playlist-consecutive
-Rounder square icons
-Rounded arrow corners on Downloads folder
-Deb and Flatpak Bundle files use a package metaphor
-Updates arrow points up
-Redesigned package with new colors&lt;/p&gt;
-
-&lt;p&gt;There’s now also an Icon Browser app available in AppCenter where you can see all of the icons shipped with the elementary platform. You can search or view icons by category as well as see what sizes and styles an icon comes in and even get a quick code snippet to use in your app.&lt;/p&gt;
-
-&lt;p&gt;[Icon Browser screenshot]&lt;/p&gt;
-
-&lt;h3 id=&quot;gtk-4&quot;&gt;Gtk 4&lt;/h3&gt;
-
-&lt;p&gt;Sideload
-Shortcuts
-Music
-Onboarding&lt;/p&gt;
-
-&lt;h3 id=&quot;granite&quot;&gt;Granite&lt;/h3&gt;
-
-&lt;p&gt;The latest version of our app framework Granite as well as our system stylesheet have been updated to support Gtk 4 and come with a host of new features and API changes to make building apps quick and straightforward.&lt;/p&gt;
-
-&lt;p&gt;In Gtk 4, style class constants have moved from Gtk itself into the platform frameworks. This means that all of the supported style class constants in the elementary stylesheet are now provided by Granite. This includes classes you’re familiar with like the ones for setting text colors as well as the ones for setting background colors on sidebars or in views, plus some new ones like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RICH_LIST&lt;/code&gt; for setting up padding and margins on listboxes.&lt;/p&gt;
-
-&lt;p&gt;A new Granite.Placeholder widget was introduced to replace AlertView and Welcome with a single more flexible widget. It supports all the usual cases like welcome screens with buttons, embedded alerts, and placeholders for lists. It supports markup in descriptions and you can even uses style classes like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ACCENT&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;WARNING&lt;/code&gt;, or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ERROR&lt;/code&gt; to automatically color title text.&lt;/p&gt;
-
-&lt;p&gt;Plus, widgets have been reworked to set all of their margins and padding from Gtk.CSS—meaning they scale appropriately with the system text size—and several widgets have been made more responsive for large and small displays.&lt;/p&gt;
-
-&lt;p&gt;Every release comes with removals and this migration to Gtk 4 comes with quite a few of them. We’re excited to remove several utilities that are better supported in Gtk and GLib upstream, including the Settings class, Logging, Command Launching, several drawing functions now covered by Gtk.CSS, DynamicNotebook since you can now get a great tab bar widget from Adwaita, and others. In each case we looked at existing apps and made sure they could migrate to Gtk 4 without losing functionality and in many cases their code was made more robust and more simple by using functions provided by upstream libraries.&lt;/p&gt;
-
-&lt;p&gt;As always, the full API reference for Granite is available &lt;a href=&quot;https://valadoc.org/granite-7/Granite.html&quot;&gt;on Valadoc.org&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;flatpak-platform&quot;&gt;Flatpak Platform&lt;/h3&gt;
-&lt;p&gt;7.1.0&lt;/p&gt;
-
-&lt;h3 id=&quot;tools&quot;&gt;Tools&lt;/h3&gt;
-
-&lt;p&gt;Code&lt;/p&gt;
-
-&lt;p&gt;Hidden folders are now shown in the project sidebar
-The currently selected result and the number of results is displayed while searching
-The search bar now has a regular expression mode&lt;/p&gt;
-
-&lt;p&gt;It is now possible to change Git branch with untracked files present in a project
-Line duplication is now actioned correctly if there is no selection present&lt;/p&gt;
-
-&lt;p&gt;Terminal gains the ability to both follow the system dark style preference as well as create custom color palettes. The new default light and dark styles are now fully opaque and have been updated to match the latest upstream values from the Solarized themes for improved legibility. We’ve also added the keyboard shortcut &lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;1—9&lt;/kbd&gt; for switching tabs and you can quit Terminal with &lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Shift&lt;/kbd&gt; + &lt;kbd&gt;Q&lt;/kbd&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;special-thanks&quot;&gt;Special Thanks&lt;/h2&gt;
-
-&lt;p&gt;There are tons of other small improvements, bug fixes, and more that didn’t make it into this release blog post. I’d like to give a special thanks to our volunteer community for their continual commitment to making a great open source operating system. I’d also like to particularly call out our localization team that works hard to make every release available in dozens of languages, including right-to-left languages, Asian character languages, and more. This release also wouldn’t have been possible without the work of developers running Pantheon on other distros like Fedora and NixOS and their participation upstream. And speaking of upstreams, I’m always grateful for the work that goes into the Ubuntu releases that we build upon. I’m very proud of what a diverse community can build together and this release is definitely something to be proud of. Thank you all so much for being a part of it!&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;get-elementary-os-7&quot;&gt;Get elementary OS 7&lt;/h2&gt;
-
-&lt;p&gt;elementary OS 7 is available as a pay-what-you-can purchase at &lt;a href=&quot;https://elementary.io&quot;&gt;elementary.io&lt;/a&gt; today. Localized direct downloads and a torrent magnet link are provided.&lt;/p&gt;
-
-&lt;div style=&quot;text-align: center&quot;&gt;
-  &lt;p&gt;&lt;a href=&quot;https://github.com/elementary/os/wiki/elementary-OS-7-FAQ&quot; class=&quot;button flat&quot;&gt;OS 7 FAQ&lt;/a&gt;
-&lt;a href=&quot;https://elementary.io&quot; class=&quot;button suggested&quot;&gt;Download elementary OS 7&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;devices&quot;&gt;Devices&lt;/h3&gt;
-
-&lt;p&gt;Our hardware retailers &lt;a href=&quot;https://laptopwithlinux.com/?ref=36&amp;amp;utm_source=referral&amp;amp;utm_medium=elementary&amp;amp;utm_campaign=elementary&quot;&gt;Laptop with Linux&lt;/a&gt;, &lt;a href=&quot;https://slimbook.es/?utm_source=referral&amp;amp;utm_medium=elementary&amp;amp;utm_campaign=elementary&quot;&gt;Slimbook&lt;/a&gt;, and &lt;a href=&quot;https://starlabs.systems/?rfsn=4227837.e8f025&quot;&gt;Star Labs&lt;/a&gt; are all offering elementary OS 7 out of the box starting today. Visit retailers’ individual sites for more information.&lt;/p&gt;
-
-&lt;div style=&quot;text-align: center&quot;&gt;
-  &lt;p&gt;&lt;a href=&quot;https://store.elementary.io/&quot; class=&quot;button&quot;&gt;Shop Devices&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-
-</description>
-          <pubDate>Tue, 31 Jan 2023 00:00:00 -0600</pubDate>
-          <link>https://blog.elementary.io/elementary-os-7-available-now/</link>
-          <guid isPermaLink="true">https://blog.elementary.io/elementary-os-7-available-now/</guid>
-          
-              
-              
-          <enclosure url="https://blog.elementary.io" />
-          
-          
-          <category>horus</category>
-          
-          <category>release</category>
-          
-          
-        </item>
-      
     
       
         <item>
@@ -1141,6 +847,581 @@ Line duplication is now actioned correctly if there is no selection present&lt;/
           <category>updates</category>
           
           <category>jolnir</category>
+          
+          
+        </item>
+      
+    
+      
+        <item>
+          <title>2021 UI Study Results</title>
+          <description>&lt;p&gt;Over the past couple of months we’ve conducted a user interface study to dig into how people multi-task on elementary OS as well as other desktop and tablet operating systems. In particular, we were interested in better learning how people use the dock, app launchers, and window management.&lt;/p&gt;
+
+&lt;p&gt;As we continue to iterate on the core experience of elementary OS, we are also aware of newer technologies like Wayland that we’re actively adopting to improve privacy, security, and performance—but doing so requires reworking some components like the dock and window manager to use new protocols and APIs. As long as we’re reworking some of these technical bits, it could be advantageous to rethink and improve upon the experience itself—plus, we can ensure we’re not writing new code to support legacy designs just because that’s how things worked in the past.&lt;/p&gt;
+
+&lt;p&gt;If that all sounds a bit ambitious… it kind of is! However, we’ve previously worked on a &lt;a href=&quot;/user-interface-study-findings&quot;&gt;similar study&lt;/a&gt; around theming, dark styles, and night light modes that directly resulted in our implementation of a system-wide dark style as well as accent colors in elementary OS—and &lt;a href=&quot;/the-need-for-a-freedesktop-dark-style-preference&quot;&gt;our advocacy in that realm&lt;/a&gt; helped influence &lt;a href=&quot;https://blogs.gnome.org/alexm/2021/10/04/dark-style-preference/&quot;&gt;GNOME’s adoption of a cross-desktop dark style&lt;/a&gt; that will work on both GNOME and elementary OS. That work has been years in the making, but the pay-off is well worth it.&lt;/p&gt;
+
+&lt;div style=&quot;margin: 3em auto;&quot;&gt;
+
+
+
+&lt;a class=&quot;featured with-image 1&quot; href=&quot;/the-need-for-a-freedesktop-dark-style-preference/&quot;&gt;
+  
+    &lt;div class=&quot;featured-image&quot; alt=&quot;Featured image&quot; style=&quot;background-image: url(https://cdn-images-1.medium.com/max/1952/1*NwP8sxbRTq7pzJLhDE2rnA@2x.png);&quot;&gt;&lt;/div&gt;
+  
+
+  &lt;header&gt;
+    &lt;h2&gt;
+
+
+
+   The Need for a FreeDesktop Dark Style&amp;nbsp;Preference
+
+&lt;/h2&gt;
+    
+      &lt;h3&gt;
+        
+
+
+
+   It’s time for the FreeDesktop to catch&amp;nbsp;up
+
+
+        
+      &lt;/h3&gt;
+    
+
+    
+
+
+
+&lt;div class=&quot;byline&quot;&gt;
+  &lt;div class=&quot;avatar&quot;&gt;
+    &lt;img srcset=&quot;https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&amp;amp;d=blank 2x&quot; src=&quot;https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&amp;amp;d=blank&quot; alt=&quot;Avatar for Cassidy James Blaede&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;author&quot;&gt;
+    
+    &lt;span class=&quot;name&quot;&gt;Cassidy James Blaede&lt;/span&gt;
+    
+    
+      &lt;span class=&quot;description&quot;&gt;Co-founder &amp;amp; CXO&lt;/span&gt;
+    
+  &lt;/div&gt;
+  &lt;time class=&quot;post-date&quot; datetime=&quot;2019-05-17&quot;&gt;Fri, May 17, 2019&lt;/time&gt;
+  
+    &lt;span class=&quot;read-time&quot; title=&quot;Estimated read time&quot;&gt;
+  
+  18 min read
+&lt;/span&gt;
+
+
+  
+&lt;/div&gt;
+
+
+  &lt;/header&gt;
+
+  
+&lt;/a&gt;
+
+
+&lt;/div&gt;
+
+&lt;p&gt;At this point in the study, we have our raw data and have started digging into it to identify patterns and set priorities. Much like with the dark style study, the effects of this study may take some time to pan out, but I wanted to share our initial findings to kick the work off. We intend to follow up in the future to further share what we’ve inferred from the data, and how we expect it to influence our design going forward. We also hope these more raw results will be of use to other projects and desktops if they wish to draw their own conclusions; we’re happy to participate in larger cross-desktop discussions and share this openly for all.&lt;/p&gt;
+
+&lt;h2 id=&quot;questions--rawstats&quot;&gt;Questions &amp;amp; Raw Stats&lt;/h2&gt;
+
+&lt;p&gt;The study was conducted as a web survey posted to social media and open source forums from December, 2021 through January, 2022. We asked participants to first identify which desktop and tablet platforms they used (including Android on a tablet, Chrome OS, elementary OS, GNOME, iPadOS, KDE, macOS, Ubuntu, Windows, and other Linux-based desktops), and how often they used each platform (ranging from never to daily); an initial look at grouping by this data did not reveal substantial differences in the answers (around +/- 5% difference for each option), but we will continue to look into the data to see if any significant patterns emerge. If so, we’ll publish an update to these findings.&lt;/p&gt;
+
+&lt;p&gt;The following questions were presented in these sections and this order:&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;app-launching--search&quot;&gt;App launching &amp;amp; search&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;e.g. the Applications Menu on elementary OS, Launchpad on macOS, Start menu on Windows, etc.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This section had 2,843 responses.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;h4 id=&quot;how-often-do-you-clicktap-on-an-app-in-an-app-launcher-to-open-your-frequently-used-apps&quot;&gt;How often do you click/tap on an app in an app launcher to open your frequently-used apps?&lt;/h4&gt;
+
+  &lt;p&gt;Excluding using search, e.g. clicking an app icon in the Applications Menu on elementary OS, Launchpad on macOS, Start menu on Windows, etc.&lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;Never&lt;/li&gt;
+    &lt;li&gt;Infrequently (less than weekly)&lt;/li&gt;
+    &lt;li&gt;Frequently (approximately weekly)&lt;/li&gt;
+    &lt;li&gt;Daily (multiple times per week)&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Of the respondents, &lt;strong&gt;10%&lt;/strong&gt; responded that they &lt;em&gt;never&lt;/em&gt; click or tap on an app in an app launcher to open frequently-used apps. &lt;strong&gt;25%&lt;/strong&gt; responded &lt;em&gt;infrequently&lt;/em&gt;, &lt;strong&gt;22%&lt;/strong&gt; responded &lt;em&gt;frequently&lt;/em&gt;, and the largest group at &lt;strong&gt;43%&lt;/strong&gt; responded &lt;em&gt;daily&lt;/em&gt;. With some simple grouping, we can look at the results in another way:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Over &lt;strong&gt;90%&lt;/strong&gt; of respondents click/tap on an app in an app launcher to open their frequently-used apps &lt;em&gt;at least sometimes&lt;/em&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Around &lt;strong&gt;65%&lt;/strong&gt; of respondents frequently or daily click/tap on an app in an app launcher to open their frequently-used apps, while around &lt;strong&gt;35%&lt;/strong&gt; do so infrequently or not at all.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;
+  &lt;iframe width=&quot;554&quot; height=&quot;470&quot; seamless=&quot;&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://docs.google.com/spreadsheets/d/e/2PACX-1vQnnvwEs6sKvkpHDXQpFK4H1jxzPtdeK8xgq7khTZ_Wdzv5CRCKOC87aDbaMq2ooPwdo-5LwyWVTlYu/pubchart?oid=1029877605&amp;amp;format=interactive&quot;&gt;&lt;/iframe&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;When looking at frequent or daily users of elementary OS specifically, the breakdown was very similar: &lt;strong&gt;8%&lt;/strong&gt; never, &lt;strong&gt;24%&lt;/strong&gt; infrequently, &lt;strong&gt;23%&lt;/strong&gt; frequently, and &lt;strong&gt;45%&lt;/strong&gt; daily.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;h4 id=&quot;how-often-do-you-use-search-to-open-your-frequently-used-apps&quot;&gt;How often do you use search to open your frequently-used apps?&lt;/h4&gt;
+
+  &lt;p&gt;e.g. searching by name or function in the Applications Menu on elementary OS, Spotlight on macOS, search on Windows, etc.&lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;Never&lt;/li&gt;
+    &lt;li&gt;Infrequently (less than weekly)&lt;/li&gt;
+    &lt;li&gt;Frequently (approximately weekly)&lt;/li&gt;
+    &lt;li&gt;Daily (multiple times per week)&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;5%&lt;/strong&gt; responded &lt;em&gt;never&lt;/em&gt;, &lt;strong&gt;13%&lt;/strong&gt; responded &lt;em&gt;infrequently&lt;/em&gt;, &lt;strong&gt;18%&lt;/strong&gt; responded &lt;em&gt;frequently&lt;/em&gt;, and a clear majority at &lt;strong&gt;64%&lt;/strong&gt; responded &lt;em&gt;daily&lt;/em&gt;. Similar to above, we can reframe this a bit:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Around &lt;strong&gt;95%&lt;/strong&gt; of respondents use search to open their frequently-used apps &lt;em&gt;at least sometimes&lt;/em&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Around &lt;strong&gt;82%&lt;/strong&gt; of respondents frequently or daily use search to open their frequently-used apps, while around &lt;strong&gt;18%&lt;/strong&gt; do so infrequently or not at all.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;
+  &lt;iframe width=&quot;554&quot; height=&quot;470&quot; seamless=&quot;&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://docs.google.com/spreadsheets/d/e/2PACX-1vQnnvwEs6sKvkpHDXQpFK4H1jxzPtdeK8xgq7khTZ_Wdzv5CRCKOC87aDbaMq2ooPwdo-5LwyWVTlYu/pubchart?oid=1592818548&amp;amp;format=interactive&quot;&gt;&lt;/iframe&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;When looking at frequent or daily users of elementary OS specifically, the breakdown was similar: &lt;strong&gt;7%&lt;/strong&gt; never, &lt;strong&gt;16%&lt;/strong&gt; infrequently, &lt;strong&gt;22%&lt;/strong&gt; frequently, and &lt;strong&gt;55%&lt;/strong&gt; daily.&lt;/p&gt;
+
+&lt;p&gt;We also asked, “Anything else to share about how you launch apps and search?”, and we’ve been digging through these free-form responses. Many clarify when and how people prefer using search versus an app launcher.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;dock-or-taskbar&quot;&gt;Dock or taskbar&lt;/h3&gt;
+
+&lt;p&gt;This first question was used as a filter for the following questions; people who responded “yes” received the follow-up dock-related questions, while anyone who responded “no” or “not sure” skipped the rest of the section.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;h4 id=&quot;do-you-use-a-dock-or-taskbar&quot;&gt;Do you use a dock or taskbar?&lt;/h4&gt;
+
+  &lt;p&gt;e.g. the dock on elementary OS or macOS, the taskbar on Windows, a panel, etc.&lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;Yes&lt;/li&gt;
+    &lt;li&gt;No&lt;/li&gt;
+    &lt;li&gt;Not sure&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;86%&lt;/strong&gt; responded &lt;em&gt;yes&lt;/em&gt;, &lt;strong&gt;13%&lt;/strong&gt; responded &lt;em&gt;no&lt;/em&gt;, and &lt;strong&gt;2%&lt;/strong&gt; responded &lt;em&gt;not sure&lt;/em&gt;. As a result, the following questions in this section received 2,431 responses.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;h4 id=&quot;how-often-do-you-use-a-dock-or-taskbar-to-open-your-frequently-used-apps&quot;&gt;How often do you use a dock or taskbar to open your frequently-used apps?&lt;/h4&gt;
+
+  &lt;p&gt;e.g. the dock on elementary OS or macOS, the taskbar on Windows, a panel, etc.&lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;Never&lt;/li&gt;
+    &lt;li&gt;Infrequently (less than weekly)&lt;/li&gt;
+    &lt;li&gt;Frequently (approximately weekly)&lt;/li&gt;
+    &lt;li&gt;Daily (multiple times per week)&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Of those who use a dock or taskbar, &lt;strong&gt;3%&lt;/strong&gt; responded they &lt;em&gt;never&lt;/em&gt; use it to open their frequently-used apps, &lt;strong&gt;5%&lt;/strong&gt; responded &lt;em&gt;infrequently&lt;/em&gt;, &lt;strong&gt;14%&lt;/strong&gt; responded &lt;em&gt;frequently&lt;/em&gt;, while the largest group at &lt;strong&gt;79%&lt;/strong&gt; responded &lt;em&gt;daily&lt;/em&gt;. Grouping the responses:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;97%&lt;/strong&gt; of respondents who use a dock or taskbar use it at least sometimes to open their frequently-used apps&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Around &lt;strong&gt;93%&lt;/strong&gt; do so frequently or daily&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;
+  &lt;iframe width=&quot;554&quot; height=&quot;470&quot; seamless=&quot;&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://docs.google.com/spreadsheets/d/e/2PACX-1vQnnvwEs6sKvkpHDXQpFK4H1jxzPtdeK8xgq7khTZ_Wdzv5CRCKOC87aDbaMq2ooPwdo-5LwyWVTlYu/pubchart?oid=412743824&amp;amp;format=interactive&quot;&gt;&lt;/iframe&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;When looking at frequent or daily users of elementary OS specifically, the breakdown was similar, with a larger skew towards daily users: &lt;strong&gt;1%&lt;/strong&gt; never, &lt;strong&gt;3%&lt;/strong&gt; infrequently, &lt;strong&gt;11%&lt;/strong&gt; frequently, and &lt;strong&gt;85%&lt;/strong&gt; daily.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;h4 id=&quot;do-you-remove-or-replace-the-default-items-on-the-dock-or-taskbar&quot;&gt;Do you remove or replace the default items on the dock or taskbar?&lt;/h4&gt;
+
+  &lt;p&gt;e.g. the dock on elementary OS or macOS, the taskbar on Windows, a panel, etc.&lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;None&lt;/li&gt;
+    &lt;li&gt;A few (less than half)&lt;/li&gt;
+    &lt;li&gt;Most (half or more)&lt;/li&gt;
+    &lt;li&gt;All&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Of those who use a dock or taskbar, &lt;strong&gt;2%&lt;/strong&gt; responded they remove or replace &lt;em&gt;none&lt;/em&gt; of default items on the dock or taskbar. &lt;strong&gt;21%&lt;/strong&gt; responded they remove or replace &lt;em&gt;a few&lt;/em&gt; (less than half), &lt;strong&gt;58%&lt;/strong&gt; responded they remove or replace &lt;em&gt;most&lt;/em&gt; (half or more), and &lt;strong&gt;19%&lt;/strong&gt; responded they remove or replace &lt;em&gt;all&lt;/em&gt; the default items. Grouping the responses differently:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;A whopping &lt;strong&gt;98%&lt;/strong&gt; of respondents remove or replace at least some items on the dock or taskbar&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Around &lt;strong&gt;76%&lt;/strong&gt; of respondents remove or replace half or more of the items&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;
+  &lt;iframe width=&quot;554&quot; height=&quot;470&quot; seamless=&quot;&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://docs.google.com/spreadsheets/d/e/2PACX-1vQnnvwEs6sKvkpHDXQpFK4H1jxzPtdeK8xgq7khTZ_Wdzv5CRCKOC87aDbaMq2ooPwdo-5LwyWVTlYu/pubchart?oid=481633375&amp;amp;format=interactive&quot;&gt;&lt;/iframe&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;When looking at frequent or daily users of elementary OS specifically, the breakdown was very similar: &lt;strong&gt;2%&lt;/strong&gt; none, &lt;strong&gt;23%&lt;/strong&gt; a few, &lt;strong&gt;60%&lt;/strong&gt; half, &lt;strong&gt;15%&lt;/strong&gt; all.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;h4 id=&quot;do-you-add-or-pin-apps-you-use-frequently-to-the-dock-or-taskbar&quot;&gt;Do you add or pin apps you use frequently to the dock or taskbar?&lt;/h4&gt;
+
+  &lt;p&gt;e.g. the dock on elementary OS or macOS, the taskbar on Windows, a panel, etc.&lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;Yes&lt;/li&gt;
+    &lt;li&gt;No&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Of those who use a dock or taskbar, &lt;strong&gt;93%&lt;/strong&gt; responded &lt;em&gt;yes&lt;/em&gt;, they do add or pin apps they use frequently to the dock or taskbar, while &lt;strong&gt;7%&lt;/strong&gt; responded &lt;em&gt;no&lt;/em&gt;, they do not.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;iframe width=&quot;554&quot; height=&quot;470&quot; seamless=&quot;&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://docs.google.com/spreadsheets/d/e/2PACX-1vQnnvwEs6sKvkpHDXQpFK4H1jxzPtdeK8xgq7khTZ_Wdzv5CRCKOC87aDbaMq2ooPwdo-5LwyWVTlYu/pubchart?oid=1168278515&amp;amp;format=interactive&quot;&gt;&lt;/iframe&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;When looking at frequent or daily users of elementary OS specifically, the breakdown was even more in favor of pinning: &lt;strong&gt;96%&lt;/strong&gt; yes, &lt;strong&gt;4%&lt;/strong&gt; no.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;files-and-folders&quot;&gt;Files and folders&lt;/h3&gt;
+
+&lt;p&gt;Next, we dug into files and folders—especially as they relate to the dock. This section was select-all-that-apply and had 2,843 responses.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;h4 id=&quot;how-do-you-typically-open-files-and-folders&quot;&gt;How do you typically open files and folders?&lt;/h4&gt;
+
+  &lt;p&gt;Select all that apply&lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;
+      &lt;p&gt;OS-wide search&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;File manager app (e.g. Files on elementary OS, Finder on macOS, Explorer on Windows, etc.)&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Taskbar or dock (e.g. pinned files or shortcuts)&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;From inside apps (e.g. opening a document from inside a word processor app)&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Files and folders are kept on the desktop’&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Other…: _______________&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;30%&lt;/strong&gt; responded they typically open files and folders using &lt;em&gt;OS-wide search&lt;/em&gt;, &lt;strong&gt;96%&lt;/strong&gt; responded a &lt;em&gt;file manager app&lt;/em&gt;, &lt;strong&gt;15%&lt;/strong&gt; responded &lt;em&gt;taskbar or dock&lt;/em&gt;, &lt;strong&gt;43%&lt;/strong&gt; responded &lt;em&gt;from inside apps&lt;/em&gt;, and &lt;strong&gt;13%&lt;/strong&gt; responded that their files and folders are kept &lt;em&gt;on the desktop&lt;/em&gt;. Of the &lt;em&gt;other&lt;/em&gt; responses, many were clarifications about the choices, but we have been able to collate the most popular being &lt;strong&gt;7%&lt;/strong&gt; of responses mentioning some form of terminal or CLI. &lt;strong&gt;4%&lt;/strong&gt; answered &lt;em&gt;other&lt;/em&gt; without expanding on the answer.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;iframe width=&quot;577&quot; height=&quot;406&quot; seamless=&quot;&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://docs.google.com/spreadsheets/d/e/2PACX-1vQnnvwEs6sKvkpHDXQpFK4H1jxzPtdeK8xgq7khTZ_Wdzv5CRCKOC87aDbaMq2ooPwdo-5LwyWVTlYu/pubchart?oid=2121393759&amp;amp;format=interactive&quot;&gt;&lt;/iframe&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The results for frequent or daily users of elementary OS are similar: &lt;strong&gt;27%&lt;/strong&gt; responded &lt;em&gt;OS-wide search&lt;/em&gt;, &lt;strong&gt;96%&lt;/strong&gt; responded &lt;em&gt;file manager&lt;/em&gt;, &lt;strong&gt;17%&lt;/strong&gt; responded &lt;em&gt;taskbar or dock&lt;/em&gt;, &lt;strong&gt;45%&lt;/strong&gt; responded &lt;em&gt;from inside apps&lt;/em&gt;, and &lt;strong&gt;13%&lt;/strong&gt; responded &lt;em&gt;on the desktop&lt;/em&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;multitasking&quot;&gt;Multitasking&lt;/h3&gt;
+
+&lt;p&gt;This section gets into how respondents multi-task, e.g. switch between apps and windows. Our interest here is specifically to understand how the dock fits into multitasking and window management, but we didn’t want to lead responses in one direction or another. This section was select-all-that-apply and had 2,843 responses.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;h4 id=&quot;how-do-you-usually-tell-which-apps-are-currently-open-in-the-background&quot;&gt;How do you usually tell which apps are currently open in the background?&lt;/h4&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;
+      &lt;p&gt;Dock or taskbar&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Alt+tab or window switching&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Multitasking view (e.g. Multitasking View on elementary OS, Mission Control on macOS, Task View on Windows, Activities view on GNOME, etc.)&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Other…: _______________&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;69%&lt;/strong&gt; responded &lt;em&gt;dock or taskbar&lt;/em&gt;, &lt;strong&gt;41%&lt;/strong&gt; responded &lt;em&gt;alt+tab or window switching&lt;/em&gt;, &lt;strong&gt;59%&lt;/strong&gt; responded &lt;em&gt;multitasking view&lt;/em&gt;. &lt;strong&gt;2%&lt;/strong&gt; answered &lt;em&gt;other&lt;/em&gt; without expanding on the answer. Less than &lt;strong&gt;1%&lt;/strong&gt; responded with some mention of a task manager or system monitor, while around &lt;strong&gt;2%&lt;/strong&gt; responded with a mention of system tray icons or app indicators.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;iframe width=&quot;577&quot; height=&quot;406&quot; seamless=&quot;&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://docs.google.com/spreadsheets/d/e/2PACX-1vQnnvwEs6sKvkpHDXQpFK4H1jxzPtdeK8xgq7khTZ_Wdzv5CRCKOC87aDbaMq2ooPwdo-5LwyWVTlYu/pubchart?oid=48982825&amp;amp;format=interactive&quot;&gt;&lt;/iframe&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The results for frequent or daily users of elementary OS are similar, with a notably higher skew for the dock: &lt;strong&gt;75%&lt;/strong&gt; responded &lt;em&gt;dock or taskbar&lt;/em&gt;, &lt;strong&gt;43%&lt;/strong&gt; responded &lt;em&gt;alt+tab&lt;/em&gt;, and &lt;strong&gt;60%&lt;/strong&gt; responded &lt;em&gt;multitasking view&lt;/em&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;h4 id=&quot;how-do-you-usually-switch-between-open-apps&quot;&gt;How do you usually switch between open apps?&lt;/h4&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;
+      &lt;p&gt;Dock or taskbar&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Alt+tab or window switching&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Multitasking view (e.g. Multitasking View on elementary OS, Mission Control on macOS, Task View on Windows, Activities view on GNOME, etc.)&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Other…: _______________&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;53%&lt;/strong&gt; responded &lt;em&gt;dock or taskbar&lt;/em&gt;, &lt;strong&gt;73%&lt;/strong&gt; responded &lt;em&gt;alt+tab or window switching&lt;/em&gt;, &lt;strong&gt;52%&lt;/strong&gt; responded &lt;em&gt;multitasking view&lt;/em&gt;.&lt;/p&gt;
+
+&lt;!-- TODO: collate &quot;other&quot; responses --&gt;
+
+&lt;figure&gt;
+  &lt;iframe width=&quot;452&quot; height=&quot;371&quot; seamless=&quot;&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://docs.google.com/spreadsheets/d/e/2PACX-1vQnnvwEs6sKvkpHDXQpFK4H1jxzPtdeK8xgq7khTZ_Wdzv5CRCKOC87aDbaMq2ooPwdo-5LwyWVTlYu/pubchart?oid=905929489&amp;amp;format=interactive&quot;&gt;&lt;/iframe&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The results for frequent or daily users of elementary OS are similar, with a higher skew for the dock: &lt;strong&gt;58%&lt;/strong&gt; responded &lt;em&gt;dock or taskbar&lt;/em&gt;, &lt;strong&gt;73%&lt;/strong&gt; responded &lt;em&gt;alt+tab&lt;/em&gt;, and &lt;strong&gt;51%&lt;/strong&gt; responded &lt;em&gt;multitasking view&lt;/em&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;h4 id=&quot;how-do-you-usually-switch-between-open-windows-of-the-same-app&quot;&gt;How do you usually switch between open windows of the same app?&lt;/h4&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;
+      &lt;p&gt;Dock or taskbar&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Alt+tab or window switching&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Multitasking view (e.g. Multitasking View on elementary OS, Mission Control on macOS, Task View on Windows, Activities view on GNOME, etc.)&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Other…: _______________&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;43%&lt;/strong&gt; responded &lt;em&gt;dock or taskbar&lt;/em&gt;, &lt;strong&gt;62%&lt;/strong&gt; responded &lt;em&gt;alt+tab or window switching&lt;/em&gt;, &lt;strong&gt;45%&lt;/strong&gt; responded &lt;em&gt;multitasking view&lt;/em&gt;.&lt;/p&gt;
+
+&lt;!-- TODO: collate &quot;other&quot; responses --&gt;
+
+&lt;figure&gt;
+  &lt;iframe width=&quot;452&quot; height=&quot;371&quot; seamless=&quot;&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://docs.google.com/spreadsheets/d/e/2PACX-1vQnnvwEs6sKvkpHDXQpFK4H1jxzPtdeK8xgq7khTZ_Wdzv5CRCKOC87aDbaMq2ooPwdo-5LwyWVTlYu/pubchart?oid=1983560674&amp;amp;format=interactive&quot;&gt;&lt;/iframe&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The results for frequent or daily users of elementary OS are identical: &lt;strong&gt;43%&lt;/strong&gt; responded &lt;em&gt;dock or taskbar&lt;/em&gt;, &lt;strong&gt;62%&lt;/strong&gt; responded &lt;em&gt;alt+tab&lt;/em&gt;, &lt;strong&gt;45%&lt;/strong&gt; responded &lt;em&gt;multitasking view&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;We also asked, “Anything else to share about how you use multitasking?”, and we’ve been digging through these free-form responses. Some of the highlights for me have been mentions of multiple displays, tiling, and multi-touch gestures.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;closing-apps&quot;&gt;Closing apps&lt;/h3&gt;
+
+&lt;p&gt;We wanted to be sure to cover how the dock is used for closing apps, but didn’t want to ask leading questions; as such, we asked how people typically close apps and included the dock as one of many options. This section was select-all-that-apply and had 2,843 responses.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;h4 id=&quot;how-do-you-usually-close-apps-that-are-open&quot;&gt;How do you usually close apps that are open?&lt;/h4&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;
+      &lt;p&gt;Closing with a button in the app/on its titlebar&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Using a context menu on the dock/taskbar&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Keyboard shortcuts (e.g. Ctrl+Q or Alt+F4)&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;From a multitasking view (e.g. Multitasking View on elementary OS, Mission Control on macOS, Task View on Windows, Activities view on GNOME, etc.)&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Other…: _______________&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;85%&lt;/strong&gt; responded &lt;em&gt;a button in the app/on its titlebar&lt;/em&gt;, &lt;strong&gt;23%&lt;/strong&gt; responded &lt;em&gt;context menu on the dock/taskbar&lt;/em&gt;, &lt;strong&gt;62%&lt;/strong&gt; responded &lt;em&gt;keyboard shortcuts&lt;/em&gt;, &lt;strong&gt;29%&lt;/strong&gt; responded &lt;em&gt;multitasking view&lt;/em&gt;. &lt;strong&gt;1%&lt;/strong&gt; responded &lt;em&gt;other&lt;/em&gt; without expanding on the answer.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;iframe width=&quot;452&quot; height=&quot;371&quot; seamless=&quot;&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://docs.google.com/spreadsheets/d/e/2PACX-1vQnnvwEs6sKvkpHDXQpFK4H1jxzPtdeK8xgq7khTZ_Wdzv5CRCKOC87aDbaMq2ooPwdo-5LwyWVTlYu/pubchart?oid=1954544244&amp;amp;format=interactive&quot;&gt;&lt;/iframe&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The results for frequent or daily users of elementary OS are similar: &lt;strong&gt;87%&lt;/strong&gt; responded &lt;em&gt;a button in the app/on its titlebar&lt;/em&gt;, &lt;strong&gt;24%&lt;/strong&gt; responded &lt;em&gt;context menu on the dock/taskbar&lt;/em&gt;, &lt;strong&gt;58%&lt;/strong&gt; responded &lt;em&gt;keyboard shortcuts&lt;/em&gt;, &lt;strong&gt;26%&lt;/strong&gt; responded &lt;em&gt;multitasking view&lt;/em&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;app-actions&quot;&gt;App actions&lt;/h3&gt;
+
+&lt;p&gt;As above, we wanted to be sure to cover how the dock specifically is used for app actions, but didn’t want to ask leading questions. This first question was used as a filter for the following questions; people who responded “yes” received the follow-up actions-related questions, while anyone who responded “no” or “not sure” skipped the rest of the section.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;h4 id=&quot;do-you-use-app-actions-or-shortcuts&quot;&gt;Do you use app actions or shortcuts?&lt;/h4&gt;
+
+  &lt;p&gt;To jump to a specific section or function of an app *without opening the app first.* For example, “New Incognito Window” for a web browser or “Compose Message” for an email client.&lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;Yes&lt;/li&gt;
+    &lt;li&gt;No&lt;/li&gt;
+    &lt;li&gt;Not sure&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;54%&lt;/strong&gt; responded &lt;em&gt;yes&lt;/em&gt;, &lt;strong&gt;34%&lt;/strong&gt; responded &lt;em&gt;no&lt;/em&gt;, and &lt;strong&gt;13%&lt;/strong&gt; responded &lt;em&gt;not sure&lt;/em&gt;. As a result, the following questions in this section received 1,595 responses.&lt;/p&gt;
+
+&lt;!-- TODO: elementary OS --&gt;
+
+&lt;aside&gt;
+  &lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: when the study first launched, the logic for skipping the next questions was not working correctly; as such, we received a lot of “N/A” type responses for the next question. The issue was corrected after 136 responses and I don’t believe it largely affected the results, but wanted to share for transparency.&lt;/p&gt;
+&lt;/aside&gt;
+
+&lt;blockquote&gt;
+  &lt;h4 id=&quot;how-do-you-usually-use-app-actions&quot;&gt;How do you usually use app actions?&lt;/h4&gt;
+
+  &lt;p&gt;To jump to a specific section or function of an app *without opening the app first.* For example, “New Incognito Window” for a web browser or “Compose Message” for an email client.&lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;
+      &lt;p&gt;Search (e.g. searching for actions by name in an app launcher)&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Context menu in app launcher (e.g. right-clicking or long-pressing an app icon in the Applications Menu, Start menu, etc.)&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Context menu on dock (e.g. right-clicking or long-pressing an app icon on the dock or taskbar)&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Other…: _______________&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;41%&lt;/strong&gt; responded &lt;em&gt;search&lt;/em&gt;, &lt;strong&gt;53%&lt;/strong&gt; responded &lt;em&gt;context menu in app launcher&lt;/em&gt;, &lt;strong&gt;66%&lt;/strong&gt; responded &lt;em&gt;context menu on dock&lt;/em&gt;.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;iframe width=&quot;514&quot; height=&quot;371&quot; seamless=&quot;&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://docs.google.com/spreadsheets/d/e/2PACX-1vQnnvwEs6sKvkpHDXQpFK4H1jxzPtdeK8xgq7khTZ_Wdzv5CRCKOC87aDbaMq2ooPwdo-5LwyWVTlYu/pubchart?oid=269257884&amp;amp;format=interactive&quot;&gt;&lt;/iframe&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Frequent or daily users of elementary OS answered similarly, but with an interesting skew towards the dock over other methods: &lt;strong&gt;36%&lt;/strong&gt; answered &lt;em&gt;search&lt;/em&gt;, &lt;strong&gt;46%&lt;/strong&gt; answered &lt;em&gt;app launcher&lt;/em&gt;, and &lt;strong&gt;68%&lt;/strong&gt; answered &lt;em&gt;dock&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;We also asked, “Anything else to share about how you use app actions?”, and we’ve been digging through these free-form responses. Some highlights were about them being more used on mobile OSes, that they wish more apps supported them, that they forget this is a feature, and how they work on other OSes.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;glanceable-information&quot;&gt;Glanceable information&lt;/h3&gt;
+
+&lt;p&gt;These questions were again to look at how the dock is used, but were written to be non-leading and to include the dock as one of multiple options. Unlike previous questions, these were also select any that apply &lt;em&gt;without&lt;/em&gt; a free-form “other” option.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;h4 id=&quot;where-do-you-look-to-check-the-status-of-long-running-tasks&quot;&gt;Where do you look to check the status of long running tasks?&lt;/h4&gt;
+
+  &lt;p&gt;e.g. the progress of a download&lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;Notifications&lt;/li&gt;
+    &lt;li&gt;Progress bar on the app’s dock/taskbar icon&lt;/li&gt;
+    &lt;li&gt;In the app window itself&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;45%&lt;/strong&gt; responded &lt;em&gt;notifications&lt;/em&gt;, &lt;strong&gt;60%&lt;/strong&gt; responded &lt;em&gt;progress bar&lt;/em&gt;, and &lt;strong&gt;74%&lt;/strong&gt; responded &lt;em&gt;in the app window&lt;/em&gt;. Less than &lt;strong&gt;1%&lt;/strong&gt; skipped the question.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;iframe width=&quot;514&quot; height=&quot;371&quot; seamless=&quot;&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://docs.google.com/spreadsheets/d/e/2PACX-1vQnnvwEs6sKvkpHDXQpFK4H1jxzPtdeK8xgq7khTZ_Wdzv5CRCKOC87aDbaMq2ooPwdo-5LwyWVTlYu/pubchart?oid=1476048741&amp;amp;format=interactive&quot;&gt;&lt;/iframe&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Responses from frequent or daily users of elementary OS were similar, but with notably fewer relying on notifications and a slightly higher skew towards the dock progress bar (possibly because elementary OS has this feature, whereas some other platforms do not): &lt;strong&gt;34%&lt;/strong&gt; responded &lt;em&gt;notifications&lt;/em&gt;, &lt;strong&gt;63%&lt;/strong&gt; responded &lt;em&gt;progress bar in dock&lt;/em&gt;, and &lt;strong&gt;72%&lt;/strong&gt; responded &lt;em&gt;in app window&lt;/em&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;h4 id=&quot;where-do-you-look-to-see-items-that-need-action-in-an-app&quot;&gt;Where do you look to see items that need action in an app?&lt;/h4&gt;
+
+  &lt;p&gt;e.g. outstanding tasks, or new messages&lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;Notifications&lt;/li&gt;
+    &lt;li&gt;Badge on the app’s dock/taskbar icon&lt;/li&gt;
+    &lt;li&gt;In the app window itself&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;67%&lt;/strong&gt; responded &lt;em&gt;notifications&lt;/em&gt;, &lt;strong&gt;59%&lt;/strong&gt; responded &lt;em&gt;badge&lt;/em&gt;, and &lt;strong&gt;60%&lt;/strong&gt; responded &lt;em&gt;in the app window&lt;/em&gt;. Less than &lt;strong&gt;1%&lt;/strong&gt; skipped the question.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;iframe width=&quot;514&quot; height=&quot;371&quot; seamless=&quot;&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://docs.google.com/spreadsheets/d/e/2PACX-1vQnnvwEs6sKvkpHDXQpFK4H1jxzPtdeK8xgq7khTZ_Wdzv5CRCKOC87aDbaMq2ooPwdo-5LwyWVTlYu/pubchart?oid=691208399&amp;amp;format=interactive&quot;&gt;&lt;/iframe&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The results for frequent or daily users of elementary OS are similar, but with a much higher skew towards dock badges—possibly because elementary OS has this feature by default but other platforms do not: &lt;strong&gt;66%&lt;/strong&gt; responded &lt;em&gt;notifications&lt;/em&gt;, &lt;strong&gt;67%&lt;/strong&gt; responded &lt;em&gt;badge&lt;/em&gt;, and &lt;strong&gt;57%&lt;/strong&gt; responded &lt;em&gt;in the app&lt;/em&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;anything-else&quot;&gt;Anything else?&lt;/h3&gt;
+
+&lt;p&gt;Lastly, we asked “Anything else to share about the topics of this study?”, and we’ll be reading through those responses to better understand some of the more qualitative aspects of the study compared to the raw data.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;whats-next&quot;&gt;What’s Next&lt;/h2&gt;
+
+&lt;p&gt;We’ve started analyzing and using this data to plan for our new Wayland-compatible dock; more on that effort soon! In the meantime, follow along on our &lt;a href=&quot;https://github.com/orgs/elementary/projects/99&quot;&gt;public project board&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Wording and self-reporting from the user interface study might affect results, and I don’t pretend that this sample speaks for the entirety of FreeDesktop users. However, it’s a useful dataset of 2,843 responses that can help identify larger patterns. Percentages from the study are rounded to the nearest percent, so you may see things adding up to 101% or similar if there are half-percents involved.&lt;/em&gt;&lt;/p&gt;
+
+&lt;style&gt;
+blockquote * {
+  font-style: initial;
+}
+
+figure {
+  overflow-x: auto;
+}
+
+figure iframe {
+  max-width: initial;
+}
+&lt;/style&gt;
+
+</description>
+          <pubDate>Thu, 27 Jan 2022 00:00:00 -0600</pubDate>
+          <link>https://blog.elementary.io/2021-ui-study-results-dock-multitasking/</link>
+          <guid isPermaLink="true">https://blog.elementary.io/2021-ui-study-results-dock-multitasking/</guid>
+          
+              
+              
+          <enclosure url="https://blog.elementary.io" />
+          
+          
+          <category>ui-study</category>
+          
+          <category>ux</category>
+          
+          <category>evergreen</category>
           
           
         </item>
