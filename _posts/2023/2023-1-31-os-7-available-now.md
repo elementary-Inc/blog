@@ -2,7 +2,7 @@
 title: elementary OS 7 Available Now
 description:
 author: danrabbit
-image: /images/elementary-os-7-available-now/card.png
+image: /images/{{ page.slug }}/card.png
 tags:
   - horus
   - release
@@ -31,7 +31,7 @@ To get elementary OS 7 now, head to [elementary.io] for the download—or read o
 As always, AppCenter is the centerpiece of elementary OS. The primary purpose of any operating system is to support the apps that you use to work, play, and express yourself creatively. In the latest version of AppCenter we've worked on making app descriptions more engaging with more information, making it easier to update to the latest versions of apps, and improving support for sideloading and alt stores. We've also worked on improving AppCenter's responsiveness—making sure you can comfortable use it when tiling and on small displays as well as better using space on large displays.
 
 <figure markdown="1">
-![AppCenter at large and small sizes](/images/elementary-os-7-available-now/appcenter-responsive.png)
+![AppCenter at large and small sizes](/images/{{ page.slug }}/appcenter-responsive.png)
 <figcaption markdown="1">
 AppCenter can be used comfortably while tiled or on small displays
 </figcaption>
@@ -46,7 +46,7 @@ Recently updated apps are shown at the top of category views
 The biggest change you'll notice when viewing app info pages is the improved emphasis on screenshots. Screenshot carousels now fill the width of the window, showing more screenshots at once. They can now also be accompanied by their own captions, which can help describe individual features as well as making pages more accessible to folks with vision-related disabilities. And finally each screenshot now sits on a card that uses the app's accent color, showing off more of the developer's personality.
 
 <figure markdown="1">
-![AppCenter's app info view](/images/elementary-os-7-available-now/appcenter-appinfo.png)
+![AppCenter's app info view](/images/{{ page.slug }}/appcenter-appinfo.png)
 <figcaption markdown="1">
 App Info views show more screenshots with captions and brand colors
 </figcaption>
@@ -59,7 +59,7 @@ Knowing how actively developed an app is and how engaged the developer is with t
 Staying up to date with the latest versions of apps is something we hear often is very important to folks using elementary OS. Flatpak makes it simple for developers to publish updates quickly and now you can get those updates automatically. If you'd still like to check for updates on your own time or want to force a manual refresh, there's now a handy menu option that you can use.
 
 <figure markdown="1">
-![AppCenter's  updates view](/images/elementary-os-7-available-now/appcenter-updates.png)
+![AppCenter's  updates view](/images/{{ page.slug }}/appcenter-updates.png)
 <figcaption markdown="1">
 App Info views show more screenshots with captions and brand colors
 </figcaption>
@@ -72,7 +72,7 @@ Sideloading apps and using Alt Stores like Flathub is a major feature of element
 There's no longer a warning dialog every time you install an app that's supplied by an Alt Store, instead we show an unobtrusive icon alongside the app's other content warnings letting you know that elementary hasn't reviewed this particular app.
 
 <figure markdown="1">
-![AppCenter's app info view](/images/elementary-os-7-available-now/appcenter-sideload.png)
+![AppCenter's app info view](/images/{{ page.slug }}/appcenter-sideload.png)
 <figcaption markdown="1">
 Even apps sideloaded from alt stores like Flathub can show brand colors
 </figcaption>
@@ -105,10 +105,10 @@ During Initial setup, we now detect if you use the right mouse button for clicki
 Onboarding includes a new view for configuring automatic updates, as well as the addition of a "Sunset to Sunrise" option for the dark style.
 
 <figure class="half" markdown="1">
-![Choose Your Look view of Onboarding]/images/elementary-os-7-available-now/onboarding-styles.png){: width="497" height="406.5"}
-![Night Light view of Onboarding]/images/elementary-os-7-available-now/onboarding-nightlight.png){: width="497" height="406.5"}
-![Housekeeping view of Onboarding]/images/elementary-os-7-available-now/onboarding-housekeeping.png){: width="497" height="406.5"}
-![Updates view of Onboarding]/images/elementary-os-7-available-now/onboarding-updates.png){: width="497" height="406.5"}
+![Choose Your Look view of Onboarding]/images/{{ page.slug }}/onboarding-styles.png){: width="497" height="406.5"}
+![Night Light view of Onboarding]/images/{{ page.slug }}/onboarding-nightlight.png){: width="497" height="406.5"}
+![Housekeeping view of Onboarding]/images/{{ page.slug }}/onboarding-housekeeping.png){: width="497" height="406.5"}
+![Updates view of Onboarding]/images/{{ page.slug }}/onboarding-updates.png){: width="497" height="406.5"}
 <figcaption markdown="1">
 New features and settings are offered during onboarding like scheduled dark mode and automatic updates
 </figcaption>
