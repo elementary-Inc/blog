@@ -6,7 +6,11 @@ image: /images/elementary-os-7-available-now/card.png
 tags:
   - horus
   - release
+
+soon: true # remove this line when the site is deployed
 ---
+
+
 
 It's been just over a year since we released elementary OS 6.1 Jólnir which brought new features and fixes based on your feedback, introduced new office productivity features, and expanded compatibility with a wide range of hardware. So far, OS 6.1 has been downloaded from our website [over 400,000 times](https://plausible.io/elementary.io?period=custom&goal=Download&from=2021-12-20&to=2023-01-31&props=%7B%22Version%22:%226.1%22%7D)—150,000 times more than 6.0—and as always, that's not including downloads from third parties or direct downloads via torrent that bypass our download page!
 
@@ -102,7 +106,15 @@ During Initial setup, we now detect if you use the right mouse button for clicki
 
 Onboarding includes a new view for configuring automatic updates, as well as the addition of a "Sunset to Sunrise" option for the dark style.
 
-[Screenshot of Automatic Updates view and Style view]
+<figure class="half" markdown="1">
+![Choose Your Look view of Onboarding]/images/elementary-os-7-available-now/onboarding-styles.png){: width="497" height="406.5"}
+![Night Light view of Onboarding]/images/elementary-os-7-available-now/onboarding-nightlight.png){: width="497" height="406.5"}
+![Housekeeping view of Onboarding]/images/elementary-os-7-available-now/onboarding-housekeeping.png){: width="497" height="406.5"}
+![Updates view of Onboarding]/images/elementary-os-7-available-now/onboarding-updates.png){: width="497" height="406.5"}
+<figcaption markdown="1">
+New features and settings are offered during onboarding like scheduled dark mode and automatic updates
+</figcaption>
+</figure>
 
 ### Office Productivity
 
