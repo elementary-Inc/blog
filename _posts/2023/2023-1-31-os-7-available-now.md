@@ -163,7 +163,7 @@ Files now has a double-click option
 Printer settings received special attention with several redesigns as well as new features like being able to clear the print queue per printer and a much clearer ink levels view. Online accounts includes offline support for CalDAV accounts and the ability to choose a refresh rate for IMAP accounts.
 
 <figure markdown="1">
-![Printer Settings]/images/{{ page.slug }}/settings-printer.png){: width="1024" height="720"}
+![Printer Settings](/images/{{ page.slug }}/settings-printer.png){: width="1024" height="720"}
 <figcaption markdown="1">
 Redesigned printer settings with more control over the print queue
 </figcaption>
@@ -186,7 +186,7 @@ This cycle we've completely rewritten Music from scratch with a much more focuse
 
 The new Music 7 already has better support for reading track metadata such as album art, works as you'd expect with system-wide media controls, and can be tiled and resized to fit small and large displays. We're excited to shape future versions of this app with your feedback, so make sure you let us know what kind of features you'd like to see!
 
-<figure class="constrained card" markdown="1">
+<figure class="card" markdown="1">
 ![The sound indicator](/images/{{ page.slug }}/panel-sound.png){: width="430" height="323"}
 <figcaption markdown="1">
 Videos can now be controlled from the sound indicator
@@ -200,8 +200,8 @@ Likewise, Videos now appears in the sound indicator alongside other media player
 In elementary OS, settings are meant to make the operating system more accessible to a wider range of people with various needs and ways of working.
 
 <figure class="half" markdown="1">
-![Power Settings]/images/{{ page.slug }}/settings-power.png){: width="1024" height="720"}
-![Shortcut Settings]/images/{{ page.slug }}/settings-shortcuts.png){: width="1024" height="720"}
+![Power Settings](/images/{{ page.slug }}/settings-power.png){: width="1024" height="720"}
+![Shortcut Settings](/images/{{ page.slug }}/settings-shortcuts.png){: width="1024" height="720"}
 <figcaption markdown="1">
 **Left:** New power profile management | **Right:** Redesigned shortcut settings
 </figcaption>
@@ -212,7 +212,7 @@ This release provides power profiles management, including a performance mode fo
 We've added powerful features like the ability to set custom Terminal commands for each hotcorner and a redesign keyboard shortcuts settings makes it easier to disabled shortcuts or revert them to defaults, as well as much better custom shortcut management. You can now also launch the Shortcuts app from the applications menu and we've added the option to open and close the Multitasking view using the Super key.
 
 <figure markdown="1">
-![Multitasking Settings]/images/{{ page.slug }}/settings-multitasking.png){: width="1024" height="720"}
+![Multitasking Settings](/images/{{ page.slug }}/settings-multitasking.png){: width="1024" height="720"}
 <figcaption markdown="1">
 Multitasking settings with per-corner Terminal commands
 </figcaption>
