@@ -89,6 +89,13 @@ Apps from AppCenter could always use their own brand colors to make their app in
 
 ### Web Apps
 
+<figure markdown="1">
+![Sideload](/images/{{ page.slug }}/web-apps.png){: width="1122" height="866"}
+<figcaption markdown="1">
+iCloud Numbers running as a saved web app
+</figcaption>
+</figure>
+
 In the theme of accessing the apps you need, we're shipping the very latest GNOME Web 43 which includes support for creating web apps which show in the applications menu. They can have their own settings including privacy controls and can even run in the background. Installed web apps can be managed from inside GNOME Web.
 
 ## Empowering you with new features and settings
