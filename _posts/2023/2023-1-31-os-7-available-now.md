@@ -31,7 +31,7 @@ To get elementary OS 7 now, head to [elementary.io] for the download—or read o
 As always, AppCenter is the centerpiece of elementary OS. The primary purpose of any operating system is to support the apps that you use to work, play, and express yourself creatively. In the latest version of AppCenter we've worked on making app descriptions more engaging with more information, making it easier to update to the latest versions of apps, and improving support for sideloading and alt stores. We've also worked on improving AppCenter's responsiveness—making sure you can comfortable use it when tiling and on small displays as well as better using space on large displays.
 
 <figure markdown="1">
-![AppCenter at large and small sizes](/images/{{ page.slug }}/appcenter-responsive.png)
+![AppCenter at large and small sizes](/images/{{ page.slug }}/appcenter-responsive.png){: width="1628" height="913"}
 <figcaption markdown="1">
 AppCenter can be used comfortably while tiled or on small displays
 </figcaption>
@@ -46,7 +46,7 @@ Recently updated apps are shown at the top of category views
 The biggest change you'll notice when viewing app info pages is the improved emphasis on screenshots. Screenshot carousels now fill the width of the window, showing more screenshots at once. They can now also be accompanied by their own captions, which can help describe individual features as well as making pages more accessible to folks with vision-related disabilities. And finally each screenshot now sits on a card that uses the app's accent color, showing off more of the developer's personality.
 
 <figure markdown="1">
-![AppCenter's app info view](/images/{{ page.slug }}/appcenter-appinfo.png)
+![AppCenter's app info view](/images/{{ page.slug }}/appcenter-appinfo.png){: width="1708" height="1086"}
 <figcaption markdown="1">
 App Info views show more screenshots with captions and brand colors
 </figcaption>
@@ -67,18 +67,25 @@ App Info views show more screenshots with captions and brand colors
 
 ### Sideloading & Alt Stores
 
-Sideloading apps and using Alt Stores like Flathub is a major feature of elementary OS and a competitive edge over closed platforms that only let you install apps from a locked down store. In this release we've made several improvements to smooth out the experience of using Alt Stores based on your feedback and the latest cross-platform standards.
-
-There's no longer a warning dialog every time you install an app that's supplied by an Alt Store, instead we show an unobtrusive icon alongside the app's other content warnings letting you know that elementary hasn't reviewed this particular app.
+Sideloading apps and using alt stores like Flathub is a major feature of elementary OS and a competitive edge over closed platforms that only let you install apps from a locked down store. In this release we've made several improvements to smooth out the experience of using alt stores based on your feedback and the latest cross-platform standards.
 
 <figure markdown="1">
-![AppCenter's app info view](/images/{{ page.slug }}/appcenter-sideload.png)
+![Sideload](/images/{{ page.slug }}/sideload.png){: width="562" height="350"}
+<figcaption markdown="1">
+The Sideload app makes installing Flatpak apps and configuring alt stores simple
+</figcaption>
+</figure>
+
+There's no longer a warning dialog every time you install an app that's supplied by an alt store, instead we show an unobtrusive icon alongside the app's other content warnings letting you know that elementary hasn't reviewed this particular app.
+
+<figure markdown="1">
+![AppCenter's app info view](/images/{{ page.slug }}/appcenter-sideload.png){: width="1164" height="912"}
 <figcaption markdown="1">
 Even apps sideloaded from alt stores like Flathub can show brand colors
 </figcaption>
 </figure>
 
-Apps from AppCenter could always use their own brand colors to make their app info pages feel unique and now apps sideloaded from Alt Stores can show brand colors too, thanks to the latest additions in the AppStream standard.
+Apps from AppCenter could always use their own brand colors to make their app info pages feel unique and now apps sideloaded from alt stores can show brand colors too, thanks to the latest additions in the AppStream standard.
 
 ### Web Apps
 
@@ -128,11 +135,23 @@ New features and settings are offered during onboarding like scheduled dark mode
 
 Mail now sports a more-modern flatter design as a first-step towards work on making it more responsive. The unified inbox now supports Microsoft 365 accounts. And multiple potential crashes and freezes have been resolved.
 
-[Mail Screenshot]
+<figure markdown="1">
+![Mail](/images/{{ page.slug }}/mail.png){: width="1161" height="750"}
+<figcaption markdown="1">
+Mail now has a flatter design
+</figcaption>
+</figure>
 
 Tasks now has offline support for newly created task lists and it makes sure to synchronize your remote lists when the network becomes available again. Plus it now sends notifications when a task is due.
 
 A long asked-for feature, you can now choose to select folders with a single click instead of activating them in Files, Windows style. Quite a bit of work has gone into making sure multiple click modes are supported and working as expected. We've also spent extra attention dialing in the behavior of keyboard shortcuts, especially regarding copy/paste and selection shortcuts across different view modes and with different types of file selections.
+
+<figure class="full-bleed" markdown="1">
+![Files](/images/{{ page.slug }}/files.png)
+<figcaption markdown="1">
+Files now has a double-click option
+</figcaption>
+</figure>
 
 Printer settings received special attention with several redesigns as well as new features like being able to clear the print queue per printer and a much clearer ink levels view. Online accounts includes offline support for CalDAV accounts and the ability to choose a refresh rate for IMAP accounts.
 
