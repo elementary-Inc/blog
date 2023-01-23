@@ -169,6 +169,7 @@ In elementary OS, settings are meant to make the operating system more accessibl
 <figure markdown="1">
 ![Multitasking Settings]/images/{{ page.slug }}/settings-multitasking.png){: width="1024" height="720"}
 ![Printer Settings]/images/{{ page.slug }}/settings-printer.png){: width="1024" height="720"}
+![Power Settings]/images/{{ page.slug }}/settings-power.png){: width="1024" height="720"}
 ![Shortcut Settings]/images/{{ page.slug }}/settings-shortcuts.png){: width="1024" height="720"}
 <figcaption markdown="1">
 OS 7 comes with new, expanded, and redesigned System Settings
