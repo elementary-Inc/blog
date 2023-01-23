@@ -7,7 +7,11 @@ tags:
   - horus
   - release
 
+<<<<<<< HEAD
 hidden: 2023-01-31 17:00:00 UTC # 9 AM PST
+=======
+hidden: 2023-01-31 17:00:00 UTC # 9 AM MST
+>>>>>>> ba4e19594e (Use the right tag)
 ---
 
 
