@@ -3,10 +3,10 @@
   <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Juno Updates for February, 2019 &sdot; elementary Blog</title>
-  <meta property="og:title" content="Juno Updates for February, 2019" />
-  <meta itemprop="name" content="Juno Updates for February, 2019" />
-  <meta name="twitter:title" content="Juno Updates for February, 2019" />
+  <title>elementary OS 7 Available Now &sdot; elementary Blog</title>
+  <meta property="og:title" content="elementary OS 7 Available Now" />
+  <meta itemprop="name" content="elementary OS 7 Available Now" />
+  <meta name="twitter:title" content="elementary OS 7 Available Now" />
 
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,6 +16,8 @@
   <link rel="shortcut icon" href="https://elementary.io/favicon.ico">
   <link rel="apple-touch-icon" href="https://elementary.io/images/launcher-icons/apple-touch-icon.png">
 
+  
+    <meta name="robots" content="noindex,nofollow" />
   
 
   <link rel="alternate" type="application/rss+xml" title="elementary Blog" href="https://blog.elementary.io/feed.xml" />
@@ -28,15 +30,15 @@
     
     
     <meta name="twitter:card" content="summary_large_image" />
-    <meta property="twitter:image" content="https://cdn-images-1.medium.com/max/1600/1*h2xQZXwatwpPoUcaNbLcQg@2x.png" />
+    <meta property="twitter:image" content="https://blog.elementary.io/images/elementary-os-7-available-now/card.png" />
   
   <meta name="twitter:site" content="@elementary" />
   <meta name="twitter:creator" content="@elementary" />
 
-  <meta name="description" content="Bug fixes and performance improvements" />
-  <meta property="og:description" content="Bug fixes and performance improvements" />
-  <meta itemprop="description" content="Bug fixes and performance improvements" />
-  <meta name="twitter:description" content="Bug fixes and performance improvements" />
+  <meta name="description" content="We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS" />
+  <meta property="og:description" content="We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS" />
+  <meta itemprop="description" content="We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS" />
+  <meta name="twitter:description" content="We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS" />
 
   <link rel="stylesheet" type="text/css" media="all" href="/css/main.css?v=2023-01-23 13:02:59 -0600" />
   
@@ -138,31 +140,27 @@
   
   
   
-    <aside class="outdated">
-      <strong>Note:</strong> this post was written over two years ago. The information below may be outdated.
-    </aside>
-  
 
 
 
 <article>
+  
+    <aside class="embargo">
+      
+        <h1>Under embargo until Tue, Jan 31, 2023 17:00 UTC!</h1>
+        <p>Please respect the embargo by not sharing this URL. The content below may be subject to minor changes before the embargo is lifted.</p>
+      
+      <hr />
+    </aside>
   
   <header>
     <h1>
 
 
 
-   Juno Updates for February,&nbsp;2019
+   elementary OS 7 Available&nbsp;Now
 
 </h1>
-    
-      <h2>
-
-
-
-   Bug fixes and performance&nbsp;improvements
-
-</h2>
     
 
     
@@ -187,11 +185,11 @@
       <span class="description">Founder & CEO</span>
     
   </div>
-  <time class="post-date" datetime="2019-03-02">Sat, Mar  2, 2019</time>
+  <time class="post-date" datetime="2023-01-31">Tue, Jan 31, 2023</time>
   
     <span class="read-time" title="Estimated read time">
   
-  5 min read
+  14 min read
 </span>
 
 
@@ -202,11 +200,9 @@
     <aside class="tags">
   
   
-    <a class="tag" href="/tags/#calendar">#calendar</a>
+    <a class="tag" href="/tags/#horus">#horus</a>
   
-    <a class="tag" href="/tags/#juno">#juno</a>
-  
-    <a class="tag" href="/tags/#updates">#updates</a>
+    <a class="tag" href="/tags/#release">#release</a>
   
 </aside>
 
@@ -214,104 +210,278 @@
   </header>
 
   <section>
-    <p>This month, a number of bug fixes and performance improvements landed as updates to elementary OS 5 Juno. Read ahead for the full rundown!</p>
+    <p>It’s been just over a year since we released elementary OS 6.1 Jólnir which brought new features and fixes based on your feedback, introduced new office productivity features, and expanded compatibility with a wide range of hardware. So far, OS 6.1 has been downloaded from our website <a rel="nofollow noopener noreferrer" target="_blank" href="https://plausible.io/elementary.io?period=custom&amp;goal=Download&amp;from=2021-12-20&amp;to=2023-01-31&amp;props=%7B%22Version%22:%226.1%22%7D">over 400,000 times</a>—150,000 times more than 6.0—and as always, that’s not including downloads from third parties or direct downloads via torrent that bypass our download page!</p>
 
-<h2 id="calendar">Calendar</h2>
-
-<p>The headlining release this month is the latest version of Calendar. We’ve done a considerable amount of work both on the surface and under the hood.</p>
-
-<p>Events in the calendar view and the sidebar now have a more modern styling that make much better use of color. The whole calendar view is now brighter, with subtler lines and less distracting UI elements. You’ll also notice that we make use of a Lime accent color throughout the UI.</p>
-
-<figure>
-  <p><img src="https://cdn-images-1.medium.com/max/800/1*h2xQZXwatwpPoUcaNbLcQg@2x.png" alt="Calendar has a new, more modern and more colorful look" srcset="https://cdn-images-1.medium.com/max/1600/1*h2xQZXwatwpPoUcaNbLcQg@2x.png 2x" /></p>
-  <figcaption>Calendar has a new, more modern and more colorful look</figcaption>
+<figure class="constrained">
+  <p><img src="/images/elementary-os-7-available-now/hero.png" alt="elementary OS 7 Horus" /></p>
 </figure>
 
-<p>We’ve also improved keyboard navigation in several places. The sidebar can now be navigated and events activated using the keyboard. We’ve added keyboard shortcuts for common actions and you can see their accelerators in the tooltips for Headerbar items. You can also now search for calendars when choosing which calendar to add a new event to.</p>
+<p>Today we’re proud to announce that OS 7, codenamed Horus, is available to download now and shipping on several high-quality computers. With OS 7, we’ve focused in on:</p>
+
+<ul>
+  <li>Helping you get the apps you need</li>
+  <li>Empowering you with new features and settings</li>
+  <li>Evolving our developer platform and design guidelines</li>
+</ul>
+
+<p>To get elementary OS 7 now, head to <a rel="nofollow noopener noreferrer" target="_blank" href="https://elementary.io">elementary.io</a> for the download—or read on for an overview of what’s new.</p>
+
+<hr />
+
+<h2 id="helping-you-get-the-apps-you-need">Helping you get the apps you need</h2>
+
+<p>As always, AppCenter is the centerpiece of elementary OS. The primary purpose of any operating system is to support the apps that you use to work, play, and express yourself creatively. In the latest version of AppCenter we’ve worked on making app descriptions more engaging with more information, making it easier to update to the latest versions of apps, and improving support for sideloading and alt stores. We’ve also worked on improving AppCenter’s responsiveness—making sure you can comfortable use it when tiling and on small displays as well as better using space on large displays.</p>
 
 <figure>
-  <p><img src="https://cdn-images-1.medium.com/max/582/1*Jg5Usx7Efg344UsXXMuZzQ@2x.png" alt="Search for calendars when selecting which calendar to add an event to" srcset="https://cdn-images-1.medium.com/max/1164/1*Jg5Usx7Efg344UsXXMuZzQ@2x.png 2x" /></p>
-  <figcaption>Search for calendars when selecting which calendar to add an event to</figcaption>
+  <p><img src="/images/elementary-os-7-available-now/appcenter-responsive.png" alt="AppCenter at large and small sizes" /></p>
+  <figcaption>
+    <p>AppCenter can be used comfortably while tiled or on small displays</p>
+  </figcaption>
 </figure>
 
-<p>When managing calendars, you’ll notice that checkboxes use the calendar’s color. There’s also a new color chooser that make use of hues from the elementary palette.</p>
+<p>We’ve completely rewritten the way navigation works in AppCenter and now support two-finger swipe gestures to navigate back. The entire app loads much faster and provides more feedback when running background tasks via an overlay bar in the bottom right or left corner.</p>
+
+<p>Recently updated apps are shown at the top of category views</p>
+
+<h3 id="app-descriptions">App Descriptions</h3>
+
+<p>The biggest change you’ll notice when viewing app info pages is the improved emphasis on screenshots. Screenshot carousels now fill the width of the window, showing more screenshots at once. They can now also be accompanied by their own captions, which can help describe individual features as well as making pages more accessible to folks with vision-related disabilities. And finally each screenshot now sits on a card that uses the app’s accent color, showing off more of the developer’s personality.</p>
+
+<figure>
+  <p><img src="/images/elementary-os-7-available-now/appcenter-appinfo.png" alt="AppCenter's app info view" /></p>
+  <figcaption>
+    <p>App Info views show more screenshots with captions and brand colors</p>
+  </figcaption>
+</figure>
+
+<p>Knowing how actively developed an app is and how engaged the developer is with their community is an important factor in decided which apps to install. We now help you know what to expect by showing an icon when an app uses an older, unsupported platform as well as showing up to 5 recent releases and their release notes instead of just the latest release. We also now show links to resolved tickets in an app’s issue tracker per release, so you verify that app developers will take your feedback into consideration.</p>
+
+<h3 id="getting-updates">Getting Updates</h3>
+
+<p>Staying up to date with the latest versions of apps is something we hear often is very important to folks using elementary OS. Flatpak makes it simple for developers to publish updates quickly and now you can get those updates automatically. If you’d still like to check for updates on your own time or want to force a manual refresh, there’s now a handy menu option that you can use.</p>
+
+<figure>
+  <p><img src="/images/elementary-os-7-available-now/appcenter-updates.png" alt="AppCenter's  updates view" /></p>
+  <figcaption>
+    <p>App Info views show more screenshots with captions and brand colors</p>
+  </figcaption>
+</figure>
+
+<h3 id="sideloading--alt-stores">Sideloading &amp; Alt Stores</h3>
+
+<p>Sideloading apps and using Alt Stores like Flathub is a major feature of elementary OS and a competitive edge over closed platforms that only let you install apps from a locked down store. In this release we’ve made several improvements to smooth out the experience of using Alt Stores based on your feedback and the latest cross-platform standards.</p>
+
+<p>There’s no longer a warning dialog every time you install an app that’s supplied by an Alt Store, instead we show an unobtrusive icon alongside the app’s other content warnings letting you know that elementary hasn’t reviewed this particular app.</p>
+
+<figure>
+  <p><img src="/images/elementary-os-7-available-now/appcenter-sideload.png" alt="AppCenter's app info view" /></p>
+  <figcaption>
+    <p>Even apps sideloaded from alt stores like Flathub can show brand colors</p>
+  </figcaption>
+</figure>
+
+<p>Apps from AppCenter could always use their own brand colors to make their app info pages feel unique and now apps sideloaded from Alt Stores can show brand colors too, thanks to the latest additions in the AppStream standard.</p>
+
+<h3 id="web-apps">Web Apps</h3>
+
+<p>In the theme of accessing the apps you need, we’re shipping the very latest GNOME Web 43 which includes support for creating web apps which show in the applications menu. They can have their own settings including privacy controls and can even run in the background. Installed web apps can be managed from inside GNOME Web.</p>
+
+<h2 id="empowering-you-with-new-features-and-settings">Empowering you with new features and settings</h2>
+
+<h3 id="feedback">Feedback</h3>
+
+<p>[Feedback app screenshot]</p>
+
+<p>The ability to send feedback directly to developers, see development happen transparently, and receive fixes and new features as updates quickly is one of our greatest strengths over both proprietary platforms and traditional Linux distributions. The Feedback app is a critical component in beginning this loop, so this cycle we’ve brought some major improvements to it including instant launch times, much better coverage of installed apps, settings, and desktop components, and you can now access the Feedback app directly from the applications menu. We’ve also improved keyboard navigation and responsiveness for small displays, and added the ability to quickly double click a list item to launch.</p>
+
+<h3 id="installation-initial-setup--onboarding">Installation, Initial Setup &amp; Onboarding</h3>
+
+<p>We’ve done a decent amount of work this cycle on reducing the number of screens in the Installer and providing more information to help you make informed decisions. For example, we now warn about connecting to power when on battery using an infobar instead of a separate page and we’ve introduced a combined “Before You Install” page that includes warnings about things like virtual machines, developer builds, and system requirements all in one step. And speaking of virtual machines, we’ve resolved issues that made the installer window too large to be interacted with on some virtual machines.</p>
+
+<p>[Before You Install screenshot]</p>
+
+<p>During Initial setup, we now detect if you use the right mouse button for clicking and offer to switch to a left-handed mouse button order. There’s also a new view that will appear if your device doesn’t have network access instructing you how to get connected.</p>
+
+<p>[Screenshot of left-handed mouse dialog and network view]</p>
+
+<p>Onboarding includes a new view for configuring automatic updates, as well as the addition of a “Sunset to Sunrise” option for the dark style.</p>
 
 <figure class="half">
-  <p><img src="https://cdn-images-1.medium.com/max/700/1*hvez0-kui0oqEPWA9n2wRg@2x.png" alt="List of calendars" />
-<img src="https://cdn-images-1.medium.com/max/685/1*tYNxZmFzzSdDZaKhJHZWKQ@2x.png" alt="New calendar" /></p>
-  <figcaption>New color choices when managing calendars</figcaption>
+  <p>![Choose Your Look view of Onboarding]/images/elementary-os-7-available-now/onboarding-styles.png){: width=”497” height=”406.5”}
+![Night Light view of Onboarding]/images/elementary-os-7-available-now/onboarding-nightlight.png){: width=”497” height=”406.5”}
+![Housekeeping view of Onboarding]/images/elementary-os-7-available-now/onboarding-housekeeping.png){: width=”497” height=”406.5”}
+![Updates view of Onboarding]/images/elementary-os-7-available-now/onboarding-updates.png){: width=”497” height=”406.5”}</p>
+  <figcaption>
+    <p>New features and settings are offered during onboarding like scheduled dark mode and automatic updates</p>
+  </figcaption>
 </figure>
 
-<p>To ensure that it’s clear where notifications are coming from, Calendar now always uses its own icon when sending alerts for events. We’ve also made improvements to Calendar’s styling when using RTL languages.</p>
+<h3 id="office-productivity">Office Productivity</h3>
 
-<p>There’s been a bunch more work under-the-hood to make Calendar’s code more concise and modern. We improved the way Calendar saves and restores its window size and position to reduce the number of times it reads or writes from your hard drive. This means better performance on slow spinning disks and longer life for modern flash drives.</p>
+<p>Mail now sports a more-modern flatter design as a first-step towards work on making it more responsive. The unified inbox now supports Microsoft 365 accounts. And multiple potential crashes and freezes have been resolved.</p>
 
-<p>Finally, Calendar now makes use of <code class="language-plaintext highlighter-rouge">Gtk.FileChooserNative</code>. This is an under-the-hood change that elementary OS users won’t notice yet, but for platforms that provide a file chooser Portal, Calendar will now use the native file chooser. Stay tuned for more about this in a future blog post and why elementary apps will be transitioning to using a file chooser Portal.</p>
+<p>[Mail Screenshot]</p>
 
-<p>We hope you enjoy this fairly large update to Calendar!</p>
+<p>Tasks now has offline support for newly created task lists and it makes sure to synchronize your remote lists when the network becomes available again. Plus it now sends notifications when a task is due.</p>
 
-<h2 id="appcenter">AppCenter</h2>
+<p>A long asked-for feature, you can now choose to select folders with a single click instead of activating them in Files, Windows style. Quite a bit of work has gone into making sure multiple click modes are supported and working as expected. We’ve also spent extra attention dialing in the behavior of keyboard shortcuts, especially regarding copy/paste and selection shortcuts across different view modes and with different types of file selections.</p>
 
-<p>Like Calendar, AppCenter also uses a new method for saving and restoring its window’s position and size. We also improved the way AppCenter uses system memory to display its list views. Finally, there was a small cosmetic fix to the position of the action buttons in an app’s info page when switching between the install and cancel actions.</p>
+<p>We’re also shipping the latest Archive Manager and Document Viewer from GNOME 43. These releases improve support for dark mode, Flatpak portals like the native file chooser, as well as fix bugs and improve reliability.</p>
 
-<h2 id="screenshot">Screenshot</h2>
+<h2 id="multimedia">Multimedia</h2>
 
-<p>We’ve received reports of some users getting stuck with an illegible system after using the “Conceal Text” feature. We now ensure that the system font is restored as early as possible to avoid this situation, even in case of other kinds of errors.</p>
+<p>As music streaming services have emerged, there’s been a shift away from the old paradigm of importing music from CDs, carefully curating playlists, and syncing music from your computer to mobile devices. We’ve received lots of feedback that Music wasn’t meeting folks needs and the old code base was becoming prone to issues.</p>
 
-<h2 id="files">Files</h2>
+<p>[Screenshot of Music 7]</p>
 
-<p>A fix was released for a high CPU usage regression that snuck into the last release. We also fixed in an issue where hidden files and folders would be sorted incorrectly in some cases.</p>
+<p>This cycle we’ve completely rewritten Music from scratch with a much more focused design built around quickly queuing up and playing individual audio files or your local music collection. We’ve heard that the new design is better for folks who just need a fast way to preview audio files that they’re using in their other projects, as well as for folks that still carefully curate their own local music collection and don’t want to compete with an app for fine grained control of their library’s organization scheme.</p>
 
-<h2 id="music">Music</h2>
+<p>The new Music 7 already has better support for reading track metadata such as album art, works as you’d expect with system-wide media controls, and can be tiled and resized to fit small and large displays. We’re excited to shape future versions of this app with your feedback, so make sure you let us know what kind of features you’d like to see!</p>
 
-<p>Album art in the grid view is now displayed at full resolution on HiDPI displays. We fixed an issue with selecting a music folder with spaces in its path. We’ve also updated the path for the Media Key Listener extension to GNOME Settings Daemon: this means Music will work better on other distributions like Fedora. Like Calendar, Music also now uses <code class="language-plaintext highlighter-rouge">Gtk.FileChooserNative</code>.</p>
+<p>Likewise, Videos now appears in the sound indicator alongside other media players.</p>
 
-<h2 id="for-developers">For Developers</h2>
+<h3 id="system-settings">System Settings</h3>
 
-<p>There’s a few new goodies specifically for app developers this month as well!</p>
+<p>We’ve now added support for offline firmware updates.</p>
+
+<p>Central Kurdish is now available as an installable language and we now support installation and removal of languages with 3-letter codes.</p>
+
+<p>Power profile management is now available in System Settings, including Performance mode for hardware that supports it. Expect much improved battery life for mobile devices with Power Saver mode. And you can now scroll both horizontally and vertically on the power indicator to change display brightness.</p>
+
+<p>The redesign Multitasking settings includes the ability to set custom Terminal commands for each hotcorner.</p>
+
+<p>Online accounts includes offline support for CalDAV accounts and the ability to choose a refresh rate for IMAP accounts.</p>
+
+<p>Printer settings received special attention with several redesigns as well as new features like being able to clear the print queue per printer and a much clearer ink levels view.</p>
+
+<p>Keyboard shortcut settings can now be easily disabled or reverted to their defaults and it’s much easier to create and manage custom shortcuts. You can now also launch the Shortcuts app from the applications menu.</p>
+
+<p>We’ve added the option to open and close the Multitasking view using the Super key.</p>
+
+<p>A new security option allows you to forbid new USB devices from connecting while your device is locked.</p>
+
+<p>We now show the correct information for WPA3 networks.</p>
+
+<p>Support Rime input method for Chinese</p>
+
+<p>In both System Settings and the Panel, we now use more information to assign accurate icons to audio devices.</p>
+
+<h3 id="performance">Performance</h3>
+
+<p>I want to make a special note here about performance. In just about every section I could have individually written about performance over and over again. The team has spent quite a bit of time tracking down slowdowns, reworking old code, and optimizing to make everything happen as quickly and responsively as possible and in the most extreme scenarios. I can’t emphasize enough how big a part reducing latency plays in our vision for empowering you to do your best.</p>
+
+<h2 id="evolving-our-developer-platform-and-design-guidelines">Evolving our developer platform and design guidelines</h2>
+
+<h3 id="iconography">Iconography</h3>
+
+<p>New app icons</p>
+
+<p>Additions:</p>
+
+<p>“computer-fail”
+“preferences-desktop-theme”
+“application-x-sharedlib”
+“process-paused”
+caps-lock-symbolic
+eye-not-looking-symbolic
+eye-open-negative-filled-symbolic
+num-lock-symbolic</p>
+
+<p>Removals:</p>
+
+<p>“office-address-book”
+Flash file types
+notification-*
+Non-FDO network-*
+Non-FDO app icons</p>
+
+<p>Updated families:</p>
+
+<p>Clean up “preferences-desktop-workspaces”
+Update “preferences-desktop” to new tile shape
+Update “image-missing” to new tile shape
+Update “preferences-desktop-keyboard” to new tile shape
+Update “document-import” and “document-export” to new tile shape
+Update many file types with new arrow shape
+“application-default-icon” is now brightly colored
+“media-stop” is now a square
+Round symbolic location status icons
+Use an outlined shape for symbolic tag icons
+Use a rounded star for symbolic bookmark icons
+Redesign Night Light
+Use latest Flatpak branding
+Symbolic volume icons use a rounded shape and a slash when muted
+Redesign media-playlist-repeat
+Update media-playlist-shuffle and media-playlist-consecutive
+Rounder square icons
+Rounded arrow corners on Downloads folder
+Deb and Flatpak Bundle files use a package metaphor
+Updates arrow points up
+Redesigned package with new colors</p>
+
+<p>There’s now also an Icon Browser app available in AppCenter where you can see all of the icons shipped with the elementary platform. You can search or view icons by category as well as see what sizes and styles an icon comes in and even get a quick code snippet to use in your app.</p>
+
+<p>[Icon Browser screenshot]</p>
+
+<h3 id="gtk-4">Gtk 4</h3>
+
+<p>Sideload
+Shortcuts
+Music
+Onboarding</p>
 
 <h3 id="granite">Granite</h3>
 
-<p>We’ve fixed in issue in some <code class="language-plaintext highlighter-rouge">Granite.DateTime</code> utilities where extra leading spaces were added. We now report <code class="language-plaintext highlighter-rouge">Gdk.Key.Return</code> as <code class="language-plaintext highlighter-rouge">Enter</code> in <code class="language-plaintext highlighter-rouge">Granite.accel_to_string</code>. You can also now easily find out if users have history enabled in System Settings with <code class="language-plaintext highlighter-rouge">Granite.Services.System.history_is_enabled</code>.</p>
+<p>The latest version of our app framework Granite as well as our system stylesheet have been updated to support Gtk 4 and come with a host of new features and API changes to make building apps quick and straightforward.</p>
 
-<p>Users of <code class="language-plaintext highlighter-rouge">Granite.MessageDialog</code> can now easily show raw error messages or other raw output with the new <code class="language-plaintext highlighter-rouge">show_error_expander</code> method:</p>
+<p>In Gtk 4, style class constants have moved from Gtk itself into the platform frameworks. This means that all of the supported style class constants in the elementary stylesheet are now provided by Granite. This includes classes you’re familiar with like the ones for setting text colors as well as the ones for setting background colors on sidebars or in views, plus some new ones like <code class="language-plaintext highlighter-rouge">RICH_LIST</code> for setting up padding and margins on listboxes.</p>
 
-<figure>
-  <p><img src="https://cdn-images-1.medium.com/max/487/1*tfGftjSO6p4QFA2ti8wsLg@2x.png" alt="Show error details with the new show_error_expander method" srcset="https://cdn-images-1.medium.com/max/974/1*tfGftjSO6p4QFA2ti8wsLg@2x.png 2x" /></p>
-  <figcaption>
-    <p>Show error details with the new <code class="language-plaintext highlighter-rouge">show_error_expander</code> method</p>
-  </figcaption>
-</figure>
+<p>A new Granite.Placeholder widget was introduced to replace AlertView and Welcome with a single more flexible widget. It supports all the usual cases like welcome screens with buttons, embedded alerts, and placeholders for lists. It supports markup in descriptions and you can even uses style classes like <code class="language-plaintext highlighter-rouge">ACCENT</code>, <code class="language-plaintext highlighter-rouge">WARNING</code>, or <code class="language-plaintext highlighter-rouge">ERROR</code> to automatically color title text.</p>
 
-<p>We’ve also addressed a couple of typos in the documentation on Valadoc.org and packagers on other distributions should note that as of this release Granite builds with Meson instead of CMake.</p>
+<p>Plus, widgets have been reworked to set all of their margins and padding from Gtk.CSS—meaning they scale appropriately with the system text size—and several widgets have been made more responsive for large and small displays.</p>
 
-<h3 id="stylesheet">Stylesheet</h3>
+<p>Every release comes with removals and this migration to Gtk 4 comes with quite a few of them. We’re excited to remove several utilities that are better supported in Gtk and GLib upstream, including the Settings class, Logging, Command Launching, several drawing functions now covered by Gtk.CSS, DynamicNotebook since you can now get a great tab bar widget from Adwaita, and others. In each case we looked at existing apps and made sure they could migrate to Gtk 4 without losing functionality and in many cases their code was made more robust and more simple by using functions provided by upstream libraries.</p>
 
-<p>Switches are now shaded using a white overlay instead of Gtk.CSS’s <code class="language-plaintext highlighter-rouge">shade</code> method. This looks much nicer with green or yellow accent colors:</p>
+<p>As always, the full API reference for Granite is available <a rel="nofollow noopener noreferrer" target="_blank" href="https://valadoc.org/granite-7/Granite.html">on Valadoc.org</a>.</p>
 
-<figure class="card">
-  <p><img src="https://cdn-images-1.medium.com/max/372/1*2KI_sGQqwcis5yonta1-tw.png" alt="Left: old shading method; Right: new shading method" srcset="https://cdn-images-1.medium.com/max/744/1*2KI_sGQqwcis5yonta1-tw.png 2x" /></p>
-  <figcaption>
-    <p><strong>Left:</strong> old shading method | <strong>Right:</strong> new shading method</p>
-  </figcaption>
-</figure>
+<h3 id="flatpak-platform">Flatpak Platform</h3>
+<p>7.1.0</p>
 
-<p>Groups of widgets using <code class="language-plaintext highlighter-rouge">Gtk.STYLE_CLASS_LINKED</code> now appear correctly in RTL languages. Click targets for Scales using <code class="language-plaintext highlighter-rouge">Granite.STYLE_CLASS_SEEKBAR</code> are now more accurate.We also addressed some style issues with close buttons in Infobars and borders in Sidebars while using the dark stylesheet. You’ll also notice that keyboard focus in Entries is more clear while using the dark stylesheet.</p>
+<h3 id="tools">Tools</h3>
 
-<p>Numbered badges in Sidebars have had their color scheme inverted for a more subtle look:</p>
+<p>Code</p>
 
-<figure class="card">
-  <p><img src="https://cdn-images-1.medium.com/max/166/1*59rV-UJoPkUM_e2cK7KLFQ@2x.png" alt="Sidebar badges" srcset="https://cdn-images-1.medium.com/max/332/1*59rV-UJoPkUM_e2cK7KLFQ@2x.png 2x" /></p>
-  <figcaption>Badges in sidebars are now more subtle looking</figcaption>
-</figure>
+<p>Hidden folders are now shown in the project sidebar
+The currently selected result and the number of results is displayed while searching
+The search bar now has a regular expression mode</p>
 
-<p>Finally, Buttons in Headerbars now support <code class="language-plaintext highlighter-rouge">Gtk.STYLE_CLASS_RAISED</code> in case you’d like to make sure button borders are present for all buttons.</p>
+<p>It is now possible to change Git branch with untracked files present in a project
+Line duplication is now actioned correctly if there is no selection present</p>
 
-<h2 id="and-more">And More</h2>
+<p>Terminal gains the ability to both follow the system dark style preference as well as create custom color palettes. The new default light and dark styles are now fully opaque and have been updated to match the latest upstream values from the Solarized themes for improved legibility. We’ve also added the keyboard shortcut <kbd>Alt</kbd> + <kbd>1—9</kbd> for switching tabs and you can quit Terminal with <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Q</kbd></p>
 
-<p>The default location for Picture-in-Picture windows has been changed to the bottom right of the display instead of the bottom left. Screenshots taken with keyboard shortcuts are now properly saved in Pictures/Screenshots. You can now also cancel area screenshots with the Escape key. Performance of saving whole screen screenshots on HiDPI and other high resolution displays should be much improved. We also addressed a couple of visual glitches that sometimes occurred when tiling windows.</p>
+<h2 id="special-thanks">Special Thanks</h2>
 
-<p>In addition to the updates mentioned above, you can always rely on updated translations, stability and performance fixes, and general code cleaning. Make sure to pop open AppCenter and hit “Update All” to get the latest and greatest.</p>
+<p>There are tons of other small improvements, bug fixes, and more that didn’t make it into this release blog post. I’d like to give a special thanks to our volunteer community for their continual commitment to making a great open source operating system. I’d also like to particularly call out our localization team that works hard to make every release available in dozens of languages, including right-to-left languages, Asian character languages, and more. This release also wouldn’t have been possible without the work of developers running Pantheon on other distros like Fedora and NixOS and their participation upstream. And speaking of upstreams, I’m always grateful for the work that goes into the Ubuntu releases that we build upon. I’m very proud of what a diverse community can build together and this release is definitely something to be proud of. Thank you all so much for being a part of it!</p>
+
+<hr />
+
+<h2 id="get-elementary-os-7">Get elementary OS 7</h2>
+
+<p>elementary OS 7 is available as a pay-what-you-can purchase at <a rel="nofollow noopener noreferrer" target="_blank" href="https://elementary.io">elementary.io</a> today. Localized direct downloads and a torrent magnet link are provided.</p>
+
+<div style="text-align: center">
+  <p><a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/elementary/os/wiki/elementary-OS-7-FAQ" class="button flat">OS 7 FAQ</a>
+<a rel="nofollow noopener noreferrer" target="_blank" href="https://elementary.io" class="button suggested">Download elementary OS 7</a></p>
+</div>
+
+<h3 id="devices">Devices</h3>
+
+<p>Our hardware retailers <a rel="nofollow noopener noreferrer" target="_blank" href="https://laptopwithlinux.com/?ref=36&amp;utm_source=referral&amp;utm_medium=elementary&amp;utm_campaign=elementary">Laptop with Linux</a>, <a rel="nofollow noopener noreferrer" target="_blank" href="https://slimbook.es/?utm_source=referral&amp;utm_medium=elementary&amp;utm_campaign=elementary">Slimbook</a>, and <a rel="nofollow noopener noreferrer" target="_blank" href="https://starlabs.systems/?rfsn=4227837.e8f025">Star Labs</a> are all offering elementary OS 7 out of the box starting today. Visit retailers’ individual sites for more information.</p>
+
+<div style="text-align: center">
+  <p><a rel="nofollow noopener noreferrer" target="_blank" href="https://store.elementary.io/" class="button">Shop Devices</a></p>
+</div>
 
 
   </section>
@@ -475,7 +645,7 @@
     
 
     <a
-      href="https://twitter.com/intent/tweet?text=Juno Updates for February, 2019&url=https://blog.elementary.io/juno-updates-for-february-2019/&via=elementary&original_referer=https://blog.elementary.io/juno-updates-for-february-2019/"
+      href="https://twitter.com/intent/tweet?text=elementary OS 7 Available Now&url=https://blog.elementary.io/elementary-os-7-available-now/&via=elementary&original_referer=https://blog.elementary.io/elementary-os-7-available-now/"
       rel="noreferrer nofollow noopener"
       target="_blank"
       title="Twitter"
@@ -485,7 +655,7 @@
     </a>
 
     <a
-      href="http://www.reddit.com/submit?title=Juno Updates for February, 2019&url=https://blog.elementary.io/juno-updates-for-february-2019/"
+      href="http://www.reddit.com/submit?title=elementary OS 7 Available Now&url=https://blog.elementary.io/elementary-os-7-available-now/"
       rel="noreferrer nofollow noopener"
       target="_blank"
       title="Reddit"
@@ -495,7 +665,7 @@
     </a>
 
     <a
-      href="https://www.facebook.com/sharer/sharer.php?u=https://blog.elementary.io/juno-updates-for-february-2019/"
+      href="https://www.facebook.com/sharer/sharer.php?u=https://blog.elementary.io/elementary-os-7-available-now/"
       rel="noreferrer nofollow noopener"
       target="_blank"
       title="Facebook"
@@ -505,7 +675,7 @@
     </a>
 
     <a
-      href="https://blog.elementary.io/juno-updates-for-february-2019/"
+      href="https://blog.elementary.io/elementary-os-7-available-now/"
       title="Permalink"
       onclick="return share()"
     >
@@ -520,9 +690,9 @@ function share() {
 
   if (navigator.share) {
     navigator.share({
-      title: "Juno Updates for February, 2019",
-      text: "Bug fixes and performance improvements",
-      url: "https://blog.elementary.io/juno-updates-for-february-2019/",
+      title: "elementary OS 7 Available Now",
+      text: "",
+      url: "https://blog.elementary.io/elementary-os-7-available-now/",
     })
     .catch((error) => console.log("Error sharing", error));
 
@@ -539,187 +709,14 @@ function share() {
 <h2 class="up-next">Up Next</h2>
 
 
-  
 
-
-
-  
-    
-      
-
-<a class="featured with-image 1" href="/a-new-native-file-chooser/">
-  
-    <div class="featured-image" alt="Featured image" style="background-image: url(https://cdn-images-1.medium.com/max/1600/1*FgU8d63DkrYohV6JejUmFA.png);"></div>
-  
-
-  <header>
-    <h2>
-
-
-
-   A New Native File&nbsp;Chooser
-
-</h2>
-    
-      <h3>
-        
-
-
-
-   And how you can get your apps ready for&nbsp;it
-
-
-        
-      </h3>
-    
-
-    
-
-
-
-<div class="byline">
-  <div class="avatar">
-    <img
-      
-        srcset="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&d=blank 2x"
-        src="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&d=blank"
-        alt="Avatar for Danielle Foré"
-      
-    />
-  </div>
-  <div class="author">
-    
-    <span class="name">Danielle Foré</span>
-    
-    
-      <span class="description">Founder & CEO</span>
-    
-  </div>
-  <time class="post-date" datetime="2019-03-11">Mon, Mar 11, 2019</time>
-  
-    <span class="read-time" title="Estimated read time">
-  
-  3 min read
-</span>
-
-
-  
-</div>
-
-
-  </header>
-
-  
-</a>
-
-
-    
-  
 
 
 
   
     
 
-<a class="featured with-image 1" href="/accessibility-features-are-just-features/">
-  
-    <div class="featured-image" alt="Featured image" style="background-image: url(https://cdn-images-1.medium.com/max/1600/0*3Q6Snc6Qga_HsPK7);"></div>
-  
-
-  <header>
-    <h2>
-
-
-
-   Accessibility Features Are Just&nbsp;Features
-
-</h2>
-    
-      <h3>
-        
-
-
-
-   An OS-wide curb-cutting&nbsp;effort
-
-
-        
-      </h3>
-    
-
-    
-
-
-
-<div class="byline">
-  <div class="avatar">
-    <img
-      
-        srcset="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&d=blank 2x"
-        src="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&d=blank"
-        alt="Avatar for Cassidy James Blaede"
-      
-    />
-  </div>
-  <div class="author">
-    
-    <span class="name">Cassidy James Blaede</span>
-    
-    
-      <span class="description">Co-founder & CXO</span>
-    
-  </div>
-  <time class="post-date" datetime="2019-02-16">Sat, Feb 16, 2019</time>
-  
-    <span class="read-time" title="Estimated read time">
-  
-  4 min read
-</span>
-
-
-  
-</div>
-
-
-  </header>
-
-  
-</a>
-
-
-  
-
-
-
-
-
-
-
-
-
-
-<h2>Related</h2>
-<div class="related">
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-      
-
-<a class="featured with-image small" href="/updates-for-november-2022/">
+<a class="featured with-image 1" href="/updates-for-november-2022/">
   
     <div class="featured-image" alt="Featured image" style="background-image: url(/images/updates-for-november-2022/files.png);"></div>
   
@@ -785,10 +782,19 @@ function share() {
 </a>
 
 
-      
-      
-    
+  
 
+
+
+
+
+
+
+
+
+
+<h2>Related</h2>
+<div class="related">
   
 
     
@@ -805,6 +811,166 @@ function share() {
 
     
 
+    
+
+  
+
+    
+    
+
+    
+
+    
+      
+
+<a class="featured with-image small" href="/updates-for-october-2022/">
+  
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/updates-for-april-2022/card.jpg);"></div>
+  
+
+  <header>
+    <h2>
+
+
+
+   Updates for October,&nbsp;2022
+
+</h2>
+    
+      <h3>
+        
+
+
+
+   Oh yeah, it's all coming&nbsp;together
+
+
+        
+      </h3>
+    
+
+    
+
+
+
+<div class="byline">
+  <div class="avatar">
+    <img
+      
+        srcset="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&d=blank 2x"
+        src="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&d=blank"
+        alt="Avatar for Danielle Foré"
+      
+    />
+  </div>
+  <div class="author">
+    
+    <span class="name">Danielle Foré</span>
+    
+    
+      <span class="description">Founder & CEO</span>
+    
+  </div>
+  <time class="post-date" datetime="2022-11-01">Tue, Nov  1, 2022</time>
+  
+    <span class="read-time" title="Estimated read time">
+  
+  3 min read
+</span>
+
+
+  
+</div>
+
+
+  </header>
+
+  
+</a>
+
+
+      
+      
+    
+
+  
+
+    
+    
+
+    
+
+    
+      
+
+<a class="featured with-image small" href="/updates-for-september-2022/">
+  
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/updates-for-september-2022/iconbrowser.png);"></div>
+  
+
+  <header>
+    <h2>
+
+
+
+   Updates for September,&nbsp;2022
+
+</h2>
+    
+      <h3>
+        
+
+
+
+   A new developer tool and steady OS 7&nbsp;progress
+
+
+        
+      </h3>
+    
+
+    
+
+
+
+<div class="byline">
+  <div class="avatar">
+    <img
+      
+        srcset="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&d=blank 2x"
+        src="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&d=blank"
+        alt="Avatar for Danielle Foré"
+      
+    />
+  </div>
+  <div class="author">
+    
+    <span class="name">Danielle Foré</span>
+    
+    
+      <span class="description">Founder & CEO</span>
+    
+  </div>
+  <time class="post-date" datetime="2022-10-05">Wed, Oct  5, 2022</time>
+  
+    <span class="read-time" title="Estimated read time">
+  
+  4 min read
+</span>
+
+
+  
+</div>
+
+
+  </header>
+
+  
+</a>
+
+
+      
+      
     
 
   
@@ -949,7 +1115,7 @@ function share() {
   
     <span class="read-time" title="Estimated read time">
   
-  4 min read
+  3 min read
 </span>
 
 
@@ -1106,86 +1272,6 @@ function share() {
     
   </div>
   <time class="post-date" datetime="2022-05-31">Tue, May 31, 2022</time>
-  
-    <span class="read-time" title="Estimated read time">
-  
-  5 min read
-</span>
-
-
-  
-</div>
-
-
-  </header>
-
-  
-</a>
-
-
-      
-      
-    
-
-  
-
-    
-    
-
-    
-
-    
-      
-
-<a class="featured with-image small" href="/updates-for-april-2022/">
-  
-    <div class="featured-image" alt="Featured image" style="background-image: url(/images/updates-for-april-2022/card.jpg);"></div>
-  
-
-  <header>
-    <h2>
-
-
-
-   Updates for April,&nbsp;2022
-
-</h2>
-    
-      <h3>
-        
-
-
-
-   Counting down to OS&nbsp;7
-
-
-        
-      </h3>
-    
-
-    
-
-
-
-<div class="byline">
-  <div class="avatar">
-    <img
-      
-        srcset="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&d=blank 2x"
-        src="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&d=blank"
-        alt="Avatar for Danielle Foré"
-      
-    />
-  </div>
-  <div class="author">
-    
-    <span class="name">Danielle Foré</span>
-    
-    
-      <span class="description">Founder & CEO</span>
-    
-  </div>
-  <time class="post-date" datetime="2022-05-03">Tue, May  3, 2022</time>
   
     <span class="read-time" title="Estimated read time">
   
