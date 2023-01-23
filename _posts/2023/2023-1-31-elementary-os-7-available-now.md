@@ -7,7 +7,7 @@ tags:
   - horus
   - release
 
-hidden: 2023-01-31 17:00:00 UTC # 9 AM MST
+hidden: 2023-01-31 17:00:00 UTC # 9 AM PST
 ---
 
 
