@@ -7,7 +7,7 @@ tags:
   - horus
   - release
 
-soon: true # remove this line when the site is deployed
+hidden: 2023-01-31 17:00:00 UTC # 9 AM MST
 ---
 
 
