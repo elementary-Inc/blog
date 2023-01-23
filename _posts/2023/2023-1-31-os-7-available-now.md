@@ -12,7 +12,7 @@ hidden: 2023-01-31 17:00:00 UTC # 9 AM PST
 
 It's been just over a year since we released elementary OS 6.1 Jólnir which brought new features and fixes based on your feedback, introduced new office productivity features, and expanded compatibility with a wide range of hardware. So far, OS 6.1 has been downloaded from our website [over 400,000 times](https://plausible.io/elementary.io?period=custom&goal=Download&from=2021-12-20&to=2023-01-31&props=%7B%22Version%22:%226.1%22%7D)—150,000 times more than 6.0—and as always, that's not including downloads from third parties or direct downloads via torrent that bypass our download page!
 
-<figure class="constrained" markdown="1">
+<figure class="constrained card" markdown="1">
 ![elementary OS 7 Horus](/images/{{ page.slug }}/hero.png)
 </figure>
 
@@ -31,7 +31,7 @@ To get elementary OS 7 now, head to [elementary.io] for the download—or read o
 As always, AppCenter is the centerpiece of elementary OS. The primary purpose of any operating system is to support the apps that you use to work, play, and express yourself creatively. In the latest version of AppCenter we've worked on making app descriptions more engaging with more information, making it easier to update to the latest versions of apps, and improving support for sideloading and alt stores. We've also worked on improving AppCenter's responsiveness—making sure you can comfortable use it when tiling and on small displays as well as better using space on large displays.
 
 <figure markdown="1">
-![AppCenter at large and small sizes](/images/{{ page.slug }}/appcenter-responsive.png)
+![AppCenter at large and small sizes](/images/{{ page.slug }}/appcenter-responsive.png){: width="1628" height="913"}
 <figcaption markdown="1">
 AppCenter can be used comfortably while tiled or on small displays
 </figcaption>
@@ -46,7 +46,7 @@ Recently updated apps are shown at the top of category views
 The biggest change you'll notice when viewing app info pages is the improved emphasis on screenshots. Screenshot carousels now fill the width of the window, showing more screenshots at once. They can now also be accompanied by their own captions, which can help describe individual features as well as making pages more accessible to folks with vision-related disabilities. And finally each screenshot now sits on a card that uses the app's accent color, showing off more of the developer's personality.
 
 <figure markdown="1">
-![AppCenter's app info view](/images/{{ page.slug }}/appcenter-appinfo.png)
+![AppCenter's app info view](/images/{{ page.slug }}/appcenter-appinfo.png){: width="1708" height="1086"}
 <figcaption markdown="1">
 App Info views show more screenshots with captions and brand colors
 </figcaption>
@@ -67,28 +67,46 @@ App Info views show more screenshots with captions and brand colors
 
 ### Sideloading & Alt Stores
 
-Sideloading apps and using Alt Stores like Flathub is a major feature of elementary OS and a competitive edge over closed platforms that only let you install apps from a locked down store. In this release we've made several improvements to smooth out the experience of using Alt Stores based on your feedback and the latest cross-platform standards.
-
-There's no longer a warning dialog every time you install an app that's supplied by an Alt Store, instead we show an unobtrusive icon alongside the app's other content warnings letting you know that elementary hasn't reviewed this particular app.
+Sideloading apps and using alt stores like Flathub is a major feature of elementary OS and a competitive edge over closed platforms that only let you install apps from a locked down store. In this release we've made several improvements to smooth out the experience of using alt stores based on your feedback and the latest cross-platform standards.
 
 <figure markdown="1">
-![AppCenter's app info view](/images/{{ page.slug }}/appcenter-sideload.png)
+![Sideload](/images/{{ page.slug }}/sideload.png){: width="562" height="350"}
+<figcaption markdown="1">
+The Sideload app makes installing Flatpak apps and configuring alt stores simple
+</figcaption>
+</figure>
+
+There's no longer a warning dialog every time you install an app that's supplied by an alt store, instead we show an unobtrusive icon alongside the app's other content warnings letting you know that elementary hasn't reviewed this particular app.
+
+<figure markdown="1">
+![AppCenter's app info view](/images/{{ page.slug }}/appcenter-sideload.png){: width="1164" height="912"}
 <figcaption markdown="1">
 Even apps sideloaded from alt stores like Flathub can show brand colors
 </figcaption>
 </figure>
 
-Apps from AppCenter could always use their own brand colors to make their app info pages feel unique and now apps sideloaded from Alt Stores can show brand colors too, thanks to the latest additions in the AppStream standard.
+Apps from AppCenter could always use their own brand colors to make their app info pages feel unique and now apps sideloaded from alt stores can show brand colors too, thanks to the latest additions in the AppStream standard.
 
 ### Web Apps
+
+<figure markdown="1">
+![Sideload](/images/{{ page.slug }}/web-apps.png){: width="1122" height="866"}
+<figcaption markdown="1">
+iCloud Numbers running as a saved web app
+</figcaption>
+</figure>
 
 In the theme of accessing the apps you need, we're shipping the very latest GNOME Web 43 which includes support for creating web apps which show in the applications menu. They can have their own settings including privacy controls and can even run in the background. Installed web apps can be managed from inside GNOME Web.
 
 ## Empowering you with new features and settings
 
-### Feedback
-
-[Feedback app screenshot]
+<figure class="half" markdown="1">
+![Categories view in Feedback](/images/{{ page.slug }}/feedback-categories.png){: width="640" height="500"}
+![Apps view in Feedback](/images/{{ page.slug }}/feedback-apps.png){: width="640" height="500"}
+<figcaption markdown="1">
+Feedback helps you report issues and request new features directly to the developers
+</figcaption>
+</figure>
 
 The ability to send feedback directly to developers, see development happen transparently, and receive fixes and new features as updates quickly is one of our greatest strengths over both proprietary platforms and traditional Linux distributions. The Feedback app is a critical component in beginning this loop, so this cycle we've brought some major improvements to it including instant launch times, much better coverage of installed apps, settings, and desktop components, and you can now access the Feedback app directly from the applications menu. We've also improved keyboard navigation and responsiveness for small displays, and added the ability to quickly double click a list item to launch.
 
@@ -100,15 +118,21 @@ We've done a decent amount of work this cycle on reducing the number of screens 
 
 During Initial setup, we now detect if you use the right mouse button for clicking and offer to switch to a left-handed mouse button order. There's also a new view that will appear if your device doesn't have network access instructing you how to get connected.
 
-[Screenshot of left-handed mouse dialog and network view]
+<figure class="half" markdown="1">
+![Left-handed Clicking in Initial Setup](/images/{{ page.slug }}/initialsetup-lefthand.png){: width="914" height="664"}
+![Network page in Initial Setup](/images/{{ page.slug }}/initialsetup-network.png){: width="914" height="664"}
+<figcaption markdown="1">
+**Left:** Left-handed primary click is now detected | **Right:** Initial setup guides you to connect to the Internet
+</figcaption>
+</figure>
 
 Onboarding includes a new view for configuring automatic updates, as well as the addition of a "Sunset to Sunrise" option for the dark style.
 
-<figure class="half" markdown="1">
-![Choose Your Look view of Onboarding]/images/{{ page.slug }}/onboarding-styles.png){: width="497" height="406.5"}
-![Night Light view of Onboarding]/images/{{ page.slug }}/onboarding-nightlight.png){: width="497" height="406.5"}
-![Housekeeping view of Onboarding]/images/{{ page.slug }}/onboarding-housekeeping.png){: width="497" height="406.5"}
-![Updates view of Onboarding]/images/{{ page.slug }}/onboarding-updates.png){: width="497" height="406.5"}
+<figure markdown="1">
+![Choose Your Look view of Onboarding]/images/{{ page.slug }}/onboarding-styles.png){: width="497" height="664"}
+![Night Light view of Onboarding]/images/{{ page.slug }}/onboarding-nightlight.png){: width="497" height="407"}
+![Housekeeping view of Onboarding]/images/{{ page.slug }}/onboarding-housekeeping.png){: width="497" height="407"}
+![Updates view of Onboarding]/images/{{ page.slug }}/onboarding-updates.png){: width="497" height="407"}
 <figcaption markdown="1">
 New features and settings are offered during onboarding like scheduled dark mode and automatic updates
 </figcaption>
@@ -118,11 +142,32 @@ New features and settings are offered during onboarding like scheduled dark mode
 
 Mail now sports a more-modern flatter design as a first-step towards work on making it more responsive. The unified inbox now supports Microsoft 365 accounts. And multiple potential crashes and freezes have been resolved.
 
-[Mail Screenshot]
+<figure markdown="1">
+![Mail](/images/{{ page.slug }}/mail.png){: width="1161" height="750"}
+<figcaption markdown="1">
+Mail now has a flatter design
+</figcaption>
+</figure>
 
 Tasks now has offline support for newly created task lists and it makes sure to synchronize your remote lists when the network becomes available again. Plus it now sends notifications when a task is due.
 
 A long asked-for feature, you can now choose to select folders with a single click instead of activating them in Files, Windows style. Quite a bit of work has gone into making sure multiple click modes are supported and working as expected. We've also spent extra attention dialing in the behavior of keyboard shortcuts, especially regarding copy/paste and selection shortcuts across different view modes and with different types of file selections.
+
+<figure class="full-bleed" markdown="1">
+![Files](/images/{{ page.slug }}/files.png)
+<figcaption markdown="1">
+Files now has a double-click option
+</figcaption>
+</figure>
+
+Printer settings received special attention with several redesigns as well as new features like being able to clear the print queue per printer and a much clearer ink levels view. Online accounts includes offline support for CalDAV accounts and the ability to choose a refresh rate for IMAP accounts.
+
+<figure markdown="1">
+![Printer Settings]/images/{{ page.slug }}/settings-printer.png){: width="1024" height="720"}
+<figcaption markdown="1">
+Redesigned printer settings with more control over the print queue
+</figcaption>
+</figure>
 
 We're also shipping the latest Archive Manager and Document Viewer from GNOME 43. These releases improve support for dark mode, Flatpak portals like the native file chooser, as well as fix bugs and improve reliability.
 
@@ -130,39 +175,52 @@ We're also shipping the latest Archive Manager and Document Viewer from GNOME 43
 
 As music streaming services have emerged, there's been a shift away from the old paradigm of importing music from CDs, carefully curating playlists, and syncing music from your computer to mobile devices. We've received lots of feedback that Music wasn't meeting folks needs and the old code base was becoming prone to issues.
 
-[Screenshot of Music 7]
+<figure class="card" markdown="1">
+![Music 7](/images/{{ page.slug }}/music.png)
+<figcaption markdown="1">
+The new Music with a much more focused design
+</figcaption>
+</figure>
 
 This cycle we've completely rewritten Music from scratch with a much more focused design built around quickly queuing up and playing individual audio files or your local music collection. We've heard that the new design is better for folks who just need a fast way to preview audio files that they're using in their other projects, as well as for folks that still carefully curate their own local music collection and don't want to compete with an app for fine grained control of their library's organization scheme.
 
 The new Music 7 already has better support for reading track metadata such as album art, works as you'd expect with system-wide media controls, and can be tiled and resized to fit small and large displays. We're excited to shape future versions of this app with your feedback, so make sure you let us know what kind of features you'd like to see!
 
-Likewise, Videos now appears in the sound indicator alongside other media players.
+<figure class="constrained card" markdown="1">
+![The sound indicator](/images/{{ page.slug }}/panel-sound.png){: width="430" height="323"}
+<figcaption markdown="1">
+Videos can now be controlled from the sound indicator
+</figcaption>
+</figure>
+
+Likewise, Videos now appears in the sound indicator alongside other media players. And in both System Settings and the Panel, we now use more information to assign accurate icons to audio devices.
 
 ### System Settings
 
-We've now added support for offline firmware updates.
+In elementary OS, settings are meant to make the operating system more accessible to a wider range of people with various needs and ways of working.
 
-Central Kurdish is now available as an installable language and we now support installation and removal of languages with 3-letter codes.
+<figure class="half" markdown="1">
+![Power Settings]/images/{{ page.slug }}/settings-power.png){: width="1024" height="720"}
+![Shortcut Settings]/images/{{ page.slug }}/settings-shortcuts.png){: width="1024" height="720"}
+<figcaption markdown="1">
+**Left:** New power profile management | **Right:** Redesigned shortcut settings
+</figcaption>
+</figure>
 
-Power profile management is now available in System Settings, including Performance mode for hardware that supports it. Expect much improved battery life for mobile devices with Power Saver mode. And you can now scroll both horizontally and vertically on the power indicator to change display brightness.
+This release provides power profiles management, including a performance mode for devices that support it. Expect much improved battery life for mobile devices with Power Saver mode. And you can now scroll both horizontally and vertically on the power indicator to change display brightness.
 
-The redesign Multitasking settings includes the ability to set custom Terminal commands for each hotcorner.
+We've added powerful features like the ability to set custom Terminal commands for each hotcorner and a redesign keyboard shortcuts settings makes it easier to disabled shortcuts or revert them to defaults, as well as much better custom shortcut management. You can now also launch the Shortcuts app from the applications menu and we've added the option to open and close the Multitasking view using the Super key.
 
-Online accounts includes offline support for CalDAV accounts and the ability to choose a refresh rate for IMAP accounts.
+<figure markdown="1">
+![Multitasking Settings]/images/{{ page.slug }}/settings-multitasking.png){: width="1024" height="720"}
+<figcaption markdown="1">
+Multitasking settings with per-corner Terminal commands
+</figcaption>
+</figure>
 
-Printer settings received special attention with several redesigns as well as new features like being able to clear the print queue per printer and a much clearer ink levels view.
+Keeping your device secure is paramount, which is why we've added a new option to forbid new USB devices from connecting while your device is locked, we've updated network settings and the network indicator to support WPA3 networks, and we've added support for offline firmware updates.
 
-Keyboard shortcut settings can now be easily disabled or reverted to their defaults and it's much easier to create and manage custom shortcuts. You can now also launch the Shortcuts app from the applications menu.
-
-We've added the option to open and close the Multitasking view using the Super key.
-
-A new security option allows you to forbid new USB devices from connecting while your device is locked.
-
-We now show the correct information for WPA3 networks.
-
-Support Rime input method for Chinese
-
-In both System Settings and the Panel, we now use more information to assign accurate icons to audio devices.
+Our localization team has also been hard at work and Central Kurdish is now available as an installable language, we now support installation and removal of languages with 3-letter codes, and we support the Rime input method for Chinese
 
 ### Performance
 
