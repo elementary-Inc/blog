@@ -12,7 +12,7 @@ hidden: 2023-01-31 17:00:00 UTC # 9 AM PST
 
 It's been just over a year since we released elementary OS 6.1 Jólnir which brought new features and fixes based on your feedback, introduced new office productivity features, and expanded compatibility with a wide range of hardware. So far, OS 6.1 has been downloaded from our website [over 400,000 times](https://plausible.io/elementary.io?period=custom&goal=Download&from=2021-12-20&to=2023-01-31&props=%7B%22Version%22:%226.1%22%7D)—150,000 times more than 6.0—and as always, that's not including downloads from third parties or direct downloads via torrent that bypass our download page!
 
-<figure class="constrained card" markdown="1">
+<figure class="card" markdown="1">
 ![elementary OS 7 Horus](/images/{{ page.slug }}/hero.png)
 </figure>
 
@@ -78,7 +78,7 @@ The Sideload app makes installing Flatpak apps and configuring alt stores simple
 
 There's no longer a warning dialog every time you install an app that's supplied by an alt store, instead we show an unobtrusive icon alongside the app's other content warnings letting you know that elementary hasn't reviewed this particular app.
 
-<figure markdown="1">
+<figure class="constrained" markdown="1">
 ![AppCenter's app info view](/images/{{ page.slug }}/appcenter-sideload.png){: width="1164" height="912"}
 <figcaption markdown="1">
 Even apps sideloaded from alt stores like Flathub can show brand colors
@@ -89,7 +89,7 @@ Apps from AppCenter could always use their own brand colors to make their app in
 
 ### Web Apps
 
-<figure markdown="1">
+<figure class="constrained" markdown="1">
 ![Sideload](/images/{{ page.slug }}/web-apps.png){: width="1122" height="866"}
 <figcaption markdown="1">
 iCloud Numbers running as a saved web app
@@ -128,11 +128,11 @@ During Initial setup, we now detect if you use the right mouse button for clicki
 
 Onboarding includes a new view for configuring automatic updates, as well as the addition of a "Sunset to Sunrise" option for the dark style.
 
-<figure markdown="1">
-![Choose Your Look view of Onboarding]/images/{{ page.slug }}/onboarding-styles.png){: width="497" height="664"}
-![Night Light view of Onboarding]/images/{{ page.slug }}/onboarding-nightlight.png){: width="497" height="407"}
-![Housekeeping view of Onboarding]/images/{{ page.slug }}/onboarding-housekeeping.png){: width="497" height="407"}
-![Updates view of Onboarding]/images/{{ page.slug }}/onboarding-updates.png){: width="497" height="407"}
+<figure class="half" markdown="1">
+![Choose Your Look view of Onboarding](/images/{{ page.slug }}/onboarding-styles.png){: width="497" height="664"}
+![Night Light view of Onboarding](/images/{{ page.slug }}/onboarding-nightlight.png){: width="497" height="407"}
+![Housekeeping view of Onboarding](/images/{{ page.slug }}/onboarding-housekeeping.png){: width="497" height="407"}
+![Updates view of Onboarding](/images/{{ page.slug }}/onboarding-updates.png){: width="497" height="407"}
 <figcaption markdown="1">
 New features and settings are offered during onboarding like scheduled dark mode and automatic updates
 </figcaption>
