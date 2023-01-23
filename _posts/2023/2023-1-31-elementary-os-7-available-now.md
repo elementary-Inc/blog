@@ -14,8 +14,8 @@ soon: true # remove this line when the site is deployed
 
 It's been just over a year since we released elementary OS 6.1 Jólnir which brought new features and fixes based on your feedback, introduced new office productivity features, and expanded compatibility with a wide range of hardware. So far, OS 6.1 has been downloaded from our website [over 400,000 times](https://plausible.io/elementary.io?period=custom&goal=Download&from=2021-12-20&to=2023-01-31&props=%7B%22Version%22:%226.1%22%7D)—150,000 times more than 6.0—and as always, that's not including downloads from third parties or direct downloads via torrent that bypass our download page!
 
-<figure class="constrained" markdown="1">
-![elementary OS 7 Horus](/images/{{ page.slug }}/hero.png)
+<figure class="constrained card" markdown="1">
+![elementary OS 7 Horus](/images/{{ page.slug }}/horus.png)
 </figure>
 
 Today we're proud to announce that OS 7, codenamed Horus, is available to download now and shipping on several high-quality computers. With OS 7, we've focused in on:
