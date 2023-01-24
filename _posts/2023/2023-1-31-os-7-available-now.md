@@ -20,7 +20,7 @@ Today we're proud to announce that OS 7, codenamed Horus, is available to downlo
 
 - Helping you get the apps you need
 - Empowering you with new features and settings
-- Evolving our developer platform and design guidelines
+- Evolving our developer platform
 
 To get elementary OS 7 now, head to [elementary.io] for the download—or read on for an overview of what's new.
 
@@ -58,7 +58,7 @@ Knowing how actively developed an app is and how engaged the developer is with t
 
 Staying up to date with the latest versions of apps is something we hear often is very important to folks using elementary OS. Flatpak makes it simple for developers to publish updates quickly and now you can get those updates automatically. If you'd still like to check for updates on your own time or want to force a manual refresh, there's now a handy menu option that you can use.
 
-<figure markdown="1">
+<figure class="constrained" markdown="1">
 ![AppCenter's  updates view](/images/{{ page.slug }}/appcenter-updates.png)
 <figcaption markdown="1">
 App Info views show more screenshots with captions and brand colors
@@ -113,8 +113,6 @@ The ability to send feedback directly to developers, see development happen tran
 ### Installation, Initial Setup & Onboarding
 
 We've done a decent amount of work this cycle on reducing the number of screens in the Installer and providing more information to help you make informed decisions. For example, we now warn about connecting to power when on battery using an infobar instead of a separate page and we've introduced a combined "Before You Install" page that includes warnings about things like virtual machines, developer builds, and system requirements all in one step. And speaking of virtual machines, we've resolved issues that made the installer window too large to be interacted with on some virtual machines.
-
-[Before You Install screenshot]
 
 During Initial setup, we now detect if you use the right mouse button for clicking and offer to switch to a left-handed mouse button order. There's also a new view that will appear if your device doesn't have network access instructing you how to get connected.
 
@@ -226,66 +224,48 @@ Our localization team has also been hard at work and Central Kurdish is now avai
 
 I want to make a special note here about performance. In just about every section I could have individually written about performance over and over again. The team has spent quite a bit of time tracking down slowdowns, reworking old code, and optimizing to make everything happen as quickly and responsively as possible and in the most extreme scenarios. I can't emphasize enough how big a part reducing latency plays in our vision for empowering you to do your best.
 
-## Evolving our developer platform and design guidelines
+## Evolving our developer platform and design language
 
+We always try to strike a balance between staying up on modern design concepts while avoiding trendiness to create our unique style. With OS 7 you should notice a push towards responsive app design—ensuring that apps can be used on both small and large displays—and a big change to unify the design of app icons. Part of this shift is enabled by using the latest technology in our platform like Gtk 4 and we're motivated by making sure elementary OS runs well on the kinds of devices that power your everyday life.
 
 ### Iconography
 
-New app icons
+Nearly all app icons have been redesigned to be based on a uniform tile shape with some elements overlaid or layered. The new design language for app icons feels more modern while still retaining the pixel-fitted charm you're used to and allowing for playful expression. We hope this change in direction makes it simpler for app developers to create high quality app icons that feel like they fit in on elementary OS.
 
-Additions:
+<figure markdown="1">
+![App Icons](/images/{{ page.slug }}/icons-apps.png)
+<figcaption markdown="1">
+Redesigned app icons
+</figcaption>
+</figure>
 
-"computer-fail"
-"preferences-desktop-theme"
-"application-x-sharedlib"
-"process-paused"
-caps-lock-symbolic
-eye-not-looking-symbolic
-eye-open-negative-filled-symbolic
-num-lock-symbolic
+In addition to modernizing app icons, several color and symbolic system icons have been updated to match the latest brand colors, to use the same tile base shape as app icons, to soften out shapes, and to improve legibility as always.
 
-Removals:
-
-"office-address-book"
-Flash file types
-notification-*
-Non-FDO network-*
-Non-FDO app icons
-
-Updated families:
-
-Clean up "preferences-desktop-workspaces"
-Update "preferences-desktop" to new tile shape
-Update "image-missing" to new tile shape
-Update "preferences-desktop-keyboard" to new tile shape
-Update "document-import" and "document-export" to new tile shape
-Update many file types with new arrow shape
-"application-default-icon" is now brightly colored
-"media-stop" is now a square
-Round symbolic location status icons
-Use an outlined shape for symbolic tag icons
-Use a rounded star for symbolic bookmark icons
-Redesign Night Light
-Use latest Flatpak branding
-Symbolic volume icons use a rounded shape and a slash when muted
-Redesign media-playlist-repeat
-Update media-playlist-shuffle and media-playlist-consecutive
-Rounder square icons
-Rounded arrow corners on Downloads folder
-Deb and Flatpak Bundle files use a package metaphor
-Updates arrow points up
-Redesigned package with new colors
+<figure class="half" markdown="1">
+![Color Icons](/images/{{ page.slug }}/icons-color.png)
+<picture>
+  <source srcset="/images/os-7-available-now/icons-symbolic-dark.png" media="(prefers-color-scheme: dark)">
+  <img alt="Symbolic Icons" src="/images/os-7-available-now/icons-symbolic-light.png"/>
+</picture>
+<figcaption markdown="1">
+System icons have been updated with softer corners, new brand colors, and more
+</figcaption>
+</figure>
 
 There's now also an Icon Browser app available in AppCenter where you can see all of the icons shipped with the elementary platform. You can search or view icons by category as well as see what sizes and styles an icon comes in and even get a quick code snippet to use in your app.
 
-[Icon Browser screenshot]
+<figure class="constrained" markdown="1">
+![Icon Browser](/images/{{ page.slug }}/iconbrowser.png)
+<figcaption markdown="1">
+The new Icon Browser app
+</figcaption>
+</figure>
 
-### Gtk 4
+### Gtk 4 & Responsive Design
 
-Sideload
-Shortcuts
-Music
-Onboarding
+Building great modern apps requires a modern toolkit. Gtk 4 brings a ton of performance and rendering improvements on its own as well as features that make it easier to make apps responsive and animated. We're excited to push the limits of the toolkit and we'll be staying up to date with point releases of Gtk 4 as part of our Flatak platform. Several apps and desktop components have already been ported to Gtk 4 such as Calculator, Sideload, Shortcuts, Music, and Onboarding and several more Gtk 4 ports will land throughout the lifecycle of OS 7.
+
+As mentioned a few times already, a big part of our design language going forward will be informed by making sure apps run great on both large and small displays. More and more we do our computing from tablets and mobile devices as well as our desktops and notebooks. With OS 7 we've worked to make apps much more tilable on desktops as well as notebooks with even very small display resolutions. Apps like AppCenter and Music work much better when space constrained and efforts here have even resolved issues in virtual machines, for example. Expect more updates throughout the lifecycle of OS 7 working towards responsiveness across the entire operating system.
 
 ### Granite
 
