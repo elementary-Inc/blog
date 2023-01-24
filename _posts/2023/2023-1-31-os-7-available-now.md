@@ -263,15 +263,15 @@ The new Icon Browser app
 
 ### Gtk 4 & Responsive Design
 
-Building great modern apps requires a modern toolkit. Gtk 4 brings a ton of performance and rendering improvements on its own as well as features that make it easier to make apps responsive and animated. We're excited to push the limits of the toolkit and we'll be staying up to date with point releases of Gtk 4 as part of our Flatak platform. Several apps and desktop components have already been ported to Gtk 4 such as Calculator, Sideload, Shortcuts, Music, and Onboarding and several more Gtk 4 ports will land throughout the lifecycle of OS 7.
+Building great modern apps requires a modern toolkit. Gtk 4 brings a ton of performance and rendering improvements on its own as well as features that make it easier to make apps responsive and animated. We're excited to push the limits of the toolkit and we'll be staying up to date with point releases of Gtk 4 as part of our Flatpak platform. Several apps and desktop components have already been ported to Gtk 4 such as Calculator, Sideload, Shortcuts, Music, and Onboarding and several more Gtk 4 ports will land throughout the life cycle of OS 7.
 
-As mentioned a few times already, a big part of our design language going forward will be informed by making sure apps run great on both large and small displays. More and more we do our computing from tablets and mobile devices as well as our desktops and notebooks. With OS 7 we've worked to make apps much more tilable on desktops as well as notebooks with even very small display resolutions. Apps like AppCenter and Music work much better when space constrained and efforts here have even resolved issues in virtual machines, for example. Expect more updates throughout the lifecycle of OS 7 working towards responsiveness across the entire operating system.
+As mentioned a few times already, a big part of our design language going forward will be informed by making sure apps run great on both large and small displays. More and more we do our computing from tablets and mobile devices as well as our desktops and notebooks. With OS 7 we've worked to make apps much more tile-able on desktops as well as notebooks with even very small display resolutions. Apps like AppCenter and Music work much better when space constrained and efforts here have even resolved issues in virtual machines, for example. Expect more updates throughout the life cycle of OS 7 working towards responsiveness across the entire operating system.
 
 ### Granite
 
 The latest version of our app framework Granite as well as our system stylesheet have been updated to support Gtk 4 and come with a host of new features and API changes to make building apps quick and straightforward.
 
-In Gtk 4, style class constants have moved from Gtk itself into the platform frameworks. This means that all of the supported style class constants in the elementary stylesheet are now provided by Granite. This includes classes you're familiar with like the ones for setting text colors as well as the ones for setting background colors on sidebars or in views, plus some new ones like `RICH_LIST` for setting up padding and margins on listboxes.
+In Gtk 4, style class constants have moved from Gtk itself into the platform frameworks. This means that all of the supported style class constants in the elementary stylesheet are now provided by Granite. This includes classes you're familiar with like the ones for setting text colors as well as the ones for setting background colors on sidebars or in views, plus some new ones like `RICH_LIST` for setting up padding and margins on ListBoxes.
 
 A new Granite.Placeholder widget was introduced to replace AlertView and Welcome with a single more flexible widget. It supports all the usual cases like welcome screens with buttons, embedded alerts, and placeholders for lists. It supports markup in descriptions and you can even uses style classes like `ACCENT`, `WARNING`, or `ERROR` to automatically color title text.
 
@@ -279,22 +279,27 @@ Plus, widgets have been reworked to set all of their margins and padding from Gt
 
 Every release comes with removals and this migration to Gtk 4 comes with quite a few of them. We're excited to remove several utilities that are better supported in Gtk and GLib upstream, including the Settings class, Logging, Command Launching, several drawing functions now covered by Gtk.CSS, DynamicNotebook since you can now get a great tab bar widget from Adwaita, and others. In each case we looked at existing apps and made sure they could migrate to Gtk 4 without losing functionality and in many cases their code was made more robust and more simple by using functions provided by upstream libraries.
 
-As always, the full API reference for Granite is available [on Valadoc.org](https://valadoc.org/granite-7/Granite.html).
-
-### Flatpak Platform
-7.1.0
-
 ### Tools
 
-Code
+Code has also been the focus of responsiveness efforts and can now be tiled even on tiny notebook displays. The first changes you might notice are the full-height project sidebar and the new elementary light and dark styles for the source view. Code now also optionally follows the system-wide dark style preference.
 
-Hidden folders are now shown in the project sidebar
-The currently selected result and the number of results is displayed while searching
-The search bar now has a regular expression mode
+<figure class="half" markdown="1">
+![Code in light mode](/images/{{ page.slug }}/code-light.png){: width="1173" height="703"}
+![Code in dark mode](/images/{{ page.slug }}/code-dark.png){: width="1173" height="703"}
+<figcaption markdown="1">
+Code in light and dark styles
+</figcaption>
+</figure>
 
-It is now possible to change Git branch with untracked files present in a project
-Line duplication is now actioned correctly if there is no selection present
+Both Find on Page and Find in Project are now available from the app's menu instead of in the headerbar and they both now support regular expressions. Project-wide searches are now also pre-filled with the selected text and the number of search results is now present in the search bar. Options for hiding and showing panels are now all present in a compact set of linked buttons in the app's menu as well. Hidden folders are now shown in your project's tree in the sidebar and manually selecting a project will hide tabs associated with other projects.
 
+<figure class="half" markdown="1">
+![Terminal in light mode](/images/{{ page.slug }}/terminal-light.png){: width="789" height="557"}
+![Terminal in dark mode](/images/{{ page.slug }}/terminal-dark.png){: width="789" height="557"}
+<figcaption markdown="1">
+Terminal in light and dark styles
+</figcaption>
+</figure>
 
 Terminal gains the ability to both follow the system dark style preference as well as create custom color palettes. The new default light and dark styles are now fully opaque and have been updated to match the latest upstream values from the Solarized themes for improved legibility. We've also added the keyboard shortcut <kbd>Alt</kbd> + <kbd>1—9</kbd> for switching tabs and you can quit Terminal with <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Q</kbd>
 
