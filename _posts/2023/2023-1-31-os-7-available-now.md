@@ -16,7 +16,7 @@ It's been just over a year since we released elementary OS 6.1 Jólnir which bro
 ![elementary OS 7 Horus](/images/{{ page.slug }}/hero.png)
 </figure>
 
-Today we're proud to announce that OS 7, codenamed Horus, is available to download now and shipping on several high-quality computers. With OS 7, we've focused in on:
+Today we're proud to announce that OS 7, codenamed Horus, is available to download now and shipping soon on several high-quality computers. With OS 7, we've focused in on:
 
 - Helping you get the apps you need
 - Empowering you with new features and settings
@@ -39,8 +39,6 @@ AppCenter can be used comfortably while tiled or on small displays
 
 We've completely rewritten the way navigation works in AppCenter and now support two-finger swipe gestures to navigate back. The entire app loads much faster and provides more feedback when running background tasks via an overlay bar in the bottom right or left corner.
 
-Recently updated apps are shown at the top of category views
-
 ### App Descriptions
 
 The biggest change you'll notice when viewing app info pages is the improved emphasis on screenshots. Screenshot carousels now fill the width of the window, showing more screenshots at once. They can now also be accompanied by their own captions, which can help describe individual features as well as making pages more accessible to folks with vision-related disabilities. And finally each screenshot now sits on a card that uses the app's accent color, showing off more of the developer's personality.
@@ -56,14 +54,16 @@ Knowing how actively developed an app is and how engaged the developer is with t
 
 ### Getting Updates
 
-Staying up to date with the latest versions of apps is something we hear often is very important to folks using elementary OS. Flatpak makes it simple for developers to publish updates quickly and now you can get those updates automatically. If you'd still like to check for updates on your own time or want to force a manual refresh, there's now a handy menu option that you can use.
+Staying up to date with the latest versions of apps is something we hear often is very important to folks using elementary OS. Flatpak makes it simple for developers to publish app updates quickly and now you can get those updates automatically. If you'd still like to check for updates on your own time or want to force a manual refresh, there's now a handy menu option that you can use.
 
 <figure class="constrained" markdown="1">
 ![AppCenter's  updates view](/images/{{ page.slug }}/appcenter-updates.png)
 <figcaption markdown="1">
-App Info views show more screenshots with captions and brand colors
+Operating system updates are now installed offline and app updates can happen automatically
 </figcaption>
 </figure>
+
+AppCenter now also installs operating system updates offline, ensuring that important services are restarted correctly and avoiding odd crashes or version mismatches when updating. Packages are downloaded and prepared during your session and then quickly installed whenever you decide to restart, without forced or automatic shutdowns.
 
 ### Sideloading & Alt Stores
 
@@ -320,7 +320,7 @@ elementary OS 7 is available as a pay-what-you-can purchase at [elementary.io] t
 
 ### Devices
 
-Our hardware retailers [Laptop with Linux], [Slimbook], and [Star Labs] are all offering elementary OS 7 out of the box starting today. Visit retailers' individual sites for more information.
+Our hardware retailers [Laptop with Linux], [Slimbook], and [Star Labs] will all offering elementary OS 7 out of the box soon. Visit retailers' individual sites for more information.
 
 <div style="text-align: center" markdown="1">
 [Shop Devices][store]{: .button }
