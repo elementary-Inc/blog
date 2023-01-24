@@ -309,6 +309,10 @@ There are tons of other small improvements, bug fixes, and more that didn't make
 
 ---
 
+<figure markdown="1">
+![elementary OS 7 Horus](/images/{{ page.slug }}/card.png)
+</figure>
+
 ## Get elementary OS 7
 
 elementary OS 7 is available as a pay-what-you-can purchase at [elementary.io] today. Localized direct downloads and a torrent magnet link are provided.
