@@ -20,7 +20,7 @@ Today we're proud to announce that OS 7, codenamed Horus, is available to downlo
 
 - Helping you get the apps you need
 - Empowering you with new features and settings
-- Evolving our developer platform and design guidelines
+- Evolving our developer platform
 
 To get elementary OS 7 now, head to [elementary.io] for the download—or read on for an overview of what's new.
 
@@ -28,7 +28,7 @@ To get elementary OS 7 now, head to [elementary.io] for the download—or read o
 
 ## Helping you get the apps you need
 
-As always, AppCenter is the centerpiece of elementary OS. The primary purpose of any operating system is to support the apps that you use to work, play, and express yourself creatively. In the latest version of AppCenter we've worked on making app descriptions more engaging with more information, making it easier to update to the latest versions of apps, and improving support for sideloading and alt stores. We've also worked on improving AppCenter's responsiveness—making sure you can comfortable use it when tiling and on small displays as well as better using space on large displays.
+As always, AppCenter is the centerpiece of elementary OS. The primary purpose of any operating system is to support the apps that you use to work, play, and express yourself creatively. In the latest version of AppCenter we've worked on making app descriptions more engaging with more information, making it easier to update to the latest versions of apps, and improving support for sideloading and alt stores. We've also worked on improving AppCenter's responsiveness—making sure you can comfortably use it when tiling and on small displays as well as better using space on large displays.
 
 <figure markdown="1">
 ![AppCenter at large and small sizes](/images/{{ page.slug }}/appcenter-responsive.png){: width="1628" height="913"}
@@ -52,13 +52,13 @@ App Info views show more screenshots with captions and brand colors
 </figcaption>
 </figure>
 
-Knowing how actively developed an app is and how engaged the developer is with their community is an important factor in decided which apps to install. We now help you know what to expect by showing an icon when an app uses an older, unsupported platform as well as showing up to 5 recent releases and their release notes instead of just the latest release. We also now show links to resolved tickets in an app's issue tracker per release, so you verify that app developers will take your feedback into consideration.
+Knowing how actively developed an app is and how engaged the developer is with their community is an important factor in deciding which apps to install. We now help you know what to expect by showing an icon when an app uses an older, unsupported platform as well as showing up to 5 recent releases and their release notes instead of just the latest release. We also now show links to resolved tickets in an app's issue tracker per release, so you verify that app developers will take your feedback into consideration.
 
 ### Getting Updates
 
 Staying up to date with the latest versions of apps is something we hear often is very important to folks using elementary OS. Flatpak makes it simple for developers to publish updates quickly and now you can get those updates automatically. If you'd still like to check for updates on your own time or want to force a manual refresh, there's now a handy menu option that you can use.
 
-<figure markdown="1">
+<figure class="constrained" markdown="1">
 ![AppCenter's  updates view](/images/{{ page.slug }}/appcenter-updates.png)
 <figcaption markdown="1">
 App Info views show more screenshots with captions and brand colors
@@ -113,8 +113,6 @@ The ability to send feedback directly to developers, see development happen tran
 ### Installation, Initial Setup & Onboarding
 
 We've done a decent amount of work this cycle on reducing the number of screens in the Installer and providing more information to help you make informed decisions. For example, we now warn about connecting to power when on battery using an infobar instead of a separate page and we've introduced a combined "Before You Install" page that includes warnings about things like virtual machines, developer builds, and system requirements all in one step. And speaking of virtual machines, we've resolved issues that made the installer window too large to be interacted with on some virtual machines.
-
-[Before You Install screenshot]
 
 During Initial setup, we now detect if you use the right mouse button for clicking and offer to switch to a left-handed mouse button order. There's also a new view that will appear if your device doesn't have network access instructing you how to get connected.
 
@@ -209,7 +207,7 @@ In elementary OS, settings are meant to make the operating system more accessibl
 
 This release provides power profiles management, including a performance mode for devices that support it. Expect much improved battery life for mobile devices with Power Saver mode. And you can now scroll both horizontally and vertically on the power indicator to change display brightness.
 
-We've added powerful features like the ability to set custom Terminal commands for each hotcorner and a redesign keyboard shortcuts settings makes it easier to disabled shortcuts or revert them to defaults, as well as much better custom shortcut management. You can now also launch the Shortcuts app from the applications menu and we've added the option to open and close the Multitasking view using the Super key.
+We've added powerful features like the ability to set custom Terminal commands for each hotcorner and a redesign keyboard shortcuts settings makes it easier to disable shortcuts or revert them to defaults, as well as much better custom shortcut management. You can now also launch the Shortcuts app from the applications menu and we've added the option to open and close the Multitasking view using the Super key.
 
 <figure markdown="1">
 ![Multitasking Settings](/images/{{ page.slug }}/settings-multitasking.png){: width="1024" height="720"}
@@ -226,72 +224,54 @@ Our localization team has also been hard at work and Central Kurdish is now avai
 
 I want to make a special note here about performance. In just about every section I could have individually written about performance over and over again. The team has spent quite a bit of time tracking down slowdowns, reworking old code, and optimizing to make everything happen as quickly and responsively as possible and in the most extreme scenarios. I can't emphasize enough how big a part reducing latency plays in our vision for empowering you to do your best.
 
-## Evolving our developer platform and design guidelines
+## Evolving our developer platform and design language
 
+We always try to strike a balance between staying up on modern design concepts while avoiding trendiness to create our unique style. With OS 7 you should notice a push towards responsive app design—ensuring that apps can be used on both small and large displays—and a big change to unify the design of app icons. Part of this shift is enabled by using the latest technology in our platform like Gtk 4 and we're motivated by making sure elementary OS runs well on the kinds of devices that power your everyday life.
 
 ### Iconography
 
-New app icons
+Nearly all app icons have been redesigned to be based on a uniform tile shape with some elements overlaid or layered. The new design language for app icons feels more modern while still retaining the pixel-fitted charm you're used to and allowing for playful expression. We hope this change in direction makes it simpler for app developers to create high quality app icons that feel like they fit in on elementary OS.
 
-Additions:
+<figure markdown="1">
+![App Icons](/images/{{ page.slug }}/icons-apps.png)
+<figcaption markdown="1">
+Redesigned app icons
+</figcaption>
+</figure>
 
-"computer-fail"
-"preferences-desktop-theme"
-"application-x-sharedlib"
-"process-paused"
-caps-lock-symbolic
-eye-not-looking-symbolic
-eye-open-negative-filled-symbolic
-num-lock-symbolic
+In addition to modernizing app icons, several color and symbolic system icons have been updated to match the latest brand colors, to use the same tile base shape as app icons, to soften out shapes, and to improve legibility as always.
 
-Removals:
-
-"office-address-book"
-Flash file types
-notification-*
-Non-FDO network-*
-Non-FDO app icons
-
-Updated families:
-
-Clean up "preferences-desktop-workspaces"
-Update "preferences-desktop" to new tile shape
-Update "image-missing" to new tile shape
-Update "preferences-desktop-keyboard" to new tile shape
-Update "document-import" and "document-export" to new tile shape
-Update many file types with new arrow shape
-"application-default-icon" is now brightly colored
-"media-stop" is now a square
-Round symbolic location status icons
-Use an outlined shape for symbolic tag icons
-Use a rounded star for symbolic bookmark icons
-Redesign Night Light
-Use latest Flatpak branding
-Symbolic volume icons use a rounded shape and a slash when muted
-Redesign media-playlist-repeat
-Update media-playlist-shuffle and media-playlist-consecutive
-Rounder square icons
-Rounded arrow corners on Downloads folder
-Deb and Flatpak Bundle files use a package metaphor
-Updates arrow points up
-Redesigned package with new colors
+<figure class="half" markdown="1">
+![Color Icons](/images/{{ page.slug }}/icons-color.png)
+<picture>
+  <source srcset="/images/os-7-available-now/icons-symbolic-dark.png" media="(prefers-color-scheme: dark)">
+  <img alt="Symbolic Icons" src="/images/os-7-available-now/icons-symbolic-light.png"/>
+</picture>
+<figcaption markdown="1">
+System icons have been updated with softer corners, new brand colors, and more
+</figcaption>
+</figure>
 
 There's now also an Icon Browser app available in AppCenter where you can see all of the icons shipped with the elementary platform. You can search or view icons by category as well as see what sizes and styles an icon comes in and even get a quick code snippet to use in your app.
 
-[Icon Browser screenshot]
+<figure class="constrained" markdown="1">
+![Icon Browser](/images/{{ page.slug }}/iconbrowser.png)
+<figcaption markdown="1">
+The new Icon Browser app
+</figcaption>
+</figure>
 
-### Gtk 4
+### Gtk 4 & Responsive Design
 
-Sideload
-Shortcuts
-Music
-Onboarding
+Building great modern apps requires a modern toolkit. Gtk 4 brings a ton of performance and rendering improvements on its own as well as features that make it easier to make apps responsive and animated. We're excited to push the limits of the toolkit and we'll be staying up to date with point releases of Gtk 4 as part of our Flatpak platform. Several apps and desktop components have already been ported to Gtk 4 such as Calculator, Sideload, Shortcuts, Music, and Onboarding and several more Gtk 4 ports will land throughout the life cycle of OS 7.
+
+As mentioned a few times already, a big part of our design language going forward will be informed by making sure apps run great on both large and small displays. More and more we do our computing from tablets and mobile devices as well as our desktops and notebooks. With OS 7 we've worked to make apps much more tile-able on desktops as well as notebooks with even very small display resolutions. Apps like AppCenter and Music work much better when space constrained and efforts here have even resolved issues in virtual machines, for example. Expect more updates throughout the life cycle of OS 7 working towards responsiveness across the entire operating system.
 
 ### Granite
 
 The latest version of our app framework Granite as well as our system stylesheet have been updated to support Gtk 4 and come with a host of new features and API changes to make building apps quick and straightforward.
 
-In Gtk 4, style class constants have moved from Gtk itself into the platform frameworks. This means that all of the supported style class constants in the elementary stylesheet are now provided by Granite. This includes classes you're familiar with like the ones for setting text colors as well as the ones for setting background colors on sidebars or in views, plus some new ones like `RICH_LIST` for setting up padding and margins on listboxes.
+In Gtk 4, style class constants have moved from Gtk itself into the platform frameworks. This means that all of the supported style class constants in the elementary stylesheet are now provided by Granite. This includes classes you're familiar with like the ones for setting text colors as well as the ones for setting background colors on sidebars or in views, plus some new ones like `RICH_LIST` for setting up padding and margins on ListBoxes.
 
 A new Granite.Placeholder widget was introduced to replace AlertView and Welcome with a single more flexible widget. It supports all the usual cases like welcome screens with buttons, embedded alerts, and placeholders for lists. It supports markup in descriptions and you can even uses style classes like `ACCENT`, `WARNING`, or `ERROR` to automatically color title text.
 
@@ -299,22 +279,27 @@ Plus, widgets have been reworked to set all of their margins and padding from Gt
 
 Every release comes with removals and this migration to Gtk 4 comes with quite a few of them. We're excited to remove several utilities that are better supported in Gtk and GLib upstream, including the Settings class, Logging, Command Launching, several drawing functions now covered by Gtk.CSS, DynamicNotebook since you can now get a great tab bar widget from Adwaita, and others. In each case we looked at existing apps and made sure they could migrate to Gtk 4 without losing functionality and in many cases their code was made more robust and more simple by using functions provided by upstream libraries.
 
-As always, the full API reference for Granite is available [on Valadoc.org](https://valadoc.org/granite-7/Granite.html).
-
-### Flatpak Platform
-7.1.0
-
 ### Tools
 
-Code
+Code has also been the focus of responsiveness efforts and can now be tiled even on tiny notebook displays. The first changes you might notice are the full-height project sidebar and the new elementary light and dark styles for the source view. Code now also optionally follows the system-wide dark style preference.
 
-Hidden folders are now shown in the project sidebar
-The currently selected result and the number of results is displayed while searching
-The search bar now has a regular expression mode
+<figure class="half" markdown="1">
+![Code in light mode](/images/{{ page.slug }}/code-light.png){: width="1173" height="703"}
+![Code in dark mode](/images/{{ page.slug }}/code-dark.png){: width="1173" height="703"}
+<figcaption markdown="1">
+Code in light and dark styles
+</figcaption>
+</figure>
 
-It is now possible to change Git branch with untracked files present in a project
-Line duplication is now actioned correctly if there is no selection present
+Both Find on Page and Find in Project are now available from the app's menu instead of in the headerbar and they both now support regular expressions. Project-wide searches are now also pre-filled with the selected text and the number of search results is now present in the search bar. Options for hiding and showing panels are now all present in a compact set of linked buttons in the app's menu as well. Hidden folders are now shown in your project's tree in the sidebar and manually selecting a project will hide tabs associated with other projects.
 
+<figure class="half" markdown="1">
+![Terminal in light mode](/images/{{ page.slug }}/terminal-light.png){: width="789" height="557"}
+![Terminal in dark mode](/images/{{ page.slug }}/terminal-dark.png){: width="789" height="557"}
+<figcaption markdown="1">
+Terminal in light and dark styles
+</figcaption>
+</figure>
 
 Terminal gains the ability to both follow the system dark style preference as well as create custom color palettes. The new default light and dark styles are now fully opaque and have been updated to match the latest upstream values from the Solarized themes for improved legibility. We've also added the keyboard shortcut <kbd>Alt</kbd> + <kbd>1—9</kbd> for switching tabs and you can quit Terminal with <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Q</kbd>
 
