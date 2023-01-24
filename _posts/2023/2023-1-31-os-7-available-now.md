@@ -147,7 +147,7 @@ Mail now has a flatter design
 </figcaption>
 </figure>
 
-Tasks now has offline support for newly created task lists and it makes sure to synchronize your remote lists when the network becomes available again. Plus it now sends notifications when a task is due.
+Tasks now has offline support for newly created task lists and it makes sure to synchronize your remote lists when the network becomes available again. Plus it now sends notifications when a task is due. Online Accounts settings now also includes offline support for CalDAV accounts and the ability to choose a refresh rate for IMAP accounts.
 
 A long asked-for feature, you can now choose to select folders with a single click instead of activating them in Files, Windows style. Quite a bit of work has gone into making sure multiple click modes are supported and working as expected. We've also spent extra attention dialing in the behavior of keyboard shortcuts, especially regarding copy/paste and selection shortcuts across different view modes and with different types of file selections.
 
@@ -158,7 +158,7 @@ Files now has a double-click option
 </figcaption>
 </figure>
 
-Printer settings received special attention with several redesigns as well as new features like being able to clear the print queue per printer and a much clearer ink levels view. Online accounts includes offline support for CalDAV accounts and the ability to choose a refresh rate for IMAP accounts.
+Printer settings received special attention with several redesigns as well as new features like being able to clear the print queue per printer and a much clearer ink levels view.
 
 <figure markdown="1">
 ![Printer Settings](/images/{{ page.slug }}/settings-printer.png){: width="1024" height="720"}
