@@ -1,6 +1,7 @@
 ---
 title: elementary OS 7 Available Now
-description:
+description: Forward thinking and designed for real life
+
 author: danrabbit
 image: /images/{{ page.slug }}/card.png
 tags:
