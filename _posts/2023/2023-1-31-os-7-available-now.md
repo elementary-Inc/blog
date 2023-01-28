@@ -319,7 +319,7 @@ There are tons of other small improvements, bug fixes, and more that didn't make
 elementary OS 7 is available as a pay-what-you-can purchase at [elementary.io] today. Localized direct downloads and a torrent magnet link are provided.
 
 <div style="text-align: center" markdown="1">
-[OS 7 FAQ](https://github.com/elementary/os/wiki/elementary-OS-7-FAQ){: .button.flat }
+[OS 7 FAQ](https://github.com/elementary/os/wiki/OS-7-Horus-FAQ){: .button.flat }
 [Download elementary OS 7][elementary.io]{: .button.suggested }
 </div>
 
