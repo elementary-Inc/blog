@@ -139,7 +139,7 @@ New features and settings are offered during onboarding like scheduled dark mode
 
 ### Office Productivity
 
-Mail now sports a more-modern flatter design as a first-step towards work on making it more responsive. The unified inbox now supports Microsoft 365 accounts. And multiple potential crashes and freezes have been resolved.
+Mail now sports a more-modern, flatter design as a first step towards work on making it more responsive. The unified inbox now supports Microsoft 365 accounts. And multiple potential crashes and freezes have been resolved.
 
 <figure markdown="1">
 ![Mail](/images/{{ page.slug }}/mail.png){: width="1161" height="750"}
@@ -219,7 +219,7 @@ Multitasking settings with per-corner Terminal commands
 
 Keeping your device secure is paramount, which is why we've added a new option to forbid new USB devices from connecting while your device is locked, we've updated network settings and the network indicator to support WPA3 networks, and we've added support for offline firmware updates.
 
-Our localization team has also been hard at work and Central Kurdish is now available as an installable language, we now support installation and removal of languages with 3-letter codes, and we support the Rime input method for Chinese
+Our localization team has also been hard at work and Central Kurdish is now available as an installable language, we now support installation and removal of languages with 3-letter codes, and we support the Rime input method for Chinese.
 
 ### Performance
 
@@ -325,7 +325,7 @@ elementary OS 7 is available as a pay-what-you-can purchase at [elementary.io] t
 
 ### Devices
 
-Our hardware retailers [Laptop with Linux], [Slimbook], and [Star Labs] will all offering elementary OS 7 out of the box soon. Visit retailers' individual sites for more information.
+Our hardware retailers [Laptop with Linux], [Slimbook], and [Star Labs] will all be offering elementary OS 7 out of the box soon. Visit retailers' individual sites for more information.
 
 <div style="text-align: center" markdown="1">
 [Shop Devices][store]{: .button }
