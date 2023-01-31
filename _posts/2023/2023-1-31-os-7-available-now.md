@@ -3,7 +3,7 @@ title: elementary OS 7 Available Now
 description: Forward thinking and designed for real life
 
 author: danrabbit
-image: /images/{{ page.slug }}/card.png
+image: /images/os-7-available-now/card.png
 tags:
   - horus
   - release
