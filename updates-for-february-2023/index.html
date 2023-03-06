@@ -3,10 +3,10 @@
   <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Updates for October, 2019 &sdot; elementary Blog</title>
-  <meta property="og:title" content="Updates for October, 2019" />
-  <meta itemprop="name" content="Updates for October, 2019" />
-  <meta name="twitter:title" content="Updates for October, 2019" />
+  <title>Updates for February, 2023 &sdot; elementary Blog</title>
+  <meta property="og:title" content="Updates for February, 2023" />
+  <meta itemprop="name" content="Updates for February, 2023" />
+  <meta name="twitter:title" content="Updates for February, 2023" />
 
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -28,15 +28,15 @@
     
     
     <meta name="twitter:card" content="summary_large_image" />
-    <meta property="twitter:image" content="https://blog.elementary.io/images/updates-for-october-2019/sideload@2x.png" />
+    <meta property="twitter:image" content="https://blog.elementary.io/images/updates-for-february-2023/card.png" />
   
   <meta name="twitter:site" content="@elementary" />
   <meta name="twitter:creator" content="@elementary" />
 
-  <meta name="description" content="The Flatpak Update. Plus: prepping for LAS and wrapping up Hacktoberfest." />
-  <meta property="og:description" content="The Flatpak Update. Plus: prepping for LAS and wrapping up Hacktoberfest." />
-  <meta itemprop="description" content="The Flatpak Update. Plus: prepping for LAS and wrapping up Hacktoberfest." />
-  <meta name="twitter:description" content="The Flatpak Update. Plus: prepping for LAS and wrapping up Hacktoberfest." />
+  <meta name="description" content="Big new features and a mountain of bug fixes" />
+  <meta property="og:description" content="Big new features and a mountain of bug fixes" />
+  <meta itemprop="description" content="Big new features and a mountain of bug fixes" />
+  <meta name="twitter:description" content="Big new features and a mountain of bug fixes" />
 
   <link rel="stylesheet" type="text/css" media="all" href="/css/main.css?v=2023-03-06 13:08:52 -0600" />
   
@@ -138,10 +138,6 @@
   
   
   
-    <aside class="outdated">
-      <strong>Note:</strong> this post was written over two years ago. The information below may be outdated.
-    </aside>
-  
 
 
 
@@ -152,7 +148,7 @@
 
 
 
-   Updates for October,&nbsp;2019
+   Updates for February,&nbsp;2023
 
 </h1>
     
@@ -160,7 +156,7 @@
 
 
 
-   The Flatpak Update. Plus: prepping for LAS and wrapping up&nbsp;Hacktoberfest.
+   Big new features and a mountain of bug&nbsp;fixes
 
 </h2>
     
@@ -173,25 +169,25 @@
   <div class="avatar">
     <img
       
-        srcset="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&d=blank 2x"
-        src="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&d=blank"
-        alt="Avatar for Cassidy James Blaede"
+        srcset="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&d=blank 2x"
+        src="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&d=blank"
+        alt="Avatar for Danielle Foré"
       
     />
   </div>
   <div class="author">
-    <a href="/authors/#cassidyjames">
-    <span class="name">Cassidy James Blaede</span>
+    <a href="/authors/#danrabbit">
+    <span class="name">Danielle Foré</span>
     </a>
     
-      <span class="description">Co-founder & CXO</span>
+      <span class="description">Founder & CEO</span>
     
   </div>
-  <time class="post-date" datetime="2019-11-01">Fri, Nov  1, 2019</time>
+  <time class="post-date" datetime="2023-03-06">Mon, Mar  6, 2023</time>
   
     <span class="read-time" title="Estimated read time">
   
-  8 min read
+  4 min read
 </span>
 
 
@@ -202,11 +198,7 @@
     <aside class="tags">
   
   
-    <a class="tag" href="/tags/#appcenter">#appcenter</a>
-  
-    <a class="tag" href="/tags/#flatpak">#flatpak</a>
-  
-    <a class="tag" href="/tags/#juno">#juno</a>
+    <a class="tag" href="/tags/#horus">#horus</a>
   
     <a class="tag" href="/tags/#updates">#updates</a>
   
@@ -216,183 +208,59 @@
   </header>
 
   <section>
-    <p>Welcome to November! A bit later this month we’ll be attending the <a rel="nofollow noopener noreferrer" target="_blank" href="https://linuxappsummit.org">Linux App Summit</a> alongside folks from Canonical, CodeThink, Collabora, Endless, Flatpak, Fractal, GNOME, GStreamer, KDE, Krita, LibreOffice, Meson, Purism, Red Hat, Ubuntu and more in Barcelona, Spain to hang out and work with folks from across the open source community—plus we’ll be giving a couple of talks about <a rel="nofollow noopener noreferrer" target="_blank" href="https://conf.linuxappsummit.org/en/LAS2019/public/events/43">Curb Cuts</a> and <a rel="nofollow noopener noreferrer" target="_blank" href="https://conf.linuxappsummit.org/en/LAS2019/public/events/48">Growing Beyond the System Tray</a>.</p>
+    <p>elementary OS 7 has been out for just over a month now and I’m excited to announce the first round of updates to our latest operating system includes both great feature updates and a long list of fixes for reported issues. As you may know, we prioritize our work based on your feedback so a big thanks to everyone sending us reports on GitHub and through the Feedback app.</p>
 
-<p>We’ll share more on that later, but first: let’s take a look at all of the updates that went out to elementary OS users over the past month.</p>
+<h2 id="files">Files</h2>
 
-<h2 id="sideload--flatpak">Sideload &amp; Flatpak</h2>
-
-<p>We have a brand new app for elementary OS to enable easier sideloading of apps. Sideload handles <code class="language-plaintext highlighter-rouge">flatpakref</code> files, like those you might find on <a rel="nofollow noopener noreferrer" target="_blank" href="https://flathub.org">Flathub</a> or another third-party website providing a Flatpak app for download.</p>
-
-<p><img src="/images/updates-for-october-2019/sideload.png" alt="Sideload screenshot" srcset="/images/updates-for-october-2019/sideload@2x.png 2x" /></p>
-
-<p>While we always recommend users visit AppCenter for quality curated apps made for elementary OS, we understand that there are some cross-platform apps that don’t meet the requirements to be curated in AppCenter. Rather than leaving users out on their own to add insecure PPAs or run random scripts as root, Sideload facilitates a safer way to help users get sandboxed apps.</p>
-
-<aside>
-  <blockquote>
-    <p>Flatpak is now enabled out of the box on elementary OS</p>
-  </blockquote>
-</aside>
-
-<p>This also means that Flatpak is now enabled out of the box on elementary OS, and we’ve <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/flatpak/flatpak.github.io/pull/355">submitted a pull request</a> to simplify the Flatpak <a rel="nofollow noopener noreferrer" target="_blank" href="https://flatpak.org/setup/elementary%20OS/">quick setup instructions</a> on Flatpak.org to reflect this.</p>
-
-<p>Sideload is a new app and we have plans to iterate on it over time, but it’s already super useful and straightforward. The first version was released in October and it will be rolling out to users soon. If you want to get your hands on it early (and aren’t afraid of the Terminal), you can install it with:</p>
-
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre><span class="nb">sudo </span>apt <span class="nb">install </span>io.elementary.sideload
-</pre></td></tr></tbody></table></code></pre></div></div>
-
-<h2 id="updates-released">Updates Released</h2>
-
-<p>Towards the end of the month we also finalized our brand new automation-powered release process (more on that in an upcoming blog post), meaning we were able to easily queue up the releases of several apps and desktop components.</p>
-
-<h3 id="appcenter-flatpak-non-curated-warning--up-to-10-faster">AppCenter: Flatpak, Non-Curated Warning, &amp; Up to 10× Faster</h3>
-
-<p>The big AppCenter update is finally here! This release adds Flatpak support out of the box, meaning apps from any added user remotes—including those added with Sideload—will show up automatically. Apps with multiple versions available (i.e. from both Flatpak and the Ubuntu repos) will show a drop-down to select the version of the app listing, and Flatpak updates will be included alongside normal updates. Because we default to user installations, installing and updating Flatpak apps does not require an administrator password.</p>
-
-<p>With users adding more non-curated apps into AppCenter with an officially-supported method, we also took time to be more clear about the implications of installing non-curated apps with a new dialog, similar to the Sideload dialog. As with Sideload, this is a starting point and we plan to iterate on it further, especially exposing more specific Flatpak permissions.</p>
-
-<p><img src="/images/updates-for-october-2019/non-curated.png" alt="Non-curated warning" srcset="/images/updates-for-october-2019/non-curated@2x.png 2x" /></p>
-
-<p>On app listings, we’ve added a loading animation to screenshots, plus added new forward/back navigation buttons on hover in case the little dots were too hard to hit.</p>
+<p>The headlining feature of this Files release is the new app menu in the headerbar. <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/jeremypw">Jeremy</a> put together this menu to better improve discoverability for features like zoom and undo/redo as well as to clean up folder context menus. The Undo and Redo buttons include tooltips showing what operation will be performed before you click them and we also updated the description for the double-click setting to make it more clear.</p>
 
 <figure>
-  <p><img src="/images/updates-for-october-2019/appcenter-fondo.png" alt="AppCenter" /></p>
-  <figcaption>AppCenter app listing with new screenshot navigation</figcaption>
+  <p><img src="/images/updates-for-february-2023/files.png" alt="Files" width="1064" height="744" /></p>
+  <figcaption>
+    <p>Files now has an app menu with app-wide settings and features</p>
+  </figcaption>
 </figure>
 
-<p>This release also adds the ability to browse and uninstall apps while not connected to the Internet, with a new network infobar that appears and directs you to your networking settings if you’re offline.</p>
+<p>We also fixed a number of reported issues including some off click behavior above and below text in the list view, case sensitivity in file path completion, and issues with MTP and PTP devices that have a colon in their name. Plus we reworked how the File Chooser handles typing focus when saving.</p>
 
-<figure>
-  <p><img src="/images/updates-for-october-2019/appcenter-network.png" alt="Network infobar" srcset="/images/updates-for-october-2019/appcenter-network@2x.png 2x" /></p>
-  <figcaption>Network infobar lets you browse cached apps and uninstall while offline</figcaption>
+<h2 id="network-indicator">Network Indicator</h2>
+
+<p>The network indicator has been getting some major design attention and now offers a much better experience for using VPNs. You’ll notice that most options now appear as circular toggle buttons with icons instead of a list of switches. This new design both saves space on devices with complex network configurations and shows the status of your various connections much clearer, including intermediate and error states. In the case of VPNs, you can now also activate multiple connections at once.</p>
+
+<figure class="card">
+  <p><img src="/images/updates-for-february-2023/network-indicator.png" alt="Network Indicator" /></p>
+  <figcaption>
+    <p>The Network Indicator has been redesigned with better VPN controls and Airplane Mode</p>
+  </figcaption>
 </figure>
 
-<p>Lastly, we’ve also cleaned up and refactored a <em>ton</em> of code in AppCenter, bringing massive performance improvements and numerous layout fixes. Paired with a newer version of PackageKit, AppCenter performs more actions in parallel. As a result, it’s <strong>about 10× faster</strong> for certain operations like showing featured apps on the home page.</p>
+<p>We’ve also added quick access to toggling Airplane Mode, including a middle-click action on the indicator icon. Plus, we’re now using a feature of Network Manager to automatically get better device names so you’ll rarely see long and cryptic device names any longer. And you may notice some subtly improved icons like a slightly larger Wi-Fi icon with rounded edges.</p>
 
-<h3 id="greeter-lots-of-little-fixes">Greeter: Lots of little fixes</h3>
+<h2 id="window-management">Window Management</h2>
 
-<p>We released the first update to the greeter since the new version was released, and it contains a handful of small but meaningful fixes. The greeter should better respect NumLock settings, saves the last user on attempted login, and has sounds enabled (i.e. for the “thud” when backspacing in an empty entry). We also fixed the wallpaper preview for wallpapers of certain aspect ratios, like those for ultra-wide displays. Entering a password no longer immediately removes it, and entering an incorrect password now highlights the typed password after erroring.</p>
+<p>This release of our window manager contains over a dozen fixes for reported issues thanks to <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/lenemter">Leo</a>’s hard work. This includes things like performance improvements and smoother animations, fixes for issues with shadows, improved ability to optionally disable animations, better handling of keyboard shortcuts in Multitasking View, and lots of code cleanup. Plus a fix that avoids accidentally closing windows when using three-finger multi-touch gestures. I recommend reading the <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/elementary/gala/releases/tag/7.0.1">full release notes</a> because this is a big one!</p>
 
-<p>Design-wise, we’ve reduced the size of non-focused user names to make the selected user more prominent.</p>
+<h2 id="and-more">And More</h2>
 
-<h3 id="panel-fixes">Panel: Fixes</h3>
+<p>AppCenter received a new Flatpak Repair feature thanks to <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/meisenzahl">Marius</a> which fixes an issue where some Flatpak runtimes could not be installed. Plus the updates page now shows a small message when everything is up-to-date, including the last time that AppCenter checked for updates.</p>
 
-<p>We released a minor update to the top panel that fixes a couple of reported issues. First, we’ve fixed the issue where some users could get the panel to move by dragging with multiple fingers on a touchscreen. We also fixed some focus issues where opening the Applications Menu or certain dialogs from the Panel would get into weird states.</p>
+<p>And thanks to the hard work of <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/marbetschar">Marco</a> and <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/Marukesu">Gustavo</a> our Portals—things like the app chooser and access dialogs—have now been ported to GTK 4!</p>
 
-<h3 id="date--time-indicator-redesign--fixes">Date &amp; Time Indicator: Redesign &amp; Fixes</h3>
+<h2 id="get-these-updates">Get These Updates</h2>
 
-<p>In October we released a major new design for the Date &amp; Time indicator in the top panel. It includes more clear navigation, a dot for events on each day, plus a side pane with the selected day’s events. The new design also fixes issues with using a large text size in the Appearance or Universal Access settings and improves overall performance.</p>
+<p>As always, pop open AppCenter on elementary OS 7 and hit “Update All” to get all these updates plus your regular security, bug fix, and translation updates.</p>
 
-<p><img src="/images/updates-for-october-2019/datetime.png" alt="Date &amp; Time indicator screenshot" srcset="/images/updates-for-october-2019/datetime@2x.png 2x" /></p>
+<hr />
 
-<p>We’ve also released major fixes for recurring events in the indicator, and display an error dialog if the Calendar fails to open for some reason when selecting a day or event.</p>
+<h2 id="documentation">Documentation</h2>
 
-<h3 id="security--privacy-settings-housekeeping-redesign">Security &amp; Privacy Settings: Housekeeping Redesign</h3>
+<p>Also worthy of mention this month is updates to our <a rel="nofollow noopener noreferrer" target="_blank" href="https://docs.elementary.io/develop/">developer documentation</a>. The landing page has been redesigned to better answer common questions and now includes a link to <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/elementary/docs/discussions">GitHub Discussions</a>. Plus, we rewrote our documentation on the <a rel="nofollow noopener noreferrer" target="_blank" href="https://docs.elementary.io/develop/appcenter/submission-process">AppCenter Submission Process</a> to reflect the current app submission workflow. But the biggest new section describes how to use <a rel="nofollow noopener noreferrer" target="_blank" href="https://docs.elementary.io/develop/apis/launchers#actions">DBus Activation</a> to add your app’s actions to your launcher’s menu in the Dock and Applications Menu, including a brand new full code sample. Shoutouts to <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/Antolius">Josip</a> for the research and patience that went into documenting this API in an accessible way.</p>
 
-<p><img src="/images/updates-for-october-2019/housekeeping.png" alt="Housekeeping screenshot" srcset="/images/updates-for-october-2019/housekeeping@2x.png 2x" /></p>
+<h2 id="early-access-preview">Early Access Preview</h2>
 
-<p>We reworked the design of the Housekeeping settings in the Security &amp; Privacy settings to better match the design of the new Onboarding app.</p>
+<p>Folks in early access should look forward to more big changes coming to Indicators and soon AppCenter will be able to report the specific install-time permissions requested by apps. Now that OS 7 is released, expect a bigger focus on new features and larger design changes. If you’ve been sending us feedback, Early Access is the best way to see changes as quickly as possible and help us refine new features before they are released to the general public.</p>
 
-<h3 id="bluetooth-settings-pairing-agent">Bluetooth Settings: Pairing Agent</h3>
-
-<figure class="half">
-  <p><img src="/images/updates-for-october-2019/pairing-pin.png" alt="Bluetooth pairing agent PIN dialog" srcset="/images/updates-for-october-2019/pairing-pin@2x.png 2x" />
-<img src="/images/updates-for-october-2019/pairing-passkey.png" alt="Bluetooth pairing agent passkey dialog" srcset="/images/updates-for-october-2019/pairing-passkey@2x.png 2x" /></p>
-  <figcaption>New Bluetooth pairing agent for PINs and passkeys</figcaption>
-</figure>
-
-<p>The Bluetooth settings now include a new pairing agent to better handle devices that need a PIN or passkey to pair. This dialog shows up when pairing a device like a keyboard, and should increase the compatibility of elementary OS for more wireless devices.</p>
-
-<h3 id="look--feel">Look &amp; Feel</h3>
-
-<p>In the look &amp; feel department, we released a new version of the system stylesheet—which controls how everything from buttons to menus are styled—as well as the icon set. The changes are subtle, but overall keep things consistent and looking great.</p>
-
-<p>For the stylesheet, we focused a bit on shadows: we made popover shadows more consistent, plus we improved the shadows on legacy-decorated windows (like those for GTK2 or Electron apps) by lightening them up a bit. Scrollbars in WebKit web views like in Epiphany have been improved with a wider hover state. Support for wide separators in apps like Tilix has been added. We fixed insensitive flat buttons in list rows. We also fixed unreadable keycap text in certain situations. Lastly, we’ve removed a handful of obsolete or duplicated styles.</p>
-
-<p>For the icons, we refreshed the system update icon with a new metaphor (a download-like arrow on a badge), and added a new symbolic version to be used in places like Sideload and AppCenter’s non-curated warning dialog. We’ve also increased the size of the inset symbols on 32px home icons, making them easier to see at a glance. We added a new workspace preferences icon, and added extra sizes for locale preferences, wireless signal, and user status icons. Lastly, we added a new view-reader icon for reading modes like in Epiphany.</p>
-
-<p>We’ve also laid the foundations for some upcoming developments with the Dock: we’ve ensured that the dock badge is always red—even if the stylesheet uses a different accent color—and we’ve added a (currently hidden) dark style that can be manually enabled in Plank’s hidden preferences. More on that later. 😉️</p>
-
-<h2 id="hacktoberfest-️️️">Hacktoberfest 🍂️👩‍💻️🎃️</h2>
-
-<p>Besides releasing a bundle of updates in October, this year we also saw great participation in <a rel="nofollow noopener noreferrer" target="_blank" href="https://hacktoberfest.digitalocean.com/">Hacktoberfest</a> solving bitesize bugs across our projects and working with new contributors on their first ever contributions to elementary.</p>
-
-<p>Thank you to all those contributors who made a difference, and thanks to the volunteers and maintainers who helped them out along the way.</p>
-
-<h2 id="get-the-updates">Get the Updates</h2>
-
-<p>As with each monthly update, you can also expect general bug fixes, performance improvements, and translation updates that we didn’t detail here. Open up AppCenter and hit that “Update All” button to get the goods.</p>
-
-<h2 id="more-flatpak-details">More Flatpak Details</h2>
-
-<p>The response to Flatpak support in elementary OS has been overwhelmingly positive! We covered a lot of the details and frequently-asked questions back in April when we <a href="/elementary-appcenter-flatpak/">first announced</a> our Flatpak plans. Be sure to give that a read if you want to learn more or want to see our longer-term plans.</p>
-
-<aside>
-
-
-
-<a class="featured with-image 1" href="/elementary-appcenter-flatpak/">
-  
-    <div class="featured-image" alt="Featured image" style="background-image: url(/images/elementary-appcenter-flatpak/flatpak.png);"></div>
-  
-
-  <header>
-    <h2>
-
-
-
-   elementary AppCenter +&nbsp;Flatpak
-
-</h2>
-    
-      <h3>
-        
-
-
-
-   Preparing for the&nbsp;future
-
-
-        
-      </h3>
-    
-
-    
-
-
-
-<div class="byline">
-  <div class="avatar">
-    <img srcset="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&amp;d=blank 2x" src="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&amp;d=blank" alt="Avatar for Cassidy James Blaede" />
-  </div>
-  <div class="author">
-    
-    <span class="name">Cassidy James Blaede</span>
-    
-    
-      <span class="description">Co-founder &amp; CXO</span>
-    
-  </div>
-  <time class="post-date" datetime="2019-04-01">Mon, Apr  1, 2019</time>
-  
-    <span class="read-time" title="Estimated read time">
-  
-  9 min read
-</span>
-
-
-  
-</div>
-
-
-  </header>
-
-  
-</a>
-
-
-</aside>
+<p>If you’re not already in early access, you can be among the first to try it and give your feedback by joining <a rel="nofollow noopener noreferrer" target="_blank" href="https://builds.elementary.io/">Early Access for a $10/mo sponsorship</a>.</p>
 
   </section>
 
@@ -529,25 +397,7 @@
 
 <div class="sponsor">
   
-      
-        <a rel="nofollow noopener noreferrer" target="_blank" href="https://s76.co/ElementarySponsorship" rel="noreferrer nofollow noopener" target="_blank">
-      
-      
-        <img
-          src="/images/sponsors/system76.png"
-          alt="System76"
-          
-            srcset="/images/sponsors/system76@2x.png 2x"
-          
-          class="constrained"
-        />
-      
-      </a>
-
-      <p>We'd like to specially thank
-      
-        <a rel="nofollow noopener noreferrer" target="_blank" href="https://s76.co/ElementarySponsorship" rel="noreferrer nofollow noopener" target="_blank">
-      System76</a> for <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/sponsors/elementary?frequency=one-time" rel="noreferrer nofollow noopener" target="_blank">sponsoring</a> this blog post and supporting our work. They make killer Linux laptops, desktops, and servers. If you're looking for a new computer, head their way!</p>
+    <p>We’re <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/sponsors/elementary?frequency=one-time" rel="noreferrer nofollow noopener" target="_blank">accepting limited sponsors</a> for the elementary Blog. View our <a rel="nofollow noopener noreferrer" target="_blank" href="https://plausible.io/blog.elementary.io" rel="noreferrer nofollow noopener" target="_blank">public analytics</a> and <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/sponsors/elementary?frequency=one-time" rel="noreferrer nofollow noopener" target="_blank">learn more</a> if you are interested.</p>
   
 </div>
 
@@ -567,65 +417,13 @@
   <h2>Join the Discussion on Social Media</h2>
 
   
-    <div class="official">
-      <h3>Official Posts</h3>
-
-      
-        <a
-          href="https://twitter.com/elementary/status/1190376602913427456"
-          rel="noreferrer nofollow noopener"
-          target="_blank"
-          title="Twitter"
-          onclick="plausible('Social: Twitter')"
-        >
-          <img src="/images/twitter.svg" alt="Twitter" />
-        </a>
-      
-
-      
-        <a
-          href="https://mastodon.social/@elementary/103065145606890904"
-          rel="noreferrer nofollow noopener"
-          target="_blank"
-          title="Mastodon"
-          onclick="plausible('Social: Mastodon')"
-        >
-          <img src="/images/mastodon.svg" alt="Mastodon" />
-        </a>
-      
-
-      
-        <a
-          href="https://www.reddit.com/r/elementaryos/comments/dqajba/updates_for_october_2019_elementary_blog/"
-          rel="noreferrer nofollow noopener"
-          target="_blank"
-          title="Reddit"
-          onclick="plausible('Social: Reddit')"
-        >
-          <img src="/images/reddit.svg" alt="Reddit" />
-        </a>
-      
-
-      
-        <a
-          href="https://www.facebook.com/elementaryos/posts/2804510489580762"
-          rel="noreferrer nofollow noopener"
-          target="_blank"
-          title="Facebook"
-          onclick="plausible('Social: Facebook')"
-        >
-          <img src="/images/facebook.svg" alt="Facebook" />
-        </a>
-      
-    </div>
-  
 
   <div class="share">
     <h3>Share</h3>
     
 
     <a
-      href="https://twitter.com/intent/tweet?text=Updates for October, 2019&url=https://blog.elementary.io/updates-for-october-2019/&via=elementary&original_referer=https://blog.elementary.io/updates-for-october-2019/"
+      href="https://twitter.com/intent/tweet?text=Updates for February, 2023&url=https://blog.elementary.io/updates-for-february-2023/&via=elementary&original_referer=https://blog.elementary.io/updates-for-february-2023/"
       rel="noreferrer nofollow noopener"
       target="_blank"
       title="Twitter"
@@ -635,7 +433,7 @@
     </a>
 
     <a
-      href="http://www.reddit.com/submit?title=Updates for October, 2019&url=https://blog.elementary.io/updates-for-october-2019/"
+      href="http://www.reddit.com/submit?title=Updates for February, 2023&url=https://blog.elementary.io/updates-for-february-2023/"
       rel="noreferrer nofollow noopener"
       target="_blank"
       title="Reddit"
@@ -645,7 +443,7 @@
     </a>
 
     <a
-      href="https://www.facebook.com/sharer/sharer.php?u=https://blog.elementary.io/updates-for-october-2019/"
+      href="https://www.facebook.com/sharer/sharer.php?u=https://blog.elementary.io/updates-for-february-2023/"
       rel="noreferrer nofollow noopener"
       target="_blank"
       title="Facebook"
@@ -655,7 +453,7 @@
     </a>
 
     <a
-      href="https://blog.elementary.io/updates-for-october-2019/"
+      href="https://blog.elementary.io/updates-for-february-2023/"
       title="Permalink"
       onclick="return share()"
     >
@@ -670,9 +468,9 @@ function share() {
 
   if (navigator.share) {
     navigator.share({
-      title: "Updates for October, 2019",
-      text: "The Flatpak Update. Plus: prepping for LAS and wrapping up Hacktoberfest.",
-      url: "https://blog.elementary.io/updates-for-october-2019/",
+      title: "Updates for February, 2023",
+      text: "Big new features and a mountain of bug fixes",
+      url: "https://blog.elementary.io/updates-for-february-2023/",
     })
     .catch((error) => console.log("Error sharing", error));
 
@@ -689,12 +487,16 @@ function share() {
 <h2 class="up-next">Up Next</h2>
 
 
+
+
+
+
   
     
 
-<a class="featured with-image 1" href="/updates-for-february-2023/">
+<a class="featured with-image 1" href="/os-7-available-now/">
   
-    <div class="featured-image" alt="Featured image" style="background-image: url(/images/updates-for-february-2023/card.png);"></div>
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/os-7-available-now/card.png);"></div>
   
 
   <header>
@@ -702,7 +504,7 @@ function share() {
 
 
 
-   Updates for February,&nbsp;2023
+   elementary OS 7 Available&nbsp;Now
 
 </h2>
     
@@ -711,7 +513,7 @@ function share() {
 
 
 
-   Big new features and a mountain of bug&nbsp;fixes
+   Forward thinking and designed for real&nbsp;life
 
 
         
@@ -740,159 +542,11 @@ function share() {
       <span class="description">Founder & CEO</span>
     
   </div>
-  <time class="post-date" datetime="2023-03-06">Mon, Mar  6, 2023</time>
+  <time class="post-date" datetime="2023-01-31">Tue, Jan 31, 2023</time>
   
     <span class="read-time" title="Estimated read time">
   
-  4 min read
-</span>
-
-
-  
-</div>
-
-
-  </header>
-
-  
-</a>
-
-
-  
-
-
-
-  
-    
-      
-
-<a class="featured with-image 1" href="/rebuilding-elementary-os/">
-  
-    <div class="featured-image" alt="Featured image" style="background-image: url(/images/rebuilding-elementary-os/header_1600.jpg);"></div>
-  
-
-  <header>
-    <h2>
-
-
-
-   Rebuilding elementary&nbsp;OS
-
-</h2>
-    
-      <h3>
-        
-
-
-
-   Our road to a better release process, automated builds, and&nbsp;more
-
-
-        
-      </h3>
-    
-
-    
-
-
-
-<div class="byline">
-  <div class="avatar">
-    <img
-      
-        srcset="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&d=blank 2x"
-        src="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&d=blank"
-        alt="Avatar for Cassidy James Blaede"
-      
-    />
-  </div>
-  <div class="author">
-    
-    <span class="name">Cassidy James Blaede</span>
-    
-    
-      <span class="description">Co-founder & CXO</span>
-    
-  </div>
-  <time class="post-date" datetime="2019-11-05">Tue, Nov  5, 2019</time>
-  
-    <span class="read-time" title="Estimated read time">
-  
-  8 min read
-</span>
-
-
-  
-</div>
-
-
-  </header>
-
-  
-</a>
-
-
-    
-  
-
-
-
-  
-    
-
-<a class="featured with-image 1" href="/updates-for-september-2019/">
-  
-    <div class="featured-image" alt="Featured image" style="background-image: url(/images/updates-for-september-2019/files-checkerboard@2x.png);"></div>
-  
-
-  <header>
-    <h2>
-
-
-
-   Updates for September,&nbsp;2019
-
-</h2>
-    
-      <h3>
-        
-
-
-
-   Updates to apps, settings, and more—plus kicking off&nbsp;Hacktoberfest
-
-
-        
-      </h3>
-    
-
-    
-
-
-
-<div class="byline">
-  <div class="avatar">
-    <img
-      
-        srcset="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&d=blank 2x"
-        src="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&d=blank"
-        alt="Avatar for Cassidy James Blaede"
-      
-    />
-  </div>
-  <div class="author">
-    
-    <span class="name">Cassidy James Blaede</span>
-    
-    
-      <span class="description">Co-founder & CXO</span>
-    
-  </div>
-  <time class="post-date" datetime="2019-10-02">Wed, Oct  2, 2019</time>
-  
-    <span class="read-time" title="Estimated read time">
-  
-  4 min read
+  17 min read
 </span>
 
 
@@ -1025,6 +679,77 @@ function share() {
     
 
     
+      
+
+<a class="featured with-image small" href="/updates-for-october-2022/">
+  
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/updates-for-april-2022/card.jpg);"></div>
+  
+
+  <header>
+    <h2>
+
+
+
+   Updates for October,&nbsp;2022
+
+</h2>
+    
+      <h3>
+        
+
+
+
+   Oh yeah, it's all coming&nbsp;together
+
+
+        
+      </h3>
+    
+
+    
+
+
+
+<div class="byline">
+  <div class="avatar">
+    <img
+      
+        srcset="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&d=blank 2x"
+        src="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&d=blank"
+        alt="Avatar for Danielle Foré"
+      
+    />
+  </div>
+  <div class="author">
+    
+    <span class="name">Danielle Foré</span>
+    
+    
+      <span class="description">Founder & CEO</span>
+    
+  </div>
+  <time class="post-date" datetime="2022-11-01">Tue, Nov  1, 2022</time>
+  
+    <span class="read-time" title="Estimated read time">
+  
+  3 min read
+</span>
+
+
+  
+</div>
+
+
+  </header>
+
+  
+</a>
+
+
+      
+      
+    
 
   
 
@@ -1033,6 +758,77 @@ function share() {
 
     
 
+    
+      
+
+<a class="featured with-image small" href="/updates-for-september-2022/">
+  
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/updates-for-september-2022/iconbrowser.png);"></div>
+  
+
+  <header>
+    <h2>
+
+
+
+   Updates for September,&nbsp;2022
+
+</h2>
+    
+      <h3>
+        
+
+
+
+   A new developer tool and steady OS 7&nbsp;progress
+
+
+        
+      </h3>
+    
+
+    
+
+
+
+<div class="byline">
+  <div class="avatar">
+    <img
+      
+        srcset="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&d=blank 2x"
+        src="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&d=blank"
+        alt="Avatar for Danielle Foré"
+      
+    />
+  </div>
+  <div class="author">
+    
+    <span class="name">Danielle Foré</span>
+    
+    
+      <span class="description">Founder & CEO</span>
+    
+  </div>
+  <time class="post-date" datetime="2022-10-05">Wed, Oct  5, 2022</time>
+  
+    <span class="read-time" title="Estimated read time">
+  
+  4 min read
+</span>
+
+
+  
+</div>
+
+
+  </header>
+
+  
+</a>
+
+
+      
+      
     
 
   
@@ -1177,7 +973,7 @@ function share() {
   
     <span class="read-time" title="Estimated read time">
   
-  4 min read
+  3 min read
 </span>
 
 
@@ -1258,166 +1054,6 @@ function share() {
     <span class="read-time" title="Estimated read time">
   
   4 min read
-</span>
-
-
-  
-</div>
-
-
-  </header>
-
-  
-</a>
-
-
-      
-      
-    
-
-  
-
-    
-    
-
-    
-
-    
-      
-
-<a class="featured with-image small" href="/updates-for-may-2022/">
-  
-    <div class="featured-image" alt="Featured image" style="background-image: url(/images/elementary-os-6-odin-updates-september-2021/card.jpg);"></div>
-  
-
-  <header>
-    <h2>
-
-
-
-   Updates for May,&nbsp;2022
-
-</h2>
-    
-      <h3>
-        
-
-
-
-   OS 6 still gets the latest&nbsp;goodies
-
-
-        
-      </h3>
-    
-
-    
-
-
-
-<div class="byline">
-  <div class="avatar">
-    <img
-      
-        srcset="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&d=blank 2x"
-        src="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&d=blank"
-        alt="Avatar for Danielle Foré"
-      
-    />
-  </div>
-  <div class="author">
-    
-    <span class="name">Danielle Foré</span>
-    
-    
-      <span class="description">Founder & CEO</span>
-    
-  </div>
-  <time class="post-date" datetime="2022-05-31">Tue, May 31, 2022</time>
-  
-    <span class="read-time" title="Estimated read time">
-  
-  5 min read
-</span>
-
-
-  
-</div>
-
-
-  </header>
-
-  
-</a>
-
-
-      
-      
-    
-
-  
-
-    
-    
-
-    
-
-    
-      
-
-<a class="featured with-image small" href="/updates-for-april-2022/">
-  
-    <div class="featured-image" alt="Featured image" style="background-image: url(/images/updates-for-april-2022/card.jpg);"></div>
-  
-
-  <header>
-    <h2>
-
-
-
-   Updates for April,&nbsp;2022
-
-</h2>
-    
-      <h3>
-        
-
-
-
-   Counting down to OS&nbsp;7
-
-
-        
-      </h3>
-    
-
-    
-
-
-
-<div class="byline">
-  <div class="avatar">
-    <img
-      
-        srcset="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&d=blank 2x"
-        src="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&d=blank"
-        alt="Avatar for Danielle Foré"
-      
-    />
-  </div>
-  <div class="author">
-    
-    <span class="name">Danielle Foré</span>
-    
-    
-      <span class="description">Founder & CEO</span>
-    
-  </div>
-  <time class="post-date" datetime="2022-05-03">Tue, May  3, 2022</time>
-  
-    <span class="read-time" title="Estimated read time">
-  
-  5 min read
 </span>
 
 

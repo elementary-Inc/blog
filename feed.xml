@@ -5,9 +5,83 @@
     <description>We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS</description>
     <link>https://blog.elementary.io/</link>
     <atom:link href="https://blog.elementary.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 05 Mar 2023 18:06:40 -0600</pubDate>
-    <lastBuildDate>Sun, 05 Mar 2023 18:06:40 -0600</lastBuildDate>
+    <pubDate>Mon, 06 Mar 2023 13:08:52 -0600</pubDate>
+    <lastBuildDate>Mon, 06 Mar 2023 13:08:52 -0600</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      
+        <item>
+          <title>Updates for February, 2023</title>
+          <description>&lt;p&gt;elementary OS 7 has been out for just over a month now and I’m excited to announce the first round of updates to our latest operating system includes both great feature updates and a long list of fixes for reported issues. As you may know, we prioritize our work based on your feedback so a big thanks to everyone sending us reports on GitHub and through the Feedback app.&lt;/p&gt;
+
+&lt;h2 id=&quot;files&quot;&gt;Files&lt;/h2&gt;
+
+&lt;p&gt;The headlining feature of this Files release is the new app menu in the headerbar. &lt;a href=&quot;https://github.com/jeremypw&quot;&gt;Jeremy&lt;/a&gt; put together this menu to better improve discoverability for features like zoom and undo/redo as well as to clean up folder context menus. The Undo and Redo buttons include tooltips showing what operation will be performed before you click them and we also updated the description for the double-click setting to make it more clear.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/updates-for-february-2023/files.png&quot; alt=&quot;Files&quot; width=&quot;1064&quot; height=&quot;744&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;Files now has an app menu with app-wide settings and features&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We also fixed a number of reported issues including some off click behavior above and below text in the list view, case sensitivity in file path completion, and issues with MTP and PTP devices that have a colon in their name. Plus we reworked how the File Chooser handles typing focus when saving.&lt;/p&gt;
+
+&lt;h2 id=&quot;network-indicator&quot;&gt;Network Indicator&lt;/h2&gt;
+
+&lt;p&gt;The network indicator has been getting some major design attention and now offers a much better experience for using VPNs. You’ll notice that most options now appear as circular toggle buttons with icons instead of a list of switches. This new design both saves space on devices with complex network configurations and shows the status of your various connections much clearer, including intermediate and error states. In the case of VPNs, you can now also activate multiple connections at once.&lt;/p&gt;
+
+&lt;figure class=&quot;card&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/updates-for-february-2023/network-indicator.png&quot; alt=&quot;Network Indicator&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;The Network Indicator has been redesigned with better VPN controls and Airplane Mode&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We’ve also added quick access to toggling Airplane Mode, including a middle-click action on the indicator icon. Plus, we’re now using a feature of Network Manager to automatically get better device names so you’ll rarely see long and cryptic device names any longer. And you may notice some subtly improved icons like a slightly larger Wi-Fi icon with rounded edges.&lt;/p&gt;
+
+&lt;h2 id=&quot;window-management&quot;&gt;Window Management&lt;/h2&gt;
+
+&lt;p&gt;This release of our window manager contains over a dozen fixes for reported issues thanks to &lt;a href=&quot;https://github.com/lenemter&quot;&gt;Leo&lt;/a&gt;’s hard work. This includes things like performance improvements and smoother animations, fixes for issues with shadows, improved ability to optionally disable animations, better handling of keyboard shortcuts in Multitasking View, and lots of code cleanup. Plus a fix that avoids accidentally closing windows when using three-finger multi-touch gestures. I recommend reading the &lt;a href=&quot;https://github.com/elementary/gala/releases/tag/7.0.1&quot;&gt;full release notes&lt;/a&gt; because this is a big one!&lt;/p&gt;
+
+&lt;h2 id=&quot;and-more&quot;&gt;And More&lt;/h2&gt;
+
+&lt;p&gt;AppCenter received a new Flatpak Repair feature thanks to &lt;a href=&quot;https://github.com/meisenzahl&quot;&gt;Marius&lt;/a&gt; which fixes an issue where some Flatpak runtimes could not be installed. Plus the updates page now shows a small message when everything is up-to-date, including the last time that AppCenter checked for updates.&lt;/p&gt;
+
+&lt;p&gt;And thanks to the hard work of &lt;a href=&quot;https://github.com/marbetschar&quot;&gt;Marco&lt;/a&gt; and &lt;a href=&quot;https://github.com/Marukesu&quot;&gt;Gustavo&lt;/a&gt; our Portals—things like the app chooser and access dialogs—have now been ported to GTK 4!&lt;/p&gt;
+
+&lt;h2 id=&quot;get-these-updates&quot;&gt;Get These Updates&lt;/h2&gt;
+
+&lt;p&gt;As always, pop open AppCenter on elementary OS 7 and hit “Update All” to get all these updates plus your regular security, bug fix, and translation updates.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;documentation&quot;&gt;Documentation&lt;/h2&gt;
+
+&lt;p&gt;Also worthy of mention this month is updates to our &lt;a href=&quot;https://docs.elementary.io/develop/&quot;&gt;developer documentation&lt;/a&gt;. The landing page has been redesigned to better answer common questions and now includes a link to &lt;a href=&quot;https://github.com/elementary/docs/discussions&quot;&gt;GitHub Discussions&lt;/a&gt;. Plus, we rewrote our documentation on the &lt;a href=&quot;https://docs.elementary.io/develop/appcenter/submission-process&quot;&gt;AppCenter Submission Process&lt;/a&gt; to reflect the current app submission workflow. But the biggest new section describes how to use &lt;a href=&quot;https://docs.elementary.io/develop/apis/launchers#actions&quot;&gt;DBus Activation&lt;/a&gt; to add your app’s actions to your launcher’s menu in the Dock and Applications Menu, including a brand new full code sample. Shoutouts to &lt;a href=&quot;https://github.com/Antolius&quot;&gt;Josip&lt;/a&gt; for the research and patience that went into documenting this API in an accessible way.&lt;/p&gt;
+
+&lt;h2 id=&quot;early-access-preview&quot;&gt;Early Access Preview&lt;/h2&gt;
+
+&lt;p&gt;Folks in early access should look forward to more big changes coming to Indicators and soon AppCenter will be able to report the specific install-time permissions requested by apps. Now that OS 7 is released, expect a bigger focus on new features and larger design changes. If you’ve been sending us feedback, Early Access is the best way to see changes as quickly as possible and help us refine new features before they are released to the general public.&lt;/p&gt;
+
+&lt;p&gt;If you’re not already in early access, you can be among the first to try it and give your feedback by joining &lt;a href=&quot;https://builds.elementary.io/&quot;&gt;Early Access for a $10/mo sponsorship&lt;/a&gt;.&lt;/p&gt;
+</description>
+          <pubDate>Mon, 06 Mar 2023 00:00:00 -0600</pubDate>
+          <link>https://blog.elementary.io/updates-for-february-2023/</link>
+          <guid isPermaLink="true">https://blog.elementary.io/updates-for-february-2023/</guid>
+          
+              
+              
+          <enclosure url="https://blog.elementary.io" />
+          
+          
+          <category>horus</category>
+          
+          <category>updates</category>
+          
+          
+        </item>
+      
     
       
         <item>
@@ -927,269 +1001,6 @@
           <category>horus</category>
           
           <category>updates</category>
-          
-          
-        </item>
-      
-    
-      
-        <item>
-          <title>Updates for January, 2022</title>
-          <description>&lt;p&gt;We just &lt;a href=&quot;/elementary-os-6-1-available-now&quot;&gt;released OS 6.1&lt;/a&gt; in December, and this month we’re back with a handful of updates and fixes.&lt;/p&gt;
-
-&lt;p&gt;An update to Mail brings support for the unified Inbox view to Microsoft 365 accounts, enabling more users to mix e.g. their work and personal inboxes into one super view. We also fixed a few rare freezes and crashes, and fixed duplicate sender addresses when composing messages. As a nice detail, the compose window now uses the subject as the window title to make things easier to find in the Multitasking View and the &lt;kbd&gt;Alt&lt;/kbd&gt;&lt;kbd&gt;Tab&lt;/kbd&gt; window switcher.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;picture&gt;
-  
-    &lt;source srcset=&quot;/images/updates-for-january-2022/mail-dark.png&quot; media=&quot;(prefers-color-scheme: dark)&quot; /&gt;
-  
-
-    &lt;img alt=&quot;Screenshot of mail compose window&quot; src=&quot;/images/updates-for-january-2022/mail.png&quot; width=&quot;651&quot; height=&quot;571&quot; /&gt;
-&lt;/picture&gt;
-
-  &lt;figcaption&gt;Mail now uses the subject line as the window title when composing&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;We added a confirmation dialog for deleting in Calendar to prevent accidentally wrecking your events—especially helpful for shared and recurring events. You can also now &lt;kbd&gt;Ctrl&lt;/kbd&gt;&lt;kbd&gt;Click&lt;/kbd&gt; links and email addresses in event descriptions to visit them or send a new message.&lt;/p&gt;
-
-&lt;p&gt;And rounding out the office productivity apps, we pushed an update to Tasks adding notifications for due tasks so you’re more likely to remember and accomplish your to-dos.&lt;/p&gt;
-
-&lt;p&gt;There were also a handful of smaller updates throughout the month: we pushed an update to Files to show keyboard shortcuts for New Tab and New Window actions in the context menu—and we fixed a couple of crashes and interaction issues along the way. An update to Network settings fixes an issue with wired connections repeatedly reconnecting. We fixed a potential crash in Videos with certain media codecs. And lastly, we updated our Portals component to fix a number of issues with focus, positioning, animations, and crashes.&lt;/p&gt;
-
-&lt;h3 id=&quot;get-these-updates&quot;&gt;Get these updates&lt;/h3&gt;
-
-&lt;p&gt;As always, pop open AppCenter on elementary OS 6.1 and hit “Update All” to get all these updates plus your regular security, bug fix, and translation updates.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;shifting-development-to-os-7&quot;&gt;Shifting Development to OS 7&lt;/h2&gt;
-
-&lt;p&gt;At this point in the development cycle, we’ve started to shift our focus to developing elementary OS 7, the next major release. OS 6.1 will continue to receive updates and security fixes to underlying components from the Ubuntu repositories, and we’ll continue releasing updates to the core apps and components as we’re able—but in some cases, we’re focusing on new OS features that rely on underlying technologies that are not available in the OS 6 base.&lt;/p&gt;
-
-&lt;aside&gt;
-  &lt;blockquote&gt;
-    &lt;p&gt;Flatpak apps will continue receiving regular updates in perpetuity; this is the pay-off for adopting it for elementary OS and AppCenter!&lt;/p&gt;
-  &lt;/blockquote&gt;
-&lt;/aside&gt;
-
-&lt;p&gt;All Flatpak apps will continue receiving regular updates in perpetuity; this includes default apps like Archive Manager, Calculator, Camera, Captive Network Assistant, Document Viewer, Screenshot, Videos, and Web. This also includes all curated apps from AppCenter as well as any sideloaded apps from other source like Flathub. This is the pay-off for our efforts in investing in Flatpak as a technology and adopting it for elementary OS and AppCenter!&lt;/p&gt;
-
-&lt;p&gt;For OS 7 specifically, we’ve started &lt;a href=&quot;https://github.com/orgs/elementary/projects/94/views/1&quot;&gt;a number of initiatives&lt;/a&gt; that we hope to see through to the final release. This is in no way a comprehensive or final list of features, but just what we’re currently working on:&lt;/p&gt;
-
-&lt;h3 id=&quot;major-update-and-rethinking-of-music&quot;&gt;Major update and rethinking of Music&lt;/h3&gt;
-
-&lt;p&gt;We’re hearing more often that users are relying on music streaming services and just want a simpler local audio player experience; we’ve &lt;a href=&quot;https://github.com/orgs/elementary/projects/96&quot;&gt;begun work to rethink Music from the ground up&lt;/a&gt; as a simpler queue-based audio player that also takes advantages of new technologies like Flatpak and GTK4 from the start.&lt;/p&gt;
-
-&lt;figure class=&quot;constrained&quot;&gt;
-  &lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/elementary/music/6d1c12767d0c2cd8f391b7b2f067142c9fc875ca/data/screenshot.png&quot; alt=&quot;Music screenshot&quot; /&gt;&lt;/p&gt;
-  &lt;figcaption&gt;Sneak peek at the new Music&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;It’s still relatively early days here, but the initial work is exciting: we have a solid and very fast audio player with a queue that you can drag and drop files into. It supports repeat modes, shuffle, indicator panel integration through MPRIS, file metadata, and embedded cover art.&lt;/p&gt;
-
-&lt;p&gt;We also plan to launch a user study to help us further understand how people collect, store, and consume media on elementary OS which may affect future development of Music as well as Videos. For now, we welcome feedback from &lt;a href=&quot;https://builds.elementary.io/&quot;&gt;Early Access&lt;/a&gt; users who get their hands on the current state of Music!&lt;/p&gt;
-
-&lt;h3 id=&quot;auto-updates-in-appcenter&quot;&gt;Auto updates in AppCenter&lt;/h3&gt;
-
-&lt;p&gt;With Flatpak, it’s much less risky to automatically update apps in the background because (unlike with Debian packages) the update isn’t applied until it has completely succeeded and the app has been restarted. At the same time, we need to consider that non-curated Flatpaks could change their sandboxing out from under users with a simple update. We also need to consider the “try for free” use case for paid apps, where a user can install a paid app for $0 but is prompted to pay again upon an update.&lt;/p&gt;
-
-&lt;figure class=&quot;constrained&quot;&gt;
-  &lt;picture&gt;
-  
-    &lt;source srcset=&quot;/images/updates-for-january-2022/appcenter-dark.png&quot; media=&quot;(prefers-color-scheme: dark)&quot; /&gt;
-  
-
-    &lt;img alt=&quot;Screenshot of AppCenter automatic updates toggle&quot; src=&quot;/images/updates-for-january-2022/appcenter.png&quot; width=&quot;1159&quot; height=&quot;797&quot; /&gt;
-&lt;/picture&gt;
-
-  &lt;figcaption&gt;Daily builds of AppCenter sport an “Automatic Updates” toggle&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;The &lt;a href=&quot;https://github.com/elementary/appcenter/pull/1793&quot;&gt;initial functionality&lt;/a&gt; has been merged into daily builds of AppCenter in OS 7 already, but we still need to sort out the exact experience—and most importantly, messaging. And then we’ll need to heavily test that experience and collect and address feedback from our &lt;a href=&quot;https://builds.elementary.io/&quot;&gt;Early Access&lt;/a&gt; users.&lt;/p&gt;
-
-&lt;h3 id=&quot;improved-power-management-and-battery-settings&quot;&gt;Improved power management and battery settings&lt;/h3&gt;
-
-&lt;p&gt;You may be familiar with “power management” features on other platforms that enable choosing between power saver, a default balanced mode, and a performance mode. We’re able to ship this functionality in elementary OS 7, hooking into the device’s power management when supported to e.g. either extend battery life or crank up the performance at the expense of battery life and/or fan noise.&lt;/p&gt;
-
-&lt;figure class=&quot;constrained&quot;&gt;
-  &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/7277719/148827619-42be5160-f76a-4cbe-bf5d-41f681ee7541.png&quot; alt=&quot;Screenshot of power management&quot; /&gt;&lt;/p&gt;
-  &lt;figcaption&gt;
-    &lt;p&gt;Initial work towards power management in &lt;em&gt;System Settings&lt;/em&gt; → &lt;em&gt;Power&lt;/em&gt;&lt;/p&gt;
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;This work is possible thanks to the &lt;a href=&quot;https://gitlab.freedesktop.org/hadess/power-profiles-daemon/&quot;&gt;upstream FreeDesktop Power Profiles Daemon&lt;/a&gt;, and settings to control its behavior &lt;a href=&quot;https://github.com/elementary/switchboard-plug-power/pull/192&quot;&gt;have been merged&lt;/a&gt; into OS 7 daily builds—we hope to add a quick way to change modes to the Panel indicator before release as well. We’re excited to hear feedback from &lt;a href=&quot;https://builds.elementary.io/&quot;&gt;Early Access&lt;/a&gt; users here, as this has been a highly-requested feature and we want to make sure to get the experience right.&lt;/p&gt;
-
-&lt;figure class=&quot;constrained&quot;&gt;
-  &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/611168/129139879-b1c00b6f-9bdd-4d91-980d-2b4edd096d3c.png&quot; alt=&quot;Screenshot of battery health&quot; width=&quot;890&quot; height=&quot;565&quot; /&gt;&lt;/p&gt;
-  &lt;figcaption&gt;
-    &lt;p&gt;Initial work towards battery health in a reorganized &lt;em&gt;System Settings&lt;/em&gt; → &lt;em&gt;Power&lt;/em&gt;&lt;/p&gt;
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Similarly, we’ve started work on a new &lt;a href=&quot;https://github.com/elementary/switchboard-plug-power/pull/194&quot;&gt;battery health/status section&lt;/a&gt; in the Power settings, along with slight reorganization of the settings; while this has not yet been merged, we’ve made progress on the design and hope to sort out the implementation for OS 7.&lt;/p&gt;
-
-&lt;h3 id=&quot;gtk4-granite-7-and-developer-platform-updates&quot;&gt;GTK4, Granite 7, and developer platform updates&lt;/h3&gt;
-
-&lt;p&gt;OS 7 will come with GTK4 natively, and daily builds of our updated Flatpak runtime include everything developers need to start working with it today, including daily builds of a new major version of Granite and an updated system stylesheet. We’re actively working to port a number of apps and desktop components to GTK4 and Granite 7 to take advantage of newer features and improved performance; we’ve already completed simpler components like Onboarding and Shortcut Overlay, and have branches open for many more.&lt;/p&gt;
-
-&lt;aside&gt;
-  &lt;blockquote&gt;
-    &lt;p&gt;Daily builds of our updated Flatpak runtime include everything developers need to start working with GTK4 today.&lt;/p&gt;
-  &lt;/blockquote&gt;
-&lt;/aside&gt;
-
-&lt;p&gt;Granite 7 is still under development, but &lt;a href=&quot;https://github.com/elementary/granite/blob/main/data/granite.appdata.xml.in#L13&quot;&gt;so far&lt;/a&gt; some highlights are: a new unified &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Granite.Placeholder&lt;/code&gt; view to replace both AlertView and Welcome views; style constants that have been removed from GTK have moved to Granite so you can continue e.g. to get deprecation warnings; a more intentional focus on improving compatibility with Adwaita and GTK Default where possible; ongoing efforts to significantly clean up code and improve APIs; and of course, a &lt;em&gt;ton&lt;/em&gt; of removals of widgets that are unused or have been replaced by implementations in upstream GTK or other libraries like LibAdwaita.&lt;/p&gt;
-
-&lt;p&gt;Speaking of LibAdwaita, we plan to add it to daily builds of our platform soon; multi-touch primitives previously provided by LibHandy are available here as a near drop-in, and in our testing and usage so far we haven’t come across any issues e.g. with styling. And as always, we’re in constant contact and collaboration with the GNOME and Adwaita folks to ensure that remains the case!&lt;/p&gt;
-
-&lt;h3 id=&quot;super-experimental-os-upgrades&quot;&gt;Super experimental: OS upgrades!&lt;/h3&gt;
-
-&lt;p&gt;We debated mentioning this, but it’s such a hugely-requested feature—and we &lt;em&gt;are&lt;/em&gt; in the early planning and experimentation phase. &lt;strong&gt;It’s possible this will not be ready in time for the release of OS 7&lt;/strong&gt;, but we’re currently working on a way to prompt users of a major OS upgrade, to reboot to install the update “offline” (while not logged in), and then to reboot into the new OS. While early work is promising, it will require a &lt;em&gt;ton&lt;/em&gt; of testing to ensure it’s production-ready. And again, it may or may not make the cut in time for the OS 7 release.&lt;/p&gt;
-
-&lt;aside&gt;
-  &lt;blockquote&gt;
-    &lt;p&gt;While early work is promising, it may or may not make the cut in time for the OS 7 release.&lt;/p&gt;
-  &lt;/blockquote&gt;
-&lt;/aside&gt;
-
-&lt;p&gt;So far we’re investigating using PackageKit offline updates, but there’s not currently a backend for apt, the package manager Ubuntu and thus elementary OS uses. We are investigating how we can complete this work using as many well-supported upstream components as possible, and we’re in contact with folks from the Fedora community—we hope this work is useful to Pantheon on other distros as well.&lt;/p&gt;
-
-&lt;p&gt;But again, I want to stress that this is a fairly large undertaking and we’re in the early phases. We hope it’s ready and well-tested in time for the OS 7 release, but we’re not currently committing to that.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;around-the-web&quot;&gt;Around the Web&lt;/h2&gt;
-
-&lt;p&gt;If you want to check out elementary OS 7, Danielle recently &lt;a href=&quot;https://www.youtube.com/watch?v=Ryu9-F6B2Gs&quot;&gt;hosted a livestream&lt;/a&gt; to show off a super early look. Check out her stream for a sneak peek:&lt;/p&gt;
-
-&lt;div class=&quot;constrained&quot; style=&quot;margin: 3em auto;&quot;&gt;
-
-
-&lt;div class=&quot;embed&quot;&gt;
-  &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/Ryu9-F6B2Gs&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;
-    &lt;a href=&quot;https://www.youtube.com/watch?v=Ryu9-F6B2Gs&quot;&gt;View on YouTube&lt;/a&gt;
-  &lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
-
-&lt;p&gt;OMG! Ubuntu! &lt;a href=&quot;/warble-wordle-game-clone-for-elementary-os&quot;&gt;wrote about the new Warble app&lt;/a&gt; for elementary OS, read it here:&lt;/p&gt;
-
-&lt;div style=&quot;margin: 3em auto;&quot;&gt;
-
-
-
-&lt;a class=&quot;featured with-image 1&quot; href=&quot;/warble-wordle-game-clone-for-elementary-os/&quot;&gt;
-  
-    &lt;div class=&quot;featured-image&quot; alt=&quot;Featured image&quot; style=&quot;background-image: url(/images/updates-for-january-2022/warble.jpg);&quot;&gt;&lt;/div&gt;
-  
-
-  &lt;header&gt;
-    &lt;h2&gt;
-
-
-
-   Warble is a ‘Wordle’ Clone for elementary OS (And It’s Just as&amp;nbsp;Addictive)
-
-&lt;/h2&gt;
-    
-      &lt;h3&gt;
-        
-
-
-
-   Five letters, six guesses, and one VERY compelling&amp;nbsp;game
-
-
-         →
-      &lt;/h3&gt;
-    
-
-    
-
-
-
-&lt;div class=&quot;byline&quot;&gt;
-  &lt;div class=&quot;avatar&quot;&gt;
-    &lt;img srcset=&quot;https://www.gravatar.com/avatar/2623034032315d5cf0bcf5e213ff5547?s=96&amp;amp;d=blank 2x&quot; src=&quot;https://www.gravatar.com/avatar/2623034032315d5cf0bcf5e213ff5547?s=48&amp;amp;d=blank&quot; alt=&quot;Avatar for Joey Sneddon&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;author&quot;&gt;
-    
-    &lt;span class=&quot;name&quot;&gt;Joey Sneddon&lt;/span&gt;
-    
-    
-      &lt;span class=&quot;description&quot;&gt;OMG! Ubuntu!&lt;/span&gt;
-    
-  &lt;/div&gt;
-  &lt;time class=&quot;post-date&quot; datetime=&quot;2022-01-12&quot;&gt;Wed, Jan 12, 2022&lt;/time&gt;
-  
-    &lt;span class=&quot;read-time&quot; title=&quot;Estimated read time&quot;&gt;
-  
-  1 min read
-&lt;/span&gt;
-
-
-  
-&lt;/div&gt;
-
-
-  &lt;/header&gt;
-
-  
-&lt;/a&gt;
-
-
-&lt;/div&gt;
-
-&lt;p&gt;Cassidy was also invited to the &lt;a href=&quot;https://www.youtube.com/watch?v=KDrUFzYDefE&amp;amp;t=23s&quot;&gt;latest monthly Ubuntu Indaba&lt;/a&gt; to chat about GTK4, Granite, Adwaita, and our relationships with both upstream and downstream open source projects. Give it a watch:&lt;/p&gt;
-
-&lt;div class=&quot;constrained&quot; style=&quot;margin: 3em auto;&quot;&gt;
-
-
-&lt;div class=&quot;embed&quot;&gt;
-  &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/KDrUFzYDefE&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;
-    &lt;a href=&quot;https://www.youtube.com/watch?v=KDrUFzYDefE&quot;&gt;View on YouTube&lt;/a&gt;
-  &lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;sponsors--early-access&quot;&gt;Sponsors &amp;amp; Early Access&lt;/h2&gt;
-
-&lt;p&gt;If you want to get your hands on super early builds of elementary OS 7, you’re in luck! &lt;a href=&quot;https://builds.elementary.io/&quot;&gt;Early Access&lt;/a&gt; is up and running with experimental daily builds built from an Ubuntu 22.04 LTS alpha base and the elementary daily repositories, meaning you’re getting multiple layers of bleeding-edge software. But if you’re wanting to follow along with the development cycle, it’s the best way to do so—just keep it off your production machines for now, as major issues are to be expected at this point.&lt;/p&gt;
-
-&lt;p&gt;As a reminder, all &lt;a href=&quot;https://github.com/sponsors/elementary&quot;&gt;GitHub Sponsors&lt;/a&gt; at or above the $10 tier get ongoing Early Access as long as you’re subscribed, and the Early Access site includes easy downloads of the latest:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;stable and release candidate builds&lt;/li&gt;
-  &lt;li&gt;bleeding-edge daily builds&lt;/li&gt;
-  &lt;li&gt;experimental builds for platforms like Pinebook Pro &amp;amp; Raspberry Pi 4&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;You also get access to the past month of daily builds for all platforms to aid in debugging or in case the latest build isn’t working for you.&lt;/p&gt;
-
-&lt;div style=&quot;text-align: center&quot;&gt;
-  &lt;p&gt;&lt;a href=&quot;https://github.com/sponsors/elementary&quot; class=&quot;button flat&quot;&gt;GitHub Sponsors&lt;/a&gt;
-&lt;a href=&quot;https://builds.elementary.io/&quot; class=&quot;button suggested&quot;&gt;Get Early Access&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-
-</description>
-          <pubDate>Mon, 31 Jan 2022 00:00:00 -0600</pubDate>
-          <link>https://blog.elementary.io/updates-for-january-2022/</link>
-          <guid isPermaLink="true">https://blog.elementary.io/updates-for-january-2022/</guid>
-          
-              
-              
-          <enclosure url="https://blog.elementary.io" />
-          
-          
-          <category>updates</category>
-          
-          <category>jolnir</category>
           
           
         </item>
