@@ -1,6 +1,6 @@
 ---
 title: Updates for March, 2023
-description: 
+description: Spring cleaning is in full effect
 author: danrabbit
 image: /images/updates-for-march-2023/sideload.png
 
@@ -9,7 +9,7 @@ tags:
   - updates
 ---
 
-March was all about bug fixes! 
+March was all about bug fixes. This month don't expect too many new features, but instead get excited about improved stability and closed issue reports! The team has been hard at work sorting through your feedback and smoothing out all of the wrinkles.
 
 ## Sideload
 
