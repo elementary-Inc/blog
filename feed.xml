@@ -5,9 +5,88 @@
     <description>We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS</description>
     <link>https://blog.elementary.io/</link>
     <atom:link href="https://blog.elementary.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 04 Apr 2023 19:05:42 -0500</pubDate>
-    <lastBuildDate>Tue, 04 Apr 2023 19:05:42 -0500</lastBuildDate>
+    <pubDate>Wed, 05 Apr 2023 16:21:16 -0500</pubDate>
+    <lastBuildDate>Wed, 05 Apr 2023 16:21:16 -0500</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      
+        <item>
+          <title>Updates for March, 2023</title>
+          <description>&lt;p&gt;March was all about bug fixes. This month don’t expect too many new features, but instead get excited about improved stability and closed issue reports! The team has been hard at work sorting through your feedback and smoothing out all of the wrinkles.&lt;/p&gt;
+
+&lt;h2 id=&quot;sideload&quot;&gt;Sideload&lt;/h2&gt;
+
+&lt;p&gt;Since sideloading is an expected and important part of installing apps on elementary OS, we’ve made a couple of changes to help you stay informed and be in control. Instead of describing sideloaded apps as “Untrusted”, we’ve updated interface copy to instead ask for your trust. Additionally, we now show some basic feedback about the kinds of broad system permissions that a sideloaded app may request. This will likely get more fine-grained in the future, but for now we can warn about apps that request advanced permissions and let you know when an app is more tightly sandboxed.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/updates-for-march-2023/sideload.png&quot; alt=&quot;Files&quot; width=&quot;502&quot; height=&quot;334&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;Sideload now shows recommendations regarding sandbox permissions&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;mail--online-accounts&quot;&gt;Mail &amp;amp; Online Accounts&lt;/h2&gt;
+
+&lt;p&gt;Early in the month we made a release of Mail that fixed a notorious and pervasive crash thanks to &lt;a href=&quot;https://github.com/leolost2605&quot;&gt;@leolost2605&lt;/a&gt;. This release also contained a fixed for creating links that include a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;%&lt;/code&gt; symbol. Look forward to future releases featuring more of their work!&lt;/p&gt;
+
+&lt;p&gt;Online Accounts settings was updated with a fix for setting the correct SMTP username when configuring IMAP accounts, thanks to &lt;a href=&quot;https://github.com/stan-janssen&quot;&gt;Stan&lt;/a&gt;. And, &lt;a href=&quot;https://github.com/lenemter&quot;&gt;Leo&lt;/a&gt; made sure the icons there for Mail and Tasks were updated to their latest versions.&lt;/p&gt;
+
+&lt;h2 id=&quot;terminal&quot;&gt;Terminal&lt;/h2&gt;
+
+&lt;p&gt;This release was extremely collaborative with quite a few commit authors. It contains fixes related to tab switching shortcuts and makes sure that context menus are updated when activated with the menu key thanks to &lt;a href=&quot;https://github.com/Faelian&quot;&gt;Lasne&lt;/a&gt; and &lt;a href=&quot;https://github.com/ryonakano&quot;&gt;Ryo&lt;/a&gt;, respectively. &lt;a href=&quot;https://github.com/stan-janssen&quot;&gt;Stan&lt;/a&gt; also resolved an issue where shortcuts conflicted with some command line apps and added a new option to start Terminal hidden. &lt;a href=&quot;https://github.com/jeremypw&quot;&gt;Jeremy&lt;/a&gt; also fixed an issue with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#&lt;/code&gt; characters in URLs. Finally, thanks to &lt;a href=&quot;https://github.com/marukesu&quot;&gt;Gustavo&lt;/a&gt; and &lt;a href=&quot;https://github.com/tintou&quot;&gt;Corentin&lt;/a&gt; for their work on unit testing and code cleanup in this release.&lt;/p&gt;
+
+&lt;h2 id=&quot;window-management&quot;&gt;Window Management&lt;/h2&gt;
+
+&lt;p&gt;This is another great bugfix release for Gala with major thanks to &lt;a href=&quot;https://github.com/lenemter&quot;&gt;Leo&lt;/a&gt;. Some of the highlights include fixes for notification windows—including showing them in Multitasking View, fixes for issues with keyboard shortcuts, fixes that prevent misclicks and accidentally triggering actions, performance improvements, fixes for visual glitches, and more. This is another great release to read the &lt;a href=&quot;https://github.com/elementary/gala/releases/tag/7.0.2&quot;&gt;full release notes&lt;/a&gt; since it closes another dozen reported issues.&lt;/p&gt;
+
+&lt;h2 id=&quot;files&quot;&gt;Files&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/jeremypw&quot;&gt;Jeremy&lt;/a&gt; made a sizable bug fix release of Files including several fixes related to selections and the overlay bar as well as a couple of reported regressions, fixes related to git emblems, and a crash fix.&lt;/p&gt;
+
+&lt;h2 id=&quot;get-these-updates&quot;&gt;Get These Updates&lt;/h2&gt;
+
+&lt;p&gt;As always, pop open AppCenter on elementary OS 7 and hit “Update All” to get all these updates plus your regular security, bug fix, and translation updates.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;developer-platform&quot;&gt;Developer Platform&lt;/h2&gt;
+
+&lt;p&gt;We’ve released version 7.2 of our Flatpak platform, rebased on the GNOME 44 platform and including the latest Granite, Icons, and Stylesheet. Especially of note are fixes and better support for apps that use widgets from LibAdwaita. And of course this platform update includes the latest version of development libraries like Gtk that include their own bug fixes, performance improvements, etc.&lt;/p&gt;
+
+&lt;p&gt;This update is API-breaking in some cases, so Flatpak manifests will have to be updated from using version 7.1 of the runtime to version 7.2.&lt;/p&gt;
+
+&lt;h2 id=&quot;documentation&quot;&gt;Documentation&lt;/h2&gt;
+
+&lt;p&gt;There were also a number of updates to developers docs including revamped &lt;a href=&quot;https://docs.elementary.io/develop/apis/actions&quot;&gt;Actions&lt;/a&gt; and &lt;a href=&quot;https://docs.elementary.io/develop/apis/notifications&quot;&gt;Notifications&lt;/a&gt; sections, and a brand new section on &lt;a href=&quot;https://docs.elementary.io/develop/writing-apps/popovers&quot;&gt;Popovers&lt;/a&gt;. All three include new screenshots and full code samples and have been updated for Gtk 4. Plus, the section on including custom icons using &lt;a href=&quot;https://docs.elementary.io/develop/apis/gresource&quot;&gt;Gresource&lt;/a&gt; has been updated.&lt;/p&gt;
+
+&lt;h2 id=&quot;early-access-preview&quot;&gt;Early Access Preview&lt;/h2&gt;
+
+&lt;p&gt;Folks in Early Access may notice a number of large changes to the Onboarding app including new and redesigned pages. We’ve also been putting quite a bit of work into Code, especially around search. We’d love to get your feedback in GitHub before releasing these changes.&lt;/p&gt;
+
+&lt;p&gt;If you’re not already in early access, you can be among the first to try it and give your feedback by joining &lt;a href=&quot;https://builds.elementary.io/&quot;&gt;Early Access for a $10/mo sponsorship&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;and-more&quot;&gt;And More&lt;/h2&gt;
+
+&lt;p&gt;Special thanks to &lt;a href=&quot;https://github.com/davidmhewitt&quot;&gt;David&lt;/a&gt; this month for his work on CI and CD systems in GitHub. We’ve now fully migrated from Dockerhub to using the GitHub container registry for our docker containers and he’s set up several Dependabot workflows as well as started working with Flatpak external data checker to make sure we’re keeping our workflows updated.&lt;/p&gt;
+
+&lt;p&gt;I also would like to draw attention to our &lt;a href=&quot;https://github.com/orgs/elementary/sponsoring&quot;&gt;Github Sponsoring page&lt;/a&gt; where you can see which developers and projects that we sponsor on a monthly basis! I’m hoping to grow this page as revenue allows but I’m excited to start here. I’m especially proud to sponsor &lt;a href=&quot;https://github.com/decathorpe&quot;&gt;Fabio’s&lt;/a&gt; work on making Pantheon available for Fedora.&lt;/p&gt;
+</description>
+          <pubDate>Wed, 05 Apr 2023 00:00:00 -0500</pubDate>
+          <link>https://blog.elementary.io/updates-for-march-2023/</link>
+          <guid isPermaLink="true">https://blog.elementary.io/updates-for-march-2023/</guid>
+          
+              
+              
+          <enclosure url="https://blog.elementary.io" />
+          
+          
+          <category>horus</category>
+          
+          <category>updates</category>
+          
+          
+        </item>
+      
     
       
         <item>
@@ -933,72 +1012,6 @@
           <category>horus</category>
           
           <category>jolnir</category>
-          
-          <category>updates</category>
-          
-          
-        </item>
-      
-    
-      
-        <item>
-          <title>Updates for April, 2022</title>
-          <description>&lt;p&gt;it’s been a little while since an updates post, but we are back and operating as normal. While our primary focus has been getting everything ready to release elementary OS 7, we’ve also released a handful of fixes and creature comforts for OS 6.&lt;/p&gt;
-
-&lt;h2 id=&quot;updates-for-os-61&quot;&gt;Updates for OS 6.1&lt;/h2&gt;
-
-&lt;figure class=&quot;constrained&quot;&gt;
-  &lt;p&gt;&lt;img src=&quot;/images/elementary-os-6-1-available-now/card.png&quot; alt=&quot;elementary OS 6.1 Jólnir&quot; /&gt;&lt;/p&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;System Settings received quite a bit of attention last month. Thanks to a first-time contributor, you can now choose to use the super key to open Multitasking View in Keyboard settings. You can now also set the refresh rate for IMAP in Online Accounts settings. Offline firmware updates are now supported on the System page. In Sound settings, we now have more helpful placeholder text when no input devices are found. And the Language &amp;amp; Region page now has better support for locales with 3-letter language codes.&lt;/p&gt;
-
-&lt;p&gt;Our window manager also saw several fixes including more accurately using your chosen accent color in the window switcher, and better handling window selections beneath the window switcher. We also do a better job of resizing the Multitasking View when display configurations change, and prevent a number of potential crashes.&lt;/p&gt;
-
-&lt;p&gt;Other little improvements include new native dialogs when confirming display settings changes and when force quitting apps who have stopped responding, as well as some performance improvements for notifications.&lt;/p&gt;
-
-&lt;p&gt;A new version of Code was also released with some handy improvements. You can now use regular expressions when searching, and the number of results are now shown. Hidden folders are now shown in the project sidebar. The name of the current file is now shown as the window title in Multitasking View. It is now possible to change Git branches with untracked files present in a project. The correct document is now focused after opening Code from an external app. And we fixed a couple of potential crashes.&lt;/p&gt;
-
-&lt;h2 id=&quot;getting-os-7-ready-for-launch&quot;&gt;Getting OS 7 Ready for Launch&lt;/h2&gt;
-
-&lt;figure class=&quot;constrained card&quot;&gt;
-  &lt;p&gt;&lt;img src=&quot;/images/updates-for-april-2022/card.jpg&quot; alt=&quot;elementary OS 7 Horus&quot; /&gt;&lt;/p&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Now that Ubuntu 22.04 has been released, we’re clear to wrap up development on elementary OS 7 and get it out the door! There’s just a handful of things left to wrap up which you can follow along with on our &lt;a href=&quot;https://github.com/orgs/elementary/projects/94/views/1&quot;&gt;OS 7 Project board on GitHub&lt;/a&gt;. At this time &lt;strong&gt;there is no hard release date&lt;/strong&gt;; As per usual we’ll be able to release when the outstanding tasks on the release board have been completed. In other words, if you’d like the release to come sooner, you can &lt;a href=&quot;https://elementary.io/get-involved&quot;&gt;get involved&lt;/a&gt; and make that happen!&lt;/p&gt;
-
-&lt;p&gt;As a short summary, the primary blockers right now are cleaning up some regressions in our window manager and hunting down and fixing any other regressions we can find. We’ve also recently released new versions of our platform components including Granite 7, our Stylesheet, Icons, and our Flatpak runtime. We’ll soon be releasing new versions of all of our packages built on the latest platform.&lt;/p&gt;
-
-&lt;h3 id=&quot;what-to-expect&quot;&gt;What to Expect&lt;/h3&gt;
-
-&lt;p&gt;Firstly, I know some folks really care about the release code name, so I’m happy to announce that the code name for elementary OS 7 will be Horus! This cycle we’re really prioritizing a swift release over packing in tons of features at the initial launch time, so you should expect that generally the feature set difference between 6.1 and 7 will be modest. However, because we release updates throughout the life cycle of the OS, you can expect that more features will land in OS 7 as the year goes on.&lt;/p&gt;
-
-&lt;p&gt;Some things to look forward to at release time are nice creature comforts like automatic app updates and power profiles options. We’re also debuting a brand new more minimal Music. Some components have already migrated to Gtk4, so you can expect improved performance and smoother animations. Plus a few redesigned app icons and other minor visual touch-ups.&lt;/p&gt;
-
-&lt;p&gt;We won’t be making the jump to Wayland this cycle in the interest of prioritizing a swift and stable release. Many of the gears are turning to make Wayland a priority, but it’s not quite ready for showtime yet. However, we do have a working prototype for offline release upgrades! Once OS 7 is released, we’ll be able to more thoroughly test this and hopefully release the feature for OS 6 quickly.&lt;/p&gt;
-
-&lt;p&gt;Speaking of OS 6, some components may continue to receive a slow trickle of updates, but development focus has completely shifted to OS 7. OS 6 should be considered in maintenance mode, so don’t expect major new features or fixes besides the previously mentioned upgrade to OS 7. One small consolation is that Flatpak apps in AppCenter will continue to be updated and available for OS 6 users until you’re ready to make the jump.&lt;/p&gt;
-
-&lt;aside&gt;
-  &lt;blockquote&gt;
-    &lt;p&gt;The time to update your apps to version 7 of our Flatpak platform is now&lt;/p&gt;
-  &lt;/blockquote&gt;
-&lt;/aside&gt;
-
-&lt;p&gt;Developers, the time to update your apps to version 7 of our Flatpak platform is now! Platform 7 is released and available from the AppCenter Flatpak remote for OS 6 users, so you can publish apps with it starting today. At release time, be aware that AppCenter will call out apps using the outdated 6.x runtimes. Platform 7 also includes Gtk4; You’re not required to port to Gtk4 right away, but it’s a good time to start thinking about it.&lt;/p&gt;
-
-&lt;p&gt;Expect lots more details in the OS 7 release post highlighting everything new. In the meantime, if you’d like to get Early Access to see what’s coming and give your feedback before release, &lt;a href=&quot;https://builds.elementary.io/&quot;&gt;you can do so with a $10/mo sponsorship&lt;/a&gt;!&lt;/p&gt;
-</description>
-          <pubDate>Tue, 03 May 2022 00:00:00 -0500</pubDate>
-          <link>https://blog.elementary.io/updates-for-april-2022/</link>
-          <guid isPermaLink="true">https://blog.elementary.io/updates-for-april-2022/</guid>
-          
-              
-              
-          <enclosure url="https://blog.elementary.io" />
-          
-          
-          <category>horus</category>
           
           <category>updates</category>
           

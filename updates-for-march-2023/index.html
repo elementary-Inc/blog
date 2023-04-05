@@ -3,10 +3,10 @@
   <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Our 2015 in Review &sdot; elementary Blog</title>
-  <meta property="og:title" content="Our 2015 in Review" />
-  <meta itemprop="name" content="Our 2015 in Review" />
-  <meta name="twitter:title" content="Our 2015 in Review" />
+  <title>Updates for March, 2023 &sdot; elementary Blog</title>
+  <meta property="og:title" content="Updates for March, 2023" />
+  <meta itemprop="name" content="Updates for March, 2023" />
+  <meta name="twitter:title" content="Updates for March, 2023" />
 
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -25,16 +25,18 @@
   <meta name="color-scheme" content="light dark" />
 
   
-    <meta name="twitter:card" content="summary" />
-    <meta property="twitter:image" content="https://www.gravatar.com/avatar/eaa3cc978770998ea2bd4382935bf0f4?s=256&d=blank" />
+    
+    
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:image" content="https://blog.elementary.io/images/updates-for-march-2023/sideload.png" />
   
   <meta name="twitter:site" content="@elementary" />
   <meta name="twitter:creator" content="@elementary" />
 
-  <meta name="description" content="To get into the New Year’s Eve spirit, here’s our year in review!" />
-  <meta property="og:description" content="To get into the New Year’s Eve spirit, here’s our year in review!" />
-  <meta itemprop="description" content="To get into the New Year’s Eve spirit, here’s our year in review!" />
-  <meta name="twitter:description" content="To get into the New Year’s Eve spirit, here’s our year in review!" />
+  <meta name="description" content="Spring cleaning is in full effect" />
+  <meta property="og:description" content="Spring cleaning is in full effect" />
+  <meta itemprop="description" content="Spring cleaning is in full effect" />
+  <meta name="twitter:description" content="Spring cleaning is in full effect" />
 
   <link rel="stylesheet" type="text/css" media="all" href="/css/main.css?v=2023-04-05 16:21:16 -0500" />
   
@@ -136,10 +138,6 @@
   
   
   
-    <aside class="outdated">
-      <strong>Note:</strong> this post was written over two years ago. The information below may be outdated.
-    </aside>
-  
 
 
 
@@ -150,7 +148,7 @@
 
 
 
-   Our 2015 in&nbsp;Review
+   Updates for March,&nbsp;2023
 
 </h1>
     
@@ -158,7 +156,7 @@
 
 
 
-   To get into the New Year’s Eve spirit, here’s our year in&nbsp;review!
+   Spring cleaning is in full&nbsp;effect
 
 </h2>
     
@@ -185,11 +183,11 @@
       <span class="description">Founder & CEO</span>
     
   </div>
-  <time class="post-date" datetime="2015-12-31">Thu, Dec 31, 2015</time>
+  <time class="post-date" datetime="2023-04-05">Wed, Apr  5, 2023</time>
   
     <span class="read-time" title="Estimated read time">
   
-  6 min read
+  4 min read
 </span>
 
 
@@ -200,9 +198,9 @@
     <aside class="tags">
   
   
-    <a class="tag" href="/tags/#meta">#meta</a>
+    <a class="tag" href="/tags/#horus">#horus</a>
   
-    <a class="tag" href="/tags/#year-in-review">#year-in-review</a>
+    <a class="tag" href="/tags/#updates">#updates</a>
   
 </aside>
 
@@ -210,52 +208,64 @@
   </header>
 
   <section>
-    <p>We can’t believe that 2015 is almost over! It’s been a great year for elementary. So much has happened and we’re super excited to see what 2016 has in store. To get into the New Year’s Eve spirit, here’s our year in review!</p>
+    <p>March was all about bug fixes. This month don’t expect too many new features, but instead get excited about improved stability and closed issue reports! The team has been hard at work sorting through your feedback and smoothing out all of the wrinkles.</p>
 
-<h2 id="the-web">The Web</h2>
+<h2 id="sideload">Sideload</h2>
 
-<p>We kicked off the year by starting work on a brand new website, to be released alongside the new version of elementary OS. We decided to build it completely Open Source on <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/elementary/website">GitHub</a>, make it translatable from the start, and redesign everything to work great on both mobile and desktop. Then, on Valentine’s day, we officially moved from elementaryos.org to <a rel="nofollow noopener noreferrer" target="_blank" href="https://elementary.io">elementary.io</a>.</p>
+<p>Since sideloading is an expected and important part of installing apps on elementary OS, we’ve made a couple of changes to help you stay informed and be in control. Instead of describing sideloaded apps as “Untrusted”, we’ve updated interface copy to instead ask for your trust. Additionally, we now show some basic feedback about the kinds of broad system permissions that a sideloaded app may request. This will likely get more fine-grained in the future, but for now we can warn about apps that request advanced permissions and let you know when an app is more tightly sandboxed.</p>
 
-<p>Early in March, we signed up on <a rel="nofollow noopener noreferrer" target="_blank" href="https://patreon.com/elementary">Patreon</a> and reached our first goal just a month later. Patreon is a great compliment to <a rel="nofollow noopener noreferrer" target="_blank" href="https://www.bountysource.com/teams/elementary">Bountysource</a> and rounds out the ways that folks can <a rel="nofollow noopener noreferrer" target="_blank" href="https://elementary.io/get-involved#funding">help us with funding elementary</a>.</p>
+<figure>
+  <p><img src="/images/updates-for-march-2023/sideload.png" alt="Files" width="502" height="334" /></p>
+  <figcaption>
+    <p>Sideload now shows recommendations regarding sandbox permissions</p>
+  </figcaption>
+</figure>
 
-<p><a rel="nofollow noopener noreferrer" target="_blank" href="https://elementaryos.tumblr.com/post/115151460806/answers-is-going-offline">We decided to take down our old Answers system</a> and shortly after we got our very own site on <a rel="nofollow noopener noreferrer" target="_blank" href="https://elementaryos.stackexchange.com">StackExchange</a>. Over the last 5 months, we’ve served up over 1,500 answers and the site averages about 1,500 visitors every day. It’s become a vibrant support community with comprehensive answers to some of the most common questions we get.</p>
+<h2 id="mail--online-accounts">Mail &amp; Online Accounts</h2>
 
-<p>In June, we said <a href="/goodbye-sourceforge/">Goodbye to Sourceforge</a> and “Hello” to our very own brand new CDN which has already served up over a million downloads; That’s more than a petabyte of data! We now have several localized servers and confidently serve up speedy downloads to our users, ad free.</p>
+<p>Early in the month we made a release of Mail that fixed a notorious and pervasive crash thanks to <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/leolost2605">@leolost2605</a>. This release also contained a fixed for creating links that include a <code class="language-plaintext highlighter-rouge">%</code> symbol. Look forward to future releases featuring more of their work!</p>
 
-<h2 id="conferences">Conferences</h2>
+<p>Online Accounts settings was updated with a fix for setting the correct SMTP username when configuring IMAP accounts, thanks to <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/stan-janssen">Stan</a>. And, <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/lenemter">Leo</a> made sure the icons there for Mail and Tasks were updated to their latest versions.</p>
 
-<p>2015 was definitely the year of elementary at conferences! At the end of February, <a rel="nofollow noopener noreferrer" target="_blank" href="https://elementaryos.tumblr.com/post/111595584456/were-at-scale-13x">Cassidy and Katie made it out to SCaLE</a> to demo Freya, hand out shirts and stickers, and even had the opportunity <a rel="nofollow noopener noreferrer" target="_blank" href="https://youtu.be/UXvGbEYeWp0?t=1h4m47s">to be interviewed by the LAS crew</a>.</p>
+<h2 id="terminal">Terminal</h2>
 
-<p>At the end of June, <a rel="nofollow noopener noreferrer" target="_blank" href="https://elementaryos.tumblr.com/post/122973077471/gnome-west-coast-summit">we made it out to the Westcoast Summit</a> where we had the opportunity to meet and collaborate with several GNOME developers. Every day gave us something to be excited about. Cassidy went to the whiteboard with Jasper St. Pierre to work out a strategy for advanced window tiling features in Mutter. Cody spent some time learning about OSTree and XDG App, some exciting new technologies that we’ll see more of next year. Dan made big strides with <a rel="nofollow noopener noreferrer" target="_blank" href="https://elementaryos.tumblr.com/post/124193007916/whats-up-with-hidpi-icons">supporting HiDPI</a> icons thanks to the help of Cosimo Cecchi. We also got to see a demo of Builder from Christian Hergert, a very exciting new IDE, and had the chance to talk out some new Gtk+ features, some of which have already been implemented since!</p>
+<p>This release was extremely collaborative with quite a few commit authors. It contains fixes related to tab switching shortcuts and makes sure that context menus are updated when activated with the menu key thanks to <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/Faelian">Lasne</a> and <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/ryonakano">Ryo</a>, respectively. <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/stan-janssen">Stan</a> also resolved an issue where shortcuts conflicted with some command line apps and added a new option to start Terminal hidden. <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/jeremypw">Jeremy</a> also fixed an issue with <code class="language-plaintext highlighter-rouge">#</code> characters in URLs. Finally, thanks to <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/marukesu">Gustavo</a> and <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/tintou">Corentin</a> for their work on unit testing and code cleanup in this release.</p>
 
-<p>In November, Cassidy made it out to the Linode Meetup in Philadelphia to give a talk about <a rel="nofollow noopener noreferrer" target="_blank" href="https://youtu.be/52Mgrv8vtmI">what UX means and its importance in open source software</a>. He’ll be giving that talk again to much larger audience at SCaLE in January.</p>
+<h2 id="window-management">Window Management</h2>
 
-<h2 id="contributions-to-other-open-sourcesoftware">Contributions to Other Open Source Software</h2>
+<p>This is another great bugfix release for Gala with major thanks to <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/lenemter">Leo</a>. Some of the highlights include fixes for notification windows—including showing them in Multitasking View, fixes for issues with keyboard shortcuts, fixes that prevent misclicks and accidentally triggering actions, performance improvements, fixes for visual glitches, and more. This is another great release to read the <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/elementary/gala/releases/tag/7.0.2">full release notes</a> since it closes another dozen reported issues.</p>
 
-<p>While most of our resources are spent improving elementary OS, we also try to set aside some time and money to contribute to the wider open source ecosystem. In terms of commits, Corentin Noël has made an effort to contribute to several projects that we depend on like <a rel="nofollow noopener noreferrer" target="_blank" href="https://git.gnome.org/browse/evolution-data-server/log/?qt=author&amp;q=tintou">EDS</a> and <a rel="nofollow noopener noreferrer" target="_blank" href="https://git.gnome.org/browse/libgda/log/?id=43206eb0b3cabc55c391420fd29b2792638bb6ee&amp;qt=author&amp;q=corentin%40elementary.io">LibGDA</a>, as well as libraries we’d like to use in the future like <a rel="nofollow noopener noreferrer" target="_blank" href="https://git.gnome.org/browse/evolution-data-server/log/?qt=author&amp;q=Corentin%2BNo%C3%ABl">LibCamel</a>. With the help of Shriram Ramkrishna, we’ve had a lot more direct contact with GTK and GNOME developers, making suggestions and bringing up concerns for us and other downstreams of their projects.</p>
+<h2 id="files">Files</h2>
 
-<p>Meeting other developers in person is very important, which is why we helped sponsor <a rel="nofollow noopener noreferrer" target="_blank" href="http://debconf15.debconf.org/sponsors.xhtml">DebConf15</a> and the <a rel="nofollow noopener noreferrer" target="_blank" href="https://inkscape.org/en/news/2015/02/25/inkscape-developers-need-your-help/">Inkscape Toronto Hackfest</a>. We want to make sure that Open Source software stays funded, so we also donated to <a rel="nofollow noopener noreferrer" target="_blank" href="http://www.rodsbooks.com/refind/">rEFInd</a> and <a rel="nofollow noopener noreferrer" target="_blank" href="http://donate.openstreetmap.org/">OpenStreetMap</a> and awarded a couple of small bounties on <a rel="nofollow noopener noreferrer" target="_blank" href="https://www.bountysource.com/issues/29051104-be-compatible-with-icon-themes-that-have-different-paths-than-adwaita">Dep11</a> and <a rel="nofollow noopener noreferrer" target="_blank" href="https://www.bountysource.com/issues/3444113-combobox-is-styled-like-the-last-child-if-linked-class-applied-even-if-it-s-the-first-child">GTK</a>. We’ve placed several thousand dollars in bounties on projects that we rely on and hope to see more of them claimed in the new year.</p>
+<p><a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/jeremypw">Jeremy</a> made a sizable bug fix release of Files including several fixes related to selections and the overlay bar as well as a couple of reported regressions, fixes related to git emblems, and a crash fix.</p>
 
-<p>We’ve also had the chance to become upstream to a couple of projects. We were happy to learn that Ubuntu Mate is making use of a piece of software we use to detect captive network portals, and by <a rel="nofollow noopener noreferrer" target="_blank" href="https://elementaryos.tumblr.com/post/134767422086/elementary-icons-move-to-github">moving our icons to GitHub</a> we’ve made it easier for XFCE’s Shimmer project to track our changes for their derivative icon set.</p>
+<h2 id="get-these-updates">Get These Updates</h2>
+
+<p>As always, pop open AppCenter on elementary OS 7 and hit “Update All” to get all these updates plus your regular security, bug fix, and translation updates.</p>
+
+<hr />
+
+<h2 id="developer-platform">Developer Platform</h2>
+
+<p>We’ve released version 7.2 of our Flatpak platform, rebased on the GNOME 44 platform and including the latest Granite, Icons, and Stylesheet. Especially of note are fixes and better support for apps that use widgets from LibAdwaita. And of course this platform update includes the latest version of development libraries like Gtk that include their own bug fixes, performance improvements, etc.</p>
+
+<p>This update is API-breaking in some cases, so Flatpak manifests will have to be updated from using version 7.1 of the runtime to version 7.2.</p>
 
 <h2 id="documentation">Documentation</h2>
 
-<p>On April 24th, <a rel="nofollow noopener noreferrer" target="_blank" href="https://elementaryos.tumblr.com/post/117276293641/rock-out-with-your-docs-out">we released a brand new look and feel</a> for our GitHub/Markdown-powered documentation. Since then we’ve introduced some great new <a rel="nofollow noopener noreferrer" target="_blank" href="https://elementary.io/docs/human-interface-guidelines#iconography">docs for icon designers</a>, courtesy of Sam Hewitt as well as refined our guides to <a rel="nofollow noopener noreferrer" target="_blank" href="https://elementary.io/docs/code/reference#reporting-bugs">reporting issues</a> and <a rel="nofollow noopener noreferrer" target="_blank" href="https://elementary.io/docs/code/reference#proposing-design-changes">proposing design changes</a>. Felipe Escoto wrote a new section on <a rel="nofollow noopener noreferrer" target="_blank" href="https://elementary.io/docs/code/getting-started#Adding-Translations">providing translations</a>, for our developer guide. Our <a rel="nofollow noopener noreferrer" target="_blank" href="https://elementary.io/docs/installation">Installation Guide</a> received a good amount of attention from Lewis Goddard, Linus Bobcat, and several other members of our community. Additionally, thanks to the efforts of Corentin, <a rel="nofollow noopener noreferrer" target="_blank" href="https://elementaryos.tumblr.com/post/118711666686/were-on-valadoc">we made it on Valadoc.org</a> in May. We’re very excited to offer much better documentation for our users, designers, and developers.</p>
+<p>There were also a number of updates to developers docs including revamped <a rel="nofollow noopener noreferrer" target="_blank" href="https://docs.elementary.io/develop/apis/actions">Actions</a> and <a rel="nofollow noopener noreferrer" target="_blank" href="https://docs.elementary.io/develop/apis/notifications">Notifications</a> sections, and a brand new section on <a rel="nofollow noopener noreferrer" target="_blank" href="https://docs.elementary.io/develop/writing-apps/popovers">Popovers</a>. All three include new screenshots and full code samples and have been updated for Gtk 4. Plus, the section on including custom icons using <a rel="nofollow noopener noreferrer" target="_blank" href="https://docs.elementary.io/develop/apis/gresource">Gresource</a> has been updated.</p>
 
-<h2 id="freya">Freya</h2>
+<h2 id="early-access-preview">Early Access Preview</h2>
 
-<p>Last but not least, 2015 also brought us a brand new version of elementary OS. On April 11th, <a rel="nofollow noopener noreferrer" target="_blank" href="https://elementaryos.tumblr.com/post/116134677986/freya-is-here">we released the first stable version of Freya</a> with a special <a rel="nofollow noopener noreferrer" target="_blank" href="https://www.youtube.com/watch?v=wtxmBJKMrDI">live broadcast and presentation</a>, something we’d never done before. We’re proud to say that Freya came with over 1,100 bug fixes to issues that people reported in Luna. Some of the biggest changes were the new HeaderBar app designs, the new multitasking view, and redesigned system settings including a new Do Not Disturb mode for notifications.</p>
+<p>Folks in Early Access may notice a number of large changes to the Onboarding app including new and redesigned pages. We’ve also been putting quite a bit of work into Code, especially around search. We’d love to get your feedback in GitHub before releasing these changes.</p>
 
-<p>A quick note: thanks to your financial support through our pay-what-you-want model we were able to hire our first two full-time employees starting just after Freya’s initial release. This has been a tremendous opportunity. While we’ve been incorporated for a decent amount of time now and we’re on our 3rd release of elementary OS, this really marks the start of something much bigger for elementary.</p>
+<p>If you’re not already in early access, you can be among the first to try it and give your feedback by joining <a rel="nofollow noopener noreferrer" target="_blank" href="https://builds.elementary.io/">Early Access for a $10/mo sponsorship</a>.</p>
 
-<p>This year we made an effort to continue releasing significant updates to our OS rather than just moving onto the next version. In September <a rel="nofollow noopener noreferrer" target="_blank" href="https://elementaryos.tumblr.com/post/128271333121/freya-031-is-here">we made a minor release</a> that included 200 fixes, a newer hardware stack, a new file chooser dialog that we’d been showing off, and the latest releases of Geary and Midori. We also redesigned the Language &amp; Region settings pane after some feedback from our users.</p>
+<h2 id="and-more">And More</h2>
 
-<p>On December 9th, <a rel="nofollow noopener noreferrer" target="_blank" href="https://elementaryos.tumblr.com/post/134884577281/freya-032-released">we released another update to Freya</a> with fixes for UEFI and Secureboot, tons of updates for translations, and a couple new features. At this point there had been 5.3 million downloads of elementary OS. We’re very excited to see so much enthusiasm around Freya. At the beginning of each cycle, we set out to blow the last release out of the water. Freya brought thousands of fixes, tons of new features, and refined the elementary OS experience even more.</p>
+<p>Special thanks to <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/davidmhewitt">David</a> this month for his work on CI and CD systems in GitHub. We’ve now fully migrated from Dockerhub to using the GitHub container registry for our docker containers and he’s set up several Dependabot workflows as well as started working with Flatpak external data checker to make sure we’re keeping our workflows updated.</p>
 
-<h2 id="onward">Onward!</h2>
-
-<p>We want to take a moment to say thank you to all of our contributors, supporters, fans, and everyone else in between. 2015 has been an amazing year for elementary thanks to all of you. We’re very excited to release the new things we’ve been working on in the coming year. Here’s to a great 2016, Happy New Year!</p>
-
+<p>I also would like to draw attention to our <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/orgs/elementary/sponsoring">Github Sponsoring page</a> where you can see which developers and projects that we sponsor on a monthly basis! I’m hoping to grow this page as revenue allows but I’m excited to start here. I’m especially proud to sponsor <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/decathorpe">Fabio’s</a> work on making Pantheon available for Fedora.</p>
 
   </section>
 
@@ -418,7 +428,7 @@
     
 
     <a
-      href="https://twitter.com/intent/tweet?text=Our 2015 in Review&url=https://blog.elementary.io/our-2015-in-review/&via=elementary&original_referer=https://blog.elementary.io/our-2015-in-review/"
+      href="https://twitter.com/intent/tweet?text=Updates for March, 2023&url=https://blog.elementary.io/updates-for-march-2023/&via=elementary&original_referer=https://blog.elementary.io/updates-for-march-2023/"
       rel="noreferrer nofollow noopener"
       target="_blank"
       title="Twitter"
@@ -428,7 +438,7 @@
     </a>
 
     <a
-      href="http://www.reddit.com/submit?title=Our 2015 in Review&url=https://blog.elementary.io/our-2015-in-review/"
+      href="http://www.reddit.com/submit?title=Updates for March, 2023&url=https://blog.elementary.io/updates-for-march-2023/"
       rel="noreferrer nofollow noopener"
       target="_blank"
       title="Reddit"
@@ -438,7 +448,7 @@
     </a>
 
     <a
-      href="https://www.facebook.com/sharer/sharer.php?u=https://blog.elementary.io/our-2015-in-review/"
+      href="https://www.facebook.com/sharer/sharer.php?u=https://blog.elementary.io/updates-for-march-2023/"
       rel="noreferrer nofollow noopener"
       target="_blank"
       title="Facebook"
@@ -448,7 +458,7 @@
     </a>
 
     <a
-      href="https://blog.elementary.io/our-2015-in-review/"
+      href="https://blog.elementary.io/updates-for-march-2023/"
       title="Permalink"
       onclick="return share()"
     >
@@ -463,9 +473,9 @@ function share() {
 
   if (navigator.share) {
     navigator.share({
-      title: "Our 2015 in Review",
-      text: "To get into the New Year’s Eve spirit, here’s our year in review!",
-      url: "https://blog.elementary.io/our-2015-in-review/",
+      title: "Updates for March, 2023",
+      text: "Spring cleaning is in full effect",
+      url: "https://blog.elementary.io/updates-for-march-2023/",
     })
     .catch((error) => console.log("Error sharing", error));
 
@@ -482,12 +492,16 @@ function share() {
 <h2 class="up-next">Up Next</h2>
 
 
+
+
+
+
   
     
 
-<a class="featured with-image 1" href="/updates-for-march-2023/">
+<a class="featured with-image 1" href="/updates-for-february-2023/">
   
-    <div class="featured-image" alt="Featured image" style="background-image: url(/images/updates-for-march-2023/sideload.png);"></div>
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/updates-for-february-2023/card.png);"></div>
   
 
   <header>
@@ -495,7 +509,7 @@ function share() {
 
 
 
-   Updates for March,&nbsp;2023
+   Updates for February,&nbsp;2023
 
 </h2>
     
@@ -504,7 +518,7 @@ function share() {
 
 
 
-   Spring cleaning is in full&nbsp;effect
+   Big new features and a mountain of bug&nbsp;fixes
 
 
         
@@ -533,166 +547,11 @@ function share() {
       <span class="description">Founder & CEO</span>
     
   </div>
-  <time class="post-date" datetime="2023-04-05">Wed, Apr  5, 2023</time>
+  <time class="post-date" datetime="2023-03-06">Mon, Mar  6, 2023</time>
   
     <span class="read-time" title="Estimated read time">
   
-  5 min read
-</span>
-
-
-  
-</div>
-
-
-  </header>
-
-  
-</a>
-
-
-  
-
-
-
-  
-    
-      
-
-<a class="featured 1" href="/re-geary/">
-  
-
-  <header>
-    <h2>
-
-
-
-  
-    RE:
-  
-    Geary
-  
-
-</h2>
-    
-      <h3>
-        
-
-
-
-   Continuing the&nbsp;legacy
-
-
-        
-      </h3>
-    
-
-    
-
-
-
-<div class="byline">
-  <div class="avatar">
-    <img
-      
-        srcset="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&d=blank 2x"
-        src="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&d=blank"
-        alt="Avatar for Danielle Foré"
-      
-    />
-  </div>
-  <div class="author">
-    
-    <span class="name">Danielle Foré</span>
-    
-    
-      <span class="description">Founder & CEO</span>
-    
-  </div>
-  <time class="post-date" datetime="2016-02-21">Sun, Feb 21, 2016</time>
-  
-    <span class="read-time" title="Estimated read time">
-  
-  3 min read
-</span>
-
-
-  
-</div>
-
-
-  </header>
-
-  
-  <section class="excerpt">
-    <p>Sometime last year the Yorba website was subtly changed from “Yorba is a non-profit free software group” to “Yorba was…”. This made us very, very sad at elementary. Before that, we’d been working on building a better relationship with Yorba....</p>
-    <span>Read more…</span>
-  </section>
-  
-</a>
-
-
-    
-  
-
-
-
-  
-    
-
-<a class="featured with-image 1" href="/whats-up-with-hidpi-icons/">
-  
-    <div class="featured-image" alt="Featured image" style="background-image: url(https://cdn-images-1.medium.com/max/2000/0*ZonrjOi3sFwlSjgL.png);"></div>
-  
-
-  <header>
-    <h2>
-
-
-
-   What’s Up With HiDPI&nbsp;Icons?
-
-</h2>
-    
-      <h3>
-        
-
-
-
-   Thoughts from the GNOME WestCoast&nbsp;Summit
-
-
-        
-      </h3>
-    
-
-    
-
-
-
-<div class="byline">
-  <div class="avatar">
-    <img
-      
-        srcset="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&d=blank 2x"
-        src="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&d=blank"
-        alt="Avatar for Danielle Foré"
-      
-    />
-  </div>
-  <div class="author">
-    
-    <span class="name">Danielle Foré</span>
-    
-    
-      <span class="description">Founder & CEO</span>
-    
-  </div>
-  <time class="post-date" datetime="2015-07-15">Wed, Jul 15, 2015</time>
-  
-    <span class="read-time" title="Estimated read time">
-  
-  6 min read
+  4 min read
 </span>
 
 
@@ -745,227 +604,11 @@ function share() {
     
 
     
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
       
 
-<a class="featured with-image small" href="/the-new-elementary-store-is-here/">
+<a class="featured with-image small" href="/os-7-available-now/">
   
-    <div class="featured-image" alt="Featured image" style="background-image: url(/images/the-new-elementary-store-is-here/card.jpg);"></div>
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/os-7-available-now/card.png);"></div>
   
 
   <header>
@@ -973,7 +616,7 @@ function share() {
 
 
 
-   The New elementary Store is&nbsp;Here
+   elementary OS 7 Available&nbsp;Now
 
 </h2>
     
@@ -982,7 +625,7 @@ function share() {
 
 
 
-   Stand-alone, open source, and much more&nbsp;flexible
+   Forward thinking and designed for real&nbsp;life
 
 
         
@@ -997,21 +640,181 @@ function share() {
   <div class="avatar">
     <img
       
-        srcset="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&d=blank 2x"
-        src="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&d=blank"
-        alt="Avatar for Cassidy James Blaede"
+        srcset="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&d=blank 2x"
+        src="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&d=blank"
+        alt="Avatar for Danielle Foré"
       
     />
   </div>
   <div class="author">
     
-    <span class="name">Cassidy James Blaede</span>
+    <span class="name">Danielle Foré</span>
     
     
-      <span class="description">Co-founder & CXO</span>
+      <span class="description">Founder & CEO</span>
     
   </div>
-  <time class="post-date" datetime="2021-04-26">Mon, Apr 26, 2021</time>
+  <time class="post-date" datetime="2023-01-31">Tue, Jan 31, 2023</time>
+  
+    <span class="read-time" title="Estimated read time">
+  
+  17 min read
+</span>
+
+
+  
+</div>
+
+
+  </header>
+
+  
+</a>
+
+
+      
+      
+    
+
+  
+
+    
+    
+
+    
+
+    
+      
+
+<a class="featured with-image small" href="/updates-for-november-2022/">
+  
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/updates-for-november-2022/files.png);"></div>
+  
+
+  <header>
+    <h2>
+
+
+
+   Updates for November,&nbsp;2022
+
+</h2>
+    
+      <h3>
+        
+
+
+
+   We heard you like clicking, so now you can click when you&nbsp;click
+
+
+        
+      </h3>
+    
+
+    
+
+
+
+<div class="byline">
+  <div class="avatar">
+    <img
+      
+        srcset="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&d=blank 2x"
+        src="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&d=blank"
+        alt="Avatar for Danielle Foré"
+      
+    />
+  </div>
+  <div class="author">
+    
+    <span class="name">Danielle Foré</span>
+    
+    
+      <span class="description">Founder & CEO</span>
+    
+  </div>
+  <time class="post-date" datetime="2022-12-01">Thu, Dec  1, 2022</time>
+  
+    <span class="read-time" title="Estimated read time">
+  
+  2 min read
+</span>
+
+
+  
+</div>
+
+
+  </header>
+
+  
+</a>
+
+
+      
+      
+    
+
+  
+
+    
+    
+
+    
+
+    
+      
+
+<a class="featured with-image small" href="/updates-for-october-2022/">
+  
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/updates-for-april-2022/card.jpg);"></div>
+  
+
+  <header>
+    <h2>
+
+
+
+   Updates for October,&nbsp;2022
+
+</h2>
+    
+      <h3>
+        
+
+
+
+   Oh yeah, it's all coming&nbsp;together
+
+
+        
+      </h3>
+    
+
+    
+
+
+
+<div class="byline">
+  <div class="avatar">
+    <img
+      
+        srcset="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&d=blank 2x"
+        src="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&d=blank"
+        alt="Avatar for Danielle Foré"
+      
+    />
+  </div>
+  <div class="author">
+    
+    <span class="name">Danielle Foré</span>
+    
+    
+      <span class="description">Founder & CEO</span>
+    
+  </div>
+  <time class="post-date" datetime="2022-11-01">Tue, Nov  1, 2022</time>
   
     <span class="read-time" title="Estimated read time">
   
@@ -1043,9 +846,9 @@ function share() {
     
       
 
-<a class="featured with-image small" href="/ten-years/">
+<a class="featured with-image small" href="/updates-for-september-2022/">
   
-    <div class="featured-image" alt="Featured image" style="background-image: url(/images/10-years/card.png);"></div>
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/updates-for-september-2022/iconbrowser.png);"></div>
   
 
   <header>
@@ -1053,7 +856,7 @@ function share() {
 
 
 
-   Cheers to 10&nbsp;Years
+   Updates for September,&nbsp;2022
 
 </h2>
     
@@ -1062,7 +865,7 @@ function share() {
 
 
 
-   elementary OS rounds out its first&nbsp;decade
+   A new developer tool and steady OS 7&nbsp;progress
 
 
         
@@ -1091,11 +894,11 @@ function share() {
       <span class="description">Founder & CEO</span>
     
   </div>
-  <time class="post-date" datetime="2021-03-31">Wed, Mar 31, 2021</time>
+  <time class="post-date" datetime="2022-10-05">Wed, Oct  5, 2022</time>
   
     <span class="read-time" title="Estimated read time">
   
-  6 min read
+  4 min read
 </span>
 
 
@@ -1121,29 +924,11 @@ function share() {
     
 
     
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
       
 
-<a class="featured with-image small" href="/our-2020-in-review/">
+<a class="featured with-image small" href="/updates-for-august-2022/">
   
-    <div class="featured-image" alt="Featured image" style="background-image: url(/images/our-2020-in-review/card.jpg);"></div>
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/updates-for-august-2022/appcenter-home.png);"></div>
   
 
   <header>
@@ -1151,7 +936,7 @@ function share() {
 
 
 
-   Our 2020 in&nbsp;Review
+   Updates for August,&nbsp;2022
 
 </h2>
     
@@ -1160,7 +945,7 @@ function share() {
 
 
 
-   …what a&nbsp;year.
+   Plus, our plan for responsive&nbsp;apps
 
 
         
@@ -1175,25 +960,25 @@ function share() {
   <div class="avatar">
     <img
       
-        srcset="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&d=blank 2x"
-        src="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&d=blank"
-        alt="Avatar for Cassidy James Blaede"
+        srcset="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&d=blank 2x"
+        src="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&d=blank"
+        alt="Avatar for Danielle Foré"
       
     />
   </div>
   <div class="author">
     
-    <span class="name">Cassidy James Blaede</span>
+    <span class="name">Danielle Foré</span>
     
     
-      <span class="description">Co-founder & CXO</span>
+      <span class="description">Founder & CEO</span>
     
   </div>
-  <time class="post-date" datetime="2020-12-31">Thu, Dec 31, 2020</time>
+  <time class="post-date" datetime="2022-09-06">Tue, Sep  6, 2022</time>
   
     <span class="read-time" title="Estimated read time">
   
-  13 min read
+  5 min read
 </span>
 
 
@@ -1219,38 +1004,11 @@ function share() {
     
 
     
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
       
 
-<a class="featured with-image small" href="/revitalize-mac-windows-computer/">
+<a class="featured with-image small" href="/updates-for-july-2022/">
   
-    <div class="featured-image" alt="Featured image" style="background-image: url(/images/revitalize-mac-windows-computer/feature_1600.jpg);"></div>
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/elementary-os-6-odin-updates-september-2021/card.jpg);"></div>
   
 
   <header>
@@ -1258,7 +1016,7 @@ function share() {
 
 
 
-   How to Revitalize Your Mac or Windows&nbsp;PC
+   Updates for July,&nbsp;2022
 
 </h2>
     
@@ -1267,7 +1025,7 @@ function share() {
 
 
 
-   Bring back a struggling computer with elementary&nbsp;OS
+   A big themes update for Terminal and OS 7&nbsp;progress
 
 
         
@@ -1282,428 +1040,25 @@ function share() {
   <div class="avatar">
     <img
       
-        srcset="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&d=blank 2x"
-        src="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&d=blank"
-        alt="Avatar for Cassidy James Blaede"
+        srcset="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&d=blank 2x"
+        src="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&d=blank"
+        alt="Avatar for Danielle Foré"
       
     />
   </div>
   <div class="author">
     
-    <span class="name">Cassidy James Blaede</span>
+    <span class="name">Danielle Foré</span>
     
     
-      <span class="description">Co-founder & CXO</span>
+      <span class="description">Founder & CEO</span>
     
   </div>
-  <time class="post-date" datetime="2020-10-16">Fri, Oct 16, 2020</time>
+  <time class="post-date" datetime="2022-08-12">Fri, Aug 12, 2022</time>
   
     <span class="read-time" title="Estimated read time">
   
-  7 min read
-</span>
-
-
-  
-</div>
-
-
-  </header>
-
-  
-</a>
-
-
-      
-      
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-      
-
-<a class="featured with-image small" href="/our-2019-in-review/">
-  
-    <div class="featured-image" alt="Featured image" style="background-image: url(/images/our-2019-in-review/2019.jpg);"></div>
-  
-
-  <header>
-    <h2>
-
-
-
-   Our 2019 in&nbsp;Review
-
-</h2>
-    
-      <h3>
-        
-
-
-
-   And looking forward in&nbsp;2020
-
-
-        
-      </h3>
-    
-
-    
-
-
-
-<div class="byline">
-  <div class="avatar">
-    <img
-      
-        srcset="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&d=blank 2x"
-        src="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&d=blank"
-        alt="Avatar for Cassidy James Blaede"
-      
-    />
-  </div>
-  <div class="author">
-    
-    <span class="name">Cassidy James Blaede</span>
-    
-    
-      <span class="description">Co-founder & CXO</span>
-    
-  </div>
-  <time class="post-date" datetime="2020-01-15">Wed, Jan 15, 2020</time>
-  
-    <span class="read-time" title="Estimated read time">
-  
-  11 min read
-</span>
-
-
-  
-</div>
-
-
-  </header>
-
-  
-</a>
-
-
-      
-      
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-      
-
-<a class="featured with-image small" href="/welcome-to-the-new-blog/">
-  
-    <div class="featured-image" alt="Featured image" style="background-image: url(/images/elementary-blog-code-1600.jpg);"></div>
-  
-
-  <header>
-    <h2>
-
-
-
-   Welcome to the New&nbsp;Blog
-
-</h2>
-    
-      <h3>
-        
-
-
-
-   Why we left Medium, and&nbsp;how!
-
-
-        
-      </h3>
-    
-
-    
-
-
-
-<div class="byline">
-  <div class="avatar">
-    <img
-      
-        srcset="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&d=blank 2x"
-        src="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&d=blank"
-        alt="Avatar for Cassidy James Blaede"
-      
-    />
-  </div>
-  <div class="author">
-    
-    <span class="name">Cassidy James Blaede</span>
-    
-    
-      <span class="description">Co-founder & CXO</span>
-    
-  </div>
-  <time class="post-date" datetime="2019-08-15">Thu, Aug 15, 2019</time>
-  
-    <span class="read-time" title="Estimated read time">
-  
-  16 min read
+  3 min read
 </span>
 
 
