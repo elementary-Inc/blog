@@ -38,7 +38,7 @@ This is another great bugfix release for Gala with major thanks to [Leo](https:/
 
 ## Files
 
-[Jeremy](https://github.com/jeremypw) made a sizable bugfix release of Files including several fixes related to selections and the overlay bar as well as a couple of reported regressions, fixes related to git emblems, and a crash fix.
+[Jeremy](https://github.com/jeremypw) made a sizable bug fix release of Files including several fixes related to selections and the overlay bar as well as a couple of reported regressions, fixes related to git emblems, and a crash fix.
 
 ## Get These Updates
 
