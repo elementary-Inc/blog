@@ -5,14 +5,18 @@
     <description>We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS</description>
     <link>https://blog.elementary.io/</link>
     <atom:link href="https://blog.elementary.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 05 May 2023 11:34:57 -0500</pubDate>
-    <lastBuildDate>Fri, 05 May 2023 11:34:57 -0500</lastBuildDate>
+    <pubDate>Fri, 05 May 2023 11:47:51 -0500</pubDate>
+    <lastBuildDate>Fri, 05 May 2023 11:47:51 -0500</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       
         <item>
           <title>Updates for April, 2023</title>
-          <description>&lt;h1 id=&quot;mail&quot;&gt;Mail&lt;/h1&gt;
+          <description>&lt;p&gt;This month we have a mix of new design and feature updates, another big batch of fixed bugs, and even some performance improvements.&lt;/p&gt;
+
+&lt;h1 id=&quot;mail&quot;&gt;Mail&lt;/h1&gt;
+
+&lt;p&gt;The headliner this month is Mail which does a better job handling newly added online accounts and includes fixes for a couple of potential crashes, plus a ton of code cleaning under the hood and even a few performance improvements. The composer now always opens in a separate, non-modal window making it much easier to reference a message you’re replying to or manage multiple drafts at the same time.&lt;/p&gt;
 
 &lt;figure class=&quot;half&quot;&gt;
   &lt;p&gt;&lt;img src=&quot;/images/updates-for-april-2023/mail.png&quot; alt=&quot;Mail&quot; /&gt;
@@ -22,7 +26,7 @@
   &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;The headliner this month is Mail which does a better job handling newly added online accounts and includes fixes for a couple of potential crashes, plus a ton of code cleaning under the hood and even a few performance improvements. The composer now always opens in a separate, non-modal window making it much easier to reference a message you’re replying to or manage multiple drafts at the same time. It also features quite a few more keyboard shortcuts for text formatting, adding attachments, etc. You might also appreciate some subtle design tweaks like placing the conversation list filter next to the search bar or how headers now appear to float over scrolled content. Major thanks goes to &lt;a href=&quot;https://github.com/leolost2605&quot;&gt;Leonhard&lt;/a&gt; for his hard work on this release.&lt;/p&gt;
+&lt;p&gt;It also features quite a few more keyboard shortcuts for text formatting, adding attachments, etc. You might also appreciate some subtle design tweaks like placing the conversation list filter next to the search bar or how headers now appear to float over scrolled content. Major thanks goes to &lt;a href=&quot;https://github.com/leolost2605&quot;&gt;Leonhard&lt;/a&gt; for his hard work on this release.&lt;/p&gt;
 
 &lt;h1 id=&quot;web&quot;&gt;Web&lt;/h1&gt;
 
@@ -36,7 +40,7 @@
 
 &lt;p&gt;The latest release of Desktop settings includes some new options for switching workspaces via hotcorners as well as a new feature to dim wallpapers in dark mode thanks to &lt;a href=&quot;https://github.com/lenemter&quot;&gt;Leo&lt;/a&gt;! You’ll also notice that the setting for disabling animations has moved to the “Appearance” tab and has been renamed to “Reduce Motion”.&lt;/p&gt;
 
-&lt;figure&gt;
+&lt;figure class=&quot;constrained&quot;&gt;
   &lt;p&gt;&lt;img src=&quot;/images/updates-for-april-2023/settings-appearance.png&quot; alt=&quot;Appearance Settings&quot; /&gt; {: width=”1101” height=”769”}&lt;/p&gt;
   &lt;figcaption&gt;
     &lt;p&gt;The “Reduce Motion” setting has moved to the “Appearance tab”&lt;/p&gt;
@@ -47,17 +51,19 @@
 
 &lt;h1 id=&quot;onboarding&quot;&gt;Onboarding&lt;/h1&gt;
 
+&lt;p&gt;A fresh version of Onboarding has been released with several redesigned pages including a fancy dynamic icon featuring the release wallpaper on the Welcome page, a much more prominent explanation of Sideloading, some new icons, and bolder typography.&lt;/p&gt;
+
 &lt;figure class=&quot;half&quot;&gt;
   &lt;p&gt;&lt;img src=&quot;/images/updates-for-april-2023/onboarding-welcome.png&quot; alt=&quot;Welcome view of Onboarding&quot; /&gt;{
-&lt;img src=&quot;/images/updates-for-april-2023//home/dani/Projects/blog/images/updates-for-april-2023.png&quot; alt=&quot;Early Access view of Onboarding&quot; /&gt;
-&lt;img src=&quot;/images/updates-for-april-2023/onboarding-guest.png&quot; alt=&quot;Guest Session view of Onboarding&quot; /&gt;
-&lt;img src=&quot;/images/updates-for-april-2023/onboarding-apps.png&quot; alt=&quot;Apps view of Onboarding&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/images/updates-for-april-2023/onboarding-apps.png&quot; alt=&quot;Apps view of Onboarding&quot; /&gt;
+&lt;img src=&quot;/images/updates-for-april-2023/onboarding-earlyaccess.png&quot; alt=&quot;Early Access view of Onboarding&quot; /&gt;
+&lt;img src=&quot;/images/updates-for-april-2023/onboarding-guest.png&quot; alt=&quot;Guest Session view of Onboarding&quot; /&gt;&lt;/p&gt;
   &lt;figcaption&gt;
     &lt;p&gt;Onboarding features bolder typography, colorful icons, and a more prominent explanation of Sideloading&lt;/p&gt;
   &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;A fresh version of Onboarding has been released with several redesigned pages including a much more prominent explanation of Sideloading, some new icons and bolder typography, better handling for Early Access builds, and Onboarding now handles the Guest account warning as well.&lt;/p&gt;
+&lt;p&gt;Plus, it has better handling for Early Access builds, and Onboarding now handles the Guest account warning as well. We’re always looking at your feedback to figure out the best way to help you get started with elementary OS, so keep sending in reports!&lt;/p&gt;
 
 &lt;h2 id=&quot;get-these-updates&quot;&gt;Get These Updates&lt;/h2&gt;
 
