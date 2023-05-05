@@ -9,7 +9,11 @@ tags:
   - updates
 ---
 
+This month we have a mix of new design and feature updates, another big batch of fixed bugs, and even some performance improvements.
+
 # Mail
+
+The headliner this month is Mail which does a better job handling newly added online accounts and includes fixes for a couple of potential crashes, plus a ton of code cleaning under the hood and even a few performance improvements. The composer now always opens in a separate, non-modal window making it much easier to reference a message you're replying to or manage multiple drafts at the same time.
 
 <figure class="half" markdown="1">
 ![Mail](/images/{{ page.slug }}/mail.png)
@@ -19,7 +23,7 @@ Subtle design changes in Mail include floating headers and a flatter compose win
 </figcaption>
 </figure>
 
-The headliner this month is Mail which does a better job handling newly added online accounts and includes fixes for a couple of potential crashes, plus a ton of code cleaning under the hood and even a few performance improvements. The composer now always opens in a separate, non-modal window making it much easier to reference a message you're replying to or manage multiple drafts at the same time. It also features quite a few more keyboard shortcuts for text formatting, adding attachments, etc. You might also appreciate some subtle design tweaks like placing the conversation list filter next to the search bar or how headers now appear to float over scrolled content. Major thanks goes to [Leonhard](https://github.com/leolost2605) for his hard work on this release.
+It also features quite a few more keyboard shortcuts for text formatting, adding attachments, etc. You might also appreciate some subtle design tweaks like placing the conversation list filter next to the search bar or how headers now appear to float over scrolled content. Major thanks goes to [Leonhard](https://github.com/leolost2605) for his hard work on this release.
 
 # Web
 
@@ -33,7 +37,7 @@ We had yet another great release of our window manager, Gala, this month. This r
 
 The latest release of Desktop settings includes some new options for switching workspaces via hotcorners as well as a new feature to dim wallpapers in dark mode thanks to [Leo](https://github.com/lenemter)! You'll also notice that the setting for disabling animations has moved to the "Appearance" tab and has been renamed to "Reduce Motion".
 
-<figure markdown="1">
+<figure class="constrained" markdown="1">
 ![Appearance Settings](/images/{{ page.slug }}/settings-appearance.png) {: width="1101" height="769"}
 <figcaption markdown="1">
 The "Reduce Motion" setting has moved to the "Appearance tab"
@@ -44,17 +48,19 @@ A new version of Locale settings has also been released that prevents Fcitx 5 fr
 
 # Onboarding
 
+A fresh version of Onboarding has been released with several redesigned pages including a fancy dynamic icon featuring the release wallpaper on the Welcome page, a much more prominent explanation of Sideloading, some new icons, and bolder typography.
+
 <figure class="half" markdown="1">
 ![Welcome view of Onboarding](/images/{{ page.slug }}/onboarding-welcome.png){
-![Early Access view of Onboarding](/images/{{ page.slug }}//home/dani/Projects/blog/images/updates-for-april-2023.png)
-![Guest Session view of Onboarding](/images/{{ page.slug }}/onboarding-guest.png)
 ![Apps view of Onboarding](/images/{{ page.slug }}/onboarding-apps.png)
+![Early Access view of Onboarding](/images/{{ page.slug }}/onboarding-earlyaccess.png)
+![Guest Session view of Onboarding](/images/{{ page.slug }}/onboarding-guest.png)
 <figcaption markdown="1">
 Onboarding features bolder typography, colorful icons, and a more prominent explanation of Sideloading
 </figcaption>
 </figure>
 
-A fresh version of Onboarding has been released with several redesigned pages including a much more prominent explanation of Sideloading, some new icons and bolder typography, better handling for Early Access builds, and Onboarding now handles the Guest account warning as well.
+Plus, it has better handling for Early Access builds, and Onboarding now handles the Guest account warning as well. We're always looking at your feedback to figure out the best way to help you get started with elementary OS, so keep sending in reports!
 
 ## Get These Updates
 
