@@ -5,9 +5,92 @@
     <description>We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS</description>
     <link>https://blog.elementary.io/</link>
     <atom:link href="https://blog.elementary.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 04 May 2023 19:05:30 -0500</pubDate>
-    <lastBuildDate>Thu, 04 May 2023 19:05:30 -0500</lastBuildDate>
+    <pubDate>Fri, 05 May 2023 11:34:57 -0500</pubDate>
+    <lastBuildDate>Fri, 05 May 2023 11:34:57 -0500</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      
+        <item>
+          <title>Updates for April, 2023</title>
+          <description>&lt;h1 id=&quot;mail&quot;&gt;Mail&lt;/h1&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/updates-for-april-2023/mail.png&quot; alt=&quot;Mail&quot; /&gt;
+&lt;img src=&quot;/images/updates-for-april-2023/mail-compose.png&quot; alt=&quot;Composer Window&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;Subtle design changes in Mail include floating headers and a flatter compose window&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The headliner this month is Mail which does a better job handling newly added online accounts and includes fixes for a couple of potential crashes, plus a ton of code cleaning under the hood and even a few performance improvements. The composer now always opens in a separate, non-modal window making it much easier to reference a message you’re replying to or manage multiple drafts at the same time. It also features quite a few more keyboard shortcuts for text formatting, adding attachments, etc. You might also appreciate some subtle design tweaks like placing the conversation list filter next to the search bar or how headers now appear to float over scrolled content. Major thanks goes to &lt;a href=&quot;https://github.com/leolost2605&quot;&gt;Leonhard&lt;/a&gt; for his hard work on this release.&lt;/p&gt;
+
+&lt;h1 id=&quot;web&quot;&gt;Web&lt;/h1&gt;
+
+&lt;p&gt;The latest GNOME Web 44.2 has now been ported to Gtk 4 and features much improved performance and web standards compatibility, plus a new saved passwords popover. I’m especially thankful to &lt;a href=&quot;https://github.com/exalm&quot;&gt;Alice&lt;/a&gt; for working with us to ensure that Adwaita-using apps still look and feel at home on elementary OS. With Firefox sync, web apps, and performance that matches major mainstream competitors, there’s never been a better time to try this community-made web browser.&lt;/p&gt;
+
+&lt;h1 id=&quot;window-management&quot;&gt;Window Management&lt;/h1&gt;
+
+&lt;p&gt;We had yet another great release of our window manager, Gala, this month. This release brings the total number of fixed reported issues since OS 7 in this component alone to nearly 40! Highlights from this release include adding the keyboard shortcut &lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;~&lt;/kbd&gt; for switching between windows of the same app, navigating with the arrow keys while holding down &lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;Tab&lt;/kbd&gt;, and several more animations now respect your preference to disable them. Plus, the team has been working hard to prepare for Mutter 44 which will bring fractional and per-display scaling support on Wayland, so look forward to seeing that in a future version of elementary OS. Thanks again to &lt;a href=&quot;https://github.com/tintou&quot;&gt;Corentin&lt;/a&gt;, &lt;a href=&quot;https://github.com/davidmhewitt&quot;&gt;David&lt;/a&gt;, and &lt;a href=&quot;https://github.com/lenemter&quot;&gt;Leo&lt;/a&gt; for all of their work here.&lt;/p&gt;
+
+&lt;h1 id=&quot;system-settings&quot;&gt;System Settings&lt;/h1&gt;
+
+&lt;p&gt;The latest release of Desktop settings includes some new options for switching workspaces via hotcorners as well as a new feature to dim wallpapers in dark mode thanks to &lt;a href=&quot;https://github.com/lenemter&quot;&gt;Leo&lt;/a&gt;! You’ll also notice that the setting for disabling animations has moved to the “Appearance” tab and has been renamed to “Reduce Motion”.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/updates-for-april-2023/settings-appearance.png&quot; alt=&quot;Appearance Settings&quot; /&gt; {: width=”1101” height=”769”}&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;The “Reduce Motion” setting has moved to the “Appearance tab”&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;A new version of Locale settings has also been released that prevents Fcitx 5 from being automatically pulled in with some languages and fixes a potential issue with acquiring permissions to set system-wide locale settings.&lt;/p&gt;
+
+&lt;h1 id=&quot;onboarding&quot;&gt;Onboarding&lt;/h1&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/updates-for-april-2023/onboarding-welcome.png&quot; alt=&quot;Welcome view of Onboarding&quot; /&gt;{
+&lt;img src=&quot;/images/updates-for-april-2023//home/dani/Projects/blog/images/updates-for-april-2023.png&quot; alt=&quot;Early Access view of Onboarding&quot; /&gt;
+&lt;img src=&quot;/images/updates-for-april-2023/onboarding-guest.png&quot; alt=&quot;Guest Session view of Onboarding&quot; /&gt;
+&lt;img src=&quot;/images/updates-for-april-2023/onboarding-apps.png&quot; alt=&quot;Apps view of Onboarding&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;Onboarding features bolder typography, colorful icons, and a more prominent explanation of Sideloading&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;A fresh version of Onboarding has been released with several redesigned pages including a much more prominent explanation of Sideloading, some new icons and bolder typography, better handling for Early Access builds, and Onboarding now handles the Guest account warning as well.&lt;/p&gt;
+
+&lt;h2 id=&quot;get-these-updates&quot;&gt;Get These Updates&lt;/h2&gt;
+
+&lt;p&gt;As always, pop open AppCenter on elementary OS 7 and hit “Update All” to get all these updates plus your regular security, bug fix, and translation updates.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;developer-platform&quot;&gt;Developer Platform&lt;/h2&gt;
+
+&lt;p&gt;The latest stylesheet brings support for Adw.AboutWindow and Adw.MessageDialog and the latest icons adds several icons expected by Adwaita-using apps such as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;adw-external-link&lt;/code&gt; and the row drag handle icon. There are also some subtle updates to a few symbolic icons. These improvements will land soon in a minor version bump to the 7.2 Flatpak platform so you won’t need to adjust your manifest to get them.&lt;/p&gt;
+
+&lt;h2 id=&quot;early-access-preview&quot;&gt;Early Access Preview&lt;/h2&gt;
+
+&lt;p&gt;Coming soon to early access, location portal support! We’re retiring our location agent, the old method for granting apps location access, and replacing it with Portals, the standard for accessing system services for Flatpak apps. If you’ve previously had trouble with location access features in apps, be sure to check System Settings → Security &amp;amp; Privacy to make sure Location Services is turned on. Also watch out for more improvements to Mail, including better offline support and the ability to move messages between folders. There may also be some design changes coming to AppCenter, so look out for those!&lt;/p&gt;
+
+&lt;p&gt;Early Access is a great way to help us test new features and find bugs before they roll out to everyone. If you’re not already in early access, you can be among the first to try it and give your feedback by joining &lt;a href=&quot;https://builds.elementary.io/&quot;&gt;Early Access for a $10/mo sponsorship&lt;/a&gt;.&lt;/p&gt;
+</description>
+          <pubDate>Fri, 05 May 2023 00:00:00 -0500</pubDate>
+          <link>https://blog.elementary.io/updates-for-april-2023/</link>
+          <guid isPermaLink="true">https://blog.elementary.io/updates-for-april-2023/</guid>
+          
+              
+              
+          <enclosure url="https://blog.elementary.io" />
+          
+          
+          <category>horus</category>
+          
+          <category>updates</category>
+          
+          
+        </item>
+      
     
       
         <item>
@@ -917,92 +1000,6 @@
           <pubDate>Sat, 02 Jul 2022 00:00:00 -0500</pubDate>
           <link>https://blog.elementary.io/updates-for-june-2022/</link>
           <guid isPermaLink="true">https://blog.elementary.io/updates-for-june-2022/</guid>
-          
-              
-              
-          <enclosure url="https://blog.elementary.io" />
-          
-          
-          <category>horus</category>
-          
-          <category>jolnir</category>
-          
-          <category>updates</category>
-          
-          
-        </item>
-      
-    
-      
-        <item>
-          <title>Updates for May, 2022</title>
-          <description>&lt;p&gt;We’re now in the final stretch with just a handful of issues left to resolve before we can release elementary OS 7. This month there was a large focus on making new stable releases of packages so that we can prepare for building stable images of OS 7. As we’ve mentioned before, the primary development focus has shifted from OS 6 and some components can no longer be released there. But, for those things which can still be built on both versions, a trickle of updates has landed in OS 6.1 this month.&lt;/p&gt;
-
-&lt;h2 id=&quot;updates-for-os-61&quot;&gt;Updates for OS 6.1&lt;/h2&gt;
-
-&lt;figure class=&quot;constrained&quot;&gt;
-  &lt;p&gt;&lt;img src=&quot;/images/elementary-os-6-1-available-now/card.png&quot; alt=&quot;elementary OS 6.1 Jólnir&quot; /&gt;&lt;/p&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Thanks to the shift to Flatpak, some apps will be able to receive updates almost indefinitely. This month, folks running OS 6.1 received the latest version of GNOME Web, including all the security, compatibility, and performance improvements in the latest Webkit. Similarly, the Captive Network Assistant also received an update with the latest Webkit. The latest versions of GNOME Archive Manager and GNOME Document Viewer were also made available thanks to Flatpak. It’s worth noting that some of the latest open source operating systems released this last month are still shipping older versions of these apps than are available in OS 6.1. We’re very proud and excited to ship the latest apps from the GNOME 42 release on a stable, long-term support operating system.&lt;/p&gt;
-
-&lt;aside&gt;
-  &lt;blockquote&gt;
-    &lt;p&gt;OS 6.1 is shipping newer versions of some apps than the latest Open Source operating systems released last month&lt;/p&gt;
-  &lt;/blockquote&gt;
-&lt;/aside&gt;
-
-&lt;p&gt;Also of note is the availability of Gtk4 apps. This month’s update to Calculator includes a huge code cleanup, but it also includes the jump to Gtk4. If you’ve already run your updates, you may have been using a Gtk4 app without even knowing it!&lt;/p&gt;
-
-&lt;p&gt;Terminal also received a small feature update this month including new keyboard shortcuts for switching tabs (&lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;1&lt;/kbd&gt;–&lt;kbd&gt;9&lt;/kbd&gt;), and &lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Shift&lt;/kbd&gt; + &lt;kbd&gt;Q&lt;/kbd&gt; to quit.&lt;/p&gt;
-
-&lt;p&gt;In System Settings there’s now offline support for newly added CalDAV accounts, and we fixed an issue that prevented the description text in some authentication dialogs from being localized.&lt;/p&gt;
-
-&lt;p&gt;Initial Setup now also intelligently offers to switch the primary mouse button for left-handed folks, and suggests connecting to a network.&lt;/p&gt;
-
-&lt;p&gt;And lastly, the Settings Daemon has been updated to provide the first day of the week over the Settings Portal and avoids trying to Housekeep the Downloads folder if you’ve set downloads to go directly to your Home folder.&lt;/p&gt;
-
-&lt;h3 id=&quot;get-these-updates&quot;&gt;Get These Updates&lt;/h3&gt;
-
-&lt;p&gt;As always, pop open AppCenter on elementary OS 6.1 and hit “Update All” to get all these updates plus your regular security, bug fix, and translation updates.&lt;/p&gt;
-
-&lt;h2 id=&quot;os-7-is-nearly-here&quot;&gt;OS 7 is Nearly Here!&lt;/h2&gt;
-
-&lt;figure class=&quot;constrained card&quot;&gt;
-  &lt;p&gt;&lt;img src=&quot;/images/updates-for-april-2022/card.jpg&quot; alt=&quot;elementary OS 7 Horus&quot; /&gt;&lt;/p&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;In case you missed it, &lt;a href=&quot;https://www.youtube.com/watch?v=UKp4xs1_AuU&quot;&gt;I streamed a few days ago&lt;/a&gt; walking through the remaining tasks before releasing OS 7 as well as showing off some of the changes that have landed and answering your questions. To briefly recap:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;You can always get the latest information, including an estimated release schedule, by following along with our &lt;a href=&quot;https://github.com/orgs/elementary/projects/94/views/1&quot;&gt;OS 7 Project board on GitHub&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;The remaining work is largely centered around resolving Mutter-related regressions in Gala. If you’re an expert with Mutter or Clutter, &lt;a href=&quot;https://github.com/elementary/gala/issues&quot;&gt;your help&lt;/a&gt; is always appreciated!&lt;/li&gt;
-  &lt;li&gt;This month, a lot of focus was on filling out the elementary Stable PPA on Launchpad which is required to build stable OS releases. Some of the more notable releases below:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;appcenter&quot;&gt;AppCenter&lt;/h3&gt;
-
-&lt;p&gt;The headlining feature for AppCenter in OS 7 is the introduction of automatic app updates. You can now choose to have all installed Flatpak apps receive their updates automatically. There’s also now a menu with an option to manually check for new updates. And on app info pages, we’ll show a warning when apps are built against outdated or abandoned runtimes so you can be well-informed about whether an app you’re interested in is receiving regular updates.&lt;/p&gt;
-
-&lt;p&gt;We’ve also removed the warning dialog for apps coming from alternative stores like Flathub and have reduced or removed other instances where AppCenter apps were being favored without legitimate reason. We’re always listening to your feedback and we want to do a better job ensuring that AppCenter helps you make informed choices without being overbearing and while avoiding any feelings of vendor lock-in.&lt;/p&gt;
-
-&lt;p&gt;Lastly a lot of work has gone into improving performance and making navigation more reliable. A future update will soon improve this even further, so look forward to a quicker and smoother experience discovering new apps and managing your installed ones.&lt;/p&gt;
-
-&lt;h3 id=&quot;music&quot;&gt;Music&lt;/h3&gt;
-
-&lt;p&gt;The first stable release of the brand new Music was published and is even available for folks running OS 6 in AppCenter. This rewrite is about rethinking the role of the Music app in the current landscape. We’re excited for you to try this more minimal take on the Music app and we’re looking forward to improving it with your feedback.&lt;/p&gt;
-
-&lt;h3 id=&quot;design-updates&quot;&gt;Design Updates&lt;/h3&gt;
-
-&lt;p&gt;Several apps have received updated or redesigned app icons including Photos, Calendar, Mail, and Multitasking. We’re tracking a more complete refresh of app icons &lt;a href=&quot;https://github.com/orgs/elementary/projects/110&quot;&gt;here in GitHub&lt;/a&gt;, most of which will come as updates throughout the OS 7 lifecycle. Mail also received a visual refresh with a flatter, pane-focused design that you can look forward to. Overall, the design changes between OS 6 and the first release of OS 7 will be small and subtle, with larger changes coming later.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Expect lots more details in the OS 7 release post highlighting everything new. In the meantime, if you’d like to get Early Access to see what’s coming and give your feedback before release, &lt;a href=&quot;https://builds.elementary.io/&quot;&gt;you can do so with a $10/mo sponsorship&lt;/a&gt;!&lt;/p&gt;
-</description>
-          <pubDate>Tue, 31 May 2022 00:00:00 -0500</pubDate>
-          <link>https://blog.elementary.io/updates-for-may-2022/</link>
-          <guid isPermaLink="true">https://blog.elementary.io/updates-for-may-2022/</guid>
           
               
               
