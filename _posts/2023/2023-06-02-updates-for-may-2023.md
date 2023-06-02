@@ -13,7 +13,7 @@ This month we have mostly minor maintenance updates as we gear up for a feature-
 
 # Calculator
 
-Calculator now follows keyboard shortcuts for copy and paste, even when the main text entry isn't focused, thanks to [Leo](https://github.com/lenemter)! It will no longer preserve extra white space on the right side of the window when used with alternative window button layouts. And Calculator will now always use the elementary stylesheet and icons, even when run on a different operating system, to prevent breakage relating to missing assets.
+Calculator now follows keyboard shortcuts for copy and paste, even when the main text entry isn't focused, thanks to [Leo](https://github.com/lenemter)! It will no longer preserve extra white space on the right side of the window when used with alternative window button layouts. And Calculator will now always use the elementary stylesheet and icons, even when run on a different operating system, to prevent breakage related to missing assets.
 
 # System Settings
 
@@ -43,7 +43,7 @@ Thanks go to [Josip](https://github.com/Antolius) for updating our documentation
 
 ## Early Access Preview
 
-This month we started putting together the [roadmap for OS 7.1](https://github.com/orgs/elementary/projects/122/views/2). It's been just over 90 days since OS 7 was released, so we're excited for a mid-cycle update with plenty of new features this summer.
+This month we started putting together the [roadmap for OS 7.1](https://github.com/orgs/elementary/projects/122/views/2). It's been just over 120 days since OS 7 was released, so we're excited for a mid-cycle update with plenty of new features this summer.
 
 Housekeeping is getting the ability to clean up the Screenshots folder thanks to [Josip](https://github.com/Antolius). If you're anything like me, you have a ton of those! So look out for that to appear soon in Security &amp; Privacy settings.
 
@@ -53,6 +53,6 @@ Mail recently received the ability to move conversations between folders along w
 
 AppCenter has been getting a lot of work on App Info pages. Expect them to not only be more responsive to small window sizes, with tighter spacing and better grid alignment, but also be on the lookout for more comprehensive permissions warnings. AppCenter now screens apps for holes in their "sandbox" and provides you with warnings when they have access to things like files and folders, system settings, location, or the ability to break out of the sandbox altogether. We're taking [a comprehensive look](https://github.com/elementary/appcenter/discussions/2045) at the kinds of sandbox holes developers have been poking to make sure we're providing useful and accurate warnings when apps are less secure.
 
-Speaking of [sandboxing &amp; portals](https://github.com/orgs/elementary/projects/120), we've also recently merged support for the background portal and are working on making sure default apps are all using it. This means more control over which apps are allowed to start up automatically when you turn your device on, as well as which apps are allowed to run in the background without a window.
+Speaking of [sandboxing &amp; portals](https://github.com/orgs/elementary/projects/120), we've also recently merged support for the background portal and are working on making sure default apps are all using it. This means you get more control over which apps are allowed to start up automatically when you turn your device on, as well as which apps are allowed to run in the background without a window.
 
 Early Access is a great way to help us test new features and find bugs before they roll out to everyone. If you're not already in early access, you can be among the first to try it and give your feedback by joining [Early Access for a $10/mo sponsorship](https://builds.elementary.io/). As you can see, there's a lot of new stuff to test right now!
