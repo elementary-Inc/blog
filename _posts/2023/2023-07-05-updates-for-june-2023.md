@@ -13,12 +13,44 @@ As promised, this month brings a bunch of new features including a big new acces
 
 ## AppCenter
 
-AppInfo views have been reworked to tighten up spacing and improve alignment. Special attention was put into making sure the most important information appears "above the fold", especially on smaller displays like in some laptops.
+As we work towards out continual goal of better supporting alt stores, one of the challenges is ensuring that you remain safe while using apps from stores with differing security and privacy policies. This month we've rolled out a new set of app sandbox warnings to help you better assess risk when installing apps. AppCenter will now inform you if an app can can read your location without asking first, if it can access system folders or your home folder, if it can read and write system settings, or if it could possibly escape the sandbox altogether and gain advanced permissions. For certain types of administrative apps, having advanced system permissions makes sense, but our goal is to keep you informed and ensure that apps are always operating with your consent.
 
-* Show Flatpak permissions for location, settings, system and home folder access, sandbox escape
-* Category Views: don't split out apps from alt stores anymore
-* Fix a potential crash when adding alt stores thanks to @meisenzahl
+<figure markdown="1">
+![AppCenter](/images/{{ page.slug }}/appcenter-permissions.png){: width="1198" height="901"}
+<figcaption markdown="1">
+AppCenter now warns about advanced Flatpak sandbox permissions
+</figcaption>
+</figure>
 
+AppInfo views have also been reworked to tighten up spacing and improve alignment. Special attention was put into making sure the most important information appears "above the fold", especially on smaller displays like in some laptops. Plus, we no longer split out apps from alt stores into a separate header in category views, and a potential crash when adding alt stores has been fixed thanks to [Marius](https://github.com/meisenzahl)
+
+## Portals
+
+Another big part of our consent story with apps are Portals. Portals keep apps isolated from your private data and ensure that apps ask before making changes to the system or using features that could become intrusive. This month [Leonhard](https://github.com/leolost2605) and [Gustavo](https://github.com/marukesu) implemented the Background &amp; Autostart Portal which alerts you when apps are running in the background and makes sure that apps ask your permission before they can automatically start up when you turn on your device. There's still a good amount of work to do on our background apps story, but this sets the foundation.
+
+## System Settings
+
+As part of their aforementioned work, [Gustavo](https://github.com/marukesu) updated Startup settings to show apps that use the Background &amp; Autostart Portal and we make quite a few design changes to this view to bring it in line with modern design patterns and ensure that it was more responsive for large and small displays. We also updated Default apps settings and did quite a bit of code cleanup here. And thanks to [Leo](https://github.com/lenemter) the "Reset to Defaults" button on the Permissions page is now disabled when permissions are already at their defaults, plus he improved screen reader names for several settings while here.
+
+<figure class="half" markdown="1">
+![Defaults Settings](/images/{{ page.slug }}/settings-defaults.png){: width="1024" height="720"}
+![Startup Settings](/images/{{ page.slug }}/settings-startup.png){: width="1024" height="720"}
+<figcaption markdown="1">
+Startup and Defaults settings were both redesigned to be more responsive for large and small displays
+</figcaption>
+</figure>
+
+
+
+Online accounts settings, "ImapDialog: Fix freeze when a server sends no response", "ImapDialog: Store most initial setup keys" thanks to Leonhard
+
+
+
+Display:
+* Nightlight can now be set warmer
+* Slight redesign of nightlight settings
+* New filters view with color assistance and monochrome filters
+* More accurate display resolution options thanks to vjr 
 
 
 ## Files
@@ -29,26 +61,6 @@ AppInfo views have been reworked to tighten up spacing and improve alignment. Sp
 * Fix a regression with duplicate Files, Jeremy
 * Fix some issues regarding folder sizes
 * Avoid showing temp files when renaming or replacing files
-
-
-
-
-## System Settings
-
-Online accounts settings, "ImapDialog: Fix freeze when a server sends no response", "ImapDialog: Store most initial setup keys" thanks to Leonhard
-
-Applications:
-* Show autostart apps created by background portal thanks to @Marukesu
-* Rewrite defaults view and startup view to be more responsive, use modern design patterns, lots of code cleanup
-* Better screenreader names thanks to @lenemter
-* Permission reset to default button now insensitive when resetting would do nothing thanks to @lenemter
-
-Display:
-* Nightlight can now be set warmer
-* Slight redesign of nightlight settings
-* New filters view with color assistance and monochrome filters
-* More accurate display resolution options thanks to vjr 
-
 
 ## Panel
 
@@ -66,9 +78,7 @@ Notifications:
 
 
 
-## Portals
 
-Background portal thanks to @leolost and @marukesu
 
 ## Sideload
  make sure open button grabs focus. Fix some visual glithces thanks to lenemter
@@ -77,6 +87,11 @@ Background portal thanks to @leolost and @marukesu
 
 Notifications: no more "automatic suspend" notifications. "Turning off sounds for "Other" notifications still plays sounds", "Send Critical Notifications regardless of Do Not Disturb"
 
+
+## Window Manager
+
+Resolve issue where sometimes parent windows wouldn't undim after closing dialogs
+Resolve issue with PiP visiblity when switching workspaces
 
 ## Get These Updates
 
