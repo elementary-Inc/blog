@@ -1,6 +1,6 @@
 ---
-title: Updates for March, 2023
-description: Spring cleaning is in full effect
+title: Spring cleaning is in full effect
+description: Updates for March, 2023
 author: danrabbit
 image: /images/updates-for-march-2023/sideload.png
 

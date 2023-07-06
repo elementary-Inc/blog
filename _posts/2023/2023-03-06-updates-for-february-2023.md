@@ -1,6 +1,6 @@
 ---
-title: Updates for February, 2023
-description: Big new features and a mountain of bug fixes
+title: Big new features and a mountain of bug fixes
+description: Updates for February, 2023
 author: danrabbit
 image: /images/updates-for-february-2023/card.png
 

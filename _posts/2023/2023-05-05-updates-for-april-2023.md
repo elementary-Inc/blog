@@ -1,6 +1,6 @@
 ---
-title: Updates for April, 2023
-description: New features and settings, improved performance, and fewer bugs
+title: New features and settings, improved performance, and fewer bugs
+description: Updates for April, 2023
 author: danrabbit
 image: /images/updates-for-february-2023/card.png
 

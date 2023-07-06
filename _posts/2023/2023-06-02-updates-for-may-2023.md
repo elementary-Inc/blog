@@ -1,6 +1,6 @@
 ---
-title: Updates for May, 2023
-description: Getting in shape for summer
+title: Getting in shape for summer
+description: Updates for May, 2023
 author: danrabbit
 image: /images/updates-for-february-2023/card.png
 
