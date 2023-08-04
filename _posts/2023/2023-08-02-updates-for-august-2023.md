@@ -13,47 +13,17 @@ This should be the last monthly update before [OS 7.1](https://github.com/orgs/e
 
 ## Mail
 
-Sort special folders to top by @leolost2605 in #910
-Allow renaming of folders by @leolost2605 in #911
-Fix grouped archive folder by @leolost2605 in #929
-Move menu to FoldersListView by @danirabbit in #905
+This release of Mail was really a labor of love from [Leonhard](https://github.com/leolost2605) and includes several new features and quality of life improvements. It now also uses the File Chooser Portal when selecting attachments and the Background & Autostart portal—[as previously teased](https://blog.elementary.io/updates-for-june-2023)—so you can control its autostart behavior in System Settings → Applications → Startup. Mail also does a better job handling changes in your internet connection, and can check messages in the background even when not autostarted.
 
-Swipe to archive and trash by @leolost2605 in #930
+In the sidebar, you'll notice that special folders like "Archive" and "Spam" are better detected and appear at the top level, even for accounts like Gmail that used to hide them as subfolders. You can now also rename folders by secondary-clicking on them and selecting "Rename Folder". An issue was resolved where some accounts with no archive folder displayed their inbox in the Archive for all mailboxes. And you'll notice that Mail's primary menu is now in the bottom right corner of the sidebar. Plus, performance has been improved when switching between folders.
 
-Move capability by @leolost2605 in #895
-Improve move menu and make it searchable by @leolost2605 in #916
-FolderPopover: increase white space, natural height, search placeholder by @danirabbit in #923
-Unify trash/archive by @leolost2605 in #888
+In the conversation list, you can now use a multi-touch swipe or click-and-drag left or right to quickly archive or trash a conversation. In the messages list, there's a new "Move conversation" menu that includes search, and you'll notice that archiving and moving messages can now be undone. Mail now does a better job of calculating message height to avoid extra scroll bars, and a handy infobar is shown when a message includes a calendar invite.
 
-Add support for inline images in the composer by @leolost2605 in #907
-Update composing by @leolost2605 in #894
-Add support for signatures by @leolost2605 in #900
-Include attachments when forwarding by @leolost2605 in #891
-
-
-WebView: Update height after images were loaded by @leolost2605 in #889
-Show an InfoBar if attachments include an ICS file by @leolost2605 in #915
-
-Application: force use of Portals by @danirabbit in #902
-Use flatpak portal for background and autostart by @leolost2605 in #882
-
-Always start InboxMonitor by @leolost2605 in #890
-Handle network availability by @leolost2605 in #871
-Fix an issue that causes mail to never connect to the network by @leolost2605 in #899
-
-Improve performance when moving messages by @leolost2605 in #897
-Improve performance when switching between folders by @leolost2605 in #928
+When composing a message, you can now add images inline and you can include attachments in forwarded messages. Plus this release brings support for signatures. You can create as many signatures as you'd like and assign them as the defaults for accounts as needed. The new "Insert signature…" menu makes it easy to swap between any of your saved signatures when composing.
 
 ## Calendar & Tasks
-Tasks:
-Fix a small color issue by @leolost2605 in #356
-Use flatpak portal for autostart and background permission by @leolost2605 in #361
-Fixed Duplicated tasks in Scheduled by @Claudio-code in #365
 
-Calendar:
-Create Autostart File Via Background Portal by @Marukesu in #681
-Application: Force use of portals by @danirabbit in #717
-Style updates by @leolost2605 in #780
+Calendar now uses the File Chooser Portal when importing and exporting calendar files, animations when switching months have been updated to match button directions, and it now uses your system accent color instead of its own. An issue in tasks where some tasks could become duplicated was resolved, as well as a small visual issue in dark mode. Both Calendar & Tasks now use the Background & Autostart portal as well, and their autostart behavior can be controlled in System Settings → Applications → Startup. Shoutouts to [Gustavo](https://github.com/marukesu), [Leonhard](https://github.com/leolost2605), and [Claudio](https://github.com/Claudio-code) for their work on office productivity apps this month.
 
 ## Login &amp; Lock Screen
 
@@ -174,5 +144,11 @@ As always, pop open AppCenter on elementary OS 7 and hit "Update All" to get all
 ---
 
 ## Early Access Preview
+
+Kernel 6.2
+
+Proprietary drivers
+
+screen reader
 
 Early Access is a great way to help us test new features and find bugs before they roll out to everyone. If you're not already in early access, you can be among the first to try it and give your feedback by joining [Early Access for a $10/mo sponsorship](https://builds.elementary.io/). As you can see, there's a lot of new stuff to test right now!
