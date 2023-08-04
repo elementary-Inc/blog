@@ -33,42 +33,15 @@ In addition to all of that, an issue that prevented cards from being selected wh
 
 ## System Settings
 
-Daemon:
-Portal: Support accent colors by @alice-mkh in #60
-Check for firmware updates by @meisenzahl in #45
-Screenshots housekeeping by @Antolius in #56
-Expose user's mouse settings by @lenemter in #66
-Expose xkb options by @lenemter in #67
-Load left handed mode from settings-daemon by @lenemter in #69
-Expose interface settings by @lenemter in #71
-Expose night light settings by @lenemter in #68
-InterfaceSettings: Expose fonts by @lenemter in #73
-Sync wallpaper to greeter by @lenemter in #72
+Sound Settings got a bit of a redesign for improved responsiveness on small and large displays and you may notice some improved description labels. Plus, [Leo](https://github.com/lenemter) fixed a reported crash.
 
-Sound:
-Plug: place contents in a Clamp by @danirabbit in #240
-Output: more vertical layout by @danirabbit in #241
-InputPanel: better use vertical space by @danirabbit in #242
-OutputPanel: Remove extra margin by @danirabbit in #243
-Set volume scales sensitive based on device by @danirabbit in #244
-OutputPanel: include screen reader shortcut by @danirabbit in #245
-Try to fix crash by @lenemter in #248
+The Dock &amp; Panel tab of Desktop settings also received a responsive redesign with added description labels for some settings. Additionally, checkboxes for extra indicators like the Accessibility indicator and the Capslock and Numlock indicators are now centrally located here. Plus [Leo](https://github.com/lenemter) fixed an issue where wallpapers might not get removed when quickly closing System Settings.
 
-Desktop:
-Wallpaper: Confirm wallpaper removal when hidden by @lenemter in #359
-Dock: add checks for panel indicators by @danirabbit in #358
-Dock: redesign by @danirabbit in #360
-Multitasking: Remove top margin to match other pages by @lenemter in #362
-Rely on settings-daemon to copy wallpaper to greeter by @lenemter in #361
+The Behavior tab of Keyboard settings got a major update with the additional of several new settings for things like Bounce, Slow, and Sticky keys. Slider values are now shown on drag instead of in a separate widget. Plus, app developers can now link directly to custom shortcuts settings thanks again to [Leo](https://github.com/lenemter).
 
-Keyboard:
-Add link to custom shortcuts by @lenemter in #443
-Behavior: Remove spinbuttons by @danirabbit in #447
-Behavior: add a11y settings by @danirabbit in #446
+In Security &amp; Privacy Settings, you now have the option to automatically clean up Screenshot files as part of Housekeeping thanks to [Josip](https://github.com/Antolius). And we now make sure not to show Location settings for apps that have been uninstalled.
 
-Security & Privacy:
-Add screenshot files cleanup option to Housekeeping by @Antolius in #141
-LocationPanel: Check that apps are installed before listing by @danirabbit in #160
+Finally, the Settings Daemon will now check for and notify of Firmware updates when they're available thanks to [Marius](https://github.com/meisenzahl) and we support Accent Colors on the Settings Portal thanks to [Alice](https://github.com/alice-mkh)
 
 ## Panel
 

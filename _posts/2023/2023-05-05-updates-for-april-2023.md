@@ -27,7 +27,7 @@ It also features quite a few more keyboard shortcuts for text formatting, adding
 
 # Web
 
-The latest GNOME Web 44.2 has now been ported to Gtk 4 and features much improved performance and web standards compatibility, plus a new saved passwords popover. I'm especially thankful to [Alice](https://github.com/exalm) for working with us to ensure that Adwaita-using apps still look and feel at home on elementary OS. With Firefox sync, web apps, and performance that matches major mainstream competitors, there's never been a better time to try this community-made web browser.
+The latest GNOME Web 44.2 has now been ported to Gtk 4 and features much improved performance and web standards compatibility, plus a new saved passwords popover. I'm especially thankful to [Alice](https://github.com/alice-mkh) for working with us to ensure that Adwaita-using apps still look and feel at home on elementary OS. With Firefox sync, web apps, and performance that matches major mainstream competitors, there's never been a better time to try this community-made web browser.
 
 # Window Management
 
