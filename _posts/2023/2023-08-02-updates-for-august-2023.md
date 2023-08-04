@@ -1,5 +1,5 @@
 ---
-title: 
+title: New Features For Mail, A More Personal Lock Screen, And System Settings Improvements
 description: Updates for August, 2023
 author: danrabbit
 image: /images/updates-for-august-2023/.png
@@ -27,30 +27,9 @@ Calendar now uses the File Chooser Portal when importing and exporting calendar 
 
 ## Login &amp; Lock Screen
 
-Compositor: Mask corners by @lenemter in #661
+Meanwhile, [Leo](https://github.com/lenemter) has recently made it his mission to respect all of your system settings and improve accessibility on the Login &amp; Lock screen. It now does a better job matching your mouse, keyboard, and touchpad settings, including improved keyboard layout handling. Your chosen accent color is now used everywhere—not just on your login card—and it now handles solid color wallpapers. Your text size and font settings, pointer size settings, cursor blink settings, Night Light settings and more are all now respected as well. Plus, the ability to reveal the pointer is now available, the Screen Reader can be enabled with a keyboard shortcut, and it does a better job remembering your Screen Reader settings.
 
-Use user's mouse and touchpad settings by @lenemter in #655
-Use user's xkb options by @lenemter in #658
-Copy KeyboardManager from Gala by @lenemter in #644
-KeyboardManager: Set keyboard layout on startup by @lenemter in #645
-Improve handling of users' accent color by @lenemter in #667
-Use user's interface settings by @lenemter in #670
-Use user's night light settings by @lenemter in #662
-Use users' fonts by @lenemter in #677
-
-Compositor: Implement PointerLocator by @lenemter in #674
-
-Fix screenreader shortcut by @lenemter in #668
-Save screenreader state between sessions by @lenemter in #669
-
-AccessDialog: Copy changes from Gala by @lenemter in #636
-WindowManager: confirm_display_change() Fixes by @lenemter in #637
-
-UserCard: Handle click event using Gtk.GestureMultiPress by @lenemter in #680
-
-Don't reset user settings when entering wrong credentials by @lenemter in #681
-
-Respect solid color wallpaper by @lenemter in #672
+In addition to all of that, an issue that prevented cards from being selected when clicked in certain areas has now been fixed, as well as potential issues with dialogs that use Portals, potential issues with multi-display setups, and an issue where settings would be reset when incorrect credentials were entered. Plus you'll also notice that the Login &amp; Lock Screen now has subtly rounded corners that match the logged in session.
 
 ## System Settings
 
