@@ -45,30 +45,41 @@ Finally, the Settings Daemon will now check for and notify of Firmware updates w
 
 ## Code
 
-Ensure active project at startup (include non-git folders) by @jeremypw in #1254
-Handle saving to unwritable location better to avoid data loss by @jeremypw in #1262
-Make symbol outline aware of follow-system-style setting by @jeremypw in #1265
-Show running branch if not master by @jeremypw in #1258
-Fix styling when no documents by @jeremypw in #1271
-Ensure Replace button (and other search widget) states are mutually consistent by @jeremypw in #1278
-Delay asking for save location if cannot determine write access by @jeremypw in #1280
-Additional Search options in menu by @jeremypw in #1276
-Implement option to show files with unknown characters as new document by @jeremypw in #1283
-Do not change document search results unexpectedly on focus in by @jeremypw in #1294
-Add ctrl + pageUp and pageDown for switching tabs by @stan-janssen in #1297
-Persist search settings by @jeremypw in #1291
-Set search entry icon and styleclass according to results by @jeremypw in #1285
-Ask save location with dialog by @jeremypw in #1308
-Ensure folder items in sidebar always expandable by @jeremypw in #1252
-Fix creating duplicates of unwritable files by @jeremypw in #1318
-FormatBar: Show column number not buffer offset by @jeremypw in #1342
-Handle only relevant settings key changes by @jeremypw in #1345
-Use dialog for external changes by @jeremypw in #1309
-Sync tab settings by @jeremypw in #1347
-Fix searchterm reverts by @jeremypw in #1336
-Ensure correct sidebar item is focused, or none, when tab removed by @jeremypw in #1320
-Fix logic for clearing search entry by @jeremypw in #1359
 Fix spurious external change warnings by @jeremypw in #1354
+Handle saving to unwritable location better to avoid data loss by @jeremypw in #1262
+Delay asking for save location if cannot determine write access by @jeremypw in #1280
+Ask save location with dialog by @jeremypw in #1308
+Use dialog for external changes by @jeremypw in #1309
+Fix creating duplicates of unwritable files by @jeremypw in #1318
+
+Do not change document search results unexpectedly on focus in by @jeremypw in #1294
+Fix logic for clearing search entry by @jeremypw in #1359
+Fix searchterm reverts by @jeremypw in #1336
+Set search entry icon and styleclass according to results by @jeremypw in #1285
+Persist search settings by @jeremypw in #1291
+Additional Search options in menu by @jeremypw in #1276
+Ensure Replace button (and other search widget) states are mutually consistent by @jeremypw in #1278
+
+Make symbol outline aware of follow-system-style setting by @jeremypw in #1265
+Fix styling when no documents by @jeremypw in #1271
+
+Ensure active project at startup (include non-git folders) by @jeremypw in #1254
+
+Show running branch if not master by @jeremypw in #1258
+
+Implement option to show files with unknown characters as new document by @jeremypw in #1283
+
+Add ctrl + pageUp and pageDown for switching tabs by @stan-janssen in #1297
+
+Ensure folder items in sidebar always expandable by @jeremypw in #1252
+
+FormatBar: Show column number not buffer offset by @jeremypw in #1342
+
+Handle only relevant settings key changes by @jeremypw in #1345
+
+Sync tab settings by @jeremypw in #1347
+
+Ensure correct sidebar item is focused, or none, when tab removed by @jeremypw in #1320
 
 ## Other Updates
 
