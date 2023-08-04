@@ -43,18 +43,6 @@ In Security &amp; Privacy Settings, you now have the option to automatically cle
 
 Finally, the Settings Daemon will now check for and notify of Firmware updates when they're available thanks to [Marius](https://github.com/meisenzahl) and we support Accent Colors on the Settings Portal thanks to [Alice](https://github.com/alice-mkh)
 
-## Panel
-
-Sound:
-PlayerRow: use circle buttons by @danirabbit in #248
-PlayerRow: keep label size consistent by @danirabbit in #247
-volume-control: don't mute monitor sources by @GranPC in #251
-Resource: Update microphone icons by @danirabbit in #255
-
-A11y:
-Set correct text size on startup by @lenemter in #53
-GreeterWidget: Sync with greeter session by @lenemter in #56
-
 ## Code
 
 Ensure active project at startup (include non-git folders) by @jeremypw in #1254
@@ -82,12 +70,13 @@ Ensure correct sidebar item is focused, or none, when tab removed by @jeremypw i
 Fix logic for clearing search entry by @jeremypw in #1359
 Fix spurious external change warnings by @jeremypw in #1354
 
-## Window Manager
-PiP: Check workspace before hiding the window by @lenemter in #1708
-Keep track of dimmed windows by @lenemter in #1710
+## Other Updates
 
-## Files
-Fix regression adding folder to view (shows children until refreshed) by @jeremypw in #2239
+[Jeremy](https://github.com/jeremypw) fixed an issue in Files where sometimes folder contents were incorrect until the folder was refreshed.
+
+[Leo](https://github.com/lenemter) fixed an issue where Picture-in-Picture windows could become unintentionally hidden and made sure parent windows of dialogs are dimmed and undimmed more accurately.
+
+The Sound indicator was updated to use circle buttons and should no longer change size when skipping tracks. Muting should no longer affect monitor sources thanks to [Gran](https://github.com/GranPC), and microphone icons have been subtly updated. Plus, [Leo](https://github.com/lenemter) made sure the Accessibility indicator shows the correct text size on startup.
 
 ## Get These Updates
 
