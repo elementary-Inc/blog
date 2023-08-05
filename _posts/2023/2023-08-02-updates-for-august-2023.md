@@ -45,12 +45,11 @@ Finally, the Settings Daemon will now check for and notify of Firmware updates w
 
 ## Code
 
-Fix spurious external change warnings by @jeremypw in #1354
-Handle saving to unwritable location better to avoid data loss by @jeremypw in #1262
-Delay asking for save location if cannot determine write access by @jeremypw in #1280
-Ask save location with dialog by @jeremypw in #1308
-Use dialog for external changes by @jeremypw in #1309
-Fix creating duplicates of unwritable files by @jeremypw in #1318
+[Jeremy](https://github.com/jeremypw) has been working diligently on this release of Code which closes more than 20 reported issues and brings plenty of improvements to search.
+
+Code now does a better job handling file saving and preventing data loss when files can't be written to their original location. Some busy infobars are now dialogs, and we avoid showing too many aggressive warnings about file saving.
+
+
 
 Do not change document search results unexpectedly on focus in by @jeremypw in #1294
 Fix logic for clearing search entry by @jeremypw in #1359
@@ -60,8 +59,7 @@ Persist search settings by @jeremypw in #1291
 Additional Search options in menu by @jeremypw in #1276
 Ensure Replace button (and other search widget) states are mutually consistent by @jeremypw in #1278
 
-Make symbol outline aware of follow-system-style setting by @jeremypw in #1265
-Fix styling when no documents by @jeremypw in #1271
+The Vala symbols outline now correctly matches Code when the style changes after startup, and we fixed issues with styling when no documents are open.
 
 Ensure active project at startup (include non-git folders) by @jeremypw in #1254
 
