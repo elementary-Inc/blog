@@ -47,35 +47,24 @@ Finally, the Settings Daemon will now check for and notify of Firmware updates w
 
 [Jeremy](https://github.com/jeremypw) has been working diligently on this release of Code which closes more than 20 reported issues and brings plenty of improvements to search.
 
-Code now does a better job handling file saving and preventing data loss when files can't be written to their original location. Some busy infobars are now dialogs, and we avoid showing too many aggressive warnings about file saving.
+Code now does a better job handling file saving and preventing data loss when files can't be written to their original location. Some busy infobars are now dialogs, and we avoid showing too many aggressive warnings about file saving. And you can now optionally try to continue loading files that contain unknown characters or corrupted content.
 
-
-
-Do not change document search results unexpectedly on focus in by @jeremypw in #1294
-Fix logic for clearing search entry by @jeremypw in #1359
-Fix searchterm reverts by @jeremypw in #1336
-Set search entry icon and styleclass according to results by @jeremypw in #1285
-Persist search settings by @jeremypw in #1291
-Additional Search options in menu by @jeremypw in #1276
-Ensure Replace button (and other search widget) states are mutually consistent by @jeremypw in #1278
+Search options are now all available from a new menu, there's now a "match whole words" option, and your search settings are now saved between sessions. The search entry also provides visual feedback when no results are found. We do a better job deciding which string to search if you have both a selection and text in the search entry, and make sure that the "Replace" and "Replace All" buttons are enabled and disabled more accurately.
 
 The Vala symbols outline now correctly matches Code when the style changes after startup, and we fixed issues with styling when no documents are open.
+
+The tab width menu has been reworked quite a bit to more accurately prioritize between your global defaults, per document settings, and editorconfig file. An issue that caused an incorrect column number in the line number menu was fixed.
+
+And an issue that caused excessive reads and writes to settings has been fixed.
+
 
 Ensure active project at startup (include non-git folders) by @jeremypw in #1254
 
 Show running branch if not master by @jeremypw in #1258
 
-Implement option to show files with unknown characters as new document by @jeremypw in #1283
-
 Add ctrl + pageUp and pageDown for switching tabs by @stan-janssen in #1297
 
 Ensure folder items in sidebar always expandable by @jeremypw in #1252
-
-FormatBar: Show column number not buffer offset by @jeremypw in #1342
-
-Handle only relevant settings key changes by @jeremypw in #1345
-
-Sync tab settings by @jeremypw in #1347
 
 Ensure correct sidebar item is focused, or none, when tab removed by @jeremypw in #1320
 
@@ -95,10 +84,8 @@ As always, pop open AppCenter on elementary OS 7 and hit "Update All" to get all
 
 ## Early Access Preview
 
-Kernel 6.2
+If you're in Early Access there's some new goodies for you to test! Firstly, the latest daily builds now contain Linux 6.2 thanks to the Ubuntu hardware enablement team. Thanks Ubuntu! Additionally, we're testing an option in the Installer to include proprietary drivers when installing; this specifically affects folks with Nvidia graphics or Broadcom networking as well as in certain virtual machines, so we'd love to get your feedback if you've previously failed to install elementary OS due to missing hardware support.
 
-Proprietary drivers
-
-screen reader
+The Installer and Initial Setup now also come with audio directions for enabling the screen reader after a brief timeout. Our hope is that this makes it much easier to install elementary OS for folks with vision-related disabilities. Additionally the Installer now supports two-finger-swipe to go back. If you've previously been unable to or had a difficult time installing elementary OS due to disability, we'd love to hear how we can make your experience better!
 
 Early Access is a great way to help us test new features and find bugs before they roll out to everyone. If you're not already in early access, you can be among the first to try it and give your feedback by joining [Early Access for a $10/mo sponsorship](https://builds.elementary.io/). As you can see, there's a lot of new stuff to test right now!
