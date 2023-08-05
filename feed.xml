@@ -5,9 +5,135 @@
     <description>We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS</description>
     <link>https://blog.elementary.io/</link>
     <atom:link href="https://blog.elementary.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 04 Aug 2023 19:05:23 -0500</pubDate>
-    <lastBuildDate>Fri, 04 Aug 2023 19:05:23 -0500</lastBuildDate>
+    <pubDate>Sat, 05 Aug 2023 17:48:49 -0500</pubDate>
+    <lastBuildDate>Sat, 05 Aug 2023 17:48:49 -0500</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      
+        <item>
+          <title>New Features For Mail, A More Personal Lock Screen, And System Settings Improvements</title>
+          <description>&lt;p&gt;This should be the last monthly update before &lt;a href=&quot;https://github.com/orgs/elementary/projects/122/views/2&quot;&gt;OS 7.1&lt;/a&gt; and it’s a good one! We have new releases of our office productivity apps, including several new features in Mail, a much more personal Login &amp;amp; Lock Screen experience with improved accessibility, and a couple of large redesigns in System Settings. Plus, for our developers we have a big new release of Code with tons of bug fixes. And don’t forget to read the Early Access Preview to find out what last minute features might make it into the next big OS release.&lt;/p&gt;
+
+&lt;h2 id=&quot;mail&quot;&gt;Mail&lt;/h2&gt;
+
+&lt;p&gt;This release of Mail was really a labor of love from &lt;a href=&quot;https://github.com/leolost2605&quot;&gt;Leonhard&lt;/a&gt; and includes several new features and quality of life improvements. It now also uses the File Chooser Portal when selecting attachments and the Background &amp;amp; Autostart portal—&lt;a href=&quot;https://blog.elementary.io/updates-for-june-2023&quot;&gt;as previously teased&lt;/a&gt;—so you can control its autostart behavior in System Settings → Applications → Startup. Mail also does a better job handling changes in your internet connection, and can check messages in the background even when not autostarted.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/updates-for-july-2023/mail.png&quot; alt=&quot;Mail&quot; width=&quot;1039&quot; height=&quot;765&quot; /&gt;&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;In the sidebar, you’ll notice that special folders like “Archive” and “Spam” are better detected and appear at the top level, even for accounts like Gmail that used to hide them as subfolders. You can now also rename folders by secondary-clicking on them and selecting “Rename Folder”. An issue was resolved where some accounts with no archive folder displayed their inbox in the Archive for all mailboxes. And you’ll notice that Mail’s primary menu is now in the bottom right corner of the sidebar. Plus, performance has been improved when switching between folders.&lt;/p&gt;
+
+&lt;p&gt;In the conversation list, you can now use a multi-touch swipe or click-and-drag left or right to quickly archive or trash a conversation. In the messages list, there’s a new “Move conversation” menu that includes search, and you’ll notice that archiving and moving messages can now be undone. Mail now does a better job of calculating message height to avoid extra scroll bars, and a handy infobar is shown when a message includes a calendar invite.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/updates-for-july-2023/mail-compose.png&quot; alt=&quot;Composing a new message in Mail&quot; width=&quot;744&quot; height=&quot;564&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;Mail now supports inline images and multiple saved signatures&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;When composing a message, you can now add images inline and you can include attachments in forwarded messages. Plus this release brings support for signatures. You can create as many signatures as you’d like and assign them as the defaults for accounts as needed. The new “Insert signature…” menu makes it easy to swap between any of your saved signatures when composing.&lt;/p&gt;
+
+&lt;h2 id=&quot;calendar--tasks&quot;&gt;Calendar &amp;amp; Tasks&lt;/h2&gt;
+
+&lt;p&gt;Calendar now uses the File Chooser Portal when importing and exporting calendar files, animations when switching months have been updated to match button directions, and it now uses your system accent color instead of its own. An issue in tasks where some tasks could become duplicated was resolved, as well as a small visual issue in dark mode. Both Calendar &amp;amp; Tasks now use the Background &amp;amp; Autostart portal as well, and their autostart behavior can be controlled in System Settings → Applications → Startup. Shoutouts to &lt;a href=&quot;https://github.com/marukesu&quot;&gt;Gustavo&lt;/a&gt;, &lt;a href=&quot;https://github.com/leolost2605&quot;&gt;Leonhard&lt;/a&gt;, and &lt;a href=&quot;https://github.com/Claudio-code&quot;&gt;Claudio&lt;/a&gt; for their work on office productivity apps this month.&lt;/p&gt;
+
+&lt;h2 id=&quot;login--lock-screen&quot;&gt;Login &amp;amp; Lock Screen&lt;/h2&gt;
+
+&lt;p&gt;Meanwhile, &lt;a href=&quot;https://github.com/lenemter&quot;&gt;Leo&lt;/a&gt; has recently made it his mission to respect all of your system settings and improve accessibility on the Login &amp;amp; Lock screen. It now does a better job matching your mouse, keyboard, and touchpad settings, including improved keyboard layout handling. Your chosen accent color is now used everywhere—not just on your login card—and it now handles solid color wallpapers. Your text size and font settings, pointer size settings, cursor blink settings, Night Light settings and more are all now respected as well. Plus, the ability to reveal the pointer is now available, the Screen Reader can be enabled with a keyboard shortcut, and it does a better job remembering your Screen Reader settings.&lt;/p&gt;
+
+&lt;p&gt;In addition to all of that, an issue that prevented cards from being selected when clicked in certain areas has now been fixed, as well as potential issues with dialogs that use Portals, potential issues with multi-display setups, and an issue where settings would be reset when incorrect credentials were entered. Plus you’ll also notice that the Login &amp;amp; Lock Screen now has subtly rounded corners that match the logged in session.&lt;/p&gt;
+
+&lt;h2 id=&quot;system-settings&quot;&gt;System Settings&lt;/h2&gt;
+
+&lt;p&gt;Sound Settings got a bit of a redesign for improved responsiveness on small and large displays and you may notice some improved description labels. Plus, &lt;a href=&quot;https://github.com/lenemter&quot;&gt;Leo&lt;/a&gt; fixed a reported crash.&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/updates-for-july-2023/sound-output.png&quot; alt=&quot;Sound Output Settings&quot; width=&quot;1198&quot; height=&quot;686&quot; /&gt;
+&lt;img src=&quot;/images/updates-for-july-2023/sound-inputp.png&quot; alt=&quot;Sound Input Settings&quot; width=&quot;1198&quot; height=&quot;686&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;Sound settings slightly redesigned for small and large displays&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The Dock &amp;amp; Panel tab of Desktop settings also received a responsive redesign with added description labels for some settings. Additionally, checkboxes for extra indicators like the Accessibility indicator and the Capslock and Numlock indicators are now centrally located here. Plus &lt;a href=&quot;https://github.com/lenemter&quot;&gt;Leo&lt;/a&gt; fixed an issue where wallpapers might not get removed when quickly closing System Settings.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/updates-for-july-2023/settings-dock-panel.png&quot; alt=&quot;System Settings → Desktop → Dock &amp;amp; Panel&quot; width=&quot;1198&quot; height=&quot;686&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;Dock &amp;amp; Panel now includes optional panel indicator settings&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The Behavior tab of Keyboard settings got a major update with the additional of several new settings for things like Bounce, Slow, and Sticky keys. Slider values are now shown on drag instead of in a separate widget. Plus, app developers can now link directly to custom shortcuts settings thanks again to &lt;a href=&quot;https://github.com/lenemter&quot;&gt;Leo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/updates-for-july-2023/keyboard-behavior.png&quot; alt=&quot;System Settings → Keyboard → Behavior&quot; width=&quot;1198&quot; height=&quot;686&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;Keyboard Behavior now includes Bounce, Slow, and Sticky keys&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;In Security &amp;amp; Privacy Settings, you now have the option to automatically clean up Screenshot files as part of Housekeeping thanks to &lt;a href=&quot;https://github.com/Antolius&quot;&gt;Josip&lt;/a&gt;. And we now make sure not to show Location settings for apps that have been uninstalled.&lt;/p&gt;
+
+&lt;p&gt;Finally, the Settings Daemon will now check for and notify of Firmware updates when they’re available thanks to &lt;a href=&quot;https://github.com/meisenzahl&quot;&gt;Marius&lt;/a&gt; and we support Accent Colors on the Settings Portal thanks to &lt;a href=&quot;https://github.com/alice-mkh&quot;&gt;Alice&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;code&quot;&gt;Code&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/jeremypw&quot;&gt;Jeremy&lt;/a&gt; has been working diligently on this release of Code which closes more than 20 reported issues and brings plenty of improvements to search. Code now does a better job handling file saving and preventing data loss when files can’t be written to their original location. Some busy infobars are now dialogs, and we avoid showing too many aggressive warnings about file saving. And you can now optionally try to continue loading files that contain unknown characters or corrupted content.&lt;/p&gt;
+
+&lt;p&gt;Search options are now all available from a new menu, there’s now a “match whole words” option, and your search settings are now saved between sessions. The search entry also provides visual feedback when no results are found. We do a better job deciding which string to search if you have both a selection and text in the search entry, and make sure that the “Replace” and “Replace All” buttons are enabled and disabled more accurately. And an issue that prevented global search from working on startup was fixed.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/updates-for-july-2023/code.png&quot; alt=&quot;Code&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;Code has a new search options menu&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;In the sidebar, folders that don’t contain text files can now be expanded properly, and Code does a better job making sure sidebar focus updates correctly when tabs are closed. The tab width menu has been reworked quite a bit to more accurately prioritize between your global defaults, per document settings, and editorconfig file. An issue that caused an incorrect column number in the line number menu was fixed.&lt;/p&gt;
+
+&lt;p&gt;The Vala symbols outline now correctly matches Code when the style changes after startup, and we fixed issues with styling when no documents are open. An issue that caused excessive reads and writes to settings has been fixed. Plus, you can now switch tabs with the keyboard shortcut &lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;PageUp&lt;/kbd&gt;/&lt;kbd&gt;PageDown&lt;/kbd&gt; thanks to &lt;a href=&quot;https://github.com/stan-janssen&quot;&gt;Stan&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;other-updates&quot;&gt;Other Updates&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/jeremypw&quot;&gt;Jeremy&lt;/a&gt; fixed an issue in Files where sometimes folder contents were incorrect until the folder was refreshed.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/lenemter&quot;&gt;Leo&lt;/a&gt; fixed an issue where Picture-in-Picture windows could become unintentionally hidden and made sure parent windows of dialogs are dimmed and undimmed more accurately.&lt;/p&gt;
+
+&lt;p&gt;The Sound indicator was updated to use circle buttons and should no longer change size when skipping tracks. Muting should no longer affect monitor sources thanks to &lt;a href=&quot;https://github.com/GranPC&quot;&gt;Gran&lt;/a&gt;, and microphone icons have been subtly updated. Plus, &lt;a href=&quot;https://github.com/lenemter&quot;&gt;Leo&lt;/a&gt; made sure the Accessibility indicator shows the correct text size on startup.&lt;/p&gt;
+
+&lt;h2 id=&quot;get-these-updates&quot;&gt;Get These Updates&lt;/h2&gt;
+
+&lt;p&gt;As always, pop open AppCenter on elementary OS 7 and hit “Update All” to get all these updates plus your regular security, bug fix, and translation updates.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;early-access-preview&quot;&gt;Early Access Preview&lt;/h2&gt;
+
+&lt;p&gt;If you’re in Early Access there’s some new goodies for you to test! Firstly, the latest daily builds now contain Linux 6.2 thanks to the Ubuntu hardware enablement team. Thanks Ubuntu! Additionally, we’re testing an option in the Installer to include proprietary drivers when installing; this specifically affects folks with Nvidia graphics or Broadcom networking as well as in certain virtual machines, so we’d love to get your feedback if you’ve previously failed to install elementary OS due to missing hardware support.&lt;/p&gt;
+
+&lt;p&gt;The Installer and Initial Setup now also come with audio directions for enabling the screen reader after a brief timeout. Our hope is that this makes it much easier to install elementary OS for folks with vision-related disabilities. Additionally the Installer now supports two-finger-swipe to go back. If you’ve previously been unable to or had a difficult time installing elementary OS due to disability, we’d love to hear how we can make your experience better!&lt;/p&gt;
+
+&lt;p&gt;Early Access is a great way to help us test new features and find bugs before they roll out to everyone. If you’re not already in early access, you can be among the first to try it and give your feedback by joining &lt;a href=&quot;https://builds.elementary.io/&quot;&gt;Early Access for a $10/mo sponsorship&lt;/a&gt;. As you can see, there’s a lot of new stuff to test right now!&lt;/p&gt;
+</description>
+          <pubDate>Sat, 05 Aug 2023 00:00:00 -0500</pubDate>
+          <link>https://blog.elementary.io/updates-for-july-2023/</link>
+          <guid isPermaLink="true">https://blog.elementary.io/updates-for-july-2023/</guid>
+          
+              
+              
+          <enclosure url="https://blog.elementary.io" />
+          
+          
+          <category>horus</category>
+          
+          <category>updates</category>
+          
+          
+        </item>
+      
     
       
         <item>
@@ -224,7 +350,7 @@
 
 &lt;h1 id=&quot;web&quot;&gt;Web&lt;/h1&gt;
 
-&lt;p&gt;The latest GNOME Web 44.2 has now been ported to Gtk 4 and features much improved performance and web standards compatibility, plus a new saved passwords popover. I’m especially thankful to &lt;a href=&quot;https://github.com/exalm&quot;&gt;Alice&lt;/a&gt; for working with us to ensure that Adwaita-using apps still look and feel at home on elementary OS. With Firefox sync, web apps, and performance that matches major mainstream competitors, there’s never been a better time to try this community-made web browser.&lt;/p&gt;
+&lt;p&gt;The latest GNOME Web 44.2 has now been ported to Gtk 4 and features much improved performance and web standards compatibility, plus a new saved passwords popover. I’m especially thankful to &lt;a href=&quot;https://github.com/alice-mkh&quot;&gt;Alice&lt;/a&gt; for working with us to ensure that Adwaita-using apps still look and feel at home on elementary OS. With Firefox sync, web apps, and performance that matches major mainstream competitors, there’s never been a better time to try this community-made web browser.&lt;/p&gt;
 
 &lt;h1 id=&quot;window-management&quot;&gt;Window Management&lt;/h1&gt;
 
@@ -942,116 +1068,6 @@
           
           
           <category>horus</category>
-          
-          
-        </item>
-      
-    
-      
-        <item>
-          <title>Updates for August, 2022</title>
-          <description>&lt;p&gt;This month, updates for 6.1 are a bit small as we’ve been doing quite a bit more work on OS 7! Read ahead for a summary of your 6.1 updates plus information about our work porting to Gtk 4 and with responsive design in OS 7.&lt;/p&gt;
-
-&lt;figure class=&quot;constrained&quot;&gt;
-  &lt;p&gt;&lt;img src=&quot;/images/elementary-os-6-1-available-now/card.png&quot; alt=&quot;elementary OS 6.1 Jólnir&quot; /&gt;&lt;/p&gt;
-&lt;/figure&gt;
-
-&lt;h2 id=&quot;desktop-settings&quot;&gt;Desktop Settings&lt;/h2&gt;
-
-&lt;p&gt;In August we released two small updates and a few fixes for Desktop Settings, mostly regarding Wallpapers. We now sort your imported wallpapers to the top of the list, and there is now an “undo” option when removing a wallpaper from your collection. Plus, the selection check now matches your chosen accent color. We’ve also resolved an issue that occurs when importing wallpapers with the same file name, and fixed a couple of issues related to keyboard navigation.&lt;/p&gt;
-
-&lt;h2 id=&quot;get-these-updates&quot;&gt;Get These Updates&lt;/h2&gt;
-
-&lt;p&gt;As always, pop open AppCenter on elementary OS 6.1 and hit “Update All” to get all these updates plus your regular security, bug fix, and translation updates.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;figure class=&quot;constrained card&quot;&gt;
-  &lt;p&gt;&lt;img src=&quot;/images/updates-for-april-2022/card.jpg&quot; alt=&quot;elementary OS 7 Horus&quot; /&gt;&lt;/p&gt;
-&lt;/figure&gt;
-
-&lt;h2 id=&quot;appcenter&quot;&gt;AppCenter&lt;/h2&gt;
-
-&lt;p&gt;Last month, I made a brief mention of some of the work we had starting doing towards &lt;a href=&quot;https://github.com/orgs/elementary/projects/109/views/1&quot;&gt;responsive interfaces in our apps&lt;/a&gt;. This work continues this month, and I wanted to go a bit more in depth into why we’re doing it and what we’ve accomplished.&lt;/p&gt;
-
-&lt;p&gt;Firstly, if you’re not familiar with the term “responsive design” it refers to designing interfaces in a way such that they &lt;em&gt;respond&lt;/em&gt; to changes in the size of the window or display. Typically when folks talk about responsive design, they’re thinking in terms of shrinking things down to fit on mobile displays, but it can also mean making them work better for large desktop displays including ultrawide formats, and for us it means designing for resizable windows—including tiling. We’ve heard, both from people who use elementary OS and from our downstreams like System76, that there’s a desire for tiling both simple and complex apps and even on smaller laptop displays. We’ve also heard for many years a desire to run elementary OS on tablets and phones, which would require us to make apps that can work on even smaller displays and in vertical layouts as well. So I’m excited to say that we’ve started to make progress towards this goal and future designs will keep responsiveness in mind.&lt;/p&gt;
-
-&lt;p&gt;One of the places that we’ve made the most progress here is in AppCenter. AppCenter is a core experience on elementary OS since it’s the recommended place to discover and install new apps as well as get updates. The most immediately noticeable change is in the headerbar which now focuses on search and de-emphasizes navigation with the installed apps view.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;p&gt;&lt;img src=&quot;/images/updates-for-august-2022/appcenter-home.png&quot; alt=&quot;AppCenter's new navigation area and mobile comparison&quot; /&gt;&lt;/p&gt;
-  &lt;figcaption&gt;
-    &lt;p&gt;&lt;strong&gt;Left:&lt;/strong&gt; AppCenter’s new navigation area | &lt;strong&gt;Right:&lt;/strong&gt; The home page scaled down to mobile widths&lt;/p&gt;
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;On the Installed apps view we now show release notes in a dialog instead of fitting them in between rows. This should make them a lot easier to reveal and read on both large and small form factors and could enable new features in the future like listing release notes for every version in between an upgrade.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;p&gt;&lt;img src=&quot;/images/updates-for-august-2022/appcenter-release-notes.png&quot; alt=&quot;AppCenter's installed apps view&quot; /&gt;&lt;/p&gt;
-  &lt;figcaption&gt;
-    &lt;p&gt;Release notes are now shown in a dialog&lt;/p&gt;
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;There’s still some work to do with resizing images and de-cluttering the header, but App info pages now do a better job of wrapping elements and preventing text from being ellipsized at small sizes. You’ll also notice that there’s now an accent colored background behind screenshots and captions are shown when available.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;p&gt;&lt;img src=&quot;/images/updates-for-august-2022/appcenter-appinfo-mobile.png&quot; alt=&quot;AppCenter's app info view at small sizes&quot; /&gt;&lt;/p&gt;
-  &lt;figcaption&gt;
-    &lt;p&gt;Elements shrink or wrap to fit in small sizes&lt;/p&gt;
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;And at larger window sizes you’ll notice that more screenshots can be viewed at once, so again we’re looking at responsiveness in both directions.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;p&gt;&lt;img src=&quot;/images/updates-for-august-2022/appcenter-appinfo.png&quot; alt=&quot;AppCenter's app info view at large sizes&quot; /&gt;&lt;/p&gt;
-  &lt;figcaption&gt;
-    &lt;p&gt;More screenshots are shown at once at large sizes&lt;/p&gt;
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;There’s also been a lot of progress made on porting AppCenter to Gtk 4 and I’m happy to say that there is &lt;a href=&quot;https://github.com/elementary/appcenter/pull/1896&quot;&gt;a pull request&lt;/a&gt; currently in review to complete this port. The process of getting AppCenter ready for Gtk 4 has lead to a ton of improvements that should make the code base more maintainable and lead to real world improvements in performance and reliability. I’m also very excited about the foundations that have been laid here to enable new features and more compelling design.&lt;/p&gt;
-
-&lt;h2 id=&quot;system-settings&quot;&gt;System Settings&lt;/h2&gt;
-
-&lt;p&gt;System settings is another place where there has been a lot of effort made towards Gtk 4 porting and the beginnings of more responsive layouts. Since this is a pretty large app, it’s unclear if this work will be completed in time for the launch of OS 7, but it could be made available in a future point release.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;p&gt;&lt;img src=&quot;/images/updates-for-august-2022/settings.png&quot; alt=&quot;System Settings in Gtk 4 and mobile comparison&quot; /&gt;&lt;/p&gt;
-  &lt;figcaption&gt;
-    &lt;p&gt;&lt;strong&gt;Left:&lt;/strong&gt; System Settings in Gtk 4 | &lt;strong&gt;Right:&lt;/strong&gt; Scaling down the new System Settings&lt;/p&gt;
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;There’s been a lot of progress porting each of the panes to Gtk 4 and some of these panes are usable at pretty small sizes, but there’s a lot of work to do to make them truly responsive&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;p&gt;&lt;img src=&quot;/images/updates-for-august-2022/settings-bluetooth-a11y.png&quot; alt=&quot;Bluetooth and Universal Access Settings&quot; /&gt;&lt;/p&gt;
-  &lt;figcaption&gt;
-    &lt;p&gt;&lt;strong&gt;Left:&lt;/strong&gt; Bluetooth settings uses too much padding | &lt;strong&gt;Right:&lt;/strong&gt; Universal Access settings’ sidebar occupies too much space&lt;/p&gt;
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h2 id=&quot;stay-tuned&quot;&gt;Stay Tuned&lt;/h2&gt;
-
-&lt;p&gt;You can follow along on GitHub for more detailed information about &lt;a href=&quot;https://github.com/orgs/elementary/projects/95&quot;&gt;Gtk 4 porting&lt;/a&gt; and &lt;a href=&quot;https://github.com/orgs/elementary/projects/109/views/1&quot;&gt;Responsive apps&lt;/a&gt; as well as look forward to seeing more on the blog here! Everything shown here is still evolving and changing, but you can be among the first to try it and give your feedback by joining &lt;a href=&quot;https://builds.elementary.io/&quot;&gt;Early Access for a $10/mo sponsorship&lt;/a&gt;. Can’t wait to see you in the next one!&lt;/p&gt;
-</description>
-          <pubDate>Tue, 06 Sep 2022 00:00:00 -0500</pubDate>
-          <link>https://blog.elementary.io/updates-for-august-2022/</link>
-          <guid isPermaLink="true">https://blog.elementary.io/updates-for-august-2022/</guid>
-          
-              
-              
-          <enclosure url="https://blog.elementary.io" />
-          
-          
-          <category>horus</category>
-          
-          <category>jolnir</category>
-          
-          <category>updates</category>
           
           
         </item>
