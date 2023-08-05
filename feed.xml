@@ -5,8 +5,8 @@
     <description>We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS</description>
     <link>https://blog.elementary.io/</link>
     <atom:link href="https://blog.elementary.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 05 Aug 2023 17:48:49 -0500</pubDate>
-    <lastBuildDate>Sat, 05 Aug 2023 17:48:49 -0500</lastBuildDate>
+    <pubDate>Sat, 05 Aug 2023 17:59:55 -0500</pubDate>
+    <lastBuildDate>Sat, 05 Aug 2023 17:59:55 -0500</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       
@@ -26,8 +26,9 @@
 
 &lt;p&gt;In the conversation list, you can now use a multi-touch swipe or click-and-drag left or right to quickly archive or trash a conversation. In the messages list, there’s a new “Move conversation” menu that includes search, and you’ll notice that archiving and moving messages can now be undone. Mail now does a better job of calculating message height to avoid extra scroll bars, and a handy infobar is shown when a message includes a calendar invite.&lt;/p&gt;
 
-&lt;figure&gt;
-  &lt;p&gt;&lt;img src=&quot;/images/updates-for-july-2023/mail-compose.png&quot; alt=&quot;Composing a new message in Mail&quot; width=&quot;744&quot; height=&quot;564&quot; /&gt;&lt;/p&gt;
+&lt;figure class=&quot;half&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/updates-for-july-2023/mail-compose.png&quot; alt=&quot;Composing a new message in Mail&quot; width=&quot;744&quot; height=&quot;564&quot; /&gt;
+&lt;img src=&quot;/images/updates-for-july-2023/mail-signatures.png&quot; alt=&quot;Creating signatures in Mail&quot; width=&quot;564&quot; height=&quot;364&quot; /&gt;&lt;/p&gt;
   &lt;figcaption&gt;
     &lt;p&gt;Mail now supports inline images and multiple saved signatures&lt;/p&gt;
   &lt;/figcaption&gt;
@@ -51,7 +52,7 @@
 
 &lt;figure class=&quot;half&quot;&gt;
   &lt;p&gt;&lt;img src=&quot;/images/updates-for-july-2023/sound-output.png&quot; alt=&quot;Sound Output Settings&quot; width=&quot;1198&quot; height=&quot;686&quot; /&gt;
-&lt;img src=&quot;/images/updates-for-july-2023/sound-inputp.png&quot; alt=&quot;Sound Input Settings&quot; width=&quot;1198&quot; height=&quot;686&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/images/updates-for-july-2023/sound-input.png&quot; alt=&quot;Sound Input Settings&quot; width=&quot;1198&quot; height=&quot;686&quot; /&gt;&lt;/p&gt;
   &lt;figcaption&gt;
     &lt;p&gt;Sound settings slightly redesigned for small and large displays&lt;/p&gt;
   &lt;/figcaption&gt;
