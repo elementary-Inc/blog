@@ -1,23 +1,34 @@
 ---
 title: New Features For Mail, A More Personal Lock Screen, And System Settings Improvements
-description: Updates for August, 2023
+description: Updates for July, 2023
 author: danrabbit
-image: /images/updates-for-august-2023/.png
+image: /images/updates-for-july-2023/.png
 
 tags:
   - horus
   - updates
 ---
 
-This should be the last monthly update before [OS 7.1](https://github.com/orgs/elementary/projects/122/views/2)!
+This should be the last monthly update before [OS 7.1](https://github.com/orgs/elementary/projects/122/views/2) and it's a good one! We have new releases of our office productivity apps, including several new features in Mail, a much more personal Login &amp; Lock Screen experience with improved accessibility, and a couple of large redesigns in System Settings. Plus, for our developers we have a big new release of Code with tons of bug fixes. And don't forget to read the Early Access Preview to find out what last minute features might make it into the next big OS release.
 
 ## Mail
 
 This release of Mail was really a labor of love from [Leonhard](https://github.com/leolost2605) and includes several new features and quality of life improvements. It now also uses the File Chooser Portal when selecting attachments and the Background & Autostart portal—[as previously teased](https://blog.elementary.io/updates-for-june-2023)—so you can control its autostart behavior in System Settings → Applications → Startup. Mail also does a better job handling changes in your internet connection, and can check messages in the background even when not autostarted.
 
+<figure markdown="1">
+![Mail](/images/{{ page.slug }}/mail.png){: width="1039" height="765"}
+</figure>
+
 In the sidebar, you'll notice that special folders like "Archive" and "Spam" are better detected and appear at the top level, even for accounts like Gmail that used to hide them as subfolders. You can now also rename folders by secondary-clicking on them and selecting "Rename Folder". An issue was resolved where some accounts with no archive folder displayed their inbox in the Archive for all mailboxes. And you'll notice that Mail's primary menu is now in the bottom right corner of the sidebar. Plus, performance has been improved when switching between folders.
 
 In the conversation list, you can now use a multi-touch swipe or click-and-drag left or right to quickly archive or trash a conversation. In the messages list, there's a new "Move conversation" menu that includes search, and you'll notice that archiving and moving messages can now be undone. Mail now does a better job of calculating message height to avoid extra scroll bars, and a handy infobar is shown when a message includes a calendar invite.
+
+<figure markdown="1">
+![Composing a new message in Mail](/images/{{ page.slug }}/mail-compose.png){: width="744" height="564"}
+<figcaption markdown="1">
+Mail now supports inline images and multiple saved signatures
+</figcaption>
+</figure>
 
 When composing a message, you can now add images inline and you can include attachments in forwarded messages. Plus this release brings support for signatures. You can create as many signatures as you'd like and assign them as the defaults for accounts as needed. The new "Insert signature…" menu makes it easy to swap between any of your saved signatures when composing.
 
@@ -35,9 +46,31 @@ In addition to all of that, an issue that prevented cards from being selected wh
 
 Sound Settings got a bit of a redesign for improved responsiveness on small and large displays and you may notice some improved description labels. Plus, [Leo](https://github.com/lenemter) fixed a reported crash.
 
+<figure class="half" markdown="1">
+![Sound Output Settings](/images/{{ page.slug }}/sound-output.png){: width="1198" height="686"}
+![Sound Input Settings](/images/{{ page.slug }}/sound-inputp.png){: width="1198" height="686"}
+<figcaption markdown="1">
+Sound settings slightly redesigned for small and large displays
+</figcaption>
+</figure>
+
 The Dock &amp; Panel tab of Desktop settings also received a responsive redesign with added description labels for some settings. Additionally, checkboxes for extra indicators like the Accessibility indicator and the Capslock and Numlock indicators are now centrally located here. Plus [Leo](https://github.com/lenemter) fixed an issue where wallpapers might not get removed when quickly closing System Settings.
 
+<figure markdown="1">
+![System Settings → Desktop → Dock &amp; Panel](/images/{{ page.slug }}/settings-dock-panel.png){: width="1198" height="686"}
+<figcaption markdown="1">
+Dock &amp; Panel now includes optional panel indicator settings
+</figcaption>
+</figure>
+
 The Behavior tab of Keyboard settings got a major update with the additional of several new settings for things like Bounce, Slow, and Sticky keys. Slider values are now shown on drag instead of in a separate widget. Plus, app developers can now link directly to custom shortcuts settings thanks again to [Leo](https://github.com/lenemter).
+
+<figure markdown="1">
+![System Settings → Keyboard → Behavior](/images/{{ page.slug }}/keyboard-behavior.png){: width="1198" height="686"}
+<figcaption markdown="1">
+Keyboard Behavior now includes Bounce, Slow, and Sticky keys
+</figcaption>
+</figure>
 
 In Security &amp; Privacy Settings, you now have the option to automatically clean up Screenshot files as part of Housekeeping thanks to [Josip](https://github.com/Antolius). And we now make sure not to show Location settings for apps that have been uninstalled.
 
