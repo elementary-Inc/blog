@@ -23,8 +23,9 @@ In the sidebar, you'll notice that special folders like "Archive" and "Spam" are
 
 In the conversation list, you can now use a multi-touch swipe or click-and-drag left or right to quickly archive or trash a conversation. In the messages list, there's a new "Move conversation" menu that includes search, and you'll notice that archiving and moving messages can now be undone. Mail now does a better job of calculating message height to avoid extra scroll bars, and a handy infobar is shown when a message includes a calendar invite.
 
-<figure markdown="1">
+<figure class="half" markdown="1">
 ![Composing a new message in Mail](/images/{{ page.slug }}/mail-compose.png){: width="744" height="564"}
+![Creating signatures in Mail](/images/{{ page.slug }}/mail-signatures.png){: width="564" height="364"}
 <figcaption markdown="1">
 Mail now supports inline images and multiple saved signatures
 </figcaption>
@@ -48,7 +49,7 @@ Sound Settings got a bit of a redesign for improved responsiveness on small and 
 
 <figure class="half" markdown="1">
 ![Sound Output Settings](/images/{{ page.slug }}/sound-output.png){: width="1198" height="686"}
-![Sound Input Settings](/images/{{ page.slug }}/sound-inputp.png){: width="1198" height="686"}
+![Sound Input Settings](/images/{{ page.slug }}/sound-input.png){: width="1198" height="686"}
 <figcaption markdown="1">
 Sound settings slightly redesigned for small and large displays
 </figcaption>
