@@ -2,7 +2,7 @@
 title: New Features For Mail, A More Personal Lock Screen, And System Settings Improvements
 description: Updates for July, 2023
 author: danrabbit
-image: /images/updates-for-july-2023/.png
+image: /images/updates-for-july-2023/mail.png
 
 tags:
   - horus
@@ -78,28 +78,20 @@ Finally, the Settings Daemon will now check for and notify of Firmware updates w
 
 ## Code
 
-[Jeremy](https://github.com/jeremypw) has been working diligently on this release of Code which closes more than 20 reported issues and brings plenty of improvements to search.
+[Jeremy](https://github.com/jeremypw) has been working diligently on this release of Code which closes more than 20 reported issues and brings plenty of improvements to search. Code now does a better job handling file saving and preventing data loss when files can't be written to their original location. Some busy infobars are now dialogs, and we avoid showing too many aggressive warnings about file saving. And you can now optionally try to continue loading files that contain unknown characters or corrupted content.
 
-Code now does a better job handling file saving and preventing data loss when files can't be written to their original location. Some busy infobars are now dialogs, and we avoid showing too many aggressive warnings about file saving. And you can now optionally try to continue loading files that contain unknown characters or corrupted content.
+Search options are now all available from a new menu, there's now a "match whole words" option, and your search settings are now saved between sessions. The search entry also provides visual feedback when no results are found. We do a better job deciding which string to search if you have both a selection and text in the search entry, and make sure that the "Replace" and "Replace All" buttons are enabled and disabled more accurately. And an issue that prevented global search from working on startup was fixed.
 
-Search options are now all available from a new menu, there's now a "match whole words" option, and your search settings are now saved between sessions. The search entry also provides visual feedback when no results are found. We do a better job deciding which string to search if you have both a selection and text in the search entry, and make sure that the "Replace" and "Replace All" buttons are enabled and disabled more accurately.
+<figure markdown="1">
+![Code](/images/{{ page.slug }}/code.png)
+<figcaption markdown="1">
+Code has a new search options menu
+</figcaption>
+</figure>
 
-The Vala symbols outline now correctly matches Code when the style changes after startup, and we fixed issues with styling when no documents are open.
+In the sidebar, folders that don't contain text files can now be expanded properly, and Code does a better job making sure sidebar focus updates correctly when tabs are closed. The tab width menu has been reworked quite a bit to more accurately prioritize between your global defaults, per document settings, and editorconfig file. An issue that caused an incorrect column number in the line number menu was fixed.
 
-The tab width menu has been reworked quite a bit to more accurately prioritize between your global defaults, per document settings, and editorconfig file. An issue that caused an incorrect column number in the line number menu was fixed.
-
-And an issue that caused excessive reads and writes to settings has been fixed.
-
-
-Ensure active project at startup (include non-git folders) by @jeremypw in #1254
-
-Show running branch if not master by @jeremypw in #1258
-
-Add ctrl + pageUp and pageDown for switching tabs by @stan-janssen in #1297
-
-Ensure folder items in sidebar always expandable by @jeremypw in #1252
-
-Ensure correct sidebar item is focused, or none, when tab removed by @jeremypw in #1320
+The Vala symbols outline now correctly matches Code when the style changes after startup, and we fixed issues with styling when no documents are open. An issue that caused excessive reads and writes to settings has been fixed. Plus, you can now switch tabs with the keyboard shortcut <kbd>Ctrl</kbd> + <kbd>PageUp</kbd>/<kbd>PageDown</kbd> thanks to [Stan](https://github.com/stan-janssen)
 
 ## Other Updates
 
