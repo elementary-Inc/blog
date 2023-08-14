@@ -9,10 +9,19 @@ tags:
   - updates
 ---
 
+How many bugs squashed since 7.0?
+
+Major themes:
+* Accessibility
+* Office Productivity
+* Settings & Personalization
+
 # Installer & Initial Setup
 
 Navigation gestures
 Screen reader
+
+https://github.com/elementary/initial-setup/releases/tag/6.3.0
 
 # Onboarding
 
@@ -29,6 +38,8 @@ Onboarding features bolder typography, colorful icons, and a more prominent expl
 </figure>
 
 Plus, it has better handling for Early Access builds, and Onboarding now handles the Guest account warning as well.
+
+https://github.com/elementary/onboarding/releases/tag/7.2.0
 
 ## AppCenter
 
@@ -135,9 +146,23 @@ Plus, thanks to a joint effort between [Jeremy](https://github.com/jeremypw) and
 
 [Jeremy](https://github.com/jeremypw) fixed an issue in Files where sometimes folder contents were incorrect until the folder was refreshed.
 
-# Web
+# Music
+
+Music can now accept Drag and Drop of whole folders, thanks to [Jeremy](https://github.com/jeremypw), and you can secondary click on a folder in Files and open it with Music thanks to [Aitor](https://github.com/aitor-gomila). Plus it's been updated to the latest Flatpak platform which fixes issues with certain animations.
+
+## Videos
+
+https://github.com/elementary/videos/releases/tag/3.0.0
+
+## Web
 
 The latest GNOME Web 44.2 has now been ported to Gtk 4 and features much improved performance and web standards compatibility, plus a new saved passwords popover. With Firefox sync, web apps, and performance that matches major mainstream competitors, there's never been a better time to try this community-made web browser.
+
+The latest version of Web fixes a crash in the bookmarks popover, improves the reliability of creating web apps, and has a fix related to local storage access requests.
+
+# Calculator
+
+Calculator now follows keyboard shortcuts for copy and paste, even when the main text entry isn't focused, thanks to [Leo](https://github.com/lenemter)! It will no longer preserve extra white space on the right side of the window when used with alternative window button layouts. And Calculator will now always use the elementary stylesheet and icons, even when run on a different operating system, to prevent breakage related to missing assets.
 
 ## Code
 
@@ -236,11 +261,11 @@ Keyboard Behavior now includes Bounce, Slow, and Sticky keys
 
 In Security &amp; Privacy Settings, you now have the option to automatically clean up Screenshot files as part of Housekeeping thanks to [Josip](https://github.com/Antolius). And we now make sure not to show Location settings for apps that have been uninstalled.
 
-There's also a new version of Online Accounts settings thanks to [Leonhard](https://github.com/leolost2605) which fixes a freeze when the server doesn't respond while adding an IMAP account, and improves support for special folders like Archive and Sent folders.
-
-Online Accounts settings was updated with a fix for setting the correct SMTP username when configuring IMAP accounts, thanks to [Stan](https://github.com/stan-janssen). And, [Leo](https://github.com/lenemter) made sure the icons there for Mail and Tasks were updated to their latest versions.
+There's also a new version of Online Accounts settings thanks to [Leonhard](https://github.com/leolost2605) which fixes a freeze when the server doesn't respond while adding an IMAP account, and improves support for special folders like Archive and Sent folders. Online Accounts settings was updated with a fix for setting the correct SMTP username when configuring IMAP accounts, thanks to [Stan](https://github.com/stan-janssen). And, [Leo](https://github.com/lenemter) made sure the icons there for Mail and Tasks were updated to their latest versions.
 
 Finally, the Settings Daemon will now check for and notify of Firmware updates when they're available thanks to [Marius](https://github.com/meisenzahl) and we support Accent Colors on the Settings Portal thanks to [Alice](https://github.com/alice-mkh)
+
+A new version of Security &amp; Privacy settings has been released that now supports the Location portal. This is a more secure method for apps to request access to location services and is the latest FreeDesktop.org standard for doing so. If you've had trouble with sideloaded apps accessing location services before, this change will most likely fix that issue. You can adjust location settings in System Settings → Security &amp; Privacy → Location Services. If the main switch here is turned off, apps will not be allowed to even ask for permission, so make sure it's turned on if you are using apps that make use of location data.
 
 ## Panel
 
@@ -280,6 +305,8 @@ We had yet another great release of our window manager, Gala, this month. This r
 [Leo](https://github.com/lenemter) fixed an issue where Picture-in-Picture windows could become unintentionally hidden and made sure parent windows of dialogs are dimmed and undimmed more accurately.
 
 [Leo] fixed an issue where sometimes parent windows wouldn't un-dim after closing dialogs, and made sure Picture-in-Picture windows update their visibility properly when switching workspaces.
+
+https://github.com/elementary/gala/releases/tag/7.1.2
 
 ## Portals
 
