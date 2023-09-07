@@ -22,7 +22,7 @@ The Feedback app now features search
 </figcaption>
 </figure>
 
-The feedback app is our way to stay connected with you and address any issues you come across, so please make sure to make sure of it. The issues that we send fixes for everyone month come directly from folks who make use of this app.
+The feedback app is our way to stay connected with you and address any issues you come across, so please make sure to make use of it. The issues that we send fixes for every month come directly from folks who make use of this app.
 
 ## Videos
 
