@@ -11,37 +11,67 @@ tags:
 
 How many bugs squashed since 7.0?
 
-Major themes:
-* Accessibility
-* Office Productivity
-* Settings & Personalization
+<figure class="card" markdown="1">
+![elementary OS 7.1](/images/{{ page.slug }}/hero.png)
+</figure>
 
-# Installer & Initial Setup
+Today we're proud to announce that OS 7.1 is available to download now and shipping soon on several high-quality computers. With OS 7.1, we've focused in on:
+
+- Accessibility
+- Office Productivity
+- Settings & Personalization
+
+To get elementary OS 7.1 now, head to [elementary.io] for the download—or read on for an overview of what's new.
+
+---
+
+## Installer & Initial Setup
+
+We've received feedback from folks with vision-related disabilities that a huge barrier for them when considering an Open Source operating system is that they often need help to get it installed. Now, when you boot into the install media for elementary OS, we automatically play an audio prompt letting you know the keyboard shortcut for turning on the screen reader. And the same audio prompt is available during Initial Setup, so whether you're buying a computer pre-installed with elementary OS or installing it on your existing computer, you can choose an Open Source operating system and remain independent.
+
+Some computers contain hardware devices that require additional, proprietary drivers to function properly. This previously made installing elementary OS difficult when wireless network drivers or video card drivers were unavailable. We now provide an option during installation to include these proprietary drivers so that your devices function properly.
 
 Navigation gestures
-Screen reader
-
-https://github.com/elementary/initial-setup/releases/tag/6.3.0
 
 # Onboarding
 
-A fresh version of Onboarding has been released with several redesigned pages including a fancy dynamic icon featuring the release wallpaper on the Welcome page, a much more prominent explanation of Sideloading, some new icons, and bolder typography.
+Onboarding is the most personal part of getting started with elementary OS, where you choose how you'll experience your individual account and are introduced to core features of the operating system.
+
+With Flatpak, you have access to an incredibly wide selection of apps and a growing number of alternative app stores. Unlike on mainstream proprietary operating systems, installing apps via Sideload and accessing alternative app stores are important features of elementary OS. So, when we're introducing people to AppCenter—the pay-what-you-can app store with apps made specifically for elementary OS—we also now much more prominently introduce them to Sideload and even feature a prominent link to the most popular Flatpak-powered app store: Flathub.
+
+Housekeeping is a feature designed to free up storage and protect your privacy by automatically deleting old files. You can now choose to automatically clean up the Trash, Downloads, Screenshots, and temporary operating system files on a schedule of your choosing.
+
+Onboarding now also handles providing information about the temporary Guest account.
+
+
+
+
+
+
+A fresh version of Onboarding has been released with several redesigned pages including a fancy dynamic icon featuring the release wallpaper on the Welcome page, some new icons, and bolder typography.
 
 <figure class="half" markdown="1">
 ![Welcome view of Onboarding](/images/{{ page.slug }}/onboarding-welcome.png){
 ![Apps view of Onboarding](/images/{{ page.slug }}/onboarding-apps.png)
-![Early Access view of Onboarding](/images/{{ page.slug }}/onboarding-earlyaccess.png)
 ![Guest Session view of Onboarding](/images/{{ page.slug }}/onboarding-guest.png)
 <figcaption markdown="1">
 Onboarding features bolder typography, colorful icons, and a more prominent explanation of Sideloading
 </figcaption>
 </figure>
 
-Plus, it has better handling for Early Access builds, and Onboarding now handles the Guest account warning as well.
+StyleView: use actual background when available by @danirabbit in #212
 
-https://github.com/elementary/onboarding/releases/tag/7.2.0
+
+
+
+
+
 
 ## Feedback
+
+The Feedback app is our way to stay connected with you and address any issues you come across. 
+
+
 
 The Feedback app has been ported to GTK 4 and it now features search! This should make it much speedier to send feedback when something unexpected happens.
 
@@ -52,11 +82,26 @@ The Feedback app now features search
 </figcaption>
 </figure>
 
-The feedback app is our way to stay connected with you and address any issues you come across, so please make sure to make use of it. The issues that we send fixes for every month come directly from folks who make use of this app.
+The issues that we send fixes for every month come directly from folks who make use of this app.
+
+
+
+
+
+
+
+
+
 
 ## AppCenter
 
-As we work towards our continual goal of better supporting alternative app stores, one of the challenges is ensuring that you remain safe while using apps from stores with differing security and privacy policies. This month we've rolled out a new set of app sandbox warnings to help you better assess risk when installing apps. AppCenter will now inform you if an app can can read your location without asking first, if it can access system folders or your home folder, if it can read and write system settings, or if it could possibly escape the sandbox altogether and gain advanced permissions. For certain types of administrative apps, having advanced system permissions makes sense, but our goal is to keep you informed and ensure that apps are always operating with your consent. Expect more of these types of warnings to roll out in the future!
+As we work towards our continual goal of better supporting alternative app stores, one of the challenges is ensuring that you remain safe while using apps from stores with differing security and privacy policies. In elementary OS, the supported app packaging format is Flatpak which gives us several tools to that end, including the ability to report back to you when apps have advanced access that could leave you vulnerable. In OS 7.1, AppCenter will now inform you if an app can can read your location without asking first, if it can access system folders or your home folder, if it can read and write system settings, or if it could possibly escape the sandbox altogether. For certain types of administrative apps, having advanced system permissions makes sense, but our goal is to keep you informed and ensure that apps are always operating with your consent.
+
+
+
+
+
+
 
 <figure markdown="1">
 ![AppCenter](/images/{{ page.slug }}/appcenter-permissions.png){: width="1198" height="901"}
@@ -71,7 +116,11 @@ AppCenter received a new Flatpak Repair feature thanks to [Marius](https://githu
 
 ## Sideload
 
-Since sideloading is an expected and important part of installing apps on elementary OS, we've made a couple of changes to help you stay informed and be in control. Instead of describing sideloaded apps as "Untrusted", we've updated interface copy to instead ask for your trust. Additionally, we now show some basic feedback about the kinds of broad system permissions that a sideloaded app may request. This will likely get more fine-grained in the future, but for now we can warn about apps that request advanced permissions and let you know when an app is more tightly sandboxed.
+Just like in AppCenter, our goal with Sideload is to keep you informed and in control when installing apps provided directly by the developer. We also want to make sure to balance that with the existing trust relationship you may have with the apps you love. So we've made some changes to how apps are presented in Sideload and instead of assuming that a sideloaded app is untrusted, we simply ask for you to validate your trust. Additionally, we now show some basic information about the kinds of broad system permissions that a sideloaded app may request. This isn't as fine-grained as what is presented in AppCenter, but it offers quick validation for apps that are more likely to be safe.
+
+
+
+
 
 <figure markdown="1">
 ![Files](/images/{{ page.slug }}/sideload.png){: width="502" height="334"}
@@ -80,7 +129,6 @@ Sideload now shows recommendations regarding sandbox permissions
 </figcaption>
 </figure>
 
-[Leo](https://github.com/lenemter) fixed some visual glitches in Sideload and made sure the "Open" button can be activated when pressing <kbd>Enter</kbd> after installing.
 
 # Mail
 
@@ -161,6 +209,16 @@ Plus, thanks to a joint effort between [Jeremy](https://github.com/jeremypw) and
 
 This release of Files sports a new Tab Bar powered by LibHandy with improved animations, smoother drag-and-drop, and reorganized tab context menus, bringing it more in line with Web. [Jeremy](https://github.com/jeremypw) has also rewritten the way color tags are stored using extended file attributes instead of a database; This means tags should be better preserved when restoring from the Trash for example and you've no need to fear because Files will automatically update your tags to use the new system in the background. He also solved several issues around refreshing and temporary files as well as making sure that tab history is properly preserved when opening Files from another app.
 
+
+
+
+
+
+
+
+
+
+
 # Music
 
 Music can now accept Drag and Drop of whole folders, thanks to [Jeremy](https://github.com/jeremypw), and you can secondary click on a folder in Files and open it with Music thanks to [Aitor](https://github.com/aitor-gomila). Plus it's been updated to the latest Flatpak platform which fixes issues with certain animations.
@@ -180,6 +238,15 @@ Videos is a wee bit flatter
 
 For now you can expect improved playback position saving, a flatter app appearance in the welcome screen and library, smoother navigation, and in-app notifications when adding items to the playlist. Major shoutouts to [Leonhard](https://github.com/leolost2605) here.
 
+
+
+
+
+
+
+
+
+
 ## Web
 
 The latest GNOME Web 44.2 has now been ported to Gtk 4 and features much improved performance and web standards compatibility, plus a new saved passwords popover. With Firefox sync, web apps, and performance that matches major mainstream competitors, there's never been a better time to try this community-made web browser.
@@ -189,6 +256,11 @@ The latest version of Web fixes a crash in the bookmarks popover, improves the r
 # Calculator
 
 Calculator now follows keyboard shortcuts for copy and paste, even when the main text entry isn't focused, thanks to [Leo](https://github.com/lenemter)! It will no longer preserve extra white space on the right side of the window when used with alternative window button layouts. And Calculator will now always use the elementary stylesheet and icons, even when run on a different operating system, to prevent breakage related to missing assets.
+
+
+
+
+
 
 ## Code
 
@@ -210,6 +282,14 @@ The Vala symbols outline now correctly matches Code when the style changes after
 ## Terminal
 
 This release was extremely collaborative with quite a few commit authors. It contains fixes related to tab switching shortcuts and makes sure that context menus are updated when activated with the menu key thanks to [Lasne](https://github.com/Faelian) and [Ryo](https://github.com/ryonakano), respectively. [Stan](https://github.com/stan-janssen) also resolved an issue where shortcuts conflicted with some command line apps and added a new option to start Terminal hidden. [Jeremy](https://github.com/jeremypw) also fixed an issue with `#` characters in URLs. Finally, thanks to [Gustavo](https://github.com/marukesu) and [Corentin](https://github.com/tintou) for their work on unit testing and code cleanup in this release.
+
+
+
+
+
+
+
+
 
 # System Settings
 
@@ -297,6 +377,19 @@ A couple of keyboard settings moved around, but were not removed! On-screen keyb
 
 In applications settings, we fixed an issue that caused no default music player to be set on new accounts, and added search to the Permissions tab, thanks to [Leonhard](https://github.com/leolost2605).
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Panel
 
 As part of the aforementioned Bluetooth file transfer feature, you can see ongoing transfers in the Bluetooth indicator. And thanks to [Stan](https://github.com/stan-janssen), Bluetooth devices will now use any custom device names you've set up before falling back to more generic device names.
@@ -357,6 +450,18 @@ And thanks to the hard work of [Marco](https://github.com/marbetschar) and [Gust
 Leo also removed the intrusive "Automatic Suspend" notifications. Gustavo made sure critical notifications are still sent even when Do Not Disturb is active and contributed quite a bit of code cleanup in the notifications server. And new contributor [Sean](https://github.com/SuperRiderTH) made a fix for the option to disable sounds from notifications sent by apps that don't properly identify themselves.
 
 Also [Gustavo](https://github.com/marukesu) and [Leonhard](https://github.com/leolost2605) fixed a couple issues related to Notification close behavior.
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## And More
 
