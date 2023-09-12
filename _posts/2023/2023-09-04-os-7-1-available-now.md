@@ -41,6 +41,19 @@ Plus, it has better handling for Early Access builds, and Onboarding now handles
 
 https://github.com/elementary/onboarding/releases/tag/7.2.0
 
+## Feedback
+
+The Feedback app has been ported to GTK 4 and it now features search! This should make it much speedier to send feedback when something unexpected happens.
+
+<figure markdown="1">
+![Feedback](/images/{{ page.slug }}/feedback.png){: width="570" height="621"}
+<figcaption markdown="1">
+The Feedback app now features search
+</figcaption>
+</figure>
+
+The feedback app is our way to stay connected with you and address any issues you come across, so please make sure to make use of it. The issues that we send fixes for every month come directly from folks who make use of this app.
+
 ## AppCenter
 
 As we work towards our continual goal of better supporting alternative app stores, one of the challenges is ensuring that you remain safe while using apps from stores with differing security and privacy policies. This month we've rolled out a new set of app sandbox warnings to help you better assess risk when installing apps. AppCenter will now inform you if an app can can read your location without asking first, if it can access system folders or your home folder, if it can read and write system settings, or if it could possibly escape the sandbox altogether and gain advanced permissions. For certain types of administrative apps, having advanced system permissions makes sense, but our goal is to keep you informed and ensure that apps are always operating with your consent. Expect more of these types of warnings to roll out in the future!
@@ -146,6 +159,8 @@ Plus, thanks to a joint effort between [Jeremy](https://github.com/jeremypw) and
 
 [Jeremy](https://github.com/jeremypw) fixed an issue in Files where sometimes folder contents were incorrect until the folder was refreshed.
 
+This release of Files sports a new Tab Bar powered by LibHandy with improved animations, smoother drag-and-drop, and reorganized tab context menus, bringing it more in line with Web. [Jeremy](https://github.com/jeremypw) has also rewritten the way color tags are stored using extended file attributes instead of a database; This means tags should be better preserved when restoring from the Trash for example and you've no need to fear because Files will automatically update your tags to use the new system in the background. He also solved several issues around refreshing and temporary files as well as making sure that tab history is properly preserved when opening Files from another app.
+
 # Music
 
 Music can now accept Drag and Drop of whole folders, thanks to [Jeremy](https://github.com/jeremypw), and you can secondary click on a folder in Files and open it with Music thanks to [Aitor](https://github.com/aitor-gomila). Plus it's been updated to the latest Flatpak platform which fixes issues with certain animations.
@@ -153,6 +168,17 @@ Music can now accept Drag and Drop of whole folders, thanks to [Jeremy](https://
 ## Videos
 
 https://github.com/elementary/videos/releases/tag/3.0.0
+
+We've been hard at work getting Videos ready for GTK 4 and one of the steps along the way was getting rid of Clutter—big "C"—which has lead to a massive rework of the app's internals. The code base is much cleaner and clearer and should be more reliable and performant. This release still uses GTK 3, but look forward to GTK 4 in the next release.
+
+<figure markdown="1">
+![Videos](/images/{{ page.slug }}/videos.png){: width="1069" height="747"}
+<figcaption markdown="1">
+Videos is a wee bit flatter
+</figcaption>
+</figure>
+
+For now you can expect improved playback position saving, a flatter app appearance in the welcome screen and library, smoother navigation, and in-app notifications when adding items to the playlist. Major shoutouts to [Leonhard](https://github.com/leolost2605) here.
 
 ## Web
 
@@ -267,6 +293,10 @@ Finally, the Settings Daemon will now check for and notify of Firmware updates w
 
 A new version of Security &amp; Privacy settings has been released that now supports the Location portal. This is a more secure method for apps to request access to location services and is the latest FreeDesktop.org standard for doing so. If you've had trouble with sideloaded apps accessing location services before, this change will most likely fix that issue. You can adjust location settings in System Settings → Security &amp; Privacy → Location Services. If the main switch here is turned off, apps will not be allowed to even ask for permission, so make sure it's turned on if you are using apps that make use of location data.
 
+A couple of keyboard settings moved around, but were not removed! On-screen keyboard settings are now on the Behavior tab and panel indicator settings are now available in Desktop → Dock &amp; Panel. [Ryo](https://github.com/ryonakano) fixed an issue that prevented the progress dialog from being shown when installing input method engines, as well as adding multitouch gesture support for navigating backwards through the installation steps, and made sure the <kbd>PrintScreen</kbd> key can be used for keyboard shortcuts. [Leo](https://github.com/lenemter) added the "Cycle Windows of application" and "Cycle Windows of application backwards" shortcuts, fixed an issue with input method switching, and guarded against a potential crasher.
+
+In applications settings, we fixed an issue that caused no default music player to be set on new accounts, and added search to the Permissions tab, thanks to [Leonhard](https://github.com/leolost2605).
+
 ## Panel
 
 As part of the aforementioned Bluetooth file transfer feature, you can see ongoing transfers in the Bluetooth indicator. And thanks to [Stan](https://github.com/stan-janssen), Bluetooth devices will now use any custom device names you've set up before falling back to more generic device names.
@@ -288,6 +318,10 @@ The Network Indicator has been redesigned with better VPN controls and Airplane 
 
 We've also added quick access to toggling Airplane Mode, including a middle-click action on the indicator icon. Plus, we're now using a feature of Network Manager to automatically get better device names so you'll rarely see long and cryptic device names any longer. And you may notice some subtly improved icons like a slightly larger Wi-Fi icon with rounded edges.
 
+After receiving quite a bit of feedback about the panel appearing broken when folks modify the system visual assets, the panel now always uses the elementary stylesheet and icons to prevent style issues. You can also now close panel indicators with <kbd>Esc</kbd> and [Leo](https://github.com/lenemter) fixed an issue that caused indicators to re-animate if an indicator was updated or removed.
+
+The Power indicator now always uses hours as its largest unit, for example it will say "26 hours remaining" instead of "1 day remaining" and we resolved an issue that caused battery level icons to sometimes be inaccurate. Thanks to [Leo](https://github.com/lenemter) and [Vishal](https://github.com/vjr).
+
 ## Login &amp; Lock Screen
 
 Meanwhile, [Leo](https://github.com/lenemter) has recently made it his mission to respect all of your system settings and improve accessibility on the Login &amp; Lock screen. It now does a better job matching your mouse, keyboard, and touchpad settings, including improved keyboard layout handling. Your chosen accent color is now used everywhere—not just on your login card—and it now handles solid color wallpapers. Your text size and font settings, pointer size settings, cursor blink settings, Night Light settings and more are all now respected as well. Plus, the ability to reveal the pointer is now available, the Screen Reader can be enabled with a keyboard shortcut, and it does a better job remembering your Screen Reader settings.
@@ -308,15 +342,21 @@ We had yet another great release of our window manager, Gala, this month. This r
 
 https://github.com/elementary/gala/releases/tag/7.1.2
 
+ Another half dozen bug fixes landed in our Window Manager thanks to [Leo](https://github.com/lenemter), including several related to workspaces. 
+
 ## Portals
 
 Another big part of our consent story with apps are Portals. Portals keep apps isolated from your private data and ensure that apps ask before making changes to the system or using features that could become intrusive. This month [Leonhard](https://github.com/leolost2605) and [Gustavo](https://github.com/marukesu) implemented the Background &amp; Autostart Portal which alerts you when apps are running in the background and makes sure that apps ask your permission before they can automatically start up when you turn on your device. There's still a good amount of work to do on our background apps story, but this sets the foundation.
 
 And thanks to the hard work of [Marco](https://github.com/marbetschar) and [Gustavo](https://github.com/Marukesu) our Portals—things like the app chooser and access dialogs—have now been ported to GTK 4!
 
+[Leonhard](https://github.com/leolost2605) fixed an issue where apps using the new Background &amp; Autostart portal might repeatedly try to add themselves to autostart even when you'd previously disabled them.
+
 ## Notifications
 
 Leo also removed the intrusive "Automatic Suspend" notifications. Gustavo made sure critical notifications are still sent even when Do Not Disturb is active and contributed quite a bit of code cleanup in the notifications server. And new contributor [Sean](https://github.com/SuperRiderTH) made a fix for the option to disable sounds from notifications sent by apps that don't properly identify themselves.
+
+Also [Gustavo](https://github.com/marukesu) and [Leonhard](https://github.com/leolost2605) fixed a couple issues related to Notification close behavior.
 
 ## And More
 
