@@ -21,6 +21,7 @@ With OS 7.1, we've focused in on:
 - Office Productivity
 - Settings & Personalization
 - Privacy & Security
+- Consent & Control
 
 To get elementary OS 7.1 now, head to [elementary.io] for the download—or read on for an overview of what's new.
 
@@ -38,6 +39,21 @@ The Feedback app now features search
 </figure>
 
 Since the release of OS 7 at the end of January, we've sent out free updates that address over 200 reports—that's one report addressed every day in addition to our regular planned work.
+
+
+# Portals
+
+Portals provide a safe and consensual way for apps to interact with operating system features and make sure that they only get access to the data you want them to. One of the ways that apps may become intrusive is by automatically starting themselves or running in the background without your permission. In OS 7.1, we now provide the Background &amp; Autostart Portal which alerts you when apps are running in the background and makes sure that apps ask your permission before they can automatically start up when you turn on your device.
+
+Calendar, Mail, and Tasks now all use the Background & Autostart portal, and their autostart behavior can be controlled along with other apps in System Settings → Applications → Startup.
+
+
+
+
+
+Calendar and Mail have been updated to use the File Chooser Portal for things like selecting attachments or importing and exporting calendar files.
+
+And thanks to the hard work of [Marco](https://github.com/marbetschar) and [Gustavo](https://github.com/Marukesu) our Portals—things like the app chooser and access dialogs—have now been ported to GTK 4!
 
 
 
@@ -118,24 +134,24 @@ In the messages list, there's a new "Move conversation" menu that includes searc
 
 When composing a message, you can now add images inline and you can include attachments in forwarded messages. Plus we've added support for multiple custom signatures. You can create as many signatures as you'd like and assign them as the defaults for accounts as needed. The new "Insert signature…" menu makes it easy to swap between any of your saved signatures when composing. And the composer now always opens in a separate, non-modal window making it much easier to reference a message you're replying to or manage multiple drafts at the same time. It also features quite a few more keyboard shortcuts for text formatting, adding attachments, etc.
 
-Under the hood, it now also uses the File Chooser Portal when selecting attachments and it uses the Background & Autostart portal so you can control its autostart behavior in System Settings → Applications → Startup. Mail also does a better job handling changes in your internet connection, and if you like to start Mail manually, it will wait until the first time you've started it to check for new messages in the background.
+Mail also does a better job handling changes in your internet connection, and if you like to start Mail manually, it will wait until the first time you've started it to check for new messages in the background.
 
 
 
 
 
-## Calendar & Tasks
 
-Calendar now uses the File Chooser Portal when importing and exporting calendar files, animations when switching months have been updated to match button directions, and it now uses your system accent color instead of its own. An issue in tasks where some tasks could become duplicated was resolved, as well as a small visual issue in dark mode. Both Calendar & Tasks now use the Background & Autostart portal as well, and their autostart behavior can be controlled in System Settings → Applications → Startup. Shoutouts to [Gustavo](https://github.com/marukesu), [Leonhard](https://github.com/leolost2605), and [Claudio](https://github.com/Claudio-code) for their work on office productivity apps this month.
 
 ## Files
+
+
 
 
 The headlining feature of this Files release is the new app menu in the headerbar. [Jeremy](https://github.com/jeremypw) put together this menu to better improve discoverability for features like zoom and undo/redo as well as to clean up folder context menus. The Undo and Redo buttons include tooltips showing what operation will be performed before you click them and we also updated the description for the double-click setting to make it more clear.
 
 A long requested feature, this month Bulk Rename lands in Files thanks to [Jeremy](https://github.com/jeremypw). With this feature, you can select a number of files, secondary-click, and select "Rename…" to get an advanced bulk renaming dialog. This is an especially useful feature if you're working with a large collection of photos or spreadsheets or other kinds of files that you may want to rename by creation date or using another sequence or when you have to format a large number of files the same way. We're looking forward to your feedback on this feature and improving it to fit your advanced file management needs!
 
-Plus, thanks to a joint effort between [Jeremy](https://github.com/jeremypw) and [Torikul](https://github.com/torikulhabib), you can now share files via Bluetooth. A new Bluetooth transfer dialog is available by secondary-clicking a file or selection of files and selecting "Send Files via Bluetooth" from the menu.
+Plus, you can now share files via Bluetooth. A new Bluetooth transfer dialog is available by secondary-clicking a file or selection of files and selecting "Send Files via Bluetooth" from the menu.
 
 This release of Files sports a new Tab Bar powered by LibHandy with improved animations, smoother drag-and-drop, and reorganized tab context menus, bringing it more in line with Web.
 
@@ -143,13 +159,10 @@ Also, the storage level bar in Properties dialogs will now change color dependin
 
 [Jeremy](https://github.com/jeremypw) has also rewritten the way color tags are stored using extended file attributes instead of a database; This means tags should be better preserved when restoring from the Trash for example and you've no need to fear because Files will automatically update your tags to use the new system in the background.
 
-[Jeremy](https://github.com/jeremypw) made a sizable bug fix release of Files including several fixes related to selections and the overlay bar as well as a couple of reported regressions, fixes related to git emblems, and a crash fix. We also fixed a number of reported issues including some off click behavior above and below text in the list view, case sensitivity in file path completion, and issues with MTP and PTP devices that have a colon in their name. Plus we reworked how the File Chooser handles typing focus when saving.
-He also fixed several reported issues in this release related to folder sizes, file creation dates, temporary and duplicate files, and even snuck in some performance improvements. [Jeremy](https://github.com/jeremypw) fixed an issue in Files where sometimes folder contents were incorrect until the folder was refreshed.  He also solved several issues around refreshing and temporary files as well as making sure that tab history is properly preserved when opening Files from another app.
-
 
 ## Music
 
-Music can now accept Drag and Drop of whole folders, thanks to [Jeremy](https://github.com/jeremypw), and you can secondary click on a folder in Files and open it with Music thanks to [Aitor](https://github.com/aitor-gomila). Plus it's been updated to the latest Flatpak platform which fixes issues with certain animations.
+Music can now accept Drag and Drop of whole folders and you can secondary click on a folder in Files and open it with Music. Plus it's been updated to the latest Flatpak platform which fixes issues with certain animations.
 
 ## Videos
 
@@ -308,13 +321,6 @@ https://github.com/elementary/gala/releases/tag/7.1.2
 
  Another half dozen bug fixes landed in our Window Manager thanks to [Leo](https://github.com/lenemter), including several related to workspaces. 
 
-## Portals
-
-Another big part of our consent story with apps are Portals. Portals keep apps isolated from your private data and ensure that apps ask before making changes to the system or using features that could become intrusive. This month [Leonhard](https://github.com/leolost2605) and [Gustavo](https://github.com/marukesu) implemented the Background &amp; Autostart Portal which alerts you when apps are running in the background and makes sure that apps ask your permission before they can automatically start up when you turn on your device. There's still a good amount of work to do on our background apps story, but this sets the foundation.
-
-And thanks to the hard work of [Marco](https://github.com/marbetschar) and [Gustavo](https://github.com/Marukesu) our Portals—things like the app chooser and access dialogs—have now been ported to GTK 4!
-
-[Leonhard](https://github.com/leolost2605) fixed an issue where apps using the new Background &amp; Autostart portal might repeatedly try to add themselves to autostart even when you'd previously disabled them.
 
 ## Notifications
 
