@@ -56,6 +56,7 @@ Calendar and Mail have been updated to use the File Chooser Portal for things li
 And thanks to the hard work of [Marco](https://github.com/marbetschar) and [Gustavo](https://github.com/Marukesu) our Portals—things like the app chooser and access dialogs—have now been ported to GTK 4!
 
 
+A new version of Security &amp; Privacy settings has been released that now supports the Location portal. This is a more secure method for apps to request access to location services and is the latest FreeDesktop.org standard for doing so. If you've had trouble with sideloaded apps accessing location services before, this change will most likely fix that issue. You can adjust location settings in System Settings → Security &amp; Privacy → Location Services. If the main switch here is turned off, apps will not be allowed to even ask for permission, so make sure it's turned on if you are using apps that make use of location data.
 
 
 
@@ -224,43 +225,44 @@ This release was extremely collaborative with quite a few commit authors. It con
 
 ## Desktop
 
-The latest release of Desktop settings includes some new options for switching workspaces via hotcorners as well as a new feature to dim wallpapers in dark mode thanks to [Leo](https://github.com/lenemter)! You'll also notice that the setting for disabling animations has moved to the "Appearance" tab and has been renamed to "Reduce Motion".
+The latest release of Desktop settings includes some new options for switching workspaces via hotcorners as well as a new feature to dim wallpapers in dark mode. You'll also notice that the setting for disabling animations has moved to the "Appearance" tab and has been renamed to "Reduce Motion".
 
-The Dock &amp; Panel tab of Desktop settings also received a responsive redesign with added description labels for some settings. Additionally, checkboxes for extra indicators like the Accessibility indicator and the Capslock and Numlock indicators are now centrally located here. Plus [Leo](https://github.com/lenemter) fixed an issue where wallpapers might not get removed when quickly closing System Settings.
-
-## Locale
-
-A new version of Locale settings has also been released that prevents Fcitx 5 from being automatically pulled in with some languages and fixes a potential issue with acquiring permissions to set system-wide locale settings.
-
+The Dock &amp; Panel tab of Desktop settings also received a responsive redesign with added description labels for some settings. Additionally, checkboxes for extra indicators like the Accessibility indicator and the Capslock and Numlock indicators are now centrally located here.
 
 ## Applications
 
-As part of their aforementioned work, [Gustavo](https://github.com/marukesu) updated Startup settings to show apps that use the Background &amp; Autostart Portal and we made quite a few changes to this view to bring it in line with modern design patterns and ensure that it was more responsive for large and small displays. We also updated Default apps settings and did quite a bit of code cleanup here. And thanks to [Leo](https://github.com/lenemter) the "Reset to Defaults" button on the Permissions page is now disabled when permissions are already at their defaults, plus he improved screen reader names for several settings while here.
+Updated Startup settings to show apps that use the Background &amp; Autostart Portal and we made quite a few changes to this view to bring it in line with modern design patterns and ensure that it was more responsive for large and small displays.
 
-In applications settings, we fixed an issue that caused no default music player to be set on new accounts, and added search to the Permissions tab, thanks to [Leonhard](https://github.com/leolost2605).
+We also updated Default apps settings and did quite a bit of code cleanup here. plus he improved screen reader names for several settings while here.
+
+Added search to the Permissions tab
 
 ## Displays
 
-We're also introducing a new set of display filters, designed to assist folks with color deficiency issues. This is a very common disability with 1 in 12 men experiencing color deficiency and some folks developing color deficiency as they age. Major shoutouts to [Leo](https://github.com/lenemter) for implementing this feature in our window manager and to [@G-dH](https://github.com/G-dH) for developing [the GNOME Shell extension](https://github.com/G-dH/gnome-colorblind-filters) that we modeled our feature off of. If this is a feature that you're looking forward to using, please consider [buying them a coffee](https://buymeacoffee.com/georgdh).
+We're also introducing a new set of display filters, designed to assist folks with color deficiency issues. This is a very common disability with 1 in 12 men experiencing color deficiency and some folks developing color deficiency as they age.
 
-Additionally, we're now shipping a grayscale filter which can help avoid distractions or alleviate screen addiction and you can now make the display much warmer when using Night Light. You may also notice a small redesign of Night Light settings for responsiveness. Finally, there should be more accurate display resolution options available thanks to [Vishal](https://github.com/vjr).
+Additionally, we're now shipping a grayscale filter which can help avoid distractions or alleviate screen addiction and you can now make the display much warmer when using Night Light. You may also notice a small redesign of Night Light settings for responsiveness. Finally, there should be more accurate display resolution options available.
 
 
 ## Sound
 
-Sound Settings got a bit of a redesign for improved responsiveness on small and large displays and you may notice some improved description labels. Plus, [Leo](https://github.com/lenemter) fixed a reported crash.
+Sound Settings got a bit of a redesign for improved responsiveness on small and large displays and you may notice some improved description labels.
 
 ## Keyboard
 
-The Behavior tab of Keyboard settings got a major update with the additional of several new settings for things like Bounce, Slow, and Sticky keys. Slider values are now shown on drag instead of in a separate widget. Plus, app developers can now link directly to custom shortcuts settings thanks again to [Leo](https://github.com/lenemter).
+The Behavior tab of Keyboard settings got a major update with the additional of several new settings for things like Bounce, Slow, and Sticky keys. Slider values are now shown on drag instead of in a separate widget. Plus, app developers can now link directly to custom shortcuts settings.
 
-A couple of keyboard settings moved around, but were not removed! On-screen keyboard settings are now on the Behavior tab and panel indicator settings are now available in Desktop → Dock &amp; Panel. [Ryo](https://github.com/ryonakano) fixed an issue that prevented the progress dialog from being shown when installing input method engines, as well as adding multitouch gesture support for navigating backwards through the installation steps, and made sure the <kbd>PrintScreen</kbd> key can be used for keyboard shortcuts. [Leo](https://github.com/lenemter) added the "Cycle Windows of application" and "Cycle Windows of application backwards" shortcuts, fixed an issue with input method switching, and guarded against a potential crasher.
+A couple of keyboard settings moved around, but were not removed! On-screen keyboard settings are now on the Behavior tab and panel indicator settings are now available in Desktop → Dock &amp; Panel.
+
+Progress dialog from being shown when installing input method engines, as well as adding multitouch gesture support for navigating backwards through the installation steps,
+
+and made sure the <kbd>PrintScreen</kbd> key can be used for keyboard shortcuts.
+
+"Cycle Windows of application" and "Cycle Windows of application backwards" shortcuts
 
 ## Security &amp; Privacy
 
-In Security &amp; Privacy Settings, you now have the option to automatically clean up Screenshot files as part of Housekeeping thanks to [Josip](https://github.com/Antolius). And we now make sure not to show Location settings for apps that have been uninstalled.
-
-A new version of Security &amp; Privacy settings has been released that now supports the Location portal. This is a more secure method for apps to request access to location services and is the latest FreeDesktop.org standard for doing so. If you've had trouble with sideloaded apps accessing location services before, this change will most likely fix that issue. You can adjust location settings in System Settings → Security &amp; Privacy → Location Services. If the main switch here is turned off, apps will not be allowed to even ask for permission, so make sure it's turned on if you are using apps that make use of location data.
+In Security &amp; Privacy Settings, you now have the option to automatically clean up Screenshot files as part of Housekeeping.
 
 ## Online Accounts
 
