@@ -1,5 +1,5 @@
 ---
-title: 
+title: elementary OS 7.1 Available Now
 description: 
 author: danrabbit
 image: /images/os-7-1-available-now/card.png
@@ -9,12 +9,13 @@ tags:
   - updates
 ---
 
+Today we're proud to announce that OS 7.1 is available to download now and shipping soon on several high-quality computers. This release represents the sum of our work over the last several months as a single major update to the OS 7 series and includes [all of the monthly OS updates][updates] we've detailed since the OS 7 release.
 
 <figure class="card" markdown="1">
 ![elementary OS 7.1](/images/{{ page.slug }}/hero.png)
 </figure>
 
-Today we're proud to announce that OS 7.1 is available to download now and shipping soon on several high-quality computers. With OS 7.1, we've focused in on:
+With OS 7.1, we've focused in on:
 
 - Accessibility
 - Office Productivity
@@ -25,6 +26,23 @@ To get elementary OS 7.1 now, head to [elementary.io] for the download—or read
 
 ---
 
+# Addressing Your Feedback
+
+One of the greatest advantages we have developing elementary OS in the open as compared to proprietary operating systems is the ability to gather your feedback and for developers to directly engage with you to solve issues and create new features. Combined with our monthly release cadence, the Feedback app creates a tight loop where you can start a report, see development happen transparently, and receive updates quickly. With the release of OS 7, we made sure that the Feedback app was accessible directly from the applications menu, launched instantly, and covered more system components. In OS 7.1, we've added search and we've now ported the app to GTK 4—the latest version of our app toolkit—for improved performance and smoothness. This should make it even speedier to send feedback when something unexpected happens.
+
+<figure markdown="1">
+![Feedback](/images/{{ page.slug }}/feedback.png){: width="570" height="621"}
+<figcaption markdown="1">
+The Feedback app now features search
+</figcaption>
+</figure>
+
+Since the release of OS 7 at the end of January, we've sent out free updates that address over 200 reports—that's one report addressed every day in addition to our regular planned work.
+
+
+
+
+
 ## Installer & Initial Setup
 
 We've received feedback from folks with vision-related disabilities that a huge barrier for them when considering an Open Source operating system is that they often need help to get it installed. Now, when you boot into the install media for elementary OS, we automatically play an audio prompt letting you know the keyboard shortcut for turning on the screen reader. And the same audio prompt is available during Initial Setup, so whether you're buying a computer pre-installed with elementary OS or installing it on your existing computer, you can choose an Open Source operating system and remain independent.
@@ -33,7 +51,7 @@ Some computers contain hardware devices that require additional, proprietary dri
 
 Navigation gestures
 
-# Onboarding
+## Onboarding
 
 Onboarding is the most personal part of getting started with elementary OS, where you choose how you'll experience your individual account and are introduced to core features of the operating system.
 
@@ -50,42 +68,12 @@ Onboarding now also handles providing information about the temporary Guest acco
 
 A fresh version of Onboarding has been released with several redesigned pages including a fancy dynamic icon featuring the release wallpaper on the Welcome page, some new icons, and bolder typography.
 
-<figure class="half" markdown="1">
-![Welcome view of Onboarding](/images/{{ page.slug }}/onboarding-welcome.png){
-![Apps view of Onboarding](/images/{{ page.slug }}/onboarding-apps.png)
-![Guest Session view of Onboarding](/images/{{ page.slug }}/onboarding-guest.png)
-<figcaption markdown="1">
-Onboarding features bolder typography, colorful icons, and a more prominent explanation of Sideloading
-</figcaption>
-</figure>
-
-StyleView: use actual background when available by @danirabbit in #212
+StyleView: use actual background when available
 
 
 
 
 
-
-
-## Feedback
-
-The Feedback app is our way to stay connected with you and address any issues you come across. 
-
-
-
-The Feedback app has been ported to GTK 4 and it now features search! This should make it much speedier to send feedback when something unexpected happens.
-
-<figure markdown="1">
-![Feedback](/images/{{ page.slug }}/feedback.png){: width="570" height="621"}
-<figcaption markdown="1">
-The Feedback app now features search
-</figcaption>
-</figure>
-
-The issues that we send fixes for every month come directly from folks who make use of this app.
-
-
-How many bugs squashed since 7.0?
 
 
 
@@ -103,16 +91,12 @@ As we work towards our continual goal of better supporting alternative app store
 
 
 
-<figure markdown="1">
-![AppCenter](/images/{{ page.slug }}/appcenter-permissions.png){: width="1198" height="901"}
-<figcaption markdown="1">
-AppCenter now warns about advanced Flatpak sandbox permissions
-</figcaption>
-</figure>
-
 AppInfo views have also been reworked to tighten up spacing and improve alignment. Special attention was put into making sure the most important information appears "above the fold", especially on smaller displays like in some laptops. Plus, we no longer split out apps from alt stores into a separate header in category views, and a potential crash when adding alt stores has been fixed thanks to [Marius](https://github.com/meisenzahl)
 
 AppCenter received a new Flatpak Repair feature thanks to [Marius](https://github.com/meisenzahl) which fixes an issue where some Flatpak runtimes could not be installed. Plus the updates page now shows a small message when everything is up-to-date, including the last time that AppCenter checked for updates.
+
+
+
 
 ## Sideload
 
@@ -122,33 +106,23 @@ Just like in AppCenter, our goal with Sideload is to keep you informed and in co
 
 
 
-<figure markdown="1">
-![Files](/images/{{ page.slug }}/sideload.png){: width="502" height="334"}
-<figcaption markdown="1">
-Sideload now shows recommendations regarding sandbox permissions
-</figcaption>
-</figure>
 
 
-# Mail
+## Mail
 
-The composer now always opens in a separate, non-modal window making it much easier to reference a message you're replying to or manage multiple drafts at the same time.
+In the sidebar, you'll notice that special folders like "Archive" and "Spam" are better detected and appear at the top level, even for accounts like Gmail that used to hide them as subfolders. You can now also rename folders by secondary-clicking on them and selecting "Rename Folder". And you'll notice that Mail's primary menu is now in the bottom right corner of the sidebar. Plus, performance has been improved when switching between folders.
 
-It also features quite a few more keyboard shortcuts for text formatting, adding attachments, etc.
+In the conversation list, you can now use a multi-touch swipe or click-and-drag left or right to quickly archive or trash a conversation. You might also appreciate some subtle design tweaks like placing the conversation list filter next to the search bar or how headers now appear to float over scrolled content.
 
-You might also appreciate some subtle design tweaks like placing the conversation list filter next to the search bar or how headers now appear to float over scrolled content.
+In the messages list, there's a new "Move conversation" menu that includes search, and you'll notice that archiving and moving messages can now be undone. Mail now does a better job of calculating message height to avoid extra scroll bars, and a handy infobar is shown when a message includes a calendar invite.
 
-It now also uses the File Chooser Portal when selecting attachments and the Background & Autostart portal—[as previously teased](https://blog.elementary.io/updates-for-june-2023)—so you can control its autostart behavior in System Settings → Applications → Startup.
+When composing a message, you can now add images inline and you can include attachments in forwarded messages. Plus we've added support for multiple custom signatures. You can create as many signatures as you'd like and assign them as the defaults for accounts as needed. The new "Insert signature…" menu makes it easy to swap between any of your saved signatures when composing. And the composer now always opens in a separate, non-modal window making it much easier to reference a message you're replying to or manage multiple drafts at the same time. It also features quite a few more keyboard shortcuts for text formatting, adding attachments, etc.
 
-Mail also does a better job handling changes in your internet connection, and can check messages in the background even when not autostarted.
+Under the hood, it now also uses the File Chooser Portal when selecting attachments and it uses the Background & Autostart portal so you can control its autostart behavior in System Settings → Applications → Startup. Mail also does a better job handling changes in your internet connection, and if you like to start Mail manually, it will wait until the first time you've started it to check for new messages in the background.
 
-In the sidebar, you'll notice that special folders like "Archive" and "Spam" are better detected and appear at the top level, even for accounts like Gmail that used to hide them as subfolders. You can now also rename folders by secondary-clicking on them and selecting "Rename Folder". An issue was resolved where some accounts with no archive folder displayed their inbox in the Archive for all mailboxes. And you'll notice that Mail's primary menu is now in the bottom right corner of the sidebar. Plus, performance has been improved when switching between folders.
 
-In the conversation list, you can now use a multi-touch swipe or click-and-drag left or right to quickly archive or trash a conversation. In the messages list, there's a new "Move conversation" menu that includes search, and you'll notice that archiving and moving messages can now be undone. Mail now does a better job of calculating message height to avoid extra scroll bars, and a handy infobar is shown when a message includes a calendar invite.
 
-When composing a message, you can now add images inline and you can include attachments in forwarded messages. Plus this release brings support for signatures. You can create as many signatures as you'd like and assign them as the defaults for accounts as needed. The new "Insert signature…" menu makes it easy to swap between any of your saved signatures when composing.
 
-Mail does a better job handling newly added online accounts and includes fixes for a couple of potential crashes, plus a ton of code cleaning under the hood and even a few performance improvements.
 
 ## Calendar & Tasks
 
@@ -173,7 +147,7 @@ Also, the storage level bar in Properties dialogs will now change color dependin
 He also fixed several reported issues in this release related to folder sizes, file creation dates, temporary and duplicate files, and even snuck in some performance improvements. [Jeremy](https://github.com/jeremypw) fixed an issue in Files where sometimes folder contents were incorrect until the folder was refreshed.  He also solved several issues around refreshing and temporary files as well as making sure that tab history is properly preserved when opening Files from another app.
 
 
-# Music
+## Music
 
 Music can now accept Drag and Drop of whole folders, thanks to [Jeremy](https://github.com/jeremypw), and you can secondary click on a folder in Files and open it with Music thanks to [Aitor](https://github.com/aitor-gomila). Plus it's been updated to the latest Flatpak platform which fixes issues with certain animations.
 
@@ -200,7 +174,7 @@ The latest GNOME Web 44.2 has now been ported to Gtk 4 and features much improve
 
 The latest version of Web fixes a crash in the bookmarks popover, improves the reliability of creating web apps, and has a fix related to local storage access requests.
 
-# Calculator
+## Calculator
 
 Calculator now follows keyboard shortcuts for copy and paste, even when the main text entry isn't focused, thanks to [Leo](https://github.com/lenemter)! It will no longer preserve extra white space on the right side of the window when used with alternative window button layouts. And Calculator will now always use the elementary stylesheet and icons, even when run on a different operating system, to prevent breakage related to missing assets.
 
@@ -364,6 +338,16 @@ Also [Gustavo](https://github.com/marukesu) and [Leonhard](https://github.com/le
 
 Linux 6.2, Ubuntu HWE
 
-## Get These Updates
+## Get elementary OS 7.1
 
-As always, pop open AppCenter on elementary OS 7 and hit "Update All" to get all these updates plus your regular security, bug fix, and translation updates.
+elementary OS 7.1 is available as a pay-what-you-can purchase at [elementary.io] today. Localized direct downloads and a torrent magnet link are provided.
+
+<div style="text-align: center" markdown="1">
+[OS 7.1 FAQ](https://github.com/elementary/os/wiki/elementary-OS-7.1-FAQ){: .button.flat }
+[Download elementary OS 7.1][elementary.io]{: .button.suggested }
+</div>
+
+If you’re already on elementary OS 7, you’ll get the update to OS 7.1 alongside regular operating system updates. If you haven't already, open AppCenter and select _Update All_ to be upgraded.
+
+[elementary.io]: https://elementary.io
+[updates]: {{ site.baseurl }}/tags/#updates
