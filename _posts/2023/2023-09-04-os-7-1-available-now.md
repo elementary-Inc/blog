@@ -38,8 +38,7 @@ The Feedback app now features search
 </figcaption>
 </figure>
 
-Since the release of OS 7 at the end of January, we've sent out free updates that address over 200 reports—that's one report addressed every day in addition to our regular planned work.
-
+Since the release of OS 7 at the end of January, we've sent out free updates that address over 200 reports—that's one report addressed every day in addition to our regular planned work. Needless to say OS 7.1 is much smoother, faster, and more stable than its predecessor.
 
 # Portals
 
@@ -59,10 +58,19 @@ And thanks to the hard work of [Marco](https://github.com/marbetschar) and [Gust
 A new version of Security &amp; Privacy settings has been released that now supports the Location portal. This is a more secure method for apps to request access to location services and is the latest FreeDesktop.org standard for doing so. If you've had trouble with sideloaded apps accessing location services before, this change will most likely fix that issue. You can adjust location settings in System Settings → Security &amp; Privacy → Location Services. If the main switch here is turned off, apps will not be allowed to even ask for permission, so make sure it's turned on if you are using apps that make use of location data.
 
 
-
-## Installer & Initial Setup
+# Accessibility &amp; Inclusion
 
 We've received feedback from folks with vision-related disabilities that a huge barrier for them when considering an Open Source operating system is that they often need help to get it installed. Now, when you boot into the install media for elementary OS, we automatically play an audio prompt letting you know the keyboard shortcut for turning on the screen reader. And the same audio prompt is available during Initial Setup, so whether you're buying a computer pre-installed with elementary OS or installing it on your existing computer, you can choose an Open Source operating system and remain independent.
+
+1 in 12 men experience color perception deficiency (aka color blindness) from birth and some folks will develop color deficiency as they age—but those we spoke to about accommodations reported that color deficiency assistance tools are often ineffective or unavailable and the lack of awareness and education around color deficiency means that many don't seek assistance at all. This can affect daily tasks when trying to understand parts of their computer's interface, but it also comes up when playing games and can make it difficult to work and play collaboratively. We introduced a set of 5 display filters, designed to assist folks with Protanopia, Deuteranopia, and Tritanopia with some additional high contrast options and plenty of assistive text to help folks without a formal color deficiency diagnosis.
+
+
+
+
+
+## Installer &amp; Initial Setup
+
+
 
 Some computers contain hardware devices that require additional, proprietary drivers to function properly. This previously made installing elementary OS difficult when wireless network drivers or video card drivers were unavailable. We now provide an option during installation to include these proprietary drivers so that your devices function properly.
 
@@ -191,9 +199,7 @@ For now you can expect improved playback position saving, a flatter app appearan
 
 ## Web
 
-The latest GNOME Web 44.2 has now been ported to Gtk 4 and features much improved performance and web standards compatibility, plus a new saved passwords popover. With Firefox sync, web apps, and performance that matches major mainstream competitors, there's never been a better time to try this community-made web browser.
-
-The latest version of Web fixes a crash in the bookmarks popover, improves the reliability of creating web apps, and has a fix related to local storage access requests.
+The latest GNOME Web 44.6 has now been ported to GTK 4 and features much improved performance and web standards compatibility, plus a new saved passwords popover. With Firefox sync, web apps, and performance that matches major mainstream competitors, there's never been a better time to try this community-made web browser.
 
 ## Calculator
 
@@ -213,18 +219,6 @@ Search options are now all available from a new menu, there's now a "match whole
 In the sidebar, folders that don't contain text files can now be expanded properly, and Code does a better job making sure sidebar focus updates correctly when tabs are closed. The tab width menu has been reworked quite a bit to more accurately prioritize between your global defaults, per document settings, and editorconfig file. An issue that caused an incorrect column number in the line number menu was fixed.
 
 The Vala symbols outline now correctly matches Code when the style changes after startup, and we fixed issues with styling when no documents are open. An issue that caused excessive reads and writes to settings has been fixed. Plus, you can now switch tabs with the keyboard shortcut <kbd>Ctrl</kbd> + <kbd>PageUp</kbd>/<kbd>PageDown</kbd> thanks to [Stan](https://github.com/stan-janssen)
-
-## Terminal
-
-This release was extremely collaborative with quite a few commit authors. It contains fixes related to tab switching shortcuts and makes sure that context menus are updated when activated with the menu key thanks to [Lasne](https://github.com/Faelian) and [Ryo](https://github.com/ryonakano), respectively. [Stan](https://github.com/stan-janssen) also resolved an issue where shortcuts conflicted with some command line apps and added a new option to start Terminal hidden. [Jeremy](https://github.com/jeremypw) also fixed an issue with `#` characters in URLs. Finally, thanks to [Gustavo](https://github.com/marukesu) and [Corentin](https://github.com/tintou) for their work on unit testing and code cleanup in this release.
-
-
-
-
-
-
-
-
 
 # System Settings
 
@@ -246,7 +240,7 @@ Added search to the Permissions tab
 
 ## Displays
 
-We're also introducing a new set of display filters, designed to assist folks with color deficiency issues. This is a very common disability with 1 in 12 men experiencing color deficiency and some folks developing color deficiency as they age.
+
 
 Additionally, we're now shipping a grayscale filter which can help avoid distractions or alleviate screen addiction and you can now make the display much warmer when using Night Light. You may also notice a small redesign of Night Light settings for responsiveness. Finally, there should be more accurate display resolution options available.
 
@@ -271,13 +265,9 @@ and made sure the <kbd>PrintScreen</kbd> key can be used for keyboard shortcuts.
 
 In Security &amp; Privacy Settings, you now have the option to automatically clean up Screenshot files as part of Housekeeping.
 
-## Online Accounts
-
-There's also a new version of Online Accounts settings thanks to [Leonhard](https://github.com/leolost2605) which fixes a freeze when the server doesn't respond while adding an IMAP account, and improves support for special folders like Archive and Sent folders. Online Accounts settings was updated with a fix for setting the correct SMTP username when configuring IMAP accounts, thanks to [Stan](https://github.com/stan-janssen). And, [Leo](https://github.com/lenemter) made sure the icons there for Mail and Tasks were updated to their latest versions.
-
 ## Settings Daemon
 
-Finally, the Settings Daemon will now check for and notify of Firmware updates when they're available thanks to [Marius](https://github.com/meisenzahl) and we support Accent Colors on the Settings Portal thanks to [Alice](https://github.com/alice-mkh)
+Finally, the Settings Daemon will now check for and notify of Firmware updates when they're available and we support Accent Colors on the Settings Portal.
 
 
 
