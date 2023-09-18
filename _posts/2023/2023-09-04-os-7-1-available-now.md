@@ -25,11 +25,6 @@ To get elementary OS 7.1 now, head to [elementary.io] for the download—or read
 
 ---
 
-
-
-
-
-
 # Privacy &amp; Consent
 
 Portals provide a safe and consensual way for apps to interact with operating system features and make sure that they only get access to the data you want them to. One of the ways that apps may become intrusive is by automatically starting themselves or running in the background without your permission. In OS 7.1, we now provide the Background &amp; Autostart Portal which alerts you when apps are running in the background and makes sure that apps ask your permission before they can automatically start up when you turn on your device.
@@ -51,19 +46,6 @@ Just like in AppCenter, our goal with Sideload is to keep you informed and in co
 
 Housekeeping is a feature designed to free up storage and protect your privacy by automatically deleting old files. You can now choose to automatically clean up the Trash, Downloads, Screenshots, and temporary operating system files on a schedule of your choosing.
 
-
-
-
-
-
-
-
-Our Portals—things like the app chooser and access dialogs—have now been ported to GTK 4!
-
-
-
-
-
 # Personalization Settings for Accessibility &amp; Inclusion
 
 When we think about settings and personalization in elementary OS, we tend to avoid settings that would pass off design or engineering decisions and instead focus on providing settings that make the operating system more accessible and inclusive for a wider range of people. We use this guiding philosophy to decide which new settings to add without creating an overwhelming or confusing number of customization options. This release, like every release, comes with a number of new features and settings that we hope make it possible for more people to enjoy using an Open Source operating system.
@@ -78,8 +60,6 @@ For folks who suffer from motion sickness or simply prefer fewer animations, the
 
 The Login &amp; Lock Screen now does a better job matching your mouse, keyboard, and touchpad settings, including improved keyboard layout handling. Your chosen accent color is now used everywhere—not just on your login card—and it now handles solid color wallpapers. Your text size and font settings, pointer size settings, cursor blink settings, Night Light settings and more are all now respected as well. Plus, the ability to reveal the pointer is now available, the Screen Reader can be enabled with a keyboard shortcut, and it does a better job remembering your Screen Reader settings.
 
-
-
 Navigating via keyboard is important for a wide range of folks whether that's due to disability or personal preference and this release comes with a number of improvements in this area. For managing app windows, you can now use the keyboard shortcut <kbd>Alt</kbd> + <kbd>~</kbd> for switching between windows of the same app, and you can now navigate with the arrow keys while holding down <kbd>Alt</kbd> + <kbd>Tab</kbd>. In the Multitasking View, a number of previously unavailable shortcuts are now available including Pointer location, Screenshots, and Zoom, in additional to regular workspace switching shortcuts. When customizing keyboard shortcuts, we now do a better job handling special keys and single-key shortcuts like the <kbd>PrintScreen</kbd> key. And, you can now close panel indicators with <kbd>Esc</kbd>.
 
 We also completely revamped the Behavior page of System Settings → Keyboard. It now includes several new settings for things like Bounce, Slow, and Sticky keys with descriptions of their effects, and slider values are now shown on drag instead of in a separate widget. This work was the final piece of our project to integrate previously tucked-away accessibility settings throughout System Settings, improving their discoverability and normalizing the use of accomodations for everyone.
@@ -91,6 +71,10 @@ Navigation gestures in installer
 accidentally closing windows when using three-finger multi-touch gestures.
 
 fixes that prevent misclicks and accidentally triggering actions in window manager
+
+
+
+
 
 
 
@@ -126,32 +110,17 @@ The Feedback app now features search
 
 Since the release of OS 7 at the end of January, we've sent out free updates that address over 200 reports—that's one report addressed every day in addition to our regular planned work. Needless to say OS 7.1 is much smoother, faster, and more stable than its predecessor.
 
-
-
-
-
-## Installer &amp; Initial Setup
-
-
-
 ## Onboarding
 
 Onboarding is the most personal part of getting started with elementary OS, where you choose how you'll experience your individual account and are introduced to core features of the operating system.
 
 With Flatpak, you have access to an incredibly wide selection of apps and a growing number of alternative app stores. Unlike on mainstream proprietary operating systems, installing apps via Sideload and accessing alternative app stores are important features of elementary OS. So, when we're introducing people to AppCenter—the pay-what-you-can app store with apps made specifically for elementary OS—we also now much more prominently introduce them to Sideload and even feature a prominent link to the most popular Flatpak-powered app store: Flathub.
 
-
 Onboarding now also handles providing information about the temporary Guest account.
-
 
 ## AppCenter
 
-AppInfo views have also been reworked to tighten up spacing and improve alignment. Special attention was put into making sure the most important information appears "above the fold", especially on smaller displays like in some laptops. Plus, we no longer split out apps from alt stores into a separate header in category views.
-
 AppCenter received a new Flatpak Repair feature which fixes an issue where some Flatpak runtimes could not be installed.
-
-Plus the updates page now shows a small message when everything is up-to-date, including the last time that AppCenter checked for updates. Updates view uses grid for installed apps
-
 
 ## Mail
 
@@ -159,17 +128,11 @@ In the sidebar, you'll notice that special folders like "Archive" and "Spam" are
 
 In the conversation list, you can now use a multi-touch swipe or click-and-drag left or right to quickly archive or trash a conversation. You might also appreciate some subtle design tweaks like placing the conversation list filter next to the search bar or how headers now appear to float over scrolled content.
 
-In the messages list, there's a new "Move conversation" menu that includes search, and you'll notice that archiving and moving messages can now be undone. Mail now does a better job of calculating message height to avoid extra scroll bars, and a handy infobar is shown when a message includes a calendar invite.
+In the messages list, there's a new "Move conversation" menu that includes search, and you'll notice that archiving and moving messages can now be undone. And a handy infobar is shown when a message includes a calendar invite.
 
 When composing a message, you can now add images inline and you can include attachments in forwarded messages. Plus we've added support for multiple custom signatures. You can create as many signatures as you'd like and assign them as the defaults for accounts as needed. The new "Insert signature…" menu makes it easy to swap between any of your saved signatures when composing. And the composer now always opens in a separate, non-modal window making it much easier to reference a message you're replying to or manage multiple drafts at the same time. It also features quite a few more keyboard shortcuts for text formatting, adding attachments, etc.
 
 Mail also does a better job handling changes in your internet connection, and if you like to start Mail manually, it will wait until the first time you've started it to check for new messages in the background.
-
-
-
-
-
-
 
 ## Files
 
@@ -177,7 +140,7 @@ In the Files app, we're always striving to strike a balance between providing ad
 
 We've also introduced Bulk Rename. With this feature, you can select multiple files, secondary-click, and select "Rename…" to get an advanced bulk renaming dialog. This is an especially useful feature if you're working with a large collection of photos or spreadsheets or other kinds of files that you may want to rename by creation date or using another sequence or when you have to format a large number of files the same way. You can add automatically generated prefixes or suffixes to file names, as well as keeping, completely replacing, or partially replacing parts of the original file name. You'll see a preview of how files will be renamed as well as an indication of when file names would conflict or not be changed.
 
-Plus, you can now share files with other devices via Bluetooth. A new Bluetooth transfer dialog is available by secondary-clicking a file or selection of files and selecting "Send Files via Bluetooth" from the context menu.
+Plus, you can now share files with other devices via Bluetooth. A new Bluetooth transfer dialog is available by secondary-clicking a file or selection of files and selecting "Send Files via Bluetooth" from the context menu. You can see ongoing transfers in the Bluetooth indicator.
 
 Lastly, the tab bar features improved animations, smoother drag-and-drop, and reorganized tab context menus, bringing it more in line with Web. The storage level bar in Properties dialogs will now change color depending on how full a drive is. And we've rewritten the way color tags are stored so that they are better preserved when restoring from the Trash.
 
@@ -185,20 +148,7 @@ Lastly, the tab bar features improved animations, smoother drag-and-drop, and re
 
 Music can now accept Drag and Drop of whole folders and you can secondary click on a folder in Files and open it with Music.
 
-https://github.com/elementary/videos/releases/tag/3.0.0
-
-We've been hard at work getting Videos ready for GTK 4 and one of the steps along the way was getting rid of Clutter—big "C"—which has lead to a massive rework of the app's internals. The code base is much cleaner and clearer and should be more reliable and performant. This release still uses GTK 3, but look forward to GTK 4 in the next release.
-
-For now you can expect improved playback position saving, a flatter app appearance in the welcome screen and library, smoother navigation, and in-app notifications when adding items to the playlist.
-
-
-
-
-
-
-
-
-
+Videos has undergone a large rewrite of its internals which has made it more reliable and performant. Expect a flatter app appearance in the welcome screen and library, improved playback position saving, smoother navigation, and in-app notifications when adding items to the playlist.
 
 ## Web
 
@@ -206,35 +156,15 @@ The latest GNOME Web 44.6 has now been ported to GTK 4 and features much improve
 
 ## Code
 
-[Jeremy](https://github.com/jeremypw) has been working diligently on this release of Code which closes more than 20 reported issues and brings plenty of improvements to search. Code now does a better job handling file saving and preventing data loss when files can't be written to their original location. Some busy infobars are now dialogs, and we avoid showing too many aggressive warnings about file saving. And you can now optionally try to continue loading files that contain unknown characters or corrupted content.
+Code now does a better job handling file saving and preventing data loss when files can't be written to their original location. Some busy infobars are now dialogs, and we avoid showing too many aggressive warnings about file saving. And you can now optionally try to continue loading files that contain unknown characters or corrupted content.
 
-Search options are now all available from a new menu, there's now a "match whole words" option, and your search settings are now saved between sessions. The search entry also provides visual feedback when no results are found. We do a better job deciding which string to search if you have both a selection and text in the search entry, and make sure that the "Replace" and "Replace All" buttons are enabled and disabled more accurately. And an issue that prevented global search from working on startup was fixed.
+Search options are now all available from a new menu, there's now a "match whole words" option, and your search settings are now saved between sessions. The search entry also provides visual feedback when no results are found. We do a better job deciding which string to search if you have both a selection and text in the search entry, and make sure that the "Replace" and "Replace All" buttons are enabled and disabled more accurately.
 
-In the sidebar, folders that don't contain text files can now be expanded properly, and Code does a better job making sure sidebar focus updates correctly when tabs are closed. The tab width menu has been reworked quite a bit to more accurately prioritize between your global defaults, per document settings, and editorconfig file. An issue that caused an incorrect column number in the line number menu was fixed.
+In the sidebar, folders that don't contain text files can now be expanded properly, and Code does a better job making sure sidebar focus updates correctly when tabs are closed.
 
-The Vala symbols outline now correctly matches Code when the style changes after startup, and we fixed issues with styling when no documents are open. An issue that caused excessive reads and writes to settings has been fixed. Plus, you can now switch tabs with the keyboard shortcut <kbd>Ctrl</kbd> + <kbd>PageUp</kbd>/<kbd>PageDown</kbd> thanks to [Stan](https://github.com/stan-janssen)
+The tab width menu has been reworked quite a bit to more accurately prioritize between your global defaults, per document settings, and editorconfig file.
 
-
-
-
-
-
-
-
-## Window Management
-
-performance improvements
-
-smoother animations
-
-issue where Picture-in-Picture windows could become unintentionally hidden, Picture-in-Picture windows update their visibility properly when switching workspaces.
-
-parent windows of dialogs are dimmed and undimmed more accurately, parent windows wouldn't un-dim after closing dialogs
-
-Fix moving maximized and fullscreen windows to new workspace on launch
-
-Add shadow to wallpaper clones while switching workspace
-
+Plus, you can now switch tabs with the keyboard shortcut <kbd>Ctrl</kbd> + <kbd>PageUp</kbd>/<kbd>PageDown</kbd>.
 
 ## Notifications
 
@@ -242,48 +172,45 @@ The Notifications indicator is where you can catch up with missed notifications 
 
 Sometimes we have apps that send a lot of notifications that are important but drown out other apps, so now you can select the spinning triangle icon to collapse all the notifications from a particular app.
 
-
-Removed the intrusive "Automatic Suspend" notifications. Critical notifications are still sent even when Do Not Disturb is active.
-
-We now do a better job making sure notification bubbles you've dismissed with a swipe or the close button don't end up in the Notifications indicator, and the number of missed notifications in the tooltip should be more accurate. Improved support for notifications that contain markup
-
-
-fixes for notification windows—including showing them in Multitasking View
-
-
-## Panel
-
-The Network indicator received some much-needed design attention and now offers a vastly-improved experience for using VPNs. You'll notice that most options now appear as circular toggle buttons with icons instead of a list of switches. This new design both saves space on devices with complex network configurations and shows the status of your various connections much clearer, including intermediate and error states. In the case of VPNs, you can now also activate multiple connections at once. We've also added quick access to toggling Airplane Mode, including a middle-click action on the indicator icon. Plus, we're now using a feature of Network Manager to automatically get better device names so you'll rarely see long and cryptic device names any longer.
-
-As part of the aforementioned Bluetooth file transfer feature, you can see ongoing transfers in the Bluetooth indicator. Bluetooth devices will now use any custom device names you've set up before falling back to more generic device names.
-
-The Sound indicator was updated to use circle buttons and should no longer change size when skipping tracks. Muting should no longer affect monitor sources.
-
-The Power indicator now always uses hours as its largest unit, for example it will say "26 hours remaining" instead of "1 day remaining" and we improved the accuracy of battery level icons.
-
-Plus, we've updated icons in the Bluetooth, Network, Night Light, Notifications, and Sound indicators to be more consistently sized and with clearer disabled states.
+Critical notifications—like low battery warnings—will now still be sent even when Do Not Disturb is active and notifications are now shown even when in the Multitasking View. Plus, we've improved support for notifications that include markup—like bold and italics—and we removed the intrusive "Automatic Suspend" notifications that would sometimes prevent your device from sleeping.
 
 ## Design Improvements
 
 Plus you'll also notice that the Login &amp; Lock Screen now has subtly rounded corners that match the logged in session.
 
-A fresh version of Onboarding has been released with several redesigned pages including a fancy dynamic icon featuring the release wallpaper on the Welcome page, some new icons, and bolder typography.
-
-StyleView: use actual background when available
+A fresh version of Onboarding has been released with several redesigned pages including a fancy dynamic icon featuring the release wallpaper on the Welcome page, some new icons, and bolder typography. StyleView: use actual background when available
 
 Updated Startup settings to bring it in line with modern design patterns and ensure that it was more responsive for large and small displays. You may also notice a small redesign of Night Light settings for responsiveness. Sound Settings got a bit of a redesign for improved responsiveness on small and large displays and you may notice some improved description labels.
 
 The Dock &amp; Panel tab of Desktop settings also received a responsive redesign with added description labels for some settings.
 
+AppInfo views have also been reworked to tighten up spacing and improve alignment. Special attention was put into making sure the most important information appears "above the fold", especially on smaller displays like in some laptops. Plus, we no longer split out apps from alt stores into a separate header in category views. Plus the updates page now shows a small message when everything is up-to-date, including the last time that AppCenter checked for updates. Updates view uses grid for installed apps
+
+Add shadow to wallpaper clones while switching workspace
+
+## Panel
+
+The Network indicator received some much-needed design attention and now offers a vastly-improved experience for using VPNs. You'll notice that most options now appear as circular toggle buttons with icons instead of a list of switches. This new design both saves space on devices with complex network configurations and shows the status of your various connections much clearer, including intermediate and error states. In the case of VPNs, you can now also activate multiple connections at once. We've also added quick access to toggling Airplane Mode, including a middle-click action on the indicator icon. Plus, we're now using a feature of Network Manager to automatically get better device names so you'll rarely see long and cryptic device names any longer.
+
+The Sound indicator was updated to use circle buttons and should no longer change size when skipping tracks. Muting should no longer affect monitor sources.
+
+Bluetooth devices will now use any custom device names you've set up before falling back to more generic device names.
+
+The Power indicator now always uses hours as its largest unit, for example it will say "26 hours remaining" instead of "1 day remaining" and we improved the accuracy of battery level icons.
+
+Plus, we've updated icons in the Bluetooth, Network, Night Light, Notifications, and Sound indicators to be more consistently sized and with clearer disabled states.
+
 ## Hardware Support
+
+OS 7.1 includes the latest long-term support Hardware Enablement stack from Ubuntu, including Linux 6.2.
 
 Some computers contain hardware devices that require additional, proprietary drivers to function properly. This previously made installing elementary OS difficult when wireless network drivers or video card drivers were unavailable. We now provide an option during installation to include these proprietary drivers so that your devices function properly.
 
-Settings Daemon will now check for and notify of Firmware updates when they're available 
+We also now automatically check for and notify of updates to device Firmware when they're available.
 
 Finally, there should be more accurate display resolution options available.
 
-Linux 6.2, Ubuntu HWE
+---
 
 ## Get elementary OS 7.1
 
@@ -298,3 +225,20 @@ If you’re already on elementary OS 7, you’ll get the update to OS 7.1 alongs
 
 [elementary.io]: https://elementary.io
 [updates]: {{ site.baseurl }}/tags/#updates
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Stuff I don't know where it goes:
+
+Our Portals—things like the app chooser and access dialogs—have now been ported to GTK 4!
