@@ -17,8 +17,7 @@ Today we're proud to announce that OS 7.1 is available to download now and shipp
 
 With OS 7.1, we've focused in on:
 
-- Accessibility & Inclusion
-- Settings & Personalization
+- Inclusive Personalization
 - Privacy & Consent
 - Addressing Your Feedback
 
@@ -35,20 +34,20 @@ To get elementary OS 7.1 now, head to [elementary.io] for the download—or read
 
 Portals provide a safe and consensual way for apps to interact with operating system features and make sure that they only get access to the data you want them to. One of the ways that apps may become intrusive is by automatically starting themselves or running in the background without your permission. In OS 7.1, we now provide the Background &amp; Autostart Portal which alerts you when apps are running in the background and makes sure that apps ask your permission before they can automatically start up when you turn on your device.
 
-Calendar, Mail, and Tasks now all use the Background & Autostart portal, and their autostart behavior can be controlled along with other apps in System Settings → Applications → Startup.
+Calendar, Mail, and Tasks now all use the Background & Autostart portal, and their autostart behavior can be controlled along with other apps in System Settings → Applications → Startup. Calendar and Mail have also been updated to use the File Chooser Portal for things like selecting attachments or importing and exporting calendar files.
 
+We've now migrated Location Services from the old Agents system to Portals. This is a more secure method for apps to request access to your location, is the latest FreeDesktop.org standard for doing so, and improves our cross-platform app compatibility. You can adjust location settings in System Settings → Security &amp; Privacy → Location Services. If the main switch here is turned off, apps will not be allowed to even ask for permission, so make sure it's turned on if you are using apps or services that make use of location data.
 
+As we work towards our continual goal of better supporting alternative app stores, one of the challenges is ensuring that you remain safe while using apps from stores with differing security and privacy policies. In elementary OS, the supported app packaging format is Flatpak which gives us several tools to that end, including the ability to report back to you when apps have advanced access that could leave you vulnerable. In OS 7.1, AppCenter will now inform you if an app can can:
 
+- Read your location, send notifications, or automatically start and run in the background without asking first
+- Access system folders or your home folder
+- Read and write system settings
+- Possibly escape the sandbox altogether
 
+For certain types of administrative apps, having advanced system permissions makes sense, but our goal is to keep you informed and ensure that apps are always operating with your consent.
 
-Calendar and Mail have been updated to use the File Chooser Portal for things like selecting attachments or importing and exporting calendar files.
-
-Our Portals—things like the app chooser and access dialogs—have now been ported to GTK 4!
-
-
-A new version of Security &amp; Privacy settings has been released that now supports the Location portal. This is a more secure method for apps to request access to location services and is the latest FreeDesktop.org standard for doing so. If you've had trouble with sideloaded apps accessing location services before, this change will most likely fix that issue. You can adjust location settings in System Settings → Security &amp; Privacy → Location Services. If the main switch here is turned off, apps will not be allowed to even ask for permission, so make sure it's turned on if you are using apps that make use of location data.
-
-
+Just like in AppCenter, our goal with Sideload is to keep you informed and in control when installing apps provided directly by the developer. We also want to make sure to balance that with the existing trust relationship you may have with the apps you love. So we've made some changes to how apps are presented in Sideload and instead of assuming that a sideloaded app is untrusted, we simply ask for you to validate your trust. Additionally, we now show some basic information about the kinds of broad system permissions that a sideloaded app may request. This isn't as fine-grained as what is presented in AppCenter, but it offers quick validation for apps that are more likely to be safe and puts the emphasis on Sideload as a utility to verify your consent, not to gatekeep your choices.
 
 Housekeeping is a feature designed to free up storage and protect your privacy by automatically deleting old files. You can now choose to automatically clean up the Trash, Downloads, Screenshots, and temporary operating system files on a schedule of your choosing.
 
@@ -56,42 +55,70 @@ Housekeeping is a feature designed to free up storage and protect your privacy b
 
 
 
-# Accessibility &amp; Inclusion
+
+
+
+Our Portals—things like the app chooser and access dialogs—have now been ported to GTK 4!
+
+
+
+
+
+# A11y, Settings, Inclusion, I dunno cohesive title
 
 We've received feedback from folks with vision-related disabilities that a huge barrier for them when considering an Open Source operating system is that they often need help to get it installed. Now, when you boot into the install media for elementary OS, we automatically play an audio prompt letting you know the keyboard shortcut for turning on the screen reader. And the same audio prompt is available during Initial Setup, so whether you're buying a computer pre-installed with elementary OS or installing it on your existing computer, you can choose an Open Source operating system and remain independent.
 
 1 in 12 men experience color perception deficiency (aka color blindness) from birth and some folks will develop color deficiency as they age—but those we spoke to about accommodations reported that color deficiency assistance tools are often ineffective or unavailable and the lack of awareness and education around color deficiency means that many don't seek assistance at all. This can affect daily tasks when trying to understand parts of their computer's interface, but it also comes up when playing games and can make it difficult to work and play collaboratively. We introduced a set of 5 display filters, designed to assist folks with Protanopia, Deuteranopia, and Tritanopia with some additional high contrast options and plenty of assistive text to help folks without a formal color deficiency diagnosis.
 
+Additionally, we're now shipping a grayscale filter which can help avoid distractions or alleviate screen addiction and you can now make the display much warmer when using Night Light.
+
+For folks who suffer from motion sickness or simply prefer fewer animations, the "Reduce Motion" setting in Desktop → Appearance now covers several more window manager and shell animations.
+
+The Login &amp; Lock Screen now does a better job matching your mouse, keyboard, and touchpad settings, including improved keyboard layout handling. Your chosen accent color is now used everywhere—not just on your login card—and it now handles solid color wallpapers. Your text size and font settings, pointer size settings, cursor blink settings, Night Light settings and more are all now respected as well. Plus, the ability to reveal the pointer is now available, the Screen Reader can be enabled with a keyboard shortcut, and it does a better job remembering your Screen Reader settings.
 
 
 
 
 
-# Settings &amp; Personalization
 
 
-The latest release of Desktop settings includes some new options for switching workspaces via hotcorners as well as a new feature to dim wallpapers in dark mode.
-
-You'll also notice that the setting for disabling animations has moved to the "Appearance" tab and has been renamed to "Reduce Motion". improved ability to optionally disable animations, several more animations now respect your preference to disable them
-
-The Dock &amp; Panel tab of Desktop settings also received a responsive redesign with added description labels for some settings. Additionally, checkboxes for extra indicators like the Accessibility indicator and the Capslock and Numlock indicators are now centrally located here.
 
 
-Updated Startup settings to show apps that use the Background &amp; Autostart Portal and we made quite a few changes to this view to bring it in line with modern design patterns and ensure that it was more responsive for large and small displays.
 
-We also updated Default apps settings and did quite a bit of code cleanup here. plus he improved screen reader names for several settings while here.
+and made sure the <kbd>PrintScreen</kbd> key can be used for keyboard shortcuts.
+
+"Cycle Windows of application" and "Cycle Windows of application backwards" shortcuts
+
+adding the keyboard shortcut <kbd>Alt</kbd> + <kbd>~</kbd> for switching between windows of the same app
+
+navigating with the arrow keys while holding down <kbd>Alt</kbd> + <kbd>Tab</kbd>
+
+better handling of keyboard shortcuts in Multitasking View
+
+Improve handling of move-to-workspace shortcut
+
+And, you can now close panel indicators with <kbd>Esc</kbd>.
+
+
+
+Navigation gestures in installer
+
+accidentally closing windows when using three-finger multi-touch gestures.
+
+fixes that prevent misclicks and accidentally triggering actions in window manager
+
+
+
+
+The latest release of Desktop settings includes some new options for switching workspaces via hotcorners
+
+as well as a new feature to dim wallpapers in dark mode.
+
+Additionally, checkboxes for extra indicators like the Accessibility indicator and the Capslock and Numlock indicators are now centrally located here.
+
+We also updated Default apps settings and did quite a bit of code cleanup here. plus improved screen reader names for several settings while here.
 
 Added search to the Permissions tab
-
-
-
-
-Additionally, we're now shipping a grayscale filter which can help avoid distractions or alleviate screen addiction and you can now make the display much warmer when using Night Light. You may also notice a small redesign of Night Light settings for responsiveness. Finally, there should be more accurate display resolution options available.
-
-
-
-Sound Settings got a bit of a redesign for improved responsiveness on small and large displays and you may notice some improved description labels.
-
 
 The Behavior tab of Keyboard settings got a major update with the additional of several new settings for things like Bounce, Slow, and Sticky keys. Slider values are now shown on drag instead of in a separate widget. Plus, app developers can now link directly to custom shortcuts settings.
 
@@ -99,30 +126,8 @@ A couple of keyboard settings moved around, but were not removed! On-screen keyb
 
 Progress dialog from being shown when installing input method engines, as well as adding multitouch gesture support for navigating backwards through the installation steps,
 
-and made sure the <kbd>PrintScreen</kbd> key can be used for keyboard shortcuts.
-
-"Cycle Windows of application" and "Cycle Windows of application backwards" shortcuts
 
 
-Finally, the Settings Daemon will now check for and notify of Firmware updates when they're available and we support Accent Colors on the Settings Portal.
-
-
-
-
-Login &amp; Lock Screen now does a better job matching your mouse, keyboard, and touchpad settings, including improved keyboard layout handling. Your chosen accent color is now used everywhere—not just on your login card—and it now handles solid color wallpapers. Your text size and font settings, pointer size settings, cursor blink settings, Night Light settings and more are all now respected as well. Plus, the ability to reveal the pointer is now available, the Screen Reader can be enabled with a keyboard shortcut, and it does a better job remembering your Screen Reader settings.
-
-
-## Panel
-
-The Network indicator received some much-needed design attention and now offers a vastly-improved experience for using VPNs. You'll notice that most options now appear as circular toggle buttons with icons instead of a list of switches. This new design both saves space on devices with complex network configurations and shows the status of your various connections much clearer, including intermediate and error states. In the case of VPNs, you can now also activate multiple connections at once. We've also added quick access to toggling Airplane Mode, including a middle-click action on the indicator icon. Plus, we're now using a feature of Network Manager to automatically get better device names so you'll rarely see long and cryptic device names any longer.
-
-As part of the aforementioned Bluetooth file transfer feature, you can see ongoing transfers in the Bluetooth indicator. Bluetooth devices will now use any custom device names you've set up before falling back to more generic device names.
-
-The Sound indicator was updated to use circle buttons and should no longer change size when skipping tracks. Muting should no longer affect monitor sources.
-
-The Power indicator now always uses hours as its largest unit, for example it will say "26 hours remaining" instead of "1 day remaining" and we improved the accuracy of battery level icons.
-
-Plus, we've updated icons in the Bluetooth, Network, Night Light, Notifications, and Sound indicators to be more consistently sized and with clearer disabled states. And, you can now close panel indicators with <kbd>Esc</kbd>.
 
 
 
@@ -147,7 +152,7 @@ Since the release of OS 7 at the end of January, we've sent out free updates tha
 
 ## Installer &amp; Initial Setup
 
-Navigation gestures
+
 
 ## Onboarding
 
@@ -156,59 +161,16 @@ Onboarding is the most personal part of getting started with elementary OS, wher
 With Flatpak, you have access to an incredibly wide selection of apps and a growing number of alternative app stores. Unlike on mainstream proprietary operating systems, installing apps via Sideload and accessing alternative app stores are important features of elementary OS. So, when we're introducing people to AppCenter—the pay-what-you-can app store with apps made specifically for elementary OS—we also now much more prominently introduce them to Sideload and even feature a prominent link to the most popular Flatpak-powered app store: Flathub.
 
 
-
 Onboarding now also handles providing information about the temporary Guest account.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ## AppCenter
 
-As we work towards our continual goal of better supporting alternative app stores, one of the challenges is ensuring that you remain safe while using apps from stores with differing security and privacy policies. In elementary OS, the supported app packaging format is Flatpak which gives us several tools to that end, including the ability to report back to you when apps have advanced access that could leave you vulnerable. In OS 7.1, AppCenter will now inform you if an app can can:
-
-- Read your location, send notifications, or automatically start and run in the background without asking first
-- Access system folders or your home folder
-- Read and write system settings
-- Possibly escape the sandbox altogether
-
-For certain types of administrative apps, having advanced system permissions makes sense, but our goal is to keep you informed and ensure that apps are always operating with your consent.
-
-
-
-
-
-
-
 AppInfo views have also been reworked to tighten up spacing and improve alignment. Special attention was put into making sure the most important information appears "above the fold", especially on smaller displays like in some laptops. Plus, we no longer split out apps from alt stores into a separate header in category views.
 
-AppCenter received a new Flatpak Repair feature which fixes an issue where some Flatpak runtimes could not be installed. Plus the updates page now shows a small message when everything is up-to-date, including the last time that AppCenter checked for updates.
+AppCenter received a new Flatpak Repair feature which fixes an issue where some Flatpak runtimes could not be installed.
 
-Updates view uses grid for installed apps
-
-
-## Sideload
-
-Just like in AppCenter, our goal with Sideload is to keep you informed and in control when installing apps provided directly by the developer. We also want to make sure to balance that with the existing trust relationship you may have with the apps you love. So we've made some changes to how apps are presented in Sideload and instead of assuming that a sideloaded app is untrusted, we simply ask for you to validate your trust. Additionally, we now show some basic information about the kinds of broad system permissions that a sideloaded app may request. This isn't as fine-grained as what is presented in AppCenter, but it offers quick validation for apps that are more likely to be safe.
-
-
-
-
-
+Plus the updates page now shows a small message when everything is up-to-date, including the last time that AppCenter checked for updates. Updates view uses grid for installed apps
 
 
 ## Mail
@@ -239,11 +201,9 @@ Plus, you can now share files with other devices via Bluetooth. A new Bluetooth 
 
 Lastly, the tab bar features improved animations, smoother drag-and-drop, and reorganized tab context menus, bringing it more in line with Web. The storage level bar in Properties dialogs will now change color depending on how full a drive is. And we've rewritten the way color tags are stored so that they are better preserved when restoring from the Trash.
 
-## Music
+## Music &amp; Videos
 
 Music can now accept Drag and Drop of whole folders and you can secondary click on a folder in Files and open it with Music.
-
-## Videos
 
 https://github.com/elementary/videos/releases/tag/3.0.0
 
@@ -287,28 +247,9 @@ performance improvements
 
 smoother animations
 
-fixes for issues with shadows
-
-better handling of keyboard shortcuts in Multitasking View
-
-accidentally closing windows when using three-finger multi-touch gestures.
-
-fixes for issues with keyboard shortcuts
-
-fixes that prevent misclicks and accidentally triggering actions
-
-fixes for visual glitches
-
-adding the keyboard shortcut <kbd>Alt</kbd> + <kbd>~</kbd> for switching between windows of the same app
-
-navigating with the arrow keys while holding down <kbd>Alt</kbd> + <kbd>Tab</kbd>
-
 issue where Picture-in-Picture windows could become unintentionally hidden, Picture-in-Picture windows update their visibility properly when switching workspaces.
 
 parent windows of dialogs are dimmed and undimmed more accurately, parent windows wouldn't un-dim after closing dialogs
-
-Improve handling of move-to-workspace shortcut
-
 
 Fix moving maximized and fullscreen windows to new workspace on launch
 
@@ -316,8 +257,6 @@ Add shadow to wallpaper clones while switching workspace
 
 
 ## Notifications
-
-
 
 The Notifications indicator is where you can catch up with missed notifications and it supports all the same ways you're used to interacting with notifications like tapping a notification to launch the app that sent it and multi-touch swipe left or right to dismiss. Now, missed notifications can also have buttons and apps can replace old outdated notifications with newer up-to-date ones instead of add more and more notifications to the stack.
 
@@ -332,7 +271,19 @@ We now do a better job making sure notification bubbles you've dismissed with a 
 fixes for notification windows—including showing them in Multitasking View
 
 
-## Visual Improvements
+## Panel
+
+The Network indicator received some much-needed design attention and now offers a vastly-improved experience for using VPNs. You'll notice that most options now appear as circular toggle buttons with icons instead of a list of switches. This new design both saves space on devices with complex network configurations and shows the status of your various connections much clearer, including intermediate and error states. In the case of VPNs, you can now also activate multiple connections at once. We've also added quick access to toggling Airplane Mode, including a middle-click action on the indicator icon. Plus, we're now using a feature of Network Manager to automatically get better device names so you'll rarely see long and cryptic device names any longer.
+
+As part of the aforementioned Bluetooth file transfer feature, you can see ongoing transfers in the Bluetooth indicator. Bluetooth devices will now use any custom device names you've set up before falling back to more generic device names.
+
+The Sound indicator was updated to use circle buttons and should no longer change size when skipping tracks. Muting should no longer affect monitor sources.
+
+The Power indicator now always uses hours as its largest unit, for example it will say "26 hours remaining" instead of "1 day remaining" and we improved the accuracy of battery level icons.
+
+Plus, we've updated icons in the Bluetooth, Network, Night Light, Notifications, and Sound indicators to be more consistently sized and with clearer disabled states.
+
+## Design Improvements
 
 Plus you'll also notice that the Login &amp; Lock Screen now has subtly rounded corners that match the logged in session.
 
@@ -340,9 +291,17 @@ A fresh version of Onboarding has been released with several redesigned pages in
 
 StyleView: use actual background when available
 
+Updated Startup settings to bring it in line with modern design patterns and ensure that it was more responsive for large and small displays. You may also notice a small redesign of Night Light settings for responsiveness. Sound Settings got a bit of a redesign for improved responsiveness on small and large displays and you may notice some improved description labels.
+
+The Dock &amp; Panel tab of Desktop settings also received a responsive redesign with added description labels for some settings.
+
 ## Hardware Support
 
 Some computers contain hardware devices that require additional, proprietary drivers to function properly. This previously made installing elementary OS difficult when wireless network drivers or video card drivers were unavailable. We now provide an option during installation to include these proprietary drivers so that your devices function properly.
+
+Settings Daemon will now check for and notify of Firmware updates when they're available 
+
+Finally, there should be more accurate display resolution options available.
 
 Linux 6.2, Ubuntu HWE
 
