@@ -40,7 +40,12 @@ The Feedback app now features search
 
 Since the release of OS 7 at the end of January, we've sent out free updates that address over 200 reports—that's one report addressed every day in addition to our regular planned work. Needless to say OS 7.1 is much smoother, faster, and more stable than its predecessor.
 
-# Portals
+
+
+
+
+
+# Privacy &amp; Consent
 
 Portals provide a safe and consensual way for apps to interact with operating system features and make sure that they only get access to the data you want them to. One of the ways that apps may become intrusive is by automatically starting themselves or running in the background without your permission. In OS 7.1, we now provide the Background &amp; Autostart Portal which alerts you when apps are running in the background and makes sure that apps ask your permission before they can automatically start up when you turn on your device.
 
@@ -52,10 +57,17 @@ Calendar, Mail, and Tasks now all use the Background & Autostart portal, and the
 
 Calendar and Mail have been updated to use the File Chooser Portal for things like selecting attachments or importing and exporting calendar files.
 
-And thanks to the hard work of [Marco](https://github.com/marbetschar) and [Gustavo](https://github.com/Marukesu) our Portals—things like the app chooser and access dialogs—have now been ported to GTK 4!
+Our Portals—things like the app chooser and access dialogs—have now been ported to GTK 4!
 
 
 A new version of Security &amp; Privacy settings has been released that now supports the Location portal. This is a more secure method for apps to request access to location services and is the latest FreeDesktop.org standard for doing so. If you've had trouble with sideloaded apps accessing location services before, this change will most likely fix that issue. You can adjust location settings in System Settings → Security &amp; Privacy → Location Services. If the main switch here is turned off, apps will not be allowed to even ask for permission, so make sure it's turned on if you are using apps that make use of location data.
+
+
+
+Housekeeping is a feature designed to free up storage and protect your privacy by automatically deleting old files. You can now choose to automatically clean up the Trash, Downloads, Screenshots, and temporary operating system files on a schedule of your choosing.
+
+
+
 
 
 # Accessibility &amp; Inclusion
@@ -68,9 +80,15 @@ We've received feedback from folks with vision-related disabilities that a huge 
 
 
 
+
+
+
+
+
+
+
+
 ## Installer &amp; Initial Setup
-
-
 
 Some computers contain hardware devices that require additional, proprietary drivers to function properly. This previously made installing elementary OS difficult when wireless network drivers or video card drivers were unavailable. We now provide an option during installation to include these proprietary drivers so that your devices function properly.
 
@@ -82,7 +100,7 @@ Onboarding is the most personal part of getting started with elementary OS, wher
 
 With Flatpak, you have access to an incredibly wide selection of apps and a growing number of alternative app stores. Unlike on mainstream proprietary operating systems, installing apps via Sideload and accessing alternative app stores are important features of elementary OS. So, when we're introducing people to AppCenter—the pay-what-you-can app store with apps made specifically for elementary OS—we also now much more prominently introduce them to Sideload and even feature a prominent link to the most popular Flatpak-powered app store: Flathub.
 
-Housekeeping is a feature designed to free up storage and protect your privacy by automatically deleting old files. You can now choose to automatically clean up the Trash, Downloads, Screenshots, and temporary operating system files on a schedule of your choosing.
+
 
 Onboarding now also handles providing information about the temporary Guest account.
 
@@ -123,9 +141,9 @@ For certain types of administrative apps, having advanced system permissions mak
 
 
 
-AppInfo views have also been reworked to tighten up spacing and improve alignment. Special attention was put into making sure the most important information appears "above the fold", especially on smaller displays like in some laptops. Plus, we no longer split out apps from alt stores into a separate header in category views, and a potential crash when adding alt stores has been fixed thanks to [Marius](https://github.com/meisenzahl)
+AppInfo views have also been reworked to tighten up spacing and improve alignment. Special attention was put into making sure the most important information appears "above the fold", especially on smaller displays like in some laptops. Plus, we no longer split out apps from alt stores into a separate header in category views.
 
-AppCenter received a new Flatpak Repair feature thanks to [Marius](https://github.com/meisenzahl) which fixes an issue where some Flatpak runtimes could not be installed. Plus the updates page now shows a small message when everything is up-to-date, including the last time that AppCenter checked for updates.
+AppCenter received a new Flatpak Repair feature which fixes an issue where some Flatpak runtimes could not be installed. Plus the updates page now shows a small message when everything is up-to-date, including the last time that AppCenter checked for updates.
 
 
 
@@ -160,25 +178,17 @@ Mail also does a better job handling changes in your internet connection, and if
 
 ## Files
 
+In the Files app, we're always striving to strike a balance between providing advanced file management features and avoiding clutter and confusion. Folder context menus had begun to reach a point where they were being stretched a bit too far, so we introduced a new app menu in the headerbar to provide app-wide controls and settings and improve the discoverability of some features that were previously only accessible by keyboard shortcut like Zoom and Undo/Redo. The new Zoom controls make it easier to set a comfortable icon size and expose keyboard shortcuts in their tooltips. The Undo and Redo buttons include tooltips showing what operation will be performed before you click them as well as their keyboard shortcuts. The description text for the Double-click setting has been made more clear based on your feedback, and we've consolidated settings for which things will be shown in the view such as Hidden Files and Thumbnails.
 
+We've also introduced Bulk Rename. With this feature, you can select multiple files, secondary-click, and select "Rename…" to get an advanced bulk renaming dialog. This is an especially useful feature if you're working with a large collection of photos or spreadsheets or other kinds of files that you may want to rename by creation date or using another sequence or when you have to format a large number of files the same way. You can add automatically generated prefixes or suffixes to file names, as well as keeping, completely replacing, or partially replacing parts of the original file name. You'll see a preview of how files will be renamed as well as an indication of when file names would conflict or not be changed.
 
+Plus, you can now share files with other devices via Bluetooth. A new Bluetooth transfer dialog is available by secondary-clicking a file or selection of files and selecting "Send Files via Bluetooth" from the context menu.
 
-The headlining feature of this Files release is the new app menu in the headerbar. [Jeremy](https://github.com/jeremypw) put together this menu to better improve discoverability for features like zoom and undo/redo as well as to clean up folder context menus. The Undo and Redo buttons include tooltips showing what operation will be performed before you click them and we also updated the description for the double-click setting to make it more clear.
-
-A long requested feature, this month Bulk Rename lands in Files thanks to [Jeremy](https://github.com/jeremypw). With this feature, you can select a number of files, secondary-click, and select "Rename…" to get an advanced bulk renaming dialog. This is an especially useful feature if you're working with a large collection of photos or spreadsheets or other kinds of files that you may want to rename by creation date or using another sequence or when you have to format a large number of files the same way. We're looking forward to your feedback on this feature and improving it to fit your advanced file management needs!
-
-Plus, you can now share files via Bluetooth. A new Bluetooth transfer dialog is available by secondary-clicking a file or selection of files and selecting "Send Files via Bluetooth" from the menu.
-
-This release of Files sports a new Tab Bar powered by LibHandy with improved animations, smoother drag-and-drop, and reorganized tab context menus, bringing it more in line with Web.
-
-Also, the storage level bar in Properties dialogs will now change color depending on how full a drive is.
-
-[Jeremy](https://github.com/jeremypw) has also rewritten the way color tags are stored using extended file attributes instead of a database; This means tags should be better preserved when restoring from the Trash for example and you've no need to fear because Files will automatically update your tags to use the new system in the background.
-
+Lastly, the tab bar features improved animations, smoother drag-and-drop, and reorganized tab context menus, bringing it more in line with Web. The storage level bar in Properties dialogs will now change color depending on how full a drive is. And we've rewritten the way color tags are stored so that they are better preserved when restoring from the Trash.
 
 ## Music
 
-Music can now accept Drag and Drop of whole folders and you can secondary click on a folder in Files and open it with Music. Plus it's been updated to the latest Flatpak platform which fixes issues with certain animations.
+Music can now accept Drag and Drop of whole folders and you can secondary click on a folder in Files and open it with Music.
 
 ## Videos
 
@@ -323,9 +333,7 @@ https://github.com/elementary/gala/releases/tag/7.1.2
 
 ## Notifications
 
-Leo also removed the intrusive "Automatic Suspend" notifications. Gustavo made sure critical notifications are still sent even when Do Not Disturb is active and contributed quite a bit of code cleanup in the notifications server. And new contributor [Sean](https://github.com/SuperRiderTH) made a fix for the option to disable sounds from notifications sent by apps that don't properly identify themselves.
-
-Also [Gustavo](https://github.com/marukesu) and [Leonhard](https://github.com/leolost2605) fixed a couple issues related to Notification close behavior.
+Removed the intrusive "Automatic Suspend" notifications. Critical notifications are still sent even when Do Not Disturb is active.
 
 
 
