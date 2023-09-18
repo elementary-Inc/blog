@@ -64,7 +64,9 @@ Our Portals—things like the app chooser and access dialogs—have now been por
 
 
 
-# A11y, Settings, Inclusion, I dunno cohesive title
+# Personalization Settings for Accessibility &amp; Inclusion
+
+When we think about settings and personalization in elementary OS, we tend to avoid settings that would pass off design or engineering decisions and instead focus on providing settings that make the operating system more accessible and inclusive for a wider range of people. We use this guiding philosophy to decide which new settings to add without creating an overwhelming or confusing number of customization options. This release, like every release, comes with a number of new features and settings that we hope make it possible for more people to enjoy using an Open Source operating system.
 
 We've received feedback from folks with vision-related disabilities that a huge barrier for them when considering an Open Source operating system is that they often need help to get it installed. Now, when you boot into the install media for elementary OS, we automatically play an audio prompt letting you know the keyboard shortcut for turning on the screen reader. And the same audio prompt is available during Initial Setup, so whether you're buying a computer pre-installed with elementary OS or installing it on your existing computer, you can choose an Open Source operating system and remain independent.
 
