@@ -78,26 +78,9 @@ The Login &amp; Lock Screen now does a better job matching your mouse, keyboard,
 
 
 
+Navigating via keyboard is important for a wide range of folks whether that's due to disability or personal preference and this release comes with a number of improvements in this area. For managing app windows, you can now use the keyboard shortcut <kbd>Alt</kbd> + <kbd>~</kbd> for switching between windows of the same app, and you can now navigate with the arrow keys while holding down <kbd>Alt</kbd> + <kbd>Tab</kbd>. In the Multitasking View, a number of previously unavailable shortcuts are now available including Pointer location, Screenshots, and Zoom, in additional to regular workspace switching shortcuts. When customizing keyboard shortcuts, we now do a better job handling special keys and single-key shortcuts like the <kbd>PrintScreen</kbd> key. And, you can now close panel indicators with <kbd>Esc</kbd>.
 
-
-
-
-
-
-
-and made sure the <kbd>PrintScreen</kbd> key can be used for keyboard shortcuts.
-
-"Cycle Windows of application" and "Cycle Windows of application backwards" shortcuts
-
-adding the keyboard shortcut <kbd>Alt</kbd> + <kbd>~</kbd> for switching between windows of the same app
-
-navigating with the arrow keys while holding down <kbd>Alt</kbd> + <kbd>Tab</kbd>
-
-better handling of keyboard shortcuts in Multitasking View
-
-Improve handling of move-to-workspace shortcut
-
-And, you can now close panel indicators with <kbd>Esc</kbd>.
+We also completely revamped the Behavior page of System Settings → Keyboard. It now includes several new settings for things like Bounce, Slow, and Sticky keys with descriptions of their effects, and slider values are now shown on drag instead of in a separate widget. This work was the final piece of our project to integrate previously tucked-away accessibility settings throughout System Settings, improving their discoverability and normalizing the use of accomodations for everyone.
 
 
 
@@ -114,20 +97,15 @@ The latest release of Desktop settings includes some new options for switching w
 
 as well as a new feature to dim wallpapers in dark mode.
 
-Additionally, checkboxes for extra indicators like the Accessibility indicator and the Capslock and Numlock indicators are now centrally located here.
+Additionally, checkboxes for extra indicators like the Accessibility indicator and the Capslock and Numlock indicators are now centrally located in Desktop → Dock &amp; Panel.
 
 We also updated Default apps settings and did quite a bit of code cleanup here. plus improved screen reader names for several settings while here.
 
 Added search to the Permissions tab
 
-The Behavior tab of Keyboard settings got a major update with the additional of several new settings for things like Bounce, Slow, and Sticky keys. Slider values are now shown on drag instead of in a separate widget. Plus, app developers can now link directly to custom shortcuts settings.
-
-A couple of keyboard settings moved around, but were not removed! On-screen keyboard settings are now on the Behavior tab and panel indicator settings are now available in Desktop → Dock &amp; Panel.
+Plus, app developers can now link directly to custom shortcuts settings.
 
 Progress dialog from being shown when installing input method engines, as well as adding multitouch gesture support for navigating backwards through the installation steps,
-
-
-
 
 
 
