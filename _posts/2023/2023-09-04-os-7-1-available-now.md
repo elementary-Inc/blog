@@ -128,7 +128,7 @@ StyleView: use actual background when available
 
 As we work towards our continual goal of better supporting alternative app stores, one of the challenges is ensuring that you remain safe while using apps from stores with differing security and privacy policies. In elementary OS, the supported app packaging format is Flatpak which gives us several tools to that end, including the ability to report back to you when apps have advanced access that could leave you vulnerable. In OS 7.1, AppCenter will now inform you if an app can can:
 
-- Read your location without asking first
+- Read your location, send notifications, or automatically start and run in the background without asking first
 - Access system folders or your home folder
 - Read and write system settings
 - Possibly escape the sandbox altogether
@@ -145,7 +145,7 @@ AppInfo views have also been reworked to tighten up spacing and improve alignmen
 
 AppCenter received a new Flatpak Repair feature which fixes an issue where some Flatpak runtimes could not be installed. Plus the updates page now shows a small message when everything is up-to-date, including the last time that AppCenter checked for updates.
 
-
+Updates view uses grid for installed apps
 
 
 ## Sideload
@@ -196,7 +196,7 @@ https://github.com/elementary/videos/releases/tag/3.0.0
 
 We've been hard at work getting Videos ready for GTK 4 and one of the steps along the way was getting rid of Clutter—big "C"—which has lead to a massive rework of the app's internals. The code base is much cleaner and clearer and should be more reliable and performant. This release still uses GTK 3, but look forward to GTK 4 in the next release.
 
-For now you can expect improved playback position saving, a flatter app appearance in the welcome screen and library, smoother navigation, and in-app notifications when adding items to the playlist. Major shoutouts to [Leonhard](https://github.com/leolost2605) here.
+For now you can expect improved playback position saving, a flatter app appearance in the welcome screen and library, smoother navigation, and in-app notifications when adding items to the playlist.
 
 
 
@@ -233,14 +233,10 @@ The Vala symbols outline now correctly matches Code when the style changes after
 # System Settings
 
 
-
-## Desktop
-
 The latest release of Desktop settings includes some new options for switching workspaces via hotcorners as well as a new feature to dim wallpapers in dark mode. You'll also notice that the setting for disabling animations has moved to the "Appearance" tab and has been renamed to "Reduce Motion".
 
 The Dock &amp; Panel tab of Desktop settings also received a responsive redesign with added description labels for some settings. Additionally, checkboxes for extra indicators like the Accessibility indicator and the Capslock and Numlock indicators are now centrally located here.
 
-## Applications
 
 Updated Startup settings to show apps that use the Background &amp; Autostart Portal and we made quite a few changes to this view to bring it in line with modern design patterns and ensure that it was more responsive for large and small displays.
 
@@ -248,18 +244,15 @@ We also updated Default apps settings and did quite a bit of code cleanup here. 
 
 Added search to the Permissions tab
 
-## Displays
 
 
 
 Additionally, we're now shipping a grayscale filter which can help avoid distractions or alleviate screen addiction and you can now make the display much warmer when using Night Light. You may also notice a small redesign of Night Light settings for responsiveness. Finally, there should be more accurate display resolution options available.
 
 
-## Sound
 
 Sound Settings got a bit of a redesign for improved responsiveness on small and large displays and you may notice some improved description labels.
 
-## Keyboard
 
 The Behavior tab of Keyboard settings got a major update with the additional of several new settings for things like Bounce, Slow, and Sticky keys. Slider values are now shown on drag instead of in a separate widget. Plus, app developers can now link directly to custom shortcuts settings.
 
@@ -271,18 +264,13 @@ and made sure the <kbd>PrintScreen</kbd> key can be used for keyboard shortcuts.
 
 "Cycle Windows of application" and "Cycle Windows of application backwards" shortcuts
 
-## Security &amp; Privacy
-
-In Security &amp; Privacy Settings, you now have the option to automatically clean up Screenshot files as part of Housekeeping.
-
-## Settings Daemon
 
 Finally, the Settings Daemon will now check for and notify of Firmware updates when they're available and we support Accent Colors on the Settings Portal.
 
 
 
 
-
+Login &amp; Lock Screen now does a better job matching your mouse, keyboard, and touchpad settings, including improved keyboard layout handling. Your chosen accent color is now used everywhere—not just on your login card—and it now handles solid color wallpapers. Your text size and font settings, pointer size settings, cursor blink settings, Night Light settings and more are all now respected as well. Plus, the ability to reveal the pointer is now available, the Screen Reader can be enabled with a keyboard shortcut, and it does a better job remembering your Screen Reader settings.
 
 
 
@@ -292,60 +280,72 @@ Finally, the Settings Daemon will now check for and notify of Firmware updates w
 
 ## Panel
 
-As part of the aforementioned Bluetooth file transfer feature, you can see ongoing transfers in the Bluetooth indicator. And thanks to [Stan](https://github.com/stan-janssen), Bluetooth devices will now use any custom device names you've set up before falling back to more generic device names.
+The Network indicator received some much-needed design attention and now offers a vastly-improved experience for using VPNs. You'll notice that most options now appear as circular toggle buttons with icons instead of a list of switches. This new design both saves space on devices with complex network configurations and shows the status of your various connections much clearer, including intermediate and error states. In the case of VPNs, you can now also activate multiple connections at once. We've also added quick access to toggling Airplane Mode, including a middle-click action on the indicator icon. Plus, we're now using a feature of Network Manager to automatically get better device names so you'll rarely see long and cryptic device names any longer.
 
-We now do a better job making sure notification bubbles you've dismissed with a swipe or the close button don't end up in the Notifications indicator, and the number of missed notifications in the tooltip should be more accurate, thanks again to [Jeremy](https://github.com/jeremypw). [Leo](https://github.com/lenemter) improved support for notifications that contain markup and [Leonhard](https://github.com/leolost2605) fixed the change in indicator width when all notifications have been cleared.
+As part of the aforementioned Bluetooth file transfer feature, you can see ongoing transfers in the Bluetooth indicator. Bluetooth devices will now use any custom device names you've set up before falling back to more generic device names.
 
-Plus, we updated some icons in the Bluetooth, Night Light, and Notifications indicators to be more consistent.
+The Sound indicator was updated to use circle buttons and should no longer change size when skipping tracks. Muting should no longer affect monitor sources.
 
-The Sound indicator was updated to use circle buttons and should no longer change size when skipping tracks. Muting should no longer affect monitor sources thanks to [Gran](https://github.com/GranPC), and microphone icons have been subtly updated. Plus, [Leo](https://github.com/lenemter) made sure the Accessibility indicator shows the correct text size on startup.
+The Power indicator now always uses hours as its largest unit, for example it will say "26 hours remaining" instead of "1 day remaining" and we improved the accuracy of battery level icons.
 
-The network indicator has been getting some major design attention and now offers a much better experience for using VPNs. You'll notice that most options now appear as circular toggle buttons with icons instead of a list of switches. This new design both saves space on devices with complex network configurations and shows the status of your various connections much clearer, including intermediate and error states. In the case of VPNs, you can now also activate multiple connections at once.
-
-We've also added quick access to toggling Airplane Mode, including a middle-click action on the indicator icon. Plus, we're now using a feature of Network Manager to automatically get better device names so you'll rarely see long and cryptic device names any longer. And you may notice some subtly improved icons like a slightly larger Wi-Fi icon with rounded edges.
-
-After receiving quite a bit of feedback about the panel appearing broken when folks modify the system visual assets, the panel now always uses the elementary stylesheet and icons to prevent style issues. You can also now close panel indicators with <kbd>Esc</kbd> and [Leo](https://github.com/lenemter) fixed an issue that caused indicators to re-animate if an indicator was updated or removed.
-
-The Power indicator now always uses hours as its largest unit, for example it will say "26 hours remaining" instead of "1 day remaining" and we resolved an issue that caused battery level icons to sometimes be inaccurate. Thanks to [Leo](https://github.com/lenemter) and [Vishal](https://github.com/vjr).
-
-## Login &amp; Lock Screen
-
-Meanwhile, [Leo](https://github.com/lenemter) has recently made it his mission to respect all of your system settings and improve accessibility on the Login &amp; Lock screen. It now does a better job matching your mouse, keyboard, and touchpad settings, including improved keyboard layout handling. Your chosen accent color is now used everywhere—not just on your login card—and it now handles solid color wallpapers. Your text size and font settings, pointer size settings, cursor blink settings, Night Light settings and more are all now respected as well. Plus, the ability to reveal the pointer is now available, the Screen Reader can be enabled with a keyboard shortcut, and it does a better job remembering your Screen Reader settings.
-
-In addition to all of that, an issue that prevented cards from being selected when clicked in certain areas has now been fixed, as well as potential issues with dialogs that use Portals, potential issues with multi-display setups, and an issue where settings would be reset when incorrect credentials were entered. Plus you'll also notice that the Login &amp; Lock Screen now has subtly rounded corners that match the logged in session.
+Plus, we've updated icons in the Bluetooth, Network, Night Light, Notifications, and Sound indicators to be more consistently sized and with clearer disabled states. And, you can now close panel indicators with <kbd>Esc</kbd>.
 
 ## Window Management
 
-This release of our window manager contains over a dozen fixes for reported issues thanks to [Leo](https://github.com/lenemter)'s hard work. This includes things like performance improvements and smoother animations, fixes for issues with shadows, improved ability to optionally disable animations, better handling of keyboard shortcuts in Multitasking View, and lots of code cleanup. Plus a fix that avoids accidentally closing windows when using three-finger multi-touch gestures. I recommend reading the [full release notes](https://github.com/elementary/gala/releases/tag/7.0.1) because this is a big one!
+performance improvements
 
-This is another great bugfix release for Gala with major thanks to [Leo](https://github.com/lenemter). Some of the highlights include fixes for notification windows—including showing them in Multitasking View, fixes for issues with keyboard shortcuts, fixes that prevent misclicks and accidentally triggering actions, performance improvements, fixes for visual glitches, and more. This is another great release to read the [full release notes](https://github.com/elementary/gala/releases/tag/7.0.2) since it closes another dozen reported issues.
+smoother animations
 
-We had yet another great release of our window manager, Gala, this month. This release brings the total number of fixed reported issues since OS 7 in this component alone to nearly 40! Highlights from this release include adding the keyboard shortcut <kbd>Alt</kbd> + <kbd>~</kbd> for switching between windows of the same app, navigating with the arrow keys while holding down <kbd>Alt</kbd> + <kbd>Tab</kbd>, and several more animations now respect your preference to disable them. Plus, the team has been working hard to prepare for Mutter 44 which will bring fractional and per-display scaling support on Wayland, so look forward to seeing that in a future version of elementary OS. Thanks again to [Corentin](https://github.com/tintou), [David](https://github.com/davidmhewitt), and [Leo](https://github.com/lenemter) for all of their work here.
+fixes for issues with shadows
 
-[Leo](https://github.com/lenemter) fixed an issue where Picture-in-Picture windows could become unintentionally hidden and made sure parent windows of dialogs are dimmed and undimmed more accurately.
+improved ability to optionally disable animations, several more animations now respect your preference to disable them
 
-[Leo] fixed an issue where sometimes parent windows wouldn't un-dim after closing dialogs, and made sure Picture-in-Picture windows update their visibility properly when switching workspaces.
+better handling of keyboard shortcuts in Multitasking View
 
-https://github.com/elementary/gala/releases/tag/7.1.2
+accidentally closing windows when using three-finger multi-touch gestures.
 
- Another half dozen bug fixes landed in our Window Manager thanks to [Leo](https://github.com/lenemter), including several related to workspaces. 
+fixes for issues with keyboard shortcuts
+
+fixes that prevent misclicks and accidentally triggering actions
+
+fixes for visual glitches
+
+adding the keyboard shortcut <kbd>Alt</kbd> + <kbd>~</kbd> for switching between windows of the same app
+
+navigating with the arrow keys while holding down <kbd>Alt</kbd> + <kbd>Tab</kbd>
+
+issue where Picture-in-Picture windows could become unintentionally hidden, Picture-in-Picture windows update their visibility properly when switching workspaces.
+
+parent windows of dialogs are dimmed and undimmed more accurately, parent windows wouldn't un-dim after closing dialogs
+
+Improve handling of move-to-workspace shortcut
+
+
+Fix moving maximized and fullscreen windows to new workspace on launch
+
+Add shadow to wallpaper clones while switching workspace
 
 
 ## Notifications
 
+
+
+The Notifications indicator is where you can catch up with missed notifications and it supports all the same ways you're used to interacting with notifications like tapping a notification to launch the app that sent it and multi-touch swipe left or right to dismiss. Now, missed notifications can also have buttons and apps can replace old outdated notifications with newer up-to-date ones instead of add more and more notifications to the stack.
+
+Sometimes we have apps that send a lot of notifications that are important but drown out other apps, so now you can select the spinning triangle icon to collapse all the notifications from a particular app.
+
+
 Removed the intrusive "Automatic Suspend" notifications. Critical notifications are still sent even when Do Not Disturb is active.
 
+We now do a better job making sure notification bubbles you've dismissed with a swipe or the close button don't end up in the Notifications indicator, and the number of missed notifications in the tooltip should be more accurate. Improved support for notifications that contain markup
 
 
+fixes for notification windows—including showing them in Multitasking View
 
 
+## Visual Improvements
 
-
-
-
-
-
-
+Plus you'll also notice that the Login &amp; Lock Screen now has subtly rounded corners that match the logged in session.
 
 ## And More
 
