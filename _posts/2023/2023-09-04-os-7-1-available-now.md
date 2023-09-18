@@ -17,28 +17,14 @@ Today we're proud to announce that OS 7.1 is available to download now and shipp
 
 With OS 7.1, we've focused in on:
 
-- Accessibility
-- Office Productivity
+- Accessibility & Inclusion
 - Settings & Personalization
-- Privacy & Security
-- Consent & Control
+- Privacy & Consent
+- Addressing Your Feedback
 
 To get elementary OS 7.1 now, head to [elementary.io] for the download—or read on for an overview of what's new.
 
 ---
-
-# Addressing Your Feedback
-
-One of the greatest advantages we have developing elementary OS in the open as compared to proprietary operating systems is the ability to gather your feedback and for developers to directly engage with you to solve issues and create new features. Combined with our monthly release cadence, the Feedback app creates a tight loop where you can start a report, see development happen transparently, and receive updates quickly. With the release of OS 7, we made sure that the Feedback app was accessible directly from the applications menu, launched instantly, and covered more system components. In OS 7.1, we've added search and we've now ported the app to GTK 4—the latest version of our app toolkit—for improved performance and smoothness. This should make it even speedier to send feedback when something unexpected happens.
-
-<figure markdown="1">
-![Feedback](/images/{{ page.slug }}/feedback.png){: width="570" height="621"}
-<figcaption markdown="1">
-The Feedback app now features search
-</figcaption>
-</figure>
-
-Since the release of OS 7 at the end of January, we've sent out free updates that address over 200 reports—that's one report addressed every day in addition to our regular planned work. Needless to say OS 7.1 is much smoother, faster, and more stable than its predecessor.
 
 
 
@@ -81,16 +67,85 @@ We've received feedback from folks with vision-related disabilities that a huge 
 
 
 
+# Settings &amp; Personalization
 
 
+The latest release of Desktop settings includes some new options for switching workspaces via hotcorners as well as a new feature to dim wallpapers in dark mode.
+
+You'll also notice that the setting for disabling animations has moved to the "Appearance" tab and has been renamed to "Reduce Motion". improved ability to optionally disable animations, several more animations now respect your preference to disable them
+
+The Dock &amp; Panel tab of Desktop settings also received a responsive redesign with added description labels for some settings. Additionally, checkboxes for extra indicators like the Accessibility indicator and the Capslock and Numlock indicators are now centrally located here.
+
+
+Updated Startup settings to show apps that use the Background &amp; Autostart Portal and we made quite a few changes to this view to bring it in line with modern design patterns and ensure that it was more responsive for large and small displays.
+
+We also updated Default apps settings and did quite a bit of code cleanup here. plus he improved screen reader names for several settings while here.
+
+Added search to the Permissions tab
+
+
+
+
+Additionally, we're now shipping a grayscale filter which can help avoid distractions or alleviate screen addiction and you can now make the display much warmer when using Night Light. You may also notice a small redesign of Night Light settings for responsiveness. Finally, there should be more accurate display resolution options available.
+
+
+
+Sound Settings got a bit of a redesign for improved responsiveness on small and large displays and you may notice some improved description labels.
+
+
+The Behavior tab of Keyboard settings got a major update with the additional of several new settings for things like Bounce, Slow, and Sticky keys. Slider values are now shown on drag instead of in a separate widget. Plus, app developers can now link directly to custom shortcuts settings.
+
+A couple of keyboard settings moved around, but were not removed! On-screen keyboard settings are now on the Behavior tab and panel indicator settings are now available in Desktop → Dock &amp; Panel.
+
+Progress dialog from being shown when installing input method engines, as well as adding multitouch gesture support for navigating backwards through the installation steps,
+
+and made sure the <kbd>PrintScreen</kbd> key can be used for keyboard shortcuts.
+
+"Cycle Windows of application" and "Cycle Windows of application backwards" shortcuts
+
+
+Finally, the Settings Daemon will now check for and notify of Firmware updates when they're available and we support Accent Colors on the Settings Portal.
+
+
+
+
+Login &amp; Lock Screen now does a better job matching your mouse, keyboard, and touchpad settings, including improved keyboard layout handling. Your chosen accent color is now used everywhere—not just on your login card—and it now handles solid color wallpapers. Your text size and font settings, pointer size settings, cursor blink settings, Night Light settings and more are all now respected as well. Plus, the ability to reveal the pointer is now available, the Screen Reader can be enabled with a keyboard shortcut, and it does a better job remembering your Screen Reader settings.
+
+
+## Panel
+
+The Network indicator received some much-needed design attention and now offers a vastly-improved experience for using VPNs. You'll notice that most options now appear as circular toggle buttons with icons instead of a list of switches. This new design both saves space on devices with complex network configurations and shows the status of your various connections much clearer, including intermediate and error states. In the case of VPNs, you can now also activate multiple connections at once. We've also added quick access to toggling Airplane Mode, including a middle-click action on the indicator icon. Plus, we're now using a feature of Network Manager to automatically get better device names so you'll rarely see long and cryptic device names any longer.
+
+As part of the aforementioned Bluetooth file transfer feature, you can see ongoing transfers in the Bluetooth indicator. Bluetooth devices will now use any custom device names you've set up before falling back to more generic device names.
+
+The Sound indicator was updated to use circle buttons and should no longer change size when skipping tracks. Muting should no longer affect monitor sources.
+
+The Power indicator now always uses hours as its largest unit, for example it will say "26 hours remaining" instead of "1 day remaining" and we improved the accuracy of battery level icons.
+
+Plus, we've updated icons in the Bluetooth, Network, Night Light, Notifications, and Sound indicators to be more consistently sized and with clearer disabled states. And, you can now close panel indicators with <kbd>Esc</kbd>.
+
+
+
+
+
+# Addressing Your Feedback
+
+One of the greatest advantages we have developing elementary OS in the open as compared to proprietary operating systems is the ability to gather your feedback and for developers to directly engage with you to solve issues and create new features. Combined with our monthly release cadence, the Feedback app creates a tight loop where you can start a report, see development happen transparently, and receive updates quickly. With the release of OS 7, we made sure that the Feedback app was accessible directly from the applications menu, launched instantly, and covered more system components. In OS 7.1, we've added search and we've now ported the app to GTK 4—the latest version of our app toolkit—for improved performance and smoothness. This should make it even speedier to send feedback when something unexpected happens.
+
+<figure markdown="1">
+![Feedback](/images/{{ page.slug }}/feedback.png){: width="570" height="621"}
+<figcaption markdown="1">
+The Feedback app now features search
+</figcaption>
+</figure>
+
+Since the release of OS 7 at the end of January, we've sent out free updates that address over 200 reports—that's one report addressed every day in addition to our regular planned work. Needless to say OS 7.1 is much smoother, faster, and more stable than its predecessor.
 
 
 
 
 
 ## Installer &amp; Initial Setup
-
-Some computers contain hardware devices that require additional, proprietary drivers to function properly. This previously made installing elementary OS difficult when wireless network drivers or video card drivers were unavailable. We now provide an option during installation to include these proprietary drivers so that your devices function properly.
 
 Navigation gestures
 
@@ -109,9 +164,7 @@ Onboarding now also handles providing information about the temporary Guest acco
 
 
 
-A fresh version of Onboarding has been released with several redesigned pages including a fancy dynamic icon featuring the release wallpaper on the Welcome page, some new icons, and bolder typography.
 
-StyleView: use actual background when available
 
 
 
@@ -211,15 +264,6 @@ For now you can expect improved playback position saving, a flatter app appearan
 
 The latest GNOME Web 44.6 has now been ported to GTK 4 and features much improved performance and web standards compatibility, plus a new saved passwords popover. With Firefox sync, web apps, and performance that matches major mainstream competitors, there's never been a better time to try this community-made web browser.
 
-## Calculator
-
-Calculator now follows keyboard shortcuts for copy and paste, even when the main text entry isn't focused, thanks to [Leo](https://github.com/lenemter)! It will no longer preserve extra white space on the right side of the window when used with alternative window button layouts. And Calculator will now always use the elementary stylesheet and icons, even when run on a different operating system, to prevent breakage related to missing assets.
-
-
-
-
-
-
 ## Code
 
 [Jeremy](https://github.com/jeremypw) has been working diligently on this release of Code which closes more than 20 reported issues and brings plenty of improvements to search. Code now does a better job handling file saving and preventing data loss when files can't be written to their original location. Some busy infobars are now dialogs, and we avoid showing too many aggressive warnings about file saving. And you can now optionally try to continue loading files that contain unknown characters or corrupted content.
@@ -230,65 +274,12 @@ In the sidebar, folders that don't contain text files can now be expanded proper
 
 The Vala symbols outline now correctly matches Code when the style changes after startup, and we fixed issues with styling when no documents are open. An issue that caused excessive reads and writes to settings has been fixed. Plus, you can now switch tabs with the keyboard shortcut <kbd>Ctrl</kbd> + <kbd>PageUp</kbd>/<kbd>PageDown</kbd> thanks to [Stan](https://github.com/stan-janssen)
 
-# System Settings
-
-
-The latest release of Desktop settings includes some new options for switching workspaces via hotcorners as well as a new feature to dim wallpapers in dark mode. You'll also notice that the setting for disabling animations has moved to the "Appearance" tab and has been renamed to "Reduce Motion".
-
-The Dock &amp; Panel tab of Desktop settings also received a responsive redesign with added description labels for some settings. Additionally, checkboxes for extra indicators like the Accessibility indicator and the Capslock and Numlock indicators are now centrally located here.
-
-
-Updated Startup settings to show apps that use the Background &amp; Autostart Portal and we made quite a few changes to this view to bring it in line with modern design patterns and ensure that it was more responsive for large and small displays.
-
-We also updated Default apps settings and did quite a bit of code cleanup here. plus he improved screen reader names for several settings while here.
-
-Added search to the Permissions tab
-
-
-
-
-Additionally, we're now shipping a grayscale filter which can help avoid distractions or alleviate screen addiction and you can now make the display much warmer when using Night Light. You may also notice a small redesign of Night Light settings for responsiveness. Finally, there should be more accurate display resolution options available.
-
-
-
-Sound Settings got a bit of a redesign for improved responsiveness on small and large displays and you may notice some improved description labels.
-
-
-The Behavior tab of Keyboard settings got a major update with the additional of several new settings for things like Bounce, Slow, and Sticky keys. Slider values are now shown on drag instead of in a separate widget. Plus, app developers can now link directly to custom shortcuts settings.
-
-A couple of keyboard settings moved around, but were not removed! On-screen keyboard settings are now on the Behavior tab and panel indicator settings are now available in Desktop → Dock &amp; Panel.
-
-Progress dialog from being shown when installing input method engines, as well as adding multitouch gesture support for navigating backwards through the installation steps,
-
-and made sure the <kbd>PrintScreen</kbd> key can be used for keyboard shortcuts.
-
-"Cycle Windows of application" and "Cycle Windows of application backwards" shortcuts
-
-
-Finally, the Settings Daemon will now check for and notify of Firmware updates when they're available and we support Accent Colors on the Settings Portal.
-
-
-
-
-Login &amp; Lock Screen now does a better job matching your mouse, keyboard, and touchpad settings, including improved keyboard layout handling. Your chosen accent color is now used everywhere—not just on your login card—and it now handles solid color wallpapers. Your text size and font settings, pointer size settings, cursor blink settings, Night Light settings and more are all now respected as well. Plus, the ability to reveal the pointer is now available, the Screen Reader can be enabled with a keyboard shortcut, and it does a better job remembering your Screen Reader settings.
 
 
 
 
 
 
-
-## Panel
-
-The Network indicator received some much-needed design attention and now offers a vastly-improved experience for using VPNs. You'll notice that most options now appear as circular toggle buttons with icons instead of a list of switches. This new design both saves space on devices with complex network configurations and shows the status of your various connections much clearer, including intermediate and error states. In the case of VPNs, you can now also activate multiple connections at once. We've also added quick access to toggling Airplane Mode, including a middle-click action on the indicator icon. Plus, we're now using a feature of Network Manager to automatically get better device names so you'll rarely see long and cryptic device names any longer.
-
-As part of the aforementioned Bluetooth file transfer feature, you can see ongoing transfers in the Bluetooth indicator. Bluetooth devices will now use any custom device names you've set up before falling back to more generic device names.
-
-The Sound indicator was updated to use circle buttons and should no longer change size when skipping tracks. Muting should no longer affect monitor sources.
-
-The Power indicator now always uses hours as its largest unit, for example it will say "26 hours remaining" instead of "1 day remaining" and we improved the accuracy of battery level icons.
-
-Plus, we've updated icons in the Bluetooth, Network, Night Light, Notifications, and Sound indicators to be more consistently sized and with clearer disabled states. And, you can now close panel indicators with <kbd>Esc</kbd>.
 
 ## Window Management
 
@@ -297,8 +288,6 @@ performance improvements
 smoother animations
 
 fixes for issues with shadows
-
-improved ability to optionally disable animations, several more animations now respect your preference to disable them
 
 better handling of keyboard shortcuts in Multitasking View
 
@@ -347,7 +336,13 @@ fixes for notification windows—including showing them in Multitasking View
 
 Plus you'll also notice that the Login &amp; Lock Screen now has subtly rounded corners that match the logged in session.
 
-## And More
+A fresh version of Onboarding has been released with several redesigned pages including a fancy dynamic icon featuring the release wallpaper on the Welcome page, some new icons, and bolder typography.
+
+StyleView: use actual background when available
+
+## Hardware Support
+
+Some computers contain hardware devices that require additional, proprietary drivers to function properly. This previously made installing elementary OS difficult when wireless network drivers or video card drivers were unavailable. We now provide an option during installation to include these proprietary drivers so that your devices function properly.
 
 Linux 6.2, Ubuntu HWE
 
