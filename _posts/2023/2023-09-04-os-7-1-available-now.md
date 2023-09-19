@@ -46,7 +46,7 @@ Just like in AppCenter, our goal with Sideload is to keep you informed and in co
 
 Housekeeping is a feature designed to free up storage and protect your privacy by automatically deleting old files. You can now choose to automatically clean up the Trash, Downloads, Screenshots, and temporary operating system files on a schedule of your choosing.
 
-# Personalization Settings for Accessibility &amp; Inclusion
+# Inclusive Personalization
 
 When we think about settings and personalization in elementary OS, we tend to avoid settings that would pass off design or engineering decisions and instead focus on providing settings that make the operating system more accessible and inclusive for a wider range of people. We use this guiding philosophy to decide which new settings to add without creating an overwhelming or confusing number of customization options. This release, like every release, comes with a number of new features and settings that we hope make it possible for more people to enjoy using an Open Source operating system.
 
@@ -54,48 +54,17 @@ We've received feedback from folks with vision-related disabilities that a huge 
 
 1 in 12 men experience color perception deficiency (aka color blindness) from birth and some folks will develop color deficiency as they age—but those we spoke to about accommodations reported that color deficiency assistance tools are often ineffective or unavailable and the lack of awareness and education around color deficiency means that many don't seek assistance at all. This can affect daily tasks when trying to understand parts of their computer's interface, but it also comes up when playing games and can make it difficult to work and play collaboratively. We introduced a set of 5 display filters, designed to assist folks with Protanopia, Deuteranopia, and Tritanopia with some additional high contrast options and plenty of assistive text to help folks without a formal color deficiency diagnosis.
 
-Additionally, we're now shipping a grayscale filter which can help avoid distractions or alleviate screen addiction and you can now make the display much warmer when using Night Light.
-
-For folks who suffer from motion sickness or simply prefer fewer animations, the "Reduce Motion" setting in Desktop → Appearance now covers several more window manager and shell animations.
-
-The Login &amp; Lock Screen now does a better job matching your mouse, keyboard, and touchpad settings, including improved keyboard layout handling. Your chosen accent color is now used everywhere—not just on your login card—and it now handles solid color wallpapers. Your text size and font settings, pointer size settings, cursor blink settings, Night Light settings and more are all now respected as well. Plus, the ability to reveal the pointer is now available, the Screen Reader can be enabled with a keyboard shortcut, and it does a better job remembering your Screen Reader settings.
+Additionally, we're now shipping a grayscale filter which can help avoid distractions or alleviate screen addiction and you can now make the display much warmer when using Night Light. For folks who suffer from motion sickness or simply prefer fewer animations, the "Reduce Motion" setting in Desktop → Appearance now covers several more window manager and shell animations. And we've added a new option in Desktop → Wallpaper to dim the wallpaper when the Dark Style is selected.
 
 Navigating via keyboard is important for a wide range of folks whether that's due to disability or personal preference and this release comes with a number of improvements in this area. For managing app windows, you can now use the keyboard shortcut <kbd>Alt</kbd> + <kbd>~</kbd> for switching between windows of the same app, and you can now navigate with the arrow keys while holding down <kbd>Alt</kbd> + <kbd>Tab</kbd>. In the Multitasking View, a number of previously unavailable shortcuts are now available including Pointer location, Screenshots, and Zoom, in additional to regular workspace switching shortcuts. When customizing keyboard shortcuts, we now do a better job handling special keys and single-key shortcuts like the <kbd>PrintScreen</kbd> key. And, you can now close panel indicators with <kbd>Esc</kbd>.
 
 We also completely revamped the Behavior page of System Settings → Keyboard. It now includes several new settings for things like Bounce, Slow, and Sticky keys with descriptions of their effects, and slider values are now shown on drag instead of in a separate widget. This work was the final piece of our project to integrate previously tucked-away accessibility settings throughout System Settings, improving their discoverability and normalizing the use of accomodations for everyone.
 
+The Login &amp; Lock Screen now does a better job matching your mouse, keyboard, and touchpad settings, including improved keyboard layout handling. Your chosen accent color is now used everywhere—not just on your login card—and it now handles solid color wallpapers. Your text size and font settings, pointer size settings, cursor blink settings, Night Light settings and more are all now respected as well. Plus, the ability to reveal the pointer is now available, the Screen Reader can be enabled with a keyboard shortcut, and it does a better job remembering your Screen Reader settings.
 
-
-Navigation gestures in installer
-
-accidentally closing windows when using three-finger multi-touch gestures.
-
-fixes that prevent misclicks and accidentally triggering actions in window manager
-
-
-
-
-
-
-
-
-The latest release of Desktop settings includes some new options for switching workspaces via hotcorners
-
-as well as a new feature to dim wallpapers in dark mode.
+We know that Multitouch gestures and navigation are really important to folks running elementary OS on devices with touch screens and multitouch trackpads so we've continued to improve support for navigating via gestures in places like the Installer and in multi-step dialogs.
 
 Additionally, checkboxes for extra indicators like the Accessibility indicator and the Capslock and Numlock indicators are now centrally located in Desktop → Dock &amp; Panel.
-
-We also updated Default apps settings and did quite a bit of code cleanup here. plus improved screen reader names for several settings while here.
-
-Added search to the Permissions tab
-
-Plus, app developers can now link directly to custom shortcuts settings.
-
-Progress dialog from being shown when installing input method engines, as well as adding multitouch gesture support for navigating backwards through the installation steps,
-
-
-
-
 
 # Addressing Your Feedback
 
@@ -120,7 +89,7 @@ Onboarding now also handles providing information about the temporary Guest acco
 
 ## AppCenter
 
-AppCenter received a new Flatpak Repair feature which fixes an issue where some Flatpak runtimes could not be installed.
+AppCenter received a new Flatpak Repair feature which fixes an issue where some Flatpak runtimes could not be installed. Plus, we no longer split out apps from alt stores into a separate header in category views. Plus the updates page now shows a small message when everything is up-to-date, including the last time that AppCenter checked for updates.
 
 ## Mail
 
@@ -176,17 +145,13 @@ Critical notifications—like low battery warnings—will now still be sent even
 
 ## Design Improvements
 
+Onboarding features several redesigned pages with some new icons and bolder typography. Plus we now use the release wallpaper in a dynamically generated icon on the Welcome page and previews in the Style view use the currently set wallpaper.
+
 Plus you'll also notice that the Login &amp; Lock Screen now has subtly rounded corners that match the logged in session.
 
-A fresh version of Onboarding has been released with several redesigned pages including a fancy dynamic icon featuring the release wallpaper on the Welcome page, some new icons, and bolder typography. StyleView: use actual background when available
+Several pages in System Settings have been redesigned for improved responsiveness on large and small displays, including Applications → Defaults and Applications → Startup, Desktop → Dock &amp; Panel, Displays → Night Light, Keyboard → Behavior, and Sound. And in several of these views we improved description text for more complicated settings.
 
-Updated Startup settings to bring it in line with modern design patterns and ensure that it was more responsive for large and small displays. You may also notice a small redesign of Night Light settings for responsiveness. Sound Settings got a bit of a redesign for improved responsiveness on small and large displays and you may notice some improved description labels.
-
-The Dock &amp; Panel tab of Desktop settings also received a responsive redesign with added description labels for some settings.
-
-AppInfo views have also been reworked to tighten up spacing and improve alignment. Special attention was put into making sure the most important information appears "above the fold", especially on smaller displays like in some laptops. Plus, we no longer split out apps from alt stores into a separate header in category views. Plus the updates page now shows a small message when everything is up-to-date, including the last time that AppCenter checked for updates. Updates view uses grid for installed apps
-
-Add shadow to wallpaper clones while switching workspace
+Our responsive work also continued in AppCenter, where App Info views were reworked to tighten up spacing and improve alignment. Special attention was put into making sure the most important information appears "above the fold", especially on smaller displays like in some laptops. And the Installed &amp; Updates view now uses a grid layout for installed apps, making better use of space on large displays.
 
 ## Panel
 
@@ -194,7 +159,7 @@ The Network indicator received some much-needed design attention and now offers 
 
 The Sound indicator was updated to use circle buttons and should no longer change size when skipping tracks. Muting should no longer affect monitor sources.
 
-Bluetooth devices will now use any custom device names you've set up before falling back to more generic device names.
+Bluetooth devices in the indicator will now use any custom device names you've set up before falling back to more generic device names.
 
 The Power indicator now always uses hours as its largest unit, for example it will say "26 hours remaining" instead of "1 day remaining" and we improved the accuracy of battery level icons.
 
@@ -208,7 +173,7 @@ Some computers contain hardware devices that require additional, proprietary dri
 
 We also now automatically check for and notify of updates to device Firmware when they're available.
 
-Finally, there should be more accurate display resolution options available.
+Finally, there should be more accurate display resolution options available in System Settings → Displays.
 
 ---
 
@@ -242,3 +207,13 @@ If you’re already on elementary OS 7, you’ll get the update to OS 7.1 alongs
 Stuff I don't know where it goes:
 
 Our Portals—things like the app chooser and access dialogs—have now been ported to GTK 4!
+
+accidentally closing windows when using three-finger multi-touch gestures.
+
+fixes that prevent misclicks and accidentally triggering actions in window manager
+
+The latest release of Desktop settings includes some new options for switching workspaces via hotcorners
+
+Plus improved screen reader names for several settings while here.
+
+Added search to the Permissions tab
