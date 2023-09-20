@@ -7,6 +7,8 @@ image: /images/os-7-1-available-now/card.png
 tags:
   - horus
   - updates
+
+hidden: 2023-10-31 17:00:00 UTC # 9 AM PST
 ---
 
 Today, we're proud to announce that OS 7.1 is available to download now and shipping soon on several high-quality computers. This release represents the sum of our work over the last several months as a single major update to the OS 7 series and includes [all of the monthly OS updates][updates] we've detailed since the OS 7 release.
@@ -262,7 +264,7 @@ Plus, arrow shapes have been improved for many action icons across all apps and 
 elementary OS 7.1 is available as a pay-what-you-can purchase at [elementary.io] today. Localized direct downloads and a torrent magnet link are provided.
 
 <div style="text-align: center" markdown="1">
-[OS 7.1 FAQ](https://github.com/elementary/os/wiki/elementary-OS-7.1-FAQ){: .button.flat }
+[OS 7.1 FAQ](https://github.com/elementary/os/wiki/OS-7.1-FAQ){: .button.flat }
 [Download elementary OS 7.1][elementary.io]{: .button.suggested }
 </div>
 
