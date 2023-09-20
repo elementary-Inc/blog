@@ -11,8 +11,8 @@ tags:
 
 Today, we're proud to announce that OS 7.1 is available to download now and shipping soon on several high-quality computers. This release represents the sum of our work over the last several months as a single major update to the OS 7 series and includes [all of the monthly OS updates][updates] we've detailed since the OS 7 release.
 
-<figure class="card" markdown="1">
-![elementary OS 7.1](/images/{{ page.slug }}/hero.png)
+<figure class="full-bleed" markdown="1">
+![elementary OS 7.1](/images/{{ page.slug }}/desktop-onboarding.png)
 </figure>
 
 With OS 7.1, we've focused in on:
@@ -31,7 +31,21 @@ One of the most prevalent problems we face in our current digital lives is the v
 
 One of the ways that apps may become intrusive is by automatically starting themselves or running in the background without your permission. In OS 7.1, we now provide the Background &amp; Autostart Portal which alerts you when apps are running in the background and makes sure that apps ask your permission before they can automatically start up when you turn on your device.
 
+<figure markdown="1">
+![System Settings → Applications → Startup](/images/{{ page.slug }}/settings-autostart.png){: width="" height=""}
+<figcaption markdown="1">
+Autostarting apps can now be controlled in System Settings → Applications → Startup
+</figcaption>
+</figure>
+
 Calendar, Mail, and Tasks now all use the Background & Autostart portal, and their autostart behavior can be controlled along with other apps in System Settings → Applications → Startup. Calendar and Mail have also been updated to use the File Chooser Portal—the Portal responsible for making sure apps can’t access data without your permission—for things like selecting attachments or importing and exporting calendar files.
+
+<figure markdown="1">
+![The Location Portal](/images/{{ page.slug }}/portal-location.png){: width="" height=""}
+<figcaption markdown="1">
+The Location Portal ensures apps ask before they can get your location
+</figcaption>
+</figure>
 
 We've now also migrated Location Services from the old Agents system to Portals. This is a more secure method for apps to request access to your location, is the latest FreeDesktop.org standard for doing so, and improves our cross-platform app compatibility. You can adjust location settings in System Settings → Security &amp; Privacy → Location Services. If the main switch here is turned off, apps and system services will not even be allowed to ask for permission to see your location.
 
@@ -46,11 +60,25 @@ As we work towards our continual goal of better supporting alternative app store
 
 For certain types of administrative apps, having advanced system permissions makes sense, but our goal is to keep you informed and ensure that apps are always operating with your consent.
 
+<figure markdown="1">
+![Sideload](/images/{{ page.slug }}/sideload-firefox.png){: width="" height=""}
+<figcaption markdown="1">
+Sideload now quickly checks if apps request advanced system permissions
+</figcaption>
+</figure>
+
 Our goal with Sideload is to keep you informed and in control when installing apps provided outside of AppCenter. We also want to make sure to balance that with the existing trust relationship you may have with the apps you love. So we've made some changes to how apps are presented in Sideload and instead of assuming that a sideloaded app is untrusted, we simply ask for you to validate your trust. Additionally, we now show some basic information about the kinds of broad system permissions that a sideloaded app may request. This isn't as fine-grained as what is presented in AppCenter, but it offers quick validation for apps that are more likely to be safe and puts the emphasis on Sideload as a utility to verify your consent, not to gatekeep your choices.
 
 ## Housekeeping &amp; Temporary Accounts
 
 Housekeeping is a feature designed to free up storage and protect your privacy by automatically deleting old files. In OS 7, you could choose to automatically clean up the Trash, Downloads, and temporary operating system files on a schedule of your choosing. In OS 7.1, we’ve added Screenshots to that list. You’ll first be introduced to Housekeeping in the Onboarding app, but you can adjust your Housekeeping settings at any time in System Settings → Security &amp; Privacy → Housekeeping.
+
+<figure markdown="1">
+![Housekeeping in Onboarding](/images/{{ page.slug }}/onboarding-housekeeping.png){: width="" height=""}
+<figcaption markdown="1">
+Housekeeping can clean up old Downloads, Screenshots, Trash, and other temporary files
+</figcaption>
+</figure>
 
 The Guest account is a special account that provides a temporary space for folks who don’t normally use your device to access your computer without using your personal account. And, all settings and data in this account are reset as soon as they log out. In OS 7.1, Onboarding now handles providing information about how this account works, making its function and limitations much more clear.
 
@@ -61,6 +89,13 @@ When we think about settings and personalization in elementary OS, we tend to av
 We've received feedback from folks with vision-related disabilities that a huge barrier for them when considering an Open Source operating system is that they often need help to get it installed. Now, when you boot into the install media for elementary OS, we automatically play an audio prompt letting you know the keyboard shortcut for turning on the screen reader. And the same audio prompt is available during Initial Setup, so whether you're buying a computer pre-installed with elementary OS or installing it on your existing computer, you can choose an Open Source operating system and remain independent.
 
 From birth, 1 in 12 men experience color perception deficiency (aka color blindness) and some folks will develop color deficiency through illness or aging—but those we spoke to about accommodations reported that color deficiency assistance tools are often ineffective or unavailable and the lack of awareness and education around color deficiency means that many don't seek assistance at all. This can affect daily tasks when trying to understand parts of their computer's interface, but it also comes up when playing games and can make it difficult to work and play collaboratively. We introduced a set of 5 display filters, designed to assist folks with Protanopia, Deuteranopia, and Tritanopia with some additional high contrast options and plenty of assistive text to help folks without a formal color deficiency diagnosis. These filters alter the colors of the entire display to assist you in differentiating between colors where you may be experiencing color deficiency. The feedback we’ve received from testers has been very positive, so if you’ve used these kinds of filters in the past on other operating systems with lackluster results we encourage you to give these a try.
+
+<figure markdown="1">
+![System Settings → Displays → Filters](/images/{{ page.slug }}/settings-filters.png){: width="" height=""}
+<figcaption markdown="1">
+
+</figcaption>
+</figure>
 
 Additionally, we're now shipping a grayscale filter which can help avoid distractions or alleviate screen addiction. You can now make the display much warmer when using Night Light and we've added a new option in Desktop → Wallpaper to dim the wallpaper when the Dark Style is selected—a couple things that can help alleviate headache and eye strain. For folks who suffer from motion sickness or simply prefer fewer animations, the "Reduce Motion" setting in Desktop → Appearance now covers several more window manager and shell animations.
 
@@ -82,11 +117,25 @@ In OS 7, many of the personalization settings and accommodations you may have se
 
 One of the greatest advantages we have developing elementary OS in the open as compared to proprietary operating systems is the ability to gather your feedback and for developers to directly engage with you to solve issues and create new features. Combined with our monthly release cadence, the Feedback app creates a tight loop where you can start a report, see development happen transparently, and receive updates quickly. With the release of OS 7, we made sure that the Feedback app was accessible directly from the applications menu, launched instantly, and covered more system components. In OS 7.1, we've added search and we've now ported the app to GTK 4—the latest version of our app toolkit—for improved performance and smoothness. This should make it even speedier to send feedback when something unexpected happens.
 
+<figure markdown="1">
+![Feedback](/images/{{ page.slug }}/feedback.png){: width="" height=""}
+<figcaption markdown="1">
+
+</figcaption>
+</figure>
+
 Since the release of OS 7 at the end of January, we've sent out free updates that address over 200 reports—that's one report addressed every day in addition to our regular planned work. Needless to say OS 7.1 is much smoother, faster, and more stable than its predecessor thanks to your feedback. We’ve also made several design changes and added new features to address concerns that you’ve expressed and to better fit how you’ve told us that you use our operating system.
 
 ## AppCenter &amp; Alt Stores
 
 With Flatpak, you have access to an incredibly wide selection of apps and a growing number of alternative app stores. Unlike on mainstream proprietary operating systems, installing apps via Sideload and accessing alternative app stores are important features of elementary OS. We’ve consistently heard from folks that sideloading and alt stores are core parts of their experience when using our operating system. So, in the Onboarding app, when we're introducing people to AppCenter—the pay-what-you-can app store with apps made specifically for elementary OS—we also now much more prominently introduce them to Sideload and even feature a link to the most popular Flatpak-powered app store: Flathub. And in AppCenter, we no longer split out apps from alt stores into a separate header in category views.
+
+<figure markdown="1">
+![Apps in Onboarding](/images/{{ page.slug }}/onboarding-apps.png){: width="" height=""}
+<figcaption markdown="1">
+Onboarding introduces people to both AppCenter and Sideload
+</figcaption>
+</figure>
 
 One of the challenges we face is gracefully recovering and providing useful options when things go wrong. In OS 7, a failure when installing certain kinds of Flatpak updates could only be resolved by jumping into a Terminal; In OS 7.1, we have a handy Flatpak Repair feature that can fix most issues with these kinds of failures.
 
@@ -100,7 +149,16 @@ We also now automatically check for and notify of updates to device Firmware whe
 
 ## Web
 
-OS 7 shipped with GNOME Web 43, the latest version available at the time. Thanks to Flatpak, we’ve been able to stay up to date with the latest releases of Web and OS 7.1 is shipping with version 44.6 which brings substantial improvements to performance and web standards compatibility, plus a new saved passwords popover. With Firefox sync, web apps, intelligent tracking prevention that is actually intended to protect your privacy, built-in popup blocking, and performance that now matches major mainstream competitors, there's never been a better time to use this community-made web browser.
+OS 7 shipped with GNOME Web 43, the latest version available at the time. Thanks to Flatpak, we’ve been able to stay up to date with the latest releases of Web and OS 7.1 is shipping with version 44.6 which brings substantial improvements to performance and web standards compatibility, plus a new saved passwords popover.
+
+<figure markdown="1">
+![GNOME Web](/images/{{ page.slug }}/web-welcome.png){: width="" height=""}
+<figcaption markdown="1">
+Web is faster and more capable with features like Firefox sync and intelligent tracking prevention
+</figcaption>
+</figure>
+
+With Firefox sync, web apps, intelligent tracking prevention that is actually intended to protect your privacy, built-in popup blocking, and performance that now matches major mainstream competitors, there's never been a better time to use this community-made web browser.
 
 ## Mail
 
@@ -120,9 +178,30 @@ Mail also does a better job handling changes in your internet connection, and if
 
 In the Files app, we're always striving to strike a balance between providing advanced file management features and avoiding clutter and confusion. Folder context menus had begun to reach a point where they were being stretched a bit too far, so we introduced a new app menu in the headerbar to provide app-wide controls and settings and improve the discoverability of some features that were previously only accessible by keyboard shortcut like Zoom and Undo/Redo. The new Zoom controls make it easier to set a comfortable icon size and expose keyboard shortcuts in their tooltips. The Undo and Redo buttons include tooltips showing what operation will be performed before you click them as well as their keyboard shortcuts. The description text for the Double-click setting has been made more clear based on your feedback, and we've consolidated settings for which things will be shown in the view such as Hidden Files and Thumbnails.
 
+<figure markdown="1">
+![Files](/images/{{ page.slug }}/files-menu.png){: width="" height=""}
+<figcaption markdown="1">
+
+</figcaption>
+</figure>
+
 We've also introduced Bulk Rename. With this feature, you can select multiple files, secondary-click, and select "Rename…" to get an advanced bulk renaming dialog. This is an especially useful feature if you're working with a large collection of photos or spreadsheets or other kinds of files that you may want to rename by creation date or using another sequence or when you have to format a large number of files the same way. You can add automatically generated prefixes or suffixes to file names, as well as keeping, completely replacing, or partially replacing parts of the original file name. You'll see a preview of how files will be renamed as well as an indication of when file names would conflict or not be changed.
 
+<figure markdown="1">
+![Bulk Rename](/images/{{ page.slug }}/files-rename.png){: width="" height=""}
+<figcaption markdown="1">
+
+</figcaption>
+</figure>
+
 Plus, you can now share files with other devices via Bluetooth. A new Bluetooth transfer dialog is available by secondary-clicking a file or selection of files and selecting "Send Files via Bluetooth" from the context menu. You can see ongoing transfers in the Bluetooth indicator.
+
+<figure markdown="1">
+![Bluetooth Sharing](/images/{{ page.slug }}/files-bluetooth.png){: width="" height=""}
+<figcaption markdown="1">
+
+</figcaption>
+</figure>
 
 Lastly, the tab bar features improved animations, smoother drag-and-drop, and reorganized tab context menus, bringing it more in line with Web. The storage level bar in Properties dialogs will now change color depending on how full a drive is. And we've rewritten the way color tags are stored so that they are better preserved when restoring from the Trash.
 
