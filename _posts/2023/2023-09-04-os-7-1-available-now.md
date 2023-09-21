@@ -170,9 +170,30 @@ In the sidebar, you'll notice that special folders like "Archive" and "Spam" are
 
 In the conversation list, you can now use a multi-touch swipe or click-and-drag left or right to quickly archive or trash a conversation. You might also appreciate some subtle design tweaks like placing the conversation list filter next to the search bar or how headers now appear to float over scrolled content.
 
+<figure markdown="1">
+![Mail](/images/{{ page.slug }}/mail-move.png){: width="" height=""}
+<figcaption markdown="1">
+
+</figcaption>
+</figure>
+
 In the messages list, there's a new "Move conversation" menu that includes search, and you'll notice that archiving and moving messages can now be undone. And a handy infobar is shown when a message includes a calendar invite.
 
+<figure markdown="1">
+![Mail](/images/{{ page.slug }}/mail-compose.png){: width="" height=""}
+<figcaption markdown="1">
+
+</figcaption>
+</figure>
+
 When composing a message, you can now add images inline and you can include attachments in forwarded messages. Plus we've added support for multiple custom signatures. You can create as many signatures as you'd like and assign them as the defaults for accounts as needed. The new "Insert signature…" menu makes it easy to swap between any of your saved signatures when composing. And the composer now always opens in a separate, non-modal window making it much easier to reference a message you're replying to or manage multiple drafts at the same time. It also features quite a few more keyboard shortcuts for text formatting, adding attachments, etc.
+
+<figure markdown="1">
+![Mail](/images/{{ page.slug }}/mail-signatures.png){: width="" height=""}
+<figcaption markdown="1">
+
+</figcaption>
+</figure>
 
 Mail also does a better job handling changes in your internet connection, and if you like to start Mail manually, it will wait until the first time you've started it to check for new messages in the background.
 
@@ -229,6 +250,13 @@ Music can now accept Drag and Drop of whole folders—in addition to individual 
 
 The Notifications indicator is where you can catch up with missed notifications and it supports all the same ways you're used to interacting with notifications like tapping a notification to launch the app that sent it and multi-touch swipe left or right to dismiss. Now, missed notifications can also have buttons and apps can replace old outdated notifications with newer up-to-date ones instead of adding more and more notifications to the stack.
 
+<figure class="full-bleed" markdown="1">
+![Notifications Indicator](/images/{{ page.slug }}/indicator-notifications.png){: width="" height=""}
+<figcaption markdown="1">
+
+</figcaption>
+</figure>
+
 Sometimes we have apps that send a lot of notifications that are important but drown out other apps, so now you can select the spinning triangle icon to collapse all the notifications from a particular app.
 
 Critical notifications—like low battery warnings—will now still be sent even when Do Not Disturb is active and notifications are now shown even when in the Multitasking View. Plus, we've improved support for notifications that include markup—like bold and italics—and we removed the intrusive "Automatic Suspend" notifications that would sometimes prevent your device from sleeping.
@@ -237,9 +265,23 @@ Critical notifications—like low battery warnings—will now still be sent even
 
 The Network indicator received some much-needed design attention and now offers a vastly-improved experience for using VPNs. You'll notice that most options now appear as circular toggle buttons with icons instead of a list of switches. This new design both saves space on devices with complex network configurations and shows the status of your various connections much clearer, including intermediate and error states. In the case of VPNs, you can now also activate multiple connections at once. We've also added quick access to toggling Airplane Mode, including a middle-click action on the indicator icon. Plus, we're now using a feature of Network Manager to automatically get better device names so you'll rarely see long and cryptic device names any longer.
 
+<figure class="card" markdown="1">
+![Network Indicator](/images/{{ page.slug }}/indicator-network.png){: width="" height=""}
+<figcaption markdown="1">
+
+</figcaption>
+</figure>
+
 We’ve also improved the way Bluetooth devices are listed in the panel: they will now use any custom device names you've set up before falling back to more generic device names.
 
 The Sound indicator was updated to use circle buttons and should no longer change size when skipping tracks. Muting should no longer affect monitor sources.
+
+<figure class="card" markdown="1">
+![Sound Indicator](/images/{{ page.slug }}/indicator-sound.png){: width="" height=""}
+<figcaption markdown="1">
+
+</figcaption>
+</figure>
 
 The Power indicator now always uses hours as its largest unit, for example it will say "26 hours remaining" instead of "1 day remaining" and we improved the accuracy of battery level icons.
 
