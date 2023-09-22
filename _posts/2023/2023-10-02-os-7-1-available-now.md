@@ -8,7 +8,7 @@ tags:
   - horus
   - updates
 
-hidden: 2023-10-31 17:00:00 UTC # 9 AM PST
+hidden: 2023-10-02 17:00:00 UTC # 9 AM PST
 ---
 
 Today, we're proud to announce that OS 7.1 is available to download now and shipping soon on several high-quality computers. This release represents the sum of our work over the last several months as a single major update to the OS 7 series and includes [all of the monthly OS updates][updates] we've detailed since the OS 7 release.
