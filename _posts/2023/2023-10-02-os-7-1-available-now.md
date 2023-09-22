@@ -109,14 +109,13 @@ We've introduced 5 new display filters to assist folks with color perception def
 
 From birth, 1 in 12 men experience color perception deficiency (aka color blindness) and some folks will develop color deficiency through illness or aging—but those we spoke to about accommodations reported that color deficiency assistance tools are often ineffective or unavailable and the lack of awareness and education around color deficiency means that many don't seek assistance at all. This can affect daily tasks when trying to understand parts of their computer's interface, but it also comes up when playing games and can make it difficult to work and play collaboratively. We introduced a set of 5 display filters, designed to assist folks with Protanopia, Deuteranopia, and Tritanopia with some additional high contrast options and plenty of assistive text to help folks without a formal color deficiency diagnosis. These filters alter the colors of the entire display to assist you in differentiating between colors where you may be experiencing color deficiency. The feedback we’ve received from testers has been very positive, so if you’ve used these kinds of filters in the past on other operating systems with lackluster results we encourage you to give these a try.
 
-<figure class="card quarter" markdown="1">
+<figure class="card third" markdown="1">
 ![Default colors](/images/{{ page.slug }}/color-default.png){: width="1920" height="1080"}
 ![Protanopia Filter](/images/{{ page.slug }}/color-protanopia.png){: width="1920" height="1080"}
 ![Protanopia High Contrast Filter](/images/{{ page.slug }}/color-protanopia-hc.png){: width="1920" height="1080"}
 ![Deuteranopia Filter](/images/{{ page.slug }}/color-deuteranopia.png){: width="1920" height="1080"}
 ![Deuteranopia Hight Contrast Filter](/images/{{ page.slug }}/color-deuteranopia-hc.png){: width="1920" height="1080"}
 ![Tritanopia Filter](/images/{{ page.slug }}/color-tritanopia.png){: width="1920" height="1080"}
-![Grayscale Filter](/images/{{ page.slug }}/color-grayscale.png){: width="1920" height="1080"}
 <figcaption>A number of new display filters are available to assist with color deficiency</figcaption>
 </figure>
 
