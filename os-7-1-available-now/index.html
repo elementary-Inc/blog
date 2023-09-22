@@ -40,7 +40,7 @@
   <meta itemprop="description" content="Made with care, with you in mind" />
   <meta name="twitter:description" content="Made with care, with you in mind" />
 
-  <link rel="stylesheet" type="text/css" media="all" href="/css/main.css?v=2023-09-22 13:41:52 -0500" />
+  <link rel="stylesheet" type="text/css" media="all" href="/css/main.css?v=2023-09-22 14:03:59 -0500" />
   
     <script async defer data-domain="blog.elementary.io" src="https://stats.elementary.io/js/index.js"></script>
     <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
@@ -220,7 +220,7 @@
   <section>
     <p>Today, we’re proud to announce that OS 7.1 is available to download now and shipping soon on several high-quality computers. This release represents the sum of our work over the last several months as a single major update to the OS 7 series and includes <a href="/tags/#updates">all of the monthly OS updates</a> we’ve detailed since the OS 7 release.</p>
 
-<figure class="full-bleed">
+<figure class="card">
   <p><img src="/images/os-7-1-available-now/desktop-onboarding.png" alt="elementary OS 7.1" /></p>
 </figure>
 
@@ -264,7 +264,7 @@
 
 <p>As we work towards our continual goal of better supporting alternative app stores, one of the challenges is ensuring that you remain safe while using apps from stores with differing security and privacy policies. In elementary OS, the supported app packaging format is Flatpak which gives us several tools to that end, including the ability to report back to you when apps have advanced access that could leave you vulnerable.</p>
 
-<figure class="card quarter">
+<figure class="half">
   <p><img src="/images/os-7-1-available-now/appcenter-autostart.png" alt="Autostart warning in AppCenter" width="974" height="704" />
 <img src="/images/os-7-1-available-now/appcenter-files.png" alt="File access warning in AppCenter" width="974" height="704" />
 <img src="/images/os-7-1-available-now/appcenter-sandbox.png" alt="Sandbox break warning in AppCenter" width="974" height="704" />
@@ -319,6 +319,17 @@
 </figure>
 
 <p>From birth, 1 in 12 men experience color perception deficiency (aka color blindness) and some folks will develop color deficiency through illness or aging—but those we spoke to about accommodations reported that color deficiency assistance tools are often ineffective or unavailable and the lack of awareness and education around color deficiency means that many don’t seek assistance at all. This can affect daily tasks when trying to understand parts of their computer’s interface, but it also comes up when playing games and can make it difficult to work and play collaboratively. We introduced a set of 5 display filters, designed to assist folks with Protanopia, Deuteranopia, and Tritanopia with some additional high contrast options and plenty of assistive text to help folks without a formal color deficiency diagnosis. These filters alter the colors of the entire display to assist you in differentiating between colors where you may be experiencing color deficiency. The feedback we’ve received from testers has been very positive, so if you’ve used these kinds of filters in the past on other operating systems with lackluster results we encourage you to give these a try.</p>
+
+<figure class="card quarter">
+  <p><img src="/images/os-7-1-available-now/color-default.png" alt="Default colors" width="1920" height="1080" />
+<img src="/images/os-7-1-available-now/color-protanopia.png" alt="Protanopia Filter" width="1920" height="1080" />
+<img src="/images/os-7-1-available-now/color-protanopia-hc.png" alt="Protanopia High Contrast Filter" width="1920" height="1080" />
+<img src="/images/os-7-1-available-now/color-deuteranopia.png" alt="Deuteranopia Filter" width="1920" height="1080" />
+<img src="/images/os-7-1-available-now/color-deuteranopia-hc.png" alt="Deuteranopia Hight Contrast Filter" width="1920" height="1080" />
+<img src="/images/os-7-1-available-now/color-tritanopia.png" alt="Tritanopia Filter" width="1920" height="1080" />
+<img src="/images/os-7-1-available-now/color-grayscale.png" alt="Grayscale Filter" width="1920" height="1080" /></p>
+  <figcaption>A number of new display filters are available to assist with color deficiency</figcaption>
+</figure>
 
 <p>Additionally, we’re now shipping a grayscale filter which can help avoid distractions or alleviate screen addiction. You can now make the display much warmer when using Night Light and we’ve added a new option in Desktop → Wallpaper to dim the wallpaper when the Dark Style is selected—a couple things that can help alleviate headache and eye strain. For folks who suffer from motion sickness or simply prefer fewer animations, the “Reduce Motion” setting in Desktop → Appearance now covers several more window manager and shell animations.</p>
 
@@ -456,7 +467,7 @@
 <p>Search options are now all available from a new menu, there’s now a “match whole words” option, and your search settings are now saved between sessions. The search entry also provides visual feedback when no results are found. We do a better job deciding which string to search if you have both a selection and text in the search entry, and make sure that the “Replace” and “Replace All” buttons are enabled and disabled more accurately.</p>
 
 <figure>
-  <p><img src="/images/os-7-1-available-now/code-search.png" alt="Search in Code" width="457" height="307" /></p>
+  <p><img src="/images/os-7-1-available-now/code-search.png" alt="Search in Code" /></p>
   <figcaption>
     <p>Search options have been reworked and expanded in Code</p>
   </figcaption>
@@ -481,8 +492,8 @@
 
 <p>The Notifications indicator is where you can catch up with missed notifications and it supports all the same ways you’re used to interacting with notifications like tapping a notification to launch the app that sent it and multi-touch swipe left or right to dismiss. Now, missed notifications can also have buttons and apps can replace old outdated notifications with newer up-to-date ones instead of adding more and more notifications to the stack.</p>
 
-<figure class="full-bleed">
-  <p><img src="/images/os-7-1-available-now/indicator-notifications.png" alt="Notifications Indicator" /></p>
+<figure class="card">
+  <p><img src="/images/os-7-1-available-now/indicator-notifications.png" alt="Notifications Indicator" width="723" height="610" /></p>
   <figcaption>
     <p>Notifications in the indicator can be replaced with updated ones or have buttons and app sections can be collapsed</p>
   </figcaption>
@@ -524,7 +535,7 @@
 
 <p>Several pages in System Settings have been redesigned for improved responsiveness on large and small displays, including Applications → Defaults and Applications → Startup, Desktop → Dock &amp; Panel, Displays → Night Light, Keyboard → Behavior, and Sound. And in several of these views we improved description text for more complicated settings.</p>
 
-<figure class="card">
+<figure>
   <p><img src="/images/os-7-1-available-now/appcenter-updates.png" alt="Installed apps in AppCenter" width="974" height="704" /></p>
   <figcaption>
     <p>AppCenter’s Installed &amp; Updates view makes better use of space on large displays</p>
@@ -533,11 +544,10 @@
 
 <p>Our responsive work also continued in AppCenter, where App Info views were reworked to tighten up spacing and improve alignment. Special attention was put into making sure the most important information appears “above the fold”, especially on smaller displays like in some laptops. And the Installed &amp; Updates view now uses a grid layout for installed apps, making better use of space on large displays.</p>
 
-<figure class="card quarter">
+<figure class="third">
   <p><img src="/images/os-7-1-available-now/onboarding-welcome.png" alt="Welcome in Onboarding" width="485" height="443" />
 <img src="/images/os-7-1-available-now/onboarding-style.png" alt="Style in Onboarding" width="485" height="443" />
-<img src="/images/os-7-1-available-now/onboarding-nightlight.png" alt="Nightlight in Onboarding" width="485" height="443" />
-<img src="/images/os-7-1-available-now/onboarding-updates.png" alt="Automatic Updates in Onboarding" width="485" height="443" /></p>
+<img src="/images/os-7-1-available-now/onboarding-nightlight.png" alt="Nightlight in Onboarding" width="485" height="443" /></p>
   <figcaption>Onboarding features bolder typography and some new icons</figcaption>
 </figure>
 
