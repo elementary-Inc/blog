@@ -244,11 +244,14 @@ Code now does a better job handling file saving and preventing data loss when fi
 
 Search options are now all available from a new menu, there's now a "match whole words" option, and your search settings are now saved between sessions. The search entry also provides visual feedback when no results are found. We do a better job deciding which string to search if you have both a selection and text in the search entry, and make sure that the "Replace" and "Replace All" buttons are enabled and disabled more accurately.
 
-In the sidebar, folders that don't contain text files can now be expanded properly, and Code does a better job making sure sidebar focus updates correctly when tabs are closed.
+<figure markdown="1">
+![Search in Code](/images/{{ page.slug }}/code-search.png){: width="457" height="307"}
+<figcaption markdown="1">
+Search options have been reworked and expanded in Code
+</figcaption>
+</figure>
 
-The tab width menu has been reworked quite a bit to more accurately prioritize between your global defaults, per document settings, and editorconfig file.
-
-Plus, you can now switch tabs with the keyboard shortcut <kbd>Ctrl</kbd> + <kbd>PageUp</kbd>/<kbd>PageDown</kbd>.
+The tab width menu has been reworked quite a bit to more accurately prioritize between your global defaults, per document settings, and editorconfig file. Plus, you can now switch tabs with the keyboard shortcut <kbd>Ctrl</kbd> + <kbd>PageUp</kbd>/<kbd>PageDown</kbd>.
 
 ## Music &amp; Videos
 
