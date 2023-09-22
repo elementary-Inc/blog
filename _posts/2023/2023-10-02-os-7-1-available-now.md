@@ -13,7 +13,7 @@ hidden: 2023-10-02 17:00:00 UTC # 9 AM PST
 
 Today, we're proud to announce that OS 7.1 is available to download now and shipping soon on several high-quality computers. This release represents the sum of our work over the last several months as a single major update to the OS 7 series and includes [all of the monthly OS updates][updates] we've detailed since the OS 7 release.
 
-<figure class="full-bleed" markdown="1">
+<figure class="card" markdown="1">
 ![elementary OS 7.1](/images/{{ page.slug }}/desktop-onboarding.png)
 </figure>
 
@@ -55,7 +55,7 @@ We've now also migrated Location Services from the old Agents system to Portals.
 
 As we work towards our continual goal of better supporting alternative app stores, one of the challenges is ensuring that you remain safe while using apps from stores with differing security and privacy policies. In elementary OS, the supported app packaging format is Flatpak which gives us several tools to that end, including the ability to report back to you when apps have advanced access that could leave you vulnerable.
 
-<figure class="card quarter" markdown="1">
+<figure class="half" markdown="1">
 ![Autostart warning in AppCenter](/images/{{ page.slug }}/appcenter-autostart.png){: width="974" height="704"}
 ![File access warning in AppCenter](/images/{{ page.slug }}/appcenter-files.png){: width="974" height="704"}
 ![Sandbox break warning in AppCenter](/images/{{ page.slug }}/appcenter-sandbox.png){: width="974" height="704"}
@@ -108,6 +108,17 @@ We've introduced 5 new display filters to assist folks with color perception def
 </figure>
 
 From birth, 1 in 12 men experience color perception deficiency (aka color blindness) and some folks will develop color deficiency through illness or aging—but those we spoke to about accommodations reported that color deficiency assistance tools are often ineffective or unavailable and the lack of awareness and education around color deficiency means that many don't seek assistance at all. This can affect daily tasks when trying to understand parts of their computer's interface, but it also comes up when playing games and can make it difficult to work and play collaboratively. We introduced a set of 5 display filters, designed to assist folks with Protanopia, Deuteranopia, and Tritanopia with some additional high contrast options and plenty of assistive text to help folks without a formal color deficiency diagnosis. These filters alter the colors of the entire display to assist you in differentiating between colors where you may be experiencing color deficiency. The feedback we’ve received from testers has been very positive, so if you’ve used these kinds of filters in the past on other operating systems with lackluster results we encourage you to give these a try.
+
+<figure class="card quarter" markdown="1">
+![Default colors](/images/{{ page.slug }}/color-default.png){: width="1920" height="1080"}
+![Protanopia Filter](/images/{{ page.slug }}/color-protanopia.png){: width="1920" height="1080"}
+![Protanopia High Contrast Filter](/images/{{ page.slug }}/color-protanopia-hc.png){: width="1920" height="1080"}
+![Deuteranopia Filter](/images/{{ page.slug }}/color-deuteranopia.png){: width="1920" height="1080"}
+![Deuteranopia Hight Contrast Filter](/images/{{ page.slug }}/color-deuteranopia-hc.png){: width="1920" height="1080"}
+![Tritanopia Filter](/images/{{ page.slug }}/color-tritanopia.png){: width="1920" height="1080"}
+![Grayscale Filter](/images/{{ page.slug }}/color-grayscale.png){: width="1920" height="1080"}
+<figcaption>A number of new display filters are available to assist with color deficiency</figcaption>
+</figure>
 
 Additionally, we're now shipping a grayscale filter which can help avoid distractions or alleviate screen addiction. You can now make the display much warmer when using Night Light and we've added a new option in Desktop → Wallpaper to dim the wallpaper when the Dark Style is selected—a couple things that can help alleviate headache and eye strain. For folks who suffer from motion sickness or simply prefer fewer animations, the "Reduce Motion" setting in Desktop → Appearance now covers several more window manager and shell animations.
 
@@ -245,7 +256,7 @@ Code now does a better job handling file saving and preventing data loss when fi
 Search options are now all available from a new menu, there's now a "match whole words" option, and your search settings are now saved between sessions. The search entry also provides visual feedback when no results are found. We do a better job deciding which string to search if you have both a selection and text in the search entry, and make sure that the "Replace" and "Replace All" buttons are enabled and disabled more accurately.
 
 <figure markdown="1">
-![Search in Code](/images/{{ page.slug }}/code-search.png){: width="457" height="307"}
+![Search in Code](/images/{{ page.slug }}/code-search.png)
 <figcaption markdown="1">
 Search options have been reworked and expanded in Code
 </figcaption>
@@ -270,8 +281,8 @@ Music can now accept Drag and Drop of whole folders—in addition to individual 
 
 The Notifications indicator is where you can catch up with missed notifications and it supports all the same ways you're used to interacting with notifications like tapping a notification to launch the app that sent it and multi-touch swipe left or right to dismiss. Now, missed notifications can also have buttons and apps can replace old outdated notifications with newer up-to-date ones instead of adding more and more notifications to the stack.
 
-<figure class="full-bleed" markdown="1">
-![Notifications Indicator](/images/{{ page.slug }}/indicator-notifications.png)
+<figure class="card" markdown="1">
+![Notifications Indicator](/images/{{ page.slug }}/indicator-notifications.png){: width="723" height="610"}
 <figcaption markdown="1">
 Notifications in the indicator can be replaced with updated ones or have buttons and app sections can be collapsed
 </figcaption>
@@ -313,7 +324,7 @@ In OS 7 we began the process of improving the design of our apps and operating s
 
 Several pages in System Settings have been redesigned for improved responsiveness on large and small displays, including Applications → Defaults and Applications → Startup, Desktop → Dock &amp; Panel, Displays → Night Light, Keyboard → Behavior, and Sound. And in several of these views we improved description text for more complicated settings.
 
-<figure class="card" markdown="1">
+<figure markdown="1">
 ![Installed apps in AppCenter](/images/{{ page.slug }}/appcenter-updates.png){: width="974" height="704"}
 <figcaption markdown="1">
 AppCenter's Installed &amp; Updates view makes better use of space on large displays
@@ -322,11 +333,10 @@ AppCenter's Installed &amp; Updates view makes better use of space on large disp
 
 Our responsive work also continued in AppCenter, where App Info views were reworked to tighten up spacing and improve alignment. Special attention was put into making sure the most important information appears "above the fold", especially on smaller displays like in some laptops. And the Installed &amp; Updates view now uses a grid layout for installed apps, making better use of space on large displays.
 
-<figure class="card quarter" markdown="1">
+<figure class="third" markdown="1">
 ![Welcome in Onboarding](/images/{{ page.slug }}/onboarding-welcome.png){: width="485" height="443"}
 ![Style in Onboarding](/images/{{ page.slug }}/onboarding-style.png){: width="485" height="443"}
 ![Nightlight in Onboarding](/images/{{ page.slug }}/onboarding-nightlight.png){: width="485" height="443"}
-![Automatic Updates in Onboarding](/images/{{ page.slug }}/onboarding-updates.png){: width="485" height="443"}
 <figcaption>Onboarding features bolder typography and some new icons</figcaption>
 </figure>
 
