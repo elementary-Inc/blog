@@ -129,6 +129,13 @@ We know that Multitouch gestures and navigation are really important to folks ru
 
 Navigating via keyboard is important for a wide range of folks whether that's due to disability or personal preference and this release comes with a number of improvements in this area. For managing app windows, you can now use the keyboard shortcut <kbd>Alt</kbd> + <kbd>~</kbd> for switching between windows of the same app, and you can now navigate with the arrow keys while holding down <kbd>Alt</kbd> + <kbd>Tab</kbd>. In the Multitasking View, a number of previously unavailable shortcuts are now available including Pointer location, Screenshots, and Zoom, in addition to regular workspace switching shortcuts. When customizing keyboard shortcuts, we now do a better job handling special keys and single-key shortcuts like the <kbd>PrintScreen</kbd> key. And, you can now close panel indicators with <kbd>Esc</kbd>.
 
+<figure markdown="1">
+![System Settings → Keyboard → Behavior](/images/{{ page.slug }}/settings-keyboard.png){: width="990" height="686"}
+<figcaption markdown="1">
+System Settings → Keyboard → Behavior now includes several new settings
+</figcaption>
+</figure>
+
 We also completely revamped the Behavior page of System Settings → Keyboard. It now includes several new settings for things like Bounce, Slow, and Sticky keys with descriptions of their effects, and slider values are now shown on drag instead of in a separate widget. This work was the final piece of [our project to integrate previously tucked-away accessibility settings](https://blog.elementary.io/accessibility-features-are-just-features/) throughout System Settings, improving their discoverability and normalizing the use of accommodations for everyone.
 
 ## Login &amp; Lock Screen
