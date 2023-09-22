@@ -53,7 +53,17 @@ We've now also migrated Location Services from the old Agents system to Portals.
 
 ## AppCenter &amp; Sideload
 
-As we work towards our continual goal of better supporting alternative app stores, one of the challenges is ensuring that you remain safe while using apps from stores with differing security and privacy policies. In elementary OS, the supported app packaging format is Flatpak which gives us several tools to that end, including the ability to report back to you when apps have advanced access that could leave you vulnerable. In OS 7.1, AppCenter will now inform you if an app can can:
+As we work towards our continual goal of better supporting alternative app stores, one of the challenges is ensuring that you remain safe while using apps from stores with differing security and privacy policies. In elementary OS, the supported app packaging format is Flatpak which gives us several tools to that end, including the ability to report back to you when apps have advanced access that could leave you vulnerable.
+
+<figure class="card quarter" markdown="1">
+![Autostart warning in AppCenter](/images/{{ page.slug }}/appcenter-autostart.png){: width="" height=""}
+![File access warning in AppCenter](/images/{{ page.slug }}/appcenter-files.png){: width="" height=""}
+![Sandbox break warning in AppCenter](/images/{{ page.slug }}/appcenter-sandbox.png){: width="" height=""}
+![Settings access warning in AppCenter](/images/{{ page.slug }}/appcenter-settings.png){: width="" height=""}
+<figcaption>AppCenter shows more information about app permissions</figcaption>
+</figure>
+
+In OS 7.1, AppCenter will now inform you if an app can can:
 
 - Read your location, send notifications, or automatically start and run in the background without asking first
 - Access system folders or your home folder
@@ -90,14 +100,14 @@ When we think about settings and personalization in elementary OS, we tend to av
 
 We've received feedback from folks with vision-related disabilities that a huge barrier for them when considering an Open Source operating system is that they often need help to get it installed. Now, when you boot into the install media for elementary OS, we automatically play an audio prompt letting you know the keyboard shortcut for turning on the screen reader. And the same audio prompt is available during Initial Setup, so whether you're buying a computer pre-installed with elementary OS or installing it on your existing computer, you can choose an Open Source operating system and remain independent.
 
-From birth, 1 in 12 men experience color perception deficiency (aka color blindness) and some folks will develop color deficiency through illness or aging—but those we spoke to about accommodations reported that color deficiency assistance tools are often ineffective or unavailable and the lack of awareness and education around color deficiency means that many don't seek assistance at all. This can affect daily tasks when trying to understand parts of their computer's interface, but it also comes up when playing games and can make it difficult to work and play collaboratively. We introduced a set of 5 display filters, designed to assist folks with Protanopia, Deuteranopia, and Tritanopia with some additional high contrast options and plenty of assistive text to help folks without a formal color deficiency diagnosis. These filters alter the colors of the entire display to assist you in differentiating between colors where you may be experiencing color deficiency. The feedback we’ve received from testers has been very positive, so if you’ve used these kinds of filters in the past on other operating systems with lackluster results we encourage you to give these a try.
-
 <figure markdown="1">
 ![System Settings → Displays → Filters](/images/{{ page.slug }}/settings-filters.png){: width="" height=""}
 <figcaption markdown="1">
-
+We've introduced 5 new display filters to assist folks with color perception deficiency
 </figcaption>
 </figure>
+
+From birth, 1 in 12 men experience color perception deficiency (aka color blindness) and some folks will develop color deficiency through illness or aging—but those we spoke to about accommodations reported that color deficiency assistance tools are often ineffective or unavailable and the lack of awareness and education around color deficiency means that many don't seek assistance at all. This can affect daily tasks when trying to understand parts of their computer's interface, but it also comes up when playing games and can make it difficult to work and play collaboratively. We introduced a set of 5 display filters, designed to assist folks with Protanopia, Deuteranopia, and Tritanopia with some additional high contrast options and plenty of assistive text to help folks without a formal color deficiency diagnosis. These filters alter the colors of the entire display to assist you in differentiating between colors where you may be experiencing color deficiency. The feedback we’ve received from testers has been very positive, so if you’ve used these kinds of filters in the past on other operating systems with lackluster results we encourage you to give these a try.
 
 Additionally, we're now shipping a grayscale filter which can help avoid distractions or alleviate screen addiction. You can now make the display much warmer when using Night Light and we've added a new option in Desktop → Wallpaper to dim the wallpaper when the Dark Style is selected—a couple things that can help alleviate headache and eye strain. For folks who suffer from motion sickness or simply prefer fewer animations, the "Reduce Motion" setting in Desktop → Appearance now covers several more window manager and shell animations.
 
@@ -122,7 +132,7 @@ One of the greatest advantages we have developing elementary OS in the open as c
 <figure markdown="1">
 ![Feedback](/images/{{ page.slug }}/feedback.png){: width="" height=""}
 <figcaption markdown="1">
-
+The Feedback app is the fastest way to send your feedback directly to our developers
 </figcaption>
 </figure>
 
@@ -135,7 +145,7 @@ With Flatpak, you have access to an incredibly wide selection of apps and a grow
 <figure markdown="1">
 ![Apps in Onboarding](/images/{{ page.slug }}/onboarding-apps.png){: width="" height=""}
 <figcaption markdown="1">
-Onboarding introduces people to both AppCenter and Sideload
+Onboarding introduces people to both AppCenter and Sideload equally
 </figcaption>
 </figure>
 
@@ -173,7 +183,7 @@ In the conversation list, you can now use a multi-touch swipe or click-and-drag 
 <figure markdown="1">
 ![Mail](/images/{{ page.slug }}/mail-move.png){: width="" height=""}
 <figcaption markdown="1">
-
+The new "Move Conversation" menu with search
 </figcaption>
 </figure>
 
@@ -182,7 +192,7 @@ In the messages list, there's a new "Move conversation" menu that includes searc
 <figure markdown="1">
 ![Mail](/images/{{ page.slug }}/mail-compose.png){: width="" height=""}
 <figcaption markdown="1">
-
+The composer now supports inline attachments and signatures
 </figcaption>
 </figure>
 
@@ -191,7 +201,7 @@ When composing a message, you can now add images inline and you can include atta
 <figure markdown="1">
 ![Mail](/images/{{ page.slug }}/mail-signatures.png){: width="" height=""}
 <figcaption markdown="1">
-
+You can set up as many signatures as you like and set per-account defaults
 </figcaption>
 </figure>
 
@@ -204,7 +214,7 @@ In the Files app, we're always striving to strike a balance between providing ad
 <figure markdown="1">
 ![Files](/images/{{ page.slug }}/files-menu.png){: width="" height=""}
 <figcaption markdown="1">
-
+The new app menu in Files exposes more functionality like zoom and undo/redo
 </figcaption>
 </figure>
 
@@ -213,7 +223,7 @@ We've also introduced Bulk Rename. With this feature, you can select multiple fi
 <figure markdown="1">
 ![Bulk Rename](/images/{{ page.slug }}/files-rename.png){: width="" height=""}
 <figcaption markdown="1">
-
+You can now quickly rename multiple files at once
 </figcaption>
 </figure>
 
@@ -222,7 +232,7 @@ Plus, you can now share files with other devices via Bluetooth. A new Bluetooth 
 <figure markdown="1">
 ![Bluetooth Sharing](/images/{{ page.slug }}/files-bluetooth.png){: width="" height=""}
 <figcaption markdown="1">
-
+Share files to other devices over Bluetooth
 </figcaption>
 </figure>
 
@@ -244,6 +254,13 @@ Plus, you can now switch tabs with the keyboard shortcut <kbd>Ctrl</kbd> + <kbd>
 
 Videos has undergone a large rewrite of its internals which has made it more reliable and performant. Expect a flatter app appearance in the welcome screen and library, improved playback position saving, smoother navigation, and in-app notifications when adding items to the playlist.
 
+<figure markdown="1">
+![Videos](/images/{{ page.slug }}/videos.png){: width="" height=""}
+<figcaption markdown="1">
+Videos is now a bit flatter
+</figcaption>
+</figure>
+
 Music can now accept Drag and Drop of whole folders—in addition to individual files or selections of files—and you can secondary click on a folder in Files and open it with Music.
 
 ## Notifications
@@ -253,7 +270,7 @@ The Notifications indicator is where you can catch up with missed notifications 
 <figure class="full-bleed" markdown="1">
 ![Notifications Indicator](/images/{{ page.slug }}/indicator-notifications.png){: width="" height=""}
 <figcaption markdown="1">
-
+Notifications in the indicator can be replaced with updated ones or have buttons and app sections can be collapsed
 </figcaption>
 </figure>
 
@@ -268,7 +285,7 @@ The Network indicator received some much-needed design attention and now offers 
 <figure class="card" markdown="1">
 ![Network Indicator](/images/{{ page.slug }}/indicator-network.png){: width="" height=""}
 <figcaption markdown="1">
-
+Complex network configurations are handled more gracefully and VPN support has been entirely reworked
 </figcaption>
 </figure>
 
@@ -279,7 +296,7 @@ The Sound indicator was updated to use circle buttons and should no longer chang
 <figure class="card" markdown="1">
 ![Sound Indicator](/images/{{ page.slug }}/indicator-sound.png){: width="" height=""}
 <figcaption markdown="1">
-
+The Sound indicator now uses circular buttons
 </figcaption>
 </figure>
 
@@ -287,13 +304,28 @@ The Power indicator now always uses hours as its largest unit, for example it wi
 
 Plus, we've updated icons in the Bluetooth, Network, Night Light, Notifications, and Sound indicators to be more consistently sized and with clearer disabled states.
 
-## Design Improvements
+## Other Design Improvements
 
 In OS 7 we began the process of improving the design of our apps and operating system to be used on a wide range of displays from small laptops and tablets to large desktops, and when tiling apps side by side. We’ve continued that work into OS 7.1 in a couple of notable places. 
 
 Several pages in System Settings have been redesigned for improved responsiveness on large and small displays, including Applications → Defaults and Applications → Startup, Desktop → Dock &amp; Panel, Displays → Night Light, Keyboard → Behavior, and Sound. And in several of these views we improved description text for more complicated settings.
 
+<figure class="card" markdown="1">
+![Installed apps in AppCenter](/images/{{ page.slug }}/appcenter-updates.png){: width="" height=""}
+<figcaption markdown="1">
+AppCenter's Installed &amp; Updates view makes better use of space on large displays
+</figcaption>
+</figure>
+
 Our responsive work also continued in AppCenter, where App Info views were reworked to tighten up spacing and improve alignment. Special attention was put into making sure the most important information appears "above the fold", especially on smaller displays like in some laptops. And the Installed &amp; Updates view now uses a grid layout for installed apps, making better use of space on large displays.
+
+<figure class="card quarter" markdown="1">
+![Welcome in Onboarding](/images/{{ page.slug }}/onboarding-welcome.png){: width="" height=""}
+![Style in Onboarding](/images/{{ page.slug }}/onboarding-style.png){: width="" height=""}
+![Nightlight in Onboarding](/images/{{ page.slug }}/onboarding-nightlight.png){: width="" height=""}
+![Automatic Updates in Onboarding](/images/{{ page.slug }}/onboarding-updates.png){: width="" height=""}
+<figcaption>Onboarding features bolder typography and some new icons</figcaption>
+</figure>
 
 Onboarding also features several redesigned pages with some new icons and bolder typography. We now use the release wallpaper in a dynamically generated icon on the Welcome page, and previews in the Style view use the currently set wallpaper.
 
