@@ -1,0 +1,1414 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>elementary OS 7.1 Available Now &sdot; elementary Blog</title>
+  <meta property="og:title" content="elementary OS 7.1 Available Now" />
+  <meta itemprop="name" content="elementary OS 7.1 Available Now" />
+  <meta name="twitter:title" content="elementary OS 7.1 Available Now" />
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="icon" sizes="256x256" href="https://www.gravatar.com/avatar/eaa3cc978770998ea2bd4382935bf0f4?s=256&d=blank" />
+  <meta itemprop="logo" content="https://www.gravatar.com/avatar/eaa3cc978770998ea2bd4382935bf0f4?s=256&d=blank" />
+  <link rel="shortcut icon" href="https://elementary.io/favicon.ico">
+  <link rel="apple-touch-icon" href="https://elementary.io/images/launcher-icons/apple-touch-icon.png">
+
+  
+    <meta name="robots" content="noindex,nofollow" />
+  
+
+  <link rel="alternate" type="application/rss+xml" title="elementary Blog" href="https://blog.elementary.io/feed.xml" />
+
+  <meta name="author" content="" />
+  <meta name="theme-color" content="#64baff" />
+  <meta name="color-scheme" content="light dark" />
+
+  
+    
+    
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:image" content="https://blog.elementary.io/images/os-7-1-available-now/card.png" />
+  
+  <meta name="twitter:site" content="@elementary" />
+  <meta name="twitter:creator" content="@elementary" />
+
+  <meta name="description" content="Made with care, with you in mind" />
+  <meta property="og:description" content="Made with care, with you in mind" />
+  <meta itemprop="description" content="Made with care, with you in mind" />
+  <meta name="twitter:description" content="Made with care, with you in mind" />
+
+  <link rel="stylesheet" type="text/css" media="all" href="/css/main.css?v=2023-09-22 13:41:52 -0500" />
+  
+    <script async defer data-domain="blog.elementary.io" src="https://stats.elementary.io/js/index.js"></script>
+    <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+  
+</head>
+
+  <body class="">
+    <header>
+  <nav class="primary">
+    <ul>
+      <li><a href="https://elementary.io" class="logomark" target="_self">
+        <svg xmlns="http://www.w3.org/2000/svg" height="22" width="22"><path d="M11 0C4.926 0 0 4.926 0 11s4.926 11 11 11 11-4.926 11-11S17.074 0 11 0zm-.02 1.049h.002a.07.07 0 0 0 .018 0c4.548 0 8.384 3.052 9.57 7.217a17.315 17.315 0 0 1-4.213 5.496c-.847.733-1.773 1.383-2.79 1.842-1.018.458-2.136.719-3.247.656a5.6 5.6 0 0 1-2.271-.633 18.276 18.276 0 0 0 5.078-4.12c.956-1.116 1.791-2.39 2.115-3.833.165-.722.19-1.48.04-2.207a4.079 4.079 0 0 0-.999-1.965 4.013 4.013 0 0 0-1.855-1.098 4.85 4.85 0 0 0-2.153-.078c-1.423.261-2.693 1.086-3.705 2.108-1.787 1.8-2.89 4.34-2.687 6.875.102 1.267.524 2.511 1.252 3.554.143.205.302.398.467.584a16.228 16.228 0 0 1-3.086.739A9.946 9.946 0 0 1 10.98 1.049zm.07 2.02c.004-.001.016.002.012.001.692 0 1.387.211 1.936.627a3.2 3.2 0 0 1 1.068 1.49 4.12 4.12 0 0 1 .192 1.848c-.143 1.243-.77 2.388-1.533 3.393-1.354 1.778-3.156 3.203-5.159 4.2-.19.095-.386.187-.582.274a5.114 5.114 0 0 1-1.05-1.295c-.59-1.044-.784-2.284-.67-3.482.116-1.199.526-2.356 1.082-3.43.643-1.244 1.516-2.418 2.732-3.09a4.14 4.14 0 0 1 1.973-.537zm9.83 6.81c.042.367.071.739.071 1.117 0 5.497-4.452 9.953-9.95 9.953a9.917 9.917 0 0 1-7.59-3.53 18.138 18.138 0 0 0 3.17-1.06c.461.346.967.634 1.507.84 1.59.61 3.392.52 4.996-.035 1.603-.555 3.021-1.549 4.256-2.705a18.264 18.264 0 0 0 3.54-4.58z"/></svg>
+      </a></li>
+
+      <li><a href="https://elementary.io/support" target="_self">Support</a></li>
+      <li><a href="https://developer.elementary.io" target="_self">Developer</a><</li>
+      <li><a href="https://elementary.io/get-involved" target="_self">Get Involved</a></li>
+      <li><a href="https://store.elementary.io" target="_self">Store</a></li>
+      <li><a href="/">Blog</a></li>
+    </ul>
+
+    <ul>
+      <li><a href="/feed.xml" title="RSS Feed">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M400 32H48C21.49 32 0 53.49 0 80v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V80c0-26.51-21.49-48-48-48zM112 416c-26.51 0-48-21.49-48-48s21.49-48 48-48 48 21.49 48 48-21.49 48-48 48zm157.533 0h-34.335c-6.011 0-11.051-4.636-11.442-10.634-5.214-80.05-69.243-143.92-149.123-149.123-5.997-.39-10.633-5.431-10.633-11.441v-34.335c0-6.535 5.468-11.777 11.994-11.425 110.546 5.974 198.997 94.536 204.964 204.964.352 6.526-4.89 11.994-11.425 11.994zm103.027 0h-34.334c-6.161 0-11.175-4.882-11.427-11.038-5.598-136.535-115.204-246.161-251.76-251.76C68.882 152.949 64 147.935 64 141.774V107.44c0-6.454 5.338-11.664 11.787-11.432 167.83 6.025 302.21 141.191 308.205 308.205.232 6.449-4.978 11.787-11.432 11.787z"/></svg>
+      </a></li>
+
+      <li><a href="https://youtube.com/user/elementaryproject" target="_blank" rel="noopener" title="Youtube">
+        <svg fill="#ffffff" xmlns="http://www.w3.org/2000/svg"  viewBox="0 6 46 40" height="550px"><path d="M44.9,14.5c-0.4-2.2-2.3-3.8-4.5-4.3C37.1,9.5,31,9,24.4,9c-6.6,0-12.8,0.5-16.1,1.2c-2.2,0.5-4.1,2-4.5,4.3C3.4,17,3,20.5,3,25s0.4,8,0.9,10.5c0.4,2.2,2.3,3.8,4.5,4.3c3.5,0.7,9.5,1.2,16.1,1.2s12.6-0.5,16.1-1.2c2.2-0.5,4.1-2,4.5-4.3c0.4-2.5,0.9-6.1,1-10.5C45.9,20.5,45.4,17,44.9,14.5z M19,32V18l12.2,7L19,32z"/></svg>
+      </a></li>
+
+      <li><a href="https://mastodon.social/@elementary" target="_blank" rel="noopener" title="Mastodon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M433 179.11c0-97.2-63.71-125.7-63.71-125.7-62.52-28.7-228.56-28.4-290.48 0 0 0-63.72 28.5-63.72 125.7 0 115.7-6.6 259.4 105.63 289.1 40.51 10.7 75.32 13 103.33 11.4 50.81-2.8 79.32-18.1 79.32-18.1l-1.7-36.9s-36.31 11.4-77.12 10.1c-40.41-1.4-83-4.4-89.63-54a102.54 102.54 0 0 1-.9-13.9c85.63 20.9 158.65 9.1 178.75 6.7 56.12-6.7 105-41.3 111.23-72.9 9.8-49.8 9-121.5 9-121.5zm-75.12 125.2h-46.63v-114.2c0-49.7-64-51.6-64 6.9v62.5h-46.33V197c0-58.5-64-56.6-64-6.9v114.2H90.19c0-122.1-5.2-147.9 18.41-175 25.9-28.9 79.82-30.8 103.83 6.1l11.6 19.5 11.6-19.5c24.11-37.1 78.12-34.8 103.83-6.1 23.71 27.3 18.4 53 18.4 175z"/></svg>
+      </a></li>
+
+      <li><a href="https://www.reddit.com/r/elementaryos" target="_blank" rel="noopener" title="Reddit">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M201.5 305.5c-13.8 0-24.9-11.1-24.9-24.6 0-13.8 11.1-24.9 24.9-24.9 13.6 0 24.6 11.1 24.6 24.9 0 13.6-11.1 24.6-24.6 24.6zM504 256c0 137-111 248-248 248S8 393 8 256 119 8 256 8s248 111 248 248zm-132.3-41.2c-9.4 0-17.7 3.9-23.8 10-22.4-15.5-52.6-25.5-86.1-26.6l17.4-78.3 55.4 12.5c0 13.6 11.1 24.6 24.6 24.6 13.8 0 24.9-11.3 24.9-24.9s-11.1-24.9-24.9-24.9c-9.7 0-18 5.8-22.1 13.8l-61.2-13.6c-3-.8-6.1 1.4-6.9 4.4l-19.1 86.4c-33.2 1.4-63.1 11.3-85.5 26.8-6.1-6.4-14.7-10.2-24.1-10.2-34.9 0-46.3 46.9-14.4 62.8-1.1 5-1.7 10.2-1.7 15.5 0 52.6 59.2 95.2 132 95.2 73.1 0 132.3-42.6 132.3-95.2 0-5.3-.6-10.8-1.9-15.8 31.3-16 19.8-62.5-14.9-62.5zM302.8 331c-18.2 18.2-76.1 17.9-93.6 0-2.2-2.2-6.1-2.2-8.3 0-2.5 2.5-2.5 6.4 0 8.6 22.8 22.8 87.3 22.8 110.2 0 2.5-2.2 2.5-6.1 0-8.6-2.2-2.2-6.1-2.2-8.3 0zm7.7-75c-13.6 0-24.6 11.1-24.6 24.9 0 13.6 11.1 24.6 24.6 24.6 13.8 0 24.9-11.1 24.9-24.6 0-13.8-11-24.9-24.9-24.9z"/></svg>
+      </a></li>
+
+      <li><a href="https://twitter.com/elementary" target="_blank" rel="noopener" title="Twitter">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+      </a></li>
+
+      <li><a href="https://join.slack.com/t/elementarycommunity/shared_invite/enQtMzU1NDU4OTE1MjY2LWUyOTBkZGNkZGM4MDgzZjE2ZjRiZDgwMDQ1ZTA0MzcxYjI0MDUyNGRlNDI5ZWViNDkwMzMwYzczMDY2ZjA0MTc" target="_blank" rel="noopener" title="Slack">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M94.12 315.1c0 25.9-21.16 47.06-47.06 47.06S0 341 0 315.1c0-25.9 21.16-47.06 47.06-47.06h47.06v47.06zm23.72 0c0-25.9 21.16-47.06 47.06-47.06s47.06 21.16 47.06 47.06v117.84c0 25.9-21.16 47.06-47.06 47.06s-47.06-21.16-47.06-47.06V315.1zm47.06-188.98c-25.9 0-47.06-21.16-47.06-47.06S139 32 164.9 32s47.06 21.16 47.06 47.06v47.06H164.9zm0 23.72c25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06H47.06C21.16 243.96 0 222.8 0 196.9s21.16-47.06 47.06-47.06H164.9zm188.98 47.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06h-47.06V196.9zm-23.72 0c0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06V79.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06V196.9zM283.1 385.88c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06v-47.06h47.06zm0-23.72c-25.9 0-47.06-21.16-47.06-47.06 0-25.9 21.16-47.06 47.06-47.06h117.84c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06H283.1z"/></svg>
+      </a></li>
+    </ul>
+  </nav>
+  <nav class="secondary">
+    <div>
+      <a href="/tags/#updates">OS Updates</a>
+      <a href="/tags/#appcenter">AppCenter</a>
+      <a href="/tags/#devs">Developers</a>
+      <a href="/tags/#design">Design</a>
+    </div>
+
+    <div id="search-container" class="hidden">
+      <svg height='16' width='16' xmlns='http://www.w3.org/2000/svg'>
+    <g color='#000' transform='translate(-613 11)'>
+        
+        <path d='M619.5-10c-3.026 0-5.5 2.474-5.5 5.5s2.474 5.5 5.5 5.5a5.46 5.46 0 0 0 3.112-.975l3.681 3.682a1 1 0 1 0 1.414-1.414l-3.681-3.682A5.46 5.46 0 0 0 625-4.5c0-3.026-2.474-5.5-5.5-5.5zm0 1.25a4.25 4.25 0 0 1 4.25 4.25 4.25 4.25 0 0 1-4.25 4.25 4.25 4.25 0 0 1-4.25-4.25 4.25 4.25 0 0 1 4.25-4.25z' fill='#666' font-family='sans-serif' font-weight='400' overflow='visible' style='line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;shape-padding:0;isolation:auto;mix-blend-mode:normal' white-space='normal'/>
+    </g>
+</svg>
+
+      <input type="text" id="search-input" placeholder="Search Posts…">
+      <ul id="results-container"></ul>
+    </div>
+
+    <script src="/scripts/search.js"></script>
+
+    <script>
+      document.getElementById('search-container').classList.remove("hidden")
+
+      SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        searchResultTemplate: `<li>
+          <a href="{url}">
+            <div class="featured-image" alt="Featured image" style="background-image: url({image});"></div>
+            <span id="title">{title}</span>
+            <span id="description">{description}</span>
+          </a>
+        </li>`,
+        resultsContainer: document.getElementById('results-container'),
+        noResultsText: ("No Result Found"),
+        json: '/search.json'
+      })
+    </script>
+  </nav>
+</header>
+
+    <section>
+      
+
+
+
+
+
+  
+  
+  
+
+
+
+<article>
+  
+    <aside class="embargo">
+      
+        <h1>Under embargo until Mon, Oct  2, 2023 17:00 UTC!</h1>
+        <p>Please respect the embargo by not sharing this URL. The content below may be subject to minor changes before the embargo is lifted.</p>
+      
+      <hr />
+    </aside>
+  
+  <header>
+    <h1>
+
+
+
+   elementary OS 7.1 Available&nbsp;Now
+
+</h1>
+    
+      <h2>
+
+
+
+   Made with care, with you in&nbsp;mind
+
+</h2>
+    
+
+    
+
+
+
+<div class="byline">
+  <div class="avatar">
+    <img
+      
+        srcset="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&d=blank 2x"
+        src="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&d=blank"
+        alt="Avatar for Danielle Foré"
+      
+    />
+  </div>
+  <div class="author">
+    <a href="/authors/#danrabbit">
+    <span class="name">Danielle Foré</span>
+    </a>
+    
+      <span class="description">Founder & CEO</span>
+    
+  </div>
+  <time class="post-date" datetime="2023-10-02">Mon, Oct  2, 2023</time>
+  
+    <span class="read-time" title="Estimated read time">
+  
+  22 min read
+</span>
+
+
+  
+</div>
+
+
+    <aside class="tags">
+  
+  
+    <a class="tag" href="/tags/#horus">#horus</a>
+  
+    <a class="tag" href="/tags/#updates">#updates</a>
+  
+</aside>
+
+
+  </header>
+
+  <section>
+    <p>Today, we’re proud to announce that OS 7.1 is available to download now and shipping soon on several high-quality computers. This release represents the sum of our work over the last several months as a single major update to the OS 7 series and includes <a href="/tags/#updates">all of the monthly OS updates</a> we’ve detailed since the OS 7 release.</p>
+
+<figure class="full-bleed">
+  <p><img src="/images/os-7-1-available-now/desktop-onboarding.png" alt="elementary OS 7.1" /></p>
+</figure>
+
+<p>With OS 7.1, we’ve focused in on:</p>
+
+<ul>
+  <li>Providing <strong>personalization</strong> options and features that make our operating system more <strong>inclusive</strong> and <strong>accessible</strong></li>
+  <li>Protecting your <strong>privacy</strong> and ensuring apps always operate with your explicit <strong>consent</strong></li>
+  <li>Addressing your <strong>feedback</strong> with over 200 bug fixes, design changes, and new features</li>
+</ul>
+
+<p>To get elementary OS 7.1 now, head to <a rel="nofollow noopener noreferrer" target="_blank" href="https://elementary.io">elementary.io</a> for the download—or read on for an overview of what’s new.</p>
+
+<hr />
+
+<h1 id="privacy--consent">Privacy &amp; Consent</h1>
+
+<p>One of the most prevalent problems we face in our current digital lives is the violation of our privacy and the lack of consent when interacting with our devices each day. Portals seek to provide a safe and consensual way for apps to interact with the operating system and ensure that they only get access to the data and features that you want them to.</p>
+
+<p>One of the ways that apps may become intrusive is by automatically starting themselves or running in the background without your permission. In OS 7.1, we now provide the Background &amp; Autostart Portal which alerts you when apps are running in the background and makes sure that apps ask your permission before they can automatically start up when you turn on your device.</p>
+
+<figure>
+  <p><img src="/images/os-7-1-available-now/settings-autostart.png" alt="System Settings → Applications → Startup" width="990" height="686" /></p>
+  <figcaption>
+    <p>Autostarting apps can now be controlled in System Settings → Applications → Startup</p>
+  </figcaption>
+</figure>
+
+<p>Calendar, Mail, and Tasks now all use the Background &amp; Autostart portal, and their autostart behavior can be controlled along with other apps in System Settings → Applications → Startup. Calendar and Mail have also been updated to use the File Chooser Portal—the Portal responsible for making sure apps can’t access data without your permission—for things like selecting attachments or importing and exporting calendar files.</p>
+
+<figure>
+  <p><img src="/images/os-7-1-available-now/portal-location.png" alt="The Location Portal" width="502" height="177" /></p>
+  <figcaption>
+    <p>The Location Portal ensures apps ask before they can get your location</p>
+  </figcaption>
+</figure>
+
+<p>We’ve now also migrated Location Services from the old Agents system to Portals. This is a more secure method for apps to request access to your location, is the latest FreeDesktop.org standard for doing so, and improves our cross-platform app compatibility. You can adjust location settings in System Settings → Security &amp; Privacy → Location Services. If the main switch here is turned off, apps and system services will not even be allowed to ask for permission to see your location.</p>
+
+<h2 id="appcenter--sideload">AppCenter &amp; Sideload</h2>
+
+<p>As we work towards our continual goal of better supporting alternative app stores, one of the challenges is ensuring that you remain safe while using apps from stores with differing security and privacy policies. In elementary OS, the supported app packaging format is Flatpak which gives us several tools to that end, including the ability to report back to you when apps have advanced access that could leave you vulnerable.</p>
+
+<figure class="card quarter">
+  <p><img src="/images/os-7-1-available-now/appcenter-autostart.png" alt="Autostart warning in AppCenter" width="974" height="704" />
+<img src="/images/os-7-1-available-now/appcenter-files.png" alt="File access warning in AppCenter" width="974" height="704" />
+<img src="/images/os-7-1-available-now/appcenter-sandbox.png" alt="Sandbox break warning in AppCenter" width="974" height="704" />
+<img src="/images/os-7-1-available-now/appcenter-settings.png" alt="Settings access warning in AppCenter" width="974" height="704" /></p>
+  <figcaption>AppCenter shows more information about app permissions</figcaption>
+</figure>
+
+<p>In OS 7.1, AppCenter will now inform you if an app can can:</p>
+
+<ul>
+  <li>Read your location, send notifications, or automatically start and run in the background without asking first</li>
+  <li>Access system folders or your home folder</li>
+  <li>Read and write system settings</li>
+  <li>Possibly escape the sandbox altogether and gain arbitrary advanced permissions</li>
+</ul>
+
+<p>For certain types of administrative apps, having advanced system permissions makes sense, but our goal is to keep you informed and ensure that apps are always operating with your consent.</p>
+
+<figure>
+  <p><img src="/images/os-7-1-available-now/sideload-firefox.png" alt="Sideload" width="502" height="320" /></p>
+  <figcaption>
+    <p>Sideload now quickly checks if apps request advanced system permissions</p>
+  </figcaption>
+</figure>
+
+<p>Our goal with Sideload is to keep you informed and in control when installing apps provided outside of AppCenter. We also want to make sure to balance that with the existing trust relationship you may have with the apps you love. So we’ve made some changes to how apps are presented in Sideload and instead of assuming that a sideloaded app is untrusted, we simply ask for you to validate your trust. Additionally, we now show some basic information about the kinds of broad system permissions that a sideloaded app may request. This isn’t as fine-grained as what is presented in AppCenter, but it offers quick validation for apps that are more likely to be safe and puts the emphasis on Sideload as a utility to verify your consent, not to gatekeep your choices.</p>
+
+<h2 id="housekeeping--temporary-accounts">Housekeeping &amp; Temporary Accounts</h2>
+
+<p>Housekeeping is a feature designed to free up storage and protect your privacy by automatically deleting old files. In OS 7, you could choose to automatically clean up the Trash, Downloads, and temporary operating system files on a schedule of your choosing. In OS 7.1, we’ve added Screenshots to that list. You’ll first be introduced to Housekeeping in the Onboarding app, but you can adjust your Housekeeping settings at any time in System Settings → Security &amp; Privacy → Housekeeping.</p>
+
+<figure>
+  <p><img src="/images/os-7-1-available-now/onboarding-housekeeping.png" alt="Housekeeping in Onboarding" width="485" height="443" /></p>
+  <figcaption>
+    <p>Housekeeping can clean up old Downloads, Screenshots, Trash, and other temporary files</p>
+  </figcaption>
+</figure>
+
+<p>The Guest account is a special account that provides a temporary space for folks who don’t normally use your device to access your computer without using your personal account. And, all settings and data in this account are reset as soon as they log out. In OS 7.1, Onboarding now handles providing information about how this account works, making its function and limitations much more clear.</p>
+
+<h1 id="inclusivity--personalization">Inclusivity &amp; Personalization</h1>
+
+<p>When we think about settings and personalization in elementary OS, we tend to avoid settings that would pass off design or engineering decisions and instead focus on providing settings that make the operating system more accessible and inclusive for a wider range of people. We use this guiding philosophy to decide which new settings to add without creating an overwhelming or confusing number of customization options. This release, like every release, comes with a number of new features and settings that we hope make it possible for more people to enjoy using an Open Source operating system.</p>
+
+<p>We’ve received feedback from folks with vision-related disabilities that a huge barrier for them when considering an Open Source operating system is that they often need help to get it installed. Now, when you boot into the install media for elementary OS, we automatically play an audio prompt letting you know the keyboard shortcut for turning on the screen reader. And the same audio prompt is available during Initial Setup, so whether you’re buying a computer pre-installed with elementary OS or installing it on your existing computer, you can choose an Open Source operating system and remain independent.</p>
+
+<figure>
+  <p><img src="/images/os-7-1-available-now/settings-filters.png" alt="System Settings → Displays → Filters" width="990" height="686" /></p>
+  <figcaption>
+    <p>We’ve introduced 5 new display filters to assist folks with color perception deficiency</p>
+  </figcaption>
+</figure>
+
+<p>From birth, 1 in 12 men experience color perception deficiency (aka color blindness) and some folks will develop color deficiency through illness or aging—but those we spoke to about accommodations reported that color deficiency assistance tools are often ineffective or unavailable and the lack of awareness and education around color deficiency means that many don’t seek assistance at all. This can affect daily tasks when trying to understand parts of their computer’s interface, but it also comes up when playing games and can make it difficult to work and play collaboratively. We introduced a set of 5 display filters, designed to assist folks with Protanopia, Deuteranopia, and Tritanopia with some additional high contrast options and plenty of assistive text to help folks without a formal color deficiency diagnosis. These filters alter the colors of the entire display to assist you in differentiating between colors where you may be experiencing color deficiency. The feedback we’ve received from testers has been very positive, so if you’ve used these kinds of filters in the past on other operating systems with lackluster results we encourage you to give these a try.</p>
+
+<p>Additionally, we’re now shipping a grayscale filter which can help avoid distractions or alleviate screen addiction. You can now make the display much warmer when using Night Light and we’ve added a new option in Desktop → Wallpaper to dim the wallpaper when the Dark Style is selected—a couple things that can help alleviate headache and eye strain. For folks who suffer from motion sickness or simply prefer fewer animations, the “Reduce Motion” setting in Desktop → Appearance now covers several more window manager and shell animations.</p>
+
+<p>Finally, checkboxes for optional indicators like the Accessibility indicator and the Capslock and Numlock indicators are now centrally located in Desktop → Dock &amp; Panel. And we’ve improved screen reader names for several settings.</p>
+
+<h2 id="gesture-and-keyboard-navigation">Gesture and Keyboard Navigation</h2>
+
+<p>We know that Multitouch gestures and navigation are really important to folks running elementary OS on devices with touch screens and multitouch trackpads so we’ve continued to improve support for navigating via gestures in places like the Installer and in multi-step dialogs. And, there are now more options for switching workspaces using hot corners in System Settings →Desktop → Multitasking.</p>
+
+<p>Navigating via keyboard is important for a wide range of folks whether that’s due to disability or personal preference and this release comes with a number of improvements in this area. For managing app windows, you can now use the keyboard shortcut <kbd>Alt</kbd> + <kbd>~</kbd> for switching between windows of the same app, and you can now navigate with the arrow keys while holding down <kbd>Alt</kbd> + <kbd>Tab</kbd>. In the Multitasking View, a number of previously unavailable shortcuts are now available including Pointer location, Screenshots, and Zoom, in addition to regular workspace switching shortcuts. When customizing keyboard shortcuts, we now do a better job handling special keys and single-key shortcuts like the <kbd>PrintScreen</kbd> key. And, you can now close panel indicators with <kbd>Esc</kbd>.</p>
+
+<p>We also completely revamped the Behavior page of System Settings → Keyboard. It now includes several new settings for things like Bounce, Slow, and Sticky keys with descriptions of their effects, and slider values are now shown on drag instead of in a separate widget. This work was the final piece of <a rel="nofollow noopener noreferrer" target="_blank" href="https://blog.elementary.io/accessibility-features-are-just-features/">our project to integrate previously tucked-away accessibility settings</a> throughout System Settings, improving their discoverability and normalizing the use of accommodations for everyone.</p>
+
+<h2 id="login--lock-screen">Login &amp; Lock Screen</h2>
+
+<p>In OS 7, many of the personalization settings and accommodations you may have set up in your account were inaccessible on the Login &amp; Lock Screen. In OS 7.1, we now match your mouse, keyboard, and touchpad settings—including improved keyboard layout handling—your chosen accent color is now used everywhere—not just on your login card—and it now handles solid color wallpapers. Your text size and font settings, pointer size settings, cursor blink settings, Night Light settings and more are all now respected as well. Plus, the ability to reveal the pointer is now available, the Screen Reader can be enabled with a keyboard shortcut, and it does a better job remembering your Screen Reader settings. As a subtle bonus, you’ll also notice that the Login &amp; Lock Screen now has rounded corners that match the logged in session</p>
+
+<h1 id="addressing-your-feedback">Addressing Your Feedback</h1>
+
+<p>One of the greatest advantages we have developing elementary OS in the open as compared to proprietary operating systems is the ability to gather your feedback and for developers to directly engage with you to solve issues and create new features. Combined with our monthly release cadence, the Feedback app creates a tight loop where you can start a report, see development happen transparently, and receive updates quickly. With the release of OS 7, we made sure that the Feedback app was accessible directly from the applications menu, launched instantly, and covered more system components. In OS 7.1, we’ve added search and we’ve now ported the app to GTK 4—the latest version of our app toolkit—for improved performance and smoothness. This should make it even speedier to send feedback when something unexpected happens.</p>
+
+<figure>
+  <p><img src="/images/os-7-1-available-now/feedback.png" alt="Feedback" width="568" height="620" /></p>
+  <figcaption>
+    <p>The Feedback app is the fastest way to send your feedback directly to our developers</p>
+  </figcaption>
+</figure>
+
+<p>Since the release of OS 7 at the end of January, we’ve sent out free updates that address over 200 reports—that’s one report addressed every day in addition to our regular planned work. Needless to say OS 7.1 is much smoother, faster, and more stable than its predecessor thanks to your feedback. We’ve also made several design changes and added new features to address concerns that you’ve expressed and to better fit how you’ve told us that you use our operating system.</p>
+
+<h2 id="appcenter--alt-stores">AppCenter &amp; Alt Stores</h2>
+
+<p>With Flatpak, you have access to an incredibly wide selection of apps and a growing number of alternative app stores. Unlike on mainstream proprietary operating systems, installing apps via Sideload and accessing alternative app stores are important features of elementary OS. We’ve consistently heard from folks that sideloading and alt stores are core parts of their experience when using our operating system. So, in the Onboarding app, when we’re introducing people to AppCenter—the pay-what-you-can app store with apps made specifically for elementary OS—we also now much more prominently introduce them to Sideload and even feature a link to the most popular Flatpak-powered app store: Flathub. And in AppCenter, we no longer split out apps from alt stores into a separate header in category views.</p>
+
+<figure>
+  <p><img src="/images/os-7-1-available-now/onboarding-apps.png" alt="Apps in Onboarding" width="485" height="443" /></p>
+  <figcaption>
+    <p>Onboarding introduces people to both AppCenter and Sideload equally</p>
+  </figcaption>
+</figure>
+
+<p>One of the challenges we face is gracefully recovering and providing useful options when things go wrong. In OS 7, a failure when installing certain kinds of Flatpak updates could only be resolved by jumping into a Terminal; In OS 7.1, we have a handy Flatpak Repair feature that can fix most issues with these kinds of failures.</p>
+
+<h2 id="hardware-support">Hardware Support</h2>
+
+<p>Some computers contain hardware devices that require additional, proprietary drivers to function properly. This previously made installing elementary OS difficult when wireless network drivers or video card drivers were unavailable. We now provide an option during installation to include these proprietary drivers so that your devices function properly.</p>
+
+<p>OS 7.1 also includes the latest long-term support Hardware Enablement stack from Ubuntu, including Linux 6.2. Notably, this brings improved support for Intel 13th gen processors and Intel Arc graphics, as well as performance enhancements for AMD Zen 4 CPUs.</p>
+
+<p>We also now automatically check for and notify of updates to device Firmware when they’re available. Plus, there should be more accurate display resolution options available in System Settings → Displays.</p>
+
+<h2 id="web">Web</h2>
+
+<p>OS 7 shipped with GNOME Web 43, the latest version available at the time. Thanks to Flatpak, we’ve been able to stay up to date with the latest releases of Web and OS 7.1 is shipping with version 44.6 which brings substantial improvements to performance and web standards compatibility, plus a new saved passwords popover.</p>
+
+<figure>
+  <p><img src="/images/os-7-1-available-now/web-welcome.png" alt="GNOME Web" width="1058" height="802" /></p>
+  <figcaption>
+    <p>Web is faster and more capable with features like Firefox sync and intelligent tracking prevention</p>
+  </figcaption>
+</figure>
+
+<p>With Firefox sync, web apps, intelligent tracking prevention that is actually intended to protect your privacy, built-in popup blocking, and performance that now matches major mainstream competitors, there’s never been a better time to use this community-made web browser.</p>
+
+<h2 id="mail">Mail</h2>
+
+<p>In OS 6, we began an ambitious rewrite of Mail on a more stable and battle-tested base and we’re happy to report that with OS 7.1, Mail has gained a number of new features and improvements that you’ve been asking for.</p>
+
+<p>In the sidebar, you’ll notice that special folders like “Archive” and “Spam” are better detected and appear at the top level, even for accounts like Gmail that used to hide them as subfolders. You can now also rename folders by secondary-clicking on them and selecting “Rename Folder”. Plus, performance has been improved when switching between folders.</p>
+
+<p>In the conversation list, you can now use a multi-touch swipe or click-and-drag left or right to quickly archive or trash a conversation. You might also appreciate some subtle design tweaks like placing the conversation list filter next to the search bar or how headers now appear to float over scrolled content.</p>
+
+<figure>
+  <p><img src="/images/os-7-1-available-now/mail-move.png" alt="Mail" width="990" height="716" /></p>
+  <figcaption>
+    <p>The new “Move Conversation” menu with search</p>
+  </figcaption>
+</figure>
+
+<p>In the messages list, there’s a new “Move conversation” menu that includes search, and you’ll notice that archiving and moving messages can now be undone. And a handy infobar is shown when a message includes a calendar invite.</p>
+
+<figure>
+  <p><img src="/images/os-7-1-available-now/mail-compose.png" alt="Mail" width="744" height="564" /></p>
+  <figcaption>
+    <p>The composer now supports inline attachments and signatures</p>
+  </figcaption>
+</figure>
+
+<p>When composing a message, you can now add images inline and you can include attachments in forwarded messages. Plus we’ve added support for multiple custom signatures. You can create as many signatures as you’d like and assign them as the defaults for accounts as needed. The new “Insert signature…” menu makes it easy to swap between any of your saved signatures when composing. And the composer now always opens in a separate, non-modal window making it much easier to reference a message you’re replying to or manage multiple drafts at the same time. It also features quite a few more keyboard shortcuts for text formatting, adding attachments, etc.</p>
+
+<figure>
+  <p><img src="/images/os-7-1-available-now/mail-signatures.png" alt="Mail" width="564" height="364" /></p>
+  <figcaption>
+    <p>You can set up as many signatures as you like and set per-account defaults</p>
+  </figcaption>
+</figure>
+
+<p>Mail also does a better job handling changes in your internet connection, and if you like to start Mail manually, it will wait until the first time you’ve started it to check for new messages in the background.</p>
+
+<h2 id="files">Files</h2>
+
+<p>In the Files app, we’re always striving to strike a balance between providing advanced file management features and avoiding clutter and confusion. Folder context menus had begun to reach a point where they were being stretched a bit too far, so we introduced a new app menu in the headerbar to provide app-wide controls and settings and improve the discoverability of some features that were previously only accessible by keyboard shortcut like Zoom and Undo/Redo. The new Zoom controls make it easier to set a comfortable icon size and expose keyboard shortcuts in their tooltips. The Undo and Redo buttons include tooltips showing what operation will be performed before you click them as well as their keyboard shortcuts. The description text for the Double-click setting has been made more clear based on your feedback, and we’ve consolidated settings for which things will be shown in the view such as Hidden Files and Thumbnails.</p>
+
+<figure>
+  <p><img src="/images/os-7-1-available-now/files-menu.png" alt="Files" width="1064" height="744" /></p>
+  <figcaption>
+    <p>The new app menu in Files exposes more functionality like zoom and undo/redo</p>
+  </figcaption>
+</figure>
+
+<p>We’ve also introduced Bulk Rename. With this feature, you can select multiple files, secondary-click, and select “Rename…” to get an advanced bulk renaming dialog. This is an especially useful feature if you’re working with a large collection of photos or spreadsheets or other kinds of files that you may want to rename by creation date or using another sequence or when you have to format a large number of files the same way. You can add automatically generated prefixes or suffixes to file names, as well as keeping, completely replacing, or partially replacing parts of the original file name. You’ll see a preview of how files will be renamed as well as an indication of when file names would conflict or not be changed.</p>
+
+<figure>
+  <p><img src="/images/os-7-1-available-now/files-rename.png" alt="Bulk Rename" width="492" height="448" /></p>
+  <figcaption>
+    <p>You can now quickly rename multiple files at once</p>
+  </figcaption>
+</figure>
+
+<p>Plus, you can now share files with other devices via Bluetooth. A new Bluetooth transfer dialog is available by secondary-clicking a file or selection of files and selecting “Send Files via Bluetooth” from the context menu. You can see ongoing transfers in the Bluetooth indicator.</p>
+
+<figure>
+  <p><img src="/images/os-7-1-available-now/files-bluetooth.png" alt="Bluetooth Sharing" width="408" height="508" /></p>
+  <figcaption>
+    <p>Share files to other devices over Bluetooth</p>
+  </figcaption>
+</figure>
+
+<p>Lastly, the tab bar features improved animations, smoother drag-and-drop, and reorganized tab context menus, bringing it more in line with Web. The storage level bar in Properties dialogs will now change color depending on how full a drive is. And we’ve rewritten the way color tags are stored so that they are better preserved when restoring from the Trash.</p>
+
+<h2 id="code">Code</h2>
+
+<p>Code now does a better job handling file saving and preventing data loss when files can’t be written to their original location. Some busy infobars are now dialogs, and we avoid showing too many aggressive warnings about file saving. And you can now optionally try to continue loading files that contain unknown characters or corrupted content.</p>
+
+<p>Search options are now all available from a new menu, there’s now a “match whole words” option, and your search settings are now saved between sessions. The search entry also provides visual feedback when no results are found. We do a better job deciding which string to search if you have both a selection and text in the search entry, and make sure that the “Replace” and “Replace All” buttons are enabled and disabled more accurately.</p>
+
+<figure>
+  <p><img src="/images/os-7-1-available-now/code-search.png" alt="Search in Code" width="457" height="307" /></p>
+  <figcaption>
+    <p>Search options have been reworked and expanded in Code</p>
+  </figcaption>
+</figure>
+
+<p>The tab width menu has been reworked quite a bit to more accurately prioritize between your global defaults, per document settings, and editorconfig file. Plus, you can now switch tabs with the keyboard shortcut <kbd>Ctrl</kbd> + <kbd>PageUp</kbd>/<kbd>PageDown</kbd>.</p>
+
+<h2 id="music--videos">Music &amp; Videos</h2>
+
+<p>Videos has undergone a large rewrite of its internals which has made it more reliable and performant. Expect a flatter app appearance in the welcome screen and library, improved playback position saving, smoother navigation, and in-app notifications when adding items to the playlist.</p>
+
+<figure>
+  <p><img src="/images/os-7-1-available-now/videos.png" alt="Videos" width="1069" height="747" /></p>
+  <figcaption>
+    <p>Videos is now a bit flatter</p>
+  </figcaption>
+</figure>
+
+<p>Music can now accept Drag and Drop of whole folders—in addition to individual files or selections of files—and you can secondary click on a folder in Files and open it with Music.</p>
+
+<h2 id="notifications">Notifications</h2>
+
+<p>The Notifications indicator is where you can catch up with missed notifications and it supports all the same ways you’re used to interacting with notifications like tapping a notification to launch the app that sent it and multi-touch swipe left or right to dismiss. Now, missed notifications can also have buttons and apps can replace old outdated notifications with newer up-to-date ones instead of adding more and more notifications to the stack.</p>
+
+<figure class="full-bleed">
+  <p><img src="/images/os-7-1-available-now/indicator-notifications.png" alt="Notifications Indicator" /></p>
+  <figcaption>
+    <p>Notifications in the indicator can be replaced with updated ones or have buttons and app sections can be collapsed</p>
+  </figcaption>
+</figure>
+
+<p>Sometimes we have apps that send a lot of notifications that are important but drown out other apps, so now you can select the spinning triangle icon to collapse all the notifications from a particular app.</p>
+
+<p>Critical notifications—like low battery warnings—will now still be sent even when Do Not Disturb is active and notifications are now shown even when in the Multitasking View. Plus, we’ve improved support for notifications that include markup—like bold and italics—and we removed the intrusive “Automatic Suspend” notifications that would sometimes prevent your device from sleeping.</p>
+
+<h2 id="panel">Panel</h2>
+
+<p>The Network indicator received some much-needed design attention and now offers a vastly-improved experience for using VPNs. You’ll notice that most options now appear as circular toggle buttons with icons instead of a list of switches. This new design both saves space on devices with complex network configurations and shows the status of your various connections much clearer, including intermediate and error states. In the case of VPNs, you can now also activate multiple connections at once. We’ve also added quick access to toggling Airplane Mode, including a middle-click action on the indicator icon. Plus, we’re now using a feature of Network Manager to automatically get better device names so you’ll rarely see long and cryptic device names any longer.</p>
+
+<figure class="card">
+  <p><img src="/images/os-7-1-available-now/indicator-network.png" alt="Network Indicator" width="580" height="326" /></p>
+  <figcaption>
+    <p>Complex network configurations are handled more gracefully and VPN support has been entirely reworked</p>
+  </figcaption>
+</figure>
+
+<p>We’ve also improved the way Bluetooth devices are listed in the panel: they will now use any custom device names you’ve set up before falling back to more generic device names.</p>
+
+<p>The Sound indicator was updated to use circle buttons and should no longer change size when skipping tracks. Muting should no longer affect monitor sources.</p>
+
+<figure class="card">
+  <p><img src="/images/os-7-1-available-now/indicator-sound.png" alt="Sound Indicator" width="440" height="248" /></p>
+  <figcaption>
+    <p>The Sound indicator now uses circular buttons</p>
+  </figcaption>
+</figure>
+
+<p>The Power indicator now always uses hours as its largest unit, for example it will say “26 hours remaining” instead of “1 day remaining” and we improved the accuracy of battery level icons.</p>
+
+<p>Plus, we’ve updated icons in the Bluetooth, Network, Night Light, Notifications, and Sound indicators to be more consistently sized and with clearer disabled states.</p>
+
+<h2 id="other-design-improvements">Other Design Improvements</h2>
+
+<p>In OS 7 we began the process of improving the design of our apps and operating system to be used on a wide range of displays from small laptops and tablets to large desktops, and when tiling apps side by side. We’ve continued that work into OS 7.1 in a couple of notable places.</p>
+
+<p>Several pages in System Settings have been redesigned for improved responsiveness on large and small displays, including Applications → Defaults and Applications → Startup, Desktop → Dock &amp; Panel, Displays → Night Light, Keyboard → Behavior, and Sound. And in several of these views we improved description text for more complicated settings.</p>
+
+<figure class="card">
+  <p><img src="/images/os-7-1-available-now/appcenter-updates.png" alt="Installed apps in AppCenter" width="974" height="704" /></p>
+  <figcaption>
+    <p>AppCenter’s Installed &amp; Updates view makes better use of space on large displays</p>
+  </figcaption>
+</figure>
+
+<p>Our responsive work also continued in AppCenter, where App Info views were reworked to tighten up spacing and improve alignment. Special attention was put into making sure the most important information appears “above the fold”, especially on smaller displays like in some laptops. And the Installed &amp; Updates view now uses a grid layout for installed apps, making better use of space on large displays.</p>
+
+<figure class="card quarter">
+  <p><img src="/images/os-7-1-available-now/onboarding-welcome.png" alt="Welcome in Onboarding" width="485" height="443" />
+<img src="/images/os-7-1-available-now/onboarding-style.png" alt="Style in Onboarding" width="485" height="443" />
+<img src="/images/os-7-1-available-now/onboarding-nightlight.png" alt="Nightlight in Onboarding" width="485" height="443" />
+<img src="/images/os-7-1-available-now/onboarding-updates.png" alt="Automatic Updates in Onboarding" width="485" height="443" /></p>
+  <figcaption>Onboarding features bolder typography and some new icons</figcaption>
+</figure>
+
+<p>Onboarding also features several redesigned pages with some new icons and bolder typography. We now use the release wallpaper in a dynamically generated icon on the Welcome page, and previews in the Style view use the currently set wallpaper.</p>
+
+<p>Plus, arrow shapes have been improved for many action icons across all apps and several icons now appear sharper when the dark style is selected.</p>
+
+<hr />
+
+<h1 id="get-elementary-os-71">Get elementary OS 7.1</h1>
+
+<p>elementary OS 7.1 is available as a pay-what-you-can purchase at <a rel="nofollow noopener noreferrer" target="_blank" href="https://elementary.io">elementary.io</a> today. Localized direct downloads and a torrent magnet link are provided.</p>
+
+<div style="text-align: center">
+  <p><a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/elementary/os/wiki/OS-7.1-FAQ" class="button flat">OS 7.1 FAQ</a>
+<a rel="nofollow noopener noreferrer" target="_blank" href="https://elementary.io" class="button suggested">Download elementary OS 7.1</a></p>
+</div>
+
+<p>If you’re already on elementary OS 7, you’ll get the update to OS 7.1 alongside regular operating system updates. If you haven’t already, open AppCenter and select <em>Update All</em> to be upgraded.</p>
+
+
+  </section>
+
+  
+<div class="thanks">
+  <hr/>
+
+  <h2>Thank You</h2>
+  <p>Thanks to all of our supporters, backers, and customers! Your contributions make elementary possible. If you’d like to help build and improve elementary OS, don’t hesitate to <a rel="nofollow noopener noreferrer" target="_blank" href="https://elementary.io/get-involved" onclick="plausible('Link: Get Involved')">Get Involved</a>.</p>
+
+  <div class="links">
+    <a
+      href="https://elementary.io/"
+      rel="noreferrer nofollow noopener"
+      target="_blank"
+      title="elementary downloads"
+      onclick="plausible('Link: Homepage')"
+    >
+      <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg4"
+   version="1.1"
+   viewBox="0 0 512 512">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8" />
+  <path
+     d="M 256,7.999995 C 119.0589,7.999995 7.999994,119.0589 7.999994,255.99999 7.999994,392.94109 119.0589,504 256,504 392.9411,504 504.00001,392.9411 504.00001,255.99999 504.00001,119.0589 392.9411,7.999995 256,7.999995 Z m -0.45091,23.65018 v 0 a 1.5781818,1.5781818 0 0 0 0.40582,0 c 102.53673,0 189.0211,68.808725 215.76,162.710545 a 390.37455,390.37455 0 0 1 -94.984,123.90982 c -19.096,16.52582 -39.97309,31.18036 -62.90182,41.52873 -22.95127,10.32582 -48.15709,16.21018 -73.20509,14.78982 a 126.25455,126.25455 0 0 1 -51.20073,-14.27128 412.04074,412.04074 0 0 0 114.48582,-92.88727 c 21.55345,-25.16073 40.37891,-53.88363 47.68364,-86.41673 3.72,-16.27781 4.28363,-33.36727 0.90181,-49.75782 A 91.962911,91.962911 0 0 0 329.97163,86.954176 90.474911,90.474911 0 0 0 288.14982,62.199266 109.34546,109.34546 0 0 0 239.60945,60.440721 c -32.08218,5.884363 -60.71491,24.484364 -83.53091,47.525819 -40.28873,40.58182 -65.156356,97.84727 -60.579636,155 2.29964,28.56509 11.813816,56.61164 28.226906,80.12655 3.224,4.62181 6.80873,8.97309 10.52873,13.16654 A 365.86764,365.86764 0 0 1 64.679274,372.92072 224.2371,224.2371 0 0 1 255.504,31.650175 Z m 1.57818,45.541819 c 0,-0.02255 0.36073,0.04509 0.27055,0.02254 15.60145,0 31.27054,4.757091 43.648,14.136001 a 72.145456,72.145456 0 0 1 24.07854,33.592725 92.887275,92.887275 0 0 1 4.32873,41.664 c -3.224,28.024 -17.36,53.83855 -34.56218,76.49673 -30.52655,40.08582 -71.15346,72.21309 -116.31201,94.69091 -4.28363,2.14182 -8.70254,4.216 -13.12145,6.17746 a 115.29746,115.29746 0 0 1 -23.67273,-29.19637 c -13.30182,-23.53745 -17.67563,-51.49382 -15.10545,-78.50327 2.61527,-27.032 11.85891,-53.11709 24.39418,-77.33091 14.49673,-28.04655 34.17891,-54.51491 61.59418,-69.665457 a 93.338184,93.338184 0 0 1 44.48219,-12.10691 z M 478.7491,230.72654 c 0.94691,8.27418 1.60072,16.66109 1.60072,25.18327 0,123.93237 -100.37237,224.39491 -224.32728,224.39491 A 223.58328,223.58328 0 0 1 84.902544,400.71927 408.92946,408.92946 0 0 0 156.37163,376.82109 c 10.39346,7.80072 21.80146,14.29381 33.976,18.93818 35.84728,13.75273 76.47419,11.72363 112.6371,-0.78909 36.14036,-12.51273 68.10981,-34.92291 95.95346,-60.98546 A 411.77019,411.77019 0 0 0 478.7491,230.72654 Z"
+     id="path817" />
+</svg>
+
+    </a>
+
+    <a
+      href="https://appcenter.elementary.io"
+      rel="noreferrer nofollow noopener"
+      target="_blank"
+      title="AppCenter"
+      onclick="plausible('Link: AppCenter')"
+    >
+      <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   viewBox="0 0 319.99999 279.99999"
+   id="svg2"
+   version="1.1">
+  <defs
+     id="defs4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     transform="translate(-96,-656.36219)">
+    <path
+       d="m 116,656.36219 -20,60 v 20 c 0,40 40,40 40,40 22.16,0 40,-17.84 40,-40 0,22.16 17.84,40 40,40 22.16,0 40,-17.84 40,-40 0,22.16 17.84,40 40,40 22.16,0 40,-17.84 40,-40 0,22.16 17.84,40 40,40 0,0 40,0 40,-40 v -20 l -20,-60 z m 0,140 v 120 c 0,0 0,20 20,20 h 100 140 c 20,0 20,-20 20,-20 v -120 h -20 v 120 h -40 v -70 c 0,-16.62 -13.38,-30 -30,-30 -16.62,0 -30,13.38 -30,30 v 70 H 136 v -120 z m 60,20 v 60 h 60 v -60 z"
+       id="rect8928-6-4" />
+  </g>
+</svg>
+
+    </a>
+
+    <a
+      href="https://github.com/sponsors/elementary"
+      rel="noreferrer nofollow noopener"
+      target="_blank"
+      title="GitHub"
+      onclick="plausible('Link: GitHub Sponsors')"
+    >
+      <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" class="svg-inline--fa fa-github fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
+    </a>
+
+    <a
+      href="https://www.patreon.com/elementary"
+      rel="noreferrer nofollow noopener"
+      target="_blank"
+      title="Patreon"
+      onclick="plausible('Link: Patreon')"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M512 194.8c0 101.3-82.4 183.8-183.8 183.8-101.7 0-184.4-82.4-184.4-183.8 0-101.6 82.7-184.3 184.4-184.3C429.6 10.5 512 93.2 512 194.8zM0 501.5h90v-491H0v491z"/></svg>
+    </a>
+
+    <a
+      href="https://www.paypal.me/elementary"
+      rel="noreferrer nofollow noopener"
+      target="_blank"
+      title="Paypal"
+      onclick="plausible('Link: Paypal')"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M111.4 295.9c-3.5 19.2-17.4 108.7-21.5 134-.3 1.8-1 2.5-3 2.5H12.3c-7.6 0-13.1-6.6-12.1-13.9L58.8 46.6c1.5-9.6 10.1-16.9 20-16.9 152.3 0 165.1-3.7 204 11.4 60.1 23.3 65.6 79.5 44 140.3-21.5 62.6-72.5 89.5-140.1 90.3-43.4.7-69.5-7-75.3 24.2zM357.1 152c-1.8-1.3-2.5-1.8-3 1.3-2 11.4-5.1 22.5-8.8 33.6-39.9 113.8-150.5 103.9-204.5 103.9-6.1 0-10.1 3.3-10.9 9.4-22.6 140.4-27.1 169.7-27.1 169.7-1 7.1 3.5 12.9 10.6 12.9h63.5c8.6 0 15.7-6.3 17.4-14.9.7-5.4-1.1 6.1 14.4-91.3 4.6-22 14.3-19.7 29.3-19.7 71 0 126.4-28.8 142.9-112.3 6.5-34.8 4.6-71.4-23.8-92.6z"/></svg>
+    </a>
+
+    <a
+      href="https://elementary.io/store/"
+      rel="noreferrer nofollow noopener"
+      target="_blank"
+      title="elementary merch store"
+      onclick="plausible('Link: Store')"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z"/></svg>
+    </a>
+  </div>
+</div>
+
+
+<div class="sponsor">
+  
+    <p>We’re <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/sponsors/elementary?frequency=one-time" rel="noreferrer nofollow noopener" target="_blank">accepting limited sponsors</a> for the elementary Blog. View our <a rel="nofollow noopener noreferrer" target="_blank" href="https://plausible.io/blog.elementary.io" rel="noreferrer nofollow noopener" target="_blank">public analytics</a> and <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/sponsors/elementary?frequency=one-time" rel="noreferrer nofollow noopener" target="_blank">learn more</a> if you are interested.</p>
+  
+</div>
+
+</article>
+
+<div class="license">
+  <a title=" This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License" rel="license" target="_blank" href="http://creativecommons.org/licenses/by-sa/4.0/">
+    Some rights reserved
+  </a>
+  <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="creative-commons" class="svg-inline--fa fa-creative-commons fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M245.83 214.87l-33.22 17.28c-9.43-19.58-25.24-19.93-27.46-19.93-22.13 0-33.22 14.61-33.22 43.84 0 23.57 9.21 43.84 33.22 43.84 14.47 0 24.65-7.09 30.57-21.26l30.55 15.5c-6.17 11.51-25.69 38.98-65.1 38.98-22.6 0-73.96-10.32-73.96-77.05 0-58.69 43-77.06 72.63-77.06 30.72-.01 52.7 11.95 65.99 35.86zm143.05 0l-32.78 17.28c-9.5-19.77-25.72-19.93-27.9-19.93-22.14 0-33.22 14.61-33.22 43.84 0 23.55 9.23 43.84 33.22 43.84 14.45 0 24.65-7.09 30.54-21.26l31 15.5c-2.1 3.75-21.39 38.98-65.09 38.98-22.69 0-73.96-9.87-73.96-77.05 0-58.67 42.97-77.06 72.63-77.06 30.71-.01 52.58 11.95 65.56 35.86zM247.56 8.05C104.74 8.05 0 123.11 0 256.05c0 138.49 113.6 248 247.56 248 129.93 0 248.44-100.87 248.44-248 0-137.87-106.62-248-248.44-248zm.87 450.81c-112.54 0-203.7-93.04-203.7-202.81 0-105.42 85.43-203.27 203.72-203.27 112.53 0 202.82 89.46 202.82 203.26-.01 121.69-99.68 202.82-202.84 202.82z"></path></svg>
+  <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="creative-commons-by" class="svg-inline--fa fa-creative-commons-by fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M314.9 194.4v101.4h-28.3v120.5h-77.1V295.9h-28.3V194.4c0-4.4 1.6-8.2 4.6-11.3 3.1-3.1 6.9-4.7 11.3-4.7H299c4.1 0 7.8 1.6 11.1 4.7 3.1 3.2 4.8 6.9 4.8 11.3zm-101.5-63.7c0-23.3 11.5-35 34.5-35s34.5 11.7 34.5 35c0 23-11.5 34.5-34.5 34.5s-34.5-11.5-34.5-34.5zM247.6 8C389.4 8 496 118.1 496 256c0 147.1-118.5 248-248.4 248C113.6 504 0 394.5 0 256 0 123.1 104.7 8 247.6 8zm.8 44.7C130.2 52.7 44.7 150.6 44.7 256c0 109.8 91.2 202.8 203.7 202.8 103.2 0 202.8-81.1 202.8-202.8.1-113.8-90.2-203.3-202.8-203.3z"></path></svg>
+  <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="creative-commons-sa" class="svg-inline--fa fa-creative-commons-sa fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M247.6 8C389.4 8 496 118.1 496 256c0 147.1-118.5 248-248.4 248C113.6 504 0 394.5 0 256 0 123.1 104.7 8 247.6 8zm.8 44.7C130.2 52.7 44.7 150.6 44.7 256c0 109.8 91.2 202.8 203.7 202.8 103.2 0 202.8-81.1 202.8-202.8.1-113.8-90.2-203.3-202.8-203.3zM137.7 221c13-83.9 80.5-95.7 108.9-95.7 99.8 0 127.5 82.5 127.5 134.2 0 63.6-41 132.9-128.9 132.9-38.9 0-99.1-20-109.4-97h62.5c1.5 30.1 19.6 45.2 54.5 45.2 23.3 0 58-18.2 58-82.8 0-82.5-49.1-80.6-56.7-80.6-33.1 0-51.7 14.6-55.8 43.8h18.2l-49.2 49.2-49-49.2h19.4z"></path></svg>
+</div>
+
+
+<div class="social">
+  <h2>Join the Discussion on Social Media</h2>
+
+  
+
+  <div class="share">
+    <h3>Share</h3>
+    
+
+    <a
+      href="https://twitter.com/intent/tweet?text=elementary OS 7.1 Available Now&url=https://blog.elementary.io/os-7-1-available-now/&via=elementary&original_referer=https://blog.elementary.io/os-7-1-available-now/"
+      rel="noreferrer nofollow noopener"
+      target="_blank"
+      title="Twitter"
+      onclick="plausible('Share: Twitter')"
+    >
+      <img src="/images/twitter.svg" alt="Twitter" />
+    </a>
+
+    <a
+      href="http://www.reddit.com/submit?title=elementary OS 7.1 Available Now&url=https://blog.elementary.io/os-7-1-available-now/"
+      rel="noreferrer nofollow noopener"
+      target="_blank"
+      title="Reddit"
+      onclick="plausible('Share: Reddit')"
+    >
+      <img src="/images/reddit.svg" alt="Reddit" />
+    </a>
+
+    <a
+      href="https://www.facebook.com/sharer/sharer.php?u=https://blog.elementary.io/os-7-1-available-now/"
+      rel="noreferrer nofollow noopener"
+      target="_blank"
+      title="Facebook"
+      onclick="plausible('Share: Facebook')"
+    >
+      <img src="/images/facebook.svg" alt="Facebook" />
+    </a>
+
+    <a
+      href="https://blog.elementary.io/os-7-1-available-now/"
+      title="Permalink"
+      onclick="return share()"
+    >
+      <img src="/images/edit-copy-32.svg" alt="Permalink" />
+    </a>
+  </div>
+</div>
+
+<script>
+function share() {
+  plausible('Share: Permalink');
+
+  if (navigator.share) {
+    navigator.share({
+      title: "elementary OS 7.1 Available Now",
+      text: "Made with care, with you in mind",
+      url: "https://blog.elementary.io/os-7-1-available-now/",
+    })
+    .catch((error) => console.log("Error sharing", error));
+
+    return false;
+  } else {
+    console.log("Sharing not supported; falling back to link");
+    return true;
+  }
+}
+</script>
+
+
+
+<h2 class="up-next">Up Next</h2>
+
+
+
+
+
+
+  
+    
+
+<a class="featured with-image 1" href="/updates-for-august-2023/">
+  
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/updates-for-august-2023/videos.png);"></div>
+  
+
+  <header>
+    <h2>
+
+
+
+   One Last Bug Fix Update Before The Big&nbsp;One
+
+</h2>
+    
+      <h3>
+        
+
+
+
+   Updates for August,&nbsp;2023
+
+
+        
+      </h3>
+    
+
+    
+
+
+
+<div class="byline">
+  <div class="avatar">
+    <img
+      
+        srcset="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&d=blank 2x"
+        src="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&d=blank"
+        alt="Avatar for Danielle Foré"
+      
+    />
+  </div>
+  <div class="author">
+    
+    <span class="name">Danielle Foré</span>
+    
+    
+      <span class="description">Founder & CEO</span>
+    
+  </div>
+  <time class="post-date" datetime="2023-09-06">Wed, Sep  6, 2023</time>
+  
+    <span class="read-time" title="Estimated read time">
+  
+  6 min read
+</span>
+
+
+  
+</div>
+
+
+  </header>
+
+  
+</a>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+<h2>Related</h2>
+<div class="related">
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+      
+
+<a class="featured with-image small" href="/updates-for-july-2023/">
+  
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/updates-for-july-2023/mail.png);"></div>
+  
+
+  <header>
+    <h2>
+
+
+
+   New Features For Mail, A More Personal Lock Screen, And System Settings&nbsp;Improvements
+
+</h2>
+    
+      <h3>
+        
+
+
+
+   Updates for July,&nbsp;2023
+
+
+        
+      </h3>
+    
+
+    
+
+
+
+<div class="byline">
+  <div class="avatar">
+    <img
+      
+        srcset="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&d=blank 2x"
+        src="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&d=blank"
+        alt="Avatar for Danielle Foré"
+      
+    />
+  </div>
+  <div class="author">
+    
+    <span class="name">Danielle Foré</span>
+    
+    
+      <span class="description">Founder & CEO</span>
+    
+  </div>
+  <time class="post-date" datetime="2023-08-05">Sat, Aug  5, 2023</time>
+  
+    <span class="read-time" title="Estimated read time">
+  
+  8 min read
+</span>
+
+
+  
+</div>
+
+
+  </header>
+
+  
+</a>
+
+
+      
+      
+    
+
+  
+
+    
+    
+
+    
+
+    
+      
+
+<a class="featured with-image small" href="/updates-for-june-2023/">
+  
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/updates-for-june-2023/color-protanopia-hc.png);"></div>
+  
+
+  <header>
+    <h2>
+
+
+
+   Big Feature Updates for Accessibility, Privacy, Security, and&nbsp;More
+
+</h2>
+    
+      <h3>
+        
+
+
+
+   Updates for June,&nbsp;2023
+
+
+        
+      </h3>
+    
+
+    
+
+
+
+<div class="byline">
+  <div class="avatar">
+    <img
+      
+        srcset="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&d=blank 2x"
+        src="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&d=blank"
+        alt="Avatar for Danielle Foré"
+      
+    />
+  </div>
+  <div class="author">
+    
+    <span class="name">Danielle Foré</span>
+    
+    
+      <span class="description">Founder & CEO</span>
+    
+  </div>
+  <time class="post-date" datetime="2023-07-05">Wed, Jul  5, 2023</time>
+  
+    <span class="read-time" title="Estimated read time">
+  
+  8 min read
+</span>
+
+
+  
+</div>
+
+
+  </header>
+
+  
+</a>
+
+
+      
+      
+    
+
+  
+
+    
+    
+
+    
+
+    
+      
+
+<a class="featured with-image small" href="/updates-for-may-2023/">
+  
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/updates-for-february-2023/card.png);"></div>
+  
+
+  <header>
+    <h2>
+
+
+
+   Getting in shape for&nbsp;summer
+
+</h2>
+    
+      <h3>
+        
+
+
+
+   Updates for May,&nbsp;2023
+
+
+        
+      </h3>
+    
+
+    
+
+
+
+<div class="byline">
+  <div class="avatar">
+    <img
+      
+        srcset="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&d=blank 2x"
+        src="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&d=blank"
+        alt="Avatar for Danielle Foré"
+      
+    />
+  </div>
+  <div class="author">
+    
+    <span class="name">Danielle Foré</span>
+    
+    
+      <span class="description">Founder & CEO</span>
+    
+  </div>
+  <time class="post-date" datetime="2023-06-02">Fri, Jun  2, 2023</time>
+  
+    <span class="read-time" title="Estimated read time">
+  
+  5 min read
+</span>
+
+
+  
+</div>
+
+
+  </header>
+
+  
+</a>
+
+
+      
+      
+    
+
+  
+
+    
+    
+
+    
+
+    
+      
+
+<a class="featured with-image small" href="/updates-for-april-2023/">
+  
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/updates-for-february-2023/card.png);"></div>
+  
+
+  <header>
+    <h2>
+
+
+
+   New features and settings, improved performance, and fewer&nbsp;bugs
+
+</h2>
+    
+      <h3>
+        
+
+
+
+   Updates for April,&nbsp;2023
+
+
+        
+      </h3>
+    
+
+    
+
+
+
+<div class="byline">
+  <div class="avatar">
+    <img
+      
+        srcset="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&d=blank 2x"
+        src="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&d=blank"
+        alt="Avatar for Danielle Foré"
+      
+    />
+  </div>
+  <div class="author">
+    
+    <span class="name">Danielle Foré</span>
+    
+    
+      <span class="description">Founder & CEO</span>
+    
+  </div>
+  <time class="post-date" datetime="2023-05-05">Fri, May  5, 2023</time>
+  
+    <span class="read-time" title="Estimated read time">
+  
+  5 min read
+</span>
+
+
+  
+</div>
+
+
+  </header>
+
+  
+</a>
+
+
+      
+      
+    
+
+  
+
+    
+    
+
+    
+
+    
+      
+
+<a class="featured with-image small" href="/updates-for-march-2023/">
+  
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/updates-for-march-2023/sideload.png);"></div>
+  
+
+  <header>
+    <h2>
+
+
+
+   Spring cleaning is in full&nbsp;effect
+
+</h2>
+    
+      <h3>
+        
+
+
+
+   Updates for March,&nbsp;2023
+
+
+        
+      </h3>
+    
+
+    
+
+
+
+<div class="byline">
+  <div class="avatar">
+    <img
+      
+        srcset="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&d=blank 2x"
+        src="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&d=blank"
+        alt="Avatar for Danielle Foré"
+      
+    />
+  </div>
+  <div class="author">
+    
+    <span class="name">Danielle Foré</span>
+    
+    
+      <span class="description">Founder & CEO</span>
+    
+  </div>
+  <time class="post-date" datetime="2023-04-05">Wed, Apr  5, 2023</time>
+  
+    <span class="read-time" title="Estimated read time">
+  
+  4 min read
+</span>
+
+
+  
+</div>
+
+
+  </header>
+
+  
+</a>
+
+
+      
+      
+    
+
+  
+
+    
+    
+
+    
+
+    
+      
+
+<a class="featured with-image small" href="/updates-for-february-2023/">
+  
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/updates-for-february-2023/card.png);"></div>
+  
+
+  <header>
+    <h2>
+
+
+
+   Big new features and a mountain of bug&nbsp;fixes
+
+</h2>
+    
+      <h3>
+        
+
+
+
+   Updates for February,&nbsp;2023
+
+
+        
+      </h3>
+    
+
+    
+
+
+
+<div class="byline">
+  <div class="avatar">
+    <img
+      
+        srcset="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&d=blank 2x"
+        src="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&d=blank"
+        alt="Avatar for Danielle Foré"
+      
+    />
+  </div>
+  <div class="author">
+    
+    <span class="name">Danielle Foré</span>
+    
+    
+      <span class="description">Founder & CEO</span>
+    
+  </div>
+  <time class="post-date" datetime="2023-03-06">Mon, Mar  6, 2023</time>
+  
+    <span class="read-time" title="Estimated read time">
+  
+  4 min read
+</span>
+
+
+  
+</div>
+
+
+  </header>
+
+  
+</a>
+
+
+      
+      
+        
+</div>
+
+
+
+      <div class="medium">
+  <hr />
+  <article>
+    <h2>Looking for More?</h2>
+    <p>While we're migrating posts to the elementary blog, some older stories are still only on the <a href="https://medium.com/elementaryos" target="_blank" onclick="plausible('Link: Medium')">official elementary Medium publication</a>. Head over there to read more.
+  </article>
+</div>
+
+
+    </section>
+    <footer>
+  <p>© 2023 elementary, Inc</p>
+  <ul>
+    <li><a href="https://elementary.io/press" target="_self">Press</a></li>
+    <li><a href="https://elementary.io/brand" target="_self">Brand</a></li>
+    <li><a href="https://elementary.io/oem" target="_self">OEMs</a></li>
+    <li><a href="https://elementary.io/privacy" target="_self">Privacy</a></li>
+    <li><a href="https://elementary.io/team" target="_self">Team</a></li>
+    <li><a href="https://elementary.io/open-source" target="_self">Open Source</a></li>
+  </ul>
+</footer>
+
+    <script>
+  // Makes figure images focusable for zooming
+  let figureImages = document.querySelectorAll ("figure img");
+  figureImages.forEach (function (figureImage) {
+    figureImage.setAttribute ("tabindex", -1);
+    document.addEventListener ('mousedown', event => {
+      if (document.activeElement === figureImage) {
+        // Prevent it from triggering on focusIn
+        setTimeout (function () {
+          document.activeElement.blur ();
+        }, 100);
+      }
+    });
+  });
+</script>
+
+
+  </body>
+</html>
