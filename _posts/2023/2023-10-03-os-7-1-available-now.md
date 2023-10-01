@@ -8,10 +8,16 @@ tags:
   - horus
   - updates
 
+sponsor:
+  name: Laptop with Linux
+  link: https://laptopwithlinux.com/?ref=36&utm_source=referral&utm_medium=elementary&utm_campaign=elementary
+  image: /images/sponsors/laptop-with-linux.svg
+  hook: "Laptop with Linux offers laptops and desktops that are perfectly tuned and optimized for use with various Linux® based operating systems, and aims to make it accessible for every computer user to switch to Linux by increasing freedom of choice."
+
 hidden: 2023-10-03 17:00:00 UTC # 9 AM PST
 ---
 
-Today, we're proud to announce that OS 7.1 is available to download now and shipping soon on several high-quality computers. This release represents the sum of our work over the last several months as a single major update to the OS 7 series and includes [all of the monthly OS updates][updates] we've detailed since the OS 7 release.
+Today, we're proud to announce that OS 7.1 is available to download now and shipping on several high-quality computers. This release represents the sum of our work over the last several months as a single major update to the OS 7 series and includes [all of the monthly OS updates][updates] we've detailed since the OS 7 release.
 
 <figure class="card" markdown="1">
 ![elementary OS 7.1](/images/{{ page.slug }}/desktop-onboarding.png)
@@ -363,6 +369,16 @@ elementary OS 7.1 is available as a pay-what-you-can purchase at [elementary.io]
 
 If you’re already on elementary OS 7, you’ll get the update to OS 7.1 alongside regular operating system updates. If you haven't already, open AppCenter and select _Update All_ to be upgraded.
 
+## Get A New Computer
+
+Our hardware retailers [Laptop with Linux], and [Star Labs] are offering elementary OS 7.1 out of the box starting today! Visit retailers' individual sites for more information.
+
+<div style="text-align: center" markdown="1">
+[Shop Devices][store]{: .button }
+</div>
+
 [elementary.io]: https://elementary.io
 [updates]: {{ site.baseurl }}/tags/#updates
-
+[Laptop with Linux]: https://laptopwithlinux.com/?ref=36&utm_source=referral&utm_medium=elementary&utm_campaign=elementary
+[Star Labs]: https://starlabs.systems/?rfsn=4227837.e8f025
+[store]: https://store.elementary.io/
