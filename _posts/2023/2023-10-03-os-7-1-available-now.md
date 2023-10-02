@@ -12,7 +12,7 @@ sponsor:
   name: Laptop with Linux
   link: https://laptopwithlinux.com/
   image: /images/sponsors/laptop-with-linux.svg
-  hook: "Laptop with Linux offers laptops and desktops that are perfectly tuned and optimized for use with various Linux® based operating systems, and aims to make it accessible for every computer user to switch to Linux by increasing freedom of choice."
+  hook: "Laptop with Linux offers laptops and desktops that are perfectly tuned and optimized for use with various Linux based operating systems and ships worldwide! They aim to make switching to Linux accessible for every computer user by increasing freedom of choice."
 
 hidden: 2023-10-03 17:00:00 UTC # 9 AM PST
 ---
