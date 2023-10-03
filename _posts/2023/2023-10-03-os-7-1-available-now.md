@@ -13,8 +13,6 @@ sponsor:
   link: https://laptopwithlinux.com/
   image: /images/sponsors/laptop-with-linux.svg
   hook: "Laptop with Linux offers laptops and desktops that are perfectly tuned and optimized for use with various Linux based operating systems and ships worldwide! They aim to make switching to Linux accessible for every computer user by increasing freedom of choice."
-
-hidden: 2023-10-03 17:00:00 UTC # 9 AM PST
 ---
 
 Today, we're proud to announce that OS 7.1 is available to download now and shipping on several high-quality computers. This release represents the sum of our work over the last several months as a single major update to the OS 7 series and includes [all of the monthly OS updates][updates] we've detailed since the OS 7 release.
