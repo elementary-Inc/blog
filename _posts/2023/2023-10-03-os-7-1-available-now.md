@@ -7,6 +7,7 @@ image: /images/os-7-1-available-now/card.png
 tags:
   - horus
   - updates
+  - release
 
 sponsor:
   name: Laptop with Linux
