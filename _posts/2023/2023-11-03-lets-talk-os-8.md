@@ -52,4 +52,10 @@ Of course to make this and more happen we need to talk about funding! elementary
 
 ## Get Experimental Builds Now
 
-Sponsors on GitHub can download the latest daily builds of elementary OS and experimental builds for platforms like Raspberry Pi and Pinebook Pro. This is the best way to support our development and follow along yourself. And very early builds of OS 8 built from Ubuntu 24.04 repositories are available to download in Early Access right now! They aren't currently usable, but they will be soonish. Hang tight for more updates there. I think we're moving quite quickly as Launchpad builds for Ubuntu Noble only became available last week!
+[Sponsors on GitHub](https://github.com/sponsors/elementary) can download the latest daily builds of elementary OS and experimental builds for platforms like Raspberry Pi and Pinebook Pro. This is the best way to support our development and follow along yourself. And very early builds of OS 8 built from Ubuntu 24.04 repositories are available to download in Early Access right now! They aren't currently usable, but they will be soonish. Hang tight for more updates there. I think we're moving quite quickly as Launchpad builds for Ubuntu Noble only became available last week!
+
+<div style="text-align: center" markdown="1">
+[Get Early Access][Early Access]{: .button.suggested }
+</div>
+
+[Early Access]: https://builds.elementary.io
