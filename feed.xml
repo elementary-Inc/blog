@@ -5,8 +5,8 @@
     <description>We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS</description>
     <link>https://blog.elementary.io/</link>
     <atom:link href="https://blog.elementary.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 03 Nov 2023 16:58:33 -0500</pubDate>
-    <lastBuildDate>Fri, 03 Nov 2023 16:58:33 -0500</lastBuildDate>
+    <pubDate>Fri, 03 Nov 2023 17:52:09 -0500</pubDate>
+    <lastBuildDate>Fri, 03 Nov 2023 17:52:09 -0500</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       
@@ -32,7 +32,7 @@
 
 &lt;p&gt;One the largest and most ambitious goals we have for OS 8 is to use the Wayland display server protocol by default. This is a transition that we have been planning and working towards for several years and we’re finally in the home stretch. Folks in our &lt;a href=&quot;https://builds.elementary.io/downloads&quot;&gt;Early Access&lt;/a&gt; program know that we have an experimental Wayland session of Pantheon available to test right now. We’re currently tracking issues related to completing the Wayland transition in &lt;a href=&quot;https://github.com/orgs/elementary/projects/118&quot;&gt;this GitHub project&lt;/a&gt;. Wayland will bring us improved performance, better app security, and opens the doors to support more complex display setups like mixed DPI multi-monitor setups.&lt;/p&gt;
 
-&lt;p&gt;As part of the Wayland transition, Pantheon needs a new Dock. Plank was written in a time long before many modern APIs and depends on a window matching library that is both incompatible with Wayland’s security library and has proved to be increasingly inaccurate with some sandboxed apps. In both design and implementation we need a new solution. You may remember that we &lt;a href=&quot;https://blog.elementary.io/2021-ui-study-results-dock-multitasking/&quot;&gt;conducted a survey in 2021&lt;/a&gt; which resulted in &lt;a href=&quot;https://github.com/orgs/elementary/projects/99/views/1&quot;&gt;this project board&lt;/a&gt; and I’m happy to report that some initial work on the new Dock has begun &lt;a href=&quot;https://github.com/elementary/dock&quot;&gt;here&lt;/a&gt;, including a new wayland-compatible window matching API that talks directly to Gala. There’s also a Discussion post about the new Dock &lt;a href=&quot;https://github.com/orgs/elementary/discussions/337&quot;&gt;here&lt;/a&gt; if you’d like to share your ideas.&lt;/p&gt;
+&lt;p&gt;As part of the Wayland transition, Pantheon needs a new Dock. Plank was written in a time long before many modern APIs and depends on a window matching library that is both incompatible with Wayland’s security model and has proved to be increasingly inaccurate with some sandboxed apps. In both design and implementation we need a new solution. You may remember that we &lt;a href=&quot;https://blog.elementary.io/2021-ui-study-results-dock-multitasking/&quot;&gt;conducted a survey in 2021&lt;/a&gt; which resulted in &lt;a href=&quot;https://github.com/orgs/elementary/projects/99/views/1&quot;&gt;this project board&lt;/a&gt; and I’m happy to report that some initial work on the new Dock has begun &lt;a href=&quot;https://github.com/elementary/dock&quot;&gt;here&lt;/a&gt;, including a new wayland-compatible window matching API that talks directly to Gala. There’s also a Discussion post about the new Dock &lt;a href=&quot;https://github.com/orgs/elementary/discussions/337&quot;&gt;here&lt;/a&gt; if you’d like to share your ideas.&lt;/p&gt;
 
 &lt;h2 id=&quot;gtk-4&quot;&gt;GTK 4&lt;/h2&gt;
 
