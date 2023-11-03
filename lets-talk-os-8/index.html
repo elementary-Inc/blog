@@ -3,10 +3,10 @@
   <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>A New Native File Chooser &sdot; elementary Blog</title>
-  <meta property="og:title" content="A New Native File Chooser" />
-  <meta itemprop="name" content="A New Native File Chooser" />
-  <meta name="twitter:title" content="A New Native File Chooser" />
+  <title>Let's Talk OS 8 &sdot; elementary Blog</title>
+  <meta property="og:title" content="Let's Talk OS 8" />
+  <meta itemprop="name" content="Let's Talk OS 8" />
+  <meta name="twitter:title" content="Let's Talk OS 8" />
 
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -28,15 +28,15 @@
     
     
     <meta name="twitter:card" content="summary_large_image" />
-    <meta property="twitter:image" content="https://cdn-images-1.medium.com/max/1600/1*FgU8d63DkrYohV6JejUmFA.png" />
+    <meta property="twitter:image" content="https://blog.elementary.io/images/lets-talk-os-8/card.png" />
   
   <meta name="twitter:site" content="@elementary" />
   <meta name="twitter:creator" content="@elementary" />
 
-  <meta name="description" content="And how you can get your apps ready for it" />
-  <meta property="og:description" content="And how you can get your apps ready for it" />
-  <meta itemprop="description" content="And how you can get your apps ready for it" />
-  <meta name="twitter:description" content="And how you can get your apps ready for it" />
+  <meta name="description" content="Development on the next major version of elementary OS has begun" />
+  <meta property="og:description" content="Development on the next major version of elementary OS has begun" />
+  <meta itemprop="description" content="Development on the next major version of elementary OS has begun" />
+  <meta name="twitter:description" content="Development on the next major version of elementary OS has begun" />
 
   <link rel="stylesheet" type="text/css" media="all" href="/css/main.css?v=2023-11-03 16:58:33 -0500" />
   
@@ -138,10 +138,6 @@
   
   
   
-    <aside class="outdated">
-      <strong>Note:</strong> this post was written over two years ago. The information below may be outdated.
-    </aside>
-  
 
 
 
@@ -152,7 +148,7 @@
 
 
 
-   A New Native File&nbsp;Chooser
+   Let's Talk OS&nbsp;8
 
 </h1>
     
@@ -160,7 +156,7 @@
 
 
 
-   And how you can get your apps ready for&nbsp;it
+   Development on the next major version of elementary OS has&nbsp;begun
 
 </h2>
     
@@ -187,11 +183,11 @@
       <span class="description">Founder & CEO</span>
     
   </div>
-  <time class="post-date" datetime="2019-03-11">Mon, Mar 11, 2019</time>
+  <time class="post-date" datetime="2023-11-03">Fri, Nov  3, 2023</time>
   
     <span class="read-time" title="Estimated read time">
   
-  3 min read
+  9 min read
 </span>
 
 
@@ -202,9 +198,7 @@
     <aside class="tags">
   
   
-    <a class="tag" href="/tags/#devs">#devs</a>
-  
-    <a class="tag" href="/tags/#flatpak">#flatpak</a>
+    <a class="tag" href="/tags/#early-access">#early-access</a>
   
 </aside>
 
@@ -212,35 +206,55 @@
   </header>
 
   <section>
-    <p>About 3 years ago now, we were faced with a bit of a problem: the design of the file chooser in Gtk was rapidly becoming out of sync with the design of Files and with dialogs in elementary OS in general as part of a redesign effort within GNOME. This change moved action buttons from their familiar location and stripped color from the sidebar, among other things. So, shortly after the release of elementary OS Freya, we debuted our own redesigned file chooser dialog using the Gtk.Module system.</p>
+    <p>One month ago today <a rel="nofollow noopener noreferrer" target="_blank" href="https://blog.elementary.io/os-7-1-available-now/">we released elementary OS 7.1</a> which provides new personalization options that make it more inclusive and accessible, protects your privacy and ensures apps always operate with your explicit consent, and addresses your feedback with over 200 bug fixes, design changes, and new features. This point release concludes our feature focus on the OS 7 series and development focus has now shifted to OS 8! Let’s take a look at what that means and the progress we’ve made in the last month.</p>
 
-<figure>
-  <p><img src="https://cdn-images-1.medium.com/max/1600/1*yB-G9JZPcLUxiPjB76RnhQ@2x.png" alt="Current FileChooserDialog in elementary OS 5 Juno" /></p>
-  <figcaption>Current FileChooserDialog in elementary OS 5 Juno</figcaption>
-</figure>
+<h2 id="what-happens-to-os-7">What happens to OS 7?</h2>
 
-<p>This was great because we were able to do things like keep the action bar at the bottom of the dialog, restore color to the sidebar icons, and make use of Files’ smart pathbar. But, there are limitations to what we can do with Gtk.Module. At the end of the day, we can only ship a modified Gtk file chooser dialog and we must make sure that our Gtk.Module doesn’t break when the upstream Gtk chooser changes. This can be difficult at times, as we’ve seen that some users have experienced a file chooser with no action area at all. It’s not an ideal solution and to improve the situation, we need something new.</p>
+<p>Folks running elementary OS 7 should expect fewer updates from this point forward. We do our best to continue to provide bug fix updates for as long as is reasonable—which sometimes extends into the lifecycle of the next major series—but the OS 7 series should largely be considered complete. There are a number of large architectural changes and transitions expected for the OS 8 series which means that some components will not be able to be backported to OS 7. All apps provided as Flatpak packages however will continue to receive updates indefinitely. That means all AppCenter apps, sideloaded Flatpak apps, and a decent portion of pre-installed apps—Calculator, Camera, the Captive Network Assistant, Videos, Music, Screenshot, GNOME Web, Document Viewer, and Archive Manager—will all continue to receive both bug fix and feature updates effectively forever. And since we build elementary OS from the Ubuntu Long Term Support repositories, you’ll continue to receive security and bug fix updates from Canonical until 2027. So while OS 7 is no longer our development focus, you can still expect regular maintenance for quite some time!</p>
 
-<h2 id="filechoosernative-portals">FileChooserNative + Portals</h2>
+<h2 id="os-8s-roadmap--predicted-release-date">OS 8’s Roadmap &amp; Predicted Release Date</h2>
 
-<p>In preparing for a new world of sandboxed apps, Gtk has made a pretty big change: the file chooser dialog has moved from being a widget living inside of a given app to a separate process that apps communicate with through <a rel="nofollow noopener noreferrer" target="_blank" href="https://blogs.gnome.org/alexl/2017/01/24/the-flatpak-security-model-part-3-the-long-game/">Portals</a>. This is huge for security and privacy because it means that when an app asks you to open a file or folder, it no longer needs permission to read your file system. Instead, only that separate, trusted file chooser must have these elevated permissions.</p>
+<p>If you’re familiar with the development cycle of elementary OS, you will know that <strong>we don’t predict release dates</strong> ahead of time and instead opt to release a new version of elementary OS when we feel it is ready. This next major version of elementary OS is being built from the Ubuntu 24.04 repositories which means that at the earliest OS 8 won’t be released until at least April of 2024, but historically it takes several months of additional work before a major new series is ready to debut. We have a number of very ambitious goals for OS 8, so while my hope is that we can complete this work in the next 6 months, the focus will always be on releasing when it’s ready.</p>
 
-<p>Also, since the file chooser is its own separate process, Gtk itself no longer has to supply the file chooser. This means that Gtk apps can use custom fully-native file choosers from not just GNOME, but also other platforms implementing the file chooser portal like Plasma, Windows, macOS, and soon elementary OS.</p>
+<p>We have a <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/orgs/elementary/projects/128/views/1">release planning project on GitHub</a> which you can use to follow along with the status of development. This project contains the list of goals targeted for OS 8 as well as our progress on completing those goals. At the moment, we’re deep in the planning phase which means this project board is very messy and has some very broad draft items on it. Over time we’ll refine this down to very granular action items and some of the proposals on this list may not make it into the initial release. But the most important thing to know is that OS 8 won’t be released until this project board is cleared. So you can use this board to get a picture of how close or far we are away from releasing.</p>
 
-<figure>
-  <p><img src="https://cdn-images-1.medium.com/max/1600/1*FgU8d63DkrYohV6JejUmFA.png" alt="Original FileChooser mockup from 2013" /></p>
-  <figcaption>Original FileChooser mockup from 2013</figcaption>
-</figure>
+<h2 id="the-idea-phase">The Idea Phase</h2>
 
-<p>For us, this immediately means complete control over the design of our file chooser without any hacky, unstable modifications of another code base. We can directly re-purpose and share widgets from Files like the smart pathbar, sidebar, and views for greater consistency between the two. In the short term, it also means we can add features like consistent image previews or file search. Eventually, we can integrate all the same views found in Files like grid and columns. In the long term, we might even be able to create special custom views of system libraries like photos or music. It really opens up a whole new realm of possibilities in the features and design we can provide.</p>
+<p>Since we’re at the very start of the development cycle, this is the perfect time for you to get involved and share your vision for the next major version of elementary OS! We have a GitHub Discussions section where <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/orgs/elementary/discussions/categories/ideas">you can submit your proposals at any time</a>, as well as see and vote on the ideas that others have proposed. This is a great way to communicate to the team what you feel is most important. We have our own ideas of the things we’d like to accomplish, but we love hearing directly from you!</p>
 
-<h2 id="get-ready-developers">Get Ready, Developers</h2>
+<h2 id="wayland">Wayland</h2>
 
-<p>While the new native file chooser using portals isn’t ready yet, apps can replace their usage of <code class="language-plaintext highlighter-rouge">Gtk.FileChooserDialog</code> with <code class="language-plaintext highlighter-rouge">Gtk.FileChooserNative</code> today. When the new file chooser portal is available, apps will upgrade automatically to use it.</p>
+<p>One the largest and most ambitious goals we have for OS 8 is to use the Wayland display server protocol by default. This is a transition that we have been planning and working towards for several years and we’re finally in the home stretch. Folks in our <a rel="nofollow noopener noreferrer" target="_blank" href="https://builds.elementary.io/downloads">Early Access</a> program know that we have an experimental Wayland session of Pantheon available to test right now. We’re currently tracking issues related to completing the Wayland transition in <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/orgs/elementary/projects/118">this GitHub project</a>. Wayland will bring us improved performance, better app security, and opens the doors to support more complex display setups like mixed DPI multi-monitor setups.</p>
 
-<p>As always, you can find documentation regarding the usage of <code class="language-plaintext highlighter-rouge">Gtk.FileChooserNative</code> <a rel="nofollow noopener noreferrer" target="_blank" href="https://valadoc.org/gtk+-3.0/Gtk.FileChooserNative.html">on Valadoc</a>. It’s worth noting that while the API for <code class="language-plaintext highlighter-rouge">Gtk.FileChooserNative</code> is very close to <code class="language-plaintext highlighter-rouge">Gtk.FileChooserDialog</code> there are some restrictions and apps will no longer be able to interfere with the dialog while it’s open.</p>
+<p>As part of the Wayland transition, Pantheon needs a new Dock. Plank was written in a time long before many modern APIs and depends on a window matching library that is both incompatible with Wayland’s security library and has proved to be increasingly inaccurate with some sandboxed apps. In both design and implementation we need a new solution. You may remember that we <a rel="nofollow noopener noreferrer" target="_blank" href="https://blog.elementary.io/2021-ui-study-results-dock-multitasking/">conducted a survey in 2021</a> which resulted in <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/orgs/elementary/projects/99/views/1">this project board</a> and I’m happy to report that some initial work on the new Dock has begun <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/elementary/dock">here</a>, including a new wayland-compatible window matching API that talks directly to Gala. There’s also a Discussion post about the new Dock <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/orgs/elementary/discussions/337">here</a> if you’d like to share your ideas.</p>
 
-<p>If you’d like to track our progress porting elementary apps to <code class="language-plaintext highlighter-rouge">Gtk.FileChooserNative</code> or see code examples, you can follow along with <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/orgs/elementary/projects/45">this GitHub project</a>.</p>
+<h2 id="gtk-4">GTK 4</h2>
+
+<p>You may be aware that we started our GTK 4 transition as part of the OS 7 development cycle and are currently shipping several GTK 4 components and apps. This transition continues into the OS 8 cycle where we’re already planning to land or have landed several more ports. The Captive Network Assistant, Initial Setup, and Videos have all landed GTK 4 ports in their development main branch. The port for AppCenter is near completion, and ports for several other apps and components are in progress. Notably, System Settings has just over half of its panes ported to GTK 4 in its development main branch. We’re <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/orgs/elementary/projects/95">tracking GTK 4 porting in GitHub here</a> so you can follow along with our progress.</p>
+
+<p>The transition to GTK 4 has required some pretty major rewrites in some components and ties in heavily with making things Wayland-ready. Along the way we’ve been modernizing code that has existed in Pantheon for the past decade, adopting the latest code style, development patterns, and libraries, fixing old bugs, improving performance, and resolving accessibility issues. We’ve also implemented more responsive design patterns that work on large and small displays, as well as addressing UX concerns, and improving multitouch gesture support. So you can expect a vastly improved Pantheon in every area as part of our transition to GTK 4.</p>
+
+<h2 id="settings">Settings</h2>
+
+<p>As part of our work on <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/orgs/elementary/projects/109">Responsive Design</a>, System Settings will need some major design changes. There are some prototypes for modernizing its design and navigation but the number of views here makes this a very challenging project. We’ve made a lot of progress but there’s still quite some ways to go for System Settings to be usable on something like a phone.</p>
+
+<p>Likewise, the design of the indicator area has remained largely the same since OS 0.4 which was released in 2016. In recent years every mainstream operating system has adopted a Quick Settings menu design which lends itself much better to responsive contexts as well. There’s quite a bit more background and prior art in <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/elementary/wingpanel/discussions/446">this discussion post</a>, and we have some very early development work towards a Quick Settings menu design for Pantheon <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/elementary/quick-settings">here</a>. This is a project that I will caveat may be too ambitious to complete before the release of OS 8, but thanks to the modular nature of our Panel, it might be possible to have something of a transition period. We’ll have to see how development evolves!</p>
+
+<h2 id="and-more">And More</h2>
+
+<p>These are just some of the big picture ideas and most visible and ambitious projects that we’re pursuing and the ones which we’ve taken concrete steps towards. There are other things that we’re experimenting with, like the possibility of an immutable OS, and there are more mundane things that will certainly happen like shipping Pipewire. You’ll also see on the project board that we’re looking to replace the onscreen keyboard and it’s time to re-evaluate some things like SystemD Boot. You can expect lots more little features to be detailed over the coming months. What I hope is clear is that we’re looking at some of the largest changes to the design of Pantheon and its underlying architecture in quite some years for OS 8.</p>
+
+<h2 id="funding">Funding</h2>
+
+<p>Of course to make this and more happen we need to talk about funding! elementary is a super tiny software company that currently only has one full-time employee. Like many tech companies right now, sales have been a bit of a struggle and we’ve been working on tightening up our budget. One of the biggest ways you can help is by purchasing a copy of elementary OS or <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/sponsors/elementary">sponsoring us on GitHub</a>. We use these funds to hire contractors and sponsor our community members as well as for purchasing hardware for testing and enablement. So if you’re particularly interested in running elementary OS on ARM or tablet devices or with things like pen input, having a hardware budget is a great help. We also need funds to be able to attend major developer summits like GUADEC so that we can continue to collaborate effectively with the larger FreeDesktop ecosystem. And with enough funding it would be great to expand our full-time development team.</p>
+
+<h2 id="get-experimental-builds-now">Get Experimental Builds Now</h2>
+
+<p><a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/sponsors/elementary">Sponsors on GitHub</a> can download the latest daily builds of elementary OS and experimental builds for platforms like Raspberry Pi and Pinebook Pro. This is the best way to support our development and follow along yourself. And very early builds of OS 8 built from Ubuntu 24.04 repositories are available to download in Early Access right now! They aren’t currently usable, but they will be soonish. Hang tight for more updates there. I think we’re moving quite quickly as Launchpad builds for Ubuntu Noble only became available last week!</p>
+
+<div style="text-align: center">
+  <p><a rel="nofollow noopener noreferrer" target="_blank" href="https://builds.elementary.io" class="button suggested">Get Early Access</a></p>
+</div>
 
 
   </section>
@@ -404,7 +418,7 @@
     
 
     <a
-      href="https://twitter.com/intent/tweet?text=A New Native File Chooser&url=https://blog.elementary.io/a-new-native-file-chooser/&via=elementary&original_referer=https://blog.elementary.io/a-new-native-file-chooser/"
+      href="https://twitter.com/intent/tweet?text=Let's Talk OS 8&url=https://blog.elementary.io/lets-talk-os-8/&via=elementary&original_referer=https://blog.elementary.io/lets-talk-os-8/"
       rel="noreferrer nofollow noopener"
       target="_blank"
       title="Twitter"
@@ -414,7 +428,7 @@
     </a>
 
     <a
-      href="http://www.reddit.com/submit?title=A New Native File Chooser&url=https://blog.elementary.io/a-new-native-file-chooser/"
+      href="http://www.reddit.com/submit?title=Let's Talk OS 8&url=https://blog.elementary.io/lets-talk-os-8/"
       rel="noreferrer nofollow noopener"
       target="_blank"
       title="Reddit"
@@ -424,7 +438,7 @@
     </a>
 
     <a
-      href="https://www.facebook.com/sharer/sharer.php?u=https://blog.elementary.io/a-new-native-file-chooser/"
+      href="https://www.facebook.com/sharer/sharer.php?u=https://blog.elementary.io/lets-talk-os-8/"
       rel="noreferrer nofollow noopener"
       target="_blank"
       title="Facebook"
@@ -434,7 +448,7 @@
     </a>
 
     <a
-      href="https://blog.elementary.io/a-new-native-file-chooser/"
+      href="https://blog.elementary.io/lets-talk-os-8/"
       title="Permalink"
       onclick="return share()"
     >
@@ -449,9 +463,9 @@ function share() {
 
   if (navigator.share) {
     navigator.share({
-      title: "A New Native File Chooser",
-      text: "And how you can get your apps ready for it",
-      url: "https://blog.elementary.io/a-new-native-file-chooser/",
+      title: "Let's Talk OS 8",
+      text: "Development on the next major version of elementary OS has begun",
+      url: "https://blog.elementary.io/lets-talk-os-8/",
     })
     .catch((error) => console.log("Error sharing", error));
 
@@ -468,12 +482,16 @@ function share() {
 <h2 class="up-next">Up Next</h2>
 
 
+
+
+
+
   
     
 
-<a class="featured with-image 1" href="/lets-talk-os-8/">
+<a class="featured with-image 1" href="/os-7-1-available-now/">
   
-    <div class="featured-image" alt="Featured image" style="background-image: url(/images/lets-talk-os-8/card.png);"></div>
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/os-7-1-available-now/card.png);"></div>
   
 
   <header>
@@ -481,7 +499,7 @@ function share() {
 
 
 
-   Let's Talk OS&nbsp;8
+   elementary OS 7.1 Available&nbsp;Now
 
 </h2>
     
@@ -490,7 +508,7 @@ function share() {
 
 
 
-   Development on the next major version of elementary OS has&nbsp;begun
+   Made with care, with you in&nbsp;mind
 
 
         
@@ -519,159 +537,11 @@ function share() {
       <span class="description">Founder & CEO</span>
     
   </div>
-  <time class="post-date" datetime="2023-11-03">Fri, Nov  3, 2023</time>
+  <time class="post-date" datetime="2023-10-03">Tue, Oct  3, 2023</time>
   
     <span class="read-time" title="Estimated read time">
   
-  9 min read
-</span>
-
-
-  
-</div>
-
-
-  </header>
-
-  
-</a>
-
-
-  
-
-
-
-  
-    
-      
-
-<a class="featured with-image 1" href="/parental-controls-metered-data-hackfest/">
-  
-    <div class="featured-image" alt="Featured image" style="background-image: url(https://cdn-images-1.medium.com/max/2000/1*1RRs1e_qsZVBgvddOEUElw.jpeg);"></div>
-  
-
-  <header>
-    <h2>
-
-
-
-   Parental Controls & Metered Data&nbsp;Hackfest
-
-</h2>
-    
-      <h3>
-        
-
-
-
-   Working with GNOME on shared&nbsp;features
-
-
-        
-      </h3>
-    
-
-    
-
-
-
-<div class="byline">
-  <div class="avatar">
-    <img
-      
-        srcset="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&d=blank 2x"
-        src="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&d=blank"
-        alt="Avatar for Cassidy James Blaede"
-      
-    />
-  </div>
-  <div class="author">
-    
-    <span class="name">Cassidy James Blaede</span>
-    
-    
-      <span class="description">Former Co-founder & CXO</span>
-    
-  </div>
-  <time class="post-date" datetime="2019-03-21">Thu, Mar 21, 2019</time>
-  
-    <span class="read-time" title="Estimated read time">
-  
-  8 min read
-</span>
-
-
-  
-</div>
-
-
-  </header>
-
-  
-</a>
-
-
-    
-  
-
-
-
-  
-    
-
-<a class="featured with-image 1" href="/juno-updates-for-february-2019/">
-  
-    <div class="featured-image" alt="Featured image" style="background-image: url(https://cdn-images-1.medium.com/max/1600/1*h2xQZXwatwpPoUcaNbLcQg@2x.png);"></div>
-  
-
-  <header>
-    <h2>
-
-
-
-   Juno Updates for February,&nbsp;2019
-
-</h2>
-    
-      <h3>
-        
-
-
-
-   Bug fixes and performance&nbsp;improvements
-
-
-        
-      </h3>
-    
-
-    
-
-
-
-<div class="byline">
-  <div class="avatar">
-    <img
-      
-        srcset="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&d=blank 2x"
-        src="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&d=blank"
-        alt="Avatar for Danielle Foré"
-      
-    />
-  </div>
-  <div class="author">
-    
-    <span class="name">Danielle Foré</span>
-    
-    
-      <span class="description">Founder & CEO</span>
-    
-  </div>
-  <time class="post-date" datetime="2019-03-02">Sat, Mar  2, 2019</time>
-  
-    <span class="read-time" title="Estimated read time">
-  
-  5 min read
+  22 min read
 </span>
 
 
@@ -958,77 +828,6 @@ function share() {
     
 
     
-      
-
-<a class="featured with-image small" href="/elementary-os-6-odin-released/">
-  
-    <div class="featured-image" alt="Featured image" style="background-image: url(/images/elementary-os-6-odin-released/odin.png);"></div>
-  
-
-  <header>
-    <h2>
-
-
-
-   elementary OS 6 Odin Available&nbsp;Now
-
-</h2>
-    
-      <h3>
-        
-
-
-
-   It’s finally here, and it’s the biggest update to the platform&nbsp;yet
-
-
-        
-      </h3>
-    
-
-    
-
-
-
-<div class="byline">
-  <div class="avatar">
-    <img
-      
-        srcset="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&d=blank 2x"
-        src="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&d=blank"
-        alt="Avatar for Cassidy James Blaede"
-      
-    />
-  </div>
-  <div class="author">
-    
-    <span class="name">Cassidy James Blaede</span>
-    
-    
-      <span class="description">Former Co-founder & CXO</span>
-    
-  </div>
-  <time class="post-date" datetime="2021-08-10">Tue, Aug 10, 2021</time>
-  
-    <span class="read-time" title="Estimated read time">
-  
-  24 min read
-</span>
-
-
-  
-</div>
-
-
-  </header>
-
-  
-</a>
-
-
-      
-      
-    
 
   
 
@@ -1037,77 +836,6 @@ function share() {
 
     
 
-    
-      
-
-<a class="featured with-image small" href="/edw-2021/">
-  
-    <div class="featured-image" alt="Featured image" style="background-image: url(/images/edw-2021/card.png);"></div>
-  
-
-  <header>
-    <h2>
-
-
-
-   elementary Developer Week&nbsp;2021
-
-</h2>
-    
-      <h3>
-        
-
-
-
-   Online · June 26–27,&nbsp;2021
-
-
-        
-      </h3>
-    
-
-    
-
-
-
-<div class="byline">
-  <div class="avatar">
-    <img
-      
-        srcset="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&d=blank 2x"
-        src="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&d=blank"
-        alt="Avatar for Cassidy James Blaede"
-      
-    />
-  </div>
-  <div class="author">
-    
-    <span class="name">Cassidy James Blaede</span>
-    
-    
-      <span class="description">Former Co-founder & CXO</span>
-    
-  </div>
-  <time class="post-date" datetime="2021-06-26">Sat, Jun 26, 2021</time>
-  
-    <span class="read-time" title="Estimated read time">
-  
-  1 min read
-</span>
-
-
-  
-</div>
-
-
-  </header>
-
-  
-</a>
-
-
-      
-      
     
 
   
@@ -1198,77 +926,6 @@ function share() {
     
 
     
-      
-
-<a class="featured with-image small" href="/appcenter-dashboard-sprint/">
-  
-    <div class="featured-image" alt="Featured image" style="background-image: url(/images/appcenter-dashboard-sprint/owen-lystrup-unsplash.jpg);"></div>
-  
-
-  <header>
-    <h2>
-
-
-
-   AppCenter Dashboard Sprint Spring&nbsp;2021
-
-</h2>
-    
-      <h3>
-        
-
-
-
-   Big steps for the Flatpak-based&nbsp;AppCenter
-
-
-        
-      </h3>
-    
-
-    
-
-
-
-<div class="byline">
-  <div class="avatar">
-    <img
-      
-        srcset="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=96&d=blank 2x"
-        src="https://www.gravatar.com/avatar/1f3cc76b99b5d0dae8381a23f52ea96d?s=48&d=blank"
-        alt="Avatar for Danielle Foré"
-      
-    />
-  </div>
-  <div class="author">
-    
-    <span class="name">Danielle Foré</span>
-    
-    
-      <span class="description">Founder & CEO</span>
-    
-  </div>
-  <time class="post-date" datetime="2021-05-27">Thu, May 27, 2021</time>
-  
-    <span class="read-time" title="Estimated read time">
-  
-  5 min read
-</span>
-
-
-  
-</div>
-
-
-  </header>
-
-  
-</a>
-
-
-      
-      
-    
 
   
 
@@ -1332,7 +989,7 @@ function share() {
   
     <span class="read-time" title="Estimated read time">
   
-  12 min read
+  13 min read
 </span>
 
 
@@ -1376,119 +1033,11 @@ function share() {
     
 
     
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
       
 
-<a class="featured with-image small" href="/updates-for-june-2020/">
+<a class="featured with-image small" href="/look-and-feel-changes-elementary-os-6/">
   
-    <div class="featured-image" alt="Featured image" style="background-image: url(/images/hera-updates-for-june-2020/card.png);"></div>
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/look-and-feel-changes-coming-elementary-os-6/card.png);"></div>
   
 
   <header>
@@ -1496,7 +1045,7 @@ function share() {
 
 
 
-   Hera Updates for June,&nbsp;2020
+   Look & Feel Changes Coming to elementary OS&nbsp;6
 
 </h2>
     
@@ -1505,7 +1054,7 @@ function share() {
 
 
 
-   Fixes and improvements with OS 5.1.6, plus a note about the&nbsp;future
+   Visual design updates that are more than skin&nbsp;deep
 
 
         
@@ -1534,7 +1083,247 @@ function share() {
       <span class="description">Founder & CEO</span>
     
   </div>
-  <time class="post-date" datetime="2020-07-01">Wed, Jul  1, 2020</time>
+  <time class="post-date" datetime="2021-03-05">Fri, Mar  5, 2021</time>
+  
+    <span class="read-time" title="Estimated read time">
+  
+  9 min read
+</span>
+
+
+  
+</div>
+
+
+  </header>
+
+  
+</a>
+
+
+      
+      
+    
+
+  
+
+    
+    
+
+    
+
+    
+      
+
+<a class="featured with-image small" href="/hardware-improvements-coming-to-elementary-os/">
+  
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/hardware-improvements-coming-to-elementary-os/card.png);"></div>
+  
+
+  <header>
+    <h2>
+
+
+
+   Hardware Improvements Coming to elementary&nbsp;OS
+
+</h2>
+    
+      <h3>
+        
+
+
+
+   Working with device makers shows how a rising tide lifts all&nbsp;boats
+
+
+        
+      </h3>
+    
+
+    
+
+
+
+<div class="byline">
+  <div class="avatar">
+    <img
+      
+        srcset="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&d=blank 2x"
+        src="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&d=blank"
+        alt="Avatar for Cassidy James Blaede"
+      
+    />
+  </div>
+  <div class="author">
+    
+    <span class="name">Cassidy James Blaede</span>
+    
+    
+      <span class="description">Former Co-founder & CXO</span>
+    
+  </div>
+  <time class="post-date" datetime="2021-02-03">Wed, Feb  3, 2021</time>
+  
+    <span class="read-time" title="Estimated read time">
+  
+  9 min read
+</span>
+
+
+  
+</div>
+
+
+  </header>
+
+  
+</a>
+
+
+      
+      
+    
+
+  
+
+    
+    
+
+    
+
+    
+      
+
+<a class="featured with-image small" href="/our-2020-in-review/">
+  
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/our-2020-in-review/card.jpg);"></div>
+  
+
+  <header>
+    <h2>
+
+
+
+   Our 2020 in&nbsp;Review
+
+</h2>
+    
+      <h3>
+        
+
+
+
+   …what a&nbsp;year.
+
+
+        
+      </h3>
+    
+
+    
+
+
+
+<div class="byline">
+  <div class="avatar">
+    <img
+      
+        srcset="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&d=blank 2x"
+        src="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&d=blank"
+        alt="Avatar for Cassidy James Blaede"
+      
+    />
+  </div>
+  <div class="author">
+    
+    <span class="name">Cassidy James Blaede</span>
+    
+    
+      <span class="description">Former Co-founder & CXO</span>
+    
+  </div>
+  <time class="post-date" datetime="2020-12-31">Thu, Dec 31, 2020</time>
+  
+    <span class="read-time" title="Estimated read time">
+  
+  12 min read
+</span>
+
+
+  
+</div>
+
+
+  </header>
+
+  
+</a>
+
+
+      
+      
+    
+
+  
+
+    
+    
+
+    
+
+    
+      
+
+<a class="featured with-image small" href="/elementary-os-on-raspberry-pi/">
+  
+    <div class="featured-image" alt="Featured image" style="background-image: url(/images/elementary-os-on-raspberry-pi/desktop.jpg);"></div>
+  
+
+  <header>
+    <h2>
+
+
+
+   elementary OS on Raspberry&nbsp;Pi
+
+</h2>
+    
+      <h3>
+        
+
+
+
+   Continuing our experimental Early Access&nbsp;builds
+
+
+        
+      </h3>
+    
+
+    
+
+
+
+<div class="byline">
+  <div class="avatar">
+    <img
+      
+        srcset="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=96&d=blank 2x"
+        src="https://www.gravatar.com/avatar/41275ecc8271aca852ce2c0ff72d2610?s=48&d=blank"
+        alt="Avatar for Cassidy James Blaede"
+      
+    />
+  </div>
+  <div class="author">
+    
+    <span class="name">Cassidy James Blaede</span>
+    
+    
+      <span class="description">Former Co-founder & CXO</span>
+    
+  </div>
+  <time class="post-date" datetime="2020-12-04">Fri, Dec  4, 2020</time>
   
     <span class="read-time" title="Estimated read time">
   
