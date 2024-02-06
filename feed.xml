@@ -5,9 +5,94 @@
     <description>We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS</description>
     <link>https://blog.elementary.io/</link>
     <atom:link href="https://blog.elementary.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 05 Feb 2024 18:06:18 -0600</pubDate>
-    <lastBuildDate>Mon, 05 Feb 2024 18:06:18 -0600</lastBuildDate>
+    <pubDate>Tue, 06 Feb 2024 14:09:11 -0600</pubDate>
+    <lastBuildDate>Tue, 06 Feb 2024 14:09:11 -0600</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      
+        <item>
+          <title>OS 8 Now Available in Early Access</title>
+          <description>&lt;p&gt;I’m super excited to let you know that OS 8 builds are available in Early Access and they are now installable! While we highly recommend you don’t run these experimental builds in production, they’re perfect for trying in a virtual machine or a spare computer. Early Access is a great way to help us test new features and find bugs before they roll out to everyone. If you’re not already in early access, you can be among the first to try it and give your feedback by joining &lt;a href=&quot;https://builds.elementary.io/&quot;&gt;Early Access for as little as a $1/mo sponsorship&lt;/a&gt;. Again beware that Early Access builds are not considered stable and you will encounter fresh issues when you run them. We’d really appreciate reporting any problems you encounter with the Feedback app or directly &lt;a href=&quot;Github.com/elementary&quot;&gt;on GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;system-updates&quot;&gt;System Updates&lt;/h2&gt;
+
+&lt;p&gt;The headlining feature this month is the brand new mechanism for operating system updates. Instead of being a part of updates in AppCenter, system updates now live in the System page of System Settings. The new updates mechanism is super fast and includes an option to download updates automatically. It will also let you know explicity if security updates are part of the updates package. Shoutouts to &lt;a href=&quot;https://github.com/leolost2605&quot;&gt;Leonhard&lt;/a&gt; for his work here.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/updates-for-february-2024/settings-system.png&quot; alt=&quot;Operating System view of System Settings&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;System updates now live in System Settings and can be updated automatically&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;There’s a few reasons why we would want two separate update mechanisms in elementary OS. Under the hood, apps in elementary OS are Flatpak packages and system packages are managed by PackageKit. Flatpak apps are sandboxed from the system and can be reliably updated while your computer is running. System packages are best installed offline, when your computer restarts, to make sure services are restarted correctly and to prevent issues. By splitting apart the updates experience, it is much clearer which updates will require you to restart your computer: app updates in AppCenter will never require a restart, while system updates in System Settings will always require a restart. It also makes the underlining code much less complex and speeds up processes like checking for new updates. It also means an error in one system won’t cause updates in the other system to fail. Overall the updates experience in OS 8 will be faster, more reliable, and easier to understand, as well as being easier to automate.&lt;/p&gt;
+
+&lt;h2 id=&quot;system-settings&quot;&gt;System Settings&lt;/h2&gt;
+
+&lt;p&gt;Search in System Settings has been improved to return more relevant results and the titles of those results now reflect both the exact setting name they are matching and the path to that setting.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/updates-for-february-2024/settings-search.png&quot; alt=&quot;System Settings search&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;Search in System Settings now ranks results better&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Shortcuts settings now include a new “Keyboard Layouts” section where you can set a custom shortcut to change keyboard layouts as well as change the shortcuts for emoji and unicode typing modes. And some cleanup was done in Mouse &amp;amp; Touchpad settings to make layouts more responsive, provide additional explanation text, and improve screen reader support.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/updates-for-february-2024/settings-icon.png&quot; alt=&quot;System Settings app icon&quot; /&gt; {: width=”128” height=”128”}&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;System Settings has a new app icon&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Plus we’re using a new SettingsPage widget to improve consistency between settings views, and System Settings got an icon redesign. Finally, we’ve almost wrapped up porting System Settings to GTK 4; Network and Printer settings are in review, and Display settings is partially ported, with only Wacom settings having not been started.&lt;/p&gt;
+
+&lt;h2 id=&quot;window-manager&quot;&gt;Window Manager&lt;/h2&gt;
+
+&lt;p&gt;The Multitasking View has seen a number of design updates, the most noticeable of which is that instead of a plain dark grey background, it now features a blurred version of your wallpaper that is either lightened or darkened for light and dark modes respectively. You’ll also notice that the workspace cards now have rounded corners and the switcher UI at the bottom of the screen has been updated for light and dark modes as well. Thanks to &lt;a href=&quot;https://github.com/lenemter&quot;&gt;Leo&lt;/a&gt; for working on this design update!&lt;/p&gt;
+
+&lt;figure class=&quot;card half&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/updates-for-february-2024/multitasking-light.png&quot; alt=&quot;Multitasking View in light mode&quot; /&gt;
+&lt;img src=&quot;/images/updates-for-february-2024/multitasking-dark.png&quot; alt=&quot;Multitasking View in dark mode&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;Multitasking View now features a blurred background and an updated switcher UI design&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Plus, the Dock has a new multitasking feature: when multiple windows of the same app are opened, selecting that app’s icon in the dock will open a window spread instead of hiding those windows.&lt;/p&gt;
+
+&lt;h2 id=&quot;and-more&quot;&gt;And More&lt;/h2&gt;
+
+&lt;p&gt;The Login &amp;amp; Lock screen now has a smoother fade in animation and will respect your orientation lock settings thanks to &lt;a href=&quot;https://github.com/lenemter&quot;&gt;Leo&lt;/a&gt;. And we’ve improved screen reader support in Initial Setup &amp;amp; Onboarding. Meanwhile, &lt;a href=&quot;https://github.com/jeremypw&quot;&gt;Jeremy&lt;/a&gt; has been hard at work on porting Files to GTK 4. And there are plenty of other improvements and new features that are still currently in review.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;updates-for-os-7&quot;&gt;Updates for OS 7&lt;/h1&gt;
+
+&lt;p&gt;This month we have just one update for OS 7: a new version of Code. This new release brings a new optional “Fuzzy Finder” plugin which can be launched with the keyboard shortcut &lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;F&lt;/kbd&gt; and can be used to search the files of all opened projects in the sidebar. Plus improvements for dark mode, better save and restore of pane positions, new commandline features, as well as various bug fixes.&lt;/p&gt;
+
+&lt;h2 id=&quot;get-these-updates&quot;&gt;Get These Updates&lt;/h2&gt;
+
+&lt;p&gt;As always, pop open AppCenter on elementary OS 7 and hit “Update All” to get the new version of Code plus your regular security, bug fix, and translation updates.&lt;/p&gt;
+
+&lt;hr /&gt;
+</description>
+          <pubDate>Tue, 06 Feb 2024 00:00:00 -0600</pubDate>
+          <link>https://blog.elementary.io/updates-for-february-2024/</link>
+          <guid isPermaLink="true">https://blog.elementary.io/updates-for-february-2024/</guid>
+          
+              
+              
+          <enclosure url="https://blog.elementary.io" />
+          
+          
+          <category>horus</category>
+          
+          <category>updates</category>
+          
+          
+        </item>
+      
     
       
         <item>
@@ -1104,80 +1189,6 @@
           <pubDate>Wed, 05 Apr 2023 00:00:00 -0500</pubDate>
           <link>https://blog.elementary.io/updates-for-march-2023/</link>
           <guid isPermaLink="true">https://blog.elementary.io/updates-for-march-2023/</guid>
-          
-              
-              
-          <enclosure url="https://blog.elementary.io" />
-          
-          
-          <category>horus</category>
-          
-          <category>updates</category>
-          
-          
-        </item>
-      
-    
-      
-        <item>
-          <title>Big new features and a mountain of bug fixes</title>
-          <description>&lt;p&gt;elementary OS 7 has been out for just over a month now and I’m excited to announce the first round of updates to our latest operating system includes both great feature updates and a long list of fixes for reported issues. As you may know, we prioritize our work based on your feedback so a big thanks to everyone sending us reports on GitHub and through the Feedback app.&lt;/p&gt;
-
-&lt;h2 id=&quot;files&quot;&gt;Files&lt;/h2&gt;
-
-&lt;p&gt;The headlining feature of this Files release is the new app menu in the headerbar. &lt;a href=&quot;https://github.com/jeremypw&quot;&gt;Jeremy&lt;/a&gt; put together this menu to better improve discoverability for features like zoom and undo/redo as well as to clean up folder context menus. The Undo and Redo buttons include tooltips showing what operation will be performed before you click them and we also updated the description for the double-click setting to make it more clear.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;p&gt;&lt;img src=&quot;/images/updates-for-february-2023/files.png&quot; alt=&quot;Files&quot; width=&quot;1064&quot; height=&quot;744&quot; /&gt;&lt;/p&gt;
-  &lt;figcaption&gt;
-    &lt;p&gt;Files now has an app menu with app-wide settings and features&lt;/p&gt;
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;We also fixed a number of reported issues including some off click behavior above and below text in the list view, case sensitivity in file path completion, and issues with MTP and PTP devices that have a colon in their name. Plus we reworked how the File Chooser handles typing focus when saving.&lt;/p&gt;
-
-&lt;h2 id=&quot;network-indicator&quot;&gt;Network Indicator&lt;/h2&gt;
-
-&lt;p&gt;The network indicator has been getting some major design attention and now offers a much better experience for using VPNs. You’ll notice that most options now appear as circular toggle buttons with icons instead of a list of switches. This new design both saves space on devices with complex network configurations and shows the status of your various connections much clearer, including intermediate and error states. In the case of VPNs, you can now also activate multiple connections at once.&lt;/p&gt;
-
-&lt;figure class=&quot;card&quot;&gt;
-  &lt;p&gt;&lt;img src=&quot;/images/updates-for-february-2023/network-indicator.png&quot; alt=&quot;Network Indicator&quot; /&gt;&lt;/p&gt;
-  &lt;figcaption&gt;
-    &lt;p&gt;The Network Indicator has been redesigned with better VPN controls and Airplane Mode&lt;/p&gt;
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;We’ve also added quick access to toggling Airplane Mode, including a middle-click action on the indicator icon. Plus, we’re now using a feature of Network Manager to automatically get better device names so you’ll rarely see long and cryptic device names any longer. And you may notice some subtly improved icons like a slightly larger Wi-Fi icon with rounded edges.&lt;/p&gt;
-
-&lt;h2 id=&quot;window-management&quot;&gt;Window Management&lt;/h2&gt;
-
-&lt;p&gt;This release of our window manager contains over a dozen fixes for reported issues thanks to &lt;a href=&quot;https://github.com/lenemter&quot;&gt;Leo&lt;/a&gt;’s hard work. This includes things like performance improvements and smoother animations, fixes for issues with shadows, improved ability to optionally disable animations, better handling of keyboard shortcuts in Multitasking View, and lots of code cleanup. Plus a fix that avoids accidentally closing windows when using three-finger multi-touch gestures. I recommend reading the &lt;a href=&quot;https://github.com/elementary/gala/releases/tag/7.0.1&quot;&gt;full release notes&lt;/a&gt; because this is a big one!&lt;/p&gt;
-
-&lt;h2 id=&quot;and-more&quot;&gt;And More&lt;/h2&gt;
-
-&lt;p&gt;AppCenter received a new Flatpak Repair feature thanks to &lt;a href=&quot;https://github.com/meisenzahl&quot;&gt;Marius&lt;/a&gt; which fixes an issue where some Flatpak runtimes could not be installed. Plus the updates page now shows a small message when everything is up-to-date, including the last time that AppCenter checked for updates.&lt;/p&gt;
-
-&lt;p&gt;And thanks to the hard work of &lt;a href=&quot;https://github.com/marbetschar&quot;&gt;Marco&lt;/a&gt; and &lt;a href=&quot;https://github.com/Marukesu&quot;&gt;Gustavo&lt;/a&gt; our Portals—things like the app chooser and access dialogs—have now been ported to GTK 4!&lt;/p&gt;
-
-&lt;h2 id=&quot;get-these-updates&quot;&gt;Get These Updates&lt;/h2&gt;
-
-&lt;p&gt;As always, pop open AppCenter on elementary OS 7 and hit “Update All” to get all these updates plus your regular security, bug fix, and translation updates.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;documentation&quot;&gt;Documentation&lt;/h2&gt;
-
-&lt;p&gt;Also worthy of mention this month is updates to our &lt;a href=&quot;https://docs.elementary.io/develop/&quot;&gt;developer documentation&lt;/a&gt;. The landing page has been redesigned to better answer common questions and now includes a link to &lt;a href=&quot;https://github.com/elementary/docs/discussions&quot;&gt;GitHub Discussions&lt;/a&gt;. Plus, we rewrote our documentation on the &lt;a href=&quot;https://docs.elementary.io/develop/appcenter/submission-process&quot;&gt;AppCenter Submission Process&lt;/a&gt; to reflect the current app submission workflow. But the biggest new section describes how to use &lt;a href=&quot;https://docs.elementary.io/develop/apis/launchers#actions&quot;&gt;DBus Activation&lt;/a&gt; to add your app’s actions to your launcher’s menu in the Dock and Applications Menu, including a brand new full code sample. Shoutouts to &lt;a href=&quot;https://github.com/Antolius&quot;&gt;Josip&lt;/a&gt; for the research and patience that went into documenting this API in an accessible way.&lt;/p&gt;
-
-&lt;h2 id=&quot;early-access-preview&quot;&gt;Early Access Preview&lt;/h2&gt;
-
-&lt;p&gt;Folks in early access should look forward to more big changes coming to Indicators and soon AppCenter will be able to report the specific install-time permissions requested by apps. Now that OS 7 is released, expect a bigger focus on new features and larger design changes. If you’ve been sending us feedback, Early Access is the best way to see changes as quickly as possible and help us refine new features before they are released to the general public.&lt;/p&gt;
-
-&lt;p&gt;If you’re not already in early access, you can be among the first to try it and give your feedback by joining &lt;a href=&quot;https://builds.elementary.io/&quot;&gt;Early Access for a $10/mo sponsorship&lt;/a&gt;.&lt;/p&gt;
-</description>
-          <pubDate>Mon, 06 Mar 2023 00:00:00 -0600</pubDate>
-          <link>https://blog.elementary.io/updates-for-february-2023/</link>
-          <guid isPermaLink="true">https://blog.elementary.io/updates-for-february-2023/</guid>
           
               
               
