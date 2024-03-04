@@ -9,7 +9,7 @@ tags:
   - updates
 ---
 
-I'm super excited to let you know that OS 8 builds are available in Early Access and they are now installable! While we highly recommend you don't run these experimental builds in production, they're perfect for trying in a virtual machine or a spare computer. Early Access is a great way to help us test new features and find bugs before they roll out to everyone. If you're not already in early access, you can be among the first to try it and give your feedback by joining [Early Access for as little as a $1/mo sponsorship](https://builds.elementary.io/). Again beware that Early Access builds are not considered stable and you will encounter fresh issues when you run them. We'd really appreciate reporting any problems you encounter with the Feedback app or directly [on GitHub](Github.com/elementary).
+I'm super excited to let you know that OS 8 builds are available in Early Access and they are now installable! While we highly recommend you don't run these experimental builds in production, they're perfect for trying in a virtual machine or a spare computer. Early Access is a great way to help us test new features and find bugs before they roll out to everyone. If you're not already in early access, you can be among the first to try it and give your feedback by joining [Early Access for as little as a $1/mo sponsorship](https://builds.elementary.io/). Again beware that Early Access builds are not considered stable and you will encounter fresh issues when you run them. We'd really appreciate reporting any problems you encounter with the Feedback app or directly [on GitHub](https://Github.com/elementary).
 
 ## System Updates
 

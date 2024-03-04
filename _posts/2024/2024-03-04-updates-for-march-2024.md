@@ -9,7 +9,7 @@ tags:
   - updates
 ---
 
-I want to start off this post by saying, "Thank you!" to our now over 250 sponsors on GitHub for helping us reach 20% of our monthly funding goal! I've been seeing a ton of demand for Early Access which is super exciting. If you're not already in Early Access, you can be among the first to try the next release of elementary OS and give us your feedback by sponsoring elementary [for as little as $1/mo](https://builds.elementary.io/). Beware that Early Access builds are not considered stable and you will encounter fresh issues when you run them. We'd really appreciate reporting any problems you encounter with the Feedback app or directly [on GitHub](Github.com/elementary). With that, let's talk about what we accomplished in the last month!
+I want to start off this post by saying, "Thank you!" to our now over 250 sponsors on GitHub for helping us reach 20% of our monthly funding goal! I've been seeing a ton of demand for Early Access which is super exciting. If you're not already in Early Access, you can be among the first to try the next release of elementary OS and give us your feedback by sponsoring elementary [for as little as $1/mo](https://builds.elementary.io/). Beware that Early Access builds are not considered stable and you will encounter fresh issues when you run them. We'd really appreciate reporting any problems you encounter with the Feedback app or directly [on GitHub](https://Github.com/elementary). With that, let's talk about what we accomplished in the last month!
 
 ## System Settings
 
