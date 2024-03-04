@@ -5,8 +5,8 @@
     <description>We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS</description>
     <link>https://blog.elementary.io/</link>
     <atom:link href="https://blog.elementary.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 04 Mar 2024 15:06:00 -0600</pubDate>
-    <lastBuildDate>Mon, 04 Mar 2024 15:06:00 -0600</lastBuildDate>
+    <pubDate>Mon, 04 Mar 2024 15:08:05 -0600</pubDate>
+    <lastBuildDate>Mon, 04 Mar 2024 15:08:05 -0600</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       
@@ -19,7 +19,7 @@
 &lt;p&gt;The GTK 4 port of System Settings is now almost complete! We merged ports for Display, Network, and Printer settings during the last month. Display settings received a big update to the way we do arranging and snapping which should be much smoother and more reliable with 3 displays thanks to &lt;a href=&quot;https://github.com/jeremypw&quot;&gt;Jeremy&lt;/a&gt;. &lt;a href=&quot;https://github.com/leolost2605&quot;&gt;Leonhard&lt;/a&gt; made sure that the colored display labels you see in the corner while arranging displays are now created in a Wayland-compitable way. Plus we’ve improved CSS styling here for higher contrast.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;p&gt;&lt;img src=&quot;/images/updates-for-march-2024/settings-power.png&quot; alt=&quot;Power Settings&quot; /&gt; {: width=”678” height=”901”}&lt;/p&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/updates-for-march-2024/settings-power.png&quot; alt=&quot;Power Settings&quot; width=&quot;678&quot; height=&quot;901&quot; /&gt;&lt;/p&gt;
   &lt;figcaption&gt;
     &lt;p&gt;System Settings → Power has new options and shows battery charge status&lt;/p&gt;
   &lt;/figcaption&gt;
@@ -123,7 +123,7 @@ flatpak pin &lt;span class=&quot;nt&quot;&gt;--remove&lt;/span&gt; runtime/org.f
 &lt;p&gt;Shortcuts settings now include a new “Keyboard Layouts” section where you can set a custom shortcut to change keyboard layouts as well as change the shortcuts for emoji and unicode typing modes. And some cleanup was done in Mouse &amp;amp; Touchpad settings to make layouts more responsive, provide additional explanation text, and improve screen reader support.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;p&gt;&lt;img src=&quot;/images/updates-for-february-2024/settings-icon.png&quot; alt=&quot;System Settings app icon&quot; /&gt; {: width=”128” height=”128”}&lt;/p&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/updates-for-february-2024/settings-icon.png&quot; alt=&quot;System Settings app icon&quot; width=&quot;128&quot; height=&quot;128&quot; /&gt;&lt;/p&gt;
   &lt;figcaption&gt;
     &lt;p&gt;System Settings has a new app icon&lt;/p&gt;
   &lt;/figcaption&gt;
