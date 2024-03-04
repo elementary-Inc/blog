@@ -5,14 +5,14 @@
     <description>We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS</description>
     <link>https://blog.elementary.io/</link>
     <atom:link href="https://blog.elementary.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 04 Mar 2024 15:08:05 -0600</pubDate>
-    <lastBuildDate>Mon, 04 Mar 2024 15:08:05 -0600</lastBuildDate>
+    <pubDate>Mon, 04 Mar 2024 15:11:06 -0600</pubDate>
+    <lastBuildDate>Mon, 04 Mar 2024 15:11:06 -0600</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       
         <item>
           <title>GTK 4 Porting And A Bit Of Whimsy</title>
-          <description>&lt;p&gt;I want to start off this post by saying, “Thank you!” to our now over 250 sponsors on GitHub for helping us reach 20% of our monthly funding goal! I’ve been seeing a ton of demand for Early Access which is super exciting. If you’re not already in Early Access, you can be among the first to try the next release of elementary OS and give us your feedback by sponsoring elementary &lt;a href=&quot;https://builds.elementary.io/&quot;&gt;for as little as $1/mo&lt;/a&gt;. Beware that Early Access builds are not considered stable and you will encounter fresh issues when you run them. We’d really appreciate reporting any problems you encounter with the Feedback app or directly &lt;a href=&quot;Github.com/elementary&quot;&gt;on GitHub&lt;/a&gt;. With that, let’s talk about what we accomplished in the last month!&lt;/p&gt;
+          <description>&lt;p&gt;I want to start off this post by saying, “Thank you!” to our now over 250 sponsors on GitHub for helping us reach 20% of our monthly funding goal! I’ve been seeing a ton of demand for Early Access which is super exciting. If you’re not already in Early Access, you can be among the first to try the next release of elementary OS and give us your feedback by sponsoring elementary &lt;a href=&quot;https://builds.elementary.io/&quot;&gt;for as little as $1/mo&lt;/a&gt;. Beware that Early Access builds are not considered stable and you will encounter fresh issues when you run them. We’d really appreciate reporting any problems you encounter with the Feedback app or directly &lt;a href=&quot;https://Github.com/elementary&quot;&gt;on GitHub&lt;/a&gt;. With that, let’s talk about what we accomplished in the last month!&lt;/p&gt;
 
 &lt;h2 id=&quot;system-settings&quot;&gt;System Settings&lt;/h2&gt;
 
@@ -94,7 +94,7 @@ flatpak pin &lt;span class=&quot;nt&quot;&gt;--remove&lt;/span&gt; runtime/org.f
       
         <item>
           <title>OS 8 Now Available in Early Access</title>
-          <description>&lt;p&gt;I’m super excited to let you know that OS 8 builds are available in Early Access and they are now installable! While we highly recommend you don’t run these experimental builds in production, they’re perfect for trying in a virtual machine or a spare computer. Early Access is a great way to help us test new features and find bugs before they roll out to everyone. If you’re not already in early access, you can be among the first to try it and give your feedback by joining &lt;a href=&quot;https://builds.elementary.io/&quot;&gt;Early Access for as little as a $1/mo sponsorship&lt;/a&gt;. Again beware that Early Access builds are not considered stable and you will encounter fresh issues when you run them. We’d really appreciate reporting any problems you encounter with the Feedback app or directly &lt;a href=&quot;Github.com/elementary&quot;&gt;on GitHub&lt;/a&gt;.&lt;/p&gt;
+          <description>&lt;p&gt;I’m super excited to let you know that OS 8 builds are available in Early Access and they are now installable! While we highly recommend you don’t run these experimental builds in production, they’re perfect for trying in a virtual machine or a spare computer. Early Access is a great way to help us test new features and find bugs before they roll out to everyone. If you’re not already in early access, you can be among the first to try it and give your feedback by joining &lt;a href=&quot;https://builds.elementary.io/&quot;&gt;Early Access for as little as a $1/mo sponsorship&lt;/a&gt;. Again beware that Early Access builds are not considered stable and you will encounter fresh issues when you run them. We’d really appreciate reporting any problems you encounter with the Feedback app or directly &lt;a href=&quot;https://Github.com/elementary&quot;&gt;on GitHub&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;system-updates&quot;&gt;System Updates&lt;/h2&gt;
 
