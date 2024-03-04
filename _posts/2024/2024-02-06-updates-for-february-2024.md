@@ -38,7 +38,7 @@ Search in System Settings now ranks results better
 Shortcuts settings now include a new "Keyboard Layouts" section where you can set a custom shortcut to change keyboard layouts as well as change the shortcuts for emoji and unicode typing modes. And some cleanup was done in Mouse &amp; Touchpad settings to make layouts more responsive, provide additional explanation text, and improve screen reader support.
 
 <figure markdown="1">
-![System Settings app icon](/images/{{ page.slug }}/settings-icon.png) {: width="128" height="128"}
+![System Settings app icon](/images/{{ page.slug }}/settings-icon.png){: width="128" height="128"}
 <figcaption markdown="1">
 System Settings has a new app icon
 </figcaption>

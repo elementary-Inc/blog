@@ -16,7 +16,7 @@ I want to start off this post by saying, "Thank you!" to our now over 250 sponso
 The GTK 4 port of System Settings is now almost complete! We merged ports for Display, Network, and Printer settings during the last month. Display settings received a big update to the way we do arranging and snapping which should be much smoother and more reliable with 3 displays thanks to [Jeremy](https://github.com/jeremypw). [Leonhard](https://github.com/leolost2605) made sure that the colored display labels you see in the corner while arranging displays are now created in a Wayland-compitable way. Plus we've improved CSS styling here for higher contrast.
 
 <figure markdown="1">
-![Power Settings](/images/{{ page.slug }}/settings-power.png) {: width="678" height="901"}
+![Power Settings](/images/{{ page.slug }}/settings-power.png){: width="678" height="901"}
 <figcaption markdown="1">
 System Settings → Power has new options and shows battery charge status
 </figcaption>
