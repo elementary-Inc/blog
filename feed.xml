@@ -5,9 +5,86 @@
     <description>We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS</description>
     <link>https://blog.elementary.io/</link>
     <atom:link href="https://blog.elementary.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 04 Apr 2024 19:05:54 -0500</pubDate>
-    <lastBuildDate>Thu, 04 Apr 2024 19:05:54 -0500</lastBuildDate>
+    <pubDate>Fri, 05 Apr 2024 12:45:44 -0500</pubDate>
+    <lastBuildDate>Fri, 05 Apr 2024 12:45:44 -0500</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      
+        <item>
+          <title>The System Settings Redesign Has Landed</title>
+          <description>&lt;p&gt;This month the biggest story is System Settings, but we also have some great progress on the new Dock and Wayland. Plus a small change to default keyboard shortcuts that you might appreciate. Read ahead to find out the new developments you have to look forward to in the upcoming elementary OS 8!&lt;/p&gt;
+
+&lt;h2 id=&quot;system-settings&quot;&gt;System Settings&lt;/h2&gt;
+
+&lt;p&gt;The System Settings port for GTK 4 is now completed! And not only that, we’ve landed the first step in a major redesign. Settings panes are now in charge of drawing their own window controls, which means several settings have already been updated to use a more modern paned design and others are able to use space more efficiently in their own way. You can expect further design refinements to continue to land throughout the OS 8.x cycle&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/updates-for-april-2024/settings-network.png&quot; alt=&quot;Network Settings&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;System Settings has a new modern design&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The headliner this month is definitely Application settings. We now have support for adjusting the runtime permissions stored in Flatpak’s PermissionsStore—these are set when an app explicitly asks for your permission to access a specific feature while it’s running. So if you’ve previous denied an app access to run in the background or granted an app permission to set the wallpaper, you can change your mind at any time and adjust permissions here.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/updates-for-april-2024/settings-applications.png&quot; alt=&quot;Application Settings&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;System Settings → Applications has expanded options&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We’ve also adjusted the language of install time permissions—aka sandbox holes—to be more clear that these represent advanced system access and the implications of adjusting them. Plus the descriptions of several individual items were changed based on feedback to use less technical language. And app permission pages now show the app’s icon and description.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/updates-for-april-2024/settings-notifications.png&quot; alt=&quot;Notification Settings&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;Do Not Disturb no longer blocks Notification settings&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Language &amp;amp; Region settings now has searchable dropdowns. We’ve also received some feedback from some folks that indicates they were looking here for Keyboard Layout or Date &amp;amp; Time settings, so we more clearly link to both of those locations to help you find what you’re looking for. If you’re not a fan of overlaid scrollbars that disappear when not in use, there’s a new setting to always show scrollbars in Desktop → Appearance. The Do Not Disturb setting in Notifications settings no longer blocks the whole view and we’ve updated the design of this pane to better reflect modern design patterns and support RTL language layouts. And Housekeeping is now completely handled by elementary’s Settings Daemon which uses SystemD timers under the hood.&lt;/p&gt;
+
+&lt;h2 id=&quot;desktop&quot;&gt;Desktop&lt;/h2&gt;
+
+&lt;p&gt;We’re closing in on a much better multitasking story for the new Dock. This month Leonhard implemented scrolling over an app’s icon to switch between its open windows and focusing a single open window of an app on click instead of opening new windows. We’ve also implemented a middle-click system that is aware of the FreeDesktop.org SingleMainWindow app launcher hint, so we can more reliably open new app windows when middle-clicking an app’s icon; This closes a 3-year-old feature request! This is in addition to the window spread feature that was implemented in January. The end result is a much more predictable experience that is centered on bringing you to the app you’ve clicked and an improved workflow for multi-window apps.&lt;/p&gt;
+
+&lt;p&gt;We’re also making a major change to our default keyboard shortcuts. Pressing &lt;kbd&gt;⌘&lt;/kbd&gt; will now open the Applications menu instead of the Shortcuts overlay and &lt;kbd&gt;⌘&lt;/kbd&gt; + &lt;kbd&gt;Space&lt;/kbd&gt; will now switch keyboard layouts by default. This brings us more in line with the defaults from other desktops and operating systems and will hopefully be more comfortable for folks who rely on these shortcuts. Of course you can always change the &lt;kbd&gt;⌘&lt;/kbd&gt; key behavior and keyboard shortcuts in general in System Settings → Keyboard.&lt;/p&gt;
+
+&lt;h2 id=&quot;wayland&quot;&gt;Wayland&lt;/h2&gt;
+
+&lt;p&gt;Our progress towards Wayland continues this month with several fixes in our window manager. Notifications are now launched as a client of the window manager thanks to Leonhard, meaning they are no longer in the center of the screen in the Wayland session. He also did some refactoring that ensures the Wayland session launches just as quickly as the X11 session, fixed an issue with the &lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;Tab&lt;/kbd&gt; window switcher blocking mouse input, and fixed drag and drop icons not appearing.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;security&quot;&gt;Security&lt;/h2&gt;
+
+&lt;p&gt;A quick note about security in elementary OS 7! If you’ve heard about the recent xz vulnerability, rest assured that elementary OS was not affected. We’re very fortunate to benefit from the hard work of Canonical’s security team and Ubuntu LTS. If you’re ever curious about the status of vulnerabilities you can check the &lt;a href=&quot;https://ubuntu.com/security/notices&quot;&gt;Ubuntu Security Notices&lt;/a&gt; website. You can find the Ubuntu version that system packages come from in System Settings → System on the Operating System Tab, just below the name of the current elementary OS release. As always, be sure to run your updates and avoid third party system software repositories. Choosing Flatpak for apps also keeps your computer secure and your information private with its built-in sandboxing.&lt;/p&gt;
+
+&lt;h2 id=&quot;sponsors&quot;&gt;Sponsors&lt;/h2&gt;
+
+&lt;p&gt;At the moment we’re just above 21% of our monthly funding goal and we’re very close to 300 Sponsors on GitHub! Shoutouts to everyone helping us reach our goals here. Your monthly sponsorship funds development and makes sure we have the resources we need to give you the best version of elementary OS we can!&lt;/p&gt;
+
+&lt;p&gt;If you’re not already in Early Access, you can be among the first to try the next release of elementary OS and give us your feedback by sponsoring elementary &lt;a href=&quot;https://builds.elementary.io/&quot;&gt;for as little as $1/mo&lt;/a&gt;. Beware that Early Access builds are not considered stable and you will encounter fresh issues when you run them. We’d really appreciate reporting any problems you encounter with the Feedback app or directly &lt;a href=&quot;https://Github.com/elementary&quot;&gt;on GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A quick note about currently daily elementary OS 8 builds, there’s a big migration happening upstream to fix the &lt;a href=&quot;https://en.wikipedia.org/wiki/Year_2038_problem&quot;&gt;year 2038 problem&lt;/a&gt; so until that calms down we might have a disruption in builds. You can always access previous daily builds by scrolling down the bottom of the &lt;a href=&quot;https://builds.elementary.io/&quot;&gt;Builds&lt;/a&gt; page where you’ll find the most recent succesful builds of elementary OS 8 and more.&lt;/p&gt;
+</description>
+          <pubDate>Fri, 05 Apr 2024 00:00:00 -0500</pubDate>
+          <link>https://blog.elementary.io/updates-for-april-2024/</link>
+          <guid isPermaLink="true">https://blog.elementary.io/updates-for-april-2024/</guid>
+          
+              
+              
+          <enclosure url="https://blog.elementary.io" />
+          
+          
+          <category>earlyaccess</category>
+          
+          <category>updates</category>
+          
+          
+        </item>
+      
     
       
         <item>
@@ -1103,95 +1180,6 @@ flatpak pin &lt;span class=&quot;nt&quot;&gt;--remove&lt;/span&gt; runtime/org.f
           <pubDate>Fri, 02 Jun 2023 00:00:00 -0500</pubDate>
           <link>https://blog.elementary.io/updates-for-may-2023/</link>
           <guid isPermaLink="true">https://blog.elementary.io/updates-for-may-2023/</guid>
-          
-              
-              
-          <enclosure url="https://blog.elementary.io" />
-          
-          
-          <category>horus</category>
-          
-          <category>updates</category>
-          
-          
-        </item>
-      
-    
-      
-        <item>
-          <title>New features and settings, improved performance, and fewer bugs</title>
-          <description>&lt;p&gt;This month we have a mix of new design and feature updates, another big batch of fixed bugs, and even some performance improvements.&lt;/p&gt;
-
-&lt;h1 id=&quot;mail&quot;&gt;Mail&lt;/h1&gt;
-
-&lt;p&gt;The headliner this month is Mail which does a better job handling newly added online accounts and includes fixes for a couple of potential crashes, plus a ton of code cleaning under the hood and even a few performance improvements. The composer now always opens in a separate, non-modal window making it much easier to reference a message you’re replying to or manage multiple drafts at the same time.&lt;/p&gt;
-
-&lt;figure class=&quot;half&quot;&gt;
-  &lt;p&gt;&lt;img src=&quot;/images/updates-for-april-2023/mail.png&quot; alt=&quot;Mail&quot; /&gt;
-&lt;img src=&quot;/images/updates-for-april-2023/mail-compose.png&quot; alt=&quot;Composer Window&quot; /&gt;&lt;/p&gt;
-  &lt;figcaption&gt;
-    &lt;p&gt;Subtle design changes in Mail include floating headers and a flatter compose window&lt;/p&gt;
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;It also features quite a few more keyboard shortcuts for text formatting, adding attachments, etc. You might also appreciate some subtle design tweaks like placing the conversation list filter next to the search bar or how headers now appear to float over scrolled content. Major thanks goes to &lt;a href=&quot;https://github.com/leolost2605&quot;&gt;Leonhard&lt;/a&gt; for his hard work on this release.&lt;/p&gt;
-
-&lt;h1 id=&quot;web&quot;&gt;Web&lt;/h1&gt;
-
-&lt;p&gt;The latest GNOME Web 44.2 has now been ported to Gtk 4 and features much improved performance and web standards compatibility, plus a new saved passwords popover. I’m especially thankful to &lt;a href=&quot;https://github.com/alice-mkh&quot;&gt;Alice&lt;/a&gt; for working with us to ensure that Adwaita-using apps still look and feel at home on elementary OS. With Firefox sync, web apps, and performance that matches major mainstream competitors, there’s never been a better time to try this community-made web browser.&lt;/p&gt;
-
-&lt;h1 id=&quot;window-management&quot;&gt;Window Management&lt;/h1&gt;
-
-&lt;p&gt;We had yet another great release of our window manager, Gala, this month. This release brings the total number of fixed reported issues since OS 7 in this component alone to nearly 40! Highlights from this release include adding the keyboard shortcut &lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;~&lt;/kbd&gt; for switching between windows of the same app, navigating with the arrow keys while holding down &lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;Tab&lt;/kbd&gt;, and several more animations now respect your preference to disable them. Plus, the team has been working hard to prepare for Mutter 44 which will bring fractional and per-display scaling support on Wayland, so look forward to seeing that in a future version of elementary OS. Thanks again to &lt;a href=&quot;https://github.com/tintou&quot;&gt;Corentin&lt;/a&gt;, &lt;a href=&quot;https://github.com/davidmhewitt&quot;&gt;David&lt;/a&gt;, and &lt;a href=&quot;https://github.com/lenemter&quot;&gt;Leo&lt;/a&gt; for all of their work here.&lt;/p&gt;
-
-&lt;h1 id=&quot;system-settings&quot;&gt;System Settings&lt;/h1&gt;
-
-&lt;p&gt;The latest release of Desktop settings includes some new options for switching workspaces via hotcorners as well as a new feature to dim wallpapers in dark mode thanks to &lt;a href=&quot;https://github.com/lenemter&quot;&gt;Leo&lt;/a&gt;! You’ll also notice that the setting for disabling animations has moved to the “Appearance” tab and has been renamed to “Reduce Motion”.&lt;/p&gt;
-
-&lt;figure class=&quot;constrained&quot;&gt;
-  &lt;p&gt;&lt;img src=&quot;/images/updates-for-april-2023/settings-appearance.png&quot; alt=&quot;Appearance Settings&quot; /&gt; {: width=”1101” height=”769”}&lt;/p&gt;
-  &lt;figcaption&gt;
-    &lt;p&gt;The “Reduce Motion” setting has moved to the “Appearance tab”&lt;/p&gt;
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;A new version of Locale settings has also been released that prevents Fcitx 5 from being automatically pulled in with some languages and fixes a potential issue with acquiring permissions to set system-wide locale settings.&lt;/p&gt;
-
-&lt;h1 id=&quot;onboarding&quot;&gt;Onboarding&lt;/h1&gt;
-
-&lt;p&gt;A fresh version of Onboarding has been released with several redesigned pages including a fancy dynamic icon featuring the release wallpaper on the Welcome page, a much more prominent explanation of Sideloading, some new icons, and bolder typography.&lt;/p&gt;
-
-&lt;figure class=&quot;half&quot;&gt;
-  &lt;p&gt;&lt;img src=&quot;/images/updates-for-april-2023/onboarding-welcome.png&quot; alt=&quot;Welcome view of Onboarding&quot; /&gt;{
-&lt;img src=&quot;/images/updates-for-april-2023/onboarding-apps.png&quot; alt=&quot;Apps view of Onboarding&quot; /&gt;
-&lt;img src=&quot;/images/updates-for-april-2023/onboarding-earlyaccess.png&quot; alt=&quot;Early Access view of Onboarding&quot; /&gt;
-&lt;img src=&quot;/images/updates-for-april-2023/onboarding-guest.png&quot; alt=&quot;Guest Session view of Onboarding&quot; /&gt;&lt;/p&gt;
-  &lt;figcaption&gt;
-    &lt;p&gt;Onboarding features bolder typography, colorful icons, and a more prominent explanation of Sideloading&lt;/p&gt;
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Plus, it has better handling for Early Access builds, and Onboarding now handles the Guest account warning as well. We’re always looking at your feedback to figure out the best way to help you get started with elementary OS, so keep sending in reports!&lt;/p&gt;
-
-&lt;h2 id=&quot;get-these-updates&quot;&gt;Get These Updates&lt;/h2&gt;
-
-&lt;p&gt;As always, pop open AppCenter on elementary OS 7 and hit “Update All” to get all these updates plus your regular security, bug fix, and translation updates.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;developer-platform&quot;&gt;Developer Platform&lt;/h2&gt;
-
-&lt;p&gt;The latest stylesheet brings support for Adw.AboutWindow and Adw.MessageDialog and the latest icons adds several icons expected by Adwaita-using apps such as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;adw-external-link&lt;/code&gt; and the row drag handle icon. There are also some subtle updates to a few symbolic icons. These improvements will land soon in a minor version bump to the 7.2 Flatpak platform so you won’t need to adjust your manifest to get them.&lt;/p&gt;
-
-&lt;h2 id=&quot;early-access-preview&quot;&gt;Early Access Preview&lt;/h2&gt;
-
-&lt;p&gt;Coming soon to early access, location portal support! We’re retiring our location agent, the old method for granting apps location access, and replacing it with Portals, the standard for accessing system services for Flatpak apps. If you’ve previously had trouble with location access features in apps, be sure to check System Settings → Security &amp;amp; Privacy to make sure Location Services is turned on. Also watch out for more improvements to Mail, including better offline support and the ability to move messages between folders. There may also be some design changes coming to AppCenter, so look out for those!&lt;/p&gt;
-
-&lt;p&gt;Early Access is a great way to help us test new features and find bugs before they roll out to everyone. If you’re not already in early access, you can be among the first to try it and give your feedback by joining &lt;a href=&quot;https://builds.elementary.io/&quot;&gt;Early Access for a $10/mo sponsorship&lt;/a&gt;.&lt;/p&gt;
-</description>
-          <pubDate>Fri, 05 May 2023 00:00:00 -0500</pubDate>
-          <link>https://blog.elementary.io/updates-for-april-2023/</link>
-          <guid isPermaLink="true">https://blog.elementary.io/updates-for-april-2023/</guid>
           
               
               
