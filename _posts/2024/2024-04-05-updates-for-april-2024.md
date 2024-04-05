@@ -2,7 +2,7 @@
 title: The System Settings Redesign Has Landed
 description: OS 8 progress during March
 author: danrabbit
-image: /images/updates-for-march-2024/settings-notifications.png
+image: /images/updates-for-april-2024/settings-notifications.png
 
 tags:
   - earlyaccess
