@@ -39,7 +39,7 @@ Applications Settings has a new split-paned design
 
 A small visual change, when switching workspaces docks and panels will no longer move with the switch thanks to [Leonhard](https://github.com/leolost2605). Meanwhile [Leo](https://github.com/lenemter) fixed an incorrect default keyboard shortcut for moving windows to the last workspace, and made sure that there's audio (or visual depending on your settings) feedback when we're unable to cycle workspaces in response to the keyboard shortcut.
 
-<figure markdown="1">
+<figure class="card" markdown="1">
 ![Quick Settings](/images/{{ page.slug }}/quick-settings.png){: width="256" height="209"}
 <figcaption markdown="1">
 Quick Settings joins the panel
