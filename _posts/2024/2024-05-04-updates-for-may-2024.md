@@ -13,7 +13,7 @@ First things first, congratulations to Ubuntu on releasing version 24.04! If you
 
 ## Release Planning
 
-The [OS 8 Project Board](https://github.com/orgs/elementary/projects/128/views/1) has been scoped down to only include things that essential for release. This is the place to watch to estimate how far out we are from a stable OS 8. When this board is empty, we're ready to release! We want to ship OS 8 as soon as possible, so we may find ways to further trim this list down if we aren't able to address everything in a timely manner.
+The [OS 8 Project Board](https://github.com/orgs/elementary/projects/128/views/1) has been scoped down to only include things that are essential for release. This is the place to watch to estimate how far out we are from a stable OS 8. When this board is empty, we're ready to release! We want to ship OS 8 as soon as possible, so we may find ways to further trim this list down if we aren't able to address everything in a timely manner.
 
 ## Design
 
@@ -50,7 +50,7 @@ Quick Settings has also made it into the default package selection, replacing th
 
 ## Upstream Library Updates
 
-Early Access builds were disrupted for just over a month as a few migrations occured. The first being Ubuntu's move to 64 Bit time which fixes the [year 2038 problem](https://en.wikipedia.org/wiki/Year_2038_problem). We lost a bit of time to this as we encountered situations with incompatible packages and failing builds etc. The second was adapting to API changes in Mutter 46 and required rebuilds of our window manager, the panel, and the login &amp; lock screen. Mixed in was a secret third thing: the session managers migration to SystemD. We were already ahead of this in our regular session thanks to Pantheon's NixOS maintainer, [Bobby](https://github.com/bobby285271), but [David](https://github.com/davidmhewitt) discerned and provided the fix for our Installer session just 3 days ago. I'm happy to report that we've succesfully survived these migrations and Early Access builds are building again!
+Early Access builds were disrupted for just over a month as a few migrations occured. The first being Ubuntu's move to 64 Bit time which fixes the [year 2038 problem](https://en.wikipedia.org/wiki/Year_2038_problem). We lost a bit of time to this as we encountered situations with incompatible packages and failing builds etc. The second was adapting to API changes in Mutter 46 and required rebuilds of our window manager, the panel, and the login &amp; lock screen. Mixed in was a secret third thing: the session managers migration to SystemD. We were already ahead of this in our regular session thanks to Pantheon's NixOS maintainer, [Bobby](https://github.com/bobby285271), but [David](https://github.com/davidmhewitt) discerned and provided the fix for our Installer session just 3 days ago. I'm happy to report that we've succesfully survived these migrations and Early Access builds are building and bootable again!
 
 With the stabilization of upstream packages this is also the time for us to start building our OS specific patches, and that work is almost completed. These patches are minimally invasive and do things like set LSB information and make sure that we're compatible with things like DKMS and certain functions of the Apt package manager.
 
@@ -60,7 +60,7 @@ Another thing that we need to prepare in order to release is the elementary OS F
 
 ## And More
 
-Two new portals landed in OS 8: the Screenshot and Color Picker portals. Additionally Photos has been updated to use the Wallpaper portal. And another app will soon be shipped as a Flatpak in OS 8! We recently packaged up Font Viewer against the elementary Flatpak Platform, fixing a styling regression and ensuring we can continually ship the latest version of Font Viewer throughout the OS 8 life cycle.
+Two new portals landed in OS 8: the Screenshot and Color Picker portals. Additionally Photos has been updated to use the Wallpaper portal. And another app will soon be shipped as a Flatpak in OS 8! We recently packaged up Font Viewer against the elementary Flatpak Platform, fixing a styling regression, ensuring we can continually ship the latest version of Font Viewer throughout the OS 8 life cycle, and that it can be automatically updated without requiring a system restart.
 
 ---
 
