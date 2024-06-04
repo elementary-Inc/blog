@@ -5,9 +5,111 @@
     <description>We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS</description>
     <link>https://blog.elementary.io/</link>
     <atom:link href="https://blog.elementary.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 03 Jun 2024 19:06:13 -0500</pubDate>
-    <lastBuildDate>Mon, 03 Jun 2024 19:06:13 -0500</lastBuildDate>
+    <pubDate>Tue, 04 Jun 2024 18:37:23 -0500</pubDate>
+    <lastBuildDate>Tue, 04 Jun 2024 18:37:23 -0500</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      
+        <item>
+          <title>Happy Pride! Have Some Updates!</title>
+          <description>&lt;p&gt;This month we have some surprise updates for OS 7, including new releases of GNOME apps and a big update for Mail. Plus Wayland is here, there’s a new way to manage Drivers, and we’re shipping Flathub by default! And don’t forget Platform 8 is now ready for developers. Read ahead for all of the details of the work we accomplished during the month of May.&lt;/p&gt;
+
+&lt;h2 id=&quot;updated-flatpak-apps-for-os-7&quot;&gt;Updated Flatpak apps for OS 7&lt;/h2&gt;
+
+&lt;p&gt;Thanks to Flatpak, OS 7 continues to receive updates for several apps, including the GNOME apps that we ship with elementary OS. Web 46 brings a new flatter design and tons of bug fixes. Document Viewer gets the latest bug fixes while Archive Manager now uses GTK 4.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/updates-for-june-2024/fonts.png&quot; alt=&quot;The Fonts app&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;The updated Fonts app is available from AppCenter&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Plus, Fonts is now available to install as a Flatpak from AppCenter. The new Fonts looks fantastic and has much better performance, and it will continue to receive updates just like our other apps shipped as Flatpak, so we highly recommend switching to it.&lt;/p&gt;
+
+&lt;h2 id=&quot;mail&quot;&gt;Mail&lt;/h2&gt;
+
+&lt;p&gt;Email aliases have arrived in Mail! You can now secondary click on an account in the sidebar and select “Edit Aliases…” to configure them. Plus Mail now also handles replying and forwarding to the correct address for senders who use aliases. And bugs related to certain emails blanking or certain attachments not downloading have been fixed. Shoutouts to &lt;a href=&quot;https://github.com/leolost2605&quot;&gt;Leonhard&lt;/a&gt; for his work here.&lt;/p&gt;
+
+&lt;h2 id=&quot;monthly-stable-builds&quot;&gt;Monthly Stable Builds&lt;/h2&gt;
+
+&lt;p&gt;We’re now automatically building monthly release candidate quality stable builds on our &lt;a href=&quot;https://builds.elementary.io&quot;&gt;Builds website&lt;/a&gt;. These builds are created on the 1st of every month and include all stable updates for the current stable OS series. They have not been reviewed by a human, but should usually be of high quality. These monthly release candidates and daily unstable builds are available to &lt;a href=&quot;https://github.com/sponsors/elementary&quot;&gt;GitHub Sponsors&lt;/a&gt; from any tier!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;wayland--dock&quot;&gt;Wayland &amp;amp; Dock&lt;/h2&gt;
+
+&lt;p&gt;You can now choose between a Wayland or X11 session on the lock screen of the latest OS 8 Early Access builds via the gear menu on your login card. Thanks to the work of &lt;a href=&quot;https://github.com/tintou&quot;&gt;Corentin&lt;/a&gt; and &lt;a href=&quot;https://github.com/leolost2605&quot;&gt;Leonhard&lt;/a&gt;, our window manager now contains fresh APIs for positioning panels and docks, including handling hide modes. Currently the new Dock is only positioned correctly in the Wayland session. Speaking of the Dock, you can now launch pinned apps with &lt;kbd&gt;Super&lt;/kbd&gt; + &lt;kbd&gt;1­&lt;/kbd&gt;—&lt;kbd&gt;9&lt;/kbd&gt;, a hotly requested feature.&lt;/p&gt;
+
+&lt;h2 id=&quot;system-settings&quot;&gt;System Settings&lt;/h2&gt;
+
+&lt;p&gt;Continuing our big redesign of System Settings, a new paned design has landed for Desktop settings. This also includes wallpaper previews on the “Appearance” page. You’ll notice that the “Dim Wallpaper With Dark Style” option has also moved to the Appearance page where you can see a preview of its effect.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/updates-for-june-2024/appearance.png&quot; alt=&quot;System Settings → Desktop → Appearance&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;Desktop settings have been redesigned&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Another new feature from &lt;a href=&quot;https://github.com/leolost2605&quot;&gt;Leonhard&lt;/a&gt;, Driver management has moved to System Settings → System. The new design for drivers should be more in line with how drivers are managed on other operating systems and be easier to work with. We’re definitely looking forward to your feedback here to make sure we’re providing a better experience for folks who rely on additional drivers.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/updates-for-june-2024/drivers.png&quot; alt=&quot;System Settings → System → Drivers&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;Drivers are now managed from System Settings&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;appcenter&quot;&gt;AppCenter&lt;/h2&gt;
+
+&lt;p&gt;Now that System Updates and Drivers have moved to System Settings, AppCenter has become Flatpak only! This greatly reduces code complexity and improves stability and performance. Plus it will make it easier for us to introduce new features in the future. And as a bonus, we’re now shipping Flathub as an available Flatpak remote. This means you will be able to access both apps made for elementary OS and cross-platform apps for Linux out of the box.&lt;/p&gt;
+
+&lt;h2 id=&quot;and-more&quot;&gt;And More&lt;/h2&gt;
+
+&lt;p&gt;The Lock Screen now features a larger and bolder clock and it looks really great with our new default wallpaper for OS 8!&lt;/p&gt;
+
+&lt;figure class=&quot;card&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/images/updates-for-june-2024/lock.png&quot; alt=&quot;The new Lock Screen&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;A larger and bolder clock on the Lock Screen&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We have two new wallpapers to share, &lt;a href=&quot;https://unsplash.com/photos/a-large-body-of-water-surrounded-by-mountains-Dxod5pdRtsk&quot;&gt;“A Large Body of Water Surrounded By Mountains”&lt;/a&gt; by &lt;a href=&quot;https://unsplash.com/@lifeof_peter_&quot;&gt;Peter Thomas&lt;/a&gt; and &lt;a href=&quot;https://unsplash.com/photos/a-trail-of-footprints-in-the-sand-of-a-beach-A9mr3TPoj0k&quot;&gt;“A Trail of Footprints In The Sand”&lt;/a&gt; by &lt;a href=&quot;https://unsplash.com/@davidemrich&quot;&gt;David Emrich&lt;/a&gt;. Both of these images have been slightly edited for use as wallpapers in elementary OS and are distributed under the permissive Unsplash license.&lt;/p&gt;
+
+&lt;h2 id=&quot;developer-platform&quot;&gt;Developer Platform&lt;/h2&gt;
+
+&lt;p&gt;The elementary Flatpak Platform 8 has been released and is available now in the AppCenter Flatpak remote. If you’re an app developer, that means you can update your app to the latest Platform today! We recommend doing so as soon as possible so that your app doesn’t have an “Outdated” badge next to it in AppCenter on release day.&lt;/p&gt;
+
+&lt;p&gt;Platform 8 is based on the GNOME 46 platform and includes all of the same library updates as well as the latest Granite, elementary Stylesheet, and elementary Icons. Plus we’re now including LibPortal, a library that makes it easy to use platform APIs for things like background &amp;amp; autostart, taking screenshots, and setting wallpapers. Platform 8 includes the latest LibAdwaita with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Adw.ToolbarView&lt;/code&gt; and the elementary stylesheet now supports it as well. Plus &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Granite.Toast&lt;/code&gt; now includes a new &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dismissed ()&lt;/code&gt; signal with  dismissal reasons, a new &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;STYLE_CLASS_SUCCESS&lt;/code&gt; constant, and you can now use markup in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Granite.HeaderLabel&lt;/code&gt;. We now also load widget fallback styles when using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Granite.init ()&lt;/code&gt; that should improve your apps’ cross-platform compatibility.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;sponsors&quot;&gt;Sponsors&lt;/h2&gt;
+
+&lt;p&gt;At the moment we’re just above 20% of our monthly funding goal and we’re almost at 350 Sponsors on GitHub! Shoutouts to everyone helping us reach our goals here. Your monthly sponsorship funds development and makes sure we have the resources we need to give you the best version of elementary OS we can!&lt;/p&gt;
+
+&lt;p&gt;If you’re not already in Early Access, you can be among the first to try the next release of elementary OS and give us your feedback by sponsoring elementary &lt;a href=&quot;https://builds.elementary.io/&quot;&gt;for as little as $1/mo&lt;/a&gt;. Beware that Early Access builds are not considered stable and you will encounter fresh issues when you run them. We’d really appreciate reporting any problems you encounter with the Feedback app or directly &lt;a href=&quot;https://Github.com/elementary&quot;&gt;on GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+          <pubDate>Tue, 04 Jun 2024 00:00:00 -0500</pubDate>
+          <link>https://blog.elementary.io/updates-for-june-2024/</link>
+          <guid isPermaLink="true">https://blog.elementary.io/updates-for-june-2024/</guid>
+          
+              
+              
+          <enclosure url="https://blog.elementary.io" />
+          
+          
+          <category>earlyaccess</category>
+          
+          <category>horus</category>
+          
+          <category>updates</category>
+          
+          
+        </item>
+      
     
       
         <item>
@@ -1067,132 +1169,6 @@ flatpak pin &lt;span class=&quot;nt&quot;&gt;--remove&lt;/span&gt; runtime/org.f
           <pubDate>Sat, 05 Aug 2023 00:00:00 -0500</pubDate>
           <link>https://blog.elementary.io/updates-for-july-2023/</link>
           <guid isPermaLink="true">https://blog.elementary.io/updates-for-july-2023/</guid>
-          
-              
-              
-          <enclosure url="https://blog.elementary.io" />
-          
-          
-          <category>horus</category>
-          
-          <category>updates</category>
-          
-          
-        </item>
-      
-    
-      
-        <item>
-          <title>Big Feature Updates for Accessibility, Privacy, Security, and More</title>
-          <description>&lt;p&gt;As promised, this month brings a bunch of new features including a big new accessibility feature and a major platform improvement. Enjoy this month’s contributions to the upcoming &lt;a href=&quot;https://github.com/orgs/elementary/projects/122/views/2&quot;&gt;OS 7.1&lt;/a&gt;!&lt;/p&gt;
-
-&lt;h2 id=&quot;appcenter&quot;&gt;AppCenter&lt;/h2&gt;
-
-&lt;p&gt;As we work towards our continual goal of better supporting alternative app stores, one of the challenges is ensuring that you remain safe while using apps from stores with differing security and privacy policies. This month we’ve rolled out a new set of app sandbox warnings to help you better assess risk when installing apps. AppCenter will now inform you if an app can can read your location without asking first, if it can access system folders or your home folder, if it can read and write system settings, or if it could possibly escape the sandbox altogether and gain advanced permissions. For certain types of administrative apps, having advanced system permissions makes sense, but our goal is to keep you informed and ensure that apps are always operating with your consent. Expect more of these types of warnings to roll out in the future!&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;p&gt;&lt;img src=&quot;/images/updates-for-june-2023/appcenter-permissions.png&quot; alt=&quot;AppCenter&quot; width=&quot;1198&quot; height=&quot;901&quot; /&gt;&lt;/p&gt;
-  &lt;figcaption&gt;
-    &lt;p&gt;AppCenter now warns about advanced Flatpak sandbox permissions&lt;/p&gt;
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;AppInfo views have also been reworked to tighten up spacing and improve alignment. Special attention was put into making sure the most important information appears “above the fold”, especially on smaller displays like in some laptops. Plus, we no longer split out apps from alt stores into a separate header in category views, and a potential crash when adding alt stores has been fixed thanks to &lt;a href=&quot;https://github.com/meisenzahl&quot;&gt;Marius&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;portals&quot;&gt;Portals&lt;/h2&gt;
-
-&lt;p&gt;Another big part of our consent story with apps are Portals. Portals keep apps isolated from your private data and ensure that apps ask before making changes to the system or using features that could become intrusive. This month &lt;a href=&quot;https://github.com/leolost2605&quot;&gt;Leonhard&lt;/a&gt; and &lt;a href=&quot;https://github.com/marukesu&quot;&gt;Gustavo&lt;/a&gt; implemented the Background &amp;amp; Autostart Portal which alerts you when apps are running in the background and makes sure that apps ask your permission before they can automatically start up when you turn on your device. There’s still a good amount of work to do on our background apps story, but this sets the foundation.&lt;/p&gt;
-
-&lt;h2 id=&quot;system-settings&quot;&gt;System Settings&lt;/h2&gt;
-
-&lt;p&gt;As part of their aforementioned work, &lt;a href=&quot;https://github.com/marukesu&quot;&gt;Gustavo&lt;/a&gt; updated Startup settings to show apps that use the Background &amp;amp; Autostart Portal and we made quite a few changes to this view to bring it in line with modern design patterns and ensure that it was more responsive for large and small displays. We also updated Default apps settings and did quite a bit of code cleanup here. And thanks to &lt;a href=&quot;https://github.com/lenemter&quot;&gt;Leo&lt;/a&gt; the “Reset to Defaults” button on the Permissions page is now disabled when permissions are already at their defaults, plus he improved screen reader names for several settings while here.&lt;/p&gt;
-
-&lt;figure class=&quot;half&quot;&gt;
-  &lt;p&gt;&lt;img src=&quot;/images/updates-for-june-2023/settings-defaults.png&quot; alt=&quot;Defaults Settings&quot; width=&quot;1024&quot; height=&quot;720&quot; /&gt;
-&lt;img src=&quot;/images/updates-for-june-2023/settings-startup.png&quot; alt=&quot;Startup Settings&quot; width=&quot;1024&quot; height=&quot;720&quot; /&gt;&lt;/p&gt;
-  &lt;figcaption&gt;
-    &lt;p&gt;Startup and Defaults settings were both redesigned to be more responsive for large and small displays&lt;/p&gt;
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;We’re also introducing a new set of display filters, designed to assist folks with color deficiency issues. This is a very common disability with 1 in 12 men experiencing color deficiency and some folks developing color deficiency as they age. Major shoutouts to &lt;a href=&quot;https://github.com/lenemter&quot;&gt;Leo&lt;/a&gt; for implementing this feature in our window manager and to &lt;a href=&quot;https://github.com/G-dH&quot;&gt;@G-dH&lt;/a&gt; for developing &lt;a href=&quot;https://github.com/G-dH/gnome-colorblind-filters&quot;&gt;the GNOME Shell extension&lt;/a&gt; that we modeled our feature off of. If this is a feature that you’re looking forward to using, please consider &lt;a href=&quot;https://buymeacoffee.com/georgdh&quot;&gt;buying them a coffee&lt;/a&gt;.&lt;/p&gt;
-
-&lt;figure class=&quot;card quarter&quot;&gt;
-  &lt;p&gt;&lt;img src=&quot;/images/updates-for-june-2023/color-default.png&quot; alt=&quot;Default colors&quot; width=&quot;1920&quot; height=&quot;1080&quot; /&gt;
-&lt;img src=&quot;/images/updates-for-june-2023/color-protanopia.png&quot; alt=&quot;Protanopia Filter&quot; width=&quot;1920&quot; height=&quot;1080&quot; /&gt;
-&lt;img src=&quot;/images/updates-for-june-2023/color-protanopia-hc.png&quot; alt=&quot;Protanopia High Contrast Filter&quot; width=&quot;1920&quot; height=&quot;1080&quot; /&gt;
-&lt;img src=&quot;/images/updates-for-june-2023/color-deuteranopia.png&quot; alt=&quot;Deuteranopia Filter&quot; width=&quot;1920&quot; height=&quot;1080&quot; /&gt;
-&lt;img src=&quot;/images/updates-for-june-2023/color-deuteranopia-hc.png&quot; alt=&quot;Deuteranopia Hight Contrast Filter&quot; width=&quot;1920&quot; height=&quot;1080&quot; /&gt;
-&lt;img src=&quot;/images/updates-for-june-2023/color-tritanopia.png&quot; alt=&quot;Tritanopia Filter&quot; width=&quot;1920&quot; height=&quot;1080&quot; /&gt;
-&lt;img src=&quot;/images/updates-for-june-2023/color-grayscale.png&quot; alt=&quot;Grayscale Filter&quot; width=&quot;1920&quot; height=&quot;1080&quot; /&gt;&lt;/p&gt;
-  &lt;figcaption&gt;A number of new display filters are available to assist with color deficiency&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Additionally, we’re now shipping a grayscale filter which can help avoid distractions or alleviate screen addiction and you can now make the display much warmer when using Night Light. You may also notice a small redesign of Night Light settings for responsiveness. Finally, there should be more accurate display resolution options available thanks to &lt;a href=&quot;https://github.com/vjr&quot;&gt;Vishal&lt;/a&gt;.&lt;/p&gt;
-
-&lt;figure class=&quot;half&quot;&gt;
-  &lt;p&gt;&lt;img src=&quot;/images/updates-for-june-2023/settings-nightlight.png&quot; alt=&quot;Night Light Settings&quot; width=&quot;990&quot; height=&quot;686&quot; /&gt;
-&lt;img src=&quot;/images/updates-for-june-2023/settings-filters.png&quot; alt=&quot;Filters Settings&quot; width=&quot;990&quot; height=&quot;686&quot; /&gt;&lt;/p&gt;
-  &lt;figcaption&gt;
-    &lt;p&gt;Nightlight settings have been slightly redesigned and Filters are available as a new tab in Display Settings&lt;/p&gt;
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;There’s also a new version of Online Accounts settings thanks to &lt;a href=&quot;https://github.com/leolost2605&quot;&gt;Leonhard&lt;/a&gt; which fixes a freeze when the server doesn’t respond while adding an IMAP account, and improves support for special folders like Archive and Sent folders.&lt;/p&gt;
-
-&lt;h2 id=&quot;files&quot;&gt;Files&lt;/h2&gt;
-
-&lt;p&gt;A long requested feature, this month Bulk Rename lands in Files thanks to &lt;a href=&quot;https://github.com/jeremypw&quot;&gt;Jeremy&lt;/a&gt;. With this feature, you can select a number of files, secondary-click, and select “Rename…” to get an advanced bulk renaming dialog. This is an especially useful feature if you’re working with a large collection of photos or spreadsheets or other kinds of files that you may want to rename by creation date or using another sequence or when you have to format a large number of files the same way. We’re looking forward to your feedback on this feature and improving it to fit your advanced file management needs!&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;p&gt;&lt;img src=&quot;/images/updates-for-june-2023/files-rename.png&quot; alt=&quot;Files bulk rename&quot; width=&quot;990&quot; height=&quot;516&quot; /&gt;&lt;/p&gt;
-  &lt;figcaption&gt;
-    &lt;p&gt;You can now rename a large selection of files at once&lt;/p&gt;
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;He also fixed several reported issues in this release related to folder sizes, file creation dates, temporary and duplicate files, and even snuck in some performance improvements. Also, the storage level bar in Properties dialogs will now change color depending on how full a drive is.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;p&gt;&lt;img src=&quot;/images/updates-for-june-2023/bluetooth-sharing.png&quot; alt=&quot;Bluetooth sharing&quot; width=&quot;472&quot; height=&quot;572&quot; /&gt;&lt;/p&gt;
-  &lt;figcaption&gt;
-    &lt;p&gt;You can share files via Bluetooth from the secondary-click menu&lt;/p&gt;
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Plus, thanks to a joint effort between &lt;a href=&quot;https://github.com/jeremypw&quot;&gt;Jeremy&lt;/a&gt; and &lt;a href=&quot;https://github.com/torikulhabib&quot;&gt;Torikul&lt;/a&gt;, you can now share files via Bluetooth. A new Bluetooth transfer dialog is available by secondary-clicking a file or selection of files and selecting “Send Files via Bluetooth” from the menu.&lt;/p&gt;
-
-&lt;h2 id=&quot;panel&quot;&gt;Panel&lt;/h2&gt;
-
-&lt;p&gt;As part of the aforementioned Bluetooth file transfer feature, you can see ongoing transfers in the Bluetooth indicator. And thanks to &lt;a href=&quot;https://github.com/stan-janssen&quot;&gt;Stan&lt;/a&gt;, Bluetooth devices will now use any custom device names you’ve set up before falling back to more generic device names.&lt;/p&gt;
-
-&lt;p&gt;We now do a better job making sure notification bubbles you’ve dismissed with a swipe or the close button don’t end up in the Notifications indicator, and the number of missed notifications in the tooltip should be more accurate, thanks again to &lt;a href=&quot;https://github.com/jeremypw&quot;&gt;Jeremy&lt;/a&gt;. &lt;a href=&quot;https://github.com/lenemter&quot;&gt;Leo&lt;/a&gt; improved support for notifications that contain markup and &lt;a href=&quot;https://github.com/leolost2605&quot;&gt;Leonhard&lt;/a&gt; fixed the change in indicator width when all notifications have been cleared.&lt;/p&gt;
-
-&lt;p&gt;Plus, we updated some icons in the Bluetooth, Night Light, and Notifications indicators to be more consistent.&lt;/p&gt;
-
-&lt;h2 id=&quot;other-updates&quot;&gt;Other Updates&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/lenemter&quot;&gt;Leo&lt;/a&gt; fixed some visual glitches in Sideload and made sure the “Open” button can be activated when pressing &lt;kbd&gt;Enter&lt;/kbd&gt; after installing. He also removed the intrusive “Automatic Suspend” notifications, fixed an issue where sometimes parent windows wouldn’t un-dim after closing dialogs, and made sure Picture-in-Picture windows update their visibility properly when switching workspaces.&lt;/p&gt;
-
-&lt;p&gt;Gustavo made sure critical notifications are still sent even when Do Not Disturb is active and contributed quite a bit of code cleanup in the notifications server. And new contributor &lt;a href=&quot;https://github.com/SuperRiderTH&quot;&gt;Sean&lt;/a&gt; made a fix for the option to disable sounds from notifications sent by apps that don’t properly identify themselves.&lt;/p&gt;
-
-&lt;h2 id=&quot;get-these-updates&quot;&gt;Get These Updates&lt;/h2&gt;
-
-&lt;p&gt;As always, pop open AppCenter on elementary OS 7 and hit “Update All” to get all these updates plus your regular security, bug fix, and translation updates.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;early-access-preview&quot;&gt;Early Access Preview&lt;/h2&gt;
-
-&lt;p&gt;Building off our work on the Background &amp;amp; Autostart Portal, you’ll notice in Early Access that Calendar, Mail, and Tasks can now be managed from System Settings → Applications → Startup. Plus Mail is gearing up for a big feature release with an improved sidebar, the ability to move messages, the ability to add images inline, performance improvements and better offline support. Plus, be on the lookout for signatures and improved calendar invite handling soon. We’d appreciate your help testing all of these features before releasing them to the general public.&lt;/p&gt;
-
-&lt;p&gt;But the big new Early Access feature is Wayland! That’s right, a usable Wayland session is finally available. You can choose to test Wayland from the login and lock screen by selecting the gear menu on your login card and choosing “Pantheon (Wayland)”. Keep in mind that the Wayland session is highly experimental and you’ll certainly run into issues immediately, the most noticeable of which are the lack of a Dock, broken panel positioning, and other issues with positioning certain windows. There is a whole lot of work to do until it’s ready for primetime, but we would love your help testing and reporting issues to make sure there’s a smooth transition. With your help, I’d love to see Wayland as a viable option for elementary OS 8. Special thanks here go to &lt;a href=&quot;https://github.com/tintou&quot;&gt;Corentin&lt;/a&gt;, &lt;a href=&quot;https://github.com/davidmhewitt&quot;&gt;David&lt;/a&gt;, and &lt;a href=&quot;https://github.com/lenemter&quot;&gt;Leo&lt;/a&gt; for all of their hard work on preparing our window manager for Wayland.&lt;/p&gt;
-
-&lt;p&gt;Early Access is a great way to help us test new features and find bugs before they roll out to everyone. If you’re not already in early access, you can be among the first to try it and give your feedback by joining &lt;a href=&quot;https://builds.elementary.io/&quot;&gt;Early Access for a $10/mo sponsorship&lt;/a&gt;. As you can see, there’s a lot of new stuff to test right now!&lt;/p&gt;
-</description>
-          <pubDate>Wed, 05 Jul 2023 00:00:00 -0500</pubDate>
-          <link>https://blog.elementary.io/updates-for-june-2023/</link>
-          <guid isPermaLink="true">https://blog.elementary.io/updates-for-june-2023/</guid>
           
               
               
