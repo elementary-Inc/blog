@@ -50,18 +50,15 @@ Now that System Updates and Drivers have moved to System Settings, AppCenter has
 
 ## And More
 
-Larger and bolder clock on the lock screen
+We have two new wallpapers for OS 8, ["A Large Body of Water Surrounded By Mountains"](https://unsplash.com/photos/a-large-body-of-water-surrounded-by-mountains-Dxod5pdRtsk) by [Peter Thomas](https://unsplash.com/@lifeof_peter_) and ["A Trail of Footprints In The Sand"](https://unsplash.com/photos/a-trail-of-footprints-in-the-sand-of-a-beach-A9mr3TPoj0k) by [David Emrich](https://unsplash.com/@davidemrich). Both of these images have been slightly edited for use as wallpapers in elementary OS and are distributed under the permissive Unsplash license.
 
-New wallpapers
-New default wallpaper
+The Lock Screen now features a larger and bolder clock and it looks really great with our new default for OS 8!
 
 ## Developer Platform
 
-Platform 8 is now available
-Granite
-Icons
-Stylesheet
-Now includes LibPortal
+The elementary Flatpak Platform 8 has been released and is available now in the AppCenter Flatpak remote. If you're an app developer, that means you can update your app to the latest Platform today! We recommend doing so as soon as possible so that your app doesn't have an "Outdated" badge next to it in AppCenter on release day.
+
+Platform 8 is based on the GNOME 46 platform and includes all of the same library updates as well as the latest Granite, elementary Stylesheet, and elementary Icons. Plus we're now including LibPortal, a library that makes it easy to use platform APIs for things like Background &amp; Autostart, taking screenshots, and setting wallpapers. Platform 8 includes the latest LibAdwaita with `Adw.ToolbarView` and the elementary stylesheet now supports it as well. Plus `Granite.Toast` now includes a new `dismissed ()` signal with  dismissal reasons, a new `STYLE_CLASS_SUCCESS` constant, and you can now use markup in `Granite.HeaderLabel`. We now also load widget fallback styles when using `Granite.init ()` that should improve your apps' cross-platform compatibility.
 
 ---
 
