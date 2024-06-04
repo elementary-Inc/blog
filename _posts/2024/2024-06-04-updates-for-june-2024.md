@@ -2,7 +2,7 @@
 title: Happy Pride! Have Some Updates!
 description: OS 7 Updates and OS 8 progress during May
 author: danrabbit
-image: /images/updates-for-june-2024/.png
+image: /images/updates-for-june-2024/lock.png
 
 tags:
   - earlyaccess
@@ -16,9 +16,9 @@ This month we have some suprise updates for OS 7, including new releases of GNOM
 Thanks to Flatpak, OS 7 continues to receive updates for several apps, including the GNOME apps that we ship with elementary OS. Web 46 brings a new flatter design and tons of bug fixes. Document Viewer gets the latest bug fixes while Archive Manager now uses GTK 4.
 
 <figure markdown="1">
-![The new Fonts app](/images/{{ page.slug }}/fonts.png){: width="" height=""}
+![The Fonts app](/images/{{ page.slug }}/fonts.png)
 <figcaption markdown="1">
-The new Fonts app is available from AppCenter
+The updated Fonts app is available from AppCenter
 </figcaption>
 </figure>
 
@@ -40,9 +40,23 @@ You can now choose between a Wayland or X11 session on the lock screen of the la
 
 ## System Settings
 
-Continuing our big redesign of System Settings, a new paned design has landed for Desktop settings. This also includes wallpaper previews on the "Appearance" page.
+Continuing our big redesign of System Settings, a new paned design has landed for Desktop settings. This also includes wallpaper previews on the "Appearance" page. You'll notice that the "Dim Wallpaper With Dark Style" option has also moved to the Appearance page where you can see a preview of its effect.
+
+<figure markdown="1">
+![System Settings → Desktop → Appearance](/images/{{ page.slug }}/appearance.png)
+<figcaption markdown="1">
+Desktop settings have been redesigned
+</figcaption>
+</figure>
 
 Another new feature from [Leonhard](https://github.com/leolost2605), Driver management has moved to System Settings → System. The new design for drivers should be more in line with how drivers are managed on other operating systems and be easier to work with. We're definitely looking forward to your feedback here to make sure we're providing a better experience for folks who rely on additional drivers.
+
+<figure markdown="1">
+![System Settings → System → Drivers](/images/{{ page.slug }}/drivers.png)
+<figcaption markdown="1">
+Drivers are now managed from System Settings
+</figcaption>
+</figure>
 
 ## AppCenter
 
@@ -51,6 +65,14 @@ Now that System Updates and Drivers have moved to System Settings, AppCenter has
 ## And More
 
 We have two new wallpapers for OS 8, ["A Large Body of Water Surrounded By Mountains"](https://unsplash.com/photos/a-large-body-of-water-surrounded-by-mountains-Dxod5pdRtsk) by [Peter Thomas](https://unsplash.com/@lifeof_peter_) and ["A Trail of Footprints In The Sand"](https://unsplash.com/photos/a-trail-of-footprints-in-the-sand-of-a-beach-A9mr3TPoj0k) by [David Emrich](https://unsplash.com/@davidemrich). Both of these images have been slightly edited for use as wallpapers in elementary OS and are distributed under the permissive Unsplash license.
+
+<figure class="card" markdown="1">
+![The new Lock Screen](/images/{{ page.slug }}/lock.png)
+<figcaption markdown="1">
+A larger and bolder clock on the Lock Screen
+</figcaption>
+</figure>
+
 
 The Lock Screen now features a larger and bolder clock and it looks really great with our new default for OS 8!
 
