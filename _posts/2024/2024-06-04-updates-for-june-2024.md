@@ -6,10 +6,11 @@ image: /images/updates-for-june-2024/lock.png
 
 tags:
   - earlyaccess
+  - horus
   - updates
 ---
 
-This month we have some suprise updates for OS 7, including new releases of GNOME apps and a big update for Mail. Plus Wayland is here, there's a new way to manage Drivers, and we're shipping Flathub by default! And don't forget Platform 8 is now ready for developers. Read ahead for all of the details of the work we accomplished during the month of May.
+This month we have some surprise updates for OS 7, including new releases of GNOME apps and a big update for Mail. Plus Wayland is here, there's a new way to manage Drivers, and we're shipping Flathub by default! And don't forget Platform 8 is now ready for developers. Read ahead for all of the details of the work we accomplished during the month of May.
 
 ## Updated Flatpak apps for OS 7
 
@@ -30,7 +31,7 @@ Email aliases have arrived in Mail! You can now secondary click on an account in
 
 ## Monthly Stable Builds
 
-We're now automatically building monthly release candidate quality stable builds on our [Builds website](https://builds.elementary.io). These builds are created on the 1st of every month and include all stable updates for the current stable OS series. They have not been reviewed by a human, but should usually be of high quality. These monthly release candidates and daily unstable builds are available to GitHub Sponsors from any tier!
+We're now automatically building monthly release candidate quality stable builds on our [Builds website](https://builds.elementary.io). These builds are created on the 1st of every month and include all stable updates for the current stable OS series. They have not been reviewed by a human, but should usually be of high quality. These monthly release candidates and daily unstable builds are available to [GitHub Sponsors](https://github.com/sponsors/elementary) from any tier!
 
 ---
 
@@ -64,7 +65,7 @@ Now that System Updates and Drivers have moved to System Settings, AppCenter has
 
 ## And More
 
-We have two new wallpapers for OS 8, ["A Large Body of Water Surrounded By Mountains"](https://unsplash.com/photos/a-large-body-of-water-surrounded-by-mountains-Dxod5pdRtsk) by [Peter Thomas](https://unsplash.com/@lifeof_peter_) and ["A Trail of Footprints In The Sand"](https://unsplash.com/photos/a-trail-of-footprints-in-the-sand-of-a-beach-A9mr3TPoj0k) by [David Emrich](https://unsplash.com/@davidemrich). Both of these images have been slightly edited for use as wallpapers in elementary OS and are distributed under the permissive Unsplash license.
+The Lock Screen now features a larger and bolder clock and it looks really great with our new default wallpaper for OS 8!
 
 <figure class="card" markdown="1">
 ![The new Lock Screen](/images/{{ page.slug }}/lock.png)
@@ -73,14 +74,13 @@ A larger and bolder clock on the Lock Screen
 </figcaption>
 </figure>
 
-
-The Lock Screen now features a larger and bolder clock and it looks really great with our new default for OS 8!
+We have two new wallpapers to share, ["A Large Body of Water Surrounded By Mountains"](https://unsplash.com/photos/a-large-body-of-water-surrounded-by-mountains-Dxod5pdRtsk) by [Peter Thomas](https://unsplash.com/@lifeof_peter_) and ["A Trail of Footprints In The Sand"](https://unsplash.com/photos/a-trail-of-footprints-in-the-sand-of-a-beach-A9mr3TPoj0k) by [David Emrich](https://unsplash.com/@davidemrich). Both of these images have been slightly edited for use as wallpapers in elementary OS and are distributed under the permissive Unsplash license.
 
 ## Developer Platform
 
 The elementary Flatpak Platform 8 has been released and is available now in the AppCenter Flatpak remote. If you're an app developer, that means you can update your app to the latest Platform today! We recommend doing so as soon as possible so that your app doesn't have an "Outdated" badge next to it in AppCenter on release day.
 
-Platform 8 is based on the GNOME 46 platform and includes all of the same library updates as well as the latest Granite, elementary Stylesheet, and elementary Icons. Plus we're now including LibPortal, a library that makes it easy to use platform APIs for things like Background &amp; Autostart, taking screenshots, and setting wallpapers. Platform 8 includes the latest LibAdwaita with `Adw.ToolbarView` and the elementary stylesheet now supports it as well. Plus `Granite.Toast` now includes a new `dismissed ()` signal with  dismissal reasons, a new `STYLE_CLASS_SUCCESS` constant, and you can now use markup in `Granite.HeaderLabel`. We now also load widget fallback styles when using `Granite.init ()` that should improve your apps' cross-platform compatibility.
+Platform 8 is based on the GNOME 46 platform and includes all of the same library updates as well as the latest Granite, elementary Stylesheet, and elementary Icons. Plus we're now including LibPortal, a library that makes it easy to use platform APIs for things like background &amp; autostart, taking screenshots, and setting wallpapers. Platform 8 includes the latest LibAdwaita with `Adw.ToolbarView` and the elementary stylesheet now supports it as well. Plus `Granite.Toast` now includes a new `dismissed ()` signal with  dismissal reasons, a new `STYLE_CLASS_SUCCESS` constant, and you can now use markup in `Granite.HeaderLabel`. We now also load widget fallback styles when using `Granite.init ()` that should improve your apps' cross-platform compatibility.
 
 ---
 
