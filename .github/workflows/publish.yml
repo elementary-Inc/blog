@@ -29,9 +29,8 @@ jobs:
 
       - name: Build
         run: |
-          docker run \
-          -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-          jekyll/builder:4 /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
+          docker run -v "${{ github.workspace }}:/srv/jekyll:Z" jekyll/builder:4 jekyll build --future
+
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
