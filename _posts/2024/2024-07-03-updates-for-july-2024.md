@@ -24,7 +24,7 @@ This year we had the pleasure of being introduced to [Florian Biejers](https://w
 
 Tracking issues for StarLite Mk V
 
-Discord server
+Discord server https://discord.com/invite/kwRyqGCzm5
 
 Fedora call for contributors for Pantheon SIG discord.gg/fedora
 
@@ -38,13 +38,11 @@ Capnet Assist 8
 
 ## AppCenter
 
-Redesigned links in AppCenter. More links shown including Sponsors that aren't monetized through AppCenter
+Another couple of big design updates landed in AppCenter in June! Pages now draw their own individual headers, which means we can show more contextual controls and have more design freedom. You'll notice that options related to updates have now moved to the Updates &amp; Installed Apps page, for example. On App info pages, main action buttons like Install and Open are now always available from the headerbar, and when you scroll past an app's banner a smaller icon and app title will appear.
 
-Much faster AppCenter startup, thanks to Leonhard
+The links section of App Info pages has also been redesigned, featuring colorful iconography and an expanded set of supported links. We now show a Sponsor link for apps who monetize outside of AppCenter and we show a link directly to the app's source code for apps that provide it.
 
-Cleanups, bug fixes, performance improvements for updates
-
-AppCenter pages now draw their own headerbars. Already started making design changes like keeping action buttons in the headerbar, showing a smaller window title when scrolled
+Plus we've made a ton of cleanups, bug fixes, and performance improvements, especially around updates. And AppCenter now starts much faster thanks to [Leonhard](https://github.com/leolost2605).
 
 ## System Settings
 
@@ -58,23 +56,25 @@ Bluetooth settings fix icon with some headphones
 
 ## And More
 
-Screencast portal, Inhibit shortcut dialog; thanks to Leonhard
+The Screencast portal landed this past month, meaning screen recording applications are now able to capture the screen in the Wayland session, thanks again to [Leonhard](https://github.com/leolost2605).
 
-Code now uses Hdy.TabBar, important step in Gtk 4 porting. Also made a lot of progress toward using GLib.Action and GLib.Menu thanks to Colin
+Code now uses the TabBar widget from LibHandy instead of the deprecated widget from Granite, an important step in porting to GTK 4. There's also been a lot of progress towards using GLib.Action and modernizing menus thanks to [Colin](https://github.com/colinkiama).
 
 
 ## Release Planning
 
 Wayland bug fixes. Almost parity with X11 session
 
-Working on releasing all components. Some of these releases may show up in OS 7, many can't. 
+Working on releasing all components. Some of these releases may show up in OS 7, many can't.
 
-https://github.com/orgs/elementary/projects/128/views/1
+As always you can follow along with our progress towards the release of OS 8 in [this GitHub project](https://github.com/orgs/elementary/projects/128/views/1).
 
 ---
 
 ## Sponsors
 
-At the moment we're just above 20% of our monthly funding goal and we're almost at 350 Sponsors on GitHub! Shoutouts to everyone helping us reach our goals here. Your monthly sponsorship funds development and makes sure we have the resources we need to give you the best version of elementary OS we can!
+At the moment we're just above 21% of our monthly funding goal and we're at 365 Sponsors on GitHub! Shoutouts to everyone helping us reach our goals here. Your monthly sponsorship funds development and makes sure we have the resources we need to give you the best version of elementary OS we can!
 
-If you're not already in Early Access, you can be among the first to try the next release of elementary OS and give us your feedback by sponsoring elementary [for as little as $1/mo](https://builds.elementary.io/). Beware that Early Access builds are not considered stable and you will encounter fresh issues when you run them. We'd really appreciate reporting any problems you encounter with the Feedback app or directly [on GitHub](https://Github.com/elementary).
+We're also now automatically building monthly release candidate quality stable builds! These builds are created on the 1st of every month and include all stable updates for the current stable OS series. They have not been reviewed by a human, but should usually be of high quality. Monthly release candidate builds and daily Early Access builds are available to [GitHub Sponsors](https://github.com/sponsors/elementary) from any tier!
+
+Beware that Early Access builds are not considered stable and you will encounter fresh issues when you run them. We'd really appreciate reporting any problems you encounter with the Feedback app or directly [on GitHub](https://Github.com/elementary).
