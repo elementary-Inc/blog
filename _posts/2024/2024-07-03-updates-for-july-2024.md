@@ -1,8 +1,8 @@
 ---
-title: 
-description: OS 7 Updates and OS 8 progress during June
+title: It's Disability Pride Month! Let's Get Accessible
+description: OS 8 progress and community updates from June
 author: danrabbit
-image: /images/updates-for-july-2024/.png
+image: /images/updates-for-july-2024/settings-system.png
 
 tags:
   - earlyaccess
@@ -40,6 +40,13 @@ The Captive Network Assistant was also updated to version 8. This release contai
 
 Another couple of big design updates landed in AppCenter in June! Pages now draw their own individual headers, which means we can show more contextual controls and have more design freedom. You'll notice that options related to updates have now moved to the Updates &amp; Installed Apps page, for example. On App info pages, main action buttons like Install and Open are now always available from the headerbar, and when you scroll past an app's banner a smaller icon and app title will appear.
 
+<figure class="third" markdown="1">
+![AppCenter home page](/images/{{ page.slug }}/appcenter-home.png)
+![AppCenter updates page](/images/{{ page.slug }}/appcenter-updates.png)
+![AppCenter app info page](/images/{{ page.slug }}/appcenter-appinfo.png)
+<figcaption>AppCenter has a flatter design where each page has unique headerbar contents</figcaption>
+</figure>
+
 The links section of App Info pages has also been redesigned, featuring colorful iconography and an expanded set of supported links. We now show a Sponsor link for apps who monetize outside of AppCenter and we show a link directly to the app's source code for apps that provide it.
 
 Plus we've made a ton of cleanups, bug fixes, and performance improvements, especially around updates. And AppCenter now starts much faster thanks to [Leonhard](https://github.com/leolost2605).
@@ -47,6 +54,13 @@ Plus we've made a ton of cleanups, bug fixes, and performance improvements, espe
 ## System Settings
 
 Locale settings saw the biggest improvements with a new setting for automatically selecting the temperature unit based on locale, fixed freezing while getting advanced permissions, and it will no longer prompt system administrators for a password unnecessarily for setting the system language. Plus we made some improvements to error handling and other feedback.
+
+<figure markdown="1">
+![](/images/{{ page.slug }}/settings-system.png)
+<figcaption markdown="1">
+Operating System settings has a redesigned links section
+</figcaption>
+</figure>
 
 System got a redesign of external links similar to the one in AppCenter, with clearer help and documentation links as well as a better call for contributions. Plus, network settings now shows the name of connected wireless networks in the sidebar and we fixed a missing icon for some wireless headphones in Bluetooth settings.
 
