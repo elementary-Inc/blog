@@ -23,7 +23,7 @@ This year we had the pleasure of being introduced to [Florian Biejers](https://w
 We've moved our recommended community chat from Slack to Discord! You may know that we've had quite a bit of trouble keeping the invite link for Slack active which has really prevented that community from growing and staying vibrant. There's also been issues with the policies for Slack's free tier around keeping/deleting messages and generally we recognize that at its core Slack is a product for workplaces, not for building communities. So after a bit of poking around and discussion, we're now recommending folks join the [community Discord server](https://discord.com/invite/kwRyqGCzm5) instead. So far we're already at over 330 members and it's been a much more active and lively place than the Slack was. Plus, we have dedicated moderators besides the core team of developers. Thanks to [Tiana](https://kakii87.net) and [Tony](https://thattonybo.com) for creating this community and being our mods!
 
 <div style="text-align: center" markdown="1">
-[Join us on Discord](https://discord.com/invite/kwRyqGCzm5) {: .button.suggested }
+[Join us on Discord](https://discord.com/invite/kwRyqGCzm5){: .button.suggested }
 </div>
 
 Fedora is asking for contributors to join the [Pantheon special interest group](https://fedoraproject.org/wiki/SIGs/Pantheon). If you're interested in running our desktop environment on Fedora or contributing to maintaining it on Fedora, they'd love to hear from you!
