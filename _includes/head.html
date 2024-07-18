@@ -6,6 +6,8 @@
   <meta itemprop="name" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
   <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
 
+  <meta name="fediverse:creator" content="{% if page.author.fediverse %}{{ page.author.fediverse }}{% else %}{{ site.fediverse }}{% endif %}" />
+  
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
