@@ -34,6 +34,12 @@ While most of the releases going out at the moment are exclusive to OS 8, there 
 
 Videos now sports a more modern and minimal design which is especially apparent on the player page. On the library page it uses larger landscape format thumbnails and the app now follows the system light and dark style preference. The upgrade to GTK4 also brings performance improvements. Major shoutouts to [Leonhard](https://github.com/leolost2605) for his work modernizing this code base.
 
+Videos—like all of our Flatpak apps—is of course also available to download as a Flatpak for folks running Linux distros other than elementary OS:
+
+<div style="text-align: center" markdown="1">
+[Download Videos as Flatpak](https://appcenter.elementary.io/io.elementary.videos/){: .button.suggested }
+</div>
+
 ## Developer Tools
 
 Code now uses the LibHandy tab bar widget which brings improved animations and drag-n-drop behavior. The Terminal pane can now open to your preference of project subdirectory by default. The preferences dialog was slightly redesigned to fit more modern platform conventions and improve screen reader compatibility. And we fixed a dozen reported issues!
