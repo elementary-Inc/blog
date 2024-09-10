@@ -2,7 +2,7 @@
 title: Package Releases Are Almost Done, You Won't Believe What Happens Next!
 description: A brief update with important features
 author: danrabbit
-image: /images/updates-for-september-2024/
+image: /images/updates-for-september-2024/shutdown.png
 
 tags:
   - earlyaccess
