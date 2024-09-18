@@ -72,27 +72,25 @@ You can choose to skip updates when shutting down or restarting
 
 # Multitasking &amp; Window Management
 
-The Multitasking View has seen a number of design updates, the most noticeable of which is that instead of a plain dark grey background, it now features a blurred version of your wallpaper that is either lightened or darkened for light and dark modes respectively. You'll also notice that the workspace cards now have rounded corners and the switcher UI at the bottom of the screen has been updated for light and dark modes as well.
-
-<figure class="card half" markdown="1">
-![Multitasking View in light mode](/images/{{ page.slug }}/multitasking-light.png)
-![Multitasking View in dark mode](/images/{{ page.slug }}/multitasking-dark.png)
-<figcaption>Multitasking View now features a blurred background and an updated switcher UI design</figcaption>
-</figure>
-
 We've added support for horizontal swipe gestures for switching windows
 
 option to disable hotcorners for workspaces with fullscreen apps
 
 A small visual change, when switching workspaces docks and panels will no longer move with the switch. made sure that there's audio (or visual depending on your settings) feedback when we're unable to cycle workspaces in response to the keyboard shortcut.
 
-# A new Dock rewritten from scratch
+Option to switch workspaces by scrolling over the panel
+
+## A new Dock rewritten from scratch
 
 Uses the latest technology. Renders on the GPU for better performance. Made for Wayland.
 
-Plus, the Dock has a new multitasking feature: when multiple windows of the same app are opened, selecting that app's icon in the dock will open a window spread instead of hiding those windows.
+When multiple windows of the same app are opened, selecting that app's icon in the dock will open a window spread instead of hiding those windows.
 
-We're closing in on a much better multitasking story for the new Dock. focusing a single open window of an app on click instead of opening new windows. We've also implemented a middle-click system that is aware of the FreeDesktop.org SingleMainWindow app launcher hint, so we can more reliably open new app windows when middle-clicking an app's icon; This closes a 3-year-old feature request! This is in addition to the window spread feature that was implemented in January. The end result is a much more predictable experience that is centered on bringing you to the app you've clicked and an improved workflow for multi-window apps.
+Focusing a single open window of an app on click instead of opening new windows
+
+We've also implemented a middle-click system that is aware of the FreeDesktop.org SingleMainWindow app launcher hint, so we can more reliably open new app windows when middle-clicking an app's icon.
+
+The end result is a much more predictable experience that is centered on bringing you to the app you've clicked and an improved workflow for multi-window apps.
 
 you can now launch pinned apps with <kbd>Super</kbd> + <kbd>1­</kbd>—<kbd>9</kbd>, a hotly requested feature.
 
@@ -222,15 +220,9 @@ System got a redesign of external links similar to the one in AppCenter, with cl
 
 The Login &amp; Lock screen now has a smoother fade in animation and will respect your orientation lock settings
 
-<figure class="card" markdown="1">
-![Login &amp; Lock Screen](/images/{{ page.slug }}/greeter.png)
-<figcaption>The Login &amp; Lock Screen now shows a blurred version of your wallpaper in the background</figcaption>
-</figure>
-
 We're also making a major change to our default keyboard shortcuts. Pressing <kbd>⌘</kbd> will now open the Applications menu instead of the Shortcuts overlay and <kbd>⌘</kbd> + <kbd>Space</kbd> will now switch keyboard layouts by default. This brings us more in line with the defaults from other desktops and operating systems and will hopefully be more comfortable for folks who rely on these shortcuts. Of course you can always change the <kbd>⌘</kbd> key behavior and keyboard shortcuts in general in System Settings → Keyboard.
 
 and sound change confirmations will no longer appear over the sound indicator if it's open.
-
 
 <figure class="card" markdown="1">
 ![Quick Settings](/images/{{ page.slug }}/quick-settings.png){: width="256" height="209"}
@@ -266,21 +258,12 @@ We've landed a rename of the session options on the Lock Screen to hopefully imp
 
 # Design
 
-We saw some great changes to Icons this month thanks to new and old contributors. [William](https://github.com/wpkelso) gave attention to cursors and introduced more color into their design. This resulted in an almost complete redraw of our cursors and closed several old issue reports. We also got new, colorful "Find" icons thanks to [Newhoa](https://github.com/newhoa) as well as a new design for the "Save As" icon.
+Gve attention to cursors and introduced more color into their design. This resulted in an almost complete redraw of our cursors and closed several old issue reports. We also got new, colorful "Find" icons as well as a new design for the "Save As" icon.
 
 <figure markdown="1">
 ![New Cursors](/images/{{ page.slug }}/cursors.png){: width="192" height="192"}
 <figcaption markdown="1">
 Cursors have been almost completely redesigned with more color
-</figcaption>
-</figure>
-
-The Lock Screen now features a larger and bolder clock and it looks really great with our new default wallpaper for OS 8! The Login &amp; Lock Screen now features a blurred background similar to the Multitasking View
-
-<figure class="card" markdown="1">
-![The new Lock Screen](/images/{{ page.slug }}/lock.png)
-<figcaption markdown="1">
-A larger and bolder clock on the Lock Screen
 </figcaption>
 </figure>
 
@@ -292,6 +275,28 @@ Plus, opaque panel styles received some attention and now have a soft shadow
 ![Panel in light style](/images/{{ page.slug }}/panel-light.png)
 ![Panel in dark style](/images/{{ page.slug }}/panel-dark.png)
 <figcaption>The Panel's opaque styles now have a soft shadow</figcaption>
+</figure>
+
+The Lock Screen now features a larger and bolder clock and it looks really great with our new default wallpaper for OS 8! The Login &amp; Lock Screen now features a blurred background similar to the Multitasking View
+
+<figure class="card" markdown="1">
+![The new Lock Screen](/images/{{ page.slug }}/lock.png)
+<figcaption markdown="1">
+A larger and bolder clock on the Lock Screen
+</figcaption>
+</figure>
+
+<figure class="card" markdown="1">
+![Login &amp; Lock Screen](/images/{{ page.slug }}/greeter.png)
+<figcaption>The Login &amp; Lock Screen now shows a blurred version of your wallpaper in the background</figcaption>
+</figure>
+
+The Multitasking View has seen a number of design updates, the most noticeable of which is that instead of a plain dark grey background, it now features a blurred version of your wallpaper that is either lightened or darkened for light and dark modes respectively. You'll also notice that the workspace cards now have rounded corners and the switcher UI at the bottom of the screen has been updated for light and dark modes as well.
+
+<figure class="card half" markdown="1">
+![Multitasking View in light mode](/images/{{ page.slug }}/multitasking-light.png)
+![Multitasking View in dark mode](/images/{{ page.slug }}/multitasking-dark.png)
+<figcaption>Multitasking View now features a blurred background and an updated switcher UI design</figcaption>
 </figure>
 
 ## Updated Apps
