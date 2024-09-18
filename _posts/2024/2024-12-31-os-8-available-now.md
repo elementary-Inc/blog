@@ -114,12 +114,12 @@ And we've improved screen reader support in Initial Setup &amp; Onboarding
 
 # Settings &amp; Customization
 
-Our System Settings redesign work continues, and this month we merged in the redesign of Applications settings. The new split-paned design brings it in line with other settings pages and makes navigating much faster by exposing the list of installed apps at the top level of navigation.
+System Settings got an icon redesign. Settings panes are now in charge of drawing their own window controls, which means several settings have already been updated to use a more modern paned design and others are able to use space more efficiently in their own way. You can expect further design refinements to continue to land throughout the OS 8.x cycle
 
 <figure markdown="1">
-![Application Settings](/images/{{ page.slug }}/settings-applications.png){: width="898" height="559"}
+![System Settings app icon](/images/{{ page.slug }}/settings-icon.png){: width="128" height="128"}
 <figcaption markdown="1">
-Applications Settings has a new split-paned design
+System Settings has a new app icon
 </figcaption>
 </figure>
 
@@ -132,37 +132,14 @@ Search in System Settings now ranks results better
 </figcaption>
 </figure>
 
-Shortcuts settings now include a new "Keyboard Layouts" section where you can set a custom shortcut to change keyboard layouts as well as change the shortcuts for emoji and unicode typing modes. And some cleanup was done in Mouse &amp; Touchpad settings to make layouts more responsive, provide additional explanation text, and improve screen reader support.
+## Applications
+
+Redesign of Applications settings. The new split-paned design brings it in line with other settings pages and makes navigating much faster by exposing the list of installed apps at the top level of navigation.
 
 <figure markdown="1">
-![System Settings app icon](/images/{{ page.slug }}/settings-icon.png){: width="128" height="128"}
+![Application Settings](/images/{{ page.slug }}/settings-applications.png){: width="898" height="559"}
 <figcaption markdown="1">
-System Settings has a new app icon
-</figcaption>
-</figure>
-
-Plus we're using a new SettingsPage widget to improve consistency between settings views, and System Settings got an icon redesign. Finally, we've almost wrapped up porting System Settings to GTK 4; Network and Printer settings are in review, and Display settings is partially ported, with only Wacom settings having not been started.
-
-
-The GTK 4 port of System Settings is now almost complete! We merged ports for Display, Network, and Printer settings during the last month. Display settings received a big update to the way we do arranging and snapping which should be much smoother and more reliable with 3 displays thanks to [Jeremy](https://github.com/jeremypw). [Leonhard](https://github.com/leolost2605) made sure that the colored display labels you see in the corner while arranging displays are now created in a Wayland-compitable way. Plus we've improved CSS styling here for higher contrast.
-
-<figure markdown="1">
-![Power Settings](/images/{{ page.slug }}/settings-power.png){: width="678" height="901"}
-<figcaption markdown="1">
-System Settings → Power has new options and shows battery charge status
-</figcaption>
-</figure>
-
-Power settings now shows charging level and status for internal batteries and theoretically supports multiple internal batteries—though I'm not sure that's been tested so please send feedback if you have a device with multiple internal batteries. You can also now choose to automatically set different power profiles based on whether your device is plugged in or on battery power thanks to [Leo](https://github.com/lenemter). We've cleaned up some old code here quite a bit along the way and solved some issues with system hangs while getting permission for lid close settings. I'm excited to continue iterating here and hopefully have more new features to announce to you next month!
-
-I want to give a special thanks to [Micah](https://github.com/micahilbery) for donating a Wacom tablet so that I can do the port of Wacom settings. I received it near the end of the month so I've only made a preliminary port so far, but I'm feeling confident about being able to finish it quickly! We're also closing in on a much larger redesign of System Settings in general, so hang tight for news on that. The new GTK 4 System Settings is almost ready to go!
-
-The System Settings port for GTK 4 is now completed! And not only that, we've landed the first step in a major redesign. Settings panes are now in charge of drawing their own window controls, which means several settings have already been updated to use a more modern paned design and others are able to use space more efficiently in their own way. You can expect further design refinements to continue to land throughout the OS 8.x cycle
-
-<figure markdown="1">
-![Network Settings](/images/{{ page.slug }}/settings-network.png)
-<figcaption markdown="1">
-System Settings has a new modern design
+Applications Settings has a new split-paned design
 </figcaption>
 </figure>
 
@@ -177,6 +154,44 @@ System Settings → Applications has expanded options
 
 We've also adjusted the language of install time permissions—aka sandbox holes—to be more clear that these represent advanced system access and the implications of adjusting them. Plus the descriptions of several individual items were changed based on feedback to use less technical language. And app permission pages now show the app's icon and description.
 
+## Keyboard
+
+Shortcuts settings now include a new "Keyboard Layouts" section where you can set a custom shortcut to change keyboard layouts as well as change the shortcuts for emoji and unicode typing modes
+
+
+## Mouse &amp; Touchpad
+
+And some cleanup was done in Mouse &amp; Touchpad settings to make layouts more responsive, provide additional explanation text, and improve screen reader support.
+
+
+## Displays
+
+Display settings received a big update to the way we do arranging and snapping which should be much smoother and more reliable with 3 displays. Plus we've improved styling here for higher contrast.
+
+## Power
+
+<figure markdown="1">
+![Power Settings](/images/{{ page.slug }}/settings-power.png){: width="678" height="901"}
+<figcaption markdown="1">
+System Settings → Power has new options and shows battery charge status
+</figcaption>
+</figure>
+
+Power settings now shows charging level and status for internal batteries and theoretically supports multiple internal batteries—though I'm not sure that's been tested so please send feedback if you have a device with multiple internal batteries. You can also now choose to automatically set different power profiles based on whether your device is plugged in or on battery power thanks to [Leo](https://github.com/lenemter). We've cleaned up some old code here quite a bit along the way and solved some issues with system hangs while getting permission for lid close settings. I'm excited to continue iterating here and hopefully have more new features to announce to you next month!
+
+## Network
+
+network settings now shows the name of connected wireless networks in the sidebar
+
+<figure markdown="1">
+![Network Settings](/images/{{ page.slug }}/settings-network.png)
+<figcaption markdown="1">
+System Settings has a new modern design
+</figcaption>
+</figure>
+
+## Notifications
+
 <figure markdown="1">
 ![Notification Settings](/images/{{ page.slug }}/settings-notifications.png)
 <figcaption markdown="1">
@@ -186,7 +201,9 @@ Do Not Disturb no longer blocks Notification settings
 
 Language &amp; Region settings now has searchable dropdowns. We've also received some feedback from some folks that indicates they were looking here for Keyboard Layout or Date &amp; Time settings, so we more clearly link to both of those locations to help you find what you're looking for. If you're not a fan of overlaid scrollbars that disappear when not in use, there's a new setting to always show scrollbars in Desktop → Appearance. The Do Not Disturb setting in Notifications settings no longer blocks the whole view and we've updated the design of this pane to better reflect modern design patterns and support RTL language layouts. And Housekeeping is now completely handled by elementary's Settings Daemon which uses SystemD timers under the hood.
 
-Continuing our big redesign of System Settings, a new paned design has landed for Desktop settings. This also includes wallpaper previews on the "Appearance" page. You'll notice that the "Dim Wallpaper With Dark Style" option has also moved to the Appearance page where you can see a preview of its effect.
+## Desktop
+
+A new paned design has landed for Desktop settings. This also includes wallpaper previews on the "Appearance" page. You'll notice that the "Dim Wallpaper With Dark Style" option has also moved to the Appearance page where you can see a preview of its effect.
 
 <figure markdown="1">
 ![System Settings → Desktop → Appearance](/images/{{ page.slug }}/appearance.png)
@@ -195,16 +212,9 @@ Desktop settings have been redesigned
 </figcaption>
 </figure>
 
-Another new feature from [Leonhard](https://github.com/leolost2605), Driver management has moved to System Settings → System. The new design for drivers should be more in line with how drivers are managed on other operating systems and be easier to work with. We're definitely looking forward to your feedback here to make sure we're providing a better experience for folks who rely on additional drivers.
+## System
 
-<figure markdown="1">
-![System Settings → System → Drivers](/images/{{ page.slug }}/drivers.png)
-<figcaption markdown="1">
-Drivers are now managed from System Settings
-</figcaption>
-</figure>
-
-Locale settings saw the biggest improvements with a new setting for automatically selecting the temperature unit based on locale, fixed freezing while getting advanced permissions, and it will no longer prompt system administrators for a password unnecessarily for setting the system language. Plus we made some improvements to error handling and other feedback.
+System got a redesign of external links similar to the one in AppCenter, with clearer help and documentation links as well as a better call for contributions.
 
 <figure markdown="1">
 ![](/images/{{ page.slug }}/settings-system.png)
@@ -213,7 +223,22 @@ Operating System settings has a redesigned links section
 </figcaption>
 </figure>
 
-System got a redesign of external links similar to the one in AppCenter, with clearer help and documentation links as well as a better call for contributions. Plus, network settings now shows the name of connected wireless networks in the sidebar and we fixed a missing icon for some wireless headphones in Bluetooth settings.
+Driver management has moved to System Settings → System. The new design for drivers should be more in line with how drivers are managed on other operating systems and be easier to work with
+
+<figure markdown="1">
+![System Settings → System → Drivers](/images/{{ page.slug }}/drivers.png)
+<figcaption markdown="1">
+Drivers are now managed from System Settings
+</figcaption>
+</figure>
+
+## Locale
+
+Locale settings saw the biggest improvements with a new setting for automatically selecting the temperature unit based on locale, fixed freezing while getting advanced permissions, and it will no longer prompt system administrators for a password unnecessarily for setting the system language. Plus we made some improvements to error handling and other feedback.
+
+## Bluetooth
+
+Plus, we fixed a missing icon for some wireless headphones in Bluetooth settings.
 
 
 # The Desktop
