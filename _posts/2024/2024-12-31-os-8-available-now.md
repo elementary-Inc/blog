@@ -192,14 +192,14 @@ System Settings has a new modern design
 
 ## Notifications
 
+The Do Not Disturb setting in Notifications settings no longer blocks the whole view and we've updated the design of this pane to better reflect modern design patterns and support RTL language layouts
+
 <figure markdown="1">
 ![Notification Settings](/images/{{ page.slug }}/settings-notifications.png)
 <figcaption markdown="1">
 Do Not Disturb no longer blocks Notification settings
 </figcaption>
 </figure>
-
-Language &amp; Region settings now has searchable dropdowns. We've also received some feedback from some folks that indicates they were looking here for Keyboard Layout or Date &amp; Time settings, so we more clearly link to both of those locations to help you find what you're looking for. If you're not a fan of overlaid scrollbars that disappear when not in use, there's a new setting to always show scrollbars in Desktop → Appearance. The Do Not Disturb setting in Notifications settings no longer blocks the whole view and we've updated the design of this pane to better reflect modern design patterns and support RTL language layouts. And Housekeeping is now completely handled by elementary's Settings Daemon which uses SystemD timers under the hood.
 
 ## Desktop
 
@@ -211,6 +211,8 @@ A new paned design has landed for Desktop settings. This also includes wallpaper
 Desktop settings have been redesigned
 </figcaption>
 </figure>
+
+If you're not a fan of overlaid scrollbars that disappear when not in use, there's a new setting to always show scrollbars in Desktop → Appearance.
 
 ## System
 
@@ -234,12 +236,13 @@ Drivers are now managed from System Settings
 
 ## Locale
 
-Locale settings saw the biggest improvements with a new setting for automatically selecting the temperature unit based on locale, fixed freezing while getting advanced permissions, and it will no longer prompt system administrators for a password unnecessarily for setting the system language. Plus we made some improvements to error handling and other feedback.
+Locale settings with a new setting for automatically selecting the temperature unit based on locale, fixed freezing while getting advanced permissions, and it will no longer prompt system administrators for a password unnecessarily for setting the system language. Plus we made some improvements to error handling and other feedback.
+
+Language &amp; Region settings now has searchable dropdowns. We've also received some feedback from some folks that indicates they were looking here for Keyboard Layout or Date &amp; Time settings, so we more clearly link to both of those locations to help you find what you're looking for.
 
 ## Bluetooth
 
 Plus, we fixed a missing icon for some wireless headphones in Bluetooth settings.
-
 
 # The Desktop
 
