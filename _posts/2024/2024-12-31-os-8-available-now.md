@@ -30,9 +30,11 @@ To get elementary OS 8 now, head to [elementary.io] for the download—or read o
 
 # Getting Apps You Need
 
-Now that System Updates and Drivers have moved to System Settings, AppCenter has become Flatpak only! This greatly reduces code complexity and improves stability and performance. Plus it will make it easier for us to introduce new features in the future. And as a bonus, we're now shipping Flathub as an available Flatpak remote. This means you will be able to access both apps made for elementary OS and cross-platform apps for Linux out of the box.
+we're now shipping Flathub as an available Flatpak remote. This means you will be able to access both apps made for elementary OS and cross-platform apps for Linux out of the box.
 
-Another couple of big design updates landed in AppCenter in June! Pages now draw their own individual headers, which means we can show more contextual controls and have more design freedom. You'll notice that options related to updates have now moved to the Updates &amp; Installed Apps page, for example. On App info pages, main action buttons like Install and Open are now always available from the headerbar, and when you scroll past an app's banner a smaller icon and app title will appear.
+Now that System Updates and Drivers have moved to System Settings, AppCenter has become Flatpak only! This greatly reduces code complexity and improves stability and performance. Plus it will make it easier for us to introduce new features in the future. Since OS Updates are now handled in System Settings, we've also removed that functionality from AppCenter which greatly improves performance and has enabled us to really simplify some of the backend code here. 
+
+Pages now draw their own individual headers, which means we can show more contextual controls and have more design freedom. You'll notice that options related to updates have now moved to the Updates &amp; Installed Apps page, for example. On App info pages, main action buttons like Install and Open are now always available from the headerbar, and when you scroll past an app's banner a smaller icon and app title will appear.
 
 <figure class="third" markdown="1">
 ![AppCenter home page](/images/{{ page.slug }}/appcenter-home.png)
@@ -43,12 +45,11 @@ Another couple of big design updates landed in AppCenter in June! Pages now draw
 
 The links section of App Info pages has also been redesigned, featuring colorful iconography and an expanded set of supported links. We now show a Sponsor link for apps who monetize outside of AppCenter and we show a link directly to the app's source code for apps that provide it.
 
-Plus we've made a ton of cleanups, bug fixes, and performance improvements, especially around updates. And AppCenter now starts much faster thanks to [Leonhard](https://github.com/leolost2605).
+Plus we've made a ton of cleanups, bug fixes, and performance improvements, especially around updates. And AppCenter now starts much faster
 
 # Staying Up to Date
 
-
-Instead of being a part of updates in AppCenter, system updates now live in the System page of System Settings. The new updates mechanism is super fast and includes an option to download updates automatically. It will also let you know explicity if security updates are part of the updates package.
+Instead of being a part of updates in AppCenter, system updates now live in the System page of System Settings. The new updates mechanism is super fast and includes an option to download updates automatically. It will also let you know explicitly if security updates are part of the updates package.
 
 <figure markdown="1">
 ![Operating System view of System Settings](/images/{{ page.slug }}/settings-system.png)
@@ -59,9 +60,9 @@ System updates now live in System Settings and can be updated automatically
 
 There's a few reasons why we would want two separate update mechanisms in elementary OS. Under the hood, apps in elementary OS are Flatpak packages and system packages are managed by PackageKit. Flatpak apps are sandboxed from the system and can be reliably updated while your computer is running. System packages are best installed offline, when your computer restarts, to make sure services are restarted correctly and to prevent issues. By splitting apart the updates experience, it is much clearer which updates will require you to restart your computer: app updates in AppCenter will never require a restart, while system updates in System Settings will always require a restart. It also makes the underlining code much less complex and speeds up processes like checking for new updates. It also means an error in one system won't cause updates in the other system to fail. Overall the updates experience in OS 8 will be faster, more reliable, and easier to understand, as well as being easier to automate.
 
-Since OS Updates are now handled in System Settings, we've also removed that functionality from AppCenter which greatly improves performance and has enabled us to really simplify some of the backend code here. Plus, you can now opt-in to automatic OS updates during Onboarding and automatic App updates are now opt-out.
+Plus, you can now opt-in to automatic OS updates during Onboarding and automatic App updates are now opt-out.
 
- [Leonhard](https://github.com/leolost2605) added a new option to the system shutdown dialog so you can choose to skip a pending update, even when automatic updates are enabled.
+A new option to the system shutdown dialog so you can choose to skip a pending update, even when automatic updates are enabled.
 
 <figure markdown="1">
 ![Shutdown Dialog](/images/{{ page.slug }}/shutdown.png)
@@ -374,7 +375,6 @@ Music can now open individual audio files from within the app instead of requiri
 
 If you have a mixed-dpi setup—like a HiDPI laptop or tablet and a LoDPI external monitor—You can now set per-display scaling in the Secure Session thanks to [Leonhard](https://github.com/leolost2605).
 
-
 OS 8 also includes the latest long-term support Hardware Enablement stack from Ubuntu, including Linux 6.8
 
 ---
@@ -397,13 +397,13 @@ Restoring tabs from last time is now optional in Files and it now supports hidin
 
 ## Portals
 
-Portals are special API that apps can use to access system features in a way that respects your privacy and requires your explicit consent. Three new Portals are now supported in OS 7: Color Picker, Screenshot, and Screencast. These portals are essential for maintaining compatibility with modern apps which are written to work in a Wayland world and don't have direct access to the pixels on your display. If you've previously experienced trouble using modern color picker or screen recording apps from alt stores like Flathub on elementary OS 7, this update should fix that for you! Thanks to [David](https://github.com/davidmhewitt)and [Leonhard](https://github.com/leolost2605) for their work here!
+Portals are special API that apps can use to access system features in a way that respects your privacy and requires your explicit consent. Three new Portals are now supported in OS 7: Color Picker, Screenshot, and Screencast. These portals are essential for maintaining compatibility with modern apps which are written to work in a Wayland world and don't have direct access to the pixels on your display. If you've previously experienced trouble using modern color picker or screen recording apps from alt stores like Flathub, this update should fix that for you!
 
 And we've landed basic support for the Wallpaper Portal which means you can grant access to apps to change your wallpaper in a platform agnostic way as opposed to the platform-specific way we had implemented before.
 
-Two new portals landed in OS 8: the Screenshot and Color Picker portals. Additionally Photos has been updated to use the Wallpaper portal.
+The Screenshot and Color Picker portals
 
-The Screencast portal landed this past month, meaning screen recording applications are now able to capture the screen in the Wayland session, thanks again to [Leonhard](https://github.com/leolost2605).
+The Screencast portal landed this past month, meaning screen recording applications are now able to capture the screen in the Wayland session
 
 Photos now uses the Wallpaper and Open Directory portals improving cross-platform compatibility.
 
