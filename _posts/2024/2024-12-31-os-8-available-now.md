@@ -31,7 +31,7 @@ To get elementary OS 8 now, head to [elementary.io] for the download—or read o
 
 # Privacy, Security &amp; Consent
 
-Time spent on your computer should be as free of stress and anxiety as possible. When computers act in ways that are unpredictable or leave you vulnerable, it can be deeply frustrating. Over the past several years we've been building features to improve the trust relationship with your computer by requiring your explicit informed consent and disallowing untrustworthy behavior on a technical level. We've done that by embracing technologies like Flatpak and Portals which confine apps to a sandbox, and now we're extending that story with both new settings to put you in control of the system features apps can access and a new Secure Session powered by Wayland.
+Time spent on your computer should be as free of stress and anxiety as possible. When computers act in ways that are unpredictable or leave you vulnerable, it can be deeply frustrating. Over the past several years we've been building features to improve the trust relationship with your computer by requiring your explicit informed consent and disallowing untrustworthy behavior on a technical level. We've done that by embracing Flatpak as the way to install apps on elementary OS and Portals for confining them to a safer sandbox. Now we're extending that story with both new settings to put you in control of the system features apps can access and a new Secure Session powered by Wayland.
 
 <figure markdown="1">
 ![Application Portals](/images/{{ page.slug }}/portals-screenshot.png)
