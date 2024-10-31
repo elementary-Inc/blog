@@ -59,11 +59,10 @@ Application settings has an all-new design that expands your control over permis
 
 # Getting Apps You Need &amp; Staying Up to Date
 
-The main purpose of our operating system is supporting you when you work, play, and express yourself creatively. Part of that is making sure you have access to lots of apps. In OS 8 we've made big changes to AppCenter and the way you get updates.
+The main purpose of our operating system is supporting you when you work, play, and express yourself creatively. A big part of that is making sure you have access to lots of apps and get frequent updates that enable new features and keep you safe. In OS 8 we've made big changes to AppCenter and the way you get updates to keep your focus on the things you want to accomplish.
 
 
 
-Why: The purpose of an operating system is to be a springboard for apps.
 
 How: More apps available in AppCenter ootb. Make AppCenter more focused. Faster. Start in on design changes.
 
