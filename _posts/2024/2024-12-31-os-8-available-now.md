@@ -29,9 +29,9 @@ To get elementary OS 8 now, head to [elementary.io] for the download—or read o
 
 
 
-# Privacy, Security, Consent
+# Privacy, Security &amp; Consent
 
-Time spent on your computer should be as free of stress and anxiety as possible. When computers act in a way that is unpredictable or leave you vulnerable, it can be deeply frustrating. Over the past several years we've been building features to improve the trust relationship with your computer by requiring your explicit informed consent and disallowing untrustworthy behavior on a technical level. We've done that by embracing technologies like Flatpak and Portals which confine apps to a sandbox, and now we're extending that story with both new settings to put you in control of the system features apps can access and a new Secure Session powered by Wayland.
+Time spent on your computer should be as free of stress and anxiety as possible. When computers act in ways that are unpredictable or leave you vulnerable, it can be deeply frustrating. Over the past several years we've been building features to improve the trust relationship with your computer by requiring your explicit informed consent and disallowing untrustworthy behavior on a technical level. We've done that by embracing technologies like Flatpak and Portals which confine apps to a sandbox, and now we're extending that story with both new settings to put you in control of the system features apps can access and a new Secure Session powered by Wayland.
 
 <figure markdown="1">
 ![Application Portals](/images/{{ page.slug }}/portals-screenshot.png)
@@ -40,13 +40,13 @@ In the Secure Session apps need your explicit permission to see the pixels on yo
 </figcaption>
 </figure>
 
-On the lock screen, you'll now see a gear menu next to the password field that gives you the option of Classic or Secure sessions. If you select the Secure session, elementary OS will use Wayland, a modern and secure method for apps to draw themselves and accept your input. In the Secure Session, apps will be more restricted and will require your consent for system features. When an app wants to listen in the background for your keystrokes, take a screenshot, record the screen, or even pick up the color from a single pixel, you will be asked first to make sure that it's okay. The Secure Session also comes with other modern features like support for Mixed DPI modes—A hotly requested feature for folks using a HiDPI notebook or tablet with a LoDPI external display—and improved support for multi-touch gestures on touch screens and tablets. You might also experience improved performance and smoothness, especially on low-powered hardware.
+On the lock screen, you'll now see a gear menu next to the password field that gives you the option of Classic or Secure sessions. If you select the Secure Session, elementary OS will use Wayland, a modern and secure method for apps to draw themselves and accept your input. In the Secure Session, apps will be more restricted and will require your consent for system features. When an app wants to listen in the background for your keystrokes, take a screenshot, record the screen, or even pick up the color from a single pixel, you will be asked first to make sure that it's okay. The Secure Session also comes with other modern features like support for Mixed DPI modes—A hotly requested feature for folks using a HiDPI notebook or tablet with a LoDPI external display—and improved support for multi-touch gestures on touch screens and tablets. You might also experience improved performance and smoothness, especially on low-powered hardware.
 
 <aside markdown="1">
->OS 8 will use the Classic session by default and apps will work and behave as they always have
+>OS 8 will use the Classic Session by default and apps will work and behave as they always have
 </aside>
 
-Portals are the standardized system interfaces that apps use to access features in a way that respects your privacy and requires your explicit consent. Four new Portals are now supported in OS 8: Color Picker, Screenshot, Screencast, and Wallpaper. These Portals are essential for enabling modern apps to work in the Secure Session when they don't have direct access to the pixels on your display. Since some apps haven't yet made use of the Portals required to operate under the Secure Session, OS 8 will continue to use the Classic session by default and apps will work and behave as they always have there, with the same level of system access you're used to from OS 7 and before. If you rely on certain accessibility features, you may find that those are not yet available under the new Secure Session as well. However, we highly encourage you to give the Secure Session a try and you might be surprised to find that the apps and features you use are already compatible.
+Portals are the standardized system interfaces that apps use to access features in a way that respects your privacy and requires your explicit consent. Four new Portals are now supported in OS 8: Color Picker, Screenshot, Screencast, and Wallpaper. These Portals are essential for enabling modern apps to work in the Secure Session when they don't have direct access to the pixels on your display. Since some apps haven't yet made use of the Portals required to operate under the Secure Session, OS 8 will continue to use the Classic Session by default. Apps will work and behave as they always have there, with the same level of system access you're used to from OS 7 and before. If you rely on certain accessibility features, you may find that those are not yet available under the new Secure Session as well. However, we highly encourage you to give the Secure Session a try and you might be surprised to find that the apps and features you use are already compatible.
 
 <figure markdown="1">
 ![Application Settings](/images/{{ page.slug }}/settings-applications.png)
@@ -55,9 +55,40 @@ System Settings → Applications has expanded options
 </figcaption>
 </figure>
 
-Application settings has an all new design that puts you closer to app permissions and provides a whole new class of controls. We now have support for adjusting the run-time permissions stored in Flatpak's Permissions Store—these are set when an app explicitly asks for your permission to access a feature while it's running. So if you've previous denied an app access to run in the background or granted an app permission to set the wallpaper, you can change your mind at any time and adjust permissions here. We've also adjusted the language of install time permissions—aka sandbox holes—to be more clear that these represent advanced system access and the implications of adjusting them. Plus the descriptions of several individual items were changed based on feedback to use less technical language. And app permission pages now show the app's icon and description.
+Application settings has an all-new design that expands your control over permissions. We now support adjusting the run-time permissions in Flatpak's Permissions Store—these are set when an app explicitly asks for your permission to access a feature while it's running. So if you've previously denied an app access to run in the background or granted an app permission to set the wallpaper, you can change your mind at any time and adjust permissions here. We've also adjusted the language of install-time permissions—aka sandbox holes—to be more clear that these represent advanced system access and the implications of adjusting them. Plus the descriptions of several individual items were changed based on your feedback to use less technical language. And app permission pages now show the app's icon and description.
 
-# Staying Up to Date
+# Getting Apps You Need &amp; Staying Up to Date
+
+
+
+
+
+
+
+
+
+
+we're now shipping Flathub as an available Flatpak remote. This means you will be able to access both apps made for elementary OS and cross-platform apps for Linux out of the box.
+
+Pages now draw their own individual headers, which means we can show more contextual controls and have more design freedom. You'll notice that options related to updates have now moved to the Updates &amp; Installed Apps page, for example. On App info pages, main action buttons like Install and Open are now always available from the headerbar, and when you scroll past an app's banner a smaller icon and app title will appear.
+
+<figure class="third" markdown="1">
+![AppCenter home page](/images/{{ page.slug }}/appcenter-home.png)
+![AppCenter updates page](/images/{{ page.slug }}/appcenter-updates.png)
+![AppCenter app info page](/images/{{ page.slug }}/appcenter-appinfo.png)
+<figcaption>AppCenter has a flatter design where each page has unique headerbar contents</figcaption>
+</figure>
+
+The links section of App Info pages has also been redesigned, featuring colorful iconography and an expanded set of supported links. We now show a Sponsor link for apps who monetize outside of AppCenter and we show a link directly to the app's source code for apps that provide it.
+
+Plus we've made a ton of cleanups, bug fixes, and performance improvements, especially around updates. And AppCenter now starts much faster
+
+
+
+
+
+
+
 
 Instead of being a part of updates in AppCenter, system updates now live in the System page of System Settings. The new updates mechanism is super fast and includes an option to download updates automatically. It will also let you know explicitly if security updates are part of the updates package.
 
@@ -83,22 +114,14 @@ You can choose to skip updates when shutting down or restarting
 </figcaption>
 </figure>
 
-# Getting Apps You Need
 
-we're now shipping Flathub as an available Flatpak remote. This means you will be able to access both apps made for elementary OS and cross-platform apps for Linux out of the box.
 
-Pages now draw their own individual headers, which means we can show more contextual controls and have more design freedom. You'll notice that options related to updates have now moved to the Updates &amp; Installed Apps page, for example. On App info pages, main action buttons like Install and Open are now always available from the headerbar, and when you scroll past an app's banner a smaller icon and app title will appear.
 
-<figure class="third" markdown="1">
-![AppCenter home page](/images/{{ page.slug }}/appcenter-home.png)
-![AppCenter updates page](/images/{{ page.slug }}/appcenter-updates.png)
-![AppCenter app info page](/images/{{ page.slug }}/appcenter-appinfo.png)
-<figcaption>AppCenter has a flatter design where each page has unique headerbar contents</figcaption>
-</figure>
 
-The links section of App Info pages has also been redesigned, featuring colorful iconography and an expanded set of supported links. We now show a Sponsor link for apps who monetize outside of AppCenter and we show a link directly to the app's source code for apps that provide it.
 
-Plus we've made a ton of cleanups, bug fixes, and performance improvements, especially around updates. And AppCenter now starts much faster
+
+
+
 
 # Multitasking &amp; Window Management
 
