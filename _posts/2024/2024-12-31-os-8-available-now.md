@@ -31,26 +31,21 @@ To get elementary OS 8 now, head to [elementary.io] for the download—or read o
 
 # Privacy, Security, Consent
 
-Why: Protect your privacy. Require your explicit consent. Disallow apps from doing malicious things on a technical level.
+Time spent on your computer should be as free of stress and anxiety as possible. When computers act in a way that is unpredictable or leave you vulnerable, it can be deeply frustrating. Over the past several years we've been building features to improve the trust relationship with your computer by requiring your explicit informed consent and disallowing untrustworthy behavior on a technical level. We've done that by embracing technologies like Flatpak and Portals which confine apps to a sandbox, and now we're extending that story with both new settings to put you in control of the system features apps can access and a new Secure Session powered by Wayland.
 
-How: Wayland, Flatpak, Portals
+[ LOCK SCREEN SCREENSHOT ]
 
-What: the option of two sessions, secure and classic. New settings for the system features apps are allowed to use.
+On the lock screen, you'll now see a gear menu next to the password field that gives you the option of Classic or Secure sessions. If you select the Secure session, elementary OS will use Wayland, a modern and secure method for apps to draw themselves and accept your input. In the Secure Session, apps will be more restricted and will require your consent for system features. When an app wants to listen in the background for your keystrokes, take a screenshot, record the screen, or even pick up the color from a single pixel, you will be asked first to make sure that it's okay. The Secure Session also comes other benefits like support for Mixed DPI modes—A hotly requested feature for folks using a HiDPI notebook or tablet with a LoDPI external display—and improved support for multitouch gestures on touch screens and tablets. You might also experience improved performance and smoothness, especially on low-powered hardware.
 
+[ SCREENSHOT PORTAL ]
 
+Portals are the standardized system interfaces that apps use to access features in a way that respects your privacy and requires your explicit consent. Four new Portals are now supported in OS 8: Color Picker, Screenshot, Screencast, and Wallpaper. These Portals are essential for enabling modern apps to work in the Secure Session when they don't have direct access to the pixels on your display. Since some apps haven't yet made use of the Portals required to operate under the Secure Session, OS 8 will continue to use the Classic session by default and apps will work and behave as they always have there, with the same level of system access you're used to from OS 7 and before. If you rely on certain accessibility features, you may find that those are not yet available under the new Secure Session as well. However, we highly encourage you to give the Secure Session a try and you might be surprised to find that the apps and features you use are already compatible.
 
-You can now choose between a Wayland or X11 session on the lock screen of the latest OS 8 Early Access builds via the gear menu on your login card
+<aside markdown="1">
+>OS 8 will use the Classic session by default and apps will work and behave as they always have
+</aside>
 
-We've landed a rename of the session options on the Lock Screen to hopefully improve clarity for folks that aren't sure if they should be using a Wayland or X11 session. The X11 session is now called the "Compatibility Session" since it offers improved compatibility with legacy apps and some accessibility tools. The Wayland session is now called the "Secure Session" since it requires apps to use modern APIs that improve your security and respect your privacy. There was a lot of back-and-forth discussion about the best way to concisely describe these sessions in a non-technical way—we're aware these descriptions are not perfect—and we think that for now this the best way to sum up the trade offs when selecting a session. In the future this may change as new features may rely on Wayland and the performance benefits of Wayland become more distinct. But for now we want to make sure that folks who rely on the X11 session for certain workflows aren't being discouraged by a word choice that doesn't reflect their reality.
-
-<figure markdown="1">
-![Application Settings](/images/{{ page.slug }}/settings-applications.png){: width="898" height="559"}
-<figcaption markdown="1">
-Applications Settings has a new split-paned design
-</figcaption>
-</figure>
-
-The headliner this month is definitely Application settings. We now have support for adjusting the runtime permissions stored in Flatpak's PermissionsStore—these are set when an app explicitly asks for your permission to access a specific feature while it's running. So if you've previous denied an app access to run in the background or granted an app permission to set the wallpaper, you can change your mind at any time and adjust permissions here.
+Application settings has an all new design that puts you closer to app permissions and provides a whole new class of controls. We now have support for adjusting the run-time permissions stored in Flatpak's Permissions Store—these are set when an app explicitly asks for your permission to access a feature while it's running. So if you've previous denied an app access to run in the background or granted an app permission to set the wallpaper, you can change your mind at any time and adjust permissions here. We've also adjusted the language of install time permissions—aka sandbox holes—to be more clear that these represent advanced system access and the implications of adjusting them. Plus the descriptions of several individual items were changed based on feedback to use less technical language. And app permission pages now show the app's icon and description.
 
 <figure markdown="1">
 ![Application Settings](/images/{{ page.slug }}/settings-applications.png)
@@ -58,25 +53,6 @@ The headliner this month is definitely Application settings. We now have support
 System Settings → Applications has expanded options
 </figcaption>
 </figure>
-
-We've also adjusted the language of install time permissions—aka sandbox holes—to be more clear that these represent advanced system access and the implications of adjusting them. Plus the descriptions of several individual items were changed based on feedback to use less technical language. And app permission pages now show the app's icon and description.
-
-
-Portals are special API that apps can use to access system features in a way that respects your privacy and requires your explicit consent. Three new Portals are now supported in OS 7: Color Picker, Screenshot, and Screencast. These portals are essential for maintaining compatibility with modern apps which are written to work in a Wayland world and don't have direct access to the pixels on your display. If you've previously experienced trouble using modern color picker or screen recording apps from alt stores like Flathub, this update should fix that for you!
-
-And we've landed basic support for the Wallpaper Portal which means you can grant access to apps to change your wallpaper in a platform agnostic way as opposed to the platform-specific way we had implemented before.
-
-The Screenshot and Color Picker portals
-
-The Screencast portal landed this past month, meaning screen recording applications are now able to capture the screen in the Wayland session
-
-Photos now uses the Wallpaper and Open Directory portals improving cross-platform compatibility.
-
-
-
-
-
-
 
 # Staying Up to Date
 
@@ -226,7 +202,7 @@ Power modes now appear in the power indicator
 </figcaption>
 </figure>
 
-network settings now shows the name of connected wireless networks in the sidebar
+network settings now shows the name of connected wireless networks in the sidebar and Automatically select active network when opening
 
 <figure markdown="1">
 ![Network Settings](/images/{{ page.slug }}/settings-network.png)
