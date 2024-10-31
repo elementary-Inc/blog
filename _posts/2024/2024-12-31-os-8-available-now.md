@@ -130,32 +130,41 @@ You can choose to skip updates when shutting down or restarting
 
 # Multitasking &amp; Window Management
 
-We've added support for horizontal swipe gestures for switching windows
-
-option to disable hotcorners for workspaces with fullscreen apps
-
-A small visual change, when switching workspaces docks and panels will no longer move with the switch. made sure that there's audio (or visual depending on your settings) feedback when we're unable to cycle workspaces in response to the keyboard shortcut.
-
-Option to switch workspaces by scrolling over the panel
-
-A new Dock rewritten from scratch. Uses the latest technology. Renders on the GPU for better performance. Made for Wayland. Based on survey
+When planning for the Secure Session we realized that our Dock would need to be completely rewritten. So we took the opportunity a few years ago to run a survey and get better insights into the way you multitask on elementary OS and other operating systems. We then combined those new insights with the feedback we've received in GitHub over the years and carefully reconsidered the role of the Dock in our desktop alongside other desktop features which have appeared over the years. This has resulted in a Dock that retains the features you love from OS 7 and before and introduces whole new features to improve your multitasking workflow.
 
 <div style="margin: 3em auto;">
 {% assign post = site.posts | where:"slug", "2021-ui-study-results-dock-multitasking" | first %}
 {% include featured.html post=post %}
 </div>
 
-When multiple windows of the same app are opened, selecting that app's icon in the dock will open a window spread instead of hiding those windows.
+In particular, we've revisited the way we handle multi-window apps and made the behavior of clicking app icons more predictable. When an app isn't open yet, a single-click of its icon will still launch it. When an app has a single window open, a single-click will always focus that window, even switching workspaces if necessary. And, when an app has multiple windows open, a single-click will show a window spread so you can quickly select the right window, even outside of the Multitasking View. In this way, a single-click always takes you to an app window instead of sometimes opening a new window or even hiding windows. And for apps that support multiple windows, we've implemented a new system that is aware of the FreeDesktop.org standard for hinting this feature, so we can now reliably open new windows when middle-clicking an app's icon. Plus you can still scroll over an app icon to cycle through open windows.
 
-Focusing a single open window of an app on click instead of opening new windows
+[ GIF OR VIDEO OF WINDOW SPREAD ]
 
-We've also implemented a middle-click system that is aware of the FreeDesktop.org SingleMainWindow app launcher hint, so we can more reliably open new app windows when middle-clicking an app's icon.
 
-The end result is a much more predictable experience that is centered on bringing you to the app you've clicked and an improved workflow for multi-window apps.
+
+
+
+
+
 
 you can now launch pinned apps with <kbd>Super</kbd> + <kbd>1­</kbd>—<kbd>9</kbd>, a hotly requested feature.
 
 reveal from any part of the screen edge
+
+A small visual change, when switching workspaces docks and panels will no longer move with the switch. made sure that there's audio (or visual depending on your settings) feedback when we're unable to cycle workspaces in response to the keyboard shortcut.
+
+
+
+We've added support for horizontal swipe gestures for switching windows
+
+option to disable hotcorners for workspaces with fullscreen apps
+
+Option to switch workspaces by scrolling over the panel
+
+
+
+
 
 # Inclusivity &amp; Accessibility
 
@@ -282,11 +291,7 @@ Locale settings with a new setting for automatically selecting the temperature u
 
 Language &amp; Region settings now has searchable dropdowns. We've also received some feedback from some folks that indicates they were looking here for Keyboard Layout or Date &amp; Time settings, so we more clearly link to both of those locations to help you find what you're looking for.
 
-# The Desktop
-
 We're also making a major change to our default keyboard shortcuts. Pressing <kbd>⌘</kbd> will now open the Applications menu instead of the Shortcuts overlay and <kbd>⌘</kbd> + <kbd>Space</kbd> will now switch keyboard layouts by default. This brings us more in line with the defaults from other desktops and operating systems and will hopefully be more comfortable for folks who rely on these shortcuts. Of course you can always change the <kbd>⌘</kbd> key behavior and keyboard shortcuts in general in System Settings → Keyboard.
-
-and sound change confirmations will no longer appear over the sound indicator if it's open.
 
 # Design
 
@@ -368,10 +373,6 @@ We're also now shipping Font Viewer as a Flatpak app. This means we can continua
 The updated Fonts app is available from AppCenter
 </figcaption>
 </figure>
-
-## Photos
-
-Photos 8 has been released to AppCenter as a Flatpak app. This means you can continue to receive updates to Photos by installing the Flatpak version from AppCenter even on older versions of elementary OS, and Photos is now [easily available](http://flatpak.elementary.io/repo/appstream/io.elementary.photos.flatpakref) to folks running Linux distributions other than elementary OS.
 
 ## Videos
 
