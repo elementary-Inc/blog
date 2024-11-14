@@ -104,7 +104,13 @@ When planning for the Secure Session we realized that our Dock would need to be 
 
 In particular, we've revisited the way we handle multi-window apps and made the behavior of clicking app icons more predictable. When an app isn't open yet, a single-click of its icon will still launch it. When an app has a single window open, a single-click will always focus that window, even switching workspaces if necessary. And, when an app has multiple windows open, a single-click will show a window spread so you can quickly select the right window, even outside of the Multitasking View. In this way, a single-click always takes you to an app window instead of sometimes opening a new window or even hiding windows.
 
-[ GIF OR VIDEO OF WINDOW SPREAD ]
+<figure class="card">
+    <video width="" height="" autoplay="true" loop="true" playsinline="true" muted="true">
+        <source src="/images/os-8-available-now/Desktop/dock.webm" type="video/webm">
+        <source src="/images/os-8-available-now/Desktop/dock.mp4" type="video/mp4">
+    </video>
+    <figcaption></figcaption>
+</figure>
 
 For apps that support multiple windows, we've implemented a new system that is aware of the FreeDesktop.org standard for hinting this feature, so we can now reliably open new windows when middle-clicking an app's icon. Plus you can still scroll over an app icon to cycle through open windows. And, you can now launch pinned apps with <kbd>Super</kbd> + <kbd>1­</kbd>—<kbd>9</kbd>, a hotly requested feature.
 
@@ -114,7 +120,12 @@ We’ve also added several new optional multitasking features including the abil
 
 We sat down this summer with self-described fully-blind cybersecurity enthusiast [Florian Beijers](https://blog.elementary.io/updates-for-july-2024/) to evaluate our experience for blind folks and identify areas of improvement. A particular showstopper we noticed was keyboard navigation and screen reader support during Onboarding, which has now been completely rewritten. We also took a second look at keyboard navigation and screen reader support during Installation and Initial Setup and the entire first run experience has been much improved for blind folks in OS 8. We also now have screen reader support in the <kbd>Alt</kbd> + <kbd>Tab</kbd> window switcher and we’ve made sure that there's audio—or visual depending on your settings—feedback when we're unable to complete window management tasks like cycling workspaces in response to the keyboard shortcut.
 
-[ Onboarding navigation screenshot]
+<figure markdown="1">
+![Onboarding](/images/{{ page.slug }}/Onboarding/home.png){: width="" height="}
+<figcaption markdown="1">
+
+</figcaption>
+</figure>
 
 System Settings has been refreshed with a modern space-saving dual-pane design that is more responsive for small and large displays. We’ve also vastly improved support for text scaling, screen readers, keyboard navigation, right-to-left language layouts, and improved contrast in illustrations. Plus search now returns more relevant results and the titles of those results now reflect both the exact setting name they’re matching and the path to that setting.
 
@@ -128,7 +139,12 @@ Instead of removing features during this redesign, we’ve added new ones. For e
 
 Settings that use dropdowns are now frequently searchable. We've also improved setting descriptions, added new ones based on your feedback, and made sure help text is less frequently hidden behind a mouse hover. Plus, System got a redesign of external links similar to the one in AppCenter, with clearer help and documentation links as well as a better call for contributions.
 
-[Screenshot of Quick Settings]
+<figure class="card" markdown="1">
+![Quick Settings](/images/{{ page.slug }}/Desktop/quick-settings.png){: width="" height="}
+<figcaption markdown="1">
+
+</figcaption>
+</figure>
 
 OS 8 also brings a new Quick Settings menu that improves access to features while reducing the amount of visual noise in the panel. We’ve started by combining the accessibility and session menus which contain useful controls, but don’t indicate a change in status. We’ve also added hotly requested controls like Dark Mode and Rotation Lock. Features like the Screen Reader and Onscreen Keyboard are now available from the Quick Settings menu by default, but you can still choose to hide them in System Settings → Desktop → Dock &amp; Panel.
 
@@ -140,21 +156,36 @@ Visual design plays a huge role in the appeal of our operating system and elemen
 
 A perfect example of this is our new pointers. Pointers were completely redrawn to be more consistent, make better use of color, and be more precise. The new design is more fun and playful with softer edges and rounder corners while maintaining high contrast and legibility. The new design feels extremely familiar but also more modern.
 
-[Side by side new wallpapers]
+<figure class="card half" markdown="1">
+![A Large Body of Water Surrounded By Mountains](/images/{{ page.slug }}/Desktop/mountains.jpg)
+![A Trail of Footprints In The Sand](/images/{{ page.slug }}/Desktop/sand.jpg)
+<figcaption>
+
+</figcaption>
+</figure>
 
 We have two new wallpapers to share, ["A Large Body of Water Surrounded By Mountains"](https://unsplash.com/photos/a-large-body-of-water-surrounded-by-mountains-Dxod5pdRtsk) by [Peter Thomas](https://unsplash.com/@lifeof_peter_) and ["A Trail of Footprints In The Sand"](https://unsplash.com/photos/a-trail-of-footprints-in-the-sand-of-a-beach-A9mr3TPoj0k) by [David Emrich](https://unsplash.com/@davidemrich). Both of these images have been slightly edited for use as wallpapers in elementary OS and are distributed under the permissive Unsplash license.
 
-[Multitasking View light and dark side by side screenshots]
+<figure class="card half" markdown="1">
+![](/images/{{ page.slug }}/Multitasking/light.jpg)
+![](/images/{{ page.slug }}/Multitasking/dark.jpg)
+<figcaption>
+
+</figcaption>
+</figure>
 
 Instead of a plain dark gray background, Multitasking View now features a blurred version of your wallpaper that is adjusted for light and dark modes. Workspace cards now have rounded corners and the switcher at the bottom of the screen has been updated for light and dark modes as well.
 
-[Lock screen screenshot]
-
-The Login &amp; Lock Screen also features a blurred background similar to the Multitasking View as well as a larger and bolder clock.
-
-[App screenshot grid]
+<figure class="card" markdown="1">
+![](/images/{{ page.slug }}/Desktop/lock-screen.png)
+<figcaption markdown="1">
+The Login &amp; Lock Screen also features a blurred background similar to the Multitasking View as well as a larger and bolder clock
+</figcaption>
+</figure>
 
 Several applications have a noticeably more modern design as well. Notably, Videos has a completely redesigned player page and now follows the system light and dark style preference. The new Fonts looks fantastic and has much better performance. And Web 46 brings its own set of performance improvements along with a more minimal appearance.
+
+[App screenshot grid]
 
 ---
 
@@ -162,11 +193,21 @@ Several applications have a noticeably more modern design as well. Notably, Vide
 
 OS 8 includes the latest long-term support Hardware Enablement stack from Ubuntu, including Linux 6.8. We’re also shipping with Pipewire which improves latency and bluetooth audio quality while being architected for the world of sandboxed Flatpak apps running in the Secure Session. This is an especially big deal for folks doing audio production tasks on elementary OS.
 
-[Drivers screenshot]
+<figure markdown="1">
+![Settings](/images/{{ page.slug }}/Settings/drivers.png)
+<figcaption markdown="1">
+
+</figcaption>
+</figure>
 
 Driver management has moved from AppCenter to System Settings → System. The new design for drivers is more in line with how drivers are managed on other operating systems and is easier to work with, especially for hardware that has multiple driver options like NVIDIA® graphics.
 
-[Power settings screenshot]
+<figure markdown="1">
+![Settings](/images/{{ page.slug }}/Settings/power.png){: width="" height="}
+<figcaption markdown="1">
+
+</figcaption>
+</figure>
 
 Power settings now shows the charging level and status for both internal batteries and connected battery devices like mice and keyboards. You can also choose to automatically set different power profiles based on whether your device is plugged in or on battery power, and power modes can be quickly changed from the power menu in the panel. Plus the battery icon in the panel will now show much more accurate battery levels for mobile computers.
 
