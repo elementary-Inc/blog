@@ -10,28 +10,25 @@ tags:
   - release
 ---
 
-Today, we're proud to announce that OS 8 is available to download now and shipping on several high-quality computers.
+Today, we're proud to announce that elementary OS 8 is available to download now and shipping on several high-quality computers!
 
 <figure class="card" markdown="1">
-![elementary OS 8](/images/{{ page.slug }}/desktop-onboarding.png)
+![elementary OS 8](/images/{{ page.slug }}/card.png)
 </figure>
 
 With OS 8, we've focused in on:
 
--
--
--
+- Creating a new **Secure Session** that ensures applications respect your **privacy** and require your **consent**
+- **A brand new Dock** with new **multitasking and window management** features
+- Empowering our diverse community through **Inclusive Design**
 
 To get elementary OS 8 now, head to [elementary.io] for the download—or read on for an overview of what's new.
 
 ---
 
-
-
-
 # Privacy, Security &amp; Consent
 
-Time spent on your computer should be as free of stress and anxiety as possible. When computers act in ways that are unpredictable or leave you vulnerable, it can be deeply frustrating. Over the past several years we've been building features to improve the trust relationship with your computer by requiring your explicit informed consent and disallowing untrustworthy behavior on a technical level. We've done that by embracing Flatpak as the way to install apps on elementary OS and Portals for confining them to a safer sandbox. Now we're extending that story with both new settings to put you in control of the system features apps can access and a new Secure Session powered by Wayland.
+Over the past several years we've been building features to improve the trust relationship with your computer by requiring your explicit informed consent and disallowing untrustworthy behavior on a technical level. We've done that by embracing Flatpak as the way to install apps on elementary OS and Portals for confining them to a safer sandbox. Now we're extending that story with both new settings to put you in control of the system features apps can access and a new Secure Session powered by Wayland.
 
 <figure markdown="1">
 ![Application Portals](/images/{{ page.slug }}/portals-screenshot.png)
@@ -49,7 +46,7 @@ On the lock screen, you'll now see a gear menu next to the password field that g
 Portals are the standardized system interfaces that apps use to access features in a way that respects your privacy and requires your explicit consent. Four new Portals are now supported in OS 8: Color Picker, Screenshot, Screencast, and Wallpaper. These Portals are essential for enabling modern apps to work in the Secure Session when they don't have direct access to the pixels on your display. Since some apps haven't yet made use of the Portals required to operate under the Secure Session, OS 8 will continue to use the Classic Session by default. Apps will work and behave as they always have there, with the same level of system access you're used to from OS 7 and before. If you rely on certain accessibility features, you may find that those are not yet available under the new Secure Session as well. However, we highly encourage you to give the Secure Session a try and you might be surprised to find that the apps and features you use are already compatible.
 
 <figure markdown="1">
-![Application Settings](/images/{{ page.slug }}/settings-applications.png)
+![Application Settings](/images/{{ page.slug }}/Settings/permissions.png){: width="" height="}
 <figcaption markdown="1">
 System Settings → Applications has expanded options
 </figcaption>
@@ -59,74 +56,42 @@ Application settings has an all-new design that expands your control over permis
 
 # Getting Apps You Need &amp; Staying Up to Date
 
-The main purpose of our operating system is supporting you when you work, play, and express yourself creatively. A big part of that is making sure you have access to lots of apps and get frequent updates that enable new features and keep you safe. In OS 8 we've made big changes to AppCenter and the way you get updates to keep your focus on the things you want to accomplish.
+In 2017 [we shipped AppCenter](https://blog.elementary.io/building-the-future-of-elementary-os/), the Open Source pay-what-you-can app store and in 2021 we [revamped that store to use Flatpak](https://blog.elementary.io/elementary-appcenter-flatpak/), an app distribution technology that is decentralized by design and makes cross-platform app distribution on Linux-based operating systems a breeze. Since the move to Flatpak, you’ve always had the option to easily sideload apps directly from developers or use entire alternative app stores. In OS 8 we’re expanding your access to apps even further by including the most popular app store for Linux out of the box: Flathub.
 
+<aside markdown="1">
+>We’re expanding your access to apps even further by including Flathub out of the box
+</aside>
 
+This means you’ll be able to access apps made specifically for elementary OS, apps made for Linux, and popular cross-platform apps like Discord and Spotify all directly from AppCenter without having to manually sideload or configure an alt store.
 
+To support this change, we’ve made a few changes to App info pages in AppCenter. We’ve removed the “non-curated” badge based on your feedback and instead show a “Made for elementary OS” badge when appropriate. The links section has also been redesigned, featuring colorful iconography. We now show a Sponsor link for app developers that fund the development of their app using third-party platforms like GitHub or Patreon and we show a link directly to the app's source code for apps that provide it.
 
-How: More apps available in AppCenter ootb. Make AppCenter more focused. Faster. Start in on design changes.
+<figure class="half" markdown="1">
+![AppCenter](/images/{{ page.slug }}/AppCenter/info-header.png){: width="" height="}
+![Appcenter](/images/{{ page.slug }}/AppCenter/info-links.png){: width="" height=""}
+<figcaption>
 
-What: Flathub ootb, more links including Sponsor. System Updates are now separated from AppCenter. Automatic OS updates.
-
-
-
-
-
-
-we're now shipping Flathub as an available Flatpak remote. This means you will be able to access both apps made for elementary OS and cross-platform apps for Linux out of the box.
-
-Pages now draw their own individual headers, which means we can show more contextual controls and have more design freedom. You'll notice that options related to updates have now moved to the Updates &amp; Installed Apps page, for example. On App info pages, main action buttons like Install and Open are now always available from the headerbar, and when you scroll past an app's banner a smaller icon and app title will appear.
-
-<figure class="third" markdown="1">
-![AppCenter home page](/images/{{ page.slug }}/appcenter-home.png)
-![AppCenter updates page](/images/{{ page.slug }}/appcenter-updates.png)
-![AppCenter app info page](/images/{{ page.slug }}/appcenter-appinfo.png)
-<figcaption>AppCenter has a flatter design where each page has unique headerbar contents</figcaption>
-</figure>
-
-The links section of App Info pages has also been redesigned, featuring colorful iconography and an expanded set of supported links. We now show a Sponsor link for apps who monetize outside of AppCenter and we show a link directly to the app's source code for apps that provide it.
-
-Plus we've made a ton of cleanups, bug fixes, and performance improvements, especially around updates. And AppCenter now starts much faster
-
-
-
-
-
-
-
-
-Instead of being a part of updates in AppCenter, system updates now live in the System page of System Settings. The new updates mechanism is super fast and includes an option to download updates automatically. It will also let you know explicitly if security updates are part of the updates package.
-
-<figure markdown="1">
-![Operating System view of System Settings](/images/{{ page.slug }}/settings-system.png)
-<figcaption markdown="1">
-System updates now live in System Settings and can be updated automatically
 </figcaption>
 </figure>
 
-There's a few reasons why we would want two separate update mechanisms in elementary OS. Under the hood, apps in elementary OS are Flatpak packages and system packages are managed by PackageKit. Flatpak apps are sandboxed from the system and can be reliably updated while your computer is running. System packages are best installed offline, when your computer restarts, to make sure services are restarted correctly and to prevent issues. By splitting apart the updates experience, it is much clearer which updates will require you to restart your computer: app updates in AppCenter will never require a restart, while system updates in System Settings will always require a restart. It also makes the underlining code much less complex and speeds up processes like checking for new updates. It also means an error in one system won't cause updates in the other system to fail. Overall the updates experience in OS 8 will be faster, more reliable, and easier to understand, as well as being easier to automate.
+With the introduction of the Secure Session and new Portals to support it, expanded permissions settings, and sandbox warnings in AppCenter we feel much more confident in providing this expanded app access out of the box while upholding the expectation that the apps you get from AppCenter are reasonably safe, will ask for your consent, and respect your privacy.
 
-Now that System Updates and Drivers have moved to System Settings, AppCenter has become Flatpak only! This greatly reduces code complexity and improves stability and performance. Plus it will make it easier for us to introduce new features in the future. Since OS Updates are now handled in System Settings, we've also removed that functionality from AppCenter which greatly improves performance and has enabled us to really simplify some of the backend code here.
-
-Plus, you can now opt-in to automatic OS updates during Onboarding and automatic App updates are now opt-out.
-
-A new option to the system shutdown dialog so you can choose to skip a pending update, even when automatic updates are enabled.
+In elementary OS there are two different kinds of updates. Updates to the operating system itself are installed offline, when your computer restarts, to make sure services are restarted correctly and to prevent issues. Updates to apps, on the other hand, are quickly installed while your computer is running. In OS 7, both of these types of updates appear side-by-side in AppCenter, but in OS 8 operating system updates will now appear in System Settings.
 
 <figure markdown="1">
-![Shutdown Dialog](/images/{{ page.slug }}/shutdown.png)
+![System Settings](/images/{{ page.slug }}/Settings/system.png){: width="" height="}
 <figcaption markdown="1">
-You can choose to skip updates when shutting down or restarting
+
 </figcaption>
 </figure>
 
+Splitting apart these two update systems makes it faster to check for updates, more reliable to install them, and clearer which updates will require a restart: updates in AppCenter will never require a restart, while updates in System Settings will always require a restart.
 
+<aside markdown="1">
+>Updates in AppCenter will never require a restart, while updates in System Settings will always require a restart.
+</aside>
 
-
-
-
-
-
-
+The new system updates mechanism is super fast and includes the option to download updates automatically—which you can now opt-in to during Onboarding. It will also let you know if the updates package contains security updates and has improved error handling if things go wrong. Plus there are new options in the system shutdown dialog so you can install updates before shutting down or choose to skip a pending update, even when automatic updates are enabled.
 
 # Multitasking &amp; Window Management
 
@@ -137,284 +102,73 @@ When planning for the Secure Session we realized that our Dock would need to be 
 {% include featured.html post=post %}
 </div>
 
-In particular, we've revisited the way we handle multi-window apps and made the behavior of clicking app icons more predictable. When an app isn't open yet, a single-click of its icon will still launch it. When an app has a single window open, a single-click will always focus that window, even switching workspaces if necessary. And, when an app has multiple windows open, a single-click will show a window spread so you can quickly select the right window, even outside of the Multitasking View. In this way, a single-click always takes you to an app window instead of sometimes opening a new window or even hiding windows. And for apps that support multiple windows, we've implemented a new system that is aware of the FreeDesktop.org standard for hinting this feature, so we can now reliably open new windows when middle-clicking an app's icon. Plus you can still scroll over an app icon to cycle through open windows.
+In particular, we've revisited the way we handle multi-window apps and made the behavior of clicking app icons more predictable. When an app isn't open yet, a single-click of its icon will still launch it. When an app has a single window open, a single-click will always focus that window, even switching workspaces if necessary. And, when an app has multiple windows open, a single-click will show a window spread so you can quickly select the right window, even outside of the Multitasking View. In this way, a single-click always takes you to an app window instead of sometimes opening a new window or even hiding windows.
 
 [ GIF OR VIDEO OF WINDOW SPREAD ]
 
+For apps that support multiple windows, we've implemented a new system that is aware of the FreeDesktop.org standard for hinting this feature, so we can now reliably open new windows when middle-clicking an app's icon. Plus you can still scroll over an app icon to cycle through open windows. And, you can now launch pinned apps with <kbd>Super</kbd> + <kbd>1­</kbd>—<kbd>9</kbd>, a hotly requested feature.
 
+We’ve also added several new optional multitasking features including the ability to switch between windows with a horizontal swipe gesture, the ability to disable hotcorners when on a workspace that contains a fullscreen app, and the ability to switch between workspaces by scrolling over the panel
 
+# Designing for Inclusivity
 
+We sat down this summer with self-described fully-blind cybersecurity enthusiast [Florian Beijers](https://blog.elementary.io/updates-for-july-2024/) to evaluate our experience for blind folks and identify areas of improvement. A particular showstopper we noticed was keyboard navigation and screen reader support during Onboarding, which has now been completely rewritten. We also took a second look at keyboard navigation and screen reader support during Installation and Initial Setup and the entire first run experience has been much improved for blind folks in OS 8. We also now have screen reader support in the <kbd>Alt</kbd> + <kbd>Tab</kbd> window switcher and we’ve made sure that there's audio—or visual depending on your settings—feedback when we're unable to complete window management tasks like cycling workspaces in response to the keyboard shortcut.
 
+[ Onboarding navigation screenshot]
 
+System Settings has been refreshed with a modern space-saving dual-pane design that is more responsive for small and large displays. We’ve also vastly improved support for text scaling, screen readers, keyboard navigation, right-to-left language layouts, and improved contrast in illustrations. Plus search now returns more relevant results and the titles of those results now reflect both the exact setting name they’re matching and the path to that setting.
 
+[Screenshot grid of redesigned panes]
 
-you can now launch pinned apps with <kbd>Super</kbd> + <kbd>1­</kbd>—<kbd>9</kbd>, a hotly requested feature.
+Instead of removing features during this redesign, we’ve added new ones. For example, if you're not a fan of overlaid scrollbars or have a motor disability that makes them difficult to use, there's a new setting to always show scrollbars in Desktop → Appearance. Language &amp; Region settings has a new option to automatically select the temperature unit based on locale. And there are new keyboard shortcut options for switching between keyboard layouts or using features like emoji or unicode typing.
 
-reveal from any part of the screen edge
+<aside markdown="1">
+>Instead of removing features during this redesign, we’ve added new ones
+</aside>
 
-A small visual change, when switching workspaces docks and panels will no longer move with the switch. made sure that there's audio (or visual depending on your settings) feedback when we're unable to cycle workspaces in response to the keyboard shortcut.
+Settings that use dropdowns are now frequently searchable. We've also improved setting descriptions, added new ones based on your feedback, and made sure help text is less frequently hidden behind a mouse hover. Plus, System got a redesign of external links similar to the one in AppCenter, with clearer help and documentation links as well as a better call for contributions.
 
+[Screenshot of Quick Settings]
 
+OS 8 also brings a new Quick Settings menu that improves access to features while reducing the amount of visual noise in the panel. We’ve started by combining the accessibility and session menus which contain useful controls, but don’t indicate a change in status. We’ve also added hotly requested controls like Dark Mode and Rotation Lock. Features like the Screen Reader and Onscreen Keyboard are now available from the Quick Settings menu by default, but you can still choose to hide them in System Settings → Desktop → Dock &amp; Panel.
 
-We've added support for horizontal swipe gestures for switching windows
+By popular demand, we’re making a major change to our default keyboard shortcuts: pressing <kbd>⌘</kbd> will now open the Applications menu instead of the Shortcuts overlay and <kbd>⌘</kbd> + <kbd>Space</kbd> will now switch keyboard layouts by default. This brings us more in line with the defaults from other desktops and operating systems and will hopefully be more comfortable for folks who rely on these shortcuts to get around. Of course you can always change the <kbd>⌘</kbd> key behavior and keyboard shortcuts in general in System Settings → Keyboard.
 
-option to disable hotcorners for workspaces with fullscreen apps
+Visual design plays a huge role in the appeal of our operating system and elementary has always had a strong identity in using colorful and playful design to convey a sense of friendliness and fun. In OS 8 we’ve maintained our careful balance of learning and evolving while avoiding chasing design trends to retain our unique personality.
 
-Option to switch workspaces by scrolling over the panel
+[Screenshot of new pointers]
 
+A perfect example of this is our new pointers. Pointers were completely redrawn to be more consistent, make better use of color, and be more precise. The new design is more fun and playful with softer edges and rounder corners while maintaining high contrast and legibility. The new design feels extremely familiar but also more modern.
 
-
-
-
-# Inclusivity &amp; Accessibility
-
-Notifications now appear on the left for RTL languages
-
-implemented the accessibility interface in the <kbd>Alt</kbd> + <kbd>Tab</kbd> window switcher
-
-<figure markdown="1">
-![Onboarding](/images/{{ page.slug }}/onboarding.png){: width="497" height="438"}
-<figcaption markdown="1">
-Navigation in Onboarding has been rewritten for improved accessibility and with a neat progress bar
-</figcaption>
-</figure>
-
-On the heels of some of our recent accessibility work, I'm proud to say that navigation in Onboarding has been rewritten for much improved keyboard navigation and screen reader compatibility. This was a show stopper when [Florian](https://www.twitch.tv/ic_null) took [a look at OS 8 in June](https://www.youtube.com/watch?v=7jOB4lZH3AE). Onboarding is such an important part of introducing a new operating system and making sure people new to elementary OS have a great time, so I'm particularly glad to improve this first impression for folks with vision-related disabilities.
-
-And we've improved screen reader support in Initial Setup &amp; Onboarding
-
-Illustrations in Notifications and Display settings are now higher contrast
-
-If you're not a fan of overlaid scrollbars that disappear when not in use, there's a new setting to always show scrollbars in Desktop → Appearance
-
-# Settings &amp; Customization
-
-<figure class="card" markdown="1">
-![Quick Settings](/images/{{ page.slug }}/quick-settings.png){: width="256" height="209"}
-<figcaption markdown="1">
-Quick Settings joins the panel
-</figcaption>
-</figure>
-
-Quick Settings has also made it into the default package selection, replacing the Session and Accessibility indicators. It also currently provides toggles for Dark Mode and, when running on a device with an accelerometer, Screen Rotation Lock. This sets the foundation for including more quick toggle features as well as helps us clean up extra panel indicators.
-
-System Settings got an icon redesign. Settings panes are now in charge of drawing their own window controls, which means several settings have already been updated to use a more modern paned design and others are able to use space more efficiently in their own way. You can expect further design refinements to continue to land throughout the OS 8.x cycle
-
-<figure markdown="1">
-![System Settings app icon](/images/{{ page.slug }}/settings-icon.png){: width="128" height="128"}
-<figcaption markdown="1">
-System Settings has a new app icon
-</figcaption>
-</figure>
-
-Search in System Settings has been improved to return more relevant results and the titles of those results now reflect both the exact setting name they are matching and the path to that setting.
-
-<figure markdown="1">
-![System Settings search](/images/{{ page.slug }}/settings-search.png)
-<figcaption markdown="1">
-Search in System Settings now ranks results better
-</figcaption>
-</figure>
-
-Redesign of Applications settings. The new split-paned design brings it in line with other settings pages and makes navigating much faster by exposing the list of installed apps at the top level of navigation.
-
-Shortcuts settings now include a new "Keyboard Layouts" section where you can set a custom shortcut to change keyboard layouts as well as change the shortcuts for emoji and unicode typing modes
-
-And some cleanup was done in Mouse &amp; Touchpad settings to make layouts more responsive, provide additional explanation text, and improve screen reader support.
-
-Display settings received a big update to the way we do arranging and snapping which should be much smoother and more reliable with 3 displays.
-
-<figure markdown="1">
-![Power Settings](/images/{{ page.slug }}/settings-power.png){: width="678" height="901"}
-<figcaption markdown="1">
-System Settings → Power has new options and shows battery charge status
-</figcaption>
-</figure>
-
-Power settings now shows charging level and status for internal batteries and theoretically supports multiple internal batteries—though I'm not sure that's been tested so please send feedback if you have a device with multiple internal batteries. You can also now choose to automatically set different power profiles based on whether your device is plugged in or on battery power. We've cleaned up some old code here quite a bit along the way and solved some issues with system hangs while getting permission for lid close settings.
-
-And power modes can also now be quickly changed from the power indicator.
-
-<figure class="card" markdown="1">
-![Power Indicator](/images/{{ page.slug }}/indicator-power.png)
-<figcaption markdown="1">
-Power modes now appear in the power indicator
-</figcaption>
-</figure>
-
-network settings now shows the name of connected wireless networks in the sidebar and Automatically select active network when opening
-
-<figure markdown="1">
-![Network Settings](/images/{{ page.slug }}/settings-network.png)
-<figcaption markdown="1">
-System Settings has a new modern design
-</figcaption>
-</figure>
-
-Network Indicator was released and now shows cellular modems as toggle buttons like it does with other devices.
-
-<figure class="card" markdown="1">
-![Power Indicator](/images/{{ page.slug }}/indicator-network.png)
-<figcaption markdown="1">
-Cellular modems now show as toggle buttons
-</figcaption>
-</figure>
-
-The Do Not Disturb setting in Notifications settings no longer blocks the whole view and we've updated the design of this pane to better reflect modern design patterns and support RTL language layouts
-
-<figure markdown="1">
-![Notification Settings](/images/{{ page.slug }}/settings-notifications.png)
-<figcaption markdown="1">
-Do Not Disturb no longer blocks Notification settings
-</figcaption>
-</figure>
-
-A new paned design has landed for Desktop settings. This also includes wallpaper previews on the "Appearance" page. You'll notice that the "Dim Wallpaper With Dark Style" option has also moved to the Appearance page where you can see a preview of its effect.
-
-<figure markdown="1">
-![System Settings → Desktop → Appearance](/images/{{ page.slug }}/appearance.png)
-<figcaption markdown="1">
-Desktop settings have been redesigned
-</figcaption>
-</figure>
-
-System got a redesign of external links similar to the one in AppCenter, with clearer help and documentation links as well as a better call for contributions.
-
-<figure markdown="1">
-![](/images/{{ page.slug }}/settings-system.png)
-<figcaption markdown="1">
-Operating System settings has a redesigned links section
-</figcaption>
-</figure>
-
-Locale settings with a new setting for automatically selecting the temperature unit based on locale, fixed freezing while getting advanced permissions, and it will no longer prompt system administrators for a password unnecessarily for setting the system language. Plus we made some improvements to error handling and other feedback.
-
-Language &amp; Region settings now has searchable dropdowns. We've also received some feedback from some folks that indicates they were looking here for Keyboard Layout or Date &amp; Time settings, so we more clearly link to both of those locations to help you find what you're looking for.
-
-We're also making a major change to our default keyboard shortcuts. Pressing <kbd>⌘</kbd> will now open the Applications menu instead of the Shortcuts overlay and <kbd>⌘</kbd> + <kbd>Space</kbd> will now switch keyboard layouts by default. This brings us more in line with the defaults from other desktops and operating systems and will hopefully be more comfortable for folks who rely on these shortcuts. Of course you can always change the <kbd>⌘</kbd> key behavior and keyboard shortcuts in general in System Settings → Keyboard.
-
-# Design
-
-Gave attention to cursors and introduced more color into their design. This resulted in an almost complete redraw of our cursors and closed several old issue reports. We also got new, colorful "Find" icons as well as a new design for the "Save As" icon.
-
-<figure markdown="1">
-![New Cursors](/images/{{ page.slug }}/cursors.png){: width="192" height="192"}
-<figcaption markdown="1">
-Cursors have been almost completely redesigned with more color
-</figcaption>
-</figure>
+[Side by side new wallpapers]
 
 We have two new wallpapers to share, ["A Large Body of Water Surrounded By Mountains"](https://unsplash.com/photos/a-large-body-of-water-surrounded-by-mountains-Dxod5pdRtsk) by [Peter Thomas](https://unsplash.com/@lifeof_peter_) and ["A Trail of Footprints In The Sand"](https://unsplash.com/photos/a-trail-of-footprints-in-the-sand-of-a-beach-A9mr3TPoj0k) by [David Emrich](https://unsplash.com/@davidemrich). Both of these images have been slightly edited for use as wallpapers in elementary OS and are distributed under the permissive Unsplash license.
 
-Plus, opaque panel styles received some attention and now have a soft shadow 
+[Multitasking View light and dark side by side screenshots]
 
-<figure class="card half" markdown="1">
-![Panel in light style](/images/{{ page.slug }}/panel-light.png)
-![Panel in dark style](/images/{{ page.slug }}/panel-dark.png)
-<figcaption>The Panel's opaque styles now have a soft shadow</figcaption>
-</figure>
+Instead of a plain dark gray background, Multitasking View now features a blurred version of your wallpaper that is adjusted for light and dark modes. Workspace cards now have rounded corners and the switcher at the bottom of the screen has been updated for light and dark modes as well.
 
-The Lock Screen now features a larger and bolder clock and it looks really great with our new default wallpaper for OS 8! The Login &amp; Lock Screen now features a blurred background similar to the Multitasking View
+[Lock screen screenshot]
 
-The Login &amp; Lock screen now has a smoother fade in animation
+The Login &amp; Lock Screen also features a blurred background similar to the Multitasking View as well as a larger and bolder clock.
 
-<figure class="card" markdown="1">
-![The new Lock Screen](/images/{{ page.slug }}/lock.png)
-<figcaption markdown="1">
-A larger and bolder clock on the Lock Screen
-</figcaption>
-</figure>
+[App screenshot grid]
 
-<figure class="card" markdown="1">
-![Login &amp; Lock Screen](/images/{{ page.slug }}/greeter.png)
-<figcaption>The Login &amp; Lock Screen now shows a blurred version of your wallpaper in the background</figcaption>
-</figure>
-
-The Multitasking View has seen a number of design updates, the most noticeable of which is that instead of a plain dark grey background, it now features a blurred version of your wallpaper that is either lightened or darkened for light and dark modes respectively. You'll also notice that the workspace cards now have rounded corners and the switcher UI at the bottom of the screen has been updated for light and dark modes as well.
-
-<figure class="card half" markdown="1">
-![Multitasking View in light mode](/images/{{ page.slug }}/multitasking-light.png)
-![Multitasking View in dark mode](/images/{{ page.slug }}/multitasking-dark.png)
-<figcaption>Multitasking View now features a blurred background and an updated switcher UI design</figcaption>
-</figure>
-
-## Hardware Support
-
-Pipewire
-
-Lock Screen will respect your orientation lock settings
-
-If you have a mixed-dpi setup—like a HiDPI laptop or tablet and a LoDPI external monitor—You can now set per-display scaling in the Secure Session thanks to [Leonhard](https://github.com/leolost2605).
-
-Plus, we fixed a missing icon for some wireless headphones in Bluetooth settings.
-
-Driver management has moved to System Settings → System. The new design for drivers should be more in line with how drivers are managed on other operating systems and be easier to work with
-
-<figure markdown="1">
-![System Settings → System → Drivers](/images/{{ page.slug }}/drivers.png)
-<figcaption markdown="1">
-Drivers are now managed from System Settings
-</figcaption>
-</figure>
-
-OS 8 also includes the latest long-term support Hardware Enablement stack from Ubuntu, including Linux 6.8
-
-## Updated Apps
-
-Web 46 brings a new flatter design and tons of bug fixes. Document Viewer gets the latest bug fixes while Archive Manager now uses GTK 4.
-
-## Font Viewer
-
-We're also now shipping Font Viewer as a Flatpak app. This means we can continually ship the latest GNOME Font Viewer in elementary OS built against our Flatpak runtime so that it fits in stylistically. The new Fonts looks fantastic and has much better performance, and it will continue to receive updates just like our other apps shipped as Flatpak. fixing a styling regression, ensuring we can continually ship the latest version of Font Viewer throughout the OS 8 life cycle, and that it can be automatically updated without requiring a system restart.
-
-<figure markdown="1">
-![The Fonts app](/images/{{ page.slug }}/fonts.png)
-<figcaption markdown="1">
-The updated Fonts app is available from AppCenter
-</figcaption>
-</figure>
-
-## Videos
-
-<figure class="half" markdown="1">
-![Videos player view](/images/{{ page.slug }}/videos.png){: width="1045" height="605"}
-![Videos library view](/images/{{ page.slug }}/videos-library.png){: width="1045" height="605"}
-<figcaption>Videos has a new modern and minimalist design</figcaption>
-</figure>
-
-Videos now sports a more modern and minimal design which is especially apparent on the player page. On the library page it uses larger landscape format thumbnails and the app now follows the system light and dark style preference. The upgrade to GTK4 also brings performance improvements. Major shoutouts to [Leonhard](https://github.com/leolost2605) for his work modernizing this code base.
-
-Videos—like all of our Flatpak apps—is of course also available to download as a Flatpak for folks running Linux distros other than elementary OS:
-
-<div style="text-align: center" markdown="1">
-[Download Videos as Flatpak](https://appcenter.elementary.io/io.elementary.videos/){: .button.suggested }
-</div>
-
-## Mail
-
-Email aliases have arrived in Mail! You can now secondary click on an account in the sidebar and select "Edit Aliases…" to configure them. Plus Mail now also handles replying and forwarding to the correct address for senders who use aliases. And bugs related to certain emails blanking or certain attachments not downloading have been fixed. Shoutouts to [Leonhard](https://github.com/leolost2605) for his work here.
-
-## Music
-
-Music can now open individual audio files from within the app instead of requiring you to open them from within Files and it gains the now-familiar sticky toolbar style when scrolling in the queue.
+Several applications have a noticeably more modern design as well. Notably, Videos has a completely redesigned player page and now follows the system light and dark style preference. The new Fonts looks fantastic and has much better performance. And Web 46 brings its own set of performance improvements along with a more minimal appearance.
 
 ---
 
-# Developer Platform
+# Hardware Support
 
-The elementary Flatpak Platform 8 has been released and is available now in the AppCenter Flatpak remote. If you're an app developer, that means you can update your app to the latest Platform today! We recommend doing so as soon as possible so that your app doesn't have an "Outdated" badge next to it in AppCenter on release day.
+OS 8 includes the latest long-term support Hardware Enablement stack from Ubuntu, including Linux 6.8. We’re also shipping with Pipewire which improves latency and bluetooth audio quality while being architected for the world of sandboxed Flatpak apps running in the Secure Session. This is an especially big deal for folks doing audio production tasks on elementary OS.
 
-Platform 8 is based on the GNOME 46 platform and includes all of the same library updates as well as the latest Granite, elementary Stylesheet, and elementary Icons. Plus we're now including LibPortal, a library that makes it easy to use platform APIs for things like background &amp; autostart, taking screenshots, and setting wallpapers. Platform 8 includes the latest LibAdwaita with `Adw.ToolbarView` and the elementary stylesheet now supports it as well. Plus `Granite.Toast` now includes a new `dismissed ()` signal with  dismissal reasons, a new `STYLE_CLASS_SUCCESS` constant, and you can now use markup in `Granite.HeaderLabel`. We now also load widget fallback styles when using `Granite.init ()` that should improve your apps' cross-platform compatibility.
+[Drivers screenshot]
 
-Another thing that we need to prepare in order to release is the elementary OS Flatpak platform and SDK. Platform 8 is based on the same libraries as included in the GNOME 46 platform with the addition of elementary-specific goodies like Granite, our stylesheet, and icons, plus we're now including LibPortal. LibPortal is a convenient way for developers to add desktop integration features using secure portals such as the Screenshot and Wallpaper portals, as well as handling things like Backgrounding. When Platform 8 is published, we'll need to rebuild of all our Flatpak apps against it and we'll be able to ship GNOME Web 46, which includes a flatter UI design.
+Driver management has moved from AppCenter to System Settings → System. The new design for drivers is more in line with how drivers are managed on other operating systems and is easier to work with, especially for hardware that has multiple driver options like NVIDIA® graphics.
 
-## Developer Tools
+[Power settings screenshot]
 
-Code now uses the LibHandy tab bar widget which brings improved animations and drag-n-drop behavior. The Terminal pane can now open to your preference of project subdirectory by default. The preferences dialog was slightly redesigned to fit more modern platform conventions and improve screen reader compatibility. And we fixed a dozen reported issues!
-
-There's a new setting in Terminal for event alerts on invalid input and we now do a better job saving tab state. Plus man page documentation has been improved.
-
-Restoring tabs from last time is now optional in Files and it now supports hiding files and folders via a `.hidden` file, a feature you may be familiar with from other file manager apps.
+Power settings now shows the charging level and status for both internal batteries and connected battery devices like mice and keyboards. You can also choose to automatically set different power profiles based on whether your device is plugged in or on battery power, and power modes can be quickly changed from the power menu in the panel. Plus the battery icon in the panel will now show much more accurate battery levels for mobile computers.
 
 ---
 
@@ -427,6 +181,8 @@ elementary OS 8 is available as a pay-what-you-can purchase at [elementary.io] t
 [Download elementary OS 8][elementary.io]{: .button.suggested }
 </div>
 
+OS 8 will receive additional feature and bug fix updates on a monthly schedule that will be reported on here on our blog, so stay tuned for even more updates in the future!
+
 ## Get A New Computer
 
 Our hardware retailers [Laptop with Linux], and [Star Labs] are offering elementary OS 8 out of the box starting today! Visit retailers' individual sites for more information.
@@ -434,6 +190,14 @@ Our hardware retailers [Laptop with Linux], and [Star Labs] are offering element
 <div style="text-align: center" markdown="1">
 [Shop Devices][store]{: .button }
 </div>
+
+---
+
+## Special Thanks
+
+I want to give special thanks to all of our volunteer contributors for working hard over the last 13 months to make this an incredible release. We set some really ambitious goals and have made major architectural changes to accomplish them that required a lot of planning and coordination. Some of the features landed in this cycle have been years in the making. Our monthly blog posts highlight more of our individual contributors and it’s worth reading through them to admire their passion and dedication.
+
+I’m also eternally grateful to our individual Early Access sponsors for providing consistent funding to keep producing our operating system and distributing it under our pay-what-you-can model. We’re funded almost entirely by the good will of individuals without any VC funding or major corporate backing. The only partnerships we have is with our indie hardware vendors. Choosing to support an operating system made by a community like ours is an act of protest in the world we currently find ourselves in and your solidarity means everything.
 
 [elementary.io]: https://elementary.io
 [updates]: {{ site.baseurl }}/tags/#updates
