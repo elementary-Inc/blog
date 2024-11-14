@@ -152,7 +152,12 @@ By popular demand, we’re making a major change to our default keyboard shortcu
 
 Visual design plays a huge role in the appeal of our operating system and elementary has always had a strong identity in using colorful and playful design to convey a sense of friendliness and fun. In OS 8 we’ve maintained our careful balance of learning and evolving while avoiding chasing design trends to retain our unique personality.
 
-[Screenshot of new pointers]
+<figure markdown="1">
+![Pointers](/images/{{ page.slug }}/Desktop/pointers.png)
+<figcaption markdown="1">
+
+</figcaption>
+</figure>
 
 A perfect example of this is our new pointers. Pointers were completely redrawn to be more consistent, make better use of color, and be more precise. The new design is more fun and playful with softer edges and rounder corners while maintaining high contrast and legibility. The new design feels extremely familiar but also more modern.
 
