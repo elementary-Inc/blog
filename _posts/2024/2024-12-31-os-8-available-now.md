@@ -107,7 +107,7 @@ When planning for the Secure Session we realized that our Dock would need to be 
 In particular, we've revisited the way we handle multi-window apps and made the behavior of clicking app icons more predictable. When an app isn't open yet, a single-click of its icon will still launch it. When an app has a single window open, a single-click will always focus that window, even switching workspaces if necessary. And, when an app has multiple windows open, a single-click will show a window spread so you can quickly select the right window, even outside of the Multitasking View. In this way, a single-click always takes you to an app window instead of sometimes opening a new window or even hiding windows.
 
 <figure class="card">
-  <video width="" height="" autoplay="true" loop="true" playsinline="true" muted="true">
+  <video width="1920" height="1080" autoplay="true" loop="true" playsinline="true" muted="true">
     <source src="/images/os-8-available-now/Desktop/dock.webm" type="video/webm">
     <source src="/images/os-8-available-now/Desktop/dock.mp4" type="video/mp4">
   </video>
