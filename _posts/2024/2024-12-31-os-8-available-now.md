@@ -1,12 +1,11 @@
 ---
 title: elementary OS 8 Available Now
-description: 
+description: Carefree because you're cared for
 author: danrabbit
 image: /images/os-8-available-now/card.png
 
 tags:
   - circe
-  - updates
   - release
 ---
 
@@ -19,7 +18,7 @@ Today, we're proud to announce that elementary OS 8 is available to download now
 With OS 8, we've focused in on:
 
 - Creating a new **Secure Session** that ensures applications respect your **privacy** and require your **consent**
-- **A brand new Dock** with new **multitasking and window management** features
+- **A brand new Dock** with productive **multitasking and window management** features
 - Empowering our diverse community through **Inclusive Design**
 
 To get elementary OS 8 now, head to [elementary.io] for the download—or read on for an overview of what's new.
@@ -46,7 +45,7 @@ On the lock screen, you'll now see a gear menu next to the password field that g
 Portals are the standardized system interfaces that apps use to access features in a way that respects your privacy and requires your explicit consent. Four new Portals are now supported in OS 8: Color Picker, Screenshot, Screencast, and Wallpaper. These Portals are essential for enabling modern apps to work in the Secure Session when they don't have direct access to the pixels on your display. Since some apps haven't yet made use of the Portals required to operate under the Secure Session, OS 8 will continue to use the Classic Session by default. Apps will work and behave as they always have there, with the same level of system access you're used to from OS 7 and before. If you rely on certain accessibility features, you may find that those are not yet available under the new Secure Session as well. However, we highly encourage you to give the Secure Session a try and you might be surprised to find that the apps and features you use are already compatible.
 
 <figure markdown="1">
-![Application Settings](/images/{{ page.slug }}/Settings/permissions.png){: width="" height="}
+![Application Settings](/images/{{ page.slug }}/Settings/permissions.png){: width="884" height="576"}
 <figcaption markdown="1">
 System Settings → Applications has expanded options
 </figcaption>
@@ -67,10 +66,10 @@ This means you’ll be able to access apps made specifically for elementary OS, 
 To support this change, we’ve made a few changes to App info pages in AppCenter. We’ve removed the “non-curated” badge based on your feedback and instead show a “Made for elementary OS” badge when appropriate. The links section has also been redesigned, featuring colorful iconography. We now show a Sponsor link for app developers that fund the development of their app using third-party platforms like GitHub or Patreon and we show a link directly to the app's source code for apps that provide it.
 
 <figure class="half" markdown="1">
-![AppCenter](/images/{{ page.slug }}/AppCenter/info-header.png){: width="" height="}
-![Appcenter](/images/{{ page.slug }}/AppCenter/info-links.png){: width="" height=""}
+![AppCenter](/images/{{ page.slug }}/AppCenter/info-header.png){: width="1078" height="716"}
+![Appcenter](/images/{{ page.slug }}/AppCenter/info-links.png){: width="1078" height="716"}
 <figcaption>
-
+App info pages show “Made for elementary OS” badges and more links
 </figcaption>
 </figure>
 
@@ -79,9 +78,9 @@ With the introduction of the Secure Session and new Portals to support it, expan
 In elementary OS there are two different kinds of updates. Updates to the operating system itself are installed offline, when your computer restarts, to make sure services are restarted correctly and to prevent issues. Updates to apps, on the other hand, are quickly installed while your computer is running. In OS 7, both of these types of updates appear side-by-side in AppCenter, but in OS 8 operating system updates will now appear in System Settings.
 
 <figure markdown="1">
-![System Settings](/images/{{ page.slug }}/Settings/system.png){: width="" height="}
+![System Settings](/images/{{ page.slug }}/Settings/system.png){: width="884" height="576"}
 <figcaption markdown="1">
-
+Operating system updates now appear in System Settings
 </figcaption>
 </figure>
 
@@ -105,11 +104,11 @@ When planning for the Secure Session we realized that our Dock would need to be 
 In particular, we've revisited the way we handle multi-window apps and made the behavior of clicking app icons more predictable. When an app isn't open yet, a single-click of its icon will still launch it. When an app has a single window open, a single-click will always focus that window, even switching workspaces if necessary. And, when an app has multiple windows open, a single-click will show a window spread so you can quickly select the right window, even outside of the Multitasking View. In this way, a single-click always takes you to an app window instead of sometimes opening a new window or even hiding windows.
 
 <figure class="card">
-    <video width="" height="" autoplay="true" loop="true" playsinline="true" muted="true">
-        <source src="/images/os-8-available-now/Desktop/dock.webm" type="video/webm">
-        <source src="/images/os-8-available-now/Desktop/dock.mp4" type="video/mp4">
-    </video>
-    <figcaption></figcaption>
+  <video width="" height="" autoplay="true" loop="true" playsinline="true" muted="true">
+    <source src="/images/os-8-available-now/Desktop/dock.webm" type="video/webm">
+    <source src="/images/os-8-available-now/Desktop/dock.mp4" type="video/mp4">
+  </video>
+  <figcaption>When an app has multiple windows, clicking shows a window spread</figcaption>
 </figure>
 
 For apps that support multiple windows, we've implemented a new system that is aware of the FreeDesktop.org standard for hinting this feature, so we can now reliably open new windows when middle-clicking an app's icon. Plus you can still scroll over an app icon to cycle through open windows. And, you can now launch pinned apps with <kbd>Super</kbd> + <kbd>1­</kbd>—<kbd>9</kbd>, a hotly requested feature.
@@ -121,15 +120,25 @@ We’ve also added several new optional multitasking features including the abil
 We sat down this summer with self-described fully-blind cybersecurity enthusiast [Florian Beijers](https://blog.elementary.io/updates-for-july-2024/) to evaluate our experience for blind folks and identify areas of improvement. A particular showstopper we noticed was keyboard navigation and screen reader support during Onboarding, which has now been completely rewritten. We also took a second look at keyboard navigation and screen reader support during Installation and Initial Setup and the entire first run experience has been much improved for blind folks in OS 8. We also now have screen reader support in the <kbd>Alt</kbd> + <kbd>Tab</kbd> window switcher and we’ve made sure that there's audio—or visual depending on your settings—feedback when we're unable to complete window management tasks like cycling workspaces in response to the keyboard shortcut.
 
 <figure markdown="1">
-![Onboarding](/images/{{ page.slug }}/Onboarding/home.png){: width="" height="}
+![Onboarding](/images/{{ page.slug }}/Onboarding/home.png){: width="525" height="495"}
 <figcaption markdown="1">
-
+Navigation has been rewritten in Onboarding
 </figcaption>
 </figure>
 
 System Settings has been refreshed with a modern space-saving dual-pane design that is more responsive for small and large displays. We’ve also vastly improved support for text scaling, screen readers, keyboard navigation, right-to-left language layouts, and improved contrast in illustrations. Plus search now returns more relevant results and the titles of those results now reflect both the exact setting name they’re matching and the path to that setting.
 
-[Screenshot grid of redesigned panes]
+<figure class="third" markdown="1">
+![System Settings](/images/{{ page.slug }}/Settings/search.png){: width="884" height="576"}
+![System Settings](/images/{{ page.slug }}/Settings/appearance.png){: width="884" height="576"}
+![System Settings](/images/{{ page.slug }}/Settings/touchpad.png){: width="884" height="576"}
+![System Settings](/images/{{ page.slug }}/Settings/limits.png){: width="884" height="597"}
+![System Settings](/images/{{ page.slug }}/Settings/network.png){: width="884" height="597"}
+![System Settings](/images/{{ page.slug }}/Settings/notifications.png){: width="884" height="597"}
+<figcaption>
+Many System Settings pages feature modern redesigns
+</figcaption>
+</figure>
 
 Instead of removing features during this redesign, we’ve added new ones. For example, if you're not a fan of overlaid scrollbars or have a motor disability that makes them difficult to use, there's a new setting to always show scrollbars in Desktop → Appearance. Language &amp; Region settings has a new option to automatically select the temperature unit based on locale. And there are new keyboard shortcut options for switching between keyboard layouts or using features like emoji or unicode typing.
 
@@ -140,13 +149,13 @@ Instead of removing features during this redesign, we’ve added new ones. For e
 Settings that use dropdowns are now frequently searchable. We've also improved setting descriptions, added new ones based on your feedback, and made sure help text is less frequently hidden behind a mouse hover. Plus, System got a redesign of external links similar to the one in AppCenter, with clearer help and documentation links as well as a better call for contributions.
 
 <figure class="card" markdown="1">
-![Quick Settings](/images/{{ page.slug }}/Desktop/quick-settings.png){: width="" height="}
+![Quick Settings](/images/{{ page.slug }}/Desktop/quick-settings.png){: width="297" height="347"}
 <figcaption markdown="1">
-
+Quick Settings improves access to features while reducing clutter
 </figcaption>
 </figure>
 
-OS 8 also brings a new Quick Settings menu that improves access to features while reducing the amount of visual noise in the panel. We’ve started by combining the accessibility and session menus which contain useful controls, but don’t indicate a change in status. We’ve also added hotly requested controls like Dark Mode and Rotation Lock. Features like the Screen Reader and Onscreen Keyboard are now available from the Quick Settings menu by default, but you can still choose to hide them in System Settings → Desktop → Dock &amp; Panel.
+OS 8 also brings a new Quick Settings menu that improves access to features while reducing clutter in the panel. We’ve started by combining the accessibility and session menus which contain useful controls, but don’t indicate a change in status. We’ve also added hotly requested controls like Dark Mode and Rotation Lock. Features like the Screen Reader and Onscreen Keyboard are now available from the Quick Settings menu by default, but you can still choose to hide them in System Settings → Desktop → Dock &amp; Panel.
 
 By popular demand, we’re making a major change to our default keyboard shortcuts: pressing <kbd>⌘</kbd> will now open the Applications menu instead of the Shortcuts overlay and <kbd>⌘</kbd> + <kbd>Space</kbd> will now switch keyboard layouts by default. This brings us more in line with the defaults from other desktops and operating systems and will hopefully be more comfortable for folks who rely on these shortcuts to get around. Of course you can always change the <kbd>⌘</kbd> key behavior and keyboard shortcuts in general in System Settings → Keyboard.
 
@@ -155,7 +164,7 @@ Visual design plays a huge role in the appeal of our operating system and elemen
 <figure markdown="1">
 ![Pointers](/images/{{ page.slug }}/Desktop/pointers.png)
 <figcaption markdown="1">
-
+Pointers are more consistent and make better use of color
 </figcaption>
 </figure>
 
@@ -164,25 +173,22 @@ A perfect example of this is our new pointers. Pointers were completely redrawn 
 <figure class="card half" markdown="1">
 ![A Large Body of Water Surrounded By Mountains](/images/{{ page.slug }}/Desktop/mountains.jpg)
 ![A Trail of Footprints In The Sand](/images/{{ page.slug }}/Desktop/sand.jpg)
-<figcaption>
-
-</figcaption>
 </figure>
 
 We have two new wallpapers to share, ["A Large Body of Water Surrounded By Mountains"](https://unsplash.com/photos/a-large-body-of-water-surrounded-by-mountains-Dxod5pdRtsk) by [Peter Thomas](https://unsplash.com/@lifeof_peter_) and ["A Trail of Footprints In The Sand"](https://unsplash.com/photos/a-trail-of-footprints-in-the-sand-of-a-beach-A9mr3TPoj0k) by [David Emrich](https://unsplash.com/@davidemrich). Both of these images have been slightly edited for use as wallpapers in elementary OS and are distributed under the permissive Unsplash license.
 
 <figure class="card half" markdown="1">
-![](/images/{{ page.slug }}/Multitasking/light.jpg)
-![](/images/{{ page.slug }}/Multitasking/dark.jpg)
+![Multitasking View in light mode](/images/{{ page.slug }}/Multitasking/light.png)
+![Multitasking View in dark mode](/images/{{ page.slug }}/Multitasking/dark.png)
 <figcaption>
-
+Multitasking View now features a blurred version of your wallpaper
 </figcaption>
 </figure>
 
 Instead of a plain dark gray background, Multitasking View now features a blurred version of your wallpaper that is adjusted for light and dark modes. Workspace cards now have rounded corners and the switcher at the bottom of the screen has been updated for light and dark modes as well.
 
 <figure class="card" markdown="1">
-![](/images/{{ page.slug }}/Desktop/lock-screen.png)
+![Lock Screen](/images/{{ page.slug }}/Desktop/lock-screen.png)
 <figcaption markdown="1">
 The Login &amp; Lock Screen also features a blurred background similar to the Multitasking View as well as a larger and bolder clock
 </figcaption>
@@ -190,7 +196,14 @@ The Login &amp; Lock Screen also features a blurred background similar to the Mu
 
 Several applications have a noticeably more modern design as well. Notably, Videos has a completely redesigned player page and now follows the system light and dark style preference. The new Fonts looks fantastic and has much better performance. And Web 46 brings its own set of performance improvements along with a more minimal appearance.
 
-[App screenshot grid]
+<figure class="third" markdown="1">
+![Fonts](/images/{{ page.slug }}/Applications/fonts.png){: width="854" height="656"}
+![Web](/images/{{ page.slug }}/Applications/web.png){: width="1078" height="824"}
+![Videos](/images/{{ page.slug }}/Applications/videos.png){: width="1045" height="605"}
+<figcaption>
+Several apps have a noticeably more modern design
+</figcaption>
+</figure>
 
 ---
 
@@ -199,18 +212,18 @@ Several applications have a noticeably more modern design as well. Notably, Vide
 OS 8 includes the latest long-term support Hardware Enablement stack from Ubuntu, including Linux 6.8. We’re also shipping with Pipewire which improves latency and bluetooth audio quality while being architected for the world of sandboxed Flatpak apps running in the Secure Session. This is an especially big deal for folks doing audio production tasks on elementary OS.
 
 <figure markdown="1">
-![Settings](/images/{{ page.slug }}/Settings/drivers.png)
+![Driver Settings](/images/{{ page.slug }}/Settings/drivers.png)
 <figcaption markdown="1">
-
+Drivers moved to System Settings → System
 </figcaption>
 </figure>
 
 Driver management has moved from AppCenter to System Settings → System. The new design for drivers is more in line with how drivers are managed on other operating systems and is easier to work with, especially for hardware that has multiple driver options like NVIDIA® graphics.
 
 <figure markdown="1">
-![Settings](/images/{{ page.slug }}/Settings/power.png){: width="" height="}
+![Power Settings](/images/{{ page.slug }}/Settings/power.png){: width="884" height="597"}
 <figcaption markdown="1">
-
+Power Settings now shows battery charging levels
 </figcaption>
 </figure>
 
@@ -221,6 +234,10 @@ Power settings now shows the charging level and status for both internal batteri
 # Get elementary OS 8
 
 elementary OS 8 is available as a pay-what-you-can purchase at [elementary.io] today. Localized direct downloads and a torrent magnet link are provided.
+
+<figure class="on-screen" markdown="1">
+![A clean desktop](/images/{{ page.slug }}/Desktop/clean.png)
+</figure>
 
 <div style="text-align: center" markdown="1">
 [OS 8 FAQ](https://github.com/elementary/os/wiki/OS-8-FAQ){: .button.flat }
