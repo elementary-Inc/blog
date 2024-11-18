@@ -31,10 +31,11 @@ To get elementary OS 8 now, head to [elementary.io] for the download—or read o
 
 Over the past several years we've been building features to improve the trust relationship with your computer by requiring your explicit informed consent and disallowing untrustworthy behavior on a technical level. We've done that by embracing Flatpak as the way to install apps on elementary OS and Portals for confining them to a safer sandbox. Now we're extending that story with both new settings to put you in control of the system features apps can access and a new Secure Session powered by Wayland.
 
-<figure markdown="1">
-![Application Portals](/images/{{ page.slug }}/portals-screenshot.png)
+<figure class="half" markdown="1">
+![Screenshot Portal](/images/{{ page.slug }}/Portals/screenshot.png){: width="538" height="211"}
+![Wallpaper Portal](/images/{{ page.slug }}/Portals/wallpaper.png){: width="538" height="226"}
 <figcaption markdown="1">
-In the Secure Session apps need your explicit permission to see the pixels on your display
+In the Secure Session apps need your explicit permission for more things
 </figcaption>
 </figure>
 
