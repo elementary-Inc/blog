@@ -8,7 +8,7 @@ tags:
   - circe
   - release
 
-hidden: 2024-12-31 18:00:00 UTC # 10 AM PST
+hidden: 2024-11-26 18:00:00 UTC # 10 AM PST
 ---
 
 Today, we're proud to announce that elementary OS 8 is available to download now and shipping on several high-quality computers!
@@ -114,7 +114,7 @@ In particular, we've revisited the way we handle multi-window apps and made the 
   <figcaption>When an app has multiple windows, clicking shows a window spread</figcaption>
 </figure>
 
-For apps that support multiple windows, we've implemented a new system that is aware of the FreeDesktop.org standard for hinting this feature, so we can now reliably open new windows when middle-clicking an app's icon. Plus you can still scroll over an app icon to cycle through open windows. And, you can now launch pinned apps with <kbd>Super</kbd> + <kbd>1­</kbd>—<kbd>9</kbd>, a hotly requested feature.
+For apps that support multiple windows, we've implemented a new system that is aware of the FreeDesktop.org standard for hinting this feature, so we can now reliably open new windows when middle-clicking an app's icon. Plus you can still scroll over an app icon to cycle through open windows. And, you can now launch pinned apps with <kbd>⌘</kbd> + <kbd>1­</kbd>—<kbd>9</kbd>, a hotly requested feature.
 
 We’ve also added several new optional multitasking features including the ability to switch between windows with a horizontal swipe gesture, the ability to disable hotcorners when on a workspace that contains a fullscreen app, and the ability to switch between workspaces by scrolling over the panel
 
