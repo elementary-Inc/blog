@@ -13,8 +13,8 @@ hidden: 2024-12-31 18:00:00 UTC # 10 AM PST
 
 Today, we're proud to announce that elementary OS 8 is available to download now and shipping on several high-quality computers!
 
-<figure class="card" markdown="1">
-![elementary OS 8](/images/{{ page.slug }}/card.png)
+<figure markdown="1">
+![elementary OS 8](/images/{{ page.slug }}/card.png){: width="1200" height="628"}
 </figure>
 
 With OS 8, we've focused in on:
