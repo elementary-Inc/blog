@@ -10,7 +10,6 @@ tags:
 facebook: https://www.facebook.com/elementaryos/posts/3316867615011711
 mastodon: https://mastodon.social/@elementary/104283525297698819
 reddit: https://www.reddit.com/r/elementaryos/comments/gw6due/hera_updates_for_may_2020_elementary_blog/
-twitter: https://twitter.com/elementary/status/1268379914534780933
 ---
 
 In May, we focused on quality-of-life improvements primarily across AppCenter and Files along with several smaller fixes. These updates have been released to users of elementary OS 5.1 throughout the month, and are available in the new OS 5.1.5 ISO from [the homepage](https://elementary.io).
