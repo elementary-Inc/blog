@@ -66,6 +66,10 @@ In 2017 [we shipped AppCenter](https://blog.elementary.io/building-the-future-of
 
 This means you’ll be able to access apps made specifically for elementary OS, apps made for Linux, and popular cross-platform apps like Discord and Spotify all directly from AppCenter without having to manually sideload or configure an alt store.
 
+<figure markdown="1">
+![AppCenter](/images/{{ page.slug }}/AppCenter/home.png){: width="1078" height="716"}
+</figure>
+
 To support this change, we’ve made a few changes to App info pages in AppCenter. We’ve removed the “non-curated” badge based on your feedback and instead show a “Made for elementary OS” badge when appropriate. The links section has also been redesigned, featuring colorful iconography. We now show a Sponsor link for app developers that fund the development of their app using third-party platforms like GitHub or Patreon and we show a link directly to the app's source code for apps that provide it.
 
 <figure class="half" markdown="1">
