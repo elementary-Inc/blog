@@ -11,7 +11,6 @@ tags:
 
 mastodon: https://mastodon.social/@elementary/105323756503375482
 reddit: https://www.reddit.com/r/elementaryos/comments/k6s1sz/elementary_os_on_raspberry_pielementary_blog/
-twitter: https://twitter.com/elementary/status/1334954577909723136
 ---
 
 Following our [efforts to bring elementary OS to the ARM-based Pinebook Pro][pbp], we've added experimental builds for the ARM-based Raspberry Pi 4 series—including the recently-launched Raspberry Pi 400—to our [Early Access][builds] program. Like Pinebook Pro builds, Raspberry Pi support is considered an experiment and is not something we have committed to officially support indefinitely. However, if you're one of the many folks with a Raspberry Pi 4 sitting around and wanted to see how a full, modern desktop operating system runs, elementary OS is now an option!

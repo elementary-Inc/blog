@@ -10,7 +10,6 @@ tags:
 facebook: https://www.facebook.com/elementaryos/posts/3226478764050597
 mastodon: https://mastodon.social/@elementary/104095144934628603
 reddit: https://www.reddit.com/r/elementaryos/comments/gbmqai/hera_updates_for_april_2020_elementary_blog/
-twitter: https://twitter.com/elementary/status/1256323136401707008
 ---
 
 ## Parental Controls → Screen Time & Limits
