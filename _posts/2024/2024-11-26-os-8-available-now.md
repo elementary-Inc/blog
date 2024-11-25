@@ -8,6 +8,12 @@ tags:
   - circe
   - release
 
+sponsor:
+  name: Laptop with Linux
+  link: https://laptopwithlinux.com/
+  image: /images/sponsors/laptop-with-linux.svg
+  hook: "Laptop with Linux offers laptops and desktops that are perfectly tuned and optimized for use with various Linux based operating systems and ships worldwide! They aim to make switching to Linux accessible for every computer user by increasing freedom of choice."
+
 hidden: 2024-11-26 18:00:00 UTC # 10 AM PST
 ---
 
@@ -39,7 +45,7 @@ In the Secure Session apps need your explicit permission for more things
 </figcaption>
 </figure>
 
-On the lock screen, you'll now see a gear menu next to the password field that gives you the option of Classic or Secure sessions. If you select the Secure Session, elementary OS will use Wayland, a modern and secure method for apps to draw themselves and accept your input. In the Secure Session, apps will be more restricted and will require your consent for system features. When an app wants to listen in the background for your keystrokes, take a screenshot, record the screen, or even pick up the color from a single pixel, you will be asked first to make sure that it's okay. The Secure Session also comes with other modern features like support for Mixed DPI modes—A hotly requested feature for folks using a HiDPI notebook or tablet with a LoDPI external display—and improved support for multi-touch gestures on touch screens and tablets. You might also experience improved performance and smoothness, especially on low-powered hardware.
+On the lock screen, you'll now see a gear menu next to the password field that gives you the option of Classic or Secure sessions. If you select the Secure Session, elementary OS will use Wayland, a modern and secure method for apps to draw themselves and accept your input. In the Secure Session, apps will be more restricted and will require your consent for access to system features. When an app wants to listen in the background for your keystrokes, take a screenshot, record the screen, or even pick up the color from a single pixel, you will be asked first to make sure that it's okay. The Secure Session also comes with other modern features like support for Mixed DPI modes—A hotly requested feature for folks using a HiDPI notebook or tablet with a LoDPI external display—and improved support for multi-touch gestures on touch screens and tablets. You might also experience improved performance and smoothness, especially on low-powered hardware.
 
 <aside markdown="1">
 >OS 8 will use the Classic Session by default and apps will work and behave as they always have
@@ -65,6 +71,10 @@ In 2017 [we shipped AppCenter](https://blog.elementary.io/building-the-future-of
 </aside>
 
 This means you’ll be able to access apps made specifically for elementary OS, apps made for Linux, and popular cross-platform apps like Discord and Spotify all directly from AppCenter without having to manually sideload or configure an alt store.
+
+<figure markdown="1">
+![AppCenter](/images/{{ page.slug }}/AppCenter/home.png){: width="1078" height="716"}
+</figure>
 
 To support this change, we’ve made a few changes to App info pages in AppCenter. We’ve removed the “non-curated” badge based on your feedback and instead show a “Made for elementary OS” badge when appropriate. The links section has also been redesigned, featuring colorful iconography. We now show a Sponsor link for app developers that fund the development of their app using third-party platforms like GitHub or Patreon and we show a link directly to the app's source code for apps that provide it.
 
@@ -232,6 +242,13 @@ Power Settings now shows battery charging levels
 
 Power settings now shows the charging level and status for both internal batteries and connected battery devices like mice and keyboards. You can also choose to automatically set different power profiles based on whether your device is plugged in or on battery power, and power modes can be quickly changed from the power menu in the panel. Plus the battery icon in the panel will now show much more accurate battery levels for mobile computers.
 
+<figure class="card" markdown="1">
+![Power menu](/images/{{ page.slug }}/Desktop/power-menu.png){: width="334" height="460"}
+<figcaption markdown="1">
+Power modes can be changed from the power menu
+</figcaption>
+</figure>
+
 ---
 
 # Get elementary OS 8
@@ -243,7 +260,7 @@ elementary OS 8 is available as a pay-what-you-can purchase at [elementary.io] t
 </figure>
 
 <div style="text-align: center" markdown="1">
-[OS 8 FAQ](https://github.com/elementary/os/wiki/OS-8-FAQ){: .button.flat }
+[OS 8 FAQ](https://github.com/orgs/elementary/discussions/categories/q-a){: .button.flat }
 [Download elementary OS 8][elementary.io]{: .button.suggested }
 </div>
 
@@ -251,7 +268,7 @@ OS 8 will receive additional feature and bug fix updates on a monthly schedule t
 
 ## Get A New Computer
 
-Our hardware retailers [Laptop with Linux], and [Star Labs] are offering elementary OS 8 out of the box starting today! Visit retailers' individual sites for more information.
+Our hardware retailers [Laptop with Linux], [Star Labs], and [Slimbook] are offering elementary OS 8 out of the box starting today! Visit retailers' individual sites for more information.
 
 <div style="text-align: center" markdown="1">
 [Shop Devices][store]{: .button }
@@ -269,4 +286,5 @@ I’m also eternally grateful to our individual Early Access sponsors for provid
 [updates]: {{ site.baseurl }}/tags/#updates
 [Laptop with Linux]: https://laptopwithlinux.com/?ref=36&utm_source=referral&utm_medium=elementary&utm_campaign=elementary
 [Star Labs]: https://starlabs.systems/?rfsn=4227837.e8f025
+[Slimbook]: https://slimbook.es/?utm_source=referral&utm_medium=elementary&utm_campaign=elementary
 [store]: https://store.elementary.io/
