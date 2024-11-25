@@ -243,7 +243,7 @@ elementary OS 8 is available as a pay-what-you-can purchase at [elementary.io] t
 </figure>
 
 <div style="text-align: center" markdown="1">
-[OS 8 FAQ](https://github.com/elementary/os/wiki/OS-8-FAQ){: .button.flat }
+[OS 8 FAQ](https://github.com/orgs/elementary/discussions/categories/q-a){: .button.flat }
 [Download elementary OS 8][elementary.io]{: .button.suggested }
 </div>
 
