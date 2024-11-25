@@ -232,6 +232,13 @@ Power Settings now shows battery charging levels
 
 Power settings now shows the charging level and status for both internal batteries and connected battery devices like mice and keyboards. You can also choose to automatically set different power profiles based on whether your device is plugged in or on battery power, and power modes can be quickly changed from the power menu in the panel. Plus the battery icon in the panel will now show much more accurate battery levels for mobile computers.
 
+<figure class="card" markdown="1">
+![Power menu](/images/{{ page.slug }}/Desktop/power-menu.png){: width="334" height="460"}
+<figcaption markdown="1">
+Power modes can be changed from the power menu
+</figcaption>
+</figure>
+
 ---
 
 # Get elementary OS 8
