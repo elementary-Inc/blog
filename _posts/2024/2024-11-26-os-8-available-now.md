@@ -8,6 +8,12 @@ tags:
   - circe
   - release
 
+sponsor:
+  name: Laptop with Linux
+  link: https://laptopwithlinux.com/
+  image: /images/sponsors/laptop-with-linux.svg
+  hook: "Laptop with Linux offers laptops and desktops that are perfectly tuned and optimized for use with various Linux based operating systems and ships worldwide! They aim to make switching to Linux accessible for every computer user by increasing freedom of choice."
+
 hidden: 2024-11-26 18:00:00 UTC # 10 AM PST
 ---
 
@@ -39,7 +45,7 @@ In the Secure Session apps need your explicit permission for more things
 </figcaption>
 </figure>
 
-On the lock screen, you'll now see a gear menu next to the password field that gives you the option of Classic or Secure sessions. If you select the Secure Session, elementary OS will use Wayland, a modern and secure method for apps to draw themselves and accept your input. In the Secure Session, apps will be more restricted and will require your consent for system features. When an app wants to listen in the background for your keystrokes, take a screenshot, record the screen, or even pick up the color from a single pixel, you will be asked first to make sure that it's okay. The Secure Session also comes with other modern features like support for Mixed DPI modes—A hotly requested feature for folks using a HiDPI notebook or tablet with a LoDPI external display—and improved support for multi-touch gestures on touch screens and tablets. You might also experience improved performance and smoothness, especially on low-powered hardware.
+On the lock screen, you'll now see a gear menu next to the password field that gives you the option of Classic or Secure sessions. If you select the Secure Session, elementary OS will use Wayland, a modern and secure method for apps to draw themselves and accept your input. In the Secure Session, apps will be more restricted and will require your consent for access to system features. When an app wants to listen in the background for your keystrokes, take a screenshot, record the screen, or even pick up the color from a single pixel, you will be asked first to make sure that it's okay. The Secure Session also comes with other modern features like support for Mixed DPI modes—A hotly requested feature for folks using a HiDPI notebook or tablet with a LoDPI external display—and improved support for multi-touch gestures on touch screens and tablets. You might also experience improved performance and smoothness, especially on low-powered hardware.
 
 <aside markdown="1">
 >OS 8 will use the Classic Session by default and apps will work and behave as they always have
@@ -262,7 +268,7 @@ OS 8 will receive additional feature and bug fix updates on a monthly schedule t
 
 ## Get A New Computer
 
-Our hardware retailers [Laptop with Linux], and [Star Labs] are offering elementary OS 8 out of the box starting today! Visit retailers' individual sites for more information.
+Our hardware retailers [Laptop with Linux], [Star Labs], and [Slimbook] are offering elementary OS 8 out of the box starting today! Visit retailers' individual sites for more information.
 
 <div style="text-align: center" markdown="1">
 [Shop Devices][store]{: .button }
@@ -280,4 +286,5 @@ I’m also eternally grateful to our individual Early Access sponsors for provid
 [updates]: {{ site.baseurl }}/tags/#updates
 [Laptop with Linux]: https://laptopwithlinux.com/?ref=36&utm_source=referral&utm_medium=elementary&utm_campaign=elementary
 [Star Labs]: https://starlabs.systems/?rfsn=4227837.e8f025
+[Slimbook]: https://slimbook.es/?utm_source=referral&utm_medium=elementary&utm_campaign=elementary
 [store]: https://store.elementary.io/
