@@ -10,7 +10,6 @@ tags:
 facebook: https://www.facebook.com/elementaryos/posts/3143251365706671
 mastodon: https://mastodon.social/@elementary/103903208102630734
 reddit: https://www.reddit.com/r/elementaryos/comments/fquub0/appcenter_for_everyone_remote_sprint_elementary/
-twitter: https://twitter.com/elementary/status/1244039116980998144
 ---
 
 While we ended up postponing the in-person [AppCenter for Everyone](/appcenter-for-everyone) sprint due to concerns around COVID-19, we did still get together remotely to get started on some of the work. We're a completely remote company and open source project to begin with, so we're used to working remotely; however, we had planned to get together in person to knock out more rapid whiteboarding, prototyping, and discussion that we've found is only at its most effective when people are in the same timezone and physical location for a few days.

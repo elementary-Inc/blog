@@ -13,7 +13,6 @@ tags:
 facebook: https://www.facebook.com/elementaryos/posts/3052846374747171
 mastodon: https://mastodon.social/@elementary/103682138652819524
 reddit: https://www.reddit.com/r/elementaryos/comments/f60q15/appcenter_spotlight_planner/
-twitter: https://twitter.com/elementary/status/1229891020374134784
 ---
 
 If you've been looking for a great task management app, look no further: Planner by Alain is the one. It's also by far one of the most polished apps I've seen in AppCenter—it does so much, but it does it all well.

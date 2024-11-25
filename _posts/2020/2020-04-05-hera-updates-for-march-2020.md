@@ -10,7 +10,6 @@ tags:
 facebook: https://www.facebook.com/elementaryos/posts/3161954863836321
 mastodon: https://mastodon.social/@elementary/103947123460667968
 reddit: https://www.reddit.com/r/elementaryos/comments/fvkn2x/hera_updates_for_march_2020_elementary_blog/
-twitter: https://twitter.com/elementary/status/1246850051411935233
 ---
 
 Fresh on the heels of the [AppCenter for Everyone Remote Sprint](/appcenter-for-everyone-remote-sprint), we still managed to push out a good amount of updates over the course of March (and early April), bundled up in an OS 5.1.3 update. Let's dive into what's new.

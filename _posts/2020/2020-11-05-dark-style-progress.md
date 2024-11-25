@@ -11,7 +11,6 @@ tags:
 
 mastodon: https://mastodon.social/@elementary/105159945400262458
 reddit: https://www.reddit.com/r/elementaryos/comments/jorxnv/dark_style_progress_for_elementary_os_6/
-twitter: https://twitter.com/elementary/status/1324470374332063745
 ---
 
 <figure class="full-bleed" markdown="1">

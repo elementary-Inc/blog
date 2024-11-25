@@ -11,7 +11,6 @@ tags:
 facebook: https://www.facebook.com/elementaryos/posts/4044601975571601
 mastodon: https://mastodon.social/@elementary/105669195948108847
 reddit: https://www.reddit.com/r/elementaryos/comments/lbxfuu/hardware_improvements_coming_to_elementary_os/
-twitter: https://twitter.com/elementary/status/1357062747847032832
 ---
 
 We've been on a bit of a device enablement kick lately: from [Pinebook Pro](/elementary-os-on-pinebook-pro) and [Raspberry Pi](/elementary-os-on-raspberry-pi) to [Slimbook](/devices-slimbook), [Laptop With Linux](/now-shipping-elementary-os#laptop-with-linux), and [Star Labs](/now-shipping-elementary-os#star-labs), we've been working with specific devices and device makers more than ever. We covered these efforts—and why they're so important—in [our 2020 in review](/our-2020-in-review#hardware).

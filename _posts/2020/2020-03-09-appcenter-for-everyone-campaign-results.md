@@ -10,7 +10,6 @@ tags:
 facebook: https://www.facebook.com/elementaryos/posts/3098527003512441
 mastodon: https://mastodon.social/@elementary/103797007689910835
 reddit: https://www.reddit.com/r/elementaryos/comments/fgikj8/appcenter_for_everyone_campaign_results/
-twitter: https://twitter.com/elementary/status/1237242666750038018
 ---
 
 <figure class="full-bleed" markdown="1">

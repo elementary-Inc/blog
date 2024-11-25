@@ -88,5 +88,3 @@ Oftentimes people ask if elementary OS will support non-integer scaling to cater
 *   4K does not mean HiDPI, and might not always be the best resolution
 *   Some manufacturers make poor decisions
 
-Let me know if this helped you out or if you have your own thoughts; [tweet at me](https://twitter.com/cassidyjames) or comment here. :)
-

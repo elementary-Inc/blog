@@ -16,7 +16,6 @@ sponsor:
 
 facebook: https://www.facebook.com/elementaryos/posts/4606634229368370
 reddit: https://reddit.com/r/elementaryos/comments/p1s0iy/elementary_os_6_odin_available_now/
-twitter: https://twitter.com/elementary/status/1425124987841781760
 ---
 
 <figure class="card" markdown="1">

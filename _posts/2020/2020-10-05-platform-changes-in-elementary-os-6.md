@@ -9,7 +9,6 @@ tags:
 
 mastodon: https://mastodon.social/@elementary/104984913842294972
 reddit: https://www.reddit.com/r/elementaryos/comments/j5uuej/platform_changes_in_elementary_os_6_elementary/
-twitter: https://twitter.com/elementary/status/1313264240648687618
 ---
 
 Since elementary makes regular updates to elementary OS throughout its lifecycle, you may be asking yourself why development focus has shifted to elementary OS 6 and why these updates can't be shipped to elementary OS 5. In short, the answer is big, breaking changes in technology. While our updates to elementary OS 5 have been largely incremental improvements, elementary OS 6 rips up old plumbing and reconsiders how things work under-the hood in order to enable new features, make your experience more stable and reliable, improve compatibility with third-party apps, and make our desktop more portable to other open source operating systems. Here is a slightly technical look at some of the changes that you'll see in the next big version of elementary OS.

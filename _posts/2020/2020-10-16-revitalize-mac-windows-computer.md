@@ -8,7 +8,6 @@ tags:
   - meta
 
 mastodon: https://mastodon.social/@elementary/105046299565237362
-twitter: https://twitter.com/elementary/status/1317197248997036034
 ---
 
 ![A computer running elementary OS]({{ page.image }}){: width="800" height="534"}

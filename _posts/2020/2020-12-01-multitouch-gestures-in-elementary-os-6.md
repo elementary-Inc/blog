@@ -11,7 +11,6 @@ tags:
 
 mastodon: https://mastodon.social/@elementary/105307450969775384
 reddit: https://www.reddit.com/r/elementaryos/comments/k4whvv/multitouch_gestures_in_elementary_os_6elementary/
-twitter: https://twitter.com/elementary/status/1333911042808827909
 ---
 
 One of the most hotly requested features for years has been to have multi-touch gestures in elementary OS, and with 6.0 I'm excited to say that we will deliver. Like the [dark style preference](/dark-style-progress/), delivering a great multi-touch experience is a little more complicated than it seems on the surface. There have been some 3rd party tools to detect touchpad gestures and then trigger actions after-the-fact, but it wasn't until recently that we've had the technical ability to provide smooth, responsive animations that track 1:1 with your finger movement across a touchpad or touch screen.

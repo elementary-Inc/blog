@@ -9,7 +9,6 @@ tags:
 
 facebook: https://www.facebook.com/elementaryos/posts/4674257375939388
 reddit: https://reddit.com/r/elementaryos/comments/pfk2ec/elementary_os_6_updates_for_august_2021/
-twitter: https://twitter.com/elementary/status/1432843655648366593
 ---
 
 <figure class="on-screen" markdown="1">
