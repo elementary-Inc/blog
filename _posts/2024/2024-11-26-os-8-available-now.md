@@ -10,7 +10,7 @@ tags:
 
 sponsor:
   name: Laptop with Linux
-  link: https://laptopwithlinux.com/
+  link: https://laptopwithlinux.com/linux-laptops/
   image: /images/os-8-available-now/laptop-with-linux.png
   hook: "Laptop with Linux offers laptops and desktops that are perfectly tuned and optimized for use with various Linux-based operating systems and ships worldwide! They aim to make switching to Linux accessible for every computer user by increasing freedom of choice. Buy a laptop pre-installed with elementary OS 8.0 now!"
 
