@@ -1,5 +1,5 @@
 ---
-title: elementary OS 8 Available Now
+title: elementary OS 8 Available Today
 description: Carefree because you're cared for
 author: danrabbit
 image: /images/os-8-available-now/card.png
@@ -15,7 +15,7 @@ sponsor:
   hook: "Laptop with Linux offers laptops and desktops that are perfectly tuned and optimized for use with various Linux-based operating systems and ships worldwide! They aim to make switching to Linux accessible for every computer user by increasing freedom of choice. Buy a laptop pre-installed with elementary OS 8.0 now!"
 ---
 
-Today, we're proud to announce that elementary OS 8 is available to download now and shipping on several high-quality computers!
+We're proud to announce that elementary OS 8 is available to download later today and shipping on several high-quality computers!
 
 <figure markdown="1">
 ![elementary OS 8](/images/{{ page.slug }}/card.png){: width="1200" height="628"}
@@ -27,7 +27,7 @@ With OS 8, we've focused in on:
 - **A brand new Dock** with productive **multitasking and window management** features
 - Empowering our diverse community through **Inclusive Design**
 
-To get elementary OS 8 now, head to [elementary.io] for the download—or read on for an overview of what's new.
+To get elementary OS 8, head to [elementary.io] later today for the download—or read on for an overview of what's new.
 
 ---
 
@@ -251,7 +251,7 @@ Power modes can be changed from the power menu
 
 # Get elementary OS 8
 
-elementary OS 8 is available as a pay-what-you-can purchase at [elementary.io] today. Localized direct downloads and a torrent magnet link are provided.
+elementary OS 8 is available as a pay-what-you-can purchase at [elementary.io] later today. Localized direct downloads and a torrent magnet link are provided.
 
 <figure class="on-screen" markdown="1">
 ![A clean desktop](/images/{{ page.slug }}/Desktop/clean.png)
