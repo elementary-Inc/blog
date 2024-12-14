@@ -17,7 +17,7 @@ The headliner this month is Terminal which comes with a bunch of fixes and new f
 
 # AppCenter
 
-<figure class="card" markdown="1">
+<figure markdown="1">
 ![AppCenter](/images/{{ page.slug }}/appcenter.png)
 <figcaption markdown="1">
 AppCenter will use Dark Mode screenshots when available
@@ -36,7 +36,7 @@ In the Dock, [Leonhard](https://github.com/leolost2605) made sure launcher bounc
 
 [Alain](https://github.com/alainm23) added some visual polish to the System view as well as a new progress bar that represents how close we are to meeting our monthly sponsorship goal. Plus [Leonhard](https://github.com/leolost2605) made sure automatic updates won't download on metered networks, and we avoid checking for system updates altogether in Demo Mode.
 
-<figure class="card" markdown="1">
+<figure markdown="1">
 ![System Settings → System](/images/{{ page.slug }}/settings-system.png){: width="869" height="559"}
 <figcaption markdown="1">
 We now show monthly funding goal progress right in System Settings
