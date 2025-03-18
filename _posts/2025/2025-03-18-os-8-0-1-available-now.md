@@ -2,7 +2,7 @@
 title: elementary OS 8.0.1 Available Now
 description: A bundle of bug fixes and a couple creature comforts
 author: danrabbit
-image: /images/os-8-available-now/settings-updates.png
+image: /images/os-8-0-1-available-now/settings-updates.png
 
 tags:
   - circe
@@ -35,7 +35,7 @@ Search is also much faster thanks to [Leonhard](https://github.com/leolost2605).
 
 # Files &amp; Terminal
 
-[Jeremy](https://github.com/jeremypw) fixed another half-dozen reported issues in Files including, an issue that prevented entering file paths in search mode, an issue that prented scrolling after deleting files, and an issue where files would disappear when dropped on an unmounted drive. The New file submenu now respects the hierarchy of folders in Templates. We now also respect the `admin://` uri protocol for opening a path as an administrator, and Files is now styled correctly when run as administrator.
+[Jeremy](https://github.com/jeremypw) fixed another half-dozen reported issues in Files, including an issue that prevented entering file paths in search mode, an issue that prevented scrolling after deleting files, and an issue where files would disappear when dropped on an unmounted drive. The New file submenu now respects the hierarchy of folders in Templates. We now also respect the `admin://` uri protocol for opening a path as an administrator, and Files is now styled correctly when run as administrator.
 
 He also fixed an issue where Terminal tabs took multiple clicks to focus, and an issue where keyboard shortcuts stopped working for tabs that had been dragged into their own new window. Plus, file paths and names are also now properly quoted when drag-and-dropped from Files into Terminal.
 
