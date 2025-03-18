@@ -121,3 +121,5 @@ elementary OS 8.0.1 is available as a pay-what-you-can purchase at [elementary.i
 </div>
 
 Sponsors have been able to download OS 8.0.1 release candidates since last week, so if getting things before anyone else is important to you, consider [sponsoring us on GitHub](https://github.com/sponsors/elementary)
+
+[elementary.io]: https://elementary.io
