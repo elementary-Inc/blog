@@ -85,6 +85,10 @@ Bluetooth settings has a new design
 
 We're also now building daily ARM64 Native images thanks to new contributer [NN708](https://github.com/NN708). This is a universal ARM UEFI image, which means it should be a single image that runs on platforms like Raspberry Pi, Pinebook Pro, and Apple M-series Macs. This makes it a lot simpler for us to support ARM processors in future releasses of elementary OS. Please test these images on your ARM devices and report back! We now include additional processor architecture options in our issue report template to track any problems you experience.
 
+<div style="text-align: center" markdown="1">
+[Download ARM64 Builds](https://builds.elementary.io/downloads){: .button.suggested }
+</div>
+
 ---
 
 ## Sponsors
