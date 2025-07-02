@@ -8,6 +8,7 @@ tags:
   - earlyaccess
   - horus
   - updates
+  - accessibility
 ---
 
 This month we have several community updates, a couple of Flatpak releases available on OS 7, and plenty of OS 8 news.
