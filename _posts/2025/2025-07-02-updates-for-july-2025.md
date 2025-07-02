@@ -13,6 +13,11 @@ tags:
 
 July is Disability Pride Month, an opportunity for us to consider how we're serving our disabled community and work on breaking down barriers to access. Last year we had the pleasure of being introduced to [Florian](https://www.twitch.tv/ic_null)—a fully blind cybersecurity enthusiast—and thanks to his feedback we completely rewrote navigation in Onboarding to be more keyboard and screen reader friendly, as well as took another look at Installation and Initial Setup to vastly improve our entire first run experience for blind folks. Plus, we implemented the screen reader interface in the <kbd>Alt</kbd> + <kbd>Tab</kbd> window switcher. Thanks to this feedback, elementary OS 8 can be installed and set up completely blind, an important win for maintaining your independence as a person with vision disabilities.
 
+<div style="margin: 3em auto;">
+{% assign post = site.posts | where:"slug", "updates-for-july-2024" | first %}
+{% include featured.html post=post %}
+</div>
+
 Since the release of OS 8 we've been working on things like improving contrast, support for Dark Mode screenshots and brand colors in AppCenter, turning on or snoozing Dark Mode without canceling your schedule, expanding the scope of the "Reduce Motion" setting, and adding more options to reduce distracting notification bubbles. Plus, thanks to feedback from [Aaron](https://github.com/aaron-gh) who you may know from [his blog series on Linux accessibility](https://fireborn.mataroa.blog/blog/i-want-to-love-linux-it-doesnt-love-me-back-post-1-built-for-control-but-not-for-people/), Notifications and the Shortcut Overlay both got releases that add screen reader support.
 
 
