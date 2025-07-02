@@ -20,7 +20,6 @@ July is Disability Pride Month, an opportunity for us to consider how we're serv
 
 Since the release of OS 8 we've been working on things like improving contrast, support for Dark Mode screenshots and brand colors in AppCenter, turning on or snoozing Dark Mode without canceling your schedule, expanding the scope of the "Reduce Motion" setting, and adding more options to reduce distracting notification bubbles. Plus, thanks to feedback from [Aaron](https://github.com/aaron-gh) who you may know from [his blog series on Linux accessibility](https://fireborn.mataroa.blog/blog/i-want-to-love-linux-it-doesnt-love-me-back-post-1-built-for-control-but-not-for-people/), Notifications and the Shortcut Overlay both got releases that add screen reader support.
 
-
 <figure markdown="1" class="card">
 ![Disability pride logo](/images/{{ page.slug }}/card.png)
 </figure>
