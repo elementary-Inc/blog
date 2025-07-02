@@ -77,7 +77,7 @@ As always, pop open System Settings → System on elementary OS 8 and hit "Updat
 Bluetooth Settings got a redesign and a reworking of its list sorting logic that should improve performance, reliability, and its screen reader experience. Especially of note, we now sort out more bluetooth devices so the list of nearby devices should be more concise and useful. Plus we fixed a few issues related to devices that require a passcode to pair, like some keyboards. This includes some fairly large changes so we could really use help testing for regressions before releasing this update for everyone.
 
 <figure markdown="1">
-![Bluetooth Settings](/images/{{ page.slug }}/settings-bluetooth.png)
+![Bluetooth Settings](/images/{{ page.slug }}/settings-bluetooth.png){: width="849" height="603"}
 <figcaption markdown="1">
 Bluetooth settings has a new design
 </figcaption>
