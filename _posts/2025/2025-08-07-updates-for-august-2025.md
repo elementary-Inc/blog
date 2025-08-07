@@ -10,24 +10,25 @@ tags:
   - earlyaccess
 ---
 
-# Code:
-
-https://github.com/elementary/code/releases/tag/8.1.0
-
-# System Settings:
+# System Settings
 
 The previously mentioned redesign of Bluetooth Settings has arrived! This redesign not only brings a bit more visual separation between paired devices and nearby devices, but also improves the keyboard navigation and screen reader experience. Plus, you can now double click rows to activate them. We resolved an issue where sometimes devices would be duplicated in the list and fixed issues when a pairing request requires entering passcodes—like with some keyboards. You'll now also see fewer unnamed devices when discovering, enabling and disabling bluetooth on devices that have been hardware locked should now work reliably, and to top it all off performance when listing lots of devices has also been improved.
 
-https://github.com/elementary/switchboard/releases/tag/8.0.3
+Leo and Ryo fixed a couple of issues with sidebar selections when navigating directly to a setting from search. Ryo fixed an issue where Sharing Settings lost its window controls when a network was not connected. And there's now an action to jump directly to the System Updates page from the context menu in the Dock or Applications Menu or via search.
 
-https://github.com/elementary/switchboard-plug-sharing/releases/tag/8.0.2
+# Code:
 
-# Window Manager
+Jeremy added a new feature to clone git repositories directly from inside Code via the projects menu in the sidebar. The item for opening project folders has moved there as well. He also fixed an issue with blank tooltips appearing in empty sidebar folders, a crash when deleting selected text while using the "Highlight Selection" plugin, and a freeze when editing lists with the "Markdown" plugin. Plus, the Symbols sidebar now shows a loading spinner when searching symbols takes longer than usual, and filters have been fixed for C symbols.
 
-https://github.com/elementary/gala/releases/tag/8.2.5
+# Terminal
 
-# Terminal:
+Terminal will now warn about pasted commands that include options to skip confirmation like `-y`, `--interactive=never`, and `--force`. Plus we now make sure to show all found warnings about a pasted command, not just the first one found. For example, if a command like `sudo apt update && sudo apt install -y fuse` is pasted, we will warn about use of admin privileges, multiple commands, and that it skips confirmations, not just that it uses admin priveleges.
 
+Corentin fixed an issue where long commands could resize windows. Jeremy fixed an issue where tab labels didn't properly update when using `screen` or `ssh`. And he made sure we properly close tabs when using the `exit` command.
+
+# And More
+
+A few small bug fixes for our Window Manager: Corentin resolved a potential crasher, Leo improved dock hide animations, and Leonhard fixed an issue with revealing the panel over fullscreen apps.
 
 ## Get These Updates
 
