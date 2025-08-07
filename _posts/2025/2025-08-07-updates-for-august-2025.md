@@ -37,11 +37,17 @@ As always, pop open System Settings → System on elementary OS 8 and hit "Updat
 
 # Early Access
 
+Maps
+
 Window Manager:
 * Window switcher blur
+* Dock workspace switcher in Multitasking View
+* New Touchpad backend for Gestures: https://github.com/elementary/gala/pull/2497
 
 Dock:
 * backgrounds apps
+
+EUFI ARM64 builds
 
 ---
 
