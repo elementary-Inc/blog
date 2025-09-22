@@ -1,6 +1,6 @@
 ---
 title: elementary OS 8.0.2 Available Now
-description: 
+description: More reliable and accessible than ever
 author: danrabbit
 image: /images/os-8-0-2-available-now/card.png
 
