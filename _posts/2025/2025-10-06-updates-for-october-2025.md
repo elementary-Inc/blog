@@ -20,7 +20,7 @@ The first stable release of elementary Maps is now available for download on any
 ![Maps](/images/{{ page.slug }}/maps.png)
 </figure>
 
-You may recall that Maps evolved from the Atlas code base originally written by [Steffen Schuhmann](https://launchpad.net/~sschuhmann) for elementary OS. [Ryo](https://github.com/ryonakano) has worked hard to maintain the code and update it for the latest platform libraries like GTK4. Since the rename, we've updated the app to match the latest elementary styles and design conventions. We've also added an illustrated view switcher between Explore and Transit maps and when you search you'll see color coded place type icons next to search results. Keyboard navigation,screen reader accessibility, and performance should also be slightly improved. Plus we have a modernized app icon, shoutouts to [Micah](https://github.com/micahilbery) for providing art direction.
+You may recall that Maps evolved from the Atlas code base originally written by [Steffen Schuhmann](https://launchpad.net/~sschuhmann) for elementary OS. [Ryo](https://github.com/ryonakano) has worked hard to maintain the code and update it for the latest platform libraries like GTK4. Since the rename, we've updated the app to match the latest elementary styles and design conventions. We've also added an illustrated view switcher between Explore and Transit maps and when you search you'll see color coded place type icons next to search results. Keyboard navigation, screen reader accessibility, and performance should also be slightly improved. Plus we have a modernized app icon, shoutouts to [Micah](https://github.com/micahilbery) for providing art direction.
 
 <div style="text-align: center" markdown="1">
 [Get Maps on AppCenter](https://appcenter.elementary.io/io.elementary.maps/){: .button.suggested }
@@ -82,11 +82,11 @@ Application settings now has a setting to select your default Maps app, and you 
 
 # Login &amp; Lock Screen
 
-[Leo](https://github.com/lenemter) put a ton of effort into this latest release of the Login &mp; Lock Screen, including support for the automatic accent color and Dark mode! We now also sync more of your settings like panel transparency and power settings. We've improved keyboard navigation, and will automatically select the Classic session if accessibility features are used, for example, during Initial Setup. We'll also do a better job of remembering your last selected user card and their session type.
+[Leo](https://github.com/lenemter) put a ton of effort into this latest release of the Login &amp; Lock Screen, including support for the automatic accent color and Dark mode! We now also sync more of your settings like panel transparency and power settings. We've improved keyboard navigation, and will automatically select the Classic session if accessibility features are used, for example, during Initial Setup. We'll also do a better job of remembering your last selected user card and their session type.
 
 # And More
 
-[Jeremy](https://github.com/jeremypw) also pushed another round of maintenance updates for our developer tools!. Files now does a better job when drag-n-dropping files into other apps, and Properties windows now show a more precise date and time for file modification. Code's terminal pane now does a better job syncing with your Terminal app settings, and he fixed an issue where exiting a shell would break the terminal pane. In the Terminal app, he improved unsafe paste warning detection for commands that contain newlines, and the search bar now takes up a more appropriate amount of space.
+[Jeremy](https://github.com/jeremypw) also pushed another round of maintenance updates for our developer tools! Files now does a better job when drag-n-dropping files into other apps, and Properties windows now show a more precise date and time for file modification. Code's terminal pane now does a better job syncing with your Terminal app settings, and he fixed an issue where exiting a shell would break the terminal pane. In the Terminal app, he improved unsafe paste warning detection for commands that contain newlines, and the search bar now takes up a more appropriate amount of space.
 
 ## Get These Updates
 
@@ -96,10 +96,13 @@ As always, pop open System Settings → System on elementary OS 8 and hit "Updat
 
 # Early Access
 
-We landed blur-behind in a couple of more places in Early Access! The Dock is now slightly more transparent and things behind it will be blurred. This improves legibility when for example busy text is behind the dock. And we've also merged some updates styles for Notifications including slight transparency, blur-behind, more rounded corners, and softer shadows. Plus [Leo](https://github.com/lenemter) cleaned up Notification close animations. If you're not a fan of transparency and blur effects, you can always turn off "Panel Transparency" in System Settings → Dock &amp; Panel.
+We landed blur-behind in a couple of more places in Early Access! The Dock is now slightly more transparent and things behind it will be blurred. This improves legibility when for example busy text is behind the dock. And we've also merged some updated styles for Notifications including slight transparency, blur-behind, more rounded corners, and softer shadows. Plus [Leo](https://github.com/lenemter) cleaned up Notification close animations. If you're not a fan of transparency and blur effects, you can always turn off "Panel Transparency" in System Settings → Dock &amp; Panel.
 
 <figure markdown="1" class="card">
 ![Dock](/images/{{ page.slug }}/dock-blur.png)
+</figure>
+
+<figure markdown="1" class="card">
 ![Notifications](/images/{{ page.slug }}/notification-blur.png)
 <figcaption markdown="1">
 The Dock and Notifications now have transparency and blur-behind effects
@@ -115,7 +118,7 @@ Initial support for enrolling fingerprints was merged
 </figcaption>
 </figure>
 
-Plus, daily and release candidate quality builds will now use the Secure Session by default. We've received a ton of feedback that since the updates we've made since the release of OS 8 have made the experience of using the Secure session much better than the Classic session for most people, including improved performance and fewer bugs encountered. So we're really excited to make it the default experience going forward.
+Plus, daily and release candidate quality builds will now use the Secure Session by default. We've received a ton of feedback that the updates we've made since the release of OS 8 have made the experience of using the Secure session much better than the Classic session for most people, including improved performance and fewer bugs encountered. So we're really excited to make it the default experience going forward.
 
 ---
 
