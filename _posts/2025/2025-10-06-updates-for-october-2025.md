@@ -2,7 +2,7 @@
 title: More Apps, More Features, More Cowbell!
 description: Updates for OS 8 and Early Access
 author: danrabbit
-image: /images/updates-for-october-2025/.png
+image: /images/updates-for-october-2025/maps.png
 
 tags:
   - circe
