@@ -1,5 +1,5 @@
 ---
-title: 
+title: More Apps, More Features, More Cowbell!
 description: Updates for OS 8 and Early Access
 author: danrabbit
 image: /images/updates-for-october-2025/.png
@@ -44,70 +44,40 @@ When we ran our [desktop survey](https://blog.elementary.io/2021-ui-study-result
 
 New contributor [Sebastian](https://github.com/sebastianlay) fixed issues with the placement of app name tooltips, added a shake animation when you try to open a new window on a single-window app with middle-click, and fixed an issue where re-arranging app icons in the dock could cause them to shake indefinitely. [Leonhard](https://github.com/leolost2605) fixed an issue where maximized windows would be behind a portion of the dock when hiding is turned off. And [William](https://github.com/wpkelso) improved the color of the indicator dot for apps which are active on another workspace.
 
-# Panel
-Quick Settings:
+# Panel &amp; Settings
 
-PopoverWidget: notify when onboard activated in Wayland by @danirabbit in #120
-DarkModeToggle: animate by @danirabbit in #121
-RotationToggle: animate by @danirabbit in #122
+In Quick Settings, we'll now show a message when you try to turn on the onscreen keyboard in a Secure Session since it's currently only available in a Classic session. And we've added a couple of nice animations when you toggle Dark Mode or Rotation Lock.
 
-Network:
+[Vishal](https://github.com/vjr) fixed a potential crash when using the network indicator on the Lock Screen. And we've improved Airplane Mode: it will now only disable networking radios, not Bluetooth or wired networks. Plus you can now jump to System Settings when middle-clicking networking toggle buttons.
 
-Airplane mode disables networking radios, not bluetooth or wired networks
-Jump to settings by middle-clicking on toggles
-
-PopoverWidget: add stateful icons to Airplane Mode by @danirabbit in #338
-
-Fix crash in greeter by @vjr in #342
-
-rfkill: Use sizeof instead of literal size by @ryonakano in #349
-
-# System Settings
-Network:
-RKFill: add airplane mode property by @danirabbit in #438
-
-Applications:
-Sidebar: use Action, search on type by @danirabbit in #251
-DefaultPlug: add settings for geo uri handler by @danirabbit in #255
+Application settings now has a setting to select your default Maps app, and you can start typing to search apps right away instead of having to select the search icon first.
 
 # Login &amp; Lock Screen
 
-Add dark style support by @lenemter in #786
-Use gsettings to store last user by @lenemter in #793
-Move session action into application by @lenemter in #795
-Fix popover keyboard nav by @lenemter in #797
-Set power settings of active user by @lenemter in #801
-Connect to lightdm daemon early by @lenemter in #802
-Follow automatic accent color preference by @lenemter in #813
-Save and restore last selected session type by @lenemter in #809
-Center caps lock label by @lenemter in #798
-Sync Wingpanel transparency by @lenemter in #788
-Select classic session when using a11y features by @danirabbit in #821
-Conf: set wayland as default session by @danirabbit in #747
-Do not try to fallback to x11 session when it is unavailable by @bobby285271 in #824
-Change manual card workflow by @lenemter in #794
+[Leo](https://github.com/lenemter) put a ton of effort into this latest release of the Login &mp; Lock Screen, including support for the automatic accent color and Dark mode! We now also sync more of your settings like panel transparency and power settings. We've improved keyboard navigation, and will automatically select the Classic session if accessibility features are used, for example, during Initial Setup. We'll also do a better job of remembering your last selected user card and their session type.
+
+# And More
+
+[Jeremy](https://github.com/jeremypw) also pushed another round of maintenance updates for our developer tools!. Files now does a better job when drag-n-dropping files into other apps, and Properties windows now show a more precise date and time for file modification. Code's terminal pane now does a better job syncing with your Terminal app settings, and he fixed an issue where exiting a shell would break the terminal pane. In the Terminal app, he improved unsafe paste warning detection for commands that contain newlines, and the search bar now takes up a more appropriate amount of space.
+
+## Get These Updates
+
+As always, pop open System Settings → System on elementary OS 8 and hit "Update All" to get these updates plus your regular security, bug fix, and translation updates. Or set up automatic updates and get a notification when updates are ready to install!
 
 ---
 
-# Files
+# Early Access
 
-The Properties Window now shows the exact date and time the file was last modified
-PropertiesWindow: Use "iso" format for datetimes by @jeremypw in #2609
+We landed blur-behind in a couple of more places in Early Access! The Dock is now slightly more transparent and things behind it will be blurred. This improves legibility when for example busy text is behind the dock. And we've also merged some updates styles for Notifications including slight transparency, blur-behind, more rounded corners, and softer shadows. Plus [Leo](https://github.com/lenemter) cleaned up Notification close animations. If you're not a fan of transparency and blur effects, you can always turn off "Panel Transparency" in System Settings → Dock &amp; Panel.
 
-FileOperations: Re-escape uris from Clipboard or DNDHandler before use in fileoperations by @jeremypw in #2616
+[Subhadeep](https://github.com/SubhadeepJasu) has merged in initial support for fingerprint enrollment in User settings. We're still working out the experience for fingerprint authentication dialogs for example, but if you have a compatible fingerprint reader you should be able to start testing support and send us feedback about what is and isn't working.
 
-Do not unquote dropped and pasted uris from uri_list by @jeremypw in #2638
+Plus, daily and release candidate quality builds will now use the Secure Session by default. We've received a ton of feedback that since the updates we've made since the release of OS 8 have made the experience of using the Secure session much better than the Classic session for most people, including improved performance and fewer bugs encountered. So we're really excited to make it the default experience going forward.
 
-# Code
+---
 
-The terminal pane is now synchronized with the Terminal app foreground, background and palette settings
-The terminal pane is now synchronized with GNOME font and cursor blink settings
+## Sponsors
 
-Restart shell in terminal pane if it exits by @jeremypw in #1618
-Rework terminal settings by @jeremypw in #1585
+At the moment we're at 24% of our monthly funding goal and 321 Sponsors on GitHub! Shoutouts to everyone helping us reach our goals here. Your monthly sponsorship funds development and makes sure we have the resources we need to give you the best version of elementary OS we can!
 
-# Terminal
-
-Only embedded newlines should trigger safe paste warning by @jeremypw in #906
-MainWindow: set strict centering in header by @danirabbit in #909
-Simplify make restorable by @jeremypw in #910
+Monthly release candidate builds and daily Early Access builds are available to [GitHub Sponsors](https://github.com/sponsors/elementary) from any tier! Beware that Early Access builds are not considered stable and you will encounter fresh issues when you run them. We'd really appreciate reporting any problems you encounter with the Feedback app or directly [on GitHub](https://Github.com/elementary).
