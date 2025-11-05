@@ -26,7 +26,7 @@ Monitor should be automatically installed on your next update, but if you for so
 
 # Window Manager &amp; Dock
 
-Another massive bug fix release of our Window Manager has landed with 19 fixed issues including improved performance, HiDPI support, and animations. We've fixed issues with dock menus sometimes appearing behind the dock, apps will now launch correctly when you switch between Classic and Secure sessions, and more.
+Another massive bug fix release of our Window Manager has landed with 19 fixed issues including improved performance, fixes for HiDPI, and better animations. We've fixed issues with dock menus sometimes appearing behind the dock, apps will now launch correctly when you switch between Classic and Secure sessions, and more.
 
 <figure markdown="1" class="card">
 ![Desktop Blur](/images/{{ page.slug }}/desktop-blur.png)
@@ -79,9 +79,9 @@ As always, pop open System Settings → System on elementary OS 8 and hit "Updat
 
 # Early Access
 
-We're laser focused on preparing to release OS 8.1.0 so big new features will almost exclusively be targeted to OS 9 from now on. We don't have OS 9 builds available yet for you to try, but we are working on them already! We'll let sponsors know first when OS 9 builds are available in Early Access to test. But for now, we have just one more thing.
+We're laser focused on preparing to release OS 8.1 so big new features will almost exclusively be targeted to OS 9 from now on. We don't have OS 9 builds available yet for you to try, but we are working on them already! We'll let sponsors know first when OS 9 builds are available in Early Access to test. But for now, we have just one more thing.
 
-64-bit Universal ARM builds from the *stable* updates channel are now available in on our [Builds website](https://builds.elementary.io/downloads). These builds replace the old specific builds for platforms like Raspberry Pi and Pinebook, plus they add support for other ARM devices supported by Linux. This is thanks to the hard work of [NN708](https://github.com/NN708) who has been dedicated to seeing this project through over the several months it took to complete.
+64-bit Universal ARM builds from the *stable* updates channel are now available on our [Builds website](https://builds.elementary.io/downloads). These builds replace the old device-specific builds for platforms like Raspberry Pi and Pinebook, plus they add support for other ARM devices supported by Linux. This is thanks to the hard work of [NN708](https://github.com/NN708) who has been dedicated to seeing this project through over the several months it took to complete.
 
 ---
 
