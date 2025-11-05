@@ -18,7 +18,7 @@ The first release of Monitor as an elementary OS default app is here! Monitor is
 ![Monitor Processes](/images/{{ page.slug }}/monitor-system.png)
 ![Monitor Resources](/images/{{ page.slug }}/monitor-processes.png)
 <figcaption markdown="1">
-In the Secure Session apps need your explicit permission for more things
+Monitor running processes and available resources
 </figcaption>
 </figure>
 
