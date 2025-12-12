@@ -32,7 +32,9 @@ To get elementary OS 8.1 now, head to [elementary.io] for the download—or read
 ---
 
 We released elementary OS 8 last November with a new Secure Session—powered by Wayland—that ensures applications respect your privacy and consent, a brand new Dock with productive multitasking and window management features, expanded access to cross-platform apps, a revamped updates experience, and new features and settings that empower our diverse community through Inclusive Design. Over the last year we've continued to build upon that work to deliver new features and fix issues based on your feedback, plus we've improved support for a range of devices including HiDPI and Multi-touch devices.
-Privacy, Security & Consent
+
+# Privacy, Security & Consent
+
 For the initial release of OS 8, we kept the Classic Session as the default session type to make sure that the apps and features you rely on would continue to work as you expect, with the option to try a new Secure Session if it interested you. Since then we’ve released updates every month fixing issues that you’ve reported, third party app developers have updated their apps to support Wayland-based sessions, and hardware makers like Nvidia have fixed issues in their drivers to support Wayland-based sessions. I’m proud to say that as of now we’ve heard that the Secure Session provides a much better experience for most people and supports a broader range of modern hardware features. So in OS 8.1, the Secure Session is now the default session, with the option to fall back to the Classic Session if you still need it.
 
 <aside markdown="1">
@@ -95,7 +97,9 @@ Apps with in-app purchases are now accounted for
 </figure>
 
 Occasionally, app icons can take a little longer to load; When this happens they'll now fall back to a nicer placeholder and cross fade into their proper icons once available. Plus, we now reload app icons on-the-fly as their data is processed. That means you'll no longer get occasionally stuck with an AppCenter which shows missing images for apps which have taken a bit longer than usual to load.
-Staying Up to Date
+
+# Staying Up to Date
+
 In OS 8 we split updates into two distinct places: app updates which stay in AppCenter and never require a restart to install, and system updates which now appear in System Settings and always require a restart to install. This has allowed us to massively streamline updates code in AppCenter and make app updates much faster and more reliable. Plus, we've made a few changes to the way installed apps are shown to make it easier to keep up with what's new when you have automatic app updates turned on: Installed apps are now sorted by release date instead of alphabetically, the Releases dialog got a slight redesign and you can now see recent releases for all installed apps, and we've adjusted where the version number and store origin labels appear to clean up their layout. Finally, the "Last checked" time is now updated every minute while the updates view is open
 
 <figure markdown="1">
@@ -114,8 +118,10 @@ System Updates are more informative and reliable
 </figcaption>
 </figure>
 
-The updates check has been rewritten to make sure it no longer runs in Demo Mode, only happens once daily, and won’t slow down your initial login. We'll also no longer automatically download updates when on metered internet connections and send a notification instead.  Plus, there's now an action to jump directly to the System Updates page from System Settings’ context menu in the Dock or Applications Menu or via search. 
-Designing for Inclusivity
+The updates check has been rewritten to make sure it no longer runs in Demo Mode, only happens once daily, and won’t slow down your initial login. We'll also no longer automatically download updates when on metered internet connections and send a notification instead.  Plus, there's now an action to jump directly to the System Updates page from System Settings’ context menu in the Dock or Applications Menu or via search.
+
+# Designing for Inclusivity
+
 We’ve always prided ourselves on being a community that is driven by human-centered design first. And for the better part of the last decade, this has increasingly meant paying extra attention to accessibility. These days we’ve adopted a philosophy called Inclusive Design. This holistic design philosophy includes not just things like designing for permanent physical disability, but also considers barriers to inclusion with things like access to the internet, localization, cognitive ability, situational and temporary disability, and more. As a community that includes folks with a range of abilities and access challenges ourselves, we believe that we succeed when we build open computing experiences that seek to be more inclusive and fail when accessibility is considered an afterthought.
 
 <aside markdown="1">
@@ -149,7 +155,9 @@ The Lock Screen now supports Dark Mode
 The Reduce Motion setting now covers a whole new range of animations across the desktop and in apps—perfect for folks who get motion sick or find animations distracting. And we’ve made sure to still keep around smooth transitions for things like multi-touch gestures.
 
 We’ve also increased text color contrast in Terminal and transparent elements like the Dock, Notifications, and Window Switcher will all respect the "Panel Translucency" setting in System Settings → Desktop → Dock &amp; Panel. Plus we now make sure that display filters aren’t captured in screenshots. And of course this release comes with a ton of translation updates! Special thanks to our hard-working internationalization community and especially our new Chinese localizers.
-Improving Support for Your Devices
+
+# Improving Support for Your Devices
+
 OS 8.1 includes the latest long-term support Hardware Enablement stack from Ubuntu, including Linux 6.14 and Mesa 25. This new version of the Linux kernel brings improved performance—especially while gaming or moving files—plus reduced power consumption for certain AMD and Intel chipsets and GPUs. It also brings some new security features and support for Intel "Lunar Lake" processors. Plus support for more webcams, USB network devices, joysticks and gamepads, wifi devices, microphones, and more.
 
 Many notebooks and tablets now ship with displays that aren’t quite HiDPI, but are more pixel dense than traditional displays. In OS 8, we only supported integer display scaling which left these devices in an awkward position with an interface that is either too large or too small. In OS 8.1, we now support fractional display scaling in the Secure Session.
@@ -180,7 +188,9 @@ Bluetooth Settings has been redesigned to bring more visual separation between n
 For some folks with complex partitioning schemes, the Installer would close unexpectedly when entering the custom install mode. We’ve tracked down a number of the corner cases that caused these types of crashes and have not only resolved them, but also added new tests to prevent them from resurfacing in the future.
 
 In the Power menu, we now show the device model if available, and avoid erroneously showing an empty battery icon. And in Power settings we now show a small warning about increased energy usage with certain options.
-Addressing Your Feedback
+
+# Addressing Your Feedback
+
 One of our greatest competitive advantages is our ability to directly connect you with designers and developers to address feedback in a timely manner. Instead of being abstracted behind various layers of customer representatives and having to wait, in some cases, years for fixes, you can reach out directly to the folks responsible for a component and receive a fix in as little as a few weeks. We love hearing from you and take pride in the tightness of this feedback loop. Since the release of OS 8, we’ve been able to successfully address [over 1,100](https://github.com/search?q=org%3Aelementary+closed%3A2024-11-26..2025-12-22+reason%3Acompleted+&type=issues) of the reports you filed.
 
 <aside markdown="1">
@@ -214,7 +224,9 @@ Folder icons were redesigned by popular demand
 </figure>
 
 We also made some highly requested changes to icons, starting with folders. The new folder design is more rounded and more closely matches the design of the Files app icon. Icons featuring a computer mouse have been slightly redesigned to include a scroll wheel. And, icons featuring a mouse pointer have been updated to match the new pointer design. We also updated the pointer icons in Mouse &amp; Touchpad settings. Plus a number of smaller clean ups including adding missing sizes for certain icons, adjusting lighting, and rounding a few edges. Finally, we now fall back to Adwaita icons when an app is missing a non-standard icon name
-Notifications
+
+## Notifications
+
 Some apps send notifications but don’t properly integrate with our granular notification settings, leaving you stuck without an option to limit notifications that you don’t want to see. In OS 8.1, you can now directly deny access for apps to send notification bubbles in System Settings → Applications alongside other app permissions. Plus we now do a better job finding app icons for non-Flatpak sideloaded apps.
 
 <figure markdown="1">
@@ -225,7 +237,9 @@ You can now directly deny app access to notifications
 </figure>
 
 System Settings now also allows configuring its own notifications in System Settings → Notifications. So you can turn off bubbles if you don't want to receive notifications about updates, for example. Plus we’ve improved the behavior of apps like Terminal to make sure we withdraw stale notifications when they are no longer relevant, so your notification center should be a lot less noisy. And Screenshot notifications now open the Image Viewer when clicked and have an option to show the image in Files.
-System Settings
+
+## System Settings
+
 In Network there are two new settings: whether a network should be automatically connected to when available and whether to reduce background data usage when connected to that network. Plus you can now jump to System Settings when middle-clicking networking toggle buttons in the panel.
 
 <figure markdown="1">
@@ -238,7 +252,9 @@ You can Prevent Sleep from Quick Settings
 In the Sound menu we fixed loading album art from certain apps like Google Chrome. And in Quick Settings we added a new page where you can see which other people are logged in and quickly switch between accounts. Plus, we added a new "Prevent Sleep" toggle. This is useful when you're giving a presentation or have a long-running background task where you want to temporarily avoid letting the computer go to sleep on its normal schedule.
 
 Settings pages with sidebars now remember the width you adjusted them to. And we've also added the phrase "about this device" as a search term for the System page. Plus, we sync even more of your settings—like panel transparency, orientation lock, and power settings—to the Lock Screen.
-New Default Apps
+
+## New Default Apps
+
 A system monitor app has been one of the top requested default app additions for quite some time, and I’m happy to announce that we now ship with one! Monitor is an app for monitoring your system resources and running processes, including with optional panel indicators.
 
 <figure class="half" markdown="1">
@@ -250,7 +266,9 @@ We have two new default apps: Maps &amp; Monitor
 </figure>
 
 We’re also now shipping Maps, which currently covers the basics like Explore and Transit maps, showing your current location, searching for locations, and handling `geo://` uri links—enabling features like opening a Calendar event’s location. Plus Application settings now has a setting to select your default Maps app.
-Updated Apps
+
+## Updated Apps
+
 Music now includes a number of important new features for managing the queue. The queue and the last played track will be saved and restored when you open and close the app. You can remove individual tracks via their respective context menus or clear the entire queue. You can also now search the queue by track name, and performance has been improved for large queues. Plus album artwork will now show in media controls in the panel and we fixed a couple of issues with long artists names or when using large system fonts.
 
 Files now supports the `admin://` uri protocol for opening a path as an administrator and the New file submenu now respects the hierarchy of folders in Templates. Plus Properties windows now show a more precise date and time for file modification and there’s a new setting for Date &amp; Time format in the main menu.
