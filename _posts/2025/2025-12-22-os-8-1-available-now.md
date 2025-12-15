@@ -1,18 +1,12 @@
 ---
 title: elementary OS 8.1 Available Now
-description: 
+description: Everything you love, made even better
 author: danrabbit
 image: /images/os-8-1-available-now/card.png
 
 tags:
   - circe
   - release
-
-sponsor:
-  name:
-  link:
-  image:
-  hook:
 ---
 
 Today, we're proud to announce that elementary OS 8.1 is available to download now and shipping on several high-quality computers!
@@ -43,8 +37,8 @@ For the initial release of OS 8, we kept the Classic Session as the default sess
 
 You’ll also notice that password authentication dialogs have a new feature in a Secure Session: when opened, the rest of the screen will dim and other windows won’t be allowed to steal focus. This prevents accidentally typing your password anywhere other than the authentication dialog and you’ll be able to make sure these are legitimate system dialogs and not an application trying to read your password.
 
-<figure markdown="1">
-![Authentication Dialog](/images/{{ page.slug }}/modal-polkit.png)
+<figure class="rounded" markdown="1">
+![Authentication Dialog](/images/{{ page.slug }}/Desktop/polkit.png)
 <figcaption markdown="1">
 Authentication dialogs prevent focus stealing in Secure Sessions
 </figcaption>
@@ -56,8 +50,8 @@ One of the first updates we made to the Dock was to bring back a few things you 
 
 When we ran our [desktop survey](https://blog.elementary.io/2021-ui-study-results-dock-multitasking/) 75% of you told us that you expected to see background apps in the Dock, so we now have support for the Background Portal. Here you can see a list of apps running in the background without a window, their supplied reason for running the background, and you have the ability to force them to quit. You can always further manage app permissions in System Settings → Applications and choose which apps are allowed to run in the background.
 
-<figure markdown="1">
-![Dock with Background Apps and Workspaces](/images/{{ page.slug }}/dock.png)
+<figure class="rounded" markdown="1">
+![Dock with Background Apps and Workspaces](/images/{{ page.slug }}/Desktop/dock.png){: width="918" height="82"}
 <figcaption markdown="1">
 The Dock now shows Background Apps and Workspaces
 </figcaption>
@@ -65,8 +59,8 @@ The Dock now shows Background Apps and Workspaces
 
 Another 60% said that they used the Multitasking View to manage putting apps in the background, so we’ve brought the workspace switcher up from the Multitasking View directly into the Dock. You can press the “+” tile to open new workspaces or select an existing workspace to switch to it. You can also drag-n-drop to rearrange workspaces and—my favorite new feature—clicking on a workspace that’s already open will show the Multitasking View, making it super easy to jump directly to the app you’re looking for with only the mouse. You can also now launch apps from the Dock directly into the Multitasking View, streamlining setting up your workspaces just how you like them. So whether you want to manage apps that run without a window, or focus-in by moving apps to another workspace, you can do so directly from the Dock at any time.
 
-<figure markdown="1">
-![Dock in Multitasking View](/images/{{ page.slug }}/dock-multitasking.png)
+<figure class="rounded" markdown="1">
+![Dock in Multitasking View](/images/{{ page.slug }}/Desktop/multitasking.png)
 <figcaption markdown="1">
 The Dock is now accessible in the Multitasking View
 </figcaption>
@@ -81,7 +75,7 @@ In OS 8, we made the decision to include Flathub—the most popular third-party 
 On App info pages, we now show a simple percentage-based app rating when ratings are available from [ODRS](https://odrs.gnome.org/)—the same ratings server used by apps like GNOME Software. Plus, when developers provide screenshots for multiple platforms, we now show you the ones intended for elementary OS. We’ve added support for app addons, and we now show when a game supports playing with controllers. Plus we’ve revamped licensing information to make it easier to understand and with more details, and we show a new link type when developers want to encourage you to get involved.
 
 <figure markdown="1">
-![AppCenter App Info](/images/{{ page.slug }}/appcenter/info.png)
+![AppCenter App Info](/images/{{ page.slug }}/Appcenter/info.png)
 <figcaption markdown="1">
 AppCenter now shows more info about apps, including ratings
 </figcaption>
@@ -90,7 +84,7 @@ AppCenter now shows more info about apps, including ratings
 We've changed the label of the action button for free apps from "Free" to "Install", according to your feedback. And we now show a small label next to the action button for apps which contain in-app purchases. This is especially useful for easily identifying free-to-play games or alt stores like Steam or Heroic Games Launcher. Search is also much faster and search results will now show in two columns when enough space is available so that you can see more results at once.
 
 <figure markdown="1">
-![AppCenter Search](/images/{{ page.slug }}/appcenter/search.png)
+![AppCenter Search](/images/{{ page.slug }}/Appcenter/search.png){: width="1078" height="716"}
 <figcaption markdown="1">
 Apps with in-app purchases are now accounted for
 </figcaption>
@@ -103,7 +97,7 @@ Occasionally, app icons can take a little longer to load; When this happens they
 In OS 8 we split updates into two distinct places: app updates which stay in AppCenter and never require a restart to install, and system updates which now appear in System Settings and always require a restart to install. This has allowed us to massively streamline updates code in AppCenter and make app updates much faster and more reliable. Plus, we've made a few changes to the way installed apps are shown to make it easier to keep up with what's new when you have automatic app updates turned on: Installed apps are now sorted by release date instead of alphabetically, the Releases dialog got a slight redesign and you can now see recent releases for all installed apps, and we've adjusted where the version number and store origin labels appear to clean up their layout. Finally, the "Last checked" time is now updated every minute while the updates view is open
 
 <figure markdown="1">
-![AppCenter Updates](/images/{{ page.slug }}/appcenter/updates.png)
+![AppCenter Updates](/images/{{ page.slug }}/Appcenter/updates.png){: width="1078" height="716"}
 <figcaption markdown="1">
 Updated apps and their release notes have been cleaned up
 </figcaption>
@@ -112,7 +106,7 @@ Updated apps and their release notes have been cleaned up
 System Updates have gotten much more feature-rich as well. We now show how large an update will be before you download it, and there’s a progress bar while downloading. We also skip held-back packages—such as phased or staged updates—when preparing the updates bundle so that it will more reliably succeed. 
 
 <figure markdown="1">
-![System Updates](/images/{{ page.slug }}/settings/updates.png)
+![System Updates](/images/{{ page.slug }}/Settings/system.png){: width="869" height="646"}
 <figcaption markdown="1">
 System Updates are more informative and reliable
 </figcaption>
@@ -135,7 +129,7 @@ Plus, thanks to feedback from [Aaron](https://github.com/aaron-gh) who you may k
 Getting around with the keyboard is essential for blind folks, and we’ve made a number of improvements there too. It starts on the Lock Screen where we’ll automatically select the Classic session if accessibility features are used that don’t yet work in the Secure session. We’ve also made sure media keys—like volume keys and rockers—now work on the Lock Screen. Main menus are now properly marked in most apps and can be opened directly with the keyboard shortcut <kbd>F10</kbd>. Plus we fixed some instances of apps not closing with the keyboard shortcut <kbd>Ctrl</kbd> + <kbd>Q</kbd>.
 
 <figure markdown="1">
-![Custom Shortcuts](/images/{{ page.slug }}/settings/shortcuts.png)
+![Custom Shortcuts](/images/{{ page.slug }}/Settings/shortcuts.png){: width="858" height="603"}
 <figcaption markdown="1">
 You can create custom keyboard shortcuts for apps and their actions
 </figcaption>
@@ -145,8 +139,8 @@ In System Settings → Keyboard → Shortcuts → Custom you can now choose from
 
 For those of us who suffer from eye strain or headaches, we now have Dark Mode schedule snoozing. So when you manually toggle Dark Mode on or off while using a timed or sunset-to-sunrise schedule, your schedule will resume on the next schedule change instead of being canceled completely. Plus we now use Dark Mode screenshots and brand colors in AppCenter when available, and the Lock Screen will follow your Dark Mode settings as well.
 
-<figure markdown="1">
-![Dark Mode lock screen](/images/{{ page.slug }}/greeter-dark.png)
+<figure class="full-bleed" markdown="1">
+![Dark Mode lock screen](/images/{{ page.slug }}/Desktop/greeter-dark.png)
 <figcaption markdown="1">
 The Lock Screen now supports Dark Mode
 </figcaption>
@@ -179,7 +173,7 @@ In previous versions of elementary OS, there were places where buttons would onl
 We’ve also improved stylus detection in Wacom settings preventing a crash when no stylus is found and fixed the Middle-click paste option in Secure sessions.
 
 <figure markdown="1">
-![Bluetooth Settings](/images/{{ page.slug }}/settings/bluetooth.png)
+![Bluetooth Settings](/images/{{ page.slug }}/Settings/bluetooth.png){: width="858" height="603"}
 <figcaption markdown="1">
 Bluetooth Settings has been redesigned, while also improving the keyboard navigation and screen reader experience
 </figcaption>
@@ -207,8 +201,8 @@ We’ve also started keeping track of what kind of report a filed issue is. Of t
 Visual Updates
 OS 8.1 introduces a blur-behind effect for translucent desktop elements like the Dock, Notifications, and the <kbd>Alt</kbd> + <kbd>Tab</kbd> window switcher. This not only looks nice but helps visually separate these elements from applications while maintaining legibility.
 
-<figure markdown="1">
-![Notifications](/images/{{ page.slug }}/notifications.png)
+<figure class="rounded" markdown="1">
+![Notifications](/images/{{ page.slug }}/Desktop/notifications.png){: width="369" height="180"}
 <figcaption markdown="1">
 Notifications have rounder corners and a blur-behind effect
 </figcaption>
@@ -223,7 +217,7 @@ In addition to the aforementioned redesign of Bluetooth Settings and the design 
 In OS 8, you’d often see certain buttons or controls highlighted in apps to indicate where keyboard navigation was currently focused. This is an essential accessibility feature, but could be distracting for folks who navigate with a mouse or touch screen. In OS 8.1, these focus indicators will show up while navigating with the keyboard, but disappear when not being used.
 
 <figure markdown="1">
-![Folder Icons](/images/{{ page.slug }}/icons-folders.png)
+![Folder Icons](/images/{{ page.slug }}/Applications/folders.png)
 <figcaption markdown="1">
 Folder icons were redesigned by popular demand
 </figcaption>
@@ -236,7 +230,7 @@ We also made some highly requested changes to icons, starting with folders. The 
 Some apps send notifications but don’t properly integrate with our granular notification settings, leaving you stuck without an option to limit notifications that you don’t want to see. In OS 8.1, you can now directly deny access for apps to send notification bubbles in System Settings → Applications alongside other app permissions. Plus we now do a better job finding app icons for non-Flatpak sideloaded apps.
 
 <figure markdown="1">
-![App Notification Settings](/images/{{ page.slug }}/settings/apps.png)
+![App Notification Settings](/images/{{ page.slug }}/Settings/applications.png){: width="858" height="603"}
 <figcaption markdown="1">
 You can now directly deny app access to notifications
 </figcaption>
@@ -249,7 +243,7 @@ System Settings now also allows configuring its own notifications in System Sett
 In Network there are two new settings: whether a network should be automatically connected to when available and whether to reduce background data usage when connected to that network. Plus you can now jump to System Settings when middle-clicking networking toggle buttons in the panel.
 
 <figure markdown="1">
-![Quick Settings](/images/{{ page.slug }}/settings/quick-settings.png)
+![Quick Settings](/images/{{ page.slug }}/Settings/quick-settings.png){: width="309" height="358"}
 <figcaption markdown="1">
 You can Prevent Sleep from Quick Settings
 </figcaption>
@@ -264,8 +258,8 @@ Settings pages with sidebars now remember the width you adjusted them to. And we
 A system monitor app has been one of the top requested default app additions for quite some time, and I’m happy to announce that we now ship with one! Monitor is an app for monitoring your system resources and running processes, including with optional panel indicators.
 
 <figure class="half" markdown="1">
-![Monitor](/images/{{ page.slug }}/monitor.png)
-![Maps](/images/{{ page.slug }}/maps.png)
+![Monitor](/images/{{ page.slug }}/Applications/monitor.png){: width="839" height="679"}
+![Maps](/images/{{ page.slug }}/Applications/maps.png)
 <figcaption markdown="1">
 We have two new default apps: Maps &amp; Monitor
 </figcaption>
@@ -277,13 +271,20 @@ We’re also now shipping Maps, which currently covers the basics like Explore a
 
 Music now includes a number of important new features for managing the queue. The queue and the last played track will be saved and restored when you open and close the app. You can remove individual tracks via their respective context menus or clear the entire queue. You can also now search the queue by track name, and performance has been improved for large queues. Plus album artwork will now show in media controls in the panel and we fixed a couple of issues with long artists names or when using large system fonts.
 
+<figure markdown="1">
+![Music](/images/{{ page.slug }}/Applications/music.png){: width="704" height="531"}
+<figcaption markdown="1">
+You can Prevent Sleep from Quick Settings
+</figcaption>
+</figure>
+
 Files now supports the `admin://` uri protocol for opening a path as an administrator and the New file submenu now respects the hierarchy of folders in Templates. Plus Properties windows now show a more precise date and time for file modification and there’s a new setting for Date &amp; Time format in the main menu.
 
 Code can now clone git repositories via the projects menu in the sidebar, you can switch to remote git branches, and you'll be asked how to handle uncommitted changes when switching branches. The Symbols sidebar now shows a lot more information about Vala and C symbols in their tooltips. And you can create edit marks by clicking in the source view gutter that can be jumped between via the context menu or with the keyboard shortcuts <kbd>Alt</kbd> + <kbd> ←</kbd> / <kbd>→</kbd>. Plus, the terminal pane now does a better job syncing with your Terminal app settings like Natural Copy/Paste.
 
 Terminal now uses the more modern tab bar widget you're used to from Web, Files, and Code, and it includes a new option to hide the tab bar when there’s only a single tab open. We’ve also greatly expanded paste protection to cover other authentication methods like the `doas` command as well as commands that include options to skip confirmation like `-y`, `--interactive=never`, and `--force`. We’ve also improved detection of commands that contain newlines and react to drag-n-drop operations. Finally, paste protection will now better warn you when a single paste contains multiple alarming elements. And if you don’t want paste protection, there’s a new option to disable it.
 
-We’re also shipping the latest version of GNOME Web which brings improved performance and web compatibility as well as a redesigned bookmarks sidebar.
+We’re also shipping GNOME Web 48.3 which brings improved performance and web compatibility as well as a redesigned bookmarks sidebar.
 
 ---
 
@@ -318,5 +319,3 @@ Our hardware retailers [Laptop with Linux], [Star Labs], and [Slimbook] are offe
 [Star Labs]: https://starlabs.systems/?rfsn=4227837.e8f025
 [Slimbook]: https://slimbook.es/?utm_source=referral&utm_medium=elementary&utm_campaign=elementary
 [store]: https://store.elementary.io/
-
-
