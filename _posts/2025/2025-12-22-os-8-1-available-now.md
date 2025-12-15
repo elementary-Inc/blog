@@ -47,7 +47,9 @@ Authentication dialogs prevent focus stealing in Secure Sessions
 </figure>
 
 Plus, we’ve resolved reported issues that prevented some apps from starting correctly when switching between Classic and Secure sessions, so rest assured that you’ll be able to reach for a Classic session if you need it. And we ship new AppArmor profiles that resolve some Flatpak sandbox issues—especially notable if you’d previously had trouble with Steam or running apps in a Guest session.
-Multitasking & Window Management
+
+# Multitasking & Window Management
+
 One of the first updates we made to the Dock was to bring back a few things you told us that you missed from Plank, the previous dock on elementary OS 7 and before. We made sure to show multiple running dots for apps with multiple open windows, and made sure to adjust the color of running dots depending on if they were running in this workspace or another one. You can once again cycle through open app windows when you hold a drag-n-drop over its app icon. And we’ve added Pressure Reveal, which makes it easier to select app controls at the bottom of the screen without accidentally revealing the Dock.
 
 When we ran our [desktop survey](https://blog.elementary.io/2021-ui-study-results-dock-multitasking/) 75% of you told us that you expected to see background apps in the Dock, so we now have support for the Background Portal. Here you can see a list of apps running in the background without a window, their supplied reason for running the background, and you have the ability to force them to quit. You can always further manage app permissions in System Settings → Applications and choose which apps are allowed to run in the background.
