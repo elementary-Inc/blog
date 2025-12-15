@@ -160,6 +160,12 @@ We’ve also increased text color contrast in Terminal and transparent elements 
 
 OS 8.1 includes the latest long-term support Hardware Enablement stack from Ubuntu, including Linux 6.14 and Mesa 25. This new version of the Linux kernel brings improved performance—especially while gaming or moving files—plus reduced power consumption for certain AMD and Intel chipsets and GPUs. It also brings some new security features and support for Intel "Lunar Lake" processors. Plus support for more webcams, USB network devices, joysticks and gamepads, wifi devices, microphones, and more.
 
+<aside markdown="1">
+> OS 8.1 runs on ARM64 devices
+</aside>
+
+For the first time we now also offer ARM64 builds for devices that boot with UEFI. This means you'll be able to run OS 8.1 on M-series Apple Silicon and devices where you can load UEFI-supporting firmware like Raspberry Pi. This version of Linux also supports certain Qualcomm and Rockchip processors, for example.
+
 Many notebooks and tablets now ship with displays that aren’t quite HiDPI, but are more pixel dense than traditional displays. In OS 8, we only supported integer display scaling which left these devices in an awkward position with an interface that is either too large or too small. In OS 8.1, we now support fractional display scaling in the Secure Session.
 
 <aside markdown="1">
