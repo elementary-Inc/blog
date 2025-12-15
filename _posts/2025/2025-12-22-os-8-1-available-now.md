@@ -73,7 +73,9 @@ The Dock is now accessible in the Multitasking View
 Plus we’ve improved animations—especially while switching workspaces—and added a shake animation when you try to open a new window on a single-window app with middle-click. App launchers will still register your clicks even if your pointer is below the dock. And non-flatpak sideloaded apps that don't correctly match their launchers can now sometimes be matched by the Dock anyways.
 
 Finally, there's a new option to enable Hotcorners even while an app is fullscreened in System Settings → Desktop → Multitasking. If you have that option turned on, you can also access the Applications Menu with <kbd>Super</kbd> while playing a fullscreen game, for example. And we now only show the Applications Menu hotcorner option in its corresponding panel corner—that's top-left for folks reading left-to-right and top-right for folks reading right-to-left.
-Getting The Apps You Need
+
+# Getting The Apps You Need
+
 In OS 8, we made the decision to include Flathub—the most popular third-party app store for Linux—in addition to our own app store which contains apps made especially for elementary OS. This brought access to tons of cross-platform apps like Discord and Bitwarden, and now we’ve added new features to AppCenter to accommodate even more new types of cross-platform apps.
 
 On App info pages, we now show a simple percentage-based app rating when ratings are available from [ODRS](https://odrs.gnome.org/)—the same ratings server used by apps like GNOME Software. Plus, when developers provide screenshots for multiple platforms, we now show you the ones intended for elementary OS. We’ve added support for app addons, and we now show when a game supports playing with controllers. Plus we’ve revamped licensing information to make it easier to understand and with more details, and we show a new link type when developers want to encourage you to get involved.
