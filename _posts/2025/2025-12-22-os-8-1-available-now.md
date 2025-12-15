@@ -7,6 +7,8 @@ image: /images/os-8-1-available-now/card.png
 tags:
   - circe
   - release
+
+hidden: 2025-12-22 18:00:00 UTC # 10 AM PST
 ---
 
 Today, we're proud to announce that elementary OS 8.1 is available to download now and shipping on several high-quality computers!
