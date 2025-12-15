@@ -19,9 +19,9 @@ Today, we're proud to announce that elementary OS 8.1 is available to download n
 
 With OS 8.1, we've focused in on:
 
-Following through on OS 8 release goals
-Improving Support for Your Devices
-Addressing Your Feedback with over 1,100 issue reports fixed
+- Following through on OS 8 release goals
+- Improving Support for Your Devices
+- Addressing Your Feedback with over 1,100 issue reports fixed
 
 To get elementary OS 8.1 now, head to [elementary.io] for the download—or read on for an overview of what's new.
 
@@ -39,7 +39,7 @@ For the initial release of OS 8, we kept the Classic Session as the default sess
 
 You’ll also notice that password authentication dialogs have a new feature in a Secure Session: when opened, the rest of the screen will dim and other windows won’t be allowed to steal focus. This prevents accidentally typing your password anywhere other than the authentication dialog and you’ll be able to make sure these are legitimate system dialogs and not an application trying to read your password.
 
-<figure class="rounded" markdown="1">
+<figure class="card" markdown="1">
 ![Authentication Dialog](/images/{{ page.slug }}/Desktop/polkit.png)
 <figcaption markdown="1">
 Authentication dialogs prevent focus stealing in Secure Sessions
@@ -52,7 +52,7 @@ One of the first updates we made to the Dock was to bring back a few things you 
 
 When we ran our [desktop survey](https://blog.elementary.io/2021-ui-study-results-dock-multitasking/) 75% of you told us that you expected to see background apps in the Dock, so we now have support for the Background Portal. Here you can see a list of apps running in the background without a window, their supplied reason for running the background, and you have the ability to force them to quit. You can always further manage app permissions in System Settings → Applications and choose which apps are allowed to run in the background.
 
-<figure class="rounded" markdown="1">
+<figure class="card" markdown="1">
 ![Dock with Background Apps and Workspaces](/images/{{ page.slug }}/Desktop/dock.png){: width="918" height="82"}
 <figcaption markdown="1">
 The Dock now shows Background Apps and Workspaces
@@ -61,7 +61,7 @@ The Dock now shows Background Apps and Workspaces
 
 Another 60% said that they used the Multitasking View to manage putting apps in the background, so we’ve brought the workspace switcher up from the Multitasking View directly into the Dock. You can press the “+” tile to open new workspaces or select an existing workspace to switch to it. You can also drag-n-drop to rearrange workspaces and—my favorite new feature—clicking on a workspace that’s already open will show the Multitasking View, making it super easy to jump directly to the app you’re looking for with only the mouse. You can also now launch apps from the Dock directly into the Multitasking View, streamlining setting up your workspaces just how you like them. So whether you want to manage apps that run without a window, or focus-in by moving apps to another workspace, you can do so directly from the Dock at any time.
 
-<figure class="rounded" markdown="1">
+<figure class="card" markdown="1">
 ![Dock in Multitasking View](/images/{{ page.slug }}/Desktop/multitasking.png)
 <figcaption markdown="1">
 The Dock is now accessible in the Multitasking View
@@ -77,7 +77,7 @@ In OS 8, we made the decision to include Flathub—the most popular third-party 
 On App info pages, we now show a simple percentage-based app rating when ratings are available from [ODRS](https://odrs.gnome.org/)—the same ratings server used by apps like GNOME Software. Plus, when developers provide screenshots for multiple platforms, we now show you the ones intended for elementary OS. We’ve added support for app addons, and we now show when a game supports playing with controllers. Plus we’ve revamped licensing information to make it easier to understand and with more details, and we show a new link type when developers want to encourage you to get involved.
 
 <figure markdown="1">
-![AppCenter App Info](/images/{{ page.slug }}/Appcenter/info.png)
+![AppCenter App Info](/images/{{ page.slug }}/AppCenter/info.png)
 <figcaption markdown="1">
 AppCenter now shows more info about apps, including ratings
 </figcaption>
@@ -86,7 +86,7 @@ AppCenter now shows more info about apps, including ratings
 We've changed the label of the action button for free apps from "Free" to "Install", according to your feedback. And we now show a small label next to the action button for apps which contain in-app purchases. This is especially useful for easily identifying free-to-play games or alt stores like Steam or Heroic Games Launcher. Search is also much faster and search results will now show in two columns when enough space is available so that you can see more results at once.
 
 <figure markdown="1">
-![AppCenter Search](/images/{{ page.slug }}/Appcenter/search.png){: width="1078" height="716"}
+![AppCenter Search](/images/{{ page.slug }}/AppCenter/search.png){: width="1078" height="716"}
 <figcaption markdown="1">
 Apps with in-app purchases are now accounted for
 </figcaption>
@@ -99,7 +99,7 @@ Occasionally, app icons can take a little longer to load; When this happens they
 In OS 8 we split updates into two distinct places: app updates which stay in AppCenter and never require a restart to install, and system updates which now appear in System Settings and always require a restart to install. This has allowed us to massively streamline updates code in AppCenter and make app updates much faster and more reliable. Plus, we've made a few changes to the way installed apps are shown to make it easier to keep up with what's new when you have automatic app updates turned on: Installed apps are now sorted by release date instead of alphabetically, the Releases dialog got a slight redesign and you can now see recent releases for all installed apps, and we've adjusted where the version number and store origin labels appear to clean up their layout. Finally, the "Last checked" time is now updated every minute while the updates view is open
 
 <figure markdown="1">
-![AppCenter Updates](/images/{{ page.slug }}/Appcenter/updates.png){: width="1078" height="716"}
+![AppCenter Updates](/images/{{ page.slug }}/AppCenter/updates.png){: width="1078" height="716"}
 <figcaption markdown="1">
 Updated apps and their release notes have been cleaned up
 </figcaption>
@@ -141,7 +141,7 @@ In System Settings → Keyboard → Shortcuts → Custom you can now choose from
 
 For those of us who suffer from eye strain or headaches, we now have Dark Mode schedule snoozing. So when you manually toggle Dark Mode on or off while using a timed or sunset-to-sunrise schedule, your schedule will resume on the next schedule change instead of being canceled completely. Plus we now use Dark Mode screenshots and brand colors in AppCenter when available, and the Lock Screen will follow your Dark Mode settings as well.
 
-<figure class="full-bleed" markdown="1">
+<figure class="card" markdown="1">
 ![Dark Mode lock screen](/images/{{ page.slug }}/Desktop/greeter-dark.png)
 <figcaption markdown="1">
 The Lock Screen now supports Dark Mode
@@ -203,7 +203,7 @@ We’ve also started keeping track of what kind of report a filed issue is. Of t
 Visual Updates
 OS 8.1 introduces a blur-behind effect for translucent desktop elements like the Dock, Notifications, and the <kbd>Alt</kbd> + <kbd>Tab</kbd> window switcher. This not only looks nice but helps visually separate these elements from applications while maintaining legibility.
 
-<figure class="rounded" markdown="1">
+<figure class="card" markdown="1">
 ![Notifications](/images/{{ page.slug }}/Desktop/notifications.png){: width="369" height="180"}
 <figcaption markdown="1">
 Notifications have rounder corners and a blur-behind effect
@@ -276,7 +276,7 @@ Music now includes a number of important new features for managing the queue. Th
 <figure markdown="1">
 ![Music](/images/{{ page.slug }}/Applications/music.png){: width="704" height="531"}
 <figcaption markdown="1">
-You can Prevent Sleep from Quick Settings
+Music has new features to manage the queue
 </figcaption>
 </figure>
 
