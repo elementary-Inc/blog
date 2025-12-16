@@ -204,7 +204,9 @@ One of our greatest competitive advantages is our ability to directly connect yo
 </aside>
 
 We’ve also started keeping track of what kind of report a filed issue is. Of those 1,100 about 72% of them were fixed bugs—unexpected or disruptive software behaviors. About 18% of reports were new features or enhancements that you requested. And the last 10% were things like project management tasks, technical debt, and code cleanup that our team uses to improve software quality.
-Visual Updates
+
+## Visual Updates
+
 OS 8.1 introduces a blur-behind effect for translucent desktop elements like the Dock, Notifications, and the <kbd>Alt</kbd> + <kbd>Tab</kbd> window switcher. This not only looks nice but helps visually separate these elements from applications while maintaining legibility.
 
 <figure class="card" markdown="1">
