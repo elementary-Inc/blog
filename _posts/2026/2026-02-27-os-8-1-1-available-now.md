@@ -1,8 +1,8 @@
 ---
 title: elementary OS 8.1.1 Available Now
-description: 
+description: Shedding bugs fresh out of the gate
 author: danrabbit
-image: /images/os-8-0-1-available-now/settings-updates.png
+image: /images/os-8-1-1-available-now/end-session.png
 
 tags:
   - circe
@@ -36,7 +36,7 @@ We fixed in issue where the window switcher could leave a non-interactive area o
 
 # Panel
 
-We fixed an issue that prevented the <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Del</kbd> shortcut from opening the end session dialog until Quick Settings had been opened. And end session dialogs now have the same background dimming and blur as password dialogs.
+We fixed an issue that prevented the <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Del</kbd> shortcut from opening the end session dialog until Quick Settings had been opened. And end session dialogs now have the same background dimming and blur effects as password dialogs.
 
 <figure class="card" markdown="1">
 ![end session dialog](/images/{{ page.slug }}/end-session.png)
@@ -45,11 +45,11 @@ End Session dialogs now have a background dimming effect
 </figcaption>
 </figure>
 
-We've also fixed an issue where apps where launched twice or even possibly crash when pressing enter while searching the Applications menu.
+We've also fixed an issue where apps where launched twice or could even possibly crash when pressing enter while searching the Applications menu.
 
 # System Settings
 
-We've made tweaks to several of our default settings in this release including defaulting to enabling automatic updates, turning off intrusive WiFi notifications, and removing the Multitasking View and System Settings launchers from the dock. You can of course always change these things later to your liking.
+We've made tweaks to several of our default settings in this release including defaulting to enabling automatic updates, turning off intrusive WiFi notifications, and removing the Multitasking View and System Settings launchers from the dock. System Settings is always available from Quick Settings and Multitasking View can be launched by selecting the already active workspace item in the dock. You can of course always change which apps are pinned to your dock and adjust other options in System Settings.
 
 There's a new option in Applications → Defaults to select your default PDF viewer, and we've slightly tweaked the icon for Background Activity permissions to be a bit cuter.
 
